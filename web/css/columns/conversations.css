@@ -1,0 +1,47 @@
+@import '../tools/unseen.css';
+
+.Communities_conversations .Q_column_interests .Q_title_slot::before {
+	content: "\e904";
+	color: #0a94a9;
+}
+
+.Communities_conversations .Streams_interests_tool {
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+}
+
+#page .Communities_conversations .Streams_interests_tool .Streams_interest_title.Q_selected {
+	background: none;
+	color: white;
+	cursor: pointer;
+}
+
+.Communities_conversations.Q_notMobile .Streams_interests_tool .Streams_interest_title.Communities_selected_topic {
+	background: #5a5;
+}
+
+.Communities_dialog_newConversation {
+	text-align: center;
+}
+
+.Communities_dialog_newConversation .Q_big_prompt>* {
+	width: 90%;
+}
+.Communities_filter_publishers_dialog .Q_dialog_content .Communities_filter_publishers_all {
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+	cursor: pointer;
+	margin-bottom: 10px;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+}
+.Communities_filter_publishers_dialog .Q_dialog_content {
+	padding: 5px;
+}
+.Communities_conversations_column .Streams_preview_tool {
+	margin-bottom: 10px;
+	box-shadow: 0 0 .5em #aaa;
+}

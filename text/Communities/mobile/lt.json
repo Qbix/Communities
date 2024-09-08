@@ -1,0 +1,24 @@
+{
+    "activation": {
+        "Thanks": "Sveiki atvykę į {{1}}.",
+        "ClickHere": "Spustelėkite čia, kad suaktyvintumėte paskyrą: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Spustelėkite čia, kad patvirtintumėte savo mobiliojo telefono numerį: {{1}}"
+    },
+    "SeeHistory": "Žr. {{1}} mokėjimų istoriją",
+    "charge": {
+        "HasBeenCharged": "{{1}} apmokestino {{2}} už {{3}}, {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Sveiki, {{1}}, tai tik greitas patvirtinimas, kad sėkmingai sumokėjote {{2}} {{3}} už {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Užsiprenumeravote {{2}} su {{3}} {{4}} {{5}} mėn.",
+        "HasStarted": "{{1}} užsiprenumeravo {{2}} su {{3}} {{4}} {{5}} mėn."
+    },
+    "resend": {
+        "DidYouWant": "Ar norėjote iš naujo nustatyti slaptafrazę {{1}}?",
+        "ClickHere": "Tada spustelėkite čia: {{1}}"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Vostè està convidat",
+        "Member": "Membre a {{title}}",
+        "Explanation": "{{1}} té el plaer d&#39;anunciar el llançament del nostre nou lloc web. Inclou una llista creixent de funcions, com ara:",
+        "Public": "Informació pública sobre {{1}}",
+        "Private": "Un compte d&#39;usuari privat per a cada membre",
+        "Notifications": "En introduir la teva adreça de correu electrònic o número de mòbil podràs rebre notificacions importants per correu electrònic o missatge de text.",
+        "GetStarted": "Per començar, introduïu <em>amb cura<\/em> al vostre navegador web:<br>",
+        "IssuedToYou": "Aquest codi s&#39;emet específicament per a vostè."
+    }
+}

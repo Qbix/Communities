@@ -1,0 +1,362 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> wiist op neat!",
+        "NextSteps": "Brûk it haadmenu om te finen wat jo sykje."
+    },
+    "dashboard": {
+        "Menu": "Menu"
+    },
+    "greeting": {
+        "Welcome": "Wolkom by {{1}}. Hjir fine jo dingen pleatst foar leden fan ús mienskip. Foegje asjebleaft jo e-mailadres of mobylnûmer ta om notifikaasjes te ûntfangen as oankundigingen pleatst wurde."
+    },
+    "conversations": {
+        "Title": "Conversations",
+        "New": "Nije konversaasje",
+        "Conversation": "Petear",
+        "Topics": "Underwerpen",
+        "NoneYet": "Der binne noch gjin konversaasjes foarme",
+        "newConversations": "{{1}} nije konversaasjes",
+        "AllAuthors": "Alle skriuwers",
+        "FilterbyAuthors": "Filter troch skriuwers",
+        "FilterAuthorPlaceHolder": "Sykje ekstra auteurs...",
+        "filterConversations": "Filter op tekst",
+        "Description": "{{1}} konversaasjes"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Kies in ûnderwerp",
+            "Share": "Diele",
+            "interest": {
+                "Title": "Kies in aktiviteit",
+                "Filter": "Sykje ynteresses ..."
+            }
+        },
+        "Title": "Nije konversaasje",
+        "TitlePlaceholder": "Underwerp fan jo petear",
+        "ContentPlaceholder": "Skriuw in pear wurden om it petear te begjinnen, sadat oaren kinne antwurdzje",
+        "StartButton": "Begjin petear"
+    },
+    "events": {
+        "Title": "Eveneminten",
+        "filterByTitle": "Fyn eveneminten op titel",
+        "New": "+ Begjin nij evenemint",
+        "filterEvents": "Eveneminten filterje",
+        "NewEvent": "Nije evenemint",
+        "SetLocation": "Myn lokaasje ynstelle",
+        "NoneYet": "Der binne noch gjin eveneminten foarme<br> yn dizze tiden.",
+        "AllAuthors": "Alle skriuwers",
+        "AllDays": "Alle dagen",
+        "AllLocations": "Alle lokaasjes",
+        "MakeReservation": "Meitsje Reservearje",
+        "CancelReservation": "Ofbrekke Reservaasje",
+        "UpdateReservation": "Update Reservearring",
+        "AreYouSure": "Bisto wis?",
+        "YouWillRefunded": "Jo wurde werombetelle yn &#39;e foarm fan credits dy&#39;t jo kinne besteegje oan oare dingen yn&#39; e app.",
+        "AllInterests": "Alle ynteresses",
+        "FilterbyInterest": "Filterje op ynteresse",
+        "FilterByDate": "Filter op datum",
+        "ShowActivities": "Aktiviteiten sjen litte relatearre oan. . .",
+        "newEvents": "Jo hawwe {{1}} nije eveneminten",
+        "SelectLocation": "Selektearje Lokaasje",
+        "FilterLocationsPlaceHolder": "Filtreer lokaasjes mei ...",
+        "Description": "{{1}} barrens",
+        "Keywords": "{{1}} barrens"
+    },
+    "schedule": {
+        "Title": "Skema",
+        "NoneYet": "Jo dogge net mei oan gjin eveneminten",
+        "AddSome": "Foegje wat ta oan jo skema!",
+        "AddMore": "Foegje eveneminten ta oan jo skema!",
+        "future": "takomst",
+        "past": "ferline"
+    },
+    "location": {
+        "Title": "Lokaasje",
+        "NewLocation": "Nije Lokaasje"
+    },
+    "inbox": {
+        "Title": "Postfak",
+        "NoneYet": "Jo dogge net mei oan konversaasjes",
+        "FindPeople": "Fyn minsken om mei te praten",
+        "GroupConversations": "Doch mei oan guon groeppetearen",
+        "ContactStaff": "Kontaktpersoniel",
+        "ContactCustomers": "Kontakt Klanten"
+    },
+    "me": {
+        "Title": "My",
+        "MobileNumber": "Mobyl nûmer",
+        "EmailAddress": "E-postadres",
+        "UpdateSocialTitle": "Update {{1}} brûkersnamme"
+    },
+    "people": {
+        "Title": "Folk",
+        "Description": "Minsken yn &#39;e {{1}} mienskip",
+        "AppAlert": "Dizze app yn &#39;e app store lit jo ferbine mei jo freonen, en folle folle mear.",
+        "Invite": "Freonen útnoegje",
+        "BuyCredits": "Keapje Credits",
+        "FindSomeoneByName": "Fyn immen mei namme",
+        "SearchByName": "Sykje op namme",
+        "FindAllMyFriends": "Fyn al myn freonen",
+        "labels": {
+            "All": "Elkenien",
+            "Title": "Filter op Relaasje",
+            "New": "Nije Relaasje Type"
+        },
+        "interests": {
+            "All": "Alle ynteresses",
+            "Title": "Filterje op ynteresse",
+            "Filter": "Lit minsken sjen dy&#39;t ynteressearre binne yn. . ."
+        },
+        "Keywords": "{{1}} minsken mienskip"
+    },
+    "communities": {
+        "Title": "Mienskippen",
+        "NewCommunity": "Nije Mienskip",
+        "FindCommunityByName": "Fine mienskip by namme",
+        "Description": "{{1}} mienskippen"
+    },
+    "community": {
+        "Title": "{{1}} Mienskip",
+        "Roles": "Rollen",
+        "AllRoles": "Alle rollen",
+        "YouDontHavePermission": "Jo binne net autorisearre om dit te dwaan",
+        "usernamePlaceholder": "set mienskip namme",
+        "NotEnoughCredits": "Jo hawwe net genôch credits om mienskip te meitsjen. Need {{1}}, jo hawwe {{2}}"
+    },
+    "event": {
+        "GetDirections": "Krij oanwizings",
+        "WhichMap": "Hokker kaarten wolle jo brûke?",
+        "JoinEventToChat": "Doch mei oan it evenemint om te petearjen",
+        "promote": {
+            "Title": "Promovearje dit evenemint",
+            "Prompt": "Kies wêr&#39;t jo dit evenemint promoatsje wolle:"
+        },
+        "Confirmation": "Befêstiging"
+    },
+    "newEvent": {
+        "Title": "Plan nij evenemint"
+    },
+    "interests": {
+        "Title": "Belangen",
+        "prompt": "Selektearje de soarten dingen dy&#39;t jo graach witte wolle.",
+        "explanation": "Hoe mear ynteresses jo selektearje, hoe mear kâns jo binne om te ferbinen mei lykas-minded minsken.",
+        "filter": "Wêr binne jo ynteressearre yn?",
+        "Profile": "Underlinge belangen wurde markearre. As jo ek ien of mear fan de ûndersteande ynteresses hawwe, kinne jo {{clickOrTap}} se tafoegje."
+    },
+    "credits": {
+        "Title": "Credits",
+        "EarnCredits": "Fertsjinje {{1}} credits foar elke nije persoan dy&#39;t jo útnoegje dy&#39;t meidwaan oan &#39;e app",
+        "YouHave": "Jo hawwe {{1}} credits"
+    },
+    "onboarding": {
+        "Tap": "Tap",
+        "Click": "Klikje",
+        "Yes": "ja",
+        "No": "Nee",
+        "Skip": "of oerslaan dit",
+        "name": {
+            "Preface": "Wolkom by",
+            "Placeholder": "Folje dyn hiele Namme yn",
+            "GetStarted": "Begjinne",
+            "AsGuest": "Jo binne útnoege as gast.",
+            "AsMember": "Jo binne útnoege as lid.",
+            "AsAdmin": "Jo binne útnoege as admin.",
+            "AsOwner": "Jo binne útnoege as eigner.",
+            "TooShort": "Jo folsleine namme kin net sa koart wêze",
+            "SetAsYourFullName": "{{1}} ynstelle as jo folsleine namme?"
+        },
+        "icon": {
+            "KeepDefault": "of hâld dizze foto",
+            "SetYourPhoto": "{{ClickOrTap}} om jo foto yn te stellen:"
+        },
+        "interests": {
+            "GetStarted": "⇩ Begjinne",
+            "NextCategory": "↓ Folgjende",
+            "Continue": "Trochgean",
+            "Instructions": "Yn elk fan &#39;e folgjende {{1}} kategoryen,<br> {{2}} alle aktiviteiten wêryn jo ynteressearre binne.<br> Dit is hoe&#39;t jo ferbine mei oare minsken yn &#39;e mienskip."
+        },
+        "profile": {
+            "Profile": "Jo profyl helpt minsken mear oer dy te ûntdekken.<br>",
+            "Birthday": "Fier jo jierdei yn:",
+            "Placeholder": "Wa binne jo en wat dogge jo? Fertel minsken wat nijsgjirrichs of unyk oer dysels.",
+            "Required": "Om troch te gean, skriuw op syn minst in pear rigels oer josels.",
+            "Month": "Moanne",
+            "Day": "Dei",
+            "Year": "Jier",
+            "Gender": "Geslacht",
+            "Male": "Male",
+            "Female": "Female",
+            "Other": "Oar",
+            "Height": "Hichte",
+            "Affiliation": "Affiliaasje",
+            "Dating": "Dating",
+            "Interested": "Ynteressearre",
+            "NotInterested": "Net ynteressearre",
+            "MatchmakerOnly": "Matchmaker Allinnich"
+        },
+        "location": {
+            "NoOneElse": "Nimmen oars sil it sjen.",
+            "SetMyLocation": "Stel myn lokaasje yn"
+        },
+        "pile": {
+            "DialogTitle": "Minsken mei mienskiplike belangen"
+        },
+        "Done": "Dien"
+    },
+    "profile": {
+        "Title": "Profyl",
+        "Male": "Male",
+        "Female": "Female",
+        "Other": "Oar",
+        "dating": {
+            "Interested": "Ynteressearre",
+            "NotInterested": "Net ynteressearre",
+            "MatchmakerOnly": "Matchmaker allinnich"
+        },
+        "StartConversation": "Begjin in konversaasje",
+        "blockUser": "Blokkearje dizze brûker",
+        "blockUserAlert": "Jo sille gjin berjochten mear sjen fan dizze brûker oant jo se deblokkearje.",
+        "unblockUser": "Deblokkearje dizze brûker",
+        "addToContacts": "Foegje ta oan kontakten",
+        "manageLabels": "Beheare Labels",
+        "inviteUsers": "Brûkers útnoegje",
+        "selectRole": "Selektearje Rol",
+        "inviteSuccess": "Mei súkses útnoege brûker as {{label}}",
+        "invite": "Noegje",
+        "relationships": "Relaasjes",
+        "newRole": "Nije rol",
+        "about": "Oer",
+        "people": "Folk",
+        "info": "Info",
+        "interests": "Belangen",
+        "chat": "Chat",
+        "locations": "Lokaasjes",
+        "ManageRoles": "Beheare rollen",
+        "aboutPlaceholder": "Wa binne jo en wat dogge jo? Fertel minsken wat nijsgjirrichs of unyk oer dysels.",
+        "explanation": "Jo profyl helpt jo better oerienkomme mei oare minsken foar groepsaktiviteiten.<br> Fier jo jierdei yn",
+        "chats": {
+            "placeholder": "Sis wat"
+        },
+        "LogOut": "Útlogge",
+        "MyLinks": "Myn Links",
+        "MyJobs": "Myn Jobs",
+        "MySocial": "MySocial",
+        "MyEducation": "Myn Underwiis",
+        "JobsPlaceholder": "Typ hjir jobs info",
+        "EducationPlaceholder": "Typ hjir ûnderwiisynformaasje",
+        "ManageNotifications": "Notifikaasjes beheare",
+        "YourPreferredLanguage": "Jo foarkarstaal"
+    },
+    "myqr": {
+        "Title": "Myn QR"
+    },
+    "composer": {
+        "createCommunity": "Meitsje Mienskip",
+        "inviteAdmin": "Behearder útnoegje",
+        "inviteMember": "Noegje lid",
+        "newCommunityTitle": "Mienskipsnamme",
+        "setCommunityTitle": "Mienskipsnamme",
+        "creditsChargeRequest": "Binne jo akkoard mei it besteegjen fan {{price}} credits?",
+        "yes": "ja",
+        "no": "Nee"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Wolkom! Ferifiearje asjebleaft jo e-mailadres.",
+        "WelcomeVerifyEmail": "Wolkom! Kontrolearje jo email adres.",
+        "ForgetPass": "Hee, bist dyn wachtwurd fergetten?",
+        "ManageEmailSubscriptions": "beheare jo e-postabonneminten",
+        "IfUnsubscribe": "As jo wolle ôfmelde"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Wolkom by {{CommunityName}}. Dizze app sil jo helpe om te ferbinen mei freonen, nije minsken te ûntdekken mei mienskiplike ynteresses, en folle mear. Litte wy begjinne!"
+            },
+            "icon": {
+                "Commentary": "Stel jo foto yn. Dit is hoe&#39;t minsken jo sille sjen op &#39;e side."
+            },
+            "interests": {
+                "Commentary": "Hoe mear items jo kieze, hoe mear minsken jo kinne moetsje.",
+                "Notifications": "Jo moatte notifikaasjes tastean"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Notifikaasjes kinne jo witte oer dingen wêryn jo ynteressearre binne, lykas wannear&#39;t in freon meidwaan oan &#39;e app, of jo berjochten stjoert."
+        },
+        "invite": "{{Q.words.TapOrClick}} hjir om te sjen hoe&#39;t jo dit diele kinne mei oare minsken."
+    },
+    "payment": {
+        "onContribute": "Tanke! Jo betelling gie troch. Wolle jo jo freonen útnoegje om mei te dwaan?"
+    },
+    "featureboard": {
+        "Text_1": "Lit jo stim hearre wurde! Binne jo it iens dat wy in funksje of bug moatte ûntwikkelje? Klikje op de knop om it te stypjen.",
+        "Text_2": "Wolle jo dat wy in nije funksje ûntwikkelje? Beskriuw it hjirûnder.",
+        "Text_3": "Elke wike begjinne wy de top oanfrege funksje te ûntwikkeljen troch de mienskip. Alle bydroegen jild giet nei dat doel, sadat wy de app better meitsje kinne.",
+        "Text_4": "Alle bydroegen jild wurdt brûkt om te helpen ús ûntwikkelingskosten te beteljen.",
+        "Text_5": "Hawwe jo in idee foar in funksje of bugfix dat jo wolle dat wy dogge, mar hawwe oaren noch net sjoen tafoegje? Beskriuw it hjirûnder:",
+        "Options": [
+            {
+                "text": "$ 400 Real time videoconferencing"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$ 200 Local Primary registraasje ynformaasje"
+            },
+            {
+                "text": "$130 Blêdzje en diel tûzenen {{1}} memes",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$ 80 Behear jo eigen mienskippen",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$ 30 Fix konversaasjes bug",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "In nije funksje \/ bugfix oanfreegje",
+        "FeaturePlaceholder": "Koarte gearfetting fan funksje",
+        "FeatureDescription": "Beskriuw hoe&#39;t in oar de brek kin reprodusearje dy&#39;t jo sjogge, of beskriuw yn detail de funksje dy&#39;t jo wolle bouwe",
+        "AddYourRequest": "Foegje jo fersyk ta",
+        "NewFeature": "Nije Feature"
+    },
+    "contribute": {
+        "ContributeExplanation": "Help stypje trochgeande ûntwikkeling fan de {{communityName}} app. Al jo bydragen helpe om bugs te reparearjen en nije funksjes te ûntwikkeljen om de online mienskip te groeien!",
+        "ReasonToContribute": "Dizze app wurdt ûnderhâlden troch oanhingers fan {{communityName}}. Help dizze app te stypjen sadat wy in ferskil kinne meitsje yn it libben fan minsken!"
+    },
+    "assetshistory": {
+        "Title": "Assets skiednis",
+        "Charges": "Charges",
+        "Credits": "Credits"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Fuortsmite account",
+            "content": "Wolle jo dit akkount fuortsmite?",
+            "ok": "ja",
+            "cancel": "Nee"
+        }
+    },
+    "import": {
+        "fileNotFound": "Sorry, CSV-bestân net fûn.",
+        "fileEmpty": "Sorry, CSV-bestân is leech.",
+        "userIdNotFound": "brûker bestiet mar id leech",
+        "errorLine": "line {{1}}",
+        "fieldNotFound": "Fereaske fjild &quot;{{1}}&quot; net fûn",
+        "taskStreamInvalid": "taakstream ûnjildich",
+        "instructionsEmpty": "taakstream ynstruksjes leech",
+        "complete": "Kompleet",
+        "activateUsers": "aktivearring berjocht stjoere nei brûkers?",
+        "importProgress": "Foarútgong",
+        "joinEventLabel": "Doch mei oan brûkers oan willekeurige evenemint",
+        "importOptions": "Opsjes",
+        "sampleCSV": "Download Sample CSV",
+        "fileLabel": "Spreadsheet uploade:",
+        "errorsTitle": "Der barde flaters",
+        "communityUsers": "Dit is mienskipslist",
+        "setAsConversation": "URL-kolom as konversaasje",
+        "toMainCommunityToo": "foegje ek brûkers ta oan haadmienskip",
+        "willImportedTo": "Brûkers sille wurde ymportearre nei mienskip"
+    }
+}

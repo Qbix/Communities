@@ -1,0 +1,362 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> pa lonje dwèt sou anyen!",
+        "NextSteps": "Sèvi ak meni prensipal la pou jwenn sa w ap chèche."
+    },
+    "dashboard": {
+        "Menu": "Menu"
+    },
+    "greeting": {
+        "Welcome": "Byenveni nan {{1}}. La a ou pral jwenn bagay ki afiche pou manm kominote nou an. Tanpri ajoute adrès imel ou oswa nimewo mobil ou pou w ka resevwa notifikasyon lè yo afiche anons yo."
+    },
+    "conversations": {
+        "Title": "Konvèsasyon",
+        "New": "Nouvo Konvèsasyon",
+        "Conversation": "Konvèsasyon",
+        "Topics": "Sijè",
+        "NoneYet": "Pa gen konvèsasyon ki fòme ankò",
+        "newConversations": "{{1}} nouvo konvèsasyon",
+        "AllAuthors": "Tout Otè",
+        "FilterbyAuthors": "Filtre pa Otè",
+        "FilterAuthorPlaceHolder": "Chèche lòt otè...",
+        "filterConversations": "Filtre pa tèks",
+        "Description": "{{1}} konvèsasyon"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Chwazi yon sijè",
+            "Share": "Pataje",
+            "interest": {
+                "Title": "Chwazi yon Aktivite",
+                "Filter": "Rechèch enterè..."
+            }
+        },
+        "Title": "Nouvo Konvèsasyon",
+        "TitlePlaceholder": "Sijè konvèsasyon ou a",
+        "ContentPlaceholder": "Ekri kèk mo pou kòmanse konvèsasyon an, pou lòt moun ka reponn",
+        "StartButton": "Kòmanse konvèsasyon"
+    },
+    "events": {
+        "Title": "Evènman",
+        "filterByTitle": "Jwenn evènman yo pa tit",
+        "New": "+ Kòmanse nouvo evènman",
+        "filterEvents": "Filtre evènman yo",
+        "NewEvent": "Nouvo Evènman",
+        "SetLocation": "Mete kote mwen an",
+        "NoneYet": "Pa gen okenn evènman ki fòme ankò<br> pandan tan sa yo.",
+        "AllAuthors": "Tout Otè",
+        "AllDays": "Tout Jounen",
+        "AllLocations": "Tout Kote yo ye",
+        "MakeReservation": "Fè rezèvasyon",
+        "CancelReservation": "Anile rezèvasyon",
+        "UpdateReservation": "Mizajou rezèvasyon",
+        "AreYouSure": "Èske w sèten?",
+        "YouWillRefunded": "Yo pral ranbouse w sou fòm kredi ou ka depanse nan lòt bagay nan aplikasyon an.",
+        "AllInterests": "Tout Enterè",
+        "FilterbyInterest": "Filtre pa enterè",
+        "FilterByDate": "Filtre pa dat",
+        "ShowActivities": "Montre aktivite ki gen rapò ak . . .",
+        "newEvents": "Ou gen {{1}} nouvo evènman",
+        "SelectLocation": "Chwazi Kote",
+        "FilterLocationsPlaceHolder": "Filtre avni ak...",
+        "Description": "{{1}} evènman yo",
+        "Keywords": "{{1}} evènman yo"
+    },
+    "schedule": {
+        "Title": "Orè",
+        "NoneYet": "Ou pa patisipe nan okenn evènman",
+        "AddSome": "Ajoute kèk nan orè ou!",
+        "AddMore": "Ajoute evènman nan orè ou!",
+        "future": "lavni",
+        "past": "sot pase"
+    },
+    "location": {
+        "Title": "Kote",
+        "NewLocation": "Nouvo Kote"
+    },
+    "inbox": {
+        "Title": "Bwat resepsyon",
+        "NoneYet": "Ou pa patisipe nan okenn konvèsasyon",
+        "FindPeople": "Jwenn moun pou pale ak",
+        "GroupConversations": "Antre nan kèk konvèsasyon gwoup",
+        "ContactStaff": "Kontakte Anplwaye",
+        "ContactCustomers": "Kontakte Kliyan yo"
+    },
+    "me": {
+        "Title": "mwen",
+        "MobileNumber": "Nimewo mobil",
+        "EmailAddress": "Adrès Imèl",
+        "UpdateSocialTitle": "Mete ajou non itilizatè {{1}}"
+    },
+    "people": {
+        "Title": "Moun",
+        "Description": "Moun ki nan {{1}} kominote a",
+        "AppAlert": "Aplikasyon sa a nan magazen an ap pèmèt ou konekte ak zanmi ou yo, ak plis ankò.",
+        "Invite": "Envite Zanmi yo",
+        "BuyCredits": "Achte kredi",
+        "FindSomeoneByName": "Jwenn yon moun pa non",
+        "SearchByName": "Chèche pa non",
+        "FindAllMyFriends": "Jwenn Tout Zanmi Mwen yo",
+        "labels": {
+            "All": "Tout moun",
+            "Title": "Filtre pa relasyon",
+            "New": "Nouvo Kalite Relasyon"
+        },
+        "interests": {
+            "All": "Tout Enterè",
+            "Title": "Filtre pa enterè",
+            "Filter": "Montre moun ki enterese nan. . ."
+        },
+        "Keywords": "{{1}} moun kominote"
+    },
+    "communities": {
+        "Title": "Kominote yo",
+        "NewCommunity": "Nouvo Kominote",
+        "FindCommunityByName": "Jwenn kominote pa non",
+        "Description": "{{1}} kominote yo"
+    },
+    "community": {
+        "Title": "{{1}} Kominote",
+        "Roles": "Wòl",
+        "AllRoles": "Tout Wòl",
+        "YouDontHavePermission": "Ou pa otorize pou fè sa",
+        "usernamePlaceholder": "mete non kominote a",
+        "NotEnoughCredits": "Ou pa gen ase kredi pou kreye kominote. Bezwen {{1}}, ou gen {{2}}"
+    },
+    "event": {
+        "GetDirections": "Jwenn direksyon",
+        "WhichMap": "Ki kat ou ta renmen itilize?",
+        "JoinEventToChat": "Antre nan evènman an pou chat",
+        "promote": {
+            "Title": "Ankouraje evènman sa a",
+            "Prompt": "Chwazi ki kote ou ta renmen ankouraje evènman sa a:"
+        },
+        "Confirmation": "Konfimasyon"
+    },
+    "newEvent": {
+        "Title": "Planifye Nouvo Evènman"
+    },
+    "interests": {
+        "Title": "Enterè",
+        "prompt": "Chwazi kalite bagay ou ta renmen konnen sou yo.",
+        "explanation": "Plis ou chwazi enterè, se plis ou gen chans pou w konekte ak moun ki gen menm lide.",
+        "filter": "Ki sa ou enterese nan?",
+        "Profile": "Enterè mityèl yo make. Si ou genyen youn oswa plis nan enterè ki anba yo tou, ou kapab {{clickOrTap}} ajoute yo."
+    },
+    "credits": {
+        "Title": "Kredi",
+        "EarnCredits": "Jwenn {{1}} kredi pou chak nouvo moun ou envite ki rantre nan aplikasyon an",
+        "YouHave": "Ou gen {{1}} kredi"
+    },
+    "onboarding": {
+        "Tap": "Tape",
+        "Click": "Klike sou",
+        "Yes": "Wi",
+        "No": "Non",
+        "Skip": "oswa sote sa a",
+        "name": {
+            "Preface": "Byenveni nan",
+            "Placeholder": "Antre non konplè ou",
+            "GetStarted": "Kòmanse",
+            "AsGuest": "Ou te envite kòm yon envite.",
+            "AsMember": "Ou te envite kòm manm.",
+            "AsAdmin": "Ou te envite kòm yon admin.",
+            "AsOwner": "Ou te envite kòm yon pwopriyetè.",
+            "TooShort": "Non konplè ou pa ka kout konsa",
+            "SetAsYourFullName": "Mete {{1}} kòm non konplè w?"
+        },
+        "icon": {
+            "KeepDefault": "oswa kenbe foto sa a",
+            "SetYourPhoto": "{{ClickOrTap}} pou mete foto ou:"
+        },
+        "interests": {
+            "GetStarted": "⇩ Kòmanse",
+            "NextCategory": "↓ Next",
+            "Continue": "Kontinye",
+            "Instructions": "Nan chak nan pwochen kategori {{1}} yo,<br> {{2}} tout aktivite ou enterese yo.<br> Se konsa ou konekte ak lòt moun nan kominote a."
+        },
+        "profile": {
+            "Profile": "Pwofil ou a ede moun dekouvri plis sou ou.<br>",
+            "Birthday": "Tanpri antre anivèsè nesans ou:",
+            "Placeholder": "Kiyès ou ye e kisa ou fè? Di moun yon bagay enteresan oswa inik sou tèt ou.",
+            "Required": "Pou kontinye, ekri omwen yon koup liy sou tèt ou.",
+            "Month": "Mwa",
+            "Day": "Jounen",
+            "Year": "Ane",
+            "Gender": "Sèks",
+            "Male": "Gason",
+            "Female": "Fi",
+            "Other": "Lòt",
+            "Height": "Wotè",
+            "Affiliation": "Afilyasyon",
+            "Dating": "Date",
+            "Interested": "Enterese",
+            "NotInterested": "Pa entèrese",
+            "MatchmakerOnly": "Matchmaker sèlman"
+        },
+        "location": {
+            "NoOneElse": "Pa gen lòt moun ki pral wè li.",
+            "SetMyLocation": "Mete kote mwen an"
+        },
+        "pile": {
+            "DialogTitle": "Moun ki gen enterè komen"
+        },
+        "Done": "Fè"
+    },
+    "profile": {
+        "Title": "Profile",
+        "Male": "Gason",
+        "Female": "Fi",
+        "Other": "Lòt",
+        "dating": {
+            "Interested": "Enterese",
+            "NotInterested": "Pa entèrese",
+            "MatchmakerOnly": "Matchmaker sèlman"
+        },
+        "StartConversation": "Kòmanse yon konvèsasyon",
+        "blockUser": "Bloke itilizatè sa a",
+        "blockUserAlert": "Ou p ap wè okenn mesaj ankò soti nan itilizatè sa a jiskaske ou debloke yo.",
+        "unblockUser": "Debloke itilizatè sa a",
+        "addToContacts": "Ajoute nan Kontak",
+        "manageLabels": "Jere Etikèt",
+        "inviteUsers": "Envite Itilizatè yo",
+        "selectRole": "Chwazi Wòl",
+        "inviteSuccess": "Itilizatè a te byen envite kòm {{label}}",
+        "invite": "Envite",
+        "relationships": "Relasyon",
+        "newRole": "Nouvo Wòl",
+        "about": "Konsènan",
+        "people": "Moun",
+        "info": "Info",
+        "interests": "Enterè",
+        "chat": "Chat",
+        "locations": "Kote yo ye",
+        "ManageRoles": "Jere Wòl",
+        "aboutPlaceholder": "Kiyès ou ye e kisa ou fè? Di moun yon bagay enteresan oswa inik sou tèt ou.",
+        "explanation": "Pwofil ou a ede pi byen matche ou ak lòt moun pou aktivite gwoup.<br> Tanpri antre anivèsè nesans ou",
+        "chats": {
+            "placeholder": "Di yon bagay"
+        },
+        "LogOut": "Dekonekte",
+        "MyLinks": "Lyen mwen yo",
+        "MyJobs": "Travay mwen yo",
+        "MySocial": "MySocial",
+        "MyEducation": "Edikasyon mwen an",
+        "JobsPlaceholder": "Tape isit la enfòmasyon travay",
+        "EducationPlaceholder": "Tape isit la enfòmasyon sou edikasyon",
+        "ManageNotifications": "Jere Notifikasyon",
+        "YourPreferredLanguage": "Lang ou prefere"
+    },
+    "myqr": {
+        "Title": "QR mwen an"
+    },
+    "composer": {
+        "createCommunity": "Kreye Kominote",
+        "inviteAdmin": "Envite Admin",
+        "inviteMember": "Envite Manm",
+        "newCommunityTitle": "Non kominote a",
+        "setCommunityTitle": "Non kominote a",
+        "creditsChargeRequest": "Èske w dakò depanse {{price}} kredi?",
+        "yes": "Wi",
+        "no": "Non"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Byenvini! Tanpri verifye adrès imel ou.",
+        "WelcomeVerifyEmail": "Byenvini! Verify adrès imel ou.",
+        "ForgetPass": "Hey, ou bliye pasfraz ou a?",
+        "ManageEmailSubscriptions": "jere abònman imel ou yo",
+        "IfUnsubscribe": "Si ou vle dezabòne"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Byenveni nan {{CommunityName}}. Aplikasyon sa a pral ede w konekte ak zanmi, dekouvri nouvo moun ki gen enterè komen, ak plis ankò. An n kòmanse!"
+            },
+            "icon": {
+                "Commentary": "Mete foto w. Men ki jan moun pral wè ou sou sit la."
+            },
+            "interests": {
+                "Commentary": "Plis atik ou chwazi, plis moun ou ka rankontre.",
+                "Notifications": "Ou bezwen pèmèt notifikasyon"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Notifikasyon yo pèmèt ou konnen bagay ou enterese, tankou lè yon zanmi rantre nan aplikasyon an, oswa mesaj ou."
+        },
+        "invite": "{{Q.words.TapOrClick}} isit la pou w wè ki jan ou ka pataje sa ak lòt moun."
+    },
+    "payment": {
+        "onContribute": "Mèsi! Peman ou te pase. Èske w ta renmen envite zanmi w vin jwenn ou?"
+    },
+    "featureboard": {
+        "Text_1": "Fè tande vwa ou! Èske ou dakò nou ta dwe devlope yon karakteristik oswa ensèk? Klike sou bouton an pou sipòte li.",
+        "Text_2": "Vle nou devlope yon nouvo karakteristik? Dekri li anba a.",
+        "Text_3": "Chak semèn nou kòmanse devlope pi gwo karakteristik kominote a mande. Tout lajan kontribye ale nan objektif sa a, ki pèmèt nou fè aplikasyon an pi byen.",
+        "Text_4": "Tout kòb kontribisyon yo itilize pou ede peye depans devlopman nou yo.",
+        "Text_5": "Èske w gen yon lide pou yon karakteristik oswa yon korije ensèk ke ou vle nou fè men ou poko wè lòt moun ajoute? Dekri li anba a:",
+        "Options": [
+            {
+                "text": "$400 Videyokonferans an tan reyèl"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$200 Enfòmasyon sou Enskripsyon Lokal Prensipal"
+            },
+            {
+                "text": "$130 Navige epi pataje plizyè milye {{1}} mem",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 Jere pwòp kominote w yo",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Ranje ensèk konvèsasyon yo",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Mande yon nouvo karakteristik\/bugfix",
+        "FeaturePlaceholder": "Kout rezime karakteristik",
+        "FeatureDescription": "Dekri kijan yon lòt moun ka repwodui ensèk w ap wè a, oswa dekri an detay karakteristik ou vle bati a.",
+        "AddYourRequest": "Ajoute demann ou an",
+        "NewFeature": "Nouvo Karakteristik"
+    },
+    "contribute": {
+        "ContributeExplanation": "Ede sipòte devlopman kontinye nan {{communityName}} aplikasyon an. Tout kontribisyon ou yo ede ranje ensèk epi devlope nouvo karakteristik pou ede devlope kominote sou entènèt la!",
+        "ReasonToContribute": "Se sipòtè {{communityName}} ki kenbe aplikasyon sa a. Ede sipòte aplikasyon sa a pou nou ka fè yon diferans nan lavi moun!"
+    },
+    "assetshistory": {
+        "Title": "Istwa byen yo",
+        "Charges": "Chaj",
+        "Credits": "Kredi"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Retire kont",
+            "content": "Èske ou vle retire kont sa a?",
+            "ok": "Wi",
+            "cancel": "Non"
+        }
+    },
+    "import": {
+        "fileNotFound": "Padon, dosye CSV pa jwenn.",
+        "fileEmpty": "Padon, dosye CSV vid.",
+        "userIdNotFound": "itilizatè egziste men id vid",
+        "errorLine": "liy {{1}}",
+        "fieldNotFound": "Yo pa jwenn jaden obligatwa &quot;{{1}}&quot;.",
+        "taskStreamInvalid": "kouran travay pa valab",
+        "instructionsEmpty": "enstriksyon kouran travay yo vid",
+        "complete": "Ranpli",
+        "activateUsers": "voye mesaj aktivasyon bay itilizatè yo?",
+        "importProgress": "Pwogrè",
+        "joinEventLabel": "Antre nan itilizatè yo nan evènman o aza",
+        "importOptions": "Opsyon",
+        "sampleCSV": "Telechaje echantiyon CSV",
+        "fileLabel": "Telechaje Fèy kalkil:",
+        "errorsTitle": "Erè ki te fèt",
+        "communityUsers": "Sa a se lis kominote yo",
+        "setAsConversation": "Kolòn URL kòm konvèsasyon",
+        "toMainCommunityToo": "ajoute itilizatè yo nan kominote prensipal la tou",
+        "willImportedTo": "Itilizatè yo pral enpòte nan kominote a"
+    }
+}

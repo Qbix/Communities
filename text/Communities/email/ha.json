@@ -1,0 +1,27 @@
+{
+    "activation": {
+        "Thanks": "Barka da zuwa {{1}}",
+        "ReallyYourEmail": "Wannan shine ainihin adireshin imel ɗin ku, {{1}}? Idan haka ne, danna <a href='{{2}}'>nan<\/a> don saita kalmar wucewar ku kuma kunna asusunku.",
+        "SeeYou": "Mu hadu akan <a href='{{1}}'>{{2}}<\/a> !"
+    },
+    "LinkToUnsubscribe": "Anan akwai hanyar haɗin yanar gizo don <a href='{{1}}'>cire rajista<\/a> idan ba kwa son samun ƙarin imel.",
+    "Greetings": "Gaisuwa daga {{1}}.",
+    "SeeHistory": "Duba tarihin biyan kuɗi na {{1}}",
+    "charge": {
+        "HasBeenCharged": "Hey, wannan kawai don sanar da ku an caje {1000} akan {{3}} ta {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Sannu {{1}}, wannan shine kawai tabbatarwa da sauri cewa kun sami nasarar biya {1000} zuwa {1001}} akan {{4}}"
+    },
+    "resend": {
+        "Thanks": "Godiya da ziyartar {{1}}",
+        "YouAreReceiving": "Kuna karɓar wannan imel ɗin saboda wani ya shigar da adireshin imel ɗin ku ya danna &quot;manta kalmar wucewa&quot;. Idan ba kai ba, kawai ka watsar da wannan sakon.",
+        "Reset": "Don sake saita kalmar wucewar ku, danna {{1}}",
+        "SetUpPassphrase": "Saita kalmar wucewa"
+    },
+    "subscription": {
+        "YouHaveStarted": "Hey {{1}}, kun fara biyan kuɗin ku zuwa {1000} da {1001}} a {{4}} har tsawon watanni {{5}}.",
+        "HasStarted": "Wannan shine kawai don sanar da ku {{1}}, sun fara biyan kuɗin su zuwa {1000}} tare da {1001}} a {{4}} har tsawon watanni {{5}}."
+    },
+    "SeeYou": "Mu hadu akan {{1}}!"
+}

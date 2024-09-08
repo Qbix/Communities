@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Asaina ianao",
+        "Member": "Mpikambana ao amin&#39;ny {{title}}",
+        "Explanation": "{{1}} dia faly manambara ny fandefasana ny tranokalanay vaovao. Tafiditra ao anatin&#39;izany ny lisitry ny endri-javatra mitombo, toy ny:",
+        "Public": "Fampahafantarana ho an&#39;ny daholobe momba ny {{1}}",
+        "Private": "Kaonty mpampiasa manokana ho an&#39;ny mpikambana tsirairay",
+        "Notifications": "Amin&#39;ny fampidirana ny adiresy mailaka na ny nomeraon&#39;ny findainao dia ho afaka handray fampahafantarana manan-danja amin&#39;ny alàlan&#39;ny mailaka na hafatra an-tsoratra ianao.",
+        "GetStarted": "Hanombohana, ao amin&#39;ny navigateur web-nao azafady midira <em>tsara<\/em> :<br>",
+        "IssuedToYou": "Ity kaody ity dia natolotra manokana ho anao."
+    }
+}

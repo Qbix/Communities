@@ -1,0 +1,27 @@
+{
+    "activation": {
+        "Thanks": "Ku soo dhawoow {{1}}",
+        "ReallyYourEmail": "Kani runtii ma ciwaankaagi iimaylkaagii, {{1}}? Hadday sidaas tahay, dhagsii <a href='{{2}}'>halkan<\/a> si aad u dejiso eraygaaga sirta ah oo aad kiciso akoonkaaga.",
+        "SeeYou": "Ku arag <a href='{{1}}'>{{2}}<\/a> !"
+    },
+    "LinkToUnsubscribe": "Halkan waxaa ah isku xirka si aad isaga <a href='{{1}}'>baxdo<\/a> haddii aadan rabin inaad hesho iimayl dambe.",
+    "Greetings": "Salaan ka timid {{1}}.",
+    "SeeHistory": "Eeg taariikhda lacag bixinta {{1}}",
+    "charge": {
+        "HasBeenCharged": "Hey, tani waa in lagu ogeysiiyo {999} in {1000} lagu dalacay {{3}} {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hey {{1}}, tani waa xaqiijin degdeg ah inaad si guul leh u bixisay {{2}} {{3}} {{4}}"
+    },
+    "resend": {
+        "Thanks": "Waad ku mahadsan tahay booqashada {{1}}",
+        "YouAreReceiving": "Waxaad helaysaa iimaylkan sababtoo ah qof ayaa soo galay ciwaanka iimaylka oo guji &quot;forgot passphrase&quot;. Haddii aysan adiga ahayn, si fudud iskaga dhaaf fariintan.",
+        "Reset": "Si aad dib ugu dejiso jumladaada sirta ah, dhagsii {{1}}",
+        "SetUpPassphrase": "Deji erayga sirta ah"
+    },
+    "subscription": {
+        "YouHaveStarted": "Hey {{1}}, waxaad bilawday ku biiristaada {{2}} {{3}} {{4}} {{5}} bilood",
+        "HasStarted": "Tani waa in lagu ogeysiiyo {{1}}, ay bilaabeen ku biiritaanka {{2}} {{3}} {{4}} {{5}} bilood."
+    },
+    "SeeYou": "Ku arag {{1}}!"
+}

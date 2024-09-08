@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Pozvani ste",
+        "Member": "Član na {{title}}",
+        "Explanation": "{{1}} sa zadovoljstvom najavljuje pokretanje naše nove web stranice. Uključuje rastući popis značajki, kao što su:",
+        "Public": "Javne informacije o {{1}}",
+        "Private": "Privatni korisnički račun za svakog člana",
+        "Notifications": "Unosom svoje e-mail adrese ili broja mobitela bit ćete u mogućnosti primati važne obavijesti putem e-pošte ili SMS poruke.",
+        "GetStarted": "Za početak, <em>pažljivo<\/em> unesite u svoj web preglednik:<br>",
+        "IssuedToYou": "Ovaj kod je posebno izdan vama."
+    }
+}

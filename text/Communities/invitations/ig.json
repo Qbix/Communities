@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Akpọrọ gị òkù",
+        "Member": "Onye otu na {{title}}",
+        "Explanation": "{{1}} nwere obi ụtọ ịkpọsa mwepụta nke webụsaịtị ọhụrụ anyị. Ọ gụnyere ndepụta atụmatụ na-eto eto, dị ka:",
+        "Public": "Ozi ọha gbasara {{1}}",
+        "Private": "Akaụntụ onye ọrụ nkeonwe maka ndị otu ọ bụla",
+        "Notifications": "Site na itinye adreesị ozi-e gị ma ọ bụ akara ekwentị, ị ga-enwe ike ịnweta ọkwa dị mkpa site na ozi-e ma ọ bụ ozi ederede.",
+        "GetStarted": "Iji malite, na ihe nchọgharị weebụ gị biko <em>jiri nlezianya<\/em> tinye:<br>",
+        "IssuedToYou": "Enyere gị koodu a kpọmkwem."
+    }
+}

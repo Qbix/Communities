@@ -1,0 +1,460 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span>不指向任何东西！",
+        "NextSteps": "使用主菜单查找您要查找的内容。"
+    },
+    "greeting": {
+        "Welcome": "欢迎使用 {{1}}。在这里，您将找到为我们社区成员发布的内容。请添加您的电子邮件地址或手机号码，以便在发布公告时收到通知。"
+    },
+    "conversations": {
+        "New": "新对话",
+        "Conversation": "对话",
+        "Topics": "话题",
+        "NoneYet": "尚未形成任何对话",
+        "newConversations": "{{1}} 个新对话",
+        "AllAuthors": "所有作者",
+        "FilterbyAuthors": "按作者筛选",
+        "FilterAuthorPlaceHolder": "搜索其他作者...",
+        "Title": "对话",
+        "Description": "{{1}} 次对话",
+        "filterConversations": "按文本过滤"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "选择一个主题",
+            "Share": "分享",
+            "interest": {
+                "Title": "选择一个活动",
+                "Filter": "搜索兴趣..."
+            }
+        },
+        "Title": "新对话",
+        "TitlePlaceholder": "你谈话的主题",
+        "ContentPlaceholder": "写几句话开始对话，以便其他人可以回复",
+        "StartButton": "开始对话"
+    },
+    "events": {
+        "Title": "活动",
+        "filterByTitle": "按标题查找事件",
+        "New": "+ 开始新活动",
+        "SetLocation": "设置我的位置",
+        "NoneYet": "尚未形成任何事件<br>在这些时候。",
+        "AllAuthors": "所有作者",
+        "AllDays": "每天",
+        "AllLocations": "所有地点",
+        "AllInterests": "所有兴趣",
+        "FilterbyInterest": "按兴趣过滤",
+        "FilterByDate": "按日期过滤",
+        "ShowActivities": "显示与 相关的活动。 . .",
+        "newEvents": "您有 {{1}} 个新活动",
+        "SelectLocation": "选择位置",
+        "FilterLocationsPlaceHolder": "过滤场地...",
+        "filterEvents": "过滤事件",
+        "NewEvent": "新事件",
+        "Description": "{{1}} 个事件",
+        "Keywords": "{{1}} 个事件",
+        "MakeReservation": "进行预订",
+        "Reserved": "取消预订",
+        "AreYouSure": "你确定吗？",
+        "YouWillRefunded": "您将以积分的形式获得退款，您可以在应用程序中花费在其他事情上。",
+        "CancelReservation": "取消预订",
+        "UpdateReservation": "更新预订"
+    },
+    "schedule": {
+        "Title": "日程",
+        "NoneYet": "您没有参加任何活动",
+        "AddSome": "添加一些到您的日程安排！",
+        "AddMore": "将活动添加到您的日程安排中！",
+        "future": "未来",
+        "past": "过去的"
+    },
+    "location": {
+        "Title": "地点",
+        "NewLocation": "新位置"
+    },
+    "inbox": {
+        "Title": "收件箱",
+        "NoneYet": "您没有参与任何对话",
+        "FindPeople": "寻找可以交谈的人",
+        "GroupConversations": "加入一些小组对话",
+        "ContactStaff": "联系工作人员",
+        "ContactCustomers": "联系客户",
+        "AddNewContact": "添加新联系人",
+        "AddNewContacts": "添加新联系人"
+    },
+    "me": {
+        "Title": "我",
+        "MobileNumber": "手机号码",
+        "EmailAddress": "电子邮件地址",
+        "UpdateSocialTitle": "更新 {{1}} 用户名",
+        "Web3": "Web3"
+    },
+    "people": {
+        "Title": "人们",
+        "AppAlert": "应用商店中的此应用可让您与朋友联系，等等。",
+        "Invite": "邀请朋友",
+        "FindSomeoneByName": "按名字找人",
+        "FindAllMyFriends": "找到我所有的朋友",
+        "labels": {
+            "All": "每个人",
+            "Title": "按关系过滤",
+            "New": "新的关系类型"
+        },
+        "interests": {
+            "All": "所有兴趣",
+            "Title": "按兴趣过滤",
+            "Filter": "显示感兴趣的人。 . ."
+        },
+        "SearchByName": "按名称搜索",
+        "Description": "{{1}} 社区中的人",
+        "Keywords": "{{1}} 人社区",
+        "BuyCredits": "购买积分"
+    },
+    "communities": {
+        "Title": "社区",
+        "NewCommunity": "新社区",
+        "FindCommunityByName": "按名称查找社区",
+        "Description": "{{1}} 个社区"
+    },
+    "community": {
+        "Title": "{{1}} 社区",
+        "Roles": "角色",
+        "AllRoles": "所有角色",
+        "YouDontHavePermission": "您无权执行此操作",
+        "usernamePlaceholder": "设置社区名称",
+        "NotEnoughCredits": "您没有足够的积分来创建社区。需要{{1}}，你有{{2}}"
+    },
+    "event": {
+        "GetDirections": "获取路线",
+        "WhichMap": "您想使用哪些地图？",
+        "JoinEventToChat": "加入活动聊天",
+        "promote": {
+            "Title": "宣传本次活动",
+            "Prompt": "选择您想在哪里宣传此活动："
+        },
+        "Confirmation": "确认"
+    },
+    "newEvent": {
+        "Title": "计划新活动"
+    },
+    "interests": {
+        "Title": "兴趣",
+        "prompt": "选择您想了解的事物类型。",
+        "explanation": "您选择的兴趣越多，您与志趣相投的人建立联系的可能性就越大。",
+        "filter": "你对什么感兴趣呢？",
+        "Profile": "共同利益突出。如果您也有以下一项或多项兴趣，可以{{clickOrTap}}添加。"
+    },
+    "credits": {
+        "Title": "学分",
+        "EarnCredits": "您邀请的每个新加入该应用的人均可赚取 {{1}} 积分",
+        "YouHave": "您有 {{1}} 个积分"
+    },
+    "onboarding": {
+        "Tap": "轻敲",
+        "Click": "点击",
+        "Yes": "是的",
+        "No": "不",
+        "name": {
+            "Preface": "欢迎来到",
+            "Placeholder": "输入您的全名",
+            "GetStarted": "开始使用",
+            "AsGuest": "您已被邀请为客人。",
+            "AsMember": "您已被邀请成为会员。",
+            "AsAdmin": "您已被邀请为管理员。",
+            "AsOwner": "您已被邀请为所有者。",
+            "TooShort": "你的全名不能这么短",
+            "SetAsYourFullName": "将 {{1}} 设为您的全名？"
+        },
+        "icon": {
+            "KeepDefault": "或保留这张照片",
+            "SetYourPhoto": "{{ClickOrTap}} 设置您的照片：",
+            "ClickOnYourFace": "{{ClickOrTap}}在你脸上"
+        },
+        "interests": {
+            "GetStarted": "⇩ 开始",
+            "NextCategory": "↓ 下一个",
+            "Continue": "继续",
+            "Instructions": "在接下来的 {{1}} 个类别中，<br> {{2}} 您感兴趣的所有活动。<br>这就是您与社区中其他人联系的方式。"
+        },
+        "profile": {
+            "Profile": "您的个人资料可以帮助人们更多地了解您。<br>",
+            "Birthday": "请输入您的生日日期：",
+            "Placeholder": "你是谁，你做什么？告诉人们一些关于你自己的有趣或独特的事情。",
+            "Month": "月",
+            "Day": "日",
+            "Year": "年",
+            "Gender": "性别",
+            "Male": "男性",
+            "Female": "女性",
+            "Other": "其他",
+            "Height": "高度",
+            "Affiliation": "联系",
+            "Dating": "约会",
+            "Interested": "感兴趣的",
+            "NotInterested": "没兴趣",
+            "MatchmakerOnly": "仅限媒人",
+            "Required": "要继续，请至少写几行关于您自己的信息。"
+        },
+        "location": {
+            "NoOneElse": "没有人会看到它。",
+            "SetMyLocation": "设置我的位置"
+        },
+        "pile": {
+            "DialogTitle": "有共同兴趣的人"
+        },
+        "Done": "完毕",
+        "Skip": "或跳过此",
+        "relationships": {
+            "title": "将 {{userName}} 添加到电话簿",
+            "welcome": "欢迎{{user}}",
+            "invitedByUser": "邀请你。",
+            "addToPhonebook": "保存到我的手机通讯录",
+            "iosInstructions": "向下滚动以添加新联系人",
+            "androidInstructions": "您应该在下载后打开此 vCard 文件。",
+            "explanation": "你们是什么关系？"
+        },
+        "Title": "基本信息",
+        "Prompt": "设置帐户的几个步骤"
+    },
+    "profile": {
+        "Title": "轮廓",
+        "Male": "男性",
+        "Female": "女性",
+        "Other": "其他",
+        "dating": {
+            "Interested": "感兴趣的",
+            "NotInterested": "没兴趣",
+            "MatchmakerOnly": "仅限媒人"
+        },
+        "StartConversation": "开始对话",
+        "blockUser": "屏蔽此用户",
+        "blockUserAlert": "在您取消阻止之前，您不会再看到来自该用户的任何消息。",
+        "unblockUser": "取消屏蔽此用户",
+        "addToContacts": "添加到通讯录",
+        "manageLabels": "管理标签",
+        "inviteUsers": "邀请用户",
+        "inviteSuccess": "成功邀请用户为 {{label}}",
+        "invite": "邀请",
+        "relationships": "关系",
+        "newRole": "新角色",
+        "about": "关于",
+        "people": "人们",
+        "info": "信息",
+        "interests": "兴趣",
+        "chat": "聊天",
+        "locations": "地点",
+        "ManageRoles": "管理角色",
+        "aboutPlaceholder": "你是谁，你做什么？告诉人们一些关于你自己的有趣或独特的事情。",
+        "explanation": "您的个人资料有助于更好地将您与其他人进行小组活动相匹配。<br>请输入您的生日日期",
+        "chats": {
+            "placeholder": "说些什么"
+        },
+        "LogOut": "登出",
+        "selectRole": "选择角色",
+        "MyLinks": "我的链接",
+        "MyJobs": "我的工作",
+        "MySocial": "我的社交",
+        "MyEducation": "我的教育",
+        "JobsPlaceholder": "在此处输入工作信息",
+        "EducationPlaceholder": "在此处输入教育信息",
+        "ManageNotifications": "管理通知",
+        "YourPreferredLanguage": "您的首选语言",
+        "SendCrypto": "支付",
+        "Block": "堵塞",
+        "Unblock": "解锁",
+        "Email": "电子邮件",
+        "Avoid": "避免",
+        "CreatePrivateChat": "花费 {{credits}} 积分来联系？",
+        "RolesInCommunity": "在社区中的角色",
+        "PersonalChatWith": "与 {{name}} 的个人聊天",
+        "SendCryptoTo": "将加密货币发送到 {{name}}",
+        "SendEmailTo": "发送电子邮件至{{name}}",
+        "SendSMSTo": "发送短信到{{name}}",
+        "BlockThisUser": "屏蔽该用户",
+        "UnblockThisUser": "取消阻止此用户",
+        "YouCantChatWithYourself": "你不能和自己聊天",
+        "blockUserAlertTitle": "已屏蔽{{displayName}}",
+        "sections": {
+            "education": "教育",
+            "greeting": "问候语",
+            "jobs": "工作",
+            "links": "链接",
+            "language": "语言",
+            "roles": "角色",
+            "personal": "个人的",
+            "social": "社会的"
+        },
+        "Roles": "角色",
+        "SendPaymentTo": "向{{name}}付款"
+    },
+    "myqr": {
+        "Title": "我的二维码"
+    },
+    "composer": {
+        "createCommunity": "创建社区",
+        "inviteAdmin": "邀请管理员",
+        "inviteMember": "邀请会员",
+        "newCommunityTitle": "社区名字",
+        "setCommunityTitle": "社区名字",
+        "creditsChargeRequest": "您同意花费 {{price}} 个积分吗？",
+        "yes": "是的",
+        "no": "不"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "欢迎！请验证您的电子邮件地址。",
+        "WelcomeVerifyEmail": "欢迎！确认你的邮件地址。",
+        "ForgetPass": "嘿，你忘记密码了吗？",
+        "ManageEmailSubscriptions": "管理您的电子邮件订阅",
+        "IfUnsubscribe": "如果您想退订"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "欢迎使用 {{CommunityName}}。这个应用程序将帮助您与朋友联系，发现有共同兴趣的新朋友等等。让我们开始吧！"
+            },
+            "icon": {
+                "Commentary": "设置你的照片。这就是人们在网站上看到您的方式。"
+            },
+            "interests": {
+                "Commentary": "您选择的项目越多，您可以遇到的人就越多。",
+                "Notifications": "您需要允许通知"
+            }
+        },
+        "subscriptions": {
+            "confirm": "通知可让您了解您感兴趣的事情，例如朋友何时加入应用程序或向您发送消息。"
+        },
+        "invite": "{{Q.words.TapOrClick}} 在这里查看如何与其他人分享。"
+    },
+    "payment": {
+        "onContribute": "谢谢！您的付款已通过。你想邀请你的朋友加入你吗？",
+        "ConnectAccount": "连接账户"
+    },
+    "featureboard": {
+        "Text_1": "让你的声音被听到！你同意我们应该开发一个特性或错误吗？单击按钮以支持它。",
+        "Text_2": "想要我们开发新功能吗？下面描述一下。",
+        "Text_3": "每周我们都会开始开发社区最需要的功能。所有捐款都用于该目的，使我们能够使应用程序变得更好。",
+        "Text_4": "所有捐款都用于帮助支付我们的开发成本。",
+        "Text_5": "您是否对希望我们执行但尚未看到其他人添加的功能或错误修复有想法？描述如下：",
+        "Options": [
+            {
+                "text": "400 美元实时视频会议"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "200 美元的本地小学注册信息"
+            },
+            {
+                "text": "130 美元浏览和分享数千个 {{1}} 模因",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 管理您自己的社区",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "30 美元修复对话错误",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "请求新功能\/错误修复",
+        "FeaturePlaceholder": "功能的简短摘要",
+        "FeatureDescription": "描述其他人如何重现您看到的错误，或详细描述您要构建的功能",
+        "AddYourRequest": "添加您的请求",
+        "NewFeature": "新功能"
+    },
+    "assetshistory": {
+        "Title": "资产历史",
+        "Charges": "收费",
+        "Credits": "学分"
+    },
+    "contribute": {
+        "ContributeExplanation": "帮助支持 {{communityName}} 应用程序的持续开发。您的所有贡献都有助于修复错误并开发新功能，以帮助发展在线社区！",
+        "ReasonToContribute": "此应用由 {{communityName}} 的支持者维护。帮助支持这个应用程序，这样我们就可以改变人们的生活！"
+    },
+    "accounts": {
+        "remove": {
+            "title": "删除帐户",
+            "content": "要删除此帐户吗？",
+            "ok": "是的",
+            "cancel": "不"
+        }
+    },
+    "import": {
+        "fileNotFound": "抱歉，未找到 CSV 文件。",
+        "fileEmpty": "抱歉，CSV 文件为空。",
+        "userIdNotFound": "用户存在但 id 为空",
+        "errorLine": "行 {{1}}",
+        "fieldNotFound": "未找到必填字段“{{1}}”",
+        "taskStreamInvalid": "任务流无效",
+        "instructionsEmpty": "任务流指令为空",
+        "complete": "完全的",
+        "activateUsers": "向用户发送激活消息？",
+        "importProgress": "进步",
+        "joinEventLabel": "将用户加入随机事件",
+        "importOptions": "选项",
+        "sampleCSV": "下载示例 CSV",
+        "fileLabel": "上传电子表格：",
+        "errorsTitle": "发生错误",
+        "communityUsers": "这是社区列表",
+        "setAsConversation": "URL 列作为对话",
+        "toMainCommunityToo": "也将用户添加到主要社区",
+        "willImportedTo": "用户将被导入社区",
+        "ChooseFile": "选择文件"
+    },
+    "dashboard": {
+        "Menu": "菜单",
+        "Home": "家",
+        "Welcome": "欢迎",
+        "Events": "活动",
+        "Discuss": "讨论",
+        "People": "人们",
+        "About": "关于",
+        "Community": "社区",
+        "LogIn": "登录",
+        "LogOut": "登出",
+        "Intercoin": "互币",
+        "Shows": "演出",
+        "Calendar": "日历",
+        "Me": "我",
+        "Media": "媒体",
+        "Services": "服务",
+        "SetMobileNumber": "设置手机号码",
+        "SetEmailAddress": "设置电子邮件地址"
+    },
+    "services": {
+        "Title": "服务",
+        "filterByTitle": "按标题查找服务",
+        "New": "+ 开始新服务",
+        "NewService": "新服务",
+        "NewAvailability": "新的可用性",
+        "filterServices": "过滤服务",
+        "NoneYet": "尚未形成服务<br>在这些时候。",
+        "AllAuthors": "所有作者",
+        "AllDays": "每天",
+        "AllLocations": "所有地点",
+        "MakeReservation": "进行预订",
+        "CancelReservation": "取消预订",
+        "UpdateReservation": "更新预订",
+        "AreYouSure": "你确定吗？",
+        "YouWillRefunded": "您将以积分的形式获得退款，您可以在应用程序中购买其他东西。",
+        "AllInterests": "所有利益",
+        "FilterbyInterest": "按兴趣筛选",
+        "FilterByDate": "按日期筛选",
+        "ShowActivities": "显示与...相关的活动",
+        "newServices": "您有 {{1}} 项新服务",
+        "SelectLocation": "选择地点",
+        "FilterLocationsPlaceHolder": "过滤场地...",
+        "Description": "{{1}} 服务",
+        "Keywords": "{{1}} 服务"
+    },
+    "welcome": {
+        "Title": "{{appName}}：欢迎",
+        "GetStarted": "开始",
+        "gallery": {
+            "Connect": "连接",
+            "Organize": "组织",
+            "Travel": "旅行",
+            "Share": "分享"
+        }
+    }
+}

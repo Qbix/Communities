@@ -1,0 +1,79 @@
+.Communities_column_event.Communities_event_reservation .Calendars_going_prompt {
+	display: none;
+}
+#page .Communities_column_event .Q_controls_slot button {
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: 600;
+	background: #407214;
+	border-color: #A9BD08;
+	box-shadow: 0 0 10px 0 #A9BD08;
+	width: 90%;
+}
+#page .Communities_column_event button[name=cancelReservation],
+#page .Communities_column_event button[name=updateReservation] {
+	display: none;
+	background: grey;
+	border-color: transparent;
+	box-shadow: none;
+}
+#page .Communities_column_event.Communities_event_reserved button[name=reservation]{
+	display: none;
+}
+#page .Communities_column_event.Communities_event_reserved button[name=cancelReservation]{
+	display: inline-block;
+}
+#page .Communities_column_event.Communities_event_reserved button[name=cancelReservation]{
+	display: inline-block;
+}
+#page .Communities_column_event.Communities_event_reserved.Communities_event_relatedParticipants button[name=cancelReservation]{
+	display: none;
+}
+#page .Communities_column_event.Communities_event_relatedParticipants.Communities_event_reserved button[name=updateReservation]{
+	display: inline-block;
+}
+.Communities_event_myqr .Q_dialog_content {
+	padding: 20px;
+}
+.Communities_event_myqr .Q_dialog_content canvas,
+.Communities_event_myqr .Q_dialog_content img {
+	width: 250px;
+	height: 250px;
+	display: block;
+	margin: 0 auto;
+}
+.Calendars_event_tool .Users_avatar_tool.Calendars_event_publisher {
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.Calendars_event_tool .Users_avatar_tool.Calendars_event_publisher .Communities_social_icon {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 10px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	position: relative;
+}
+.Calendars_event_tool .Users_avatar_tool.Calendars_event_publisher[data-socials=true] span:last-of-type:after {
+	content: "\a";
+	white-space: pre;
+}
+.Calendars_event_tool .Users_avatar_tool.Calendars_event_publisher .Communities_social_icon:not(:last-of-type) {
+	margin-right: 5px;
+}
+.Calendars_event_tool .Users_avatar_tool.Calendars_event_publisher .Communities_social_icon[data-type=twitter] {
+	background-image: url(../../img/icon_twitter.png);
+}
+.Calendars_event_tool .Users_avatar_tool.Calendars_event_publisher .Communities_social_icon[data-type=linkedin] {
+	background-image: url(../../img/icon_linkedin.png);
+}
+.Calendars_event_tool .Users_avatar_tool.Calendars_event_publisher .Communities_social_icon[data-type=github] {
+	background-image: url(../../img/icon_github.png);
+}
+.Calendars_event_tool .Users_avatar_tool.Calendars_event_publisher .Communities_social_icon[data-type=instagram] {
+	background-image: url(../../img/icon_instagram.png);
+}

@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Ka tonohia koe",
+        "Member": "Mema i {{title}}",
+        "Explanation": "{{1}} e harikoa ana ki te panui i te whakarewanga o to maatau paetukutuku hou. Kei roto i te rarangi tipu o nga ahuatanga, penei:",
+        "Public": "Nga korero a te iwi mo {{1}}",
+        "Private": "He pūkete kaiwhakamahi tūmataiti mo ia mema",
+        "Notifications": "Ma te whakauru i to wahitau imeera me to nama waea ka taea e koe te whiwhi whakamohiotanga nui ma te imeera me te karere kuputuhi.",
+        "GetStarted": "Hei timata, i to kaitirotiro paetukutuku me <em>ata<\/em> whakauru:<br>",
+        "IssuedToYou": "Ko tenei waehere ka tukuna ki a koe."
+    }
+}

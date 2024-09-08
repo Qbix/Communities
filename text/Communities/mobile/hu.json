@@ -1,0 +1,24 @@
+{
+    "activation": {
+        "Thanks": "Üdvözöljük a {{1}} oldalon.",
+        "ClickHere": "Kattintson ide fiókja aktiválásához: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Kattintson ide mobilszámának igazolásához: {{1}}"
+    },
+    "SeeHistory": "A(z) {{1}} fizetési előzményeinek megtekintése",
+    "charge": {
+        "HasBeenCharged": "{{1}} összeget {{2}} összeggel terhelte meg {{3}} összeggel {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Szia, {{1}}, ez csak egy gyors megerősítés, hogy sikeresen kifizette a(z) {{2}} összeget a következőnek: {{3}} a következő összegért: {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Ön előfizetett a(z) {{2}} csatornára a következővel: {{3}}, {{4}}, {{5}} hónapig.",
+        "HasStarted": "{{1}} előfizetett a következőre: {{2}} a következővel: {{3}}, {{4}} {{5}} hónapra."
+    },
+    "resend": {
+        "DidYouWant": "Vissza akarta állítani összetett jelszavát itt: {{1}}?",
+        "ClickHere": "Akkor kattintson ide: {{1}}"
+    }
+}

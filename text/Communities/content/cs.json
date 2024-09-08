@@ -1,0 +1,460 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> na nic neukazuje!",
+        "NextSteps": "Použijte hlavní nabídku k nalezení toho, co hledáte."
+    },
+    "greeting": {
+        "Welcome": "Vítejte v {{1}}. Zde najdete věci zveřejněné pro členy naší komunity. Přidejte svou e-mailovou adresu nebo mobilní číslo, abyste mohli dostávat upozornění na zveřejněná oznámení."
+    },
+    "conversations": {
+        "New": "Nová konverzace",
+        "Conversation": "Konverzace",
+        "Topics": "Témata",
+        "NoneYet": "Dosud nebyly vytvořeny žádné konverzace",
+        "newConversations": "{{1}} nových konverzací",
+        "AllAuthors": "Všichni autoři",
+        "FilterbyAuthors": "Filtrovat podle autorů",
+        "FilterAuthorPlaceHolder": "Hledat další autory...",
+        "Title": "Konverzace",
+        "Description": "{{1}} konverzací",
+        "filterConversations": "Filtrovat podle textu"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Vybrat téma",
+            "Share": "Podíl",
+            "interest": {
+                "Title": "Vyberte Aktivitu",
+                "Filter": "Hledat zájmy..."
+            }
+        },
+        "Title": "Nová konverzace",
+        "TitlePlaceholder": "Předmět vašeho rozhovoru",
+        "ContentPlaceholder": "Začněte konverzaci pomocí několika slov, aby ostatní mohli odpovědět",
+        "StartButton": "Zahájit konverzaci"
+    },
+    "events": {
+        "Title": "Události",
+        "filterByTitle": "Najděte události podle názvu",
+        "New": "+ Zahájit novou událost",
+        "SetLocation": "Nastavte moji polohu",
+        "NoneYet": "Dosud nebyly vytvořeny žádné události<br> v těchto časech.",
+        "AllDays": "Všechny dny",
+        "AllLocations": "Všechny lokality",
+        "AllInterests": "Všechny zájmy",
+        "FilterbyInterest": "Filtrovat podle zájmu",
+        "FilterByDate": "Filtrovat podle data",
+        "ShowActivities": "Zobrazit aktivity související s . . .",
+        "newEvents": "Máte {{1}} nových událostí",
+        "SelectLocation": "Vyberte Umístění",
+        "FilterLocationsPlaceHolder": "Filtrujte místa s...",
+        "AllAuthors": "Všichni autoři",
+        "filterEvents": "Filtrovat události",
+        "NewEvent": "Nová událost",
+        "Description": "{{1}} události",
+        "Keywords": "{{1}} události",
+        "MakeReservation": "Udělej rezervaci",
+        "Reserved": "Zrušit rezervaci",
+        "AreYouSure": "Jsi si jistá?",
+        "YouWillRefunded": "Peníze vám budou vráceny ve formě kreditů, které můžete utratit za jiné věci v aplikaci.",
+        "CancelReservation": "Zrušit rezervaci",
+        "UpdateReservation": "Aktualizovat rezervaci"
+    },
+    "schedule": {
+        "Title": "Plán",
+        "NoneYet": "Neúčastníte se žádných akcí",
+        "AddSome": "Přidejte nějaké do svého plánu!",
+        "AddMore": "Přidejte události do svého plánu!",
+        "future": "budoucnost",
+        "past": "minulost"
+    },
+    "location": {
+        "Title": "Umístění",
+        "NewLocation": "Nové umístění"
+    },
+    "inbox": {
+        "Title": "Doručená pošta",
+        "NoneYet": "Neúčastníte se žádných konverzací",
+        "FindPeople": "Najděte lidi, se kterými si můžete popovídat",
+        "GroupConversations": "Připojte se ke skupinovým konverzacím",
+        "ContactStaff": "Kontaktujte personál",
+        "ContactCustomers": "Kontaktujte zákazníky",
+        "AddNewContact": "Přidat nový kontakt",
+        "AddNewContacts": "Přidat nové kontakty"
+    },
+    "me": {
+        "Title": "Mě",
+        "MobileNumber": "Číslo mobilního telefonu",
+        "EmailAddress": "Emailová adresa",
+        "UpdateSocialTitle": "Aktualizujte uživatelské jméno {{1}}",
+        "Web3": "Web3"
+    },
+    "people": {
+        "Title": "Lidé",
+        "AppAlert": "Tato aplikace v obchodě s aplikacemi vám umožní spojit se s přáteli a mnohem více.",
+        "Invite": "Pozvat přátele",
+        "FindSomeoneByName": "Najděte někoho podle jména",
+        "FindAllMyFriends": "Najít všechny mé přátele",
+        "labels": {
+            "All": "Každý",
+            "Title": "Filtrovat podle vztahu",
+            "New": "Nový typ vztahu"
+        },
+        "interests": {
+            "All": "Všechny zájmy",
+            "Title": "Filtrovat podle zájmu",
+            "Filter": "Ukázat lidem, kteří se zajímají o . . ."
+        },
+        "SearchByName": "Hledejte podle jména",
+        "Description": "Lidé v {{1}} komunitě",
+        "Keywords": "{{1}} komunita lidí",
+        "BuyCredits": "Koupit kredity"
+    },
+    "communities": {
+        "Title": "společenství",
+        "NewCommunity": "Nová komunita",
+        "FindCommunityByName": "Najděte komunitu podle názvu",
+        "Description": "{{1}} komunit"
+    },
+    "community": {
+        "Title": "{{1}} Komunita",
+        "Roles": "Role",
+        "AllRoles": "Všechny role",
+        "YouDontHavePermission": "K tomu nemáte oprávnění",
+        "usernamePlaceholder": "nastavit název komunity",
+        "NotEnoughCredits": "Nemáte dostatek kreditů k vytvoření komunity. Potřebujete {{1}}, máte {{2}}"
+    },
+    "event": {
+        "GetDirections": "Dostat směr",
+        "WhichMap": "Které mapy byste chtěli používat?",
+        "JoinEventToChat": "Připojte se k události a chatujte",
+        "promote": {
+            "Title": "Propagujte tuto událost",
+            "Prompt": "Vyberte, kde chcete tuto událost propagovat:"
+        },
+        "Confirmation": "potvrzení"
+    },
+    "newEvent": {
+        "Title": "Naplánujte novou událost"
+    },
+    "interests": {
+        "Title": "Zájmy",
+        "prompt": "Vyberte typy věcí, o kterých byste se chtěli dozvědět.",
+        "explanation": "Čím více zájmů vyberete, tím je pravděpodobnější, že se spojíte s podobně smýšlejícími lidmi.",
+        "filter": "O co se zajímáš?",
+        "Profile": "Vzájemné zájmy jsou zdůrazněny. Pokud máte také jeden nebo více níže uvedených zájmů, můžete je {{clickOrTap}} přidat."
+    },
+    "credits": {
+        "Title": "Kredity",
+        "EarnCredits": "Získejte {{1}} kredity za každého nového člověka, kterého pozvete a který se připojí k aplikaci",
+        "YouHave": "Máte {{1}} kreditů"
+    },
+    "onboarding": {
+        "Tap": "Klepněte",
+        "Click": "Klikněte",
+        "Yes": "Ano",
+        "No": "Ne",
+        "name": {
+            "Preface": "Vítejte v",
+            "Placeholder": "Zadejte své celé jméno",
+            "GetStarted": "Začít",
+            "AsGuest": "Byli jste pozváni jako host.",
+            "AsMember": "Byli jste pozváni jako člen.",
+            "AsAdmin": "Byli jste pozváni jako správce.",
+            "AsOwner": "Byli jste pozváni jako vlastník.",
+            "TooShort": "Vaše celé jméno nemůže být tak krátké",
+            "SetAsYourFullName": "Nastavit {{1}} jako své celé jméno?"
+        },
+        "icon": {
+            "KeepDefault": "nebo si tuto fotku ponechte",
+            "SetYourPhoto": "{{ClickOrTap}} pro nastavení fotografie:",
+            "ClickOnYourFace": "{{ClickOrTap}} na vaší tváři"
+        },
+        "interests": {
+            "GetStarted": "⇩ Začněte",
+            "NextCategory": "↓ Další",
+            "Continue": "Pokračovat",
+            "Instructions": "V každé z následujících {{1}} kategorií<br> {{100}} všechny aktivity, které vás zajímají.<br> Takto se spojíte s ostatními lidmi v komunitě."
+        },
+        "profile": {
+            "Profile": "Váš profil pomáhá lidem zjistit o vás více.<br>",
+            "Birthday": "Zadejte prosím své datum narození:",
+            "Placeholder": "kdo jsi a co děláš? Řekněte lidem o sobě něco zajímavého nebo jedinečného.",
+            "Month": "Měsíc",
+            "Day": "Den",
+            "Year": "Rok",
+            "Gender": "Rod",
+            "Male": "mužský",
+            "Female": "ženský",
+            "Other": "jiný",
+            "Height": "Výška",
+            "Affiliation": "Afiliace",
+            "Dating": "Chodit s někým",
+            "Interested": "Zájem",
+            "NotInterested": "Nemám zájem",
+            "MatchmakerOnly": "Pouze dohazovač",
+            "Required": "Pro pokračování napište alespoň pár řádků o sobě."
+        },
+        "location": {
+            "NoOneElse": "Nikdo jiný to neuvidí.",
+            "SetMyLocation": "Nastavit moji polohu"
+        },
+        "pile": {
+            "DialogTitle": "Lidé se společnými zájmy"
+        },
+        "Done": "Hotovo",
+        "Skip": "nebo toto přeskočte",
+        "relationships": {
+            "title": "Přidat {{userName}} do telefonního seznamu",
+            "welcome": "Vítejte {{user}}",
+            "invitedByUser": "pozval tě.",
+            "addToPhonebook": "Uložit do kontaktů v mém telefonu",
+            "iosInstructions": "Přejděte dolů na Přidat nový kontakt",
+            "androidInstructions": "Tento soubor vCard byste měli otevřít po jeho stažení.",
+            "explanation": "jaký je váš vztah?"
+        },
+        "Title": "Základní informace",
+        "Prompt": "Několik kroků k nastavení účtu"
+    },
+    "profile": {
+        "Title": "Profil",
+        "Male": "mužský",
+        "Female": "ženský",
+        "Other": "jiný",
+        "dating": {
+            "Interested": "Zájem",
+            "NotInterested": "Nemám zájem",
+            "MatchmakerOnly": "Pouze dohazovač"
+        },
+        "StartConversation": "Zahájit konverzaci",
+        "blockUser": "Blokovat tohoto uživatele",
+        "blockUserAlert": "Žádné další zprávy od tohoto uživatele neuvidíte, dokud jej neodblokujete.",
+        "unblockUser": "Odblokovat tohoto uživatele",
+        "addToContacts": "Přidat do kontaktů",
+        "manageLabels": "Správa štítků",
+        "inviteUsers": "Pozvat uživatele",
+        "inviteSuccess": "Uživatel byl úspěšně pozván jako {{label}}",
+        "invite": "Pozvat",
+        "relationships": "Vztahy",
+        "newRole": "Nová Role",
+        "about": "O",
+        "people": "Lidé",
+        "info": "Info",
+        "interests": "Zájmy",
+        "chat": "Povídat si",
+        "locations": "Místa",
+        "ManageRoles": "Správa rolí",
+        "aboutPlaceholder": "kdo jsi a co děláš? Řekněte lidem o sobě něco zajímavého nebo jedinečného.",
+        "explanation": "Váš profil vám pomůže lépe se spojit s ostatními lidmi pro skupinové aktivity.<br> Zadejte prosím své datum narození",
+        "chats": {
+            "placeholder": "Řekni něco"
+        },
+        "LogOut": "Odhlásit se",
+        "selectRole": "Vyberte Role",
+        "MyLinks": "Moje odkazy",
+        "MyJobs": "Moje práce",
+        "MySocial": "MySocial",
+        "MyEducation": "Moje vzdělání",
+        "JobsPlaceholder": "Zde zadejte informace o pracovních pozicích",
+        "EducationPlaceholder": "Sem napište informace o vzdělání",
+        "ManageNotifications": "Spravovat oznámení",
+        "YourPreferredLanguage": "Váš preferovaný jazyk",
+        "SendCrypto": "Platit",
+        "Block": "Blok",
+        "Unblock": "Odblokovat",
+        "Email": "E-mailem",
+        "Avoid": "Vyhýbat se",
+        "CreatePrivateChat": "Utratit {{credits}} kreditů, abyste je oslovili?",
+        "RolesInCommunity": "Role ve společenství",
+        "PersonalChatWith": "Osobní chat s {{name}}",
+        "SendCryptoTo": "Odeslat kryptoměnu na {{name}}",
+        "SendEmailTo": "Odeslat e-mail na adresu {{name}}",
+        "SendSMSTo": "Odeslat SMS na číslo {{name}}",
+        "BlockThisUser": "Blokovat tohoto uživatele",
+        "UnblockThisUser": "Odblokovat tohoto uživatele",
+        "YouCantChatWithYourself": "Nemůžete chatovat sami se sebou",
+        "blockUserAlertTitle": "Zablokováno {{displayName}}",
+        "sections": {
+            "education": "Vzdělání",
+            "greeting": "Pozdrav",
+            "jobs": "Pracovní místa",
+            "links": "Odkazy",
+            "language": "Jazyk",
+            "roles": "Role",
+            "personal": "Osobní",
+            "social": "Sociální"
+        },
+        "Roles": "Role",
+        "SendPaymentTo": "Pošlete platbu na {{name}}"
+    },
+    "myqr": {
+        "Title": "Můj QR"
+    },
+    "composer": {
+        "createCommunity": "Vytvořit komunitu",
+        "inviteAdmin": "Pozvat administrátora",
+        "inviteMember": "Pozvat člena",
+        "newCommunityTitle": "Název komunity",
+        "setCommunityTitle": "Název komunity",
+        "creditsChargeRequest": "Souhlasíte s útratou {{price}} kreditů?",
+        "yes": "Ano",
+        "no": "Ne"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Vítejte! Prosím ověřte svou e-mailovou adresu.",
+        "WelcomeVerifyEmail": "Vítejte! Ověřte svou e-mailovou adresu.",
+        "ForgetPass": "Hej, zapomněl jsi heslo?",
+        "ManageEmailSubscriptions": "spravovat své odběry e-mailů",
+        "IfUnsubscribe": "Pokud se chcete odhlásit"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Vítejte v {{CommunityName}}. Tato aplikace vám pomůže spojit se s přáteli, objevit nové lidi se společnými zájmy a mnoho dalšího. Začněme!"
+            },
+            "icon": {
+                "Commentary": "Nastavte si fotografii. Takto vás lidé uvidí na webu."
+            },
+            "interests": {
+                "Commentary": "Čím více položek si vyberete, tím více lidí můžete potkat.",
+                "Notifications": "Musíte povolit oznámení"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Oznámení vám umožní vědět o věcech, které vás zajímají, například když se k aplikaci připojí přítel nebo vám pošle zprávu."
+        },
+        "invite": "{{Q.words.TapOrClick}} zde, abyste viděli, jak to můžete sdílet s ostatními lidmi."
+    },
+    "payment": {
+        "onContribute": "Děkuju! Vaše platba proběhla. Chtěli byste pozvat své přátele, aby se k vám přidali?",
+        "ConnectAccount": "Připojit účet"
+    },
+    "featureboard": {
+        "Text_1": "Nechte svůj hlas slyšet! Souhlasíte s tím, že bychom měli vyvinout funkci nebo chybu? Klikněte na tlačítko pro podporu.",
+        "Text_2": "Chcete, abychom vyvinuli novou funkci? Popište to níže.",
+        "Text_3": "Každý týden začínáme vyvíjet nejžádanější funkci komunitou. Všechny poskytnuté peníze jdou na tento účel, což nám umožňuje vylepšit aplikaci.",
+        "Text_4": "Všechny poskytnuté peníze jsou použity na úhradu našich nákladů na vývoj.",
+        "Text_5": "Máte nápad na funkci nebo opravu chyby, kterou chcete, abychom udělali, ale ještě jste neviděli, že by ji přidali ostatní? Popište to níže:",
+        "Options": [
+            {
+                "text": "400 $ Videokonference v reálném čase"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "200 $ Místní primární registrační informace"
+            },
+            {
+                "text": "130 $ Procházejte a sdílejte tisíce {{1}} memů",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "80 $ Spravujte své vlastní komunity",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "30 $ Oprava chyby konverzací",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Vyžádejte si novou funkci\/opravu chyb",
+        "FeaturePlaceholder": "Krátké shrnutí funkce",
+        "FeatureDescription": "Popište, jak může někdo jiný reprodukovat chybu, kterou vidíte, nebo podrobně popište funkci, kterou chcete vytvořit",
+        "AddYourRequest": "Přidejte svůj požadavek",
+        "NewFeature": "Nová vlastnost"
+    },
+    "assetshistory": {
+        "Title": "Historie aktiv",
+        "Charges": "Poplatky",
+        "Credits": "Kredity"
+    },
+    "contribute": {
+        "ContributeExplanation": "Pomozte podpořit další vývoj aplikace {{communityName}}. Všechny vaše příspěvky pomáhají opravovat chyby a vyvíjet nové funkce, které pomohou rozšířit online komunitu!",
+        "ReasonToContribute": "Tuto aplikaci spravují příznivci {{communityName}}. Pomozte podpořit tuto aplikaci, abychom mohli změnit životy lidí!"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Odstranit účet",
+            "content": "Chcete tento účet odstranit?",
+            "ok": "Ano",
+            "cancel": "Ne"
+        }
+    },
+    "import": {
+        "fileNotFound": "Litujeme, soubor CSV nebyl nalezen.",
+        "fileEmpty": "Litujeme, soubor CSV je prázdný.",
+        "userIdNotFound": "uživatel existuje, ale ID je prázdné",
+        "errorLine": "řádek {{1}}",
+        "fieldNotFound": "Povinné pole „{{1}}“ nebylo nalezeno",
+        "taskStreamInvalid": "stream úloh neplatný",
+        "instructionsEmpty": "instrukce toku úloh jsou prázdné",
+        "complete": "Kompletní",
+        "activateUsers": "odeslat aktivační zprávu uživatelům?",
+        "importProgress": "Pokrok",
+        "joinEventLabel": "Připojte uživatele k náhodné události",
+        "importOptions": "Možnosti",
+        "sampleCSV": "Stáhněte si ukázkový CSV",
+        "fileLabel": "Nahrát tabulku:",
+        "errorsTitle": "Došlo k chybám",
+        "communityUsers": "Toto je seznam komunit",
+        "setAsConversation": "Sloupec URL jako konverzace",
+        "toMainCommunityToo": "přidat uživatele také do hlavní komunity",
+        "willImportedTo": "Uživatelé budou importováni do komunity",
+        "ChooseFile": "Vyberte soubor"
+    },
+    "dashboard": {
+        "Menu": "Jídelní lístek",
+        "Home": "Domov",
+        "Welcome": "Vítejte",
+        "Events": "Události",
+        "Discuss": "Diskutujte",
+        "People": "Lidé",
+        "About": "O",
+        "Community": "Společenství",
+        "LogIn": "přihlásit se",
+        "LogOut": "odhlásit se",
+        "Intercoin": "Intercoin",
+        "Shows": "Přehlídky",
+        "Calendar": "Kalendář",
+        "Me": "Mě",
+        "Media": "Média",
+        "Services": "Služby",
+        "SetMobileNumber": "Nastavit číslo mobilního telefonu",
+        "SetEmailAddress": "Nastavte e-mailovou adresu"
+    },
+    "services": {
+        "Title": "Služby",
+        "filterByTitle": "Vyhledejte služby podle názvu",
+        "New": "+ Spustit novou službu",
+        "NewService": "Nová služba",
+        "filterServices": "Filtrační služby",
+        "NoneYet": "Zatím nebyly vytvořeny žádné služby<br> v těchto časech.",
+        "AllAuthors": "Všichni autoři",
+        "AllDays": "Všechny dny",
+        "AllLocations": "Všechny lokality",
+        "MakeReservation": "Udělej rezervaci",
+        "CancelReservation": "Zrušit rezervaci",
+        "UpdateReservation": "Aktualizovat rezervaci",
+        "AreYouSure": "Jsi si jistá?",
+        "YouWillRefunded": "Peníze vám budou vráceny ve formě kreditů, které můžete utratit za jiné věci v aplikaci.",
+        "AllInterests": "Všechny zájmy",
+        "FilterbyInterest": "Filtrovat podle zájmu",
+        "FilterByDate": "Filtrovat podle data",
+        "ShowActivities": "Zobrazit aktivity související s...",
+        "newServices": "Máte {{1}} nových služeb",
+        "SelectLocation": "Vyberte Umístění",
+        "FilterLocationsPlaceHolder": "Filtrujte místa s...",
+        "Description": "{{1}}",
+        "Keywords": "{{1}}",
+        "NewAvailability": "Nová dostupnost"
+    },
+    "welcome": {
+        "Title": "{{appName}}: vítejte",
+        "GetStarted": "Začít",
+        "gallery": {
+            "Connect": "Připojit",
+            "Organize": "Organizovat",
+            "Travel": "Cestovat",
+            "Share": "Podíl"
+        }
+    }
+}

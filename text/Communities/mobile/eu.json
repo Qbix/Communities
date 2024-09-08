@@ -1,0 +1,24 @@
+{
+    "activation": {
+        "Thanks": "Ongi etorri {{1}}-ra.",
+        "ClickHere": "Egin klik hemen zure kontua aktibatzeko: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Egin klik hemen zure mugikorraren zenbakia egiaztatzeko: {{1}}"
+    },
+    "SeeHistory": "Ikusi {{1}} ordainketen historia",
+    "charge": {
+        "HasBeenCharged": "{{1}} {{2}} {{3}} kobratu du {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Kaixo, {{1}}, hau {{2}} {{3}}-ri {{4}} behar bezala ordaindu diozuela berrespen azkar bat besterik ez da"
+    },
+    "subscription": {
+        "YouHaveStarted": "{{2}}-ra harpidetu zara {{3}}-rekin {{4}} {{5}} hilabetez.",
+        "HasStarted": "{{1}} {{2}}-ra harpidetu da {{3}}-rekin {{4}} {{5}} hilabetez."
+    },
+    "resend": {
+        "DidYouWant": "Pasaesaldia {{1}}-n berrezarri nahi al duzu?",
+        "ClickHere": "Ondoren, egin klik hemen: {{1}}"
+    }
+}

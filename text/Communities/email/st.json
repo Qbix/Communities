@@ -1,0 +1,27 @@
+{
+    "activation": {
+        "Thanks": "Rea u amohela ho {{1}}",
+        "ReallyYourEmail": "Na ena ruri ke aterese ea hau ea lengolo-tsoibila, {{1}}? Haeba ho joalo, tlanya <a href='{{2}}'>mona<\/a> ho beha poleloana ea hau ea lekunutu le ho kenya akhaonto ea hau.",
+        "SeeYou": "Re tla u bona ho <a href='{{1}}'>{{100}}<\/a> !"
+    },
+    "LinkToUnsubscribe": "Sehokelo sa ho <a href='{{1}}'>itokolla<\/a> ke sena haeba o sa batle ho fumana mangolo-tsoibila.",
+    "Greetings": "Litumeliso tse tsoang {{1}}.",
+    "SeeHistory": "Sheba nalane ea litefo tsa {{1}}",
+    "charge": {
+        "HasBeenCharged": "Lumela, sena ke ho u tsebisa feela {{1}} o lefisitsoe {{2}} bakeng sa {{3}} ke {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Lumela {{1}}, ena ke tiisetso e potlakileng ea hore u lefile ka katleho {{3}} ho {{3}} bakeng sa {{4}}"
+    },
+    "resend": {
+        "Thanks": "Re leboha ho etela {{1}}",
+        "YouAreReceiving": "U fumana lengolo-tsoibila lena hobane motho e mong o kentse aterese ea hau ea lengolo-tsoibila mme a tobetsa &quot;lebetse poleloana ea lekunutu&quot;. Haeba e ne e se uena, hlokomoloha molaetsa ona feela.",
+        "Reset": "Ho seta bocha poleloana ea hau ea lekunutu, tobetsa {{1}}",
+        "SetUpPassphrase": "Kenya poleloana ea lekunutu"
+    },
+    "subscription": {
+        "YouHaveStarted": "Lumela {{1}}, u se u qalile ho ingolisa ho {{2}} ka {{3}} ka {{4}} ka {{5}} likhoeli.",
+        "HasStarted": "Sena ke ho u tsebisa {{1}}, ba qalile ho ingolisa ho {{2}} ka {{3}} ka {{4}} ka {{5}} likhoeli."
+    },
+    "SeeYou": "Re tla u bona ho {{1}}!"
+}

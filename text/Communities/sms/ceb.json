@@ -1,0 +1,20 @@
+{
+    "activation": {
+        "Thanks": "Welcome sa {{1}}.",
+        "ClickHere": "Pag-klik dinhi aron ma-aktibo ang imong account: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Pag-klik dinhi aron mapamatud-an ang imong numero sa mobile: {{1}}"
+    },
+    "SeeHistory": "Tan-awa ang kasaysayan sa pagbayad para sa {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} gisingil {{2}} alang sa {{3}} ni {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Uy {{1}}, kini usa lang ka dali nga kumpirmasyon nga malampuson ka nga nakabayad {{2}} sa {{3}} alang sa {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Nag-subscribe ka sa {{2}} sa {{3}} sa {{4}} sulod sa {{5}} ka bulan.",
+        "HasStarted": "{{1}} nag-subscribe sa {{2}} uban sa {{3}} sa {{4}} sulod sa {{5}} mga bulan."
+    }
+}

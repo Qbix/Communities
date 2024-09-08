@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Waa lagu casumay",
+        "Member": "Xubinta {{title}}",
+        "Explanation": "{{1}} waxa ay ku faraxsantahay in ay ku dhawaaqdo bilawga shabakadayada cusub Waxa ku jira liiska sii koraya ee sifooyinka, sida:",
+        "Public": "Macluumaadka guud ee ku saabsan {{1}}",
+        "Private": "Akoonka isticmaalaha gaarka ah ee xubin kasta",
+        "Notifications": "Markaad geliso ciwaanka iimaylkaaga ama nambarka gacanta waxaad awoodi doontaa inaad ogaysiisyo muhiim ah ku hesho iimaylka ama fariin qoraaleed.",
+        "GetStarted": "Si aad u bilowdo, biraawsarkaaga shabakada fadlan <em>si taxadar leh u<\/em> geli:<br>",
+        "IssuedToYou": "Koodhkan si gaar ah ayaa laguugu soo saaray."
+    }
+}

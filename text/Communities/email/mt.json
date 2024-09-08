@@ -1,0 +1,33 @@
+{
+    "activation": {
+        "Thanks": "Merħba għal {{1}}",
+        "ReallyYourEmail": "Dan huwa verament l-indirizz elettroniku tiegħek, {{1}}? Jekk iva, ikklikkja <a href='{{2}}'>hawn<\/a> biex issettja l-passphrase tiegħek u tattiva l-kont tiegħek.",
+        "SeeYou": "Narawkom fuq <a href='{{1}}'>{{2}}<\/a> !",
+        "Subject": "Merħba! Jekk jogħġbok ivverifika l-indirizz elettroniku tiegħek."
+    },
+    "LinkToUnsubscribe": "Hawnhekk hawn link biex tneħħi l- <a href='{{1}}'>abbonament<\/a> jekk ma tridx tirċievi aktar emails.",
+    "Greetings": "Tislijiet minn {{1}}.",
+    "SeeHistory": "Ara l-istorja tal-ħlas għal {{1}}",
+    "charge": {
+        "HasBeenCharged": "Ħej, dan huwa biss biex tavżak {{1}} ġie ċċarġjat {{2}} għal {{3}} minn {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Ħej {{1}}, din hija biss konferma mgħaġġla li ħallast b&#39;suċċess {{2}} lil {{3}} għal {{4}}"
+    },
+    "resend": {
+        "Thanks": "Grazzi talli żort {{1}}",
+        "YouAreReceiving": "Qed tirċievi din l-email għax xi ħadd daħħal l-indirizz tal-email tiegħek u kklikkja &quot;forgot passphrase&quot;. Jekk ma kontx int, sempliċement injora dan il-messaġġ.",
+        "Reset": "Biex tirrisettja l-passphrase tiegħek, ikklikkja {{1}}",
+        "SetUpPassphrase": "Stabbilixxi passphrase",
+        "DomainCode": "Jekk il-paġna web hija diġà miftuħa fil-browser tiegħek, tista&#39; ddaħħal il-kodiċi",
+        "Subject": "Ħej, insejt il-passphrase tiegħek?"
+    },
+    "subscription": {
+        "YouHaveStarted": "Ħej {{1}}, bdejt l-abbonament tiegħek għal {{2}} bi {{3}} fi {{4}} għal {{5}} xhur.",
+        "HasStarted": "Dan huwa biss biex tavżak {{1}}, bdiet l-abbonament tagħhom għal {{2}} bi {{3}} fi {{4}} għal {{5}} xhur."
+    },
+    "SeeYou": "Narawkom fuq {{1}}!",
+    "identifier": {
+        "Subject": "Merħba! Ivverifika l-indirizz elettroniku tiegħek."
+    }
+}

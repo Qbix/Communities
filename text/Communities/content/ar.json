@@ -1,0 +1,460 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> لا يشير إلى أي شيء!",
+        "NextSteps": "استخدم القائمة الرئيسية للعثور على ما تبحث عنه."
+    },
+    "greeting": {
+        "Welcome": "مرحبًا بك في {{1}}. ستجد هنا أشياء منشورة لأعضاء مجتمعنا. يرجى إضافة عنوان بريدك الإلكتروني أو رقم هاتفك المحمول لتلقي الإخطارات عند نشر الإعلانات."
+    },
+    "conversations": {
+        "New": "محادثة جديدة",
+        "Conversation": "محادثة",
+        "Topics": "المواضيع",
+        "NoneYet": "شكلت أي محادثات حتى الآن",
+        "newConversations": "{{1}} محادثات جديدة",
+        "AllAuthors": "كل المؤلفين",
+        "FilterbyAuthors": "تصفية حسب المؤلفين",
+        "FilterAuthorPlaceHolder": "بحث عن مؤلفين إضافيين ...",
+        "Title": "المحادثات",
+        "Description": "{{1}} محادثة",
+        "filterConversations": "تصفية حسب النص"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "اختر موضوعا",
+            "Share": "شارك",
+            "interest": {
+                "Title": "اختر نشاطًا",
+                "Filter": "اهتمامات البحث ..."
+            }
+        },
+        "Title": "محادثة جديدة",
+        "TitlePlaceholder": "موضوع محادثتك",
+        "ContentPlaceholder": "اكتب بضع كلمات لبدء المحادثة ، حتى يتمكن الآخرون من الرد",
+        "StartButton": "ابدأ المحادثة"
+    },
+    "events": {
+        "Title": "الأحداث",
+        "filterByTitle": "البحث عن الأحداث حسب العنوان",
+        "New": "+ ابدأ حدث جديد",
+        "SetLocation": "تعيين موقعي",
+        "NoneYet": "لم يتم تشكيل أي أحداث حتى الآن<br> خلال هذه الأوقات.",
+        "AllDays": "كل الأيام",
+        "AllLocations": "جميع المواقع",
+        "AllInterests": "كل الاهتمامات",
+        "FilterbyInterest": "تصفية حسب الفائدة",
+        "FilterByDate": "تصفية حسب التاريخ",
+        "ShowActivities": "اعرض الأنشطة المتعلقة بـ. . .",
+        "newEvents": "لديك {{1}} من الأحداث الجديدة",
+        "SelectLocation": "اختر موقعا",
+        "FilterLocationsPlaceHolder": "تصفية الأماكن باستخدام ...",
+        "AllAuthors": "كل المؤلفين",
+        "filterEvents": "تصفية الأحداث",
+        "NewEvent": "حدث جديد",
+        "Description": "{{1}} أحداث",
+        "Keywords": "{{1}} أحداث",
+        "MakeReservation": "قم بالحجز",
+        "Reserved": "إلغاء الحجز",
+        "AreYouSure": "هل أنت متأكد؟",
+        "YouWillRefunded": "سيتم ردها في شكل ائتمانات يمكنك إنفاقها على أشياء أخرى في التطبيق.",
+        "CancelReservation": "إلغاء الحجز",
+        "UpdateReservation": "تحديث الحجز"
+    },
+    "schedule": {
+        "Title": "برنامج",
+        "NoneYet": "أنت لا تشارك في أي أحداث",
+        "AddSome": "أضف البعض إلى جدولك الزمني!",
+        "AddMore": "أضف الأحداث إلى جدولك الزمني!",
+        "future": "مستقبل",
+        "past": "ماضي"
+    },
+    "location": {
+        "Title": "موقع",
+        "NewLocation": "موقع جديد"
+    },
+    "inbox": {
+        "Title": "صندوق الوارد",
+        "NoneYet": "أنت لا تشارك في أي محادثات",
+        "FindPeople": "ابحث عن أشخاص للتحدث معهم",
+        "GroupConversations": "انضم إلى بعض المحادثات الجماعية",
+        "ContactStaff": "اتصل بفريق العمل",
+        "ContactCustomers": "اتصل بالعملاء",
+        "AddNewContact": "إضافة جهة اتصال جديدة",
+        "AddNewContacts": "إضافة جهات اتصال جديدة"
+    },
+    "me": {
+        "Title": "أنا",
+        "MobileNumber": "رقم الهاتف المحمول",
+        "EmailAddress": "عنوان البريد الالكترونى",
+        "UpdateSocialTitle": "تحديث اسم المستخدم {{1}}",
+        "Web3": "ويب 3"
+    },
+    "people": {
+        "Title": "اشخاص",
+        "AppAlert": "سيتيح لك هذا التطبيق الموجود في متجر التطبيقات التواصل مع أصدقائك وغير ذلك الكثير.",
+        "Invite": "ادعو أصدقاء",
+        "FindSomeoneByName": "ابحث عن شخص ما بالاسم",
+        "FindAllMyFriends": "البحث عن كل أصدقائي",
+        "labels": {
+            "All": "الجميع",
+            "Title": "تصفية حسب العلاقة",
+            "New": "نوع العلاقة الجديد"
+        },
+        "interests": {
+            "All": "كل الاهتمامات",
+            "Title": "تصفية حسب الفائدة",
+            "Filter": "أظهر الأشخاص المهتمين بـ. . ."
+        },
+        "SearchByName": "البحث عن طريق الإسم",
+        "Description": "الأشخاص في مجتمع {{1}}",
+        "Keywords": "مجتمع الأشخاص {{1}}",
+        "BuyCredits": "شراء إئتمانات"
+    },
+    "communities": {
+        "Title": "مجتمعات",
+        "NewCommunity": "مجتمع جديد",
+        "FindCommunityByName": "البحث عن المجتمع بالاسم",
+        "Description": "مجتمعات {{1}}"
+    },
+    "community": {
+        "Title": "{{1}} المنتدى",
+        "Roles": "الأدوار",
+        "AllRoles": "كل الأدوار",
+        "YouDontHavePermission": "أنت غير مخول للقيام بذلك",
+        "usernamePlaceholder": "ضع اسم المجتمع",
+        "NotEnoughCredits": "ليس لديك اعتمادات كافية لإنشاء مجتمع. تحتاج {{1}} ، لديك {{2}}"
+    },
+    "event": {
+        "GetDirections": "احصل على الاتجاهات",
+        "WhichMap": "ما الخرائط التي ترغب في استخدامها؟",
+        "JoinEventToChat": "انضم إلى الحدث للدردشة",
+        "promote": {
+            "Title": "روّج لهذا الحدث",
+            "Prompt": "اختر المكان الذي ترغب في الترويج لهذا الحدث فيه:"
+        },
+        "Confirmation": "تأكيد"
+    },
+    "newEvent": {
+        "Title": "خطة حدث جديد"
+    },
+    "interests": {
+        "Title": "الإهتمامات",
+        "prompt": "حدد أنواع الأشياء التي تريد أن تعرف عنها.",
+        "explanation": "كلما زاد عدد الاهتمامات التي تحددها ، زادت احتمالية تواصلك مع الأشخاص ذوي التفكير المماثل.",
+        "filter": "ماالذي تهتم به؟",
+        "Profile": "يتم تسليط الضوء على المصالح المتبادلة. إذا كان لديك أيضًا واحد أو أكثر من الاهتمامات أدناه ، فيمكنك {{clickOrTap}} إضافتها."
+    },
+    "credits": {
+        "Title": "الاعتمادات",
+        "EarnCredits": "اربح {{1}} أرصدة عن كل شخص جديد تقوم بدعوته وينضم إلى التطبيق",
+        "YouHave": "لديك {{1}} ائتمانات"
+    },
+    "onboarding": {
+        "Tap": "صنبور",
+        "Click": "انقر",
+        "Yes": "نعم",
+        "No": "رقم",
+        "name": {
+            "Preface": "مرحبا بك في",
+            "Placeholder": "أدخل اسمك الكامل",
+            "GetStarted": "البدء",
+            "AsGuest": "لقد تمت دعوتك كضيف.",
+            "AsMember": "لقد تمت دعوتك كعضو.",
+            "AsAdmin": "لقد تمت دعوتك كمسؤول.",
+            "AsOwner": "لقد تمت دعوتك كمالك.",
+            "TooShort": "لا يمكن أن يكون اسمك الكامل قصيرًا إلى هذا الحد",
+            "SetAsYourFullName": "تعيين {{1}} كاسمك الكامل؟"
+        },
+        "icon": {
+            "KeepDefault": "أو احتفظ بهذه الصورة",
+            "SetYourPhoto": "{{ClickOrTap}} لتعيين صورتك:",
+            "ClickOnYourFace": "{{ClickOrTap}} على وجهك"
+        },
+        "interests": {
+            "GetStarted": "⇩ ابدأ",
+            "NextCategory": "↓ التالي",
+            "Continue": "يكمل",
+            "Instructions": "في كل فئة من الفئات الـ {{1}} التالية ،<br> {{2}} جميع الأنشطة التي تهتم بها.<br> هذه هي الطريقة التي تتواصل بها مع أشخاص آخرين في المجتمع."
+        },
+        "profile": {
+            "Profile": "ملفك الشخصي يساعد الناس على اكتشاف المزيد عنك.<br>",
+            "Birthday": "من فضلك أدخل تاريخ ميلادك:",
+            "Placeholder": "من أنت وماذا تفعل؟ أخبر الناس بشيء مثير للاهتمام أو فريد عنك.",
+            "Month": "شهر",
+            "Day": "يوم",
+            "Year": "عام",
+            "Gender": "جنس تذكير أو تأنيث",
+            "Male": "ذكر",
+            "Female": "أنثى",
+            "Other": "آخر",
+            "Height": "ارتفاع",
+            "Affiliation": "الانتماء",
+            "Dating": "التعارف",
+            "Interested": "مهتم",
+            "NotInterested": "غير مهتم",
+            "MatchmakerOnly": "صانع الثقاب فقط",
+            "Required": "للمتابعة ، اكتب سطرين على الأقل عن نفسك."
+        },
+        "location": {
+            "NoOneElse": "لن يراه أي شخص آخر.",
+            "SetMyLocation": "حدد موقعي"
+        },
+        "pile": {
+            "DialogTitle": "الأشخاص ذوو الاهتمامات المشتركة"
+        },
+        "Done": "فعله",
+        "Skip": "أو تخطي هذا",
+        "relationships": {
+            "title": "أضف {{userName}} إلى دليل الهاتف",
+            "welcome": "مرحبًا {{user}}",
+            "invitedByUser": "دعاك.",
+            "addToPhonebook": "حفظ في My Phone Contacts",
+            "iosInstructions": "قم بالتمرير لأسفل لإضافة جهة اتصال جديدة",
+            "androidInstructions": "يجب عليك فتح ملف vCard هذا بعد تنزيله.",
+            "explanation": "ما هي علاقتك؟"
+        },
+        "Title": "معلومات اساسية",
+        "Prompt": "بضع خطوات لإعداد حسابك"
+    },
+    "profile": {
+        "Title": "الملف الشخصي",
+        "Male": "ذكر",
+        "Female": "أنثى",
+        "Other": "آخر",
+        "dating": {
+            "Interested": "مهتم",
+            "NotInterested": "غير مهتم",
+            "MatchmakerOnly": "صانع الثقاب فقط"
+        },
+        "StartConversation": "بدء محادثة",
+        "blockUser": "منع هذا المستخدم",
+        "blockUserAlert": "لن ترى أي رسائل أخرى من هذا المستخدم حتى تقوم بإلغاء حظره.",
+        "unblockUser": "قم بإلغاء حظر هذا المستخدم",
+        "addToContacts": "أضف إلى جهات الاتصال",
+        "manageLabels": "إدارة التصنيفات",
+        "inviteUsers": "قم بدعوة المستخدمين",
+        "inviteSuccess": "تم بنجاح دعوة المستخدم كـ {{label}}",
+        "invite": "يدعو",
+        "relationships": "العلاقات",
+        "newRole": "دور جديد",
+        "about": "عن",
+        "people": "اشخاص",
+        "info": "معلومات",
+        "interests": "الإهتمامات",
+        "chat": "محادثة",
+        "locations": "المواقع",
+        "ManageRoles": "إدارة الأدوار",
+        "aboutPlaceholder": "من أنت وماذا تفعل؟ أخبر الناس بشيء مثير للاهتمام أو فريد عنك.",
+        "explanation": "يساعد ملفك الشخصي على التوافق بشكل أفضل مع أشخاص آخرين لأنشطة المجموعة.<br> من فضلك أدخل تاريخ ميلادك",
+        "chats": {
+            "placeholder": "قل شيئا"
+        },
+        "LogOut": "تسجيل خروج",
+        "selectRole": "حدد الدور",
+        "MyLinks": "الروابط الخاصة بي",
+        "MyJobs": "وظائفي",
+        "MySocial": "MySocial",
+        "MyEducation": "تعليمي",
+        "JobsPlaceholder": "اكتب هنا معلومات الوظائف",
+        "EducationPlaceholder": "اكتب هنا معلومات التعليم",
+        "ManageNotifications": "إدارة الإخطارات",
+        "YourPreferredLanguage": "لغتك المفضلة",
+        "SendCrypto": "يدفع",
+        "Block": "حاجز",
+        "Unblock": "رفع الحظر",
+        "Email": "بريد إلكتروني",
+        "Avoid": "يتجنب",
+        "CreatePrivateChat": "هل تنفق {{credits}} أرصدة للتواصل معك؟",
+        "RolesInCommunity": "الأدوار في المجتمع",
+        "PersonalChatWith": "محادثة شخصية مع {{name}}",
+        "SendCryptoTo": "إرسال تشفير إلى {{name}}",
+        "SendEmailTo": "إرسال بريد إلكتروني إلى {{name}}",
+        "SendSMSTo": "أرسل رسالة قصيرة إلى {{name}}",
+        "BlockThisUser": "منع هذا المستخدم",
+        "UnblockThisUser": "قم بإلغاء حظر هذا المستخدم",
+        "YouCantChatWithYourself": "لا يمكنك الدردشة مع نفسك",
+        "blockUserAlertTitle": "محظور {{displayName}}",
+        "sections": {
+            "education": "تعليم",
+            "greeting": "تحية",
+            "jobs": "وظائف",
+            "links": "الروابط",
+            "language": "لغة",
+            "roles": "الأدوار",
+            "personal": "شخصي",
+            "social": "اجتماعي"
+        },
+        "Roles": "الأدوار",
+        "SendPaymentTo": "أرسل دفعة إلى {{name}}"
+    },
+    "myqr": {
+        "Title": "QR الخاص بي"
+    },
+    "composer": {
+        "createCommunity": "إنشاء مجتمع",
+        "inviteAdmin": "دعوة المسؤول",
+        "inviteMember": "ادعُ عضوًا",
+        "newCommunityTitle": "اسم المجتمع",
+        "setCommunityTitle": "اسم المجتمع",
+        "creditsChargeRequest": "هل توافق على إنفاق {{price}} أرصدة؟",
+        "yes": "نعم",
+        "no": "رقم"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "مرحبا! يرجى التحقق من عنوان البريد الإلكتروني الخاص بك.",
+        "WelcomeVerifyEmail": "مرحبا! تحقق من عنوان بريدك الإلكتروني.",
+        "ForgetPass": "مرحبًا ، هل نسيت عبارة مرورك؟",
+        "ManageEmailSubscriptions": "إدارة اشتراكات البريد الإلكتروني الخاص بك",
+        "IfUnsubscribe": "إذا كنت تريد إلغاء الاشتراك"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "مرحبًا بك في {{CommunityName}}. سيساعدك هذا التطبيق على التواصل مع الأصدقاء واكتشاف أشخاص جدد لديهم اهتمامات مشتركة وغير ذلك الكثير. هيا بنا نبدأ!"
+            },
+            "icon": {
+                "Commentary": "اضبط صورتك. هذه هي الطريقة التي سيرى بها الناس على الموقع."
+            },
+            "interests": {
+                "Commentary": "كلما زاد عدد العناصر التي تختارها ، زاد عدد الأشخاص الذين يمكنك مقابلتهم.",
+                "Notifications": "تحتاج إلى السماح بالإخطارات"
+            }
+        },
+        "subscriptions": {
+            "confirm": "تسمح لك الإشعارات بمعرفة الأشياء التي تهتم بها ، مثل وقت انضمام صديق إلى التطبيق أو إرسال رسائل إليك."
+        },
+        "invite": "{{Q.words.TapOrClick}} هنا لترى كيف يمكنك مشاركة هذا مع أشخاص آخرين."
+    },
+    "payment": {
+        "onContribute": "شكرا لك! مرت دفعتك. هل ترغب في دعوة أصدقائك للانضمام إليك؟",
+        "ConnectAccount": "ربط الحساب"
+    },
+    "featureboard": {
+        "Text_1": "اجعل صوتك مسموع! هل توافق على أنه يجب علينا تطوير ميزة أو خطأ؟ انقر فوق الزر لدعمه.",
+        "Text_2": "هل تريد منا تطوير ميزة جديدة؟ صِفها أدناه.",
+        "Text_3": "نبدأ كل أسبوع في تطوير أهم ميزة مطلوبة من قبل المجتمع. كل الأموال التي يتم التبرع بها تذهب لهذا الغرض ، مما يسمح لنا بتحسين التطبيق.",
+        "Text_4": "يتم استخدام جميع الأموال التي يتم المساهمة بها للمساعدة في دفع تكاليف التطوير لدينا.",
+        "Text_5": "هل لديك فكرة عن ميزة أو إصلاح خطأ تريد منا أن نفعله ولكنك لم تر الآخرين يضيفونه بعد؟ صِفها أدناه:",
+        "Options": [
+            {
+                "text": "مؤتمرات فيديو في الوقت الفعلي بقيمة 400 دولار"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "200 دولار لمعلومات التسجيل الابتدائية المحلية"
+            },
+            {
+                "text": "130 دولارًا ، تصفح وشارك آلاف {{1}} من الميمات",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "80 دولارًا لإدارة مجتمعاتك الخاصة",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "30 دولارًا لإصلاح أخطاء المحادثات",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "اطلب ميزة جديدة \/ Bugfix",
+        "FeaturePlaceholder": "ملخص قصير للميزة",
+        "FeatureDescription": "صف كيف يمكن لشخص آخر إعادة إنتاج الخطأ الذي تراه ، أو وصف بالتفصيل الميزة التي تريد إنشاؤها",
+        "AddYourRequest": "أضف طلبك",
+        "NewFeature": "ميزة جديدة"
+    },
+    "assetshistory": {
+        "Title": "تاريخ الأصول",
+        "Charges": "شحنة",
+        "Credits": "الاعتمادات"
+    },
+    "contribute": {
+        "ContributeExplanation": "ساعد في دعم التطوير المستمر لتطبيق {{communityName}}. تساعد جميع مساهماتك في إصلاح الأخطاء وتطوير ميزات جديدة للمساعدة في تنمية المجتمع عبر الإنترنت!",
+        "ReasonToContribute": "يتم صيانة هذا التطبيق بواسطة مؤيدي {{communityName}}. ساعد في دعم هذا التطبيق حتى نتمكن من إحداث فرق في حياة الناس!"
+    },
+    "accounts": {
+        "remove": {
+            "title": "إزالة الحساب",
+            "content": "هل تريد إزالة هذا الحساب؟",
+            "ok": "نعم",
+            "cancel": "رقم"
+        }
+    },
+    "import": {
+        "fileNotFound": "عذرا ، ملف CSV غير موجود.",
+        "fileEmpty": "عذرا ، ملف CSV فارغ.",
+        "userIdNotFound": "المستخدم موجود ولكن معرف فارغ",
+        "errorLine": "السطر {{1}}",
+        "fieldNotFound": "الحقل المطلوب &quot;{{1}}&quot; غير موجود",
+        "taskStreamInvalid": "دفق المهام غير صالح",
+        "instructionsEmpty": "تعليمات تدفق المهام فارغة",
+        "complete": "إكمال",
+        "activateUsers": "إرسال رسالة التفعيل للمستخدمين؟",
+        "importProgress": "تقدم",
+        "joinEventLabel": "انضمام المستخدمين إلى حدث عشوائي",
+        "importOptions": "خيارات",
+        "sampleCSV": "تنزيل نموذج CSV",
+        "fileLabel": "تحميل جدول البيانات:",
+        "errorsTitle": "حدثت أخطاء",
+        "communityUsers": "هذه قائمة المجتمعات",
+        "setAsConversation": "عمود URL كمحادثة",
+        "toMainCommunityToo": "إضافة المستخدمين إلى المجتمع الرئيسي أيضًا",
+        "willImportedTo": "سيتم استيراد المستخدمين إلى المجتمع",
+        "ChooseFile": "اختر ملف"
+    },
+    "dashboard": {
+        "Menu": "قائمة الطعام",
+        "Home": "بيت",
+        "Welcome": "مرحباً",
+        "Events": "الأحداث",
+        "Discuss": "يناقش",
+        "People": "الناس",
+        "About": "عن",
+        "Community": "مجتمع",
+        "LogIn": "تسجيل الدخول",
+        "LogOut": "تسجيل خروج",
+        "Intercoin": "إنتركوين",
+        "Shows": "عروض",
+        "Calendar": "تقويم",
+        "Me": "أنا",
+        "Media": "وسائط",
+        "Services": "خدمات",
+        "SetMobileNumber": "ضبط رقم الجوال",
+        "SetEmailAddress": "قم بتعيين عنوان البريد الإلكتروني"
+    },
+    "services": {
+        "Title": "خدمات",
+        "filterByTitle": "البحث عن الخدمات حسب العنوان",
+        "New": "+ ابدأ خدمة جديدة",
+        "NewService": "خدمة جديدة",
+        "filterServices": "تصفية الخدمات",
+        "NoneYet": "لم يتم تشكيل أي خدمات حتى الآن<br> خلال هذه الأوقات.",
+        "AllAuthors": "كل المؤلفين",
+        "AllDays": "كل الأيام",
+        "AllLocations": "جميع المواقع",
+        "MakeReservation": "قم بالحجز",
+        "CancelReservation": "إلغاء الحجز",
+        "UpdateReservation": "تحديث الحجز",
+        "AreYouSure": "هل أنت واثق؟",
+        "YouWillRefunded": "سيتم ردها في شكل ائتمانات يمكنك إنفاقها على أشياء أخرى في التطبيق.",
+        "AllInterests": "كل الاهتمامات",
+        "FilterbyInterest": "تصفية حسب الفائدة",
+        "FilterByDate": "تصفية حسب التاريخ",
+        "ShowActivities": "عرض الأنشطة المتعلقة بـ ...",
+        "newServices": "لديك {{1}} خدمة جديدة",
+        "SelectLocation": "اختر موقعا",
+        "FilterLocationsPlaceHolder": "تصفية الأماكن باستخدام ...",
+        "Description": "خدمة {{1}}",
+        "Keywords": "خدمة {{1}}",
+        "NewAvailability": "توفر جديد"
+    },
+    "welcome": {
+        "Title": "{{appName}}: مرحبًا",
+        "GetStarted": "البدء",
+        "gallery": {
+            "Connect": "يتصل",
+            "Organize": "تنظم",
+            "Travel": "يسافر",
+            "Share": "يشارك"
+        }
+    }
+}

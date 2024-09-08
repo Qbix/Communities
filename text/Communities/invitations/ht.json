@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Ou envite",
+        "Member": "Manm nan {{title}}",
+        "Explanation": "{{1}} kontan anonse lansman nouvo sit entènèt nou an. Li gen ladann yon lis k ap grandi nan karakteristik, tankou:",
+        "Public": "Enfòmasyon piblik sou {{1}}",
+        "Private": "Yon kont itilizatè prive pou chak manm",
+        "Notifications": "Lè w antre adrès imel ou oswa nimewo mobil w ap kapab resevwa notifikasyon enpòtan pa imel oswa mesaj tèks.",
+        "GetStarted": "Pou kòmanse, nan navigatè entènèt ou a tanpri antre <em>ak anpil atansyon<\/em> :<br>",
+        "IssuedToYou": "Kòd sa a espesyalman bay ou."
+    }
+}

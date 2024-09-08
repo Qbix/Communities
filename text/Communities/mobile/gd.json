@@ -1,0 +1,20 @@
+{
+    "activation": {
+        "Thanks": "Fàilte gu {{1}}.",
+        "ClickHere": "Cliog an seo gus do chunntas a chur an gnìomh: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Cliog an seo gus an àireamh fòn-làimhe agad a dhearbhadh: {{1}}"
+    },
+    "SeeHistory": "Faic eachdraidh pàighidh airson {{1}}",
+    "charge": {
+        "HasBeenCharged": "Chaidh {{1}} a chur fo chasaid {{2}} airson {{3}} le {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hey {{1}}, chan eil an seo ach dearbhadh sgiobalta gun do phàigh thu {{2}} gu {{3}} airson {{4}} gu soirbheachail"
+    },
+    "subscription": {
+        "YouHaveStarted": "Tha thu air fo-sgrìobhadh gu {{2}} le {{3}} aig {{4}} airson {{5}} mìosan.",
+        "HasStarted": "Tha {{1}} air fo-sgrìobhadh do {{2}} le {{3}} aig {{4}} airson {{5}} mìosan."
+    }
+}

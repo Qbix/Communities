@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "dəvətlisiniz",
+        "Member": "{{title}} üzvlüyü",
+        "Explanation": "{{1}} yeni veb-saytımızın istifadəyə verilməsini məmnuniyyətlə elan edir. Bu, artan xüsusiyyətlərin siyahısını ehtiva edir, məsələn:",
+        "Public": "{{1}} haqqında ictimai məlumat",
+        "Private": "Hər bir üzv üçün şəxsi istifadəçi hesabı",
+        "Notifications": "E-poçt ünvanınızı və ya mobil nömrənizi daxil etməklə siz e-poçt və ya mətn mesajı ilə vacib bildirişlər ala biləcəksiniz.",
+        "GetStarted": "Başlamaq üçün veb brauzerinizə <em>diqqətlə<\/em> daxil edin:<br>",
+        "IssuedToYou": "Bu kod xüsusi olaraq sizə verilir."
+    }
+}

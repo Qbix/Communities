@@ -1,0 +1,33 @@
+{
+    "activation": {
+        "Thanks": "Sveiki atvykę į {{1}}",
+        "ReallyYourEmail": "Ar tai tikrai jūsų el. pašto adresas, {{1}}? Jei taip, spustelėkite <a href='{{2}}'>čia<\/a> , kad nustatytumėte slaptafrazę ir suaktyvintumėte paskyrą.",
+        "SeeYou": "Iki pasimatymo <a href='{{1}}'>{{2}}<\/a> !",
+        "Subject": "Sveiki! Patvirtinkite savo el. pašto adresą."
+    },
+    "LinkToUnsubscribe": "Čia yra nuoroda, kaip <a href='{{1}}'>atsisakyti prenumeratos<\/a> , jei nenorite gauti daugiau el. laiškų.",
+    "Greetings": "Linkėjimai nuo {{1}}.",
+    "SeeHistory": "Žr. {{1}} mokėjimų istoriją",
+    "charge": {
+        "HasBeenCharged": "Sveiki, noriu pranešti, kad {{1}} apmokestino {{2}} už {{3}}, kurį pateikė {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Sveiki, {{1}}, tai tik greitas patvirtinimas, kad sėkmingai sumokėjote {{2}} {{3}} už {{4}}"
+    },
+    "resend": {
+        "Thanks": "Dėkojame, kad apsilankėte {{1}}",
+        "YouAreReceiving": "Gavote šį el. laišką, nes kažkas įvedė jūsų el. pašto adresą ir paspaudė „pamiršau slaptafrazę“. Jei tai buvote ne jūs, tiesiog nekreipkite dėmesio į šį pranešimą.",
+        "Reset": "Norėdami iš naujo nustatyti slaptafrazę, spustelėkite {{1}}",
+        "SetUpPassphrase": "Nustatyti slaptafrazę",
+        "DomainCode": "Jei tinklalapis jau atidarytas jūsų naršyklėje, galite įvesti kodą",
+        "Subject": "Ei, ar pamiršai savo slaptafrazę?"
+    },
+    "subscription": {
+        "YouHaveStarted": "Sveiki, {{1}}, pradėjote prenumeruoti {{2}} nuo {{3}} {{4}} {{5}} mėn.",
+        "HasStarted": "Norime tik pranešti, kad {{1}} pradėjo prenumeruoti {{2}} nuo {{3}} {{4}} {{5}} mėn."
+    },
+    "SeeYou": "Iki pasimatymo {{1}}!",
+    "identifier": {
+        "Subject": "Sveiki! Patvirtinkite savo elektroninį paštą."
+    }
+}

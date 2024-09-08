@@ -1,0 +1,362 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> ayilathi kwanto!",
+        "NextSteps": "Sebenzisa imenyu engundoqo ukufumana into oyikhangelayo."
+    },
+    "dashboard": {
+        "Menu": "Imenyu"
+    },
+    "greeting": {
+        "Welcome": "Wamkelekile kwi {{1}}. Apha uya kufumana izinto ezithunyelwe amalungu oluntu lwethu. Nceda wongeze idilesi yakho ye-imeyile okanye inombolo yeselula ukuze ufumane izaziso xa izibhengezo zithunyelwa."
+    },
+    "conversations": {
+        "Title": "Iincoko",
+        "New": "Incoko Entsha",
+        "Conversation": "Incoko",
+        "Topics": "Izihloko",
+        "NoneYet": "Akukho zingxoxo zenziweyo okwangoku",
+        "newConversations": "{{1}} iincoko ezintsha",
+        "AllAuthors": "Bonke Ababhali",
+        "FilterbyAuthors": "Hluza ngabaBhali",
+        "FilterAuthorPlaceHolder": "Phendla ababhali abongezelelweyo...",
+        "filterConversations": "Hluza ngokombhalo",
+        "Description": "{{1}} iincoko"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Khetha isihloko",
+            "Share": "Yabelana",
+            "interest": {
+                "Title": "Khetha uMsebenzi",
+                "Filter": "Khangela izinto onomdla kuzo ..."
+            }
+        },
+        "Title": "Incoko Entsha",
+        "TitlePlaceholder": "Umxholo wencoko yakho",
+        "ContentPlaceholder": "Bhala amagama ambalwa ukuqalisa incoko, ukuze abanye baphendule",
+        "StartButton": "Qalisa Incoko"
+    },
+    "events": {
+        "Title": "Iziganeko",
+        "filterByTitle": "Fumana iziganeko ngesihloko",
+        "New": "+ Qala uMnyhadala omtsha",
+        "filterEvents": "Hluza imicimbi",
+        "NewEvent": "Isiganeko Esitsha",
+        "SetLocation": "Seta Indawo yam",
+        "NoneYet": "Akukho ziganeko zenziweyo okwangoku<br> ngala maxesha.",
+        "AllAuthors": "Bonke Ababhali",
+        "AllDays": "Yonke Imihla",
+        "AllLocations": "Zonke iindawo",
+        "MakeReservation": "Yenza Ugcino",
+        "CancelReservation": "Rhoxisa uBeko",
+        "UpdateReservation": "Hlaziya Ugcino",
+        "AreYouSure": "Ingaba uqinisekile?",
+        "YouWillRefunded": "Uya kubuyiselwa ngendlela yeekhredithi onokuthi uzichithe kwezinye izinto kwi-app.",
+        "AllInterests": "Zonke izinto ezinomdla",
+        "FilterbyInterest": "Hluza ngokoMdla",
+        "FilterByDate": "Hlunga Ngomhla",
+        "ShowActivities": "Bonisa imisebenzi enxulumene ne. . .",
+        "newEvents": "Une {{1}} iminyhadala emitsha",
+        "SelectLocation": "Khetha Indawo",
+        "FilterLocationsPlaceHolder": "Hluza iindawo nge...",
+        "Description": "{{1}} iziganeko",
+        "Keywords": "{{1}} iziganeko"
+    },
+    "schedule": {
+        "Title": "Ishedyuli",
+        "NoneYet": "Awuthabathi nxaxheba kuyo nayiphi na iminyhadala",
+        "AddSome": "Yongeza ezinye kwishedyuli yakho!",
+        "AddMore": "Yongeza imisitho kwishedyuli yakho!",
+        "future": "kwixesha elizayo",
+        "past": "elidlulileyo"
+    },
+    "location": {
+        "Title": "Indawo",
+        "NewLocation": "Indawo entsha"
+    },
+    "inbox": {
+        "Title": "Ibhokisi yangaphakathi",
+        "NoneYet": "Awuthathi nxaxheba kuzo naziphi na iincoko",
+        "FindPeople": "Fumana abantu onokuthetha nabo",
+        "GroupConversations": "Joyina ezinye iincoko zeqela",
+        "ContactStaff": "Qhagamshelana nabasebenzi",
+        "ContactCustomers": "Qhagamshelana nabathengi"
+    },
+    "me": {
+        "Title": "Mna",
+        "MobileNumber": "Inombolo kanomyayi",
+        "EmailAddress": "Idilesi yemeyile",
+        "UpdateSocialTitle": "Hlaziya {{1}} igama lomsebenzisi"
+    },
+    "people": {
+        "Title": "Abantu",
+        "Description": "Abantu {{1}} ekuhlaleni",
+        "AppAlert": "Le app kwivenkile yeapp iya kukuvumela ukuba uqhagamshelane nabahlobo bakho, kunye nokunye okuninzi.",
+        "Invite": "Mema Abahlobo",
+        "BuyCredits": "Thenga iiKhredithi",
+        "FindSomeoneByName": "Fumana umntu ngegama",
+        "SearchByName": "Phendla ngegama",
+        "FindAllMyFriends": "Fumana Bonke Abahlobo Bam",
+        "labels": {
+            "All": "Wonke umntu",
+            "Title": "Hlunga ngoBudlelwane",
+            "New": "Uhlobo olutsha lobudlelwane"
+        },
+        "interests": {
+            "All": "Zonke izinto ezinomdla",
+            "Title": "Hluza ngokoMdla",
+            "Filter": "Bonisa abantu abanomdla . . ."
+        },
+        "Keywords": "{{1}} uluntu lwabantu"
+    },
+    "communities": {
+        "Title": "Uluntu",
+        "NewCommunity": "Uluntu Olutsha",
+        "FindCommunityByName": "Fumana uluntu ngegama",
+        "Description": "{{1}} uluntu"
+    },
+    "community": {
+        "Title": "{{1}} Uluntu",
+        "Roles": "Iindima",
+        "AllRoles": "Zonke iindima",
+        "YouDontHavePermission": "Awugunyaziswanga ukwenza oku",
+        "usernamePlaceholder": "seta igama loluntu",
+        "NotEnoughCredits": "Awunamali yaneleyo yokuyila uluntu. Ifuna {{1}}, unayo {{2}}"
+    },
+    "event": {
+        "GetDirections": "Fumana izalathiso",
+        "WhichMap": "Zeziphi iimaphu ongathanda ukuzisebenzisa?",
+        "JoinEventToChat": "Joyina umcimbi ukuze uncokole",
+        "promote": {
+            "Title": "Yazisa lo msitho",
+            "Prompt": "Khetha apho ungathanda ukuwuphakamisa khona lo msitho:"
+        },
+        "Confirmation": "Isiqinisekiso"
+    },
+    "newEvent": {
+        "Title": "Cwangcisa uMnyhadala oMtsha"
+    },
+    "interests": {
+        "Title": "Imidla",
+        "prompt": "Khetha iintlobo zezinto ongathanda ukwazi ngazo.",
+        "explanation": "Okukhona ukhetha imidla, kokukhona unxulumana nabantu abanengqondo efanayo.",
+        "filter": "Yintoni onomdla kuyo?",
+        "Profile": "Izinto ezinomdla kuzo zombini ziyagxininiswa. Ukuba unomtsalane omnye okanye ngaphezulu apha ngezantsi, unga {{clickOrTap}} ukuzongeza."
+    },
+    "credits": {
+        "Title": "Iikhredithi",
+        "EarnCredits": "Zuza {{1}} iikhredithi kumntu ngamnye omtsha ommemayo ojoyina i-app",
+        "YouHave": "Une {{1}} iikhredithi"
+    },
+    "onboarding": {
+        "Tap": "Thepha",
+        "Click": "Cofa",
+        "Yes": "Ewe",
+        "No": "Hayi",
+        "Skip": "okanye utsibe oku",
+        "name": {
+            "Preface": "Wamkelekile kwi",
+            "Placeholder": "Faka igama lakho elipheleleyo",
+            "GetStarted": "Qalisa",
+            "AsGuest": "Umenyiwe njengondwendwe.",
+            "AsMember": "Umenyiwe njengelungu.",
+            "AsAdmin": "Umenyiwe admin.",
+            "AsOwner": "Umenyiwe njengomnini.",
+            "TooShort": "Igama lakho elipheleleyo alinakukwazi ukuba lifutshane kangako",
+            "SetAsYourFullName": "Seta {{1}} njengegama lakho elipheleleyo?"
+        },
+        "icon": {
+            "KeepDefault": "okanye ugcine le foto",
+            "SetYourPhoto": "{{ClickOrTap}} ukuseta ifoto yakho:"
+        },
+        "interests": {
+            "GetStarted": "⇩ Qalisa",
+            "NextCategory": "↓ Okulandelayo",
+            "Continue": "Qhubeka",
+            "Instructions": "Kuluhlu ngalunye olulandelayo {{1}} udidi,<br> {{2}} yonke imisebenzi onomdla kuyo.<br> Le yindlela onxibelelana ngayo nabanye abantu ekuhlaleni."
+        },
+        "profile": {
+            "Profile": "Iprofayile yakho inceda abantu bafumanise ngakumbi ngawe.<br>",
+            "Birthday": "Nceda ufake usuku lwakho lokuzalwa:",
+            "Placeholder": "Ungubani kwaye wenza ntoni? Xelela abantu into enomdla okanye ekhethekileyo ngawe.",
+            "Required": "Ukuqhubeka, bhala ubuncinane imigca embalwa ngawe.",
+            "Month": "Inyanga",
+            "Day": "Usuku",
+            "Year": "Unyaka",
+            "Gender": "Isini",
+            "Male": "Indoda",
+            "Female": "Ibhinqa",
+            "Other": "Okunye",
+            "Height": "Ubude",
+            "Affiliation": "Ukunxulumana",
+            "Dating": "Ukuthandana",
+            "Interested": "Ndinomdla",
+            "NotInterested": "Andinamdla",
+            "MatchmakerOnly": "Umlingane Kuphela"
+        },
+        "location": {
+            "NoOneElse": "Akukho mntu wumbi uya kuyibona.",
+            "SetMyLocation": "Seta indawo yam"
+        },
+        "pile": {
+            "DialogTitle": "Abantu abanomdla ofanayo"
+        },
+        "Done": "Ugqibile"
+    },
+    "profile": {
+        "Title": "Inkangeleko yesimo",
+        "Male": "Indoda",
+        "Female": "Ibhinqa",
+        "Other": "Okunye",
+        "dating": {
+            "Interested": "Ndinomdla",
+            "NotInterested": "Andinamdla",
+            "MatchmakerOnly": "Umlingane kuphela"
+        },
+        "StartConversation": "Qalisa Incoko",
+        "blockUser": "Vala lo msebenzisi",
+        "blockUserAlert": "Awusayi kuphinda ubone eminye imiyalezo kulo msebenzisi de umvule.",
+        "unblockUser": "Vulela lo msebenzisi",
+        "addToContacts": "Yongeza kubafowunelwa",
+        "manageLabels": "Lawula iileyibhile",
+        "inviteUsers": "Mema Abasebenzisi",
+        "selectRole": "Khetha indima",
+        "inviteSuccess": "Umenywe ngempumelelo umsebenzisi njengo {{label}}",
+        "invite": "Mema",
+        "relationships": "Ubudlelwane",
+        "newRole": "Indima entsha",
+        "about": "Malunga",
+        "people": "Abantu",
+        "info": "Ulwazi",
+        "interests": "Imidla",
+        "chat": "Ncokola",
+        "locations": "Iindawo",
+        "ManageRoles": "Lawula iindima",
+        "aboutPlaceholder": "Ungubani kwaye wenza ntoni? Xelela abantu into enomdla okanye ekhethekileyo ngawe.",
+        "explanation": "Iprofayile yakho ikunceda ukuba ufanise ngcono nabanye abantu kwimisebenzi yeqela.<br> Nceda ufake usuku lwakho lokuzalwa",
+        "chats": {
+            "placeholder": "Yitsho into"
+        },
+        "LogOut": "Phuma",
+        "MyLinks": "Unxulumano lwam",
+        "MyJobs": "Imisebenzi Yam",
+        "MySocial": "MySocial",
+        "MyEducation": "Imfundo yam",
+        "JobsPlaceholder": "Chwetheza apha ulwazi lwemisebenzi",
+        "EducationPlaceholder": "Chwetheza apha ulwazi lwemfundo",
+        "ManageNotifications": "Lawula Izaziso",
+        "YourPreferredLanguage": "Ulwimi olukhethileyo"
+    },
+    "myqr": {
+        "Title": "QR yam"
+    },
+    "composer": {
+        "createCommunity": "Yenza uluntu",
+        "inviteAdmin": "Mema Admin",
+        "inviteMember": "Mema iLungu",
+        "newCommunityTitle": "Igama loluntu",
+        "setCommunityTitle": "Igama loluntu",
+        "creditsChargeRequest": "Ngaba uyavuma ukuchitha {{price}} iikhredithi?",
+        "yes": "Ewe",
+        "no": "Hayi"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Wamkelekile! Nceda uqinisekise idilesi yemeyile yakho.",
+        "WelcomeVerifyEmail": "Wamkelekile! Qinisekisa idilesi yemeyile yakho.",
+        "ForgetPass": "Hee, ulibele ibinzana lakho lokugqithisa?",
+        "ManageEmailSubscriptions": "lawula imirhumo yakho ye-imeyile",
+        "IfUnsubscribe": "Ukuba ufuna ukuyeka ukubhalisa"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Wamkelekile kwi {{CommunityName}}. Le app iya kukunceda uqhagamshelane nabahlobo, ufumane abantu abatsha abanomdla ofanayo, kunye nokunye okuninzi. Masiqalise!"
+            },
+            "icon": {
+                "Commentary": "Seta ifoto yakho. Yile ndlela abantu baya kukubona ngayo kwindawo."
+            },
+            "interests": {
+                "Commentary": "Okukhona ukhetha izinto ezininzi, kokukhona abantu abaninzi onokudibana nabo.",
+                "Notifications": "Kufuneka uvumele izaziso"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Izaziso zikuvumela ukuba wazi ngezinto onomdla kuzo, njengaxa umhlobo wakho engena kwi-app, okanye akuthumelele imiyalezo."
+        },
+        "invite": "{{Q.words.TapOrClick}} apha ukubona ukuba ungabelana njani nabanye abantu."
+    },
+    "payment": {
+        "onContribute": "Enkosi! Intlawulo yakho igqithile. Ngaba ungathanda ukumema abahlobo bakho ukuba bakujoyine?"
+    },
+    "featureboard": {
+        "Text_1": "Ilizwi lakho maliviwe! Uyavuma ukuba kufuneka siphuhlise uphawu okanye ibug? Cofa iqhosha ukuze uyixhase.",
+        "Text_2": "Ngaba ufuna ukuba siphuhlise into entsha? Yichaze apha ngezantsi.",
+        "Text_3": "Rhoqo ngeveki siqala ukuphuhlisa inqaku elicelwe kakhulu luluntu. Yonke imali enikezelweyo iya kuloo njongo, isivumela ukuba senze iapp ibengcono.",
+        "Text_4": "Yonke imali ekhoyo isetyenziselwa ukuhlawula iindleko zethu zophuhliso.",
+        "Text_5": "Ngaba unombono wenqaku okanye ulungiso lwebug ofuna siyenze kodwa awukababoni abanye besongeza? Yichaze ngezantsi:",
+        "Options": [
+            {
+                "text": "$400 ixesha lokwenene videoconferencing"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$200 Ulwazi lobhaliso Primary"
+            },
+            {
+                "text": "$130 Khangela kwaye wabelane amawaka {{1}} memes",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 Lawula uluntu lwakho",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Lungisa iincoko bug",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Cela Uphawu olutsha\/ulungiso lweBug",
+        "FeaturePlaceholder": "Isishwankathelo esifutshane sesici",
+        "FeatureDescription": "Chaza ukuba omnye umntu unokuphinda avelise njani ibug oyibonayo, okanye achaze ngokweenkcukacha into ofuna ukuyakha",
+        "AddYourRequest": "Yongeza isicelo sakho",
+        "NewFeature": "Uphawu Olutsha"
+    },
+    "contribute": {
+        "ContributeExplanation": "Nceda ukuxhasa uphuhliso oluqhubekayo lwe- {{communityName}} app. Yonke iminikelo yakho inceda ukulungisa iingxaki kunye nokuphuhlisa iimpawu ezintsha ukunceda ukukhulisa uluntu olukwi-intanethi!",
+        "ReasonToContribute": "Le app igcinwa ngabaxhasi be {{communityName}}. Nceda uxhase le app ukuze senze umahluko kubomi babantu!"
+    },
+    "assetshistory": {
+        "Title": "Imbali yee-asethi",
+        "Charges": "Iintlawulo",
+        "Credits": "Iikhredithi"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Susa iakhawunti",
+            "content": "Ngaba uyafuna ukususa le akhawunti?",
+            "ok": "Ewe",
+            "cancel": "Hayi"
+        }
+    },
+    "import": {
+        "fileNotFound": "Uxolo, ifayile ye-CSV ayifunyenwanga.",
+        "fileEmpty": "Uxolo, ifayile ye-CSV ayinanto.",
+        "userIdNotFound": "umsebenzisi ukhona kodwa id ayinanto",
+        "errorLine": "umgca {{1}}",
+        "fieldNotFound": "Indawo efunekayo &quot;{999}}&quot; ayifunyenwanga",
+        "taskStreamInvalid": "umsebenzi awusebenzi",
+        "instructionsEmpty": "imiyalelo yomjelo womsebenzi ayinanto",
+        "complete": "Gqibezela",
+        "activateUsers": "thumela umyalezo wokuvula kubasebenzisi?",
+        "importProgress": "Inkqubela phambili",
+        "joinEventLabel": "Joyina abasebenzisi kwisiganeko esingaqhelekanga",
+        "importOptions": "Iinketho",
+        "sampleCSV": "Khuphela isampuli ye-CSV",
+        "fileLabel": "Layisha Ispreadsheet:",
+        "errorsTitle": "Iimpazamo zenzekile",
+        "communityUsers": "Olu luluhlu loluntu",
+        "setAsConversation": "Uluhlu lwe-URL njengencoko",
+        "toMainCommunityToo": "yongeza abasebenzisi kuluntu oluphambili kakhulu",
+        "willImportedTo": "Abasebenzisi baya kuthunyelwa kuluntu"
+    }
+}

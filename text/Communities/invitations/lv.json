@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Jūs esat uzaicināts",
+        "Member": "Dalībnieks vietnē {{title}}",
+        "Explanation": "{{1}} ar prieku paziņo par mūsu jaunās vietnes atklāšanu. Tas ietver arvien lielāku funkciju sarakstu, piemēram:",
+        "Public": "Publiskā informācija par {{1}}",
+        "Private": "Privāts lietotāja konts katram dalībniekam",
+        "Notifications": "Ievadot savu e-pasta adresi vai mobilā tālruņa numuru, jūs varēsiet saņemt svarīgus paziņojumus e-pastā vai īsziņā.",
+        "GetStarted": "Lai sāktu, savā tīmekļa pārlūkprogrammā <em>uzmanīgi<\/em> ievadiet:<br>",
+        "IssuedToYou": "Šis kods ir īpaši izsniegts jums."
+    }
+}

@@ -1,0 +1,362 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> waxba farta kuma tilmaamayo!",
+        "NextSteps": "Isticmaal liiska muhiimka ah si aad u hesho waxaad raadinayso."
+    },
+    "dashboard": {
+        "Menu": "Menu"
+    },
+    "greeting": {
+        "Welcome": "Ku soo dhawoow {{1}} Halkan waxa aad ka heli doontaa waxyaabo lagu dhejiyay xubnaha bulshadayada. Fadlan ku dar ciwaanka emailkaaga ama nambarka gacanta si aad u hesho ogaysiisyada marka ogaysiisyada la soo dhejiyo."
+    },
+    "conversations": {
+        "Title": "Wada sheekeysiga",
+        "New": "Sheeko Cusub",
+        "Conversation": "Wada sheekeysi",
+        "Topics": "Mowduucyada",
+        "NoneYet": "Weli wada hadal lama samayn",
+        "newConversations": "{{1}} sheeko cusub",
+        "AllAuthors": "Dhammaan Qorayaasha",
+        "FilterbyAuthors": "Shaandhee by Qorayaasha",
+        "FilterAuthorPlaceHolder": "Raadi qorayaal dheeri ah...",
+        "filterConversations": "Ku shaandhee qoraal ahaan",
+        "Description": "{{1}} wada hadal"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Dooro mawduuc",
+            "Share": "La wadaag",
+            "interest": {
+                "Title": "Dooro Waxqabad",
+                "Filter": "Raadi danaha..."
+            }
+        },
+        "Title": "Sheeko Cusub",
+        "TitlePlaceholder": "Mawduuca sheekadaada",
+        "ContentPlaceholder": "Qor dhawr kelmadood si aad u bilowdo wada hadalka, si ay kuwa kale uga jawaabaan",
+        "StartButton": "Bilow wada sheekeysiga"
+    },
+    "events": {
+        "Title": "Dhacdooyinka",
+        "filterByTitle": "Ku hel dhacdooyinka cinwaan ahaan",
+        "New": "+ Bilow dhacdo Cusub",
+        "filterEvents": "Kala sooc dhacdooyinka",
+        "NewEvent": "Dhacdo Cusub",
+        "SetLocation": "Deji goobtayda",
+        "NoneYet": "Weli dhacdooyin lama samayn<br> xilliyadan.",
+        "AllAuthors": "Dhammaan Qorayaasha",
+        "AllDays": "Maalmaha oo dhan",
+        "AllLocations": "Dhammaan Goobaha",
+        "MakeReservation": "Boos sii qabsi",
+        "CancelReservation": "Jooji Boos sii qabsiga",
+        "UpdateReservation": "Cusbooneysii Boos sii qabsi",
+        "AreYouSure": "Ma hubtaa?",
+        "YouWillRefunded": "Waxaa lagugu soo celin doonaa qaab credits aad ku bixin karto waxyaabaha kale ee abka.",
+        "AllInterests": "Dhammaan Danaha",
+        "FilterbyInterest": "Ku kala shaandhee Dan",
+        "FilterByDate": "Ku Shaandhayso Taariikhda",
+        "ShowActivities": "Muuji hawlaha la xidhiidha . . .",
+        "newEvents": "Waxaad haysataa {{1}} dhacdooyin cusub",
+        "SelectLocation": "Dooro Goobta",
+        "FilterLocationsPlaceHolder": "Shaandhee meelaha...",
+        "Description": "{{1}} dhacdooyin",
+        "Keywords": "{{1}} dhacdooyin"
+    },
+    "schedule": {
+        "Title": "Jadwalka",
+        "NoneYet": "kama qayb qaadanaysid wax dhacdo ah",
+        "AddSome": "Ku dar qaar jadwalkaaga!",
+        "AddMore": "Ku dar dhacdooyinka jadwalkaaga!",
+        "future": "mustaqbalka",
+        "past": "la soo dhaafay"
+    },
+    "location": {
+        "Title": "Goobta",
+        "NewLocation": "Goob Cusub"
+    },
+    "inbox": {
+        "Title": "Inbox",
+        "NoneYet": "Ka qaybgeli maysid wax wada hadal ah",
+        "FindPeople": "Raadi dad aad la hadasho",
+        "GroupConversations": "Ku biir qaar ka mid ah wada sheekaysiga kooxda",
+        "ContactStaff": "Xiriirinta Shaqaalaha",
+        "ContactCustomers": "La xidhiidh Macaamiisha"
+    },
+    "me": {
+        "Title": "Aniga",
+        "MobileNumber": "Nambarka taleefonka",
+        "EmailAddress": "Cinwaanka emailka",
+        "UpdateSocialTitle": "Cusbooneysii {{1}} magaca isticmaale"
+    },
+    "people": {
+        "Title": "Dadka",
+        "Description": "Dadka ku jira {{1}} bulshada",
+        "AppAlert": "App-kan ku jira dukaanka app-ka ayaa kuu ogolaanaya inaad la xiriirto asxaabtaada, iyo wax ka badan.",
+        "Invite": "Casuum asxaabta",
+        "BuyCredits": "Soo iibso credits",
+        "FindSomeoneByName": "Raadi qof magaciisa",
+        "SearchByName": "Magac ku raadi",
+        "FindAllMyFriends": "Hel Dhammaan Asxaabtayda",
+        "labels": {
+            "All": "Qof walba",
+            "Title": "Ku kala shaandhee Xiriirka",
+            "New": "Nooca Xiriirka Cusub"
+        },
+        "interests": {
+            "All": "Dhammaan Danaha",
+            "Title": "Ku kala shaandhee Dan",
+            "Filter": "Tus dadka xiiseeya . . ."
+        },
+        "Keywords": "{{1}} bulshada"
+    },
+    "communities": {
+        "Title": "Bulshooyinka",
+        "NewCommunity": "Bulshada Cusub",
+        "FindCommunityByName": "U hel magaca beesha",
+        "Description": "{{1}} bulshooyinka"
+    },
+    "community": {
+        "Title": "{{1}} Bulshada",
+        "Roles": "Doorarka",
+        "AllRoles": "Dhammaan Doorarka",
+        "YouDontHavePermission": "Laguuma oggola inaad tan samayso",
+        "usernamePlaceholder": "dhigay magaca beesha",
+        "NotEnoughCredits": "Ma haysatid dhibco kugu filan si aad u abuurto bulsho. Baahan {{1}}, waxaad haysataa {{2}}"
+    },
+    "event": {
+        "GetDirections": "Hel Tilmaamo",
+        "WhichMap": "Maabkee baad jeceshahay inaad isticmaasho?",
+        "JoinEventToChat": "Ku biir dhacdada si aad u sheekeysato",
+        "promote": {
+            "Title": "Kor u qaad dhacdadan",
+            "Prompt": "Dooro meesha aad jeceshahay inaad ku xayaysiiso dhacdadan:"
+        },
+        "Confirmation": "Xaqiijinta"
+    },
+    "newEvent": {
+        "Title": "Qorshee Dhacdo Cusub"
+    },
+    "interests": {
+        "Title": "Danaha",
+        "prompt": "Dooro noocyada waxyaabaha aad jeclaan lahayd inaad ka ogaato.",
+        "explanation": "Inta badan ee aad doorato, waxay u badan tahay inaad la xiriirto dadka isku fikirka ah.",
+        "filter": "Maxaad xiisaynaysaa?",
+        "Profile": "Danaha wadaagga ah ayaa la iftiimiyay. Haddii aad sidoo kale leedahay mid ama in ka badan oo danaha hoose ah, waxaad kartaa {999}} inaad ku darto."
+    },
+    "credits": {
+        "Title": "credits",
+        "EarnCredits": "U hel dhibcaha {{1}} qof kasta oo cusub oo aad casuunto kaasoo ku soo biira abka",
+        "YouHave": "Waxaad haysataa {999} credits"
+    },
+    "onboarding": {
+        "Tap": "Taabo",
+        "Click": "Guji",
+        "Yes": "Haa",
+        "No": "Maya",
+        "Skip": "ama tan ka gudub",
+        "name": {
+            "Preface": "Ku soo DHAWOOW",
+            "Placeholder": "Geli magacaaga oo buuxa",
+            "GetStarted": "Bilow",
+            "AsGuest": "Marti ayaa lagugu casuumay",
+            "AsMember": "Waxa lagugu martiqaaday xubin ahaan",
+            "AsAdmin": "Waxaa lagugu casuumay maamule ahaan.",
+            "AsOwner": "Waxaa lagugu casuumay mulkiile ahaan.",
+            "TooShort": "Magacaaga oo buuxa ma noqon karo mid gaaban",
+            "SetAsYourFullName": "U dhig {{1}} sidii magacaaga oo buuxa?"
+        },
+        "icon": {
+            "KeepDefault": "ama hayso sawirkan",
+            "SetYourPhoto": "{{ClickOrTap}} si loo dejiyo sawirkaaga:"
+        },
+        "interests": {
+            "GetStarted": "⇩ Bilow",
+            "NextCategory": "↓ Xiga",
+            "Continue": "Sii wad",
+            "Instructions": "Mid kasta oo ka mid ah qaybaha soo socda {{1}}<br> {{2}}dhammaan hawlaha aad xiisaynayso<br> Tani waa sida aad ula xiriirto dadka kale ee bulshada."
+        },
+        "profile": {
+            "Profile": "Xogta guud waxay ka caawisaa dadka inay wax badan kaa ogaadaan.<br>",
+            "Birthday": "Fadlan geli dhalashadaada:",
+            "Placeholder": "yaa tahay maxaadse qabataa? U sheeg dadka wax xiiso leh ama gaar ah oo adiga kugu saabsan.",
+            "Required": "Si aad u sii waddo, qor ugu yaraan dhawr sadar oo naftaada ah.",
+            "Month": "Bisha",
+            "Day": "Maalinta",
+            "Year": "Sannadka",
+            "Gender": "Jinsiga",
+            "Male": "Lab",
+            "Female": "Dheddig",
+            "Other": "Mid kale",
+            "Height": "Dhererka",
+            "Affiliation": "Xidhiidhka",
+            "Dating": "Shukaansi",
+            "Interested": "Xiiseynaya",
+            "NotInterested": "Aan Xiiseyn",
+            "MatchmakerOnly": "Matchmaker Keliya"
+        },
+        "location": {
+            "NoOneElse": "Cid kale ma arki doonto.",
+            "SetMyLocation": "Deji goobtayda"
+        },
+        "pile": {
+            "DialogTitle": "Dadka danaha guud leh"
+        },
+        "Done": "La sameeyay"
+    },
+    "profile": {
+        "Title": "Profile",
+        "Male": "Lab",
+        "Female": "Dheddig",
+        "Other": "Mid kale",
+        "dating": {
+            "Interested": "Xiiseynaya",
+            "NotInterested": "Ma xiisaynayo",
+            "MatchmakerOnly": "Sameeyaha kaliya"
+        },
+        "StartConversation": "Bilow Wadahadal",
+        "blockUser": "Jooji isticmaalahan",
+        "blockUserAlert": "Ma arki doontid farriimo dambe oo ka yimaadda isticmaalahan ilaa aad ka furto iyaga.",
+        "unblockUser": "Jooji isticmaale kan",
+        "addToContacts": "Kudar Xiriirada",
+        "manageLabels": "Maamul Calaamadaha",
+        "inviteUsers": "Ku martiqaad Isticmaalayaasha",
+        "selectRole": "Dooro Doorka",
+        "inviteSuccess": "Si guul leh loogu martiqaaday isticmaale sida {{label}}",
+        "invite": "martiqaad",
+        "relationships": "Xiriirka",
+        "newRole": "Door Cusub",
+        "about": "Ku saabsan",
+        "people": "Dadka",
+        "info": "Xog",
+        "interests": "Danaha",
+        "chat": "Sheekaysi",
+        "locations": "Goobaha",
+        "ManageRoles": "Maamul doorarka",
+        "aboutPlaceholder": "yaa tahay maxaadse qabataa? U sheeg dadka wax xiiso leh ama gaar ah oo adiga kugu saabsan.",
+        "explanation": "Xog-ururintaadu waxay kaa caawinaysaa inaad si fiican ula mid noqoto dadka kale hawlaha kooxda.<br> Fadlan gali dhalashadaada",
+        "chats": {
+            "placeholder": "Wax dheh"
+        },
+        "LogOut": "Ka bax",
+        "MyLinks": "Xiriirradayda",
+        "MyJobs": "Shaqooyinkayga",
+        "MySocial": "MySocial",
+        "MyEducation": "Waxbarashadayda",
+        "JobsPlaceholder": "Halkan ku qor macluumaadka shaqooyinka",
+        "EducationPlaceholder": "Halkan ku qor macluumaadka waxbarashada",
+        "ManageNotifications": "Maamul Ogeysiinta",
+        "YourPreferredLanguage": "Luuqada aad door bidayso"
+    },
+    "myqr": {
+        "Title": "QR-kayga"
+    },
+    "composer": {
+        "createCommunity": "Abuur Bulsho",
+        "inviteAdmin": "Martiqaad maamulaha",
+        "inviteMember": "Martiqaad Xubinta",
+        "newCommunityTitle": "Magaca Beesha",
+        "setCommunityTitle": "Magaca Beesha",
+        "creditsChargeRequest": "Ma ogolaatay inaad kharash garayso {{price}} credits?",
+        "yes": "Haa",
+        "no": "Maya"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Soo dhawoow! Fadlan xaqiiji ciwaanka emailkaaga",
+        "WelcomeVerifyEmail": "Soo dhawoow! Xaqiiji ciwaanka emailkaaga",
+        "ForgetPass": "Haye, ma illowday eraygaaga sirta ah?",
+        "ManageEmailSubscriptions": "maamul isdiiwaangelintaada iimaylka",
+        "IfUnsubscribe": "Hadii aad rabto in aad iska saarto"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Ku soo dhawoow {{CommunityName}} App-kan ayaa kaa caawin doona inaad saaxiibada la xidhiidho, ogaato dad cusub oo dano wadaag ah, iyo wax badan oo kale. Aan bilowno!"
+            },
+            "icon": {
+                "Commentary": "Dhig sawirkaaga. Sidan ayay dadku kuugu arki doonaan goobta."
+            },
+            "interests": {
+                "Commentary": "Alaabta badan ee aad doorato, dad badan oo aad la kulmi karto.",
+                "Notifications": "Waxaad u baahan tahay inaad ogolaato ogeysiisyada"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Ogeysiisyadu waxay kuu oggolaanayaan inaad wax ka ogaato waxyaabaha aad xiisaynayso, sida marka saaxiib ku soo biiro app-ka, ama fariimahaaga."
+        },
+        "invite": "{{Q.words.TapOrClick}} halkan si aad u aragto sida aad tan dadka kale ula wadaagi karto."
+    },
+    "payment": {
+        "onContribute": "Mahadsanid! Lacag bixintaadu way soo martay. Ma jeclaan lahayd inaad ku casuunto asxaabtaada inay kugu soo biiraan?"
+    },
+    "featureboard": {
+        "Text_1": "Codkaaga ha la maqlo! Ma ogolatay inaan horumarino sifo ama bug? Guji badhanka si aad u taageerto.",
+        "Text_2": "Ma doonaysaa inaan horumarino muuqaal cusub? Hoos ku sifee",
+        "Text_3": "Toddobaad kasta waxaan bilownaa inaan horumarino qaabka ugu sarreeya ee bulshadu codsato. Dhammaan lacagta lagu darsado waxay ku socotaa ujeeddadaas, taasoo noo oggolaanaysa inaan ka dhigno app-ka mid wanagsan.",
+        "Text_4": "Dhammaan lacagaha lagu deeqo waxa loo isticmaalaa in lagu caawiyo bixinta kharashaadka horumarintayada.",
+        "Text_5": "Miyaad fikrad u haysaa sifo ama bugfix aad rabto inaanu samayno laakiin aadan weli arag kuwa kale oo ku dara? Hoos ku sifee:",
+        "Options": [
+            {
+                "text": "$ 400 wakhtiga dhabta ah ee shirarka fiidiyowga"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$200 xogta diiwaangelinta aasaasiga ah ee deegaanka"
+            },
+            {
+                "text": "$130 Baadh oo wadaag kumanaan {{1}} memes ah",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 Maamul bulshooyinkaaga",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Hagaaji cilada wada sheekaysiga",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Codso Muuqaal Cusub\/Bugfix",
+        "FeaturePlaceholder": "Sifada oo kooban",
+        "FeatureDescription": "Sharax sida qof kale u soo saari karo cayayaanka aad arkayso, ama si faahfaahsan u sharax sifada aad rabto inaad dhisto",
+        "AddYourRequest": "Kudar Codsigaga",
+        "NewFeature": "Muuqaal Cusub"
+    },
+    "contribute": {
+        "ContributeExplanation": "Caawi taageerada sii wadida horumarinta {{communityName}} abka. Dhammaan wax ku biirintaadu waxay caawiyaan hagaajinta dhiqlaha iyo horumarinta sifooyin cusub si ay u koraan bulshada khadka!",
+        "ReasonToContribute": "Abkan waxa gacanta ku haya taageerayaasha {{communityName}} Caawi taageer app-kan si aan wax uga bedelno nolosha dadka!"
+    },
+    "assetshistory": {
+        "Title": "Taariikhda hantida",
+        "Charges": "Eedeymaha",
+        "Credits": "credits"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Ka saar akoontiga",
+            "content": "Ma rabtaa inaad ka saarto akoonkan?",
+            "ok": "Haa",
+            "cancel": "Maya"
+        }
+    },
+    "import": {
+        "fileNotFound": "Waan ka xunahay, faylka CSV lama helin.",
+        "fileEmpty": "Waan ka xunahay, faylka CSV waa faaruq.",
+        "userIdNotFound": "isticmaaluhu wuu jiraa laakiin id madhan",
+        "errorLine": "line {{1}}",
+        "fieldNotFound": "Goobta loo baahan yahay &quot;{{1}}&quot; lama helin",
+        "taskStreamInvalid": "socodka hawsha ma ansaxayo",
+        "instructionsEmpty": "durdurka hawsha tilmaamaha maran",
+        "complete": "Dhameystiran",
+        "activateUsers": "u dir fariin kicin isticmaalayaasha?",
+        "importProgress": "Horumarka",
+        "joinEventLabel": "Ku biir isticmaalayaasha dhacdada aan tooska ahayn",
+        "importOptions": "Ikhtiyaarada",
+        "sampleCSV": "Soo deji Tusaalaha CSV",
+        "fileLabel": "Soo rar xaashida faafinta:",
+        "errorsTitle": "Khaladaad ayaa dhacay",
+        "communityUsers": "Kani waa liiska beelaha",
+        "setAsConversation": "Tiirka URL wada hadal ahaan",
+        "toMainCommunityToo": "ku dar isticmaalayaasha bulshada guud sidoo kale",
+        "willImportedTo": "Isticmaalayaasha waxaa loo soo dhoofin doonaa bulshada"
+    }
+}

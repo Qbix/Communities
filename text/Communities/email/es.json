@@ -1,0 +1,33 @@
+{
+    "activation": {
+        "Thanks": "Bienvenido a {{1}}",
+        "ReallyYourEmail": "¿Es esta realmente tu dirección de correo electrónico, {{1}}? Si es así, haga clic <a href='{{2}}'>aquí<\/a> para configurar su contraseña y activar su cuenta.",
+        "SeeYou": "¡Nos vemos el <a href='{{1}}'>{{2}}<\/a> !",
+        "Subject": "¡Bienvenidos! Por favor verifique su dirección de correo electrónico."
+    },
+    "LinkToUnsubscribe": "Aquí hay un enlace para <a href='{{1}}'>darse<\/a> de baja si no desea recibir más correos electrónicos.",
+    "Greetings": "Saludos desde {{1}}.",
+    "SeeHistory": "Ver el historial de pagos de {{1}}",
+    "charge": {
+        "HasBeenCharged": "Oye, esto es solo para informarte que {{1}} ha cobrado {{2}} por {{3}} por {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hola {{1}}, esto es solo una confirmación rápida de que has pagado con éxito {{2}} a {{3}} por {{4}}"
+    },
+    "resend": {
+        "Thanks": "Gracias por visitar {{1}}",
+        "YouAreReceiving": "Has recibido este correo electrónico porque alguien ingresó tu dirección de correo electrónico e hizo clic en &quot;Olvidé mi contraseña&quot;. Si no fuiste tú, simplemente ignora este mensaje.",
+        "Reset": "Para restablecer su frase de contraseña, haga clic en {{1}}",
+        "SetUpPassphrase": "Configurar frase de contraseña",
+        "DomainCode": "Si la página web ya está abierta en su navegador, puede ingresar el código",
+        "Subject": "Oye, ¿olvidaste tu contraseña?"
+    },
+    "subscription": {
+        "YouHaveStarted": "Hola {{1}}, comenzaste tu suscripción a {{2}} con {{3}} a las {{4}} por {{5}} meses.",
+        "HasStarted": "Esto es solo para informarle {{1}}, ha comenzado su suscripción a {{2}} con {{3}} en {{4}} por {{5}} meses."
+    },
+    "SeeYou": "¡Nos vemos el {{1}}!",
+    "identifier": {
+        "Subject": "¡Bienvenidos! Verifique su dirección de correo electrónico."
+    }
+}

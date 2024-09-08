@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "An gayyace ku",
+        "Member": "Memba a {{title}}",
+        "Explanation": "{{1}} na farin cikin sanar da ƙaddamar da sabon gidan yanar gizon mu. Ya haɗa da lissafin girma na fasali, kamar:",
+        "Public": "Bayanin jama&#39;a game da {{1}}",
+        "Private": "Asusun mai amfani mai zaman kansa ga kowane memba",
+        "Notifications": "Ta shigar da adireshin imel ɗinku ko lambar wayar hannu za ku sami damar karɓar mahimman sanarwa ta imel ko saƙon rubutu.",
+        "GetStarted": "Don farawa, a cikin burauzar gidan yanar gizonku da fatan za a shigar da <em>hankali<\/em> a hankali:<br>",
+        "IssuedToYou": "An bayar da wannan lambar musamman gare ku."
+    }
+}

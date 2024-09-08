@@ -1,0 +1,362 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> hech narsaga ishora qilmaydi!",
+        "NextSteps": "Qidirayotgan narsangizni topish uchun asosiy menyudan foydalaning."
+    },
+    "dashboard": {
+        "Menu": "Menyu"
+    },
+    "greeting": {
+        "Welcome": "{{1}} ga xush kelibsiz. Bu yerda siz bizning hamjamiyatimiz a&#39;zolari uchun e&#39;lon qilingan narsalarni topasiz. Iltimos, e&#39;lonlar e&#39;lon qilinganda bildirishnomalarni olish uchun elektron pochta manzilingizni yoki mobil raqamingizni qo&#39;shing."
+    },
+    "conversations": {
+        "Title": "Suhbatlar",
+        "New": "Yangi suhbat",
+        "Conversation": "Suhbat",
+        "Topics": "Mavzular",
+        "NoneYet": "Hozircha hech qanday suhbat tuzilmagan",
+        "newConversations": "{{1}} ta yangi suhbat",
+        "AllAuthors": "Barcha mualliflar",
+        "FilterbyAuthors": "Mualliflar boʻyicha filtrlash",
+        "FilterAuthorPlaceHolder": "Qo&#39;shimcha mualliflarni qidirish...",
+        "filterConversations": "Matn bo&#39;yicha filtrlash",
+        "Description": "{{1}} ta suhbat"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Mavzuni tanlang",
+            "Share": "Ulashish",
+            "interest": {
+                "Title": "Faoliyatni tanlang",
+                "Filter": "Qiziqishlarni qidirish ..."
+            }
+        },
+        "Title": "Yangi suhbat",
+        "TitlePlaceholder": "Suhbatingiz mavzusi",
+        "ContentPlaceholder": "Boshqalar javob berishi uchun suhbatni boshlash uchun bir necha so&#39;z yozing",
+        "StartButton": "Suhbatni boshlash"
+    },
+    "events": {
+        "Title": "Voqealar",
+        "filterByTitle": "Sarlavha bo&#39;yicha voqealarni toping",
+        "New": "+ Yangi tadbirni boshlash",
+        "filterEvents": "Hodisalarni filtrlash",
+        "NewEvent": "Yangi voqea",
+        "SetLocation": "Mening joylashuvimni o&#39;rnating",
+        "NoneYet": "Hali hech qanday tadbir shakllanmagan<br> bu vaqtlarda.",
+        "AllAuthors": "Barcha mualliflar",
+        "AllDays": "Barcha kunlar",
+        "AllLocations": "Barcha Joylar",
+        "MakeReservation": "Rezervasyon qiling",
+        "CancelReservation": "Rezervasyonni bekor qilish",
+        "UpdateReservation": "Rezervasyonni yangilash",
+        "AreYouSure": "Ishonchingiz komilmi?",
+        "YouWillRefunded": "Sizga ilovadagi boshqa narsalarga sarflashingiz mumkin bo&#39;lgan kreditlar ko&#39;rinishida qaytariladi.",
+        "AllInterests": "Barcha qiziqishlar",
+        "FilterbyInterest": "Qiziqish bo&#39;yicha filtrlash",
+        "FilterByDate": "Sana boʻyicha filtrlash",
+        "ShowActivities": "bilan bog&#39;liq faoliyatni ko&#39;rsatish. . .",
+        "newEvents": "Sizda {{1}} ta yangi tadbir bor",
+        "SelectLocation": "Joyni tanlang",
+        "FilterLocationsPlaceHolder": "Joylarni filtrlash...",
+        "Description": "{{1}} ta tadbir",
+        "Keywords": "{{1}} ta tadbir"
+    },
+    "schedule": {
+        "Title": "Jadval",
+        "NoneYet": "Siz hech qanday tadbirda ishtirok etmayapsiz",
+        "AddSome": "Jadvalingizga bir oz qo&#39;shing!",
+        "AddMore": "Jadvalingizga tadbirlar qo&#39;shing!",
+        "future": "kelajak",
+        "past": "o&#39;tgan"
+    },
+    "location": {
+        "Title": "Manzil",
+        "NewLocation": "Yangi joylashuv"
+    },
+    "inbox": {
+        "Title": "Kiruvchi quti",
+        "NoneYet": "Siz hech qanday suhbatda ishtirok etmayapsiz",
+        "FindPeople": "Suhbatlashish uchun odamlarni toping",
+        "GroupConversations": "Guruh suhbatlariga qo&#39;shiling",
+        "ContactStaff": "Xodimlar bilan bog&#39;lanish",
+        "ContactCustomers": "Mijozlarga murojaat qiling"
+    },
+    "me": {
+        "Title": "Men",
+        "MobileNumber": "Mobil telefon raqami",
+        "EmailAddress": "Elektron pochta manzili",
+        "UpdateSocialTitle": "{{1}} foydalanuvchi nomini yangilang"
+    },
+    "people": {
+        "Title": "Odamlar",
+        "Description": "{{1}} hamjamiyatdagi odamlar",
+        "AppAlert": "Ilovalar do&#39;konidagi ushbu ilova sizga do&#39;stlaringiz bilan va yana ko&#39;p narsalar bilan bog&#39;lanish imkonini beradi.",
+        "Invite": "Do&#39;stlarni taklif qiling",
+        "BuyCredits": "Kredit sotib oling",
+        "FindSomeoneByName": "Ismi bo&#39;yicha kimnidir toping",
+        "SearchByName": "Ism bo&#39;yicha qidirish",
+        "FindAllMyFriends": "Mening barcha do&#39;stlarimni toping",
+        "labels": {
+            "All": "Hamma",
+            "Title": "Munosabatlar bo&#39;yicha filtrlash",
+            "New": "Yangi munosabatlar turi"
+        },
+        "interests": {
+            "All": "Barcha qiziqishlar",
+            "Title": "Qiziqish bo&#39;yicha filtrlash",
+            "Filter": "Qiziqqan odamlarni ko&#39;rsating. . ."
+        },
+        "Keywords": "{{1}} kishilik hamjamiyat"
+    },
+    "communities": {
+        "Title": "Jamiyatlar",
+        "NewCommunity": "Yangi hamjamiyat",
+        "FindCommunityByName": "Jamiyatni nomi bo&#39;yicha toping",
+        "Description": "{{1}} hamjamiyat"
+    },
+    "community": {
+        "Title": "{{1}} Hamjamiyat",
+        "Roles": "Rollar",
+        "AllRoles": "Barcha rollar",
+        "YouDontHavePermission": "Buni qilishga ruxsatingiz yo‘q",
+        "usernamePlaceholder": "hamjamiyat nomini o&#39;rnating",
+        "NotEnoughCredits": "Hamjamiyat yaratish uchun kreditlaringiz yetarli emas. {{1}} kerak, sizda {{2}}"
+    },
+    "event": {
+        "GetDirections": "Yoʻnalishlarni oling",
+        "WhichMap": "Qaysi xaritalardan foydalanmoqchisiz?",
+        "JoinEventToChat": "Suhbatlashish uchun tadbirga qo&#39;shiling",
+        "promote": {
+            "Title": "Ushbu tadbirni targ&#39;ib qiling",
+            "Prompt": "Ushbu tadbirni targʻib qilmoqchi boʻlgan joyni tanlang:"
+        },
+        "Confirmation": "Tasdiqlash"
+    },
+    "newEvent": {
+        "Title": "Yangi tadbirni rejalashtirish"
+    },
+    "interests": {
+        "Title": "Qiziqishlar",
+        "prompt": "Siz bilmoqchi bo&#39;lgan narsalar turlarini tanlang.",
+        "explanation": "Qanchalik ko&#39;p qiziqishlarni tanlasangiz, hamfikrlar bilan bog&#39;lanish ehtimoli shunchalik yuqori bo&#39;ladi.",
+        "filter": "Sizni nima qiziqtiradi?",
+        "Profile": "O&#39;zaro manfaatlar ta&#39;kidlangan. Agar sizda ham quyidagi qiziqishlardan bir yoki bir nechtasi boʻlsa, ularni qoʻshish uchun {{clickOrTap}} mumkin."
+    },
+    "credits": {
+        "Title": "Kreditlar",
+        "EarnCredits": "Ilovaga taklif qilingan har bir yangi odam uchun {{1}} kredit oling",
+        "YouHave": "Sizda {{1}} ta kredit bor"
+    },
+    "onboarding": {
+        "Tap": "ga teging",
+        "Click": "bosing",
+        "Yes": "Ha",
+        "No": "Yo&#39;q",
+        "Skip": "yoki buni o&#39;tkazib yuboring",
+        "name": {
+            "Preface": "Ga Xush kelibsiz",
+            "Placeholder": "Toʻliq ismingizni kiriting",
+            "GetStarted": "Boshlash",
+            "AsGuest": "Siz mehmon sifatida taklif qilindingiz.",
+            "AsMember": "Siz aʼzo sifatida taklif qilindingiz.",
+            "AsAdmin": "Siz administrator sifatida taklif qilindingiz.",
+            "AsOwner": "Siz egasi sifatida taklif qilindingiz.",
+            "TooShort": "To&#39;liq ismingiz bunchalik qisqa bo&#39;lishi mumkin emas",
+            "SetAsYourFullName": "{{1}} toʻliq ismingiz sifatida belgilansinmi?"
+        },
+        "icon": {
+            "KeepDefault": "yoki ushbu rasmni saqlang",
+            "SetYourPhoto": "{{ClickOrTap}} suratingizni oʻrnatish uchun:"
+        },
+        "interests": {
+            "GetStarted": "⇩ Boshlash",
+            "NextCategory": "↓ Keyingi",
+            "Continue": "Davom eting",
+            "Instructions": "Keyingi {{1}} toifalarning har birida,<br> {{2}} sizni qiziqtirgan barcha harakatlar.<br> Shu tarzda siz jamiyatdagi boshqa odamlar bilan bog&#39;lanasiz."
+        },
+        "profile": {
+            "Profile": "Sizning profilingiz odamlarga siz haqingizda ko&#39;proq ma&#39;lumot olishga yordam beradi.<br>",
+            "Birthday": "Iltimos, tug&#39;ilgan kuningizni kiriting:",
+            "Placeholder": "Siz kimsiz va nima qilasiz? Odamlarga o&#39;zingiz haqingizda qiziqarli yoki noyob narsani ayting.",
+            "Required": "Davom etish uchun o&#39;zingiz haqingizda kamida bir necha satr yozing.",
+            "Month": "Oy",
+            "Day": "kun",
+            "Year": "Yil",
+            "Gender": "Jins",
+            "Male": "Erkak",
+            "Female": "Ayol",
+            "Other": "Boshqa",
+            "Height": "Balandligi",
+            "Affiliation": "Mansublik",
+            "Dating": "Tanishuv",
+            "Interested": "Qiziq",
+            "NotInterested": "Qiziqmadim",
+            "MatchmakerOnly": "Faqat oʻyinchi"
+        },
+        "location": {
+            "NoOneElse": "Uni boshqa hech kim ko&#39;rmaydi.",
+            "SetMyLocation": "Mening joylashuvimni belgilang"
+        },
+        "pile": {
+            "DialogTitle": "Umumiy manfaatlarga ega odamlar"
+        },
+        "Done": "Bajarildi"
+    },
+    "profile": {
+        "Title": "Profil",
+        "Male": "Erkak",
+        "Female": "Ayol",
+        "Other": "Boshqa",
+        "dating": {
+            "Interested": "Qiziq",
+            "NotInterested": "Qiziqmadim",
+            "MatchmakerOnly": "Faqat matchmaker"
+        },
+        "StartConversation": "Suhbatni boshlang",
+        "blockUser": "Bu foydalanuvchini bloklash",
+        "blockUserAlert": "Bu foydalanuvchidan boshqa xabarlarni blokdan chiqarmaguningizcha ko‘rmaysiz.",
+        "unblockUser": "Ushbu foydalanuvchini blokdan chiqaring",
+        "addToContacts": "Kontaktlarga qo&#39;shish",
+        "manageLabels": "Yorliqlarni boshqarish",
+        "inviteUsers": "Foydalanuvchilarni taklif qilish",
+        "selectRole": "Rolni tanlang",
+        "inviteSuccess": "Foydalanuvchi {{label}} sifatida muvaffaqiyatli taklif qilindi",
+        "invite": "Taklif qiling",
+        "relationships": "Aloqalar",
+        "newRole": "Yangi rol",
+        "about": "Haqida",
+        "people": "Odamlar",
+        "info": "Ma&#39;lumot",
+        "interests": "Qiziqishlar",
+        "chat": "Chat",
+        "locations": "Joylar",
+        "ManageRoles": "Rollarni boshqarish",
+        "aboutPlaceholder": "Siz kimsiz va nima qilasiz? Odamlarga o&#39;zingiz haqingizda qiziqarli yoki noyob narsani ayting.",
+        "explanation": "Sizning profilingiz guruh faoliyati uchun sizni boshqa odamlar bilan yaxshiroq moslashtirishga yordam beradi.<br> Iltimos, tug&#39;ilgan kuningizni kiriting",
+        "chats": {
+            "placeholder": "Biror nima deng"
+        },
+        "LogOut": "Chiqish",
+        "MyLinks": "Mening havolalarim",
+        "MyJobs": "Mening ishlarim",
+        "MySocial": "MySocial",
+        "MyEducation": "Mening ta&#39;lim",
+        "JobsPlaceholder": "Bu yerga ish o&#39;rinlari haqida ma&#39;lumot yozing",
+        "EducationPlaceholder": "Bu yerga taʼlim maʼlumotlarini kiriting",
+        "ManageNotifications": "Bildirishnomalarni boshqarish",
+        "YourPreferredLanguage": "Siz tanlagan til"
+    },
+    "myqr": {
+        "Title": "Mening QR"
+    },
+    "composer": {
+        "createCommunity": "Hamjamiyat yaratish",
+        "inviteAdmin": "Adminni taklif qiling",
+        "inviteMember": "A&#39;zoni taklif qiling",
+        "newCommunityTitle": "Jamiyat nomi",
+        "setCommunityTitle": "Jamiyat nomi",
+        "creditsChargeRequest": "{{price}} ta kredit sarflashga rozimisiz?",
+        "yes": "Ha",
+        "no": "Yo&#39;q"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Xush kelibsiz! Iltimos, elektron pochta manzilingizni tasdiqlang.",
+        "WelcomeVerifyEmail": "Xush kelibsiz! Elektron pochta manzilingizni tasdiqlang.",
+        "ForgetPass": "Hey, parolingizni unutdingizmi?",
+        "ManageEmailSubscriptions": "elektron pochta obunalaringizni boshqaring",
+        "IfUnsubscribe": "Agar obunani bekor qilmoqchi bo&#39;lsangiz"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "{{CommunityName}} ga xush kelibsiz. Ushbu ilova sizga do&#39;stlar bilan bog&#39;lanishga, umumiy qiziqishlarga ega bo&#39;lgan yangi odamlarni kashf etishga va boshqa ko&#39;p narsalarga yordam beradi. Qani boshladik!"
+            },
+            "icon": {
+                "Commentary": "Suratingizni o&#39;rnating. Odamlar sizni saytda shunday ko&#39;rishadi."
+            },
+            "interests": {
+                "Commentary": "Qanchalik ko&#39;p narsalarni tanlasangiz, shuncha ko&#39;p odamlar bilan uchrashishingiz mumkin.",
+                "Notifications": "Siz bildirishnomalarga ruxsat berishingiz kerak"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Bildirishnomalar sizni qiziqtirgan narsalar haqida bilish imkonini beradi, masalan, doʻstingiz ilovaga qoʻshilganida yoki sizga xabar yuborganida."
+        },
+        "invite": "Buni boshqa odamlarga qanday baham koʻrishingiz mumkinligini koʻrish uchun {{Q.words.TapOrClick}} bu yerda."
+    },
+    "payment": {
+        "onContribute": "Rahmat! Toʻlovingiz amalga oshdi. Do&#39;stlaringizni sizga taklif qilishni xohlaysizmi?"
+    },
+    "featureboard": {
+        "Text_1": "Ovozingiz eshitilsin! Xususiyat yoki xato ishlab chiqishimizga rozimisiz? Uni qo&#39;llab-quvvatlash uchun tugmani bosing.",
+        "Text_2": "Yangi xususiyatni ishlab chiqishimizni xohlaysizmi? Quyida tavsiflab bering.",
+        "Text_3": "Har hafta biz hamjamiyat tomonidan talab qilinadigan eng yaxshi xususiyatni ishlab chiqishni boshlaymiz. Qo&#39;yilgan barcha pullar shu maqsadda sarflanadi, bu bizga ilovani yaxshilashga imkon beradi.",
+        "Text_4": "To&#39;langan barcha mablag&#39;lar rivojlanish xarajatlarimizni to&#39;lash uchun ishlatiladi.",
+        "Text_5": "Sizda biror funksiya yoki xatoliklarni tuzatish boʻyicha fikringiz bormi, lekin uni hali boshqalar qoʻshganini koʻrmagansiz? Buni quyida tavsiflang:",
+        "Options": [
+            {
+                "text": "400 dollar real vaqtda videokonferensaloqa"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$200 Mahalliy birlamchi ro&#39;yxatga olish ma&#39;lumotlari"
+            },
+            {
+                "text": "$130 Minglab {{1}} memlarni koʻrib chiqing va baham koʻring",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 O&#39;z jamoalaringizni boshqaring",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Suhbatlardagi xatolikni tuzatish",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Yangi xususiyat\/xatolarni tuzatishni talab qiling",
+        "FeaturePlaceholder": "Xususiyatning qisqacha tavsifi",
+        "FeatureDescription": "Siz ko‘rayotgan xatolikni boshqa birov qanday qilib takrorlashi mumkinligini tasvirlab bering yoki siz yaratmoqchi bo‘lgan xususiyatni batafsil tasvirlab bering.",
+        "AddYourRequest": "So&#39;rovingizni qo&#39;shing",
+        "NewFeature": "Yangi xususiyat"
+    },
+    "contribute": {
+        "ContributeExplanation": "{{communityName}} ilovasini ishlab chiqishda yordam bering. Sizning barcha hissalaringiz xatolarni tuzatishga va onlayn hamjamiyatni rivojlantirishga yordam beradigan yangi xususiyatlarni ishlab chiqishga yordam beradi!",
+        "ReasonToContribute": "Bu ilova {{communityName}} tarafdorlari tomonidan yuritiladi. Biz odamlar hayotini o&#39;zgartirishimiz uchun ushbu ilovani qo&#39;llab-quvvatlashga yordam bering!"
+    },
+    "assetshistory": {
+        "Title": "Aktivlar tarixi",
+        "Charges": "To&#39;lovlar",
+        "Credits": "Kreditlar"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Hisobni o&#39;chirish",
+            "content": "Bu hisobni olib tashlamoqchimisiz?",
+            "ok": "Ha",
+            "cancel": "Yo&#39;q"
+        }
+    },
+    "import": {
+        "fileNotFound": "Kechirasiz, CSV fayli topilmadi.",
+        "fileEmpty": "Kechirasiz, CSV fayli boʻsh.",
+        "userIdNotFound": "foydalanuvchi mavjud, lekin identifikatori bo&#39;sh",
+        "errorLine": "qator {{1}}",
+        "fieldNotFound": "Majburiy maydon &quot;{{1}}&quot; topilmadi",
+        "taskStreamInvalid": "vazifa oqimi yaroqsiz",
+        "instructionsEmpty": "vazifa oqimi ko&#39;rsatmalari bo&#39;sh",
+        "complete": "Bajarildi",
+        "activateUsers": "foydalanuvchilarga faollashtirish xabari yuborilsinmi?",
+        "importProgress": "Taraqqiyot",
+        "joinEventLabel": "Foydalanuvchilarni tasodifiy hodisaga qo&#39;shiling",
+        "importOptions": "Variantlar",
+        "sampleCSV": "CSV namunasini yuklab oling",
+        "fileLabel": "Elektron jadvalni yuklash:",
+        "errorsTitle": "Xatolar yuz berdi",
+        "communityUsers": "Bu hamjamiyat ro&#39;yxati",
+        "setAsConversation": "URL ustuni suhbat sifatida",
+        "toMainCommunityToo": "foydalanuvchilarni ham asosiy hamjamiyatga qo&#39;shing",
+        "willImportedTo": "Foydalanuvchilar hamjamiyatga import qilinadi"
+    }
+}

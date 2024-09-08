@@ -1,0 +1,27 @@
+{
+    "activation": {
+        "Thanks": "Velkommen til {{1}}",
+        "ReallyYourEmail": "Er dette virkelig e-postadressen din, {{1}}? I så fall klikker <a href='{{2}}'>du her<\/a> for å angi passordfrasen og aktivere kontoen din.",
+        "SeeYou": "Vi sees på <a href='{{1}}'>{{2}}<\/a> !"
+    },
+    "LinkToUnsubscribe": "Her er en lenke for å <a href='{{1}}'>avslutte abonnementet<\/a> hvis du ikke ønsker å få flere e-poster.",
+    "Greetings": "Hilsen fra {{1}}.",
+    "SeeHistory": "Se betalingshistorikk for {{1}}",
+    "charge": {
+        "HasBeenCharged": "Hei, dette er bare for å fortelle deg at {{1}} har blitt belastet {{2}} for {{3}} av {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hei {{1}}, dette er bare en rask bekreftelse på at du har betalt {{2}} til {{3}} for {{4}}"
+    },
+    "resend": {
+        "Thanks": "Takk for besøket {{1}}",
+        "YouAreReceiving": "Du mottar denne e-posten fordi noen skrev inn e-postadressen din og klikket &quot;glemt passordfrase&quot;. Hvis det ikke var deg, ignorer denne meldingen.",
+        "Reset": "For å tilbakestille passordfrasen, klikk på {{1}}",
+        "SetUpPassphrase": "Sett opp passordfrase"
+    },
+    "subscription": {
+        "YouHaveStarted": "Hei, {{1}}, du har startet abonnementet på {{2}} med {{3}} på {{4}} i {{5}} måneder.",
+        "HasStarted": "Dette er bare for å fortelle deg at {{1}} har startet abonnementet sitt på {{2}} med {{3}} på {{4}} i {{5}} måneder."
+    },
+    "SeeYou": "Vi sees på {{1}}!"
+}

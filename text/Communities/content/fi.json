@@ -1,0 +1,459 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> ei viittaa mihinkään!",
+        "NextSteps": "Käytä päävalikkoa löytääksesi etsimäsi."
+    },
+    "dashboard": {
+        "Menu": "Valikko",
+        "Home": "Koti",
+        "Welcome": "Tervetuloa",
+        "Events": "Tapahtumat",
+        "Discuss": "Keskustella",
+        "People": "Ihmiset",
+        "About": "Noin",
+        "Community": "Yhteisö",
+        "LogIn": "Kirjaudu sisään",
+        "LogOut": "kirjautua ulos",
+        "Intercoin": "Intercoin",
+        "Shows": "Esitykset",
+        "Calendar": "Kalenteri",
+        "Me": "Minä",
+        "Media": "Media",
+        "Services": "Palvelut",
+        "SetMobileNumber": "Aseta matkapuhelinnumero",
+        "SetEmailAddress": "Aseta sähköpostiosoite"
+    },
+    "greeting": {
+        "Welcome": "Tervetuloa {{1}}. Täältä löydät asioita, jotka on julkaistu yhteisömme jäsenille. Ole hyvä ja lisää sähköpostiosoitteesi tai matkapuhelinnumerosi, jotta saat ilmoitukset ilmoituksista."
+    },
+    "conversations": {
+        "Title": "Keskustelut",
+        "New": "Uusi keskustelu",
+        "Conversation": "Keskustelu",
+        "Topics": "Aiheet",
+        "NoneYet": "Keskusteluja ei ole vielä muodostettu",
+        "newConversations": "{{1}} uutta keskustelua",
+        "AllAuthors": "Kaikki tekijät",
+        "FilterbyAuthors": "Suodata tekijöiden mukaan",
+        "FilterAuthorPlaceHolder": "Hae lisää kirjoittajia...",
+        "filterConversations": "Suodata tekstin mukaan",
+        "Description": "{{1}} keskustelua"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Valitse aihe",
+            "Share": "Jaa",
+            "interest": {
+                "Title": "Valitse toiminto",
+                "Filter": "Hae kiinnostuksen kohteita..."
+            }
+        },
+        "Title": "Uusi keskustelu",
+        "TitlePlaceholder": "Keskustelusi aihe",
+        "ContentPlaceholder": "Aloita keskustelu kirjoittamalla muutama sana, jotta muut voivat vastata",
+        "StartButton": "Aloita keskustelu"
+    },
+    "events": {
+        "Title": "Tapahtumat",
+        "filterByTitle": "Etsi tapahtumia otsikon mukaan",
+        "New": "+ Aloita uusi tapahtuma",
+        "filterEvents": "Suodata tapahtumia",
+        "NewEvent": "Uusi tapahtuma",
+        "SetLocation": "Aseta Oma sijainti",
+        "NoneYet": "Ei tapahtumia vielä muodostettu<br> näinä aikoina.",
+        "AllAuthors": "Kaikki tekijät",
+        "AllDays": "Kaikki päivät",
+        "AllLocations": "Kaikki paikat",
+        "MakeReservation": "Tee varaus",
+        "CancelReservation": "Peruuta varaus",
+        "UpdateReservation": "Päivitä varaus",
+        "AreYouSure": "Oletko varma?",
+        "YouWillRefunded": "Saat hyvityksen, jonka voit käyttää muihin asioihin sovelluksessa.",
+        "AllInterests": "Kaikki intressit",
+        "FilterbyInterest": "Suodata kiinnostuksen kohteiden mukaan",
+        "FilterByDate": "Suodata päivämäärän mukaan",
+        "ShowActivities": "Näytä toimintaan liittyvät toiminnot. . .",
+        "newEvents": "Sinulla on {{1}} uutta tapahtumaa",
+        "SelectLocation": "Valitse Sijainti",
+        "FilterLocationsPlaceHolder": "Suodata paikat ...",
+        "Description": "{{1}} tapahtumaa",
+        "Keywords": "{{1}} tapahtumaa"
+    },
+    "schedule": {
+        "Title": "Ajoittaa",
+        "NoneYet": "Et osallistu mihinkään tapahtumiin",
+        "AddSome": "Lisää joitain aikatauluihisi!",
+        "AddMore": "Lisää tapahtumia aikatauluusi!",
+        "future": "tulevaisuutta",
+        "past": "mennyt"
+    },
+    "location": {
+        "Title": "Sijainti",
+        "NewLocation": "Uusi sijainti"
+    },
+    "inbox": {
+        "Title": "Saapuneet",
+        "NoneYet": "Et osallistu mihinkään keskusteluun",
+        "FindPeople": "Etsi ihmisiä, joille puhua",
+        "GroupConversations": "Liity ryhmäkeskusteluihin",
+        "ContactStaff": "Ota yhteyttä henkilökuntaan",
+        "ContactCustomers": "Ota yhteyttä asiakkaisiin",
+        "AddNewContact": "Lisää uusi yhteystieto",
+        "AddNewContacts": "Lisää uusia yhteystietoja"
+    },
+    "me": {
+        "Title": "Minä",
+        "MobileNumber": "Matkapuhelinnumero",
+        "EmailAddress": "Sähköpostiosoite",
+        "UpdateSocialTitle": "Päivitä {{1}} käyttäjänimi",
+        "Web3": "Web3"
+    },
+    "people": {
+        "Title": "Ihmiset",
+        "Description": "Ihmiset yhteisössä {{1}}",
+        "AppAlert": "Tämän sovelluskaupan sovelluksen avulla voit olla yhteydessä ystäviisi ja paljon muuta.",
+        "Invite": "Kutsua ystäviä",
+        "BuyCredits": "Osta krediittejä",
+        "FindSomeoneByName": "Etsi joku nimeltä",
+        "SearchByName": "Hae nimellä",
+        "FindAllMyFriends": "Etsi kaikki ystäväni",
+        "labels": {
+            "All": "Kaikki",
+            "Title": "Suodata Suhteen mukaan",
+            "New": "Uusi suhdetyyppi"
+        },
+        "interests": {
+            "All": "Kaikki intressit",
+            "Title": "Suodata kiinnostuksen kohteiden mukaan",
+            "Filter": "Näytä aiheesta kiinnostuneet ihmiset. . ."
+        },
+        "Keywords": "{{1}} henkilön yhteisö"
+    },
+    "communities": {
+        "Title": "yhteisöt",
+        "NewCommunity": "Uusi yhteisö",
+        "FindCommunityByName": "Etsi yhteisö nimellä",
+        "Description": "{{1}} yhteisöjä"
+    },
+    "community": {
+        "Title": "{{1}} Yhteisö",
+        "Roles": "Roolit",
+        "AllRoles": "Kaikki roolit",
+        "YouDontHavePermission": "Sinulla ei ole valtuuksia tehdä tätä",
+        "usernamePlaceholder": "aseta yhteisön nimi",
+        "NotEnoughCredits": "Sinulla ei ole tarpeeksi krediittejä yhteisön luomiseen. Tarvitsetko {{1}}, sinulla on {{2}}"
+    },
+    "event": {
+        "GetDirections": "Hanki reittiohjeet",
+        "WhichMap": "Mitä karttoja haluaisit käyttää?",
+        "JoinEventToChat": "Liity tapahtumaan keskustellaksesi",
+        "promote": {
+            "Title": "Mainosta tätä tapahtumaa",
+            "Prompt": "Valitse, missä haluat mainostaa tätä tapahtumaa:"
+        },
+        "Confirmation": "Vahvistus"
+    },
+    "newEvent": {
+        "Title": "Suunnittele uusi tapahtuma"
+    },
+    "interests": {
+        "Title": "Kiinnostuksen kohteet",
+        "prompt": "Valitse, minkä tyyppisistä asioista haluat tietää.",
+        "explanation": "Mitä enemmän kiinnostuksen kohteita valitset, sitä todennäköisemmin saat yhteyden samanhenkisten ihmisten kanssa.",
+        "filter": "Mistä olet kiinnostunut?",
+        "Profile": "Keskinäiset intressit korostuvat. Jos sinulla on myös yksi tai useampi alla olevista kiinnostuksen kohteista, voit {{clickOrTap}} lisätä ne."
+    },
+    "credits": {
+        "Title": "Krediitit",
+        "EarnCredits": "Ansaitse {{1}} saldoa jokaisesta kutsumastasi uudesta henkilöstä, joka liittyy sovellukseen",
+        "YouHave": "Sinulla on {{1}} saldoa"
+    },
+    "onboarding": {
+        "Tap": "Napauta",
+        "Click": "Klikkaus",
+        "Yes": "Joo",
+        "No": "Ei",
+        "Skip": "tai ohita tämä",
+        "name": {
+            "Preface": "Tervetuloa",
+            "Placeholder": "Kirjoita koko nimesi",
+            "GetStarted": "Aloittaa",
+            "AsGuest": "Sinut on kutsuttu vieraaksi.",
+            "AsMember": "Sinut on kutsuttu jäseneksi.",
+            "AsAdmin": "Sinut on kutsuttu järjestelmänvalvojaksi.",
+            "AsOwner": "Sinut on kutsuttu omistajaksi.",
+            "TooShort": "Koko nimesi ei voi olla niin lyhyt",
+            "SetAsYourFullName": "Asetetaanko {{1}} koko nimeksi?"
+        },
+        "icon": {
+            "KeepDefault": "tai säilytä tämä kuva",
+            "SetYourPhoto": "{{ClickOrTap}} asettaaksesi valokuvasi:",
+            "ClickOnYourFace": "{{ClickOrTap}} kasvoillesi"
+        },
+        "interests": {
+            "GetStarted": "⇩ Aloita",
+            "NextCategory": "↓ Seuraava",
+            "Continue": "Jatkaa",
+            "Instructions": "Jokaisessa seuraavassa {{1}} luokassa<br> {{2}} kaikki sinua kiinnostavat toiminnot.<br> Näin saat yhteyden muihin yhteisön ihmisiin."
+        },
+        "profile": {
+            "Profile": "Profiilisi auttaa ihmisiä löytämään enemmän sinusta.<br>",
+            "Birthday": "Ole hyvä ja syötä syntymäpäiväsi:",
+            "Placeholder": "Kuka olet ja mitä teet? Kerro ihmisille jotain mielenkiintoista tai ainutlaatuista itsestäsi.",
+            "Required": "Jatka kirjoittamalla itsestäsi vähintään pari riviä.",
+            "Month": "Kuukausi",
+            "Day": "Päivä",
+            "Year": "vuosi",
+            "Gender": "Sukupuoli",
+            "Male": "Uros",
+            "Female": "Nainen",
+            "Other": "Muut",
+            "Height": "Korkeus",
+            "Affiliation": "Liittyminen",
+            "Dating": "Treffit",
+            "Interested": "Kiinnostunut",
+            "NotInterested": "Ei kiinnosta",
+            "MatchmakerOnly": "Vain matchmaker"
+        },
+        "location": {
+            "NoOneElse": "Kukaan muu ei näe sitä.",
+            "SetMyLocation": "Aseta sijaintini"
+        },
+        "pile": {
+            "DialogTitle": "Ihmiset, joilla on yhteisiä etuja"
+        },
+        "Done": "Tehty",
+        "relationships": {
+            "title": "Lisää {{userName}} puhelinmuistioon",
+            "welcome": "Tervetuloa {{user}}",
+            "invitedByUser": "kutsui sinut.",
+            "addToPhonebook": "Tallenna puhelimeni yhteystietoihin",
+            "iosInstructions": "Vieritä alas kohtaan Lisää uusi yhteystieto",
+            "androidInstructions": "Sinun tulee avata tämä vCard-tiedosto sen lataamisen jälkeen.",
+            "explanation": "Mikä on suhteesi?"
+        },
+        "Title": "Perustiedot",
+        "Prompt": "Muutama vaihe tilin luomiseen"
+    },
+    "profile": {
+        "Title": "Profiili",
+        "Male": "Uros",
+        "Female": "Nainen",
+        "Other": "Muut",
+        "dating": {
+            "Interested": "Kiinnostunut",
+            "NotInterested": "Ei kiinnosta",
+            "MatchmakerOnly": "Vain matchmaker"
+        },
+        "StartConversation": "Aloita keskustelu",
+        "blockUser": "Estä tämä käyttäjä",
+        "blockUserAlert": "Et näe enää tämän käyttäjän viestejä, ennen kuin kumoat eston.",
+        "unblockUser": "Kumoa tämän käyttäjän esto",
+        "addToContacts": "Lisää kontakteihin",
+        "manageLabels": "Hallinnoi tarroja",
+        "inviteUsers": "Kutsu käyttäjiä",
+        "selectRole": "Valitse Rooli",
+        "inviteSuccess": "Käyttäjän kutsuminen onnistui nimellä {{label}}",
+        "invite": "Kutsu",
+        "relationships": "Suhteet",
+        "newRole": "Uusi rooli",
+        "about": "Noin",
+        "people": "Ihmiset",
+        "info": "Tiedot",
+        "interests": "Kiinnostuksen kohteet",
+        "chat": "Chat",
+        "locations": "Sijainnit",
+        "ManageRoles": "Hallitse rooleja",
+        "aboutPlaceholder": "Kuka olet ja mitä teet? Kerro ihmisille jotain mielenkiintoista tai ainutlaatuista itsestäsi.",
+        "explanation": "Profiilisi auttaa yhdistämään sinut muihin ihmisiin ryhmätoimintaa varten.<br> Ole hyvä ja syötä syntymäpäiväsi",
+        "chats": {
+            "placeholder": "Sano jotain"
+        },
+        "LogOut": "Kirjautua ulos",
+        "MyLinks": "Omat linkit",
+        "MyJobs": "Minun työt",
+        "MySocial": "MySocial",
+        "MyEducation": "Koulutukseni",
+        "JobsPlaceholder": "Kirjoita tähän työpaikkatiedot",
+        "EducationPlaceholder": "Kirjoita tähän koulutustiedot",
+        "ManageNotifications": "Hallitse ilmoituksia",
+        "YourPreferredLanguage": "Haluamasi kieli",
+        "SendCrypto": "Maksaa",
+        "Block": "Lohko",
+        "Unblock": "Kumoa esto",
+        "Email": "Sähköposti",
+        "Avoid": "Välttää",
+        "CreatePrivateChat": "Käytätkö {{credits}} hyvitystä tavoittaaksesi?",
+        "RolesInCommunity": "Roolit yhteisössä",
+        "PersonalChatWith": "Henkilökohtainen keskustelu {{name}} kanssa",
+        "SendCryptoTo": "Lähetä krypto osoitteeseen {{name}}",
+        "SendEmailTo": "Lähetä sähköposti osoitteeseen {{name}}",
+        "SendSMSTo": "Lähetä tekstiviesti numeroon {{name}}",
+        "BlockThisUser": "Estä tämä käyttäjä",
+        "UnblockThisUser": "Kumoa tämän käyttäjän esto",
+        "YouCantChatWithYourself": "Et voi keskustella itsesi kanssa",
+        "blockUserAlertTitle": "Estetty {{displayName}}",
+        "sections": {
+            "education": "koulutus",
+            "greeting": "Tervehdys",
+            "jobs": "Työpaikat",
+            "links": "Linkit",
+            "language": "Kieli",
+            "roles": "Roolit",
+            "personal": "Henkilökohtainen",
+            "social": "Sosiaalinen"
+        },
+        "Roles": "Roolit",
+        "SendPaymentTo": "Lähetä maksu numeroon {{name}}"
+    },
+    "myqr": {
+        "Title": "Minun QR"
+    },
+    "composer": {
+        "createCommunity": "Luo yhteisö",
+        "inviteAdmin": "Kutsu järjestelmänvalvoja",
+        "inviteMember": "Kutsu jäsen",
+        "newCommunityTitle": "Yhteisönimi",
+        "setCommunityTitle": "Yhteisönimi",
+        "creditsChargeRequest": "Suostutko käyttämään {{price}} hyvitystä?",
+        "yes": "Joo",
+        "no": "Ei"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Tervetuloa! Vahvista sähköpostiosoitteesi.",
+        "WelcomeVerifyEmail": "Tervetuloa! Vahvista sähköpostiosoitteesi.",
+        "ForgetPass": "Hei, unohditko salasanasi?",
+        "ManageEmailSubscriptions": "hallita sähköpostitilauksiasi",
+        "IfUnsubscribe": "Jos haluat peruuttaa tilauksen"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Tervetuloa {{CommunityName}}. Tämä sovellus auttaa sinua olemaan yhteydessä ystäviin, löytämään uusia ihmisiä, joilla on yhteisiä kiinnostuksen kohteita ja paljon muuta. Aloitetaan!"
+            },
+            "icon": {
+                "Commentary": "Aseta valokuvasi. Näin ihmiset näkevät sinut sivustolla."
+            },
+            "interests": {
+                "Commentary": "Mitä enemmän kohteita valitset, sitä enemmän ihmisiä voit tavata.",
+                "Notifications": "Sinun on sallittava ilmoitukset"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Ilmoitusten avulla saat tietoa asioista, joista olet kiinnostunut, kuten kun ystävä liittyy sovellukseen tai lähettää sinulle viestin."
+        },
+        "invite": "{{Q.words.TapOrClick}} täällä nähdäksesi, kuinka voit jakaa tämän muiden ihmisten kanssa."
+    },
+    "payment": {
+        "onContribute": "Kiitos! Maksusi meni läpi. Haluatko kutsua ystäväsi mukaan?",
+        "ConnectAccount": "Yhdistä tili"
+    },
+    "featureboard": {
+        "Text_1": "Anna äänesi kuulua! Oletko samaa mieltä, että meidän pitäisi kehittää ominaisuus tai bugi? Napsauta painiketta tukeaksesi sitä.",
+        "Text_2": "Haluatko meidän kehittävän uuden ominaisuuden? Kuvaile sitä alla.",
+        "Text_3": "Joka viikko alamme kehittää yhteisön eniten pyytämää ominaisuutta. Kaikki lahjoitetut rahat käytetään tähän tarkoitukseen, mikä antaa meille mahdollisuuden tehdä sovelluksesta paremman.",
+        "Text_4": "Kaikki lahjoitetut rahat käytetään kehityskulujemme maksamiseen.",
+        "Text_5": "Onko sinulla idea ominaisuudesta tai bugikorjauksesta, jonka haluat meidän tekevän, mutta et ole vielä nähnyt muiden lisäävän? Kuvaile sitä alla:",
+        "Options": [
+            {
+                "text": "400 dollaria reaaliaikainen videoneuvottelu"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "200 dollarin paikallisen ensisijaisen rekisteröintitiedot"
+            },
+            {
+                "text": "130 $ Selaa ja jaa tuhansia {{1}} meemejä",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "80 $ Hallitse omia yhteisöjäsi",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "30 dollaria Korjaa keskustelujen virhe",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Pyydä uutta ominaisuutta\/virheenkorjausta",
+        "FeaturePlaceholder": "Lyhyt yhteenveto ominaisuudesta",
+        "FeatureDescription": "Kuvaile, kuinka joku muu voi toistaa näkemäsi vian, tai kuvaile yksityiskohtaisesti ominaisuutta, jonka haluat rakentaa",
+        "AddYourRequest": "Lisää pyyntösi",
+        "NewFeature": "Uusi ominaisuus"
+    },
+    "contribute": {
+        "ContributeExplanation": "Auta tukemaan sovelluksen {{communityName}} jatkuvaa kehitystä. Kaikki panoksesi auttavat korjaamaan bugeja ja kehittämään uusia ominaisuuksia verkkoyhteisön kasvattamiseksi!",
+        "ReasonToContribute": "Tätä sovellusta ylläpitävät {{communityName}} kannattajat. Auta tukemaan tätä sovellusta, jotta voimme vaikuttaa ihmisten elämään!"
+    },
+    "assetshistory": {
+        "Title": "Omaisuuden historia",
+        "Charges": "Maksut",
+        "Credits": "Krediitit"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Poista tili",
+            "content": "Haluatko poistaa tämän tilin?",
+            "ok": "Joo",
+            "cancel": "Ei"
+        }
+    },
+    "import": {
+        "fileNotFound": "Anteeksi, CSV-tiedostoa ei löydy.",
+        "fileEmpty": "Anteeksi, CSV-tiedosto on tyhjä.",
+        "userIdNotFound": "käyttäjä on olemassa, mutta id tyhjä",
+        "errorLine": "rivi {{1}}",
+        "fieldNotFound": "Pakollista kenttää &quot;{{1}}&quot; ei löydy",
+        "taskStreamInvalid": "tehtävävirta on virheellinen",
+        "instructionsEmpty": "tehtävävirran ohjeet tyhjät",
+        "complete": "Saattaa loppuun",
+        "activateUsers": "lähettää aktivointiviestin käyttäjille?",
+        "importProgress": "Edistyminen",
+        "joinEventLabel": "Liitä käyttäjät satunnaiseen tapahtumaan",
+        "importOptions": "Vaihtoehdot",
+        "sampleCSV": "Lataa malli-CSV",
+        "fileLabel": "Lataa laskentataulukko:",
+        "errorsTitle": "Virheitä tapahtui",
+        "communityUsers": "Tämä on yhteisöluettelo",
+        "setAsConversation": "URL-sarake keskusteluna",
+        "toMainCommunityToo": "lisää käyttäjiä myös pääyhteisöön",
+        "willImportedTo": "Käyttäjät tuodaan yhteisöön",
+        "ChooseFile": "Valitse tiedosto"
+    },
+    "services": {
+        "Title": "Palvelut",
+        "filterByTitle": "Etsi palvelut otsikon mukaan",
+        "New": "+ Aloita uusi palvelu",
+        "NewService": "Uusi Palvelu",
+        "NewAvailability": "Uusi saatavuus",
+        "filterServices": "Suodatinpalvelut",
+        "NoneYet": "Palveluita ei ole vielä muodostettu<br> näinä aikoina.",
+        "AllAuthors": "Kaikki tekijät",
+        "AllDays": "Kaikki päivät",
+        "AllLocations": "Kaikki paikat",
+        "MakeReservation": "Tee varaus",
+        "CancelReservation": "Peruuta varaus",
+        "UpdateReservation": "Päivitä varaus",
+        "AreYouSure": "Oletko varma?",
+        "YouWillRefunded": "Saat hyvityksen hyvityksenä, jonka voit käyttää muihin asioihin sovelluksessa.",
+        "AllInterests": "Kaikki intressit",
+        "FilterbyInterest": "Suodata kiinnostuksen kohteiden mukaan",
+        "FilterByDate": "Suodata päivämäärän mukaan",
+        "ShowActivities": "Näytä toimintaan liittyvät...",
+        "newServices": "Sinulla on {{1}} uutta palvelua",
+        "SelectLocation": "Valitse Sijainti",
+        "FilterLocationsPlaceHolder": "Suodata paikat ...",
+        "Description": "{{1}} palveluun",
+        "Keywords": "{{1}} palveluun"
+    },
+    "welcome": {
+        "Title": "{{appName}}: tervetuloa",
+        "GetStarted": "Aloittaa",
+        "gallery": {
+            "Connect": "Kytkeä",
+            "Organize": "Järjestää",
+            "Travel": "Matkustaa",
+            "Share": "Jaa"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Sampeyan diundang",
+        "Member": "Anggota ing {{title}}",
+        "Explanation": "{{1}} seneng ngumumake peluncuran situs web anyar kita. Iki kalebu dhaptar fitur sing akeh, kayata:",
+        "Public": "Informasi umum babagan {{1}}",
+        "Private": "Akun pangguna pribadi kanggo saben anggota",
+        "Notifications": "Kanthi ngetik alamat email utawa nomer seluler sampeyan bakal bisa nampa kabar penting liwat email utawa pesen teks.",
+        "GetStarted": "Kanggo miwiti, ing browser web sampeyan, ketik kanthi <em>teliti<\/em> :<br>",
+        "IssuedToYou": "Kode iki khusus ditanggepi kanggo sampeyan."
+    }
+}

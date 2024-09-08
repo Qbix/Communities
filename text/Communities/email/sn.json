@@ -1,0 +1,27 @@
+{
+    "activation": {
+        "Thanks": "Kugamuchirwa ku {{1}}",
+        "ReallyYourEmail": "Iyi ndiyo email kero yako here, {{1}}? Kana zvirizvo, tinya <a href='{{2}}'>apa<\/a> kuti uise chirevo chako uye uvhure account yako.",
+        "SeeYou": "Toonana pa <a href='{{1}}'>{1000}}<\/a> !"
+    },
+    "LinkToUnsubscribe": "Heino <a href='{{1}}'>chinongedzo chekubvisa<\/a> kana iwe usingade kuwana mamwe maemail.",
+    "Greetings": "Kwaziso kubva {{1}}.",
+    "SeeHistory": "Ona nhoroondo yekubhadhara kwe{{1}}",
+    "charge": {
+        "HasBeenCharged": "Hei, izvi ndezvekukuzivisai kuti {{1}} yabhadhariswa {{2}} ye{1001}} na{1002}}"
+    },
+    "charged": {
+        "HavePaid": "Nhai {{1}}, ichi chingori chitsidzo chekukurumidza kuti wabhadhara {{2}} ku{1001}} ye{{4}}"
+    },
+    "resend": {
+        "Thanks": "Ndatenda nekushanyira {{1}}",
+        "YouAreReceiving": "Uri kugamuchira iyi email nekuti mumwe munhu aisa email kero yako ndokudzvanya &quot;forgot passphrase&quot;. Dai wanga usiri iwe, ingofuratira meseji iyi.",
+        "Reset": "Kuti uise patsva izwi rako, baya {{1}}",
+        "SetUpPassphrase": "Gadzirisa izwi rekutaura"
+    },
+    "subscription": {
+        "YouHaveStarted": "Nhai {{1}}, watanga kuzvinyoresa ku {{2}} ne {{3}} pa {{4}} kwe{{5}} mwedzi.",
+        "HasStarted": "Izvi ndezvekungokuzivisai {{1}}, vatanga kuzvinyoresa kwavo ku{{2}} ne{1001}} pa{1002}} kwe{{5}} mwedzi."
+    },
+    "SeeYou": "Toonana pa {{1}}!"
+}

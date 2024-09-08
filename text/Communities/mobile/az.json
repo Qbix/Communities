@@ -1,0 +1,24 @@
+{
+    "activation": {
+        "Thanks": "{{1}}-a xoş gəlmisiniz.",
+        "ClickHere": "Hesabınızı aktivləşdirmək üçün bura klikləyin: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Mobil nömrənizi doğrulamaq üçün bura klikləyin: {{1}}"
+    },
+    "SeeHistory": "{{1}} üçün ödəniş tarixçəsinə baxın",
+    "charge": {
+        "HasBeenCharged": "{{4}} tərəfindən {{3}} üçün {{1}} {{2}} tutuldu"
+    },
+    "charged": {
+        "HavePaid": "Salam {{1}}, bu, {{2}} üçün {{3}} üçün {{4}} üçün müvəffəqiyyətlə ödəniş etdiyinizin qısa təsdiqidir."
+    },
+    "subscription": {
+        "YouHaveStarted": "Siz {{2}} {{3}} ilə {{4}} {{5}} ay ərzində abunə olmusunuz.",
+        "HasStarted": "{{1}} {{2}} {{3}} ilə {{4}} {{5}} ay ərzində abunə oldu."
+    },
+    "resend": {
+        "DidYouWant": "{{1}} daxilində parol ifadənizi sıfırlamaq istəyirdiniz?",
+        "ClickHere": "Sonra bura klikləyin: {{1}}"
+    }
+}

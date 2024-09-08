@@ -1,0 +1,83 @@
+{
+	"Communities/create/permissions": {
+		"type": "Communities/permissions",
+		"title": "Permission to create new community",
+		"icon": "",
+		"readLevel": 40,
+		"writeLevel": 0,
+		"adminLevel": 0
+	},
+	"Communities/user/blocked": {
+		"type": "Streams/resource",
+		"title": "Blocked Users",
+		"icon": "",
+		"readLevel": 40,
+		"writeLevel": 0,
+		"adminLevel": 0
+	},
+	"Streams/user/jobs": {
+		"type": "Streams/text",
+		"title": "Jobs",
+		"icon": "",
+		"readLevel": 40,
+		"writeLevel": 0,
+		"adminLevel": 0
+	},
+	"Streams/user/education": {
+		"type": "Streams/text",
+		"title": "Education",
+		"icon": "",
+		"readLevel": 40,
+		"writeLevel": 0,
+		"adminLevel": 0
+	},
+	"Streams/user/twitter": {
+		"type": "Streams/text/username",
+		"title": "Twitter username",
+		"icon": "",
+		"readLevel": 40,
+		"writeLevel": 0,
+		"adminLevel": 0
+	},
+	"Streams/user/linkedin": {
+		"type": "Streams/text/username",
+		"title": "LinkedIn username",
+		"icon": "",
+		"readLevel": 40,
+		"writeLevel": 0,
+		"adminLevel": 0
+	},
+	"Streams/user/github": {
+		"type": "Streams/text/username",
+		"title": "GitHub username",
+		"icon": "",
+		"readLevel": 40,
+		"writeLevel": 0,
+		"adminLevel": 0
+	},
+	"Streams/user/facebook": {
+		"type": "Streams/text/username",
+		"title": "Facebook username",
+		"icon": "",
+		"readLevel": 40,
+		"writeLevel": 0,
+		"adminLevel": 0
+	},
+	"Streams/user/instagram": {
+		"type": "Streams/text/username",
+		"title": "Instagram username",
+		"icon": "",
+		"readLevel": 40,
+		"writeLevel": 0,
+		"adminLevel": 0
+	},
+	"Streams/community/about": {
+		"type": "Streams/article",
+		"title": "About This Community",
+		"icon": "",
+		"content": "",
+		"readLevel": 40,
+		"writeLevel": 10,
+		"adminLevel": 20
+	}
+}

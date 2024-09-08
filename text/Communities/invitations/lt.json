@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Esate kviečiami",
+        "Member": "Narys {{title}}",
+        "Explanation": "{{1}} džiaugiasi galėdamas pranešti apie mūsų naujos svetainės pristatymą. Jame yra vis daugiau funkcijų, tokių kaip:",
+        "Public": "Vieša informacija apie {{1}}",
+        "Private": "Kiekvienam nariui privati vartotojo paskyra",
+        "Notifications": "Įvesdami savo el. pašto adresą arba mobiliojo telefono numerį galėsite gauti svarbius pranešimus el. paštu arba trumpąja žinute.",
+        "GetStarted": "Norėdami pradėti, savo žiniatinklio naršyklėje <em>atidžiai<\/em> įveskite:<br>",
+        "IssuedToYou": "Šis kodas yra specialiai išduotas jums."
+    }
+}

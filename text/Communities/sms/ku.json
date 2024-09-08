@@ -1,0 +1,20 @@
+{
+    "activation": {
+        "Thanks": "Bi xêr hatî {{1}}.",
+        "ClickHere": "Ji bo çalakkirina hesabê xwe li vir bikirtînin: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Li vir bikirtînin ku jimara xweya desta rast bikin: {{1}}"
+    },
+    "SeeHistory": "Dîroka dravdanê ji bo {{1}} bibînin",
+    "charge": {
+        "HasBeenCharged": "{{1}} ji hêla {{4}} ve {{2}} ji bo {{3}} hat barkirin"
+    },
+    "charged": {
+        "HavePaid": "Hey {{1}}, ev tenê tesdîqek bilez e ku te bi serfirazî {{2}} ji bo {{3}} ji bo {{4}} daye."
+    },
+    "subscription": {
+        "YouHaveStarted": "Te li {{2}} bi {{3}} li {{4}} ji bo {{5}} mehan bû abone.",
+        "HasStarted": "{{1}} li {{2}} bi {{3}} li {{4}} ji bo {{5}} mehan bû abone."
+    }
+}

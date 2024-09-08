@@ -1,0 +1,20 @@
+{
+    "activation": {
+        "Thanks": "Nau mai ki {{1}}.",
+        "ClickHere": "Pāwhiri ki konei hei whakahohe i tō pūkete: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Paatohia a konei hei manatoko i to nama waea: {{1}}"
+    },
+    "SeeHistory": "Tirohia te hitori utu mo {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} kua utua {{2}} mo {{3}} e {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Kia ora {{1}}, he whakapumautanga tere noa tenei kua pai to utu {{2}} ki {{3}} mo {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Kua ohauru koe ki {{2}} me {{3}} i {{4}} mo {{5}} marama.",
+        "HasStarted": "Kua ohauru a {{1}} ki {{2}} me {{3}} i {{4}} mo {{5}} marama."
+    }
+}

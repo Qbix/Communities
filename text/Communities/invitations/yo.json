@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "O ti wa ni pe",
+        "Member": "Omo egbe ni {{title}}",
+        "Explanation": "Inu {999}} dun lati kede ifilọlẹ oju opo wẹẹbu wa tuntun. O pẹlu atokọ dagba ti awọn ẹya, gẹgẹbi:",
+        "Public": "Alaye ti gbogbo eniyan nipa {{1}}",
+        "Private": "A ikọkọ olumulo iroyin fun gbogbo omo egbe",
+        "Notifications": "Nipa titẹ adirẹsi imeeli rẹ tabi nọmba alagbeka iwọ yoo ni anfani lati gba awọn iwifunni pataki nipasẹ imeeli tabi ifọrọranṣẹ.",
+        "GetStarted": "Lati bẹrẹ, ninu ẹrọ aṣawakiri wẹẹbu rẹ jọwọ <em>farabalẹ<\/em> tẹ sii:<br>",
+        "IssuedToYou": "Koodu yii jẹ pataki fun ọ."
+    }
+}

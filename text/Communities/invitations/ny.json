@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Mwaitanidwa",
+        "Member": "Membala ku {{title}}",
+        "Explanation": "{{1}} ndiwokonzeka kulengeza kukhazikitsidwa kwa tsamba lathu latsopano. Zimaphatikizapo mndandanda wazinthu zomwe zikukula, monga:",
+        "Public": "Zokhudza anthu za {{1}}",
+        "Private": "Akaunti yachinsinsi ya membala aliyense",
+        "Notifications": "Mukalowetsa imelo yanu kapena nambala yafoni mudzatha kulandira zidziwitso zofunika kudzera pa imelo kapena meseji.",
+        "GetStarted": "Kuti muyambe, mu msakatuli wanu chonde lowetsani <em>mosamala<\/em> :<br>",
+        "IssuedToYou": "Khodi iyi idaperekedwa kwa inu."
+    }
+}

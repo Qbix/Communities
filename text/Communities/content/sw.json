@@ -1,0 +1,459 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> haielekei chochote!",
+        "NextSteps": "Tumia menyu kuu kupata unachotafuta."
+    },
+    "dashboard": {
+        "Menu": "Menyu",
+        "Home": "Nyumbani",
+        "Welcome": "Karibu",
+        "Events": "Matukio",
+        "Discuss": "Jadili",
+        "People": "Watu",
+        "About": "Kuhusu",
+        "Community": "Jumuiya",
+        "LogIn": "Ingia",
+        "LogOut": "ingia nje",
+        "Intercoin": "Intercoin",
+        "Shows": "Maonyesho",
+        "Calendar": "Kalenda",
+        "Me": "Mimi",
+        "Media": "Vyombo vya habari",
+        "Services": "Huduma",
+        "SetMobileNumber": "Weka Nambari ya Simu",
+        "SetEmailAddress": "Weka Anwani ya Barua Pepe"
+    },
+    "greeting": {
+        "Welcome": "Karibu kwenye {{1}}. Hapa utapata vitu vilivyotumwa kwa wanachama wa jumuiya yetu. Tafadhali ongeza barua pepe yako au nambari ya simu ili kupokea arifa matangazo yanapochapishwa."
+    },
+    "conversations": {
+        "Title": "Mazungumzo",
+        "New": "Mazungumzo Mapya",
+        "Conversation": "Mazungumzo",
+        "Topics": "Mada",
+        "NoneYet": "Bado hakuna mazungumzo yaliyoanzishwa",
+        "newConversations": "{{1}} mazungumzo mapya",
+        "AllAuthors": "Waandishi Wote",
+        "FilterbyAuthors": "Chuja kwa Waandishi",
+        "FilterAuthorPlaceHolder": "Tafuta waandishi wa ziada...",
+        "filterConversations": "Chuja kwa maandishi",
+        "Description": "{{1}} mazungumzo"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Chagua mada",
+            "Share": "Shiriki",
+            "interest": {
+                "Title": "Chagua Shughuli",
+                "Filter": "Tafuta mambo yanayokuvutia..."
+            }
+        },
+        "Title": "Mazungumzo Mapya",
+        "TitlePlaceholder": "Mada ya mazungumzo yako",
+        "ContentPlaceholder": "Andika maneno machache ili kuanzisha mazungumzo, ili wengine waweze kujibu",
+        "StartButton": "Anza Mazungumzo"
+    },
+    "events": {
+        "Title": "Matukio",
+        "filterByTitle": "Pata matukio kwa kichwa",
+        "New": "+ Anzisha Tukio Jipya",
+        "filterEvents": "Chuja matukio",
+        "NewEvent": "Tukio Jipya",
+        "SetLocation": "Weka Mahali Pangu",
+        "NoneYet": "Bado hakuna matukio yaliyoundwa<br> nyakati hizi.",
+        "AllAuthors": "Waandishi Wote",
+        "AllDays": "Siku zote",
+        "AllLocations": "Maeneo Yote",
+        "MakeReservation": "Weka Nafasi",
+        "CancelReservation": "Ghairi Uhifadhi",
+        "UpdateReservation": "Sasisha Uhifadhi",
+        "AreYouSure": "Una uhakika?",
+        "YouWillRefunded": "Utarejeshewa pesa kwa njia ya mikopo ambayo unaweza kutumia kwa mambo mengine kwenye programu.",
+        "AllInterests": "Maslahi Yote",
+        "FilterbyInterest": "Chuja kulingana na Riba",
+        "FilterByDate": "Chuja Kwa Tarehe",
+        "ShowActivities": "Onyesha shughuli zinazohusiana na. . .",
+        "newEvents": "Una {{1}} matukio mapya",
+        "SelectLocation": "Chagua Mahali",
+        "FilterLocationsPlaceHolder": "Chuja kumbi kwa...",
+        "Description": "{{1}} matukio",
+        "Keywords": "{{1}} matukio"
+    },
+    "schedule": {
+        "Title": "Ratiba",
+        "NoneYet": "Hushiriki katika matukio yoyote",
+        "AddSome": "Ongeza baadhi kwenye ratiba yako!",
+        "AddMore": "Ongeza matukio kwenye ratiba yako!",
+        "future": "baadaye",
+        "past": "zilizopita"
+    },
+    "location": {
+        "Title": "Mahali",
+        "NewLocation": "Mahali Mpya"
+    },
+    "inbox": {
+        "Title": "Kikasha",
+        "NoneYet": "Hushiriki mazungumzo yoyote",
+        "FindPeople": "Tafuta watu wa kuzungumza nao",
+        "GroupConversations": "Jiunge na baadhi ya mazungumzo ya kikundi",
+        "ContactStaff": "Wasiliana na Wafanyakazi",
+        "ContactCustomers": "Wasiliana na Wateja",
+        "AddNewContact": "Ongeza Anwani Mpya",
+        "AddNewContacts": "Ongeza Anwani Mpya"
+    },
+    "me": {
+        "Title": "Mimi",
+        "MobileNumber": "Namba ya simu ya mkononi",
+        "EmailAddress": "Barua pepe",
+        "UpdateSocialTitle": "Sasisha {{1}} jina la mtumiaji",
+        "Web3": "Wavuti3"
+    },
+    "people": {
+        "Title": "Watu",
+        "Description": "Watu katika {{1}} jumuiya",
+        "AppAlert": "Programu hii katika duka la programu itakuwezesha kuungana na marafiki zako, na mengi zaidi.",
+        "Invite": "Waalike Marafiki",
+        "BuyCredits": "Nunua Mikopo",
+        "FindSomeoneByName": "Tafuta mtu kwa jina",
+        "SearchByName": "Tafuta kwa jina",
+        "FindAllMyFriends": "Tafuta Marafiki Wangu Wote",
+        "labels": {
+            "All": "Kila mtu",
+            "Title": "Chuja kwa Uhusiano",
+            "New": "Aina Mpya ya Uhusiano"
+        },
+        "interests": {
+            "All": "Maslahi Yote",
+            "Title": "Chuja kulingana na Riba",
+            "Filter": "Onyesha watu wanaovutiwa na . . ."
+        },
+        "Keywords": "{{1}} jumuiya ya watu"
+    },
+    "communities": {
+        "Title": "Jumuiya",
+        "NewCommunity": "Jumuiya Mpya",
+        "FindCommunityByName": "Tafuta jumuiya kwa jina",
+        "Description": "{{1}} jumuiya"
+    },
+    "community": {
+        "Title": "{{1}} Jumuiya",
+        "Roles": "Majukumu",
+        "AllRoles": "Majukumu Yote",
+        "YouDontHavePermission": "Hujaidhinishwa kufanya hivi",
+        "usernamePlaceholder": "weka jina la jumuiya",
+        "NotEnoughCredits": "Huna mikopo ya kutosha kuunda jumuiya. Unahitaji {{1}}, unayo {{2}}"
+    },
+    "event": {
+        "GetDirections": "Pata maelekezo",
+        "WhichMap": "Je, ungependa kutumia ramani zipi?",
+        "JoinEventToChat": "Jiunge na tukio ili kuzungumza",
+        "promote": {
+            "Title": "Tangaza tukio hili",
+            "Prompt": "Chagua ni wapi ungependa kutangaza tukio hili:"
+        },
+        "Confirmation": "Uthibitisho"
+    },
+    "newEvent": {
+        "Title": "Panga Tukio Jipya"
+    },
+    "interests": {
+        "Title": "Maslahi",
+        "prompt": "Chagua aina ya mambo ambayo ungependa kujua kuyahusu.",
+        "explanation": "Kadiri unavyochagua mambo yanayokuvutia zaidi, ndivyo unavyoweza kuungana na watu wenye nia moja.",
+        "filter": "Je, unavutiwa na nini?",
+        "Profile": "Maslahi ya pande zote yanasisitizwa. Ikiwa pia una moja au zaidi ya yanayokuvutia hapa chini, unaweza {{clickOrTap}} kuyaongeza."
+    },
+    "credits": {
+        "Title": "Mikopo",
+        "EarnCredits": "Pata {{1}} salio kwa kila mtu mpya unayemwalika anayejiunga na programu",
+        "YouHave": "Una {999}} mikopo"
+    },
+    "onboarding": {
+        "Tap": "Gonga",
+        "Click": "Bofya",
+        "Yes": "Ndiyo",
+        "No": "Hapana",
+        "Skip": "au ruka hii",
+        "name": {
+            "Preface": "Karibu",
+            "Placeholder": "Ingiza jina lako kamili",
+            "GetStarted": "Anza",
+            "AsGuest": "Umealikwa kama mgeni.",
+            "AsMember": "Umealikwa kama mwanachama.",
+            "AsAdmin": "Umealikwa kama msimamizi.",
+            "AsOwner": "Umealikwa kama mmiliki.",
+            "TooShort": "Jina lako kamili haliwezi kuwa fupi hivyo",
+            "SetAsYourFullName": "Je, ungependa kuweka {{1}} kama jina lako kamili?"
+        },
+        "icon": {
+            "KeepDefault": "au weka picha hii",
+            "SetYourPhoto": "{{ClickOrTap}} ili kuweka picha yako:",
+            "ClickOnYourFace": "{{ClickOrTap}} Usoni Mwako"
+        },
+        "interests": {
+            "GetStarted": "⇩ Anza",
+            "NextCategory": "↓ Inayofuata",
+            "Continue": "Endelea",
+            "Instructions": "Katika kila aina {{1}} zinazofuata,<br> {{2}} shughuli zote unazopenda.<br> Hivi ndivyo unavyoungana na watu wengine katika jamii."
+        },
+        "profile": {
+            "Profile": "Wasifu wako huwasaidia watu kugundua zaidi kukuhusu.<br>",
+            "Birthday": "Tafadhali weka siku yako ya kuzaliwa:",
+            "Placeholder": "Wewe ni nani na unafanya nini? Waambie watu jambo la kuvutia au la kipekee kukuhusu.",
+            "Required": "Ili kuendelea, andika angalau mistari michache kukuhusu.",
+            "Month": "Mwezi",
+            "Day": "Siku",
+            "Year": "Mwaka",
+            "Gender": "Jinsia",
+            "Male": "Mwanaume",
+            "Female": "Mwanamke",
+            "Other": "Nyingine",
+            "Height": "Urefu",
+            "Affiliation": "Ushirikiano",
+            "Dating": "Kuchumbiana",
+            "Interested": "Unavutiwa",
+            "NotInterested": "Sivutiwi",
+            "MatchmakerOnly": "Mshikaji Pekee"
+        },
+        "location": {
+            "NoOneElse": "Hakuna mtu mwingine atakayeiona.",
+            "SetMyLocation": "Weka eneo langu"
+        },
+        "pile": {
+            "DialogTitle": "Watu wenye Maslahi ya Pamoja"
+        },
+        "Done": "Imekamilika",
+        "relationships": {
+            "title": "Ongeza {{userName}} kwenye Kitabu cha Simu",
+            "welcome": "Karibu {{user}}",
+            "invitedByUser": "amekualika.",
+            "addToPhonebook": "Hifadhi kwa Anwani Zangu za Simu",
+            "iosInstructions": "Tembeza chini ili Ongeza Anwani Mpya",
+            "androidInstructions": "Unapaswa kufungua faili hii ya vCard baada ya kupakuliwa.",
+            "explanation": "Uhusiano wako ni nini?"
+        },
+        "Title": "Taarifa za Msingi",
+        "Prompt": "Hatua chache za kusanidi akaunti yako"
+    },
+    "profile": {
+        "Title": "Wasifu",
+        "Male": "Mwanaume",
+        "Female": "Mwanamke",
+        "Other": "Nyingine",
+        "dating": {
+            "Interested": "Unavutiwa",
+            "NotInterested": "Sivutiwi",
+            "MatchmakerOnly": "Mshikaji pekee"
+        },
+        "StartConversation": "Anzisha Mazungumzo",
+        "blockUser": "Zuia mtumiaji huyu",
+        "blockUserAlert": "Hutaona ujumbe wowote zaidi kutoka kwa mtumiaji huyu hadi utakapomfungulia.",
+        "unblockUser": "Ondoa kizuizi kwa mtumiaji huyu",
+        "addToContacts": "Ongeza kwa Anwani",
+        "manageLabels": "Dhibiti Lebo",
+        "inviteUsers": "Alika Watumiaji",
+        "selectRole": "Chagua Jukumu",
+        "inviteSuccess": "Imefaulu kualika mtumiaji kama {{label}}",
+        "invite": "Alika",
+        "relationships": "Mahusiano",
+        "newRole": "Jukumu Jipya",
+        "about": "Kuhusu",
+        "people": "Watu",
+        "info": "Habari",
+        "interests": "Maslahi",
+        "chat": "Soga",
+        "locations": "Maeneo",
+        "ManageRoles": "Dhibiti Majukumu",
+        "aboutPlaceholder": "Wewe ni nani na unafanya nini? Waambie watu jambo la kuvutia au la kipekee kukuhusu.",
+        "explanation": "Wasifu wako husaidia kukulinganisha vyema na watu wengine kwa shughuli za kikundi.<br> Tafadhali weka siku yako ya kuzaliwa",
+        "chats": {
+            "placeholder": "Sema kitu"
+        },
+        "LogOut": "Toka nje",
+        "MyLinks": "Viungo Vyangu",
+        "MyJobs": "Kazi Zangu",
+        "MySocial": "MySocial",
+        "MyEducation": "Elimu Yangu",
+        "JobsPlaceholder": "Andika hapa habari za kazi",
+        "EducationPlaceholder": "Andika hapa habari za elimu",
+        "ManageNotifications": "Dhibiti Arifa",
+        "YourPreferredLanguage": "Lugha unayopendelea",
+        "SendCrypto": "Lipa",
+        "Block": "Zuia",
+        "Unblock": "Ondoa kizuizi",
+        "Email": "Barua pepe",
+        "Avoid": "Epuka",
+        "CreatePrivateChat": "Je, ungependa kutumia {{credits}} mikopo ili kuwasiliana nawe?",
+        "RolesInCommunity": "Majukumu katika jamii",
+        "PersonalChatWith": "Soga ya kibinafsi na {{name}}",
+        "SendCryptoTo": "Tuma cryptocurrency kwa {{name}}",
+        "SendEmailTo": "Tuma barua pepe kwa {{name}}",
+        "SendSMSTo": "Tuma SMS kwa {{name}}",
+        "BlockThisUser": "Zuia mtumiaji huyu",
+        "UnblockThisUser": "Ondoa kizuizi kwa mtumiaji huyu",
+        "YouCantChatWithYourself": "Huwezi kupiga gumzo na wewe mwenyewe",
+        "blockUserAlertTitle": "Imezuiwa {{displayName}}",
+        "sections": {
+            "education": "Elimu",
+            "greeting": "Salamu",
+            "jobs": "Ajira",
+            "links": "Viungo",
+            "language": "Lugha",
+            "roles": "Majukumu",
+            "personal": "Binafsi",
+            "social": "Kijamii"
+        },
+        "Roles": "Majukumu",
+        "SendPaymentTo": "Tuma malipo kwa {{name}}"
+    },
+    "myqr": {
+        "Title": "QR yangu"
+    },
+    "composer": {
+        "createCommunity": "Unda Jumuiya",
+        "inviteAdmin": "Alika Msimamizi",
+        "inviteMember": "Alika Mwanachama",
+        "newCommunityTitle": "Jina la Jumuiya",
+        "setCommunityTitle": "Jina la Jumuiya",
+        "creditsChargeRequest": "Je, unakubali kutumia {{price}} mikopo?",
+        "yes": "Ndiyo",
+        "no": "Hapana"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Karibu! Tafadhali thibitisha anwani yako ya barua pepe.",
+        "WelcomeVerifyEmail": "Karibu! Thibitisha anwani yako ya barua pepe.",
+        "ForgetPass": "Hujambo, umesahau neno lako la siri?",
+        "ManageEmailSubscriptions": "dhibiti usajili wako wa barua pepe",
+        "IfUnsubscribe": "Ukitaka kujiondoa"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Karibu kwenye {{CommunityName}}. Programu hii itakusaidia kuungana na marafiki, kugundua watu wapya wanaopenda mambo ya kawaida, na mengi zaidi. Tuanze!"
+            },
+            "icon": {
+                "Commentary": "Weka picha yako. Hivi ndivyo watu watakavyokuona kwenye tovuti."
+            },
+            "interests": {
+                "Commentary": "Kadiri unavyochagua vitu vingi, ndivyo watu wengi unavyoweza kukutana nao.",
+                "Notifications": "Unahitaji kuruhusu arifa"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Arifa hukuruhusu kujua kuhusu mambo ambayo yanakuvutia, kama vile rafiki anapojiunga na programu, au kukutumia ujumbe."
+        },
+        "invite": "{{Q.words.TapOrClick}} hapa ili kuona jinsi unavyoweza kushiriki hili na watu wengine."
+    },
+    "payment": {
+        "onContribute": "Asante! Malipo yako yamekamilika. Je, ungependa kuwaalika marafiki zako wajiunge nawe?",
+        "ConnectAccount": "Unganisha akaunti"
+    },
+    "featureboard": {
+        "Text_1": "Acha sauti yako isikike! Je, unakubali kwamba tunapaswa kutengeneza kipengele au hitilafu? Bofya kitufe ili Kuiunga mkono.",
+        "Text_2": "Je, ungependa tutengeneze kipengele kipya? Ieleze hapa chini.",
+        "Text_3": "Kila wiki tunaanza kutengeneza kipengele cha juu kinachoombwa na jumuiya. Pesa zote zinazochangwa huenda kwa madhumuni hayo, na hivyo kuturuhusu kuboresha programu.",
+        "Text_4": "Pesa zote zinazochangwa zinatumika kusaidia kulipa gharama zetu za maendeleo.",
+        "Text_5": "Je, una wazo la kipengele au urekebishaji wa hitilafu ambao ungependa tufanye lakini bado hujaona wengine wakiongeza? Ifafanue hapa chini:",
+        "Options": [
+            {
+                "text": "$400 Mkutano wa video wa wakati halisi"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$200 Taarifa za Usajili wa Msingi wa Ndani"
+            },
+            {
+                "text": "$130 Vinjari na ushiriki maelfu ya {{1}} meme",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 Dhibiti jumuiya zako mwenyewe",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Rekebisha hitilafu ya mazungumzo",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Omba Kipengele Kipya\/Urekebishaji wa Hitilafu",
+        "FeaturePlaceholder": "Muhtasari mfupi wa kipengele",
+        "FeatureDescription": "Eleza jinsi mtu mwingine anavyoweza kuzalisha tena hitilafu unayoona, au eleza kwa kina kipengele unachotaka kuunda",
+        "AddYourRequest": "Ongeza Ombi Lako",
+        "NewFeature": "Kipengele Kipya"
+    },
+    "contribute": {
+        "ContributeExplanation": "Saidia kusaidia uundaji endelevu wa programu ya {{communityName}}. Michango yako yote husaidia kurekebisha hitilafu na kukuza vipengele vipya ili kusaidia kukuza jumuiya ya mtandaoni!",
+        "ReasonToContribute": "Programu hii inadumishwa na wafuasi wa {{communityName}}. Saidia kusaidia programu hii ili tuweze kuleta mabadiliko katika maisha ya watu!"
+    },
+    "assetshistory": {
+        "Title": "Historia ya mali",
+        "Charges": "Malipo",
+        "Credits": "Mikopo"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Ondoa akaunti",
+            "content": "Je, ungependa kuondoa akaunti hii?",
+            "ok": "Ndiyo",
+            "cancel": "Hapana"
+        }
+    },
+    "import": {
+        "fileNotFound": "Samahani, faili ya CSV haikupatikana.",
+        "fileEmpty": "Samahani, faili ya CSV haina chochote.",
+        "userIdNotFound": "mtumiaji yupo lakini kitambulisho tupu",
+        "errorLine": "mstari {{1}}",
+        "fieldNotFound": "Sehemu inayohitajika &quot;{{1}}&quot; haijapatikana",
+        "taskStreamInvalid": "mtiririko wa kazi ni batili",
+        "instructionsEmpty": "maagizo ya mtiririko wa kazi tupu",
+        "complete": "Kamilisha",
+        "activateUsers": "kutuma ujumbe wa kuwezesha kwa watumiaji?",
+        "importProgress": "Maendeleo",
+        "joinEventLabel": "Jiunge na watumiaji kwenye tukio la nasibu",
+        "importOptions": "Chaguzi",
+        "sampleCSV": "Pakua Sampuli ya CSV",
+        "fileLabel": "Pakia Lahajedwali:",
+        "errorsTitle": "Hitilafu zimetokea",
+        "communityUsers": "Hii ni orodha ya jumuiya",
+        "setAsConversation": "Safu wima ya URL kama mazungumzo",
+        "toMainCommunityToo": "ongeza watumiaji kwenye jumuiya kuu pia",
+        "willImportedTo": "Watumiaji wataletwa kwa jumuiya",
+        "ChooseFile": "chagua faili"
+    },
+    "services": {
+        "Title": "Huduma",
+        "filterByTitle": "Pata huduma kwa kichwa",
+        "New": "+ Anzisha Huduma Mpya",
+        "NewService": "Huduma Mpya",
+        "NewAvailability": "Upatikanaji Mpya",
+        "filterServices": "Huduma za kichujio",
+        "NoneYet": "Bado hakuna huduma zilizoundwa<br> nyakati hizi.",
+        "AllAuthors": "Waandishi Wote",
+        "AllDays": "Siku zote",
+        "AllLocations": "Maeneo Yote",
+        "MakeReservation": "Fanya Uhifadhi",
+        "CancelReservation": "Ghairi Uhifadhi",
+        "UpdateReservation": "Sasisha Uhifadhi",
+        "AreYouSure": "Una uhakika?",
+        "YouWillRefunded": "Utarejeshewa pesa kwa njia ya mikopo ambayo unaweza kutumia kwa mambo mengine katika programu.",
+        "AllInterests": "Maslahi Yote",
+        "FilterbyInterest": "Chuja kulingana na Riba",
+        "FilterByDate": "Chuja Kwa Tarehe",
+        "ShowActivities": "Onyesha shughuli zinazohusiana na ...",
+        "newServices": "Una {{1}} huduma mpya",
+        "SelectLocation": "Chagua Mahali",
+        "FilterLocationsPlaceHolder": "Chuja kumbi kwa...",
+        "Description": "{{1}} huduma",
+        "Keywords": "{{1}} huduma"
+    },
+    "welcome": {
+        "Title": "{{appName}}: karibu",
+        "GetStarted": "Anza",
+        "gallery": {
+            "Connect": "Unganisha",
+            "Organize": "Panga",
+            "Travel": "Safari",
+            "Share": "Shiriki"
+        }
+    }
+}

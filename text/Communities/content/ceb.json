@@ -1,0 +1,362 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> wala magpunting sa bisan unsa!",
+        "NextSteps": "Gamita ang main menu aron pangitaon ang imong gipangita."
+    },
+    "dashboard": {
+        "Menu": "Menu"
+    },
+    "greeting": {
+        "Welcome": "Welcome sa {{1}}. Dinhi makit-an nimo ang mga butang nga gi-post para sa mga miyembro sa among komunidad. Palihug idugang ang imong email address o numero sa mobile aron makadawat mga pahibalo kung ma-post ang mga anunsyo."
+    },
+    "conversations": {
+        "Title": "Mga panag-istoryahanay",
+        "New": "Bag-ong Pag-istoryahanay",
+        "Conversation": "Pag-istoryahanay",
+        "Topics": "Mga topiko",
+        "NoneYet": "Wala pa&#39;y mga panag-istoryahanay nga naporma",
+        "newConversations": "{{1}} bag-ong mga panag-istoryahanay",
+        "AllAuthors": "Tanan nga mga Awtor",
+        "FilterbyAuthors": "Salain pinaagi sa mga Awtor",
+        "FilterAuthorPlaceHolder": "Pangita ug dugang mga tagsulat...",
+        "filterConversations": "Salain pinaagi sa teksto",
+        "Description": "{{1}} mga panag-istoryahanay"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Pagpili ug topiko",
+            "Share": "Ipaambit",
+            "interest": {
+                "Title": "Pagpili og Kalihokan",
+                "Filter": "Pangitag interes..."
+            }
+        },
+        "Title": "Bag-ong Pag-istoryahanay",
+        "TitlePlaceholder": "Hilisgutan sa imong panag-istoryahanay",
+        "ContentPlaceholder": "Pagsulat og pipila ka mga pulong sa pagsugod sa panag-istoryahanay, aron ang uban makatubag",
+        "StartButton": "Pagsugod sa Pag-istoryahanay"
+    },
+    "events": {
+        "Title": "Mga panghitabo",
+        "filterByTitle": "Pangita og mga panghitabo pinaagi sa titulo",
+        "New": "+ Pagsugod sa Bag-ong Hitabo",
+        "filterEvents": "Pagsala sa mga panghitabo",
+        "NewEvent": "Bag-ong Hitabo",
+        "SetLocation": "Ibutang ang Akong Lokasyon",
+        "NoneYet": "Wala pa naporma ang mga panghitabo<br> niining mga panahona.",
+        "AllAuthors": "Tanan nga mga Awtor",
+        "AllDays": "Tanang Adlaw",
+        "AllLocations": "Tanang Lokasyon",
+        "MakeReservation": "Paghimo og Pagpareserba",
+        "CancelReservation": "Pagkanselar sa Pagpareserba",
+        "UpdateReservation": "Pag-update sa Pagpareserba",
+        "AreYouSure": "Sigurado ka?",
+        "YouWillRefunded": "Ibalik ka sa porma sa mga kredito nga mahimo nimong gastohon sa ubang mga butang sa app.",
+        "AllInterests": "Tanan nga Interes",
+        "FilterbyInterest": "Salain pinaagi sa Interes",
+        "FilterByDate": "Pagsala Pinaagi sa Petsa",
+        "ShowActivities": "Ipakita ang mga kalihokan nga may kalabutan sa . . .",
+        "newEvents": "Aduna kay {{1}} bag-ong mga panghitabo",
+        "SelectLocation": "Pilia ang Lokasyon",
+        "FilterLocationsPlaceHolder": "Salain ang mga lugar nga adunay ...",
+        "Description": "{{1}} mga panghitabo",
+        "Keywords": "{{1}} mga panghitabo"
+    },
+    "schedule": {
+        "Title": "Eskedyul",
+        "NoneYet": "Wala ka nag-apil sa bisan unsang mga panghitabo",
+        "AddSome": "Idugang ang pipila sa imong eskedyul!",
+        "AddMore": "Idugang ang mga panghitabo sa imong eskedyul!",
+        "future": "sa umaabot",
+        "past": "miagi"
+    },
+    "location": {
+        "Title": "Lokasyon",
+        "NewLocation": "Bag-ong Lugar"
+    },
+    "inbox": {
+        "Title": "Inbox",
+        "NoneYet": "Wala ka nag-apil sa bisan unsang panag-istoryahanay",
+        "FindPeople": "Pangitag mga tawo nga kaestorya",
+        "GroupConversations": "Apil sa pipila ka panag-istoryahanay sa grupo",
+        "ContactStaff": "Kontaka ang Staff",
+        "ContactCustomers": "Kontaka ang mga Kustomer"
+    },
+    "me": {
+        "Title": "Kanako",
+        "MobileNumber": "Numero sa Mobile",
+        "EmailAddress": "Email Address",
+        "UpdateSocialTitle": "I-update ang {{1}} username"
+    },
+    "people": {
+        "Title": "Mga tawo",
+        "Description": "Mga tawo sa {{1}} komunidad",
+        "AppAlert": "Kini nga app sa app store magtugot kanimo sa pagkonektar sa imong mga higala, ug daghan pa.",
+        "Invite": "Dapita ang mga Higala",
+        "BuyCredits": "Pagpalit ug Credits",
+        "FindSomeoneByName": "Pangitag tawo pinaagi sa ngalan",
+        "SearchByName": "Pangitaa pinaagi sa ngalan",
+        "FindAllMyFriends": "Pangitaa ang Tanang Akong Higala",
+        "labels": {
+            "All": "Ang tanan",
+            "Title": "Salain pinaagi sa Relasyon",
+            "New": "Bag-ong Uri sa Relasyon"
+        },
+        "interests": {
+            "All": "Tanan nga Interes",
+            "Title": "Salain pinaagi sa Interes",
+            "Filter": "Ipakita ang mga tawo nga interesado sa . . ."
+        },
+        "Keywords": "{{1}} komunidad sa mga tawo"
+    },
+    "communities": {
+        "Title": "Mga komunidad",
+        "NewCommunity": "Bag-ong Komunidad",
+        "FindCommunityByName": "Pangitaa ang komunidad pinaagi sa ngalan",
+        "Description": "{{1}} mga komunidad"
+    },
+    "community": {
+        "Title": "{{1}} Komunidad",
+        "Roles": "Mga tahas",
+        "AllRoles": "Tanang Papel",
+        "YouDontHavePermission": "Dili ka awtorisado sa pagbuhat niini",
+        "usernamePlaceholder": "ibutang ang ngalan sa komunidad",
+        "NotEnoughCredits": "Wala ka igo nga mga kredito aron mahimo ang komunidad. Kinahanglan {{1}}, aduna kay {{2}}"
+    },
+    "event": {
+        "GetDirections": "Pagkuha og mga Direksyon",
+        "WhichMap": "Unsang mga mapa ang gusto nimong gamiton?",
+        "JoinEventToChat": "Apil sa kalihokan aron makig-chat",
+        "promote": {
+            "Title": "Ipasiugda kini nga kalihokan",
+            "Prompt": "Pilia kung asa nimo gusto i-promote kini nga panghitabo:"
+        },
+        "Confirmation": "Pagkumpirma"
+    },
+    "newEvent": {
+        "Title": "Pagplano og Bag-ong Hitabo"
+    },
+    "interests": {
+        "Title": "Mga interes",
+        "prompt": "Pilia ang mga tipo sa mga butang nga gusto nimong mahibal-an.",
+        "explanation": "Kon mas daghang interes ang imong pilion, mas dako ang posibilidad nga makonektar ka sa mga tawo nga parehas og hunahuna.",
+        "filter": "Unsa ang imong interesado?",
+        "Profile": "Ang mga interes sa usag usa gipasiugda. Kung aduna ka&#39;y usa o daghan pa sa mga interes sa ubos, mahimo nimo {{clickOrTap}} nga idugang sila."
+    },
+    "credits": {
+        "Title": "Mga kredito",
+        "EarnCredits": "Pag-angkon og {{1}} nga mga kredito alang sa matag bag-ong tawo nga imong giimbitar nga moapil sa app",
+        "YouHave": "Ikaw adunay {{1}} nga mga kredito"
+    },
+    "onboarding": {
+        "Tap": "Tapik",
+        "Click": "Pag-klik",
+        "Yes": "Oo",
+        "No": "Dili",
+        "Skip": "o laktawan kini",
+        "name": {
+            "Preface": "Welcome sa",
+            "Placeholder": "Ibutang ang imong tibuok nga ngalan",
+            "GetStarted": "Pagsugod",
+            "AsGuest": "Giimbitar ka isip bisita.",
+            "AsMember": "Giimbitar ka isip miyembro.",
+            "AsAdmin": "Giimbitar ka isip admin.",
+            "AsOwner": "Giimbitar ka isip tag-iya.",
+            "TooShort": "Ang imong tibuok nga ngalan dili mahimong mubo",
+            "SetAsYourFullName": "Ibutang ang {{1}} isip imong tibuok nga ngalan?"
+        },
+        "icon": {
+            "KeepDefault": "o tipigi kini nga litrato",
+            "SetYourPhoto": "{{ClickOrTap}} aron ibutang ang imong litrato:"
+        },
+        "interests": {
+            "GetStarted": "⇩ Pagsugod",
+            "NextCategory": "↓ Sunod",
+            "Continue": "Padayon",
+            "Instructions": "Sa matag usa sa sunod nga {{1}} nga mga kategorya,<br> {{2}} sa tanan nga mga kalihokan nga ikaw interesado.<br> Ingon niini ang imong pagkonektar sa ubang mga tawo sa komunidad."
+        },
+        "profile": {
+            "Profile": "Ang imong profile makatabang sa mga tawo nga makadiskobre ug dugang bahin kanimo.<br>",
+            "Birthday": "Palihug isulod ang imong adlaw nga natawhan:",
+            "Placeholder": "Kinsa ka ug unsay imong gibuhat? Isulti sa mga tawo ang usa ka butang nga makapaikag o talagsaon bahin sa imong kaugalingon.",
+            "Required": "Aron makapadayon, pagsulat labing menos pipila ka linya bahin sa imong kaugalingon.",
+            "Month": "bulan",
+            "Day": "Adlaw",
+            "Year": "Tuig",
+            "Gender": "Gender",
+            "Male": "Lalaki",
+            "Female": "Babaye",
+            "Other": "Ang uban",
+            "Height": "Gitas-on",
+            "Affiliation": "Koneksyon",
+            "Dating": "Dating",
+            "Interested": "Interesado",
+            "NotInterested": "Dili interesado",
+            "MatchmakerOnly": "Matchmaker Lamang"
+        },
+        "location": {
+            "NoOneElse": "Walay laing makakita niini.",
+            "SetMyLocation": "Ibutang ang akong lokasyon"
+        },
+        "pile": {
+            "DialogTitle": "Mga Tawo nga adunay Komon nga mga Interes"
+        },
+        "Done": "Nahimo"
+    },
+    "profile": {
+        "Title": "Profile",
+        "Male": "Lalaki",
+        "Female": "Babaye",
+        "Other": "Ang uban",
+        "dating": {
+            "Interested": "Interesado",
+            "NotInterested": "Dili interesado",
+            "MatchmakerOnly": "Matchmaker lang"
+        },
+        "StartConversation": "Pagsugod ug Pag-istoryahanay",
+        "blockUser": "I-block kini nga tiggamit",
+        "blockUserAlert": "Dili na nimo makita ang bisan unsang mga mensahe gikan sa kini nga tiggamit hangtod nga i-unblock nimo sila.",
+        "unblockUser": "I-unblock kini nga user",
+        "addToContacts": "Idugang sa Contacts",
+        "manageLabels": "Pagdumala sa mga Label",
+        "inviteUsers": "Dapita ang mga Gumagamit",
+        "selectRole": "Pilia ang Papel",
+        "inviteSuccess": "Malampuson nga gidapit ang tiggamit isip {{label}}",
+        "invite": "Imbitar",
+        "relationships": "Mga relasyon",
+        "newRole": "Bag-ong Papel",
+        "about": "Mahitungod sa",
+        "people": "Mga tawo",
+        "info": "Impormasyon",
+        "interests": "Mga interes",
+        "chat": "Chat",
+        "locations": "Mga lokasyon",
+        "ManageRoles": "Pagdumala sa mga Papel",
+        "aboutPlaceholder": "Kinsa ka ug unsay imong gibuhat? Isulti sa mga tawo ang usa ka butang nga makapaikag o talagsaon bahin sa imong kaugalingon.",
+        "explanation": "Ang imong profile makatabang nga mas maparehas ka sa ubang mga tawo para sa mga kalihokan sa grupo.<br> Palihug isulod ang imong adlaw nga natawhan",
+        "chats": {
+            "placeholder": "Isulti ang usa ka butang"
+        },
+        "LogOut": "Log Out",
+        "MyLinks": "Akong mga Link",
+        "MyJobs": "Akong mga Trabaho",
+        "MySocial": "AkongSosyal",
+        "MyEducation": "Akong Edukasyon",
+        "JobsPlaceholder": "Isulat dinhi ang impormasyon sa trabaho",
+        "EducationPlaceholder": "I-type dinhi ang impormasyon sa edukasyon",
+        "ManageNotifications": "Pagdumala sa mga Notipikasyon",
+        "YourPreferredLanguage": "Ang imong gusto nga pinulongan"
+    },
+    "myqr": {
+        "Title": "Akong QR"
+    },
+    "composer": {
+        "createCommunity": "Paghimo sa Komunidad",
+        "inviteAdmin": "Imbita si Admin",
+        "inviteMember": "Dapita ang Miyembro",
+        "newCommunityTitle": "Ngalan sa Komunidad",
+        "setCommunityTitle": "Ngalan sa Komunidad",
+        "creditsChargeRequest": "Mouyon ka ba sa paggasto sa {{price}} mga kredito?",
+        "yes": "Oo",
+        "no": "Dili"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Welcome! Palihug pamatud-i ang imong email address.",
+        "WelcomeVerifyEmail": "Welcome! I-verify ang imong email address.",
+        "ForgetPass": "Uy, nakalimot ka sa imong passphrase?",
+        "ManageEmailSubscriptions": "pagdumala sa imong mga suskrisyon sa email",
+        "IfUnsubscribe": "Kung gusto nimo mag-unsubscribe"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Welcome sa {{CommunityName}}. Kini nga app makatabang kanimo sa pagkonektar sa mga higala, pagdiskobre sa bag-ong mga tawo nga adunay komon nga mga interes, ug daghan pa. Magsugod na ta!"
+            },
+            "icon": {
+                "Commentary": "Ibutang ang imong litrato. Ingon niini ang pagtan-aw sa mga tawo kanimo sa site."
+            },
+            "interests": {
+                "Commentary": "Kon mas daghang butang ang imong pilion, mas daghang tawo ang imong mahimamat.",
+                "Notifications": "Kinahanglan nimong tugutan ang mga pahibalo"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Gitugotan ka sa mga abiso nga mahibal-an ang bahin sa mga butang nga interesado ka, sama sa kung ang usa ka higala miapil sa app, o mga mensahe kanimo."
+        },
+        "invite": "{{Q.words.TapOrClick}} dinhi aron makita kung giunsa nimo kini ipaambit sa ubang mga tawo."
+    },
+    "payment": {
+        "onContribute": "Salamat! Nahuman ang imong bayad. Gusto ba nimong imbitahon ang imong mga higala nga moapil kanimo?"
+    },
+    "featureboard": {
+        "Text_1": "Ipabati ang imong tingog! Mouyon ka ba nga kinahanglan namon nga maghimo usa ka bahin o bug? I-klik ang buton aron suportahan kini.",
+        "Text_2": "Gusto ba kami nga maghimo usa ka bag-ong bahin? Ihulagway kini sa ubos.",
+        "Text_3": "Kada semana magsugod kami sa pagpalambo sa pinakataas nga gihangyo nga bahin sa komunidad. Ang tanan nga kuwarta nga giamot moadto sa kana nga katuyoan, nga gitugotan kami nga mahimong mas maayo ang app.",
+        "Text_4": "Ang tanan nga kuwarta nga giamot gigamit aron makatabang sa pagbayad sa among mga gasto sa pag-uswag.",
+        "Text_5": "Aduna ka bay ideya alang sa usa ka bahin o pag-ayo sa bug nga gusto nimo nga among buhaton apan wala ka pa makakita nga gidugang sa uban? Ihulagway kini sa ubos:",
+        "Options": [
+            {
+                "text": "$400 Real time nga videoconferencing"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$200 Lokal nga Pangunang impormasyon sa pagparehistro"
+            },
+            {
+                "text": "$130 Pag-browse ug pagpaambit og linibo nga {{1}} meme",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 Pagdumala sa imong kaugalingon nga mga komunidad",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Ayuhon ang mga panag-istoryahanay bug",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Paghangyo ug Bag-ong Feature\/Bugfix",
+        "FeaturePlaceholder": "Mubo nga summary sa feature",
+        "FeatureDescription": "Ihulagway kon sa unsang paagi mahimo sa laing tawo ang pagkopya sa bug nga imong nakita, o ihulagway sa detalye ang bahin nga gusto nimong tukuron",
+        "AddYourRequest": "Idugang ang Imong Gihangyo",
+        "NewFeature": "Bag-ong Feature"
+    },
+    "contribute": {
+        "ContributeExplanation": "Tabang sa pagsuporta sa padayon nga pagpalambo sa {{communityName}} app. Ang tanan nimong mga kontribusyon makatabang sa pag-ayo sa mga bug ug pagpalambo sa bag-ong mga bahin aron makatabang sa pagtubo sa online nga komunidad!",
+        "ReasonToContribute": "Kini nga app gimentinar sa mga tigpaluyo sa {{communityName}}. Tabang sa pagsuporta niini nga app aron makahimo kami og kalainan sa kinabuhi sa mga tawo!"
+    },
+    "assetshistory": {
+        "Title": "Kasaysayan sa mga kabtangan",
+        "Charges": "Kaso",
+        "Credits": "Mga kredito"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Kuhaa ang account",
+            "content": "Gusto ba nimong tangtangon kini nga account?",
+            "ok": "Oo",
+            "cancel": "Dili"
+        }
+    },
+    "import": {
+        "fileNotFound": "Sorry, CSV file wala makit-an.",
+        "fileEmpty": "Sorry, CSV file walay sulod.",
+        "userIdNotFound": "naay user pero walay sulod ang id",
+        "errorLine": "linya {{1}}",
+        "fieldNotFound": "Ang gikinahanglan nga field &quot;{{1}}&quot; wala makit-an",
+        "taskStreamInvalid": "dili balido ang stream sa buluhaton",
+        "instructionsEmpty": "walay sulod nga mga instruksyon sa stream sa buluhaton",
+        "complete": "Kompleto",
+        "activateUsers": "ipadala ang mensahe sa pagpaaktibo sa mga tiggamit?",
+        "importProgress": "Pag-uswag",
+        "joinEventLabel": "Apil sa mga tiggamit sa random nga panghitabo",
+        "importOptions": "Mga kapilian",
+        "sampleCSV": "Pag-download sa Sampol nga CSV",
+        "fileLabel": "Pag-upload sa Spreadsheet:",
+        "errorsTitle": "Nahitabo ang mga kasaypanan",
+        "communityUsers": "Kini ang listahan sa mga komunidad",
+        "setAsConversation": "Kolum sa URL isip panag-istoryahanay",
+        "toMainCommunityToo": "idugang ang mga tiggamit sa panguna nga komunidad usab",
+        "willImportedTo": "Ang mga tiggamit i-import sa komunidad"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "activation": {
+        "Thanks": "Tervetuloa {{1}}.",
+        "ClickHere": "Napsauta tätä aktivoidaksesi tilisi: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Napsauta tätä vahvistaaksesi matkapuhelinnumerosi: {{1}}"
+    },
+    "SeeHistory": "Katso maksuhistoria: {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} on laskuttanut {{2}} summasta {{3}}, {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hei {{1}}, tämä on vain nopea vahvistus siitä, että olet onnistuneesti maksanut {{2}} henkilölle {{3}} summasta {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Olet tilannut kanavan {{2}} kanssa {{3}} klo {{4}} {{5}} kuukaudeksi.",
+        "HasStarted": "{{1}} on tilannut tuotteen {{2}} kanssa {{3}} klo {{4}} {{5}} kuukaudeksi."
+    },
+    "resend": {
+        "DidYouWant": "Halusitko nollata tunnuslauseesi kohteessa {{1}}?",
+        "ClickHere": "Napsauta sitten tätä: {{1}}"
+    }
+}

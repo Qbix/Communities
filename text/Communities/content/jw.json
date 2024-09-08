@@ -1,0 +1,362 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> ora nuduhake apa-apa!",
+        "NextSteps": "Gunakake menu utama kanggo nemokake apa sing lagi looking for."
+    },
+    "dashboard": {
+        "Menu": "Menu"
+    },
+    "greeting": {
+        "Welcome": "Sugeng rawuh ing {{1}}. Ing kene sampeyan bakal nemokake barang sing dikirim kanggo anggota komunitas kita. Tambahake alamat email utawa nomer seluler sampeyan supaya bisa nampa kabar nalika pengumuman dikirim."
+    },
+    "conversations": {
+        "Title": "pacelathon",
+        "New": "Obrolan Anyar",
+        "Conversation": "pacelathon",
+        "Topics": "Topik",
+        "NoneYet": "Durung ana obrolan sing digawe",
+        "newConversations": "{{1}} obrolan anyar",
+        "AllAuthors": "Kabeh Penulis",
+        "FilterbyAuthors": "Filter dening Penulis",
+        "FilterAuthorPlaceHolder": "Telusuri pengarang tambahan...",
+        "filterConversations": "Filter miturut teks",
+        "Description": "{{1}} obrolan"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Pilih topik",
+            "Share": "Nuduhake",
+            "interest": {
+                "Title": "Pilih Aktivitas",
+                "Filter": "Golek minat..."
+            }
+        },
+        "Title": "Obrolan Anyar",
+        "TitlePlaceholder": "Subyek obrolan sampeyan",
+        "ContentPlaceholder": "Tulis sawetara tembung kanggo miwiti obrolan, supaya wong liya bisa mangsuli",
+        "StartButton": "Miwiti Obrolan"
+    },
+    "events": {
+        "Title": "Acara",
+        "filterByTitle": "Golek acara miturut judhul",
+        "New": "+ Miwiti Acara Anyar",
+        "filterEvents": "Nyaring acara",
+        "NewEvent": "Acara Anyar",
+        "SetLocation": "Setel Lokasiku",
+        "NoneYet": "Durung ana acara sing dibentuk<br> sak iki wektu.",
+        "AllAuthors": "Kabeh Penulis",
+        "AllDays": "Kabeh Dina",
+        "AllLocations": "Kabeh Lokasi",
+        "MakeReservation": "Nggawe Reservasi",
+        "CancelReservation": "Batal Reservasi",
+        "UpdateReservation": "Nganyari Reservasi",
+        "AreYouSure": "Apa sampeyan yakin?",
+        "YouWillRefunded": "Sampeyan bakal dibalekake ing wangun kridit sing bisa digunakake kanggo barang liyane ing app.",
+        "AllInterests": "Kabeh Minat",
+        "FilterbyInterest": "Nyaring miturut kapentingan",
+        "FilterByDate": "Filter Miturut Tanggal",
+        "ShowActivities": "Nuduhake kegiatan sing ana gandhengane karo. . .",
+        "newEvents": "Sampeyan duwe {{1}} acara anyar",
+        "SelectLocation": "Pilih Lokasi",
+        "FilterLocationsPlaceHolder": "Filter panggonan karo ...",
+        "Description": "{{1}} acara",
+        "Keywords": "{{1}} acara"
+    },
+    "schedule": {
+        "Title": "Jadwal",
+        "NoneYet": "Sampeyan ora melu acara apa wae",
+        "AddSome": "Tambah sawetara menyang jadwal sampeyan!",
+        "AddMore": "Tambah acara menyang jadwal sampeyan!",
+        "future": "mangsa",
+        "past": "kepungkur"
+    },
+    "location": {
+        "Title": "lokasi",
+        "NewLocation": "Lokasi Anyar"
+    },
+    "inbox": {
+        "Title": "Kothak mlebu",
+        "NoneYet": "Sampeyan ora melu obrolan apa wae",
+        "FindPeople": "Golek wong diajak",
+        "GroupConversations": "Gabung sawetara obrolan grup",
+        "ContactStaff": "Kontak Staff",
+        "ContactCustomers": "Kontak Pelanggan"
+    },
+    "me": {
+        "Title": "kula",
+        "MobileNumber": "Nomer HP",
+        "EmailAddress": "Alamat Email",
+        "UpdateSocialTitle": "Nganyari {{1}} jeneng panganggo"
+    },
+    "people": {
+        "Title": "wong",
+        "Description": "Wong ing {{1}} komunitas",
+        "AppAlert": "Aplikasi ing toko app iki bakal ngidini sampeyan nyambungake karo kanca-kanca, lan liya-liyane.",
+        "Invite": "Ajak Kanca",
+        "BuyCredits": "Tuku Kredit",
+        "FindSomeoneByName": "Golek wong kanthi jeneng",
+        "SearchByName": "Telusuri miturut jeneng",
+        "FindAllMyFriends": "Golek Kabeh Kancaku",
+        "labels": {
+            "All": "Kabeh wong",
+            "Title": "Filter miturut Relationship",
+            "New": "Jinis Hubungan Anyar"
+        },
+        "interests": {
+            "All": "Kabeh Minat",
+            "Title": "Nyaring miturut kapentingan",
+            "Filter": "Tampilake wong sing kasengsem ing. . ."
+        },
+        "Keywords": "{{1}} komunitas wong"
+    },
+    "communities": {
+        "Title": "Masyarakat",
+        "NewCommunity": "Komunitas anyar",
+        "FindCommunityByName": "Temokake komunitas kanthi jeneng",
+        "Description": "{{1}} komunitas"
+    },
+    "community": {
+        "Title": "{{1}} Komunitas",
+        "Roles": "Peran",
+        "AllRoles": "Kabeh Peran",
+        "YouDontHavePermission": "Sampeyan ora duwe wewenang kanggo nindakake iki",
+        "usernamePlaceholder": "nyetel jeneng komunitas",
+        "NotEnoughCredits": "Sampeyan ora duwe kridit sing cukup kanggo nggawe komunitas. Perlu {{1}}, sampeyan duwe {{2}}"
+    },
+    "event": {
+        "GetDirections": "Njaluk Directions",
+        "WhichMap": "Peta endi sing arep sampeyan gunakake?",
+        "JoinEventToChat": "Melu acara kanggo ngobrol",
+        "promote": {
+            "Title": "Promote acara iki",
+            "Prompt": "Pilih ngendi sampeyan pengin promosi acara iki:"
+        },
+        "Confirmation": "Konfirmasi"
+    },
+    "newEvent": {
+        "Title": "Rencana Acara Anyar"
+    },
+    "interests": {
+        "Title": "kapentingan",
+        "prompt": "Pilih jinis barang sing pengin sampeyan ngerti.",
+        "explanation": "Luwih akeh kapentingan sing sampeyan pilih, luwih akeh sampeyan bisa nyambung karo wong sing padha.",
+        "filter": "Apa sampeyan kasengsem ing?",
+        "Profile": "Kapentingan bebarengan disorot. Yen sampeyan uga duwe siji utawa luwih kapentingan ing ngisor iki, sampeyan bisa {{clickOrTap}} nambahake."
+    },
+    "credits": {
+        "Title": "Kredit",
+        "EarnCredits": "Entuk kridit {{1}} kanggo saben wong anyar sing diundang sing melu app",
+        "YouHave": "Sampeyan duwe kridit {{1}}."
+    },
+    "onboarding": {
+        "Tap": "Tutul",
+        "Click": "Klik",
+        "Yes": "ya wis",
+        "No": "Ora",
+        "Skip": "utawa skip iki",
+        "name": {
+            "Preface": "Sugeng rawuh",
+            "Placeholder": "Ketik jeneng lengkap",
+            "GetStarted": "Miwiti",
+            "AsGuest": "Sampeyan wis diundang minangka tamu.",
+            "AsMember": "Sampeyan wis diundang dadi anggota.",
+            "AsAdmin": "Sampeyan wis diundang dadi admin.",
+            "AsOwner": "Sampeyan wis diundang minangka pemilik.",
+            "TooShort": "Jeneng lengkap sampeyan ora bisa singkat",
+            "SetAsYourFullName": "Setel {{1}} minangka jeneng lengkap sampeyan?"
+        },
+        "icon": {
+            "KeepDefault": "utawa nyimpen foto iki",
+            "SetYourPhoto": "{{ClickOrTap}} kanggo nyetel foto sampeyan:"
+        },
+        "interests": {
+            "GetStarted": "⇩ Miwiti",
+            "NextCategory": "↓ Sabanjure",
+            "Continue": "Terusake",
+            "Instructions": "Ing saben kategori {{1}} sabanjure,<br> {{2}} kabeh aktivitas sing sampeyan minati.<br> Iki carane sampeyan nyambungake karo wong liya ing komunitas."
+        },
+        "profile": {
+            "Profile": "Profil sampeyan mbantu wong nemokake luwih akeh babagan sampeyan.<br>",
+            "Birthday": "Ketik tanggal lahirmu:",
+            "Placeholder": "Sapa sampeyan lan apa sing sampeyan lakoni? Marang wong sing menarik utawa unik babagan sampeyan.",
+            "Required": "Kanggo nerusake, nulis paling sethithik saperangan baris babagan sampeyan.",
+            "Month": "wulan",
+            "Day": "dina",
+            "Year": "taun",
+            "Gender": "jinis kelamin",
+            "Male": "lanang",
+            "Female": "wadon",
+            "Other": "Liyane",
+            "Height": "dhuwur",
+            "Affiliation": "Afiliasi",
+            "Dating": "pacaran",
+            "Interested": "kasengsem",
+            "NotInterested": "Ora kasengsem",
+            "MatchmakerOnly": "Matchmaker Mung"
+        },
+        "location": {
+            "NoOneElse": "Ora ana wong liya sing bakal weruh.",
+            "SetMyLocation": "Setel lokasiku"
+        },
+        "pile": {
+            "DialogTitle": "Wong sing Kepentingan Umum"
+        },
+        "Done": "rampung"
+    },
+    "profile": {
+        "Title": "profil",
+        "Male": "lanang",
+        "Female": "wadon",
+        "Other": "Liyane",
+        "dating": {
+            "Interested": "kasengsem",
+            "NotInterested": "Ora kasengsem",
+            "MatchmakerOnly": "Matchmaker mung"
+        },
+        "StartConversation": "Miwiti Obrolan",
+        "blockUser": "Blokir pangguna iki",
+        "blockUserAlert": "Sampeyan ora bakal weruh pesen maneh saka pangguna iki nganti sampeyan mbukak blokir.",
+        "unblockUser": "Mbukak blokir pangguna iki",
+        "addToContacts": "Tambah menyang Kontak",
+        "manageLabels": "Ngatur Label",
+        "inviteUsers": "Ngundang Pangguna",
+        "selectRole": "Pilih Role",
+        "inviteSuccess": "Kasil diundang pangguna minangka {{label}}",
+        "invite": "ngundang",
+        "relationships": "sesambetan",
+        "newRole": "Peran Anyar",
+        "about": "Babagan",
+        "people": "wong",
+        "info": "Info",
+        "interests": "kapentingan",
+        "chat": "Ngobrol",
+        "locations": "Panggonan",
+        "ManageRoles": "Ngatur Peran",
+        "aboutPlaceholder": "Sapa sampeyan lan apa sing sampeyan lakoni? Marang wong sing menarik utawa unik babagan sampeyan.",
+        "explanation": "Profil sampeyan mbantu sampeyan luwih cocog karo wong liya kanggo kegiatan klompok.<br> Mangga ketik ulang tahun sampeyan",
+        "chats": {
+            "placeholder": "Ngomong soko"
+        },
+        "LogOut": "Log Out",
+        "MyLinks": "Link Kula",
+        "MyJobs": "Pekerjaanku",
+        "MySocial": "MySocial",
+        "MyEducation": "Pendidikan Kula",
+        "JobsPlaceholder": "Ketik ing kene info lowongan",
+        "EducationPlaceholder": "Ketik kene info pendidikan",
+        "ManageNotifications": "Ngatur Notifikasi",
+        "YourPreferredLanguage": "Basa sing disenengi"
+    },
+    "myqr": {
+        "Title": "QR kula"
+    },
+    "composer": {
+        "createCommunity": "Nggawe Komunitas",
+        "inviteAdmin": "Undangan Admin",
+        "inviteMember": "Undangan Anggota",
+        "newCommunityTitle": "Jeneng Komunitas",
+        "setCommunityTitle": "Jeneng Komunitas",
+        "creditsChargeRequest": "Apa sampeyan setuju mbuwang kridit {{price}}?",
+        "yes": "ya wis",
+        "no": "Ora"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Sugeng rawuh! Mangga verifikasi alamat email sampeyan.",
+        "WelcomeVerifyEmail": "Sugeng rawuh! Verifikasi alamat email sampeyan.",
+        "ForgetPass": "Eh, kowe lali sandi?",
+        "ManageEmailSubscriptions": "ngatur langganan email",
+        "IfUnsubscribe": "Yen sampeyan pengin unsubscribe"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Sugeng rawuh ing {{CommunityName}}. Aplikasi iki bakal mbantu sampeyan nyambungake karo kanca-kanca, nemokake wong anyar sing duwe minat sing padha, lan liya-liyane. Ayo dadi miwiti!"
+            },
+            "icon": {
+                "Commentary": "Setel foto sampeyan. Iki carane wong bakal weruh sampeyan ing situs."
+            },
+            "interests": {
+                "Commentary": "Luwih akeh item sing sampeyan pilih, luwih akeh wong sing bisa ditemokake.",
+                "Notifications": "Sampeyan kudu ngidini kabar"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Kabar ngidini sampeyan ngerti babagan apa sing sampeyan minati, kayata nalika kanca melu app, utawa pesen sampeyan."
+        },
+        "invite": "{{Q.words.TapOrClick}} kanggo ndeleng kepiye sampeyan bisa nuduhake iki karo wong liya."
+    },
+    "payment": {
+        "onContribute": "matur nuwun! Pembayaran sampeyan liwati. Apa sampeyan pengin ngajak kanca-kanca gabung?"
+    },
+    "featureboard": {
+        "Text_1": "Swaramu keprungu! Apa sampeyan setuju yen kita kudu ngembangake fitur utawa bug? Klik tombol kanggo Ndhukung.",
+        "Text_2": "Pengin kita ngembangake fitur anyar? Andharan ing ngisor iki.",
+        "Text_3": "Saben minggu kita miwiti ngembangake fitur sing dijaluk paling dhuwur dening masyarakat. Kabeh dhuwit sing disumbang menyang tujuan kasebut, ngidini kita nggawe app luwih apik.",
+        "Text_4": "Kabeh dhuwit sing disumbang digunakake kanggo mbayar biaya pembangunan.",
+        "Text_5": "Apa sampeyan duwe ide kanggo fitur utawa bugfix sing pengin kita lakoni nanging durung weruh wong liya nambahake? Katrangan ing ngisor iki:",
+        "Options": [
+            {
+                "text": "$400 Real time videoconferencing"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$200 Informasi registrasi Utama Lokal"
+            },
+            {
+                "text": "$130 Telusur lan nuduhake ewonan meme {{1}}.",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$ 80 Ngatur komunitas dhewe",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$ 30 Ndandani bug obrolan",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Nyuwun Fitur Anyar \/ Bugfix",
+        "FeaturePlaceholder": "Ringkesan singkat fitur",
+        "FeatureDescription": "Katrangan cara wong liya bisa ngasilake bug sing sampeyan deleng, utawa jelasake kanthi rinci fitur sing pengin digawe",
+        "AddYourRequest": "Tambah Panjaluk Panjenengan",
+        "NewFeature": "Fitur Anyar"
+    },
+    "contribute": {
+        "ContributeExplanation": "Mbantu ndhukung terus pangembangan aplikasi {{communityName}}. Kabeh kontribusi sampeyan mbantu ndandani bug lan ngembangake fitur-fitur anyar kanggo mbantu ngembangake komunitas online!",
+        "ReasonToContribute": "Aplikasi iki dikelola dening panyengkuyung {{communityName}}. Bantuan ndhukung app iki supaya kita bisa nggawe prabédan ing urip wong!"
+    },
+    "assetshistory": {
+        "Title": "Sajarah aset",
+        "Charges": "Biaya",
+        "Credits": "Kredit"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Mbusak akun",
+            "content": "Apa sampeyan pengin mbusak akun iki?",
+            "ok": "ya wis",
+            "cancel": "Ora"
+        }
+    },
+    "import": {
+        "fileNotFound": "Nuwun sewu, file CSV ora ditemokake.",
+        "fileEmpty": "Nuwun sewu, file CSV kosong.",
+        "userIdNotFound": "pangguna ana nanging id kosong",
+        "errorLine": "baris {{1}}",
+        "fieldNotFound": "Kolom sing dibutuhake &quot;{{1}}&quot; ora ditemokake",
+        "taskStreamInvalid": "aliran tugas ora sah",
+        "instructionsEmpty": "instruksi stream tugas kosong",
+        "complete": "jangkep",
+        "activateUsers": "ngirim pesen aktivasi kanggo pangguna?",
+        "importProgress": "kemajuan",
+        "joinEventLabel": "Gabung pangguna menyang acara acak",
+        "importOptions": "Pilihan",
+        "sampleCSV": "Unduh Contoh CSV",
+        "fileLabel": "Unggah Spreadsheet:",
+        "errorsTitle": "Kesalahan dumadi",
+        "communityUsers": "Iki dhaptar komunitas",
+        "setAsConversation": "Kolom URL minangka obrolan",
+        "toMainCommunityToo": "nambah pangguna menyang komunitas utama uga",
+        "willImportedTo": "Pangguna bakal diimpor menyang komunitas"
+    }
+}

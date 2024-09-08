@@ -1,0 +1,24 @@
+{
+    "activation": {
+        "Thanks": "欢迎使用 {{1}}。",
+        "ClickHere": "单击此处激活您的帐户：{{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "点击此处验证您的手机号码：{{1}}"
+    },
+    "SeeHistory": "查看 {{1}} 的付款历史记录",
+    "charge": {
+        "HasBeenCharged": "{{1}} 已由 {{4}} 为 {{3}} 收取 {{2}}"
+    },
+    "charged": {
+        "HavePaid": "嘿{{1}}，这只是快速确认您已成功向{{3}}支付{{2}}的{{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "您已在 {{4}} 使用 {{3}} 订阅 {{2}} {{5}} 个月。",
+        "HasStarted": "{{1}} 已在 {{4}} 与 {{3}} 订阅 {{2}} {{5}} 个月。"
+    },
+    "resend": {
+        "DidYouWant": "您想在 {{1}} 中重置您的密码吗？",
+        "ClickHere": "然后点击这里：{{1}}"
+    }
+}

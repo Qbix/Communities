@@ -1,0 +1,24 @@
+{
+    "activation": {
+        "Thanks": "Fáilte go {{1}}.",
+        "ClickHere": "Cliceáil anseo chun do chuntas a ghníomhachtú: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Cliceáil anseo chun d&#39;uimhir ghutháin phóca a fhíorú: {{1}}"
+    },
+    "SeeHistory": "Féach ar an stair íocaíochta le haghaidh {{1}}",
+    "charge": {
+        "HasBeenCharged": "Tá {{1}} gearrtha {{2}} as {{3}} ag {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hey {{1}}, níl anseo ach dearbhú tapa gur éirigh leat {{2}} a íoc le {{3}} as {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Tá tú sínithe le {{2}} le {{3}} ag {{4}} le {{5}} mí.",
+        "HasStarted": "Tá {{1}} sínithe le {{2}} le {{3}} ag {{4}} le {{5}} mí."
+    },
+    "resend": {
+        "DidYouWant": "An raibh tú ag iarraidh do phasfhrása a athshocrú in {{1}}?",
+        "ClickHere": "Ansin cliceáil anseo: {{1}}"
+    }
+}

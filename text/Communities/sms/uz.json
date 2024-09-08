@@ -1,0 +1,20 @@
+{
+    "activation": {
+        "Thanks": "{{1}} ga xush kelibsiz.",
+        "ClickHere": "Hisobingizni faollashtirish uchun bu yerga bosing: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Mobil raqamingizni tasdiqlash uchun shu yerni bosing: {{1}}"
+    },
+    "SeeHistory": "{{1}} uchun toʻlov tarixini koʻrish",
+    "charge": {
+        "HasBeenCharged": "{{4}} tomonidan {{3}} uchun {{1}} {{2}} undirildi"
+    },
+    "charged": {
+        "HavePaid": "Salom {{1}}, bu {{2}} {{3}} hisobiga {{4}} uchun toʻlovni muvaffaqiyatli amalga oshirganingizning tez tasdigʻidir."
+    },
+    "subscription": {
+        "YouHaveStarted": "Siz {{2}} obunasiga {{3}} bilan {{4}} da {{5}} oy obuna bo‘ldingiz.",
+        "HasStarted": "{{1}} {{2}} {{3}} bilan {{4}} da {{5}} oy davomida obuna bo‘ldi."
+    }
+}

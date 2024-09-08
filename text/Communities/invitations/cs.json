@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Jste zváni",
+        "Member": "Člen v {{title}}",
+        "Explanation": "{{1}} s potěšením oznamuje spuštění našeho nového webu. Zahrnuje rostoucí seznam funkcí, jako například:",
+        "Public": "Veřejné informace o {{1}}",
+        "Private": "Soukromý uživatelský účet pro každého člena",
+        "Notifications": "Po zadání e-mailové adresy nebo mobilního čísla budete moci dostávat důležitá upozornění e-mailem nebo textovou zprávou.",
+        "GetStarted": "Chcete-li začít, ve svém webovém prohlížeči <em>pečlivě<\/em> zadejte:<br>",
+        "IssuedToYou": "Tento kód je vydán speciálně vám."
+    }
+}

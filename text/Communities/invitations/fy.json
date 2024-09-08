@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Do bist útnoege",
+        "Member": "Lid by {{title}}",
+        "Explanation": "{{1}} is bliid om de lansearring fan ús nije webside oan te kundigjen. It omfettet in groeiende list mei funksjes, lykas:",
+        "Public": "Publike ynformaasje oer {{1}}",
+        "Private": "In privee brûkersaccount foar elk lid",
+        "Notifications": "Troch jo e-mailadres of mobylnûmer yn te fieren kinne jo wichtige notifikaasjes krije fia e-post of sms.",
+        "GetStarted": "Om te begjinnen, fier yn jo webblêder <em>foarsichtich<\/em> yn:<br>",
+        "IssuedToYou": "Dizze koade is spesifyk útjûn oan jo."
+    }
+}

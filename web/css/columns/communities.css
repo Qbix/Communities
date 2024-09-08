@@ -1,0 +1,8 @@
+h2.Q_controls_slot {
+	font-size: 16px;
+	font-weight: normal;
+}
+.Communities_column_facebook .Communities_top_controls .Streams_userChooser_tool,
+.Communities_column_facebook .Communities_top_controls .Communities_composer_tool {
+	display: none;
+}

@@ -1,0 +1,27 @@
+{
+    "activation": {
+        "Thanks": "Siyakwamukela ku-{{1}}",
+        "ReallyYourEmail": "Ingabe leli ikheli lakho le-imeyili ngempela, {{1}}? Uma kunjalo, chofoza <a href='{{2}}'>lapha<\/a> ukuze usethe umushwana wakho wokungena futhi wenze i-akhawunti yakho isebenze.",
+        "SeeYou": "Sizokubona ku <a href='{{1}}'>-{{100}}<\/a> !"
+    },
+    "LinkToUnsubscribe": "Nasi isixhumanisi <a href='{{1}}'>sokuzikhipha ohlwini<\/a> uma ungafuni ukuthola amanye ama-imeyili.",
+    "Greetings": "Ukubingelela okuvela ku-{{1}}.",
+    "SeeHistory": "Bona umlando wokukhokha we-{{1}}",
+    "charge": {
+        "HasBeenCharged": "Sawubona, lokhu okokukwazisa nje ukuthi {{1}} ukhokhisiwe {{2}} okungu-{{3}} ngo-{{4}}"
+    },
+    "charged": {
+        "HavePaid": "Sawubona {{1}}, lesi isiqinisekiso esisheshayo sokuthi ukhokhe ngempumelelo {{3}} ku-{{3}} {{4}}"
+    },
+    "resend": {
+        "Thanks": "Siyabonga ngokuvakashela {{1}}",
+        "YouAreReceiving": "Uthola le imeyili ngenxa yokuthi othile ufake ikheli lakho le-imeyili wabe esechofoza &quot;ukhohlwe umushwana wokungena&quot;. Uma bekungewena, vele uzibe lo mlayezo.",
+        "Reset": "Ukuze usethe kabusha umushwana wakho wokungena, chofoza {{1}}",
+        "SetUpPassphrase": "Setha umushwana wokungena"
+    },
+    "subscription": {
+        "YouHaveStarted": "Sawubona {{1}}, uqale ukubhalisa kwakho ku-{{2}} nge-{{3}} ngo-{{4}} {{5}} izinyanga.",
+        "HasStarted": "Lokhu okokukwazisa nje ukuthi {{1}}, sebeqale ukubhalisa kwabo ku-{{2}} nge-{{3}} ngo-{{4}} {{5}} izinyanga."
+    },
+    "SeeYou": "Sizokubona ku-{{1}}!"
+}

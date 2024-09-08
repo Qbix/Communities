@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "U memiloe",
+        "Member": "Setho ho {{title}}",
+        "Explanation": "{{1}} o thabetse ho tsebisa sebaka sa rona sa Marang-rang se secha. E kenyelletsa lenane le ntseng le hola la likarolo, joalo ka:",
+        "Public": "Litaba mabapi le {{1}}",
+        "Private": "Ak&#39;haonte ea mosebelisi ea poraefete bakeng sa setho se seng le se seng",
+        "Notifications": "Ka ho kenya aterese ea hau ea lengolo-tsoibila kapa nomoro ea mohala u tla khona ho fumana litemoso tsa bohlokoa ka lengolo-tsoibila kapa molaetsa oa mongolo.",
+        "GetStarted": "Ho qala, kenya sebatli sa hau sa Marang-rang ka <em>hloko<\/em> :<br>",
+        "IssuedToYou": "Khouto ena e fuoe uena ka ho khetheha."
+    }
+}

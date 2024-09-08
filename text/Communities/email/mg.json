@@ -1,0 +1,27 @@
+{
+    "activation": {
+        "Thanks": "Tongasoa eto amin&#39;ny {{1}}",
+        "ReallyYourEmail": "Tena adiresy mailakao ve ity, {{1}}? Raha izany no izy, kitiho <a href='{{2}}'>eto<\/a> raha hametraka ny fehezan-teny sy hampavitrika ny kaontinao.",
+        "SeeYou": "Hitanao ao amin&#39;ny <a href='{{1}}'>{{2}}<\/a> !"
+    },
+    "LinkToUnsubscribe": "Ity misy rohy iray hialana amin&#39;ny fisoratana anarana raha tsy te hahazo <a href='{{1}}'>mailaka<\/a> intsony ianao.",
+    "Greetings": "Fiarahabana avy amin&#39;i {{1}}.",
+    "SeeHistory": "Jereo ny tantaran&#39;ny fandoavana ny {{1}}",
+    "charge": {
+        "HasBeenCharged": "Hey, mampahafantatra anao fotsiny ity fa {{1}} dia voapanga {{2}} {{3}} tamin&#39;ny {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Ry {{1}}, fanamafisam-peo haingana fotsiny ity fa nahavita nandoa {{2}} tamin&#39;ny {{3}} ho an&#39;ny {{4}}"
+    },
+    "resend": {
+        "Thanks": "Misaotra nitsidika {{1}}",
+        "YouAreReceiving": "Mahazo an&#39;ity mailaka ity ianao satria nisy olona niditra ny adiresy mailakao ary nikitika ny &quot;adino ny fehezanteny&quot;. Raha tsy ianao ilay izy dia tsidiho fotsiny ity hafatra ity.",
+        "Reset": "Raha hamerenana ny fehezan-teny tenimiafinao dia kitiho {{1}}",
+        "SetUpPassphrase": "Mametraha fehezanteny"
+    },
+    "subscription": {
+        "YouHaveStarted": "Ry {{1}}, nanomboka ny famandrihanao {{2}} tamin&#39;ny {{3}} tamin&#39;ny {{4}} ianao nandritra ny {{5}} volana.",
+        "HasStarted": "Ity dia hampahafantarana anao fotsiny hoe {{1}}, dia nanomboka ny famandrihana ny {{2}} tamin&#39;ny {{3}} tamin&#39;ny {{4}} nandritra ny {{5}} volana."
+    },
+    "SeeYou": "Hitanao ao amin&#39;ny {{1}}!"
+}

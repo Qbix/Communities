@@ -1,0 +1,20 @@
+{
+    "activation": {
+        "Thanks": "Benvenuti à {{1}}.",
+        "ClickHere": "Cliccate quì per attivà u vostru contu: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Cliccate quì per verificà u vostru numeru mobile: {{1}}"
+    },
+    "SeeHistory": "Vede a storia di pagamentu per {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} hè stata addebitata {{2}} per {{3}} da {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Ehi {{1}}, questu hè solu una rapida cunferma chì avete pagatu bè {{2}} à {{3}} per {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Avete abbonatu à {{2}} cù {{3}} à {{4}} per {{5}} mesi.",
+        "HasStarted": "{{1}} hà abbonatu à {{2}} cù {{3}} à {{4}} per {{5}} mesi."
+    }
+}

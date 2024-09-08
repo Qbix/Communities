@@ -1,0 +1,20 @@
+{
+    "activation": {
+        "Thanks": "Welcome to {{1}}.",
+        "ClickHere": "Hic strepita ut rationem tuam activate: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Hic strepita ut cognoscas numerum mobilem tuum: {{1}}"
+    },
+    "SeeHistory": "Historiam solutionis vide pro {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} accusatus est {{2}} pro {{3}} a {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Heus {{1}}, haec confirmatio celeris iusta est te bene solvisse {{2}} ad {{3}} pro {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Subscripsisti cum {{2}} cum {{3}} ad {{4}} pro {{5}} mensibus.",
+        "HasStarted": "{{1}} subscripsit {{2}} cum {{3}} ad {{4}} pro {{5}} mensibus."
+    }
+}

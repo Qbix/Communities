@@ -1,0 +1,459 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> bendir ekki á neitt!",
+        "NextSteps": "Notaðu aðalvalmyndina til að finna það sem þú ert að leita að."
+    },
+    "dashboard": {
+        "Menu": "Matseðill",
+        "Home": "Heim",
+        "Welcome": "Velkominn",
+        "Events": "Viðburðir",
+        "Discuss": "Ræddu",
+        "People": "Fólk",
+        "About": "Um",
+        "Community": "Samfélag",
+        "LogIn": "skrá inn",
+        "LogOut": "að skrá þig út",
+        "Intercoin": "Intercoin",
+        "Shows": "Sýningar",
+        "Calendar": "Dagatal",
+        "Me": "Ég",
+        "Media": "Fjölmiðlar",
+        "Services": "Þjónusta",
+        "SetMobileNumber": "Stilltu farsímanúmer",
+        "SetEmailAddress": "Stilltu netfang"
+    },
+    "greeting": {
+        "Welcome": "Velkomin í {{1}}. Hér finnur þú hluti sem birtir eru fyrir meðlimi samfélagsins okkar. Vinsamlegast bættu við netfanginu þínu eða farsímanúmeri til að fá tilkynningar þegar tilkynningar eru birtar."
+    },
+    "conversations": {
+        "Title": "Samtöl",
+        "New": "Nýtt samtal",
+        "Conversation": "Samtal",
+        "Topics": "Efni",
+        "NoneYet": "Engin samtöl hafa myndast ennþá",
+        "newConversations": "{{1}} ný samtöl",
+        "AllAuthors": "Allir höfundar",
+        "FilterbyAuthors": "Sía eftir höfundum",
+        "FilterAuthorPlaceHolder": "Leita að fleiri höfundum...",
+        "filterConversations": "Sía eftir texta",
+        "Description": "{{1}} samtöl"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Veldu efni",
+            "Share": "Deildu",
+            "interest": {
+                "Title": "Veldu athöfn",
+                "Filter": "Leita áhugamál..."
+            }
+        },
+        "Title": "Nýtt samtal",
+        "TitlePlaceholder": "Efni samtals þíns",
+        "ContentPlaceholder": "Skrifaðu nokkur orð til að hefja samtalið, svo aðrir geti svarað",
+        "StartButton": "Byrjaðu samtal"
+    },
+    "events": {
+        "Title": "Viðburðir",
+        "filterByTitle": "Finndu atburði eftir titli",
+        "New": "+ Byrjaðu nýjan viðburð",
+        "filterEvents": "Sía atburði",
+        "NewEvent": "Nýr viðburður",
+        "SetLocation": "Stilltu staðsetningu mína",
+        "NoneYet": "Engir viðburðir myndast enn<br> á þessum tímum.",
+        "AllAuthors": "Allir höfundar",
+        "AllDays": "Alla daga",
+        "AllLocations": "Allar staðsetningar",
+        "MakeReservation": "Gerðu pöntun",
+        "CancelReservation": "Hætta við pöntun",
+        "UpdateReservation": "Uppfærðu pöntun",
+        "AreYouSure": "Ertu viss?",
+        "YouWillRefunded": "Þú færð endurgreitt í formi inneigna sem þú getur eytt í aðra hluti í appinu.",
+        "AllInterests": "Öll áhugamál",
+        "FilterbyInterest": "Sía eftir áhuga",
+        "FilterByDate": "Sía eftir dagsetningu",
+        "ShowActivities": "Sýna starfsemi sem tengist . . .",
+        "newEvents": "Þú ert með {{1}} nýja viðburði",
+        "SelectLocation": "Veldu Staðsetning",
+        "FilterLocationsPlaceHolder": "Síuðu staði með...",
+        "Description": "{{1}} viðburðir",
+        "Keywords": "{{1}} viðburðir"
+    },
+    "schedule": {
+        "Title": "Dagskrá",
+        "NoneYet": "Þú tekur ekki þátt í neinum viðburðum",
+        "AddSome": "Bættu nokkrum við áætlunina þína!",
+        "AddMore": "Bættu viðburðum við dagskrána þína!",
+        "future": "framtíð",
+        "past": "fortíð"
+    },
+    "location": {
+        "Title": "Staðsetning",
+        "NewLocation": "Ný staðsetning"
+    },
+    "inbox": {
+        "Title": "Innhólf",
+        "NoneYet": "Þú tekur ekki þátt í neinum samtölum",
+        "FindPeople": "Finndu fólk til að tala við",
+        "GroupConversations": "Taktu þátt í hópsamtölum",
+        "ContactStaff": "Hafðu samband við starfsfólk",
+        "ContactCustomers": "Hafðu samband við viðskiptavini",
+        "AddNewContact": "Bæta við nýjum tengilið",
+        "AddNewContacts": "Bæta við nýjum tengiliðum"
+    },
+    "me": {
+        "Title": "Ég",
+        "MobileNumber": "Farsímanúmer",
+        "EmailAddress": "Netfang",
+        "UpdateSocialTitle": "Uppfærðu {{1}} notandanafn",
+        "Web3": "Vef3"
+    },
+    "people": {
+        "Title": "Fólk",
+        "Description": "Fólk í {{1}} samfélaginu",
+        "AppAlert": "Þetta app í app store gerir þér kleift að tengjast vinum þínum og margt margt fleira.",
+        "Invite": "Bjóða vinum",
+        "BuyCredits": "Kaupa inneign",
+        "FindSomeoneByName": "Finndu einhvern með nafni",
+        "SearchByName": "Leitaðu eftir nafni",
+        "FindAllMyFriends": "Finndu alla vini mína",
+        "labels": {
+            "All": "Allir",
+            "Title": "Sía eftir tengslum",
+            "New": "Ný tegund sambands"
+        },
+        "interests": {
+            "All": "Öll áhugamál",
+            "Title": "Sía eftir áhuga",
+            "Filter": "Sýndu fólki áhuga á. . ."
+        },
+        "Keywords": "{{1}} samfélag"
+    },
+    "communities": {
+        "Title": "Samfélög",
+        "NewCommunity": "Nýtt samfélag",
+        "FindCommunityByName": "Finndu samfélag með nafni",
+        "Description": "{{1}} samfélög"
+    },
+    "community": {
+        "Title": "{{1}} Samfélag",
+        "Roles": "Hlutverk",
+        "AllRoles": "Öll hlutverk",
+        "YouDontHavePermission": "Þú hefur ekki heimild til að gera þetta",
+        "usernamePlaceholder": "stilltu nafn samfélags",
+        "NotEnoughCredits": "Þú átt ekki nægar inneignir til að búa til samfélag. Þarftu {{1}}, þú hefur {{2}}"
+    },
+    "event": {
+        "GetDirections": "Fá leiðbeiningar",
+        "WhichMap": "Hvaða kort myndir þú vilja nota?",
+        "JoinEventToChat": "Vertu með í viðburðinum til að spjalla",
+        "promote": {
+            "Title": "Kynntu þennan viðburð",
+            "Prompt": "Veldu hvar þú vilt kynna þennan viðburð:"
+        },
+        "Confirmation": "Staðfesting"
+    },
+    "newEvent": {
+        "Title": "Skipuleggðu nýjan viðburð"
+    },
+    "interests": {
+        "Title": "Áhugamál",
+        "prompt": "Veldu tegundir af hlutum sem þú vilt vita um.",
+        "explanation": "Því fleiri áhugamál sem þú velur, því meiri líkur eru á að þú tengist fólki með sama hugarfar.",
+        "filter": "Á hverju hefur þú áhuga?",
+        "Profile": "Þar er bent á gagnkvæma hagsmuni. Ef þú ert líka með eitt eða fleiri áhugamál hér að neðan geturðu {{clickOrTap}} bætt þeim við."
+    },
+    "credits": {
+        "Title": "Inneign",
+        "EarnCredits": "Fáðu {{1}} inneign fyrir hvern nýjan einstakling sem þú býður sem tengist appinu",
+        "YouHave": "Þú átt {{1}} inneign"
+    },
+    "onboarding": {
+        "Tap": "Bankaðu á",
+        "Click": "Smellur",
+        "Yes": "Já",
+        "No": "Nei",
+        "Skip": "eða slepptu þessu",
+        "name": {
+            "Preface": "Velkomin til",
+            "Placeholder": "Skrifaðu fullt nafn",
+            "GetStarted": "Byrja",
+            "AsGuest": "Þér hefur verið boðið sem gestur.",
+            "AsMember": "Þér hefur verið boðið sem meðlimur.",
+            "AsAdmin": "Þér hefur verið boðið sem stjórnanda.",
+            "AsOwner": "Þér hefur verið boðið sem eiganda.",
+            "TooShort": "Fullt nafn þitt getur ekki verið svo stutt",
+            "SetAsYourFullName": "Viltu stilla {{1}} sem fullt nafn?"
+        },
+        "icon": {
+            "KeepDefault": "eða geymdu þessa mynd",
+            "SetYourPhoto": "{{ClickOrTap}} til að stilla myndina þína:",
+            "ClickOnYourFace": "{{ClickOrTap}} On Your Face"
+        },
+        "interests": {
+            "GetStarted": "⇩ Byrjaðu",
+            "NextCategory": "↓ Næst",
+            "Continue": "Halda áfram",
+            "Instructions": "Í hverjum af næstu {{1}} flokkum,<br> {{2}} allar aðgerðir sem þú hefur áhuga á.<br> Þannig tengist þú öðru fólki í samfélaginu."
+        },
+        "profile": {
+            "Profile": "Prófíllinn þinn hjálpar fólki að uppgötva meira um þig.<br>",
+            "Birthday": "Vinsamlega sláðu inn afmælisdaginn þinn:",
+            "Placeholder": "Hver ert þú og hvað gerir þú? Segðu fólki eitthvað áhugavert eða einstakt um sjálfan þig.",
+            "Required": "Til að halda áfram skaltu skrifa að minnsta kosti nokkrar línur um sjálfan þig.",
+            "Month": "Mánuður",
+            "Day": "Dagur",
+            "Year": "Ár",
+            "Gender": "Kyn",
+            "Male": "Karlkyns",
+            "Female": "Kvenkyns",
+            "Other": "Annað",
+            "Height": "Hæð",
+            "Affiliation": "Tengsl",
+            "Dating": "Stefnumót",
+            "Interested": "Áhugasamir",
+            "NotInterested": "Ekki áhuga",
+            "MatchmakerOnly": "Aðeins hjónabandsmaður"
+        },
+        "location": {
+            "NoOneElse": "Enginn annar mun sjá það.",
+            "SetMyLocation": "Stilltu staðsetningu mína"
+        },
+        "pile": {
+            "DialogTitle": "Fólk með sameiginleg áhugamál"
+        },
+        "Done": "Búið",
+        "relationships": {
+            "title": "Bættu {{userName}} við símaskrá",
+            "welcome": "Velkomin {{user}}",
+            "invitedByUser": "bauð þér.",
+            "addToPhonebook": "Vista í Tengiliðir símans míns",
+            "iosInstructions": "Skrunaðu niður að Bæta við nýjum tengilið",
+            "androidInstructions": "Þú ættir að opna þessa vCard skrá eftir að henni hefur verið hlaðið niður.",
+            "explanation": "Hvert er samband ykkar?"
+        },
+        "Title": "Grunnupplýsingar",
+        "Prompt": "Nokkur skref til að setja upp reikninginn þinn"
+    },
+    "profile": {
+        "Title": "Prófíll",
+        "Male": "Karlkyns",
+        "Female": "Kvenkyns",
+        "Other": "Annað",
+        "dating": {
+            "Interested": "Áhugasamir",
+            "NotInterested": "Ekki áhuga",
+            "MatchmakerOnly": "Aðeins hjónabandsmaður"
+        },
+        "StartConversation": "Byrjaðu samtal",
+        "blockUser": "Lokaðu fyrir þennan notanda",
+        "blockUserAlert": "Þú munt ekki sjá fleiri skilaboð frá þessum notanda fyrr en þú opnar þau af bannlista.",
+        "unblockUser": "Opnaðu fyrir þennan notanda",
+        "addToContacts": "Bæta við tengiliði",
+        "manageLabels": "Stjórna merkjum",
+        "inviteUsers": "Bjóða notendum",
+        "selectRole": "Veldu Hlutverk",
+        "inviteSuccess": "Tókst að bjóða notanda sem {{label}}",
+        "invite": "Bjóða",
+        "relationships": "Sambönd",
+        "newRole": "Nýtt hlutverk",
+        "about": "Um",
+        "people": "Fólk",
+        "info": "Upplýsingar",
+        "interests": "Áhugamál",
+        "chat": "Spjall",
+        "locations": "Staðsetningar",
+        "ManageRoles": "Stjórna hlutverkum",
+        "aboutPlaceholder": "Hver ert þú og hvað gerir þú? Segðu fólki eitthvað áhugavert eða einstakt um sjálfan þig.",
+        "explanation": "Prófíllinn þinn hjálpar þér að passa þig betur við annað fólk fyrir hópathafnir.<br> Vinsamlega sláðu inn afmælisdaginn þinn",
+        "chats": {
+            "placeholder": "Segðu eitthvað"
+        },
+        "LogOut": "Að skrá þig út",
+        "MyLinks": "Tenglar mínir",
+        "MyJobs": "Mín störf",
+        "MySocial": "MySocial",
+        "MyEducation": "Menntun mín",
+        "JobsPlaceholder": "Sláðu inn hér upplýsingar um störf",
+        "EducationPlaceholder": "Sláðu hér inn upplýsingar um menntun",
+        "ManageNotifications": "Stjórna tilkynningum",
+        "YourPreferredLanguage": "Valið tungumál þitt",
+        "SendCrypto": "Borga",
+        "Block": "Block",
+        "Unblock": "Opna fyrir bann",
+        "Email": "Tölvupóstur",
+        "Avoid": "Forðastu",
+        "CreatePrivateChat": "Eyða {{credits}} inneign til að ná til?",
+        "RolesInCommunity": "Hlutverk í samfélaginu",
+        "PersonalChatWith": "Persónulegt spjall við {{name}}",
+        "SendCryptoTo": "Senda dulmál til {{name}}",
+        "SendEmailTo": "Senda tölvupóst til {{name}}",
+        "SendSMSTo": "Senda SMS til {{name}}",
+        "BlockThisUser": "Lokaðu fyrir þennan notanda",
+        "UnblockThisUser": "Opnaðu fyrir þennan notanda",
+        "YouCantChatWithYourself": "Þú getur ekki spjallað við sjálfan þig",
+        "blockUserAlertTitle": "Lokað {{displayName}}",
+        "sections": {
+            "education": "Menntun",
+            "greeting": "Kveðja",
+            "jobs": "Störf",
+            "links": "Tenglar",
+            "language": "Tungumál",
+            "roles": "Hlutverk",
+            "personal": "Persónulegt",
+            "social": "Félagslegt"
+        },
+        "Roles": "Hlutverk",
+        "SendPaymentTo": "Sendið greiðslu á {{name}}"
+    },
+    "myqr": {
+        "Title": "QR minn"
+    },
+    "composer": {
+        "createCommunity": "Búa til samfélag",
+        "inviteAdmin": "Bjóddu stjórnanda",
+        "inviteMember": "Bjóða meðlim",
+        "newCommunityTitle": "Samfélagsheiti",
+        "setCommunityTitle": "Samfélagsheiti",
+        "creditsChargeRequest": "Samþykkir þú að eyða {{price}} inneign?",
+        "yes": "Já",
+        "no": "Nei"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Velkominn! Vinsamlegast staðfestu netfangið þitt.",
+        "WelcomeVerifyEmail": "Velkominn! Staðfestu netfangið þitt.",
+        "ForgetPass": "Hæ, gleymdirðu lykilorðinu þínu?",
+        "ManageEmailSubscriptions": "stjórna tölvupóstáskriftum þínum",
+        "IfUnsubscribe": "Ef þú vilt segja upp áskrift"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Velkomin í {{CommunityName}}. Þetta app mun hjálpa þér að tengjast vinum, uppgötva nýtt fólk með sameiginleg áhugamál og margt fleira. Byrjum!"
+            },
+            "icon": {
+                "Commentary": "Stilltu myndina þína. Svona mun fólk sjá þig á síðunni."
+            },
+            "interests": {
+                "Commentary": "Því fleiri hlutir sem þú velur, því meira fólk geturðu hitt.",
+                "Notifications": "Þú þarft að leyfa tilkynningar"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Tilkynningar gera þér kleift að vita um hluti sem þú hefur áhuga á, eins og þegar vinur tengist forritinu eða sendir þér skilaboð."
+        },
+        "invite": "{{Q.words.TapOrClick}} hér til að sjá hvernig þú getur deilt þessu með öðru fólki."
+    },
+    "payment": {
+        "onContribute": "Þakka þér fyrir! Greiðslan þín gekk í gegn. Viltu bjóða vinum þínum með þér?",
+        "ConnectAccount": "Tengdu reikning"
+    },
+    "featureboard": {
+        "Text_1": "Láttu rödd þína heyrast! Ertu sammála því að við ættum að þróa eiginleika eða villu? Smelltu á hnappinn til að styðja það.",
+        "Text_2": "Viltu að við þróum nýjan eiginleika? Lýstu því hér að neðan.",
+        "Text_3": "Í hverri viku byrjum við að þróa þann eiginleika sem samfélagið hefur mest óskað eftir. Allt fé sem lagt er til fer í þann tilgang, sem gerir okkur kleift að gera appið betra.",
+        "Text_4": "Allt fé sem lagt er til er notað til að greiða fyrir þróunarkostnað okkar.",
+        "Text_5": "Ertu með hugmynd að eiginleikum eða villuleiðréttingu sem þú vilt að við gerum en hefur ekki séð aðra bæta við enn? Lýstu því hér að neðan:",
+        "Options": [
+            {
+                "text": "$400 Rauntíma myndfundur"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$200 Local Primary skráningarupplýsingar"
+            },
+            {
+                "text": "$130 Skoðaðu og deildu þúsundum {{1}} memes",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 Stjórnaðu eigin samfélögum",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Lagfærðu samtalsvillu",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Biðja um nýja eiginleika\/villuleiðréttingu",
+        "FeaturePlaceholder": "Stutt samantekt á eiginleikum",
+        "FeatureDescription": "Lýstu því hvernig einhver annar getur endurskapað villuna sem þú sérð, eða lýstu í smáatriðum eiginleikanum sem þú vilt byggja upp",
+        "AddYourRequest": "Bættu við beiðni þinni",
+        "NewFeature": "Nýr eiginleiki"
+    },
+    "contribute": {
+        "ContributeExplanation": "Hjálpaðu til við að styðja við áframhaldandi þróun á {{communityName}} appinu. Öll framlög þín hjálpa til við að laga villur og þróa nýja eiginleika til að auka netsamfélagið!",
+        "ReasonToContribute": "Þessu forriti er viðhaldið af stuðningsmönnum {{communityName}}. Hjálpaðu til við að styðja þetta app svo við getum skipt sköpum í lífi fólks!"
+    },
+    "assetshistory": {
+        "Title": "Saga eigna",
+        "Charges": "Gjöld",
+        "Credits": "Inneign"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Fjarlægðu reikning",
+            "content": "Viltu fjarlægja þennan reikning?",
+            "ok": "Já",
+            "cancel": "Nei"
+        }
+    },
+    "import": {
+        "fileNotFound": "Því miður, CSV skrá fannst ekki.",
+        "fileEmpty": "Því miður er CSV skráin tóm.",
+        "userIdNotFound": "notandi er til en auðkennið er tómt",
+        "errorLine": "lína {{1}}",
+        "fieldNotFound": "Áskilinn reitur &quot;{{1}}&quot; fannst ekki",
+        "taskStreamInvalid": "verkefnastraumur ógildur",
+        "instructionsEmpty": "verkstraumsleiðbeiningar tómar",
+        "complete": "Heill",
+        "activateUsers": "senda virkjunarskilaboð til notenda?",
+        "importProgress": "Framfarir",
+        "joinEventLabel": "Vertu með notendum í tilviljunarkenndan viðburð",
+        "importOptions": "Valmöguleikar",
+        "sampleCSV": "Sækja sýnishorn af CSV",
+        "fileLabel": "Hladdu upp töflureikni:",
+        "errorsTitle": "Villur komu upp",
+        "communityUsers": "Þetta er samfélagslisti",
+        "setAsConversation": "URL dálkur sem samtal",
+        "toMainCommunityToo": "bæta notendum við aðalsamfélagið líka",
+        "willImportedTo": "Notendur verða fluttir inn í samfélagið",
+        "ChooseFile": "Veldu skrá"
+    },
+    "services": {
+        "Title": "Þjónusta",
+        "filterByTitle": "Finndu þjónustu eftir titli",
+        "New": "+ Byrjaðu nýja þjónustu",
+        "NewService": "Ný þjónusta",
+        "NewAvailability": "Nýtt framboð",
+        "filterServices": "Síuþjónusta",
+        "NoneYet": "Engin þjónusta myndast enn<br> á þessum tímum.",
+        "AllAuthors": "Allir höfundar",
+        "AllDays": "Alla daga",
+        "AllLocations": "Allar staðsetningar",
+        "MakeReservation": "Gerðu pöntun",
+        "CancelReservation": "Hætta við pöntun",
+        "UpdateReservation": "Uppfærðu pöntun",
+        "AreYouSure": "Ertu viss?",
+        "YouWillRefunded": "Þú færð endurgreitt í formi inneigna sem þú getur eytt í aðra hluti í appinu.",
+        "AllInterests": "Öll áhugamál",
+        "FilterbyInterest": "Sía eftir áhuga",
+        "FilterByDate": "Sía eftir dagsetningu",
+        "ShowActivities": "Sýna starfsemi sem tengist...",
+        "newServices": "Þú ert með {{1}} nýja þjónustu",
+        "SelectLocation": "Veldu Staðsetning",
+        "FilterLocationsPlaceHolder": "Síuðu staði með...",
+        "Description": "{{1}} þjónusta",
+        "Keywords": "{{1}} þjónusta"
+    },
+    "welcome": {
+        "Title": "{{appName}}: velkominn",
+        "GetStarted": "Byrja",
+        "gallery": {
+            "Connect": "Tengdu",
+            "Organize": "Skipuleggja",
+            "Travel": "Ferðalög",
+            "Share": "Deila"
+        }
+    }
+}

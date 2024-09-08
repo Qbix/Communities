@@ -1,0 +1,27 @@
+{
+    "activation": {
+        "Thanks": "Sugeng rawuh ing {{1}}",
+        "ReallyYourEmail": "Apa tenan iki alamat email sampeyan, {{1}}? Yen mangkono, klik ing <a href='{{2}}'>kene<\/a> kanggo nyetel tembung sandhi lan ngaktifake akun sampeyan.",
+        "SeeYou": "Sampai jumpa di <a href='{{1}}'>{{2}}<\/a> !"
+    },
+    "LinkToUnsubscribe": "Ing ngisor iki link kanggo <a href='{{1}}'>mbatalake langganan<\/a> yen sampeyan ora pengin entuk email maneh.",
+    "Greetings": "Salam saking {{1}}.",
+    "SeeHistory": "Deleng riwayat pembayaran kanggo {{1}}",
+    "charge": {
+        "HasBeenCharged": "Eh, iki mung kanggo ngabari {{1}} wis dikenani biaya {{2}} kanggo {{3}} dening {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hei {{1}}, iki mung konfirmasi cepet yen sampeyan wis kasil mbayar {{2}} kanggo {{3}} kanggo {{4}}"
+    },
+    "resend": {
+        "Thanks": "Matur nuwun wis ngunjungi {{1}}",
+        "YouAreReceiving": "Sampeyan nampa email iki amarga ana sing ngetik alamat email sampeyan lan ngeklik &quot;lali frasa sandhi&quot;. Yen dudu sampeyan, aja lali pesen iki.",
+        "Reset": "Kanggo ngreset tembung sandhi, klik {{1}}",
+        "SetUpPassphrase": "Setel tembung sandhi"
+    },
+    "subscription": {
+        "YouHaveStarted": "Hey {{1}}, sampeyan wis miwiti langganan {{2}} karo {{3}} ing {{4}} kanggo {{5}} sasi.",
+        "HasStarted": "Iki mung supaya sampeyan ngerti {{1}}, wis miwiti langganan {{2}} karo {{3}} ing {{4}} kanggo {{5}} sasi."
+    },
+    "SeeYou": "Sampai jumpa di {{1}}!"
+}

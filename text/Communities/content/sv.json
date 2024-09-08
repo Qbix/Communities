@@ -1,0 +1,459 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> pekar inte på någonting!",
+        "NextSteps": "Använd huvudmenyn för att hitta det du letar efter."
+    },
+    "dashboard": {
+        "Menu": "Meny",
+        "Home": "Hem",
+        "Welcome": "Välkommen",
+        "Events": "evenemang",
+        "Discuss": "Diskutera",
+        "People": "människor",
+        "About": "Handla om",
+        "Community": "gemenskap",
+        "LogIn": "logga in",
+        "LogOut": "logga ut",
+        "Intercoin": "Intercoin",
+        "Shows": "Visar",
+        "Calendar": "Kalender",
+        "Me": "Mig",
+        "Media": "Media",
+        "Services": "Tjänster",
+        "SetMobileNumber": "Ställ in mobilnummer",
+        "SetEmailAddress": "Ställ in e-postadress"
+    },
+    "greeting": {
+        "Welcome": "Välkommen till {{1}}. Här hittar du saker som publicerats för medlemmar i vår community. Vänligen lägg till din e-postadress eller ditt mobilnummer för att få meddelanden när meddelanden läggs upp."
+    },
+    "conversations": {
+        "Title": "Samtal",
+        "New": "Nytt samtal",
+        "Conversation": "Konversation",
+        "Topics": "Ämnen",
+        "NoneYet": "Inga konversationer har skapats ännu",
+        "newConversations": "{{1}} nya konversationer",
+        "AllAuthors": "Alla författare",
+        "FilterbyAuthors": "Filtrera efter författare",
+        "FilterAuthorPlaceHolder": "Sök efter fler författare...",
+        "filterConversations": "Filtrera efter text",
+        "Description": "{{1}} konversationer"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Välj ett ämne",
+            "Share": "Dela med sig",
+            "interest": {
+                "Title": "Välj en aktivitet",
+                "Filter": "Sökintressen..."
+            }
+        },
+        "Title": "Nytt samtal",
+        "TitlePlaceholder": "Ämnet för din konversation",
+        "ContentPlaceholder": "Skriv några ord för att starta konversationen, så att andra kan svara",
+        "StartButton": "Starta konversation"
+    },
+    "events": {
+        "Title": "evenemang",
+        "filterByTitle": "Hitta händelser efter titel",
+        "New": "+ Starta nytt evenemang",
+        "filterEvents": "Filtrera händelser",
+        "NewEvent": "Nytt event",
+        "SetLocation": "Ställ in min plats",
+        "NoneYet": "Inga evenemang har skapats ännu<br> under dessa tider.",
+        "AllAuthors": "Alla författare",
+        "AllDays": "Alla dagar",
+        "AllLocations": "Alla platser",
+        "MakeReservation": "Gör reservation",
+        "CancelReservation": "Avbryt bokning",
+        "UpdateReservation": "Uppdatera bokning",
+        "AreYouSure": "Är du säker?",
+        "YouWillRefunded": "Du kommer att återbetalas i form av krediter som du kan spendera på andra saker i appen.",
+        "AllInterests": "Alla intressen",
+        "FilterbyInterest": "Filtrera efter intresse",
+        "FilterByDate": "Filtrera efter datum",
+        "ShowActivities": "Visa aktiviteter relaterade till . . .",
+        "newEvents": "Du har {{1}} nya händelser",
+        "SelectLocation": "Välj plats",
+        "FilterLocationsPlaceHolder": "Filtrera arenor med...",
+        "Description": "{{1}} händelser",
+        "Keywords": "{{1}} händelser"
+    },
+    "schedule": {
+        "Title": "Schema",
+        "NoneYet": "Du deltar inte i några evenemang",
+        "AddSome": "Lägg till några till ditt schema!",
+        "AddMore": "Lägg till händelser i ditt schema!",
+        "future": "framtida",
+        "past": "dåtid"
+    },
+    "location": {
+        "Title": "Plats",
+        "NewLocation": "Ny plats"
+    },
+    "inbox": {
+        "Title": "Inkorg",
+        "NoneYet": "Du deltar inte i några konversationer",
+        "FindPeople": "Hitta folk att prata med",
+        "GroupConversations": "Gå med i några gruppkonversationer",
+        "ContactStaff": "Kontakta personalen",
+        "ContactCustomers": "Kontakta kunder",
+        "AddNewContact": "Lägg till ny kontakt",
+        "AddNewContacts": "Lägg till nya kontakter"
+    },
+    "me": {
+        "Title": "Mig",
+        "MobileNumber": "Mobilnummer",
+        "EmailAddress": "E-postadress",
+        "UpdateSocialTitle": "Uppdatera {{1}} användarnamn",
+        "Web3": "Web3"
+    },
+    "people": {
+        "Title": "människor",
+        "Description": "Personer i gruppen {{1}}",
+        "AppAlert": "Den här appen i appbutiken låter dig få kontakt med dina vänner och mycket mycket mer.",
+        "Invite": "Bjuda in vänner",
+        "BuyCredits": "Köp krediter",
+        "FindSomeoneByName": "Hitta någon vid namn",
+        "SearchByName": "Sök på namn",
+        "FindAllMyFriends": "Hitta alla mina vänner",
+        "labels": {
+            "All": "Alla",
+            "Title": "Filtrera efter relation",
+            "New": "Ny typ av relation"
+        },
+        "interests": {
+            "All": "Alla intressen",
+            "Title": "Filtrera efter intresse",
+            "Filter": "Visa personer som är intresserade av . . ."
+        },
+        "Keywords": "{{1}} personers grupp"
+    },
+    "communities": {
+        "Title": "gemenskaper",
+        "NewCommunity": "Ny gemenskap",
+        "FindCommunityByName": "Hitta community efter namn",
+        "Description": "{{1}} grupper"
+    },
+    "community": {
+        "Title": "{{1}} Community",
+        "Roles": "Roller",
+        "AllRoles": "Alla roller",
+        "YouDontHavePermission": "Du är inte behörig att göra detta",
+        "usernamePlaceholder": "ange gruppnamn",
+        "NotEnoughCredits": "Du har inte tillräckligt med krediter för att skapa community. Behöver du {{1}}, du har {{2}}"
+    },
+    "event": {
+        "GetDirections": "Få vägbeskrivningar",
+        "WhichMap": "Vilka kartor skulle du vilja använda?",
+        "JoinEventToChat": "Gå med i eventet för att chatta",
+        "promote": {
+            "Title": "Marknadsför detta evenemang",
+            "Prompt": "Välj var du vill marknadsföra detta evenemang:"
+        },
+        "Confirmation": "Bekräftelse"
+    },
+    "newEvent": {
+        "Title": "Planera nytt evenemang"
+    },
+    "interests": {
+        "Title": "Intressen",
+        "prompt": "Välj de typer av saker du vill veta om.",
+        "explanation": "Ju fler intressen du väljer, desto mer sannolikt är det att du kommer i kontakt med likasinnade.",
+        "filter": "Vad är du intresserad av?",
+        "Profile": "Ömsesidiga intressen lyfts fram. Om du också har ett eller flera av intressena nedan kan du {{clickOrTap}} lägga till dem."
+    },
+    "credits": {
+        "Title": "Krediter",
+        "EarnCredits": "Tjäna {{1}} krediter för varje ny person du bjuder in som går med i appen",
+        "YouHave": "Du har {{1}} krediter"
+    },
+    "onboarding": {
+        "Tap": "Knacka",
+        "Click": "Klick",
+        "Yes": "Ja",
+        "No": "Nej",
+        "Skip": "eller hoppa över detta",
+        "name": {
+            "Preface": "Välkommen till",
+            "Placeholder": "Ange ditt fullständiga namn",
+            "GetStarted": "Komma igång",
+            "AsGuest": "Du har blivit inbjuden som gäst.",
+            "AsMember": "Du har blivit inbjuden som medlem.",
+            "AsAdmin": "Du har blivit inbjuden som administratör.",
+            "AsOwner": "Du har blivit inbjuden som ägare.",
+            "TooShort": "Ditt fullständiga namn kan inte vara så kort",
+            "SetAsYourFullName": "Vill du ställa in {{1}} som ditt fullständiga namn?"
+        },
+        "icon": {
+            "KeepDefault": "eller behåll det här fotot",
+            "SetYourPhoto": "{{ClickOrTap}} för att ställa in ditt foto:",
+            "ClickOnYourFace": "{{ClickOrTap}} On Your Face"
+        },
+        "interests": {
+            "GetStarted": "⇩ Kom igång",
+            "NextCategory": "↓ Nästa",
+            "Continue": "Fortsätta",
+            "Instructions": "I var och en av de följande {{1}} kategorierna,<br> {{2}} alla aktiviteter du är intresserad av.<br> Det är så du får kontakt med andra människor i samhället."
+        },
+        "profile": {
+            "Profile": "Din profil hjälper andra att upptäcka mer om dig.<br>",
+            "Birthday": "Vänligen ange din födelsedag:",
+            "Placeholder": "Vem är du och vad gör du? Berätta för andra något intressant eller unikt om dig själv.",
+            "Required": "För att fortsätta, skriv minst ett par rader om dig själv.",
+            "Month": "Månad",
+            "Day": "Dag",
+            "Year": "År",
+            "Gender": "Kön",
+            "Male": "Manlig",
+            "Female": "Kvinna",
+            "Other": "Övrig",
+            "Height": "Höjd",
+            "Affiliation": "Anslutning",
+            "Dating": "Dejting",
+            "Interested": "Intresserad",
+            "NotInterested": "Inte intresserad",
+            "MatchmakerOnly": "Endast matchmaker"
+        },
+        "location": {
+            "NoOneElse": "Ingen annan kommer att se det.",
+            "SetMyLocation": "Ange min plats"
+        },
+        "pile": {
+            "DialogTitle": "Människor med gemensamma intressen"
+        },
+        "Done": "Gjort",
+        "relationships": {
+            "title": "Lägg till {{userName}} i telefonboken",
+            "welcome": "Välkommen {{user}}",
+            "invitedByUser": "bjöd in dig.",
+            "addToPhonebook": "Spara i Mina telefonkontakter",
+            "iosInstructions": "Rulla ned till Lägg till ny kontakt",
+            "androidInstructions": "Du bör öppna denna vCard-fil efter att den har laddats ner.",
+            "explanation": "Vad är ditt förhållande?"
+        },
+        "Title": "Grundläggande information",
+        "Prompt": "Några steg för att konfigurera ditt konto"
+    },
+    "profile": {
+        "Title": "Profil",
+        "Male": "Manlig",
+        "Female": "Kvinna",
+        "Other": "Övrig",
+        "dating": {
+            "Interested": "Intresserad",
+            "NotInterested": "Inte intresserad",
+            "MatchmakerOnly": "Endast matchmaker"
+        },
+        "StartConversation": "Starta ett samtal",
+        "blockUser": "Blockera denna användare",
+        "blockUserAlert": "Du kommer inte att se några fler meddelanden från denna användare förrän du avblockerar dem.",
+        "unblockUser": "Avblockera denna användare",
+        "addToContacts": "Lägg till i kontakter",
+        "manageLabels": "Hantera etiketter",
+        "inviteUsers": "Bjud in användare",
+        "selectRole": "Välj Roll",
+        "inviteSuccess": "Bjud in användare som {{label}}",
+        "invite": "Inbjudan",
+        "relationships": "Relationer",
+        "newRole": "Ny roll",
+        "about": "Handla om",
+        "people": "människor",
+        "info": "Info",
+        "interests": "Intressen",
+        "chat": "Chatt",
+        "locations": "Platser",
+        "ManageRoles": "Hantera roller",
+        "aboutPlaceholder": "Vem är du och vad gör du? Berätta för andra något intressant eller unikt om dig själv.",
+        "explanation": "Din profil hjälper dig att bättre matcha dig med andra människor för gruppaktiviteter.<br> Vänligen ange din födelsedag",
+        "chats": {
+            "placeholder": "Säg något"
+        },
+        "LogOut": "Logga ut",
+        "MyLinks": "Mina länkar",
+        "MyJobs": "Mina jobb",
+        "MySocial": "MySocial",
+        "MyEducation": "Min utbildning",
+        "JobsPlaceholder": "Skriv in jobbinfo här",
+        "EducationPlaceholder": "Skriv här utbildningsinformation",
+        "ManageNotifications": "Hantera aviseringar",
+        "YourPreferredLanguage": "Ditt föredragna språk",
+        "SendCrypto": "Betala",
+        "Block": "Blockera",
+        "Unblock": "Avblockera",
+        "Email": "E-post",
+        "Avoid": "Undvika",
+        "CreatePrivateChat": "Spendera {{credits}} krediter för att nå ut?",
+        "RolesInCommunity": "Roller i samhället",
+        "PersonalChatWith": "Personlig chatt med {{name}}",
+        "SendCryptoTo": "Skicka krypto till {{name}}",
+        "SendEmailTo": "Skicka e-post till {{name}}",
+        "SendSMSTo": "Skicka SMS till {{name}}",
+        "BlockThisUser": "Blockera denna användare",
+        "UnblockThisUser": "Avblockera denna användare",
+        "YouCantChatWithYourself": "Du kan inte chatta med dig själv",
+        "blockUserAlertTitle": "Blockerad {{displayName}}",
+        "sections": {
+            "education": "Utbildning",
+            "greeting": "Hälsning",
+            "jobs": "Jobb",
+            "links": "Länkar",
+            "language": "Språk",
+            "roles": "Roller",
+            "personal": "Personlig",
+            "social": "Social"
+        },
+        "Roles": "Roller",
+        "SendPaymentTo": "Skicka en betalning till {{name}}"
+    },
+    "myqr": {
+        "Title": "Min QR"
+    },
+    "composer": {
+        "createCommunity": "Skapa gemenskap",
+        "inviteAdmin": "Bjud in admin",
+        "inviteMember": "Bjud in medlem",
+        "newCommunityTitle": "Gruppnamn",
+        "setCommunityTitle": "Gruppnamn",
+        "creditsChargeRequest": "Godkänner du att spendera {{price}} krediter?",
+        "yes": "Ja",
+        "no": "Nej"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Välkommen! Vänligen verifiera din email adress.",
+        "WelcomeVerifyEmail": "Välkommen! Verifiera din e-postadress.",
+        "ForgetPass": "Hej, har du glömt din lösenfras?",
+        "ManageEmailSubscriptions": "hantera dina e-postprenumerationer",
+        "IfUnsubscribe": "Om du vill avsluta prenumerationen"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Välkommen till {{CommunityName}}. Den här appen hjälper dig att få kontakt med vänner, upptäcka nya människor med gemensamma intressen och mycket mer. Låt oss börja!"
+            },
+            "icon": {
+                "Commentary": "Ställ in ditt foto. Så här kommer folk att se dig på webbplatsen."
+            },
+            "interests": {
+                "Commentary": "Ju fler saker du väljer, desto fler människor kan du träffa.",
+                "Notifications": "Du måste tillåta aviseringar"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Meddelanden låter dig veta om saker du är intresserad av, till exempel när en vän går med i appen eller skickar meddelanden till dig."
+        },
+        "invite": "{{Q.words.TapOrClick}} här för att se hur du kan dela detta med andra."
+    },
+    "payment": {
+        "onContribute": "Tack! Din betalning gick igenom. Vill du bjuda in dina vänner med dig?",
+        "ConnectAccount": "Anslut konto"
+    },
+    "featureboard": {
+        "Text_1": "Låt din röst höras! Håller du med om att vi ska utveckla en funktion eller bugg? Klicka på knappen för att stödja det.",
+        "Text_2": "Vill du att vi utvecklar en ny funktion? Beskriv det nedan.",
+        "Text_3": "Varje vecka börjar vi utveckla den mest efterfrågade funktionen av communityn. Alla pengar som bidrags går till det syftet, vilket gör att vi kan göra appen bättre.",
+        "Text_4": "Alla pengar som vi bidrar med används för att betala våra utvecklingskostnader.",
+        "Text_5": "Har du en idé om en funktion eller buggfix som du vill att vi ska göra men inte har sett andra lägga till ännu? Beskriv det nedan:",
+        "Options": [
+            {
+                "text": "400 $ Videokonferenser i realtid"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$200 Local Primary registreringsinformation"
+            },
+            {
+                "text": "130 $ Bläddra och dela tusentals {{1}} memes",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 Hantera dina egna gemenskaper",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Fixa konversationsfel",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Begär en ny funktion\/buggfix",
+        "FeaturePlaceholder": "Kort sammanfattning av funktion",
+        "FeatureDescription": "Beskriv hur någon annan kan återskapa buggen du ser, eller beskriv i detalj funktionen du vill bygga",
+        "AddYourRequest": "Lägg till din förfrågan",
+        "NewFeature": "Ny funktion"
+    },
+    "contribute": {
+        "ContributeExplanation": "Hjälp till att stödja fortsatt utveckling av appen {{communityName}}. Alla dina bidrag hjälper till att fixa buggar och utveckla nya funktioner för att hjälpa onlinegemenskapen att växa!",
+        "ReasonToContribute": "Den här appen underhålls av supportrar av {{communityName}}. Hjälp till att stödja den här appen så att vi kan göra skillnad i människors liv!"
+    },
+    "assetshistory": {
+        "Title": "Tillgångshistorik",
+        "Charges": "Kostnader",
+        "Credits": "Krediter"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Ta bort konto",
+            "content": "Vill du ta bort det här kontot?",
+            "ok": "Ja",
+            "cancel": "Nej"
+        }
+    },
+    "import": {
+        "fileNotFound": "Tyvärr, CSV-filen hittades inte.",
+        "fileEmpty": "Tyvärr, CSV-filen är tom.",
+        "userIdNotFound": "användaren finns men id tomt",
+        "errorLine": "rad {{1}}",
+        "fieldNotFound": "Det obligatoriska fältet &quot;{{1}}&quot; hittades inte",
+        "taskStreamInvalid": "ogiltig uppgiftsström",
+        "instructionsEmpty": "uppgiftsströmsinstruktionerna är tomma",
+        "complete": "Komplett",
+        "activateUsers": "skicka aktiveringsmeddelande till användare?",
+        "importProgress": "Framsteg",
+        "joinEventLabel": "Gå med användare till slumpmässiga händelser",
+        "importOptions": "alternativ",
+        "sampleCSV": "Ladda ner exempel på CSV",
+        "fileLabel": "Ladda upp kalkylblad:",
+        "errorsTitle": "Fel uppstod",
+        "communityUsers": "Detta är gemenskapslistan",
+        "setAsConversation": "URL-kolumn som konversation",
+        "toMainCommunityToo": "lägg till användare i huvudgemenskapen också",
+        "willImportedTo": "Användare kommer att importeras till gruppen",
+        "ChooseFile": "Välj FIL"
+    },
+    "services": {
+        "Title": "Tjänster",
+        "filterByTitle": "Hitta tjänster efter titel",
+        "New": "+ Starta ny tjänst",
+        "NewService": "Ny tjänst",
+        "NewAvailability": "Ny tillgänglighet",
+        "filterServices": "Filtrera tjänster",
+        "NoneYet": "Inga tjänster har bildats ännu<br> under dessa tider.",
+        "AllAuthors": "Alla författare",
+        "AllDays": "Alla dagar",
+        "AllLocations": "Alla platser",
+        "MakeReservation": "Gör reservation",
+        "CancelReservation": "Avbryt bokning",
+        "UpdateReservation": "Uppdatera bokning",
+        "AreYouSure": "Är du säker?",
+        "YouWillRefunded": "Du kommer att återbetalas i form av krediter som du kan spendera på andra saker i appen.",
+        "AllInterests": "Alla intressen",
+        "FilterbyInterest": "Filtrera efter intresse",
+        "FilterByDate": "Filtrera efter datum",
+        "ShowActivities": "Visa aktiviteter relaterade till...",
+        "newServices": "Du har {{1}} nya tjänster",
+        "SelectLocation": "Välj plats",
+        "FilterLocationsPlaceHolder": "Filtrera arenor med...",
+        "Description": "{{1}} tjänst",
+        "Keywords": "{{1}} tjänst"
+    },
+    "welcome": {
+        "Title": "{{appName}}: välkommen",
+        "GetStarted": "Komma igång",
+        "gallery": {
+            "Connect": "Ansluta",
+            "Organize": "Organisera",
+            "Travel": "Resa",
+            "Share": "Dela med sig"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "activation": {
+        "Thanks": "Afio mai i {{1}}",
+        "ReallyYourEmail": "O lau tuatusi imeli moni lea, {{1}}? Afai o lea, kiliki <a href='{{2}}'>iinei<\/a> e seti ai lau passphrase ma faʻagaoioia lau teugatupe.",
+        "SeeYou": "Toe feiloa&#39;i i <a href='{{1}}'>{{2}}<\/a> !"
+    },
+    "LinkToUnsubscribe": "Ole feso&#39;ota&#39;iga lea e <a href='{{1}}'>unsubscribe<\/a> pe afai e te le mana&#39;o e toe maua nisi imeli.",
+    "Greetings": "Fa&#39;afetai mai ia {{1}}.",
+    "SeeHistory": "Va&#39;ai tala&#39;aga totogi mo {{1}}",
+    "charge": {
+        "HasBeenCharged": "Ei, ua na&#39;o le ta&#39;u atu ia te oe {{1}} ua molia {{2}} mo {{3}} e {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Talofa {{1}}, ua na&#39;o se fa&#39;amaoniga vave ua e totogia lelei {{2}} ia {{3}} mo {{4}}"
+    },
+    "resend": {
+        "Thanks": "Faafetai mo le asiasi mai {{1}}",
+        "YouAreReceiving": "O lo&#39;o e mauaina lenei imeli ona o se tasi na ulufale i lau tuatusi imeli ma kiliki &quot;galo passphrase&quot;. Afai e le o oe, aua le amanaiaina lenei savali.",
+        "Reset": "Ina ia toe setiina lau fuaitau, kiliki {{1}}",
+        "SetUpPassphrase": "Seti le fa&#39;aupuga"
+    },
+    "subscription": {
+        "YouHaveStarted": "Talofa {{1}}, ua amata lau saofaga i {{2}} ma {{3}} i {{4}} mo {{5}} masina.",
+        "HasStarted": "E na&#39;o le fa&#39;ailoa atu ia te oe {{1}}, ua amata la latou saofaga i {{2}} ma {{3}} i {{4}} mo {{5}} masina."
+    },
+    "SeeYou": "Toe feiloa&#39;i ile {{1}}!"
+}

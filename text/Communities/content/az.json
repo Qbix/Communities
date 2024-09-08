@@ -1,0 +1,460 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> heç nəyə işarə etmir!",
+        "NextSteps": "Axtardığınızı tapmaq üçün əsas menyudan istifadə edin."
+    },
+    "greeting": {
+        "Welcome": "{{1}}-a xoş gəlmisiniz. Burada icmamızın üzvləri üçün dərc edilmiş şeyləri tapa bilərsiniz. Elanlar yerləşdirildikdə bildirişlər almaq üçün e-poçt ünvanınızı və ya mobil nömrənizi əlavə edin."
+    },
+    "conversations": {
+        "New": "Yeni Söhbət",
+        "Conversation": "Söhbət",
+        "Topics": "Mövzular",
+        "NoneYet": "Hələ heç bir söhbət yaranmayıb",
+        "newConversations": "{{1}} yeni söhbət",
+        "AllAuthors": "Bütün Müəlliflər",
+        "FilterbyAuthors": "Müəlliflərə görə süzün",
+        "FilterAuthorPlaceHolder": "Əlavə müəllifləri axtarın...",
+        "Title": "Söhbətlər",
+        "Description": "{{1}} söhbət",
+        "filterConversations": "Mətnə görə süzün"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Mövzu seçin",
+            "Share": "Paylaşın",
+            "interest": {
+                "Title": "Fəaliyyət seçin",
+                "Filter": "Axtarış maraqları..."
+            }
+        },
+        "Title": "Yeni Söhbət",
+        "TitlePlaceholder": "Söhbətinizin mövzusu",
+        "ContentPlaceholder": "Söhbətə başlamaq üçün bir neçə söz yazın ki, başqaları cavab verə bilsin",
+        "StartButton": "Söhbətə başlayın"
+    },
+    "events": {
+        "Title": "Hadisələr",
+        "filterByTitle": "Hadisələri başlığa görə tapın",
+        "New": "+ Yeni Tədbirə başlayın",
+        "SetLocation": "Yerimi təyin edin",
+        "NoneYet": "Hələ heç bir tədbir formalaşmayıb<br> bu vaxtlarda.",
+        "AllDays": "Bütün günlər",
+        "AllLocations": "Bütün Məkanlar",
+        "AllInterests": "Bütün Maraqlar",
+        "FilterbyInterest": "Maraqlara görə süzün",
+        "FilterByDate": "Tarixə görə süzün",
+        "ShowActivities": "ilə bağlı fəaliyyət göstərin. . .",
+        "newEvents": "{{1}} yeni tədbiriniz var",
+        "SelectLocation": "Yer seçin",
+        "FilterLocationsPlaceHolder": "Məkanları filtrləyin...",
+        "AllAuthors": "Bütün Müəlliflər",
+        "filterEvents": "Hadisələri süzün",
+        "NewEvent": "Yeni Hadisə",
+        "Description": "{{1}} hadisə",
+        "Keywords": "{{1}} hadisə",
+        "MakeReservation": "Rezervasiya edin",
+        "Reserved": "Rezervasyonu ləğv edin",
+        "AreYouSure": "Sən əminsən?",
+        "YouWillRefunded": "Siz proqramda başqa şeylərə xərcləyə biləcəyiniz kreditlər şəklində geri qaytarılacaqsınız.",
+        "CancelReservation": "Rezervasyonu ləğv edin",
+        "UpdateReservation": "Rezervasyonu yeniləyin"
+    },
+    "schedule": {
+        "Title": "Cədvəl",
+        "NoneYet": "Siz heç bir tədbirdə iştirak etmirsiniz",
+        "AddSome": "Cədvəlinizə bir az əlavə edin!",
+        "AddMore": "Tədbirlər cədvəlinizə əlavə edin!",
+        "future": "gələcək",
+        "past": "keçmiş"
+    },
+    "location": {
+        "Title": "Məkan",
+        "NewLocation": "Yeni Məkan"
+    },
+    "inbox": {
+        "Title": "Gələnlər qutusu",
+        "NoneYet": "Siz heç bir söhbətdə iştirak etmirsiniz",
+        "FindPeople": "Danışmaq üçün insanları tapın",
+        "GroupConversations": "Bəzi qrup söhbətlərinə qoşulun",
+        "ContactStaff": "İşçilərlə əlaqə saxlayın",
+        "ContactCustomers": "Müştərilərlə əlaqə saxlayın",
+        "AddNewContact": "Yeni Əlaqə əlavə edin",
+        "AddNewContacts": "Yeni Kontaktlar əlavə edin"
+    },
+    "me": {
+        "Title": "Mən",
+        "MobileNumber": "Mobil nömrə",
+        "EmailAddress": "E-poçt ünvanı",
+        "UpdateSocialTitle": "{{1}} istifadəçi adını yeniləyin",
+        "Web3": "Web3"
+    },
+    "people": {
+        "Title": "Xalq",
+        "AppAlert": "Tətbiq mağazasındakı bu proqram sizə dostlarınızla və daha çox şeylə əlaqə saxlamağa imkan verəcək.",
+        "Invite": "Dostları Dəvət Et",
+        "FindSomeoneByName": "Adı ilə birini tapın",
+        "FindAllMyFriends": "Bütün Dostlarımı Tapın",
+        "labels": {
+            "All": "Hər kəs",
+            "Title": "Münasibətə görə süzün",
+            "New": "Yeni Münasibət Tipi"
+        },
+        "interests": {
+            "All": "Bütün Maraqlar",
+            "Title": "Maraqlara görə süzün",
+            "Filter": "Maraqlanan insanlara göstərin. . ."
+        },
+        "SearchByName": "Ada görə axtarın",
+        "Description": "{{1}} icmadakı insanlar",
+        "Keywords": "{{1}} nəfər icması",
+        "BuyCredits": "Kredit Alın"
+    },
+    "communities": {
+        "Title": "İcmalar",
+        "NewCommunity": "Yeni İcma",
+        "FindCommunityByName": "Adı ilə icma tapın",
+        "Description": "{{1}} icma"
+    },
+    "community": {
+        "Title": "{{1}} İcma",
+        "Roles": "Rollar",
+        "AllRoles": "Bütün rollar",
+        "YouDontHavePermission": "Bunu etmək səlahiyyətiniz yoxdur",
+        "usernamePlaceholder": "icma adını təyin edin",
+        "NotEnoughCredits": "İcma yaratmaq üçün kifayət qədər kreditiniz yoxdur. {{1}} lazımdır, sizdə {{2}} var"
+    },
+    "event": {
+        "GetDirections": "İstiqamətləri əldə edin",
+        "WhichMap": "Hansı xəritələrdən istifadə etmək istərdiniz?",
+        "JoinEventToChat": "Söhbət etmək üçün tədbirə qoşulun",
+        "promote": {
+            "Title": "Bu tədbiri təbliğ edin",
+            "Prompt": "Bu tədbiri harada təbliğ etmək istədiyinizi seçin:"
+        },
+        "Confirmation": "Təsdiq"
+    },
+    "newEvent": {
+        "Title": "Yeni Tədbir Planlayın"
+    },
+    "interests": {
+        "Title": "Maraqlar",
+        "prompt": "Haqqında bilmək istədiyiniz şeylərin növlərini seçin.",
+        "explanation": "Nə qədər çox maraq seçsəniz, həmfikir insanlarla əlaqə qurma ehtimalınız bir o qədər çox olar.",
+        "filter": "Nə ilə maraqlanırsınız?",
+        "Profile": "Qarşılıqlı maraqlar önə çəkilir. Aşağıdakı maraqlarınızdan biri və ya bir neçəsi varsa, onları əlavə etmək üçün {{clickOrTap}} edə bilərsiniz."
+    },
+    "credits": {
+        "Title": "Kreditlər",
+        "EarnCredits": "Tətbiqə qoşulan dəvət etdiyiniz hər yeni şəxs üçün {{1}} kredit qazanın",
+        "YouHave": "{{1}} kreditiniz var"
+    },
+    "onboarding": {
+        "Tap": "vurun",
+        "Click": "klikləyin",
+        "Yes": "Bəli",
+        "No": "Yox",
+        "name": {
+            "Preface": "xoş gəlmisiniz",
+            "Placeholder": "Tam adınızı daxil edin",
+            "GetStarted": "Başlamaq",
+            "AsGuest": "Siz qonaq kimi dəvət olundunuz.",
+            "AsMember": "Siz üzv kimi dəvət olundunuz.",
+            "AsAdmin": "Siz admin kimi dəvət olundunuz.",
+            "AsOwner": "Siz sahib kimi dəvət olundunuz.",
+            "TooShort": "Tam adınız bu qədər qısa ola bilməz",
+            "SetAsYourFullName": "{{1}} tam adınız kimi təyin edilsin?"
+        },
+        "icon": {
+            "KeepDefault": "ya da bu şəkli saxla",
+            "SetYourPhoto": "{{ClickOrTap}} şəklinizi qurmaq üçün:",
+            "ClickOnYourFace": "{{ClickOrTap}} Üzünüzdə"
+        },
+        "interests": {
+            "GetStarted": "⇩ Başlayın",
+            "NextCategory": "↓ Sonrakı",
+            "Continue": "Davam et",
+            "Instructions": "Növbəti {{1}} kateqoriyaların hər birində,<br> {{2}} maraqlandığınız bütün fəaliyyətlər.<br> Cəmiyyətdəki digər insanlarla belə əlaqə saxlayırsınız."
+        },
+        "profile": {
+            "Profile": "Profiliniz insanlara sizin haqqınızda daha çox məlumat əldə etməyə kömək edir.<br>",
+            "Birthday": "Zəhmət olmasa ad gününüzü daxil edin:",
+            "Placeholder": "Sən kimsən və nə işlə məşğulsan? İnsanlara özünüz haqqında maraqlı və ya unikal bir şey söyləyin.",
+            "Month": "ay",
+            "Day": "Gün",
+            "Year": "il",
+            "Gender": "Cins",
+            "Male": "Kişi",
+            "Female": "Qadın",
+            "Other": "Digər",
+            "Height": "Hündürlük",
+            "Affiliation": "mənsubiyyət",
+            "Dating": "Tanışlıq",
+            "Interested": "Maraqlıdır",
+            "NotInterested": "Maraqlı deyil",
+            "MatchmakerOnly": "Yalnız Matchmaker",
+            "Required": "Davam etmək üçün özünüz haqqında ən azı bir neçə sətir yazın."
+        },
+        "location": {
+            "NoOneElse": "Başqa heç kim görməyəcək.",
+            "SetMyLocation": "Məkanımı təyin edin"
+        },
+        "pile": {
+            "DialogTitle": "Ümumi maraqları olan insanlar"
+        },
+        "Done": "Bitdi",
+        "Skip": "və ya bunu atlayın",
+        "relationships": {
+            "title": "Telefon kitabçasına {{userName}} əlavə edin",
+            "welcome": "Xoş gəldiniz {{user}}",
+            "invitedByUser": "sizi dəvət etdi.",
+            "addToPhonebook": "Telefon Kontaktlarımda Saxla",
+            "iosInstructions": "Yeni Kontakt əlavə etmək üçün aşağı diyirləyin",
+            "androidInstructions": "Bu vCard faylı endirildikdən sonra onu açmalısınız.",
+            "explanation": "Sizin münasibətiniz necədir?"
+        },
+        "Title": "Əsas məlumat",
+        "Prompt": "Hesabınızı qurmaq üçün bir neçə addım"
+    },
+    "profile": {
+        "Title": "Profil",
+        "Male": "Kişi",
+        "Female": "Qadın",
+        "Other": "Digər",
+        "dating": {
+            "Interested": "Maraqlıdır",
+            "NotInterested": "Maraqlı deyil",
+            "MatchmakerOnly": "Yalnız Matchmaker"
+        },
+        "StartConversation": "Söhbətə başlayın",
+        "blockUser": "Bu istifadəçini bloklayın",
+        "blockUserAlert": "Siz onları blokdan çıxarana qədər bu istifadəçidən daha heç bir mesaj görməyəcəksiniz.",
+        "unblockUser": "Bu istifadəçini blokdan çıxarın",
+        "addToContacts": "Kontaktlara əlavə edin",
+        "manageLabels": "Etiketləri idarə edin",
+        "inviteUsers": "İstifadəçiləri dəvət edin",
+        "inviteSuccess": "İstifadəçi uğurla {{label}} olaraq dəvət edildi",
+        "invite": "dəvət et",
+        "relationships": "Əlaqələr",
+        "newRole": "Yeni Rol",
+        "about": "Haqqında",
+        "people": "Xalq",
+        "info": "Məlumat",
+        "interests": "Maraqlar",
+        "chat": "Söhbət",
+        "locations": "Məkanlar",
+        "ManageRoles": "Rolları idarə edin",
+        "aboutPlaceholder": "Sən kimsən və nə işlə məşğulsan? İnsanlara özünüz haqqında maraqlı və ya unikal bir şey söyləyin.",
+        "explanation": "Profiliniz qrup fəaliyyətləri üçün sizi digər insanlarla daha yaxşı uyğunlaşdırmağa kömək edir.<br> Zəhmət olmasa ad gününüzü daxil edin",
+        "chats": {
+            "placeholder": "Nəsə de"
+        },
+        "LogOut": "Çıxış",
+        "selectRole": "Rol seçin",
+        "MyLinks": "Linklərim",
+        "MyJobs": "Mənim İşlərim",
+        "MySocial": "MySocial",
+        "MyEducation": "Mənim Təhsilim",
+        "JobsPlaceholder": "İş yerləri haqqında məlumatı bura yazın",
+        "EducationPlaceholder": "Buraya təhsil məlumatını yazın",
+        "ManageNotifications": "Bildirişləri idarə edin",
+        "YourPreferredLanguage": "Tercih etdiyiniz dil",
+        "SendCrypto": "Ödəmək",
+        "Block": "Blok",
+        "Unblock": "Blokdan çıxarın",
+        "Email": "E-poçt",
+        "Avoid": "çəkinin",
+        "CreatePrivateChat": "Əlaqə saxlamaq üçün {{credits}} kredit xərcləyin?",
+        "RolesInCommunity": "Cəmiyyətdəki rollar",
+        "PersonalChatWith": "{{name}} ilə şəxsi söhbət",
+        "SendCryptoTo": "{{name}} ünvanına kripto göndərin",
+        "SendEmailTo": "{{name}} ünvanına e-poçt göndər",
+        "SendSMSTo": "{{name}} nömrəsinə SMS göndərin",
+        "BlockThisUser": "Bu istifadəçini bloklayın",
+        "UnblockThisUser": "Bu istifadəçini blokdan çıxarın",
+        "YouCantChatWithYourself": "Özünüzlə söhbət edə bilməzsiniz",
+        "blockUserAlertTitle": "{{displayName}} bloklanıb",
+        "sections": {
+            "education": "Təhsil",
+            "greeting": "Salam",
+            "jobs": "İşlər",
+            "links": "Bağlantılar",
+            "language": "Dil",
+            "roles": "Rollar",
+            "personal": "Şəxsi",
+            "social": "Sosial"
+        },
+        "Roles": "Rollar",
+        "SendPaymentTo": "Ödənişi {{name}} nömrəsinə göndərin"
+    },
+    "myqr": {
+        "Title": "Mənim QR"
+    },
+    "composer": {
+        "createCommunity": "İcma yaradın",
+        "inviteAdmin": "Admini dəvət edin",
+        "inviteMember": "Üzv dəvət et",
+        "newCommunityTitle": "İcma adı",
+        "setCommunityTitle": "İcma adı",
+        "creditsChargeRequest": "{{price}} kredit xərcləməyə razısınız?",
+        "yes": "Bəli",
+        "no": "Yox"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Xoş gəldiniz! Zəhmət olmasa e-poçt ünvanınızı yoxlayın.",
+        "WelcomeVerifyEmail": "Xoş gəldiniz! E-poçt ünvanınızı doğrulayın.",
+        "ForgetPass": "Hey, parol sözünü unutmusan?",
+        "ManageEmailSubscriptions": "e-poçt abunəliyinizi idarə edin",
+        "IfUnsubscribe": "Abunəni ləğv etmək istəyirsinizsə"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "{{CommunityName}}-a xoş gəlmisiniz. Bu proqramlar sizə dostlarla əlaqə saxlamağa, ümumi maraqları olan yeni insanları kəşf etməyə və s. kömək edəcək. Gəlin başlayaq!"
+            },
+            "icon": {
+                "Commentary": "Şəkilinizi təyin edin. İnsanlar sizi saytda belə görəcəklər."
+            },
+            "interests": {
+                "Commentary": "Nə qədər çox element seçsəniz, bir o qədər çox insanla görüşə bilərsiniz.",
+                "Notifications": "Siz bildirişlərə icazə verməlisiniz"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Bildirişlər sizə maraqlandığınız şeylər, məsələn, dostunuzun proqrama qoşulması və ya sizə mesaj göndərməsi barədə məlumat almağa imkan verir."
+        },
+        "invite": "{{Q.words.TapOrClick}} bunu başqa insanlarla necə paylaşa biləcəyinizi görmək üçün buradan."
+    },
+    "payment": {
+        "onContribute": "Çox sağ ol! Ödənişiniz keçdi. Dostlarınızı sizə qoşulmağa dəvət etmək istərdinizmi?",
+        "ConnectAccount": "Hesabı birləşdirin"
+    },
+    "featureboard": {
+        "Text_1": "Səsiniz eşidilsin! Bir xüsusiyyət və ya səhv inkişaf etdirməyimizlə razısınızmı? Dəstəkləmək üçün düyməni basın.",
+        "Text_2": "Yeni bir xüsusiyyət inkişaf etdirməyimizi istəyirsiniz? Aşağıda təsvir edin.",
+        "Text_3": "Hər həftə biz icma tərəfindən ən çox tələb olunan xüsusiyyəti inkişaf etdirməyə başlayırıq. Verilən bütün pullar bu məqsədə yönəldilib, bizə proqramı daha yaxşı etməyə imkan verir.",
+        "Text_4": "Təqdim olunan bütün pullar inkişaf xərclərimizi ödəmək üçün istifadə olunur.",
+        "Text_5": "Etməyimizi istədiyiniz, lakin başqalarının hələ də əlavə etdiyini görmədiyiniz funksiya və ya səhvi düzəltmək üçün fikrin varmı? Aşağıda təsvir edin:",
+        "Options": [
+            {
+                "text": "$400 Real vaxt videokonfransı"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$200 Yerli İlkin qeydiyyat məlumatı"
+            },
+            {
+                "text": "$130 Minlərlə {{1}} meme baxın və paylaşın",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 Öz icmalarınızı idarə edin",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Söhbət səhvini düzəldin",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Yeni Xüsusiyyət\/Bağ düzəlişi tələb edin",
+        "FeaturePlaceholder": "Xüsusiyyətin qısa xülasəsi",
+        "FeatureDescription": "Başqasının gördüyünüz səhvi necə təkrarlaya biləcəyini təsvir edin və ya qurmaq istədiyiniz xüsusiyyəti ətraflı təsvir edin",
+        "AddYourRequest": "Sorğunuzu əlavə edin",
+        "NewFeature": "Yeni Xüsusiyyət"
+    },
+    "assetshistory": {
+        "Title": "Aktivlərin tarixi",
+        "Charges": "Ödənişlər",
+        "Credits": "Kreditlər"
+    },
+    "contribute": {
+        "ContributeExplanation": "{{communityName}} tətbiqinin davamlı inkişafını dəstəkləməyə kömək edin. Bütün töhfələriniz səhvləri düzəltməyə və onlayn cəmiyyətin böyüməsinə kömək etmək üçün yeni funksiyalar hazırlamağa kömək edir!",
+        "ReasonToContribute": "Bu proqram {{communityName}} tərəfdarları tərəfindən idarə olunur. Bu proqramı dəstəkləməyə kömək edin ki, insanların həyatında dəyişiklik edə bilək!"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Hesabı silin",
+            "content": "Bu hesabı silmək istəyirsiniz?",
+            "ok": "Bəli",
+            "cancel": "Yox"
+        }
+    },
+    "import": {
+        "fileNotFound": "Üzr istəyirik, CSV faylı tapılmadı.",
+        "fileEmpty": "Üzr istəyirik, CSV faylı boşdur.",
+        "userIdNotFound": "istifadəçi mövcuddur, lakin id boşdur",
+        "errorLine": "xətt {{1}}",
+        "fieldNotFound": "Tələb olunan sahə &quot;{{1}}&quot; tapılmadı",
+        "taskStreamInvalid": "tapşırıq axını etibarsızdır",
+        "instructionsEmpty": "tapşırıq axını təlimatları boş",
+        "complete": "Tamamlayın",
+        "activateUsers": "istifadəçilərə aktivasiya mesajı göndərilsin?",
+        "importProgress": "Tərəqqi",
+        "joinEventLabel": "İstifadəçiləri təsadüfi hadisəyə qoşulun",
+        "importOptions": "Seçimlər",
+        "sampleCSV": "Nümunə CSV yükləyin",
+        "fileLabel": "Cədvəl yükləyin:",
+        "errorsTitle": "Səhvlər baş verdi",
+        "communityUsers": "Bu icmaların siyahısıdır",
+        "setAsConversation": "Söhbət kimi URL sütunu",
+        "toMainCommunityToo": "istifadəçiləri də əsas icmaya əlavə edin",
+        "willImportedTo": "İstifadəçilər icmaya idxal ediləcək",
+        "ChooseFile": "faylı seçin"
+    },
+    "dashboard": {
+        "Menu": "Menyu",
+        "Home": "Ev",
+        "Welcome": "Xoş gəldiniz",
+        "Events": "Hadisələr",
+        "Discuss": "Müzakirə edin",
+        "People": "Xalq",
+        "About": "Haqqında",
+        "Community": "İcma",
+        "LogIn": "daxil ol",
+        "LogOut": "çıxış",
+        "Intercoin": "İnterkoin",
+        "Shows": "Şoular",
+        "Calendar": "Təqvim",
+        "Me": "Mən",
+        "Media": "Media",
+        "Services": "Xidmətlər",
+        "SetMobileNumber": "Mobil nömrəni təyin edin",
+        "SetEmailAddress": "E-poçt ünvanını təyin edin"
+    },
+    "services": {
+        "Title": "Xidmətlər",
+        "filterByTitle": "Başlığa görə xidmətləri tapın",
+        "New": "+ Yeni Xidmətə başlayın",
+        "NewService": "Yeni Xidmət",
+        "filterServices": "Filtr xidmətləri",
+        "NoneYet": "Hələ heç bir xidmət formalaşmayıb<br> bu vaxtlarda.",
+        "AllAuthors": "Bütün Müəlliflər",
+        "AllDays": "Bütün günlər",
+        "AllLocations": "Bütün Məkanlar",
+        "MakeReservation": "Rezervasiya edin",
+        "CancelReservation": "Rezervasyonu ləğv edin",
+        "UpdateReservation": "Rezervasyonu yeniləyin",
+        "AreYouSure": "Sən əminsən?",
+        "YouWillRefunded": "Siz tətbiqdə başqa şeylərə xərcləyə biləcəyiniz kreditlər şəklində geri qaytarılacaqsınız.",
+        "AllInterests": "Bütün Maraqlar",
+        "FilterbyInterest": "Maraqlara görə süzün",
+        "FilterByDate": "Tarixə görə süzün",
+        "ShowActivities": "Əlaqədar fəaliyyət göstərin...",
+        "newServices": "{{1}} yeni xidmətiniz var",
+        "SelectLocation": "Yer seçin",
+        "FilterLocationsPlaceHolder": "Məkanları filtrləyin...",
+        "Description": "{{1}} xidməti",
+        "Keywords": "{{1}} xidməti",
+        "NewAvailability": "Yeni Əlçatımlılıq"
+    },
+    "welcome": {
+        "Title": "{{appName}}: xoş gəlmisiniz",
+        "GetStarted": "Başlamaq",
+        "gallery": {
+            "Connect": "Qoşun",
+            "Organize": "Təşkil et",
+            "Travel": "Səyahət",
+            "Share": "Paylaşın"
+        }
+    }
+}

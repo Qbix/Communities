@@ -1,0 +1,27 @@
+{
+    "activation": {
+        "Thanks": "Wolkom by {{1}}",
+        "ReallyYourEmail": "Is dit echt jo e-mailadres, {{1}}? As dat sa is, klik dan <a href='{{2}}'>hjir<\/a> om jo wachtwurd yn te stellen en jo akkount te aktivearjen.",
+        "SeeYou": "Oant sjen op <a href='{{1}}'>{{2}}<\/a> !"
+    },
+    "LinkToUnsubscribe": "Hjir is in keppeling om jo ôf te <a href='{{1}}'>melden<\/a> as jo gjin e-post mear wolle krije.",
+    "Greetings": "Groetnis fan {{1}}.",
+    "SeeHistory": "Sjoch betellingsskiednis foar {{1}}",
+    "charge": {
+        "HasBeenCharged": "Hee, dit is gewoan om jo te litten witte dat {{1}} yn rekken brocht is {{2}} foar {{3}} troch {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hoi {{1}}, dit is mar in flugge befêstiging dat jo mei súkses {{2}} betelle hawwe oan {{3}} foar {{4}}"
+    },
+    "resend": {
+        "Thanks": "Betanke foar it besykjen {{1}}",
+        "YouAreReceiving": "Jo ûntfange dizze e-post om&#39;t immen jo e-mailadres ynfierd en op &quot;wachtwurd fergetten&quot; klikte. As it jo net wie, negearje dit berjocht gewoan.",
+        "Reset": "Klik op {{1}} om jo wachtwurdfrase werom te setten",
+        "SetUpPassphrase": "Stel wachtwurd yn"
+    },
+    "subscription": {
+        "YouHaveStarted": "Hoi {{1}}, jo binne jo abonnemint op {{2}} begûn mei {{3}} op {{4}} foar {{5}} moannen.",
+        "HasStarted": "Dit is gewoan om jo te litten witte {{1}}, hat har abonnemint op {{2}} begûn mei {{3}} op {{4}} foar {{5}} moannen."
+    },
+    "SeeYou": "Oant sjen op {{1}}!"
+}

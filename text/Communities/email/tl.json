@@ -1,0 +1,27 @@
+{
+    "activation": {
+        "Thanks": "Maligayang pagdating sa {{1}}",
+        "ReallyYourEmail": "Ito ba talaga ang iyong email address, {{1}}? Kung gayon, mag-click <a href='{{2}}'>dito<\/a> upang itakda ang iyong passphrase at i-activate ang iyong account.",
+        "SeeYou": "Magkita-kita tayo sa <a href='{{1}}'>{{2}}<\/a> !"
+    },
+    "LinkToUnsubscribe": "Narito ang isang link upang mag- <a href='{{1}}'>unsubscribe<\/a> kung ayaw mong makakuha ng higit pang mga email.",
+    "Greetings": "Pagbati mula kay {{1}}.",
+    "SeeHistory": "Tingnan ang kasaysayan ng pagbabayad para sa {{1}}",
+    "charge": {
+        "HasBeenCharged": "Uy, ito ay para lang ipaalam sa iyo na si {{1}} ay nasingil {{2}} para sa {{3}} ni {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Uy {{1}}, ito ay isa lamang mabilis na kumpirmasyon na matagumpay mong nabayaran {{2}} sa {{3}} para sa {{4}}"
+    },
+    "resend": {
+        "Thanks": "Salamat sa pagbisita {{1}}",
+        "YouAreReceiving": "Natanggap mo ang email na ito dahil may nagpasok ng iyong email address at nag-click sa &quot;nakalimutan ang passphrase&quot;. Kung hindi ikaw, huwag pansinin ang mensaheng ito.",
+        "Reset": "Upang i-reset ang iyong passphrase, i-click ang {{1}}",
+        "SetUpPassphrase": "I-set up ang passphrase"
+    },
+    "subscription": {
+        "YouHaveStarted": "Uy {{1}}, sinimulan mo ang iyong subscription sa {{2}} sa {{3}} noong {{4}} sa loob ng {{5}} buwan.",
+        "HasStarted": "Ito ay para lang ipaalam sa iyo na {{1}}, ay nagsimula ng kanilang subscription sa {{2}} kasama ng {{3}} noong {{4}} sa loob ng {{5}} buwan."
+    },
+    "SeeYou": "Magkita-kita tayo sa {{1}}!"
+}

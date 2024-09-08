@@ -1,0 +1,25 @@
+.Q_column_trip .Streams_aspect_chats {
+	margin: 10px;
+	position: relative;
+}
+.Q_column_trip .Communities_info_icon {
+	display: inline-block;
+	vertical-align: middle;
+	width: 10%;
+}
+.Q_column_trip .Communities_info_icon img {
+	width: 24px;
+	height: 24px;
+	margin-right: 5px;
+}
+.Q_column_trip .Communities_info_content {
+	display: inline-block;
+	vertical-align: middle;
+	width: 90%;
+	overflow: auto;
+	box-sizing: border-box;
+	padding: 0;
+}
+.Communities_unseen_nonzero {
+	display: inline-block;
+}

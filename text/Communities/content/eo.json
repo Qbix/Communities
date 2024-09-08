@@ -1,0 +1,362 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> nenion montras!",
+        "NextSteps": "Uzu la ĉefan menuon por trovi tion, kion vi serĉas."
+    },
+    "dashboard": {
+        "Menu": "Menuo"
+    },
+    "greeting": {
+        "Welcome": "Bonvenon al {{1}}. Ĉi tie vi trovos aferojn afiŝitajn por membroj de nia komunumo. Bonvolu aldoni vian retadreson aŭ poŝtelefonon por ricevi sciigojn kiam anoncoj estas afiŝitaj."
+    },
+    "conversations": {
+        "Title": "Konversacioj",
+        "New": "Nova Konversacio",
+        "Conversation": "Konversacio",
+        "Topics": "Temoj",
+        "NoneYet": "Ankoraŭ neniuj konversacioj formiĝis",
+        "newConversations": "{{1}} novaj konversacioj",
+        "AllAuthors": "Ĉiuj Aŭtoroj",
+        "FilterbyAuthors": "Filtrilo laŭ Aŭtoroj",
+        "FilterAuthorPlaceHolder": "Serĉu pliajn aŭtorojn...",
+        "filterConversations": "Filtri per teksto",
+        "Description": "{{1}} konversacioj"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Elektu temon",
+            "Share": "Kunhavigi",
+            "interest": {
+                "Title": "Elektu Agadon",
+                "Filter": "Serĉaj interesoj..."
+            }
+        },
+        "Title": "Nova Konversacio",
+        "TitlePlaceholder": "Temo de via konversacio",
+        "ContentPlaceholder": "Skribu kelkajn vortojn por komenci la konversacion, por ke aliaj povu respondi",
+        "StartButton": "Komencu Konversacion"
+    },
+    "events": {
+        "Title": "Eventoj",
+        "filterByTitle": "Trovu eventojn laŭ titolo",
+        "New": "+ Komencu Novan Eventon",
+        "filterEvents": "Filtri eventojn",
+        "NewEvent": "Nova Evento",
+        "SetLocation": "Agordu Mian Lokon",
+        "NoneYet": "Ankoraŭ neniu evento formiĝis<br> dum ĉi tiuj tempoj.",
+        "AllAuthors": "Ĉiuj Aŭtoroj",
+        "AllDays": "Ĉiuj Tagoj",
+        "AllLocations": "Ĉiuj Lokoj",
+        "MakeReservation": "Faru Rezervon",
+        "CancelReservation": "Nuligi Rezervon",
+        "UpdateReservation": "Ĝisdatigi Rezervon",
+        "AreYouSure": "Ĉu vi certas?",
+        "YouWillRefunded": "Vi estos repagata en formo de kreditoj, kiujn vi povas elspezi por aliaj aferoj en la programo.",
+        "AllInterests": "Ĉiuj Interesoj",
+        "FilterbyInterest": "Filtru laŭ Interesoj",
+        "FilterByDate": "Filtrilo laŭ dato",
+        "ShowActivities": "Montru agadojn rilatajn al . . .",
+        "newEvents": "Vi havas {{1}} novajn eventojn",
+        "SelectLocation": "Elektu Lokon",
+        "FilterLocationsPlaceHolder": "Filtri ejojn per...",
+        "Description": "{{1}} eventoj",
+        "Keywords": "{{1}} eventoj"
+    },
+    "schedule": {
+        "Title": "Horaro",
+        "NoneYet": "Vi ne partoprenas en iuj eventoj",
+        "AddSome": "Aldonu kelkajn al via horaro!",
+        "AddMore": "Aldonu eventojn al via horaro!",
+        "future": "estonteco",
+        "past": "pasinteco"
+    },
+    "location": {
+        "Title": "Loko",
+        "NewLocation": "Nova Loko"
+    },
+    "inbox": {
+        "Title": "Enirkesto",
+        "NoneYet": "Vi ne partoprenas en iuj konversacioj",
+        "FindPeople": "Trovu homojn kun kiuj paroli",
+        "GroupConversations": "Aliĝu al iuj grupaj konversacioj",
+        "ContactStaff": "Kontaktu Kunlaborantaron",
+        "ContactCustomers": "Kontaktu Klientojn"
+    },
+    "me": {
+        "Title": "Mi",
+        "MobileNumber": "Poŝtelefona numero",
+        "EmailAddress": "Retpoŝta adreso",
+        "UpdateSocialTitle": "Ĝisdatigu {{1}} uzantnomon"
+    },
+    "people": {
+        "Title": "Homoj",
+        "Description": "Homoj en {{1}} komunumo",
+        "AppAlert": "Ĉi tiu aplikaĵo en la app-vendejo ebligos vin konekti kun viaj amikoj, kaj multe pli.",
+        "Invite": "Inviti amikojn",
+        "BuyCredits": "Aĉetu Kreditojn",
+        "FindSomeoneByName": "Trovu iun laŭ nomo",
+        "SearchByName": "Serĉu laŭ nomo",
+        "FindAllMyFriends": "Trovu Ĉiujn Miajn Amikojn",
+        "labels": {
+            "All": "Ĉiuj",
+            "Title": "Filtrilo laŭ Rilato",
+            "New": "Nova Rilato Tipo"
+        },
+        "interests": {
+            "All": "Ĉiuj Interesoj",
+            "Title": "Filtru laŭ Interesoj",
+            "Filter": "Montru homojn interesitajn pri . . ."
+        },
+        "Keywords": "{{1}} homkomunumo"
+    },
+    "communities": {
+        "Title": "Komunumoj",
+        "NewCommunity": "Nova Komunumo",
+        "FindCommunityByName": "Trovu komunumon laŭ nomo",
+        "Description": "{{1}} komunumoj"
+    },
+    "community": {
+        "Title": "{{1}} Komunumo",
+        "Roles": "Roloj",
+        "AllRoles": "Ĉiuj Roloj",
+        "YouDontHavePermission": "Vi ne estas rajtigita fari ĉi tion",
+        "usernamePlaceholder": "starigu komunuman nomon",
+        "NotEnoughCredits": "Vi ne havas sufiĉajn kreditojn por krei komunumon. Bezonas {{1}}, vi havas {{2}}"
+    },
+    "event": {
+        "GetDirections": "Akiru Direktojn",
+        "WhichMap": "Kiajn mapojn vi ŝatus uzi?",
+        "JoinEventToChat": "Aliĝu al la evento por babili",
+        "promote": {
+            "Title": "Antaŭenigu ĉi tiun eventon",
+            "Prompt": "Elektu kie vi ŝatus reklami ĉi tiun eventon:"
+        },
+        "Confirmation": "Konfirmo"
+    },
+    "newEvent": {
+        "Title": "Planu Novan Eventon"
+    },
+    "interests": {
+        "Title": "Interesoj",
+        "prompt": "Elektu la specojn de aferoj, pri kiuj vi ŝatus scii.",
+        "explanation": "Ju pli da interesoj vi elektas, des pli probable vi konektiĝos kun samideanoj.",
+        "filter": "Pri kio vi interesiĝas?",
+        "Profile": "Reciprokaj interesoj estas emfazitaj. Se vi ankaŭ havas unu aŭ pli el la subaj interesoj, vi povas {{clickOrTap}} aldoni ilin."
+    },
+    "credits": {
+        "Title": "Kreditoj",
+        "EarnCredits": "Gajnu {{1}} kreditojn por ĉiu nova persono, kiun vi invitas, kiu aliĝas al la aplikaĵo",
+        "YouHave": "Vi havas {{1}} kreditojn"
+    },
+    "onboarding": {
+        "Tap": "Frapu",
+        "Click": "Klaku",
+        "Yes": "Jes",
+        "No": "Ne",
+        "Skip": "aŭ preterlasi ĉi tion",
+        "name": {
+            "Preface": "Bonvenon al",
+            "Placeholder": "Enigu vian plenan nomon",
+            "GetStarted": "Komenciĝi",
+            "AsGuest": "Vi estis invitita kiel gasto.",
+            "AsMember": "Vi estis invitita kiel membro.",
+            "AsAdmin": "Vi estis invitita kiel administranto.",
+            "AsOwner": "Vi estis invitita kiel posedanto.",
+            "TooShort": "Via plena nomo ne povas esti tiel mallonga",
+            "SetAsYourFullName": "Ĉu agordi {{1}} kiel vian plenan nomon?"
+        },
+        "icon": {
+            "KeepDefault": "aŭ konservu ĉi tiun foton",
+            "SetYourPhoto": "{{ClickOrTap}} por agordi vian foton:"
+        },
+        "interests": {
+            "GetStarted": "⇩ Komencu",
+            "NextCategory": "↓ Poste",
+            "Continue": "Daŭrigu",
+            "Instructions": "En ĉiu el la sekvaj {{1}} kategorioj,<br> {{2}} ĉiujn agadojn pri kiuj vi interesiĝas.<br> Jen kiel vi konektas kun aliaj homoj en la komunumo."
+        },
+        "profile": {
+            "Profile": "Via profilo helpas homojn malkovri pli pri vi.<br>",
+            "Birthday": "Bonvolu enigi vian naskiĝtagon:",
+            "Placeholder": "Kiu vi estas kaj kion vi faras? Diru al homoj ion interesan aŭ unikan pri vi mem.",
+            "Required": "Por daŭrigi, skribu almenaŭ kelkajn liniojn pri vi mem.",
+            "Month": "Monato",
+            "Day": "Tago",
+            "Year": "Jaro",
+            "Gender": "Sekso",
+            "Male": "Vira",
+            "Female": "Ino",
+            "Other": "Alia",
+            "Height": "Alteco",
+            "Affiliation": "Alligiteco",
+            "Dating": "Renkontiĝo",
+            "Interested": "Interesita",
+            "NotInterested": "Ne Interesas",
+            "MatchmakerOnly": "Nur maĉisto"
+        },
+        "location": {
+            "NoOneElse": "Neniu alia vidos ĝin.",
+            "SetMyLocation": "Agordu mian lokon"
+        },
+        "pile": {
+            "DialogTitle": "Homoj kun Komunaj Interesoj"
+        },
+        "Done": "Farita"
+    },
+    "profile": {
+        "Title": "Profilo",
+        "Male": "Vira",
+        "Female": "Ino",
+        "Other": "Alia",
+        "dating": {
+            "Interested": "Interesita",
+            "NotInterested": "Ne interesas",
+            "MatchmakerOnly": "Nur maĉisto"
+        },
+        "StartConversation": "Komencu Konversacion",
+        "blockUser": "Bloki ĉi tiun uzanton",
+        "blockUserAlert": "Vi ne vidos plu mesaĝojn de ĉi tiu uzanto ĝis vi malblokos ilin.",
+        "unblockUser": "Malŝlosu ĉi tiun uzanton",
+        "addToContacts": "Aldoni al Kontaktoj",
+        "manageLabels": "Administri Etikedojn",
+        "inviteUsers": "Invitu Uzantojn",
+        "selectRole": "Elektu Rolon",
+        "inviteSuccess": "Sukcese invitita uzanto kiel {{label}}",
+        "invite": "Invitu",
+        "relationships": "Rilatoj",
+        "newRole": "Nova Rolo",
+        "about": "Pri",
+        "people": "Homoj",
+        "info": "Info",
+        "interests": "Interesoj",
+        "chat": "Babilado",
+        "locations": "Lokoj",
+        "ManageRoles": "Administri Rolojn",
+        "aboutPlaceholder": "Kiu vi estas kaj kion vi faras? Diru al homoj ion interesan aŭ unikan pri vi mem.",
+        "explanation": "Via profilo helpas pli bone kongrui vin kun aliaj homoj por grupaj agadoj.<br> Bonvolu enigi vian naskiĝtagon",
+        "chats": {
+            "placeholder": "Diru ion"
+        },
+        "LogOut": "Elsaluti",
+        "MyLinks": "Miaj Ligiloj",
+        "MyJobs": "Miaj Laborpostenoj",
+        "MySocial": "MiaSocia",
+        "MyEducation": "Mia Edukado",
+        "JobsPlaceholder": "Tajpu ĉi tie informojn pri laboro",
+        "EducationPlaceholder": "Tajpu ĉi tie edukajn informojn",
+        "ManageNotifications": "Administri Sciigojn",
+        "YourPreferredLanguage": "Via preferata lingvo"
+    },
+    "myqr": {
+        "Title": "Mia QR"
+    },
+    "composer": {
+        "createCommunity": "Kreu Komunumon",
+        "inviteAdmin": "Invitu Administranton",
+        "inviteMember": "Inviti Membron",
+        "newCommunityTitle": "Komunuma Nomo",
+        "setCommunityTitle": "Komunuma Nomo",
+        "creditsChargeRequest": "Ĉu vi konsentas elspezi {{price}} kreditojn?",
+        "yes": "Jes",
+        "no": "Ne"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Bonvenon! Bonvolu kontroli vian retadreson.",
+        "WelcomeVerifyEmail": "Bonvenon! Kontrolu vian retadreson.",
+        "ForgetPass": "He, ĉu vi forgesis vian pasfrazon?",
+        "ManageEmailSubscriptions": "administru viajn retpoŝtajn abonojn",
+        "IfUnsubscribe": "Se vi volas malaboni"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Bonvenon al {{CommunityName}}. Ĉi tiu programo helpos vin konekti kun amikoj, malkovri novajn homojn kun komunaj interesoj kaj multe pli. Ni komencu!"
+            },
+            "icon": {
+                "Commentary": "Agordu vian foton. Jen kiel homoj vidos vin sur la retejo."
+            },
+            "interests": {
+                "Commentary": "Ju pli da eroj vi elektas, des pli da homoj vi povas renkonti.",
+                "Notifications": "Vi devas permesi sciigojn"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Sciigoj permesas vin scii pri aferoj pri kiuj vi interesiĝas, kiel kiam amiko aliĝas al la aplikaĵo aŭ mesaĝas al vi."
+        },
+        "invite": "{{Q.words.TapOrClick}} ĉi tie por vidi kiel vi povas dividi ĉi tion kun aliaj homoj."
+    },
+    "payment": {
+        "onContribute": "Dankon! Via pago trapasis. Ĉu vi ŝatus inviti viajn amikojn aliĝi al vi?"
+    },
+    "featureboard": {
+        "Text_1": "Via voĉo estu aŭdata! Ĉu vi konsentas, ke ni devus evoluigi funkcion aŭ cimon? Alklaku la butonon por Subteni ĝin.",
+        "Text_2": "Ĉu ni volas disvolvi novan funkcion? Priskribu ĝin sube.",
+        "Text_3": "Ĉiusemajne ni komencas disvolvi la plej bonan postulatan funkcion de la komunumo. La tuta mono kontribuita iras al tiu celo, permesante al ni plibonigi la apon.",
+        "Text_4": "La tuta mono kontribuita estas uzata por helpi pagi niajn evolukostojn.",
+        "Text_5": "Ĉu vi havas ideon pri funkcio aŭ korekto, kiun vi volas, ke ni faru, sed ankoraŭ ne vidis aliajn aldoni? Priskribu ĝin sube:",
+        "Options": [
+            {
+                "text": "$400 Realtempa videokonferenco"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$200 Lokaj Primaraj registriĝinformoj"
+            },
+            {
+                "text": "$130 Foliumu kaj kundividu milojn da {{1}} memoj",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 Administru viajn proprajn komunumojn",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Ripari konversaciajn cimon",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Petu Novan Trajton\/Ekstron",
+        "FeaturePlaceholder": "Mallonga resumo de trajto",
+        "FeatureDescription": "Priskribu kiel iu alia povas reprodukti la cimon, kiun vi vidas, aŭ priskribi detale la funkcion, kiun vi volas konstrui",
+        "AddYourRequest": "Aldonu Vian Peton",
+        "NewFeature": "Nova Trajto"
+    },
+    "contribute": {
+        "ContributeExplanation": "Helpu subteni daŭran disvolviĝon de la {{communityName}} apo. Ĉiuj viaj kontribuoj helpas ripari erarojn kaj evoluigi novajn funkciojn por helpi kreskigi la interretan komunumon!",
+        "ReasonToContribute": "Ĉi tiu programo estas prizorgata de subtenantoj de {{communityName}}. Helpu subteni ĉi tiun apon por ke ni povu fari diferencon en la vivo de homoj!"
+    },
+    "assetshistory": {
+        "Title": "Historio de aktivoj",
+        "Charges": "Ŝargoj",
+        "Credits": "Kreditoj"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Forigi konton",
+            "content": "Ĉu vi volas forigi ĉi tiun konton?",
+            "ok": "Jes",
+            "cancel": "Ne"
+        }
+    },
+    "import": {
+        "fileNotFound": "Pardonu, CSV-dosiero ne trovita.",
+        "fileEmpty": "Pardonu, CSV-dosiero estas malplena.",
+        "userIdNotFound": "uzanto ekzistas sed id malplena",
+        "errorLine": "linio {{1}}",
+        "fieldNotFound": "Bezonata kampo &quot;{{1}}&quot; ne trovita",
+        "taskStreamInvalid": "taskofluo nevalida",
+        "instructionsEmpty": "taskstream instrukcioj malplenaj",
+        "complete": "Kompleta",
+        "activateUsers": "sendi aktivigan mesaĝon al uzantoj?",
+        "importProgress": "Progreso",
+        "joinEventLabel": "Aliĝu uzantoj al hazarda evento",
+        "importOptions": "Opcioj",
+        "sampleCSV": "Elŝutu Specimen CSV",
+        "fileLabel": "Alŝutu Tabelfolion:",
+        "errorsTitle": "Eraroj okazis",
+        "communityUsers": "Ĉi tio estas listo de komunumoj",
+        "setAsConversation": "URL-kolumno kiel konversacio",
+        "toMainCommunityToo": "ankaŭ aldonu uzantojn al ĉefa komunumo",
+        "willImportedTo": "Uzantoj estos importitaj al komunumo"
+    }
+}

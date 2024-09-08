@@ -1,0 +1,53 @@
+html.Communities_featureboard select[name=contribute] {
+	font-size: 25px;
+	margin-right: 10px;
+}
+html.Communities_featureboard .Assets_payment_tool {
+	display: inline-block;
+	vertical-align: top;
+}
+html.Communities_featureboard #content {
+	padding: 10px;
+}
+html.Communities_featureboard ul.contribute {
+	padding: 0;
+}
+html.Communities_featureboard ul.contribute li {
+	list-style: none;
+	border-bottom: 1px solid silver;
+	padding: 10px 0;
+}
+html.Communities_featureboard ul.contribute li > * {
+	margin-bottom: 10px;
+}
+html.Communities_featureboard ul.contribute li > span.contribute {
+	font-size: 25px;
+	display: inline-block;
+}
+html.Communities_featureboard #page button[name=requestNewFeature],
+html.Communities_featureboard .Communities_featureboard_NewFeature button[name=submitNewFeature] {
+	background: #4e9c37;
+}
+.Communities_featureboard_NewFeature .Q_dialog_content {
+	padding: 10px;
+}
+.Communities_featureboard_NewFeature .Q_dialog_content > * {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.Communities_featureboard_NewFeature .Q_dialog_content textarea {
+	min-height: 100px;
+	padding: 5px;
+}
+.Communities_featureboard_NewFeature .Q_dialog_content textarea,
+.Communities_featureboard_NewFeature .Q_dialog_content input {
+	color: black;
+	font-size: 16px;
+}
+.Communities_featureboard_NewFeature .Communities_featureboard_button {
+	text-align: center;
+}
+.Communities_featureboard_NewFeature .Communities_featureboard_button > * {
+	vertical-align: middle;
+}

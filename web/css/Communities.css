@@ -1,0 +1,1618 @@
+:root {
+	--html-color: #000;
+	--html-link-color: #00f;
+	--html-bg-color: #f2f2f2;
+	--content-bg-color: hsl(0, 0%, 97%);
+
+	--column-bg-color: #fff;
+	--column-border: 0;
+	--column-border-mobile: solid 1px rgba(200, 200, 200, 0.3);
+	--column-title-bg-color: #fff;
+	--column-title-color: #000;
+
+	--dashboard-height: 55px;
+
+	--dashboard-mobile-height: 50px;
+	--dashboard-mobile-titles-height: 20px;
+	--dashboard-mobile-bg-color: #f2f2f2;
+	--dashboard-mobile-bg-color-to: #ffffff;
+	--dashboard-mobile-color: rgba(0, 0, 0, 0.5);
+	--dashboard-mobile-current-bg: rgba(255, 255, 255, 0.5);
+	--dashboard-mobile-current-color: rgba(0, 0, 0, 0.9);
+	--dashboard-mobile-current-icon-bg: radial-gradient(closest-side, rgba(0, 0, 255, 0.2) 30%, transparent 85%);
+
+	--dashboard-main-bg-color: #a7a7a7;
+	--dashboard-main-bg-color-to: #f2f2f2;
+	--dashboard-main-color: rgba(0, 0, 0, 0.5);
+	--dashboard-current-bg: rgba(255, 255, 255, 0.2);
+	--dashboard-current-icon-bg: radial-gradient(closest-side, rgba(0, 0, 255, 0.2) 30%, transparent 85%);
+	--dashboard-current-color: rgba(0, 0, 0, 0.9);
+	--dashboard-contextual-bg: #0543a0;
+	--dashboard-contextual-bg-color: #f2f2f2;
+	--dashboard-contextual-color: rgba(0, 0, 0, 0.5);
+	--dashboard-contextual-border: #0543a0;
+	--dashboard-contextual-current-bg: #999;
+	--dashboard-contextual-current-color: #fff;
+	--dashboard-contextual-selected-bg: rgba(150, 150, 150, 0.2);
+	--dashboard-contextual-selected-color: rgba(0, 0, 0, 0.9);
+	
+	--dashboard-icon-size: 40px;
+	--dashboard-icon-size-withtitles: 28px;
+	--dashboard-icon-size-withtitles-contextual: 24px;
+
+	--button-bg-color: #002D72;
+	--button-bg-color-secondary: #fff;
+	--button-bg-color-to: #1a3d73;
+	--button-bg-color-active: #1a3d73;
+	--button-border-radius: 10px;
+	--button-border-color: #002D72;
+	--button-shadow-color: #002D72;
+	--button-text-color: #fff;
+	--button-text-color-secondary: #030303;
+	--button-hover-bg-color: #e1e1e1;
+
+	--dialog-bg-color: #fff;
+	--dialog-color: #000;
+	--dialog-title-bg-color: #002D72;
+	--dialog-title-color: #fff;
+
+
+	--chat-to-me-bg-color: #aaaaaa;
+	--chat-to-me-text-color: black;
+	--chat-from-me-bg-color: #0b94a9;
+	--chat-from-me-text-color: black;
+
+	--h1-font-color: #002D72;
+
+	--Q-aspect-where-text-color: #222;
+	--Q-aspect-where-border-color: #222;
+
+	--Q-aspect-what-text-color: #bf1118;
+	--Q-aspect-what-border-color: #bf1118;
+
+	--Q-aspect-people-text-color: #394ad5;
+	--Q-aspect-people-border-color: #394ad5;
+
+	--Q-aspect-interests-text-color: #C11119;
+	--Q-aspect-interests-border-color: #C11119;
+
+	--Q-aspect-info-text-color: #394ad5;
+	--Q-aspect-info-border-color: #394ad5;
+
+	--Q-aspect-chats-text-color: #0b94a9;
+	--Q-aspect-chats-border-color: #0b94a9;
+
+	--Q-aspect-funds-text-color: #742e7f;
+	--Q-aspect-funds-border-color: #742e7f;
+
+	--Q-aspect-when-text-color: #449944;
+	--Q-aspect-when-border-color: #449944;
+
+	--Q-aspect-deals-text-color: #e3892f;
+	--Q-aspect-deals-border-color: #e3892f;
+
+	--interests-bg-main: #bf1118;
+	--interests-text-color: #fff;
+	--interests-text-secondary-color: #000;
+	--interests-text-selected-color: #000;
+	--interests-bg-selected: #fbb;
+
+	--expandable-expanded-background: rgba(0, 0, 0, 0.5);
+	--expandable-expanded-color: #fff;
+
+	--communities-button-plus-bg-color: rgba(0, 200, 0, 0.8);
+	--communities-button-plus-color: black;
+	--communities-button-bg-color: rgba(200, 200, 200, 0.8);
+	--communities-button-color: black;
+
+	--profile-section-separator-color: rgba(100, 100, 100, 0.1);
+
+	--separate-line-color: #939393;
+
+	--notices-color: #000;
+}
+
+html {
+	background: var(--html-bg-color);
+	color: var(--html-color);
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+#page {
+	color: var(--html-color);
+}
+
+#page .Q_button,
+.Q_overlay .Q_button,
+.Q_big_prompt .Q_button,
+.Q_notTouchscreen .Q_big_prompt .Q_button {
+	border: 1px solid var(--button-border-color);
+	border-radius: var(--button-border-radius);
+	box-shadow: 0 1px 4px -1px var(--button-shadow-color);
+	background: var(--button-bg-color);
+	background: -webkit-gradient(linear, left top, right top, from(var(--button-bg-color)), to(var(--button-bg-color-to)));
+	background: -moz-linear-gradient(left, var(--button-bg-color), var(--button-bg-color-to));
+	background-image: linear-gradient(to right, var(--button-bg-color), var(--button-bg-color-to));
+	color: var(--button-text-color);
+	fill: var(--button-text-color);
+	line-height: 40px;
+	padding: 0 10px;
+}
+#Users_login_go_span {
+	margin-top: 0;
+}
+#page .Q_button:active { background-color: var(--button-bg-color-active); }
+
+.Q_dialog_content {
+	overflow-x: hidden;
+}
+
+.Q_notMobile #Q_columns-Communities_tool .Q_column_0 .Q_columns_title {
+	padding-left: 6px;
+}
+
+.Communities #content_slot {
+	padding: 0;
+}
+
+html #content_slot,
+.Communities_me #content_slot,
+.Communities_events #content_slot,
+.Communities_event #content_slot,
+.Communities_newEvent #content_slot {
+	background: var(--content-bg-color);
+}
+.Q_columns_column {
+	background: var(--column-bg-color);
+	border: var(--column-border);
+}
+.Q_mobile .Q_columns_column.Q_columns_overlapped {
+	border: var(--column-border-mobile, var(--column-border));
+}
+#content h1 { margin: 0; color: var(--h1-font-color); }
+
+#page .Calendars_info .Q_button {
+	border: none;
+	border-radius: 7px;
+	box-shadow: 0 2px 5px rgba(0,0,0,.1), 0 0 2px rgba(0,0,0,.2);
+	background: var(--button-bg-color-secondary);
+	color: var(--button-text-color-secondary);
+}
+
+.Communities_counts {
+	padding: 20px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.Communities_counts span {
+	font-weight: 800;
+}
+
+.Q_tab_me img,
+.Users_avatar_tool img,
+.Streams_participants_invite img {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.Streams_participants_invite img {
+	display: block;
+}
+.Q_expandable_count,
+.Q_expandable_tool .Q_selected,
+.Streams_interests_unlisted .Q_selected {
+	background-color: var(--interests-bg-selected);
+	color: var(--interests-text-selected-color);
+}
+
+.Users_aspect_communities,
+.Users_aspect_communities::before,
+.Users_aspect_account,
+.Users_aspect_account::before,
+.Users_aspect_people,
+.Users_aspect_people::before,
+.Users_aspect_contacts,
+.Users_aspect_contacts::before,
+.Q_tab_people,
+.Q_tab_people.Q_current .Q_tabs_title { color: var(--Q-aspect-people-text-color); border-color: var(--Q-aspect-people-border-color); }
+
+.Users_aspect_about,
+.Users_aspect_about::before,
+.Users_aspect_info,
+.Users_aspect_info::before {
+	color: var(--Q-aspect-info-text-color);
+	border-color: var(--Q-aspect-info-border-color);
+}
+
+.Q_tab_chats,
+.Q_tab_chats.Q_current .Q_tabs_title,
+.Streams_aspect_chat,
+.Streams_aspect_chat::before,
+.Streams_aspect_chats,
+.Streams_aspect_chats::before {
+	color: var(--Q-aspect-chats-text-color);
+	border-color: var(--Q-aspect-chats-border-color);
+}
+
+.Assets_aspect_funds,
+.Assets_aspect_funds::before,
+.Q_tab_funds,
+.Q_tab_funds.Q_current .Q_tabs_title {
+	color: var(--Q-aspect-funds-text-color);
+	border-color: var(--Q-aspect-funds-border-color);
+}
+
+.Streams_aspect_interests,
+.Streams_aspect_interests::before {
+	color: var(--Q-aspect-interests-text-color);
+	border-color: var(--Q-aspect-interests-text-color);
+}
+
+.Q_aspect_what,
+.Q_aspect_what::before,
+.Streams_aspect_interests,
+.Streams_aspect_interests::before,
+.Users_aspect_me,
+.Users_aspect_me::before,
+.Q_tab_me,
+.Q_tab_me.Q_current .Q_tabs_title { color: var(--Q-aspect-what-text-color); border-color: var(--Q-aspect-what-border-color); }
+
+.Q_aspect_when,
+.Q_aspect_when::before,
+.Q_tab_events,
+.Q_tab_events::before,
+.Q_tab_events.Q_current .Q_tabs_title { color: var(--Q-aspect-when-text-color); border-color: var(--Q-aspect-when-border-color); }
+
+.Assets_aspect_business,
+.Assets_aspect_business::before,
+.Assets_aspect_deals,
+.Assets_aspect_deals::before,
+.Q_tab_deals,
+.Q_tab_deals.Q_current .Q_tabs_title { color: var(--Q-aspect-deals-text-color); border-color: var(--Q-aspect-deals-border-color); }
+
+#dashboard .Q_tab_subscription::before,
+.Q_listing_wrapper .Q_tab_subscription::before {
+	content: "\e906";
+}
+
+
+.Communities_tabs[data-style="icons"] .Streams_aspect_promote,
+.Communities_tabs[data-style="icons"] .Communities_tab.Streams_aspect_people { color: #742e7f; border-color: #742e7f; border-bottom-color: transparent; }
+
+.Communities_tabs[data-style="icons"] .Streams_aspect_promote,
+.Communities_tabs[data-style="icons"] .Communities_tab.Streams_aspect_events { color: #742e7f; border-color: #742e7f; border-bottom-color: transparent; }
+
+input[name=query].Streams_userChooser_input,
+input[name=query].Communities_conversationChooser_input,
+input[name=query].Communities_eventChooser_input,
+input[name=query].Communities_serviceChooser_input,
+input[name=query].Communities_eventChooser_input:focus {
+	width: 100%;
+	background: rgba(255, 255, 255, 0.5);
+	border: 0;
+	border-bottom: solid 1px #394ad5;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	padding: 0 4px 0 4px;
+	margin-bottom: 10px;
+	color: #000;
+	font-size: 16px;
+	height: 40px;
+}
+.Q_columns_title_container input[name=query].Streams_userChooser_input,
+.Q_columns_title_container input[name=query].Streams_userChooser_input,
+.Q_columns_title_container input[name=query].Communities_conversationChooser_input,
+.Q_columns_title_container input[name=query].Communities_eventChooser_input,
+.Q_columns_title_container input[name=query].Communities_serviceChooser_input,
+.Q_columns_title_container input[name=query].Communities_eventChooser_input:focus {
+	color: var(--column-title-chooser-color, var(--column-title-color));
+}
+.Websites_webpage_composer_tool input[name=url] {
+	height: 40px;
+}
+
+.Communities_columnFBStyle_tool input[name=query].Streams_userChooser_input,
+.Communities_columnFBStyle_tool input[name=query].Communities_conversationChooser_input,
+.Communities_columnFBStyle_tool input[name=query].Communities_eventChooser_input,
+.Communities_columnFBStyle_tool input[name=query].Communities_eventChooser_input:focus {
+	margin-bottom: 0;
+}
+
+.Q_aspect_info,
+.Q_aspect_info::before,
+.Q_aspect_where,
+.Q_aspect_where::before,
+.Travel_aspect_trips,
+.Travel_aspect_trips::before { color: var(--Q-aspect-where-text-color); border-color: var(--Q-aspect-where-border-color) }
+
+.Q_button.Q_aspect_info,
+.Q_button.Q_aspect_where {
+	background: #737373; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#737373', endColorstr='#626262'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#737373), to(#626262)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #737373,  #626262); /* for firefox 3.6+ */
+	color: white;
+}
+
+.Q_notTouchscreen .Q_button.Users_aspect_contacts:active,
+.Q_notTouchscreen .Q_button.Users_aspect_contacts:focus {
+	background: #338;
+	color: white;
+}
+
+.Q_button.Q_aspect_who,
+.Q_button.Users_aspect_communities,
+.Q_button.Users_aspect_account {
+	background: #394ad5; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#394ad5', endColorstr='#2839c4'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#394ad5), to(#2839c4)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #394ad5,  #2839c4); /* for firefox 3.6+ */
+	color: white;
+}
+
+.Q_button.Users_aspect_people:active,
+.Q_button.Users_aspect_people:focus,
+.Q_button.Users_aspect_communities:active,
+.Q_button.Users_aspect_communities:focus
+.Q_button.Users_aspect_account:active,
+.Q_button.Users_aspect_account:focus {
+	background: #2839c4;
+	color: white;
+}
+
+.Q_button.Assets_aspect_business,
+.Q_button.Assets_aspect_deals {
+	background: #e3892f; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e3892f', endColorstr='#d2781e'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#e3892f), to(#d2781e)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #e3892f,  #d2781e); /* for firefox 3.6+ */
+	color: white;
+}
+
+.Q_button.Assets_aspect_business:active,
+.Q_button.Assets_aspect_business:focus,
+.Q_button.Assets_aspect_deals:active,
+.Q_button.Assets_aspect_deals:focus {
+	background: #d2781e;
+	color: white;
+}
+
+.Q_button.Assets_aspect_funds {
+	background: #742e7f; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='##742e7f', endColorstr='#4b1c52'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#742e7f), to(#631d6e)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #742e7f,  #631d6e); /* for firefox 3.6+ */
+	color: white;
+}
+
+.Q_button.Assets_aspect_funds:active,
+.Q_button.Assets_aspect_funds:focus {
+	background: #631d6e;
+	color: white;
+}
+
+.Q_button.Streams_aspect_promote {
+	background: #742e7f; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='##742e7f', endColorstr='#4b1c52'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#742e7f), to(#631d6e)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #742e7f,  #631d6e); /* for firefox 3.6+ */
+	color: white;
+}
+
+.Q_button.Streams_aspect_promote:active,
+.Q_button.Streams_aspect_promote:focus {
+	background: #631d6e;
+	color: white;
+}
+
+.Communities_tabs {
+	white-space: nowrap;
+	text-align: center;
+	z-index: 1;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.Communities_tab {
+	display: inline-block;
+	white-space: nowrap;
+	margin: 0 2px;
+	padding: 3px;
+	font-size: 14px;
+	border-bottom: solid 1px transparent;
+	cursor: pointer;
+	text-transform: capitalize;
+}
+.Communities_tabs[data-style="icons"] {
+	position: relative;
+	top: 1px;
+	z-index: 1;
+}
+.Q_mobile .Communities_tabs[data-style="icons"] .Communities_tab {
+	width: 43px;
+	height: 42px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-right: 5px;
+}
+.Communities_tabs[data-style="icons"] .Communities_tab:last-child {
+	margin-right: 0;
+}
+@media (min-width: 1000px) {
+	.Q_notMobile .Communities_tab {
+		padding: 10px;
+		font-size: 20px;
+		vertical-align: middle;
+	}	
+}
+.Q_notMobile .Communities_tab::before {
+	vertical-align: middle;
+}
+.Communities_tab i {
+	font-size: 20px;
+}
+.Communities_tab.Q_current,
+.Communities_tabs[data-style="icons"] .Communities_tab.Q_current {
+	background-color: var(--tabs-current-bg-color, white) !important;
+	color: var(--tabs-current-color, black) !important;
+	border: 1px solid #777;
+	border-bottom: solid 1px transparent;
+	box-shadow: 0px -3px 5px rgba(100, 100, 100, 0.25);
+}
+.Communities_tab.Q_current::before,
+.Communities_tabs[data-style="icons"] .Communities_tab.Q_current::before {
+	background-color: var(--tabs-current-bg-color, white) !important;
+	color: var(--tabs-current-color, black) !important;
+}
+
+.Streams_chat_messages .Streams_chat_from_me .Streams_chat_bubble {
+	border-radius: 6px;
+	background-color: var(--chat-from-me-bg-color);
+	color: var(--chat-from-me-text-color);
+	box-shadow: 0 5px 15px -5px var(--chat-from-me-bg-color);
+	border: none;
+}
+.Streams_chat_messages .Streams_chat_from_me  *,
+.Streams_chat_messages .Streams_chat_from_me  a, .Streams_chat_message a:visited,
+.Streams_chat_messages .Streams_chat_from_me  .Streams_chat_bubble .Users_avatar_name * {
+	color: var(--chat-from-me-text-color);
+}
+.Streams_chat_messages .Streams_chat_from_me input[type="text"] {
+	background-color: white;
+	color: black;
+	box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+}
+.Streams_chat_messages .Streams_chat_from_me button {
+	background-color: var(--chat-from-me-bg-color);
+	box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+}
+.Streams_chat_messages .Streams_chat_to_me .Streams_chat_bubble {
+	border-radius: 6px;
+	background-color: var(--chat-to-me-bg-color);
+	color: var(--chat-to-me-text-color);
+	box-shadow: 0 5px 15px -5px var(--chat-to-me-bg-color);
+	border: none;
+}
+.Streams_chat_messages .Streams_chat_to_me  *,
+.Streams_chat_messages .Streams_chat_to_me  a, .Streams_chat_message a:visited,
+.Streams_chat_messages .Streams_chat_to_me  .Streams_chat_bubble .Users_avatar_name * {
+	color: var(--chat-to-me-text-color);
+}
+.Streams_chat_messages .Streams_chat_timestamp {
+	color: unset;
+}
+.Communities_profile_main .Streams_chat_bubble h3 {
+	color: var(--chat-text-color);
+}
+.Streams_chat_item .Streams_chat_tick {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	background: none;
+}
+.Streams_chat_from_me .Streams_chat_tick {
+	border-width: 6.5px 0 6.5px 9px;
+	border-color: transparent transparent transparent var(--chat-from-me-bg-color);
+}
+.Streams_chat_to_me .Streams_chat_tick {
+	border-width: 6.5px 9px 6.5px 0;
+	border-color: transparent var(--chat-to-me-bg-color) transparent transparent;
+}
+
+.Communities_tabs[data-style="icons"] .Communities_tab::before {
+	font-size: 35px;
+}
+
+.Communities_tabs[data-style="icons"] .Communities_tab,
+.Communities_tabs[data-style="icons"] .Communities_tab::before {
+	background: var(--tabs-bg-color);
+	color: var(--tabs-color, var(--column-color, var(--html-color)));
+	fill: var(--tabs-color, var(--column-color, var(--html-color)));
+}
+
+.Communities_tabs[data-style="icons"] .Communities_tab[data-val=inbox],
+.Communities_tabs[data-style="icons"] .Communities_tab[data-val=inbox]::before,
+.Communities_tabs[data-style="icons"] .Communities_tab[data-val=schedule],
+.Communities_tabs[data-style="icons"] .Communities_tab[data-val=schedule]::before {
+	background: var(--tabs-frequent-bg-color);
+	color: var(--tabs-frequent-color, var(--column-color, var(--html-color)));
+	fill: var(--tabs-frequent-color, var(--column-color, var(--html-color)));
+}
+
+.Communities_tabs[data-style="icons"] .Communities_tab[data-val=inbox]::before {
+	content: "\e90b";
+}
+.Communities_tabs[data-style="icons"] .Communities_tab[data-val=schedule]::before {
+	content: "\e915";
+}
+.Communities_tabs[data-style="icons"] .Communities_tab[data-val=profile]::before {
+	content: "\e914";
+}
+.Communities_tabs[data-style="icons"] .Communities_tab[data-val=interests]::before {
+	content: "\e90d";
+}
+.Communities_tabs[data-style="icons"] .Communities_tab[data-val=location]::before {
+	content: "\e911";
+}
+.Communities_tabs[data-style="icons"] .Communities_tab[data-val=myqr]::before {
+	content: "\e919";
+}
+.Communities_tabs[data-style="icons"] .Communities_tab[data-val=credits]::before {
+	content: "\e906";
+}
+.Communities_tabs[data-style="icons"] .Communities_tab[data-val=people]::before {
+	content: "\e913";
+}
+.Communities_tabs[data-style="icons"] .Communities_tab[data-val=info]::before {
+	content: "\e90c";
+}
+.Communities_tabs[data-style="icons"] .Communities_tab[data-val=locations]::before {
+	content: "\e912";
+}
+.Communities_tabs[data-style="icons"] .Communities_tab[data-val=events]::before {
+	content: "\e908";
+}
+.Communities_tabs[data-style="icons"] .Communities_tab[data-val=importUsers]::before {
+	content: "\e950";
+	color: green;
+}
+.Communities_tabs[data-style="icons"] .Communities_tab[data-val=importEvents]::before {
+	content: "\e950";
+}
+.Communities_tabs[data-style="icons"] .Communities_tab[data-val=labels]::before {
+	content: "\e958";
+}
+.Communities_tabContent {
+	display: none;
+	margin-top: -1px;
+	border-top: 1px solid #777;
+	background: white;
+}
+.Communities_tabContent.Q_current {
+	display: block;
+}
+
+.Communities_account {
+	padding: 10px;
+	background: #555;
+	color: white;
+}
+
+.Communities_admin, .Communities_announcements {
+	margin-top: 20px;
+}
+
+.Communities_account_identifier:hover div {
+	text-decoration: underline;
+}
+
+#Communities_account_logout {
+	margin: 20px 0 10px 0;
+	float: right;
+	width: 30%;
+}
+
+#Communities_logout {
+	line-height: 20px;
+	text-align: center;
+	width: 100%;
+}
+
+#Communities_account_identifiers {
+	width: 70%;
+}
+
+.Communities_account_identifier {
+	cursor: pointer;
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.Communities_account_identifier img {
+	width: 10%;
+}
+
+.Communities_account_identifier>* {
+	width: 85%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.Communities_account .Users_avatar_name { width: 70%; }
+
+.Communities_explanation { padding: 20px; }
+
+
+.Communities_occupants_occupant * {
+	vertical-align: middle;
+}
+.Communities_occupants_occupant .Users_avatar_tool {
+	width: 50%;
+}
+
+.Communities_continue_button {
+	padding: 10px 50px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+.Communities_fade_bottom {
+	pointer-events: none;
+	position: relative;
+	margin-top: -50px;
+	height: 50px;
+	width: 100%;
+	background: linear-gradient(to bottom, rgba(255,255,255,0), var(--html-bg-color));
+}
+.Communities_fade_top {
+	pointer-events: none;
+	position: relative;
+	height: 50px;
+	margin-bottom: -50px;
+	width: 100%;
+	z-index: 1000;
+	background: url(../../Q/img/bg/overlay-dark-fade-top.png);
+}
+.Communities_location_reassure,
+.Communities_location_reassure a,
+.Communities_location_reassure a:visited {
+	color: #999;
+}
+
+.Communities_location_reassure a {
+	text-decoration: underline;
+}
+
+.Communities_button_new {
+	background: #449944; /* for non-css3 browsers */
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#449944', endColorstr='#338833'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#449944), to(#338833)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #449944, #338833); /* for firefox 3.6+ */
+}
+
+.Communities_trips_controls .Communities_info_content,
+.Communities_Communities_tool .Travel_aspect_trips .Communities_info_content {
+	width: 100%;
+}
+
+.Communities_info_content {
+	display: inline-block;
+	vertical-align: middle;
+	width: 90%;
+	overflow: auto;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.Communities_buttons {
+	text-align: center;
+	margin: 0 0 16px 0;
+	width: 100%;
+}
+
+.Communities_no_items {
+	padding: 100px 0;
+	font-style: italic;
+	font-size: 14px;
+	color: #777;
+	text-align: center;
+}
+
+.Communities_no_items>div {
+	padding: 5px 0px;
+}
+
+html.Communities .Q_controls_slot img {
+	width: 32px; height: 32px; vertical-align: middle;
+}
+
+html.Communities .Q_controls_slot .Streams_participants_tool {
+	height: 50px;
+}
+
+html .Q_controls_trigger {
+	display: inline-block;
+	padding: 0 5px;
+	line-height: normal;
+	vertical-align: middle;
+	border: 1px solid transparent;
+	min-width: 40%;
+	max-width: 48%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+html.Communities.Q_notTouchscreen .Q_controls_trigger:hover {
+	background: rgba(200, 200, 200, 0.2);
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+
+html.Communities .Q_clickable_container.Q_pressed .Q_controls_trigger {
+	background: #ccc;
+	background: rgba(200, 200, 200, 0.8);
+	border-radius: 5px;
+	border: 1px solid #aaa;
+}
+
+html.Communities_events #content_slot {
+	padding: 0;
+}
+
+.Communities_services_column .Calendars_availability_preview_tool[data-match=false],
+.Communities_events_column .Calendars_event_preview_tool[data-match=false],
+.Communities_conversations_column .Streams_preview_tool[data-match=false],
+.Communities_filter_location .Places_location_preview_tool[data-match=false] {
+	max-height: 0;
+	min-height: 0;
+	margin: 0;
+	opacity: 0;
+	transition: all 0.5s;
+}
+.Communities_services_column .Calendars_availability_preview_tool[data-match=true],
+.Communities_events_column .Calendars_event_preview_tool[data-match=true],
+.Communities_conversations_column .Streams_preview_tool[data-match=true],
+.Communities_filter_location .Places_location_preview_tool[data-match=true] {
+	max-height: 500px;
+	transition: all 0.5s;
+}
+
+.Communities_scrolledToBottom .Communities_fade_bottom {
+	display: none;
+}
+
+.Communities.Q_notMobile .Q_columns_column {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+.Q_columns_column:not(.Q_columns_hideTitle) .Q_columns_title,
+.Q_columns_column:not(.Q_columns_hideTitle) .Q_columns_title .Q_title_slot {
+	font-weight: 400;
+	overflow: hidden;
+}
+.Q_columns_title .Q_close {
+	color: var(--column-title-color);
+}
+html .Q_columns_column.Communities_column_facebook .Q_columns_title {
+	position: relative;
+}
+html .Q_columns_column.Communities_column_facebook .Q_placeholders_container input {
+	min-height: 40px;
+}
+html .Q_columns_column.Communities_column_facebook .Q_columns_title .Q_title_slot {
+	position: relative;
+	top: 0;
+}
+html .Q_columns_column.Communities_column_facebook .Q_columns_title .Q_title_slot,
+html .Q_columns_column.Communities_column_facebook .Q_columns_title .Communities_chooser,
+html .Q_columns_column.Communities_column_facebook .Q_icons_slot {
+	transition: top 200ms ease 0s, bottom 200ms ease 0s;
+}
+html .Q_columns_column.Communities_column_facebook .Q_columns_title .Communities_chooser {
+	position: absolute !important;
+	top: 100%;
+	margin-bottom: 0;
+	height: 40px;
+}
+.Q_tool.Streams_userChooser_tool .qp-communities-close,
+.Q_columns_title .Communities_eventChooser .qp-communities-close,
+.Q_columns_title .Communities_chooser .qp-communities-close {
+	position: absolute;
+	right: 5px;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-top: -2px;
+	cursor: pointer;
+}
+html .Q_columns_column.Communities_column_facebook input[name=query].Streams_userChooser_input {
+	margin-bottom: 0;
+}
+
+.Q_columns_column .Q_columns_title i {
+	cursor: pointer;
+	font-size: 27px;
+	font-weight: bold;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: var(--communities-button-bg-color);
+	color: var(--communities-button-color);
+	filter: grayscale(1);
+}
+.Q_columns_column .Q_columns_title i:not(:last-of-type) {
+	margin-right: 5px;
+}
+html .Q_columns_column.Communities_column_facebook .Q_icons_slot {
+	position: absolute;
+	right: 0;
+	top: 0;
+	white-space: nowrap;
+	display: inline-block;
+	width: auto;
+}
+.Q_columns_column .Q_columns_title i.qp-communities-search {
+	font-size: 22px;
+}
+.Q_columns_column .Q_columns_title i.qp-communities-plus {
+	font-size: 25px;
+	line-height: 40px;
+	font-weight: bold;
+	background: var(--communities-button-plus-bg-color);
+	color: var(--communities-button-plus-color);
+	filter: grayscale(0.3);
+}
+.Communities .Q_columns_title .Q_title_slot::before {
+	font-size: 40px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+html .Communities_column_facebook .Q_columns_title .Q_title_slot::before {
+	display: none;
+}
+html .Q_column_0 .Q_columns_title {
+	display: none;
+}
+html .Communities_column_facebook.Q_column_0 .Q_columns_title {
+	display: block;
+}
+.Communities.Q_notMobile .Q_columns_title {
+	background: none;
+}
+
+html.Communities_notFound #content,
+html.Communities_errors #content { padding: 30px; text-align: center; overflow: hidden; text-overflow: ellipsis; }
+html.Communities_notFound .url,
+html.Communities_errors .url { font-weight: bold; text-decoration: underline; }
+
+.Q_column_event .Q_column_slot,
+.Q_column_chat .Q_column_slot{
+	padding: 0;
+}
+
+.Q_column_slot .Media_episode_tool {
+	height: 100%;
+}
+
+.Communities_filter *,
+.Communities_manage_contacts img,
+.Communities_manage_labels img,
+.Communities .Q_controls_slot img { width: 32px; height: 32px; vertical-align: middle;}
+
+.Communities_filter {
+	background: #e3e3e3;
+	border-bottom: 1px solid #ccc;
+	padding: 2px 10px;
+	display: block;
+	margin: auto;
+	font-weight: bold;
+	cursor: pointer;
+}
+.Communities_filter_location .Communities_locations_filter,
+.Communities_filter_location .Communities_filter_location_all,
+.Streams_dialog_authors .Communities_filter_publishers {
+	margin-bottom: 5px;
+}
+input.Streams_interests_filter_input,
+input.Communities_locations_filter_input,
+input.Communities_filter_publishers_input {
+	width: 100%;
+	font-size: 16px;
+	padding: 5px 15% 5px 5%;
+	border-radius: 16px; -moz-border-radius: 16px; -webkit-border-radius: 16px;
+	background: transparent;
+	color: white;
+	border: 1px solid white;
+	background-color: rgba(0, 0, 0, 0.3);
+	background-image: url(../img/white/filter.png);
+	background-repeat: no-repeat;
+	background-position: 97% center;
+}
+input.Streams_interests_filter_input::placeholder,
+input.Communities_locations_filter_input::placeholder,
+input.Communities_filter_publishers_input::placeholder {
+	color: white;
+}
+.Places_location_tool div[data-location=current],
+.Places_location_preview_tool,
+.Communities_filter_location_all,
+.Communities_filter_publishers_all,
+.Places_location_tool .Places_location_preview_tool,
+.Places_location_tool div[data-location=address],
+.Places_location_tool div[data-location=current],
+.Places_location_tool .Places_areas_tool {
+	border-radius: 10px;
+	max-width: none;
+	width: 100%;
+	padding: 5px;
+	border: 1px solid transparent;
+	cursor: pointer;
+}
+.Places_location_tool .Places_location_preview_tool:hover {
+	background-color: #f2f3ff;
+}
+.Places_location_preview_tool .Places_location_preview_contents {
+	width: calc(100% - 45px);
+	max-width: none;
+}
+.Q_tool.Places_location_tool div[data-location=current],
+.Q_tool.Places_location_tool div[data-location=address] {
+	background-image: url(../../../plugins/Places/img/icons/location/40.png);
+}
+.Q_tool.Places_location_tool div[data-location=address] > * {
+	line-height: normal;
+}
+.Q_tool.Places_location_tool .Q_tool.Places_areas_tool {
+	background-image: url(../../../plugins/Places/img/icons/area/40.png);
+}
+.Q_tool.Places_location_tool div[data-location=current],
+.Q_tool.Places_location_tool div[data-location=address],
+.Q_tool.Places_location_tool .Q_tool.Places_areas_tool {
+	background-repeat: no-repeat;
+	background-position-y: center;
+	background-position-x: 5px;
+	padding-left: 48px;
+	min-height: 40px;
+}
+.Places_location_tool div[data-location=address] label {
+	display: none;
+}
+html.Communities_dialog #page,
+html.Communities_dialog #dashboard_slot {
+	filter:blur(5px);
+	-o-filter:blur(5px);
+	-ms-filter:blur(5px);
+	-moz-filter:blur(5px);
+	-webkit-filter:blur(5px);
+	/*	transition: filter 0.1s;
+		-webkit-transition: -webkit-filter 0.1s;*/
+}
+
+html.Q_notMobile.Q_layout_widebar #dashboard_slot {
+	height: var(--dashboard-height);
+}
+
+.Q_mobile #dashboard[data-style="icons"] .Users_status_tool .Users_avatar_name {
+	display: none;
+}
+
+.Communities_people_content input,
+.Communities_people_content input:focus {
+	background: transparent;
+	border: 0;
+	border-bottom: solid 1px #394ad5;
+	color: black;
+	font-size: 16px;
+}
+
+.Communities_people .Streams_userChooser_tool { margin-bottom: 10px; }
+
+html.Communities *:focus {
+	outline: 0;
+}
+
+.Communities_blur { opacity: 0.7; -webkit-filter: blur(3px); -moz-filter: blur(3px); -o-filter: blur(3px); -ms-filter: blur(3px); filter: blur(3px); }
+
+.Communities img, .Communities_label img {
+	vertical-align: middle;
+}
+
+.Communities_people_content .Users_avatar_tool,
+.Users_list_tool .Users_avatar_tool {
+	cursor: pointer;
+	width: auto;
+}
+
+.Q_column_profile .Q_column_slot {
+	padding-top: 0;
+}
+
+/*************** Communities conversation preview tool ******************/
+.Communities_conversation_preview_tool {
+	padding: 0 10px;
+}
+.Communities_conversation_preview_tool .Streams_participants_tool .Users_avatar_tool {
+	width: 44px;
+}
+
+.Communities_conversation_preview_tool .Streams_participants_tool {
+	white-space: normal;
+	height: 50px;
+}
+
+.Communities_conversation_preview_tool .Streams_participants_tool .Users_avatar_tool {
+	min-height: 50px;
+}
+
+.Communities_conversation_preview_tool .Streams_participants_tool .Users_avatar_tool img {
+	width: 33px;
+	height: 33px;
+}
+
+.Communities_conversation_preview_tool {
+	overflow: hidden;
+	margin: 10px 0 10px 0;
+	cursor: pointer;
+}
+.Communities_conversation_preview_tool,
+.Communities_conversation_preview_background {
+	border-radius: 5px;
+}
+.Communities_conversation_preview_tool:hover .Communities_conversation_preview_background {
+	box-shadow: #222 0 3px 5px;
+}
+.Communities_conversation_preview_background {
+	position: relative; max-height: 140px; overflow: hidden;
+	left: 2%;
+	width: 96%;
+	box-shadow: #222 0 2px 1px;
+}
+.Communities_conversation_title {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 20px;
+	padding: 5px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.Communities_conversation_background {
+	width: 100%;
+}
+.Communities_conversation_preview_foreground {
+	position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+	background-size: 100% 140px;
+	font-size: 20px; color: white; text-shadow: black 1px 1px;
+	font-weight: bold;
+}
+.Communities_conversation_preview_info {
+	font-size: 12px; font-weight: normal;
+}
+.Communities_conversation_preview_time {
+	float: right;
+}
+.Communities_conversation_preview_tool .Streams_participants_tool {
+	margin-top: -20px;
+	-webkit-transform: translateZ(0);
+	z-index: 99;
+}
+
+.Communities_conversation_preview_tool .Streams_participants_tool .Streams_participants_summary {
+	margin-top: 15px;
+	padding: 0 2px 0 2px;
+	bottom: 0;
+}
+.Communities_conversation_container,
+.Communities_column_chat .Q_column_slot,
+.Q_column_newConversation .Q_column_slot {
+	padding: 2%;
+}
+.Communities_column_chat .Q_column_slot {
+	height: 60px;
+}
+.Communities_chat_preview_tool {
+	position: relative;
+	cursor: pointer;
+}
+.Communities_chat_preview_tool .Streams_preview_nonzero {
+	display: block;
+}
+.Communities_chat_preview_tool .Streams_preview_info_unseen,
+.Communities_info_unseen {
+	display: none;
+	position: absolute;
+	background: #cc5555;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	height: 30px;
+	min-width: 30px;
+	line-height: 30px;
+	vertical-align: middle;
+	right: 5px;
+	top: 50%;
+	margin-top: -15px;
+	border-radius: 50%;
+}
+
+.Communities_promote_dialog .Q_dialog_slot {
+	padding: 20px;
+}
+.Communities_promote_dialog .Q_dialog_content {
+	overflow-x: hidden;
+}
+
+.Communities_promote_button {
+	margin: 5px 0;
+	padding: 5px;
+	background: rgba(200, 200, 200, 0.5);
+	border-radius: 5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#Communities_profile_chat {
+	padding: 5px;
+}
+.Q_tool.Streams_chat_preview_tool.Streams_closed {
+	display: none;
+}
+.Q_scanning_avatar {
+	display: block;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	opacity: 1 !important;
+	background-color: rgba(255,255,255,0.7);
+	-webkit-box-shadow: 0 0 50px 10px rgba(255,255,255,0.7);
+	-moz-box-shadow: 0 0 50px 10px rgba(255,255,255,0.7);
+	box-shadow: 0 0 50px 10px rgba(255,255,255,0.7);
+}
+.Communities_services_amount,
+.Communities_chats_amount,
+.Communities_events_amount {
+	color: black;
+	font-size: 12px;
+	cursor: pointer;
+	background-color: #fdfdbf;
+	padding: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.Communities_services_amount span,
+.Communities_chats_amount span,
+.Communities_events_amount span {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	vertical-align: middle;
+	text-align: center;
+	border-radius: 20px;
+	border: 1px solid grey;
+	background-color: yellow;
+	color: #000;
+}
+
+.Streams_interests_tool .white[class*=qp-communities-]::before {
+	color: #fff;
+}
+.Streams_interests_tool [class*=qp-communities-]::before {
+	font-size: 25px;
+	margin: 0 5px;
+	vertical-align: text-top;
+}
+
+[class*=Communities_filter] i[class*=qp-communities] {
+	font-size: 33px;
+}
+
+.Communities_filter_location .Q_dialog_content {
+	padding: 5px;
+	min-width: 250px;
+}
+/* big round preloader */
+.Communities_filter_location .Q_dialog_content .Streams_related_tool:empty,
+.Communities_loading {
+	background: url("data:image/gif;base64,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") no-repeat center center;
+	height: 100px;
+}
+.Communities_filter_location .Q_dialog_content .Streams_preview_tool {
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+.Communities_filter_location .Q_dialog_content .Streams_preview_tool:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.Streams_chat_preview_tool {
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+.Q_column_conversation .Q_controls_slot {
+	background: #f8f8f8;
+	border-top: solid 1px #cccccc;
+	box-shadow: -2px -2px 10px rgba(0, 0, 0, 0.1);
+	height: 70px;
+}
+
+.Q_column_conversation .Streams_participants_summary {
+	border-radius: 5px;
+	margin-top: 15px;
+}
+
+.Q_hint {
+	transform: scale(2);
+}
+
+
+.Communities_label {
+	white-space: nowrap;
+    display: inline-block;
+    background-color: #eeeeee;
+    padding-right: 5px;
+    border-radius: 5px;
+    border: solid 1px #aaaaaa;
+    box-shadow: 0 0 5px rgb(0 0 0 / 20%);
+	cursor: pointer;
+}
+
+#page .Communities_top_controls {
+	text-align: center;
+	position: relative;
+	margin: 5px;
+}
+#page .Communities_top_controls button {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 38px;
+	line-height: 38px;
+}
+
+body.Q_columns_containsExpanded {
+	overflow: hidden;
+}
+
+.Q_columns_column:not(.Q_columns_hideTitle) .Q_columns_title,
+.Q_columns_column:not(.Q_columns_hideTitle) .Q_columns_title > * {
+	background-color: var(--column-title-bg-color);
+	color: var(--column-title-color);
+}
+
+.Q_columns_title {
+	min-height: 50px;
+	max-height: none;
+	height: auto;
+}
+html .Communities_column_facebook .Q_columns_title {
+	min-height: 40px;
+}
+html .Communities_column_facebook .Q_columns_title .Q_title_slot {
+	font-weight: bold;
+	font-size: 30px;
+}
+.Communities .Q_columns_title {
+	max-height: 200px;
+}
+
+.Q_columns_title_container {
+	background-color: var(--column-title-bg-color);
+}
+.Q_columns_title_container .Streams_preview .Streams_preview_title,
+.Q_columns_title_container .Streams_preview .Q_inplace_tool_static{
+	white-space: normal;
+	height: auto;
+	max-height: 75px;
+}
+
+.Communities .Q_column_websites_webpage .Q_columns_title {
+	background: #eeeeff;
+}
+
+html .Users_avatar_tool img {
+	border-radius: 50%;
+}
+
+#dashboard_slot {
+	touch-action: manipulation;
+	user-select: none;
+}
+
+html.Q_notMobile #dashboard_slot .Users_avatar_tool img {
+	border-radius: 50%;
+	margin-right: 5px;
+}
+
+.Q_mobile.Q_input_focused #dashboard_slot { display: none; }
+.Q_mobile.Q_input_focused #page {top: 0; }
+
+.Q_columns_title .Q_close {
+	text-align: center;
+}
+.Q_columns_title .Q_close:before {
+	content: "\e91c";
+	color: var(--column-title-color);
+	vertical-align: middle;
+	font-size: 40px;
+}
+.Q_columns_title .Q_close img {
+	display: none;
+}
+
+.Users_avatar_tool {
+	cursor: pointer;
+}
+.Streams_participants_container .Users_avatar_tool,
+.Communities_people_content .Users_avatar_tool,
+.Users_list_tool .Users_avatar_tool {
+	max-width: 100px;
+}
+.Q_tool.Streams_preview_tool.Communities_stream_visited,
+.Q_tool.Travel_trip_preview_tool.Communities_stream_visited {
+	
+}
+.Q_columns_title_container .Q_tool.Communities_stream_visited {
+	
+}
+
+#dashboard .Q_tabs_tab *,
+.Q_listing_wrapper .Q_tabs_tab * {
+	color: var(--dashboard-main-color);
+}
+
+.Q_mobnile #dashboard .Q_tabs_tab *,
+.Q_listing_wrapper .Q_tabs_tab * {
+	color: var(--dashboard-mobile-color);
+}
+
+.Communities_icon::before,
+.Communities .Q_columns_title .Q_title_slot::before,
+.Q_listing_wrapper .Q_tabs_tab::before,
+.Communities_tabs[data-style="icons"] .Communities_tab::before {
+	font-family: 'qplatform-communities';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 32px;
+}
+
+.Communities_icon::before {
+	margin-top: 5px;
+}
+
+.Q_notMobile .Communities_icon::before,
+.Q_notMobile .Communities_tabs[data-style="icons"] .Communities_tab::before {
+	font-size: 25px;
+}
+
+.Q_notMobile .Q_columns_stretchFirstColumn .Q_columns_column[data-width-range='1'] .Communities_column_flex .Streams_preview_tool,
+.Q_notMobile .Q_columns_stretchFirstColumn .Q_columns_column[data-width-range='1'] .Communities_column_flex .Travel_trip_preview_tool {
+	width: 100%;
+	flex: 100%;
+}
+.Q_notMobile .Q_columns_stretchFirstColumn .Q_columns_column[data-width-range='2'] .Communities_column_flex .Streams_preview_tool,
+.Q_notMobile .Q_columns_stretchFirstColumn .Q_columns_column[data-width-range='2'] .Communities_column_flex .Travel_trip_preview_tool {
+	width: 45%;
+	flex: 40%;
+}
+.Q_notMobile .Q_columns_stretchFirstColumn .Q_columns_column[data-width-range='2'] .Communities_column_flex .Streams_chat_preview_tool {
+	min-width: 300px;
+	display: flex;
+}
+.Q_notMobile .Q_columns_stretchFirstColumn .Q_columns_column[data-width-range='3'] .Communities_column_flex .Streams_preview_tool,
+.Q_notMobile .Q_columns_stretchFirstColumn .Q_columns_column[data-width-range='3'] .Communities_column_flex .Travel_trip_preview_tool {
+	min-width: 200px;
+	width: 30%;
+	flex: 30%;
+}
+html.Q_notMobile .Streams_chat_preview_tool,
+html.Q_notMobile .Websites_webpage_preview_tool {
+	display: flex !important;
+}
+.Q_notMobile .Q_columns_stretchFirstColumn .Streams_preview_container {
+	flex-grow: 1;
+}
+.Q_notMobile .Q_columns_stretchFirstColumn .Q_columns_column[data-width-range='3'] .Communities_column_flex .Streams_preview_tool.Calendars_event_preview_template_square {
+	width: 45%;
+}
+
+.Q_notMobile .Q_columns_stretchFirstColumn .Q_columns_column[data-width-range='4'] .Communities_column_flex .Streams_preview_tool,
+.Q_notMobile .Q_columns_stretchFirstColumn .Q_columns_column[data-width-range='4'] .Communities_column_flex .Travel_trip_preview_tool {
+	width: 30%;
+}
+.Q_notMobile .Q_columns_stretchFirstColumn .Q_columns_column[data-width-range='4'] .Communities_column_flex .Streams_preview_tool.Calendars_event_preview_template_square {
+	width: 33%;
+}
+
+.Q_notMobile .Q_columns_stretchFirstColumn .Q_columns_column[data-width-range='5'] .Communities_column_flex .Streams_preview_tool,
+.Q_notMobile .Q_columns_stretchFirstColumn .Q_columns_column[data-width-range='5'] .Communities_column_flex .Travel_trip_preview_tool {
+	width: 25%;
+}
+.Q_notMobile .Q_columns_stretchFirstColumn .Q_columns_column[data-width-range='5'] .Communities_column_flex .Streams_preview_tool.Calendars_event_preview_template_square {
+	width: 38%;
+}
+
+.Q_notMobile .Q_columns_stretchFirstColumn .Q_columns_column[data-width-range='6'] .Communities_column_flex .Streams_preview_tool,
+.Q_notMobile .Q_columns_stretchFirstColumn .Q_columns_column[data-width-range='6'] .Communities_column_flex .Travel_trip_preview_tool {
+	width: 20%;
+}
+.Q_notMobile .Q_columns_stretchFirstColumn .Q_columns_column[data-width-range='6'] .Communities_column_flex .Streams_preview_tool.Calendars_event_preview_template_square {
+	width: 32%;
+}
+
+.Q_columns_stretchFirstColumn div.Communities_column_flex {
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+	column-gap: 10px;
+	padding: 0 5px;
+}
+.Q_notMobile .Q_columns_stretchFirstColumn div.Communities_column_flex {
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: stretch;
+}
+
+html .Q_contextual li.Communities_notClickable {
+	background: #969a9c;
+	color: #fff;
+	font-weight: bold;
+	pointer-events: none;
+}
+
+.Communities_filter_location_all {
+	font-size: 100%;
+	font-weight: bold;
+	color: white;
+	padding: 10px;
+}
+.Q_contextual .Q_contextual_top_arrow {
+	border-color: transparent transparent var(--dashboard-contextual-border) transparent;
+}
+.Q_contextual {
+	background-color: var(--dashboard-contextual-border);
+}
+.Q_contextual .Q_contextual_bottom_arrow {
+	border-top: 15px solid var(--dashboard-contextual-border);
+}
+.Q_contextual .Q_contextual_top_arrow {
+	border-bottom: 15px solid var(--dashboard-contextual-border);
+}
+.Q_contextual .Q_listing {
+	background: var(--dashboard-contextual-bg-color);
+}
+.Streams_preview_create {
+	white-space: nowrap;
+}
+
+#Users_avatar-Communities_me_tool {
+	overflow: visible;
+}
+
+#Users_avatar-Communities_me_tool .Streams_firstName input,
+#Users_avatar-Communities_me_tool .Streams_lastName input {
+	text-transform: capitalize;
+}
+
+.Communities_terms #content_slot,
+.Communities_privacy #content_slot {
+	overflow: auto;
+}
+
+.Communities_terms #content,
+.Communities_privacy #content {
+	padding: 20px;
+}
+.Q_columns_column .Q_column_slot {
+	padding: 0;
+}
+.Communities_onboarding_greeting {
+	padding: 40px;
+}
+
+.Communities_onboarding_profile_required {
+	opacity: 0;
+}
+.Communities_onboarding_profile_greetingIsRequired .Communities_onboarding_profile_required {
+	transition: all 0.3s;
+	opacity: 1;
+}
+
+html.Q_mobile #content_slot,
+html.Q_mobile #content {
+	height: 100%;
+}
+
+html.Q_columns_containsExpanded .Communities_credits_main_badge .Q_badge,
+html.Communities_dialog .Communities_credits_main_badge .Q_badge {
+	display: none;
+}
+
+
+.Communities_column_community .Communities_roles_tool {
+	float: right;
+	margin-right: 10px;
+}
+
+.Communities_column_community #Users_list-communityProfile_tool {
+	gap: 0;
+}
+
+.Q_mobile .Communities_buttons .Q_button {
+	width: 100%;
+}
+.Q_notMobile .Communities_buttons .Q_button {
+	min-width: 300px;
+}
+
+.Communities_presentation_current {
+	outline: dashed 3px green;
+}
+
+.Communities_conversations_column,
+.Communities_events_column {
+	padding-top: 10px;
+}
+
+.Q_notMobile .Q_columns_column.Q_column_streams_chat,
+.Q_notMobile .Q_columns_column.Communities_column_event,
+.Q_notMobile .Q_columns_column.Communities_column_chat {
+	width: 400px;
+}
+
+.Q_notMobile .Q_columns_column {
+	width: auto;
+	flex-grow:1;
+}
+
+.Q_notMobile .Q_columns_column.Q_columns_overlapped {
+	width: 25%;
+}
+
+.Q_actions_action.Q_actions_subscribe {
+	background: none;
+}
+.Q_actions_action.Q_actions_subscribe:before {
+	position: absolute;
+	left: 0;
+	display: block;
+	font-family: 'qplatform-communities' !important;
+	line-height: 34px;
+	font-size: 27px;
+	content: "\e947";
+}
+
+
+.Q_hideUntilLoaded body { opacity: 1; animation: 300ms linear forwards Q_showAfterLoaded; }
+@keyframes Q_showAfterLoaded {
+	0% {
+		opacity: 0;
+	} 100% {
+		opacity: 1;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--dialog-bg-color: #555;
+		--dialog-color: #fff;
+	}
+}

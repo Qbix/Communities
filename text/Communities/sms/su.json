@@ -1,0 +1,20 @@
+{
+    "activation": {
+        "Thanks": "Wilujeng sumping di {{1}}.",
+        "ClickHere": "Klik di dieu pikeun ngaktipkeun akun anjeun: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Pencét di dieu pikeun pariksa nomer sélulér anjeun: {{1}}"
+    },
+    "SeeHistory": "Tempo sajarah pamayaran pikeun {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} geus ditagih {{2}} pikeun {{3}} ku {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hei {{1}}, ieu ngan ukur konfirmasi gancang yén anjeun parantos suksés mayar {{2}} ka {{3}} kanggo {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Anjeun parantos ngalanggan {{2}} sareng {{3}} dina {{4}} salami {{5}} sasih.",
+        "HasStarted": "{{1}} geus ngalanggan {{2}} kalawan {{3}} di {{4}} salila {{5}} bulan."
+    }
+}

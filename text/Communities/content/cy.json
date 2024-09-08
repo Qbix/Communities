@@ -1,0 +1,459 @@
+{
+    "notFound": {
+        "Explanation": "Nid yw <span class='url'>{{1}}<\/span> yn pwyntio at unrhyw beth!",
+        "NextSteps": "Defnyddiwch y brif ddewislen i ddod o hyd i&#39;r hyn rydych chi&#39;n chwilio amdano."
+    },
+    "dashboard": {
+        "Menu": "Bwydlen",
+        "Home": "Cartref",
+        "Welcome": "Croeso",
+        "Events": "Digwyddiadau",
+        "Discuss": "Trafod",
+        "People": "Pobl",
+        "About": "Ynghylch",
+        "Community": "Cymuned",
+        "LogIn": "Mewngofnodi",
+        "LogOut": "allgofnodi",
+        "Intercoin": "Intercoin",
+        "Shows": "Dangos",
+        "Calendar": "Calendr",
+        "Me": "Fi",
+        "Media": "Cyfryngau",
+        "Services": "Gwasanaethau",
+        "SetMobileNumber": "Gosod Rhif Symudol",
+        "SetEmailAddress": "Gosod Cyfeiriad E-bost"
+    },
+    "greeting": {
+        "Welcome": "Croeso i {{1}}. Yma fe welwch bethau sy&#39;n cael eu postio ar gyfer aelodau o&#39;n cymuned. Ychwanegwch eich cyfeiriad e-bost neu rif ffôn symudol er mwyn derbyn hysbysiadau pan fydd cyhoeddiadau&#39;n cael eu postio."
+    },
+    "conversations": {
+        "Title": "Sgyrsiau",
+        "New": "Sgwrs Newydd",
+        "Conversation": "Sgwrs",
+        "Topics": "Pynciau",
+        "NoneYet": "Dim sgyrsiau wedi&#39;u ffurfio eto",
+        "newConversations": "{{1}} sgwrs newydd",
+        "AllAuthors": "Pob Awdwr",
+        "FilterbyAuthors": "Hidlo yn ôl Awduron",
+        "FilterAuthorPlaceHolder": "Chwilio am awduron ychwanegol...",
+        "filterConversations": "Hidlo yn ôl testun",
+        "Description": "{{1}} sgwrs"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Dewiswch bwnc",
+            "Share": "Rhannu",
+            "interest": {
+                "Title": "Dewiswch Weithgaredd",
+                "Filter": "Chwilio diddordebau..."
+            }
+        },
+        "Title": "Sgwrs Newydd",
+        "TitlePlaceholder": "Testun eich sgwrs",
+        "ContentPlaceholder": "Ysgrifennwch ychydig eiriau i gychwyn y sgwrs, fel y gall eraill ateb",
+        "StartButton": "Dechrau Sgwrs"
+    },
+    "events": {
+        "Title": "Digwyddiadau",
+        "filterByTitle": "Dod o hyd i ddigwyddiadau yn ôl teitl",
+        "New": "+ Dechrau Digwyddiad Newydd",
+        "filterEvents": "Hidlo digwyddiadau",
+        "NewEvent": "Digwyddiad Newydd",
+        "SetLocation": "Gosod Fy Lleoliad",
+        "NoneYet": "Dim digwyddiadau wedi&#39;u ffurfio eto<br> yn ystod yr amseroedd hyn.",
+        "AllAuthors": "Pob Awdwr",
+        "AllDays": "Pob Dydd",
+        "AllLocations": "Pob Lleoliad",
+        "MakeReservation": "Archebwch",
+        "CancelReservation": "Canslo Archebu",
+        "UpdateReservation": "Diweddaru Archebu",
+        "AreYouSure": "Wyt ti&#39;n siwr?",
+        "YouWillRefunded": "Byddwch yn cael eich ad-dalu ar ffurf credydau y gallwch eu gwario ar bethau eraill yn yr ap.",
+        "AllInterests": "Pob Diddordeb",
+        "FilterbyInterest": "Hidlo yn ôl Llog",
+        "FilterByDate": "Hidlo Erbyn Dyddiad",
+        "ShowActivities": "Dangos gweithgareddau sy&#39;n ymwneud â . . .",
+        "newEvents": "Mae gennych {{1}} o ddigwyddiadau newydd",
+        "SelectLocation": "Dewiswch Lleoliad",
+        "FilterLocationsPlaceHolder": "Hidlo lleoliadau gyda ...",
+        "Description": "{{1}} digwyddiad",
+        "Keywords": "{{1}} digwyddiad"
+    },
+    "schedule": {
+        "Title": "Atodlen",
+        "NoneYet": "Nid ydych yn cymryd rhan mewn unrhyw ddigwyddiadau",
+        "AddSome": "Ychwanegwch rai at eich amserlen!",
+        "AddMore": "Ychwanegwch ddigwyddiadau at eich amserlen!",
+        "future": "dyfodol",
+        "past": "gorffennol"
+    },
+    "location": {
+        "Title": "Lleoliad",
+        "NewLocation": "Lleoliad Newydd"
+    },
+    "inbox": {
+        "Title": "Mewnflwch",
+        "NoneYet": "Nid ydych yn cymryd rhan mewn unrhyw sgyrsiau",
+        "FindPeople": "Dod o hyd i bobl i siarad â nhw",
+        "GroupConversations": "Ymunwch â rhai sgyrsiau grŵp",
+        "ContactStaff": "Staff Cyswllt",
+        "ContactCustomers": "Cysylltwch â Chwsmeriaid",
+        "AddNewContact": "Ychwanegu Cyswllt Newydd",
+        "AddNewContacts": "Ychwanegu Cysylltiadau Newydd"
+    },
+    "me": {
+        "Title": "Fi",
+        "MobileNumber": "Rhif ffôn Symudol",
+        "EmailAddress": "Cyfeiriad ebost",
+        "UpdateSocialTitle": "Diweddaru {{1}} enw defnyddiwr",
+        "Web3": "Gwe3"
+    },
+    "people": {
+        "Title": "Pobl",
+        "Description": "Pobl yn {{1}} gymuned",
+        "AppAlert": "Bydd app hwn yn y siop app yn gadael i chi gysylltu â&#39;ch ffrindiau, a llawer mwy.",
+        "Invite": "Gwahodd Cyfeillion",
+        "BuyCredits": "Prynu Credydau",
+        "FindSomeoneByName": "Dod o hyd i rywun yn ôl enw",
+        "SearchByName": "Chwilio yn ôl enw",
+        "FindAllMyFriends": "Dod o Hyd i Fy Ffrindiau i gyd",
+        "labels": {
+            "All": "Pawb",
+            "Title": "Hidlo yn ôl Perthynas",
+            "New": "Math o Berthynas Newydd"
+        },
+        "interests": {
+            "All": "Pob Diddordeb",
+            "Title": "Hidlo yn ôl Llog",
+            "Filter": "Dangos pobl sydd â diddordeb mewn . . ."
+        },
+        "Keywords": "{{1}} cymuned o bobl"
+    },
+    "communities": {
+        "Title": "Cymunedau",
+        "NewCommunity": "Cymuned Newydd",
+        "FindCommunityByName": "Dod o hyd i gymuned yn ôl enw",
+        "Description": "{{1}} cymunedau"
+    },
+    "community": {
+        "Title": "{{1}} Cymuned",
+        "Roles": "Rolau",
+        "AllRoles": "Pob Rôl",
+        "YouDontHavePermission": "Nid oes gennych awdurdod i wneud hyn",
+        "usernamePlaceholder": "gosod enw cymuned",
+        "NotEnoughCredits": "Nid oes gennych ddigon o gredydau i greu cymuned. Angen {{1}}, mae gennych {{2}}"
+    },
+    "event": {
+        "GetDirections": "Cael Cyfarwyddiadau",
+        "WhichMap": "Pa fapiau hoffech chi eu defnyddio?",
+        "JoinEventToChat": "Ymunwch â&#39;r digwyddiad i sgwrsio",
+        "promote": {
+            "Title": "Hyrwyddwch y digwyddiad hwn",
+            "Prompt": "Dewiswch ble hoffech chi hyrwyddo&#39;r digwyddiad hwn:"
+        },
+        "Confirmation": "Cadarnhad"
+    },
+    "newEvent": {
+        "Title": "Cynllunio Digwyddiad Newydd"
+    },
+    "interests": {
+        "Title": "Diddordebau",
+        "prompt": "Dewiswch y mathau o bethau yr hoffech chi wybod amdanynt.",
+        "explanation": "Po fwyaf o ddiddordebau a ddewiswch, y mwyaf tebygol y byddwch o gysylltu â phobl o&#39;r un anian.",
+        "filter": "Beth sydd gennych chi ddiddordeb ynddo?",
+        "Profile": "Tynnir sylw at ddiddordebau ar y cyd. Os oes gennych un neu fwy o&#39;r diddordebau isod hefyd, gallwch {{clickOrTap}} eu hychwanegu."
+    },
+    "credits": {
+        "Title": "Credydau",
+        "EarnCredits": "Ennill {{1}} credyd am bob person newydd rydych yn ei wahodd sy&#39;n ymuno â&#39;r ap",
+        "YouHave": "Mae gennych {{1}} o gredydau"
+    },
+    "onboarding": {
+        "Tap": "Tap",
+        "Click": "Cliciwch",
+        "Yes": "Oes",
+        "No": "Nac ydw",
+        "Skip": "neu hepgor hyn",
+        "name": {
+            "Preface": "Croeso i",
+            "Placeholder": "Rhowch eich enw llawn",
+            "GetStarted": "Dechrau",
+            "AsGuest": "Rydych chi wedi cael gwahoddiad fel gwestai.",
+            "AsMember": "Rydych chi wedi cael gwahoddiad fel aelod.",
+            "AsAdmin": "Rydych chi wedi&#39;ch gwahodd fel gweinyddwr.",
+            "AsOwner": "Rydych chi wedi&#39;ch gwahodd fel perchennog.",
+            "TooShort": "Ni all eich enw llawn fod mor fyr â hynny",
+            "SetAsYourFullName": "Gosod {{1}} fel eich enw llawn?"
+        },
+        "icon": {
+            "KeepDefault": "neu cadwch y llun yma",
+            "SetYourPhoto": "{{ClickOrTap}} i osod eich llun:",
+            "ClickOnYourFace": "{{ClickOrTap}} Ar Dy Wyneb"
+        },
+        "interests": {
+            "GetStarted": "⇩ Cychwyn Arni",
+            "NextCategory": "↓ Nesaf",
+            "Continue": "Parhau",
+            "Instructions": "Ym mhob un o&#39;r {{1}} categori nesaf,<br> {{2}} yr holl weithgareddau y mae gennych ddiddordeb ynddynt.<br> Dyma sut rydych chi&#39;n cysylltu â phobl eraill yn y gymuned."
+        },
+        "profile": {
+            "Profile": "Mae eich proffil yn helpu pobl i ddarganfod mwy amdanoch chi.<br>",
+            "Birthday": "Nodwch eich pen-blwydd:",
+            "Placeholder": "Pwy ydych chi a beth ydych chi&#39;n ei wneud? Dywedwch wrth bobl rywbeth diddorol neu unigryw amdanoch chi&#39;ch hun.",
+            "Required": "I barhau, ysgrifennwch o leiaf ddwy linell amdanoch chi&#39;ch hun.",
+            "Month": "Mis",
+            "Day": "Dydd",
+            "Year": "Blwyddyn",
+            "Gender": "Rhyw",
+            "Male": "Gwryw",
+            "Female": "Benyw",
+            "Other": "Arall",
+            "Height": "Uchder",
+            "Affiliation": "Ymlyniad",
+            "Dating": "Dyddio",
+            "Interested": "Diddordeb",
+            "NotInterested": "Dim diddordeb",
+            "MatchmakerOnly": "Matchmaker yn unig"
+        },
+        "location": {
+            "NoOneElse": "Ni fydd neb arall yn ei weld.",
+            "SetMyLocation": "Gosodwch fy lleoliad"
+        },
+        "pile": {
+            "DialogTitle": "Pobl â Diddordebau Cyffredin"
+        },
+        "Done": "Wedi&#39;i wneud",
+        "relationships": {
+            "title": "Ychwanegu {{userName}} i&#39;r Llyfr Ffôn",
+            "welcome": "Croeso {{user}}",
+            "invitedByUser": "gwahodd chi.",
+            "addToPhonebook": "Cadw i Fy Nghysylltiadau Ffôn",
+            "iosInstructions": "Sgroliwch i lawr i Ychwanegu Cyswllt Newydd",
+            "androidInstructions": "Dylech agor y ffeil vCard hon ar ôl iddo gael ei lawrlwytho.",
+            "explanation": "Beth yw eich perthynas?"
+        },
+        "Title": "Gwybodaeth Sylfaenol",
+        "Prompt": "Ychydig o gamau i sefydlu&#39;ch cyfrif"
+    },
+    "profile": {
+        "Title": "Proffil",
+        "Male": "Gwryw",
+        "Female": "Benyw",
+        "Other": "Arall",
+        "dating": {
+            "Interested": "Diddordeb",
+            "NotInterested": "Dim diddordeb",
+            "MatchmakerOnly": "Matchmaker yn unig"
+        },
+        "StartConversation": "Dechrau Sgwrs",
+        "blockUser": "Rhwystro&#39;r defnyddiwr hwn",
+        "blockUserAlert": "Ni fyddwch yn gweld mwy o negeseuon gan y defnyddiwr hwn nes i chi eu dadrwystro.",
+        "unblockUser": "Dadrwystro&#39;r defnyddiwr hwn",
+        "addToContacts": "Ychwanegu at Cysylltiadau",
+        "manageLabels": "Rheoli Labeli",
+        "inviteUsers": "Gwahodd Defnyddwyr",
+        "selectRole": "Dewiswch Rôl",
+        "inviteSuccess": "Wedi gwahodd defnyddiwr yn llwyddiannus fel {{label}}",
+        "invite": "Gwahodd",
+        "relationships": "Perthynasau",
+        "newRole": "Rôl Newydd",
+        "about": "Ynghylch",
+        "people": "Pobl",
+        "info": "Gwybodaeth",
+        "interests": "Diddordebau",
+        "chat": "Sgwrsio",
+        "locations": "Lleoliadau",
+        "ManageRoles": "Rheoli Rolau",
+        "aboutPlaceholder": "Pwy ydych chi a beth ydych chi&#39;n ei wneud? Dywedwch wrth bobl rywbeth diddorol neu unigryw amdanoch chi&#39;ch hun.",
+        "explanation": "Mae eich proffil yn helpu i&#39;ch paru&#39;n well â phobl eraill ar gyfer gweithgareddau grŵp.<br> Nodwch eich pen-blwydd",
+        "chats": {
+            "placeholder": "Dweud rhywbeth"
+        },
+        "LogOut": "Allgofnodi",
+        "MyLinks": "Fy Cysylltiadau",
+        "MyJobs": "Fy Swyddi",
+        "MySocial": "FyCymdeithasol",
+        "MyEducation": "Fy Addysg",
+        "JobsPlaceholder": "Teipiwch yma gwybodaeth swyddi",
+        "EducationPlaceholder": "Teipiwch yma wybodaeth addysg",
+        "ManageNotifications": "Rheoli Hysbysiadau",
+        "YourPreferredLanguage": "Eich dewis iaith",
+        "SendCrypto": "Talu",
+        "Block": "Bloc",
+        "Unblock": "Dadrwystro",
+        "Email": "Ebost",
+        "Avoid": "Osgoi",
+        "CreatePrivateChat": "Gwario {{credits}} credyd i estyn allan?",
+        "RolesInCommunity": "Rolau yn y gymuned",
+        "PersonalChatWith": "Sgwrs bersonol gyda {{name}}",
+        "SendCryptoTo": "Anfon crypto i {{name}}",
+        "SendEmailTo": "Anfon e-bost i {{name}}",
+        "SendSMSTo": "Anfon SMS i {{name}}",
+        "BlockThisUser": "Rhwystro&#39;r defnyddiwr hwn",
+        "UnblockThisUser": "Dadrwystro&#39;r defnyddiwr hwn",
+        "YouCantChatWithYourself": "Ni allwch sgwrsio â chi&#39;ch hun",
+        "blockUserAlertTitle": "Wedi&#39;i rwystro {{displayName}}",
+        "sections": {
+            "education": "Addysg",
+            "greeting": "Cyfarch",
+            "jobs": "Swyddi",
+            "links": "Cysylltiadau",
+            "language": "Iaith",
+            "roles": "Rolau",
+            "personal": "Personol",
+            "social": "Cymdeithasol"
+        },
+        "Roles": "Rolau",
+        "SendPaymentTo": "Anfonwch daliad i {{name}}"
+    },
+    "myqr": {
+        "Title": "Fy QR"
+    },
+    "composer": {
+        "createCommunity": "Creu Cymuned",
+        "inviteAdmin": "Gwahodd Gweinyddwr",
+        "inviteMember": "Gwahodd Aelod",
+        "newCommunityTitle": "Enw Cymunedol",
+        "setCommunityTitle": "Enw Cymunedol",
+        "creditsChargeRequest": "Ydych chi&#39;n cytuno i wario {{price}} o gredydau?",
+        "yes": "Oes",
+        "no": "Nac ydw"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Croeso! Gwiriwch eich cyfeiriad e-bost.",
+        "WelcomeVerifyEmail": "Croeso! Gwiriwch eich cyfeiriad e-bost.",
+        "ForgetPass": "Hei, a wnaethoch chi anghofio&#39;ch cyfrinair?",
+        "ManageEmailSubscriptions": "rheoli eich tanysgrifiadau e-bost",
+        "IfUnsubscribe": "Os ydych am ddad-danysgrifio"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Croeso i {{CommunityName}}. Bydd y cymhwysiad hwn yn eich helpu i gysylltu â ffrindiau, darganfod pobl newydd sydd â diddordebau cyffredin, a llawer mwy. Gadewch i ni ddechrau!"
+            },
+            "icon": {
+                "Commentary": "Gosodwch eich llun. Dyma sut y bydd pobl yn eich gweld ar y wefan."
+            },
+            "interests": {
+                "Commentary": "Po fwyaf o eitemau y byddwch chi&#39;n eu dewis, y mwyaf o bobl y gallwch chi gwrdd â nhw.",
+                "Notifications": "Mae angen i chi ganiatáu hysbysiadau"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Mae hysbysiadau yn eich galluogi i wybod am bethau y mae gennych ddiddordeb ynddynt, megis pan fydd ffrind yn ymuno â&#39;r ap, neu&#39;n anfon neges atoch."
+        },
+        "invite": "{{Q.words.TapOrClick}} yma i weld sut gallwch chi rannu hwn gyda phobl eraill."
+    },
+    "payment": {
+        "onContribute": "Diolch! Aeth eich taliad drwodd. Hoffech chi wahodd eich ffrindiau i ymuno â chi?",
+        "ConnectAccount": "Cysylltu cyfrif"
+    },
+    "featureboard": {
+        "Text_1": "Gadewch i&#39;ch llais gael ei glywed! Ydych chi&#39;n cytuno y dylem ddatblygu nodwedd neu fyg? Cliciwch ar y botwm i&#39;w Gefnogi.",
+        "Text_2": "Eisiau i ni ddatblygu nodwedd newydd? Disgrifiwch ef isod.",
+        "Text_3": "Bob wythnos rydym yn dechrau datblygu&#39;r nodwedd y gofynnir amdani fwyaf gan y gymuned. Mae&#39;r holl arian a gyfrannir yn mynd tuag at y diben hwnnw, gan ganiatáu inni wneud yr ap yn well.",
+        "Text_4": "Defnyddir yr holl arian a gyfrannir i helpu i dalu ein costau datblygu.",
+        "Text_5": "Oes gennych chi syniad am nodwedd neu atgyweiriad nam rydych chi am i ni ei wneud ond heb weld eraill yn ychwanegu eto? Disgrifiwch ef isod:",
+        "Options": [
+            {
+                "text": "$400 Fideo-gynadledda amser real"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$200 gwybodaeth gofrestru Cynradd Lleol"
+            },
+            {
+                "text": "$130 Pori a rhannu miloedd o {{1}} memes",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 Rheoli eich cymunedau eich hun",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Trwsio nam sgyrsiau",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Gofyn am Nodwedd Newydd\/Trwsio Nam",
+        "FeaturePlaceholder": "Crynodeb byr o&#39;r nodwedd",
+        "FeatureDescription": "Disgrifiwch sut y gall rhywun arall atgynhyrchu&#39;r byg rydych chi&#39;n ei weld, neu disgrifiwch yn fanwl y nodwedd rydych chi am ei hadeiladu",
+        "AddYourRequest": "Ychwanegu Eich Cais",
+        "NewFeature": "Nodwedd Newydd"
+    },
+    "contribute": {
+        "ContributeExplanation": "Helpwch i gefnogi datblygiad parhaus ap {{communityName}}. Mae eich holl gyfraniadau yn helpu i drwsio chwilod a datblygu nodweddion newydd i helpu i dyfu&#39;r gymuned ar-lein!",
+        "ReasonToContribute": "Mae&#39;r ap hwn yn cael ei gynnal gan gefnogwyr {{communityName}}. Helpwch i gefnogi&#39;r ap hwn fel y gallwn wneud gwahaniaeth ym mywydau pobl!"
+    },
+    "assetshistory": {
+        "Title": "Hanes asedau",
+        "Charges": "Taliadau",
+        "Credits": "Credydau"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Dileu cyfrif",
+            "content": "Ydych chi am ddileu&#39;r cyfrif hwn?",
+            "ok": "Oes",
+            "cancel": "Nac ydw"
+        }
+    },
+    "import": {
+        "fileNotFound": "Mae&#39;n ddrwg gennym, ni chanfuwyd y ffeil CSV.",
+        "fileEmpty": "Mae&#39;n ddrwg gennym, mae&#39;r ffeil CSV yn wag.",
+        "userIdNotFound": "defnyddiwr yn bodoli ond id yn wag",
+        "errorLine": "llinell {{1}}",
+        "fieldNotFound": "Ni chanfuwyd maes gofynnol &quot;{{1}}&quot;.",
+        "taskStreamInvalid": "ffrwd tasg yn annilys",
+        "instructionsEmpty": "cyfarwyddiadau ffrwd tasg yn wag",
+        "complete": "Cyflawn",
+        "activateUsers": "anfon neges actifadu at ddefnyddwyr?",
+        "importProgress": "Cynnydd",
+        "joinEventLabel": "Ymunwch â defnyddwyr i ddigwyddiad ar hap",
+        "importOptions": "Opsiynau",
+        "sampleCSV": "Lawrlwythwch Sampl CSV",
+        "fileLabel": "Uwchlwytho Taenlen:",
+        "errorsTitle": "Digwyddodd gwallau",
+        "communityUsers": "Dyma restr cymunedau",
+        "setAsConversation": "Colofn URL fel sgwrs",
+        "toMainCommunityToo": "ychwanegu defnyddwyr at y brif gymuned hefyd",
+        "willImportedTo": "Bydd defnyddwyr yn cael eu mewnforio i&#39;r gymuned",
+        "ChooseFile": "dewis ffeil"
+    },
+    "services": {
+        "Title": "Gwasanaethau",
+        "filterByTitle": "Dod o hyd i wasanaethau yn ôl teitl",
+        "New": "+ Dechrau Gwasanaeth Newydd",
+        "NewService": "Gwasanaeth Newydd",
+        "filterServices": "Gwasanaethau hidlo",
+        "NoneYet": "Dim gwasanaethau wedi&#39;u ffurfio eto<br> yn ystod yr amseroedd hyn.",
+        "AllAuthors": "Pob Awdwr",
+        "AllDays": "Pob Dydd",
+        "AllLocations": "Pob Lleoliad",
+        "MakeReservation": "Archebwch",
+        "CancelReservation": "Canslo Archebu",
+        "UpdateReservation": "Diweddaru Archebu",
+        "AreYouSure": "Wyt ti&#39;n siwr?",
+        "YouWillRefunded": "Byddwch yn cael eich ad-dalu ar ffurf credydau y gallwch eu gwario ar bethau eraill yn yr ap.",
+        "AllInterests": "Pob Diddordeb",
+        "FilterbyInterest": "Hidlo yn ôl Llog",
+        "FilterByDate": "Hidlo Erbyn Dyddiad",
+        "ShowActivities": "Dangos gweithgareddau sy&#39;n ymwneud â ...",
+        "newServices": "Mae gennych {{1}} o wasanaethau newydd",
+        "SelectLocation": "Dewiswch Lleoliad",
+        "FilterLocationsPlaceHolder": "Hidlo lleoliadau gyda ...",
+        "Description": "{{1}} gwasanaeth",
+        "Keywords": "{{1}} gwasanaeth",
+        "NewAvailability": "Argaeledd Newydd"
+    },
+    "welcome": {
+        "Title": "{{appName}}: croeso",
+        "GetStarted": "Dechrau",
+        "gallery": {
+            "Connect": "Cyswllt",
+            "Organize": "Trefnu",
+            "Travel": "Teithio",
+            "Share": "Rhannu"
+        }
+    }
+}

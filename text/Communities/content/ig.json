@@ -1,0 +1,362 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> anaghị atụ aka n&#39;ihe ọ bụla!",
+        "NextSteps": "Jiri isi menu chọta ihe ị na-achọ."
+    },
+    "dashboard": {
+        "Menu": "NchNhr"
+    },
+    "greeting": {
+        "Welcome": "Nnọọ na {{1}}. N&#39;ebe a, ị ga-ahụ ihe ezigara ndị otu obodo anyị. Biko tinye adreesị email gị ma ọ bụ akara ekwentị gị ka ị nweta ọkwa mgbe ebisara ọkwa."
+    },
+    "conversations": {
+        "Title": "Mkparịta ụka",
+        "New": "Mkparịta ụka ọhụrụ",
+        "Conversation": "Mkparịta ụka",
+        "Topics": "Isiokwu",
+        "NoneYet": "E nwebeghị mkparịta ụka",
+        "newConversations": "Mkparịta ụka ọhụrụ {{1}}",
+        "AllAuthors": "Ndị ode akwụkwọ niile",
+        "FilterbyAuthors": "Nyocha site n&#39;aka ndị ode akwụkwọ",
+        "FilterAuthorPlaceHolder": "Chọọ ndị ọzọ odee...",
+        "filterConversations": "Wepụta site na ederede",
+        "Description": "mkparịta ụka {{1}}"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Họrọ isiokwu",
+            "Share": "Kekọrịta",
+            "interest": {
+                "Title": "Họrọ mmemme",
+                "Filter": "Chọọ mmasị..."
+            }
+        },
+        "Title": "Mkparịta ụka ọhụrụ",
+        "TitlePlaceholder": "Isiokwu nke mkparịta ụka gị",
+        "ContentPlaceholder": "Dee okwu ole na ole ka ịmalite mkparịta ụka ahụ, ka ndị ọzọ nwee ike ịzaghachi",
+        "StartButton": "Malite mkparịta ụka"
+    },
+    "events": {
+        "Title": "Ihe omume",
+        "filterByTitle": "Chọta mmemme site na aha",
+        "New": "+ Malite emume ọhụrụ",
+        "filterEvents": "Wepụta mmemme",
+        "NewEvent": "Mmemme ọhụrụ",
+        "SetLocation": "Tọọ ebe m",
+        "NoneYet": "Ọnweghị mmemme emebebeghị<br> n&#39;oge ndị a.",
+        "AllAuthors": "Ndị ode akwụkwọ niile",
+        "AllDays": "Ụbọchị niile",
+        "AllLocations": "Ebe niile",
+        "MakeReservation": "Mee ndoputa",
+        "CancelReservation": "Kagbuo ndoputa",
+        "UpdateReservation": "Melite ndoputa",
+        "AreYouSure": "O doro gị anya?",
+        "YouWillRefunded": "A ga-akwụghachi gị n&#39;ụdị kredit ị nwere ike imefu na ihe ndị ọzọ dị na ngwa ahụ.",
+        "AllInterests": "Mmasị niile",
+        "FilterbyInterest": "Wepụta site na Mmasị",
+        "FilterByDate": "Nzacha Site na Ụbọchị",
+        "ShowActivities": "Gosi mmemme metụtara . . .",
+        "newEvents": "Ị nwere mmemme ọhụrụ {{1}}",
+        "SelectLocation": "Họrọ ebe",
+        "FilterLocationsPlaceHolder": "Nzacha ebe nwere...",
+        "Description": "{999} emume",
+        "Keywords": "{999} emume"
+    },
+    "schedule": {
+        "Title": "Usoro ihe omume",
+        "NoneYet": "Ị naghị esonye na mmemme ọ bụla",
+        "AddSome": "Tinye ụfọdụ na nhazi oge gị!",
+        "AddMore": "Tinye mmemme na nhazi oge gị!",
+        "future": "n&#39;ọdịnihu",
+        "past": "gara aga"
+    },
+    "location": {
+        "Title": "Ebe",
+        "NewLocation": "Ebe ọhụrụ"
+    },
+    "inbox": {
+        "Title": "Igbe mbata",
+        "NoneYet": "Ị naghị eso na mkparịta ụka ọ bụla",
+        "FindPeople": "Chọta ndị ị ga-agwa okwu",
+        "GroupConversations": "Soro ụfọdụ mkparịta ụka otu",
+        "ContactStaff": "Ndị ọrụ kọntaktị",
+        "ContactCustomers": "Kpọtụrụ ndị ahịa"
+    },
+    "me": {
+        "Title": "M",
+        "MobileNumber": "Nọmba ekwentị mkpanaka",
+        "EmailAddress": "Adreesị ozi ịntanetị",
+        "UpdateSocialTitle": "Melite {{1}} aha njirimara"
+    },
+    "people": {
+        "Title": "Ndị mmadụ",
+        "Description": "Ndị mmadụ na {{1}} obodo",
+        "AppAlert": "Ngwa a dị na ụlọ ahịa ngwa ga-ahapụ gị ka gị na ndị enyi gị jikọọ, yana ọtụtụ ndị ọzọ.",
+        "Invite": "Kpọọ ndị enyi",
+        "BuyCredits": "Zụrụ kredit",
+        "FindSomeoneByName": "Chọta onye n&#39;aha",
+        "SearchByName": "Chọọ n&#39;aha",
+        "FindAllMyFriends": "Chọta ndị enyi m niile",
+        "labels": {
+            "All": "Onye ọ bụla",
+            "Title": "Wepụta site na Mmekọrịta",
+            "New": "Ụdị Mmekọrịta Ọhụrụ"
+        },
+        "interests": {
+            "All": "Mmasị niile",
+            "Title": "Wepụta site na Mmasị",
+            "Filter": "Gosi ndị mmadụ nwere mmasị na . . ."
+        },
+        "Keywords": "{{1}} obodo ndị mmadụ"
+    },
+    "communities": {
+        "Title": "Obodo",
+        "NewCommunity": "Ogbe Ọhụrụ",
+        "FindCommunityByName": "Chọta obodo n&#39;aha",
+        "Description": "Ogbe {{1}}"
+    },
+    "community": {
+        "Title": "Ogbe {{1}}",
+        "Roles": "Ọrụ",
+        "AllRoles": "Ọrụ niile",
+        "YouDontHavePermission": "Ịnweghị ikike ime nke a",
+        "usernamePlaceholder": "tọọ aha obodo",
+        "NotEnoughCredits": "Ị nweghị kredit zuru oke iji mepụta obodo. Achọrọ {{1}}, ị nwere {{2}}"
+    },
+    "event": {
+        "GetDirections": "Nweta ntụzịaka",
+        "WhichMap": "Kedu maapụ ị ga-achọ iji?",
+        "JoinEventToChat": "Soro mmemme iji kparịta ụka",
+        "promote": {
+            "Title": "Kwalite mmemme a",
+            "Prompt": "Họrọ ebe ịchọrọ ịkwalite mmemme a:"
+        },
+        "Confirmation": "Nkwenye"
+    },
+    "newEvent": {
+        "Title": "Hazie Mmemme Ọhụrụ"
+    },
+    "interests": {
+        "Title": "Mmasị",
+        "prompt": "Họrọ ụdị ihe ị ga-achọ ịma.",
+        "explanation": "Ka mmasị ị na-ahọrọ karị, ka o yikarịrị ka ị ga-ejikọ gị na ndị nwere otu echiche.",
+        "filter": "Kedu ihe ị nwere mmasị na ya?",
+        "Profile": "A na-eme ka mmasị ibe ha pụta ìhè. Ọ bụrụ na ị nwekwara otu ma ọ bụ karịa mmasị n&#39;okpuru, ị nwere ike {{clickOrTap}} ịgbakwunye ha."
+    },
+    "credits": {
+        "Title": "Ebe e si nweta",
+        "EarnCredits": "Nweta kredit {{1}} maka onye ọhụrụ ọ bụla ị kpọrọ òkù sonyere ngwa ahụ",
+        "YouHave": "Ị nwere kredit {{1}}"
+    },
+    "onboarding": {
+        "Tap": "Kpatụ",
+        "Click": "Pịa",
+        "Yes": "Ee",
+        "No": "Mba",
+        "Skip": "ma ọ bụ hapụ nke a",
+        "name": {
+            "Preface": "Nnọọ na",
+            "Placeholder": "Tinye aha gị n&#39;uju",
+            "GetStarted": "Malite",
+            "AsGuest": "Akpọrọla gị ka ọbịa.",
+            "AsMember": "Akpọla gị dịka onye otu.",
+            "AsAdmin": "Akpọrọla gị òkù dị ka onye nchịkwa.",
+            "AsOwner": "Akpọrọla gị òkù ka onye nwe ya.",
+            "TooShort": "Aha gị n&#39;uju enweghị ike ịdị mkpụmkpụ",
+            "SetAsYourFullName": "Tọọ {{1}} ka aha gị zuru oke?"
+        },
+        "icon": {
+            "KeepDefault": "ma ọ bụ debe foto a",
+            "SetYourPhoto": "{{ClickOrTap}} ka ịtọọ foto gị:"
+        },
+        "interests": {
+            "GetStarted": "⇩ Malite",
+            "NextCategory": "↓ Ọzọ",
+            "Continue": "Gaa n&#39;ihu",
+            "Instructions": "N&#39;ime otu {999}} nke ọ bụla na-esote,<br> {{2}} mmemme niile masịrị gị.<br> Nke a bụ ka gị na ndị ọzọ nọ n&#39;ime obodo jikọọ."
+        },
+        "profile": {
+            "Profile": "Profaịlụ gị na-enyere ndị mmadụ aka ịmatakwu gbasara gị.<br>",
+            "Birthday": "Biko tinye ụbọchị ọmụmụ gị:",
+            "Placeholder": "Kedu onye ị bụ na gịnị ka ị na-eme? Gwa ndị mmadụ ihe na-atọ ụtọ ma ọ bụ pụrụ iche gbasara onwe gị.",
+            "Required": "Iji gaa n&#39;ihu, dee opekata mpe ahịrị abụọ gbasara onwe gị.",
+            "Month": "Ọnwa",
+            "Day": "Ụbọchị",
+            "Year": "Afọ",
+            "Gender": "okike",
+            "Male": "Nwoke",
+            "Female": "Nwanyị",
+            "Other": "Ndị ọzọ",
+            "Height": "Ogologo",
+            "Affiliation": "Mgbakwunye",
+            "Dating": "Mkpakọrịta nwoke na nwanyị",
+            "Interested": "Mmasị",
+            "NotInterested": "Enweghị Mmasị",
+            "MatchmakerOnly": "Naanị onye mmekọ"
+        },
+        "location": {
+            "NoOneElse": "Ọ dịghị onye ọzọ ga-ahụ ya.",
+            "SetMyLocation": "Tọọ ọnọdụ m"
+        },
+        "pile": {
+            "DialogTitle": "Ndị nwere mmasị nkịtị"
+        },
+        "Done": "Emechaala"
+    },
+    "profile": {
+        "Title": "Profaịlụ",
+        "Male": "Nwoke",
+        "Female": "Nwanyị",
+        "Other": "Ndị ọzọ",
+        "dating": {
+            "Interested": "Mmasị",
+            "NotInterested": "Enweghị mmasị",
+            "MatchmakerOnly": "Naanị onye na-eme egwuregwu"
+        },
+        "StartConversation": "Malite mkparịta ụka",
+        "blockUser": "Gbochie onye ọrụ a",
+        "blockUserAlert": "Ị gaghị ahụ ozi ọzọ sitere n&#39;aka onye ọrụ a ruo mgbe ị kpọghere ya.",
+        "unblockUser": "Kpọghe onye ọrụ a",
+        "addToContacts": "Tinye na kọntaktị",
+        "manageLabels": "Jikwaa Labelụ",
+        "inviteUsers": "Kpọọ ndị ọrụ",
+        "selectRole": "Họrọ Ọrụ",
+        "inviteSuccess": "Akpọrọ onye ọrụ nke ọma dị ka {{label}}",
+        "invite": "Kpọọ",
+        "relationships": "Mmekọrịta",
+        "newRole": "Ọrụ ọhụrụ",
+        "about": "Ihe gbasara",
+        "people": "Ndị mmadụ",
+        "info": "Ozi",
+        "interests": "Mmasị",
+        "chat": "Kpaa nkata",
+        "locations": "Ebe",
+        "ManageRoles": "Jikwaa ọrụ",
+        "aboutPlaceholder": "Kedu onye ị bụ na gịnị ka ị na-eme? Gwa ndị mmadụ ihe na-atọ ụtọ ma ọ bụ pụrụ iche gbasara onwe gị.",
+        "explanation": "Profaịlụ gị na-enyere aka ka gị na ndị ọzọ jikọọ gị maka mmemme otu.<br> Biko tinye ụbọchị ọmụmụ gị",
+        "chats": {
+            "placeholder": "Kwuo ihe ọ bụla"
+        },
+        "LogOut": "Wepụ",
+        "MyLinks": "Njikọ m",
+        "MyJobs": "Ọrụ m",
+        "MySocial": "MySocial",
+        "MyEducation": "Agụmakwụkwọ m",
+        "JobsPlaceholder": "Pịnye ozi ọrụ ebe a",
+        "EducationPlaceholder": "Pịnye ozi mmụta ebe a",
+        "ManageNotifications": "Jikwaa amamọkwa",
+        "YourPreferredLanguage": "Asụsụ kacha amasị gị"
+    },
+    "myqr": {
+        "Title": "QR m"
+    },
+    "composer": {
+        "createCommunity": "Mepụta Ogbe",
+        "inviteAdmin": "Kpọọ Admin",
+        "inviteMember": "Kpọọ onye otu",
+        "newCommunityTitle": "Aha obodo",
+        "setCommunityTitle": "Aha obodo",
+        "creditsChargeRequest": "Ị kwenyere imefu {{price}} kredit?",
+        "yes": "Ee",
+        "no": "Mba"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Nnọọ! Biko chọpụta adreesị ozi-e gị.",
+        "WelcomeVerifyEmail": "Nnọọ! Nyochaa adreesị ozi-e gị.",
+        "ForgetPass": "Hey, ị chefuru paswọọdụ gị?",
+        "ManageEmailSubscriptions": "jikwaa ndebanye aha email gị",
+        "IfUnsubscribe": "Ọ bụrụ na ịchọrọ ịwepu aha"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Nnọọ na {{CommunityName}}. Ngwa a ga-enyere gị aka ka gị na ndị enyi jikọọ gị, chọpụta ndị ọhụrụ nwere mmasị na ya na ọtụtụ ndị ọzọ. Ka anyị malite!"
+            },
+            "icon": {
+                "Commentary": "Tọọ foto gị. Otu a ka ndị mmadụ ga-esi hụ gị na saịtị."
+            },
+            "interests": {
+                "Commentary": "Ka ihe ndị ị na-ahọrọ, ka ndị mmadụ na-enwe ike izute.",
+                "Notifications": "Ikwesiri ikwe ka amamọkwa"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Amamọkwa na-enye gị ohere ịmata gbasara ihe ndị masịrị gị, dị ka mgbe enyi gị sonyere ngwa ahụ, ma ọ bụ ozi gị."
+        },
+        "invite": "{{Q.words.TapOrClick}} ebe a ka ịhụ ka ị ga-esi kerịta nke a na ndị ọzọ."
+    },
+    "payment": {
+        "onContribute": "Daalụ! Ụgwọ gị gafere. Ọ ga-amasị gị ịkpọ ndị enyi gị ka ha sonyere gị?"
+    },
+    "featureboard": {
+        "Text_1": "Ka a nụ olu gị! Ị kwenyere na anyị kwesịrị ịmepụta atụmatụ ma ọ bụ ahụhụ? Pịa bọtịnụ iji kwado ya.",
+        "Text_2": "Chọrọ ka anyị mepụta atụmatụ ọhụrụ? Kọwaa ya n&#39;okpuru.",
+        "Text_3": "Kwa izu, anyị na-amalite imepe atụmatụ kacha elu nke ndị obodo rịọrọ. Ego niile enyere na-aga maka ebumnuche ahụ, na-enye anyị ohere ime ka ngwa ahụ ka mma.",
+        "Text_4": "A na-eji ego niile enyere aka kwụọ ụgwọ mmepe anyị.",
+        "Text_5": "Ị nwere echiche maka njirimara ma ọ bụ bugfix nke ịchọrọ ka anyị mee mana ahụbeghị ka ndị ọzọ gbakwunyere? Kọwaa ya n&#39;okpuru:",
+        "Options": [
+            {
+                "text": "$400 Mkpakọrịta vidiyo ozugbo"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "Ozi ndebanye aha isi obodo $200"
+            },
+            {
+                "text": "$130 Chọgharịa wee kesaa ọtụtụ puku memes {{1}}",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 Jikwaa obodo nke gị",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Dozie ahụhụ mkparịta ụka",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Rịọ atụmatụ ọhụrụ\/Bugfix",
+        "FeaturePlaceholder": "Nchịkọta atụmatụ dị mkpirikpi",
+        "FeatureDescription": "Kọwaa otu onye ọzọ nwere ike isi mepụtaghachi ahụhụ ị na-ahụ, ma ọ bụ kọwapụta nke ọma atụmatụ ịchọrọ ịrụ.",
+        "AddYourRequest": "Tinye Arịrịọ Gị",
+        "NewFeature": "Akụkụ ọhụrụ"
+    },
+    "contribute": {
+        "ContributeExplanation": "Nyere aka na-aga n&#39;ihu na mmepe nke ngwa {{communityName}}. Ntinye aka gị niile na-enyere aka idozi ahụhụ na imepụta atụmatụ ọhụrụ iji nyere aka itolite obodo dị n&#39;ịntanetị!",
+        "ReasonToContribute": "Ndị na-akwado {{communityName}} na-edozi ngwa a. Nyere aka kwado ngwa a ka anyị nwee ike ime mgbanwe na ndụ ndị mmadụ!"
+    },
+    "assetshistory": {
+        "Title": "Akụkọ akụ",
+        "Charges": "Ebo",
+        "Credits": "Ebe e si nweta"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Wepu akaụntụ",
+            "content": "Ị chọrọ iwepụ akaụntụ a?",
+            "ok": "Ee",
+            "cancel": "Mba"
+        }
+    },
+    "import": {
+        "fileNotFound": "Ndo, ahụghị faịlụ CSV.",
+        "fileEmpty": "Ndo, faịlụ CSV efu.",
+        "userIdNotFound": "onye ọrụ dị mana id efu",
+        "errorLine": "ahịrị {{1}}",
+        "fieldNotFound": "Achọtaghị mpaghara &quot;{999}}&quot; achọrọ",
+        "taskStreamInvalid": "iyi ọrụ ezighi ezi",
+        "instructionsEmpty": "ọrụ iyi ntuziaka efu",
+        "complete": "Zuru oke",
+        "activateUsers": "ziga ndị ọrụ ozi mmalite?",
+        "importProgress": "Ọganihu",
+        "joinEventLabel": "Jikọọ ndị ọrụ na mmemme enweghị usoro",
+        "importOptions": "Nhọrọ",
+        "sampleCSV": "Budata ihe atụ CSV",
+        "fileLabel": "Bulite akwụkwọ akụkọ",
+        "errorsTitle": "Njehie mere",
+        "communityUsers": "Nke a bụ ndepụta obodo",
+        "setAsConversation": "kọlụm URL dị ka mkparịta ụka",
+        "toMainCommunityToo": "tinyekwa ndị ọrụ na obodo isi",
+        "willImportedTo": "A ga-ebubata ndị ọrụ na obodo"
+    }
+}

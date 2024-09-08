@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Hûn hatine vexwendin",
+        "Member": "Endam li {{title}}",
+        "Explanation": "{{1}} bi kêfxweşî ragihand ku destpêkirina malpera me ya nû. Ew navnîşek mezinbûna taybetmendiyê vedigire, wekî:",
+        "Public": "Agahiyên giştî li ser {{1}}",
+        "Private": "Ji bo her endamek hesabek bikarhênerek taybet",
+        "Notifications": "Bi têketina navnîşana e-name an jimareya mobîla xwe hûn ê karibin bi e-name an peyamek nivîsê agahdariya girîng bistînin.",
+        "GetStarted": "Ji bo ku dest pê bikin, di geroka xweya webê de ji kerema xwe <em>bi baldarî<\/em> têkevin:<br>",
+        "IssuedToYou": "Ev kod bi taybetî ji we re hatî dayîn."
+    }
+}

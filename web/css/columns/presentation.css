@@ -1,0 +1,9 @@
+.Communities_column_presentation .Communities_presentation_title {
+    display: block;
+    padding: 5px 0;
+    text-align: center;
+    border: 1px dashed;
+}
+.Communities_column_presentation .Communities_presentation_instructions {
+    padding: 5px 0;
+}

@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Int mistieden",
+        "Member": "Membru fi {{title}}",
+        "Explanation": "{{1}} bi pjaċir iħabbar it-tnedija tal-websajt il-ġdida tagħna. Jinkludi lista dejjem tikber ta’ karatteristiċi, bħal:",
+        "Public": "Informazzjoni pubblika dwar {{1}}",
+        "Private": "Kont tal-utent privat għal kull membru",
+        "Notifications": "Billi ddaħħal l-indirizz tal-email jew in-numru tal-mowbajl tiegħek tkun tista&#39; tirċievi notifiki importanti permezz ta&#39; email jew messaġġ.",
+        "GetStarted": "Biex tibda, fil-web browser tiegħek jekk jogħġbok daħħal bir- <em>reqqa<\/em> :<br>",
+        "IssuedToYou": "Dan il-kodiċi jinħareġ lilek speċifikament."
+    }
+}

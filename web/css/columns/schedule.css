@@ -1,0 +1,189 @@
+/*.Communities .Q_column_schedule .Q_title_slot {
+	text-indent: 40px;
+	background: url(../../img/colorful/schedule.png) no-repeat;
+	background-size: 40px 40px;
+	background-position: left center;
+}
+*/
+.Communities .Q_column_schedule .Q_title_slot::before {
+	content: "\e915"; color: #029305;
+}
+.Communities_schedule_column_tabContent {
+	margin-top: -1px;
+	border-top: 1px solid #777;
+	display: none;
+}
+.Communities_schedule_column_tabContent.Q_current {
+	display: block;
+}
+.Communities_schedule_column_tabContent > * {
+	margin:	10px 0 0 0;
+	padding: 0;
+}
+.Communities_schedule_column .Communities_tab {
+	padding: 10px 20px;
+}
+
+/*Subscribe to calendar tool*/
+.Communities_subscribe {
+    display: flex;
+    justify-content: center;
+}
+.Calendars_subscribe_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Calendars_subscribe_btn svg{
+    width:24px;
+    height: auto;
+    margin-right: 5px;
+}
+.Calendars_subscribe_btn path{
+    fill: white
+}
+.Calendars_subscribe_dialog_inner {
+	padding: 10px;
+}
+.Calendars_subscribe_url {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+.Calendars_subscribe_url_link {
+    background: #f0f0f0;
+    border-bottom: none;
+    border-radius: 6px 6px 0 0;
+    color: currentcolor;
+    align-items: center;
+    box-sizing: border-box;
+    display: inline-flex;
+    min-height: inherit;
+    padding: 10px 10px;
+    position: relative;
+    width: 100%;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+}
+
+.Calendars_subscribe_open {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0 0;
+}
+
+.Calendars_subscribe_instructions_screenshot img {
+    width: 100%;
+}
+
+.Calendars_subscribe_url_link span{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.Calendars_subscribe_url_link_copied {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .Calendars_subscribe_url_copy {
+    text-align: center !important;
+    background: #e8f0fe !important;
+    color: #174ea6 !important;
+    border-color: #dadce0 !important;
+    box-shadow: none !important;
+    display: inline-flex !important;
+} */
+.Calendars_subscribe_url_copy_link {
+    text-decoration: underline;
+}
+ol.Calendars_subscribe_instructions {
+    counter-reset: li;
+    list-style: none;
+    *list-style: decimal;
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    margin-bottom: 15px;
+}
+ol.Calendars_subscribe_instructions ol {
+    margin: 0 0 0 2em;
+}
+.Calendars_subscribe_instructions li{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    margin: .5em 0 .5em 2.5em;
+    text-decoration: none;
+    transition: all .3s ease-out;
+    outline: 1px solid #dadce0;
+}
+
+.Calendars_subscribe_instructions li:hover{
+    background: rgb(134 133 133 / 27%);;
+}
+.Calendars_subscribe_instructions li a{
+    color: #0055ff !important;
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.Calendars_subscribe_instructions li:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background: #87ceeb;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Calendars_subscribe_instructions li:after{
+    position: absolute;
+    content: '';
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;
+}
+
+.Calendars_subscribe_instructions li:hover:after{
+    left: -.5em;
+    border-left-color: #87ceeb;
+}
+
+.Calendars_subscribe_success {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Calendars_subscribe_success_text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.Calendars_subscribe_success_ok {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}

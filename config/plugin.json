@@ -1,0 +1,510 @@
+{
+	"Q": {
+		"pluginInfo": {
+			"Communities": {
+				"version": "0.9.7.3",
+				"compatible": "0.6",
+				"requires": {
+					"Q": "1.0",
+					"Users": "1.0",
+					"Streams": "1.0",
+					"Places": "1.0",
+					"Websites": "1.0",
+					"Calendars": "0.1"
+				},
+				"permissions": [],
+				"connections": ["Users", "Streams", "Places", "Websites"]
+			}
+		},
+		"handlersBeforeEvent": {
+			"Q/reroute": ["Communities/before/Q_reroute"],
+			"Q/responseExtras": ["Communities/before/Q_responseExtras"],
+			"Q/sessionExtras": ["Communities/before/Q_sessionExtras"],
+			"Streams/inviteDialog": ["Communities/before/Streams_inviteDialog"],
+			"Users/Contact/addContact": ["Communities/before/Users_Contact_addContact"],
+			"Users/Contact/removeContact": ["Communities/before/Users_Contact_removeContact"]
+		},
+		"handlersAfterEvent": {
+			"Users/logout": ["Communities/after/Users_logout"],
+			"Streams/invite/accept": ["Communities/after/Streams_invite_accept"],
+			"Users/register": ["Communities/after/Users_register"],
+			"Places/geolocation": ["Communities/after/Places_geolocation"],
+			"Calendars/event/leave": ["Communities/after/Calendars_event_leave"],
+			"Communities/community/create": ["Communities/after/Communities_community_create"],
+			"Q/configure": ["Communities/after/Q_configure"]
+		},
+		"routes@end": {
+			"community/:communityId": { "module": "Communities", "action": "community" }
+		},
+		"routes": {
+		    ":communityId/:tab": { "module": "Communities", "action": "community" },
+			"Communities/:action": {"module": "Communities"},
+			"community/:communityId": { "module": "Communities", "action": "community" },
+		    ":communityId": { "module": "Communities", "action": "community" },
+		    "community": { "module": "Communities", "action": "community" },
+		    "communities": { "module": "Communities", "action": "communities" },
+			"about": { "module": "Communities", "action": "about" },
+		    "SSO/discourse": { "module": "Communities", "action": "discourseSSO" },
+		    "broadcast": { "module": "Communities", "action": "broadcast" },
+			"onboarding": { "module": "Communities", "action": "onboarding" },
+		    "communitiesIcons": { "module": "Communities", "action": "icons" },
+			"contribute": { "module": "Communities", "action": "contribute" },
+		    "terms": { "module": "Communities", "action": "terms" },
+			"privacy": { "module": "Communities", "action": "privacy" },
+		    "adverts": { "module": "Communities", "action": "adverts" },
+		    "newConversation": { "module": "Communities", "action": "newConversation" },
+			"participants": {"module": "Streams", "action": "participating"},
+		    "newEvent/:publisherId": { "module": "Communities", "action": "newEvent" },
+		    "newEvent": { "module": "Communities", "action": "newEvent" },
+			"newService/:publisherId": { "module": "Communities", "action": "newService" },
+			"newService": { "module": "Communities", "action": "newService" },
+		    "location": { "module": "Communities", "action": "location" },
+		    "interests": { "module": "Communities", "action": "interests" },
+			"featureboard": { "module": "Communities", "action": "featureboard" },
+		    "schedule": { "module": "Communities", "action": "schedule" },
+			"Assets/history": { "module": "Communities", "action": "assetshistory" },
+			"profile/:userId/:currentTab": { "module": "Communities", "action": "profile" },
+		    "profile/:userId": { "module": "Communities", "action": "profile" },
+		    "profile": { "module": "Communities", "action": "profile" },
+		    "conversations": { "module": "Communities", "action": "conversations" },
+			"conversation/:publisherId/:streamName[]": { "module": "Communities", "action": "conversation" },
+			"conversation/i/:publisherId/:normalizedTitle": { "module": "Communities", "action": "conversation" },
+		    "trip/:publisherId/:tripId": { "module": "Communities", "action": "trip" },
+			"webrtc/:publisherId/:webrtcId": { "module": "Communities", "action": "webrtc" },
+		    "event/:publisherId/:eventId": { "module": "Communities", "action": "event" },
+		    "events/:interest[]": { "module": "Communities", "action": "events" },
+		    "events/:category": { "module": "Communities", "action": "events" },
+			"importusers/:value": { "module": "Communities", "action": "importusers" },
+		    "importusers": { "module": "Communities", "action": "importusers" },
+		    "events": { "module": "Communities", "action": "events" },
+			"services": { "module": "Communities", "action": "services" },
+			"home": { "module": "Communities", "action": "home" },
+		    "me/:tab/:publisherId/:conversationId": { "module": "Communities", "action": "me" },
+			"me/:tab/:tab1": { "module": "Communities", "action": "me" },
+		    "me/:tab": { "module": "Communities", "action": "me" },
+		    "me": { "module": "Communities", "action": "me" },
+		    "inbox": { "module": "Communities", "action": "inbox" },
+		    "people": { "module": "Communities", "action": "people" },
+			"welcome": { "module": "Communities", "action": "welcome" },
+		    "notFound": { "module": "Communities", "action": "notFound" },
+			"testplugins": { "module": "Communities", "action": "testplugins" },
+			"Communities/NFT/:publisherId/:streamId": {"module": "Communities", "action": "NFT"},
+			"Communities/NFT/:tokenId": {"module": "Communities", "action": "NFT"},
+			"Communities/NFTprofile/:userId": {"module": "Communities", "action": "NFTprofile"},
+			"Communities/NFTprofile": {"module": "Communities", "action": "NFTprofile"},
+			"Communities/NFTcollections": {"module": "Communities", "action": "NFTcollections"},
+			"Communities/NFTowned": {"module": "Communities", "action": "NFTowned"}
+		},
+		"web": {
+			"requireValidNonce": ["Communities"],
+			"noAnimationFX": false,
+			"dontHideUntilLoaded": false
+		},
+		"javascript": {
+			"uris": [
+				"Communities/home", "Communities/conversations",
+				"Communities/event", "Communities/events",
+				"Communities/newEvent", "Communities/people",
+				"Communities/onboarding", "Communities/me"
+			]
+		},
+		"environments": {
+			"live": {
+				"prepare": {
+					"{{Communities}}": ["js", "css"]
+				}
+			}
+		},
+		"text": {
+			"Communities": {
+				"*": ["Communities/content"],
+				"email": {
+					"*": ["Users/email", "Communities/email"]
+				},
+				"mobile": {
+					"*": ["Users/mobile", "Communities/mobile"]
+				}
+			}
+		},
+		"images": {
+			"lazyload": true
+		}
+	},
+	"Users": {
+		"transactional": {
+			"activation": {
+				"subject": ["Communities/content", ["notifications", "WelcomePleaseVerifyEmail"]]
+			},
+			"identifier": {
+				"subject": ["Communities/content", ["notifications", "WelcomeVerifyEmail"]],
+				"body": "Communities/email/addEmail.php",
+				"mobile": "Communities/mobile/addMobile.php"
+			},
+			"resend": {
+				"subject": ["Communities/content", ["notifications", "ForgetPass"]],
+				"body": "Communities/email/resend.php",
+				"mobile": "Communities/mobile/resend.php"
+			},
+			"authenticated": {
+				"subject": false,
+				"body": false
+			}
+		},
+		"login": {
+			"identifierType": "mobile"
+		},
+		"register": {
+			"icon": {
+				"search": ["google", "facebook"]
+			}
+		},
+		"quotas": {
+			"Communities/create": {
+				"604800": {
+					"": 1,
+					"Users/owners": 100,
+					"Users/admins": 100,
+					"Communities/admins": 100
+				}
+			}
+		}
+	},
+	"Streams": {
+		"userStreams": {
+			"Communities": "streams.json"
+		},
+		"invites": {
+			"sort": {
+				"areas": ["Communities", "sortAreaFilenames"]
+			}
+		},
+		"types": {
+			"*": {
+				"relatedTo": {
+					"Websites/announcements": {
+						"description": "An announcement was posted",
+						"url": "{{baseUrl}}/Websites/announcement/{{streamName.[2]}}"
+					},
+					"Websites/articles": {
+						"description": "An article was posted",
+						"url": "{{baseUrl}}/Websites/article/{{streamName.[2]}}"
+					}
+				},
+				"invited": {
+					"dialog": {
+						"templateName": "Communities/invited/onboarding"
+					}
+				}
+			},
+			"Websites/article": {
+				"url": "{{baseUrl}}/Websites/article/{{streamName.[2]}}"
+			},
+			"Streams/experience": {
+				"create": false,
+				"edit": ["content"],
+				"uri": "Communities/community communityId={{publisherId}}",
+				"url": "{{baseUrl}}/{{publisherId}}"
+			},
+			"Streams/interest": {
+				"relatedTo": {
+					"*": {
+						"description": "New {{fromDisplayType}} in {{toTitle}}",
+						"subject": "{{{call 'message.getInstruction' 'description'}}}"
+					}
+				}
+			},
+			"Calendars/event": {
+				"uri": "Communities/event publisherId={{publisherId}} eventId={{streamName.[2]}}",
+				"url": "{{baseUrl}}/event/{{publisherId}}/{{streamName.[2]}}"
+			},
+			"Streams/chat": {
+				"uri": "Communities/conversation publisherId={{publisherId}} streamName={{streamName}}",
+				"url": "{{baseUrl}}/conversation/{{publisherId}}/{{nameNormalized}}"
+			},
+			"Websites/webpage": {
+				"uri": "Communities/conversation publisherId={{publisherId}} streamName={{streamName}}",
+				"url": "{{baseUrl}}/conversation/{{publisherId}}/{{nameNormalized}}"
+			},
+			"Travel/trip": {
+				"uri": "Travel/trip publisherId={{publisherId}} tripId={{streamName.[2]}}",
+				"url": "{{baseUrl}}/trip/{{publisherId}}/{{streamName.[2]}}"
+			},
+			"Media/webrtc": {
+				"uri": "Media/webrtc publisherId={{publisherId}} webrtcId={{streamName.[2]}}",
+				"url": "{{baseUrl}}/webrtc/{{publisherId}}/{{streamName.[2]}}"
+			},
+			"Streams/article": {
+				"create": false,
+				"edit": ["content"]
+			},
+			"Communities/permission": {
+
+			}
+		},
+		"onInsert": {
+			"user": ["Streams/user/urls"],
+			"person": [
+
+			],
+			"community": [
+				"Streams/community/about"
+			]
+		}
+	},
+	"Places": {
+		"nearby": {
+			"defaultMeters": 50000
+		}
+	},
+	"Communities": {
+		"installer": {
+			"timeLimit": 36000
+		},
+		"contribute": {
+			"currency": "usd", /* can be usd, eur, ... */
+			"amounts": [1, 5, 10, 20, 30, 50, 100, 500, 1000],
+			"amount": 20
+		},
+		"featureboard": {
+			"currency": "usd", /* can be usd, eur, ... */
+			"amounts": [10, 20, 30, 50, 100, 500, 1000]
+		},
+		"browsertab": {
+			"startup": false /* if true, start Communities.login() if user not logged in */
+		},
+		"video": {
+			"src": "https://www.youtube.com/embed/VR5nyQmfG7Q?rel=0&amp;controls=0&amp;showinfo=0"
+		},
+		"onboarding": {
+			"steps": ["name", "icon", "location", "interests", "relationships"]
+		},
+		"userIds": {
+			"maxLimit": 1000
+		},
+		"events": {
+			"controls": true,
+			"anyoneNewEvent": false,
+			"fromTimeShift": 7200, /* amount of seconds to move fromTime back, to show already started events */
+			"interests": {
+				"ordering": null
+			},
+			"filters": {
+				"limited": {
+					"locations": true,
+					"interests": true
+				}
+			}
+		},
+		"services": {
+			"controls": true,
+			"interests": {
+				"ordering": null
+			},
+			"filters": {
+				"limited": {
+					"locations": true,
+					"interests": true
+				}
+			}
+		},
+		"event": {
+			"mode": {
+				"mobile": "reservation", /* can be "classic" or "reservation" */
+				"desktop": "classic" /* can be "classic" or "reservation" */
+			},
+			"preview": {
+				"textfill": true /* whether to activate Q/textfill plugin on title */
+			}
+		},
+		"people": {
+			"import": false,
+			"userIds": {
+				"customIconsFirst": true,
+				"includeFutureUsers": false,
+				"limit": 100
+			},
+			"randomAngles": false
+		},
+		"terms": {
+			"jurisdiction": "The State of New York, USA"
+		},
+		"emails": {
+			"dmca": null
+		},
+		"me": {
+			"tabs": {
+				"inbox": {
+					"default": true
+				},
+				"schedule": true,
+				"profile": {
+					"showLogout": true
+				},
+				"interests": true,
+				"location": true,
+				"credits": true
+			}
+		},
+		"promote": {
+			"labels": ["Users/owners", "Users/admins"]
+		},
+		"tasks": {
+			"admins": ["Users/owners", "Users/admins"]
+		},
+		"community": {
+			"hideUntilParticipants": 10,
+			"admins": ["Users/owners", "Users/admins"],
+			"tabs": {
+				"people": true,
+				"info": true,
+				"labels": true,
+				"interests": false,
+				"locations": true,
+				"events": true,
+                "external": true,
+				"importEvents": false,
+				"importUsers": false
+			},
+			"canInvite": ["Users/owners", "Users/admins"],
+			"importUsers": {
+				"sampleFields": ["First Name","Last Name","Gender","Position","Interest","Label","Organization","State","Country","Email Address","Blog URL","Conversation URL","Photo URL","Cover URL","Facebook URL","Twitter URL","Linkedin URL","Github URL","Instagram URL"]
+			},
+			"skipComposer": false
+		},
+		"conversations": {
+			"relationTypes": ["Streams/chat", "Websites/webpage"]
+		},
+		"occupants": {
+			"canManage": ["Users/owners", "Users/admins"]
+		},
+		"locations": {
+			"canRelate": ["Users/owners", "Users/admins"]
+		},
+		"articles": {
+			"canManage": ["Users/owners", "Users/admins"]
+		},
+		"users": {
+			"canImport":  ["Users/owners", "Users/admins"]
+		},
+		"dashboard": {
+			"showLogin": true
+		},
+		"pageSizes": {
+			"events": 50,
+			"people": 50,
+			"services": 50,
+			"conversations": 50,
+			"messages": 50
+		},
+		"profile": {
+			"ordering": ["roles", "personal", "greeting", "social", "links", "jobs", "education", "language"],
+			"social": {
+				"facebook": "facebook.com/",
+				"twitter": "twitter.com/",
+				"linkedin": "linkedin.com/in/",
+				"github": "github.com/",
+				"instagram": "instagram.com/",
+				"telegram": "t.me/",
+				"discord": "discord.com/",
+				"youtube":  "youtube.com/"
+			},
+			"tabs": {
+				"about": false,
+				"interests": true,
+				"chat": true
+			},
+			"sections": {
+				"personal": true,
+				"greeting": true,
+				"roles": true,
+				"social": true,
+				"links": true,
+				"jobs": false,
+				"education": false
+			}
+		},
+		"welcome": {
+			"gallery": [
+				{
+					"src": "{{Communities}}/img/welcome/gallery/connect.jpg",
+					"caption": "Communities/content/welcome/gallery/Connect",
+					"interval": {
+						"type": "kenburns",
+						"from": {
+							"left": 0.15,
+							"top": 0.3,
+							"width": 0.6,
+							"height": 0.6
+						},
+						"to": {
+							"left": 0,
+							"top": 0,
+							"width": 1,
+							"height": 1
+						}
+					}
+				},
+				{
+					"src": "{{Communities}}/img/welcome/gallery/events.jpg",
+					"caption": "Communities/content/welcome/gallery/Organize",
+					"interval": {
+						"type": "kenburns",
+						"from": {
+							"left": 0.2,
+							"top": 0.2,
+							"width": 0.3,
+							"height": 0.3
+						},
+						"to": {
+							"left": 0,
+							"top": 0,
+							"width": 1,
+							"height": 1
+						}
+					}
+				},
+				{
+					"src": "{{Communities}}/img/welcome/gallery/travel.jpg",
+					"caption": "Communities/content/welcome/gallery/Travel",
+					"interval": {
+						"type": "kenburns",
+						"from": {
+							"left": 0.1,
+							"top": 0.1,
+							"width": 0.3,
+							"height": 1
+						},
+						"to": {
+							"left": 0.4,
+							"top": 0.1,
+							"width": 0.3,
+							"height": 1
+						}
+					}
+				},
+				{
+					"src": "{{Communities}}/img/welcome/gallery/share.jpg",
+					"caption": "Communities/content/welcome/gallery/Share",
+					"interval": {
+						"type": "kenburns",
+						"from": {
+							"left": 0.3,
+							"top": 0.1,
+							"width": 0.5,
+							"height": 0.5
+						},
+						"to": {
+							"left": 0,
+							"top": 0,
+							"width": 1,
+							"height": 1
+						}
+					}
+				}
+			],
+			"usersList": {
+				"type": "Users/list"
+			}
+		}
+	}
+}

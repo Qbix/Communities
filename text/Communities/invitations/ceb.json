@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Giimbitar ka",
+        "Member": "Miyembro sa {{title}}",
+        "Explanation": "{{1}} nalipay sa pagpahibalo sa paglunsad sa among bag-ong website. Naglakip kini sa nagkadako nga lista sa mga bahin, sama sa:",
+        "Public": "Pampublikong impormasyon bahin sa {{1}}",
+        "Private": "Usa ka pribadong user account alang sa matag miyembro",
+        "Notifications": "Pinaagi sa pagsulod sa imong email address o mobile number makadawat ka ug importanteng mga pahibalo pinaagi sa email o text message.",
+        "GetStarted": "Aron makasugod, sa imong web browser palihug <em>pag-ayo<\/em> pagsulod:<br>",
+        "IssuedToYou": "Kini nga code espesipikong gihatag kanimo."
+    }
+}

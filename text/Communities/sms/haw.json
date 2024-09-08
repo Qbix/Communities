@@ -1,0 +1,20 @@
+{
+    "activation": {
+        "Thanks": "Welina mai iā {{1}}.",
+        "ClickHere": "Kaomi maanei e ho&#39;ā i kāu moʻokāki: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Kaomi ma aneʻi e hōʻoia i kāu helu kelepona: {{1}}"
+    },
+    "SeeHistory": "E ʻike i ka mōʻaukala uku no {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} ua uku ia {{2}} no {{3}} e {{4}}"
+    },
+    "charged": {
+        "HavePaid": "ʻAuhea {{1}}, he hōʻoia wikiwiki kēia i kou uku ʻana {{2}} iā {{3}} no {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Ua kau inoa ʻoe i {{2}} me {{3}} ma {{4}} no {{5}} mahina.",
+        "HasStarted": "Ua kau inoa ʻo {{1}} i {{2}} me {{3}} ma {{4}} no {{5}} mahina."
+    }
+}

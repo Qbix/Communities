@@ -1,0 +1,27 @@
+{
+    "activation": {
+        "Thanks": "Bonvenon al {{1}}",
+        "ReallyYourEmail": "Ĉu ĉi tio vere estas via retadreso, {{1}}? Se jes, alklaku <a href='{{2}}'>ĉi tie<\/a> por agordi vian pasfrazon kaj aktivigi vian konton.",
+        "SeeYou": "Ĝis revido <a href='{{1}}'>{{2}}<\/a> !"
+    },
+    "LinkToUnsubscribe": "Jen ligo por <a href='{{1}}'>malaboni<\/a> se vi ne volas ricevi pliajn retpoŝtojn.",
+    "Greetings": "Saluton de {{1}}.",
+    "SeeHistory": "Vidu paghistorion por {{1}}",
+    "charge": {
+        "HasBeenCharged": "He, ĉi tio estas nur por sciigi vin ke {{1}} estis ŝargita {{2}} por {{3}} de {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hej {{1}}, ĉi tio estas nur rapida konfirmo, ke vi sukcese pagis {{2}} al {{3}} por {{4}}"
+    },
+    "resend": {
+        "Thanks": "Dankon pro vizito {{1}}",
+        "YouAreReceiving": "Vi ricevas ĉi tiun retmesaĝon ĉar iu enigis vian retadreson kaj klakis &quot;forgesis pasfrazon&quot;. Se ĝi ne estis vi, simple ignoru ĉi tiun mesaĝon.",
+        "Reset": "Por restarigi vian pasfrazon, alklaku {{1}}",
+        "SetUpPassphrase": "Agordu pasfrazon"
+    },
+    "subscription": {
+        "YouHaveStarted": "Saluton {{1}}, vi komencis vian abonon al {{2}} kun {{3}} je {{4}} dum {{5}} monatoj.",
+        "HasStarted": "Ĉi tio estas nur por sciigi vin, ke {{1}} komencis sian abonon al {{2}} kun {{3}} je {{4}} dum {{5}} monatoj."
+    },
+    "SeeYou": "Ĝis revido {{1}}!"
+}

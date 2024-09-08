@@ -1,0 +1,24 @@
+{
+    "activation": {
+        "Thanks": "Tere tulemast {{1}}.",
+        "ClickHere": "Konto aktiveerimiseks klõpsake siin: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Mobiilinumbri kinnitamiseks klõpsake siin: {{1}}"
+    },
+    "SeeHistory": "Vaadake {{1}} maksete ajalugu",
+    "charge": {
+        "HasBeenCharged": "{{4}} on {{1}} võtnud tasu {{2}} eest {{3}}"
+    },
+    "charged": {
+        "HavePaid": "Tere, {{1}}, see on lihtsalt kiire kinnitus, et olete edukalt maksnud {{2}} isikule {{3}} summas {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Olete tellinud {{2}} teenusega {{3}} kell {{4}} {{5}} kuuks.",
+        "HasStarted": "{{1}} on tellinud {{2}} teenusega {{3}} kell {{4}} {{5}} kuuks."
+    },
+    "resend": {
+        "DidYouWant": "Kas tahtsite oma parooli lähtestada keeles {{1}}?",
+        "ClickHere": "Seejärel klõpsake siin: {{1}}"
+    }
+}

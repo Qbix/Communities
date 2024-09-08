@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Þér er boðið",
+        "Member": "Meðlimur hjá {{title}}",
+        "Explanation": "{{1}} er ánægður með að tilkynna kynningu á nýju vefsíðunni okkar. Það inniheldur vaxandi lista yfir eiginleika, svo sem:",
+        "Public": "Opinberar upplýsingar um {{1}}",
+        "Private": "Einkanotendareikningur fyrir hvern meðlim",
+        "Notifications": "Með því að slá inn netfangið þitt eða farsímanúmerið muntu geta fengið mikilvægar tilkynningar í tölvupósti eða textaskilaboðum.",
+        "GetStarted": "Til að byrja skaltu slá <em>varlega<\/em> inn í vafranum þínum:<br>",
+        "IssuedToYou": "Þessi kóða er sérstaklega gefinn út til þín."
+    }
+}

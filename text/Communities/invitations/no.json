@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Du er invitert",
+        "Member": "Medlem hos {{title}}",
+        "Explanation": "{{1}} har gleden av å kunngjøre lanseringen av vår nye nettside. Den inkluderer en voksende liste over funksjoner, for eksempel:",
+        "Public": "Offentlig informasjon om {{1}}",
+        "Private": "En privat brukerkonto for hvert medlem",
+        "Notifications": "Ved å skrive inn din e-postadresse eller mobilnummer vil du kunne motta viktige varsler på e-post eller tekstmelding.",
+        "GetStarted": "For å komme i gang, skriv <em>nøye<\/em> inn i nettleseren din:<br>",
+        "IssuedToYou": "Denne koden er spesielt utstedt til deg."
+    }
+}

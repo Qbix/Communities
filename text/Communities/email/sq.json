@@ -1,0 +1,33 @@
+{
+    "activation": {
+        "Thanks": "Mirë se vini në {{1}}",
+        "ReallyYourEmail": "Është vërtet kjo adresa juaj e emailit, {{1}}? Nëse po, klikoni <a href='{{2}}'>këtu<\/a> për të vendosur frazën tuaj të kalimit dhe për të aktivizuar llogarinë tuaj.",
+        "SeeYou": "Shihemi në <a href='{{1}}'>{{2}}<\/a> !",
+        "Subject": "Mirë se vini! Ju lutemi verifikoni adresën tuaj të emailit."
+    },
+    "LinkToUnsubscribe": "Këtu është një lidhje për t&#39;u <a href='{{1}}'>çregjistruar<\/a> nëse nuk dëshironi të merrni më emaile.",
+    "Greetings": "Përshëndetje nga {{1}}.",
+    "SeeHistory": "Shiko historikun e pagesave për {{1}}",
+    "charge": {
+        "HasBeenCharged": "Hej, kjo është vetëm për t&#39;ju bërë të ditur se {{1}} është tarifuar {{2}} për {{3}} nga {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hej {{1}}, ky është vetëm një konfirmim i shpejtë që i ke paguar me sukses {{2}} {{3}} për {{4}}"
+    },
+    "resend": {
+        "Thanks": "Faleminderit për vizitën {{1}}",
+        "YouAreReceiving": "Ju po e merrni këtë email sepse dikush futi adresën tuaj të emailit dhe kliko &quot;ka harruar frazën e kalimit&quot;. Nëse nuk ishit ju, thjesht injoroni këtë mesazh.",
+        "Reset": "Për të rivendosur frazën e kalimit, kliko {{1}}",
+        "SetUpPassphrase": "Vendos frazën e kalimit",
+        "DomainCode": "Nëse faqja e internetit është tashmë e hapur në shfletuesin tuaj, mund të futni kodin",
+        "Subject": "Hej, e harrove frazën e kalimit?"
+    },
+    "subscription": {
+        "YouHaveStarted": "Hej {{1}}, e ke filluar abonimin tënd në {{2}} me {{3}} në {{4}} për {{5}} muaj.",
+        "HasStarted": "Kjo është vetëm për t&#39;ju bërë të ditur {{1}}, ka filluar abonimin e tij në {{2}} me {{3}} në {{4}} për {{5}} muaj."
+    },
+    "SeeYou": "Shihemi në {{1}}!",
+    "identifier": {
+        "Subject": "Mirë se vini! Verifikoni adresën tuaj të emailit."
+    }
+}

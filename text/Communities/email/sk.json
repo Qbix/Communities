@@ -1,0 +1,33 @@
+{
+    "activation": {
+        "Thanks": "Vitajte v {{1}}",
+        "ReallyYourEmail": "Je toto naozaj vaša e-mailová adresa, {{1}}? Ak áno, kliknite <a href='{{2}}'>sem<\/a> a nastavte si prístupovú frázu a aktivujte svoj účet.",
+        "SeeYou": "Uvidíme sa na <a href='{{1}}'>{{100}}<\/a> !",
+        "Subject": "Vitajte! Overte svoju e-mailovú adresu."
+    },
+    "LinkToUnsubscribe": "Tu je odkaz na <a href='{{1}}'>odhlásenie<\/a> , ak si neželáte dostávať ďalšie e-maily.",
+    "Greetings": "Pozdrav z {{1}}.",
+    "SeeHistory": "Zobraziť históriu platieb za {{1}}",
+    "charge": {
+        "HasBeenCharged": "Dobrý deň, chceme vám oznámiť, že {{1}} bola účtovaná {{100}} za {{3}} používateľom {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Dobrý deň, {{1}}, toto je len rýchle potvrdenie, že ste úspešne zaplatili {{2}} používateľovi {{3}} za {{4}}"
+    },
+    "resend": {
+        "Thanks": "Ďakujeme za návštevu {{1}}",
+        "YouAreReceiving": "Tento e-mail ste dostali, pretože niekto zadal vašu e-mailovú adresu a klikol na „zabudol som heslo“. Ak ste to neboli vy, jednoducho túto správu ignorujte.",
+        "Reset": "Ak chcete obnoviť prístupovú frázu, kliknite na {{1}}",
+        "SetUpPassphrase": "Nastavte prístupovú frázu",
+        "DomainCode": "Ak je webová stránka už otvorená vo vašom prehliadači, môžete zadať kód",
+        "Subject": "Hej, zabudli ste svoju prístupovú frázu?"
+    },
+    "subscription": {
+        "YouHaveStarted": "Dobrý deň, {{1}}, začali ste svoje predplatné {{100}} s {{3}} od {{4}} na {{5}} mesiace.",
+        "HasStarted": "Chceme vás len informovať, že {{1}} spustil svoje predplatné {{2}} s {{3}} od {{4}} na {{5}} mesiacov."
+    },
+    "SeeYou": "Uvidíme sa na {{1}}!",
+    "identifier": {
+        "Subject": "Vitajte! Overte svoju e-mailovú adresu."
+    }
+}

@@ -1,0 +1,188 @@
+@import '../tools/unseen.css';
+
+.Q_column_me .Q_column_slot {
+	padding: 10px 5px;
+}
+.Q_column_me .Q_title_slot .Users_avatar_tool .Users_avatar_name {
+	display: none;
+}
+.Q_column_me .Q_title_slot .Users_avatar_tool {
+	margin-right: 10px;
+}
+.Communities_me_column .Users_avatar_tool .Q_badge {
+	cursor: pointer;
+}
+.Communities_me_column > .Users_avatar_tool > .Users_avatar_name {
+	margin-left: 10px;
+}
+.Communities_me_column .Users_avatar_name .Q_inplace_tool .Q_inplace_tool_static {
+	font-size: 18px;
+}
+.Communities_me_column .Users_avatar_name .Q_inplace_tool input,
+.Communities_me_column .Users_avatar_name .Q_inplace_tool_container {
+	min-width: 50px !important;
+}
+#Users_avatar-Communities_me_tool .Streams_username,
+#Users_avatar-Communities_me_tool .Streams_firstName,
+#Users_avatar-Communities_me_tool .Streams_lastName { 
+	display: block;
+}
+.Q_column_me .Communities_me_column_qrcode {
+	text-align: center;
+	padding: 10px 0;
+}
+.Q_column_me .Communities_me_column_qrcode img {
+	margin: 0 auto;
+}
+.Q_column_me .Communities_me_column_qrcode_icon {
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+	float: left;
+	margin-right: 10px;
+}
+.Communities_me_column .Communities_tabs {
+	margin-top: 25px;
+	font-size: 0;
+}
+.Communities_me_column_tabContent {
+	margin-top: -1px;
+	border: 1px solid #777;
+	display: none;
+	padding: 10px 5px 5px 5px;
+}
+.Communities_me_column_tabContent.Communities_profile_sections {
+	padding: 0 5px 5px 5px;
+}
+.Communities_me_column_tabContent.Q_current,
+.Communities_schedule_column_tabContent.Q_current {
+	display: block;
+}
+.Communities_me_column_tabContent[data-val="credits"] {
+	text-align: center;
+}
+.Communities_me_column_tabContent[data-val=profile] .Communities_myProfile #Users_avatar-profile_tool {
+	display: none;
+}
+.Communities_me_column_tabContent[data-val=profile] .Streams_form_tool {
+	text-align: center;
+}
+.Q_mobile .Communities_tabs[data-style="icons"] .Communities_tab[data-val=schedule] {
+	margin-right: 10%;
+}
+.Communities_me_column_tabContent[data-val=interests] {
+	background-color: #822;
+	color: #fff;
+}
+.Communities_me_column_tabContent h2 {
+	font-size: 18px;
+	text-align: center;
+}
+.Communities_me_column_tabContent .Q_expandable_tool h2 {
+	text-align: left;
+	background-color: rgba(0,0,0,.1);
+	padding-left: 2%;
+	margin: 5px 0;
+}
+.Communities_me_column_tabContent .Q_expandable_tool h2.Q_expanded {
+	background: var(--expandable-expanded-background);
+	color: var(--expandable-expanded-color);
+}
+
+.Communities_me_column .Communities_me_icon {
+	display: block;
+	position: absolute;
+	right: 20px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	z-index: 20;
+}
+.Communities_me_column .Communities_me_icon::before {
+	font-family: 'qplatform-communities' !important; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+	font-size: 24px;
+	color: var(--html-link-color);
+}
+.Communities_me_column .Communities_me_icon[data-checked=true]::after {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: -5px;
+	content: "\00a0";
+	width: 15px;
+	height: 15px;
+	background-repeat: no-repeat;
+	background-image: url(../../img/checkedin.png);
+}
+.Communities_me_column .Communities_me_icon[data-value=mobile]::before { content: "\e918"; }
+.Communities_me_column .Communities_me_icon[data-value=mobile] {
+	top: 10px;
+}
+.Communities_me_column .Communities_me_icon[data-value=email]::before { content: "\e91a"; }
+.Communities_me_column .Communities_me_icon[data-value=email] {
+	top: 35px;
+}
+.Communities_me_column .Communities_me_icon[data-value=web3]::before { content: "\e94e"; font-weight: bold; }
+.Communities_me_column .Communities_me_icon[data-value=web3] {
+	top: 60px;
+}
+
+.Communities_profile_sections .Communities_profile[data-val=greeting] {
+	padding-bottom: 20px;
+}
+.Q_columns_column .Communities_profile[data-val=greeting] .Streams_inplace_tool,
+.Q_columns_column .Communities_profile[data-val=greeting] .Streams_inplace_tool .Q_inplace_tool {
+	width: 90%;
+	text-align: center;
+}
+.Q_column_me .Communities_profile_main .Communities_tabs {
+	display: none;
+}
+.Communities_profile_logout, .Communities_profile_manageNotifications {
+	margin-top: 10px;
+	text-align: center;
+}
+.Communities_profile_manageNotifications {
+	margin-top: 10px;
+}
+.Communities_me_column .Websites_webpage_composer_tool .Q_autogrow_container,
+.Communities_me_column .Websites_webpage_composer_tool button[name=startConversation],
+.Q_expandable_content .Communities_profile > h2 {
+	display: none;
+}
+.Q_column_me.Q_column_0 .Q_columns_title {
+	display: none;
+}
+
+.Q_mobile .Communities_tabs[data-style=icons] .Communities_tab {
+	width: 40px;
+}
+
+.Communities_tabs[data-style=icons] .Communities_tab[data-val=settings]::before {
+	font-family: "icomoon";
+	content: "\e9a0";
+}
+
+.Communities_profile_userId {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+#page .Communities_me_column .Communities_me_column_tabContent[data-val=inbox] .Communities_invite {
+	background: green;
+}
+.Communities_me_column .Communities_roles_tool {
+	position: absolute;
+	right: 60px;
+	top: 5px;
+}
+#page .Communities_me_column .Communities_connected_account_button[data-ready="1"] {
+	pointer-events: none;
+	background: green;
+}
+.Media_episode_tool .Media_tabs {
+	display: none;
+}

@@ -1,0 +1,459 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> nu indică nimic!",
+        "NextSteps": "Utilizați meniul principal pentru a găsi ceea ce căutați."
+    },
+    "dashboard": {
+        "Menu": "Meniul",
+        "Home": "Acasă",
+        "Welcome": "Bine ati venit",
+        "Events": "Evenimente",
+        "Discuss": "Discuta",
+        "People": "oameni",
+        "About": "Despre",
+        "Community": "Comunitate",
+        "LogIn": "log in",
+        "LogOut": "deconectați-vă",
+        "Intercoin": "Intercoin",
+        "Shows": "Spectacole",
+        "Calendar": "Calendar",
+        "Me": "Pe mine",
+        "Media": "Mass-media",
+        "Services": "Servicii",
+        "SetMobileNumber": "Setați numărul de mobil",
+        "SetEmailAddress": "Setați adresa de e-mail"
+    },
+    "greeting": {
+        "Welcome": "Bun venit la {{1}}. Aici veți găsi lucruri postate pentru membrii comunității noastre. Vă rugăm să adăugați adresa dvs. de e-mail sau numărul de telefon mobil pentru a primi notificări când sunt postate anunțuri."
+    },
+    "conversations": {
+        "Title": "Conversații",
+        "New": "Conversație nouă",
+        "Conversation": "Conversaţie",
+        "Topics": "Subiecte",
+        "NoneYet": "Nu s-au format încă conversații",
+        "newConversations": "{{1}} conversații noi",
+        "AllAuthors": "Toți autorii",
+        "FilterbyAuthors": "Filtrați după autori",
+        "FilterAuthorPlaceHolder": "Căutați autori suplimentari...",
+        "filterConversations": "Filtrați după text",
+        "Description": "{{1}} conversații"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Alege un subiect",
+            "Share": "Acțiune",
+            "interest": {
+                "Title": "Alegeți o activitate",
+                "Filter": "Interese de căutare..."
+            }
+        },
+        "Title": "Conversație nouă",
+        "TitlePlaceholder": "Subiectul conversației dvs",
+        "ContentPlaceholder": "Scrie câteva cuvinte pentru a începe conversația, astfel încât ceilalți să poată răspunde",
+        "StartButton": "Începe conversația"
+    },
+    "events": {
+        "Title": "Evenimente",
+        "filterByTitle": "Găsiți evenimente după titlu",
+        "New": "+ Începe un nou eveniment",
+        "filterEvents": "Filtrați evenimentele",
+        "NewEvent": "Eveniment nou",
+        "SetLocation": "Setați locația mea",
+        "NoneYet": "Nu s-au format încă evenimente<br> în aceste vremuri.",
+        "AllAuthors": "Toți autorii",
+        "AllDays": "Toate zilele",
+        "AllLocations": "Toate locațiile",
+        "MakeReservation": "A face rezervare",
+        "CancelReservation": "Anulați rezervarea",
+        "UpdateReservation": "Actualizați rezervarea",
+        "AreYouSure": "Esti sigur?",
+        "YouWillRefunded": "Veți fi rambursat sub formă de credite pe care le puteți cheltui pentru alte lucruri din aplicație.",
+        "AllInterests": "Toate Interesele",
+        "FilterbyInterest": "Filtrați după interes",
+        "FilterByDate": "Filtrați după dată",
+        "ShowActivities": "Afișați activități legate de . . .",
+        "newEvents": "Aveți {{1}} evenimente noi",
+        "SelectLocation": "Selectați Locație",
+        "FilterLocationsPlaceHolder": "Filtrați locațiile cu...",
+        "Description": "{{1}} evenimente",
+        "Keywords": "{{1}} evenimente"
+    },
+    "schedule": {
+        "Title": "Programa",
+        "NoneYet": "Nu participați la niciun eveniment",
+        "AddSome": "Adaugă câteva în programul tău!",
+        "AddMore": "Adaugă evenimente în programul tău!",
+        "future": "viitor",
+        "past": "trecut"
+    },
+    "location": {
+        "Title": "Locație",
+        "NewLocation": "Locație nouă"
+    },
+    "inbox": {
+        "Title": "Inbox",
+        "NoneYet": "Nu participați la nicio conversație",
+        "FindPeople": "Găsiți oameni cu care să vorbiți",
+        "GroupConversations": "Alăturați-vă unor conversații de grup",
+        "ContactStaff": "Contactați personalul",
+        "ContactCustomers": "Contactați Clienții",
+        "AddNewContact": "Adăugați un contact nou",
+        "AddNewContacts": "Adăugați contacte noi"
+    },
+    "me": {
+        "Title": "Pe mine",
+        "MobileNumber": "Numar de mobil",
+        "EmailAddress": "Adresa de email",
+        "UpdateSocialTitle": "Actualizați numele de utilizator {{1}}",
+        "Web3": "Web3"
+    },
+    "people": {
+        "Title": "oameni",
+        "Description": "Persoane din comunitatea {{1}}",
+        "AppAlert": "Această aplicație din magazinul de aplicații vă va permite să vă conectați cu prietenii și multe altele.",
+        "Invite": "Invita prieteni",
+        "BuyCredits": "Cumpărați credite",
+        "FindSomeoneByName": "Găsiți pe cineva după nume",
+        "SearchByName": "Cauta dupa nume",
+        "FindAllMyFriends": "Găsește-mi toți prietenii",
+        "labels": {
+            "All": "Toata lumea",
+            "Title": "Filtrați după relație",
+            "New": "Nou tip de relație"
+        },
+        "interests": {
+            "All": "Toate Interesele",
+            "Title": "Filtrați după interes",
+            "Filter": "Arată persoanelor interesate de . . ."
+        },
+        "Keywords": "{{1}} comunitate de oameni"
+    },
+    "communities": {
+        "Title": "Comunitățile",
+        "NewCommunity": "Comunitate nouă",
+        "FindCommunityByName": "Găsiți comunitatea după nume",
+        "Description": "{{1}} comunități"
+    },
+    "community": {
+        "Title": "{{1}} Comunitate",
+        "Roles": "Roluri",
+        "AllRoles": "Toate rolurile",
+        "YouDontHavePermission": "Nu sunteți autorizat să faceți acest lucru",
+        "usernamePlaceholder": "setați numele comunității",
+        "NotEnoughCredits": "Nu aveți suficiente credite pentru a crea o comunitate. Ai nevoie de {{1}}, ai {{2}}"
+    },
+    "event": {
+        "GetDirections": "A primi direcții",
+        "WhichMap": "Ce hărți ați dori să utilizați?",
+        "JoinEventToChat": "Alăturați-vă evenimentului pentru a conversa",
+        "promote": {
+            "Title": "Promovați acest eveniment",
+            "Prompt": "Alegeți unde doriți să promovați acest eveniment:"
+        },
+        "Confirmation": "Confirmare"
+    },
+    "newEvent": {
+        "Title": "Planificați un nou eveniment"
+    },
+    "interests": {
+        "Title": "Interese",
+        "prompt": "Selectați tipurile de lucruri despre care doriți să aflați.",
+        "explanation": "Cu cât selectați mai multe interese, cu atât aveți mai multe șanse să intrați în legătură cu persoane care au aceleași idei.",
+        "filter": "Ce te intereseaza?",
+        "Profile": "Sunt evidențiate interesele reciproce. Dacă aveți și unul sau mai multe dintre interesele de mai jos, puteți {{clickOrTap}} să le adăugați."
+    },
+    "credits": {
+        "Title": "credite",
+        "EarnCredits": "Câștigați {{1}} credite pentru fiecare persoană nouă pe care o invitați și care se alătură aplicației",
+        "YouHave": "Aveți {{1}} credite"
+    },
+    "onboarding": {
+        "Tap": "Atingeți",
+        "Click": "Clic",
+        "Yes": "da",
+        "No": "Nu",
+        "Skip": "sau sări peste asta",
+        "name": {
+            "Preface": "Bun venit la",
+            "Placeholder": "Introduceți numele dvs. complet",
+            "GetStarted": "Incepe",
+            "AsGuest": "Ai fost invitat ca oaspete.",
+            "AsMember": "Ai fost invitat ca membru.",
+            "AsAdmin": "Ai fost invitat ca administrator.",
+            "AsOwner": "Ai fost invitat ca proprietar.",
+            "TooShort": "Numele tău complet nu poate fi atât de scurt",
+            "SetAsYourFullName": "Setați {{1}} ca nume complet?"
+        },
+        "icon": {
+            "KeepDefault": "sau păstrează această fotografie",
+            "SetYourPhoto": "{{ClickOrTap}} pentru a vă seta fotografia:",
+            "ClickOnYourFace": "{{ClickOrTap}} Pe fața ta"
+        },
+        "interests": {
+            "GetStarted": "⇩ Începeți",
+            "NextCategory": "↓ În continuare",
+            "Continue": "Continua",
+            "Instructions": "În fiecare dintre următoarele {{1}} categorii,<br> {{2}} toate activitățile care vă interesează.<br> Acesta este modul în care te conectezi cu alți oameni din comunitate."
+        },
+        "profile": {
+            "Profile": "Profilul îi ajută pe oameni să descopere mai multe despre tine.<br>",
+            "Birthday": "Vă rugăm să introduceți data nașterii:",
+            "Placeholder": "Cine esti si ce faci? Spune-le oamenilor ceva interesant sau unic despre tine.",
+            "Required": "Pentru a continua, scrie cel puțin câteva rânduri despre tine.",
+            "Month": "Lună",
+            "Day": "Zi",
+            "Year": "An",
+            "Gender": "Gen",
+            "Male": "Masculin",
+            "Female": "Femeie",
+            "Other": "Alte",
+            "Height": "Înălţime",
+            "Affiliation": "Afiliere",
+            "Dating": "Întâlnire",
+            "Interested": "Interesat",
+            "NotInterested": "Nu sunt interesat",
+            "MatchmakerOnly": "Doar Matchmaker"
+        },
+        "location": {
+            "NoOneElse": "Nimeni altcineva nu o va vedea.",
+            "SetMyLocation": "Setează-mi locația"
+        },
+        "pile": {
+            "DialogTitle": "Persoane cu interese comune"
+        },
+        "Done": "Terminat",
+        "relationships": {
+            "title": "Adăugați {{userName}} în agenda telefonică",
+            "welcome": "Bun venit {{user}}",
+            "invitedByUser": "te-a invitat.",
+            "addToPhonebook": "Salvați în Contactele mele din telefon",
+            "iosInstructions": "Derulați în jos la Adăugați contact nou",
+            "androidInstructions": "Ar trebui să deschideți acest fișier vCard după ce va fi descărcat.",
+            "explanation": "Care este relația ta?"
+        },
+        "Title": "Informatii de baza",
+        "Prompt": "Câțiva pași pentru a vă configura contul"
+    },
+    "profile": {
+        "Title": "Profil",
+        "Male": "Masculin",
+        "Female": "Femeie",
+        "Other": "Alte",
+        "dating": {
+            "Interested": "Interesat",
+            "NotInterested": "Nu sunt interesat",
+            "MatchmakerOnly": "Doar Matchmaker"
+        },
+        "StartConversation": "Începeți o conversație",
+        "blockUser": "Blocați acest utilizator",
+        "blockUserAlert": "Nu veți mai vedea mesaje de la acest utilizator până când nu le deblocați.",
+        "unblockUser": "Deblocați acest utilizator",
+        "addToContacts": "Adaugă la contacte",
+        "manageLabels": "Gestionați etichetele",
+        "inviteUsers": "Invitați utilizatori",
+        "selectRole": "Selectați Rol",
+        "inviteSuccess": "Utilizator invitat ca {{label}}",
+        "invite": "A invita",
+        "relationships": "Relații",
+        "newRole": "Rol nou",
+        "about": "Despre",
+        "people": "oameni",
+        "info": "Info",
+        "interests": "Interese",
+        "chat": "conversație",
+        "locations": "Locații",
+        "ManageRoles": "Gestionați rolurile",
+        "aboutPlaceholder": "Cine esti si ce faci? Spune-le oamenilor ceva interesant sau unic despre tine.",
+        "explanation": "Profilul vă ajută să vă potriviți mai bine cu alte persoane pentru activități de grup.<br> Vă rugăm să introduceți data nașterii",
+        "chats": {
+            "placeholder": "Spune ceva"
+        },
+        "LogOut": "Deconectați-vă",
+        "MyLinks": "Linkurile mele",
+        "MyJobs": "Joburile mele",
+        "MySocial": "MySocial",
+        "MyEducation": "Educația mea",
+        "JobsPlaceholder": "Introduceți aici informații despre locuri de muncă",
+        "EducationPlaceholder": "Introduceți aici informații despre educație",
+        "ManageNotifications": "Gestionați notificările",
+        "YourPreferredLanguage": "Limba dvs. preferată",
+        "SendCrypto": "A plati",
+        "Block": "bloc",
+        "Unblock": "Deblocați",
+        "Email": "E-mail",
+        "Avoid": "Evita",
+        "CreatePrivateChat": "Cheltuiți {{credits}} credite pentru a contacta?",
+        "RolesInCommunity": "Roluri în comunitate",
+        "PersonalChatWith": "Chat personal cu {{name}}",
+        "SendCryptoTo": "Trimiteți criptografii către {{name}}",
+        "SendEmailTo": "Trimite e-mail la {{name}}",
+        "SendSMSTo": "Trimiteți SMS la {{name}}",
+        "BlockThisUser": "Blocați acest utilizator",
+        "UnblockThisUser": "Deblocați acest utilizator",
+        "YouCantChatWithYourself": "Nu poți discuta cu tine însuți",
+        "blockUserAlertTitle": "Blocat {{displayName}}",
+        "sections": {
+            "education": "Educaţie",
+            "greeting": "Salut",
+            "jobs": "Locuri de munca",
+            "links": "Legături",
+            "language": "Limba",
+            "roles": "Roluri",
+            "personal": "Personal",
+            "social": "Social"
+        },
+        "Roles": "Roluri",
+        "SendPaymentTo": "Trimiteți o plată la {{name}}"
+    },
+    "myqr": {
+        "Title": "QR-ul meu"
+    },
+    "composer": {
+        "createCommunity": "Creați o comunitate",
+        "inviteAdmin": "Invitați administrator",
+        "inviteMember": "Invitați membru",
+        "newCommunityTitle": "Numele comunitatii",
+        "setCommunityTitle": "Numele comunitatii",
+        "creditsChargeRequest": "Sunteți de acord să cheltuiți {{price}} credite?",
+        "yes": "da",
+        "no": "Nu"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Bine ati venit! Vă rog să vă verificați adresa de email.",
+        "WelcomeVerifyEmail": "Bine ati venit! Verifică-ți adresa de email.",
+        "ForgetPass": "Hei, ți-ai uitat fraza de acces?",
+        "ManageEmailSubscriptions": "gestionați-vă abonamentele de e-mail",
+        "IfUnsubscribe": "Dacă doriți să vă dezabonați"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Bun venit la {{CommunityName}}. Această aplicație vă va ajuta să vă conectați cu prietenii, să descoperiți oameni noi cu interese comune și multe altele. Să începem!"
+            },
+            "icon": {
+                "Commentary": "Setează-ți fotografia. Așa te vor vedea oamenii pe site."
+            },
+            "interests": {
+                "Commentary": "Cu cât alegi mai multe articole, cu atât mai multe persoane poți întâlni.",
+                "Notifications": "Trebuie să permiteți notificările"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Notificările vă permit să aflați despre lucrurile care vă interesează, cum ar fi când un prieten se alătură aplicației sau vă trimite mesaje."
+        },
+        "invite": "{{Q.words.TapOrClick}} aici pentru a vedea cum puteți distribui asta altor persoane."
+    },
+    "payment": {
+        "onContribute": "Mulțumesc! Plata dvs. a trecut. Doriți să vă invitați prietenii să vi se alăture?",
+        "ConnectAccount": "Conectați contul"
+    },
+    "featureboard": {
+        "Text_1": "Lasă-ți vocea să fie auzită! Sunteți de acord că ar trebui să dezvoltăm o funcție sau o eroare? Faceți clic pe butonul pentru a-l sprijini.",
+        "Text_2": "Vrei să dezvoltăm o nouă caracteristică? Descrieți-l mai jos.",
+        "Text_3": "În fiecare săptămână începem să dezvoltăm funcția de top solicitată de comunitate. Toți banii contribuiți sunt direcționați în acest scop, permițându-ne să îmbunătățim aplicația.",
+        "Text_4": "Toți banii contribuiți sunt folosiți pentru a ne ajuta să ne plătim costurile de dezvoltare.",
+        "Text_5": "Aveți o idee pentru o caracteristică sau o remediere a erorilor pe care doriți să o facem, dar nu ați văzut încă adăugarea altora? Descrieți-l mai jos:",
+        "Options": [
+            {
+                "text": "400 USD Videoconferință în timp real"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "Informații locale de înregistrare primară de 200 USD"
+            },
+            {
+                "text": "130 USD Răsfoiți și distribuiți mii de {{1}} meme",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "80 USD Gestionați-vă propriile comunități",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "30 USD Remediați eroarea conversațiilor",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Solicitați o nouă funcție\/remediere",
+        "FeaturePlaceholder": "Scurt rezumat al caracteristicii",
+        "FeatureDescription": "Descrieți modul în care altcineva poate reproduce eroarea pe care o vedeți sau descrieți în detaliu caracteristica pe care doriți să o construiți",
+        "AddYourRequest": "Adăugați cererea dvs",
+        "NewFeature": "Optiune noua"
+    },
+    "contribute": {
+        "ContributeExplanation": "Ajutați-vă pentru dezvoltarea continuă a aplicației {{communityName}}. Toate contribuțiile tale ajută la remedierea erorilor și la dezvoltarea de noi funcții pentru a ajuta la dezvoltarea comunității online!",
+        "ReasonToContribute": "Această aplicație este întreținută de susținătorii {{communityName}}. Ajută la sprijinirea acestei aplicații, astfel încât să putem face diferența în viața oamenilor!"
+    },
+    "assetshistory": {
+        "Title": "Istoricul activelor",
+        "Charges": "Taxe",
+        "Credits": "credite"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Sterge contul",
+            "content": "Doriți să eliminați acest cont?",
+            "ok": "da",
+            "cancel": "Nu"
+        }
+    },
+    "import": {
+        "fileNotFound": "Ne pare rău, fișierul CSV nu a fost găsit.",
+        "fileEmpty": "Ne pare rău, fișierul CSV este gol.",
+        "userIdNotFound": "utilizator există, dar ID este gol",
+        "errorLine": "linie {{1}}",
+        "fieldNotFound": "Câmpul obligatoriu „{{1}}” nu a fost găsit",
+        "taskStreamInvalid": "flux de activități nevalid",
+        "instructionsEmpty": "instrucțiunile fluxului de activități sunt goale",
+        "complete": "Complet",
+        "activateUsers": "trimite mesaj de activare utilizatorilor?",
+        "importProgress": "Progres",
+        "joinEventLabel": "Alăturați-vă utilizatorilor la un eveniment aleatoriu",
+        "importOptions": "Opțiuni",
+        "sampleCSV": "Descărcați exemplu de CSV",
+        "fileLabel": "Încărcați foaie de calcul:",
+        "errorsTitle": "Au apărut erori",
+        "communityUsers": "Aceasta este lista comunităților",
+        "setAsConversation": "Coloana URL ca conversație",
+        "toMainCommunityToo": "adăugați utilizatori și în comunitatea principală",
+        "willImportedTo": "Utilizatorii vor fi importați în comunitate",
+        "ChooseFile": "alege fișierul"
+    },
+    "services": {
+        "Title": "Servicii",
+        "filterByTitle": "Găsiți servicii după titlu",
+        "New": "+ Începeți un nou serviciu",
+        "NewService": "Serviciu nou",
+        "NewAvailability": "Disponibilitate nouă",
+        "filterServices": "Servicii de filtrare",
+        "NoneYet": "Nu s-au format încă servicii<br> în aceste vremuri.",
+        "AllAuthors": "Toți autorii",
+        "AllDays": "Toate zilele",
+        "AllLocations": "Toate locațiile",
+        "MakeReservation": "A face rezervare",
+        "CancelReservation": "Anulați rezervarea",
+        "UpdateReservation": "Actualizați rezervarea",
+        "AreYouSure": "Esti sigur?",
+        "YouWillRefunded": "Veți fi rambursat sub formă de credite pe care le puteți cheltui pentru alte lucruri din aplicație.",
+        "AllInterests": "Toate Interesele",
+        "FilterbyInterest": "Filtrați după interes",
+        "FilterByDate": "Filtrați după dată",
+        "ShowActivities": "Afișați activități legate de...",
+        "newServices": "Aveți {{1}} servicii noi",
+        "SelectLocation": "Selectați Locație",
+        "FilterLocationsPlaceHolder": "Filtrați locațiile cu...",
+        "Description": "{{1}} serviciu",
+        "Keywords": "{{1}} serviciu"
+    },
+    "welcome": {
+        "Title": "{{appName}}: bine ai venit",
+        "GetStarted": "Incepe",
+        "gallery": {
+            "Connect": "Conectați",
+            "Organize": "Organiza",
+            "Travel": "Voiaj",
+            "Share": "Acțiune"
+        }
+    }
+}

@@ -1,0 +1,60 @@
+.Communities .Q_column_people .Q_title_slot::before {
+	content: "\e913"; color: #394ad5;
+}
+.Q_column_people .Q_column_slot {
+	overflow: hidden;
+}
+.Communities_find_friends {
+	text-align: center;
+}
+
+.Communities_app_button {
+	cursor: pointer;
+}
+
+#content_slot {
+	background: url(../../img/bg/paper/people.png);
+}
+
+html .Q_column_people input,
+html .Q_column_people input:focus {
+	background: transparent;
+	border: 0;
+	border-bottom: solid 1px #394ad5;
+}
+
+.Q_column_people .Communities_fade_bottom {
+	position: relative;
+	bottom: -1px;
+	height: 50px;
+	margin-top: -50px;
+	width: 100%;
+}
+.Communities_scrolledToBottom .Communities_fade_bottom {
+	display: none;
+}
+.Q_column_people .Streams_userChooser_tool {
+	margin-bottom: 0;
+}
+
+html .Streams_userChooser_tool input { font-size: 16px; }
+
+html #Users_list_tool {
+	padding-bottom: 30px;
+	overflow: auto;
+	overflow-x: hidden;
+	white-space: normal;
+	height: 100%;
+}
+
+.Communities_app_button {
+	display: none;
+}
+
+.Communities_people_invite {
+	text-align: center;
+}
+
+.Communities_column_facebook .Q_column_slot > .Q_tool.Streams_userChooser_tool {
+	display: none;
+}

@@ -1,0 +1,20 @@
+{
+    "activation": {
+        "Thanks": "Dobrodošli u {{1}}.",
+        "ClickHere": "Kliknite ovdje da aktivirate svoj račun: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Kliknite ovdje da potvrdite svoj broj mobilnog telefona: {{1}}"
+    },
+    "SeeHistory": "Pogledajte historiju plaćanja za {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} je naplaćeno {{2}} za {{3}} od strane {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hej {{1}}, ovo je samo kratka potvrda da ste uspješno platili {{2}} korisniku {{3}} za {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Pretplatili ste se na {{2}} sa {{3}} na {{4}} {{5}} mjeseci.",
+        "HasStarted": "{{1}} se pretplatio na {{2}} sa {{3}} u {{4}} za {{5}} mjeseci."
+    }
+}

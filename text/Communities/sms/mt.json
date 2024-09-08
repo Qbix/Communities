@@ -1,0 +1,24 @@
+{
+    "activation": {
+        "Thanks": "Merħba għal {{1}}.",
+        "ClickHere": "Ikklikkja hawn biex tattiva l-kont tiegħek: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Ikklikkja hawn biex tivverifika n-numru tal-mowbajl tiegħek: {{1}}"
+    },
+    "SeeHistory": "Ara l-istorja tal-ħlas għal {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} ġie ċċarġjat {{2}} għal {{3}} minn {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Ħej {{1}}, din hija biss konferma mgħaġġla li ħallast b&#39;suċċess {{2}} lil {{3}} għal {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Inti abbonajt għal {{2}} bi {{3}} fi {{4}} għal {{5}} xhur.",
+        "HasStarted": "{{1}} abbona għal {{2}} bi {{3}} fi {{4}} għal {{5}} xhur."
+    },
+    "resend": {
+        "DidYouWant": "Ridt tirrisettja l-passphrase tiegħek fi {{1}}?",
+        "ClickHere": "Imbagħad ikklikkja hawn: {{1}}"
+    }
+}

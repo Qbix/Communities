@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Vi estas invitita",
+        "Member": "Membro ĉe {{title}}",
+        "Explanation": "{{1}} ĝojas anonci la lanĉon de nia nova retejo. Ĝi inkluzivas kreskantan liston de funkcioj, kiel:",
+        "Public": "Publikaj informoj pri {{1}}",
+        "Private": "Privata uzantkonto por ĉiu membro",
+        "Notifications": "Enigante vian retadreson aŭ poŝtelefonan numeron vi povos ricevi gravajn sciigojn per retpoŝto aŭ tekstmesaĝo.",
+        "GetStarted": "Por komenci, en via retumilo bonvolu <em>zorge<\/em> enigi:<br>",
+        "IssuedToYou": "Ĉi tiu kodo estas specife eldonita al vi."
+    }
+}

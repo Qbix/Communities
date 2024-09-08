@@ -1,0 +1,362 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> baya nuna komai!",
+        "NextSteps": "Yi amfani da babban menu don nemo abin da kuke nema."
+    },
+    "dashboard": {
+        "Menu": "Menu"
+    },
+    "greeting": {
+        "Welcome": "Barka da zuwa {{1}}. Anan zaku sami abubuwan da aka buga ga membobin al&#39;ummarmu. Da fatan za a ƙara adireshin imel ko lambar wayar hannu don karɓar sanarwa lokacin da aka buga sanarwa."
+    },
+    "conversations": {
+        "Title": "Tattaunawa",
+        "New": "Sabuwar Tattaunawa",
+        "Conversation": "Tattaunawa",
+        "Topics": "Batutuwa",
+        "NoneYet": "Har yanzu ba a sami tattaunawa ba",
+        "newConversations": "{{1}} sabbin tattaunawa",
+        "AllAuthors": "Duk Marubuta",
+        "FilterbyAuthors": "Tace Marubuta",
+        "FilterAuthorPlaceHolder": "Bincika ƙarin marubuta...",
+        "filterConversations": "Tace da rubutu",
+        "Description": "{{1}} tattaunawa"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Zaɓi batu",
+            "Share": "Raba",
+            "interest": {
+                "Title": "Zaɓi Ayyuka",
+                "Filter": "Bincika abubuwan sha&#39;awa..."
+            }
+        },
+        "Title": "Sabuwar Tattaunawa",
+        "TitlePlaceholder": "Taken tattaunawar ku",
+        "ContentPlaceholder": "Rubuta ƴan kalmomi don fara tattaunawar, don wasu su ba da amsa",
+        "StartButton": "Fara Tattaunawa"
+    },
+    "events": {
+        "Title": "Abubuwan da suka faru",
+        "filterByTitle": "Nemo abubuwan da suka faru da take",
+        "New": "+ Fara Sabon Lamari",
+        "filterEvents": "Tace abubuwan da suka faru",
+        "NewEvent": "Sabon Lamari",
+        "SetLocation": "Saita Wurina",
+        "NoneYet": "Har yanzu ba a sami wasu abubuwan da suka faru ba<br> a cikin wadannan lokuta.",
+        "AllAuthors": "Duk Marubuta",
+        "AllDays": "Duk Kwanaki",
+        "AllLocations": "Duk Wuraren",
+        "MakeReservation": "Yi ajiyar wuri",
+        "CancelReservation": "Soke ajiyar ajiya",
+        "UpdateReservation": "Sabunta ajiyar ajiya",
+        "AreYouSure": "Ka tabbata?",
+        "YouWillRefunded": "Za a mayar da ku ta hanyar ƙididdigewa da za ku iya kashewa kan wasu abubuwa a cikin app.",
+        "AllInterests": "Duk Abubuwan Bukatu",
+        "FilterbyInterest": "Tace da sha&#39;awa",
+        "FilterByDate": "Tace Ta Kwanan Wata",
+        "ShowActivities": "Nuna ayyukan da suka danganci . . .",
+        "newEvents": "Kuna da sabbin abubuwa {{1}}",
+        "SelectLocation": "Zaɓi Wuri",
+        "FilterLocationsPlaceHolder": "Tace wuraren da...",
+        "Description": "{{1}} abubuwan da suka faru",
+        "Keywords": "{{1}} abubuwan da suka faru"
+    },
+    "schedule": {
+        "Title": "Jadawalin",
+        "NoneYet": "Ba kwa shiga cikin kowane lamari",
+        "AddSome": "Ƙara wasu zuwa jadawalin ku!",
+        "AddMore": "Ƙara abubuwan da ke faruwa a jadawalin ku!",
+        "future": "nan gaba",
+        "past": "baya"
+    },
+    "location": {
+        "Title": "Wuri",
+        "NewLocation": "Sabon Wuri"
+    },
+    "inbox": {
+        "Title": "Akwati mai shiga",
+        "NoneYet": "Ba kwa shiga cikin kowace tattaunawa",
+        "FindPeople": "Nemo mutanen da za ku yi magana da su",
+        "GroupConversations": "Shiga wasu tattaunawar rukuni",
+        "ContactStaff": "Tuntuɓi Ma&#39;aikatan",
+        "ContactCustomers": "Tuntuɓi Abokan ciniki"
+    },
+    "me": {
+        "Title": "Ni",
+        "MobileNumber": "Lambar salula",
+        "EmailAddress": "Adireshin i-mel",
+        "UpdateSocialTitle": "Sabunta sunan mai amfani {{1}}"
+    },
+    "people": {
+        "Title": "Mutane",
+        "Description": "Mutane a cikin {999}} al&#39;umma",
+        "AppAlert": "Wannan app a cikin kantin sayar da app zai ba ku damar haɗi tare da abokan ku, da ƙari mai yawa.",
+        "Invite": "Gayyatar Abokai",
+        "BuyCredits": "Sayi Kiredit",
+        "FindSomeoneByName": "Nemo wani da suna",
+        "SearchByName": "Bincika da suna",
+        "FindAllMyFriends": "Nemo Duk Abokai Na",
+        "labels": {
+            "All": "Kowa",
+            "Title": "Tace ta Dangantaka",
+            "New": "Sabuwar Nau&#39;in Dangantaka"
+        },
+        "interests": {
+            "All": "Duk Abubuwan Bukatu",
+            "Title": "Tace da sha&#39;awa",
+            "Filter": "Nuna masu sha&#39;awar . . ."
+        },
+        "Keywords": "{{1}} jama&#39;a"
+    },
+    "communities": {
+        "Title": "Al&#39;umma",
+        "NewCommunity": "Sabuwar Al&#39;umma",
+        "FindCommunityByName": "Nemo al&#39;umma da suna",
+        "Description": "{{1}} al&#39;umma"
+    },
+    "community": {
+        "Title": "{{1}} Al&#39;umma",
+        "Roles": "Matsayi",
+        "AllRoles": "Duk Matsayin",
+        "YouDontHavePermission": "Ba ku da izinin yin wannan",
+        "usernamePlaceholder": "saita sunan al&#39;umma",
+        "NotEnoughCredits": "Ba ku da isassun kuɗi don ƙirƙirar al&#39;umma. Bukatar {{1}}, kuna da {{2}}"
+    },
+    "event": {
+        "GetDirections": "Samu Hanyoyi",
+        "WhichMap": "Wadanne taswirori kuke so ku yi amfani da su?",
+        "JoinEventToChat": "Shiga taron don yin taɗi",
+        "promote": {
+            "Title": "Inganta wannan taron",
+            "Prompt": "Zaɓi inda kuke son haɓaka wannan taron:"
+        },
+        "Confirmation": "Tabbatarwa"
+    },
+    "newEvent": {
+        "Title": "Tsara Sabon Lamari"
+    },
+    "interests": {
+        "Title": "Abubuwan sha&#39;awa",
+        "prompt": "Zaɓi nau&#39;ikan abubuwan da kuke son sani akai.",
+        "explanation": "Yawancin abubuwan da kuka zaɓa, mafi kusantar ku za ku iya haɗawa da mutane masu tunani iri ɗaya.",
+        "filter": "Me kuke sha&#39;awar?",
+        "Profile": "An ba da fifiko ga sha&#39;awar juna. Idan kuma kuna da ɗaya ko fiye na abubuwan da ke ƙasa, kuna iya {999}} don ƙara su."
+    },
+    "credits": {
+        "Title": "Kiredit",
+        "EarnCredits": "Sami ƙididdige {{1}} ga kowane sabon mutumin da kuka gayyata wanda ya shiga app ɗin",
+        "YouHave": "Kuna da ƙididdiga {{1}}"
+    },
+    "onboarding": {
+        "Tap": "Taɓa",
+        "Click": "Danna",
+        "Yes": "Ee",
+        "No": "A&#39;a",
+        "Skip": "ko tsallake wannan",
+        "name": {
+            "Preface": "Barka da zuwa",
+            "Placeholder": "Shigar da cikakken sunan ku",
+            "GetStarted": "Fara",
+            "AsGuest": "An gayyace ku a matsayin bako.",
+            "AsMember": "An gayyace ku a matsayin memba.",
+            "AsAdmin": "An gayyace ku a matsayin admin.",
+            "AsOwner": "An gayyace ku a matsayin mai shi.",
+            "TooShort": "Cikakken sunan ku ba zai iya zama gajere haka ba",
+            "SetAsYourFullName": "Saita {{1}} a matsayin cikakken sunan ku?"
+        },
+        "icon": {
+            "KeepDefault": "ko ajiye wannan hoton",
+            "SetYourPhoto": "{{ClickOrTap}} don saita hoton ku:"
+        },
+        "interests": {
+            "GetStarted": "⇩ Farawa",
+            "NextCategory": "↓ Na gaba",
+            "Continue": "Ci gaba",
+            "Instructions": "A cikin kowane rukunin {{1}} na gaba,<br> {{2}} duk ayyukan da kuke sha&#39;awar.<br> Wannan shine yadda kuke haɗawa da sauran mutane a cikin al&#39;umma."
+        },
+        "profile": {
+            "Profile": "Bayanan martabarku yana taimaka wa mutane su sami ƙarin sani game da ku.<br>",
+            "Birthday": "Da fatan za a shigar da ranar haihuwar ku:",
+            "Placeholder": "Wanene kai kuma me kake yi? Faɗa wa mutane wani abu mai ban sha&#39;awa ko na musamman game da kanku.",
+            "Required": "Don ci gaba, rubuta aƙalla layi biyu game da kanku.",
+            "Month": "Watan",
+            "Day": "Rana",
+            "Year": "Shekara",
+            "Gender": "Jinsi",
+            "Male": "Namiji",
+            "Female": "Mace",
+            "Other": "Sauran",
+            "Height": "Tsayi",
+            "Affiliation": "Alaka",
+            "Dating": "Dating",
+            "Interested": "Mai sha&#39;awa",
+            "NotInterested": "Ba Sha&#39;awa",
+            "MatchmakerOnly": "Matchmaker Kawai"
+        },
+        "location": {
+            "NoOneElse": "Ba wanda zai ganta.",
+            "SetMyLocation": "Saita wurina"
+        },
+        "pile": {
+            "DialogTitle": "Mutane Masu Bukatu Gabaɗaya"
+        },
+        "Done": "Anyi"
+    },
+    "profile": {
+        "Title": "Bayanan martaba",
+        "Male": "Namiji",
+        "Female": "Mace",
+        "Other": "Sauran",
+        "dating": {
+            "Interested": "Mai sha&#39;awa",
+            "NotInterested": "Ba sha&#39;awa",
+            "MatchmakerOnly": "Matchmaker kawai"
+        },
+        "StartConversation": "Fara Tattaunawa",
+        "blockUser": "Toshe wannan mai amfani",
+        "blockUserAlert": "Ba za ku ƙara ganin saƙonni daga wannan mai amfani ba har sai kun buge su.",
+        "unblockUser": "Cire katanga wannan mai amfani",
+        "addToContacts": "Ƙara zuwa Lambobin sadarwa",
+        "manageLabels": "Sarrafa Lakabi",
+        "inviteUsers": "Gayyatar Masu Amfani",
+        "selectRole": "Zaɓi Matsayi",
+        "inviteSuccess": "An yi nasarar gayyatar mai amfani azaman {{label}}",
+        "invite": "Gayyata",
+        "relationships": "Dangantaka",
+        "newRole": "Sabuwar Matsayi",
+        "about": "Game da",
+        "people": "Mutane",
+        "info": "Bayani",
+        "interests": "Abubuwan sha&#39;awa",
+        "chat": "Taɗi",
+        "locations": "Wuraren",
+        "ManageRoles": "Sarrafa Matsayi",
+        "aboutPlaceholder": "Wanene kai kuma me kake yi? Faɗa wa mutane wani abu mai ban sha&#39;awa ko na musamman game da kanku.",
+        "explanation": "Bayanin bayanan ku yana taimakawa mafi dacewa da ku da sauran mutane don ayyukan rukuni.<br> Da fatan za a shigar da ranar haihuwar ku",
+        "chats": {
+            "placeholder": "Ce wani abu"
+        },
+        "LogOut": "Fita",
+        "MyLinks": "Hanyoyi na",
+        "MyJobs": "Ayyukana",
+        "MySocial": "MySocial",
+        "MyEducation": "Ilimina",
+        "JobsPlaceholder": "Buga anan bayanin ayyuka",
+        "EducationPlaceholder": "Rubuta bayanin ilimi anan",
+        "ManageNotifications": "Sarrafa Sanarwa",
+        "YourPreferredLanguage": "Harshen da kuka fi so"
+    },
+    "myqr": {
+        "Title": "QR na"
+    },
+    "composer": {
+        "createCommunity": "Ƙirƙirar Al&#39;umma",
+        "inviteAdmin": "Gayyatar Admin",
+        "inviteMember": "Gayyatar memba",
+        "newCommunityTitle": "Sunan Al&#39;umma",
+        "setCommunityTitle": "Sunan Al&#39;umma",
+        "creditsChargeRequest": "Shin kun yarda ku kashe kuɗi {{price}}?",
+        "yes": "Ee",
+        "no": "A&#39;a"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Barka da zuwa! Da fatan za a tabbatar da adireshin imel ɗin ku.",
+        "WelcomeVerifyEmail": "Barka da zuwa! Tabbatar da adireshin imel ɗin ku.",
+        "ForgetPass": "Kai, ka manta kalmar sirrinka?",
+        "ManageEmailSubscriptions": "sarrafa biyan kuɗin imel ɗin ku",
+        "IfUnsubscribe": "Idan kuna son cirewa"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Barka da zuwa {{CommunityName}}. Wannan app ɗin zai taimaka muku haɗi tare da abokai, gano sabbin mutane masu buƙatu iri ɗaya, da ƙari mai yawa. Bari mu fara!"
+            },
+            "icon": {
+                "Commentary": "Saita hoton ku. Wannan shine yadda mutane zasu gan ku akan rukunin yanar gizon."
+            },
+            "interests": {
+                "Commentary": "Yawan abubuwan da kuka zaɓa, yawan mutanen da zaku iya saduwa da su.",
+                "Notifications": "Kuna buƙatar ba da izinin sanarwa"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Fadakarwa suna ba ku damar sanin abubuwan da kuke sha&#39;awar, kamar lokacin da aboki ya shiga app, ko saƙonku."
+        },
+        "invite": "{{Q.words.TapOrClick}} anan don ganin yadda zaku iya raba wannan tare da sauran mutane."
+    },
+    "payment": {
+        "onContribute": "Na gode! Biyan ku ya wuce. Kuna so ku gayyaci abokanku tare da ku?"
+    },
+    "featureboard": {
+        "Text_1": "Bari a ji muryar ku! Shin kun yarda ya kamata mu haɓaka fasali ko kwaro? Danna maɓallin don tallafawa shi.",
+        "Text_2": "Kuna so mu haɓaka sabon salo? Bayyana shi a kasa.",
+        "Text_3": "Kowane mako muna fara haɓaka fasalin da al&#39;umma ke nema. Duk kuɗin da aka bayar yana tafiya zuwa ga wannan manufar, yana ba mu damar inganta app ɗin.",
+        "Text_4": "Ana amfani da duk kuɗin da aka bayar don taimakawa biyan kuɗin ci gaban mu.",
+        "Text_5": "Shin kuna da ra&#39;ayi don fasali ko bugfix da kuke son mu yi amma ba ku ga wasu suna ƙara ba tukuna? Bayyana shi a ƙasa:",
+        "Options": [
+            {
+                "text": "$400 na ainihin lokacin taron bidiyo"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$200 Bayanan rajista na Farko na gida"
+            },
+            {
+                "text": "$130 Binciko kuma raba dubban memes na {{1}}",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 Sarrafa al&#39;ummomin ku",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Gyara matsalar tattaunawa",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Nemi Sabon Fasalo\/Bugfix",
+        "FeaturePlaceholder": "Takaitaccen bayanin fasali",
+        "FeatureDescription": "Bayyana yadda wani zai iya sake haifar da kwaro da kuke gani, ko bayyana dalla-dalla fasalin fasalin da kuke son ginawa.",
+        "AddYourRequest": "Ƙara Buƙatunku",
+        "NewFeature": "Sabon Siffa"
+    },
+    "contribute": {
+        "ContributeExplanation": "Taimaka goyan bayan ci gaba da haɓaka app ɗin {{communityName}}. Duk gudummawar ku na taimakawa wajen gyara kwari da haɓaka sabbin abubuwa don taimakawa haɓaka al&#39;ummar kan layi!",
+        "ReasonToContribute": "Magoya bayan {{communityName}} ne ke kula da wannan app. Taimaka tallafawa wannan app don mu iya kawo canji a rayuwar mutane!"
+    },
+    "assetshistory": {
+        "Title": "Tarihin kadara",
+        "Charges": "Caji",
+        "Credits": "Kiredit"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Cire asusun",
+            "content": "Kuna son cire wannan asusun?",
+            "ok": "Ee",
+            "cancel": "A&#39;a"
+        }
+    },
+    "import": {
+        "fileNotFound": "Yi haƙuri, ba a sami fayil ɗin CSV ba.",
+        "fileEmpty": "Yi haƙuri, fayil ɗin CSV fanko ne.",
+        "userIdNotFound": "akwai mai amfani amma id fanko",
+        "errorLine": "layi {{1}}",
+        "fieldNotFound": "Ba a samo filin da ake buƙata &quot;{999}}&quot; ba",
+        "taskStreamInvalid": "rafin aiki mara inganci",
+        "instructionsEmpty": "umarnin rafi aiki fanko",
+        "complete": "Cikakkun",
+        "activateUsers": "aika saƙon kunnawa ga masu amfani?",
+        "importProgress": "Ci gaba",
+        "joinEventLabel": "Haɗa masu amfani zuwa taron bazuwar",
+        "importOptions": "Zabuka",
+        "sampleCSV": "Zazzage Misalin CSV",
+        "fileLabel": "Loda Marubutan Labarai:",
+        "errorsTitle": "Kurakurai sun faru",
+        "communityUsers": "Wannan jerin al&#39;umma ne",
+        "setAsConversation": "Rukunin URL azaman tattaunawa",
+        "toMainCommunityToo": "ƙara masu amfani zuwa babban al&#39;umma kuma",
+        "willImportedTo": "Za a shigo da masu amfani zuwa ga al&#39;umma"
+    }
+}

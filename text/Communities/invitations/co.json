@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Sò invitati",
+        "Member": "Membru à {{title}}",
+        "Explanation": "{{1}} hè piacè di annunzià u lanciu di u nostru novu situ web. Include una lista crescente di funzioni, cum&#39;è:",
+        "Public": "Informazione publica nantu à {{1}}",
+        "Private": "Un contu d&#39;utilizatore privatu per ogni membru",
+        "Notifications": "Ingressendu u vostru indirizzu email o u vostru numeru di telefuninu, puderà riceve notificazioni impurtanti per email o missaghju di testu.",
+        "GetStarted": "Per cumincià, in u vostru navigatore web per piacè inserite <em>cun cura<\/em> :<br>",
+        "IssuedToYou": "Stu codice hè specificamente emessu per voi."
+    }
+}

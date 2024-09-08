@@ -1,0 +1,20 @@
+{
+    "activation": {
+        "Thanks": "Ku soo dhawoow {{1}}",
+        "ClickHere": "Riix halkan si aad u kiciso akoonkaaga: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Riix halkan si aad u xaqiijiso lambarkaaga mobaylka: {{1}}"
+    },
+    "SeeHistory": "Eeg taariikhda lacag bixinta {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} waxa lagu soo oogay {{2}} {{3}} {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hey {{1}}, tani waa xaqiijin degdeg ah inaad si guul leh u bixisay {{2}} {{3}} {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Waxaad ku biirtay {{2}} {{3}} wakhtiga {{4}} {{5}} bilood",
+        "HasStarted": "{{1}} waxa uu iska diiwaan galiyay {{2}} {{3}} wakhtiga {{4}} {{5}} bilo"
+    }
+}

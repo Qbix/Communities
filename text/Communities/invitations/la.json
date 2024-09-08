@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Invitari",
+        "Member": "Socius apud {{title}}",
+        "Explanation": "{{1}} delectum habet emissionem novi nostri loci nuntiare. Continet autem indicem linearum crescentium, uti:",
+        "Public": "Publica notitia de {{1}}",
+        "Private": "Privata ratio usoris pro omni membro",
+        "Notifications": "Ingrediendo inscriptionem electronicam tuam aut numerum mobilem notificationes magnas recipere poteris per nuntium electronicum aut textum.",
+        "GetStarted": "Ut incipias, in navigatro tuo interretialem quaeso <em>diligenter<\/em> intra:<br>",
+        "IssuedToYou": "Hoc signum ad vos specialiter edita est."
+    }
+}

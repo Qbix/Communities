@@ -1,0 +1,459 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span>は何も指していません！",
+        "NextSteps": "メインメニューを使用して、探しているものを見つけてください。"
+    },
+    "dashboard": {
+        "Menu": "メニュー",
+        "Home": "家",
+        "Welcome": "いらっしゃいませ",
+        "Events": "イベント",
+        "Discuss": "話し合う",
+        "People": "人々",
+        "About": "について",
+        "Community": "コミュニティ",
+        "LogIn": "ログイン",
+        "LogOut": "ログアウト",
+        "Intercoin": "インターコイン",
+        "Shows": "番組",
+        "Calendar": "カレンダー",
+        "Me": "自分",
+        "Media": "メディア",
+        "Services": "サービス",
+        "SetMobileNumber": "携帯電話番号を設定する",
+        "SetEmailAddress": "メールアドレスを設定する"
+    },
+    "greeting": {
+        "Welcome": "{{1}}へようこそ。ここでは、私たちのコミュニティのメンバーのために投稿されたものを見つけることができます。お知らせが投稿されたときに通知を受け取るには、メールアドレスまたは携帯電話番号を追加してください。"
+    },
+    "conversations": {
+        "Title": "会話",
+        "New": "新しい会話",
+        "Conversation": "会話",
+        "Topics": "トピック",
+        "NoneYet": "まだ会話は形成されていません",
+        "newConversations": "{{1}}新しい会話",
+        "AllAuthors": "すべての著者",
+        "FilterbyAuthors": "著者によるフィルタリング",
+        "FilterAuthorPlaceHolder": "追加の著者を検索...",
+        "filterConversations": "テキストでフィルタリング",
+        "Description": "{{1}}会話"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "トピックを選ぶ",
+            "Share": "シェア",
+            "interest": {
+                "Title": "アクティビティを選択してください",
+                "Filter": "興味のある検索..。"
+            }
+        },
+        "Title": "新しい会話",
+        "TitlePlaceholder": "会話の主題",
+        "ContentPlaceholder": "他の人が返信できるように、会話を始めるためにいくつかの単語を書いてください",
+        "StartButton": "会話を開始する"
+    },
+    "events": {
+        "Title": "イベント",
+        "filterByTitle": "タイトルでイベントを検索",
+        "New": "+新しいイベントを開始する",
+        "filterEvents": "イベントをフィルタリングする",
+        "NewEvent": "新しいイベント",
+        "SetLocation": "私の場所を設定する",
+        "NoneYet": "イベントはまだ形成されていません<br>これらの時間の間に。",
+        "AllAuthors": "すべての著者",
+        "AllDays": "終日",
+        "AllLocations": "すべての場所",
+        "MakeReservation": "予約します",
+        "CancelReservation": "予約をキャンセルする",
+        "UpdateReservation": "予約の更新",
+        "AreYouSure": "本気ですか？",
+        "YouWillRefunded": "アプリ内の他のことに費やすことができるクレジットの形で返金されます。",
+        "AllInterests": "すべての利益",
+        "FilterbyInterest": "関心でフィルタリング",
+        "FilterByDate": "日付でフィルタリング",
+        "ShowActivities": "に関連するアクティビティを表示します。 。 。",
+        "newEvents": "{{1}}の新しいイベントがあります",
+        "SelectLocation": "場所を選択",
+        "FilterLocationsPlaceHolder": "会場をフィルタリング...",
+        "Description": "{{1}}イベント",
+        "Keywords": "{{1}}イベント"
+    },
+    "schedule": {
+        "Title": "スケジュール",
+        "NoneYet": "あなたはどのイベントにも参加していません",
+        "AddSome": "あなたのスケジュールにいくつか追加してください！",
+        "AddMore": "スケジュールにイベントを追加してください！",
+        "future": "将来",
+        "past": "過去"
+    },
+    "location": {
+        "Title": "位置",
+        "NewLocation": "新しい場所"
+    },
+    "inbox": {
+        "Title": "受信トレイ",
+        "NoneYet": "会話に参加していません",
+        "FindPeople": "話し相手を探す",
+        "GroupConversations": "いくつかのグループ会話に参加する",
+        "ContactStaff": "スタッフに連絡する",
+        "ContactCustomers": "お客様へのお問い合わせ",
+        "AddNewContact": "新しい連絡先を追加",
+        "AddNewContacts": "新しい連絡先を追加"
+    },
+    "me": {
+        "Title": "自分",
+        "MobileNumber": "携帯電話番号",
+        "EmailAddress": "電子メールアドレス",
+        "UpdateSocialTitle": "{{1}}ユーザー名を更新",
+        "Web3": "Web3"
+    },
+    "people": {
+        "Title": "人",
+        "Description": "{{1}}コミュニティの人々",
+        "AppAlert": "アプリストアのこのアプリを使用すると、友達とつながることができます。",
+        "Invite": "友達を招待",
+        "BuyCredits": "クレジットを購入する",
+        "FindSomeoneByName": "名前で誰かを探す",
+        "SearchByName": "名前で検索",
+        "FindAllMyFriends": "すべての友達を探す",
+        "labels": {
+            "All": "みんな",
+            "Title": "関係でフィルタリング",
+            "New": "新しい関係タイプ"
+        },
+        "interests": {
+            "All": "すべての利益",
+            "Title": "関心でフィルタリング",
+            "Filter": "に興味のある人に見せましょう。 。 。"
+        },
+        "Keywords": "{{1}}人のコミュニティ"
+    },
+    "communities": {
+        "Title": "コミュニティ",
+        "NewCommunity": "新しいコミュニティ",
+        "FindCommunityByName": "名前でコミュニティを探す",
+        "Description": "{{1}}コミュニティ"
+    },
+    "community": {
+        "Title": "{{1}}コミュニティ",
+        "Roles": "役割",
+        "AllRoles": "すべての役割",
+        "YouDontHavePermission": "あなたはこれを行う権限がありません",
+        "usernamePlaceholder": "コミュニティ名を設定する",
+        "NotEnoughCredits": "コミュニティを作成するのに十分なクレジットがありません。 {{1}}が必要です。{{2}}があります"
+    },
+    "event": {
+        "GetDirections": "行き方を調べる",
+        "WhichMap": "どのマップを使用しますか？",
+        "JoinEventToChat": "イベントに参加してチャットする",
+        "promote": {
+            "Title": "このイベントを宣伝する",
+            "Prompt": "このイベントを宣伝する場所を選択してください。"
+        },
+        "Confirmation": "確認"
+    },
+    "newEvent": {
+        "Title": "新しいイベントを計画する"
+    },
+    "interests": {
+        "Title": "興味",
+        "prompt": "知りたいことの種類を選択してください。",
+        "explanation": "選択する興味が多ければ多いほど、志を同じくする人々とつながる可能性が高くなります。",
+        "filter": "あなたは何に興味がありますか？",
+        "Profile": "相互の利益が強調されています。以下の1つ以上の関心事もある場合は、{{clickOrTap}}で追加できます。"
+    },
+    "credits": {
+        "Title": "クレジット",
+        "EarnCredits": "アプリに参加する新しい招待者ごとに{{1}}クレジットを獲得できます",
+        "YouHave": "{{1}}クレジットがあります"
+    },
+    "onboarding": {
+        "Tap": "タップ",
+        "Click": "クリック",
+        "Yes": "はい",
+        "No": "番号",
+        "Skip": "またはこれをスキップ",
+        "name": {
+            "Preface": "ようこそ",
+            "Placeholder": "フルネームを入れて下さい",
+            "GetStarted": "はじめに",
+            "AsGuest": "ゲストとして招待されました。",
+            "AsMember": "メンバーとして招待されました。",
+            "AsAdmin": "管理者として招待されました。",
+            "AsOwner": "あなたは所有者として招待されました。",
+            "TooShort": "あなたのフルネームはそれほど短くすることはできません",
+            "SetAsYourFullName": "{{1}}をフルネームとして設定しますか？"
+        },
+        "icon": {
+            "KeepDefault": "またはこの写真を保管してください",
+            "SetYourPhoto": "{{ClickOrTap}}写真を設定するには：",
+            "ClickOnYourFace": "{{ClickOrTap}}オン ユア フェイス"
+        },
+        "interests": {
+            "GetStarted": "⇩はじめに",
+            "NextCategory": "↓次へ",
+            "Continue": "継続する",
+            "Instructions": "次の{{1}}カテゴリのそれぞれで、<br> {{2}}あなたが興味を持っているすべての活動。<br>これは、コミュニティ内の他の人々とつながる方法です。"
+        },
+        "profile": {
+            "Profile": "あなたのプロフィールは、人々があなたについてもっと知るのに役立ちます。<br>",
+            "Birthday": "あなたの誕生日を入力してください：",
+            "Placeholder": "あなたは誰ですか、そしてあなたは何をしますか？自分自身について何か面白いことやユニークなことを人々に伝えてください。",
+            "Required": "続行するには、自分自身について少なくとも数行書いてください。",
+            "Month": "月",
+            "Day": "日",
+            "Year": "年",
+            "Gender": "性別",
+            "Male": "男",
+            "Female": "女性",
+            "Other": "他の",
+            "Height": "高さ",
+            "Affiliation": "所属",
+            "Dating": "デート",
+            "Interested": "興味がある",
+            "NotInterested": "興味がない",
+            "MatchmakerOnly": "仲人のみ"
+        },
+        "location": {
+            "NoOneElse": "他の誰もそれを見ることができません。",
+            "SetMyLocation": "私の場所を設定します"
+        },
+        "pile": {
+            "DialogTitle": "共通の関心を持つ人々"
+        },
+        "Done": "終わり",
+        "relationships": {
+            "title": "{{userName}}を電話帳に追加",
+            "welcome": "ようこそ {{user}}",
+            "invitedByUser": "あなたを招待。",
+            "addToPhonebook": "携帯電話の連絡先に保存",
+            "iosInstructions": "下にスクロールして新しい連絡先を追加",
+            "androidInstructions": "ダウンロードした後、この vCard ファイルを開く必要があります。",
+            "explanation": "あなたの関係は何ですか？"
+        },
+        "Title": "基本情報",
+        "Prompt": "アカウントを設定するためのいくつかの手順"
+    },
+    "profile": {
+        "Title": "プロフィール",
+        "Male": "男",
+        "Female": "女性",
+        "Other": "他の",
+        "dating": {
+            "Interested": "興味がある",
+            "NotInterested": "興味がない",
+            "MatchmakerOnly": "仲人のみ"
+        },
+        "StartConversation": "会話を始める",
+        "blockUser": "このユーザーをブロックする",
+        "blockUserAlert": "ブロックを解除するまで、このユーザーからのメッセージは表示されません。",
+        "unblockUser": "このユーザーのブロックを解除する",
+        "addToContacts": "連絡先に追加",
+        "manageLabels": "ラベルの管理",
+        "inviteUsers": "ユーザーを招待する",
+        "selectRole": "役割を選択",
+        "inviteSuccess": "{{label}}としてユーザーを正常に招待しました",
+        "invite": "招待",
+        "relationships": "関係",
+        "newRole": "新しい役割",
+        "about": "約",
+        "people": "人",
+        "info": "情報",
+        "interests": "興味",
+        "chat": "チャット",
+        "locations": "場所",
+        "ManageRoles": "役割の管理",
+        "aboutPlaceholder": "あなたは誰ですか、そしてあなたは何をしますか？自分自身について何か面白いことやユニークなことを人々に伝えてください。",
+        "explanation": "あなたのプロフィールは、グループ活動のために他の人とあなたをよりよく一致させるのに役立ちます。<br>誕生日を入力して下さい",
+        "chats": {
+            "placeholder": "何か言って"
+        },
+        "LogOut": "ログアウト",
+        "MyLinks": "マイリンク",
+        "MyJobs": "私の仕事",
+        "MySocial": "MySocial",
+        "MyEducation": "私の教育",
+        "JobsPlaceholder": "ここにジョブ情報を入力してください",
+        "EducationPlaceholder": "ここに教育情報を入力してください",
+        "ManageNotifications": "通知を管理する",
+        "YourPreferredLanguage": "あなたの好きな言語",
+        "SendCrypto": "支払い",
+        "Block": "ブロック",
+        "Unblock": "ブロック解除",
+        "Email": "Eメール",
+        "Avoid": "避ける",
+        "CreatePrivateChat": "連絡を取るために {{credits}} クレジットを使いますか?",
+        "RolesInCommunity": "コミュニティにおける役割",
+        "PersonalChatWith": "{{name}}との個人チャット",
+        "SendCryptoTo": "{{name}}に暗号を送る",
+        "SendEmailTo": "{{name}} にメールを送信",
+        "SendSMSTo": "{{name}}にSMSを送信",
+        "BlockThisUser": "このユーザーをブロック",
+        "UnblockThisUser": "このユーザーのブロックを解除",
+        "YouCantChatWithYourself": "自分自身とチャットすることはできません",
+        "blockUserAlertTitle": "{{displayName}}をブロックしました",
+        "sections": {
+            "education": "教育",
+            "greeting": "挨拶",
+            "jobs": "求人",
+            "links": "リンク",
+            "language": "言語",
+            "roles": "役割",
+            "personal": "個人的",
+            "social": "社交"
+        },
+        "Roles": "役割",
+        "SendPaymentTo": "{{name}}に支払いを送る"
+    },
+    "myqr": {
+        "Title": "私のQR"
+    },
+    "composer": {
+        "createCommunity": "コミュニティを作成する",
+        "inviteAdmin": "管理者を招待",
+        "inviteMember": "メンバーを招待する",
+        "newCommunityTitle": "コミュニティ名",
+        "setCommunityTitle": "コミュニティ名",
+        "creditsChargeRequest": "{{price}}クレジットを使うことに同意しますか？",
+        "yes": "はい",
+        "no": "番号"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "いらっしゃいませ！メールアドレスを確認してください。",
+        "WelcomeVerifyEmail": "いらっしゃいませ！あなたのメールアドレスを確認してください。",
+        "ForgetPass": "ねえ、あなたはあなたのパスフレーズを忘れましたか？",
+        "ManageEmailSubscriptions": "メール購読を管理する",
+        "IfUnsubscribe": "退会したい場合"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "{{CommunityName}}へようこそ。このアプリは、友達とのつながり、共通の関心を持つ新しい人々の発見などに役立ちます。始めましょう！"
+            },
+            "icon": {
+                "Commentary": "写真を設定します。これは、人々がサイトであなたを見る方法です。"
+            },
+            "interests": {
+                "Commentary": "選択するアイテムが多いほど、より多くの人に会うことができます。",
+                "Notifications": "通知を許可する必要があります"
+            }
+        },
+        "subscriptions": {
+            "confirm": "通知を使用すると、友だちがアプリに参加したときやメッセージを送信したときなど、興味のあることを知ることができます。"
+        },
+        "invite": "{{Q.words.TapOrClick}}ここで、これを他の人と共有する方法を確認します。"
+    },
+    "payment": {
+        "onContribute": "ありがとう！お支払いは完了しました。友達を招待しませんか？",
+        "ConnectAccount": "アカウントを接続する"
+    },
+    "featureboard": {
+        "Text_1": "あなたの声を聞かせてください！機能やバグを開発する必要があることに同意しますか？ボタンをクリックしてサポートします。",
+        "Text_2": "新しい機能を開発したいですか？以下に説明してください。",
+        "Text_3": "毎週、コミュニティから最も要望の多かった機能の開発を開始します。寄付されたすべてのお金はその目的に向けられ、アプリをより良くすることができます。",
+        "Text_4": "寄付されたすべてのお金は、開発費の支払いに使用されます。",
+        "Text_5": "私たちにやってもらいたい機能やバグ修正についてのアイデアはありますが、他の人がまだ追加しているのを見たことがありませんか？以下に説明してください。",
+        "Options": [
+            {
+                "text": "400ドルのリアルタイムビデオ会議"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$ 200ローカルプライマリ登録情報"
+            },
+            {
+                "text": "130ドル何千もの{{1}}ミームを閲覧して共有",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$ 80自分のコミュニティを管理する",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$ 30会話のバグを修正",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "新機能\/バグ修正をリクエストする",
+        "FeaturePlaceholder": "機能の簡単な要約",
+        "FeatureDescription": "他の誰かがあなたが見ているバグを再現する方法を説明するか、あなたが構築したい機能を詳細に説明してください",
+        "AddYourRequest": "リクエストを追加する",
+        "NewFeature": "新機能"
+    },
+    "contribute": {
+        "ContributeExplanation": "{{communityName}}アプリの継続的な開発をサポートするのに役立ちます。あなたの貢献はすべて、バグを修正し、オンラインコミュニティの成長に役立つ新機能を開発するのに役立ちます！",
+        "ReasonToContribute": "このアプリは{{communityName}}のサポーターによって維持されています。私たちが人々の生活に変化をもたらすことができるように、このアプリをサポートするのを手伝ってください！"
+    },
+    "assetshistory": {
+        "Title": "資産履歴",
+        "Charges": "料金",
+        "Credits": "クレジット"
+    },
+    "accounts": {
+        "remove": {
+            "title": "アカウントを削除",
+            "content": "このアカウントを削除しますか？",
+            "ok": "はい",
+            "cancel": "番号"
+        }
+    },
+    "import": {
+        "fileNotFound": "申し訳ありませんが、CSVファイルが見つかりません。",
+        "fileEmpty": "申し訳ありませんが、CSVファイルは空です。",
+        "userIdNotFound": "ユーザーは存在しますが、IDは空です",
+        "errorLine": "行{{1}}",
+        "fieldNotFound": "必須フィールド「{{1}}」が見つかりません",
+        "taskStreamInvalid": "タスクストリームが無効です",
+        "instructionsEmpty": "タスクストリーム命令が空",
+        "complete": "完了",
+        "activateUsers": "ユーザーにアクティベーションメッセージを送信しますか？",
+        "importProgress": "進捗",
+        "joinEventLabel": "ユーザーをランダムなイベントに参加させる",
+        "importOptions": "オプション",
+        "sampleCSV": "サンプルCSVをダウンロード",
+        "fileLabel": "スプレッドシートのアップロード：",
+        "errorsTitle": "エラーが発生しました",
+        "communityUsers": "これはコミュニティリストです",
+        "setAsConversation": "会話としてのURL列",
+        "toMainCommunityToo": "メインコミュニティにもユーザーを追加する",
+        "willImportedTo": "ユーザーはコミュニティにインポートされます",
+        "ChooseFile": "ファイルを選ぶ"
+    },
+    "services": {
+        "Title": "サービス",
+        "filterByTitle": "タイトルでサービスを探す",
+        "New": "+ 新サービス開始",
+        "NewService": "新しいサービス",
+        "NewAvailability": "新しい可用性",
+        "filterServices": "フィルタ サービス",
+        "NoneYet": "サービスはまだ形成されていません<br>これらの時間の間に。",
+        "AllAuthors": "すべての著者",
+        "AllDays": "終日",
+        "AllLocations": "すべての場所",
+        "MakeReservation": "予約します",
+        "CancelReservation": "予約をキャンセルする",
+        "UpdateReservation": "予約の更新",
+        "AreYouSure": "本気ですか？",
+        "YouWillRefunded": "アプリ内の他のものに使用できるクレジットの形で返金されます。",
+        "AllInterests": "すべての興味",
+        "FilterbyInterest": "興味で絞り込む",
+        "FilterByDate": "日付でフィルター",
+        "ShowActivities": "...に関連するアクティビティを表示",
+        "newServices": "{{1}} 件の新しいサービスがあります",
+        "SelectLocation": "場所を選択",
+        "FilterLocationsPlaceHolder": "で会場を絞り込む ...",
+        "Description": "{{1}} サービス",
+        "Keywords": "{{1}} サービス"
+    },
+    "welcome": {
+        "Title": "{{appName}}: ようこそ",
+        "GetStarted": "始めましょう",
+        "gallery": {
+            "Connect": "接続",
+            "Organize": "整理",
+            "Travel": "旅行",
+            "Share": "共有"
+        }
+    }
+}

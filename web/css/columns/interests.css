@@ -1,0 +1,22 @@
+.Communities_interests #page,
+.Communities_interests #content_slot,
+.Communities_interests #content
+.Communities_interests button.Streams_interests_anything {
+	background: #822;
+	color: white;
+}
+
+.Communities_interests select {
+	color: black;
+}
+
+.Communities_interests #content {
+	padding: 10px;
+}
+
+.Communities_interests_prompt,
+.Communities_interests_explanation {
+	font-weight: 300;
+	padding: 10px;
+	text-align: center;
+}

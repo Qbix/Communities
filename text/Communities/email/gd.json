@@ -1,0 +1,27 @@
+{
+    "activation": {
+        "Thanks": "Fàilte gu {{1}}",
+        "ReallyYourEmail": "An e seo an seòladh puist-d agad dha-rìribh, {{1}}? Ma tha, cliog <a href='{{2}}'>an seo<\/a> gus am facal-faire agad a shuidheachadh agus do chunntas a chuir an gnìomh.",
+        "SeeYou": "Chì mi air <a href='{{1}}'>{{2}}<\/a> thu!"
+    },
+    "LinkToUnsubscribe": "Seo ceangal gus crìoch a chur air an <a href='{{1}}'>fho<\/a> -sgrìobhadh mura h-eil thu airson barrachd phuist-d fhaighinn.",
+    "Greetings": "Beannachdan bho {{1}}.",
+    "SeeHistory": "Faic eachdraidh pàighidh airson {{1}}",
+    "charge": {
+        "HasBeenCharged": "Hey, chan eil seo ach airson fios a leigeil dhut gun deach {{2}} a ghearradh airson {{3}} le {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hey {{1}}, chan eil an seo ach dearbhadh sgiobalta gun do phàigh thu {{2}} gu {{3}} airson {{4}} gu soirbheachail"
+    },
+    "resend": {
+        "Thanks": "Mòran taing airson tadhal air {{1}}",
+        "YouAreReceiving": "Tha thu a&#39; faighinn a&#39; phuist-d seo a chionn &#39;s gun do chuir cuideigin a-steach do sheòladh puist-d agus gun do bhriog e air &quot;dhìochuimhnich thu am facal-faire&quot;. Mura b’ e thusa, dìreach leig seachad an teachdaireachd seo.",
+        "Reset": "Gus am facal-faire agad ath-shuidheachadh, cliog {{1}}",
+        "SetUpPassphrase": "Suidhich facal-faire"
+    },
+    "subscription": {
+        "YouHaveStarted": "Hey {{1}}, tha thu air tòiseachadh air an fho-sgrìobhadh agad gu {{2}} le {{3}} aig {{4}} airson {{5}} mìosan.",
+        "HasStarted": "Tha seo dìreach airson fios a leigeil dhut {{1}}, gu bheil iad air tòiseachadh air an fho-sgrìobhadh aca gu {{2}} le {{3}} aig {{4}} airson {{5}} mìosan."
+    },
+    "SeeYou": "Chì mi air {{1}} thu!"
+}

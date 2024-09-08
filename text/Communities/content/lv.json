@@ -1,0 +1,459 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> ne uz ko nenorāda!",
+        "NextSteps": "Izmantojiet galveno izvēlni, lai atrastu to, ko meklējat."
+    },
+    "dashboard": {
+        "Menu": "Izvēlne",
+        "Home": "Mājas",
+        "Welcome": "Laipni lūdzam",
+        "Events": "Pasākumi",
+        "Discuss": "Apspriest",
+        "People": "Cilvēki",
+        "About": "Par",
+        "Community": "kopiena",
+        "LogIn": "Pieslēgties",
+        "LogOut": "izlogoties",
+        "Intercoin": "Starpmonēta",
+        "Shows": "Izrādes",
+        "Calendar": "Kalendārs",
+        "Me": "Es",
+        "Media": "Plašsaziņas līdzekļi",
+        "Services": "Pakalpojumi",
+        "SetMobileNumber": "Iestatiet mobilā tālruņa numuru",
+        "SetEmailAddress": "Iestatiet e-pasta adresi"
+    },
+    "greeting": {
+        "Welcome": "Laipni lūdzam pakalpojumā {{1}}. Šeit jūs atradīsiet mūsu kopienas locekļiem izliktās lietas. Lūdzu, pievienojiet savu e-pasta adresi vai mobilā tālruņa numuru, lai saņemtu paziņojumus par paziņojumu ievietošanu."
+    },
+    "conversations": {
+        "Title": "Sarunas",
+        "New": "Jauna saruna",
+        "Conversation": "Saruna",
+        "Topics": "Tēmas",
+        "NoneYet": "Vēl nav izveidota neviena saruna",
+        "newConversations": "{{1}} jaunas sarunas",
+        "AllAuthors": "Visi autori",
+        "FilterbyAuthors": "Filtrēt pēc autoriem",
+        "FilterAuthorPlaceHolder": "Meklēt papildu autorus...",
+        "filterConversations": "Filtrēt pēc teksta",
+        "Description": "{{1}} sarunas"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Izvēlieties tēmu",
+            "Share": "Dalīties",
+            "interest": {
+                "Title": "Izvēlieties aktivitāti",
+                "Filter": "Meklēt intereses..."
+            }
+        },
+        "Title": "Jauna saruna",
+        "TitlePlaceholder": "Jūsu sarunas tēma",
+        "ContentPlaceholder": "Uzrakstiet dažus vārdus, lai sāktu sarunu, lai citi varētu atbildēt",
+        "StartButton": "Sāciet sarunu"
+    },
+    "events": {
+        "Title": "Pasākumi",
+        "filterByTitle": "Atrodiet notikumus pēc nosaukuma",
+        "New": "+ Sākt jaunu notikumu",
+        "filterEvents": "Filtrēt notikumus",
+        "NewEvent": "Jauns pasākums",
+        "SetLocation": "Iestatīt manu atrašanās vietu",
+        "NoneYet": "Vēl nav izveidots neviens notikums<br> šajos laikos.",
+        "AllAuthors": "Visi autori",
+        "AllDays": "Visas dienas",
+        "AllLocations": "Visas atrašanās vietas",
+        "MakeReservation": "Veiciet rezervāciju",
+        "CancelReservation": "Atcelt rezervāciju",
+        "UpdateReservation": "Atjaunināt rezervāciju",
+        "AreYouSure": "Vai tu esi pārliecināts?",
+        "YouWillRefunded": "Jums tiks atmaksāta kredītu veidā, ko varēsit tērēt citām lietām lietotnē.",
+        "AllInterests": "Visas intereses",
+        "FilterbyInterest": "Filtrēt pēc interesēm",
+        "FilterByDate": "Filtrēt pēc datuma",
+        "ShowActivities": "Rādīt darbības, kas saistītas ar . . .",
+        "newEvents": "Jums ir {{1}} jauni notikumi",
+        "SelectLocation": "Izvēlieties Atrašanās vieta",
+        "FilterLocationsPlaceHolder": "Filtrējiet vietas ar...",
+        "Description": "{{1}} notikumi",
+        "Keywords": "{{1}} notikumi"
+    },
+    "schedule": {
+        "Title": "Grafiks",
+        "NoneYet": "Jūs nepiedalāties nevienā pasākumā",
+        "AddSome": "Pievienojiet dažus savam grafikam!",
+        "AddMore": "Pievienojiet notikumus savam grafikam!",
+        "future": "nākotne",
+        "past": "pagātne"
+    },
+    "location": {
+        "Title": "Atrašanās vieta",
+        "NewLocation": "Jauna vieta"
+    },
+    "inbox": {
+        "Title": "Iesūtne",
+        "NoneYet": "Jūs nepiedalāties nevienā sarunā",
+        "FindPeople": "Atrodiet cilvēkus, ar kuriem runāt",
+        "GroupConversations": "Pievienojieties dažām grupas sarunām",
+        "ContactStaff": "Sazinieties ar personālu",
+        "ContactCustomers": "Sazinieties ar klientiem",
+        "AddNewContact": "Pievienot jaunu kontaktpersonu",
+        "AddNewContacts": "Pievienot jaunas kontaktpersonas"
+    },
+    "me": {
+        "Title": "Es",
+        "MobileNumber": "Mobilā telefona numurs",
+        "EmailAddress": "Epasta adrese",
+        "UpdateSocialTitle": "Atjauniniet lietotājvārdu {{1}}",
+        "Web3": "Web3"
+    },
+    "people": {
+        "Title": "Cilvēki",
+        "Description": "Cilvēki {{1}} kopienā",
+        "AppAlert": "Šī lietotne lietotņu veikalā ļaus jums sazināties ar draugiem un daudz ko citu.",
+        "Invite": "Uzaicināt draugus",
+        "BuyCredits": "Pirkt kredītus",
+        "FindSomeoneByName": "Atrodiet kādu pēc vārda",
+        "SearchByName": "Meklēt pēc vārda",
+        "FindAllMyFriends": "Atrast visus manus draugus",
+        "labels": {
+            "All": "Visi",
+            "Title": "Filtrējiet pēc attiecības",
+            "New": "Jauns attiecību veids"
+        },
+        "interests": {
+            "All": "Visas intereses",
+            "Title": "Filtrēt pēc interesēm",
+            "Filter": "Parādiet cilvēkiem, kurus interesē . . ."
+        },
+        "Keywords": "{{1}} cilvēku kopiena"
+    },
+    "communities": {
+        "Title": "kopienas",
+        "NewCommunity": "Jauna kopiena",
+        "FindCommunityByName": "Atrodiet kopienu pēc nosaukuma",
+        "Description": "{{1}} kopienas"
+    },
+    "community": {
+        "Title": "{{1}} Kopiena",
+        "Roles": "Lomas",
+        "AllRoles": "Visas lomas",
+        "YouDontHavePermission": "Jūs neesat pilnvarots to darīt",
+        "usernamePlaceholder": "iestatīt kopienas nosaukumu",
+        "NotEnoughCredits": "Jums nav pietiekami daudz kredītu, lai izveidotu kopienu. Nepieciešams {{1}}, jums ir {{2}}"
+    },
+    "event": {
+        "GetDirections": "Saņemt norādes",
+        "WhichMap": "Kuras kartes jūs vēlētos izmantot?",
+        "JoinEventToChat": "Pievienojieties pasākumam, lai tērzētu",
+        "promote": {
+            "Title": "Reklamējiet šo notikumu",
+            "Prompt": "Izvēlieties, kur vēlaties reklamēt šo notikumu:"
+        },
+        "Confirmation": "Apstiprinājums"
+    },
+    "newEvent": {
+        "Title": "Plānojiet jaunu notikumu"
+    },
+    "interests": {
+        "Title": "Intereses",
+        "prompt": "Atlasiet to lietu veidus, par kurām vēlaties uzzināt.",
+        "explanation": "Jo vairāk interešu izvēlaties, jo lielāka iespēja sazināties ar līdzīgi domājošiem cilvēkiem.",
+        "filter": "Kas tevi interesē?",
+        "Profile": "Tiek izceltas savstarpējās intereses. Ja jums ir arī viena vai vairākas tālāk norādītās intereses, varat {{clickOrTap}} tās pievienot."
+    },
+    "credits": {
+        "Title": "Kredīti",
+        "EarnCredits": "Nopelniet {{1}} kredītus par katru jaunu personu, kuru uzaicināt un kas pievienojas lietotnei",
+        "YouHave": "Jums ir {{1}} kredīts"
+    },
+    "onboarding": {
+        "Tap": "Krāns",
+        "Click": "Klikšķis",
+        "Yes": "Jā",
+        "No": "Nē",
+        "Skip": "vai izlaidiet šo",
+        "name": {
+            "Preface": "Laipni lūdzam",
+            "Placeholder": "Ievadiet savu pilno vārdu",
+            "GetStarted": "Sāc",
+            "AsGuest": "Jūs esat uzaicināts kā viesis.",
+            "AsMember": "Jūs esat uzaicināts kā dalībnieks.",
+            "AsAdmin": "Jūs esat uzaicināts kā administrators.",
+            "AsOwner": "Jūs esat uzaicināts kā īpašnieks.",
+            "TooShort": "Jūsu vārds nevar būt tik īss",
+            "SetAsYourFullName": "Vai iestatīt {{1}} kā pilnu vārdu?"
+        },
+        "icon": {
+            "KeepDefault": "vai paturiet šo fotoattēlu",
+            "SetYourPhoto": "{{ClickOrTap}}, lai iestatītu savu fotoattēlu:",
+            "ClickOnYourFace": "{{ClickOrTap}} uz jūsu sejas"
+        },
+        "interests": {
+            "GetStarted": "⇩ Sāciet darbu",
+            "NextCategory": "↓ Tālāk",
+            "Continue": "Turpināt",
+            "Instructions": "Katrā no nākamajām {{1}} kategorijām<br> {{2}} visas jūs interesējošās aktivitātes.<br> Tādā veidā jūs sazināties ar citiem cilvēkiem sabiedrībā."
+        },
+        "profile": {
+            "Profile": "Jūsu profils palīdz cilvēkiem uzzināt vairāk par jums.<br>",
+            "Birthday": "Lūdzu, ievadiet savu dzimšanas dienu:",
+            "Placeholder": "Kas tu esi un ko dari? Pastāstiet cilvēkiem kaut ko interesantu vai unikālu par sevi.",
+            "Required": "Lai turpinātu, uzrakstiet vismaz dažas rindiņas par sevi.",
+            "Month": "Mēnesis",
+            "Day": "diena",
+            "Year": "gads",
+            "Gender": "Dzimums",
+            "Male": "Vīrietis",
+            "Female": "Sieviete",
+            "Other": "Cits",
+            "Height": "Augstums",
+            "Affiliation": "Piederība",
+            "Dating": "Iepazīšanās",
+            "Interested": "Interesē",
+            "NotInterested": "Neesmu ieinteresēts",
+            "MatchmakerOnly": "Tikai saspēles vadītājs"
+        },
+        "location": {
+            "NoOneElse": "Neviens cits to neredzēs.",
+            "SetMyLocation": "Iestatīt manu atrašanās vietu"
+        },
+        "pile": {
+            "DialogTitle": "Cilvēki ar kopīgām interesēm"
+        },
+        "Done": "Gatavs",
+        "relationships": {
+            "title": "Pievienojiet {{userName}} tālruņu grāmatai",
+            "welcome": "Laipni lūdzam {{user}}",
+            "invitedByUser": "uzaicināja tevi.",
+            "addToPhonebook": "Saglabāt mana tālruņa kontaktos",
+            "iosInstructions": "Ritiniet uz leju līdz Pievienot jaunu kontaktpersonu",
+            "androidInstructions": "Šis vCard fails ir jāatver pēc tā lejupielādes.",
+            "explanation": "Kādas ir jūsu attiecības?"
+        },
+        "Title": "Pamatinformācija",
+        "Prompt": "Dažas darbības, lai iestatītu kontu"
+    },
+    "profile": {
+        "Title": "Profils",
+        "Male": "Vīrietis",
+        "Female": "Sieviete",
+        "Other": "Cits",
+        "dating": {
+            "Interested": "Interesē",
+            "NotInterested": "Neesmu ieinteresēts",
+            "MatchmakerOnly": "Tikai saspēles vadītājs"
+        },
+        "StartConversation": "Sāciet sarunu",
+        "blockUser": "Bloķēt šo lietotāju",
+        "blockUserAlert": "Jūs vairs neredzēsit ziņojumus no šī lietotāja, kamēr neatbloķēsiet viņu.",
+        "unblockUser": "Atbloķējiet šo lietotāju",
+        "addToContacts": "Pievienot kontaktiem",
+        "manageLabels": "Pārvaldīt etiķetes",
+        "inviteUsers": "Uzaiciniet lietotājus",
+        "selectRole": "Atlasiet Loma",
+        "inviteSuccess": "Lietotājs ir veiksmīgi uzaicināts kā {{label}}",
+        "invite": "Uzaicināt",
+        "relationships": "Attiecības",
+        "newRole": "Jauna loma",
+        "about": "Par",
+        "people": "Cilvēki",
+        "info": "Informācija",
+        "interests": "Intereses",
+        "chat": "Tērzēt",
+        "locations": "Atrašanās vietas",
+        "ManageRoles": "Pārvaldīt lomas",
+        "aboutPlaceholder": "Kas tu esi un ko dari? Pastāstiet cilvēkiem kaut ko interesantu vai unikālu par sevi.",
+        "explanation": "Jūsu profils palīdz labāk saskaņot jūs ar citiem cilvēkiem grupu aktivitātēm.<br> Lūdzu, ievadiet savu dzimšanas dienu",
+        "chats": {
+            "placeholder": "Saki kaut ko"
+        },
+        "LogOut": "Izlogoties",
+        "MyLinks": "Manas saites",
+        "MyJobs": "Mani darbi",
+        "MySocial": "MySocial",
+        "MyEducation": "Mana Izglītība",
+        "JobsPlaceholder": "Šeit ierakstiet informāciju par darbu",
+        "EducationPlaceholder": "Šeit ierakstiet informāciju par izglītību",
+        "ManageNotifications": "Pārvaldīt paziņojumus",
+        "YourPreferredLanguage": "Jūsu vēlamā valoda",
+        "SendCrypto": "Maksājiet",
+        "Block": "Bloķēt",
+        "Unblock": "Atbloķēt",
+        "Email": "E-pasts",
+        "Avoid": "Izvairīties",
+        "CreatePrivateChat": "Vai iztērēt {{credits}} kredītus, lai sazinātos?",
+        "RolesInCommunity": "Lomas sabiedrībā",
+        "PersonalChatWith": "Personiskā tērzēšana ar {{name}}",
+        "SendCryptoTo": "Sūtīt kriptovalūtu uz {{name}}",
+        "SendEmailTo": "Sūtīt e-pastu uz {{name}}",
+        "SendSMSTo": "Sūtīt SMS uz {{name}}",
+        "BlockThisUser": "Bloķēt šo lietotāju",
+        "UnblockThisUser": "Atbloķējiet šo lietotāju",
+        "YouCantChatWithYourself": "Jūs nevarat tērzēt ar sevi",
+        "blockUserAlertTitle": "Bloķēts {{displayName}}",
+        "sections": {
+            "education": "Izglītība",
+            "greeting": "Sveiciens",
+            "jobs": "Darbavietas",
+            "links": "Saites",
+            "language": "Valoda",
+            "roles": "Lomas",
+            "personal": "Personīgi",
+            "social": "Sociālie"
+        },
+        "Roles": "Lomas",
+        "SendPaymentTo": "Nosūtiet maksājumu uz {{name}}"
+    },
+    "myqr": {
+        "Title": "Mans QR"
+    },
+    "composer": {
+        "createCommunity": "Izveidot kopienu",
+        "inviteAdmin": "Uzaicināt administratoru",
+        "inviteMember": "Uzaicināt dalībnieku",
+        "newCommunityTitle": "Kopienas nosaukums",
+        "setCommunityTitle": "Kopienas nosaukums",
+        "creditsChargeRequest": "Vai piekrītat iztērēt {{price}} kredītus?",
+        "yes": "Jā",
+        "no": "Nē"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Laipni lūdzam! Lūdzu, apstipriniet savu e-pasta adresi.",
+        "WelcomeVerifyEmail": "Laipni lūdzam! Pārbaudiet savu e-pasta adresi.",
+        "ForgetPass": "Sveiki, vai aizmirsāt savu ieejas frāzi?",
+        "ManageEmailSubscriptions": "pārvaldīt savus e-pasta abonementus",
+        "IfUnsubscribe": "Ja vēlaties anulēt abonementu"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Laipni lūdzam pakalpojumā {{CommunityName}}. Šī lietotne palīdzēs jums sazināties ar draugiem, atklāt jaunus cilvēkus ar kopīgām interesēm un daudz ko citu. Sāksim!"
+            },
+            "icon": {
+                "Commentary": "Iestatiet savu fotoattēlu. Šādi cilvēki jūs redzēs vietnē."
+            },
+            "interests": {
+                "Commentary": "Jo vairāk priekšmetu izvēlaties, jo vairāk cilvēku varat satikt.",
+                "Notifications": "Jums ir jāatļauj paziņojumi"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Paziņojumi ļauj uzzināt par lietām, kas jūs interesē, piemēram, kad draugs pievienojas lietotnei vai nosūta jums ziņojumu."
+        },
+        "invite": "{{Q.words.TapOrClick}} šeit, lai uzzinātu, kā varat to kopīgot ar citiem cilvēkiem."
+    },
+    "payment": {
+        "onContribute": "Paldies! Jūsu maksājums tika veikts. Vai vēlaties uzaicināt savus draugus pievienoties jums?",
+        "ConnectAccount": "Pievienojiet kontu"
+    },
+    "featureboard": {
+        "Text_1": "Lai jūsu balss tiek sadzirdēta! Vai piekrītat, ka mums ir jāizstrādā funkcija vai kļūda? Noklikšķiniet uz pogas, lai to atbalstītu.",
+        "Text_2": "Vai vēlaties, lai mēs izstrādājam jaunu funkciju? Aprakstiet to tālāk.",
+        "Text_3": "Katru nedēļu mēs sākam izstrādāt kopienas pieprasītāko funkciju. Visa iemaksātā nauda tiek novirzīta šim mērķim, ļaujot mums uzlabot lietotni.",
+        "Text_4": "Visa iemaksātā nauda tiek izmantota, lai palīdzētu segt mūsu attīstības izmaksas.",
+        "Text_5": "Vai jums ir ideja par funkciju vai kļūdu labojumu, ko vēlaties, lai mēs veicam, bet vēl neesat redzējis, ka citi to pievieno? Aprakstiet to tālāk:",
+        "Options": [
+            {
+                "text": "400 $ reāllaika videokonference"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "200 $ vietējās primārās reģistrācijas informācija"
+            },
+            {
+                "text": "130 $ Pārlūkojiet un kopīgojiet tūkstošiem {{1}} mēmu",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 Pārvaldiet savas kopienas",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Labojiet sarunu kļūdu",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Pieprasiet jaunu līdzekli\/kļūdu labojumu",
+        "FeaturePlaceholder": "Īss funkcijas kopsavilkums",
+        "FeatureDescription": "Aprakstiet, kā kāds cits var reproducēt jūsu redzēto kļūdu, vai detalizēti aprakstiet līdzekli, kuru vēlaties izveidot",
+        "AddYourRequest": "Pievienojiet savu pieprasījumu",
+        "NewFeature": "Jauna funkcija"
+    },
+    "contribute": {
+        "ContributeExplanation": "Palīdziet atbalstīt nepārtrauktu lietotnes {{communityName}} izstrādi. Viss jūsu ieguldījums palīdz novērst kļūdas un izstrādāt jaunas funkcijas, lai palīdzētu paplašināt tiešsaistes kopienu!",
+        "ReasonToContribute": "Šo lietotni uztur {{communityName}} atbalstītāji. Palīdziet atbalstīt šo lietotni, lai mēs varētu mainīt cilvēku dzīvi!"
+    },
+    "assetshistory": {
+        "Title": "Aktīvu vēsture",
+        "Charges": "Maksas",
+        "Credits": "Kredīti"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Noņemt kontu",
+            "content": "Vai vēlaties noņemt šo kontu?",
+            "ok": "Jā",
+            "cancel": "Nē"
+        }
+    },
+    "import": {
+        "fileNotFound": "Diemžēl CSV fails netika atrasts.",
+        "fileEmpty": "Atvainojiet, CSV fails ir tukšs.",
+        "userIdNotFound": "lietotājs pastāv, bet ID ir tukšs",
+        "errorLine": "rinda {{1}}",
+        "fieldNotFound": "Obligātais lauks &quot;{{1}}&quot; netika atrasts",
+        "taskStreamInvalid": "uzdevumu straume nav derīga",
+        "instructionsEmpty": "uzdevumu straumes norādījumi ir tukši",
+        "complete": "Pabeigts",
+        "activateUsers": "Vai nosūtīt lietotājiem aktivizācijas ziņojumu?",
+        "importProgress": "Progress",
+        "joinEventLabel": "Pievienojiet lietotājus nejaušam notikumam",
+        "importOptions": "Iespējas",
+        "sampleCSV": "Lejupielādēt CSV paraugu",
+        "fileLabel": "Augšupielādēt izklājlapu:",
+        "errorsTitle": "Radās kļūdas",
+        "communityUsers": "Šis ir kopienu saraksts",
+        "setAsConversation": "URL kolonna kā saruna",
+        "toMainCommunityToo": "pievienot lietotājus arī galvenajai kopienai",
+        "willImportedTo": "Lietotāji tiks importēti kopienā",
+        "ChooseFile": "izvēlēties failu"
+    },
+    "services": {
+        "Title": "Pakalpojumi",
+        "filterByTitle": "Atrodiet pakalpojumus pēc nosaukuma",
+        "New": "+ Sāciet jaunu pakalpojumu",
+        "NewService": "Jauns pakalpojums",
+        "NewAvailability": "Jauna pieejamība",
+        "filterServices": "Filtru pakalpojumi",
+        "NoneYet": "Pagaidām neviens pakalpojums nav izveidots<br> šajos laikos.",
+        "AllAuthors": "Visi autori",
+        "AllDays": "Visas dienas",
+        "AllLocations": "Visas atrašanās vietas",
+        "MakeReservation": "Veiciet rezervāciju",
+        "CancelReservation": "Atcelt rezervāciju",
+        "UpdateReservation": "Atjaunināt rezervāciju",
+        "AreYouSure": "Vai tu esi pārliecināts?",
+        "YouWillRefunded": "Jums tiks atmaksāta kredītu veidā, ko varēsit tērēt citām lietām lietotnē.",
+        "AllInterests": "Visas intereses",
+        "FilterbyInterest": "Filtrēt pēc interesēm",
+        "FilterByDate": "Filtrēt pēc datuma",
+        "ShowActivities": "Rādīt aktivitātes, kas saistītas ar...",
+        "newServices": "Jums ir {{1}} jauni pakalpojumi",
+        "SelectLocation": "Atlasiet Atrašanās vieta",
+        "FilterLocationsPlaceHolder": "Filtrējiet vietas ar...",
+        "Description": "{{1}} pakalpojumu",
+        "Keywords": "{{1}} pakalpojumu"
+    },
+    "welcome": {
+        "Title": "{{appName}}: laipni lūdzam!",
+        "GetStarted": "Sāc",
+        "gallery": {
+            "Connect": "Savienot",
+            "Organize": "Organizēt",
+            "Travel": "Ceļot",
+            "Share": "Dalīties"
+        }
+    }
+}

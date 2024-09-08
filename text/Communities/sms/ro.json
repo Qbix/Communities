@@ -1,0 +1,24 @@
+{
+    "activation": {
+        "Thanks": "Bun venit la {{1}}.",
+        "ClickHere": "Faceți clic aici pentru a vă activa contul: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Faceți clic aici pentru a vă verifica numărul de telefon mobil: {{1}}"
+    },
+    "SeeHistory": "Vedeți istoricul plăților pentru {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} a fost taxat cu {{2}} pentru {{3}} de {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Bună, {{1}}, aceasta este doar o confirmare rapidă că ați plătit cu succes {{2}} către {{3}} pentru {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "V-ați abonat la {{2}} cu {{3}} la {{4}} timp de {{5}} luni.",
+        "HasStarted": "{{1}} s-a abonat la {{2}} cu {{3}} la {{4}} timp de {{5}} luni."
+    },
+    "resend": {
+        "DidYouWant": "Ați vrut să vă resetați expresia de acces în {{1}}?",
+        "ClickHere": "Apoi faceți clic aici: {{1}}"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "activation": {
+        "Thanks": "Wamkelekile kwi {{1}}",
+        "ReallyYourEmail": "Ngaba ngokwenene le dilesi yemeyile yakho, {{1}}? Ukuba kunjalo, cofa <a href='{{2}}'>apha<\/a> ukuseta ibinzana lakho lokugqithisa kwaye uvule iakhawunti yakho.",
+        "SeeYou": "Ndizakukubona ku- <a href='{{1}}'>{{2}}<\/a> !"
+    },
+    "LinkToUnsubscribe": "Nali ikhonkco <a href='{{1}}'>lokuzikhupha<\/a> ukuba awufuni ukufumana ezinye ii-imeyile.",
+    "Greetings": "Imibuliso evela ku- {{1}}.",
+    "SeeHistory": "Jonga imbali yentlawulo ye {{1}}",
+    "charge": {
+        "HasBeenCharged": "Heyi, oku kukwazisa nje {{1}} ihlawuliswe {{2}} nge {{3}} ngu {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hey {{1}}, olu luqinisekiso olukhawulezayo lokuba uhlawule ngempumelelo {{2}} ku {{3}} ye {{4}}"
+    },
+    "resend": {
+        "Thanks": "Enkosi ngokundwendwela {{1}}",
+        "YouAreReceiving": "Ufumana le-imeyile kuba kukho umntu ofake idilesi yakho ye-imeyile kwaye wacofa &quot;ibinzana lokugqithisa elilibeleyo&quot;. Ukuba ibingenguwe, vele ungawuhoyi lo myalezo.",
+        "Reset": "Ukuseta ngokutsha ibinzana lakho lokugqithisa, cofa {{1}}",
+        "SetUpPassphrase": "Misela igama lokugqithisa"
+    },
+    "subscription": {
+        "YouHaveStarted": "Hey {{1}}, uqalile umrhumo wakho ukuya {{2}} nge {{3}} e {{4}} for {{5}} iinyanga.",
+        "HasStarted": "Oku kukwazisa nje {{1}}, uqalile umrhumo wabo ukuya {{2}} nge {{3}} e {{4}} for {{5}} iinyanga."
+    },
+    "SeeYou": "Ndizakukubona ku- {{1}}!"
+}

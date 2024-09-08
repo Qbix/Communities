@@ -1,0 +1,51 @@
+.Communities_conversation_content {
+	font-size: 12px;
+}
+.Communities_conversation_content:empty {
+	display: none;
+}
+.Communities_conversation_container .Users_avatar_tool {
+	cursor: pointer;
+}
+.Communities_conversation_container .Streams_chat_tool .Streams_chat_item > .Users_avatar_tool .Users_avatar_icon {
+	position: static;
+}
+.Communities_conversation_container .Streams_chat_tool .Streams_chat_item > .Users_avatar_tool {
+	position: absolute;
+}
+
+.Communities_conversation_container .Streams_participants_tool {
+	background: rgba(150, 150, 150, 0.2);
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+.Communities_conversation_container .Streams_participants_summary {
+	border-radius: 5px;
+	margin-top: 20px;
+}
+#Communities_new_conversation {
+	text-align: center;
+}
+.Q_column_conversation_title {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-top: -10px;
+}
+.Q_column_conversation_title img.Q_column_conversation_title_icon {
+	display: inline;
+	height: 35px;
+	width: auto;
+}
+.Q_column_conversation_title .Q_column_conversation_title_url {
+	display: inline;
+}
+.Q_column_conversation .Streams_participants_tool {
+	margin-top: 5px;
+	padding: 0;
+}
+.Q_column_conversation .Streams_participants_tool .Streams_participants_container {
+	margin: 0;
+}

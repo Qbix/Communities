@@ -1,0 +1,459 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> không trỏ đến bất kỳ thứ gì!",
+        "NextSteps": "Sử dụng menu chính để tìm những gì bạn đang tìm kiếm."
+    },
+    "dashboard": {
+        "Menu": "Thực đơn",
+        "Home": "Trang chủ",
+        "Welcome": "Chào mừng",
+        "Events": "Sự kiện",
+        "Discuss": "Bàn luận",
+        "People": "Mọi người",
+        "About": "Về",
+        "Community": "Cộng đồng",
+        "LogIn": "đăng nhập",
+        "LogOut": "đăng xuất",
+        "Intercoin": "liên minh",
+        "Shows": "trình diễn",
+        "Calendar": "Lịch",
+        "Me": "Tôi",
+        "Media": "Phương tiện truyền thông",
+        "Services": "Dịch vụ",
+        "SetMobileNumber": "Đặt số điện thoại di động",
+        "SetEmailAddress": "Đặt địa chỉ email"
+    },
+    "greeting": {
+        "Welcome": "Chào mừng bạn đến với {{1}}. Ở đây bạn sẽ tìm thấy những thứ được đăng cho các thành viên của cộng đồng của chúng tôi. Vui lòng thêm địa chỉ email hoặc số điện thoại di động của bạn để nhận thông báo khi thông báo được đăng."
+    },
+    "conversations": {
+        "Title": "Cuộc trò chuyện",
+        "New": "Cuộc trò chuyện mới",
+        "Conversation": "Cuộc hội thoại",
+        "Topics": "Chủ đề",
+        "NoneYet": "Chưa có cuộc hội thoại nào được hình thành",
+        "newConversations": "{{1}} cuộc trò chuyện mới",
+        "AllAuthors": "Tất cả các tác giả",
+        "FilterbyAuthors": "Lọc theo tác giả",
+        "FilterAuthorPlaceHolder": "Tìm kiếm tác giả bổ sung ...",
+        "filterConversations": "Lọc theo văn bản",
+        "Description": "{{1}} cuộc hội thoại"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Chọn một chủ đề",
+            "Share": "Chia sẻ",
+            "interest": {
+                "Title": "Chọn một hoạt động",
+                "Filter": "Tìm kiếm sở thích ..."
+            }
+        },
+        "Title": "Cuộc trò chuyện mới",
+        "TitlePlaceholder": "Chủ đề của cuộc trò chuyện của bạn",
+        "ContentPlaceholder": "Viết một vài từ để bắt đầu cuộc trò chuyện để những người khác có thể trả lời",
+        "StartButton": "Bắt đầu cuộc trò chuyện"
+    },
+    "events": {
+        "Title": "Sự kiện",
+        "filterByTitle": "Tìm sự kiện theo tiêu đề",
+        "New": "+ Bắt đầu sự kiện mới",
+        "filterEvents": "Lọc sự kiện",
+        "NewEvent": "Sự kiện mới",
+        "SetLocation": "Đặt vị trí của tôi",
+        "NoneYet": "Chưa có sự kiện nào được hình thành<br> trong thời gian này.",
+        "AllAuthors": "Tất cả các tác giả",
+        "AllDays": "Tất cả các ngày",
+        "AllLocations": "Tất cả địa điểm",
+        "MakeReservation": "Đặt phòng",
+        "CancelReservation": "Hủy đặt phòng",
+        "UpdateReservation": "Cập nhật đặt chỗ",
+        "AreYouSure": "Bạn có chắc không?",
+        "YouWillRefunded": "Bạn sẽ được hoàn lại dưới dạng các khoản tín dụng mà bạn có thể chi tiêu cho những thứ khác trong ứng dụng.",
+        "AllInterests": "Tất cả các sở thích",
+        "FilterbyInterest": "Lọc theo sở thích",
+        "FilterByDate": "Lọc theo ngày",
+        "ShowActivities": "Hiển thị các hoạt động liên quan đến. . .",
+        "newEvents": "Bạn có {{1}} sự kiện mới",
+        "SelectLocation": "Chọn địa điểm",
+        "FilterLocationsPlaceHolder": "Lọc địa điểm với ...",
+        "Description": "{{1}} sự kiện",
+        "Keywords": "{{1}} sự kiện"
+    },
+    "schedule": {
+        "Title": "Lịch trình",
+        "NoneYet": "Bạn không tham gia bất kỳ sự kiện nào",
+        "AddSome": "Thêm một số vào lịch trình của bạn!",
+        "AddMore": "Thêm sự kiện vào lịch trình của bạn!",
+        "future": "Tương lai",
+        "past": "quá khứ"
+    },
+    "location": {
+        "Title": "Địa điểm",
+        "NewLocation": "Vị trí mới"
+    },
+    "inbox": {
+        "Title": "Hộp thư đến",
+        "NoneYet": "Bạn không tham gia vào bất kỳ cuộc trò chuyện nào",
+        "FindPeople": "Tìm người để nói chuyện",
+        "GroupConversations": "Tham gia một số cuộc trò chuyện nhóm",
+        "ContactStaff": "Liên hệ với nhân viên",
+        "ContactCustomers": "Liên hệ với khách hàng",
+        "AddNewContact": "Thêm Liên Hệ Mới",
+        "AddNewContacts": "Thêm Danh bạ Mới"
+    },
+    "me": {
+        "Title": "Tôi",
+        "MobileNumber": "Số điện thoại",
+        "EmailAddress": "Địa chỉ email",
+        "UpdateSocialTitle": "Cập nhật tên người dùng {{1}}",
+        "Web3": "Web3"
+    },
+    "people": {
+        "Title": "Mọi người",
+        "Description": "Mọi người trong cộng đồng {{1}}",
+        "AppAlert": "Ứng dụng này trong cửa hàng ứng dụng sẽ cho phép bạn kết nối với bạn bè của mình và hơn thế nữa.",
+        "Invite": "Mời bạn bè",
+        "BuyCredits": "Mua thẻ tín dụng",
+        "FindSomeoneByName": "Tìm ai đó theo tên",
+        "SearchByName": "Tìm kiếm theo tên",
+        "FindAllMyFriends": "Tìm tất cả bạn bè của tôi",
+        "labels": {
+            "All": "Tất cả mọi người",
+            "Title": "Lọc theo mối quan hệ",
+            "New": "Kiểu quan hệ mới"
+        },
+        "interests": {
+            "All": "Tất cả các sở thích",
+            "Title": "Lọc theo sở thích",
+            "Filter": "Hiển thị những người quan tâm đến. . ."
+        },
+        "Keywords": "{{1}} cộng đồng người"
+    },
+    "communities": {
+        "Title": "Cộng đồng",
+        "NewCommunity": "Cộng đồng mới",
+        "FindCommunityByName": "Tìm cộng đồng theo tên",
+        "Description": "{{1}} cộng đồng"
+    },
+    "community": {
+        "Title": "Cộng đồng {{1}}",
+        "Roles": "Vai trò",
+        "AllRoles": "Tất cả các vai trò",
+        "YouDontHavePermission": "Bạn không được phép làm điều này",
+        "usernamePlaceholder": "đặt tên cộng đồng",
+        "NotEnoughCredits": "Bạn không có đủ tín dụng để tạo cộng đồng. Cần {{1}}, bạn có {{2}}"
+    },
+    "event": {
+        "GetDirections": "Nhận được hướng dẫn",
+        "WhichMap": "Bạn muốn sử dụng bản đồ nào?",
+        "JoinEventToChat": "Tham gia sự kiện để trò chuyện",
+        "promote": {
+            "Title": "Quảng cáo sự kiện này",
+            "Prompt": "Chọn nơi bạn muốn quảng bá sự kiện này:"
+        },
+        "Confirmation": "Xác nhận"
+    },
+    "newEvent": {
+        "Title": "Lên kế hoạch cho sự kiện mới"
+    },
+    "interests": {
+        "Title": "Sở thích",
+        "prompt": "Chọn loại điều bạn muốn biết.",
+        "explanation": "Bạn càng chọn nhiều sở thích, bạn càng có nhiều khả năng kết nối với những người cùng chí hướng.",
+        "filter": "Bạn quan tâm đến điều gì?",
+        "Profile": "Các lợi ích chung được đề cao. Nếu bạn cũng có một hoặc nhiều sở thích bên dưới, bạn có thể {{clickOrTap}} để thêm chúng."
+    },
+    "credits": {
+        "Title": "Tín dụng",
+        "EarnCredits": "Kiếm {{1}} tín dụng cho mỗi người mới mà bạn mời tham gia ứng dụng",
+        "YouHave": "Bạn có {{1}} tín dụng"
+    },
+    "onboarding": {
+        "Tap": "Vô nhẹ",
+        "Click": "Nhấp chuột",
+        "Yes": "Đúng",
+        "No": "Không",
+        "Skip": "hoặc bỏ qua điều này",
+        "name": {
+            "Preface": "Chào mừng bạn đến",
+            "Placeholder": "Nhập tên đầy đủ của bạn",
+            "GetStarted": "Bắt đầu",
+            "AsGuest": "Bạn đã được mời với tư cách là khách.",
+            "AsMember": "Bạn đã được mời làm thành viên.",
+            "AsAdmin": "Bạn đã được mời với tư cách là quản trị viên.",
+            "AsOwner": "Bạn đã được mời với tư cách là chủ sở hữu.",
+            "TooShort": "Tên đầy đủ của bạn không được ngắn như vậy",
+            "SetAsYourFullName": "Đặt {{1}} làm tên đầy đủ của bạn?"
+        },
+        "icon": {
+            "KeepDefault": "hoặc giữ bức ảnh này",
+            "SetYourPhoto": "{{ClickOrTap}} để đặt ảnh của bạn:",
+            "ClickOnYourFace": "{{ClickOrTap}} Trên mặt bạn"
+        },
+        "interests": {
+            "GetStarted": "⇩ Bắt đầu",
+            "NextCategory": "↓ Tiếp theo",
+            "Continue": "Tiếp tục",
+            "Instructions": "Trong mỗi danh mục {{1}} tiếp theo,<br> {{2}} tất cả các hoạt động bạn quan tâm.<br> Đây là cách bạn kết nối với những người khác trong cộng đồng."
+        },
+        "profile": {
+            "Profile": "Hồ sơ của bạn giúp mọi người khám phá thêm về bạn.<br>",
+            "Birthday": "Vui lòng nhập ngày sinh:",
+            "Placeholder": "Bạn là ai và bạn làm nghề gì? Nói với mọi người điều gì đó thú vị hoặc độc đáo về bạn.",
+            "Required": "Để tiếp tục, hãy viết ít nhất một vài dòng về bản thân bạn.",
+            "Month": "Tháng",
+            "Day": "Ngày",
+            "Year": "Năm",
+            "Gender": "Giới tính",
+            "Male": "Nam giới",
+            "Female": "Nữ giới",
+            "Other": "Khác",
+            "Height": "Chiều cao",
+            "Affiliation": "Chi nhánh",
+            "Dating": "Hẹn hò",
+            "Interested": "Quan tâm đến",
+            "NotInterested": "Không quan tâm",
+            "MatchmakerOnly": "Chỉ người mai mối"
+        },
+        "location": {
+            "NoOneElse": "Không ai khác sẽ nhìn thấy nó.",
+            "SetMyLocation": "Đặt vị trí của tôi"
+        },
+        "pile": {
+            "DialogTitle": "Những người có chung sở thích"
+        },
+        "Done": "Làm xong",
+        "relationships": {
+            "title": "Thêm {{userName}} vào Danh bạ",
+            "welcome": "Chào mừng {{user}}",
+            "invitedByUser": "mơi bạn.",
+            "addToPhonebook": "Lưu vào Danh bạ Điện thoại của Tôi",
+            "iosInstructions": "Cuộn xuống Thêm liên hệ mới",
+            "androidInstructions": "Bạn nên mở tệp vCard này sau khi tải xuống.",
+            "explanation": "Mối quan hệ của bạn là gì?"
+        },
+        "Title": "Thông tin cơ bản",
+        "Prompt": "Một vài bước để thiết lập tài khoản của bạn"
+    },
+    "profile": {
+        "Title": "Hồ sơ",
+        "Male": "Nam giới",
+        "Female": "Nữ giới",
+        "Other": "Khác",
+        "dating": {
+            "Interested": "Quan tâm đến",
+            "NotInterested": "Không quan tâm",
+            "MatchmakerOnly": "Mai mối chỉ"
+        },
+        "StartConversation": "Bắt đầu một cuộc trò chuyện",
+        "blockUser": "Chặn người dùng này",
+        "blockUserAlert": "Bạn sẽ không thấy thêm bất kỳ tin nhắn nào từ người dùng này cho đến khi bạn bỏ chặn họ.",
+        "unblockUser": "Bỏ chặn người dùng này",
+        "addToContacts": "Thêm vào liên lạc",
+        "manageLabels": "Quản lý nhãn",
+        "inviteUsers": "Mời người dùng",
+        "selectRole": "Chọn vai trò",
+        "inviteSuccess": "Đã mời thành công người dùng là {{label}}",
+        "invite": "Mời",
+        "relationships": "Các mối quan hệ",
+        "newRole": "Vai trò mới",
+        "about": "Về",
+        "people": "Mọi người",
+        "info": "Thông tin",
+        "interests": "Sở thích",
+        "chat": "Trò chuyện",
+        "locations": "Địa điểm",
+        "ManageRoles": "Quản lý vai trò",
+        "aboutPlaceholder": "Bạn là ai và bạn làm nghề gì? Nói với mọi người điều gì đó thú vị hoặc độc đáo về bạn.",
+        "explanation": "Hồ sơ của bạn giúp bạn kết hợp tốt hơn với những người khác trong các hoạt động nhóm.<br> Vui lòng nhập ngày sinh",
+        "chats": {
+            "placeholder": "Nói gì đó đi"
+        },
+        "LogOut": "Đăng xuất",
+        "MyLinks": "Liên kết của tôi",
+        "MyJobs": "Nghề của tôi",
+        "MySocial": "MySocial",
+        "MyEducation": "Nền tảng giáo dục của tôi",
+        "JobsPlaceholder": "Gõ vào đây thông tin việc làm",
+        "EducationPlaceholder": "Nhập thông tin giáo dục vào đây",
+        "ManageNotifications": "Quản lý thông báo",
+        "YourPreferredLanguage": "Ngôn ngữ ưa thích của bạn",
+        "SendCrypto": "Chi trả",
+        "Block": "Khối",
+        "Unblock": "Mở khóa",
+        "Email": "E-mail",
+        "Avoid": "Tránh xa",
+        "CreatePrivateChat": "Chi {{credits}} tín dụng để tiếp cận?",
+        "RolesInCommunity": "Vai trò trong cộng đồng",
+        "PersonalChatWith": "Trò chuyện cá nhân với {{name}}",
+        "SendCryptoTo": "Gửi tiền điện tử đến {{name}}",
+        "SendEmailTo": "Gửi email đến {{name}}",
+        "SendSMSTo": "Gửi SMS tới {{name}}",
+        "BlockThisUser": "Chặn người dùng này",
+        "UnblockThisUser": "Bỏ chặn người dùng này",
+        "YouCantChatWithYourself": "Bạn không thể trò chuyện với chính mình",
+        "blockUserAlertTitle": "Bị chặn {{displayName}}",
+        "sections": {
+            "education": "Giáo dục",
+            "greeting": "Lời chào",
+            "jobs": "công việc",
+            "links": "liên kết",
+            "language": "Ngôn ngữ",
+            "roles": "vai trò",
+            "personal": "Riêng tư",
+            "social": "Xã hội"
+        },
+        "Roles": "Vai trò",
+        "SendPaymentTo": "Gửi thanh toán tới {{name}}"
+    },
+    "myqr": {
+        "Title": "QR của tôi"
+    },
+    "composer": {
+        "createCommunity": "Tạo cộng đồng",
+        "inviteAdmin": "Mời quản trị viên",
+        "inviteMember": "Mời thành viên",
+        "newCommunityTitle": "Tên cộng đồng",
+        "setCommunityTitle": "Tên cộng đồng",
+        "creditsChargeRequest": "Bạn có đồng ý sử dụng {{price}} tín dụng không?",
+        "yes": "Đúng",
+        "no": "Không"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Chào mừng! Vui lòng xác nhận địa chỉ email.",
+        "WelcomeVerifyEmail": "Chào mừng! Xác minh địa chỉ email của bạn.",
+        "ForgetPass": "Này, bạn quên mật khẩu của mình à?",
+        "ManageEmailSubscriptions": "quản lý đăng ký email của bạn",
+        "IfUnsubscribe": "Nếu bạn muốn hủy đăng ký"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Chào mừng bạn đến với {{CommunityName}}. Ứng dụng này sẽ giúp bạn kết nối với bạn bè, khám phá những người mới có chung sở thích và hơn thế nữa. Bắt đầu nào!"
+            },
+            "icon": {
+                "Commentary": "Đặt ảnh của bạn. Đây là cách mọi người sẽ nhìn thấy bạn trên trang web."
+            },
+            "interests": {
+                "Commentary": "Bạn càng chọn nhiều mặt hàng, bạn càng có thể gặp nhiều người.",
+                "Notifications": "Bạn cần cho phép thông báo"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Thông báo cho phép bạn biết về những điều bạn quan tâm, chẳng hạn như khi một người bạn tham gia ứng dụng hoặc nhắn tin cho bạn."
+        },
+        "invite": "{{Q.words.TapOrClick}} tại đây để xem cách bạn có thể chia sẻ điều này với những người khác."
+    },
+    "payment": {
+        "onContribute": "Cảm ơn bạn! Thanh toán của bạn đã thành công. Bạn có muốn mời bạn bè của bạn tham gia cùng bạn không?",
+        "ConnectAccount": "Kết nối tài khoản"
+    },
+    "featureboard": {
+        "Text_1": "Hãy để tiếng nói của mình được lắng nghe! Bạn có đồng ý rằng chúng ta nên phát triển một tính năng hay lỗi không? Nhấp vào nút để hỗ trợ nó.",
+        "Text_2": "Muốn chúng tôi phát triển một tính năng mới? Mô tả nó dưới đây.",
+        "Text_3": "Mỗi tuần, chúng tôi bắt đầu phát triển tính năng được cộng đồng yêu cầu hàng đầu. Tất cả số tiền đóng góp đều hướng tới mục đích đó, cho phép chúng tôi cải tiến ứng dụng.",
+        "Text_4": "Tất cả số tiền đóng góp được sử dụng để giúp trả chi phí phát triển của chúng tôi.",
+        "Text_5": "Bạn có ý tưởng về một tính năng hoặc bản sửa lỗi mà bạn muốn chúng tôi thực hiện nhưng chưa thấy người khác bổ sung? Mô tả nó dưới đây:",
+        "Options": [
+            {
+                "text": "$ 400 Hội nghị truyền hình thời gian thực"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$ 200 Thông tin đăng ký chính tại địa phương"
+            },
+            {
+                "text": "$ 130 Duyệt và chia sẻ hàng nghìn {{1}} meme",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$ 80 Quản lý cộng đồng của riêng bạn",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$ 30 Sửa lỗi hội thoại",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Yêu cầu tính năng mới \/ sửa lỗi",
+        "FeaturePlaceholder": "Tóm tắt ngắn gọn về tính năng",
+        "FeatureDescription": "Mô tả cách người khác có thể tái tạo lỗi bạn đang gặp hoặc mô tả chi tiết tính năng bạn muốn xây dựng",
+        "AddYourRequest": "Thêm yêu cầu của bạn",
+        "NewFeature": "Tính năng mới"
+    },
+    "contribute": {
+        "ContributeExplanation": "Giúp hỗ trợ sự phát triển liên tục của ứng dụng {{communityName}}. Mọi đóng góp của bạn đều giúp sửa lỗi và phát triển các tính năng mới để giúp phát triển cộng đồng trực tuyến!",
+        "ReasonToContribute": "Ứng dụng này được duy trì bởi những người ủng hộ {{communityName}}. Giúp hỗ trợ ứng dụng này để chúng tôi có thể tạo ra sự khác biệt trong cuộc sống của mọi người!"
+    },
+    "assetshistory": {
+        "Title": "Lịch sử tài sản",
+        "Charges": "Các khoản phí",
+        "Credits": "Tín dụng"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Xoá tài khoản",
+            "content": "Bạn có muốn xóa tài khoản này không?",
+            "ok": "Đúng",
+            "cancel": "Không"
+        }
+    },
+    "import": {
+        "fileNotFound": "Xin lỗi, không tìm thấy tệp CSV.",
+        "fileEmpty": "Xin lỗi, tệp CSV trống.",
+        "userIdNotFound": "người dùng tồn tại nhưng id trống",
+        "errorLine": "dòng {{1}}",
+        "fieldNotFound": "Không tìm thấy trường bắt buộc &quot;{{1}}&quot;",
+        "taskStreamInvalid": "luồng nhiệm vụ không hợp lệ",
+        "instructionsEmpty": "hướng dẫn dòng nhiệm vụ trống",
+        "complete": "Hoàn chỉnh",
+        "activateUsers": "gửi tin nhắn kích hoạt cho người dùng?",
+        "importProgress": "Phát triển",
+        "joinEventLabel": "Tham gia cùng người dùng vào sự kiện ngẫu nhiên",
+        "importOptions": "Tùy chọn",
+        "sampleCSV": "Tải xuống CSV mẫu",
+        "fileLabel": "Tải lên bảng tính:",
+        "errorsTitle": "Đã xảy ra lỗi",
+        "communityUsers": "Đây là danh sách cộng đồng",
+        "setAsConversation": "Cột URL dưới dạng cuộc hội thoại",
+        "toMainCommunityToo": "thêm người dùng vào cộng đồng chính",
+        "willImportedTo": "Người dùng sẽ được nhập vào cộng đồng",
+        "ChooseFile": "chọn tập tin"
+    },
+    "services": {
+        "Title": "Dịch vụ",
+        "filterByTitle": "Tìm dịch vụ theo tiêu đề",
+        "New": "+ Bắt đầu dịch vụ mới",
+        "NewService": "Dịch vụ mới",
+        "NewAvailability": "Tính khả dụng mới",
+        "filterServices": "Dịch vụ lọc",
+        "NoneYet": "Chưa có dịch vụ nào được hình thành<br> trong những khoảng thời gian này.",
+        "AllAuthors": "Tất cả các tác giả",
+        "AllDays": "Tất cả các ngày",
+        "AllLocations": "Tất cả địa điểm",
+        "MakeReservation": "Đặt phòng",
+        "CancelReservation": "Hủy đặt phòng",
+        "UpdateReservation": "Cập nhật đặt phòng",
+        "AreYouSure": "Bạn có chắc không?",
+        "YouWillRefunded": "Bạn sẽ được hoàn trả dưới dạng tín dụng mà bạn có thể chi tiêu cho những thứ khác trong ứng dụng.",
+        "AllInterests": "Tất cả sở thích",
+        "FilterbyInterest": "Lọc theo sở thích",
+        "FilterByDate": "Lọc theo ngày",
+        "ShowActivities": "Hiển thị các hoạt động liên quan đến ...",
+        "newServices": "Bạn có {{1}} dịch vụ mới",
+        "SelectLocation": "Chọn địa điểm",
+        "FilterLocationsPlaceHolder": "Lọc các địa điểm với ...",
+        "Description": "{{1}} dịch vụ",
+        "Keywords": "{{1}} dịch vụ"
+    },
+    "welcome": {
+        "Title": "{{appName}}: chào mừng",
+        "GetStarted": "Bắt đầu",
+        "gallery": {
+            "Connect": "Kết nối",
+            "Organize": "Tổ chức",
+            "Travel": "Du lịch",
+            "Share": "Chia sẻ"
+        }
+    }
+}

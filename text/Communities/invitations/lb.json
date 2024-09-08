@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Dir sidd invitéiert",
+        "Member": "Member bei {{title}}",
+        "Explanation": "{{1}} ass frou de Start vun eiser neier Websäit matzedeelen. Et enthält eng wuessend Lëscht vu Funktiounen, wéi:",
+        "Public": "Ëffentlech Informatioun iwwer {{1}}",
+        "Private": "E private Benotzerkont fir all Member",
+        "Notifications": "Andeems Dir Är E-Mailadress oder Handysnummer agitt, kënnt Dir wichteg Notifikatiounen per E-Mail oder SMS kréien.",
+        "GetStarted": "Fir unzefänken, gitt <em>w.e.g. virsiichteg<\/em> an Ärem Webbrowser:<br>",
+        "IssuedToYou": "Dëse Code gëtt Iech speziell ausgestallt."
+    }
+}

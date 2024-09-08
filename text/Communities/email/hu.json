@@ -1,0 +1,33 @@
+{
+    "activation": {
+        "Thanks": "Üdvözöljük itt: {{1}}",
+        "ReallyYourEmail": "Ez valóban az Ön e-mail címe, {{1}}? Ha igen, kattintson <a href='{{2}}'>ide<\/a> a jelszó beállításához és a fiók aktiválásához.",
+        "SeeYou": "Találkozunk itt: <a href='{{1}}'>{{2}}<\/a> !",
+        "Subject": "Üdvözöljük! Kérem ellenőrizze az email címét."
+    },
+    "LinkToUnsubscribe": "Itt található egy link, amellyel <a href='{{1}}'>leiratkozhat<\/a> , ha nem szeretne több e-mailt kapni.",
+    "Greetings": "Üdvözlettel: {{1}}.",
+    "SeeHistory": "A(z) {{1}} fizetési előzményeinek megtekintése",
+    "charge": {
+        "HasBeenCharged": "Szia, ez csak azért van, hogy tudd, hogy {{1}} díjat felszámított {{2}} összegért {{3}} összegért {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Szia {{1}}, ez csak egy gyors megerősítés, hogy sikeresen kifizette a(z) {{2}} összeget a következőnek: {{3}} a következő összegért: {{4}}"
+    },
+    "resend": {
+        "Thanks": "Köszönjük látogatását {{1}}",
+        "YouAreReceiving": "Azért kapta ezt az e-mailt, mert valaki beírta az e-mail címét, és rákattintott az &quot;elfelejtett jelszóra&quot;. Ha nem te voltál, egyszerűen hagyd figyelmen kívül ezt az üzenetet.",
+        "Reset": "Az összetett jelszó visszaállításához kattintson a {{1}}",
+        "SetUpPassphrase": "Jelszó beállítása",
+        "DomainCode": "Ha a weboldal már meg van nyitva a böngészőben, akkor írja be a kódot",
+        "Subject": "Hé, elfelejtette a jelszavát?"
+    },
+    "subscription": {
+        "YouHaveStarted": "Szia, {{1}}! Ön megkezdte a(z) {{2}} előfizetését {{3}}-nál {{4}} hónapra, {{5}} hónapra.",
+        "HasStarted": "Ezúton tájékoztatjuk Önt, hogy {{1}} megkezdte a(z) {{2}} előfizetését a következővel: {{3}}, {{4}} {{5}} hónapig."
+    },
+    "SeeYou": "Találkozunk a {{1}}-on!",
+    "identifier": {
+        "Subject": "Üdvözöljük! Erősítsd meg az e-mail címed."
+    }
+}

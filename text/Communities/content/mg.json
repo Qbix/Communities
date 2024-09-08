@@ -1,0 +1,362 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> dia tsy manondro na inona na inona!",
+        "NextSteps": "Ampiasao ny sakafo fototra hahitana izay tadiavinao."
+    },
+    "dashboard": {
+        "Menu": "sakafo"
+    },
+    "greeting": {
+        "Welcome": "Tongasoa eto amin&#39;ny {{1}}. Eto ianao dia hahita zavatra navoaka ho an&#39;ny mpikambana ao amin&#39;ny vondrom-piarahamoninay. Ampidiro azafady ny adiresy mailaka na ny nomeraon-telefaoninao mba handraisanao fampahafantarana rehefa misy filazana."
+    },
+    "conversations": {
+        "Title": "Resadresaka",
+        "New": "Resadresaka vaovao",
+        "Conversation": "RESAKA",
+        "Topics": "Lohahevitra",
+        "NoneYet": "Tsy mbola nisy resaka nipoitra",
+        "newConversations": "{{1}} resaka vaovao",
+        "AllAuthors": "Mpanoratra rehetra",
+        "FilterbyAuthors": "Sivanin&#39;ny Mpanoratra",
+        "FilterAuthorPlaceHolder": "Mitadiava mpanoratra fanampiny...",
+        "filterConversations": "Sivanina amin&#39;ny lahatsoratra",
+        "Description": "{{1}} resaka"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Misafidiana lohahevitra iray",
+            "Share": "anjara",
+            "interest": {
+                "Title": "Misafidiana hetsika iray",
+                "Filter": "Fikarohana mahaliana ..."
+            }
+        },
+        "Title": "Resadresaka vaovao",
+        "TitlePlaceholder": "Lohahevitry ny resakao",
+        "ContentPlaceholder": "Manorata teny vitsivitsy hanombohana ny resaka, mba hahafahan&#39;ny hafa mamaly",
+        "StartButton": "Manomboka resaka"
+    },
+    "events": {
+        "Title": "zava-mitranga",
+        "filterByTitle": "Mitadiava hetsika araka ny lohateny",
+        "New": "+ Manomboha hetsika vaovao",
+        "filterEvents": "Sivanina ny hetsika",
+        "NewEvent": "Hetsika vaovao",
+        "SetLocation": "Apetraho ny toerana misy ahy",
+        "NoneYet": "Tsy mbola nisy hetsika niforona<br> mandritra ireo fotoana ireo.",
+        "AllAuthors": "Mpanoratra rehetra",
+        "AllDays": "Andro rehetra",
+        "AllLocations": "Toerana rehetra",
+        "MakeReservation": "Manaova famandrihana",
+        "CancelReservation": "hanafoana ny famandrihana",
+        "UpdateReservation": "Fanavaozana ny famandrihana",
+        "AreYouSure": "Azonao antoka ve izany?",
+        "YouWillRefunded": "Haverina amin&#39;ny endrika crédit azonao lanina amin&#39;ny zavatra hafa ao amin&#39;ny app ianao.",
+        "AllInterests": "Ny tombontsoa rehetra",
+        "FilterbyInterest": "Sivanina araka ny fahalianany",
+        "FilterByDate": "Sivana Araka ny Daty",
+        "ShowActivities": "Asehoy ny hetsika mifandraika amin&#39;ny . . .",
+        "newEvents": "Manana hetsika vaovao {{1}} ianao",
+        "SelectLocation": "Safidio ny toerana",
+        "FilterLocationsPlaceHolder": "Sivana toerana misy...",
+        "Description": "{{1}} hetsika",
+        "Keywords": "{{1}} hetsika"
+    },
+    "schedule": {
+        "Title": "fandaharam-potoana",
+        "NoneYet": "Tsy mandray anjara amin&#39;ny hetsika rehetra ianao",
+        "AddSome": "Ampio ny sasany amin&#39;ny fandaharam-potoananao!",
+        "AddMore": "Ampio hetsika amin&#39;ny fandaharam-potoananao!",
+        "future": "HOAVY",
+        "past": "lasa"
+    },
+    "location": {
+        "Title": "Toerana",
+        "NewLocation": "Toerana vaovao"
+    },
+    "inbox": {
+        "Title": "Inbox",
+        "NoneYet": "Tsy mandray anjara amin&#39;ny resaka rehetra ianao",
+        "FindPeople": "Mitadiava olona hiresahana",
+        "GroupConversations": "Midira amin&#39;ny resaka vondrona sasany",
+        "ContactStaff": "Contact Staff",
+        "ContactCustomers": "Mifandraisa amin&#39;ny mpanjifa"
+    },
+    "me": {
+        "Title": "ahy",
+        "MobileNumber": "Nomerao finday",
+        "EmailAddress": "Adiresy mailaka",
+        "UpdateSocialTitle": "Fanavaozana {{1}} solonanarana"
+    },
+    "people": {
+        "Title": "People",
+        "Description": "Olona ao amin&#39;ny fiaraha-monina {{1}}.",
+        "AppAlert": "Ity fampiharana ao amin&#39;ny fivarotana fampiharana ity dia hamela anao hifandray amin&#39;ny namanao, sy ny maro hafa.",
+        "Invite": "Manasa namana",
+        "BuyCredits": "Mividiana Credits",
+        "FindSomeoneByName": "Mitadiava olona amin&#39;ny anarany",
+        "SearchByName": "Karoka amin&#39;ny anarana",
+        "FindAllMyFriends": "Tadiavo ny namako rehetra",
+        "labels": {
+            "All": "Ny olon-drehetra",
+            "Title": "Sivanina araka ny Fifandraisana",
+            "New": "Karazana Fifandraisana Vaovao"
+        },
+        "interests": {
+            "All": "Ny tombontsoa rehetra",
+            "Title": "Sivanina araka ny fahalianany",
+            "Filter": "Asehoy ny olona liana amin&#39;ny . . ."
+        },
+        "Keywords": "{{1}} vondron&#39;olona"
+    },
+    "communities": {
+        "Title": "fiaraha-monina",
+        "NewCommunity": "Fiaraha-monina vaovao",
+        "FindCommunityByName": "Mitadiava vondrom-piarahamonina amin&#39;ny anarana",
+        "Description": "{{1}} fiaraha-monina"
+    },
+    "community": {
+        "Title": "{{1}} Fiaraha-monina",
+        "Roles": "andraikitra",
+        "AllRoles": "Ny andraikitra rehetra",
+        "YouDontHavePermission": "Tsy mahazo alalana hanao izany ianao",
+        "usernamePlaceholder": "mametraka ny anaran&#39;ny fiaraha-monina",
+        "NotEnoughCredits": "Tsy ampy ny crédit mba hamoronana vondrom-piarahamonina. Mila {{1}}, manana {{2}} ianao"
+    },
+    "event": {
+        "GetDirections": "Mahazoa lalana",
+        "WhichMap": "Sarintany inona no tianao hampiasaina?",
+        "JoinEventToChat": "Miaraha amin&#39;ny hetsika hifampiresaka",
+        "promote": {
+            "Title": "Amporisiho ity hetsika ity",
+            "Prompt": "Fidio ny toerana tianao hampiroboroboana ity hetsika ity:"
+        },
+        "Confirmation": "ny fandraisana ho mpikambana"
+    },
+    "newEvent": {
+        "Title": "Manomana hetsika vaovao"
+    },
+    "interests": {
+        "Title": "mahaliana",
+        "prompt": "Safidio ny karazana zavatra tianao ho fantatra.",
+        "explanation": "Arakaraky ny maha-liana anao no fidinao, no mety hifandraisanao amin&#39;ny olona mitovy hevitra aminao.",
+        "filter": "Inona no mahaliana anao?",
+        "Profile": "Asongadina ny tombontsoa iombonana. Raha manana iray na maromaro amin&#39;ireo tombontsoa eto ambany ianao dia azonao {{clickOrTap}} manampy azy ireo."
+    },
+    "credits": {
+        "Title": "nahazoan-dalana",
+        "EarnCredits": "Mahazoa crédit {{1}} ho an&#39;ny olona vaovao rehetra asainao miditra amin&#39;ny fampiharana",
+        "YouHave": "Manana crédit {{1}} ianao"
+    },
+    "onboarding": {
+        "Tap": "paompy",
+        "Click": "tsindrio",
+        "Yes": "ENY",
+        "No": "tsy misy",
+        "Skip": "na mandingana ity",
+        "name": {
+            "Preface": "Tongasoa eto",
+            "Placeholder": "Ampidiro ny anaranao feno",
+            "GetStarted": "Manomboka",
+            "AsGuest": "Nasaina ho vahiny ianao.",
+            "AsMember": "Nasaina ho mpikambana ianao.",
+            "AsAdmin": "Nasaina ho admin ianao.",
+            "AsOwner": "Nasaina ho tompony ianao.",
+            "TooShort": "Tsy mety ho fohy toy izany ny anaranao feno",
+            "SetAsYourFullName": "Ataovy {{1}} ho anarana feno?"
+        },
+        "icon": {
+            "KeepDefault": "na tehirizo ity sary ity",
+            "SetYourPhoto": "{{ClickOrTap}} hametraka ny sarinao:"
+        },
+        "interests": {
+            "GetStarted": "⇩ Manomboka",
+            "NextCategory": "↓ Manaraka",
+            "Continue": "hanohy",
+            "Instructions": "Isaky ny sokajy {{1}} manaraka,<br> {{2}} ny hetsika rehetra mahaliana anao.<br> Izany no fomba hifandraisanao amin&#39;ny olona hafa ao amin&#39;ny fiarahamonina."
+        },
+        "profile": {
+            "Profile": "Manampy ny olona hahita bebe kokoa momba anao ny mombamomba anao.<br>",
+            "Birthday": "Ampidiro azafady ny fitsingerenan&#39;ny andro nahaterahanao:",
+            "Placeholder": "Iza ianao ary inona no ataonao? Lazao amin&#39;ny olona zavatra mahaliana na miavaka momba anao.",
+            "Required": "Mba hanohizana dia manorata andalana roa farafahakeliny momba ny tenanao.",
+            "Month": "VOLANA",
+            "Day": "Andro",
+            "Year": "TAOM-",
+            "Gender": "lahy sy ny vavy",
+            "Male": "lahy",
+            "Female": "vehivavy",
+            "Other": "Hafa",
+            "Height": "hahavony",
+            "Affiliation": "firehana",
+            "Dating": "FITIAVANA",
+            "Interested": "liana",
+            "NotInterested": "Tsy liana",
+            "MatchmakerOnly": "Mpikambana ihany"
+        },
+        "location": {
+            "NoOneElse": "Tsy hisy olon-kafa hahita izany.",
+            "SetMyLocation": "Apetraho ny toerana misy ahy"
+        },
+        "pile": {
+            "DialogTitle": "Olona manana tombontsoa iombonana"
+        },
+        "Done": "hatao"
+    },
+    "profile": {
+        "Title": "TANTARANY",
+        "Male": "lahy",
+        "Female": "vehivavy",
+        "Other": "Hafa",
+        "dating": {
+            "Interested": "liana",
+            "NotInterested": "Tsy liana",
+            "MatchmakerOnly": "Mpikambana ihany"
+        },
+        "StartConversation": "Manomboha resaka",
+        "blockUser": "Sakanana ity mpampiasa ity",
+        "blockUserAlert": "Tsy hahita hafatra avy amin&#39;ity mpampiasa ity intsony ianao raha tsy voasakanao.",
+        "unblockUser": "Mamaha ity mpampiasa ity",
+        "addToContacts": "Ampio amin&#39;ny Contacts",
+        "manageLabels": "Mitantana Labels",
+        "inviteUsers": "Asao ny mpampiasa",
+        "selectRole": "Select Role",
+        "inviteSuccess": "Mpampiasa nasaina nahomby ho {{label}}",
+        "invite": "Asao",
+        "relationships": "FIFANDRAISANA",
+        "newRole": "Anjara vaovao",
+        "about": "About",
+        "people": "People",
+        "info": "Info",
+        "interests": "mahaliana",
+        "chat": "hiresaka",
+        "locations": "TOERANA",
+        "ManageRoles": "Mitantana andraikitra",
+        "aboutPlaceholder": "Iza ianao ary inona no ataonao? Lazao amin&#39;ny olona zavatra mahaliana na miavaka momba anao.",
+        "explanation": "Ny mombamomba anao dia manampy anao hifanaraka tsara kokoa amin&#39;ny olona hafa amin&#39;ny hetsika vondrona.<br> Ampidiro azafady ny fitsingerenan&#39;ny andro nahaterahanao",
+        "chats": {
+            "placeholder": "Mitenena zavatra"
+        },
+        "LogOut": "Miala",
+        "MyLinks": "My Links",
+        "MyJobs": "Ny asako",
+        "MySocial": "MySocial",
+        "MyEducation": "Ny fianarako",
+        "JobsPlaceholder": "Soraty eto ny mombamomba ny asa",
+        "EducationPlaceholder": "Soraty eto ny fampahalalana momba ny fanabeazana",
+        "ManageNotifications": "Tantano ny fampahafantarana",
+        "YourPreferredLanguage": "Fiteny tianao"
+    },
+    "myqr": {
+        "Title": "Ny QR"
+    },
+    "composer": {
+        "createCommunity": "Mamorona fiaraha-monina",
+        "inviteAdmin": "Asao ny Admin",
+        "inviteMember": "Asao ny Mpikambana",
+        "newCommunityTitle": "Anaran&#39;ny fiaraha-monina",
+        "setCommunityTitle": "Anaran&#39;ny fiaraha-monina",
+        "creditsChargeRequest": "Manaiky handany crédit {{price}} ve ianao?",
+        "yes": "ENY",
+        "no": "tsy misy"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Tongasoa! Hamarino azafady ny adiresy mailakao.",
+        "WelcomeVerifyEmail": "Tongasoa! Hamarino ny adiresy mailakao.",
+        "ForgetPass": "Hey, adinonao ve ny fehezan-teninao?",
+        "ManageEmailSubscriptions": "tantano ny famandrihanao mailaka",
+        "IfUnsubscribe": "Raha te hiala misoratra anarana ianao"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Tongasoa eto amin&#39;ny {{CommunityName}}. Ity fampiharana ity dia hanampy anao hifandray amin&#39;ny namana, hahita olona vaovao manana tombontsoa iraisana, sy ny maro hafa. Andeha isika hanomboka!"
+            },
+            "icon": {
+                "Commentary": "Apetraho ny sarinao. Toy izany no hahitan&#39;ny olona anao amin&#39;ny tranokala."
+            },
+            "interests": {
+                "Commentary": "Arakaraky ny zavatra fidinao no mahabetsaka ny olona afaka mifanena aminao.",
+                "Notifications": "Mila mamela fampahafantarana ianao"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Ny fampandrenesana dia ahafahanao mahafantatra momba ireo zavatra mahaliana anao, toy ny rehefa misy namana miditra amin&#39;ny fampiharana, na mandefa hafatra aminao."
+        },
+        "invite": "{{Q.words.TapOrClick}} eto raha hijery ny fomba ahafahanao mizara izany amin&#39;ny olon-kafa."
+    },
+    "payment": {
+        "onContribute": "Misaotra anao! Lany ny fandoavanao. Te hanasa ny namanao hiaraka aminao ve ianao?"
+    },
+    "featureboard": {
+        "Text_1": "Aoka ho re ny feonao! Ekenao ve fa tokony hamorona endri-javatra na bibikely isika? Tsindrio ny bokotra hanohanana azy.",
+        "Text_2": "Te hamolavola endri-javatra vaovao ve izahay? Farito eto ambany.",
+        "Text_3": "Isan-kerinandro dia manomboka mamolavola ny endri-javatra tena angatahin&#39;ny vondrom-piarahamonina izahay. Ny vola rehetra narotsaka dia mankany amin&#39;io tanjona io, ahafahantsika manatsara ny fampiharana.",
+        "Text_4": "Ny vola rehetra narotsaka dia ampiasaina hanampiana amin&#39;ny fandoavana ny saran&#39;ny fampandrosoana.",
+        "Text_5": "Manana hevitra momba ny endri-javatra na fanamboarana bug tianao hataonay ve ianao nefa mbola tsy nahita ny hafa nampiana? Farito eto ambany:",
+        "Options": [
+            {
+                "text": "$400 Real time videoconferencing"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$ 200 momba ny fisoratana anarana Kilonga eo an-toerana"
+            },
+            {
+                "text": "$130 Mitsidiha sy mizara meme {{1}} an&#39;arivony",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 Mitantana vondrom-piarahamoninao manokana",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Amboary ny olana amin&#39;ny resaka",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Mangataka endri-javatra vaovao\/fanamboarana bug",
+        "FeaturePlaceholder": "Famintinana fohy momba ny endri-javatra",
+        "FeatureDescription": "Farito ny fomba ahafahan&#39;ny olon-kafa mamerina indray ilay bibikely hitanao, na lazao amin&#39;ny antsipiriany ny endri-javatra tianao hamboarina",
+        "AddYourRequest": "Ampio ny fangatahanao",
+        "NewFeature": "Endri-javatra vaovao"
+    },
+    "contribute": {
+        "ContributeExplanation": "Ampio hanohana ny fitohizan&#39;ny fampiharana {{communityName}}. Ny fandraisanao anjara rehetra dia manampy amin&#39;ny famahana ny bibikely ary mamolavola endri-javatra vaovao hanampy amin&#39;ny fitomboan&#39;ny vondrom-piarahamonina an-tserasera!",
+        "ReasonToContribute": "Ity fampiharana ity dia tazonin&#39;ny mpanohana ny {{communityName}}. Ampio hanohana ity fampiharana ity mba hahafahantsika manova ny fiainan&#39;ny olona!"
+    },
+    "assetshistory": {
+        "Title": "Tantaran&#39;ny fananana",
+        "Charges": "PIAMPANGANA",
+        "Credits": "nahazoan-dalana"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Esory ny kaonty",
+            "content": "Te hanala ity kaonty ity ve ianao?",
+            "ok": "ENY",
+            "cancel": "tsy misy"
+        }
+    },
+    "import": {
+        "fileNotFound": "Miala tsiny fa tsy hita ny rakitra CSV.",
+        "fileEmpty": "Miala tsiny, banga ny rakitra CSV.",
+        "userIdNotFound": "misy mpampiasa fa id foana",
+        "errorLine": "tsipika {{1}}",
+        "fieldNotFound": "Tsy hita ny saha ilaina &quot;{{1}}&quot;.",
+        "taskStreamInvalid": "tsy manan-kery ny rindranasa asa",
+        "instructionsEmpty": "banga ny torolalana amin&#39;ny fandehanana asa",
+        "complete": "feno",
+        "activateUsers": "mandefa hafatra fampahavitrihana amin&#39;ny mpampiasa?",
+        "importProgress": "fandrosoana",
+        "joinEventLabel": "Ampidiro amin&#39;ny hetsika kisendrasendra ny mpampiasa",
+        "importOptions": "FANDIKANA",
+        "sampleCSV": "Misintona santionany CSV",
+        "fileLabel": "Alefaso ny takelaka:",
+        "errorsTitle": "Nisy lesoka",
+        "communityUsers": "Ity ny lisitry ny vondrom-piarahamonina",
+        "setAsConversation": "tsanganana URL ho resaka",
+        "toMainCommunityToo": "ampio koa ny mpampiasa amin&#39;ny vondrom-piarahamonina lehibe",
+        "willImportedTo": "Hafatra ho any amin&#39;ny fiarahamonina ny mpampiasa"
+    }
+}

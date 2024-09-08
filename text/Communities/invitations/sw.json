@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Umealikwa",
+        "Member": "Mwanachama katika {{title}}",
+        "Explanation": "{{1}} ina furaha kutangaza uzinduzi wa tovuti yetu mpya. Inajumuisha orodha inayokua ya vipengele, kama vile:",
+        "Public": "Taarifa za umma kuhusu {{1}}",
+        "Private": "Akaunti ya kibinafsi ya mtumiaji kwa kila mwanachama",
+        "Notifications": "Kwa kuingiza barua pepe yako au nambari ya simu utaweza kupokea arifa muhimu kwa barua pepe au ujumbe mfupi.",
+        "GetStarted": "Ili kuanza, katika kivinjari chako cha wavuti tafadhali ingiza <em>kwa uangalifu<\/em> :<br>",
+        "IssuedToYou": "Nambari hii imetolewa kwako mahususi."
+    }
+}

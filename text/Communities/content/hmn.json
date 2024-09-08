@@ -1,0 +1,362 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> tsis taw tes rau dab tsi!",
+        "NextSteps": "Siv cov ntawv qhia zaub mov tseem ceeb kom pom qhov koj tab tom nrhiav."
+    },
+    "dashboard": {
+        "Menu": "Ntawv qhia zaub mov"
+    },
+    "greeting": {
+        "Welcome": "Txais tos rau {{1}}. Ntawm no koj yuav pom cov khoom tshaj tawm rau cov tswv cuab ntawm peb lub zej zog. Thov ntxiv koj email chaw nyob lossis tus lej xov tooj ntawm tes kom tau txais cov ntawv ceeb toom thaum tshaj tawm."
+    },
+    "conversations": {
+        "Title": "Kev sib tham",
+        "New": "Kev sib tham tshiab",
+        "Conversation": "Kev sib tham",
+        "Topics": "Ntsiab lus",
+        "NoneYet": "Tseem tsis tau muaj kev sib tham",
+        "newConversations": "{{1}} kev sib tham tshiab",
+        "AllAuthors": "Txhua Tus Sau",
+        "FilterbyAuthors": "Lim los ntawm Tus Sau",
+        "FilterAuthorPlaceHolder": "Nrhiav tus sau ntxiv...",
+        "filterConversations": "Lim los ntawm cov ntawv nyeem",
+        "Description": "{{1}} kev sib tham"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Xaiv ib lub ncauj lus",
+            "Share": "Qhia",
+            "interest": {
+                "Title": "Xaiv ib qho Kev Ua Si",
+                "Filter": "Nrhiav kev txaus siab..."
+            }
+        },
+        "Title": "Kev sib tham tshiab",
+        "TitlePlaceholder": "Lub ntsiab lus ntawm koj qhov kev sib tham",
+        "ContentPlaceholder": "Sau ob peb lo lus los pib sib tham, kom lwm tus tuaj yeem teb tau",
+        "StartButton": "Pib Kev Sib Tham"
+    },
+    "events": {
+        "Title": "Cov xwm txheej",
+        "filterByTitle": "Nrhiav cov xwm txheej los ntawm lub npe",
+        "New": "+ Pib qhov xwm txheej tshiab",
+        "filterEvents": "Lim cov xwm txheej",
+        "NewEvent": "Kev tshwm sim tshiab",
+        "SetLocation": "Teem Kuv Qhov Chaw",
+        "NoneYet": "Tseem tsis tau muaj xwm txheej tshwm sim<br> thaum lub sijhawm no.",
+        "AllAuthors": "Txhua Tus Sau",
+        "AllDays": "Txhua Hnub",
+        "AllLocations": "Txhua Qhov Chaw",
+        "MakeReservation": "Ua Reservation",
+        "CancelReservation": "Ncua tseg Reservation",
+        "UpdateReservation": "Hloov Reservation",
+        "AreYouSure": "Koj puas paub tseeb?",
+        "YouWillRefunded": "Koj yuav tau them rov qab rau hauv daim ntawv ntawm cov qhab nia uas koj tuaj yeem siv rau lwm yam hauv app.",
+        "AllInterests": "Txhua yam kev txaus siab",
+        "FilterbyInterest": "Lim los ntawm Kev Txaus Siab",
+        "FilterByDate": "Lim Los Ntawm Hnub",
+        "ShowActivities": "Qhia cov dej num ntsig txog. . .",
+        "newEvents": "Koj muaj {{1}} txheej xwm tshiab",
+        "SelectLocation": "Xaiv qhov chaw",
+        "FilterLocationsPlaceHolder": "Lim cov chaw nrog ...",
+        "Description": "{{1}} txheej xwm",
+        "Keywords": "{{1}} txheej xwm"
+    },
+    "schedule": {
+        "Title": "Teem caij",
+        "NoneYet": "Koj tsis koom nrog ib qho xwm txheej",
+        "AddSome": "Ntxiv qee qhov rau koj lub sijhawm!",
+        "AddMore": "Ntxiv cov xwm txheej rau koj lub sijhawm!",
+        "future": "yav tom ntej",
+        "past": "yav dhau los"
+    },
+    "location": {
+        "Title": "Qhov chaw",
+        "NewLocation": "Qhov chaw tshiab"
+    },
+    "inbox": {
+        "Title": "Inbox",
+        "NoneYet": "Koj tsis koom nrog kev sib tham",
+        "FindPeople": "Nrhiav neeg los tham nrog",
+        "GroupConversations": "Koom nrog qee pawg kev sib tham",
+        "ContactStaff": "Hu rau cov neeg ua haujlwm",
+        "ContactCustomers": "Hu rau cov neeg siv khoom"
+    },
+    "me": {
+        "Title": "Kuv",
+        "MobileNumber": "Xov tooj txawb",
+        "EmailAddress": "Email Chaw Nyob",
+        "UpdateSocialTitle": "Hloov tshiab {{1}} username"
+    },
+    "people": {
+        "Title": "Cov neeg",
+        "Description": "Cov neeg hauv {{1}} zej zog",
+        "AppAlert": "Qhov no app hauv khw app yuav cia koj txuas nrog koj cov phooj ywg, thiab ntau ntxiv.",
+        "Invite": "Caw phooj ywg",
+        "BuyCredits": "Yuav credit",
+        "FindSomeoneByName": "Nrhiav ib tus neeg los ntawm lub npe",
+        "SearchByName": "Nrhiav lub npe",
+        "FindAllMyFriends": "Nrhiav Txhua Tus Phooj Ywg",
+        "labels": {
+            "All": "Txhua tus",
+            "Title": "Lim los ntawm Kev Sib Raug Zoo",
+            "New": "Hom Kev Sib Raug Zoo Tshiab"
+        },
+        "interests": {
+            "All": "Txhua yam kev txaus siab",
+            "Title": "Lim los ntawm Kev Txaus Siab",
+            "Filter": "Qhia cov neeg txaus siab rau. . ."
+        },
+        "Keywords": "{{1}} neeg zej zog"
+    },
+    "communities": {
+        "Title": "Cov zej zog",
+        "NewCommunity": "Zej Zog Tshiab",
+        "FindCommunityByName": "Nrhiav lub zej zog los ntawm lub npe",
+        "Description": "{{1}} cov zej zog"
+    },
+    "community": {
+        "Title": "{{1}} Lub zej zog",
+        "Roles": "Lub luag haujlwm",
+        "AllRoles": "Txhua Lub Luag Haujlwm",
+        "YouDontHavePermission": "Koj tsis muaj cai ua qhov no",
+        "usernamePlaceholder": "teem lub npe zej zog",
+        "NotEnoughCredits": "Koj tsis muaj credit txaus los tsim cov zej zog. Xav tau {{1}}, koj muaj {{2}}"
+    },
+    "event": {
+        "GetDirections": "Tau txais cov lus qhia",
+        "WhichMap": "Koj xav siv daim ntawv qhia twg?",
+        "JoinEventToChat": "Koom nrog qhov kev tshwm sim los tham",
+        "promote": {
+            "Title": "Txhawb nqa qhov kev tshwm sim no",
+            "Prompt": "Xaiv qhov chaw koj xav txhawb qhov kev tshwm sim:"
+        },
+        "Confirmation": "Kev lees paub"
+    },
+    "newEvent": {
+        "Title": "Npaj Cov Txheej Txheem Tshiab"
+    },
+    "interests": {
+        "Title": "Kev txaus siab",
+        "prompt": "Xaiv hom yam koj xav paub txog.",
+        "explanation": "Qhov kev txaus siab ntau dua koj xaiv, qhov ntau dua koj yuav txuas nrog cov neeg nyiam.",
+        "filter": "Koj xav li cas?",
+        "Profile": "Kev sib nrig sib nyiam yog qhov tseem ceeb. Yog tias koj tseem muaj ib lossis ntau qhov kev txaus siab hauv qab no, koj tuaj yeem {{clickOrTap}} ntxiv rau lawv."
+    },
+    "credits": {
+        "Title": "Cov qhab nia",
+        "EarnCredits": "Tau txais {{1}} cov qhab nia rau txhua tus neeg tshiab koj caw uas koom nrog lub app",
+        "YouHave": "Koj muaj {{1}} credits"
+    },
+    "onboarding": {
+        "Tap": "Coj mus rhaub",
+        "Click": "Nyem",
+        "Yes": "Yog lawm",
+        "No": "Tsis muaj",
+        "Skip": "los yog hla qhov no",
+        "name": {
+            "Preface": "Zoo siab txais tos",
+            "Placeholder": "Sau koj lub npe tag",
+            "GetStarted": "Pib pib",
+            "AsGuest": "Koj twb raug caw ua qhua.",
+            "AsMember": "Koj tau raug caw los ua ib tug tswv cuab.",
+            "AsAdmin": "Koj tau raug caw los ua tus thawj tswj hwm.",
+            "AsOwner": "Koj tau raug caw ua tus tswv.",
+            "TooShort": "Koj lub npe tag tsis tuaj yeem luv luv",
+            "SetAsYourFullName": "Teem {{1}} ua koj lub npe tag?"
+        },
+        "icon": {
+            "KeepDefault": "los yog khaws daim duab no",
+            "SetYourPhoto": "{{ClickOrTap}} los teeb koj daim duab:"
+        },
+        "interests": {
+            "GetStarted": "⇩ Pib Pib",
+            "NextCategory": "↓ Tom ntej no",
+            "Continue": "Txuas ntxiv",
+            "Instructions": "Hauv txhua qhov tom ntej {{1}} pawg,<br> {{2}} tag nrho cov dej num uas koj nyiam.<br> Nov yog qhov koj txuas nrog lwm tus neeg hauv zej zog."
+        },
+        "profile": {
+            "Profile": "Koj qhov profile yuav pab tib neeg pom ntau ntxiv txog koj.<br>",
+            "Birthday": "Thov sau koj lub hnub yug:",
+            "Placeholder": "Koj yog leej twg thiab koj ua dab tsi? Qhia rau tib neeg ib yam dab tsi nthuav lossis tshwj xeeb txog koj tus kheej.",
+            "Required": "Txhawm rau txuas ntxiv, sau tsawg kawg yog ob peb kab txog koj tus kheej.",
+            "Month": "Lub hli",
+            "Day": "Hnub",
+            "Year": "Xyoo",
+            "Gender": "Poj niam los txiv neej",
+            "Male": "Txiv neej",
+            "Female": "Poj niam",
+            "Other": "Lwm yam",
+            "Height": "Qhov siab",
+            "Affiliation": "Kev koom tes",
+            "Dating": "Sib tham",
+            "Interested": "Txaus siab",
+            "NotInterested": "Tsis txaus siab",
+            "MatchmakerOnly": "Matchmaker nkaus xwb"
+        },
+        "location": {
+            "NoOneElse": "Tsis muaj leej twg yuav pom nws.",
+            "SetMyLocation": "Teem kuv qhov chaw"
+        },
+        "pile": {
+            "DialogTitle": "Cov neeg uas muaj kev nyiam"
+        },
+        "Done": "Ua tiav"
+    },
+    "profile": {
+        "Title": "Profile",
+        "Male": "Txiv neej",
+        "Female": "Poj niam",
+        "Other": "Lwm yam",
+        "dating": {
+            "Interested": "Txaus siab",
+            "NotInterested": "Tsis txaus siab",
+            "MatchmakerOnly": "Matchmaker nkaus xwb"
+        },
+        "StartConversation": "Pib kev sib tham",
+        "blockUser": "Thaiv tus neeg siv no",
+        "blockUserAlert": "Koj yuav tsis pom cov lus ntxiv los ntawm tus neeg siv no kom txog thaum koj qhib lawv.",
+        "unblockUser": "Unblock tus neeg siv no",
+        "addToContacts": "Ntxiv rau Kev Tiv Thaiv",
+        "manageLabels": "Tswj Cov Ntawv Sau",
+        "inviteUsers": "Caw cov neeg siv",
+        "selectRole": "Xaiv lub luag haujlwm",
+        "inviteSuccess": "Ua tiav tau caw cov neeg siv raws li {{label}}",
+        "invite": "Caw",
+        "relationships": "Kev sib raug zoo",
+        "newRole": "Lub luag haujlwm tshiab",
+        "about": "Txog",
+        "people": "Cov neeg",
+        "info": "Cov ntaub ntawv",
+        "interests": "Kev txaus siab",
+        "chat": "Tham",
+        "locations": "Qhov chaw",
+        "ManageRoles": "Tswj lub luag haujlwm",
+        "aboutPlaceholder": "Koj yog leej twg thiab koj ua dab tsi? Qhia rau tib neeg ib yam dab tsi nthuav lossis tshwj xeeb txog koj tus kheej.",
+        "explanation": "Koj qhov profile yuav pab tau koj zoo dua nrog lwm tus neeg rau kev ua haujlwm pab pawg.<br> Thov sau koj lub hnub yug",
+        "chats": {
+            "placeholder": "Hais ib yam dab tsi"
+        },
+        "LogOut": "Log Out",
+        "MyLinks": "Kuv Links",
+        "MyJobs": "Kuv Cov Haujlwm",
+        "MySocial": "MySocial",
+        "MyEducation": "Kuv Txoj Kev Kawm",
+        "JobsPlaceholder": "Ntaus cov ntaub ntawv ua haujlwm ntawm no",
+        "EducationPlaceholder": "Ntaus ntawv qhia kev kawm no",
+        "ManageNotifications": "Tswj cov ntawv ceeb toom",
+        "YourPreferredLanguage": "Koj hom lus nyiam"
+    },
+    "myqr": {
+        "Title": "Kuv QR"
+    },
+    "composer": {
+        "createCommunity": "Tsim zej zog",
+        "inviteAdmin": "Caw Admin",
+        "inviteMember": "Caw tus tswv cuab",
+        "newCommunityTitle": "Lub npe zej zog",
+        "setCommunityTitle": "Lub npe zej zog",
+        "creditsChargeRequest": "Koj puas pom zoo siv {{price}} credits?",
+        "yes": "Yog lawm",
+        "no": "Tsis muaj"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Zoo siab txais tos! Thov txheeb xyuas koj tus email chaw nyob.",
+        "WelcomeVerifyEmail": "Zoo siab txais tos! Xyuas koj tus email chaw nyob.",
+        "ForgetPass": "Hav, koj puas tsis nco qab koj lo lus zais?",
+        "ManageEmailSubscriptions": "tswj koj tus email subscriptions",
+        "IfUnsubscribe": "Yog koj xav unsubscribe"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Txais tos rau {{CommunityName}}. Cov app no yuav pab koj txuas nrog phooj ywg, nrhiav cov neeg tshiab uas muaj kev nyiam, thiab ntau ntxiv. Cia peb pib!"
+            },
+            "icon": {
+                "Commentary": "Teeb koj daim duab. Qhov no yog li cas cov neeg yuav pom koj ntawm lub xaib."
+            },
+            "interests": {
+                "Commentary": "Cov khoom ntau koj xaiv, ntau tus neeg koj tuaj yeem ntsib.",
+                "Notifications": "Koj yuav tsum tso cai rau cov ntawv ceeb toom"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Cov ntawv ceeb toom tso cai rau koj paub txog tej yam koj nyiam, xws li thaum tus phooj ywg koom nrog lub app, lossis xa lus rau koj."
+        },
+        "invite": "{{Q.words.TapOrClick}} ntawm no saib seb koj tuaj yeem qhia qhov no rau lwm tus li cas."
+    },
+    "payment": {
+        "onContribute": "Ua tsaug! Koj qhov kev them nyiaj tau dhau mus. Koj puas xav caw koj cov phooj ywg tuaj koom koj?"
+    },
+    "featureboard": {
+        "Text_1": "Cia koj lub suab hnov! Koj puas pom zoo peb yuav tsum txhim kho qhov tshwj xeeb lossis kab laum? Nyem lub pob kom txhawb nqa nws.",
+        "Text_2": "Xav kom peb tsim ib tug tshiab feature? Piav qhia hauv qab no.",
+        "Text_3": "Txhua lub lim tiam peb pib txhim kho qhov zoo tshaj plaws thov los ntawm zej zog. Tag nrho cov nyiaj pab tau mus rau lub hom phiaj ntawd, cia peb ua kom lub app zoo dua.",
+        "Text_4": "Tag nrho cov nyiaj tau los yog siv los pab them peb cov nqi txhim kho.",
+        "Text_5": "Koj puas muaj ib lub tswv yim rau qhov feature lossis bugfix uas koj xav kom peb ua tab sis tseem tsis tau pom lwm tus ntxiv? Piav nws hauv qab no:",
+        "Options": [
+            {
+                "text": "$400 Real time videoconferencing"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$200 Local Primary cov ntaub ntawv sau npe"
+            },
+            {
+                "text": "$130 Xauj thiab faib ntau txhiab {{1}} memes",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 Tswj koj tus kheej cov zej zog",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Kho cov kab lus sib tham",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Thov ib tug tshiab Feature\/Bugfix",
+        "FeaturePlaceholder": "Cov ntsiab lus luv luv ntawm feature",
+        "FeatureDescription": "Piav seb lwm tus neeg tuaj yeem tsim cov kab laum uas koj pom, lossis piav qhia meej txog qhov koj xav tsim",
+        "AddYourRequest": "Ntxiv Koj Qhov Kev Thov",
+        "NewFeature": "Tshiab Feature"
+    },
+    "contribute": {
+        "ContributeExplanation": "Pab txhawb kev txhim kho txuas ntxiv ntawm {{communityName}} app. Tag nrho koj qhov kev koom tes pab txhim kho cov kab thiab txhim kho cov yam ntxwv tshiab los pab txhawb lub zej zog online!",
+        "ReasonToContribute": "Cov app no yog tswj hwm los ntawm cov neeg txhawb nqa ntawm {{communityName}}. Pab txhawb nqa lub app no kom peb tuaj yeem ua qhov sib txawv hauv tib neeg lub neej!"
+    },
+    "assetshistory": {
+        "Title": "Cov cuab tam keeb kwm",
+        "Charges": "Nqi",
+        "Credits": "Cov qhab nia"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Tshem tawm tus account",
+            "content": "Koj puas xav tshem tus account no?",
+            "ok": "Yog lawm",
+            "cancel": "Tsis muaj"
+        }
+    },
+    "import": {
+        "fileNotFound": "Thov txim, tsis pom cov ntaub ntawv CSV.",
+        "fileEmpty": "Thov txim, CSV cov ntaub ntawv tsis muaj dab tsi.",
+        "userIdNotFound": "tus neeg siv muaj tab sis id khoob",
+        "errorLine": "kab {{1}}",
+        "fieldNotFound": "Yuav tsum tau teb &quot;{{1}}&quot; tsis pom",
+        "taskStreamInvalid": "ua hauj lwm stream invalid",
+        "instructionsEmpty": "ua hauj lwm stream cov lus qhia khoob",
+        "complete": "Ua kom tiav",
+        "activateUsers": "xa cov lus qhib rau cov neeg siv?",
+        "importProgress": "Kev vam meej",
+        "joinEventLabel": "Koom nrog cov neeg siv rau qhov xwm txheej random",
+        "importOptions": "Kev xaiv",
+        "sampleCSV": "Download Sample CSV",
+        "fileLabel": "Upload daim ntawv qhia:",
+        "errorsTitle": "Qhov yuam kev tshwm sim",
+        "communityUsers": "Nov yog cov npe hauv zej zog",
+        "setAsConversation": "URL kab raws li kev sib tham",
+        "toMainCommunityToo": "ntxiv cov neeg siv rau cov zej zog tseem ceeb thiab",
+        "willImportedTo": "Cov neeg siv yuav raug coj los rau hauv zej zog"
+    }
+}

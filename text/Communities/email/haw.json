@@ -1,0 +1,27 @@
+{
+    "activation": {
+        "Thanks": "Welina mai iā {{1}}",
+        "ReallyYourEmail": "ʻO kēia anei kāu helu leka uila, {{1}}? Inā pēlā, kaomi <a href='{{2}}'>ma aneʻi<\/a> e hoʻonohonoho i kāu ʻōlelo huna a hoʻā i kāu moʻokāki.",
+        "SeeYou": "E ʻike iā ʻoe ma <a href='{{1}}'>{{2}}<\/a> !"
+    },
+    "LinkToUnsubscribe": "Eia kahi loulou e <a href='{{1}}'>wehe<\/a> i ke kau inoa inā ʻaʻole ʻoe makemake e kiʻi hou i nā leka uila.",
+    "Greetings": "Aloha mai {{1}}.",
+    "SeeHistory": "E ʻike i ka mōʻaukala uku no {{1}}",
+    "charge": {
+        "HasBeenCharged": "ʻAe, he mea kēia e hōʻike aku iā ʻoe ua uku ʻia {{2}} no {{3}} e {{4}}"
+    },
+    "charged": {
+        "HavePaid": "ʻAuhea {{1}}, he hōʻoia wikiwiki kēia i kou uku ʻana {{2}} iā {{3}} no {{4}}"
+    },
+    "resend": {
+        "Thanks": "Mahalo no kou kipa ʻana iā {{1}}",
+        "YouAreReceiving": "Loaʻa iā ʻoe kēia leka uila no ka mea ua komo kekahi i kāu leka uila a kaomi &quot;poina ka ʻōlelo huna&quot;. Inā ʻaʻole ʻoe, e haʻalele wale i kēia memo.",
+        "Reset": "No ka hoʻoponopono hou ʻana i kāu ʻōlelo huna, kaomi iā {{1}}",
+        "SetUpPassphrase": "Hoʻonohonoho i ka ʻōlelo huna"
+    },
+    "subscription": {
+        "YouHaveStarted": "ʻAuhea {{1}}, ua hoʻomaka ʻoe i kāu kau inoa iā {{2}} me {{3}} ma {{4}} no {{5}} mahina.",
+        "HasStarted": "He mea kēia e hōʻike iā ʻoe {{1}}, ua hoʻomaka kā lākou kau inoa ʻana iā {{2}} me {{3}} ma {{4}} no {{5}} mahina."
+    },
+    "SeeYou": "E ʻike iā ʻoe ma {{1}}!"
+}

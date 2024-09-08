@@ -1,0 +1,33 @@
+{
+    "activation": {
+        "Thanks": "Selamat datang di {{1}}",
+        "ReallyYourEmail": "Apakah ini benar-benar alamat email Anda, {{1}}? Jika demikian, klik di <a href='{{2}}'>sini<\/a> untuk mengatur frasa sandi Anda dan mengaktifkan akun Anda.",
+        "SeeYou": "Sampai jumpa di <a href='{{1}}'>{{2}}<\/a> !",
+        "Subject": "Selamat datang! Harap verifikasi alamat email Anda."
+    },
+    "LinkToUnsubscribe": "Berikut ini tautan untuk <a href='{{1}}'>berhenti berlangganan<\/a> jika Anda tidak ingin mendapat email lagi.",
+    "Greetings": "Salam dari {{1}}.",
+    "SeeHistory": "Lihat riwayat pembayaran untuk {{1}}",
+    "charge": {
+        "HasBeenCharged": "Hai, ini hanya untuk memberi tahu Anda {{1}} telah dibebankan {{2}} untuk {{3}} oleh {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hai {{1}}, ini hanya konfirmasi cepat bahwa Anda berhasil membayar {{2}} ke {{3}} untuk {{4}}"
+    },
+    "resend": {
+        "Thanks": "Terima kasih telah mengunjungi {{1}}",
+        "YouAreReceiving": "Anda menerima email ini karena seseorang memasukkan alamat email Anda dan mengklik &quot;lupa frasa sandi&quot;. Jika bukan Anda, abaikan saja pesan ini.",
+        "Reset": "Untuk mengatur ulang frasa sandi Anda, klik {{1}}",
+        "SetUpPassphrase": "Siapkan frasa sandi",
+        "DomainCode": "Jika halaman web sudah terbuka di browser Anda, Anda dapat memasukkan kode",
+        "Subject": "Hei, apakah Anda lupa kata sandi Anda?"
+    },
+    "subscription": {
+        "YouHaveStarted": "Hai {{1}}, Anda sudah mulai berlangganan {{2}} dengan {{3}} di {{4}} selama {{5}} bulan.",
+        "HasStarted": "Ini hanya untuk memberi tahu Anda {{1}}, telah mulai berlangganan ke {{2}} dengan {{3}} di {{4}} selama {{5}} bulan."
+    },
+    "SeeYou": "Sampai jumpa di {{1}}!",
+    "identifier": {
+        "Subject": "Selamat datang! Verifikasi alamat email Anda."
+    }
+}

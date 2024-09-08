@@ -1,0 +1,15 @@
+/*.Communities .Q_column_inbox .Q_title_slot {
+	text-indent: 40px;
+	background: url(../../img/colorful/inbox.png) no-repeat;
+	background-size: 40px 40px;
+	background-position: left center;
+}
+*/
+.Communities .Q_column_inbox .Q_title_slot::before {
+	content: "\e90b"; color: #00aeff;
+}
+
+.Communities_inbox_column .Streams_preview_tool {
+	margin-bottom: 10px;
+	box-shadow: 0 0 .5em #aaa;
+}

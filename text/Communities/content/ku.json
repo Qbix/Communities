@@ -1,0 +1,362 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> tu tiştî nîşan nade!",
+        "NextSteps": "Menuya sereke bikar bînin ku hûn tiştê ku hûn lê digerin bibînin."
+    },
+    "dashboard": {
+        "Menu": "Qerta xûrekê"
+    },
+    "greeting": {
+        "Welcome": "Bi xêr hatî {{1}}. Li vir hûn ê tiştên ku ji bo endamên civata me hatine şandin bibînin. Ji kerema xwe navnîşana e-name an jî jimareya mobîla xwe lê zêde bikin da ku hûn gava ku ragihandin têne şandin agahdarî bistînin."
+    },
+    "conversations": {
+        "Title": "Conversations",
+        "New": "Gotûbêja Nû",
+        "Conversation": "Kêfî",
+        "Topics": "Mijar",
+        "NoneYet": "Hîn axaftin çênebûne",
+        "newConversations": "{{1}} axaftinên nû",
+        "AllAuthors": "Hemû Nivîskar",
+        "FilterbyAuthors": "Parzûnkirin ji hêla Nivîskaran ve",
+        "FilterAuthorPlaceHolder": "Li nivîskarên din bigerin...",
+        "filterConversations": "Parzûna bi nivîsê",
+        "Description": "{{1}} axaftin"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Mijarek hilbijêre",
+            "Share": "Par",
+            "interest": {
+                "Title": "Çalakiyek hilbijêrin",
+                "Filter": "Lêgerîna berjewendiyan..."
+            }
+        },
+        "Title": "Gotûbêja Nû",
+        "TitlePlaceholder": "Mijara axaftina we",
+        "ContentPlaceholder": "Ji bo destpêkirina axaftinê çend peyvan binivîsin, da ku yên din bersivê bidin",
+        "StartButton": "Danûstandinê dest pê bikin"
+    },
+    "events": {
+        "Title": "Events",
+        "filterByTitle": "Bi sernavê bûyeran bibînin",
+        "New": "+ Bûyerek Nû dest pê bikin",
+        "filterEvents": "Parzûna bûyerên",
+        "NewEvent": "Bûyera Nû",
+        "SetLocation": "Cihê Min Set",
+        "NoneYet": "Hîn bûyer çênebûne<br> di van deman de.",
+        "AllAuthors": "Hemû Nivîskar",
+        "AllDays": "Hemû Roj",
+        "AllLocations": "Hemû Cihan",
+        "MakeReservation": "Reservation bike",
+        "CancelReservation": "Betal Reservation",
+        "UpdateReservation": "Reservation Update",
+        "AreYouSure": "Piştrastin?",
+        "YouWillRefunded": "Hûn ê di forma krediyên ku hûn dikarin li ser tiştên din ên di sepanê de xerc bikin werin vegerandin.",
+        "AllInterests": "All Interests",
+        "FilterbyInterest": "Parzûna bi Interest",
+        "FilterByDate": "Parzûna Bi Dîrokê",
+        "ShowActivities": "Çalakiyên têkildarî nîşan bide. . .",
+        "newEvents": "Te {{1}} bûyerên nû hene",
+        "SelectLocation": "Cih hilbijêre",
+        "FilterLocationsPlaceHolder": "Cihên bi ...",
+        "Description": "{{1}} bûyer",
+        "Keywords": "{{1}} bûyer"
+    },
+    "schedule": {
+        "Title": "Pîlan",
+        "NoneYet": "Hûn beşdarî tu bûyeran nabin",
+        "AddSome": "Hinekan li bernameya xwe zêde bikin!",
+        "AddMore": "Bûyeran li bernameya xwe zêde bikin!",
+        "future": "dahatû",
+        "past": "borî"
+    },
+    "location": {
+        "Title": "Cîh",
+        "NewLocation": "Cihê Nû"
+    },
+    "inbox": {
+        "Title": "Inbox",
+        "NoneYet": "Hûn beşdarî tu danûstandinan nabin",
+        "FindPeople": "Kesên ku bi wan re biaxivin bibînin",
+        "GroupConversations": "Tevlî hin axaftinên komê bibin",
+        "ContactStaff": "Karmendên Têkilî",
+        "ContactCustomers": "Têkilî Mişterî"
+    },
+    "me": {
+        "Title": "Min",
+        "MobileNumber": "Hejmara Mobîl",
+        "EmailAddress": "Navnîşana emailê",
+        "UpdateSocialTitle": "Navê bikarhêner {{1}} nûve bike"
+    },
+    "people": {
+        "Title": "Gel",
+        "Description": "Kesên di civata {{1}} de",
+        "AppAlert": "Ev sepana di firotgeha sepanê de dê bihêle ku hûn bi hevalên xwe re, û hêj bêtir têkildar bin.",
+        "Invite": "Hevalan Vexwînin",
+        "BuyCredits": "Kredî bikirin",
+        "FindSomeoneByName": "Kesek bi navê xwe bibînin",
+        "SearchByName": "Bi navê lêgerîn",
+        "FindAllMyFriends": "Hemî Hevalên Min Bibînin",
+        "labels": {
+            "All": "Everyone",
+            "Title": "Parzûna bi Têkilî",
+            "New": "Tîpa Têkiliya Nû"
+        },
+        "interests": {
+            "All": "All Interests",
+            "Title": "Parzûna bi Interest",
+            "Filter": "Kesên eleqedar nîşan bidin. . ."
+        },
+        "Keywords": "{{1}} civata mirovan"
+    },
+    "communities": {
+        "Title": "Civakên",
+        "NewCommunity": "Civaka Nû",
+        "FindCommunityByName": "Bi navê civakê bibînin",
+        "Description": "{{1}} civakên"
+    },
+    "community": {
+        "Title": "{{1}} Civat",
+        "Roles": "Roles",
+        "AllRoles": "Hemû Role",
+        "YouDontHavePermission": "Hûn ne destûr in ku hûn vê yekê bikin",
+        "usernamePlaceholder": "navê civakê danîn",
+        "NotEnoughCredits": "Ji bo afirandina civakê bes krediyên we nînin. Pêdivî ye {{1}}, we heye {{2}}"
+    },
+    "event": {
+        "GetDirections": "Derhêneriyê bistînin",
+        "WhichMap": "Hûn dixwazin kîjan nexşeyan bikar bînin?",
+        "JoinEventToChat": "Tevlî bûyerê bibin ku sohbet bikin",
+        "promote": {
+            "Title": "Vê bûyerê bidin nasîn",
+            "Prompt": "Cihê ku hûn dixwazin vê bûyerê pêşve bibin hilbijêrin:"
+        },
+        "Confirmation": "Tesdîq"
+    },
+    "newEvent": {
+        "Title": "Plana Bûyera Nû"
+    },
+    "interests": {
+        "Title": "Interests",
+        "prompt": "Cureyên tiştên ku hûn dixwazin pê zanibin hilbijêrin.",
+        "explanation": "Zêdetir berjewendîyên ku hûn hilbijêrin, îhtîmala ku hûn bi mirovên hemfikir re têkildar bibin.",
+        "filter": "Çi bala we dikişîne?",
+        "Profile": "Berjewendiyên hevdu derdixin pêş. Heger yek an jî zêdetir berjewendîyên we yên li jêr hebin, hûn dikarin {{clickOrTap}} wan zêde bikin."
+    },
+    "credits": {
+        "Title": "Credits",
+        "EarnCredits": "Ji bo her kesê nû yê ku hûn vedixwînin ku tevlî sepanê dibe, {{1}} kredî qezenc bikin",
+        "YouHave": "Krediyên te yên {{1}} hene"
+    },
+    "onboarding": {
+        "Tap": "Dîk",
+        "Click": "Bikirtînin",
+        "Yes": "Erê",
+        "No": "Na",
+        "Skip": "an jî vê yekê derbas bikin",
+        "name": {
+            "Preface": "Bi xêr hatî",
+            "Placeholder": "Navê xwe yê tevahî binivîse",
+            "GetStarted": "Destpêkirin",
+            "AsGuest": "Tu wek mêvan hatiyî vexwendin.",
+            "AsMember": "Tu wek endam hatî vexwendin.",
+            "AsAdmin": "Hûn wek admin hatine vexwendin.",
+            "AsOwner": "Hûn wek xwedan hatine vexwendin.",
+            "TooShort": "Navê te yê tam nikare ewqas kurt be",
+            "SetAsYourFullName": "{{1}} wekî navê xweya tevahî were danîn?"
+        },
+        "icon": {
+            "KeepDefault": "an jî vê wêneyê biparêzin",
+            "SetYourPhoto": "{{ClickOrTap}} ji bo danîna wêneya xwe:"
+        },
+        "interests": {
+            "GetStarted": "⇩ Dest pê bike",
+            "NextCategory": "↓ Paşê",
+            "Continue": "Berdewamkirin",
+            "Instructions": "Di her yek ji {{1}} kategoriyên paşîn de,<br> {{2}} hemî çalakiyên ku hûn pê re eleqedar dibin.<br> Bi vî rengî hûn bi mirovên din ên civakê re têkildar in."
+        },
+        "profile": {
+            "Profile": "Profîla we ji mirovan re dibe alîkar ku derheqê we de bêtir kifş bikin.<br>",
+            "Birthday": "Ji kerema xwe rojbûna xwe binivîse:",
+            "Placeholder": "Tu kî yî û çi dikî? Li ser xwe tiştek balkêş an bêhempa ji mirovan re bêje.",
+            "Required": "Ji bo berdewamiyê, bi kêmanî du rêzan li ser xwe binivîsin.",
+            "Month": "Meh",
+            "Day": "Roj",
+            "Year": "Sal",
+            "Gender": "Zayendî",
+            "Male": "Nêrî",
+            "Female": "Mê",
+            "Other": "Yên din",
+            "Height": "Bilindî",
+            "Affiliation": "Affiliation",
+            "Dating": "Dating",
+            "Interested": "Balkêş",
+            "NotInterested": "Ne Balkêş e",
+            "MatchmakerOnly": "Matchmaker Tenê"
+        },
+        "location": {
+            "NoOneElse": "Kesek din wê nabîne.",
+            "SetMyLocation": "Cihê min saz bike"
+        },
+        "pile": {
+            "DialogTitle": "Kesên bi Berjewendiyên Hevbeş"
+        },
+        "Done": "Kirin"
+    },
+    "profile": {
+        "Title": "Tengal",
+        "Male": "Nêrî",
+        "Female": "Mê",
+        "Other": "Yên din",
+        "dating": {
+            "Interested": "Balkêş",
+            "NotInterested": "Ne eleqedar in",
+            "MatchmakerOnly": "Matchmaker tenê"
+        },
+        "StartConversation": "Danûstandinek dest pê bikin",
+        "blockUser": "Vê bikarhênerê asteng bike",
+        "blockUserAlert": "Heta ku hûn wan asteng nekin hûn ê ji vî bikarhênerî peyamên din nebînin.",
+        "unblockUser": "Vê bikarhênerê asteng bike",
+        "addToContacts": "Têkilî lê zêde bike",
+        "manageLabels": "Manage Labels",
+        "inviteUsers": "Bikarhêner vexwendin",
+        "selectRole": "Rola Hilbijêre",
+        "inviteSuccess": "Bikarhênerê bi serketî vexwend wek {{label}}",
+        "invite": "Ezimanden",
+        "relationships": "Têkiliyên",
+        "newRole": "Rola Nû",
+        "about": "Ji dor",
+        "people": "Gel",
+        "info": "Info",
+        "interests": "Interests",
+        "chat": "Galgalî",
+        "locations": "Cihan",
+        "ManageRoles": "Rolên Birêvebirin",
+        "aboutPlaceholder": "Tu kî yî û çi dikî? Li ser xwe tiştek balkêş an bêhempa ji mirovan re bêje.",
+        "explanation": "Profîla we ji bo çalakiyên komê çêtir dibe alîkar ku hûn bi kesên din re hevber bikin.<br> Ji kerema xwe rojbûna xwe binivîse",
+        "chats": {
+            "placeholder": "Tîştekî bêje"
+        },
+        "LogOut": "Derkeve",
+        "MyLinks": "Girêdanên min",
+        "MyJobs": "My Jobs",
+        "MySocial": "MySocial",
+        "MyEducation": "Perwerdehiya min",
+        "JobsPlaceholder": "Li vir agahdariya kar binivîsin",
+        "EducationPlaceholder": "Li vir agahdariya perwerdehiyê binivîse",
+        "ManageNotifications": "Agahdariyên birêvebirin",
+        "YourPreferredLanguage": "Zimanê we yê bijarte"
+    },
+    "myqr": {
+        "Title": "QR min"
+    },
+    "composer": {
+        "createCommunity": "Civatê biafirînin",
+        "inviteAdmin": "Admin vexwendin",
+        "inviteMember": "Endam vexwendin",
+        "newCommunityTitle": "Navê Civakê",
+        "setCommunityTitle": "Navê Civakê",
+        "creditsChargeRequest": "Ma hûn razî ne ku hûn {{price}} krediyan xerc bikin?",
+        "yes": "Erê",
+        "no": "Na"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Bi xêr hatî! Ji kerema xwe navnîşana e-nameya xwe verast bikin.",
+        "WelcomeVerifyEmail": "Bi xêr hatî! Navnîşana e-nameya xwe piştrast bikin.",
+        "ForgetPass": "Hey, te şîfreya xwe ji bîr kir?",
+        "ManageEmailSubscriptions": "aboneyên e-nameya xwe birêve bibin",
+        "IfUnsubscribe": "Ger tu dixwazî abonetiyê bikî"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Bi xêr hatî {{CommunityName}}. Ev serîlêdan dê ji we re bibe alîkar ku hûn bi hevalên xwe re têkildar bin, mirovên nû yên bi berjewendîyên hevpar kifş bikin, û hêj bêtir. Werin em dest pê bikin!"
+            },
+            "icon": {
+                "Commentary": "Wêneya xwe saz bikin. Bi vî rengî mirov dê we li ser malperê bibînin."
+            },
+            "interests": {
+                "Commentary": "Zêdetir tiştên ku hûn hilbijêrin, hûn dikarin bêtir mirovan bibînin.",
+                "Notifications": "Pêdivî ye ku hûn destûr bidin ragihandinan"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Agahdar dihêle hûn li ser tiştên ku hûn jê re eleqedar in, wekî gava hevalek beşdarî sepanê dibe, an jî ji we re peyaman dişîne."
+        },
+        "invite": "{{Q.words.TapOrClick}} li vir bibînin ku hûn çawa dikarin vê yekê bi kesên din re parve bikin."
+    },
+    "payment": {
+        "onContribute": "Spas dikim! Tezmînata we derbas bû. Ma hûn dixwazin hevalên xwe vexwînin we?"
+    },
+    "featureboard": {
+        "Text_1": "Bila dengê te bê bihîstin! Ma hûn razî ne ku divê em taybetmendiyek an xeletiyek pêşve bibin? Bişkojka bikirtînin da ku piştgirî bikin.",
+        "Text_2": "Dixwazin em taybetmendiyek nû pêş bixin? Li jêr şirove bikin.",
+        "Text_3": "Her hefte em dest bi pêşvebirina taybetmendiya herî daxwazkirî ya civakê dikin. Hemî dravê ku hatî berhev kirin berbi wê mebestê diçe, ku dihêle em sepanê çêtir bikin.",
+        "Text_4": "Hemî pereyên ku têne beşdar kirin ji bo dayîna lêçûnên pêşveçûna me têne bikar anîn.",
+        "Text_5": "Fikra we ji bo taybetmendiyek an xeletiyek heye ku hûn dixwazin ku em bikin lê hêj nedîtine yên din lê zêde bikin? Li jêr şirove bikin:",
+        "Options": [
+            {
+                "text": "400 $ Vîdyokonferansê dema rast"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "200 $ Agahdariya qeydkirina Seretayî ya Herêmî"
+            },
+            {
+                "text": "$130 Bi hezaran {{1}} memeyan bigerin û parve bikin",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "80 $ Civakên xwe bi rê ve bibin",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$ 30 Xeletiya sohbetê rast bikin",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Daxwaza Taybetmendiyek Nû \/ Bugfix bikin",
+        "FeaturePlaceholder": "Kurte kurteya taybetmendiyê",
+        "FeatureDescription": "Vebêjin ka kesek din çawa dikare xeletiya ku hûn dibînin dubare bike, an taybetmendiya ku hûn dixwazin ava bikin bi hûrgulî rave bikin",
+        "AddYourRequest": "Daxwaza xwe zêde bikin",
+        "NewFeature": "Taybetmendiya Nû"
+    },
+    "contribute": {
+        "ContributeExplanation": "Alîkariya pêşveçûna berdewam a sepana {{communityName}} bike. Hemî beşdariyên we dibin alîkar ku xeletiyan rast bikin û taybetmendiyên nû pêşve bibin da ku alîkariya mezinbûna civata serhêl bikin!",
+        "ReasonToContribute": "Ev sepan ji aliyê alîgirên {{communityName}} ve tê parastin. Alîkariya vê sepanê bikin da ku em di jiyana mirovan de cûdahiyek çêbikin!"
+    },
+    "assetshistory": {
+        "Title": "Dîroka hebûnên",
+        "Charges": "Barkirin",
+        "Credits": "Credits"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Hesabê jêbirin",
+            "content": "Ma hûn dixwazin vê hesabê jêbirin?",
+            "ok": "Erê",
+            "cancel": "Na"
+        }
+    },
+    "import": {
+        "fileNotFound": "Mixabin, pelê CSV nehat dîtin.",
+        "fileEmpty": "Bibore, pelê CSV vala ye.",
+        "userIdNotFound": "bikarhêner heye lê id vala ye",
+        "errorLine": "rêz {{1}}",
+        "fieldNotFound": "Qada pêwîst &quot;{{1}}&quot; nehat dîtin",
+        "taskStreamInvalid": "herikîna peywirê nederbasdar e",
+        "instructionsEmpty": "talîmatên herikîna peywirê vala ye",
+        "complete": "Tevî",
+        "activateUsers": "ji bikarhêneran re peyama çalakkirinê bişînin?",
+        "importProgress": "Pêşverûtî",
+        "joinEventLabel": "Tevlî bikarhêneran bibin bûyerek rasthatî",
+        "importOptions": "Vebijêrk",
+        "sampleCSV": "Nimûneya CSV dakêşin",
+        "fileLabel": "Spreadsheet barkirin:",
+        "errorsTitle": "Çewtî çêbûn",
+        "communityUsers": "Ev lîsteya civakan e",
+        "setAsConversation": "stûna URL wekî danûstendinê",
+        "toMainCommunityToo": "bikarhêneran jî li civata sereke zêde bikin",
+        "willImportedTo": "Bikarhêner dê ji civakê re bêne şandin"
+    }
+}

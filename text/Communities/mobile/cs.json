@@ -1,0 +1,24 @@
+{
+    "activation": {
+        "Thanks": "Vítejte v {{1}}.",
+        "ClickHere": "Kliknutím sem aktivujte svůj účet: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Kliknutím sem ověřte své mobilní číslo: {{1}}"
+    },
+    "SeeHistory": "Zobrazit historii plateb za {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} byla účtována {{2}} za {{3}} uživatelem {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Dobrý den, {{1}}, toto je jen rychlé potvrzení, že jste úspěšně zaplatili {{2}} uživateli {{3}} za {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Přihlásili jste se k odběru {{2}} s {{3}} u {{4}} na {{5}} měsíců.",
+        "HasStarted": "{{1}} se přihlásil k odběru {{2}} s {{3}} na {{4}} na {{5}} měsíců."
+    },
+    "resend": {
+        "DidYouWant": "Chtěli jste resetovat svou přístupovou frázi v {{1}}?",
+        "ClickHere": "Pak klikněte sem: {{1}}"
+    }
+}

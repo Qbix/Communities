@@ -1,0 +1,459 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> tidak menunjuk kepada apa-apa!",
+        "NextSteps": "Gunakan menu utama untuk mencari apa yang anda cari."
+    },
+    "dashboard": {
+        "Menu": "Menu",
+        "Home": "Rumah",
+        "Welcome": "Selamat datang",
+        "Events": "Peristiwa",
+        "Discuss": "Bincangkan",
+        "People": "Orang ramai",
+        "About": "Tentang",
+        "Community": "Komuniti",
+        "LogIn": "log masuk",
+        "LogOut": "log keluar",
+        "Intercoin": "Intercoin",
+        "Shows": "Pertunjukan",
+        "Calendar": "Kalendar",
+        "Me": "saya",
+        "Media": "Media",
+        "Services": "Perkhidmatan",
+        "SetMobileNumber": "Tetapkan Nombor Mudah Alih",
+        "SetEmailAddress": "Tetapkan Alamat E-mel"
+    },
+    "greeting": {
+        "Welcome": "Selamat datang ke {{1}}. Di sini anda akan menemui perkara yang disiarkan untuk ahli komuniti kami. Sila tambah alamat e-mel atau nombor telefon bimbit anda untuk menerima pemberitahuan apabila pengumuman disiarkan."
+    },
+    "conversations": {
+        "Title": "Perbualan",
+        "New": "Perbualan Baru",
+        "Conversation": "Perbualan",
+        "Topics": "Topik",
+        "NoneYet": "Tiada perbualan terbentuk lagi",
+        "newConversations": "{{1}} perbualan baharu",
+        "AllAuthors": "Semua Pengarang",
+        "FilterbyAuthors": "Tapis mengikut Pengarang",
+        "FilterAuthorPlaceHolder": "Cari pengarang tambahan...",
+        "filterConversations": "Tapis mengikut teks",
+        "Description": "{{1}} perbualan"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Pilih topik",
+            "Share": "Kongsi",
+            "interest": {
+                "Title": "Pilih Aktiviti",
+                "Filter": "Minat carian..."
+            }
+        },
+        "Title": "Perbualan Baru",
+        "TitlePlaceholder": "Subjek perbualan anda",
+        "ContentPlaceholder": "Tulis beberapa perkataan untuk memulakan perbualan, supaya orang lain boleh membalas",
+        "StartButton": "Mulakan Perbualan"
+    },
+    "events": {
+        "Title": "Peristiwa",
+        "filterByTitle": "Cari acara mengikut tajuk",
+        "New": "+ Mulakan Acara Baharu",
+        "filterEvents": "Tapis peristiwa",
+        "NewEvent": "Acara Baru",
+        "SetLocation": "Tetapkan Lokasi Saya",
+        "NoneYet": "Belum ada acara yang dibentuk<br> pada masa-masa ini.",
+        "AllAuthors": "Semua Pengarang",
+        "AllDays": "Sepanjang Hari",
+        "AllLocations": "Semua Lokasi",
+        "MakeReservation": "Buat Tempahan",
+        "CancelReservation": "Batalkan Tempahan",
+        "UpdateReservation": "Kemas kini Tempahan",
+        "AreYouSure": "Adakah anda pasti?",
+        "YouWillRefunded": "Anda akan dibayar balik dalam bentuk kredit yang boleh anda belanjakan untuk perkara lain dalam apl.",
+        "AllInterests": "Semua Kepentingan",
+        "FilterbyInterest": "Tapis mengikut Faedah",
+        "FilterByDate": "Tapis Mengikut Tarikh",
+        "ShowActivities": "Tunjukkan aktiviti berkaitan . . .",
+        "newEvents": "Anda mempunyai {{1}} acara baharu",
+        "SelectLocation": "Pilih Lokasi",
+        "FilterLocationsPlaceHolder": "Tapis tempat dengan...",
+        "Description": "{{1}} acara",
+        "Keywords": "{{1}} acara"
+    },
+    "schedule": {
+        "Title": "Jadual",
+        "NoneYet": "Anda tidak mengambil bahagian dalam sebarang acara",
+        "AddSome": "Tambahkan beberapa pada jadual anda!",
+        "AddMore": "Tambahkan acara pada jadual anda!",
+        "future": "masa hadapan",
+        "past": "lalu"
+    },
+    "location": {
+        "Title": "Lokasi",
+        "NewLocation": "Lokasi Baru"
+    },
+    "inbox": {
+        "Title": "Peti masuk",
+        "NoneYet": "Anda tidak mengambil bahagian dalam sebarang perbualan",
+        "FindPeople": "Cari orang untuk bercakap",
+        "GroupConversations": "Sertai beberapa perbualan kumpulan",
+        "ContactStaff": "Hubungi Kakitangan",
+        "ContactCustomers": "Hubungi Pelanggan",
+        "AddNewContact": "Tambah Kenalan Baharu",
+        "AddNewContacts": "Tambah Kenalan Baharu"
+    },
+    "me": {
+        "Title": "saya",
+        "MobileNumber": "Nombor telefon",
+        "EmailAddress": "Alamat emel",
+        "UpdateSocialTitle": "Kemas kini nama pengguna {{1}}.",
+        "Web3": "Web3"
+    },
+    "people": {
+        "Title": "Orang ramai",
+        "Description": "Orang dalam komuniti {{1}}.",
+        "AppAlert": "Apl dalam gedung aplikasi ini akan membolehkan anda berhubung dengan rakan anda, dan banyak lagi.",
+        "Invite": "Menjemput kawan-kawan",
+        "BuyCredits": "Beli Kredit",
+        "FindSomeoneByName": "Cari seseorang dengan nama",
+        "SearchByName": "Cari mengikut nama",
+        "FindAllMyFriends": "Cari Semua Rakan Saya",
+        "labels": {
+            "All": "Semua orang",
+            "Title": "Tapis mengikut Perhubungan",
+            "New": "Jenis Perhubungan Baharu"
+        },
+        "interests": {
+            "All": "Semua Kepentingan",
+            "Title": "Tapis mengikut Faedah",
+            "Filter": "Tunjukkan orang yang berminat dengan . . ."
+        },
+        "Keywords": "{{1}} komuniti orang"
+    },
+    "communities": {
+        "Title": "Komuniti",
+        "NewCommunity": "Komuniti Baharu",
+        "FindCommunityByName": "Cari komuniti mengikut nama",
+        "Description": "{{1}} komuniti"
+    },
+    "community": {
+        "Title": "{{1}} Komuniti",
+        "Roles": "Peranan",
+        "AllRoles": "Semua Peranan",
+        "YouDontHavePermission": "Anda tidak dibenarkan melakukan ini",
+        "usernamePlaceholder": "tetapkan nama komuniti",
+        "NotEnoughCredits": "Anda tidak mempunyai kredit yang mencukupi untuk mencipta komuniti. Perlu {{1}}, anda ada {{2}}"
+    },
+    "event": {
+        "GetDirections": "Dapatkan arah",
+        "WhichMap": "Peta manakah yang anda ingin gunakan?",
+        "JoinEventToChat": "Sertai acara untuk bersembang",
+        "promote": {
+            "Title": "Promosikan acara ini",
+            "Prompt": "Pilih tempat anda ingin mempromosikan acara ini:"
+        },
+        "Confirmation": "Pengesahan"
+    },
+    "newEvent": {
+        "Title": "Rancang Acara Baharu"
+    },
+    "interests": {
+        "Title": "minat",
+        "prompt": "Pilih jenis perkara yang anda ingin ketahui.",
+        "explanation": "Lebih banyak minat yang anda pilih, lebih besar kemungkinan anda berhubung dengan orang yang berfikiran sama.",
+        "filter": "Apa yang kamu minat?",
+        "Profile": "Kepentingan bersama ditonjolkan. Jika anda juga mempunyai satu atau lebih minat di bawah, anda boleh {{clickOrTap}} untuk menambahkannya."
+    },
+    "credits": {
+        "Title": "Kredit",
+        "EarnCredits": "Peroleh {{1}} kredit untuk setiap orang baharu yang anda jemput yang menyertai apl itu",
+        "YouHave": "Anda mempunyai {{1}} kredit"
+    },
+    "onboarding": {
+        "Tap": "Ketik",
+        "Click": "klik",
+        "Yes": "ya",
+        "No": "Tidak",
+        "Skip": "atau langkau ini",
+        "name": {
+            "Preface": "Selamat datang ke",
+            "Placeholder": "Masukkan nama penuh anda",
+            "GetStarted": "Mulakan",
+            "AsGuest": "Anda telah dijemput sebagai tetamu.",
+            "AsMember": "Anda telah dijemput sebagai ahli.",
+            "AsAdmin": "Anda telah dijemput sebagai pentadbir.",
+            "AsOwner": "Anda telah dijemput sebagai pemilik.",
+            "TooShort": "Nama penuh anda tidak boleh sependek itu",
+            "SetAsYourFullName": "Tetapkan {{1}} sebagai nama penuh anda?"
+        },
+        "icon": {
+            "KeepDefault": "atau simpan foto ini",
+            "SetYourPhoto": "{{ClickOrTap}} untuk menetapkan foto anda:",
+            "ClickOnYourFace": "{{ClickOrTap}} Di Wajah Anda"
+        },
+        "interests": {
+            "GetStarted": "⇩ Mulakan",
+            "NextCategory": "↓ Seterusnya",
+            "Continue": "teruskan",
+            "Instructions": "Dalam setiap kategori {{1}} seterusnya,<br> {{2}} semua aktiviti yang anda minati.<br> Beginilah cara anda berhubung dengan orang lain dalam komuniti."
+        },
+        "profile": {
+            "Profile": "Profil anda membantu orang menemui lebih lanjut tentang anda.<br>",
+            "Birthday": "Sila masukkan hari lahir anda:",
+            "Placeholder": "Siapa anda dan apa yang anda lakukan? Beritahu orang sesuatu yang menarik atau unik tentang diri anda.",
+            "Required": "Untuk meneruskan, tulis sekurang-kurangnya beberapa baris tentang diri anda.",
+            "Month": "bulan",
+            "Day": "Hari",
+            "Year": "tahun",
+            "Gender": "Jantina",
+            "Male": "jantan",
+            "Female": "perempuan",
+            "Other": "Lain-lain",
+            "Height": "Ketinggian",
+            "Affiliation": "Gabungan",
+            "Dating": "dating",
+            "Interested": "Berminat",
+            "NotInterested": "Tidak berminat",
+            "MatchmakerOnly": "Jodoh Sahaja"
+        },
+        "location": {
+            "NoOneElse": "Tiada orang lain akan melihatnya.",
+            "SetMyLocation": "Tetapkan lokasi saya"
+        },
+        "pile": {
+            "DialogTitle": "Orang yang mempunyai Kepentingan Bersama"
+        },
+        "Done": "Selesai",
+        "relationships": {
+            "title": "Tambahkan {{userName}} pada Buku Telefon",
+            "welcome": "Selamat datang {{user}}",
+            "invitedByUser": "menjemput anda.",
+            "addToPhonebook": "Simpan ke Kenalan Telefon Saya",
+            "iosInstructions": "Tatal ke bawah ke Tambah Kenalan Baharu",
+            "androidInstructions": "Anda harus membuka fail vCard ini selepas ia dimuat turun.",
+            "explanation": "Apakah hubungan anda?"
+        },
+        "Title": "Maklumat asas",
+        "Prompt": "Beberapa langkah untuk menyediakan akaun anda"
+    },
+    "profile": {
+        "Title": "Profil",
+        "Male": "jantan",
+        "Female": "perempuan",
+        "Other": "Lain-lain",
+        "dating": {
+            "Interested": "Berminat",
+            "NotInterested": "Tidak berminat",
+            "MatchmakerOnly": "Pencari jodoh sahaja"
+        },
+        "StartConversation": "Mulakan Perbualan",
+        "blockUser": "Sekat pengguna ini",
+        "blockUserAlert": "Anda tidak akan melihat apa-apa lagi mesej daripada pengguna ini sehingga anda menyahsekatnya.",
+        "unblockUser": "Nyahsekat pengguna ini",
+        "addToContacts": "Tambahkan pada Kenalan",
+        "manageLabels": "Urus Label",
+        "inviteUsers": "Jemput Pengguna",
+        "selectRole": "Pilih Peranan",
+        "inviteSuccess": "Berjaya menjemput pengguna sebagai {{label}}",
+        "invite": "Jemput",
+        "relationships": "perhubungan",
+        "newRole": "Peranan Baru",
+        "about": "Tentang",
+        "people": "Orang ramai",
+        "info": "info",
+        "interests": "minat",
+        "chat": "Sembang",
+        "locations": "lokasi",
+        "ManageRoles": "Urus Peranan",
+        "aboutPlaceholder": "Siapa anda dan apa yang anda lakukan? Beritahu orang sesuatu yang menarik atau unik tentang diri anda.",
+        "explanation": "Profil anda membantu memadankan anda dengan orang lain dengan lebih baik untuk aktiviti kumpulan.<br> Sila masukkan hari lahir anda",
+        "chats": {
+            "placeholder": "Katakan sesuatu"
+        },
+        "LogOut": "Log keluar",
+        "MyLinks": "Pautan Saya",
+        "MyJobs": "Pekerjaan Saya",
+        "MySocial": "MySocial",
+        "MyEducation": "Pendidikan saya",
+        "JobsPlaceholder": "Taip di sini maklumat pekerjaan",
+        "EducationPlaceholder": "Taip di sini maklumat pendidikan",
+        "ManageNotifications": "Urus Pemberitahuan",
+        "YourPreferredLanguage": "Bahasa pilihan anda",
+        "SendCrypto": "bayar",
+        "Block": "Sekat",
+        "Unblock": "Nyahsekat",
+        "Email": "E-mel",
+        "Avoid": "elakkan",
+        "CreatePrivateChat": "Belanjakan {{credits}} kredit untuk menghubungi?",
+        "RolesInCommunity": "Peranan dalam komuniti",
+        "PersonalChatWith": "Sembang peribadi dengan {{name}}",
+        "SendCryptoTo": "Hantar kripto ke {{name}}",
+        "SendEmailTo": "Hantar e-mel ke {{name}}",
+        "SendSMSTo": "Hantar SMS ke {{name}}",
+        "BlockThisUser": "Sekat pengguna ini",
+        "UnblockThisUser": "Nyahsekat pengguna ini",
+        "YouCantChatWithYourself": "Anda tidak boleh bersembang dengan diri sendiri",
+        "blockUserAlertTitle": "Disekat {{displayName}}",
+        "sections": {
+            "education": "Pendidikan",
+            "greeting": "salam",
+            "jobs": "Pekerjaan",
+            "links": "Pautan",
+            "language": "Bahasa",
+            "roles": "Peranan",
+            "personal": "Peribadi",
+            "social": "sosial"
+        },
+        "Roles": "Peranan",
+        "SendPaymentTo": "Hantar bayaran ke {{name}}"
+    },
+    "myqr": {
+        "Title": "QR saya"
+    },
+    "composer": {
+        "createCommunity": "Cipta Komuniti",
+        "inviteAdmin": "Jemput Admin",
+        "inviteMember": "Jemput Ahli",
+        "newCommunityTitle": "Nama komuniti",
+        "setCommunityTitle": "Nama komuniti",
+        "creditsChargeRequest": "Adakah anda bersetuju untuk membelanjakan {{price}} kredit?",
+        "yes": "ya",
+        "no": "Tidak"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Selamat datang! Sila sahkan alamat e-mel anda.",
+        "WelcomeVerifyEmail": "Selamat datang! Mengesahkan alamat e-mel anda.",
+        "ForgetPass": "Hei, adakah anda terlupa frasa laluan anda?",
+        "ManageEmailSubscriptions": "menguruskan langganan e-mel anda",
+        "IfUnsubscribe": "Jika anda ingin berhenti melanggan"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Selamat datang ke {{CommunityName}}. Apl ini akan membantu anda berhubung dengan rakan, menemui orang baharu yang mempunyai minat yang sama dan banyak lagi. Mari kita mulakan!"
+            },
+            "icon": {
+                "Commentary": "Tetapkan foto anda. Beginilah cara orang akan melihat anda di tapak."
+            },
+            "interests": {
+                "Commentary": "Lebih banyak item yang anda pilih, lebih ramai orang yang boleh anda temui.",
+                "Notifications": "Anda perlu membenarkan pemberitahuan"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Pemberitahuan membolehkan anda mengetahui tentang perkara yang anda minati, seperti apabila rakan menyertai apl atau menghantar mesej kepada anda."
+        },
+        "invite": "{{Q.words.TapOrClick}} di sini untuk melihat cara anda boleh berkongsi ini dengan orang lain."
+    },
+    "payment": {
+        "onContribute": "Terima kasih! Pembayaran anda telah berjaya. Adakah anda ingin menjemput rakan anda menyertai anda?",
+        "ConnectAccount": "Sambung akaun"
+    },
+    "featureboard": {
+        "Text_1": "Biarkan suara anda didengari! Adakah anda bersetuju bahawa kami harus membangunkan ciri atau pepijat? Klik butang untuk Menyokongnya.",
+        "Text_2": "Mahu kami membangunkan ciri baharu? Terangkan di bawah.",
+        "Text_3": "Setiap minggu kami mula membangunkan ciri teratas yang diminta oleh komuniti. Semua wang yang disumbangkan adalah untuk tujuan itu, membolehkan kami menjadikan apl itu lebih baik.",
+        "Text_4": "Semua wang yang disumbangkan digunakan untuk membantu membayar kos pembangunan kami.",
+        "Text_5": "Adakah anda mempunyai idea untuk ciri atau pembetulan pepijat yang anda mahu kami lakukan tetapi belum melihat orang lain menambah lagi? Terangkan di bawah:",
+        "Options": [
+            {
+                "text": "$400 Persidangan video masa nyata"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$200 Maklumat pendaftaran Utama Tempatan"
+            },
+            {
+                "text": "$130 Semak imbas dan kongsi beribu-ribu {{1}} meme",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 Urus komuniti anda sendiri",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Betulkan pepijat perbualan",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Minta Ciri\/Pembetulan Pepijat Baharu",
+        "FeaturePlaceholder": "Ringkasan ringkas ciri",
+        "FeatureDescription": "Terangkan cara orang lain boleh menghasilkan semula pepijat yang anda lihat atau terangkan secara terperinci ciri yang anda ingin bina",
+        "AddYourRequest": "Tambahkan Permintaan Anda",
+        "NewFeature": "Ciri Baharu"
+    },
+    "contribute": {
+        "ContributeExplanation": "Bantu menyokong pembangunan berterusan apl {{communityName}}. Semua sumbangan anda membantu membetulkan pepijat dan membangunkan ciri baharu untuk membantu mengembangkan komuniti dalam talian!",
+        "ReasonToContribute": "Apl ini diselenggara oleh penyokong {{communityName}}. Bantu menyokong aplikasi ini supaya kami boleh membuat perubahan dalam kehidupan orang ramai!"
+    },
+    "assetshistory": {
+        "Title": "Sejarah aset",
+        "Charges": "Caj",
+        "Credits": "Kredit"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Alih keluar akaun",
+            "content": "Adakah anda mahu mengalih keluar akaun ini?",
+            "ok": "ya",
+            "cancel": "Tidak"
+        }
+    },
+    "import": {
+        "fileNotFound": "Maaf, fail CSV tidak ditemui.",
+        "fileEmpty": "Maaf, fail CSV kosong.",
+        "userIdNotFound": "pengguna wujud tetapi id kosong",
+        "errorLine": "baris {{1}}",
+        "fieldNotFound": "Medan yang diperlukan &quot;{{1}}&quot; tidak ditemui",
+        "taskStreamInvalid": "aliran tugas tidak sah",
+        "instructionsEmpty": "arahan aliran tugas kosong",
+        "complete": "lengkap",
+        "activateUsers": "hantar mesej pengaktifan kepada pengguna?",
+        "importProgress": "Kemajuan",
+        "joinEventLabel": "Sertai pengguna ke acara rawak",
+        "importOptions": "Pilihan",
+        "sampleCSV": "Muat turun Contoh CSV",
+        "fileLabel": "Muat Naik Hamparan:",
+        "errorsTitle": "Ralat berlaku",
+        "communityUsers": "Ini senarai komuniti",
+        "setAsConversation": "Lajur URL sebagai perbualan",
+        "toMainCommunityToo": "tambah pengguna ke komuniti utama juga",
+        "willImportedTo": "Pengguna akan diimport ke komuniti",
+        "ChooseFile": "pilih fail"
+    },
+    "services": {
+        "Title": "Perkhidmatan",
+        "filterByTitle": "Cari perkhidmatan mengikut tajuk",
+        "New": "+ Mulakan Perkhidmatan Baharu",
+        "NewService": "Perkhidmatan Baru",
+        "NewAvailability": "Ketersediaan Baharu",
+        "filterServices": "Perkhidmatan penapis",
+        "NoneYet": "Tiada perkhidmatan dibentuk lagi<br> pada masa-masa ini.",
+        "AllAuthors": "Semua Pengarang",
+        "AllDays": "Sepanjang Hari",
+        "AllLocations": "Semua Lokasi",
+        "MakeReservation": "Buat Tempahan",
+        "CancelReservation": "Batalkan Tempahan",
+        "UpdateReservation": "Kemas kini Tempahan",
+        "AreYouSure": "Adakah anda pasti?",
+        "YouWillRefunded": "Anda akan dibayar balik dalam bentuk kredit yang boleh anda belanjakan untuk perkara lain dalam apl.",
+        "AllInterests": "Semua Minat",
+        "FilterbyInterest": "Tapis mengikut Faedah",
+        "FilterByDate": "Tapis Mengikut Tarikh",
+        "ShowActivities": "Tunjukkan aktiviti berkaitan...",
+        "newServices": "Anda mempunyai {{1}} perkhidmatan baharu",
+        "SelectLocation": "Pilih Lokasi",
+        "FilterLocationsPlaceHolder": "Tapis tempat dengan...",
+        "Description": "perkhidmatan {{1}}.",
+        "Keywords": "perkhidmatan {{1}}."
+    },
+    "welcome": {
+        "Title": "{{appName}}: selamat datang",
+        "GetStarted": "Mulakan",
+        "gallery": {
+            "Connect": "Sambung",
+            "Organize": "menyusun",
+            "Travel": "Perjalanan",
+            "Share": "Kongsi"
+        }
+    }
+}

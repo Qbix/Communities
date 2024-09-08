@@ -1,0 +1,20 @@
+{
+    "activation": {
+        "Thanks": "Txais tos rau {{1}}.",
+        "ClickHere": "Nyem qhov no txhawm rau qhib koj tus account: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Nyem qhov no txhawm rau txheeb xyuas koj tus lej xov tooj ntawm tes: {{1}}"
+    },
+    "SeeHistory": "Saib keeb kwm kev them nyiaj rau {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} tau them {{2}} rau {{3}} los ntawm {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hav {{1}}, qhov no tsuas yog kev lees paub sai tias koj tau them nyiaj tiav {{2}} rau {{3}} rau {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Koj tau sau npe rau {{2}} nrog {{3}} ntawm {{4}} rau {{5}} hli.",
+        "HasStarted": "{{1}} tau sau npe rau {{2}} nrog {{3}} ntawm {{4}} rau {{5}} hli."
+    }
+}

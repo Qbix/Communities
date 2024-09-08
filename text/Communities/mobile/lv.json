@@ -1,0 +1,24 @@
+{
+    "activation": {
+        "Thanks": "Laipni lūdzam pakalpojumā {{1}}.",
+        "ClickHere": "Noklikšķiniet šeit, lai aktivizētu savu kontu: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Noklikšķiniet šeit, lai verificētu savu mobilā tālruņa numuru: {{1}}"
+    },
+    "SeeHistory": "Skatīt maksājumu vēsturi par {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{4}} no {{1}} ir iekasējusi maksu {{2}} par {{3}}"
+    },
+    "charged": {
+        "HavePaid": "Sveiki, {{1}}! Šis ir tikai īss apstiprinājums, ka esat veiksmīgi samaksājis {{2}} adresātam {{3}} par {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Jūs esat abonējis {{2}} ar {{3}} {{4}} uz {{5}} mēnešiem.",
+        "HasStarted": "{{1}} ir abonējis {{2}} ar {{3}} {{4}} uz {{5}} mēnešiem."
+    },
+    "resend": {
+        "DidYouWant": "Vai vēlējāties atiestatīt ieejas frāzi šādā valodā: {{1}}?",
+        "ClickHere": "Pēc tam noklikšķiniet šeit: {{1}}"
+    }
+}

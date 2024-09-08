@@ -1,0 +1,27 @@
+{
+    "activation": {
+        "Thanks": "Wilujeng sumping di {{1}}",
+        "ReallyYourEmail": "Naha leres ieu alamat surélék anjeun, {{1}}? Upami kitu, klik <a href='{{2}}'>di dieu<\/a> pikeun nyetél frasa sandi anjeun sareng aktipkeun akun anjeun.",
+        "SeeYou": "Sampai jumpa di <a href='{{1}}'>{{2}}<\/a> !"
+    },
+    "LinkToUnsubscribe": "Ieu tautan pikeun <a href='{{1}}'>ngabatalkeun langganan<\/a> upami anjeun henteu hoyong nampi email deui.",
+    "Greetings": "Salam ti {{1}}.",
+    "SeeHistory": "Tempo sajarah pamayaran pikeun {{1}}",
+    "charge": {
+        "HasBeenCharged": "Héy, ieu ngan ukur ngabéjaan yén {{1}} parantos ditagih {{2}} kanggo {{3}} ku {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hei {{1}}, ieu ngan ukur konfirmasi gancang yén anjeun parantos suksés mayar {{2}} ka {{3}} kanggo {{4}}"
+    },
+    "resend": {
+        "Thanks": "Hatur nuhun tos nganjang ka {{1}}",
+        "YouAreReceiving": "Anjeun nampi email ieu kusabab aya anu ngalebetkeun alamat email anjeun sareng ngaklik &quot;poho frasa sandi&quot;. Upami sanés anjeun, kantun teu malire pesen ieu.",
+        "Reset": "Pikeun ngareset frasa sandi anjeun, klik {{1}}",
+        "SetUpPassphrase": "Nyetél frasa sandi"
+    },
+    "subscription": {
+        "YouHaveStarted": "Hei {{1}}, anjeun parantos ngamimitian langganan {{2}} sareng {{3}} dina {{4}} salami {{5}} sasih.",
+        "HasStarted": "Ieu ngan ukur ngabéjaan {{1}}, geus ngamimitian langganan {{2}} kalawan {{3}} dina {{4}} salila {{5}} bulan."
+    },
+    "SeeYou": "Sampai jumpa di {{1}}!"
+}

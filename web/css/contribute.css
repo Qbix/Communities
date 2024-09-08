@@ -1,0 +1,17 @@
+html.Communities_contribute select[name=contribute] {
+	font-size: 25px;
+}
+html.Communities_contribute .Assets_payment_tool {
+	display: inline-block;
+	vertical-align: top;
+}
+html.Communities_contribute #content {
+	padding: 10px;
+}
+html.Communities_contribute .contribute {
+	text-align: center;
+}
+html.Communities_contribute .contribute select[name=contribute],
+html.Communities_contribute .contribute button.Assets_pay {
+	height: 40px;
+}

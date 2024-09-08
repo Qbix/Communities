@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Gonbidatuta zaude",
+        "Member": "{{title}}-ko kidea",
+        "Explanation": "{{1}} pozik dago gure webgune berriaren aurkezpena iragartzeko. Ezaugarrien zerrenda gero eta handiagoa dakar, hala nola:",
+        "Public": "{{1}}-i buruzko informazio publikoa",
+        "Private": "Kide bakoitzarentzat erabiltzaile-kontu pribatu bat",
+        "Notifications": "Zure helbide elektronikoa edo mugikorraren zenbakia sartuz gero, jakinarazpen garrantzitsuak jaso ahal izango dituzu posta elektronikoz edo testu-mezu bidez.",
+        "GetStarted": "Hasteko, zure web arakatzailean, mesedez, idatzi <em>arretaz<\/em> :<br>",
+        "IssuedToYou": "Kode hau berariaz igortzen zaizu."
+    }
+}

@@ -1,0 +1,362 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> ay hindi tumuturo sa anumang bagay!",
+        "NextSteps": "Gamitin ang pangunahing menu upang mahanap kung ano ang iyong hinahanap."
+    },
+    "dashboard": {
+        "Menu": "Menu"
+    },
+    "greeting": {
+        "Welcome": "Maligayang pagdating sa {{1}}. Dito makikita mo ang mga bagay na nai-post para sa mga miyembro ng aming komunidad. Mangyaring idagdag ang iyong email address o numero ng mobile upang makatanggap ng mga abiso kapag nai-post ang mga anunsyo."
+    },
+    "conversations": {
+        "Title": "Mga pag-uusap",
+        "New": "Bagong Pag-uusap",
+        "Conversation": "Pag-uusap",
+        "Topics": "Mga paksa",
+        "NoneYet": "Wala pang nabuong pag-uusap",
+        "newConversations": "{{1}} bagong pag-uusap",
+        "AllAuthors": "Lahat ng May-akda",
+        "FilterbyAuthors": "I-filter ayon sa Mga May-akda",
+        "FilterAuthorPlaceHolder": "Maghanap ng mga karagdagang may-akda...",
+        "filterConversations": "I-filter ayon sa text",
+        "Description": "{{1}} mga pag-uusap"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Pumili ng isang paksa",
+            "Share": "Ibahagi",
+            "interest": {
+                "Title": "Pumili ng isang Aktibidad",
+                "Filter": "Mga interes sa paghahanap..."
+            }
+        },
+        "Title": "Bagong Pag-uusap",
+        "TitlePlaceholder": "Paksa ng iyong pag-uusap",
+        "ContentPlaceholder": "Sumulat ng ilang salita upang simulan ang pag-uusap, para makasagot ang iba",
+        "StartButton": "Simulan ang Pag-uusap"
+    },
+    "events": {
+        "Title": "Mga kaganapan",
+        "filterByTitle": "Maghanap ng mga kaganapan ayon sa pamagat",
+        "New": "+ Magsimula ng Bagong Kaganapan",
+        "filterEvents": "I-filter ang mga kaganapan",
+        "NewEvent": "Bagong kaganapan",
+        "SetLocation": "Itakda ang Aking Lokasyon",
+        "NoneYet": "Wala pang nabuong mga kaganapan<br> sa mga panahong ito.",
+        "AllAuthors": "Lahat ng May-akda",
+        "AllDays": "Lahat ng Araw",
+        "AllLocations": "Lahat ng Lokasyon",
+        "MakeReservation": "Magpareserba",
+        "CancelReservation": "Kanselahin ang Pagpapareserba",
+        "UpdateReservation": "I-update ang Pagpapareserba",
+        "AreYouSure": "Sigurado ka ba?",
+        "YouWillRefunded": "Ire-refund ka sa anyo ng mga credit na maaari mong gastusin sa iba pang bagay sa app.",
+        "AllInterests": "Lahat ng Interes",
+        "FilterbyInterest": "I-filter ayon sa Interes",
+        "FilterByDate": "I-filter Ayon sa Petsa",
+        "ShowActivities": "Ipakita ang mga aktibidad na may kaugnayan sa . . .",
+        "newEvents": "Mayroon kang {{1}} mga bagong kaganapan",
+        "SelectLocation": "Piliin ang Lokasyon",
+        "FilterLocationsPlaceHolder": "Salain ang mga lugar na may...",
+        "Description": "{{1}} na mga kaganapan",
+        "Keywords": "{{1}} na mga kaganapan"
+    },
+    "schedule": {
+        "Title": "Iskedyul",
+        "NoneYet": "Hindi ka nakikilahok sa anumang mga kaganapan",
+        "AddSome": "Magdagdag ng ilan sa iyong iskedyul!",
+        "AddMore": "Magdagdag ng mga kaganapan sa iyong iskedyul!",
+        "future": "kinabukasan",
+        "past": "nakaraan"
+    },
+    "location": {
+        "Title": "Lokasyon",
+        "NewLocation": "Bagong lokasyon"
+    },
+    "inbox": {
+        "Title": "Inbox",
+        "NoneYet": "Hindi ka nakikilahok sa anumang pag-uusap",
+        "FindPeople": "Maghanap ng mga taong makakausap",
+        "GroupConversations": "Sumali sa ilang pag-uusap ng grupo",
+        "ContactStaff": "Makipag-ugnayan sa Staff",
+        "ContactCustomers": "Makipag-ugnayan sa mga Customer"
+    },
+    "me": {
+        "Title": "Ako",
+        "MobileNumber": "Numero ng Mobile",
+        "EmailAddress": "Email Address",
+        "UpdateSocialTitle": "I-update ang {{1}} username"
+    },
+    "people": {
+        "Title": "Mga tao",
+        "Description": "Mga tao sa {{1}} komunidad",
+        "AppAlert": "Ang app na ito sa app store ay magbibigay-daan sa iyong kumonekta sa iyong mga kaibigan, at marami pang iba.",
+        "Invite": "Mag-imbita ng mga kaibigan",
+        "BuyCredits": "Bumili ng Mga Kredito",
+        "FindSomeoneByName": "Maghanap ng isang tao sa pangalan",
+        "SearchByName": "Maghanap ayon sa pangalan",
+        "FindAllMyFriends": "Hanapin ang Lahat ng Aking Mga Kaibigan",
+        "labels": {
+            "All": "lahat",
+            "Title": "I-filter ayon sa Relasyon",
+            "New": "Bagong Uri ng Relasyon"
+        },
+        "interests": {
+            "All": "Lahat ng Interes",
+            "Title": "I-filter ayon sa Interes",
+            "Filter": "Ipakita ang mga taong interesado sa . . ."
+        },
+        "Keywords": "{{1}} komunidad ng mga tao"
+    },
+    "communities": {
+        "Title": "Mga komunidad",
+        "NewCommunity": "Bagong Komunidad",
+        "FindCommunityByName": "Maghanap ng komunidad ayon sa pangalan",
+        "Description": "{{1}} na mga komunidad"
+    },
+    "community": {
+        "Title": "{{1}} Komunidad",
+        "Roles": "Mga tungkulin",
+        "AllRoles": "Lahat ng Tungkulin",
+        "YouDontHavePermission": "Wala kang pahintulot na gawin ito",
+        "usernamePlaceholder": "itakda ang pangalan ng komunidad",
+        "NotEnoughCredits": "Wala kang sapat na mga kredito upang lumikha ng komunidad. Kailangan ng {{1}}, mayroon kang {{2}}"
+    },
+    "event": {
+        "GetDirections": "Kumuha ng mga direksyon",
+        "WhichMap": "Aling mga mapa ang gusto mong gamitin?",
+        "JoinEventToChat": "Sumali sa kaganapan upang makipag-chat",
+        "promote": {
+            "Title": "I-promote ang kaganapang ito",
+            "Prompt": "Piliin kung saan mo gustong i-promote ang kaganapang ito:"
+        },
+        "Confirmation": "Kumpirmasyon"
+    },
+    "newEvent": {
+        "Title": "Magplano ng Bagong Kaganapan"
+    },
+    "interests": {
+        "Title": "Mga interes",
+        "prompt": "Piliin ang mga uri ng mga bagay na gusto mong malaman.",
+        "explanation": "Kung mas maraming interes ang pipiliin mo, mas malamang na kumonekta ka sa mga taong katulad ng pag-iisip.",
+        "filter": "Ano ang mga bagay na pinagkaka interesan mo?",
+        "Profile": "Itinatampok ang mga interes sa isa&#39;t isa. Kung mayroon ka ring isa o higit pa sa mga interes sa ibaba, maaari mong {{clickOrTap}} idagdag ang mga ito."
+    },
+    "credits": {
+        "Title": "Mga kredito",
+        "EarnCredits": "Makakuha ng {{1}} na mga kredito para sa bawat bagong taong inimbitahan mo na sasali sa app",
+        "YouHave": "Mayroon kang {{1}} na mga kredito"
+    },
+    "onboarding": {
+        "Tap": "I-tap",
+        "Click": "I-click",
+        "Yes": "Oo",
+        "No": "Hindi",
+        "Skip": "o laktawan ito",
+        "name": {
+            "Preface": "Maligayang pagdating sa",
+            "Placeholder": "Ilagay ang iyong buong pangalan",
+            "GetStarted": "Magsimula",
+            "AsGuest": "Inimbitahan ka bilang bisita.",
+            "AsMember": "Inimbitahan ka bilang miyembro.",
+            "AsAdmin": "Inimbitahan ka bilang admin.",
+            "AsOwner": "Inimbitahan ka bilang may-ari.",
+            "TooShort": "Ang iyong buong pangalan ay hindi maaaring ganoon kaikli",
+            "SetAsYourFullName": "Itakda ang {{1}} bilang iyong buong pangalan?"
+        },
+        "icon": {
+            "KeepDefault": "o panatilihin ang larawang ito",
+            "SetYourPhoto": "{{ClickOrTap}} upang itakda ang iyong larawan:"
+        },
+        "interests": {
+            "GetStarted": "⇩ Magsimula",
+            "NextCategory": "↓ Susunod",
+            "Continue": "Magpatuloy",
+            "Instructions": "Sa bawat isa sa susunod na {{1}} kategorya,<br> {{2}} lahat ng aktibidad na interesado ka.<br> Ito ay kung paano ka kumonekta sa ibang mga tao sa komunidad."
+        },
+        "profile": {
+            "Profile": "Tinutulungan ng iyong profile ang mga tao na tumuklas ng higit pa tungkol sa iyo.<br>",
+            "Birthday": "Pakilagay ang iyong kaarawan:",
+            "Placeholder": "Sino ka at ano ang ginagawa mo? Sabihin sa mga tao ang isang bagay na kawili-wili o kakaiba tungkol sa iyong sarili.",
+            "Required": "Upang magpatuloy, sumulat ng kahit man lang ilang linya tungkol sa iyong sarili.",
+            "Month": "buwan",
+            "Day": "Araw",
+            "Year": "taon",
+            "Gender": "Kasarian",
+            "Male": "Lalaki",
+            "Female": "Babae",
+            "Other": "Iba pa",
+            "Height": "taas",
+            "Affiliation": "Pagkakaugnay",
+            "Dating": "nakikipag-date",
+            "Interested": "Interesado",
+            "NotInterested": "Hindi interesado",
+            "MatchmakerOnly": "Matchmaker Lang"
+        },
+        "location": {
+            "NoOneElse": "Walang ibang makakakita nito.",
+            "SetMyLocation": "Itakda ang aking lokasyon"
+        },
+        "pile": {
+            "DialogTitle": "Mga taong may Karaniwang Interes"
+        },
+        "Done": "Tapos na"
+    },
+    "profile": {
+        "Title": "Profile",
+        "Male": "Lalaki",
+        "Female": "Babae",
+        "Other": "Iba pa",
+        "dating": {
+            "Interested": "Interesado",
+            "NotInterested": "Hindi interesado",
+            "MatchmakerOnly": "Matchmaker lang"
+        },
+        "StartConversation": "Magsimula ng Pag-uusap",
+        "blockUser": "I-block ang user na ito",
+        "blockUserAlert": "Hindi ka na makakakita ng anumang mga mensahe mula sa user na ito hanggang sa i-unblock mo sila.",
+        "unblockUser": "I-unblock ang user na ito",
+        "addToContacts": "Idagdag sa Mga Contact",
+        "manageLabels": "Pamahalaan ang Mga Label",
+        "inviteUsers": "Mag-imbita ng mga User",
+        "selectRole": "Piliin ang Tungkulin",
+        "inviteSuccess": "Matagumpay na naimbitahan ang user bilang {{label}}",
+        "invite": "Mag-anyaya",
+        "relationships": "Mga relasyon",
+        "newRole": "Bagong Tungkulin",
+        "about": "Tungkol sa",
+        "people": "Mga tao",
+        "info": "Impormasyon",
+        "interests": "Mga interes",
+        "chat": "Chat",
+        "locations": "Mga lokasyon",
+        "ManageRoles": "Pamahalaan ang Mga Tungkulin",
+        "aboutPlaceholder": "Sino ka at ano ang ginagawa mo? Sabihin sa mga tao ang isang bagay na kawili-wili o kakaiba tungkol sa iyong sarili.",
+        "explanation": "Nakakatulong ang iyong profile na mas maitugma ka sa ibang tao para sa mga aktibidad ng grupo.<br> Pakilagay ang iyong kaarawan",
+        "chats": {
+            "placeholder": "Magsalita ka"
+        },
+        "LogOut": "Log Out",
+        "MyLinks": "Aking Mga Link",
+        "MyJobs": "Aking Mga Trabaho",
+        "MySocial": "MySocial",
+        "MyEducation": "Ang aking edukasyon",
+        "JobsPlaceholder": "I-type dito ang impormasyon ng trabaho",
+        "EducationPlaceholder": "I-type dito ang impormasyon sa edukasyon",
+        "ManageNotifications": "Pamahalaan ang Mga Notification",
+        "YourPreferredLanguage": "Ang iyong gustong wika"
+    },
+    "myqr": {
+        "Title": "Aking QR"
+    },
+    "composer": {
+        "createCommunity": "Lumikha ng Komunidad",
+        "inviteAdmin": "Mag-imbita ng Admin",
+        "inviteMember": "Mag-imbita ng Miyembro",
+        "newCommunityTitle": "Pangalan ng komunidad",
+        "setCommunityTitle": "Pangalan ng komunidad",
+        "creditsChargeRequest": "Sumasang-ayon ka bang gumastos ng {{price}} na mga kredito?",
+        "yes": "Oo",
+        "no": "Hindi"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Maligayang pagdating! Mangyaring i-verify ang iyong email address.",
+        "WelcomeVerifyEmail": "Maligayang pagdating! I-verify ang iyong email address.",
+        "ForgetPass": "Uy, nakalimutan mo ba ang iyong passphrase?",
+        "ManageEmailSubscriptions": "pamahalaan ang iyong mga subscription sa email",
+        "IfUnsubscribe": "Kung gusto mong mag-unsubscribe"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Maligayang pagdating sa {{CommunityName}}. Tutulungan ka ng app na ito na kumonekta sa mga kaibigan, tumuklas ng mga bagong tao na may mga karaniwang interes, at marami pang iba. Magsimula na tayo!"
+            },
+            "icon": {
+                "Commentary": "Itakda ang iyong larawan. Ganito ka makikita ng mga tao sa site."
+            },
+            "interests": {
+                "Commentary": "Kung mas maraming item ang pipiliin mo, mas maraming tao ang makikilala mo.",
+                "Notifications": "Kailangan mong payagan ang mga notification"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Nagbibigay-daan sa iyo ang mga notification na malaman ang tungkol sa mga bagay na interesado ka, gaya ng kapag sumali ang isang kaibigan sa app, o nag-message sa iyo."
+        },
+        "invite": "{{Q.words.TapOrClick}} dito upang makita kung paano mo ito maibabahagi sa ibang mga tao."
+    },
+    "payment": {
+        "onContribute": "Salamat! Natapos ang iyong bayad. Gusto mo bang anyayahan ang iyong mga kaibigan na sumali sa iyo?"
+    },
+    "featureboard": {
+        "Text_1": "Hayaang marinig ang iyong boses! Sumasang-ayon ka ba na dapat kaming bumuo ng isang tampok o bug? I-click ang button para Suportahan ito.",
+        "Text_2": "Gusto mo bang bumuo kami ng bagong feature? Ilarawan ito sa ibaba.",
+        "Text_3": "Bawat linggo sinisimulan naming bumuo ng nangungunang hiniling na tampok ng komunidad. Lahat ng pera na naiambag ay napupunta sa layuning iyon, na nagbibigay-daan sa amin na gawing mas mahusay ang app.",
+        "Text_4": "Ang lahat ng perang iniambag ay ginagamit upang makatulong sa pagbabayad ng aming mga gastos sa pagpapaunlad.",
+        "Text_5": "Mayroon ka bang ideya para sa isang feature o bugfix na gusto mong gawin namin ngunit hindi mo pa nakikitang idinagdag ang iba? Ilarawan ito sa ibaba:",
+        "Options": [
+            {
+                "text": "$400 Real time na videoconferencing"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$200 Lokal na Pangunahing impormasyon sa pagpaparehistro"
+            },
+            {
+                "text": "$130 Mag-browse at magbahagi ng libu-libong {{1}} meme",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 Pamahalaan ang iyong sariling mga komunidad",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Ayusin ang mga pag-uusap bug",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Humiling ng Bagong Feature\/Bugfix",
+        "FeaturePlaceholder": "Maikling buod ng tampok",
+        "FeatureDescription": "Ilarawan kung paano maaaring kopyahin ng ibang tao ang bug na iyong nakikita, o ilarawan nang detalyado ang feature na gusto mong buuin",
+        "AddYourRequest": "Idagdag ang Iyong Kahilingan",
+        "NewFeature": "Bagong Tampok"
+    },
+    "contribute": {
+        "ContributeExplanation": "Tumulong na suportahan ang patuloy na pagbuo ng {{communityName}} app. Nakakatulong ang lahat ng iyong kontribusyon na ayusin ang mga bug at bumuo ng mga bagong feature para makatulong na mapalago ang online na komunidad!",
+        "ReasonToContribute": "Ang app na ito ay pinananatili ng mga tagasuporta ng {{communityName}}. Tumulong na suportahan ang app na ito upang makagawa tayo ng pagbabago sa buhay ng mga tao!"
+    },
+    "assetshistory": {
+        "Title": "Kasaysayan ng mga asset",
+        "Charges": "Singil",
+        "Credits": "Mga kredito"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Alisin ang account",
+            "content": "Gusto mo bang tanggalin ang account na ito?",
+            "ok": "Oo",
+            "cancel": "Hindi"
+        }
+    },
+    "import": {
+        "fileNotFound": "Paumanhin, hindi nahanap ang CSV file.",
+        "fileEmpty": "Paumanhin, walang laman ang CSV file.",
+        "userIdNotFound": "umiiral ang user ngunit walang laman ang id",
+        "errorLine": "linya {{1}}",
+        "fieldNotFound": "Hindi nahanap ang kinakailangang field na &quot;{{1}}&quot;.",
+        "taskStreamInvalid": "di-wasto ang stream ng gawain",
+        "instructionsEmpty": "walang laman ang mga tagubilin sa stream ng gawain",
+        "complete": "Kumpleto",
+        "activateUsers": "magpadala ng activation message sa mga user?",
+        "importProgress": "Pag-unlad",
+        "joinEventLabel": "Sumali sa mga user sa random na kaganapan",
+        "importOptions": "Mga pagpipilian",
+        "sampleCSV": "I-download ang Sample CSV",
+        "fileLabel": "Mag-upload ng Spreadsheet:",
+        "errorsTitle": "Nagkaroon ng mga error",
+        "communityUsers": "Ito ang listahan ng mga komunidad",
+        "setAsConversation": "column ng URL bilang pag-uusap",
+        "toMainCommunityToo": "magdagdag din ng mga user sa pangunahing komunidad",
+        "willImportedTo": "Ang mga user ay ii-import sa komunidad"
+    }
+}

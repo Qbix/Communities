@@ -1,0 +1,24 @@
+{
+    "activation": {
+        "Thanks": "Mirë se vini në {{1}}.",
+        "ClickHere": "Klikoni këtu për të aktivizuar llogarinë tuaj: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Klikoni këtu për të verifikuar numrin tuaj celular: {{1}}"
+    },
+    "SeeHistory": "Shiko historikun e pagesave për {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} është tarifuar {{2}} për {{3}} nga {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hej {{1}}, ky është vetëm një konfirmim i shpejtë që i ke paguar me sukses {{2}} {{3}} për {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Jeni abonuar në {{2}} me {{3}} në {{4}} për {{5}} muaj.",
+        "HasStarted": "{{1}} është abonuar në {{2}} me {{3}} në {{4}} për {{5}} muaj."
+    },
+    "resend": {
+        "DidYouWant": "Dëshironi të rivendosni frazën tuaj të kalimit në {{1}}?",
+        "ClickHere": "Pastaj klikoni këtu: {{1}}"
+    }
+}

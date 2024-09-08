@@ -1,0 +1,362 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> e le faasino i se mea!",
+        "NextSteps": "Fa&#39;aoga le lisi autu e su&#39;e ai mea o lo&#39;o e su&#39;eina."
+    },
+    "dashboard": {
+        "Menu": "Menu"
+    },
+    "greeting": {
+        "Welcome": "Susu maia i {{1}}. O iinei e te maua ai mea e lafoina mo tagata o lo matou nuu. Fa&#39;amolemole fa&#39;aopoopo lau tuatusi imeli po&#39;o le numera feavea&#39;i ina ia mafai ai ona maua fa&#39;amatalaga pe a lafo fa&#39;asalalauga."
+    },
+    "conversations": {
+        "Title": "Talanoaga",
+        "New": "Talanoaga Fou",
+        "Conversation": "Talanoaga",
+        "Topics": "Autu",
+        "NoneYet": "E le&#39;i faia ni talanoaga",
+        "newConversations": "{{1}} talanoaga fou",
+        "AllAuthors": "Tusitala uma",
+        "FilterbyAuthors": "Filifili e Tusitala",
+        "FilterAuthorPlaceHolder": "Su&#39;e isi tusitala...",
+        "filterConversations": "Filifili i tusitusiga",
+        "Description": "{{1}} talanoaga"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Filifili se autu",
+            "Share": "Faasoa",
+            "interest": {
+                "Title": "Filifili se Gaoioiga",
+                "Filter": "Su&#39;e mea e fiafia i ai..."
+            }
+        },
+        "Title": "Talanoaga Fou",
+        "TitlePlaceholder": "Autu o lau talanoaga",
+        "ContentPlaceholder": "Tusi ni nai upu e amata ai le talanoaga, ina ia mafai ona tali mai isi",
+        "StartButton": "Amata Talanoaga"
+    },
+    "events": {
+        "Title": "Mea na tutupu",
+        "filterByTitle": "Su&#39;e mea e tutupu ile ulutala",
+        "New": "+ Amata Mea Fou",
+        "filterEvents": "Filifili mea tutupu",
+        "NewEvent": "Mea Fou Fou",
+        "SetLocation": "Seti Lo&#39;u Nofoaga",
+        "NoneYet": "E le&#39;i iai ni mea na faia<br> i nei taimi.",
+        "AllAuthors": "Tusitala uma",
+        "AllDays": "Aso Uma",
+        "AllLocations": "Nofoaga uma",
+        "MakeReservation": "Fai Faasao",
+        "CancelReservation": "Fa&#39;aleaogaina Fa&#39;aagaga",
+        "UpdateReservation": "Fa&#39;afou Fa&#39;asao",
+        "AreYouSure": "E moʻi lava oe?",
+        "YouWillRefunded": "O le a toe fa&#39;afo&#39;iina oe ile tulaga o fa&#39;aaitalafu e mafai ona e fa&#39;aaluina i isi mea i totonu ole app.",
+        "AllInterests": "Manaoga uma",
+        "FilterbyInterest": "Filifili e tului",
+        "FilterByDate": "Filifili ile Aso",
+        "ShowActivities": "Faaali atu gaoioiga e faatatau i . . .",
+        "newEvents": "E iai au {{1}} mea fou na tutupu",
+        "SelectLocation": "Filifili Nofoaga",
+        "FilterLocationsPlaceHolder": "Filifili nofoaga ma ...",
+        "Description": "{{1}} mea tutupu",
+        "Keywords": "{{1}} mea tutupu"
+    },
+    "schedule": {
+        "Title": "Fa&#39;atonuga",
+        "NoneYet": "E te le o auai i so&#39;o se fa&#39;alavelave",
+        "AddSome": "Faaopoopo nisi i lau faasologa!",
+        "AddMore": "Fa&#39;aopoopo mea tutupu i lau fa&#39;atulagaga!",
+        "future": "lumanai",
+        "past": "ua mavae"
+    },
+    "location": {
+        "Title": "Nofoaga",
+        "NewLocation": "Nofoaga Fou"
+    },
+    "inbox": {
+        "Title": "Pusa meli",
+        "NoneYet": "E te le o auai i so&#39;o se talanoaga",
+        "FindPeople": "Su&#39;e tagata e talanoa i ai",
+        "GroupConversations": "Auai i ni talanoaga faavaega",
+        "ContactStaff": "Fa&#39;afeso&#39;ota&#39;i le Aufaigaluega",
+        "ContactCustomers": "Fa&#39;afeso&#39;ota&#39;i Tagata Fa&#39;atau"
+    },
+    "me": {
+        "Title": "O a&#39;u",
+        "MobileNumber": "Numera feavea&#39;i",
+        "EmailAddress": "Imeli tuatusi",
+        "UpdateSocialTitle": "Fa&#39;afou {{1}} username"
+    },
+    "people": {
+        "Title": "Tagata",
+        "Description": "Tagata i {{1}} alalafaga",
+        "AppAlert": "Ole app lea ile app store ole a fa&#39;atagaina oe e fa&#39;afeso&#39;ota&#39;i ma au uo, ma sili atu.",
+        "Invite": "Valaaulia Uo",
+        "BuyCredits": "Fa&#39;atau Tupe",
+        "FindSomeoneByName": "Su&#39;e se tasi ile igoa",
+        "SearchByName": "Su&#39;e ile igoa",
+        "FindAllMyFriends": "Su&#39;e A&#39;u Uo Uma",
+        "labels": {
+            "All": "Tagata uma",
+            "Title": "Filifili e Faiga",
+            "New": "Ituaiga Sootaga Fou"
+        },
+        "interests": {
+            "All": "Manaoga uma",
+            "Title": "Filifili e tului",
+            "Filter": "Faaali atu tagata fiafia i . . ."
+        },
+        "Keywords": "{{1}} tagata lautele"
+    },
+    "communities": {
+        "Title": "Nuu",
+        "NewCommunity": "Nuu Fou",
+        "FindCommunityByName": "Su&#39;e nu&#39;u ile igoa",
+        "Description": "{{1}} nuu"
+    },
+    "community": {
+        "Title": "{{1}} Nuu",
+        "Roles": "Matafaioi",
+        "AllRoles": "Matafaioi uma",
+        "YouDontHavePermission": "E le faatagaina oe e faia lenei mea",
+        "usernamePlaceholder": "seti igoa ole nuu",
+        "NotEnoughCredits": "E le lava au togi e fai ai le alalafaga. Manaomia {{1}}, e iai {{2}}"
+    },
+    "event": {
+        "GetDirections": "Maua Fa&#39;atonuga",
+        "WhichMap": "O fea faafanua e te mana&#39;o e fa&#39;aoga?",
+        "JoinEventToChat": "Auai i le mea na tupu e talatalanoa",
+        "promote": {
+            "Title": "Fa&#39;alauiloa lenei mea",
+            "Prompt": "Filifili le mea e te mana&#39;o e fa&#39;alauiloa ai lenei fa&#39;alavelave:"
+        },
+        "Confirmation": "Fa&#39;amauga"
+    },
+    "newEvent": {
+        "Title": "Fuafua Mea Fou"
+    },
+    "interests": {
+        "Title": "mea e fiafia i ai",
+        "prompt": "Filifili ituaiga o mea e te fia iloa.",
+        "explanation": "O le tele o mea e te filifilia, o le tele foi lea o lou fa&#39;afeso&#39;ota&#39;i ma tagata e tutusa o latou mafaufau.",
+        "filter": "O le a le mea e te fiafia i ai?",
+        "Profile": "O mea e fiafia i ai le va o tagata o loo faamamafaina. Afai e iai foi se tasi pe sili atu o mea e te fiafia i ai i lalo, e mafai ona e {{clickOrTap}} e fa&#39;aopoopo i ai."
+    },
+    "credits": {
+        "Title": "Fa&#39;aaitalafu",
+        "EarnCredits": "Maua {{1}} credits mo tagata fou uma e te vala&#39;aulia e auai i le app",
+        "YouHave": "E iai au togi {{1}}."
+    },
+    "onboarding": {
+        "Tap": "Tap",
+        "Click": "Kiliki",
+        "Yes": "ioe",
+        "No": "leai",
+        "Skip": "pe faamisi lenei",
+        "name": {
+            "Preface": "Susu maia i",
+            "Placeholder": "Tu&#39;u lou igoa atoa",
+            "GetStarted": "Amata",
+            "AsGuest": "Ua vala&#39;aulia oe e fai ma malo.",
+            "AsMember": "Ua valaaulia oe e avea ma sui auai.",
+            "AsAdmin": "Ua vala&#39;aulia oe e avea ma pule.",
+            "AsOwner": "Ua vala&#39;aulia oe ose pule.",
+            "TooShort": "E le mafai ona faapuupuu lou igoa atoa",
+            "SetAsYourFullName": "Seti {{1}} lou igoa atoa?"
+        },
+        "icon": {
+            "KeepDefault": "pe teu lenei ata",
+            "SetYourPhoto": "{{ClickOrTap}} e seti ai lau ata:"
+        },
+        "interests": {
+            "GetStarted": "⇩ Amata",
+            "NextCategory": "↓ Sosoo ai",
+            "Continue": "Fa&#39;aauau",
+            "Instructions": "I vaega ta&#39;itasi e sosoo ai {{1}},<br> {{2}} gaoioiga uma e te fiafia iai.<br> O le auala lea e te fa&#39;afeso&#39;ota&#39;i ai ma isi tagata o le nu&#39;u."
+        },
+        "profile": {
+            "Profile": "O lau talaaga e fesoasoani i tagata e iloa atili ai oe.<br>",
+            "Birthday": "Fa&#39;amolemole tu&#39;u lou aso fanau:",
+            "Placeholder": "O ai oe ma o le a lau mea e fai? Ta&#39;u atu i tagata se mea manaia pe tulaga ese e uiga ia te oe lava.",
+            "Required": "Ina ia faaauau, tusi ia le itiiti ifo i ni nai laina se lua e uiga ia te oe lava.",
+            "Month": "Masina",
+            "Day": "Aso",
+            "Year": "Tausaga",
+            "Gender": "Itupa",
+            "Male": "Male",
+            "Female": "Fafine",
+            "Other": "isi",
+            "Height": "Maualuluga",
+            "Affiliation": "Fa&#39;atasiga",
+            "Dating": "Tafaoga",
+            "Interested": "Fiafia",
+            "NotInterested": "Le Fiafia",
+            "MatchmakerOnly": "Na&#39;o le Fa&#39;atusa"
+        },
+        "location": {
+            "NoOneElse": "E leai se isi e vaai i ai.",
+            "SetMyLocation": "Seti lo&#39;u nofoaga"
+        },
+        "pile": {
+            "DialogTitle": "Tagata e iai mea e fiafia iai"
+        },
+        "Done": "Ua uma"
+    },
+    "profile": {
+        "Title": "Tala&#39;aga",
+        "Male": "Male",
+        "Female": "Fafine",
+        "Other": "isi",
+        "dating": {
+            "Interested": "Fiafia",
+            "NotInterested": "Le fiafia",
+            "MatchmakerOnly": "Na&#39;o le tagata fa&#39;atusa"
+        },
+        "StartConversation": "Amata se Talanoaga",
+        "blockUser": "poloka lenei tagata fa&#39;aoga",
+        "blockUserAlert": "E te le toe va&#39;aia ni fe&#39;au mai lenei tagata fa&#39;aoga se&#39;i vagana ua e tatalaina.",
+        "unblockUser": "Tatala lenei tagata fa&#39;aoga",
+        "addToContacts": "Fa&#39;aopoopo i Feso&#39;ota&#39;iga",
+        "manageLabels": "Pulea Fa&#39;ailoga",
+        "inviteUsers": "Valaaulia Tagata Fa&#39;aoga",
+        "selectRole": "Filifili Matafaioi",
+        "inviteSuccess": "Manuia le vala&#39;aulia o le tagata fa&#39;aoga o {{label}}",
+        "invite": "Valaaulia",
+        "relationships": "Mafutaga",
+        "newRole": "Matafaioi Fou",
+        "about": "E uiga i",
+        "people": "Tagata",
+        "info": "Fa&#39;amatalaga",
+        "interests": "mea e fiafia i ai",
+        "chat": "Talanoaga",
+        "locations": "Nofoaga",
+        "ManageRoles": "Puleaina Matafaioi",
+        "aboutPlaceholder": "O ai oe ma o le a lau mea e fai? Ta&#39;u atu i tagata se mea manaia pe tulaga ese e uiga ia te oe lava.",
+        "explanation": "E fesoasoani lou talaaga otooto e fetaui lelei ai oe ma isi tagata mo gaoioiga faa-vaega.<br> Fa&#39;amolemole tu&#39;u lou aso fanau",
+        "chats": {
+            "placeholder": "Fai se tala"
+        },
+        "LogOut": "Saini ese j",
+        "MyLinks": "O&#39;u So&#39;oga",
+        "MyJobs": "O&#39;u Galuega",
+        "MySocial": "MySocial",
+        "MyEducation": "O La&#39;u A&#39;oga",
+        "JobsPlaceholder": "Tu&#39;i iinei fa&#39;amatalaga galuega",
+        "EducationPlaceholder": "Tu&#39;i iinei fa&#39;amatalaga a&#39;oa&#39;oga",
+        "ManageNotifications": "Pulea Fa&#39;asilasilaga",
+        "YourPreferredLanguage": "Lau gagana e fiafia iai"
+    },
+    "myqr": {
+        "Title": "O la&#39;u QR"
+    },
+    "composer": {
+        "createCommunity": "Fausia Nuu",
+        "inviteAdmin": "Valaaulia le Pule",
+        "inviteMember": "Valaaulia le Sui Usufono",
+        "newCommunityTitle": "Igoa o le Nuu",
+        "setCommunityTitle": "Igoa o le Nuu",
+        "creditsChargeRequest": "Ete malie e fa&#39;aalu {{price}} credits?",
+        "yes": "ioe",
+        "no": "leai"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Afio mai! Fa&#39;amolemole fa&#39;amaonia lau tuatusi imeli.",
+        "WelcomeVerifyEmail": "Afio mai! Fa&#39;amaonia lau tuatusi imeli.",
+        "ForgetPass": "Ei, na galo ia te oe lau fuaitau?",
+        "ManageEmailSubscriptions": "pulea au imeli imeli",
+        "IfUnsubscribe": "Afai e te mana&#39;o e unsubscribe"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Susu maia i {{CommunityName}}. O lenei app o le a fesoasoani ia te oe e faʻafesoʻotaʻi ma uo, saili tagata fou e tutusa mea e fiafia i ai, ma sili atu. Tatou amata!"
+            },
+            "icon": {
+                "Commentary": "Seti lau ata. O le auala lea o le a vaʻai ai tagata ia te oe i luga o le saite."
+            },
+            "interests": {
+                "Commentary": "O le tele o mea e te filifilia, o le tele o tagata e mafai ona e feiloai i ai.",
+                "Notifications": "E tatau ona e fa&#39;atagaina fa&#39;amatalaga"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Fa&#39;asilasilaga e mafai ai ona e iloa mea e te fiafia i ai, e pei o le taimi e auai ai se uo i le app, po&#39;o le fe&#39;au ia oe."
+        },
+        "invite": "{{Q.words.TapOrClick}} iinei e va&#39;ai pe fa&#39;apefea ona e fa&#39;asoa atu lenei mea i isi tagata."
+    },
+    "payment": {
+        "onContribute": "Faafetai! Ua uma lau totogi. E te mana&#39;o e vala&#39;aulia au uo e fa&#39;atasi ma oe?"
+    },
+    "featureboard": {
+        "Text_1": "Ia lagona lou leo! E te ioe e tatau ona tatou atiaʻe se faʻaaliga poʻo se bug? Kiliki le ki e Lagolago ai.",
+        "Text_2": "E te mana&#39;o matou te atia&#39;e se vaega fou? Faamatala i lalo.",
+        "Text_3": "O vaiaso uma e amata ai ona matou atiaʻe le pito i luga o loʻo talosagaina e le alalafaga. O tupe uma e saofagā e alu i lena faʻamoemoe, e mafai ai ona matou faʻaleleia atili le app.",
+        "Text_4": "O tupe uma e saofagā e fa&#39;aoga e fesoasoani ai i le totogiina o tau o atina&#39;e.",
+        "Text_5": "E i ai sau manatu mo se fa&#39;aaliga po&#39;o se bugfix e te mana&#39;o matou te faia ae e te le&#39;i va&#39;ai i isi fa&#39;aopoopo? Fa&#39;amatala i lalo:",
+        "Options": [
+            {
+                "text": "$400 Taimi tonu ata vitio"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$200 Fa&#39;amatalaga resitala a le Tulaga Muamua i le lotoifale"
+            },
+            {
+                "text": "$130 Su&#39;esu&#39;e ma fa&#39;asoa le faitau afe o {{1}} meme",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 Puleaina lou lava nuu",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Fa&#39;asa&#39;o talanoaga bug",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Talosagaina se Fa&#39;aaliga Fou\/Fua&#39;iga",
+        "FeaturePlaceholder": "Aotelega puupuu o le vaega",
+        "FeatureDescription": "Fa&#39;amatala pe fa&#39;afefea ona toe fa&#39;atupuina e se isi tagata le pusa o lo&#39;o e va&#39;aia, pe fa&#39;amatala au&#39;ili&#39;ili le vaega e te mana&#39;o e fau",
+        "AddYourRequest": "Fa&#39;aopoopo lau Talosaga",
+        "NewFeature": "Vaega Fou"
+    },
+    "contribute": {
+        "ContributeExplanation": "Fesoasoani e lagolago le atina&#39;eina o le {{communityName}} app. O au sao uma e fesoasoani i le faʻaleleia o bug ma atiaʻe ni foliga fou e fesoasoani i le tuputupu aʻe o le initaneti!",
+        "ReasonToContribute": "O lenei polokalame o lo&#39;o tausia e le au lagolago a {{communityName}}. Fesoasoani e lagolago lenei app ina ia mafai ona tatou faia se suiga i olaga o tagata!"
+    },
+    "assetshistory": {
+        "Title": "Tala&#39;aga o aseta",
+        "Charges": "Totogi",
+        "Credits": "Fa&#39;aaitalafu"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Aveese tala",
+            "content": "Ete mana&#39;o e aveese lenei tala?",
+            "ok": "ioe",
+            "cancel": "leai"
+        }
+    },
+    "import": {
+        "fileNotFound": "Fa&#39;amalie atu, e le&#39;i maua le faila CSV.",
+        "fileEmpty": "Fa&#39;amalie atu, o lo&#39;o gaogao le faila CSV.",
+        "userIdNotFound": "e iai le tagata fa&#39;aoga ae leai se id",
+        "errorLine": "laina {{1}}",
+        "fieldNotFound": "E le maua le fanua mana&#39;omia &quot;{{1}}&quot;.",
+        "taskStreamInvalid": "e le aoga le tafega o galuega",
+        "instructionsEmpty": "gaogao fa&#39;atonuga alia galuega",
+        "complete": "mae&#39;a",
+        "activateUsers": "auina atu le fe&#39;au fa&#39;agaoioiga i tagata fa&#39;aoga?",
+        "importProgress": "Alualu i luma",
+        "joinEventLabel": "Auai i tagata fa&#39;aoga ile fa&#39;alavelave fa&#39;afuase&#39;i",
+        "importOptions": "Filifiliga",
+        "sampleCSV": "La&#39;u mai le Fa&#39;ata&#39;ita&#39;iga CSV",
+        "fileLabel": "La&#39;uina atu le Pepa Pepa:",
+        "errorsTitle": "Na tutupu mea sese",
+        "communityUsers": "Ole lisi lea o nu&#39;u",
+        "setAsConversation": "URL koluma e fai ma talanoaga",
+        "toMainCommunityToo": "fa&#39;aopoopo fo&#39;i tagata fa&#39;aoga i nu&#39;u tele",
+        "willImportedTo": "O tagata fa&#39;aoga o le a fa&#39;aulufale mai i nu&#39;u"
+    }
+}

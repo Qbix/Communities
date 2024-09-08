@@ -1,0 +1,362 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> peker ikke til noe!",
+        "NextSteps": "Bruk hovedmenyen for å finne det du leter etter."
+    },
+    "dashboard": {
+        "Menu": "Meny"
+    },
+    "greeting": {
+        "Welcome": "Velkommen til {{1}}. Her finner du ting som er lagt ut for medlemmer av fellesskapet vårt. Vennligst legg til din e-postadresse eller mobilnummer for å motta varsler når kunngjøringer legges ut."
+    },
+    "conversations": {
+        "Title": "Samtaler",
+        "New": "Ny samtale",
+        "Conversation": "Samtale",
+        "Topics": "Emner",
+        "NoneYet": "Ingen samtaler er opprettet ennå",
+        "newConversations": "{{1}} nye samtaler",
+        "AllAuthors": "Alle forfattere",
+        "FilterbyAuthors": "Filtrer etter forfattere",
+        "FilterAuthorPlaceHolder": "Søk etter flere forfattere...",
+        "filterConversations": "Filtrer etter tekst",
+        "Description": "{{1}} samtaler"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Velg et emne",
+            "Share": "Dele",
+            "interest": {
+                "Title": "Velg en aktivitet",
+                "Filter": "Søk etter interesser ..."
+            }
+        },
+        "Title": "Ny samtale",
+        "TitlePlaceholder": "Emnet for samtalen din",
+        "ContentPlaceholder": "Skriv noen ord for å starte samtalen, slik at andre kan svare",
+        "StartButton": "Start samtale"
+    },
+    "events": {
+        "Title": "arrangementer",
+        "filterByTitle": "Finn hendelser etter tittel",
+        "New": "+ Start ny begivenhet",
+        "filterEvents": "Filtrer hendelser",
+        "NewEvent": "Ny begivenhet",
+        "SetLocation": "Angi Min posisjon",
+        "NoneYet": "Ingen arrangementer er opprettet ennå<br> i disse tider.",
+        "AllAuthors": "Alle forfattere",
+        "AllDays": "Alle dager",
+        "AllLocations": "Alle steder",
+        "MakeReservation": "Foreta reservasjon",
+        "CancelReservation": "Kanseller reservasjon",
+        "UpdateReservation": "Oppdater reservasjon",
+        "AreYouSure": "Er du sikker?",
+        "YouWillRefunded": "Du vil bli refundert i form av kreditter du kan bruke på andre ting i appen.",
+        "AllInterests": "Alle interesser",
+        "FilterbyInterest": "Filtrer etter interesse",
+        "FilterByDate": "Filtrer etter dato",
+        "ShowActivities": "Vis aktiviteter relatert til . . .",
+        "newEvents": "Du har {{1}} nye hendelser",
+        "SelectLocation": "Velg Sted",
+        "FilterLocationsPlaceHolder": "Filtrer arenaer med ...",
+        "Description": "{{1}} hendelser",
+        "Keywords": "{{1}} hendelser"
+    },
+    "schedule": {
+        "Title": "Rute",
+        "NoneYet": "Du deltar ikke i noen arrangementer",
+        "AddSome": "Legg til noen i timeplanen din!",
+        "AddMore": "Legg til hendelser i timeplanen din!",
+        "future": "framtid",
+        "past": "forbi"
+    },
+    "location": {
+        "Title": "plassering",
+        "NewLocation": "Ny plassering"
+    },
+    "inbox": {
+        "Title": "Innboks",
+        "NoneYet": "Du deltar ikke i noen samtaler",
+        "FindPeople": "Finn folk å snakke med",
+        "GroupConversations": "Bli med i noen gruppesamtaler",
+        "ContactStaff": "Ta kontakt med personalet",
+        "ContactCustomers": "Kontakt kunder"
+    },
+    "me": {
+        "Title": "Meg",
+        "MobileNumber": "Mobilnummer",
+        "EmailAddress": "Epostadresse",
+        "UpdateSocialTitle": "Oppdater {{1}} brukernavn"
+    },
+    "people": {
+        "Title": "Mennesker",
+        "Description": "Folk i {{1}}-fellesskapet",
+        "AppAlert": "Denne appen i appbutikken lar deg få kontakt med vennene dine, og mye mye mer.",
+        "Invite": "Invitere venner",
+        "BuyCredits": "Kjøp kreditter",
+        "FindSomeoneByName": "Finn noen ved navn",
+        "SearchByName": "Søk etter navn",
+        "FindAllMyFriends": "Finn alle mine venner",
+        "labels": {
+            "All": "Alle sammen",
+            "Title": "Filtrer etter forhold",
+            "New": "Ny type forhold"
+        },
+        "interests": {
+            "All": "Alle interesser",
+            "Title": "Filtrer etter interesse",
+            "Filter": "Vis folk som er interessert i . . ."
+        },
+        "Keywords": "{{1}} personer fellesskapet"
+    },
+    "communities": {
+        "Title": "Fellesskap",
+        "NewCommunity": "Nytt fellesskap",
+        "FindCommunityByName": "Finn fellesskapet etter navn",
+        "Description": "{{1}} fellesskap"
+    },
+    "community": {
+        "Title": "{{1}} Fellesskap",
+        "Roles": "Roller",
+        "AllRoles": "Alle roller",
+        "YouDontHavePermission": "Du er ikke autorisert til å gjøre dette",
+        "usernamePlaceholder": "angi fellesskapsnavn",
+        "NotEnoughCredits": "Du har ikke nok kreditter til å opprette fellesskap. Trenger du {{1}}, du har {{2}}"
+    },
+    "event": {
+        "GetDirections": "Få veibeskrivelse",
+        "WhichMap": "Hvilke kart vil du bruke?",
+        "JoinEventToChat": "Bli med på arrangementet for å chatte",
+        "promote": {
+            "Title": "Markedsfør dette arrangementet",
+            "Prompt": "Velg hvor du vil promotere dette arrangementet:"
+        },
+        "Confirmation": "Bekreftelse"
+    },
+    "newEvent": {
+        "Title": "Planlegg nytt arrangement"
+    },
+    "interests": {
+        "Title": "Interesser",
+        "prompt": "Velg hvilke typer ting du vil vite om.",
+        "explanation": "Jo flere interesser du velger, jo mer sannsynlig er det at du får kontakt med likesinnede.",
+        "filter": "Hva er du interessert i?",
+        "Profile": "Gjensidige interesser er fremhevet. Hvis du også har en eller flere av interessene nedenfor, kan du {{clickOrTap}} legge dem til."
+    },
+    "credits": {
+        "Title": "Studiepoeng",
+        "EarnCredits": "Tjen {{1}} kreditter for hver nye person du inviterer som blir med i appen",
+        "YouHave": "Du har {{1}} kreditter"
+    },
+    "onboarding": {
+        "Tap": "Trykk på",
+        "Click": "Klikk",
+        "Yes": "Ja",
+        "No": "Nei",
+        "Skip": "eller hopp over dette",
+        "name": {
+            "Preface": "Velkommen til",
+            "Placeholder": "Skriv ditt fulle navn",
+            "GetStarted": "Kom i gang",
+            "AsGuest": "Du har blitt invitert som gjest.",
+            "AsMember": "Du er invitert som medlem.",
+            "AsAdmin": "Du er invitert som administrator.",
+            "AsOwner": "Du er invitert som eier.",
+            "TooShort": "Det fulle navnet ditt kan ikke være så kort",
+            "SetAsYourFullName": "Vil du angi {{1}} som fullt navn?"
+        },
+        "icon": {
+            "KeepDefault": "eller behold dette bildet",
+            "SetYourPhoto": "{{ClickOrTap}} for å angi bildet ditt:"
+        },
+        "interests": {
+            "GetStarted": "⇩ Kom i gang",
+            "NextCategory": "↓ Neste",
+            "Continue": "Fortsette",
+            "Instructions": "I hver av de neste {{1}} kategoriene,<br> {{2}} alle aktivitetene du er interessert i.<br> Slik får du kontakt med andre mennesker i samfunnet."
+        },
+        "profile": {
+            "Profile": "Profilen din hjelper folk å finne ut mer om deg.<br>",
+            "Birthday": "Vennligst oppgi fødselsdagen din:",
+            "Placeholder": "Hvem er du og hva gjør du? Fortell folk noe interessant eller unikt om deg selv.",
+            "Required": "For å fortsette, skriv minst et par linjer om deg selv.",
+            "Month": "Måned",
+            "Day": "Dag",
+            "Year": "År",
+            "Gender": "Kjønn",
+            "Male": "Mann",
+            "Female": "Hunn",
+            "Other": "Annen",
+            "Height": "Høyde",
+            "Affiliation": "Tilhørighet",
+            "Dating": "Dating",
+            "Interested": "Interessert",
+            "NotInterested": "Ikke interessert",
+            "MatchmakerOnly": "Bare matchmaker"
+        },
+        "location": {
+            "NoOneElse": "Ingen andre vil se det.",
+            "SetMyLocation": "Angi posisjonen min"
+        },
+        "pile": {
+            "DialogTitle": "Mennesker med felles interesser"
+        },
+        "Done": "Ferdig"
+    },
+    "profile": {
+        "Title": "Profil",
+        "Male": "Mann",
+        "Female": "Hunn",
+        "Other": "Annen",
+        "dating": {
+            "Interested": "Interessert",
+            "NotInterested": "Ikke interessert",
+            "MatchmakerOnly": "Bare matchmaker"
+        },
+        "StartConversation": "Start en samtale",
+        "blockUser": "Blokker denne brukeren",
+        "blockUserAlert": "Du vil ikke se flere meldinger fra denne brukeren før du fjerner blokkeringen.",
+        "unblockUser": "Opphev blokkeringen av denne brukeren",
+        "addToContacts": "Legg til i kontakter",
+        "manageLabels": "Administrer etiketter",
+        "inviteUsers": "Inviter brukere",
+        "selectRole": "Velg Rolle",
+        "inviteSuccess": "Vellykket invitert bruker som {{label}}",
+        "invite": "Invitere",
+        "relationships": "Forhold",
+        "newRole": "Ny rolle",
+        "about": "Om",
+        "people": "Mennesker",
+        "info": "Info",
+        "interests": "Interesser",
+        "chat": "Chat",
+        "locations": "Steder",
+        "ManageRoles": "Administrer roller",
+        "aboutPlaceholder": "Hvem er du og hva gjør du? Fortell folk noe interessant eller unikt om deg selv.",
+        "explanation": "Profilen din hjelper deg med å matche deg bedre med andre for gruppeaktiviteter.<br> Vennligst oppgi fødselsdagen din",
+        "chats": {
+            "placeholder": "Si noe"
+        },
+        "LogOut": "Logg ut",
+        "MyLinks": "Mine linker",
+        "MyJobs": "Mine jobber",
+        "MySocial": "MySocial",
+        "MyEducation": "Min utdanning",
+        "JobsPlaceholder": "Skriv inn jobbinfo her",
+        "EducationPlaceholder": "Skriv inn utdanningsinfo her",
+        "ManageNotifications": "Administrer varsler",
+        "YourPreferredLanguage": "Ditt foretrukne språk"
+    },
+    "myqr": {
+        "Title": "Min QR"
+    },
+    "composer": {
+        "createCommunity": "Opprett fellesskap",
+        "inviteAdmin": "Inviter administrator",
+        "inviteMember": "Inviter medlem",
+        "newCommunityTitle": "Fellesskapsnavn",
+        "setCommunityTitle": "Fellesskapsnavn",
+        "creditsChargeRequest": "Godtar du å bruke {{price}} kreditter?",
+        "yes": "Ja",
+        "no": "Nei"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Velkommen! Vennligst bekreft e-postadressen din.",
+        "WelcomeVerifyEmail": "Velkommen! Bekreft e-postadressen din.",
+        "ForgetPass": "Hei, har du glemt passordfrasen?",
+        "ManageEmailSubscriptions": "administrere e-postabonnementene dine",
+        "IfUnsubscribe": "Hvis du vil avslutte abonnementet"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Velkommen til {{CommunityName}}. Denne appen hjelper deg med å få kontakt med venner, oppdage nye mennesker med felles interesser og mye mer. La oss komme i gang!"
+            },
+            "icon": {
+                "Commentary": "Still inn bildet ditt. Dette er hvordan folk vil se deg på nettstedet."
+            },
+            "interests": {
+                "Commentary": "Jo flere ting du velger, jo flere mennesker kan du møte.",
+                "Notifications": "Du må tillate varsler"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Varsler lar deg vite om ting du er interessert i, for eksempel når en venn blir med i appen eller sender meldinger til deg."
+        },
+        "invite": "{{Q.words.TapOrClick}} her for å se hvordan du kan dele dette med andre."
+    },
+    "payment": {
+        "onContribute": "Takk skal du ha! Betalingen din gikk gjennom. Vil du invitere vennene dine med?"
+    },
+    "featureboard": {
+        "Text_1": "La din stemme bli hørt! Er du enig i at vi bør utvikle en funksjon eller feil? Klikk på knappen for å støtte den.",
+        "Text_2": "Vil du at vi skal utvikle en ny funksjon? Beskriv det nedenfor.",
+        "Text_3": "Hver uke begynner vi å utvikle den mest etterspurte funksjonen av fellesskapet. Alle pengene som er bidratt går til det formålet, slik at vi kan gjøre appen bedre.",
+        "Text_4": "Alle innbetalte penger brukes til å betale utviklingskostnadene våre.",
+        "Text_5": "Har du en idé til en funksjon eller feilretting som du vil at vi skal gjøre, men ikke har sett andre legge til ennå? Beskriv det nedenfor:",
+        "Options": [
+            {
+                "text": "$400 Videokonferanser i sanntid"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$200 Local Primær registreringsinformasjon"
+            },
+            {
+                "text": "$130 Bla gjennom og del tusenvis av {{1}} memer",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 Administrer dine egne fellesskap",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Fiks samtalefeil",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Be om en ny funksjon\/feilretting",
+        "FeaturePlaceholder": "Kort oppsummering av funksjonen",
+        "FeatureDescription": "Beskriv hvordan noen andre kan reprodusere feilen du ser, eller beskriv i detalj funksjonen du vil bygge",
+        "AddYourRequest": "Legg til forespørselen din",
+        "NewFeature": "Ny funksjon"
+    },
+    "contribute": {
+        "ContributeExplanation": "Hjelp til å støtte fortsatt utvikling av {{communityName}}-appen. Alle bidragene dine hjelper til med å fikse feil og utvikle nye funksjoner for å øke nettsamfunnet!",
+        "ReasonToContribute": "Denne appen vedlikeholdes av tilhengere av {{communityName}}. Hjelp støtte denne appen slik at vi kan gjøre en forskjell i folks liv!"
+    },
+    "assetshistory": {
+        "Title": "Eiendeler historie",
+        "Charges": "Avgifter",
+        "Credits": "Studiepoeng"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Fjern konto",
+            "content": "Vil du fjerne denne kontoen?",
+            "ok": "Ja",
+            "cancel": "Nei"
+        }
+    },
+    "import": {
+        "fileNotFound": "Beklager, CSV-filen ble ikke funnet.",
+        "fileEmpty": "Beklager, CSV-filen er tom.",
+        "userIdNotFound": "bruker eksisterer, men ID-en er tom",
+        "errorLine": "linje {{1}}",
+        "fieldNotFound": "Det obligatoriske feltet «{{1}}» ble ikke funnet",
+        "taskStreamInvalid": "oppgavestrømmen er ugyldig",
+        "instructionsEmpty": "oppgavestrøminstruksjonene er tomme",
+        "complete": "Fullstendig",
+        "activateUsers": "sende aktiveringsmelding til brukere?",
+        "importProgress": "Framgang",
+        "joinEventLabel": "Bli med brukere til tilfeldig begivenhet",
+        "importOptions": "Alternativer",
+        "sampleCSV": "Last ned eksempel CSV",
+        "fileLabel": "Last opp regneark:",
+        "errorsTitle": "Det oppsto feil",
+        "communityUsers": "Dette er fellesskapslisten",
+        "setAsConversation": "URL-kolonne som samtale",
+        "toMainCommunityToo": "legge til brukere i hovedfellesskapet også",
+        "willImportedTo": "Brukere vil bli importert til fellesskapet"
+    }
+}

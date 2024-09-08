@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Ikaw ay iniimbitahan",
+        "Member": "Miyembro sa {{title}}",
+        "Explanation": "{{1}} ay nalulugod na ipahayag ang paglulunsad ng aming bagong website. Kabilang dito ang lumalaking listahan ng mga feature, gaya ng:",
+        "Public": "Pampublikong impormasyon tungkol sa {{1}}",
+        "Private": "Isang pribadong user account para sa bawat miyembro",
+        "Notifications": "Sa pamamagitan ng paglalagay ng iyong email address o mobile number, makakatanggap ka ng mahahalagang notification sa pamamagitan ng email o text message.",
+        "GetStarted": "Upang makapagsimula, sa iyong web browser mangyaring <em>maingat na<\/em> ipasok ang:<br>",
+        "IssuedToYou": "Ang code na ito ay partikular na ibinigay sa iyo."
+    }
+}

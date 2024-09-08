@@ -1,0 +1,20 @@
+{
+    "activation": {
+        "Thanks": "Wolkom by {{1}}.",
+        "ClickHere": "Klik hjir om jo akkount te aktivearjen: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Klik hjir om jo mobile nûmer te ferifiearjen: {{1}}"
+    },
+    "SeeHistory": "Sjoch betellingsskiednis foar {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} is {{2}} yn rekken brocht foar {{3}} troch {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hoi {{1}}, dit is mar in flugge befêstiging dat jo mei súkses {{2}} betelle hawwe oan {{3}} foar {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Jo hawwe jo ynskreaun op {{2}} mei {{3}} op {{4}} foar {{5}} moannen.",
+        "HasStarted": "{{1}} hat ynskreaun op {{2}} mei {{3}} op {{4}} foar {{5}} moannen."
+    }
+}

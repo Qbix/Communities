@@ -1,0 +1,362 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> hapana chainongedza!",
+        "NextSteps": "Shandisa main menu kuti uwane zvauri kutsvaga."
+    },
+    "dashboard": {
+        "Menu": "Menu"
+    },
+    "greeting": {
+        "Welcome": "Tikugashirei ku {{1}}. Pano iwe unowana zvinhu zvakatumirwa kune nhengo dzenharaunda yedu. Ndokumbira uwedzere email yako kana nhamba yefoni kuitira kuti ugamuchire zviziviso kana zviziviso zvatumirwa."
+    },
+    "conversations": {
+        "Title": "Hurukuro",
+        "New": "Hurukuro Itsva",
+        "Conversation": "Kukurukurirana",
+        "Topics": "Topics",
+        "NoneYet": "Hapasati pave nehurukuro",
+        "newConversations": "{{1}} nhaurirano itsva",
+        "AllAuthors": "Vose Vanyori",
+        "FilterbyAuthors": "Sefa neVanyori",
+        "FilterAuthorPlaceHolder": "Tsvaga vamwe vanyori...",
+        "filterConversations": "Sefa nemavara",
+        "Description": "{{1}} hurukuro"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Sarudza musoro wenyaya",
+            "Share": "Share",
+            "interest": {
+                "Title": "Sarudza Chiitiko",
+                "Filter": "Tsvaga zvaunofarira ..."
+            }
+        },
+        "Title": "Hurukuro Itsva",
+        "TitlePlaceholder": "Nyaya yehurukuro yako",
+        "ContentPlaceholder": "Nyora mazwi mashoma ekutanga hurukuro, kuti vamwe vapindure",
+        "StartButton": "Tanga Kukurukurirana"
+    },
+    "events": {
+        "Title": "Zviitiko",
+        "filterByTitle": "Tsvaga zviitiko nemusoro",
+        "New": "+ Tanga Chiitiko Chitsva",
+        "filterEvents": "Sefa zviitiko",
+        "NewEvent": "Chiitiko Chitsva",
+        "SetLocation": "Seta Nzvimbo Yangu",
+        "NoneYet": "Hapana zviitiko zvagadzirwa<br> panguva idzi.",
+        "AllAuthors": "Vose Vanyori",
+        "AllDays": "Mazuva ose",
+        "AllLocations": "All Locations",
+        "MakeReservation": "Ita Reservation",
+        "CancelReservation": "Kanzura Reservation",
+        "UpdateReservation": "Update Reservation",
+        "AreYouSure": "Une chokwadi here?",
+        "YouWillRefunded": "Iwe unozodzoserwa muchimiro chezvikwereti zvaunogona kushandisa pane zvimwe zvinhu muapp.",
+        "AllInterests": "Zvese Zvaunofarira",
+        "FilterbyInterest": "Sefa neKufarira",
+        "FilterByDate": "Sefa NeDate",
+        "ShowActivities": "Ratidza zviitiko zvine chekuita ne. . .",
+        "newEvents": "Une {{1}} zviitiko zvitsva",
+        "SelectLocation": "Sarudza Nzvimbo",
+        "FilterLocationsPlaceHolder": "Sefa nzvimbo ne...",
+        "Description": "{{1}} zviitiko",
+        "Keywords": "{{1}} zviitiko"
+    },
+    "schedule": {
+        "Title": "Purogiramu",
+        "NoneYet": "Iwe hausi kutora chikamu mune chero chiitiko",
+        "AddSome": "Wedzera zvimwe kuhurongwa hwako!",
+        "AddMore": "Wedzera zviitiko kuhurongwa hwako!",
+        "future": "ramangwana",
+        "past": "yapfuura"
+    },
+    "location": {
+        "Title": "Nzvimbo",
+        "NewLocation": "Nzvimbo Itsva"
+    },
+    "inbox": {
+        "Title": "Inbox",
+        "NoneYet": "Iwe hausi kutora chikamu mune chero hurukuro",
+        "FindPeople": "Wana vanhu vekutaura navo",
+        "GroupConversations": "Batanidza dzimwe hurukuro dzeboka",
+        "ContactStaff": "Bata Vashandi",
+        "ContactCustomers": "Bata Vatengi"
+    },
+    "me": {
+        "Title": "Me",
+        "MobileNumber": "Mobile Number",
+        "EmailAddress": "Chikero chetsamba yemumhepo",
+        "UpdateSocialTitle": "Gadzirisa {{1}} zita rekushandisa"
+    },
+    "people": {
+        "Title": "Vanhu",
+        "Description": "Vanhu vemu {{1}} nharaunda",
+        "AppAlert": "Ichi chishandiso chiri muchitoro cheapp chinokutendera kuti ubatane neshamwari dzako, uye zvimwe zvakawanda.",
+        "Invite": "Koka Shamwari",
+        "BuyCredits": "Tenga Zvikwereti",
+        "FindSomeoneByName": "Tsvaga munhu ane zita",
+        "SearchByName": "Tsvaga nezita",
+        "FindAllMyFriends": "Tsvaga Shamwari Dzangu Dzose",
+        "labels": {
+            "All": "Munhu wese",
+            "Title": "Sefa neHukama",
+            "New": "Hukama Hutsva Type"
+        },
+        "interests": {
+            "All": "Zvese Zvaunofarira",
+            "Title": "Sefa neKufarira",
+            "Filter": "Ratidza vanhu vanofarira . . ."
+        },
+        "Keywords": "{{1}} nharaunda yevanhu"
+    },
+    "communities": {
+        "Title": "Nharaunda",
+        "NewCommunity": "New Community",
+        "FindCommunityByName": "Tsvaga nharaunda nemazita",
+        "Description": "{{1}} nharaunda"
+    },
+    "community": {
+        "Title": "{{1}} Nharaunda",
+        "Roles": "Mabasa",
+        "AllRoles": "Zvose Mabasa",
+        "YouDontHavePermission": "Hauna mvumo yekuita izvi",
+        "usernamePlaceholder": "gadza zita renharaunda",
+        "NotEnoughCredits": "Hauna makiredhiti akakwana ekugadzira nharaunda. Unoda {{1}}, une {{2}}"
+    },
+    "event": {
+        "GetDirections": "Wana Madirections",
+        "WhichMap": "Ndeapi mamepu aungada kushandisa?",
+        "JoinEventToChat": "Joinha chiitiko kuti mutaure",
+        "promote": {
+            "Title": "Kurudzira chiitiko ichi",
+            "Prompt": "Sarudza kwaunoda kusimudzira chiitiko ichi:"
+        },
+        "Confirmation": "Simbiso"
+    },
+    "newEvent": {
+        "Title": "Ronga Chiitiko Chitsva"
+    },
+    "interests": {
+        "Title": "Zvaunofarira",
+        "prompt": "Sarudza mhando yezvinhu zvaunoda kuziva nezvazvo.",
+        "explanation": "Kunyanya kufarira kwaunosarudza, iwe unowedzera mukana wekubatana nevanhu vane pfungwa dzakafanana.",
+        "filter": "Chii chauri kufarira?",
+        "Profile": "Zvido zvemumwe nemumwe zvinoratidzwa. Kana uinewo zvaunofarira pazasi, unokwanisa {{clickOrTap}} kuzviwedzera."
+    },
+    "credits": {
+        "Title": "Credits",
+        "EarnCredits": "Wana {{1}} makiredhiti emunhu wese mutsva waunokoka anopinda paapp",
+        "YouHave": "Une {{1}} makiredhiti"
+    },
+    "onboarding": {
+        "Tap": "Tap",
+        "Click": "Dzvanya",
+        "Yes": "Ehe",
+        "No": "Aihwa",
+        "Skip": "kana kusvetuka izvi",
+        "name": {
+            "Preface": "Welcome to",
+            "Placeholder": "Isa zita rako rizere",
+            "GetStarted": "Tanga",
+            "AsGuest": "Wakokwa semuenzi.",
+            "AsMember": "Wakokwa senhengo.",
+            "AsAdmin": "Wakokwa se admin.",
+            "AsOwner": "Wakokwa semuridzi.",
+            "TooShort": "Zita rako rizere harigoni kupfupika kudaro",
+            "SetAsYourFullName": "Seta {{1}} sezita rako rizere?"
+        },
+        "icon": {
+            "KeepDefault": "kana kuchengeta mufananidzo uyu",
+            "SetYourPhoto": "{{ClickOrTap}} kuseta mufananidzo wako:"
+        },
+        "interests": {
+            "GetStarted": "⇩ Tanga",
+            "NextCategory": "↓ Next",
+            "Continue": "Enderera mberi",
+            "Instructions": "Muchikamu chimwe nechimwe {{1}},<br> {{2}} zvese zviitwa zvauri kufarira.<br> Aya ndiwo mabatiro aunoita nevamwe vanhu munharaunda."
+        },
+        "profile": {
+            "Profile": "Mbiri yako inobatsira vanhu kuziva zvakawanda nezvako.<br>",
+            "Birthday": "Ndapota isa zuva rako rekuzvarwa:",
+            "Placeholder": "Ndiwe ani uye unoita sei? Udza vanhu chimwe chinhu chinonakidza kana chakasiyana nezvako.",
+            "Required": "Kuti uenderere mberi, nyora kanenge mitsetse miviri nezvako.",
+            "Month": "Mwedzi",
+            "Day": "Zuva",
+            "Year": "Gore",
+            "Gender": "Gender",
+            "Male": "Murume",
+            "Female": "Mukadzi",
+            "Other": "Zvimwe",
+            "Height": "Urefu",
+            "Affiliation": "Affiliation",
+            "Dating": "Kupfimbana",
+            "Interested": "Kufarira",
+            "NotInterested": "Handidi",
+            "MatchmakerOnly": "Matchmaker Chete"
+        },
+        "location": {
+            "NoOneElse": "Hapana mumwe achazviona.",
+            "SetMyLocation": "Seta nzvimbo yangu"
+        },
+        "pile": {
+            "DialogTitle": "Vanhu vane Zvavanofarira"
+        },
+        "Done": "Zvaita"
+    },
+    "profile": {
+        "Title": "Profile",
+        "Male": "Murume",
+        "Female": "Mukadzi",
+        "Other": "Zvimwe",
+        "dating": {
+            "Interested": "Kufarira",
+            "NotInterested": "Handidi",
+            "MatchmakerOnly": "Matchmaker chete"
+        },
+        "StartConversation": "Tanga Kukurukurirana",
+        "blockUser": "Bvisa mushandisi uyu",
+        "blockUserAlert": "Hauchaoni mamwe mameseji kubva kumushandisi uyu kudzamara wasunungura.",
+        "unblockUser": "Vhura mushandisi uyu",
+        "addToContacts": "Wedzera kune Mazita",
+        "manageLabels": "Manage Labels",
+        "inviteUsers": "Koka Vashandisi",
+        "selectRole": "Sarudza Basa",
+        "inviteSuccess": "Vabudirira kukokwa mushandisi se {{label}}",
+        "invite": "Koka",
+        "relationships": "Hukama",
+        "newRole": "Basa Idzva",
+        "about": "About",
+        "people": "Vanhu",
+        "info": "Info",
+        "interests": "Zvaunofarira",
+        "chat": "Chat",
+        "locations": "Nzvimbo",
+        "ManageRoles": "Manage Mabasa",
+        "aboutPlaceholder": "Ndiwe ani uye unoita sei? Udza vanhu chimwe chinhu chinonakidza kana chakasiyana nezvako.",
+        "explanation": "Mbiri yako inobatsira kukufananidza iwe nevamwe vanhu kune zviitiko zveboka.<br> Ndapota isa zuva rako rekuzvarwa",
+        "chats": {
+            "placeholder": "Taura chimwe chinhu"
+        },
+        "LogOut": "Kubuda",
+        "MyLinks": "My Links",
+        "MyJobs": "Mabasa angu",
+        "MySocial": "MySocial",
+        "MyEducation": "Dzidzo Yangu",
+        "JobsPlaceholder": "Nyora pano ruzivo rwemabasa",
+        "EducationPlaceholder": "Nyora pano ruzivo rwedzidzo",
+        "ManageNotifications": "Manage Notifications",
+        "YourPreferredLanguage": "Mutauro waunofarira"
+    },
+    "myqr": {
+        "Title": "QR yangu"
+    },
+    "composer": {
+        "createCommunity": "Gadzira Nharaunda",
+        "inviteAdmin": "Koka Admin",
+        "inviteMember": "Koka Nhengo",
+        "newCommunityTitle": "Community Name",
+        "setCommunityTitle": "Community Name",
+        "creditsChargeRequest": "Unobvuma kushandisa {{price}} makiredhiti?",
+        "yes": "Ehe",
+        "no": "Aihwa"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Mauya! Ndokumbira utarise email yako.",
+        "WelcomeVerifyEmail": "Mauya! Simbisa email kero yako.",
+        "ForgetPass": "Hei, wakanganwa here chirevo chako?",
+        "ManageEmailSubscriptions": "gadzirisa zvinyoreso zvako zveemail",
+        "IfUnsubscribe": "Kana uchida kuzvibvisa"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Tikugashirei ku {{CommunityName}}. Ichi chishandiso chichakubatsira iwe kubatana neshamwari, kuwana vanhu vatsva vane zvakajairika zvavanofarira, uye zvimwe zvakawanda. Ngatitangei!"
+            },
+            "icon": {
+                "Commentary": "Seta mufananidzo wako. Aya ndiwo maitiro anozoonekwa nevanhu pasaiti."
+            },
+            "interests": {
+                "Commentary": "Kuwanda kwezvinhu zvaunosarudza, vanhu vakawanda vaunogona kusangana navo.",
+                "Notifications": "Iwe unofanirwa kubvumidza zviziviso"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Zviziviso zvinokutendera kuti uzive nezvezvinhu zvauri kufarira, senge kana shamwari yako yapinda paapp, kana mameseji kwauri."
+        },
+        "invite": "{{Q.words.TapOrClick}} pano kuti uone kuti ungagovera sei izvi nevamwe vanhu."
+    },
+    "payment": {
+        "onContribute": "Ndatenda! Muripo wako wapfuura. Unoda kukoka shamwari dzako kuti dzibatane newe?"
+    },
+    "featureboard": {
+        "Text_1": "Ita kuti inzwi rako rinzwike! Unobvuma here kuti isu tinofanirwa kugadzira chimiro kana bug? Baya bhatani kuti Tsigira.",
+        "Text_2": "Unoda kuti tigadzire chimiro chitsva? Zvitsanangure pazasi.",
+        "Text_3": "Vhiki yega yega isu tinotanga kugadzira iyo yepamusoro yakakumbirwa chimiro nenharaunda. Mari yese inopihwa inoenda kune icho chinangwa, ichitibvumira kuita kuti app ive nani.",
+        "Text_4": "Mari yese inopihwa inoshandiswa kubatsira kubhadhara mari yedu yebudiriro.",
+        "Text_5": "Iwe une zano rechimwe chinhu kana bugfix chaunoda kuti tiite asi usati waona vamwe vachiwedzera? Zvitsanangure pazasi:",
+        "Options": [
+            {
+                "text": "$400 Real time videoconferencing"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$200 Local Primary kunyoresa ruzivo"
+            },
+            {
+                "text": "$130 Bhurawuza uye ugovane zviuru zve {{1}} meme",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 Tonga nharaunda dzako",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Gadzirisa hurukuro bug",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Kumbira Chinhu Chitsva\/Bugfix",
+        "FeaturePlaceholder": "Pfupiso pfupi yechinhu",
+        "FeatureDescription": "Rondedzera kuti mumwe munhu angagadzira sei tsikidzi yauri kuona, kana kutsanangura zvakadzama chimiro chauri kuda kuvaka",
+        "AddYourRequest": "Wedzera Chikumbiro Chako",
+        "NewFeature": "New Feature"
+    },
+    "contribute": {
+        "ContributeExplanation": "Batsira kutsigira kuenderera mberi kwekuvandudzwa kweapp ye{999}}. Yese mipiro yako inobatsira kugadzirisa tsikidzi uye kugadzira maficha matsva kubatsira kukura nharaunda yepamhepo!",
+        "ReasonToContribute": "App iyi inochengetwa nevatsigiri ve {{communityName}}. Batsira kutsigira iyi app kuti tigone kuita mutsauko muhupenyu hwevanhu!"
+    },
+    "assetshistory": {
+        "Title": "Assets history",
+        "Charges": "Mhosva",
+        "Credits": "Credits"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Bvisa account",
+            "content": "Unoda kubvisa account iyi here?",
+            "ok": "Ehe",
+            "cancel": "Aihwa"
+        }
+    },
+    "import": {
+        "fileNotFound": "Tine hurombo, CSV file harina kuwanikwa.",
+        "fileEmpty": "Tine urombo, CSV faira harina chinhu.",
+        "userIdNotFound": "mushandisi aripo asi id isina chinhu",
+        "errorLine": "mutsetse {{1}}",
+        "fieldNotFound": "Nzvimbo inodiwa &quot;{{1}}&quot; haina kuwanikwa",
+        "taskStreamInvalid": "Task stream haishande",
+        "instructionsEmpty": "Task stream mirayiridzo isina chinhu",
+        "complete": "Complete",
+        "activateUsers": "kutumira meseji yekushandisa kune vashandisi?",
+        "importProgress": "Kufambira mberi",
+        "joinEventLabel": "Join vashandisi kune chiitiko chisina kujairika",
+        "importOptions": "Options",
+        "sampleCSV": "Dhaunirodha Muenzaniso CSV",
+        "fileLabel": "Isa Spreadsheet:",
+        "errorsTitle": "Zvikanganiso zvakaitika",
+        "communityUsers": "Urwu ndirwo runyorwa rwenharaunda",
+        "setAsConversation": "URL column sehurukuro",
+        "toMainCommunityToo": "wedzera vashandisi kunharaunda huru zvakare",
+        "willImportedTo": "Vashandisi vachaunzwa kune nharaunda"
+    }
+}

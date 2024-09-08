@@ -1,0 +1,20 @@
+{
+    "activation": {
+        "Thanks": "Barka da zuwa {{1}}.",
+        "ClickHere": "Danna nan don kunna asusun ku: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Danna nan don tabbatar da lambar wayar ku: {{1}}"
+    },
+    "SeeHistory": "Duba tarihin biyan kuɗi na {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} an caje {{2}} akan {{3}} ta {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hey {{1}}, wannan shine kawai tabbatarwa da sauri cewa kun sami nasarar biya {1000} zuwa {1001}} akan {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Kun yi rajista zuwa {999}} tare da {{3}} a {{4}} na tsawon watanni {{5}}.",
+        "HasStarted": "{{1}} ya yi rajista zuwa {1000}} tare da {{3}} a {{4}} na tsawon watanni {{5}}."
+    }
+}

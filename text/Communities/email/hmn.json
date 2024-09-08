@@ -1,0 +1,27 @@
+{
+    "activation": {
+        "Thanks": "Txais tos rau {{1}}",
+        "ReallyYourEmail": "Qhov no puas yog koj tus email chaw nyob, {{1}}? Yog tias muaj, nyem qhov <a href='{{2}}'>no<\/a> los teeb tsa koj tus lej password thiab qhib koj tus account.",
+        "SeeYou": "Pom koj ntawm <a href='{{1}}'>{{2}}<\/a> !"
+    },
+    "LinkToUnsubscribe": "Nov yog qhov txuas rau <a href='{{1}}'>unsubscribe<\/a> yog tias koj tsis xav tau email ntxiv.",
+    "Greetings": "Txais tos los ntawm {{1}}.",
+    "SeeHistory": "Saib keeb kwm kev them nyiaj rau {{1}}",
+    "charge": {
+        "HasBeenCharged": "Hav, qhov no tsuas yog qhia rau koj paub tias {{1}} tau raug them {{2}} rau {{3}} los ntawm {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hav {{1}}, qhov no tsuas yog kev lees paub sai tias koj tau them nyiaj tiav {{2}} rau {{3}} rau {{4}}"
+    },
+    "resend": {
+        "Thanks": "Ua tsaug rau koj tuaj xyuas {{1}}",
+        "YouAreReceiving": "Koj tau txais email no vim hais tias ib tug neeg nkag mus rau koj qhov chaw nyob email thiab nyem &quot;tsis nco qab lo lus zais&quot;. Yog tias tsis yog koj, tsuas yog tsis quav ntsej cov lus no.",
+        "Reset": "Txhawm rau rov pib koj tus lej password, nyem {{1}}",
+        "SetUpPassphrase": "Teeb tus password"
+    },
+    "subscription": {
+        "YouHaveStarted": "Hav {{1}}, koj tau pib koj qhov kev tso npe rau {{2}} nrog {{3}} ntawm {{4}} rau {{5}} hli.",
+        "HasStarted": "Qhov no tsuas yog qhia rau koj paub tias {{1}}, tau pib lawv cov npe rau {{2}} nrog {{3}} ntawm {{4}} rau {{5}} hli."
+    },
+    "SeeYou": "Pom koj ntawm {{1}}!"
+}

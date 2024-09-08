@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Tha cuireadh agad",
+        "Member": "Ball aig {{title}}",
+        "Explanation": "Tha {{1}} toilichte ainmeachadh gu bheil an làrach-lìn ùr againn air fhoillseachadh. Tha e a’ toirt a-steach liosta a tha a’ sìor fhàs de fheartan, leithid:",
+        "Public": "Fiosrachadh poblach mu {{1}}",
+        "Private": "Cunntas cleachdaiche prìobhaideach airson gach ball",
+        "Notifications": "Le bhith a’ cuir a-steach do sheòladh post-d no àireamh fòn-làimhe gheibh thu fiosan cudromach tro phost-d no teachdaireachd teacsa.",
+        "GetStarted": "Gus tòiseachadh, cuir a-steach <em>gu faiceallach<\/em> sa bhrobhsair lìn agad:<br>",
+        "IssuedToYou": "Tha an còd seo air a thoirt dhut gu sònraichte."
+    }
+}

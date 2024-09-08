@@ -1,0 +1,27 @@
+{
+    "activation": {
+        "Thanks": "Benvenuti à {{1}}",
+        "ReallyYourEmail": "Hè veramente u vostru indirizzu email, {{1}}? Sì cusì, cliccate <a href='{{2}}'>quì<\/a> per stabilisce a vostra passphrase è attivà u vostru contu.",
+        "SeeYou": "Ci si vede u <a href='{{1}}'>{{2}}<\/a> !"
+    },
+    "LinkToUnsubscribe": "Eccu un ligame per annullà l&#39; <a href='{{1}}'>abbonamentu<\/a> se ùn vulete micca riceve più email.",
+    "Greetings": "Saluti da {{1}}.",
+    "SeeHistory": "Vede a storia di pagamentu per {{1}}",
+    "charge": {
+        "HasBeenCharged": "Ehi, questu hè solu per fà sapè chì {{1}} hè statu addebitatu {{2}} per {{3}} da {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Ehi {{1}}, questu hè solu una rapida cunferma chì avete pagatu bè {{2}} à {{3}} per {{4}}"
+    },
+    "resend": {
+        "Thanks": "Grazie per a visita {{1}}",
+        "YouAreReceiving": "Avete ricevutu stu email perchè qualchissia hà intrutu in u vostru indirizzu email è cliccà &quot;passphrase scurdatu&quot;. S&#39;ellu ùn era micca voi, solu ignurà stu missaghju.",
+        "Reset": "Per resettà a vostra passphrase, cliccate {{1}}",
+        "SetUpPassphrase": "Configurate passphrase"
+    },
+    "subscription": {
+        "YouHaveStarted": "Ehi {{1}}, avete principiatu u vostru abbonamentu à {{2}} cù {{3}} à {{4}} per {{5}} mesi.",
+        "HasStarted": "Questu hè solu per fà sapè {{1}}, hà iniziatu u so abbonamentu à {{2}} cù {{3}} à {{4}} per {{5}} mesi."
+    },
+    "SeeYou": "Ci si vede nantu à {{1}} !"
+}

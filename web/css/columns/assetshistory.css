@@ -1,0 +1,46 @@
+.Communities_column_assetshistory .Communities_tabs,
+.Communities_me_credits .Communities_tabs {
+	margin-top: 10px;
+	font-size: 0;
+}
+.Communities_column_assetshistory .Communities_tab,
+.Communities_me_credits .Communities_tab {
+	padding: 5px 15px;
+	font-size: 16px;
+}
+.Communities_column_assetshistory .Communities_tab.Q_current,
+.Communities_me_credits .Communities_tab.Q_current {
+	border: 1px solid #777;
+	border-bottom: solid 1px transparent;
+}
+.Communities_column_assetshistory .Communities_tabContent,
+.Communities_me_credits .Communities_tabContent {
+	margin-top: -1px;
+	border-top: 1px solid #777;
+	background: white;
+	display: none;
+	padding: 10px 0 5px 0;
+}
+.Communities_column_assetshistory .Communities_tabContent a,
+.Communities_me_credits .Communities_tabContent a {
+	font-weight: bold;
+	text-decoration: underline;
+}
+.Communities_tabContent.Q_current {
+	display: block;
+}
+
+.Assets_history_tool table.Assets_history th,
+.Assets_history_tool table.Assets_history th {
+	border-bottom: 1px solid #d4d4d4;
+}
+.Assets_history_tool table.Assets_history td {
+	border-bottom: 1px solid #d4d4d4;
+}
+.Assets_history_tool .Assets_history_client a {
+	cursor: pointer;
+}
+.Communities_column_assetshistory .Assets_history_tool,
+.Communities_me_credits .Assets_history_tool {
+	overflow: auto;
+}

@@ -1,0 +1,20 @@
+{
+    "activation": {
+        "Thanks": "Tongasoa eto amin&#39;ny {{1}}.",
+        "ClickHere": "Tsindrio eto raha hampavitrika ny kaontinao: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Kitiho eto raha hanamarina ny laharan-telefaonanao: {{1}}"
+    },
+    "SeeHistory": "Jereo ny tantaran&#39;ny fandoavana ny {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} dia voampanga {{2}} ho an&#39;ny {{3}} nataon&#39;i {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Ry {{1}}, fanamafisam-peo haingana fotsiny ity fa nahavita nandoa {{2}} tamin&#39;ny {{3}} ho an&#39;ny {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Nisoratra anarana tamin&#39;ny {{2}} niaraka tamin&#39;i {{3}} tamin&#39;ny {{4}} nandritra ny {{5}} volana.",
+        "HasStarted": "{{1}} dia nisoratra anarana tamin&#39;i {{2}} niaraka tamin&#39;i {{3}} tamin&#39;ny {{4}} nandritra ny {{5}} volana."
+    }
+}

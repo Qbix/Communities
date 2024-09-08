@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Te olete kutsutud",
+        "Member": "Liige aadressil {{title}}",
+        "Explanation": "{{1}} on hea meel teatada meie uue veebisaidi käivitamisest. See sisaldab kasvavat funktsioonide loendit, näiteks:",
+        "Public": "Avalik teave {{1}} kohta",
+        "Private": "Igale liikmele privaatne kasutajakonto",
+        "Notifications": "Kui sisestate oma e-posti aadressi või mobiilinumbri, saate olulisi teateid meili või tekstisõnumiga.",
+        "GetStarted": "Alustamiseks sisestage oma veebibrauserisse <em>hoolikalt<\/em> :<br>",
+        "IssuedToYou": "See kood on spetsiaalselt teile välja antud."
+    }
+}

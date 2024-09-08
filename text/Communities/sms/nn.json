@@ -1,0 +1,20 @@
+{
+    "activation": {
+        "Thanks": "Velkommen til {{1}}.",
+        "ClickHere": "Klikk her for å aktivere kontoen din: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Klikk her for å bekrefte mobilnummeret ditt: {{1}}"
+    },
+    "SeeHistory": "Se betalingsloggen for {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} er belastet {{2}} for {{3}} av {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hei {{1}}, dette er bare en rask bekreftelse på at du har betalt {{2}} til {{3}} for {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Du har abonnert på {{2}} med {{3}} på {{4}} i {{5}} måneder.",
+        "HasStarted": "{{1}} har abonnert på {{2}} med {{3}} på {{4}} for {{5}} måneder."
+    }
+}

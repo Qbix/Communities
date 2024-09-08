@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Ua kono ʻia ʻoe",
+        "Member": "Lala ma {{title}}",
+        "Explanation": "Ua hauʻoli ʻo {{1}} i ka hoʻolaha ʻana i ka hoʻomaka ʻana o kā mākou pūnaewele hou. Aia ka papa inoa o nā hiʻohiʻona e ulu nei, e like me:",
+        "Public": "ʻIke lehulehu e pili ana iā {{1}}",
+        "Private": "He moʻokāki hoʻohana pilikino no kēlā me kēia lālā",
+        "Notifications": "Ma ke komo ʻana i kāu leka uila a i ʻole helu kelepona hiki iā ʻoe ke loaʻa i nā leka koʻikoʻi ma o ka leka uila a i ʻole ka leka uila.",
+        "GetStarted": "No ka hoʻomaka ʻana, ma kāu polokalamu kele pūnaewele e <em>ʻoluʻolu e<\/em> hoʻokomo:<br>",
+        "IssuedToYou": "Hāʻawi ʻia kēia code iā ʻoe."
+    }
+}

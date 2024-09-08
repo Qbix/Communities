@@ -1,0 +1,460 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> nuk tregon asgjë!",
+        "NextSteps": "Përdorni menunë kryesore për të gjetur atë që po kërkoni."
+    },
+    "greeting": {
+        "Welcome": "Mirë se vini në {{1}}. Këtu do të gjeni gjëra të postuara për anëtarët e komunitetit tonë. Ju lutemi shtoni adresën tuaj të emailit ose numrin e celularit në mënyrë që të merrni njoftime kur postohen njoftimet."
+    },
+    "conversations": {
+        "New": "Bisedë e re",
+        "Conversation": "bashkëbisedim",
+        "Topics": "Temat",
+        "NoneYet": "Nuk janë krijuar ende biseda",
+        "newConversations": "{{1}} biseda të reja",
+        "AllAuthors": "Të gjithë Autorët",
+        "FilterbyAuthors": "Filtro sipas autorëve",
+        "FilterAuthorPlaceHolder": "Kërkoni autorë të tjerë...",
+        "Title": "Bisedat",
+        "Description": "{{1}} biseda",
+        "filterConversations": "Filtro sipas tekstit"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Zgjidhni një temë",
+            "Share": "Shpërndaje",
+            "interest": {
+                "Title": "Zgjidhni një aktivitet",
+                "Filter": "Interesat e kërkimit..."
+            }
+        },
+        "Title": "Bisedë e re",
+        "TitlePlaceholder": "Tema e bisedës suaj",
+        "ContentPlaceholder": "Shkruani disa fjalë për të nisur bisedën, në mënyrë që të tjerët të mund të përgjigjen",
+        "StartButton": "Filloni Bisedën"
+    },
+    "events": {
+        "Title": "Ngjarjet",
+        "filterByTitle": "Gjeni ngjarjet sipas titullit",
+        "New": "+ Filloni një ngjarje të re",
+        "SetLocation": "Cakto vendndodhjen time",
+        "NoneYet": "Asnjë ngjarje nuk është formuar ende<br> gjatë këtyre kohërave.",
+        "AllAuthors": "Të gjithë Autorët",
+        "AllDays": "Te gjitha ditet",
+        "AllLocations": "Të gjitha vendndodhjet",
+        "AllInterests": "Të gjitha interesat",
+        "FilterbyInterest": "Filtro sipas interesit",
+        "FilterByDate": "Filtro sipas datës",
+        "ShowActivities": "Trego aktivitetet që lidhen me . . .",
+        "newEvents": "Ju keni {{1}} ngjarje të reja",
+        "SelectLocation": "Zgjidhni Vendndodhjen",
+        "FilterLocationsPlaceHolder": "Filtro ambientet me...",
+        "filterEvents": "Filtro ngjarjet",
+        "NewEvent": "Ngjarje e re",
+        "Description": "{{1}} ngjarje",
+        "Keywords": "{{1}} ngjarje",
+        "MakeReservation": "Rezervoni",
+        "Reserved": "Anuloni rezervimin",
+        "AreYouSure": "A je i sigurt?",
+        "YouWillRefunded": "Do të rimbursoheni në formën e krediteve që mund të shpenzoni për gjëra të tjera në aplikacion.",
+        "CancelReservation": "Anulo rezervimin",
+        "UpdateReservation": "Përditëso Rezervimin"
+    },
+    "schedule": {
+        "Title": "Orari",
+        "NoneYet": "Ju nuk jeni duke marrë pjesë në asnjë ngjarje",
+        "AddSome": "Shtoni disa në orarin tuaj!",
+        "AddMore": "Shtoni ngjarje në orarin tuaj!",
+        "future": "e ardhmja",
+        "past": "e kaluara"
+    },
+    "location": {
+        "Title": "Vendndodhja",
+        "NewLocation": "Vendndodhja e re"
+    },
+    "inbox": {
+        "Title": "Inbox",
+        "NoneYet": "Ju nuk jeni duke marrë pjesë në asnjë bisedë",
+        "FindPeople": "Gjeni njerëz për të biseduar",
+        "GroupConversations": "Bashkohuni me disa biseda në grup",
+        "ContactStaff": "Kontaktoni Stafin",
+        "ContactCustomers": "Kontaktoni me klientët",
+        "AddNewContact": "Shto kontakt të ri",
+        "AddNewContacts": "Shto kontakte të reja"
+    },
+    "me": {
+        "Title": "Unë",
+        "MobileNumber": "Numri i celularit",
+        "EmailAddress": "Adresa e emailit",
+        "UpdateSocialTitle": "Përditëso emrin e përdoruesit të {{1}}",
+        "Web3": "Web3"
+    },
+    "people": {
+        "Title": "Njerëzit",
+        "AppAlert": "Ky aplikacion në dyqanin e aplikacioneve do t&#39;ju lejojë të lidheni me miqtë tuaj dhe shumë më tepër.",
+        "Invite": "Ftoni miqtë",
+        "FindSomeoneByName": "Gjeni dikë me emër",
+        "FindAllMyFriends": "Gjej të gjithë miqtë e mi",
+        "labels": {
+            "All": "Të gjithë",
+            "Title": "Filtro sipas marrëdhënies",
+            "New": "Lloji i ri i marrëdhënies"
+        },
+        "interests": {
+            "All": "Të gjitha interesat",
+            "Title": "Filtro sipas interesit",
+            "Filter": "Tregoju njerëzve të interesuar për. . ."
+        },
+        "SearchByName": "Kërko sipas emrit",
+        "Description": "Njerëzit në komunitetin {{1}}",
+        "Keywords": "{{1}} komuniteti i njerëzve",
+        "BuyCredits": "Bleni Kredi"
+    },
+    "communities": {
+        "Title": "komunitetet",
+        "NewCommunity": "Komunitet i ri",
+        "FindCommunityByName": "Gjeni komunitetin me emër",
+        "Description": "{{1}} komunitete"
+    },
+    "community": {
+        "Title": "{{1}} Komunitet",
+        "Roles": "Rolet",
+        "AllRoles": "Të gjitha rolet",
+        "YouDontHavePermission": "Ju nuk jeni të autorizuar për ta bërë këtë",
+        "usernamePlaceholder": "vendos emrin e komunitetit",
+        "NotEnoughCredits": "Nuk ke kredite të mjaftueshme për të krijuar komunitet. Nevojë për {{1}}, ju keni {{2}}"
+    },
+    "event": {
+        "GetDirections": "Merrni udhëzime",
+        "WhichMap": "Cilat harta dëshironi të përdorni?",
+        "JoinEventToChat": "Bashkohuni në ngjarje për të biseduar",
+        "promote": {
+            "Title": "Promovoni këtë ngjarje",
+            "Prompt": "Zgjidhni ku dëshironi të promovoni këtë ngjarje:"
+        },
+        "Confirmation": "Konfirmimi"
+    },
+    "newEvent": {
+        "Title": "Planifikoni një ngjarje të re"
+    },
+    "interests": {
+        "Title": "Interesat",
+        "prompt": "Zgjidhni llojet e gjërave për të cilat dëshironi të dini.",
+        "explanation": "Sa më shumë interesa të zgjidhni, aq më shumë ka të ngjarë të lidheni me njerëz me të njëjtin mendim.",
+        "filter": "Për çfarë jeni të interesuar?",
+        "Profile": "Theksohen interesat e ndërsjella. Nëse keni gjithashtu një ose më shumë nga interesat më poshtë, mund t&#39;i shtoni ato {{clickOrTap}}."
+    },
+    "credits": {
+        "Title": "Kreditë",
+        "EarnCredits": "Fito {{1}} kredite për çdo person të ri që fton që i bashkohet aplikacionit",
+        "YouHave": "Ju keni {{1}} kredite"
+    },
+    "onboarding": {
+        "Tap": "Prekni",
+        "Click": "Klikoni",
+        "Yes": "po",
+        "No": "Nr",
+        "name": {
+            "Preface": "Mire se erdhet ne",
+            "Placeholder": "vendos emrin tënd të plotë",
+            "GetStarted": "Fillo",
+            "AsGuest": "Jeni ftuar si i ftuar.",
+            "AsMember": "Jeni ftuar si anëtar.",
+            "AsAdmin": "Je ftuar si administrator.",
+            "AsOwner": "Je ftuar si pronar.",
+            "TooShort": "Emri juaj i plotë nuk mund të jetë aq i shkurtër",
+            "SetAsYourFullName": "Të caktohet {{1}} si emri juaj i plotë?"
+        },
+        "icon": {
+            "KeepDefault": "ose mbani këtë foto",
+            "SetYourPhoto": "{{ClickOrTap}} për të vendosur foton tuaj:",
+            "ClickOnYourFace": "{{ClickOrTap}} Në fytyrën tuaj"
+        },
+        "interests": {
+            "GetStarted": "⇩ Filloni",
+            "NextCategory": "↓ Tjetra",
+            "Continue": "Vazhdoni",
+            "Instructions": "Në secilën prej {{1}} kategorive të ardhshme,<br> {{2}} të gjitha aktivitetet që ju interesojnë.<br> Kështu lidheni me njerëzit e tjerë në komunitet."
+        },
+        "profile": {
+            "Profile": "Profili yt i ndihmon njerëzit të zbulojnë më shumë për ty.<br>",
+            "Birthday": "Ju lutemi shkruani ditëlindjen tuaj:",
+            "Placeholder": "Kush jeni ju dhe me çfarë merreni? Tregojuni njerëzve diçka interesante ose unike për veten tuaj.",
+            "Month": "Muaj",
+            "Day": "ditë",
+            "Year": "viti",
+            "Gender": "Gjinia",
+            "Male": "Mashkull",
+            "Female": "Femër",
+            "Other": "Të tjera",
+            "Height": "Lartësia",
+            "Affiliation": "Përkatësia",
+            "Dating": "Takimi",
+            "Interested": "I interesuar",
+            "NotInterested": "Jo i interesuar",
+            "MatchmakerOnly": "Vetëm mblesëri",
+            "Required": "Për të vazhduar, shkruani të paktën disa rreshta për veten tuaj."
+        },
+        "location": {
+            "NoOneElse": "Askush tjetër nuk do ta shohë atë.",
+            "SetMyLocation": "Cakto vendndodhjen time"
+        },
+        "pile": {
+            "DialogTitle": "Njerëzit me interesa të përbashkëta"
+        },
+        "Done": "U krye",
+        "Skip": "ose kaloni këtë",
+        "relationships": {
+            "title": "Shto {{userName}} në Librin e Telefonave",
+            "welcome": "Mirësevini {{user}}",
+            "invitedByUser": "ju ftoi.",
+            "addToPhonebook": "Ruaj te Kontaktet e Telefonit tim",
+            "iosInstructions": "Lëvizni poshtë te Shto Kontakt të Ri",
+            "androidInstructions": "Duhet ta hapni këtë skedar vCard pasi të shkarkohet.",
+            "explanation": "Cila është marrëdhënia juaj?"
+        },
+        "Title": "Informata themelore",
+        "Prompt": "Disa hapa për të konfiguruar llogarinë tuaj"
+    },
+    "profile": {
+        "Title": "Profili",
+        "Male": "Mashkull",
+        "Female": "Femër",
+        "Other": "Të tjera",
+        "dating": {
+            "Interested": "I interesuar",
+            "NotInterested": "Jo i interesuar",
+            "MatchmakerOnly": "Vetëm mblesëri"
+        },
+        "StartConversation": "Filloni një Bisedë",
+        "blockUser": "Blloko këtë përdorues",
+        "blockUserAlert": "Nuk do të shihni më mesazhe nga ky përdorues derisa t&#39;i zhbllokoni ato.",
+        "unblockUser": "Zhblloko këtë përdorues",
+        "addToContacts": "Shto tek kontaktet",
+        "manageLabels": "Menaxho etiketat",
+        "inviteUsers": "Ftoni përdoruesit",
+        "inviteSuccess": "Përdorues i ftuar me sukses si {{label}}",
+        "invite": "Fto",
+        "relationships": "Marrëdhëniet",
+        "newRole": "Roli i ri",
+        "about": "Rreth",
+        "people": "Njerëzit",
+        "info": "Informacion",
+        "interests": "Interesat",
+        "chat": "Bisedë",
+        "locations": "Vendndodhjet",
+        "ManageRoles": "Menaxho rolet",
+        "aboutPlaceholder": "Kush jeni ju dhe me çfarë merreni? Tregojuni njerëzve diçka interesante ose unike për veten tuaj.",
+        "explanation": "Profili yt ndihmon që të përputhesh më mirë me njerëzit e tjerë për aktivitetet në grup.<br> Ju lutemi shkruani ditëlindjen tuaj",
+        "chats": {
+            "placeholder": "Thuaj dicka"
+        },
+        "LogOut": "Shkyç",
+        "selectRole": "Zgjidhni Rolin",
+        "MyLinks": "Lidhjet e mia",
+        "MyJobs": "Punët e mia",
+        "MySocial": "MySocial",
+        "MyEducation": "Edukimi im",
+        "JobsPlaceholder": "Shkruani këtu informacionin e punës",
+        "EducationPlaceholder": "Shkruani këtu informacionin e arsimit",
+        "ManageNotifications": "Menaxho njoftimet",
+        "YourPreferredLanguage": "Gjuha juaj e preferuar",
+        "SendCrypto": "Paguaj",
+        "Block": "Blloko",
+        "Unblock": "Zhblloko",
+        "Email": "Email",
+        "Avoid": "Shmangni",
+        "CreatePrivateChat": "Të shpenzosh {{credits}} kredite për të kontaktuar?",
+        "RolesInCommunity": "Rolet në komunitet",
+        "PersonalChatWith": "Bisedë personale me {{name}}",
+        "SendCryptoTo": "Dërgo kripto në {{name}}",
+        "SendEmailTo": "Dërgo email te {{name}}",
+        "SendSMSTo": "Dërgo SMS në {{name}}",
+        "BlockThisUser": "Blloko këtë përdorues",
+        "UnblockThisUser": "Zhblloko këtë përdorues",
+        "YouCantChatWithYourself": "Ju nuk mund të bisedoni me veten tuaj",
+        "blockUserAlertTitle": "Bllokuar {{displayName}}",
+        "sections": {
+            "education": "Arsimi",
+            "greeting": "pershendetje",
+            "jobs": "Punët",
+            "links": "Lidhjet",
+            "language": "Gjuhe",
+            "roles": "Rolet",
+            "personal": "Personale",
+            "social": "Sociale"
+        },
+        "Roles": "Rolet",
+        "SendPaymentTo": "Dërgo një pagesë në {{name}}"
+    },
+    "myqr": {
+        "Title": "QR-ja ime"
+    },
+    "composer": {
+        "createCommunity": "Krijo Komunitet",
+        "inviteAdmin": "Fto Admin",
+        "inviteMember": "Fto Anëtar",
+        "newCommunityTitle": "Emri i Komunitetit",
+        "setCommunityTitle": "Emri i Komunitetit",
+        "creditsChargeRequest": "A pranoni të shpenzoni {{price}} kredite?",
+        "yes": "po",
+        "no": "Nr"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Mirë se vini! Ju lutemi verifikoni adresën tuaj të emailit.",
+        "WelcomeVerifyEmail": "Mirë se vini! Verifikoni adresën tuaj të emailit.",
+        "ForgetPass": "Hej, e harrove frazën e kalimit?",
+        "ManageEmailSubscriptions": "menaxhoni abonimet tuaja me email",
+        "IfUnsubscribe": "Nëse dëshironi të çregjistroheni"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Mirë se vini në {{CommunityName}}. Ky aplikacion do t&#39;ju ndihmojë të lidheni me miqtë, të zbuloni njerëz të rinj me interesa të përbashkëta dhe shumë më tepër. Le të fillojmë!"
+            },
+            "icon": {
+                "Commentary": "Vendosni foton tuaj. Kështu do t&#39;ju shohin njerëzit në sit."
+            },
+            "interests": {
+                "Commentary": "Sa më shumë artikuj të zgjidhni, aq më shumë njerëz mund të takoni.",
+                "Notifications": "Duhet të lejosh njoftimet"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Njoftimet ju lejojnë të dini për gjërat që ju interesojnë, si p.sh. kur një mik i bashkohet aplikacionit ose ju dërgon mesazhe."
+        },
+        "invite": "{{Q.words.TapOrClick}} këtu për të parë se si mund ta ndani këtë me njerëz të tjerë."
+    },
+    "payment": {
+        "onContribute": "Faleminderit! Pagesa juaj u krye. Dëshironi të ftoni miqtë tuaj të bashkohen me ju?",
+        "ConnectAccount": "Lidh llogarinë"
+    },
+    "featureboard": {
+        "Text_1": "Le të dëgjohet zëri juaj! A jeni dakord që duhet të zhvillojmë një veçori apo defekt? Klikoni butonin për ta mbështetur atë.",
+        "Text_2": "Dëshironi që ne të zhvillojmë një veçori të re? Përshkruani atë më poshtë.",
+        "Text_3": "Çdo javë ne fillojmë të zhvillojmë funksionin më të kërkuar nga komuniteti. Të gjitha paratë e kontribuuara shkojnë për këtë qëllim, duke na lejuar ta përmirësojmë aplikacionin.",
+        "Text_4": "Të gjitha paratë e kontribuuara përdoren për të ndihmuar në pagimin e kostove tona të zhvillimit.",
+        "Text_5": "A keni një ide për një veçori ose korrigjim të gabimeve që dëshironi që ne ta bëjmë, por nuk keni parë ende të tjerë të shtojnë? Përshkruani atë më poshtë:",
+        "Options": [
+            {
+                "text": "400 dollarë Videokonferencë në kohë reale"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "200 $ Informacioni i regjistrimit Primar Lokal"
+            },
+            {
+                "text": "$130 Shfleto dhe ndaj mijëra {{1}} meme",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 Menaxhoni komunitetet tuaja",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Rregullo defektin e bisedave",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Kërkoni një veçori\/korrigjim të ri",
+        "FeaturePlaceholder": "Përmbledhje e shkurtër e veçorisë",
+        "FeatureDescription": "Përshkruani se si dikush tjetër mund të riprodhojë gabimin që po shihni, ose përshkruani në detaje veçorinë që dëshironi të ndërtoni",
+        "AddYourRequest": "Shtoni kërkesën tuaj",
+        "NewFeature": "Veçori e re"
+    },
+    "assetshistory": {
+        "Title": "Historia e aseteve",
+        "Charges": "Akuzat",
+        "Credits": "Kreditë"
+    },
+    "contribute": {
+        "ContributeExplanation": "Ndihmoni në mbështetjen e zhvillimit të vazhdueshëm të aplikacionit {{communityName}}. Të gjitha kontributet tuaja ndihmojnë në rregullimin e gabimeve dhe zhvillimin e veçorive të reja për të ndihmuar në rritjen e komunitetit në internet!",
+        "ReasonToContribute": "Ky aplikacion mirëmbahet nga mbështetësit e {{communityName}}. Ndihmoni në mbështetjen e këtij aplikacioni që të mund të bëjmë një ndryshim në jetën e njerëzve!"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Hiq llogarinë",
+            "content": "Dëshiron ta heqësh këtë llogari?",
+            "ok": "po",
+            "cancel": "Nr"
+        }
+    },
+    "import": {
+        "fileNotFound": "Na vjen keq, skedari CSV nuk u gjet.",
+        "fileEmpty": "Na vjen keq, skedari CSV është bosh.",
+        "userIdNotFound": "përdoruesi ekziston por ID-ja është bosh",
+        "errorLine": "rreshti {{1}}",
+        "fieldNotFound": "Fusha e kërkuar &quot;{{1}}&quot; nuk u gjet",
+        "taskStreamInvalid": "transmetimi i detyrës është i pavlefshëm",
+        "instructionsEmpty": "udhëzimet për rrjedhën e detyrave janë bosh",
+        "complete": "Kompletuar",
+        "activateUsers": "dërgoni mesazh aktivizimi për përdoruesit?",
+        "importProgress": "Përparim",
+        "joinEventLabel": "Bashkojuni përdoruesve në një ngjarje të rastësishme",
+        "importOptions": "Opsione",
+        "sampleCSV": "Shkarkoni shembullin CSV",
+        "fileLabel": "Ngarko fletëllogaritëse:",
+        "errorsTitle": "Ndodhën gabime",
+        "communityUsers": "Kjo është lista e komuniteteve",
+        "setAsConversation": "Kolona e URL-së si bisedë",
+        "toMainCommunityToo": "shtoni edhe përdoruesit në komunitetin kryesor",
+        "willImportedTo": "Përdoruesit do të importohen në komunitet",
+        "ChooseFile": "zgjidhni skedarin"
+    },
+    "dashboard": {
+        "Menu": "Menu",
+        "Home": "Shtëpi",
+        "Welcome": "Mirë se vini",
+        "Events": "Ngjarjet",
+        "Discuss": "Diskutoni",
+        "People": "Njerëzit",
+        "About": "Rreth",
+        "Community": "Komuniteti",
+        "LogIn": "identifikohu",
+        "LogOut": "shkyç",
+        "Intercoin": "Intercoin",
+        "Shows": "Shfaqje",
+        "Calendar": "Kalendari",
+        "Me": "Unë",
+        "Media": "Media",
+        "Services": "Shërbimet",
+        "SetMobileNumber": "Cakto numrin e celularit",
+        "SetEmailAddress": "Vendosni adresën e emailit"
+    },
+    "services": {
+        "Title": "Shërbimet",
+        "filterByTitle": "Gjeni shërbimet sipas titullit",
+        "New": "+ Filloni shërbimin e ri",
+        "NewService": "Shërbimi i ri",
+        "NewAvailability": "Disponueshmëri e re",
+        "filterServices": "Shërbimet e filtrit",
+        "NoneYet": "Nuk është krijuar ende asnjë shërbim<br> gjatë këtyre kohërave.",
+        "AllAuthors": "Të gjithë Autorët",
+        "AllDays": "Te gjitha ditet",
+        "AllLocations": "Të gjitha vendndodhjet",
+        "MakeReservation": "Rezervoni",
+        "CancelReservation": "Anulo rezervimin",
+        "UpdateReservation": "Përditëso Rezervimin",
+        "AreYouSure": "A je i sigurt?",
+        "YouWillRefunded": "Do të rimbursoheni në formën e krediteve që mund të shpenzoni për gjëra të tjera në aplikacion.",
+        "AllInterests": "Të gjitha interesat",
+        "FilterbyInterest": "Filtro sipas interesit",
+        "FilterByDate": "Filtro sipas datës",
+        "ShowActivities": "Trego aktivitetet që lidhen me ...",
+        "newServices": "Ju keni {{1}} shërbime të reja",
+        "SelectLocation": "Zgjidhni Vendndodhjen",
+        "FilterLocationsPlaceHolder": "Filtro ambientet me...",
+        "Description": "{{1}} shërbim",
+        "Keywords": "{{1}} shërbim"
+    },
+    "welcome": {
+        "Title": "{{appName}}: mirë se erdhe",
+        "GetStarted": "Fillo",
+        "gallery": {
+            "Connect": "Lidheni",
+            "Organize": "Organizoni",
+            "Travel": "Udhëtim",
+            "Share": "Shpërndaje"
+        }
+    }
+}

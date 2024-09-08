@@ -1,0 +1,20 @@
+{
+    "activation": {
+        "Thanks": "Siyakwamukela ku-{{1}}.",
+        "ClickHere": "Chofoza lapha ukuze uvule i-akhawunti yakho: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Chofoza lapha ukuze uqinisekise inombolo yakho yeselula: {{1}}"
+    },
+    "SeeHistory": "Bona umlando wokukhokha we-{{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} ukhokhiswe {{100}} okungu-{{3}} ngo-{{4}}"
+    },
+    "charged": {
+        "HavePaid": "Sawubona {{1}}, lesi isiqinisekiso esisheshayo sokuthi ukhokhe ngempumelelo {{100}} ku-{{3}} {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Ubhalisele i-{{2}} nge-{{3}} ngo-{{4}} izinyanga ezingu-{{5}}.",
+        "HasStarted": "U-{{1}} ubhalisele i-{{2}} nge-{{3}} ngo-{{4}} {{5}} izinyanga."
+    }
+}

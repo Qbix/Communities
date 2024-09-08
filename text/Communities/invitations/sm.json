@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Ua valaaulia oe",
+        "Member": "Sui Usufono ile {{title}}",
+        "Explanation": "{{1}} ua fiafia e fa&#39;ailoa le fa&#39;alauiloaina o la matou upega tafa&#39;ilagi fou. E aofia ai se lisi tuputupu aʻe o foliga, e pei o:",
+        "Public": "Fa&#39;amatalaga lautele e uiga ia {{1}}",
+        "Private": "O se fa&#39;amatalaga patino mo tagata uma",
+        "Notifications": "E ala i le fa&#39;aofiina o lau tuatusi imeli po&#39;o le numera feavea&#39;i e mafai ona e mauaina fa&#39;amatalaga taua e ala ile imeli po&#39;o fe&#39;au tusitusia.",
+        "GetStarted": "Ina ia amata, i lau &#39;upega tafaʻilagi faʻamolemole faʻaoga ma le <em>faʻaeteete<\/em> :<br>",
+        "IssuedToYou": "O lenei code ua tu&#39;uina atu fa&#39;apitoa ia te oe."
+    }
+}

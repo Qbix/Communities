@@ -1,0 +1,27 @@
+{
+    "activation": {
+        "Thanks": "Dobrodošli u {{1}}",
+        "ReallyYourEmail": "Je li ovo zaista vaša adresa e-pošte, {{1}}? Ako je tako, kliknite <a href='{{2}}'>ovdje<\/a> da postavite svoju lozinku i aktivirate svoj račun.",
+        "SeeYou": "Vidimo se na <a href='{{1}}'>{{2}}<\/a> !"
+    },
+    "LinkToUnsubscribe": "Evo linka za <a href='{{1}}'>odjavu<\/a> ako ne želite više primati emailove.",
+    "Greetings": "Pozdrav od {{1}}.",
+    "SeeHistory": "Pogledajte historiju plaćanja za {{1}}",
+    "charge": {
+        "HasBeenCharged": "Hej, ovo je samo da vas obavijestim da je {{1}} naplatio {{2}} za {{3}} od strane {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hej {{1}}, ovo je samo kratka potvrda da ste uspješno platili {{2}} korisniku {{3}} za {{4}}"
+    },
+    "resend": {
+        "Thanks": "Hvala što ste posjetili {{1}}",
+        "YouAreReceiving": "Primili ste ovu e-poštu jer je neko unio vašu adresu e-pošte i kliknuo na &quot;zaboravio pristupnu frazu&quot;. Ako to niste bili vi, jednostavno zanemarite ovu poruku.",
+        "Reset": "Da poništite pristupnu frazu, kliknite {{1}}",
+        "SetUpPassphrase": "Postavite pristupnu frazu"
+    },
+    "subscription": {
+        "YouHaveStarted": "Hej {{1}}, započeli ste svoju pretplatu na {{2}} kod {{3}} u {{4}} za {{5}} mjeseci.",
+        "HasStarted": "Ovo je samo da vas obavijestimo da je {{1}} započeo svoju pretplatu na {{2}} sa {{3}} u {{4}} za {{5}} mjeseci."
+    },
+    "SeeYou": "Vidimo se na {{1}}!"
+}

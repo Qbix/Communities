@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Anjeun diondang",
+        "Member": "Anggota di {{title}}",
+        "Explanation": "{{1}} bungah ngumumkeun peluncuran situs wéb anyar kami. Éta kalebet daptar fitur anu ngembang, sapertos:",
+        "Public": "Inpormasi umum ngeunaan {{1}}",
+        "Private": "Rekening pamaké pribadi pikeun unggal anggota",
+        "Notifications": "Ku cara nuliskeun alamat surélék anjeun atanapi nomer sélulér anjeun bakal tiasa nampi béwara penting ku email atanapi pesen téks.",
+        "GetStarted": "Pikeun ngamimitian, dina browser wéb anjeun mangga lebetkeun <em>sacara saksama<\/em> :<br>",
+        "IssuedToYou": "Kode ieu husus dikaluarkeun pikeun anjeun."
+    }
+}

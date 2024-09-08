@@ -1,0 +1,20 @@
+{
+    "activation": {
+        "Thanks": "Tikugashirei ku {{1}}.",
+        "ClickHere": "Dzvanya apa kuti uvhure account yako: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Dzvanya apa kuti uone nhamba yako yefoni: {{1}}"
+    },
+    "SeeHistory": "Ona nhoroondo yekubhadhara kwe{{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} abhadhariswa {{2}} {{3}} na{1002}}"
+    },
+    "charged": {
+        "HavePaid": "Nhai {{1}}, ichi chingori chitsidzo chekukurumidza kuti wabhadhara {{2}} ku {{3}} ye{{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Wakanyoresa ku {{2}} ne {{3}} pa {{4}} kwe {{5}} mwedzi.",
+        "HasStarted": "{{1}} akanyoresa ku{{2}} ne{1001}} pa {{4}} kwe{{5}} mwedzi."
+    }
+}

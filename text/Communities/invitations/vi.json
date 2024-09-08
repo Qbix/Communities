@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Bạn được mời",
+        "Member": "Thành viên tại {{title}}",
+        "Explanation": "{{1}} vui mừng thông báo về việc ra mắt trang web mới của chúng tôi. Nó bao gồm một danh sách ngày càng tăng các tính năng, chẳng hạn như:",
+        "Public": "Thông tin công khai về {{1}}",
+        "Private": "Một tài khoản người dùng riêng tư cho mọi thành viên",
+        "Notifications": "Bằng cách nhập địa chỉ email hoặc số điện thoại di động, bạn sẽ có thể nhận được các thông báo quan trọng qua email hoặc tin nhắn văn bản.",
+        "GetStarted": "Để bắt đầu, trong trình duyệt web của bạn, vui lòng nhập <em>cẩn thận<\/em> :<br>",
+        "IssuedToYou": "Mã này được cấp riêng cho bạn."
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Umenyiwe",
+        "Member": "Ilungu e {{title}}",
+        "Explanation": "{{1}} kuyavuya ukwazisa ngophehlelelo lwewebhusayithi yethu entsha. Ibandakanya uluhlu olukhulayo lweempawu, ezifana:",
+        "Public": "Ulwazi loluntu malunga {{1}}",
+        "Private": "Iakhawunti yomsebenzisi yabucala yelungu ngalinye",
+        "Notifications": "Ngokufaka idilesi ye-imeyile okanye inombolo yeselula uya kuba nako ukufumana izaziso ezibalulekileyo nge-imeyile okanye ngomyalezo obhaliweyo.",
+        "GetStarted": "Ukuqalisa, kwibhrawuza yakho yewebhu nceda ufake <em>ngononophelo<\/em> :<br>",
+        "IssuedToYou": "Le khowudi ikhutshelwe wena ngokukodwa."
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "activation": {
+        "Thanks": "Takulandirani ku {{1}}.",
+        "ClickHere": "Dinani apa kuti mutsegule akaunti yanu: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Dinani apa kuti mutsimikizire nambala yanu yam&#39;manja: {{1}}"
+    },
+    "SeeHistory": "Onani mbiri yolipira ya {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} adalipira {{2}} pa {{3}} ndi {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hei {{1}}, uku ndikutsimikizirani kwachangu kuti mwalipira {{2}} ku {{3}} za {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Mwalembetsa ku {{2}} ndi {{3}} pa {{4}} kwa {{5}} miyezi.",
+        "HasStarted": "{{1}} adalembetsa ku {{2}} ndi {{3}} pa {{4}} kwa {{5}} miyezi."
+    }
+}

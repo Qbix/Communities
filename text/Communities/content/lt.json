@@ -1,0 +1,459 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> nieko nenurodo!",
+        "NextSteps": "Norėdami rasti tai, ko ieškote, naudokite pagrindinį meniu."
+    },
+    "dashboard": {
+        "Menu": "Meniu",
+        "Home": "Namai",
+        "Welcome": "Sveiki",
+        "Events": "Renginiai",
+        "Discuss": "Aptarkite",
+        "People": "Žmonės",
+        "About": "Apie",
+        "Community": "bendruomenė",
+        "LogIn": "Prisijungti",
+        "LogOut": "Atsijungti",
+        "Intercoin": "Intercoin",
+        "Shows": "Parodos",
+        "Calendar": "Kalendorius",
+        "Me": "Aš",
+        "Media": "Žiniasklaida",
+        "Services": "Paslaugos",
+        "SetMobileNumber": "Nustatykite mobiliojo telefono numerį",
+        "SetEmailAddress": "Nustatyti el. pašto adresą"
+    },
+    "greeting": {
+        "Welcome": "Sveiki atvykę į {{1}}. Čia rasite mūsų bendruomenės nariams paskelbtus dalykus. Pridėkite savo el. pašto adresą arba mobiliojo telefono numerį, kad gautumėte pranešimus apie paskelbtus pranešimus."
+    },
+    "conversations": {
+        "Title": "Pokalbiai",
+        "New": "Naujas pokalbis",
+        "Conversation": "Pokalbis",
+        "Topics": "Temos",
+        "NoneYet": "Pokalbių dar neužmezgė",
+        "newConversations": "{{1}} naujų pokalbių",
+        "AllAuthors": "Visi autoriai",
+        "FilterbyAuthors": "Filtruoti pagal autorius",
+        "FilterAuthorPlaceHolder": "Ieškoti papildomų autorių...",
+        "filterConversations": "Filtruoti pagal tekstą",
+        "Description": "{{1}} pokalbių"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Pasirinkite temą",
+            "Share": "Dalintis",
+            "interest": {
+                "Title": "Pasirinkite veiklą",
+                "Filter": "Paieškos pomėgiai..."
+            }
+        },
+        "Title": "Naujas pokalbis",
+        "TitlePlaceholder": "Jūsų pokalbio tema",
+        "ContentPlaceholder": "Parašykite keletą žodžių, kad pradėtumėte pokalbį, kad kiti galėtų atsakyti",
+        "StartButton": "Pradėti pokalbį"
+    },
+    "events": {
+        "Title": "Renginiai",
+        "filterByTitle": "Raskite įvykius pagal pavadinimą",
+        "New": "+ Pradėti naują įvykį",
+        "filterEvents": "Filtruoti įvykius",
+        "NewEvent": "Naujas įvykis",
+        "SetLocation": "Nustatyti Mano vietą",
+        "NoneYet": "Dar nėra susiformavusių įvykių<br> šiais laikais.",
+        "AllAuthors": "Visi autoriai",
+        "AllDays": "Visos dienos",
+        "AllLocations": "Visos Vietos",
+        "MakeReservation": "Padaryti rezervaciją",
+        "CancelReservation": "Atšaukti rezervaciją",
+        "UpdateReservation": "Atnaujinti rezervaciją",
+        "AreYouSure": "Ar tu tuo tikras?",
+        "YouWillRefunded": "Jums bus grąžinti kreditai, kuriuos galėsite išleisti kitiems dalykams programoje.",
+        "AllInterests": "Visi interesai",
+        "FilterbyInterest": "Filtruoti pagal pomėgius",
+        "FilterByDate": "Filtruoti pagal datą",
+        "ShowActivities": "Rodyti veiklą, susijusią su . . .",
+        "newEvents": "Turite {{1}} naujų įvykių",
+        "SelectLocation": "Pasirinkite Vieta",
+        "FilterLocationsPlaceHolder": "Filtruokite vietas naudodami...",
+        "Description": "{{1}} įvykių",
+        "Keywords": "{{1}} įvykių"
+    },
+    "schedule": {
+        "Title": "Tvarkaraštis",
+        "NoneYet": "Jūs nedalyvaujate jokiuose renginiuose",
+        "AddSome": "Įtraukite į savo tvarkaraštį!",
+        "AddMore": "Įtraukite įvykius į savo tvarkaraštį!",
+        "future": "ateitis",
+        "past": "praeitis"
+    },
+    "location": {
+        "Title": "Vieta",
+        "NewLocation": "Nauja Vieta"
+    },
+    "inbox": {
+        "Title": "Pašto dėžutę",
+        "NoneYet": "Jūs nedalyvaujate jokiuose pokalbiuose",
+        "FindPeople": "Raskite žmonių, su kuriais galėtumėte pasikalbėti",
+        "GroupConversations": "Prisijunkite prie kai kurių grupinių pokalbių",
+        "ContactStaff": "Susisiekite su personalu",
+        "ContactCustomers": "Susisiekite su klientais",
+        "AddNewContact": "Pridėti naują kontaktą",
+        "AddNewContacts": "Pridėti naujų kontaktų"
+    },
+    "me": {
+        "Title": "Aš",
+        "MobileNumber": "Mobilaus telefono numeris",
+        "EmailAddress": "Elektroninio pašto adresas",
+        "UpdateSocialTitle": "Atnaujinti {{1}} naudotojo vardą",
+        "Web3": "Web3"
+    },
+    "people": {
+        "Title": "Žmonės",
+        "Description": "Žmonės iš {{1}} bendruomenės",
+        "AppAlert": "Ši programa programėlių parduotuvėje leis susisiekti su draugais ir dar daugiau.",
+        "Invite": "Pakviesti draugus",
+        "BuyCredits": "Pirkite kreditus",
+        "FindSomeoneByName": "Raskite ką nors pagal vardą",
+        "SearchByName": "Ieškokite pagal pavadinimą",
+        "FindAllMyFriends": "Rasti visus mano draugus",
+        "labels": {
+            "All": "Visi",
+            "Title": "Filtruoti pagal ryšį",
+            "New": "Naujas santykių tipas"
+        },
+        "interests": {
+            "All": "Visi interesai",
+            "Title": "Filtruoti pagal pomėgius",
+            "Filter": "Rodyti žmonėms, kurie domisi . . ."
+        },
+        "Keywords": "{{1}} žmonių bendruomenė"
+    },
+    "communities": {
+        "Title": "Bendruomenės",
+        "NewCommunity": "Nauja bendruomenė",
+        "FindCommunityByName": "Raskite bendruomenę pagal pavadinimą",
+        "Description": "{{1}} bendruomenės"
+    },
+    "community": {
+        "Title": "{{1}} Bendruomenė",
+        "Roles": "Vaidmenys",
+        "AllRoles": "Visi vaidmenys",
+        "YouDontHavePermission": "Jūs neturite teisės tai daryti",
+        "usernamePlaceholder": "nustatyti bendruomenės pavadinimą",
+        "NotEnoughCredits": "Neturite pakankamai kreditų bendruomenei sukurti. Reikia {{1}}, turite {{2}}"
+    },
+    "event": {
+        "GetDirections": "Gauti nuorodas",
+        "WhichMap": "Kokius žemėlapius norėtumėte naudoti?",
+        "JoinEventToChat": "Prisijunkite prie renginio ir pasikalbėkite",
+        "promote": {
+            "Title": "Reklamuokite šį įvykį",
+            "Prompt": "Pasirinkite, kur norite reklamuoti šį įvykį:"
+        },
+        "Confirmation": "Patvirtinimas"
+    },
+    "newEvent": {
+        "Title": "Suplanuokite naują įvykį"
+    },
+    "interests": {
+        "Title": "Pomėgiai",
+        "prompt": "Pasirinkite dalykų, apie kuriuos norėtumėte sužinoti, tipus.",
+        "explanation": "Kuo daugiau pomėgių pasirinksite, tuo didesnė tikimybė, kad užmegsite ryšį su bendraminčiais.",
+        "filter": "Kuo tu domiesi?",
+        "Profile": "Išryškinami abipusiai interesai. Jei taip pat turite vieną ar daugiau toliau nurodytų pomėgių, galite {{clickOrTap}} juos pridėti."
+    },
+    "credits": {
+        "Title": "Kreditai",
+        "EarnCredits": "Uždirbkite {{1}} kreditų už kiekvieną naują pakviestą asmenį, kuris prisijungs prie programos",
+        "YouHave": "Turite {{1}} kreditų"
+    },
+    "onboarding": {
+        "Tap": "Bakstelėkite",
+        "Click": "Spustelėkite",
+        "Yes": "Taip",
+        "No": "Nr",
+        "Skip": "arba praleiskite tai",
+        "name": {
+            "Preface": "Sveiki atvykę į",
+            "Placeholder": "Įveskite savo vardą ir pavardę",
+            "GetStarted": "Pradėti",
+            "AsGuest": "Jus pakvietė į svečius.",
+            "AsMember": "Jūs buvote pakviesti kaip narys.",
+            "AsAdmin": "Jūs buvote pakviestas kaip administratorius.",
+            "AsOwner": "Jūs buvote pakviesti kaip savininkas.",
+            "TooShort": "Visas jūsų vardas negali būti toks trumpas",
+            "SetAsYourFullName": "Nustatyti {{1}} kaip pilną vardą?"
+        },
+        "icon": {
+            "KeepDefault": "arba pasilik šią nuotrauką",
+            "SetYourPhoto": "{{ClickOrTap}} norėdami nustatyti savo nuotrauką:",
+            "ClickOnYourFace": "{{ClickOrTap}} ant tavo veido"
+        },
+        "interests": {
+            "GetStarted": "⇩ Pradėkite",
+            "NextCategory": "↓ Kitas",
+            "Continue": "Tęsti",
+            "Instructions": "Kiekvienoje iš kitų {{1}} kategorijų,<br> {{2}} visos jus dominančios veiklos.<br> Taip užmezgate ryšį su kitais bendruomenės žmonėmis."
+        },
+        "profile": {
+            "Profile": "Jūsų profilis padeda žmonėms sužinoti daugiau apie jus.<br>",
+            "Birthday": "Įveskite savo gimtadienį:",
+            "Placeholder": "Kas tu esi ir ką veiki? Papasakokite žmonėms ką nors įdomaus ar unikalaus apie save.",
+            "Required": "Norėdami tęsti, parašykite apie save bent keletą eilučių.",
+            "Month": "Mėnuo",
+            "Day": "Diena",
+            "Year": "Metai",
+            "Gender": "Lytis",
+            "Male": "Patinas",
+            "Female": "Moteris",
+            "Other": "Kita",
+            "Height": "Aukštis",
+            "Affiliation": "Priklausymas",
+            "Dating": "Pasimatymai",
+            "Interested": "Suinteresuotas",
+            "NotInterested": "Nesudomintas",
+            "MatchmakerOnly": "Tik piršlys"
+        },
+        "location": {
+            "NoOneElse": "Niekas kitas to nepamatys.",
+            "SetMyLocation": "Nustatyti mano vietą"
+        },
+        "pile": {
+            "DialogTitle": "Žmonės, turintys bendrų interesų"
+        },
+        "Done": "padaryta",
+        "relationships": {
+            "title": "Pridėkite {{userName}} prie telefonų knygos",
+            "welcome": "Sveiki atvykę {{user}}",
+            "invitedByUser": "pakvietė tave.",
+            "addToPhonebook": "Išsaugoti Mano telefono kontaktuose",
+            "iosInstructions": "Slinkite žemyn iki Pridėti naują kontaktą",
+            "androidInstructions": "Turėtumėte atidaryti šį vCard failą, kai jis bus atsisiųstas.",
+            "explanation": "Kokie jūsų santykiai?"
+        },
+        "Title": "Pagrindinė informacija",
+        "Prompt": "Keletas žingsnių paskyrai nustatyti"
+    },
+    "profile": {
+        "Title": "Profilis",
+        "Male": "Patinas",
+        "Female": "Moteris",
+        "Other": "Kita",
+        "dating": {
+            "Interested": "Suinteresuotas",
+            "NotInterested": "Nesudomintas",
+            "MatchmakerOnly": "Tik piršlys"
+        },
+        "StartConversation": "Pradėkite pokalbį",
+        "blockUser": "Blokuoti šį vartotoją",
+        "blockUserAlert": "Nematysite daugiau šio vartotojo pranešimų, kol jo neatblokuosite.",
+        "unblockUser": "Atblokuoti šį vartotoją",
+        "addToContacts": "Pridėti prie kontaktų",
+        "manageLabels": "Tvarkyti etiketes",
+        "inviteUsers": "Pakviesti vartotojus",
+        "selectRole": "Pasirinkite Role",
+        "inviteSuccess": "Naudotojas sėkmingai pakviestas kaip {{label}}",
+        "invite": "Pakviesti",
+        "relationships": "Santykiai",
+        "newRole": "Naujas vaidmuo",
+        "about": "Apie",
+        "people": "Žmonės",
+        "info": "Informacija",
+        "interests": "Pomėgiai",
+        "chat": "Pokalbis",
+        "locations": "Vietos",
+        "ManageRoles": "Valdykite vaidmenis",
+        "aboutPlaceholder": "Kas tu esi ir ką veiki? Papasakokite žmonėms ką nors įdomaus ar unikalaus apie save.",
+        "explanation": "Jūsų profilis padeda geriau suderinti jus su kitais žmonėmis grupės veikloje.<br> Įveskite savo gimtadienį",
+        "chats": {
+            "placeholder": "Pasakyk ką nors"
+        },
+        "LogOut": "Atsijungti",
+        "MyLinks": "Mano nuorodos",
+        "MyJobs": "Mano darbai",
+        "MySocial": "„MySocial“.",
+        "MyEducation": "Mano išsilavinimas",
+        "JobsPlaceholder": "Įveskite čia informaciją apie darbą",
+        "EducationPlaceholder": "Įveskite čia informaciją apie išsilavinimą",
+        "ManageNotifications": "Tvarkyti pranešimus",
+        "YourPreferredLanguage": "Jūsų pageidaujama kalba",
+        "SendCrypto": "Mokėti",
+        "Block": "Blokuoti",
+        "Unblock": "Atblokuoti",
+        "Email": "El. paštas",
+        "Avoid": "Venkite",
+        "CreatePrivateChat": "Išleisti {{credits}} kreditą, kad susisiektumėte?",
+        "RolesInCommunity": "Vaidmenys bendruomenėje",
+        "PersonalChatWith": "Asmeninis pokalbis su {{name}}",
+        "SendCryptoTo": "Siųsti kriptovaliutą adresu {{name}}",
+        "SendEmailTo": "Siųsti el. laišką adresu {{name}}",
+        "SendSMSTo": "Siųsti SMS į {{name}}",
+        "BlockThisUser": "Blokuoti šį naudotoją",
+        "UnblockThisUser": "Atblokuoti šį vartotoją",
+        "YouCantChatWithYourself": "Jūs negalite kalbėtis su savimi",
+        "blockUserAlertTitle": "Užblokuotas {{displayName}}",
+        "sections": {
+            "education": "Išsilavinimas",
+            "greeting": "Pasisveikinimas",
+            "jobs": "Darbai",
+            "links": "Nuorodos",
+            "language": "Kalba",
+            "roles": "Vaidmenys",
+            "personal": "Asmeninis",
+            "social": "Socialinis"
+        },
+        "Roles": "Vaidmenys",
+        "SendPaymentTo": "Siųskite mokėjimą numeriu {{name}}"
+    },
+    "myqr": {
+        "Title": "Mano QR"
+    },
+    "composer": {
+        "createCommunity": "Sukurti bendruomenę",
+        "inviteAdmin": "Pakviesti administratorių",
+        "inviteMember": "Pakviesti narį",
+        "newCommunityTitle": "Bendruomenės pavadinimas",
+        "setCommunityTitle": "Bendruomenės pavadinimas",
+        "creditsChargeRequest": "Ar sutinkate išleisti {{price}} kreditą?",
+        "yes": "Taip",
+        "no": "Nr"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Sveiki! Patvirtinkite savo el. pašto adresą.",
+        "WelcomeVerifyEmail": "Sveiki! Patvirtinkite savo elektroninį paštą.",
+        "ForgetPass": "Ei, ar pamiršai savo slaptafrazę?",
+        "ManageEmailSubscriptions": "tvarkyti savo el. pašto prenumeratas",
+        "IfUnsubscribe": "Jei norite atsisakyti prenumeratos"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Sveiki atvykę į {{CommunityName}}. Ši programa padės susisiekti su draugais, atrasti naujų žmonių, turinčių bendrų pomėgių, ir dar daugiau. Pradėkime!"
+            },
+            "icon": {
+                "Commentary": "Nustatykite savo nuotrauką. Taip žmonės jus matys svetainėje."
+            },
+            "interests": {
+                "Commentary": "Kuo daugiau daiktų pasirinksite, tuo daugiau žmonių galėsite susitikti.",
+                "Notifications": "Turite leisti pranešimus"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Pranešimai leidžia sužinoti apie jus dominančius dalykus, pvz., kai draugas prisijungia prie programos arba išsiunčia jums žinutę."
+        },
+        "invite": "{{Q.words.TapOrClick}} norėdami sužinoti, kaip galite bendrinti tai su kitais žmonėmis."
+    },
+    "payment": {
+        "onContribute": "Ačiū! Jūsų mokėjimas atliktas. Ar norėtumėte pakviesti savo draugus prisijungti prie jūsų?",
+        "ConnectAccount": "Susieti paskyrą"
+    },
+    "featureboard": {
+        "Text_1": "Tegul tavo balsas būna išgirstas! Ar sutinkate, kad turėtume sukurti funkciją ar klaidą? Spustelėkite mygtuką, kad jį palaikytumėte.",
+        "Text_2": "Norite, kad sukurtume naują funkciją? Apibūdinkite tai žemiau.",
+        "Text_3": "Kiekvieną savaitę pradedame kurti populiariausią bendruomenės pageidaujamą funkciją. Visi įnešti pinigai skiriami tam tikslui, todėl galime patobulinti programą.",
+        "Text_4": "Visi įnešti pinigai naudojami mūsų plėtros išlaidoms apmokėti.",
+        "Text_5": "Ar turite idėją dėl funkcijos ar trikčių pataisymo, kurią norėtumėte, kad padarytume, bet dar nematėte, kad kiti ją pridėtų? Apibūdinkite tai žemiau:",
+        "Options": [
+            {
+                "text": "400 USD vaizdo konferencijos realiuoju laiku"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "200 USD vietos pirminės registracijos informacija"
+            },
+            {
+                "text": "130 USD Naršykite ir bendrinkite tūkstančius {{1}} memų",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "80 USD Tvarkykite savo bendruomenes",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "30 USD Ištaisykite pokalbių klaidą",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Prašyti naujos funkcijos \/ riktų pataisymo",
+        "FeaturePlaceholder": "Trumpa funkcijos santrauka",
+        "FeatureDescription": "Aprašykite, kaip kažkas kitas gali atkurti jūsų matomą klaidą, arba išsamiai apibūdinkite funkciją, kurią norite sukurti",
+        "AddYourRequest": "Pridėkite savo užklausą",
+        "NewFeature": "Nauja funkcija"
+    },
+    "contribute": {
+        "ContributeExplanation": "Padėkite toliau kurti {{communityName}} programą. Visas jūsų pateiktas indėlis padeda ištaisyti klaidas ir kurti naujas funkcijas, kurios padėtų plėsti internetinę bendruomenę!",
+        "ReasonToContribute": "Šią programą prižiūri {{communityName}} rėmėjai. Padėkite palaikyti šią programą, kad galėtume pakeisti žmonių gyvenimus!"
+    },
+    "assetshistory": {
+        "Title": "Turto istorija",
+        "Charges": "Mokesčiai",
+        "Credits": "Kreditai"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Pašalinti paskyrą",
+            "content": "Ar norite pašalinti šią paskyrą?",
+            "ok": "Taip",
+            "cancel": "Nr"
+        }
+    },
+    "import": {
+        "fileNotFound": "Atsiprašome, CSV failas nerastas.",
+        "fileEmpty": "Atsiprašome, CSV failas tuščias.",
+        "userIdNotFound": "vartotojas egzistuoja, bet ID tuščias",
+        "errorLine": "eilutė {{1}}",
+        "fieldNotFound": "Privalomas laukas „{{1}}“ nerastas",
+        "taskStreamInvalid": "užduočių srautas netinkamas",
+        "instructionsEmpty": "užduočių srauto instrukcijos tuščios",
+        "complete": "Užbaigti",
+        "activateUsers": "siųsti aktyvinimo pranešimą vartotojams?",
+        "importProgress": "Progresas",
+        "joinEventLabel": "Prisijunkite prie vartotojų atsitiktinio įvykio",
+        "importOptions": "Galimybės",
+        "sampleCSV": "Atsisiųskite CSV pavyzdį",
+        "fileLabel": "Įkelti skaičiuoklę:",
+        "errorsTitle": "Įvyko klaidų",
+        "communityUsers": "Tai yra bendruomenių sąrašas",
+        "setAsConversation": "URL stulpelis kaip pokalbis",
+        "toMainCommunityToo": "įtraukti vartotojus į pagrindinę bendruomenę",
+        "willImportedTo": "Vartotojai bus importuoti į bendruomenę",
+        "ChooseFile": "pasirinkti failą"
+    },
+    "services": {
+        "Title": "Paslaugos",
+        "filterByTitle": "Raskite paslaugas pagal pavadinimą",
+        "New": "+ Pradėti naują paslaugą",
+        "NewService": "Nauja paslauga",
+        "NewAvailability": "Naujas prieinamumas",
+        "filterServices": "Filtravimo paslaugos",
+        "NoneYet": "Paslaugų dar nesukurta<br> šiais laikais.",
+        "AllAuthors": "Visi autoriai",
+        "AllDays": "Visos dienos",
+        "AllLocations": "Visos Vietos",
+        "MakeReservation": "Padaryti rezervaciją",
+        "CancelReservation": "Atšaukti rezervaciją",
+        "UpdateReservation": "Atnaujinti rezervaciją",
+        "AreYouSure": "Ar tu tuo tikras?",
+        "YouWillRefunded": "Jums bus grąžinti kreditai, kuriuos galėsite išleisti kitiems programėlės dalykams.",
+        "AllInterests": "Visi interesai",
+        "FilterbyInterest": "Filtruoti pagal pomėgius",
+        "FilterByDate": "Filtruoti pagal datą",
+        "ShowActivities": "Rodyti veiklą, susijusią su...",
+        "newServices": "Turite {{1}} naujų paslaugų",
+        "SelectLocation": "Pasirinkite Vieta",
+        "FilterLocationsPlaceHolder": "Filtruokite vietas naudodami...",
+        "Description": "{{1}} paslauga",
+        "Keywords": "{{1}} paslauga"
+    },
+    "welcome": {
+        "Title": "{{appName}}: Sveiki atvykę",
+        "GetStarted": "Pradėti",
+        "gallery": {
+            "Connect": "Prisijungti",
+            "Organize": "Organizuoti",
+            "Travel": "Kelionė",
+            "Share": "Dalintis"
+        }
+    }
+}

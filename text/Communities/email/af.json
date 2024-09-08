@@ -1,0 +1,33 @@
+{
+    "activation": {
+        "Thanks": "Welkom by {{1}}",
+        "ReallyYourEmail": "Is dit regtig jou e-posadres, {{1}}? Indien wel, klik <a href='{{2}}'>hier<\/a> om jou wagwoordfrase te stel en jou rekening te aktiveer.",
+        "SeeYou": "Sien jou op <a href='{{1}}'>{{2}}<\/a> !",
+        "Subject": "Welkom! Verifieer asseblief jou e-posadres."
+    },
+    "LinkToUnsubscribe": "Hier is &#39;n skakel om uit te <a href='{{1}}'>teken<\/a> as jy nie meer e-posse wil kry nie.",
+    "Greetings": "Groete van {{1}}.",
+    "SeeHistory": "Sien betalingsgeskiedenis vir {{1}}",
+    "charge": {
+        "HasBeenCharged": "Haai, dit is net om jou te laat weet {{1}} is gehef {{2}} vir {{3}} deur {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Haai {{1}}, hierdie is net &#39;n vinnige bevestiging dat jy suksesvol {{2}} aan {{3}} betaal het vir {{4}}"
+    },
+    "resend": {
+        "Thanks": "Dankie vir jou besoek {{1}}",
+        "YouAreReceiving": "Jy ontvang hierdie e-pos omdat iemand jou e-posadres ingevoer het en &quot;wagfrase vergeet&quot; geklik het. As dit nie jy was nie, ignoreer eenvoudig hierdie boodskap.",
+        "Reset": "Om jou wagfrase terug te stel, klik {{1}}",
+        "SetUpPassphrase": "Stel wagfrase op",
+        "DomainCode": "As die webblad reeds in jou blaaier oop is, kan jy die kode invoer",
+        "Subject": "Haai, het jy jou wagwoordfrase vergeet?"
+    },
+    "subscription": {
+        "YouHaveStarted": "Haai {{1}}, jy het jou intekening op {{2}} begin met {{3}} by {{4}} vir {{5}} maande.",
+        "HasStarted": "Dit is net om jou te laat weet {{1}}, het hul intekening op {{2}} begin met {{3}} by {{4}} vir {{5}} maande."
+    },
+    "SeeYou": "Sien jou op {{1}}!",
+    "identifier": {
+        "Subject": "Welkom! Bevestig jou e-pos adres."
+    }
+}

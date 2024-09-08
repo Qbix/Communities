@@ -1,0 +1,362 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> ko tọka si ohunkohun!",
+        "NextSteps": "Lo akojọ aṣayan akọkọ lati wa ohun ti o n wa."
+    },
+    "dashboard": {
+        "Menu": "Akojọ aṣyn"
+    },
+    "greeting": {
+        "Welcome": "Kaabo si {{1}}. Nibi iwọ yoo rii awọn nkan ti a fiweranṣẹ fun awọn ọmọ ẹgbẹ agbegbe wa. Jọwọ ṣafikun adirẹsi imeeli rẹ tabi nọmba alagbeka lati gba awọn iwifunni nigbati awọn ikede ba ti firanṣẹ."
+    },
+    "conversations": {
+        "Title": "Awọn ibaraẹnisọrọ",
+        "New": "Ibaraẹnisọrọ Tuntun",
+        "Conversation": "Ifọrọwanilẹnuwo",
+        "Topics": "Awọn koko-ọrọ",
+        "NoneYet": "Ko si awọn ibaraẹnisọrọ ti o ṣẹda sibẹsibẹ",
+        "newConversations": "{999} awọn ibaraẹnisọrọ titun",
+        "AllAuthors": "Gbogbo Awọn onkọwe",
+        "FilterbyAuthors": "Àlẹmọ nipa onkọwe",
+        "FilterAuthorPlaceHolder": "Wa afikun awọn onkọwe...",
+        "filterConversations": "Àlẹmọ nipa ọrọ",
+        "Description": "{999} awọn ibaraẹnisọrọ"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Yan koko kan",
+            "Share": "Pin",
+            "interest": {
+                "Title": "Yan aṣayan iṣẹ-ṣiṣe kan",
+                "Filter": "Ṣewadii awọn ifẹ..."
+            }
+        },
+        "Title": "Ibaraẹnisọrọ Tuntun",
+        "TitlePlaceholder": "Koko-ọrọ ti ibaraẹnisọrọ rẹ",
+        "ContentPlaceholder": "Kọ awọn ọrọ diẹ lati bẹrẹ kuro ni ibaraẹnisọrọ, ki awọn miiran le dahun",
+        "StartButton": "Bẹrẹ Ibaraẹnisọrọ"
+    },
+    "events": {
+        "Title": "Awọn iṣẹlẹ",
+        "filterByTitle": "Wa awọn iṣẹlẹ nipasẹ akọle",
+        "New": "+ Bẹrẹ Iṣẹlẹ Tuntun",
+        "filterEvents": "Ajọ awọn iṣẹlẹ",
+        "NewEvent": "Iṣẹlẹ Tuntun",
+        "SetLocation": "Ṣeto Ipo Mi",
+        "NoneYet": "Ko si awọn iṣẹlẹ ti o ṣẹda sibẹsibẹ<br> nigba wọnyi akoko.",
+        "AllAuthors": "Gbogbo Awọn onkọwe",
+        "AllDays": "Gbogbo Ọjọ",
+        "AllLocations": "Gbogbo Awọn ipo",
+        "MakeReservation": "Ṣe ifiṣura",
+        "CancelReservation": "Fagilee ifiṣura",
+        "UpdateReservation": "Ifiṣura imudojuiwọn",
+        "AreYouSure": "Ṣe o da ọ loju?",
+        "YouWillRefunded": "Iwọ yoo san pada ni irisi awọn kirẹditi ti o le na lori awọn ohun miiran ninu app naa.",
+        "AllInterests": "Gbogbo Awọn iwulo",
+        "FilterbyInterest": "Àlẹmọ nipa Anfani",
+        "FilterByDate": "Àlẹmọ Nipa Ọjọ",
+        "ShowActivities": "Ṣe afihan awọn iṣẹ ṣiṣe ti o jọmọ . . .",
+        "newEvents": "O ni awọn iṣẹlẹ titun {999}",
+        "SelectLocation": "Yan Ibi",
+        "FilterLocationsPlaceHolder": "Ajọ awọn aaye pẹlu...",
+        "Description": "{999} iṣẹlẹ",
+        "Keywords": "{999} iṣẹlẹ"
+    },
+    "schedule": {
+        "Title": "Iṣeto",
+        "NoneYet": "O ko kopa ninu eyikeyi iṣẹlẹ",
+        "AddSome": "Ṣafikun diẹ ninu iṣeto rẹ!",
+        "AddMore": "Ṣafikun awọn iṣẹlẹ si iṣeto rẹ!",
+        "future": "ojo iwaju",
+        "past": "ti o ti kọja"
+    },
+    "location": {
+        "Title": "Ipo",
+        "NewLocation": "Ibi Tuntun"
+    },
+    "inbox": {
+        "Title": "Apo-iwọle",
+        "NoneYet": "O ko kopa ninu eyikeyi awọn ibaraẹnisọrọ",
+        "FindPeople": "Wa eniyan lati ba sọrọ",
+        "GroupConversations": "Darapọ mọ awọn ibaraẹnisọrọ ẹgbẹ kan",
+        "ContactStaff": "Olubasọrọ Oṣiṣẹ",
+        "ContactCustomers": "Kan si Onibara"
+    },
+    "me": {
+        "Title": "Emi",
+        "MobileNumber": "Nomba ti a le gbe rin",
+        "EmailAddress": "Adirẹsi imeeli",
+        "UpdateSocialTitle": "Ṣe imudojuiwọn orukọ olumulo {{1}}"
+    },
+    "people": {
+        "Title": "Eniyan",
+        "Description": "Awọn eniyan ni agbegbe {{1}}",
+        "AppAlert": "Ohun elo yii ninu ile itaja app yoo jẹ ki o sopọ pẹlu awọn ọrẹ rẹ, ati pupọ diẹ sii.",
+        "Invite": "Pe Awọn ọrẹ",
+        "BuyCredits": "Ra kirediti",
+        "FindSomeoneByName": "Wa ẹnikan nipa orukọ",
+        "SearchByName": "Ṣewadii pẹlu orukọ",
+        "FindAllMyFriends": "Wa Gbogbo Awọn ọrẹ Mi",
+        "labels": {
+            "All": "Gbogbo eniyan",
+            "Title": "Àlẹmọ nipa Ibasepo",
+            "New": "New Ibasepo Iru"
+        },
+        "interests": {
+            "All": "Gbogbo Awọn iwulo",
+            "Title": "Àlẹmọ nipa Anfani",
+            "Filter": "Ṣe afihan awọn eniyan nife ninu. . ."
+        },
+        "Keywords": "{{1}} agbegbe eniyan"
+    },
+    "communities": {
+        "Title": "Awọn agbegbe",
+        "NewCommunity": "Agbegbe Tuntun",
+        "FindCommunityByName": "Wa agbegbe nipa orukọ",
+        "Description": "{{1}} agbegbe"
+    },
+    "community": {
+        "Title": "Awujọ {{1}}",
+        "Roles": "Awọn ipa",
+        "AllRoles": "Gbogbo Ipa",
+        "YouDontHavePermission": "O ko ni aṣẹ lati ṣe eyi",
+        "usernamePlaceholder": "ṣeto awujo orukọ",
+        "NotEnoughCredits": "O ko ni awọn kirẹditi to lati ṣẹda agbegbe. Nilo {{1}}, o ni {{2}}"
+    },
+    "event": {
+        "GetDirections": "Gba Awọn itọnisọna",
+        "WhichMap": "Awọn maapu wo ni iwọ yoo fẹ lati lo?",
+        "JoinEventToChat": "Darapọ mọ iṣẹlẹ lati iwiregbe",
+        "promote": {
+            "Title": "Ṣe igbega iṣẹlẹ yii",
+            "Prompt": "Yan ibi ti o fẹ lati ṣe igbega iṣẹlẹ yii:"
+        },
+        "Confirmation": "Ìmúdájú"
+    },
+    "newEvent": {
+        "Title": "Gbero New Iṣẹlẹ"
+    },
+    "interests": {
+        "Title": "Nifesi",
+        "prompt": "Yan iru awọn nkan ti o fẹ lati mọ nipa.",
+        "explanation": "Awọn anfani diẹ sii ti o yan, diẹ sii ni o ṣeeṣe ki o sopọ pẹlu awọn eniyan ti o nifẹ si.",
+        "filter": "Kini o nife ninu?",
+        "Profile": "Awọn anfani ti ara ẹni jẹ afihan. Ti o ba tun ni ọkan tabi diẹ ẹ sii ti awọn iwulo ni isalẹ, o le {{clickOrTap}} lati fi wọn kun."
+    },
+    "credits": {
+        "Title": "Awọn kirediti",
+        "EarnCredits": "Gba awọn kirẹditi {999} fun gbogbo eniyan tuntun ti o pe ti o darapọ mọ ohun elo naa",
+        "YouHave": "O ni awọn kirẹditi {999}"
+    },
+    "onboarding": {
+        "Tap": "Fọwọ ba",
+        "Click": "Tẹ",
+        "Yes": "Bẹẹni",
+        "No": "Rara",
+        "Skip": "tabi foju yi",
+        "name": {
+            "Preface": "Kaabo si",
+            "Placeholder": "Tẹ orukọ rẹ ni kikun sii",
+            "GetStarted": "Bẹrẹ",
+            "AsGuest": "O ti pe ọ bi alejo.",
+            "AsMember": "O ti pè ọ́ gẹ́gẹ́ bí ọmọ ẹgbẹ́ kan.",
+            "AsAdmin": "O ti pe ọ bi alabojuto.",
+            "AsOwner": "O ti pe ọ bi oniwun.",
+            "TooShort": "Orukọ rẹ ni kikun ko le jẹ kukuru yẹn",
+            "SetAsYourFullName": "Ṣeto {999} bi orukọ rẹ ni kikun?"
+        },
+        "icon": {
+            "KeepDefault": "tabi tọju fọto yii",
+            "SetYourPhoto": "{{ClickOrTap}} lati ṣeto fọto rẹ:"
+        },
+        "interests": {
+            "GetStarted": "⇩ Bẹrẹ",
+            "NextCategory": "↓ Next",
+            "Continue": "Tesiwaju",
+            "Instructions": "Nínú ọ̀kọ̀ọ̀kan àwọn ẹ̀ka {{1}} tó kàn,<br> {{1000} gbogbo awọn iṣẹ ṣiṣe ti o nifẹ si.<br> Eyi ni bii o ṣe sopọ pẹlu awọn eniyan miiran ni agbegbe."
+        },
+        "profile": {
+            "Profile": "Profaili rẹ ṣe iranlọwọ fun eniyan lati ṣawari diẹ sii nipa rẹ.<br>",
+            "Birthday": "Jọwọ tẹ ọjọ ibi rẹ sii:",
+            "Placeholder": "Tani iwọ ati kini o ṣe? Sọ fun eniyan nkan ti o nifẹ tabi alailẹgbẹ nipa ararẹ.",
+            "Required": "Lati tẹsiwaju, kọ o kere ju awọn laini tọkọtaya kan nipa ararẹ.",
+            "Month": "Osu",
+            "Day": "Ojo",
+            "Year": "Odun",
+            "Gender": "abo",
+            "Male": "Okunrin",
+            "Female": "Obinrin",
+            "Other": "Omiiran",
+            "Height": "Giga",
+            "Affiliation": "Ibaṣepọ",
+            "Dating": "ibaṣepọ",
+            "Interested": "Nife",
+            "NotInterested": "Ko wunmi",
+            "MatchmakerOnly": "Matchmaker Nikan"
+        },
+        "location": {
+            "NoOneElse": "Ko si ẹlomiran ti yoo rii.",
+            "SetMyLocation": "Ṣeto ipo mi"
+        },
+        "pile": {
+            "DialogTitle": "Awọn eniyan ti o ni awọn anfani ti o wọpọ"
+        },
+        "Done": "Ti ṣe"
+    },
+    "profile": {
+        "Title": "Profaili",
+        "Male": "Okunrin",
+        "Female": "Obinrin",
+        "Other": "Omiiran",
+        "dating": {
+            "Interested": "Nife",
+            "NotInterested": "Ko wunmi",
+            "MatchmakerOnly": "Matchmaker nikan"
+        },
+        "StartConversation": "Bẹrẹ Ibaraẹnisọrọ kan",
+        "blockUser": "Dina olumulo yi",
+        "blockUserAlert": "Iwọ kii yoo ri awọn ifiranṣẹ eyikeyi diẹ sii lati ọdọ olumulo yii titi ti o yoo ṣii wọn.",
+        "unblockUser": "Sina olumulo yi",
+        "addToContacts": "Fi si Awọn olubasọrọ",
+        "manageLabels": "Ṣakoso awọn aami",
+        "inviteUsers": "Pe Awọn olumulo",
+        "selectRole": "Yan Ipa",
+        "inviteSuccess": "Ti pe olumulo ni aṣeyọri bi {{label}}",
+        "invite": "Pe",
+        "relationships": "Awọn ibatan",
+        "newRole": "Ipa Tuntun",
+        "about": "Nipa",
+        "people": "Eniyan",
+        "info": "Alaye",
+        "interests": "Nifesi",
+        "chat": "Wiregbe",
+        "locations": "Awọn ipo",
+        "ManageRoles": "Ṣakoso awọn ipa",
+        "aboutPlaceholder": "Tani iwọ ati kini o ṣe? Sọ fun eniyan nkan ti o nifẹ tabi alailẹgbẹ nipa ararẹ.",
+        "explanation": "Profaili rẹ ṣe iranlọwọ dara si ọ pẹlu awọn eniyan miiran fun awọn iṣẹ ẹgbẹ.<br> Jọwọ tẹ ọjọ ibi rẹ sii",
+        "chats": {
+            "placeholder": "So nkankan"
+        },
+        "LogOut": "Jade jade",
+        "MyLinks": "Awọn ọna asopọ Mi",
+        "MyJobs": "Awọn iṣẹ mi",
+        "MySocial": "MySocial",
+        "MyEducation": "Ẹkọ mi",
+        "JobsPlaceholder": "Tẹ alaye iṣẹ nibi",
+        "EducationPlaceholder": "Tẹ alaye ẹkọ nibi",
+        "ManageNotifications": "Ṣakoso awọn iwifunni",
+        "YourPreferredLanguage": "Ede ti o fẹ"
+    },
+    "myqr": {
+        "Title": "QR mi"
+    },
+    "composer": {
+        "createCommunity": "Ṣẹda Agbegbe",
+        "inviteAdmin": "Pe Abojuto",
+        "inviteMember": "Pe Omo egbe",
+        "newCommunityTitle": "Orukọ Agbegbe",
+        "setCommunityTitle": "Orukọ Agbegbe",
+        "creditsChargeRequest": "Ṣe o gba lati na awọn kirẹditi {999}} bi?",
+        "yes": "Bẹẹni",
+        "no": "Rara"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Kaabo! Jọwọ jẹrisi adirẹsi imeeli rẹ.",
+        "WelcomeVerifyEmail": "Kaabo! Daju adirẹsi imeeli rẹ.",
+        "ForgetPass": "Hey, ṣe o gbagbe ọrọ igbaniwọle rẹ?",
+        "ManageEmailSubscriptions": "ṣakoso awọn alabapin imeeli rẹ",
+        "IfUnsubscribe": "Ti o ba fẹ yọọ kuro"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Kaabo si {{CommunityName}}. Ohun elo yii yoo ṣe iranlọwọ fun ọ lati sopọ pẹlu awọn ọrẹ, ṣawari awọn eniyan tuntun pẹlu awọn ifẹ ti o wọpọ, ati pupọ diẹ sii. Jẹ ká bẹrẹ!"
+            },
+            "icon": {
+                "Commentary": "Ṣeto fọto rẹ. Eyi ni bi eniyan yoo rii ọ lori aaye naa."
+            },
+            "interests": {
+                "Commentary": "Awọn ohun kan diẹ sii ti o yan, diẹ sii eniyan ti o le pade.",
+                "Notifications": "O nilo lati gba awọn iwifunni laaye"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Awọn iwifunni gba ọ laaye lati mọ nipa awọn nkan ti o nifẹ si, gẹgẹbi nigbati ọrẹ kan darapọ mọ app, tabi awọn ifiranṣẹ ti o."
+        },
+        "invite": "{{Q.words.TapOrClick}} nibi lati wo bi o ṣe le pin eyi pẹlu awọn eniyan miiran."
+    },
+    "payment": {
+        "onContribute": "E dupe! Owo sisan rẹ ti kọja. Ṣe o fẹ lati pe awọn ọrẹ rẹ lati darapọ mọ ọ?"
+    },
+    "featureboard": {
+        "Text_1": "Jẹ ki a gbọ ohun rẹ! Ṣe o gba pe o yẹ ki a ṣe agbekalẹ ẹya kan tabi kokoro? Tẹ bọtini naa lati ṣe atilẹyin.",
+        "Text_2": "Ṣe o fẹ lati ṣe agbekalẹ ẹya tuntun kan? Ṣe apejuwe rẹ ni isalẹ.",
+        "Text_3": "Ni gbogbo ọsẹ a bẹrẹ lati ṣe agbekalẹ ẹya ti o beere julọ nipasẹ agbegbe. Gbogbo owo idasi lọ si ọna ti idi, gbigba wa lati ṣe awọn app dara.",
+        "Text_4": "Gbogbo owo ti a ṣe ni a lo lati ṣe iranlọwọ lati san awọn idiyele idagbasoke wa.",
+        "Text_5": "Ṣe o ni imọran fun ẹya kan tabi bugfix ti o fẹ ki a ṣe ṣugbọn ko tii rii awọn miiran ṣafikun sibẹsibẹ? Ṣe apejuwe rẹ ni isalẹ:",
+        "Options": [
+            {
+                "text": "$ 400 Real akoko videoconferencing"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$200 Agbegbe Primary ìforúkọsílẹ alaye"
+            },
+            {
+                "text": "$130 Ṣawakiri ki o pin ẹgbẹẹgbẹrun awọn memes {{1}}",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$ 80 Ṣakoso awọn agbegbe ti ara rẹ",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Ṣe atunṣe kokoro ibaraẹnisọrọ",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Beere Ẹya Tuntun\/Bugfix",
+        "FeaturePlaceholder": "Akopọ kukuru ti ẹya-ara",
+        "FeatureDescription": "Ṣe apejuwe bi ẹlomiiran ṣe le ṣe ẹda kokoro ti o n rii, tabi ṣapejuwe ni kikun ẹya ti o fẹ kọ",
+        "AddYourRequest": "Fi Ibere Rẹ kun",
+        "NewFeature": "New Ẹya"
+    },
+    "contribute": {
+        "ContributeExplanation": "Iranlọwọ atilẹyin ilọsiwaju ti ohun elo {{communityName}}. Gbogbo awọn ifunni rẹ ṣe iranlọwọ lati ṣatunṣe awọn idun ati idagbasoke awọn ẹya tuntun lati ṣe iranlọwọ lati dagba agbegbe ori ayelujara!",
+        "ReasonToContribute": "Ohun elo yii jẹ itọju nipasẹ awọn alatilẹyin ti {{communityName}}. Ṣe iranlọwọ atilẹyin ohun elo yii ki a le ṣe iyatọ ninu igbesi aye eniyan!"
+    },
+    "assetshistory": {
+        "Title": "Itan dukia",
+        "Charges": "Awọn idiyele",
+        "Credits": "Awọn kirediti"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Yọ akọọlẹ kuro",
+            "content": "Ṣe o fẹ yọ akọọlẹ yii kuro?",
+            "ok": "Bẹẹni",
+            "cancel": "Rara"
+        }
+    },
+    "import": {
+        "fileNotFound": "Ma binu, faili CSV ko ri.",
+        "fileEmpty": "Ma binu, faili CSV sofo.",
+        "userIdNotFound": "olumulo wa sugbon id sofo",
+        "errorLine": "ila {{1}}",
+        "fieldNotFound": "Aaye ti a beere &quot;{{1}}&quot; ko ri",
+        "taskStreamInvalid": "ṣiṣan iṣẹ ko wulo",
+        "instructionsEmpty": "awọn ilana ṣiṣan iṣẹ ofo",
+        "complete": "Pari",
+        "activateUsers": "fi ibere ise ifiranṣẹ si awọn olumulo?",
+        "importProgress": "Ilọsiwaju",
+        "joinEventLabel": "Darapọ mọ awọn olumulo si iṣẹlẹ laileto",
+        "importOptions": "Awọn aṣayan",
+        "sampleCSV": "Ṣe igbasilẹ Ayẹwo CSV",
+        "fileLabel": "Ṣe agbejade iwe kaakiri:",
+        "errorsTitle": "Awọn aṣiṣe waye",
+        "communityUsers": "Eyi ni atokọ agbegbe",
+        "setAsConversation": "URL iwe bi ibaraẹnisọrọ",
+        "toMainCommunityToo": "ṣafikun awọn olumulo si agbegbe akọkọ paapaa",
+        "willImportedTo": "Awọn olumulo yoo jẹ agbewọle si agbegbe"
+    }
+}

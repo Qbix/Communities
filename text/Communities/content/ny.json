@@ -1,0 +1,362 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> sikuloza kalikonse!",
+        "NextSteps": "Gwiritsani ntchito menyu yayikulu kuti mupeze zomwe mukufuna."
+    },
+    "dashboard": {
+        "Menu": "Menyu"
+    },
+    "greeting": {
+        "Welcome": "Takulandirani ku {{1}}. Apa mupeza zinthu zomwe zatumizidwa kwa anthu amdera lathu. Chonde onjezani imelo yanu kapena nambala yam&#39;manja kuti mulandire zidziwitso zikatumizidwa."
+    },
+    "conversations": {
+        "Title": "Zokambirana",
+        "New": "Nkhani Yatsopano",
+        "Conversation": "Kukambirana",
+        "Topics": "Mitu",
+        "NoneYet": "Palibe zokambirana zomwe zapangidwa",
+        "newConversations": "{{1}} zokambirana zatsopano",
+        "AllAuthors": "Olemba Onse",
+        "FilterbyAuthors": "Sefa ndi Olemba",
+        "FilterAuthorPlaceHolder": "Sakani olemba ena...",
+        "filterConversations": "Sefa ndi mawu",
+        "Description": "{{1}} zokambirana"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Sankhani mutu",
+            "Share": "Gawani",
+            "interest": {
+                "Title": "Sankhani Ntchito",
+                "Filter": "Sakani zokonda ..."
+            }
+        },
+        "Title": "Nkhani Yatsopano",
+        "TitlePlaceholder": "Mutu wa zokambirana zanu",
+        "ContentPlaceholder": "Lembani mawu ochepa kuti muyambe kukambirana, kuti ena ayankhe",
+        "StartButton": "Yambitsani Kucheza"
+    },
+    "events": {
+        "Title": "Zochitika",
+        "filterByTitle": "Pezani zochitika ndi mutu",
+        "New": "+ Yambitsani Chochitika Chatsopano",
+        "filterEvents": "Sefa zochitika",
+        "NewEvent": "Chochitika Chatsopano",
+        "SetLocation": "Khazikitsani Malo Anga",
+        "NoneYet": "Palibe zochitika zomwe zidapangidwa<br> pa nthawi izi.",
+        "AllAuthors": "Olemba Onse",
+        "AllDays": "Masiku Onse",
+        "AllLocations": "Malo Onse",
+        "MakeReservation": "Pangani Kusungitsa",
+        "CancelReservation": "Letsani Kusungitsa",
+        "UpdateReservation": "Sinthani Kusungitsa",
+        "AreYouSure": "Mukutsimikiza?",
+        "YouWillRefunded": "Mudzabwezeredwa ngati ndalama zomwe mungagwiritse ntchito pazinthu zina mu pulogalamuyi.",
+        "AllInterests": "Zokonda Zonse",
+        "FilterbyInterest": "Sefani ndi Chidwi",
+        "FilterByDate": "Sefa Ndi Tsiku",
+        "ShowActivities": "Onetsani zochita zokhudzana ndi . . .",
+        "newEvents": "Muli ndi {{1}} zochitika zatsopano",
+        "SelectLocation": "Sankhani Malo",
+        "FilterLocationsPlaceHolder": "Sefani malo okhala ndi ...",
+        "Description": "{{1}} zochitika",
+        "Keywords": "{{1}} zochitika"
+    },
+    "schedule": {
+        "Title": "Ndandanda",
+        "NoneYet": "Simukuchita nawo zochitika zilizonse",
+        "AddSome": "Onjezani zina pandandanda yanu!",
+        "AddMore": "Onjezani zochitika pandandanda yanu!",
+        "future": "m&#39;tsogolo",
+        "past": "m&#39;mbuyo"
+    },
+    "location": {
+        "Title": "Malo",
+        "NewLocation": "Malo Atsopano"
+    },
+    "inbox": {
+        "Title": "Inbox",
+        "NoneYet": "Simutenga nawo mbali pazokambirana zilizonse",
+        "FindPeople": "Pezani anthu oti mulankhule nawo",
+        "GroupConversations": "Lowani nawo pazokambirana zamagulu",
+        "ContactStaff": "Contact Ogwira ntchito",
+        "ContactCustomers": "Lumikizanani ndi Makasitomala"
+    },
+    "me": {
+        "Title": "Ine",
+        "MobileNumber": "Nambala yafoni yam&#39;manja",
+        "EmailAddress": "Imelo adilesi",
+        "UpdateSocialTitle": "Sinthani {{1}} lolowera"
+    },
+    "people": {
+        "Title": "Anthu",
+        "Description": "Anthu {{1}} am&#39;deralo",
+        "AppAlert": "Pulogalamuyi mu app store ikulolani kuti mulumikizane ndi anzanu, ndi zina zambiri.",
+        "Invite": "Itanani Anzanu",
+        "BuyCredits": "Gulani Credits",
+        "FindSomeoneByName": "Pezani wina dzina lake",
+        "SearchByName": "Sakani ndi dzina",
+        "FindAllMyFriends": "Pezani Anzanga Onse",
+        "labels": {
+            "All": "Aliyense",
+            "Title": "Sefa ndi Ubale",
+            "New": "Mtundu Watsopano Waubwenzi"
+        },
+        "interests": {
+            "All": "Zokonda Zonse",
+            "Title": "Sefani ndi Chidwi",
+            "Filter": "Onetsani anthu chidwi . . ."
+        },
+        "Keywords": "{{1}} gulu la anthu"
+    },
+    "communities": {
+        "Title": "Madera",
+        "NewCommunity": "Gulu Latsopano",
+        "FindCommunityByName": "Pezani gulu ndi dzina",
+        "Description": "{{1}} madera"
+    },
+    "community": {
+        "Title": "{{1}} Gulu",
+        "Roles": "Maudindo",
+        "AllRoles": "Maudindo Onse",
+        "YouDontHavePermission": "Simunaloledwa kuchita izi",
+        "usernamePlaceholder": "ikani dzina lagulu",
+        "NotEnoughCredits": "Mulibe ndalama zokwanira zopangira gulu. Mukufuna {{1}}, muli ndi {{2}}"
+    },
+    "event": {
+        "GetDirections": "Pezani mayendedwe",
+        "WhichMap": "Ndi mamapu ati omwe mukufuna kugwiritsa ntchito?",
+        "JoinEventToChat": "Lowani nawo mwambowu kuti mucheze",
+        "promote": {
+            "Title": "Limbikitsani chochitika ichi",
+            "Prompt": "Sankhani komwe mukufuna kukwezera chochitikachi:"
+        },
+        "Confirmation": "Chitsimikizo"
+    },
+    "newEvent": {
+        "Title": "Konzani Chochitika Chatsopano"
+    },
+    "interests": {
+        "Title": "Zokonda",
+        "prompt": "Sankhani mitundu ya zinthu zomwe mukufuna kudziwa.",
+        "explanation": "Mukasankha zokonda zambiri, mumatha kulumikizana ndi anthu amalingaliro ofanana.",
+        "filter": "Mukufuna chiyani?",
+        "Profile": "Zokonda za onse awiri zimawonekera. Ngati mulinso ndi chimodzi kapena zingapo zokonda zili pansipa, mutha {{clickOrTap}} kuziwonjezera."
+    },
+    "credits": {
+        "Title": "Ngongole",
+        "EarnCredits": "Pezani {{1}} makrediti kwa munthu watsopano aliyense amene mungamuyitane amene alowa nawo pulogalamuyi",
+        "YouHave": "Muli ndi {{1}} ngongole"
+    },
+    "onboarding": {
+        "Tap": "Dinani",
+        "Click": "Dinani",
+        "Yes": "Inde",
+        "No": "Ayi",
+        "Skip": "kapena kudumpha izi",
+        "name": {
+            "Preface": "Takulandilani ku",
+            "Placeholder": "Lowetsani dzina lanu lonse",
+            "GetStarted": "Yambanipo",
+            "AsGuest": "Mwaitanidwa ngati mlendo.",
+            "AsMember": "Mwaitanidwa kukhala membala.",
+            "AsAdmin": "Mwaitanidwa kukhala admin.",
+            "AsOwner": "Mwaitanidwa kukhala eni ake.",
+            "TooShort": "Dzina lanu lonse silingakhale lalifupi chotere",
+            "SetAsYourFullName": "Konzani {{1}} kukhala dzina lanu lonse?"
+        },
+        "icon": {
+            "KeepDefault": "kapena sungani chithunzichi",
+            "SetYourPhoto": "{{ClickOrTap}} kuti muyike chithunzi chanu:"
+        },
+        "interests": {
+            "GetStarted": "⇩ Yambani",
+            "NextCategory": "↓ Kenako",
+            "Continue": "Pitirizani",
+            "Instructions": "M&#39;magulu otsatirawa {{1}},<br> {{2}} zochitika zonse zomwe mungakonde.<br> Umu ndi momwe mumalumikizirana ndi anthu ena ammudzi."
+        },
+        "profile": {
+            "Profile": "Mbiri yanu imathandiza anthu kudziwa zambiri za inu.<br>",
+            "Birthday": "Chonde lowetsani tsiku lanu lobadwa:",
+            "Placeholder": "Ndinu ndani ndipo mumachita chiyani? Uzani anthu zinazake zosangalatsa kapena zapadera zokhudza inuyo.",
+            "Required": "Kuti mupitirize, lembani mizere ingapo ponena za inuyo.",
+            "Month": "Mwezi",
+            "Day": "Tsiku",
+            "Year": "Chaka",
+            "Gender": "Jenda",
+            "Male": "Mwamuna",
+            "Female": "Mkazi",
+            "Other": "Zina",
+            "Height": "Kutalika",
+            "Affiliation": "Kugwirizana",
+            "Dating": "Kukhala pachibwenzi",
+            "Interested": "Wokondweretsedwa",
+            "NotInterested": "Sindikufuna",
+            "MatchmakerOnly": "Matchmaker Only"
+        },
+        "location": {
+            "NoOneElse": "Palibe wina aliyense adzachiwona.",
+            "SetMyLocation": "Khazikitsani malo anga"
+        },
+        "pile": {
+            "DialogTitle": "Anthu Amene Ali ndi Zokonda Zofanana"
+        },
+        "Done": "Zatheka"
+    },
+    "profile": {
+        "Title": "Mbiri",
+        "Male": "Mwamuna",
+        "Female": "Mkazi",
+        "Other": "Zina",
+        "dating": {
+            "Interested": "Wokondweretsedwa",
+            "NotInterested": "Osakondweretsedwa",
+            "MatchmakerOnly": "Wofananitsa yekha"
+        },
+        "StartConversation": "Yambitsani Kucheza",
+        "blockUser": "Letsani wosuta uyu",
+        "blockUserAlert": "Simudzawonanso mauthenga ena kuchokera kwa wogwiritsa ntchito mpaka mutawamasula.",
+        "unblockUser": "Chotsani wosuta uyu",
+        "addToContacts": "Onjezani ku Ma Contacts",
+        "manageLabels": "Sinthani Zolemba",
+        "inviteUsers": "Itanani Ogwiritsa Ntchito",
+        "selectRole": "Sankhani Udindo",
+        "inviteSuccess": "Woyitanira bwino ngati {{label}}",
+        "invite": "Itanani",
+        "relationships": "Maubwenzi",
+        "newRole": "Udindo Watsopano",
+        "about": "Za",
+        "people": "Anthu",
+        "info": "Zambiri",
+        "interests": "Zokonda",
+        "chat": "Chezani",
+        "locations": "Malo",
+        "ManageRoles": "Sinthani Maudindo",
+        "aboutPlaceholder": "Ndinu ndani ndipo mumachita chiyani? Uzani anthu zinazake zosangalatsa kapena zapadera zokhudza inuyo.",
+        "explanation": "Mbiri yanu imakuthandizani kuti mufanane ndi anthu ena pazochita zamagulu.<br> Chonde lowetsani tsiku lanu lobadwa",
+        "chats": {
+            "placeholder": "Nenani kena kake"
+        },
+        "LogOut": "Lowani",
+        "MyLinks": "Maulalo Anga",
+        "MyJobs": "Ntchito Zanga",
+        "MySocial": "MySocial",
+        "MyEducation": "Maphunziro Anga",
+        "JobsPlaceholder": "Lembani apa zokhudza ntchito",
+        "EducationPlaceholder": "Lembani apa mfundo za maphunziro",
+        "ManageNotifications": "Sinthani Zidziwitso",
+        "YourPreferredLanguage": "Chilankhulo chomwe mumakonda"
+    },
+    "myqr": {
+        "Title": "QR wanga"
+    },
+    "composer": {
+        "createCommunity": "Pangani Gulu",
+        "inviteAdmin": "Itanani Admin",
+        "inviteMember": "Itanani membala",
+        "newCommunityTitle": "Dzina la Community",
+        "setCommunityTitle": "Dzina la Community",
+        "creditsChargeRequest": "Kodi mukuvomera kugwiritsa ntchito {{price}} ngongole?",
+        "yes": "Inde",
+        "no": "Ayi"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Takulandirani! Chonde tsimikizirani imelo yanu.",
+        "WelcomeVerifyEmail": "Takulandirani! Tsimikizirani imelo yanu.",
+        "ForgetPass": "Hei, mwaiwala mawu anu achinsinsi?",
+        "ManageEmailSubscriptions": "konzani zolembetsa zanu za imelo",
+        "IfUnsubscribe": "Ngati mukufuna kusiya kulemba"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Takulandirani ku {{CommunityName}}. Pulogalamuyi ikuthandizani kulumikizana ndi anzanu, kupeza anthu atsopano omwe mumakonda, ndi zina zambiri. Tiyeni tiyambe!"
+            },
+            "icon": {
+                "Commentary": "Khazikitsani chithunzi chanu. Umu ndi momwe anthu angakuwoneni patsamba."
+            },
+            "interests": {
+                "Commentary": "Mukamasankha zinthu zambiri, mumakumananso ndi anthu ambiri.",
+                "Notifications": "Muyenera kulola zidziwitso"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Zidziwitso zimakupatsani mwayi wodziwa zinthu zomwe mumakonda, monga mnzanu akalowa nawo pulogalamuyo, kapena kukutumizirani mauthenga."
+        },
+        "invite": "{{Q.words.TapOrClick}} apa kuti muwone momwe mungagawire izi ndi anthu ena."
+    },
+    "payment": {
+        "onContribute": "Zikomo! Malipiro anu adutsa. Kodi mungakonde kuitana anzanu kuti abwere nanu?"
+    },
+    "featureboard": {
+        "Text_1": "Liwu lanu limveke! Kodi mukuvomereza kuti tipange chinthu kapena cholakwika? Dinani batani kuti muthandizire.",
+        "Text_2": "Mukufuna tipange chinthu chatsopano? Fotokozani pansipa.",
+        "Text_3": "Sabata iliyonse timayamba kupanga zomwe anthu ammudzi amapempha. Ndalama zonse zomwe zaperekedwa zimapita ku cholinga chimenecho, zomwe zimatilola kupanga pulogalamuyo kukhala yabwinoko.",
+        "Text_4": "Ndalama zonse zomwe zaperekedwa zimagwiritsidwa ntchito kuthandizira kulipira ndalama zathu zachitukuko.",
+        "Text_5": "Kodi muli ndi lingaliro la chinthu kapena cholakwika chomwe mukufuna kuti tichite koma simunawone ena akuwonjezerabe? Fotokozani pansipa:",
+        "Options": [
+            {
+                "text": "$400 Real time videoconferencing"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$200 Zambiri zolembetsa za Local Primary"
+            },
+            {
+                "text": "$130 Sakatulani ndikugawana masauzande a {{1}} ma meme",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 Sinthani madera anu",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Konzani zokambirana cholakwika",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Pemphani Chatsopano\/Bugfix",
+        "FeaturePlaceholder": "Chidule chachidule cha mawonekedwe",
+        "FeatureDescription": "Fotokozani momwe wina angapangirenso cholakwika chomwe mukuwona, kapena fotokozani mwatsatanetsatane zomwe mukufuna kupanga",
+        "AddYourRequest": "Onjezani Pempho Lanu",
+        "NewFeature": "Zatsopano"
+    },
+    "contribute": {
+        "ContributeExplanation": "Thandizani kuthandizira kuti pulogalamu ya {{communityName}} ipitirire. Zopereka zanu zonse zimathandizira kukonza zolakwika ndikupanga zatsopano kuti zikuthandizeni kukulitsa gulu la intaneti!",
+        "ReasonToContribute": "Pulogalamuyi imathandizidwa ndi {{communityName}}. Thandizani kuthandizira pulogalamuyi kuti tisinthe miyoyo ya anthu!"
+    },
+    "assetshistory": {
+        "Title": "Mbiri ya katundu",
+        "Charges": "Zolipiritsa",
+        "Credits": "Ngongole"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Chotsani akaunti",
+            "content": "Kodi mukufuna kuchotsa akauntiyi?",
+            "ok": "Inde",
+            "cancel": "Ayi"
+        }
+    },
+    "import": {
+        "fileNotFound": "Pepani, fayilo ya CSV sinapezeke.",
+        "fileEmpty": "Pepani, fayilo ya CSV ilibe.",
+        "userIdNotFound": "wosuta alipo koma id ilibe",
+        "errorLine": "mzere {{1}}",
+        "fieldNotFound": "Malo ofunikira &quot;{{1}}&quot; sanapezeke",
+        "taskStreamInvalid": "ntchito stream ndi yolakwika",
+        "instructionsEmpty": "ntchito mtsinje malangizo alibe",
+        "complete": "Malizitsani",
+        "activateUsers": "kutumiza uthenga kutsegula kwa ogwiritsa?",
+        "importProgress": "Kupita patsogolo",
+        "joinEventLabel": "Lowani nawo ogwiritsa ntchito zochitika mwachisawawa",
+        "importOptions": "Zosankha",
+        "sampleCSV": "Tsitsani Chitsanzo cha CSV",
+        "fileLabel": "Kwezani Spreadsheet:",
+        "errorsTitle": "Zolakwika zidachitika",
+        "communityUsers": "Uwu ndi mndandanda wamagulu",
+        "setAsConversation": "Tsamba la URL ngati zokambirana",
+        "toMainCommunityToo": "onjezaninso ogwiritsa ntchito kugulu lalikulu",
+        "willImportedTo": "Ogwiritsa ntchito adzatumizidwa kumudzi"
+    }
+}

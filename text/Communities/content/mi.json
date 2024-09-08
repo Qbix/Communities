@@ -1,0 +1,362 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}} karekau<\/span> he tohu ki tetahi mea!",
+        "NextSteps": "Whakamahia te tahua matua ki te kimi i taau e rapu ana."
+    },
+    "dashboard": {
+        "Menu": "Tahua"
+    },
+    "greeting": {
+        "Welcome": "Nau mai ki {{1}}. I konei ka kitea e koe nga mea kua whakairihia mo nga mema o to tatou hapori. Tena koa taapirihia to wahitau imeera me to nama waea pūkoro kia whiwhi whakamohiotanga ka tukuna nga panui."
+    },
+    "conversations": {
+        "Title": "Kōrerorero",
+        "New": "Korero Hou",
+        "Conversation": "Kōrerorero",
+        "Topics": "Kaupapa",
+        "NoneYet": "Kare ano he korerorero i hanga",
+        "newConversations": "{{1}} nga korero hou",
+        "AllAuthors": "Kaituhi Katoa",
+        "FilterbyAuthors": "Tātari mā ngā Kaituhi",
+        "FilterAuthorPlaceHolder": "Rapua etahi atu kaituhi...",
+        "filterConversations": "Tātari mā te kupu",
+        "Description": "{{1}} nga korerorero"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Kōwhiria he kaupapa",
+            "Share": "Tiria",
+            "interest": {
+                "Title": "Kōwhiria he Mahi",
+                "Filter": "Rapu hiahia ..."
+            }
+        },
+        "Title": "Korero Hou",
+        "TitlePlaceholder": "Kaupapa o to korero",
+        "ContentPlaceholder": "Tuhia etahi kupu hei timata i te korerorero, kia taea e etahi atu te whakautu",
+        "StartButton": "Tīmata Kōrerorero"
+    },
+    "events": {
+        "Title": "Nga huihuinga",
+        "filterByTitle": "Kimihia nga huihuinga ma te taitara",
+        "New": "+ Tīmata Takahanga Hou",
+        "filterEvents": "Tātari takahanga",
+        "NewEvent": "Takahanga Hou",
+        "SetLocation": "Tautuhi Taku Tauwāhi",
+        "NoneYet": "Karekau he kaupapa i hanga<br> i enei wa.",
+        "AllAuthors": "Kaituhi Katoa",
+        "AllDays": "Nga Ra Katoa",
+        "AllLocations": "Nga waahi katoa",
+        "MakeReservation": "Hanga Rahui",
+        "CancelReservation": "Whakakore Rahui",
+        "UpdateReservation": "Whakahouhia te Rahui",
+        "AreYouSure": "Kei te tino mohio koe?",
+        "YouWillRefunded": "Ka whakahokia koe ki te ahua o nga whiwhinga ka taea e koe te whakapau mo etahi atu mea i roto i te taupānga.",
+        "AllInterests": "Nga Kainga Katoa",
+        "FilterbyInterest": "Tātarihia mā te Pānga",
+        "FilterByDate": "Tātari Ma te Rā",
+        "ShowActivities": "Whakaatu mahi e pa ana ki . . .",
+        "newEvents": "He {{1}} kaupapa hou",
+        "SelectLocation": "Tīpako Wāhi",
+        "FilterLocationsPlaceHolder": "Tātarihia nga waahi me ...",
+        "Description": "{{1}} kaupapa",
+        "Keywords": "{{1}} kaupapa"
+    },
+    "schedule": {
+        "Title": "Hōtaka",
+        "NoneYet": "Kaore koe e whai waahi ki tetahi huihuinga",
+        "AddSome": "Tāpirihia etahi ki to mahere!",
+        "AddMore": "Taapirihia nga huihuinga ki to waarangi!",
+        "future": "heke mai",
+        "past": "o mua"
+    },
+    "location": {
+        "Title": "Tauwāhi",
+        "NewLocation": "Tauwāhi Hou"
+    },
+    "inbox": {
+        "Title": "Pouakauru",
+        "NoneYet": "Kaore koe e uru ki nga korerorero",
+        "FindPeople": "Kimihia nga tangata hei korero",
+        "GroupConversations": "Whakauru atu ki etahi korerorero roopu",
+        "ContactStaff": "Whakapa atu ki nga Kaimahi",
+        "ContactCustomers": "Whakapa atu ki nga Kaihoko"
+    },
+    "me": {
+        "Title": "Ko ahau",
+        "MobileNumber": "Tau Pukoro",
+        "EmailAddress": "Wāhitau Īmēra",
+        "UpdateSocialTitle": "Whakahōu {{1}} ingoa kaiwhakamahi"
+    },
+    "people": {
+        "Title": "Tangata",
+        "Description": "Nga tangata o te hapori {{1}}.",
+        "AppAlert": "Ma tenei taupānga kei roto i te toa taupānga ka taea e koe te hono atu ki o hoa, me te maha atu.",
+        "Invite": "Tonoa e hoa",
+        "BuyCredits": "Hoko Whiwhinga",
+        "FindSomeoneByName": "Kimihia tetahi ma tona ingoa",
+        "SearchByName": "Rapua ma te ingoa",
+        "FindAllMyFriends": "Kimihia aku hoa katoa",
+        "labels": {
+            "All": "Katoa",
+            "Title": "Tātarihia mā te hononga",
+            "New": "Momo Whanaungatanga Hou"
+        },
+        "interests": {
+            "All": "Nga Kainga Katoa",
+            "Title": "Tātarihia mā te Pānga",
+            "Filter": "Whakaatuhia nga tangata e aro nui ana. . ."
+        },
+        "Keywords": "{{1}} hapori tangata"
+    },
+    "communities": {
+        "Title": "Hapori",
+        "NewCommunity": "Hapori Hou",
+        "FindCommunityByName": "Kimihia te hapori ma te ingoa",
+        "Description": "{{1}} hapori"
+    },
+    "community": {
+        "Title": "{{1}} Hapori",
+        "Roles": "Ngā tūranga",
+        "AllRoles": "Nga Mahi Katoa",
+        "YouDontHavePermission": "Kaore koe i te mana ki te mahi i tenei",
+        "usernamePlaceholder": "tautuhi ingoa hapori",
+        "NotEnoughCredits": "He iti rawa o whiwhinga hei hanga hapori. Me {{1}}, kei a koe {{2}}"
+    },
+    "event": {
+        "GetDirections": "Tikina Aratohu",
+        "WhichMap": "Ko ēhea mahere ka hiahia koe ki te whakamahi?",
+        "JoinEventToChat": "Hono atu ki te huihuinga ki te korerorero",
+        "promote": {
+            "Title": "Whakanuia tenei kaupapa",
+            "Prompt": "Kōwhirihia te wāhi e hiahia ana koe ki te whakatairanga i tēnei takahanga:"
+        },
+        "Confirmation": "Whakapumautanga"
+    },
+    "newEvent": {
+        "Title": "Whakamahere Hui Hou"
+    },
+    "interests": {
+        "Title": "Kainga",
+        "prompt": "Tohua nga momo mea e hiahia ana koe ki te mohio.",
+        "explanation": "Ko te nui ake o nga hiahia ka tohua e koe, ka kaha ake te hono atu ki nga tangata whakaaro rite.",
+        "filter": "He aha to hiahia?",
+        "Profile": "Ka whakanuia nga hiahia o tetahi ki tetahi. Mena kei a koe tetahi, nui ake ranei o nga paanga kei raro nei, ka taea e koe {{clickOrTap}} te taapiri."
+    },
+    "credits": {
+        "Title": "Whiwhinga",
+        "EarnCredits": "Whiwhi {{1}} nga whiwhinga mo ia tangata hou ka tono koe ka uru mai ki te taupānga",
+        "YouHave": "He nama {{1}} koe"
+    },
+    "onboarding": {
+        "Tap": "Tap",
+        "Click": "Pāwhiri",
+        "Yes": "Ae",
+        "No": "Kao",
+        "Skip": "pekehia ranei tenei",
+        "name": {
+            "Preface": "Nau mai haere mai",
+            "Placeholder": "Whakauruhia to ingoa katoa",
+            "GetStarted": "Tīmatahia",
+            "AsGuest": "Kua powhiritia koe hei manuhiri.",
+            "AsMember": "Kua powhiritia koe hei mema.",
+            "AsAdmin": "Kua powhiritia koe hei kaiwhakahaere.",
+            "AsOwner": "Kua powhiritia koe hei rangatira.",
+            "TooShort": "Ko to ingoa katoa kaore e taea te poto",
+            "SetAsYourFullName": "Tautuhi {{1}} hei ingoa katoa?"
+        },
+        "icon": {
+            "KeepDefault": "pupuri ranei i tenei whakaahua",
+            "SetYourPhoto": "{{ClickOrTap}} ki te tautuhi i to whakaahua:"
+        },
+        "interests": {
+            "GetStarted": "⇩ Tīmatahia",
+            "NextCategory": "↓ Panuku",
+            "Continue": "Haere tonu",
+            "Instructions": "I ia o nga waahanga {{1}} e whai ake nei,<br> {{2}} nga mahi katoa e hiahia ana koe.<br> Koinei te huarahi e hono ai koe ki etahi atu tangata o te hapori."
+        },
+        "profile": {
+            "Profile": "Ko to kōtaha e awhina ana i nga tangata ki te mohio ake mo koe.<br>",
+            "Birthday": "Whakaurua koa to ra whanau:",
+            "Placeholder": "Ko wai koe, he aha koe? Korero ki nga tangata tetahi mea whakamere, ahurei ranei mo koe.",
+            "Required": "Hei haere tonu, tuhia kia rua nga rarangi mo koe.",
+            "Month": "Marama",
+            "Day": "Ra",
+            "Year": "Tau",
+            "Gender": "Ira tangata",
+            "Male": "Tane",
+            "Female": "Wahine",
+            "Other": "Ētahi atu",
+            "Height": "Teitei",
+            "Affiliation": "Hononga",
+            "Dating": "Te Teití",
+            "Interested": "Hiahia",
+            "NotInterested": "Kaore e Hiahia",
+            "MatchmakerOnly": "Kaiwhaiwhai anake"
+        },
+        "location": {
+            "NoOneElse": "Kaore tetahi atu e kite.",
+            "SetMyLocation": "Tautuhia taku waahi"
+        },
+        "pile": {
+            "DialogTitle": "Ko nga Tangata whai Hiranga Kotahitanga"
+        },
+        "Done": "Kua oti"
+    },
+    "profile": {
+        "Title": "Kōtaha",
+        "Male": "Tane",
+        "Female": "Wahine",
+        "Other": "Ētahi atu",
+        "dating": {
+            "Interested": "Hiahia",
+            "NotInterested": "Karekau he hiahia",
+            "MatchmakerOnly": "Kaihoahoa anake"
+        },
+        "StartConversation": "Tīmatahia he Kōrerorero",
+        "blockUser": "Poraka tenei kaiwhakamahi",
+        "blockUserAlert": "Ka kore koe e kite i etahi atu karere mai i tenei kaiwhakamahi kia wetewete koe i a raatau.",
+        "unblockUser": "Wewetehia tenei kaiwhakamahi",
+        "addToContacts": "Tāpiri ki Hoapā",
+        "manageLabels": "Whakahaere Tapanga",
+        "inviteUsers": "Powhiri Kaiwhakamahi",
+        "selectRole": "Tīpako Tūnga",
+        "inviteSuccess": "I angitu te tono i te kaiwhakamahi hei {{label}}",
+        "invite": "Powhiri",
+        "relationships": "Whanaungatanga",
+        "newRole": "Turanga Hou",
+        "about": "Mō",
+        "people": "Tangata",
+        "info": "Nga korero",
+        "interests": "Kainga",
+        "chat": "Kōrerorero",
+        "locations": "Nga waahi",
+        "ManageRoles": "Whakahaere Tūnga",
+        "aboutPlaceholder": "Ko wai koe, he aha koe? Korero ki nga tangata tetahi mea whakamere, ahurei ranei mo koe.",
+        "explanation": "Ka pai ake to korero ki a koe ki etahi atu tangata mo nga mahi a-rōpū.<br> Whakaurua koa to ra whanau",
+        "chats": {
+            "placeholder": "Korerohia tetahi mea"
+        },
+        "LogOut": "Takiputa atu",
+        "MyLinks": "Aku Hononga",
+        "MyJobs": "Aku Mahi",
+        "MySocial": "MySocial",
+        "MyEducation": "Taku Mātauranga",
+        "JobsPlaceholder": "Patohia ki konei nga korero mahi",
+        "EducationPlaceholder": "Patohia ki konei nga korero matauranga",
+        "ManageNotifications": "Whakahaere Whakamōhiotanga",
+        "YourPreferredLanguage": "Ko to reo pai"
+    },
+    "myqr": {
+        "Title": "Taku QR"
+    },
+    "composer": {
+        "createCommunity": "Waihanga Hapori",
+        "inviteAdmin": "Powhiritia te Kaiwhakahaere",
+        "inviteMember": "Powhiri Mema",
+        "newCommunityTitle": "Ingoa Hapori",
+        "setCommunityTitle": "Ingoa Hapori",
+        "creditsChargeRequest": "E whakaae ana koe ki te whakapau {{price}} nama?",
+        "yes": "Ae",
+        "no": "Kao"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Nau mai haere mai! Tena koa manatokohia to wahitau imeera.",
+        "WelcomeVerifyEmail": "Nau mai haere mai! Manatokohia to wahitau imeera.",
+        "ForgetPass": "Hey, i wareware koe ki to kīangahipa?",
+        "ManageEmailSubscriptions": "whakahaere i o ohaurunga imeera",
+        "IfUnsubscribe": "Mena kei te pirangi koe ki te whakakore i te ohauru"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Nau mai ki {{CommunityName}}. Ma tenei taupānga ka awhina koe ki te hono atu ki o hoa, ki te kimi i nga tangata hou e pa ana ki a koe, me te maha atu. Kia timata tatou!"
+            },
+            "icon": {
+                "Commentary": "Tautuhia to whakaahua. Ma tenei ka kite nga tangata i a koe i runga i te pae."
+            },
+            "interests": {
+                "Commentary": "Ko te nui ake o nga taonga ka tohua e koe, ka nui ake nga tangata ka tutaki koe.",
+                "Notifications": "Me whakaae koe ki nga whakamohiotanga"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Ma nga whakamohiotanga ka mohio koe mo nga mea e pirangi ana koe, penei i te wa ka uru mai tetahi hoa ki te taupānga, ka tuku karere ranei ki a koe."
+        },
+        "invite": "{{Q.words.TapOrClick}} ki konei kia kite me pehea e taea ai e koe te tiri i tenei ki etahi atu tangata."
+    },
+    "payment": {
+        "onContribute": "Mauruuru koe! I puta to utu. Kei te pirangi koe ki te tono i o hoa kia uru mai ki a koe?"
+    },
+    "featureboard": {
+        "Text_1": "Kia rangona to reo! E whakaae ana koe me whakawhanake tatou i tetahi ahuatanga, bug ranei? Patohia te paatene hei tautoko.",
+        "Text_2": "Kei te hiahia maatau ki te whakawhanake i tetahi waahanga hou? Whakaahuatia i raro nei.",
+        "Text_3": "Ia wiki ka tiimata taatau ki te whakawhanake i te waahanga nui e tonohia ana e te hapori. Ko nga moni katoa i koha mai ka haere ki tera kaupapa, ka taea e taatau te whakapai ake i te taupānga.",
+        "Text_4": "Ko nga moni katoa i kohaina ka whakamahia hei utu i a maatau utu whanaketanga.",
+        "Text_5": "He whakaaro koe mo tetahi ahuatanga, whakatika bug ranei e hiahia ana koe kia mahia e matou engari kaore ano kia kite i etahi atu taapiri? Whakaahuatia i raro nei:",
+        "Options": [
+            {
+                "text": "$400 Huinga ataata i te wa tuturu"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$200 Nga korero rehitatanga tuatahi o te rohe"
+            },
+            {
+                "text": "$130 Tirotiro me te tiri i nga mano o {{1}} meme",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 Whakahaerehia o ake hapori",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Whakatika i nga pire korero",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Tonoa he waahanga hou \/ whakatika bug",
+        "FeaturePlaceholder": "He whakarāpopototanga poto o te āhuatanga",
+        "FeatureDescription": "Whakaahuahia me pehea e taea ai e tetahi atu te whakaputa i te bug e kite ana koe, te whakaahua taipitopito ranei i te ahuatanga e hiahia ana koe ki te hanga",
+        "AddYourRequest": "Tāpirihia to Tono",
+        "NewFeature": "Āhuahira Hou"
+    },
+    "contribute": {
+        "ContributeExplanation": "Awhina ki te tautoko i te whanaketanga tonu o te {{communityName}} taupānga. Ko o takoha katoa ka awhina ki te whakatika i nga pepeke me te whakawhanake i nga ahuatanga hou hei awhina i te whakatipu i te hapori ipurangi!",
+        "ReasonToContribute": "Ko tenei taupānga ka tiakina e nga kaitautoko o {{communityName}}. Awhina ki te tautoko i tenei taupānga kia whai hua ai tatou ki te oranga o te tangata!"
+    },
+    "assetshistory": {
+        "Title": "Hītori rawa",
+        "Charges": "Nga utu",
+        "Credits": "Whiwhinga"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Tango pūkete",
+            "content": "Me tango tenei kaute?",
+            "ok": "Ae",
+            "cancel": "Kao"
+        }
+    },
+    "import": {
+        "fileNotFound": "Aroha mai, kaore i kitea te konae CSV.",
+        "fileEmpty": "Aroha mai, kei te putua te kōnae CSV.",
+        "userIdNotFound": "kei te noho te kaiwhakamahi engari id kau",
+        "errorLine": "raina {{1}}",
+        "fieldNotFound": "Ko te mara e hiahiatia ana &quot;{{1}}&quot; kaore i kitea",
+        "taskStreamInvalid": "he muhu te rerenga mahi",
+        "instructionsEmpty": "kau ana nga tohutohu rerenga mahi",
+        "complete": "Kua oti",
+        "activateUsers": "tuku karere whakahohenga ki nga kaiwhakamahi?",
+        "importProgress": "Te ahunga whakamua",
+        "joinEventLabel": "Hono atu ki nga kaiwhakamahi ki te takahanga ohorere",
+        "importOptions": "Kōwhiringa",
+        "sampleCSV": "Tikiake Tauira CSV",
+        "fileLabel": "Tukuake Ripanga:",
+        "errorsTitle": "I puta nga hapa",
+        "communityUsers": "Koinei te rarangi hapori",
+        "setAsConversation": "Ko te pou URL hei korerorero",
+        "toMainCommunityToo": "taapirihia nga kaiwhakamahi ki te hapori matua",
+        "willImportedTo": "Ka kawemai nga kaiwhakamahi ki te hapori"
+    }
+}

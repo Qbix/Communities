@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Siz taklif qilinasiz",
+        "Member": "{{title}} aʼzosi",
+        "Explanation": "{{1}} yangi veb-saytimiz ishga tushirilganini mamnuniyat bilan e&#39;lon qiladi. U o&#39;sib borayotgan xususiyatlar ro&#39;yxatini o&#39;z ichiga oladi, masalan:",
+        "Public": "{{1}} haqida ommaviy axborot",
+        "Private": "Har bir a&#39;zo uchun shaxsiy foydalanuvchi hisobi",
+        "Notifications": "Elektron pochta manzilingizni yoki mobil raqamingizni kiritib, elektron pochta yoki matnli xabar orqali muhim bildirishnomalarni olishingiz mumkin bo&#39;ladi.",
+        "GetStarted": "Boshlash uchun veb-brauzeringizga <em>diqqat bilan<\/em> kiriting:<br>",
+        "IssuedToYou": "Ushbu kod sizga maxsus berilgan."
+    }
+}

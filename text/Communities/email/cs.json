@@ -1,0 +1,33 @@
+{
+    "activation": {
+        "Thanks": "Vítejte v {{1}}",
+        "ReallyYourEmail": "Je to opravdu vaše e-mailová adresa, {{1}}? Pokud ano, klikněte <a href='{{2}}'>sem<\/a> a nastavte si heslo a aktivujte svůj účet.",
+        "SeeYou": "Uvidíme se na <a href='{{1}}'>{{100}}<\/a> !",
+        "Subject": "Vítejte! Ověřte prosím svou e-mailovou adresu."
+    },
+    "LinkToUnsubscribe": "Zde je odkaz pro <a href='{{1}}'>odhlášení<\/a> , pokud již nechcete dostávat žádné další e-maily.",
+    "Greetings": "Zdravím vás z {{1}}.",
+    "SeeHistory": "Zobrazit historii plateb za {{1}}",
+    "charge": {
+        "HasBeenCharged": "Dobrý den, tímto vám chceme oznámit, že {{4}} byla účtována částka {{1}} {{2}} za {{3}}"
+    },
+    "charged": {
+        "HavePaid": "Dobrý den, {{1}}, toto je jen rychlé potvrzení, že jste úspěšně zaplatili {{2}} uživateli {{3}} za {{4}}"
+    },
+    "resend": {
+        "Thanks": "Děkujeme za návštěvu {{1}}",
+        "YouAreReceiving": "Tento e-mail jste obdrželi, protože někdo zadal vaši e-mailovou adresu a klikl na „zapomněl jsem heslo“. Pokud jste to nebyli vy, jednoduše tuto zprávu ignorujte.",
+        "Reset": "Chcete-li resetovat přístupovou frázi, klikněte na {{1}}",
+        "SetUpPassphrase": "Nastavte přístupovou frázi",
+        "DomainCode": "Pokud je webová stránka již otevřena ve vašem prohlížeči, můžete zadat kód",
+        "Subject": "Hej, zapomněl jsi heslo?"
+    },
+    "subscription": {
+        "YouHaveStarted": "Dobrý den, {{1}}, zahájili jste své předplatné {{100}} s {{3}} v {{4}} na {{5}} měsíce.",
+        "HasStarted": "Tímto vám chceme oznámit, že {{1}} zahájil své předplatné {{2}} s {{3}} v {{4}} na {{5}} měsíců."
+    },
+    "SeeYou": "Uvidíme se na {{1}}!",
+    "identifier": {
+        "Subject": "Vítejte! Ověřte svou e-mailovou adresu."
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "activation": {
+        "Thanks": "Witamy w {{1}}",
+        "ReallyYourEmail": "Czy to naprawdę Twój adres e-mail {{1}}? Jeśli tak, kliknij <a href='{{2}}'>tutaj,<\/a> aby ustawić hasło i aktywować konto.",
+        "SeeYou": "Do zobaczenia <a href='{{1}}'>{{2}}<\/a> !",
+        "Subject": "Witamy! Zweryfikuj swój adres e-mail."
+    },
+    "LinkToUnsubscribe": "Oto link do <a href='{{1}}'>anulowania subskrypcji<\/a> , jeśli nie chcesz otrzymywać więcej e-maili.",
+    "Greetings": "Pozdrowienia od {{1}}.",
+    "SeeHistory": "Zobacz historię płatności dla {{1}}",
+    "charge": {
+        "HasBeenCharged": "Hej, informujemy, że {{1}} został obciążony {{2}} za {{3}} do {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hej {{1}}, to tylko szybkie potwierdzenie, że pomyślnie zapłaciłeś {{2}} na rzecz {{3}} za {{4}}"
+    },
+    "resend": {
+        "Thanks": "Dziękujemy za odwiedzenie {{1}}",
+        "YouAreReceiving": "Otrzymujesz tę wiadomość, ponieważ ktoś podał Twój adres e-mail i kliknął „zapomniałem hasła”. Jeśli to nie Ty, po prostu zignoruj tę wiadomość.",
+        "Reset": "Aby zresetować hasło, kliknij {{1}}",
+        "SetUpPassphrase": "Skonfiguruj hasło",
+        "DomainCode": "Jeśli strona internetowa jest już otwarta w Twojej przeglądarce, możesz wpisać kod",
+        "Subject": "Hej, zapomniałeś hasła?"
+    },
+    "subscription": {
+        "YouHaveStarted": "Hej {{1}}, rozpocząłeś subskrypcję {{2}} za {{3}} o {{4}} na {{5}} miesięcy.",
+        "HasStarted": "Pragniemy poinformować, że {{1}} rozpoczął subskrypcję {{2}} za {{3}} o {{4}} na {{5}} miesięcy."
+    },
+    "SeeYou": "Do zobaczenia {{1}}!",
+    "identifier": {
+        "Subject": "Witamy! Zweryfikuj swój adres email."
+    }
+}

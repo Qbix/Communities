@@ -1,0 +1,20 @@
+{
+    "activation": {
+        "Thanks": "Nnọọ na {{1}}.",
+        "ClickHere": "Pịa ebe a iji mee ka akaụntụ gị rụọ ọrụ: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Pịa ebe a iji nyochaa akara ekwentị gị: {{1}}"
+    },
+    "SeeHistory": "Hụ akụkọ ịkwụ ụgwọ maka {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} agbaala {{2}} maka {{3}} site na {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hey {{999}, nke a bụ naanị nkwenye ngwa ngwa na ị kwụgoro nke ọma {{2}} na {{3}} maka {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "I jirila {{3}} debanye aha na {{2}} na {{4}} maka ọnwa {{5}}.",
+        "HasStarted": "{{1}} ejirila {{3}} debanye aha na {{2}} na {{4}} maka ọnwa {{5}}."
+    }
+}

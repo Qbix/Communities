@@ -1,0 +1,192 @@
+.Communities_people_content select,
+.Communities_people_content .selectize-control,
+.Communities_profile_content select,
+.Communities_profile_content.Communities_notMyProfile .selectize-control {
+	width: 80%; box-sizing: border-box; display: inline-block; vertical-align: middle;
+}
+
+.Communities_profile_summary_tool {
+	width: 100%;
+	padding: 5%;
+	line-height: 40px;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Helvetica;
+}
+.Communities_summary_distance {
+	font-size: 14px;
+	line-height: 14px;
+}
+
+.Communities_variable_height .Streams_inplace_tool,
+.Communities_variable_height .Streams_inplace_tool .Q_inplace_tool,
+.Communities_variable_height .Streams_inplace_tool .Q_inplace_tool_container,
+.Communities_variable_height .Streams_inplace_tool .Q_inplace_tool_blockstatic,
+.Communities_variable_height .Streams_inplace_tool textarea {
+	width: 100%; box-sizing: border-box; text-align: center;
+}
+
+.Communities_variable_height .Streams_inplace_tool .Q_inplace_tool {
+	padding-bottom: 50px;
+}
+
+.Communities_variable_height .Streams_inplace_tool {
+	padding: 10px;
+}
+
+.Q_touchscreen .Communities_profile_main .Q_inplace_tool_blockstatic {
+	border: 1px dashed #aaa;
+}
+
+#Streams_inplace-greeting_tool .Q_placeholder { font-style: normal; }
+
+#Communities_community_column .communities_column_community_main_avatar_dummy {
+	vertical-align: middle;
+	display: inline-block;
+	width: calc(100% - 80px);
+	white-space: normal;
+}
+.Communities_myProfile .Communities_column_community_main_avatar img.Users_avatar_icon {
+	box-shadow: #aac 0 0 14px; -webkit-box-shadow: #aac 0 0 14px; -moz-box-shadow: #aac 0 0 14px;
+}
+#Communities_community_column .Communities_column_community_main_avatar .Users_avatar_name {
+	display: none;
+}
+#Streams_inplace-community_main_inplace_tool {
+	display: block;
+	vertical-align: middle;
+	font-size: 20px;
+	line-height: 25px;
+	max-height: 73px;
+	overflow: hidden;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	margin: 0 10px 0 0;
+}
+.Q_column_community .Q_column_slot {
+	overflow: hidden;
+}
+.Q_column_community #Communities_profile_labels,
+.Q_column_community #Communities_profile_events {
+	overflow-y: auto;
+}
+.Community_invite_dialog {
+	width: 500px;
+}
+.Q_mobile .Community_invite_dialog {
+	width: 300px;
+}
+.Communities_column_community_main_avatar { margin: 0; }
+.Communities_column_community_main_avatar img.Users_avatar_icon { width: 80px; height: 80px; }
+#Communities_community_column {white-space: nowrap}
+.Q_column_community #Communities_profile_labels .Users_labels_tool {
+	padding: 0 10px;
+}
+
+#Streams_form_tool { line-height: 30px; }
+#Streams_form_tool select { font-size: 14px; }
+
+.Communities_tab img { width: 20px; height: 20px; }
+
+.Communities_tabs { margin-top: 10px; -webkit-transform: translateZ(0); }
+
+.Q_before.streamName_streams_user_gender { display: block; }
+
+#page .Q_column_community .Communities_profile_sections .Communities_profile_section {
+	border-top: 1px solid #777;
+	margin-top: -1px;
+	padding: 5px 0;
+	display: none;
+}
+#page .Q_column_community .Communities_profile_sections #Communities_profile_people {
+	padding: 0;
+}
+#page .Communities_profile_sections .Communities_profile_section.Q_current {
+	display: block;
+}
+
+.Streams_interests_tool.Streams_interests_anotherUser .Streams_interest_title.Streams_interests_anotherUser {
+	color: black;
+}
+
+.Communities_profile_section.Communities_profile_loggedInUser {
+	text-align: center;
+	background: none;
+	border: none;
+	padding-bottom: 20px;
+}
+
+.Communities_profile_section .Communities_manage_contacts {
+	display: block;
+	margin: 1px auto;
+}
+.Communities_dialog_community .Users_list_tool {
+	padding: 10px;
+}
+.Communities_dialog_community .Users_list_tool .Users_avatar_tool {
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+.Communities_dialog_community .Communities_composer_tool button,
+.Q_column_community .Communities_composer_tool button {
+	background-image: url("../../../Q/img/actions/add.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: contain;
+	border: none;
+	background-color: transparent;
+	font-size: 16px;
+	line-height: 40px;
+	padding-left: 50px;
+	margin: 10px auto;
+	display: block;
+	cursor: pointer;
+}
+.Communities_profile_content .Communities_profile_roles_label {
+	padding-left: 20px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-size: contain;
+}
+.Q_notMobile .Communities_tab {
+	padding: 3px;
+	font-size: 12px;
+}
+.Places_location_preview_tool .Places_location_preview {
+	text-align: left;
+}
+.Places_location_preview_tool .Places_location_preview_icon {
+	margin-right: 5px;
+}
+.Places_location_tool div[data-location=address] label {
+	display: none;
+}
+.Places_location_tool .Places_location_preview_tool .Places_location_preview_contents h3 {
+	background-color: transparent;
+}
+#Communities_profile_locations .Places_location_tool .Places_location_preview_tool .Streams_preview_icon {
+	display: inline;
+}
+#Communities_profile_locations .Streams_preview_container {
+	text-align: left;
+	white-space: nowrap;
+}
+#Communities_profile_locations h3 {
+	color: black;
+}
+.Communities_dialog_newLocation .Q_dialog_content {
+	height: 200px;
+	padding: 10px;
+}
+.Communities_community_controls {
+	display: inline-block;
+	width: 100%;
+}
+.Communities_community_controls[data-tab][data-hidden] {
+	display: none;
+}
+.Communities_column_community .Q_columns_title .Q_title_slot i,
+.Communities_column_community .Q_columns_title .Communities_eventChooser {
+	display: none;
+}

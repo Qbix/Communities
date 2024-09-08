@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Du är inbjuden",
+        "Member": "Medlem på {{title}}",
+        "Explanation": "{{1}} är glada att kunna meddela lanseringen av vår nya webbplats. Den innehåller en växande lista med funktioner, såsom:",
+        "Public": "Offentlig information om {{1}}",
+        "Private": "Ett privat användarkonto för varje medlem",
+        "Notifications": "Genom att ange din e-postadress eller ditt mobilnummer kommer du att kunna ta emot viktiga meddelanden via e-post eller sms.",
+        "GetStarted": "För att komma igång, ange <em>noggrant<\/em> i din webbläsare:<br>",
+        "IssuedToYou": "Denna kod är specifikt utfärdad till dig."
+    }
+}

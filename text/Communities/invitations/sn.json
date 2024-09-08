@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Uri kukokwa",
+        "Member": "Nhengo pa {{title}}",
+        "Explanation": "{{1}} ndafara kuzivisa kutangwa kwewebhusaiti yedu itsva. Inosanganisira rondedzero inokura yezvinhu, senge:",
+        "Public": "Ruzivo rweruzhinji nezve {{1}}",
+        "Private": "Yakavanzika mushandisi account yenhengo yega yega",
+        "Notifications": "Nekuisa yako email kero kana nharembozha unokwanisa kugamuchira zvakakosha zviziviso neemail kana meseji.",
+        "GetStarted": "Kuti utange, mubrowser yako ndapota isa <em>nekungwarira<\/em> :<br>",
+        "IssuedToYou": "Iyi kodhi yakapihwa iwe zvakananga."
+    }
+}

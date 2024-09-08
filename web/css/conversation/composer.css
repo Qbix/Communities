@@ -1,0 +1,48 @@
+.Communities_conversation_composer_tool .Communities_step {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 5px;
+	vertical-align: middle; min-height: 40px;
+	background-repeat: no-repeat;
+	background-size: 40px 40px;
+	background-position: left center;
+}
+.Communities_conversation_composer .Communities_step.Q_buttons {
+	padding: 5px;
+}
+
+.Communities_conversation_composer_tool .Communities_step.Communities_conversation_composer_interest {
+	padding: 5px 5px 10px 50px;
+	background-image: url(../../img/colorful/conversations.png);
+}
+
+.Communities_conversation_composer_tool .Q_button {
+	box-sizing: border-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.Communities_conversation_composer_tool .Q_button.Communities_conversation_composer_interest_button {
+	display: block;
+	background-color: #0b94a9;
+	width: 100%;
+}
+
+.Communities_conversation_composer_tool input,
+.Communities_conversation_composer_tool select {
+	font-size: 16px;
+	overflow: hidden;
+	box-sizing: border-box;
+	display: block;
+}
+.Communities_conversation_composer_tool textarea {
+	font-size: 16px;
+	min-height: 100px;
+	display: block;
+}
+.Communities_conversation_composer_tool .Communities_conversation_composer_share {
+	display: block;
+	width: 100%;
+    padding: 10px;
+    font-weight: bold;
+}

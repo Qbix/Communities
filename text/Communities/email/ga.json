@@ -1,0 +1,33 @@
+{
+    "activation": {
+        "Thanks": "Fáilte go {{1}}",
+        "ReallyYourEmail": "An é seo do sheoladh ríomhphoist i ndáiríre, {{1}}? Más ea, cliceáil <a href='{{2}}'>anseo<\/a> chun do phasfhrása a shocrú agus do chuntas a ghníomhachtú.",
+        "SeeYou": "Féach leat ar <a href='{{1}}'>{{2}}<\/a> !",
+        "Subject": "Fáilte romhat! Fíoraigh do sheoladh ríomhphoist."
+    },
+    "LinkToUnsubscribe": "Seo nasc chun <a href='{{1}}'>díliostáil<\/a> mura bhfuil tú ag iarraidh a thuilleadh ríomhphoist a fháil.",
+    "Greetings": "Beannachtaí ó {{1}}.",
+    "SeeHistory": "Féach ar an stair íocaíochta le haghaidh {{1}}",
+    "charge": {
+        "HasBeenCharged": "Hey, níl anseo ach chun tú a chur ar an eolas gur gearradh {{2}} as {{3}} ag {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hey {{1}}, níl anseo ach dearbhú tapa gur éirigh leat {{2}} a íoc le {{3}} as {{4}}"
+    },
+    "resend": {
+        "Thanks": "Go raibh maith agat as cuairt a thabhairt ar {{1}}",
+        "YouAreReceiving": "Tá an ríomhphost seo á fháil agat toisc gur chuir duine éigin isteach do sheoladh ríomhphoist agus gur chliceáil &quot;dearmad pasfhrása&quot;. Mura tusa a bhí ann, déan neamhaird den teachtaireacht seo.",
+        "Reset": "Chun do phasfhrása a athshocrú, cliceáil {{1}}",
+        "SetUpPassphrase": "Socraigh pasfhrása",
+        "DomainCode": "Má tá an leathanach Gréasáin oscailte i do bhrabhsálaí cheana féin, is féidir leat an cód a chur isteach",
+        "Subject": "Hey, an ndearna tú dearmad ar do phasfhrása?"
+    },
+    "subscription": {
+        "YouHaveStarted": "Hey {{1}}, tá tús curtha agat le do shíntiús le {{2}} le {{3}} ag {{4}} le {{5}} mí.",
+        "HasStarted": "Tá sé seo díreach chun tú a chur ar an eolas {{1}}, tá a síntiús tosaithe le {{2}} le {{3}} ag {{4}} le {{5}} mí."
+    },
+    "SeeYou": "Féach leat ar {{1}}!",
+    "identifier": {
+        "Subject": "Fáilte romhat! Fíoraigh do sheoladh ríomhphoist."
+    }
+}

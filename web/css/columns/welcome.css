@@ -1,0 +1,173 @@
+html body {
+	overflow: hidden;
+}
+html #page, html #content_slot, html #content {
+	padding: 0 !important;
+}
+html #content {
+	height: 100%;
+}
+.Communities_welcome .Q_columns_column .Q_column_slot {
+	padding: 0;
+}
+html.Communities_welcome #content_slot {
+	color: #000;
+}
+.Communities_welcome .Q_button.getStarted:active,
+.Communities_welcome .Q_button.getStarted {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+	bottom: 30%;
+	font-size: 30px;
+	box-shadow: 0 0 10px 5px #ffeb00 !important;
+	text-align: center;
+	background: #57068c;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#57068c', endColorstr='#6d06ac');
+	background: -webkit-gradient(linear, left top, left bottom, from(#57068c), to(#6d06ac));
+	background: -moz-linear-gradient(top, #57068c, #6d06ac);
+}
+.Communities_welcome .Q_gallery_tool { height: 100%; }
+.Communities_welcome #content .Q_tool.Q_gallery_tool .Q_gallery_caption {
+	font-size: 3em;
+	padding: 0 20px;
+	text-align: center;
+	top: 2%;
+	background: rgba(255,255,255,.5);
+	border-radius: 10px;
+}
+.Q_mobile.Communities_welcome #content .Q_tool.Q_gallery_tool .Q_gallery_caption {
+	top: 5%;
+}
+.Communities_welcome #content .Q_tool.Q_gallery_tool .Q_gallery_caption p {
+	font-size: 5vh;
+	font-weight: bold;
+	color: #fff;
+}
+.Communities_welcome.Q_horizontalOrientation #content .Q_tool.Q_gallery_tool .Q_gallery_caption p {
+	font-size: 5vw;
+}
+.Communities_welcome #page .Q_button.getStarted {
+	position: sticky;
+	top: 84%;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 10px 30px;
+	z-index: 1;
+}
+.Communities_welcome .Communities_clickable_effect:active {
+	transform: scale(2);
+	transition: transform 0.5s;
+	z-index: 999999;
+	user-select: none;
+	cursor: pointer;
+}
+.Communities_welcome .Communities_user_count {
+	position: absolute;
+	padding: 10px;
+	text-align: center;
+	top: 75%;
+	left: 50%;
+	transform: translateX(-50%);
+	background: rgba(255,255,255,.5);
+	border-radius: 10px;
+	width: 50%;
+}
+.Q_mobile.Communities_welcome .Communities_user_count {
+	width: 90%;
+	top: 75%;
+}
+.Communities_welcome .Q_column_welcome #Users_avatar_tool.Communities_community_avatar {
+	position: relative;
+	background: transparent;
+}
+.Communities_welcome .Communities_community_avatar .Users_avatar_name {
+	display: none;
+}
+.Communities_welcome .Communities_community_avatar .Streams_username {
+	font-size: 2em;
+	padding: 0 20px;
+}
+.Communities_welcome .Q_gallery_tool {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.Communities_welcome .Q_column_welcome * div,
+.Communities_welcome .Q_column_welcome * span {
+	text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff;
+}
+.Communities_welcome .Users_avatar_name {
+	background: rgba(255,255,255,.5);
+	border-radius: 5px;
+}
+.Communities_welcome .Q_column_welcome .Communities_welcome_admins {
+	position: absolute;
+	text-align: left;
+	width: 100%;
+	top: 20%;
+	left: 20px;
+	white-space: nowrap;
+	padding: 10px;
+}
+.Q_mobile.Communities_welcome .Q_column_welcome .Communities_welcome_admins {
+	top: 15%;
+	left: 0;
+}
+.Q_mobile.Communities_welcome .Q_column_welcome .Communities_welcome_admins[data-amount="1"] .Users_avatar_tool {
+	zoom: 1;
+}
+.Q_mobile.Communities_welcome .Q_column_welcome .Communities_welcome_admins[data-amount="2"] .Users_avatar_tool,
+.Q_mobile.Communities_welcome .Q_column_welcome .Communities_welcome_admins[data-amount="3"] .Users_avatar_tool,
+.Q_mobile.Communities_welcome .Q_column_welcome .Communities_welcome_admins[data-amount="4"] .Users_avatar_tool {
+	zoom: 0.7;
+}
+.Q_mobile.Communities_welcome .Q_column_welcome .Communities_welcome_admins[data-amount="5"] .Users_avatar_tool,
+.Q_mobile.Communities_welcome .Q_column_welcome .Communities_welcome_admins[data-amount="6"] .Users_avatar_tool {
+	zoom: 0.5;
+}
+.Q_mobile.Communities_welcome .Q_column_welcome .Communities_welcome_admins[data-amount="7"] .Users_avatar_tool,
+.Q_mobile.Communities_welcome .Q_column_welcome .Communities_welcome_admins[data-amount="8"] .Users_avatar_tool,
+.Q_mobile.Communities_welcome .Q_column_welcome .Communities_welcome_admins[data-amount="9"] .Users_avatar_tool {
+	zoom: 0.4;
+}
+.Q_mobile.Communities_welcome .Q_column_welcome .Communities_welcome_admins .Users_avatar_tool {
+	zoom: 0.33;
+}
+.Communities_welcome .Q_column_welcome .Communities_welcome_admins .Users_avatar_tool img {
+	border: 5px solid yellow;
+}
+.Q_notMobile.Communities_welcome .Communities_welcome_admins.Users_list_tool .Users_avatar_icon,
+.Q_notMobile.Communities_welcome .Communities_welcome_admins.Users_list_tool .Users_avatar_tool {
+	max-width: unset;
+	max-height: unset;
+}
+.Q_notMobile.Communities_welcome .Communities_welcome_admins.Users_list_tool .Users_avatar_tool .Users_avatar_name {
+	font-size: 20px;
+}
+.Q_notMobile.Communities_welcome .Communities_welcome_admins.Users_list_tool img.Users_avatar_icon {
+	width: 160px;
+	height: 160px;
+}
+.Communities_welcome .Q_column_welcome .Communities_welcome_usersList {
+	position: absolute;
+	top: 85%;
+}
+.Q_mobile.Communities_welcome .Q_column_welcome .Communities_welcome_usersList.Users_list_tool img.Users_avatar_icon {
+	width: 50px;
+	height: 50px;
+}
+.Communities_welcome .Q_column_welcome .Communities_welcome_usersList.Users_pile_tool {
+	left: 50%;
+	transform: translateX(-50%);
+}
+.Communities_welcome .Q_column_welcome .Communities_welcome_usersList.Users_pile_tool,
+.Communities_welcome .Q_column_welcome .Communities_welcome_usersList.Users_pile_tool .Users_avatar_tool,
+.Communities_welcome .Q_column_welcome .Communities_welcome_usersList.Users_pile_tool .Users_avatar_tool img {
+	width: 80px;
+	height: 80px;
+}

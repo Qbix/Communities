@@ -1,0 +1,24 @@
+{
+    "activation": {
+        "Thanks": "Velkomin í {{1}}.",
+        "ClickHere": "Smelltu hér til að virkja reikninginn þinn: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Smelltu hér til að staðfesta farsímanúmerið þitt: {{1}}"
+    },
+    "SeeHistory": "Sjá greiðsluferil fyrir {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} hefur verið gjaldfært fyrir {{2}} fyrir {{3}} af {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hæ {{1}}, þetta er bara fljótleg staðfesting á því að þú hafir greitt {{2}} til {{3}} fyrir {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Þú hefur gerst áskrifandi að {{2}} með {{3}} á {{4}} í {{5}} mánuði.",
+        "HasStarted": "{{1}} hefur gerst áskrifandi að {{2}} með {{3}} á {{4}} í {{5}} mánuði."
+    },
+    "resend": {
+        "DidYouWant": "Vildirðu endurstilla aðgangsorðið þitt í {{1}}?",
+        "ClickHere": "Smelltu síðan hér: {{1}}"
+    }
+}

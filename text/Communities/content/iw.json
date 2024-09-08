@@ -1,0 +1,362 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> לא מצביע על שום דבר!",
+        "NextSteps": "השתמש בתפריט הראשי כדי למצוא את מה שאתה מחפש."
+    },
+    "dashboard": {
+        "Menu": "תַפרִיט"
+    },
+    "greeting": {
+        "Welcome": "ברוכים הבאים אל {{1}}. כאן תמצא דברים שפורסמו עבור חברי הקהילה שלנו. אנא הוסף את כתובת הדוא&quot;ל או מספר הנייד שלך כדי לקבל הודעות כאשר פרסמו הודעות."
+    },
+    "conversations": {
+        "Title": "שיחות",
+        "New": "שיחה חדשה",
+        "Conversation": "שִׂיחָה",
+        "Topics": "נושאים",
+        "NoneYet": "עדיין לא נוצרו שיחות",
+        "newConversations": "{{1}} שיחות חדשות",
+        "AllAuthors": "כל המחברים",
+        "FilterbyAuthors": "סנן לפי מחברים",
+        "FilterAuthorPlaceHolder": "חפש מחברים נוספים...",
+        "filterConversations": "סינון לפי טקסט",
+        "Description": "{{1}} שיחות"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "בחר נושא",
+            "Share": "לַחֲלוֹק",
+            "interest": {
+                "Title": "בחר פעילות",
+                "Filter": "תחומי עניין בחיפוש..."
+            }
+        },
+        "Title": "שיחה חדשה",
+        "TitlePlaceholder": "נושא השיחה שלך",
+        "ContentPlaceholder": "כתוב כמה מילים כדי להתחיל את השיחה, כדי שאחרים יוכלו להשיב",
+        "StartButton": "התחל שיחה"
+    },
+    "events": {
+        "Title": "אירועים",
+        "filterByTitle": "מצא אירועים לפי כותרת",
+        "New": "+ התחל אירוע חדש",
+        "filterEvents": "סינון אירועים",
+        "NewEvent": "אירוע חדש",
+        "SetLocation": "הגדר את המיקום שלי",
+        "NoneYet": "עדיין לא נוצרו אירועים<br> בזמנים אלו.",
+        "AllAuthors": "כל המחברים",
+        "AllDays": "כל הימים",
+        "AllLocations": "כל המיקומים",
+        "MakeReservation": "לבצע הזמנה",
+        "CancelReservation": "ביטול הזמנה",
+        "UpdateReservation": "עדכן הזמנה",
+        "AreYouSure": "האם אתה בטוח?",
+        "YouWillRefunded": "תקבל החזר בצורת זיכויים שתוכל להוציא על דברים אחרים באפליקציה.",
+        "AllInterests": "כל תחומי העניין",
+        "FilterbyInterest": "סנן לפי עניין",
+        "FilterByDate": "סינון לפי תאריך",
+        "ShowActivities": "הצג פעילויות הקשורות ל. . .",
+        "newEvents": "יש לך {{1}} אירועים חדשים",
+        "SelectLocation": "תבחר מיקום",
+        "FilterLocationsPlaceHolder": "סנן מקומות עם...",
+        "Description": "{{1}} אירועים",
+        "Keywords": "{{1}} אירועים"
+    },
+    "schedule": {
+        "Title": "לוח זמנים",
+        "NoneYet": "אתה לא משתתף באף אירוע",
+        "AddSome": "הוסף כמה ללוח הזמנים שלך!",
+        "AddMore": "הוסף אירועים ללוח הזמנים שלך!",
+        "future": "עתיד",
+        "past": "עבר"
+    },
+    "location": {
+        "Title": "מקום",
+        "NewLocation": "מיקום חדש"
+    },
+    "inbox": {
+        "Title": "תיבת הדואר הנכנס",
+        "NoneYet": "אתה לא משתתף בשום שיחות",
+        "FindPeople": "מצא אנשים לדבר איתם",
+        "GroupConversations": "הצטרף לכמה שיחות קבוצתיות",
+        "ContactStaff": "צור קשר עם הצוות",
+        "ContactCustomers": "צור קשר עם לקוחות"
+    },
+    "me": {
+        "Title": "לִי",
+        "MobileNumber": "מספר טלפון נייד",
+        "EmailAddress": "כתובת דוא&quot;ל",
+        "UpdateSocialTitle": "עדכן את שם המשתמש של {{1}}"
+    },
+    "people": {
+        "Title": "אֲנָשִׁים",
+        "Description": "אנשים בקהילה {{1}}",
+        "AppAlert": "האפליקציה הזו בחנות האפליקציות תאפשר לכם להתחבר לחברים שלכם, ועוד הרבה הרבה יותר.",
+        "Invite": "להזמין חברים",
+        "BuyCredits": "קנה קרדיטים",
+        "FindSomeoneByName": "מצא מישהו בשם",
+        "SearchByName": "חפש לפי שם",
+        "FindAllMyFriends": "מצא את כל החברים שלי",
+        "labels": {
+            "All": "כל אחד",
+            "Title": "סנן לפי מערכת יחסים",
+            "New": "סוג זוגיות חדש"
+        },
+        "interests": {
+            "All": "כל תחומי העניין",
+            "Title": "סנן לפי עניין",
+            "Filter": "הראה לאנשים שמתעניינים ב. . ."
+        },
+        "Keywords": "{{1}} קהילת אנשים"
+    },
+    "communities": {
+        "Title": "קהילות",
+        "NewCommunity": "קהילה חדשה",
+        "FindCommunityByName": "מצא קהילה לפי שם",
+        "Description": "{{1}} קהילות"
+    },
+    "community": {
+        "Title": "{{1}} קהילה",
+        "Roles": "תפקידים",
+        "AllRoles": "כל התפקידים",
+        "YouDontHavePermission": "אינך מורשה לעשות זאת",
+        "usernamePlaceholder": "הגדר את שם הקהילה",
+        "NotEnoughCredits": "אין לך מספיק קרדיטים כדי ליצור קהילה. צריך {{1}}, יש לך {{2}}"
+    },
+    "event": {
+        "GetDirections": "לקבל הוראות",
+        "WhichMap": "באילו מפות תרצה להשתמש?",
+        "JoinEventToChat": "הצטרף לאירוע כדי לשוחח",
+        "promote": {
+            "Title": "קדם את האירוע הזה",
+            "Prompt": "בחר היכן תרצה לקדם את האירוע הזה:"
+        },
+        "Confirmation": "אִשׁוּר"
+    },
+    "newEvent": {
+        "Title": "תכנן אירוע חדש"
+    },
+    "interests": {
+        "Title": "תחומי עניין",
+        "prompt": "בחר את סוגי הדברים שאתה רוצה לדעת עליהם.",
+        "explanation": "ככל שתבחר יותר תחומי עניין, כך גדל הסיכוי שתתחבר לאנשים בעלי דעות דומות.",
+        "filter": "במה אתה מתעניין?",
+        "Profile": "אינטרסים הדדיים מודגשים. אם יש לך גם אחד או יותר מתחומי העניין שלהלן, תוכל {{clickOrTap}} להוסיף אותם."
+    },
+    "credits": {
+        "Title": "נקודות זכות",
+        "EarnCredits": "הרווח {{1}} זיכויים עבור כל אדם חדש שתזמין שמצטרף לאפליקציה",
+        "YouHave": "יש לך {{1}} זיכויים"
+    },
+    "onboarding": {
+        "Tap": "בֶּרֶז",
+        "Click": "נְקִישָׁה",
+        "Yes": "כן",
+        "No": "לא",
+        "Skip": "או לדלג על זה",
+        "name": {
+            "Preface": "ברוך הבא ל",
+            "Placeholder": "הכנס את שמך המלא",
+            "GetStarted": "להתחיל",
+            "AsGuest": "הוזמנת כאורח.",
+            "AsMember": "הוזמנת כחבר.",
+            "AsAdmin": "הוזמנת כמנהל.",
+            "AsOwner": "הוזמנת כבעלים.",
+            "TooShort": "השם המלא שלך לא יכול להיות כל כך קצר",
+            "SetAsYourFullName": "האם להגדיר את {{1}} כשמך המלא?"
+        },
+        "icon": {
+            "KeepDefault": "או לשמור את התמונה הזו",
+            "SetYourPhoto": "{{ClickOrTap}} כדי להגדיר את התמונה שלך:"
+        },
+        "interests": {
+            "GetStarted": "⇩ התחל",
+            "NextCategory": "↓ הבא",
+            "Continue": "לְהַמשִׁיך",
+            "Instructions": "בכל אחת מהקטגוריות הבאות של {{1}},<br> {{2}} כל הפעילויות שבהן אתה מעוניין.<br> כך אתה מתחבר לאנשים אחרים בקהילה."
+        },
+        "profile": {
+            "Profile": "הפרופיל שלך עוזר לאנשים לגלות עליך יותר.<br>",
+            "Birthday": "הזן את תאריך הלידה שלך:",
+            "Placeholder": "מי אתה ומה אתה עושה? ספר לאנשים משהו מעניין או ייחודי על עצמך.",
+            "Required": "כדי להמשיך, כתוב לפחות כמה שורות על עצמך.",
+            "Month": "חוֹדֶשׁ",
+            "Day": "יְוֹם",
+            "Year": "שָׁנָה",
+            "Gender": "מִין",
+            "Male": "זָכָר",
+            "Female": "נְקֵבָה",
+            "Other": "אַחֵר",
+            "Height": "גוֹבַה",
+            "Affiliation": "שיוך",
+            "Dating": "היכרויות",
+            "Interested": "מעוניין",
+            "NotInterested": "לא מעוניין",
+            "MatchmakerOnly": "שדכנית בלבד"
+        },
+        "location": {
+            "NoOneElse": "אף אחד אחר לא יראה את זה.",
+            "SetMyLocation": "הגדר את המיקום שלי"
+        },
+        "pile": {
+            "DialogTitle": "אנשים עם תחומי עניין משותפים"
+        },
+        "Done": "בוצע"
+    },
+    "profile": {
+        "Title": "פּרוֹפִיל",
+        "Male": "זָכָר",
+        "Female": "נְקֵבָה",
+        "Other": "אַחֵר",
+        "dating": {
+            "Interested": "מעוניין",
+            "NotInterested": "לא מעוניין",
+            "MatchmakerOnly": "שדכנית בלבד"
+        },
+        "StartConversation": "התחל שיחה",
+        "blockUser": "חסום משתמש זה",
+        "blockUserAlert": "לא תראה עוד הודעות ממשתמש זה עד שתבטל את חסימתן.",
+        "unblockUser": "בטל את חסימת המשתמש הזה",
+        "addToContacts": "להוסיף לאנשי קשר",
+        "manageLabels": "נהל תוויות",
+        "inviteUsers": "הזמן משתמשים",
+        "selectRole": "בחר תפקיד",
+        "inviteSuccess": "משתמש הזמין בהצלחה בתור {{label}}",
+        "invite": "להזמין",
+        "relationships": "יחסים",
+        "newRole": "תפקיד חדש",
+        "about": "על אודות",
+        "people": "אֲנָשִׁים",
+        "info": "מידע",
+        "interests": "תחומי עניין",
+        "chat": "לְשׂוֹחֵחַ",
+        "locations": "מיקומים",
+        "ManageRoles": "ניהול תפקידים",
+        "aboutPlaceholder": "מי אתה ומה אתה עושה? ספר לאנשים משהו מעניין או ייחודי על עצמך.",
+        "explanation": "הפרופיל שלך עוזר להתאים אותך טוב יותר לאנשים אחרים לפעילויות קבוצתיות.<br> הזן את תאריך הלידה שלך",
+        "chats": {
+            "placeholder": "תגיד משהו"
+        },
+        "LogOut": "להתנתק",
+        "MyLinks": "הקישורים שלי",
+        "MyJobs": "העבודות שלי",
+        "MySocial": "MySocial",
+        "MyEducation": "ההשכלה שלי",
+        "JobsPlaceholder": "הקלד כאן מידע על משרות",
+        "EducationPlaceholder": "הקלד כאן מידע חינוך",
+        "ManageNotifications": "נהל התראות",
+        "YourPreferredLanguage": "השפה המועדפת עליך"
+    },
+    "myqr": {
+        "Title": "ה-QR שלי"
+    },
+    "composer": {
+        "createCommunity": "צור קהילה",
+        "inviteAdmin": "הזמן מנהל",
+        "inviteMember": "הזמן חבר",
+        "newCommunityTitle": "שם קהילה",
+        "setCommunityTitle": "שם קהילה",
+        "creditsChargeRequest": "האם אתה מסכים להוציא {{price}} זיכויים?",
+        "yes": "כן",
+        "no": "לא"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "ברוך הבא! נא לאמת את כתובת הדוא&quot;ל שלך.",
+        "WelcomeVerifyEmail": "ברוך הבא! אמת את כתובת הדוא&quot;ל שלך.",
+        "ForgetPass": "היי, שכחת את משפט הסיסמה שלך?",
+        "ManageEmailSubscriptions": "לנהל את מנויי האימייל שלך",
+        "IfUnsubscribe": "אם אתה רוצה לבטל את המנוי"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "ברוכים הבאים אל {{CommunityName}}. אפליקציה זו תעזור לך להתחבר לחברים, לגלות אנשים חדשים עם תחומי עניין משותפים ועוד הרבה יותר. בואו נתחיל!"
+            },
+            "icon": {
+                "Commentary": "הגדר את התמונה שלך. כך אנשים יראו אותך באתר."
+            },
+            "interests": {
+                "Commentary": "ככל שתבחרו יותר פריטים, כך תוכלו לפגוש יותר אנשים.",
+                "Notifications": "אתה צריך לאפשר הודעות"
+            }
+        },
+        "subscriptions": {
+            "confirm": "התראות מאפשרות לך לדעת על דברים שאתה מעוניין בהם, כגון כאשר חבר מצטרף לאפליקציה, או שולח לך הודעות."
+        },
+        "invite": "{{Q.words.TapOrClick}} כאן כדי לראות איך אתה יכול לשתף את זה עם אנשים אחרים."
+    },
+    "payment": {
+        "onContribute": "תודה! התשלום שלך עבר. האם תרצה להזמין את חבריך להצטרף אליך?"
+    },
+    "featureboard": {
+        "Text_1": "תן לקול שלך להישמע! האם אתה מסכים שעלינו לפתח תכונה או באג? לחץ על הכפתור כדי לתמוך בו.",
+        "Text_2": "רוצים שנפתח פיצ&#39;ר חדש? תאר זאת למטה.",
+        "Text_3": "בכל שבוע אנו מתחילים לפתח את התכונה המבוקשת ביותר על ידי הקהילה. כל הכסף שנתרם הולך למטרה זו, ומאפשר לנו לשפר את האפליקציה.",
+        "Text_4": "כל הכסף שנתרם משמש לתשלום עלויות הפיתוח שלנו.",
+        "Text_5": "יש לך רעיון לתכונה או לתיקון באגים שאתה רוצה שנעשה אבל עדיין לא ראית אחרים מוסיפים? תאר זאת למטה:",
+        "Options": [
+            {
+                "text": "400 דולר ועידת וידאו בזמן אמת"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "פרטי רישום של 200$ המקומי ראשי"
+            },
+            {
+                "text": "$130 דפדף ושתף אלפי {{1}} ממים",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 נהל את הקהילות שלך",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 תקן באג שיחות",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "בקש תכונה חדשה\/תיקון באגים",
+        "FeaturePlaceholder": "סיכום קצר של תכונה",
+        "FeatureDescription": "תאר כיצד מישהו אחר יכול לשחזר את הבאג שאתה רואה, או תאר בפירוט את התכונה שאתה רוצה לבנות",
+        "AddYourRequest": "הוסף את בקשתך",
+        "NewFeature": "תכונה חדשה"
+    },
+    "contribute": {
+        "ContributeExplanation": "עזור לתמוך בהמשך הפיתוח של האפליקציה {{communityName}}. כל התרומות שלך עוזרות לתקן באגים ולפתח תכונות חדשות כדי לעזור להצמיח את הקהילה המקוונת!",
+        "ReasonToContribute": "אפליקציה זו מתוחזקת על ידי תומכים של {{communityName}}. עזור לתמוך באפליקציה הזו כדי שנוכל לעשות שינוי בחייהם של אנשים!"
+    },
+    "assetshistory": {
+        "Title": "היסטוריית נכסים",
+        "Charges": "חיובים",
+        "Credits": "נקודות זכות"
+    },
+    "accounts": {
+        "remove": {
+            "title": "הסר חשבון",
+            "content": "האם ברצונך להסיר חשבון זה?",
+            "ok": "כן",
+            "cancel": "לא"
+        }
+    },
+    "import": {
+        "fileNotFound": "מצטערים, קובץ CSV לא נמצא.",
+        "fileEmpty": "מצטערים, קובץ ה-CSV ריק.",
+        "userIdNotFound": "המשתמש קיים אך המזהה ריק",
+        "errorLine": "שורה {{1}}",
+        "fieldNotFound": "השדה הנדרש &quot;{{1}}&quot; לא נמצא",
+        "taskStreamInvalid": "זרם המשימות לא חוקי",
+        "instructionsEmpty": "הוראות זרם המשימות ריקות",
+        "complete": "לְהַשְׁלִים",
+        "activateUsers": "לשלוח הודעת הפעלה למשתמשים?",
+        "importProgress": "התקדמות",
+        "joinEventLabel": "הצטרף משתמשים לאירוע אקראי",
+        "importOptions": "אפשרויות",
+        "sampleCSV": "הורד CSV לדוגמה",
+        "fileLabel": "העלה גיליון אלקטרוני:",
+        "errorsTitle": "אירעו שגיאות",
+        "communityUsers": "זו רשימת הקהילות",
+        "setAsConversation": "עמודת כתובת האתר כשיחה",
+        "toMainCommunityToo": "הוסף משתמשים גם לקהילה הראשית",
+        "willImportedTo": "משתמשים יובאו לקהילה"
+    }
+}

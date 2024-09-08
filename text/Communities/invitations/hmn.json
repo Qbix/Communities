@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Koj raug caw",
+        "Member": "Tus tswv cuab ntawm {{title}}",
+        "Explanation": "{{1}} zoo siab los tshaj tawm peb lub vev xaib tshiab. Nws suav nrog cov npe loj hlob ntawm cov yam ntxwv, xws li:",
+        "Public": "Cov ntaub ntawv pej xeem txog {{1}}",
+        "Private": "Ib tug private user account rau txhua tus tswv cuab",
+        "Notifications": "Los ntawm kev nkag mus rau koj tus email chaw nyob lossis tus lej xov tooj ntawm tes koj yuav tuaj yeem tau txais cov ntawv ceeb toom tseem ceeb los ntawm email lossis ntawv xov xwm.",
+        "GetStarted": "Txhawm rau pib, hauv koj lub vev xaib browser thov <em>ua tib zoo<\/em> sau:<br>",
+        "IssuedToYou": "Txoj cai no tshwj xeeb tshaj tawm rau koj."
+    }
+}

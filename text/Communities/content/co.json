@@ -1,0 +1,362 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> ùn indica nunda !",
+        "NextSteps": "Aduprate u menu principale per truvà ciò chì cercate."
+    },
+    "dashboard": {
+        "Menu": "Menu"
+    },
+    "greeting": {
+        "Welcome": "Benvenuti à {{1}}. Quì truverete e cose publicate per i membri di a nostra cumunità. Per piacè aghjunghje u vostru indirizzu email o u vostru numeru mobile per riceve notificazioni quandu l&#39;annunzii sò publicati."
+    },
+    "conversations": {
+        "Title": "Cunversazioni",
+        "New": "Nova Conversazione",
+        "Conversation": "Cunversazione",
+        "Topics": "Temi",
+        "NoneYet": "Nisuna conversazione furmata ancora",
+        "newConversations": "{{1}} novi cunversazioni",
+        "AllAuthors": "Tutti l&#39;autori",
+        "FilterbyAuthors": "Filtra per Autori",
+        "FilterAuthorPlaceHolder": "Cerca altri autori...",
+        "filterConversations": "Filtrà per testu",
+        "Description": "{{1}} cunversazione"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Sceglite un tema",
+            "Share": "sparte",
+            "interest": {
+                "Title": "Sceglite una attività",
+                "Filter": "interessi di ricerca..."
+            }
+        },
+        "Title": "Nova Conversazione",
+        "TitlePlaceholder": "Sugettu di a vostra conversazione",
+        "ContentPlaceholder": "Scrivite uni pochi di parolle per inizià a cunversazione, perchè altri ponu risponde",
+        "StartButton": "Principià a cunversazione"
+    },
+    "events": {
+        "Title": "Avvenimenti",
+        "filterByTitle": "Truvate l&#39;avvenimenti per titulu",
+        "New": "+ Cumincià un Novu Eventu",
+        "filterEvents": "Filtra l&#39;avvenimenti",
+        "NewEvent": "Novu Eventu",
+        "SetLocation": "Set My Location",
+        "NoneYet": "Nisun avvenimentu hè ancu furmatu<br> duranti sti tempi.",
+        "AllAuthors": "Tutti l&#39;autori",
+        "AllDays": "Tutti i ghjorni",
+        "AllLocations": "Tutti i Lochi",
+        "MakeReservation": "Fate Riservazione",
+        "CancelReservation": "Cancella a Riservazione",
+        "UpdateReservation": "Aghjurnà a Riservazione",
+        "AreYouSure": "Sì sicuru?",
+        "YouWillRefunded": "Vi sarà rimbursatu in forma di crediti chì pudete spende in altre cose in l&#39;app.",
+        "AllInterests": "Tutti l&#39;interessi",
+        "FilterbyInterest": "Filtrà per Interessi",
+        "FilterByDate": "Filtra per data",
+        "ShowActivities": "Mostra l&#39;attività ligati à. . .",
+        "newEvents": "Avete {{1}} novi avvenimenti",
+        "SelectLocation": "Selezziunà Locu",
+        "FilterLocationsPlaceHolder": "Filtra i posti cù ...",
+        "Description": "{{1}} avvenimenti",
+        "Keywords": "{{1}} avvenimenti"
+    },
+    "schedule": {
+        "Title": "Schedule",
+        "NoneYet": "Ùn site micca participatu à alcun avvenimentu",
+        "AddSome": "Aghjunghjite un pocu à u vostru prugramma!",
+        "AddMore": "Aghjunghjite avvenimenti à u vostru prugramma!",
+        "future": "futuru",
+        "past": "passatu"
+    },
+    "location": {
+        "Title": "Locu",
+        "NewLocation": "New Location"
+    },
+    "inbox": {
+        "Title": "Inbox",
+        "NoneYet": "Ùn site micca participatu à alcuna conversazione",
+        "FindPeople": "Truvate persone per parlà",
+        "GroupConversations": "Unisci à qualchi conversazione di gruppu",
+        "ContactStaff": "Cuntattate u staffu",
+        "ContactCustomers": "Cuntattate i Clienti"
+    },
+    "me": {
+        "Title": "mè",
+        "MobileNumber": "Numeru Mobile",
+        "EmailAddress": "Indirizzu mail",
+        "UpdateSocialTitle": "Aghjurnà {{1}} username"
+    },
+    "people": {
+        "Title": "People",
+        "Description": "E persone in {{1}} cumunità",
+        "AppAlert": "Questa app in l&#39;app store vi permetterà di cunnette cù i vostri amichi, è assai di più.",
+        "Invite": "Invita Amici",
+        "BuyCredits": "Cumprate Crediti",
+        "FindSomeoneByName": "Truvate qualchissia per nome",
+        "SearchByName": "Ricerca per nome",
+        "FindAllMyFriends": "Truvate tutti i mo amichi",
+        "labels": {
+            "All": "Tutti",
+            "Title": "Filtrà per Relazione",
+            "New": "Novu tipu di relazione"
+        },
+        "interests": {
+            "All": "Tutti l&#39;interessi",
+            "Title": "Filtrà per Interessi",
+            "Filter": "Mostra à e persone interessate. . ."
+        },
+        "Keywords": "{{1}} cumunità di persone"
+    },
+    "communities": {
+        "Title": "Cumunità",
+        "NewCommunity": "Cumunità nova",
+        "FindCommunityByName": "Truvate a cumunità per nome",
+        "Description": "{{1}} cumunità"
+    },
+    "community": {
+        "Title": "{{1}} Cumunità",
+        "Roles": "Ruoli",
+        "AllRoles": "Tutti i roli",
+        "YouDontHavePermission": "Ùn site micca autorizatu per fà questu",
+        "usernamePlaceholder": "stabilisce u nome di a cumunità",
+        "NotEnoughCredits": "Ùn avete micca abbastanza crediti per creà a cumunità. Bisognu {{1}}, avete {{2}}"
+    },
+    "event": {
+        "GetDirections": "Get Directions",
+        "WhichMap": "Quale carte vulete aduprà?",
+        "JoinEventToChat": "Uniscite à l&#39;avvenimentu per chatte",
+        "promote": {
+            "Title": "Promuvà stu avvenimentu",
+            "Prompt": "Sceglite induve vulete prumove stu avvenimentu:"
+        },
+        "Confirmation": "Cunfirmazione"
+    },
+    "newEvent": {
+        "Title": "Pianu Novu Eventu"
+    },
+    "interests": {
+        "Title": "Interessi",
+        "prompt": "Sceglite i tipi di cose chì vulete sapè.",
+        "explanation": "Più interessi selezziunate, u più prubabile di cunnetta cù persone simili.",
+        "filter": "Chì vi interessa ?",
+        "Profile": "L&#39;interessi mutuali sò evidenziati. Sè ancu avete unu o più di l&#39;interessi quì sottu, pudete {{clickOrTap}} aghjunghje."
+    },
+    "credits": {
+        "Title": "Crediti",
+        "EarnCredits": "Guadagnà {{1}} crediti per ogni nova persona chì invitate chì si unisce à l&#39;app",
+        "YouHave": "Avete {{1}} crediti"
+    },
+    "onboarding": {
+        "Tap": "Tap",
+        "Click": "Cliccate",
+        "Yes": "Iè",
+        "No": "Innò",
+        "Skip": "o saltate questu",
+        "name": {
+            "Preface": "Benvenuti à",
+            "Placeholder": "Inserite u vostru nome cumpletu",
+            "GetStarted": "Cumincià",
+            "AsGuest": "Avete statu invitatu cum&#39;è invitatu.",
+            "AsMember": "Avete statu invitatu cum&#39;è membru.",
+            "AsAdmin": "Avete statu invitatu cum&#39;è amministratore.",
+            "AsOwner": "Avete statu invitatu cum&#39;è pruprietariu.",
+            "TooShort": "U vostru nome cumpletu ùn pò esse cusì cortu",
+            "SetAsYourFullName": "Definite {{1}} cum&#39;è u vostru nome cumpletu ?"
+        },
+        "icon": {
+            "KeepDefault": "o mantene sta foto",
+            "SetYourPhoto": "{{ClickOrTap}} per stabilisce a vostra foto:"
+        },
+        "interests": {
+            "GetStarted": "⇩ Cuminciate",
+            "NextCategory": "↓ Avanti",
+            "Continue": "Cuntinuà",
+            "Instructions": "In ognuna di e seguenti {{1}} categurie,<br> {{2}} tutte l&#39;attività chì site interessatu.<br> Questu hè cumu cunnetta cù altre persone in a cumunità."
+        },
+        "profile": {
+            "Profile": "U vostru prufilu aiuta a ghjente à scopre di più nantu à voi.<br>",
+            "Birthday": "Per piacè inserite u vostru anniversariu:",
+            "Placeholder": "Quale site è chì faci ? Dì à e persone qualcosa interessante o unicu di sè stessu.",
+            "Required": "Per cuntinuà, scrivite almenu un paru di linii nantu à sè stessu.",
+            "Month": "Mese",
+            "Day": "Ghjornu",
+            "Year": "Annu",
+            "Gender": "Genere",
+            "Male": "Masculinu",
+            "Female": "Femmina",
+            "Other": "Altru",
+            "Height": "Altezza",
+            "Affiliation": "Affiliazione",
+            "Dating": "Incontri",
+            "Interested": "Interessatu",
+            "NotInterested": "Ùn interessa micca",
+            "MatchmakerOnly": "Solu Matchmaker"
+        },
+        "location": {
+            "NoOneElse": "Nimu altru a vede.",
+            "SetMyLocation": "Pone u mo locu"
+        },
+        "pile": {
+            "DialogTitle": "E persone cun interessi cumuni"
+        },
+        "Done": "Fattu"
+    },
+    "profile": {
+        "Title": "Prufilu",
+        "Male": "Masculinu",
+        "Female": "Femmina",
+        "Other": "Altru",
+        "dating": {
+            "Interested": "Interessatu",
+            "NotInterested": "Ùn interessa micca",
+            "MatchmakerOnly": "Matchmaker solu"
+        },
+        "StartConversation": "Cumincià una Conversazione",
+        "blockUser": "Bloccà stu utilizatore",
+        "blockUserAlert": "Ùn vi vede più messagi da stu utilizatore finu à sbloccalli.",
+        "unblockUser": "Sblocca stu utilizatore",
+        "addToContacts": "Aghjunghjite à i Cuntatti",
+        "manageLabels": "Gestisce e etichette",
+        "inviteUsers": "Invita l&#39;utilizatori",
+        "selectRole": "Selezziunà Role",
+        "inviteSuccess": "Utenti invitatu successu cum&#39;è {{label}}",
+        "invite": "Invita",
+        "relationships": "Relazioni",
+        "newRole": "Role novu",
+        "about": "À propositu",
+        "people": "People",
+        "info": "Info",
+        "interests": "Interessi",
+        "chat": "Chat",
+        "locations": "Lochi",
+        "ManageRoles": "Gestisce i roli",
+        "aboutPlaceholder": "Quale site è chì faci ? Dì à e persone qualcosa interessante o unicu di sè stessu.",
+        "explanation": "U vostru prufilu vi aiuta à cunfurmà megliu cù altre persone per attività di gruppu.<br> Per piacè inserite u vostru anniversariu",
+        "chats": {
+            "placeholder": "Dì qualcosa"
+        },
+        "LogOut": "Scunnettà si",
+        "MyLinks": "I mo ligami",
+        "MyJobs": "U mo travagliu",
+        "MySocial": "MySocial",
+        "MyEducation": "A mo Educazione",
+        "JobsPlaceholder": "Scrivite quì infurmazioni nantu à u travagliu",
+        "EducationPlaceholder": "Scrivite quì infurmazione nantu à l&#39;educazione",
+        "ManageNotifications": "Gestisce Notificazioni",
+        "YourPreferredLanguage": "A vostra lingua preferita"
+    },
+    "myqr": {
+        "Title": "U mo QR"
+    },
+    "composer": {
+        "createCommunity": "Crea una cumunità",
+        "inviteAdmin": "Invita l&#39;amministratore",
+        "inviteMember": "Invita un membru",
+        "newCommunityTitle": "Nome di a cumunità",
+        "setCommunityTitle": "Nome di a cumunità",
+        "creditsChargeRequest": "Accettate à spende {{price}} crediti ?",
+        "yes": "Iè",
+        "no": "Innò"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Benvenuti! Per piacè verificate u vostru indirizzu email.",
+        "WelcomeVerifyEmail": "Benvenuti! Verificate u vostru indirizzu email.",
+        "ForgetPass": "Ehi, avete scurdatu u vostru passphrase?",
+        "ManageEmailSubscriptions": "gestisce i vostri abbonamenti email",
+        "IfUnsubscribe": "Sè vo vulete unsubscribe"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Benvenuti à {{CommunityName}}. Questa app vi aiuterà à cunnette cù l&#39;amichi, scopre novi persone cù interessi cumuni, è assai di più. Cuminciamu !"
+            },
+            "icon": {
+                "Commentary": "Pone a vostra foto. Questu hè cumu a ghjente vi vede nantu à u situ."
+            },
+            "interests": {
+                "Commentary": "Più articuli sceglite, più persone pudete scuntrà.",
+                "Notifications": "Avete bisognu di permette notificazioni"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Notificazioni vi permettenu di sapè nantu à e cose chì site interessatu, cum&#39;è quandu un amicu si unisce à l&#39;app, o missaghji voi."
+        },
+        "invite": "{{Q.words.TapOrClick}} quì per vede cumu pudete sparte questu cù altre persone."
+    },
+    "payment": {
+        "onContribute": "Grazie! U vostru pagamentu hè passatu. Vulete invità i vostri amichi à unisce à voi?"
+    },
+    "featureboard": {
+        "Text_1": "Fate sente a vostra voce ! Accettate chì duvemu sviluppà una funzione o un bug? Cliccate u buttone per sustene.",
+        "Text_2": "Vulemu sviluppà una nova funzione? Descrivite quì sottu.",
+        "Text_3": "Ogni settimana cuminciamu à sviluppà a funzione più dumandata da a cumunità. Tutti i soldi cuntribuiti vanu à questu scopu, chì ci permettenu di fà l&#39;app megliu.",
+        "Text_4": "Tutti i soldi cuntribuiti sò usati per aiutà à pagà i nostri costi di sviluppu.",
+        "Text_5": "Avete un&#39;idea per una funzione o bugfix chì vulete fà, ma ùn avete micca vistu altri aghjunghje ? Descrivite quì sottu:",
+        "Options": [
+            {
+                "text": "$ 400 Videoconferenza in tempu reale"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$ 200 Informazioni di registrazione primaria Locale"
+            },
+            {
+                "text": "$ 130 Sfoglia è sparte millaie di {{1}} meme",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$ 80 Gestite e vostre propiu cumunità",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$ 30 Fix bug di cunversazione",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Richiede una nova funzione \/ bugfix",
+        "FeaturePlaceholder": "Breve riassuntu di funziunalità",
+        "FeatureDescription": "Descrivite cumu qualcunu altru pò ripruduce u bug chì vede, o descrive in dettaglio a funzione chì vulete custruisce",
+        "AddYourRequest": "Aghjunghjite a vostra dumanda",
+        "NewFeature": "Funzione nova"
+    },
+    "contribute": {
+        "ContributeExplanation": "Aiutate à sustene u sviluppu cuntinuatu di l&#39;app {{communityName}}. Tutte e vostre cuntribuzioni aiutanu à risolve i bug è à sviluppà novi funzioni per aiutà à cresce a cumunità in linea!",
+        "ReasonToContribute": "Questa app hè mantenuta da i sustenitori di {{communityName}}. Aiutate à sustene sta app per pudè fà una differenza in a vita di e persone!"
+    },
+    "assetshistory": {
+        "Title": "Storia di l&#39;assi",
+        "Charges": "Charges",
+        "Credits": "Crediti"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Eliminate u contu",
+            "content": "Vulete caccià stu contu ?",
+            "ok": "Iè",
+            "cancel": "Innò"
+        }
+    },
+    "import": {
+        "fileNotFound": "Scusate, u schedariu CSV ùn hè micca truvatu.",
+        "fileEmpty": "Scusate, u schedariu CSV hè viotu.",
+        "userIdNotFound": "utilizatore esiste ma id viotu",
+        "errorLine": "linea {{1}}",
+        "fieldNotFound": "U campu obligatoriu &quot;{{1}}&quot; ùn hè micca truvatu",
+        "taskStreamInvalid": "flussu di attività invalidu",
+        "instructionsEmpty": "Istruzzioni di u flussu di attività vacanti",
+        "complete": "Cumpleta",
+        "activateUsers": "mandà un missaghju di attivazione à l&#39;utilizatori?",
+        "importProgress": "Prugressu",
+        "joinEventLabel": "Unisci à l&#39;utilizatori à un avvenimentu aleatoriu",
+        "importOptions": "Opzioni",
+        "sampleCSV": "Scaricate Sample CSV",
+        "fileLabel": "Caricate un fogliu di calculu:",
+        "errorsTitle": "Errori accaduti",
+        "communityUsers": "Questa hè a lista di e cumunità",
+        "setAsConversation": "Colonna URL cum&#39;è conversazione",
+        "toMainCommunityToo": "aghjunghje utilizatori ancu à a cumunità principale",
+        "willImportedTo": "L&#39;utilizatori seranu impurtati à a cumunità"
+    }
+}

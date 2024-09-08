@@ -1,0 +1,20 @@
+{
+    "activation": {
+        "Thanks": "Bonvenon al {{1}}.",
+        "ClickHere": "Klaku ĉi tie por aktivigi vian konton: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Klaku ĉi tie por kontroli vian poŝtelefonan numeron: {{1}}"
+    },
+    "SeeHistory": "Vidu paghistorion por {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} estis ŝargita {{2}} por {{3}} de {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hej {{1}}, ĉi tio estas nur rapida konfirmo, ke vi sukcese pagis {{2}} al {{3}} por {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Vi abonis al {{2}} kun {{3}} je {{4}} dum {{5}} monatoj.",
+        "HasStarted": "{{1}} abonis al {{2}} kun {{3}} je {{4}} dum {{5}} monatoj."
+    }
+}

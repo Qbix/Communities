@@ -1,0 +1,20 @@
+{
+    "activation": {
+        "Thanks": "Susu maia i {{1}}.",
+        "ClickHere": "Kiliki iinei e fa&#39;agaoioi ai lau tala: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Kiliki iinei e fa&#39;amaonia ai lau numera feavea&#39;i: {{1}}"
+    },
+    "SeeHistory": "Va&#39;ai tala&#39;aga totogi mo {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} ua molia {{2}} mo {{3}} e {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Talofa {{1}}, ua na&#39;o se fa&#39;amaoniga vave ua e totogia lelei {{2}} ia {{3}} mo {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Ua e lesitala i {{2}} ma {{3}} i {{4}} mo {{5}} masina.",
+        "HasStarted": "{{1}} ua lesitala i {{2}} ma {{3}} i {{4}} mo {{5}} masina."
+    }
+}

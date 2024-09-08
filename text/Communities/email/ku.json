@@ -1,0 +1,27 @@
+{
+    "activation": {
+        "Thanks": "bi xêr hatî {{1}}",
+        "ReallyYourEmail": "Ma ev bi rastî navnîşana e-nameya we ye, {{1}}? Ger wusa be, li <a href='{{2}}'>vir bikirtînin<\/a> da ku şîfreya xwe bicîh bikin û hesabê xwe çalak bikin.",
+        "SeeYou": "Te li ser <a href='{{1}}'>{{2}}<\/a> bibînin!"
+    },
+    "LinkToUnsubscribe": "Li vir girêdanek heye ku hûn nebin <a href='{{1}}'>abonetiyê<\/a> heke hûn nexwazin e-nameyên din bistînin.",
+    "Greetings": "Silav ji {{1}}.",
+    "SeeHistory": "Dîroka dravdanê ji bo {{1}} bibînin",
+    "charge": {
+        "HasBeenCharged": "Heye, ev tenê ji bo ku hûn bizanin {{1}} ji bo {{3}} ji hêla {{4}} ve {{2}} hatiye barkirin"
+    },
+    "charged": {
+        "HavePaid": "Hey {{1}}, ev tenê tesdîqek bilez e ku we bi serfirazî {{2}} ji bo {{3}} pere daye {{4}}"
+    },
+    "resend": {
+        "Thanks": "Spas ji bo serdana {{1}}",
+        "YouAreReceiving": "Hûn vê e-nameyê distînin ji ber ku yekî navnîşana e-nameya we nivîsandiye û li ser &quot;pasîfeya ji bîr kiriye&quot; bitikîne. Ger ew ne hûn bûn, bi tenê vê peyamê paşguh bikin.",
+        "Reset": "Ji bo sifirkirina şîfreya xwe, bikirtînin {{1}}",
+        "SetUpPassphrase": "Şîfreya derbasbûnê saz bikin"
+    },
+    "subscription": {
+        "YouHaveStarted": "Hey {{1}}, te bi {{3}} li {{4}} ji bo {{5}} mehan dest bi abonetiya xwe ya ji bo {{2}} kir.",
+        "HasStarted": "Ev tenê ji bo ku hûn bizanin {{1}}, dest bi abonetiya xwe ya li {{2}} bi {{3}} li {{4}} ji bo {{5}} mehan kiriye."
+    },
+    "SeeYou": "Te li ser {{1}} bibînin!"
+}

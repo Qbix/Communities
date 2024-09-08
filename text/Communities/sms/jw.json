@@ -1,0 +1,20 @@
+{
+    "activation": {
+        "Thanks": "Sugeng rawuh ing {{1}}.",
+        "ClickHere": "Klik ing kene kanggo ngaktifake akun sampeyan: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Klik kene kanggo verifikasi nomer seluler sampeyan: {{1}}"
+    },
+    "SeeHistory": "Deleng riwayat pembayaran kanggo {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} wis dikenani biaya {{2}} kanggo {{3}} dening {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hey {{1}}, iki mung konfirmasi cepet yen sampeyan wis kasil mbayar {{2}} kanggo {{3}} kanggo {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Sampeyan wis langganan {{2}} karo {{3}} ing {{4}} kanggo {{5}} sasi.",
+        "HasStarted": "{{1}} wis langganan {{2}} karo {{3}} ing {{4}} kanggo {{5}} sasi."
+    }
+}

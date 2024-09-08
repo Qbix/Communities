@@ -1,0 +1,33 @@
+{
+    "activation": {
+        "Thanks": "Velkomin í {{1}}",
+        "ReallyYourEmail": "Er þetta virkilega netfangið þitt, {{1}}? Ef svo er, smelltu <a href='{{2}}'>hér<\/a> til að stilla lykilorðið þitt og virkja reikninginn þinn.",
+        "SeeYou": "Sjáumst á <a href='{{1}}'>{{2}}<\/a> !",
+        "Subject": "Velkominn! Vinsamlegast staðfestu netfangið þitt."
+    },
+    "LinkToUnsubscribe": "Hér er hlekkur til að segja upp <a href='{{1}}'>áskrift<\/a> ef þú vilt ekki fá fleiri tölvupósta.",
+    "Greetings": "Kveðja frá {{1}}.",
+    "SeeHistory": "Sjá greiðsluferil fyrir {{1}}",
+    "charge": {
+        "HasBeenCharged": "Hæ, þetta er bara til að láta þig vita að {{1}} hefur verið rukkað fyrir {{2}} fyrir {{3}} af {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hæ {{1}}, þetta er bara fljótleg staðfesting á því að þú hafir greitt {{2}} til {{3}} fyrir {{4}}"
+    },
+    "resend": {
+        "Thanks": "Takk fyrir að heimsækja {{1}}",
+        "YouAreReceiving": "Þú færð þennan tölvupóst vegna þess að einhver sló inn netfangið þitt og smellti á „gleymdi aðgangsorð“. Ef það varst ekki þú skaltu einfaldlega hunsa þessi skilaboð.",
+        "Reset": "Til að endurstilla aðgangsorðið þitt skaltu smella á {{1}}",
+        "SetUpPassphrase": "Settu upp lykilorð",
+        "DomainCode": "Ef vefsíðan er þegar opin í vafranum þínum geturðu slegið inn kóðann",
+        "Subject": "Hæ, gleymdirðu lykilorðinu þínu?"
+    },
+    "subscription": {
+        "YouHaveStarted": "Hæ {{1}}, þú hefur hafið áskrift að {{2}} hjá {{3}} á {{4}} í {{5}} mánuði.",
+        "HasStarted": "Þetta er bara til að láta þig vita {{1}}, hefur hafið áskrift sína að {{2}} hjá {{3}} á {{4}} í {{5}} mánuði."
+    },
+    "SeeYou": "Sjáumst á {{1}}!",
+    "identifier": {
+        "Subject": "Velkominn! Staðfestu netfangið þitt."
+    }
+}

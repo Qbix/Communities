@@ -1,0 +1,362 @@
+{
+    "notFound": {
+        "Explanation": "Chan eil <span class='url'>{{1}}<\/span> a&#39; comharrachadh rud sam bith!",
+        "NextSteps": "Cleachd am prìomh chlàr gus na tha thu a’ sireadh a lorg."
+    },
+    "dashboard": {
+        "Menu": "Clàr-taice"
+    },
+    "greeting": {
+        "Welcome": "Fàilte gu {{1}}. Lorgaidh tu an seo rudan air an postadh airson buill den choimhearsnachd againn. Feuch an cuir thu do sheòladh post-d no àireamh fòn-làimhe gus am faigh thu fios nuair a thèid sanasan a phostadh."
+    },
+    "conversations": {
+        "Title": "Còmhraidhean",
+        "New": "Còmhradh Ùr",
+        "Conversation": "Còmhradh",
+        "Topics": "Cuspairean",
+        "NoneYet": "Cha deach còmhraidhean a chruthachadh fhathast",
+        "newConversations": "{{1}} còmhraidhean ùra",
+        "AllAuthors": "A h-uile Ùghdar",
+        "FilterbyAuthors": "Criathraich a-rèir Ùghdaran",
+        "FilterAuthorPlaceHolder": "Rannsaich ùghdaran a bharrachd...",
+        "filterConversations": "Criathraich le teacsa",
+        "Description": "{{1}} còmhraidhean"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Tagh cuspair",
+            "Share": "Roinn",
+            "interest": {
+                "Title": "Tagh Gnìomh",
+                "Filter": "Lorg ùidhean ..."
+            }
+        },
+        "Title": "Còmhradh Ùr",
+        "TitlePlaceholder": "Cuspair do chòmhraidh",
+        "ContentPlaceholder": "Sgrìobh beagan fhaclan gus an còmhradh a thòiseachadh, gus am faigh daoine eile freagairt",
+        "StartButton": "Tòisich Còmhradh"
+    },
+    "events": {
+        "Title": "Tachartasan",
+        "filterByTitle": "Lorg tachartasan a rèir tiotal",
+        "New": "+ Tòisich tachartas ùr",
+        "filterEvents": "Criathraich tachartasan",
+        "NewEvent": "Tachartas Ùr",
+        "SetLocation": "Suidhich mo shuidheachadh",
+        "NoneYet": "Cha deach tachartasan sam bith a chruthachadh fhathast<br> rè na h-amannan seo.",
+        "AllAuthors": "A h-uile Ùghdar",
+        "AllDays": "A h-uile latha",
+        "AllLocations": "A h-uile àite",
+        "MakeReservation": "Dèan glèidheadh",
+        "CancelReservation": "Sguir an glèidheadh",
+        "UpdateReservation": "Ath-nuadhachadh glèidhte",
+        "AreYouSure": "A bheil thu cinnteach?",
+        "YouWillRefunded": "Gheibh thu airgead air ais ann an cruth creideasan as urrainn dhut a chosg air rudan eile san app.",
+        "AllInterests": "A h-uile ùidh",
+        "FilterbyInterest": "Criathraich le ùidh",
+        "FilterByDate": "Criathraich a rèir ceann-latha",
+        "ShowActivities": "Taisbeanadh gnìomhan co-cheangailte ri. . .",
+        "newEvents": "Tha {{1}} tachartasan ùra agad",
+        "SelectLocation": "Tagh Àite",
+        "FilterLocationsPlaceHolder": "Criathraich na h-ionadan le ...",
+        "Description": "{{1}} tachartasan",
+        "Keywords": "{{1}} tachartasan"
+    },
+    "schedule": {
+        "Title": "Clàr",
+        "NoneYet": "Chan eil thu a’ gabhail pàirt ann an tachartasan sam bith",
+        "AddSome": "Cuir cuid ris a’ chlàr agad!",
+        "AddMore": "Cuir tachartasan ris a’ chlàr agad!",
+        "future": "ri teachd",
+        "past": "seachad"
+    },
+    "location": {
+        "Title": "Àite",
+        "NewLocation": "Àite Ùr"
+    },
+    "inbox": {
+        "Title": "Bogsa a-steach",
+        "NoneYet": "Chan eil thu a’ gabhail pàirt ann an còmhraidhean sam bith",
+        "FindPeople": "Lorg daoine airson bruidhinn riutha",
+        "GroupConversations": "Thig còmhla ri cuid de chòmhraidhean buidhne",
+        "ContactStaff": "Cuir fios gu Luchd-obrach",
+        "ContactCustomers": "Cuir fios gu Luchd-ceannach"
+    },
+    "me": {
+        "Title": "Mise",
+        "MobileNumber": "Aireamh fon-laimhe",
+        "EmailAddress": "Seòladh puist-d",
+        "UpdateSocialTitle": "Ùraich {{1}} ainm-cleachdaiche"
+    },
+    "people": {
+        "Title": "Daoine",
+        "Description": "Daoine sa {{1}} choimhearsnachd",
+        "AppAlert": "Leigidh an aplacaid seo ann an stòr nan app dhut ceangal a dhèanamh ri do charaidean, agus mòran a bharrachd.",
+        "Invite": "Thoir cuireadh dha caraidean",
+        "BuyCredits": "Ceannaich Creideasan",
+        "FindSomeoneByName": "Lorg cuideigin le ainm",
+        "SearchByName": "Lorg le ainm",
+        "FindAllMyFriends": "Lorg mo charaidean gu lèir",
+        "labels": {
+            "All": "A h-uile duine",
+            "Title": "Criathraich a-rèir Dàimh",
+            "New": "Seòrsa Dàimh Ùr"
+        },
+        "interests": {
+            "All": "A h-uile ùidh",
+            "Title": "Criathraich le ùidh",
+            "Filter": "Seall do dhaoine aig a bheil ùidh ann. . ."
+        },
+        "Keywords": "{{1}} coimhearsnachd dhaoine"
+    },
+    "communities": {
+        "Title": "Coimhearsnachdan",
+        "NewCommunity": "Coimhearsnachd Ùr",
+        "FindCommunityByName": "Lorg coimhearsnachd le ainm",
+        "Description": "{{1}} choimhearsnachdan"
+    },
+    "community": {
+        "Title": "{{1}} Coimhearsnachd",
+        "Roles": "Dreuchdan",
+        "AllRoles": "A h-uile dreuchd",
+        "YouDontHavePermission": "Chan eil cead agad seo a dhèanamh",
+        "usernamePlaceholder": "cuir ainm coimhearsnachd air dòigh",
+        "NotEnoughCredits": "Chan eil creideasan gu leòr agad airson coimhearsnachd a chruthachadh. Feumaidh {{1}}, tha {{2}} agad"
+    },
+    "event": {
+        "GetDirections": "Faigh Stiùiridhean",
+        "WhichMap": "Dè na mapaichean a bhiodh tu airson a chleachdadh?",
+        "JoinEventToChat": "Thig còmhla ris an tachartas airson cabadaich",
+        "promote": {
+            "Title": "Brosnaich an tachartas seo",
+            "Prompt": "Tagh càit a bheil thu airson an tachartas seo a bhrosnachadh:"
+        },
+        "Confirmation": "Dearbhadh"
+    },
+    "newEvent": {
+        "Title": "Dealbhaich Tachartas Ùr"
+    },
+    "interests": {
+        "Title": "Ùidhean",
+        "prompt": "Tagh na seòrsaichean rudan a tha thu airson faighinn a-mach mu dheidhinn.",
+        "explanation": "Mar as motha de dh’ ùidhean a thaghas tu, is ann as dualtaiche a bhios tu ceangal a dhèanamh ri daoine den aon seòrsa inntinn.",
+        "filter": "Dè tha ùidh agad ann?",
+        "Profile": "Tha ùidhean co-phàirteach air an comharrachadh. Ma tha aon no barrachd dhe na h-ùidh gu h-ìosal agad cuideachd, &#39;s urrainn dhut {{clickOrTap}} a chur ris."
+    },
+    "credits": {
+        "Title": "Creideasan",
+        "EarnCredits": "Coisinn {{1}} creideas airson gach neach ùr a bheir thu cuireadh a thig dhan aplacaid",
+        "YouHave": "Tha {{1}} creideas agad"
+    },
+    "onboarding": {
+        "Tap": "Tap",
+        "Click": "Cliog",
+        "Yes": "tha",
+        "No": "Chan eil",
+        "Skip": "no seachain seo",
+        "name": {
+            "Preface": "Fàilte gu",
+            "Placeholder": "Cuir a-steach d’ ainm slàn",
+            "GetStarted": "Tòisich",
+            "AsGuest": "Tha thu air cuireadh fhaighinn mar aoigh.",
+            "AsMember": "Tha thu air cuireadh fhaighinn mar bhall.",
+            "AsAdmin": "Fhuair thu cuireadh mar rianaire.",
+            "AsOwner": "Fhuair thu cuireadh mar neach-seilbh.",
+            "TooShort": "Chan fhaod d’ ainm slàn a bhith cho goirid",
+            "SetAsYourFullName": "Suidhich {{1}} mar an t-ainm slàn agad?"
+        },
+        "icon": {
+            "KeepDefault": "neo cùm an dealbh seo",
+            "SetYourPhoto": "{{ClickOrTap}} airson an dealbh agad a shuidheachadh:"
+        },
+        "interests": {
+            "GetStarted": "⇩ Tòisich air",
+            "NextCategory": "↓ Air adhart",
+            "Continue": "Lean air adhart",
+            "Instructions": "Anns gach aon de na {{1}} roinn-seòrsa a leanas,<br> {{2}} a h-uile gnìomh anns a bheil ùidh agad.<br> Seo mar a nì thu ceangal ri daoine eile sa choimhearsnachd."
+        },
+        "profile": {
+            "Profile": "Bidh do phròifil a’ cuideachadh dhaoine gus barrachd fhaighinn a-mach mu do dheidhinn.<br>",
+            "Birthday": "Feuch an cuir thu a-steach do cho-là-breith:",
+            "Placeholder": "Cò thu agus dè nì thu? Innis dha daoine rudeigin inntinneach no gun samhail mu do dheidhinn fhèin.",
+            "Required": "Gus leantainn air adhart, sgrìobh co-dhiù loidhne no dhà mu do dheidhinn fhèin.",
+            "Month": "Mìos",
+            "Day": "Latha",
+            "Year": "Bliadhna",
+            "Gender": "Gnè",
+            "Male": "Fireann",
+            "Female": "Boireann",
+            "Other": "Eile",
+            "Height": "Àirde",
+            "Affiliation": "Cleamhnas",
+            "Dating": "A&#39; suirghe",
+            "Interested": "Ùidh",
+            "NotInterested": "Gun ùidh",
+            "MatchmakerOnly": "Matchmaker a-mhàin"
+        },
+        "location": {
+            "NoOneElse": "Chan fhaic duine eile e.",
+            "SetMyLocation": "Suidhich mo shuidheachadh"
+        },
+        "pile": {
+            "DialogTitle": "Daoine le Ùidhean Coitcheann"
+        },
+        "Done": "Dèanta"
+    },
+    "profile": {
+        "Title": "Pròifil",
+        "Male": "Fireann",
+        "Female": "Boireann",
+        "Other": "Eile",
+        "dating": {
+            "Interested": "Ùidh",
+            "NotInterested": "Gun ùidh",
+            "MatchmakerOnly": "Matchmaker a-mhàin"
+        },
+        "StartConversation": "Tòisich còmhradh",
+        "blockUser": "Cuir casg air a&#39; chleachdaiche seo",
+        "blockUserAlert": "Chan fhaic thu tuilleadh brathan bhon chleachdaiche seo gus an cuir thu bacadh orra.",
+        "unblockUser": "Fosgail an cleachdaiche seo",
+        "addToContacts": "Cuir ri Caraidean",
+        "manageLabels": "Stiùirich bileagan",
+        "inviteUsers": "Thoir cuireadh do luchd-cleachdaidh",
+        "selectRole": "Tagh Dreuchd",
+        "inviteSuccess": "Neach-cleachdaidh a fhuair cuireadh gu soirbheachail mar {{label}}",
+        "invite": "Thoir cuireadh",
+        "relationships": "Dàimhean",
+        "newRole": "Ròl Ùr",
+        "about": "Mu dheidhinn",
+        "people": "Daoine",
+        "info": "Fiosrachadh",
+        "interests": "Ùidhean",
+        "chat": "Còmhradh",
+        "locations": "Àiteachan",
+        "ManageRoles": "Stiùirich dreuchdan",
+        "aboutPlaceholder": "Cò thu agus dè nì thu? Innis dha daoine rudeigin inntinneach no gun samhail mu do dheidhinn fhèin.",
+        "explanation": "Bidh do phròifil a’ cuideachadh le bhith gad mhaidseadh nas fheàrr le daoine eile airson gnìomhachd buidhne.<br> Feuch an cuir thu a-steach do cho-là-breith",
+        "chats": {
+            "placeholder": "Abair rudeigin"
+        },
+        "LogOut": "Log a-mach",
+        "MyLinks": "Na ceanglaichean agam",
+        "MyJobs": "Na Obraichean agam",
+        "MySocial": "Mi Shòisealta",
+        "MyEducation": "Mo Fhoghlam",
+        "JobsPlaceholder": "Cuir a-steach an seo fiosrachadh obraichean",
+        "EducationPlaceholder": "Cuir a-steach an seo fiosrachadh foghlaim",
+        "ManageNotifications": "Stiùirich fiosan",
+        "YourPreferredLanguage": "An cànan as fheàrr leat"
+    },
+    "myqr": {
+        "Title": "Mo QR"
+    },
+    "composer": {
+        "createCommunity": "Cruthaich Coimhearsnachd",
+        "inviteAdmin": "Thoir cuireadh don Rianachd",
+        "inviteMember": "Ball cuireadh",
+        "newCommunityTitle": "Ainm Coimhearsnachd",
+        "setCommunityTitle": "Ainm Coimhearsnachd",
+        "creditsChargeRequest": "A bheil thu ag aontachadh {{price}} creideas a chosg?",
+        "yes": "tha",
+        "no": "Chan eil"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Fàilte! Feuch an dearbhaich thu do sheòladh puist-d.",
+        "WelcomeVerifyEmail": "Fàilte! Dearbhaich an seòladh puist-d agad.",
+        "ForgetPass": "Hey, an do dhìochuimhnich thu am facal-faire agad?",
+        "ManageEmailSubscriptions": "stiùir na fo-sgrìobhaidhean post-d agad",
+        "IfUnsubscribe": "Ma tha thu airson crìoch a chur air an fho-sgrìobhadh"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Fàilte gu {{CommunityName}}. Cuidichidh an aplacaid seo thu gus ceangal a dhèanamh le caraidean, lorg daoine ùra aig a bheil ùidhean cumanta, agus mòran a bharrachd. Feuch an tòisich sinn!"
+            },
+            "icon": {
+                "Commentary": "Suidhich an dealbh agad. Seo mar a chì daoine thu air an làrach."
+            },
+            "interests": {
+                "Commentary": "Mar as motha de stuthan a thaghas tu, is ann as motha de dhaoine a choinnicheas tu.",
+                "Notifications": "Feumaidh tu fiosan a cheadachadh"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Leigidh brathan dhut fios a bhith agad mu rudan anns a bheil ùidh agad, leithid nuair a thig caraid dhan app, no nuair a chuireas tu teachdaireachd thugad."
+        },
+        "invite": "{{Q.words.TapOrClick}} an seo gus faicinn mar as urrainn dhut seo a cho-roinn le daoine eile."
+    },
+    "payment": {
+        "onContribute": "Tapadh leat! Chaidh do phàigheadh seachad. Am bu toil leat cuireadh a thoirt dha do charaidean tighinn còmhla riut?"
+    },
+    "featureboard": {
+        "Text_1": "Leig le do ghuth a chluinntinn! A bheil thu ag aontachadh gum bu chòir dhuinn feart no bug a leasachadh? Cliog air a’ phutan gus taic a thoirt dha.",
+        "Text_2": "A bheil thu airson feart ùr a leasachadh? Thoir cunntas air gu h-ìosal.",
+        "Text_3": "Gach seachdain bidh sinn a’ tòiseachadh a’ leasachadh a’ phrìomh fheart a dh’ iarr a’ choimhearsnachd. Bidh a h-uile airgead a thèid a chuir a-steach a’ dol a dh’ ionnsaigh an adhbhair sin, a’ leigeil leinn an aplacaid a dhèanamh nas fheàrr.",
+        "Text_4": "Bithear a’ cleachdadh an airgid gu lèir gus ar cosgaisean leasachaidh a phàigheadh.",
+        "Text_5": "A bheil beachd agad airson feart no bugfix a tha thu airson gun dèan sinn ach nach fhaca thu feadhainn eile ga chur ris fhathast? Thoir cunntas air gu h-ìosal:",
+        "Options": [
+            {
+                "text": "$400 Co-labhairt bhidio fìor-ùine"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$200 fiosrachadh clàraidh bun-sgoile ionadail"
+            },
+            {
+                "text": "$130 Dèan brobhsadh agus roinn na mìltean de {{1}} memes",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 Stiùirich na coimhearsnachdan agad fhèin",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Ceartaich bug còmhraidh",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Iarr feart\/bugfix ùr",
+        "FeaturePlaceholder": "Geàrr-chunntas goirid air an fheart",
+        "FeatureDescription": "Thoir cunntas air mar as urrainn do chuideigin eile am biast a tha thu a’ faicinn ath-chruthachadh, no thoir cunntas mionaideach air an fheart a tha thu airson a thogail",
+        "AddYourRequest": "Cuir ris an iarrtas agad",
+        "NewFeature": "Feart Ùr"
+    },
+    "contribute": {
+        "ContributeExplanation": "Cuidich le bhith a&#39; toirt taic do leasachadh leantainneach air an aplacaid {{communityName}}. Bidh na tabhartasan agad gu lèir a’ cuideachadh le bhith a’ càradh bhiteagan agus a’ leasachadh feartan ùra gus a’ choimhearsnachd air-loidhne fhàs!",
+        "ReasonToContribute": "Tha an aplacaid seo air a chumail suas le luchd-taic {{communityName}}. Cuidich le bhith a’ toirt taic don aplacaid seo gus an urrainn dhuinn eadar-dhealachadh a dhèanamh ann am beatha dhaoine!"
+    },
+    "assetshistory": {
+        "Title": "Eachdraidh maoin",
+        "Charges": "Cosgaisean",
+        "Credits": "Creideasan"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Thoir air falbh cunntas",
+            "content": "A bheil thu airson an cunntas seo a thoirt air falbh?",
+            "ok": "tha",
+            "cancel": "Chan eil"
+        }
+    },
+    "import": {
+        "fileNotFound": "Duilich, cha deach am faidhle CSV a lorg.",
+        "fileEmpty": "Duilich, tha am faidhle CSV falamh.",
+        "userIdNotFound": "cleachdaiche ann ach id falamh",
+        "errorLine": "loidhne {{1}}",
+        "fieldNotFound": "Raon a tha a dhìth &quot;{{1}}&quot; cha deach a lorg",
+        "taskStreamInvalid": "sruth-obrach neo-dhligheach",
+        "instructionsEmpty": "stiùireadh sruth-obrach falamh",
+        "complete": "Crìochnaich",
+        "activateUsers": "cuir teachdaireachd gnìomhachaidh gu luchd-cleachdaidh?",
+        "importProgress": "Adhartas",
+        "joinEventLabel": "Thig còmhla ri luchd-cleachdaidh gu tachartas air thuaiream",
+        "importOptions": "Roghainnean",
+        "sampleCSV": "Luchdaich a-nuas CSV airson samp",
+        "fileLabel": "Luchdaich suas spreadsheet:",
+        "errorsTitle": "Thachair mearachdan",
+        "communityUsers": "Seo liosta choimhearsnachdan",
+        "setAsConversation": "Colbh URL mar chòmhradh",
+        "toMainCommunityToo": "cuir luchd-cleachdaidh ris a’ phrìomh choimhearsnachd cuideachd",
+        "willImportedTo": "Thèid luchd-cleachdaidh a thoirt a-steach don choimhearsnachd"
+    }
+}

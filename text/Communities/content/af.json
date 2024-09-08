@@ -1,0 +1,460 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> wys na niks nie!",
+        "NextSteps": "Gebruik die hoofkieslys om te vind waarna jy soek."
+    },
+    "greeting": {
+        "Welcome": "Welkom by {{1}}. Hier sal jy dinge vind wat vir lede van ons gemeenskap geplaas is. Voeg asseblief jou e-posadres of selfoonnommer by om kennisgewings te ontvang wanneer aankondigings geplaas word."
+    },
+    "conversations": {
+        "New": "Nuwe Gesprek",
+        "Conversation": "Gesprek",
+        "Topics": "Onderwerpe",
+        "NoneYet": "Geen gesprekke is nog gevorm nie",
+        "newConversations": "{{1}} nuwe gesprekke",
+        "AllAuthors": "Alle Skrywers",
+        "FilterbyAuthors": "Filter volgens skrywers",
+        "FilterAuthorPlaceHolder": "Soek bykomende skrywers...",
+        "Title": "Gesprekke",
+        "Description": "{{1}} gesprekke",
+        "filterConversations": "Filtreer volgens teks"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Kies &#39;n onderwerp",
+            "Share": "Deel",
+            "interest": {
+                "Title": "Kies &#39;n aktiwiteit",
+                "Filter": "Soek belangstellings..."
+            }
+        },
+        "Title": "Nuwe Gesprek",
+        "TitlePlaceholder": "Onderwerp van jou gesprek",
+        "ContentPlaceholder": "Skryf &#39;n paar woorde om die gesprek te begin, sodat ander kan antwoord",
+        "StartButton": "Begin Gesprek"
+    },
+    "events": {
+        "Title": "Gebeurtenisse",
+        "filterByTitle": "Soek gebeurtenisse volgens titel",
+        "New": "+ Begin &#39;n nuwe geleentheid",
+        "SetLocation": "Stel my ligging",
+        "NoneYet": "Geen geleenthede is nog gevorm nie<br> gedurende hierdie tye.",
+        "AllDays": "Alle dae",
+        "AllLocations": "Alle liggings",
+        "AllInterests": "Alle Belangstellings",
+        "FilterbyInterest": "Filtreer volgens belangstelling",
+        "FilterByDate": "Filter volgens datum",
+        "ShowActivities": "Wys aktiwiteite wat verband hou met . . .",
+        "newEvents": "Jy het {{1}} nuwe geleenthede",
+        "SelectLocation": "Kies Ligging",
+        "FilterLocationsPlaceHolder": "Filter lokale met ...",
+        "AllAuthors": "Alle Skrywers",
+        "filterEvents": "Filter gebeure",
+        "NewEvent": "Nuwe geleentheid",
+        "Description": "{{1}} gebeurtenisse",
+        "Keywords": "{{1}} gebeurtenisse",
+        "MakeReservation": "Maak bespreking",
+        "Reserved": "Kanselleer bespreking",
+        "AreYouSure": "Is jy seker?",
+        "YouWillRefunded": "Jy sal terugbetaal word in die vorm van krediete wat jy op ander dinge in die toepassing kan spandeer.",
+        "CancelReservation": "Kanselleer bespreking",
+        "UpdateReservation": "Dateer bespreking op"
+    },
+    "schedule": {
+        "Title": "Skedule",
+        "NoneYet": "Jy neem nie aan enige geleenthede deel nie",
+        "AddSome": "Voeg &#39;n paar by jou skedule!",
+        "AddMore": "Voeg gebeurtenisse by jou skedule!",
+        "future": "toekoms",
+        "past": "verlede"
+    },
+    "location": {
+        "Title": "Ligging",
+        "NewLocation": "Nuwe ligging"
+    },
+    "inbox": {
+        "Title": "Inkassie",
+        "NoneYet": "Jy neem nie aan enige gesprekke deel nie",
+        "FindPeople": "Soek mense om mee te praat",
+        "GroupConversations": "Sluit aan by sommige groepgesprekke",
+        "ContactStaff": "Kontak Personeel",
+        "ContactCustomers": "Kontak Kliënte",
+        "AddNewContact": "Voeg nuwe kontak by",
+        "AddNewContacts": "Voeg nuwe kontakte by"
+    },
+    "me": {
+        "Title": "Ek",
+        "MobileNumber": "Selfoon nommer",
+        "EmailAddress": "E-pos adres",
+        "UpdateSocialTitle": "Dateer {{1}} gebruikernaam op",
+        "Web3": "Web3"
+    },
+    "people": {
+        "Title": "Mense",
+        "AppAlert": "Met hierdie toepassing in die toepassingswinkel kan u met u vriende kontak maak, en nog baie meer.",
+        "Invite": "Nooi vriende",
+        "FindSomeoneByName": "Soek iemand op die naam",
+        "FindAllMyFriends": "Vind al my vriende",
+        "labels": {
+            "All": "Almal",
+            "Title": "Filtreer volgens verhouding",
+            "New": "Nuwe tipe verhouding"
+        },
+        "interests": {
+            "All": "Alle Belangstellings",
+            "Title": "Filtreer volgens belangstelling",
+            "Filter": "Wys mense wat belangstel in. . ."
+        },
+        "SearchByName": "Soek op naam",
+        "Description": "Mense in {{1}} gemeenskap",
+        "Keywords": "{{1}} mense gemeenskap",
+        "BuyCredits": "Koop Krediete"
+    },
+    "communities": {
+        "Title": "Gemeenskappe",
+        "NewCommunity": "Nuwe gemeenskap",
+        "FindCommunityByName": "Soek gemeenskap op naam",
+        "Description": "{{1}} gemeenskappe"
+    },
+    "community": {
+        "Title": "{{1}} Gemeenskap",
+        "Roles": "Rolle",
+        "AllRoles": "Alle rolle",
+        "YouDontHavePermission": "Jy is nie gemagtig om dit te doen nie",
+        "usernamePlaceholder": "stel gemeenskapsnaam in",
+        "NotEnoughCredits": "Jy het nie genoeg krediete om gemeenskap te skep nie. Benodig {{1}}, jy het {{2}}"
+    },
+    "event": {
+        "GetDirections": "Kry aanwysings",
+        "WhichMap": "Watter kaarte sal jy graag wil gebruik?",
+        "JoinEventToChat": "Sluit aan by die geleentheid om te gesels",
+        "promote": {
+            "Title": "Bevorder hierdie geleentheid",
+            "Prompt": "Kies waar jy hierdie geleentheid wil bevorder:"
+        },
+        "Confirmation": "Bevestiging"
+    },
+    "newEvent": {
+        "Title": "Beplan nuwe geleentheid"
+    },
+    "interests": {
+        "Title": "Belange",
+        "prompt": "Kies die tipe dinge waarvan jy graag wil weet.",
+        "explanation": "Hoe meer belangstellings jy kies, hoe groter is die kans dat jy met eendersdenkende mense sal skakel.",
+        "filter": "Waarin stel jy belang?",
+        "Profile": "Wedersydse belange word uitgelig. As jy ook een of meer van die belangstellings hieronder het, kan jy {{clickOrTap}} om hulle by te voeg."
+    },
+    "credits": {
+        "Title": "Krediete",
+        "EarnCredits": "Verdien {{1}} krediete vir elke nuwe persoon wat jy nooi wat by die program aansluit",
+        "YouHave": "Jy het {{1}} krediete"
+    },
+    "onboarding": {
+        "Tap": "Tik",
+        "Click": "Klik",
+        "Yes": "Ja",
+        "No": "Geen",
+        "name": {
+            "Preface": "Welkom by",
+            "Placeholder": "Vul u volle naam in",
+            "GetStarted": "Begin",
+            "AsGuest": "Jy is as &#39;n gas genooi.",
+            "AsMember": "Jy is as &#39;n lid genooi.",
+            "AsAdmin": "Jy is as &#39;n administrateur genooi.",
+            "AsOwner": "Jy is as &#39;n eienaar genooi.",
+            "TooShort": "Jou volle naam kan nie so kort wees nie",
+            "SetAsYourFullName": "Stel {{1}} as jou volle naam?"
+        },
+        "icon": {
+            "KeepDefault": "of hou hierdie foto",
+            "SetYourPhoto": "{{ClickOrTap}} om jou foto te stel:",
+            "ClickOnYourFace": "{{ClickOrTap}} op jou gesig"
+        },
+        "interests": {
+            "GetStarted": "⇩ Begin",
+            "NextCategory": "↓ Volgende",
+            "Continue": "Aanhou",
+            "Instructions": "In elk van die volgende {{1}} kategorieë,<br> {{2}} al die aktiwiteite waarin jy belangstel.<br> Dit is hoe jy kontak maak met ander mense in die gemeenskap."
+        },
+        "profile": {
+            "Profile": "Jou profiel help mense om meer oor jou te ontdek.<br>",
+            "Birthday": "Voer asseblief jou verjaarsdag in:",
+            "Placeholder": "Wie is jy en wat doen jy? Vertel mense iets interessants of uniek oor jouself.",
+            "Month": "Maand",
+            "Day": "Dag",
+            "Year": "Jaar",
+            "Gender": "Geslag",
+            "Male": "Manlik",
+            "Female": "Vroulik",
+            "Other": "Ander",
+            "Height": "Hoogte",
+            "Affiliation": "Affiliasie",
+            "Dating": "Dating",
+            "Interested": "Stel belang",
+            "NotInterested": "Stel nie belang nie",
+            "MatchmakerOnly": "Pasmaat Slegs",
+            "Required": "Om voort te gaan, skryf ten minste &#39;n paar reëls oor jouself."
+        },
+        "location": {
+            "NoOneElse": "Niemand anders sal dit sien nie.",
+            "SetMyLocation": "Stel my ligging"
+        },
+        "pile": {
+            "DialogTitle": "Mense met gemeenskaplike belange"
+        },
+        "Done": "Klaar",
+        "Skip": "of slaan dit oor",
+        "relationships": {
+            "title": "Voeg {{userName}} by Telefoonboek",
+            "welcome": "Welkom {{user}}",
+            "invitedByUser": "jou genooi.",
+            "addToPhonebook": "Stoor na My foonkontakte",
+            "iosInstructions": "Rollees af na Voeg nuwe kontak by",
+            "androidInstructions": "Jy moet hierdie vCard-lêer oopmaak nadat dit afgelaai is.",
+            "explanation": "Wat is jou verhouding?"
+        },
+        "Title": "Basiese inligting",
+        "Prompt": "&#39;n Paar stappe om jou rekening op te stel"
+    },
+    "profile": {
+        "Title": "Profiel",
+        "Male": "Manlik",
+        "Female": "Vroulik",
+        "Other": "Ander",
+        "dating": {
+            "Interested": "Stel belang",
+            "NotInterested": "Stel nie belang nie",
+            "MatchmakerOnly": "Slegs Pasmaats"
+        },
+        "StartConversation": "Begin &#39;n gesprek",
+        "blockUser": "Blokkeer hierdie gebruiker",
+        "blockUserAlert": "Jy sal nie meer boodskappe van hierdie gebruiker sien totdat jy dit deblokkeer nie.",
+        "unblockUser": "Deblokkeer hierdie gebruiker",
+        "addToContacts": "Voeg by kontakte",
+        "manageLabels": "Bestuur etikette",
+        "inviteUsers": "Nooi gebruikers",
+        "inviteSuccess": "Gebruiker suksesvol genooi as {{label}}",
+        "invite": "Nooi",
+        "relationships": "Verhoudings",
+        "newRole": "Nuwe Rol",
+        "about": "Oor",
+        "people": "Mense",
+        "info": "Inligting",
+        "interests": "Belange",
+        "chat": "Gesels",
+        "locations": "Liggings",
+        "ManageRoles": "Bestuur rolle",
+        "aboutPlaceholder": "Wie is jy en wat doen jy? Vertel mense iets interessants of uniek oor jouself.",
+        "explanation": "Jou profiel help om jou beter met ander mense te pas vir groepaktiwiteite.<br> Voer asseblief jou verjaarsdag in",
+        "chats": {
+            "placeholder": "Sê iets"
+        },
+        "LogOut": "Teken uit",
+        "selectRole": "Kies Rol",
+        "MyLinks": "My skakels",
+        "MyJobs": "My werk",
+        "MySocial": "MySocial",
+        "MyEducation": "My Opvoeding",
+        "JobsPlaceholder": "Tik hier werksinligting",
+        "EducationPlaceholder": "Tik hier onderwysinligting",
+        "ManageNotifications": "Bestuur kennisgewings",
+        "YourPreferredLanguage": "Jou voorkeurtaal",
+        "SendCrypto": "Betaal",
+        "Block": "Blok",
+        "Unblock": "Deblokkeer",
+        "Email": "E-pos",
+        "Avoid": "Verhoed",
+        "CreatePrivateChat": "Spandeer {{credits}} krediete om uit te reik?",
+        "RolesInCommunity": "Rolle in die gemeenskap",
+        "PersonalChatWith": "Persoonlike klets met {{name}}",
+        "SendCryptoTo": "Stuur kripto na {{name}}",
+        "SendEmailTo": "Stuur e-pos aan {{name}}",
+        "SendSMSTo": "Stuur SMS na {{name}}",
+        "BlockThisUser": "Blokkeer hierdie gebruiker",
+        "UnblockThisUser": "Deblokkeer hierdie gebruiker",
+        "YouCantChatWithYourself": "Jy kan nie met jouself gesels nie",
+        "blockUserAlertTitle": "Geblokkeer {{displayName}}",
+        "sections": {
+            "education": "Onderwys",
+            "greeting": "Groete",
+            "jobs": "Werksgeleenthede",
+            "links": "Skakels",
+            "language": "Taal",
+            "roles": "Rolle",
+            "personal": "Persoonlik",
+            "social": "Sosiaal"
+        },
+        "Roles": "Rolle",
+        "SendPaymentTo": "Stuur &#39;n betaling na {{name}}"
+    },
+    "myqr": {
+        "Title": "My QR"
+    },
+    "composer": {
+        "createCommunity": "Skep gemeenskap",
+        "inviteAdmin": "Nooi Admin",
+        "inviteMember": "Nooi lid",
+        "newCommunityTitle": "Gemeenskap naam",
+        "setCommunityTitle": "Gemeenskap naam",
+        "creditsChargeRequest": "Stem jy in om {{price}} krediete te spandeer?",
+        "yes": "Ja",
+        "no": "Geen"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Welkom! Verifieer asseblief jou e-posadres.",
+        "WelcomeVerifyEmail": "Welkom! Bevestig jou e-pos adres.",
+        "ForgetPass": "Haai, het jy jou wagwoordfrase vergeet?",
+        "ManageEmailSubscriptions": "bestuur jou e-posintekeninge",
+        "IfUnsubscribe": "As jy wil uitteken"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Welkom by {{CommunityName}}. Hierdie toepassing sal jou help om met vriende te skakel, nuwe mense met gemeenskaplike belangstellings te ontdek, en nog baie meer. Laat ons begin!"
+            },
+            "icon": {
+                "Commentary": "Stel jou foto. Dit is hoe mense jou op die webwerf sal sien."
+            },
+            "interests": {
+                "Commentary": "Hoe meer items jy kies, hoe meer mense kan jy ontmoet.",
+                "Notifications": "Jy moet kennisgewings toelaat"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Kennisgewings laat jou toe om te weet oor dinge waarin jy belangstel, soos wanneer &#39;n vriend by die toepassing aansluit, of vir jou boodskappe stuur."
+        },
+        "invite": "{{Q.words.TapOrClick}} hier om te sien hoe jy dit met ander mense kan deel."
+    },
+    "payment": {
+        "onContribute": "Dankie! Jou betaling het deurgegaan. Wil jy jou vriende nooi om by jou aan te sluit?",
+        "ConnectAccount": "Koppel rekening"
+    },
+    "featureboard": {
+        "Text_1": "Laat jou stem gehoor word! Stem jy saam dat ons &#39;n kenmerk of fout moet ontwikkel? Klik op die knoppie om dit te ondersteun.",
+        "Text_2": "Wil jy hê ons moet &#39;n nuwe kenmerk ontwikkel? Beskryf dit hieronder.",
+        "Text_3": "Ons begin elke week om die gewildste kenmerk deur die gemeenskap te ontwikkel. Alle geld wat bygedra word, gaan vir daardie doel, wat ons in staat stel om die toepassing beter te maak.",
+        "Text_4": "Alle geld wat bygedra word, word gebruik om ons ontwikkelingskoste te help betaal.",
+        "Text_5": "Het jy &#39;n idee vir &#39;n kenmerk of foutoplossing wat jy wil hê ons moet doen, maar nog nie gesien het dat ander byvoeg nie? Beskryf dit hieronder:",
+        "Options": [
+            {
+                "text": "$400 Intydse videokonferensies"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$200 Plaaslike Primêre registrasie-inligting"
+            },
+            {
+                "text": "$130 Blaai deur en deel duisende {{1}} memes",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 Bestuur jou eie gemeenskappe",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Maak gesprekkefout reg",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Versoek &#39;n nuwe kenmerk\/foutoplossing",
+        "FeaturePlaceholder": "Kort opsomming van kenmerk",
+        "FeatureDescription": "Beskryf hoe iemand anders die fout wat jy sien kan reproduseer, of beskryf in detail die kenmerk wat jy wil bou",
+        "AddYourRequest": "Voeg jou versoek by",
+        "NewFeature": "Nuwe kenmerk"
+    },
+    "assetshistory": {
+        "Title": "Bates geskiedenis",
+        "Charges": "Koste",
+        "Credits": "Krediete"
+    },
+    "contribute": {
+        "ContributeExplanation": "Help om voortgesette ontwikkeling van die {{communityName}}-program te ondersteun. Al jou bydraes help om foute reg te stel en nuwe kenmerke te ontwikkel om die aanlyn gemeenskap te help groei!",
+        "ReasonToContribute": "Hierdie toepassing word onderhou deur ondersteuners van {{communityName}}. Help om hierdie toepassing te ondersteun sodat ons &#39;n verskil in mense se lewens kan maak!"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Verwyder rekening",
+            "content": "Wil jy hierdie rekening verwyder?",
+            "ok": "Ja",
+            "cancel": "Geen"
+        }
+    },
+    "import": {
+        "fileNotFound": "Jammer, CSV-lêer nie gevind nie.",
+        "fileEmpty": "Jammer, CSV-lêer is leeg.",
+        "userIdNotFound": "gebruiker bestaan maar ID leeg",
+        "errorLine": "reël {{1}}",
+        "fieldNotFound": "Vereiste veld &quot;{{1}}&quot; nie gevind nie",
+        "taskStreamInvalid": "taakstroom ongeldig",
+        "instructionsEmpty": "taakstroom instruksies leeg",
+        "complete": "Voltooi",
+        "activateUsers": "aktiveringsboodskap aan gebruikers stuur?",
+        "importProgress": "Vordering",
+        "joinEventLabel": "Sluit gebruikers aan by ewekansige gebeurtenis",
+        "importOptions": "Opsies",
+        "sampleCSV": "Laai voorbeeld CSV af",
+        "fileLabel": "Laai sigblad op:",
+        "errorsTitle": "Foute het voorgekom",
+        "communityUsers": "Dit is gemeenskapslys",
+        "setAsConversation": "URL-kolom as gesprek",
+        "toMainCommunityToo": "voeg gebruikers ook by hoofgemeenskap",
+        "willImportedTo": "Gebruikers sal na die gemeenskap ingevoer word",
+        "ChooseFile": "kies lêer"
+    },
+    "dashboard": {
+        "Menu": "Spyskaart",
+        "Home": "Tuis",
+        "Welcome": "Welkom",
+        "Events": "Gebeurtenisse",
+        "Discuss": "Bespreek",
+        "People": "Mense",
+        "About": "Oor",
+        "Community": "Gemeenskap",
+        "LogIn": "teken aan",
+        "LogOut": "teken uit",
+        "Intercoin": "Intercoin",
+        "Shows": "Vertonings",
+        "Calendar": "Kalender",
+        "Me": "Ek",
+        "Media": "Media",
+        "Services": "Dienste",
+        "SetMobileNumber": "Stel selfoonnommer in",
+        "SetEmailAddress": "Stel e-posadres in"
+    },
+    "services": {
+        "Title": "Dienste",
+        "filterByTitle": "Vind dienste volgens titel",
+        "New": "+ Begin nuwe diens",
+        "NewService": "Nuwe Diens",
+        "filterServices": "Filter dienste",
+        "NoneYet": "Geen dienste is nog gevorm nie<br> gedurende hierdie tye.",
+        "AllAuthors": "Alle Skrywers",
+        "AllDays": "Alle dae",
+        "AllLocations": "Alle liggings",
+        "MakeReservation": "Maak bespreking",
+        "CancelReservation": "Kanselleer bespreking",
+        "UpdateReservation": "Dateer bespreking op",
+        "AreYouSure": "Is jy seker?",
+        "YouWillRefunded": "Jy sal terugbetaal word in die vorm van krediete wat jy op ander dinge in die toepassing kan spandeer.",
+        "AllInterests": "Alle Belangstellings",
+        "FilterbyInterest": "Filtreer volgens belangstelling",
+        "FilterByDate": "Filter volgens datum",
+        "ShowActivities": "Wys aktiwiteite wat verband hou met...",
+        "newServices": "Jy het {{1}} nuwe dienste",
+        "SelectLocation": "Kies Ligging",
+        "FilterLocationsPlaceHolder": "Filter lokale met ...",
+        "Description": "{{1}} diens",
+        "Keywords": "{{1}} diens",
+        "NewAvailability": "Nuwe Beskikbaarheid"
+    },
+    "welcome": {
+        "Title": "{{appName}}: welkom",
+        "GetStarted": "Begin",
+        "gallery": {
+            "Connect": "Koppel",
+            "Organize": "Organiseer",
+            "Travel": "Reis",
+            "Share": "Deel"
+        }
+    }
+}

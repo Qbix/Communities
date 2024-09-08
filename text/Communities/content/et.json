@@ -1,0 +1,459 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> ei viita millelegi!",
+        "NextSteps": "Otsitava leidmiseks kasutage peamenüüd."
+    },
+    "dashboard": {
+        "Menu": "Menüü",
+        "Home": "Kodu",
+        "Welcome": "Tere tulemast",
+        "Events": "Sündmused",
+        "Discuss": "Arutage",
+        "People": "Inimesed",
+        "About": "Umbes",
+        "Community": "kogukond",
+        "LogIn": "Logi sisse",
+        "LogOut": "Logi välja",
+        "Intercoin": "Intercoin",
+        "Shows": "Näitab",
+        "Calendar": "Kalender",
+        "Me": "Mina",
+        "Media": "Meedia",
+        "Services": "Teenused",
+        "SetMobileNumber": "Määra mobiilinumber",
+        "SetEmailAddress": "Määra e-posti aadress"
+    },
+    "greeting": {
+        "Welcome": "Tere tulemast {{1}}. Siit leiate meie kogukonna liikmetele postitatud asju. Lisage oma e-posti aadress või mobiiltelefoni number, et saada teateid teadaannete postitamisel."
+    },
+    "conversations": {
+        "Title": "Vestlused",
+        "New": "Uus vestlus",
+        "Conversation": "Vestlus",
+        "Topics": "Teemad",
+        "NoneYet": "Ühtegi vestlust pole veel moodustatud",
+        "newConversations": "{{1}} uut vestlust",
+        "AllAuthors": "Kõik autorid",
+        "FilterbyAuthors": "Filtreeri autorite järgi",
+        "FilterAuthorPlaceHolder": "Otsi täiendavaid autoreid...",
+        "filterConversations": "Filtreeri teksti järgi",
+        "Description": "{{1}} vestlust"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Valige teema",
+            "Share": "Jaga",
+            "interest": {
+                "Title": "Valige tegevus",
+                "Filter": "Otsinguhuvid..."
+            }
+        },
+        "Title": "Uus vestlus",
+        "TitlePlaceholder": "Teie vestluse teema",
+        "ContentPlaceholder": "Kirjutage vestluse alustamiseks paar sõna, et teised saaksid vastata",
+        "StartButton": "Alusta vestlust"
+    },
+    "events": {
+        "Title": "Sündmused",
+        "filterByTitle": "Otsige sündmusi pealkirja järgi",
+        "New": "+ Alusta uut sündmust",
+        "filterEvents": "Sündmuste filtreerimine",
+        "NewEvent": "Uus sündmus",
+        "SetLocation": "Määra Minu asukoht",
+        "NoneYet": "Ühtegi sündmust pole veel moodustatud<br> nendel aegadel.",
+        "AllAuthors": "Kõik autorid",
+        "AllDays": "Kõik päevad",
+        "AllLocations": "Kõik asukohad",
+        "MakeReservation": "Tee broneering",
+        "CancelReservation": "Tühista broneering",
+        "UpdateReservation": "Värskenda broneeringut",
+        "AreYouSure": "Oled sa kindel?",
+        "YouWillRefunded": "Teile makstakse raha tagasi krediidi kujul, mida saate rakenduses muudele asjadele kulutada.",
+        "AllInterests": "Kõik huvid",
+        "FilterbyInterest": "Filtreerige huvide järgi",
+        "FilterByDate": "Filtreeri kuupäeva järgi",
+        "ShowActivities": "Näita tegevusi, mis on seotud . . .",
+        "newEvents": "Teil on {{1}} uut sündmust",
+        "SelectLocation": "Valige Asukoht",
+        "FilterLocationsPlaceHolder": "Filtreerige kohti ...",
+        "Description": "{{1}} sündmust",
+        "Keywords": "{{1}} sündmust"
+    },
+    "schedule": {
+        "Title": "Ajakava",
+        "NoneYet": "Te ei osale ühelgi üritusel",
+        "AddSome": "Lisage mõned oma ajakavasse!",
+        "AddMore": "Lisage sündmused oma ajakavasse!",
+        "future": "tulevik",
+        "past": "minevik"
+    },
+    "location": {
+        "Title": "Asukoht",
+        "NewLocation": "Uus Asukoht"
+    },
+    "inbox": {
+        "Title": "Postkast",
+        "NoneYet": "Te ei osale üheski vestluses",
+        "FindPeople": "Otsige inimesi, kellega rääkida",
+        "GroupConversations": "Liituge mõne grupivestlusega",
+        "ContactStaff": "Võtke ühendust töötajatega",
+        "ContactCustomers": "Võtke ühendust klientidega",
+        "AddNewContact": "Lisa uus kontakt",
+        "AddNewContacts": "Lisage uusi kontakte"
+    },
+    "me": {
+        "Title": "Mina",
+        "MobileNumber": "Mobiili number",
+        "EmailAddress": "E-posti aadress",
+        "UpdateSocialTitle": "Värskenda {{1}} kasutajanime",
+        "Web3": "Veeb3"
+    },
+    "people": {
+        "Title": "Inimesed",
+        "Description": "Inimesed kogukonnas {{1}}",
+        "AppAlert": "See rakenduste poes olev rakendus võimaldab teil suhelda oma sõpradega ja palju muud.",
+        "Invite": "Kutsu sõpru",
+        "BuyCredits": "Ostke krediiti",
+        "FindSomeoneByName": "Otsige keegi nime järgi",
+        "SearchByName": "Otsi nime järgi",
+        "FindAllMyFriends": "Leia kõik mu sõbrad",
+        "labels": {
+            "All": "Kõik",
+            "Title": "Filtreerige suhte järgi",
+            "New": "Uus suhte tüüp"
+        },
+        "interests": {
+            "All": "Kõik huvid",
+            "Title": "Filtreerige huvide järgi",
+            "Filter": "Näidake inimesi, kes on huvitatud . . ."
+        },
+        "Keywords": "{{1}} inimese kogukond"
+    },
+    "communities": {
+        "Title": "kogukonnad",
+        "NewCommunity": "Uus kogukond",
+        "FindCommunityByName": "Otsige kogukond nime järgi",
+        "Description": "{{1}} kogukonnad"
+    },
+    "community": {
+        "Title": "{{1}} Kogukond",
+        "Roles": "Rollid",
+        "AllRoles": "Kõik rollid",
+        "YouDontHavePermission": "Teil pole selleks volitusi",
+        "usernamePlaceholder": "määrake kogukonna nimi",
+        "NotEnoughCredits": "Teil pole kogukonna loomiseks piisavalt krediiti. Vajad {{1}}, teil on {{2}}"
+    },
+    "event": {
+        "GetDirections": "Juhiseid saama",
+        "WhichMap": "Milliseid kaarte soovite kasutada?",
+        "JoinEventToChat": "Liituge sündmusega, et vestelda",
+        "promote": {
+            "Title": "Reklaamige seda sündmust",
+            "Prompt": "Valige koht, kus soovite seda sündmust reklaamida:"
+        },
+        "Confirmation": "Kinnitamine"
+    },
+    "newEvent": {
+        "Title": "Planeerige uus sündmus"
+    },
+    "interests": {
+        "Title": "Huvid",
+        "prompt": "Valige asjade tüübid, mille kohta soovite teada.",
+        "explanation": "Mida rohkem huvisid valite, seda tõenäolisem on teil suhelda sarnaselt mõtlevate inimestega.",
+        "filter": "Millest sa huvitatud oled?",
+        "Profile": "Esile tõstetakse vastastikused huvid. Kui teil on ka üks või mitu allolevatest huvidest, saate need lisada {{clickOrTap}}."
+    },
+    "credits": {
+        "Title": "Krediidid",
+        "EarnCredits": "Teenige {{1}} krediiti iga uue inimese eest, kelle kutsute rakendusega liituma",
+        "YouHave": "Teil on {{1}} krediiti"
+    },
+    "onboarding": {
+        "Tap": "Puudutage",
+        "Click": "Klõpsake",
+        "Yes": "Jah",
+        "No": "Ei",
+        "Skip": "või jäta see vahele",
+        "name": {
+            "Preface": "Tere tulemast",
+            "Placeholder": "Sisestage oma täisnimi",
+            "GetStarted": "Alustama",
+            "AsGuest": "Teid on kutsutud külaliseks.",
+            "AsMember": "Teid on kutsutud liikmeks.",
+            "AsAdmin": "Teid on kutsutud administraatoriks.",
+            "AsOwner": "Teid on kutsutud omanikuks.",
+            "TooShort": "Teie täisnimi ei tohi olla nii lühike",
+            "SetAsYourFullName": "Kas määrata {{1}} oma täisnimeks?"
+        },
+        "icon": {
+            "KeepDefault": "või jäta see foto alles",
+            "SetYourPhoto": "{{ClickOrTap}} oma foto määramiseks:",
+            "ClickOnYourFace": "{{ClickOrTap}} Sinu näol"
+        },
+        "interests": {
+            "GetStarted": "⇩ Alustage",
+            "NextCategory": "↓ Järgmine",
+            "Continue": "Jätka",
+            "Instructions": "Igas järgmises {{1}} kategoorias<br> {{2}} kõik tegevused, millest olete huvitatud.<br> Nii saate ühenduse teiste inimestega kogukonnas."
+        },
+        "profile": {
+            "Profile": "Teie profiil aitab inimestel teie kohta rohkem teada saada.<br>",
+            "Birthday": "Sisestage oma sünnipäev:",
+            "Placeholder": "Kes sa oled ja millega tegeled? Rääkige inimestele enda kohta midagi huvitavat või ainulaadset.",
+            "Required": "Jätkamiseks kirjuta endast vähemalt paar rida.",
+            "Month": "Kuu",
+            "Day": "päev",
+            "Year": "aasta",
+            "Gender": "Sugu",
+            "Male": "Mees",
+            "Female": "Naine",
+            "Other": "muud",
+            "Height": "Kõrgus",
+            "Affiliation": "Seotus",
+            "Dating": "Tutvumine",
+            "Interested": "Huvitatud",
+            "NotInterested": "Ei ole huvitatud",
+            "MatchmakerOnly": "Ainult kosjasobitaja"
+        },
+        "location": {
+            "NoOneElse": "Keegi teine seda ei näe.",
+            "SetMyLocation": "Määra minu asukoht"
+        },
+        "pile": {
+            "DialogTitle": "Ühiste huvidega inimesed"
+        },
+        "Done": "Valmis",
+        "relationships": {
+            "title": "Lisage {{userName}} telefoniraamatusse",
+            "welcome": "Tere tulemast {{user}}",
+            "invitedByUser": "kutsus sind.",
+            "addToPhonebook": "Salvesta Minu telefoni kontaktidesse",
+            "iosInstructions": "Kerige alla jaotiseni Lisa uus kontakt",
+            "androidInstructions": "Peaksite selle vCardi faili avama pärast selle allalaadimist.",
+            "explanation": "Milline on teie suhe?"
+        },
+        "Title": "Põhiandmed",
+        "Prompt": "Mõned sammud konto seadistamiseks"
+    },
+    "profile": {
+        "Title": "Profiil",
+        "Male": "Mees",
+        "Female": "Naine",
+        "Other": "muud",
+        "dating": {
+            "Interested": "Huvitatud",
+            "NotInterested": "Ei ole huvitatud",
+            "MatchmakerOnly": "Ainult kosjasobitaja"
+        },
+        "StartConversation": "Alustage vestlust",
+        "blockUser": "Blokeeri see kasutaja",
+        "blockUserAlert": "Te ei näe sellelt kasutajalt enam sõnumeid enne, kui te tema deblokeerite.",
+        "unblockUser": "Deblokeeri see kasutaja",
+        "addToContacts": "Lisa kontaktidesse",
+        "manageLabels": "Siltide haldamine",
+        "inviteUsers": "Kutsuge kasutajaid",
+        "selectRole": "Valige Roll",
+        "inviteSuccess": "Kasutaja edukalt kutsutud kui {{label}}",
+        "invite": "Kutsu",
+        "relationships": "Suhted",
+        "newRole": "Uus roll",
+        "about": "Umbes",
+        "people": "Inimesed",
+        "info": "Info",
+        "interests": "Huvid",
+        "chat": "Vestlus",
+        "locations": "Asukohad",
+        "ManageRoles": "Halda rolle",
+        "aboutPlaceholder": "Kes sa oled ja millega tegeled? Rääkige inimestele enda kohta midagi huvitavat või ainulaadset.",
+        "explanation": "Teie profiil aitab teid rühmategevustes teiste inimestega paremini sobitada.<br> Palun sisestage oma sünnipäev",
+        "chats": {
+            "placeholder": "Ütle midagi"
+        },
+        "LogOut": "Logi välja",
+        "MyLinks": "Minu lingid",
+        "MyJobs": "Minu töökohad",
+        "MySocial": "MySocial",
+        "MyEducation": "Minu haridus",
+        "JobsPlaceholder": "Sisestage siia töökohtade teave",
+        "EducationPlaceholder": "Sisestage siia haridusteave",
+        "ManageNotifications": "Märguannete haldamine",
+        "YourPreferredLanguage": "Teie eelistatud keel",
+        "SendCrypto": "Maksma",
+        "Block": "Blokeeri",
+        "Unblock": "Deblokeerige",
+        "Email": "Meil",
+        "Avoid": "Vältima",
+        "CreatePrivateChat": "Kas kulutada {{credits}} krediiti, et ühendust võtta?",
+        "RolesInCommunity": "Rollid kogukonnas",
+        "PersonalChatWith": "Isiklik vestlus kasutajaga {{name}}",
+        "SendCryptoTo": "Saada krüpto aadressile {{name}}",
+        "SendEmailTo": "Saada meil aadressile {{name}}",
+        "SendSMSTo": "Saada SMS numbrile {{name}}",
+        "BlockThisUser": "Blokeeri see kasutaja",
+        "UnblockThisUser": "Deblokeeri see kasutaja",
+        "YouCantChatWithYourself": "Sa ei saa iseendaga vestelda",
+        "blockUserAlertTitle": "Blokeeritud {{displayName}}",
+        "sections": {
+            "education": "Haridus",
+            "greeting": "Tervitus",
+            "jobs": "Töökohad",
+            "links": "Lingid",
+            "language": "Keel",
+            "roles": "Rollid",
+            "personal": "Isiklik",
+            "social": "Sotsiaalne"
+        },
+        "Roles": "Rollid",
+        "SendPaymentTo": "Saada makse numbrile {{name}}"
+    },
+    "myqr": {
+        "Title": "Minu QR"
+    },
+    "composer": {
+        "createCommunity": "Looge kogukond",
+        "inviteAdmin": "Kutsu administraator",
+        "inviteMember": "Kutsu liige",
+        "newCommunityTitle": "Kogukonna nimi",
+        "setCommunityTitle": "Kogukonna nimi",
+        "creditsChargeRequest": "Kas olete nõus kulutama {{price}} krediiti?",
+        "yes": "Jah",
+        "no": "Ei"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Tere tulemast! Palun kinnitage oma e-posti aadress.",
+        "WelcomeVerifyEmail": "Tere tulemast! Kinnita oma e-posti aadress.",
+        "ForgetPass": "Hei, kas unustasite oma parooli?",
+        "ManageEmailSubscriptions": "hallata oma e-posti tellimusi",
+        "IfUnsubscribe": "Kui soovite tellimusest loobuda"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Tere tulemast teenusesse {{CommunityName}}. See rakendus aitab teil sõpradega suhelda, avastada uusi ühiste huvidega inimesi ja palju muud. Alustame!"
+            },
+            "icon": {
+                "Commentary": "Määrake oma foto. Nii näevad inimesed teid saidil."
+            },
+            "interests": {
+                "Commentary": "Mida rohkem üksusi valite, seda rohkemate inimestega saate kohtuda.",
+                "Notifications": "Peate lubama märguanded"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Märguanded võimaldavad teil teada saada asjadest, mis teid huvitavad, näiteks kui sõber liitub rakendusega või saadab teile sõnumi."
+        },
+        "invite": "{{Q.words.TapOrClick}} siin, et näha, kuidas saate seda teiste inimestega jagada."
+    },
+    "payment": {
+        "onContribute": "Aitäh! Teie makse sooritati. Kas soovite kutsuda oma sõpru endaga liituma?",
+        "ConnectAccount": "Ühendage konto"
+    },
+    "featureboard": {
+        "Text_1": "Laske oma häält kuulda võtta! Kas olete nõus, et peaksime välja töötama funktsiooni või vea? Selle toetamiseks klõpsake nuppu.",
+        "Text_2": "Kas soovite, et töötaksime välja uue funktsiooni? Kirjeldage seda allpool.",
+        "Text_3": "Igal nädalal hakkame arendama kogukonna poolt populaarseimat funktsiooni. Kogu panustatud raha läheb sellele eesmärgile, mis võimaldab meil rakendust paremaks muuta.",
+        "Text_4": "Kogu panustatud raha kasutatakse meie arenduskulude katmiseks.",
+        "Text_5": "Kas teil on idee funktsiooni või veaparanduse kohta, mida soovite, kuid te pole veel näinud, kuidas teised seda lisavad? Kirjeldage seda allpool:",
+        "Options": [
+            {
+                "text": "400 dollarit reaalajas videokonverents"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "200 $ kohaliku esmase registreerimise teave"
+            },
+            {
+                "text": "130 $ Sirvige ja jagage tuhandeid {{1}} meeme",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "80 $ Hallake oma kogukondi",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "30 $ Parandage vestluste viga",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Taotlege uut funktsiooni\/veaparandust",
+        "FeaturePlaceholder": "Funktsiooni lühikokkuvõte",
+        "FeatureDescription": "Kirjeldage, kuidas keegi teine saab teie nähtavat viga reprodutseerida, või kirjeldage üksikasjalikult funktsiooni, mida soovite luua",
+        "AddYourRequest": "Lisage oma taotlus",
+        "NewFeature": "Uus funktsioon"
+    },
+    "contribute": {
+        "ContributeExplanation": "Aidake toetada rakenduse {{communityName}} jätkuvat arendamist. Kõik teie panused aitavad parandada vigu ja arendada uusi funktsioone, mis aitavad võrgukogukonda kasvatada!",
+        "ReasonToContribute": "Seda rakendust haldavad domeeni {{communityName}} toetajad. Aidake seda rakendust toetada, et saaksime inimeste elusid muuta!"
+    },
+    "assetshistory": {
+        "Title": "Varade ajalugu",
+        "Charges": "Süüdistused",
+        "Credits": "Krediidid"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Eemalda konto",
+            "content": "Kas soovite selle konto eemaldada?",
+            "ok": "Jah",
+            "cancel": "Ei"
+        }
+    },
+    "import": {
+        "fileNotFound": "Vabandust, CSV-faili ei leitud.",
+        "fileEmpty": "Vabandust, CSV-fail on tühi.",
+        "userIdNotFound": "kasutaja on olemas, kuid ID on tühi",
+        "errorLine": "rida {{1}}",
+        "fieldNotFound": "Kohustuslikku välja &quot;{{1}}&quot; ei leitud",
+        "taskStreamInvalid": "ülesandevoog on kehtetu",
+        "instructionsEmpty": "ülesandevoo juhised tühjad",
+        "complete": "Täielik",
+        "activateUsers": "Kas saata kasutajatele aktiveerimissõnum?",
+        "importProgress": "Edusammud",
+        "joinEventLabel": "Liituge kasutajatega juhusliku sündmusega",
+        "importOptions": "Valikud",
+        "sampleCSV": "Laadige alla CSV näidis",
+        "fileLabel": "Laadi üles arvutustabel:",
+        "errorsTitle": "Tekkisid vead",
+        "communityUsers": "See on kogukondade loend",
+        "setAsConversation": "URL-i veerg vestlusena",
+        "toMainCommunityToo": "lisage kasutajad ka põhikommuuni",
+        "willImportedTo": "Kasutajad imporditakse kogukonda",
+        "ChooseFile": "Vali fail"
+    },
+    "services": {
+        "Title": "Teenused",
+        "filterByTitle": "Otsige teenuseid pealkirja järgi",
+        "New": "+ Käivitage uus teenus",
+        "NewService": "Uus Teenus",
+        "filterServices": "Filtriteenused",
+        "NoneYet": "Ühtegi teenust pole veel moodustatud<br> nendel aegadel.",
+        "AllAuthors": "Kõik autorid",
+        "AllDays": "Kõik päevad",
+        "AllLocations": "Kõik asukohad",
+        "MakeReservation": "Tee broneering",
+        "CancelReservation": "Tühista broneering",
+        "UpdateReservation": "Värskenda broneeringut",
+        "AreYouSure": "Oled sa kindel?",
+        "YouWillRefunded": "Teile makstakse raha tagasi krediidi kujul, mida saate rakenduses muudele asjadele kulutada.",
+        "AllInterests": "Kõik huvid",
+        "FilterbyInterest": "Filtreerige huvide järgi",
+        "FilterByDate": "Filtreeri kuupäeva järgi",
+        "ShowActivities": "Näita tegevusi, mis on seotud...",
+        "newServices": "Teil on {{1}} uut teenust",
+        "SelectLocation": "Valige Asukoht",
+        "FilterLocationsPlaceHolder": "Filtreerige kohti ...",
+        "Description": "{{1}} teenust",
+        "Keywords": "{{1}} teenust",
+        "NewAvailability": "Uus saadavus"
+    },
+    "welcome": {
+        "Title": "{{appName}}: tere tulemast",
+        "GetStarted": "Alustama",
+        "gallery": {
+            "Connect": "Ühendage",
+            "Organize": "Korraldada",
+            "Travel": "Reisimine",
+            "Share": "Jaga"
+        }
+    }
+}

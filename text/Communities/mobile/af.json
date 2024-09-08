@@ -1,0 +1,24 @@
+{
+    "activation": {
+        "Thanks": "Welkom by {{1}}.",
+        "ClickHere": "Klik hier om jou rekening te aktiveer: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Klik hier om jou selfoonnommer te verifieer: {{1}}"
+    },
+    "SeeHistory": "Sien betalingsgeskiedenis vir {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} is gehef {{2}} vir {{3}} deur {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Haai {{1}}, hierdie is net &#39;n vinnige bevestiging dat jy suksesvol {{2}} aan {{3}} betaal het vir {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Jy het ingeteken op {{2}} met {{3}} by {{4}} vir {{5}} maande.",
+        "HasStarted": "{{1}} het ingeteken op {{2}} met {{3}} by {{4}} vir {{5}} maande."
+    },
+    "resend": {
+        "DidYouWant": "Wou jy jou wagfrase in {{1}} terugstel?",
+        "ClickHere": "Klik dan hier: {{1}}"
+    }
+}

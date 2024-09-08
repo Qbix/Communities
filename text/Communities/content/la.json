@@ -1,0 +1,362 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> nihil refert!",
+        "NextSteps": "Utere elencho principali ut invenias quod petebas."
+    },
+    "dashboard": {
+        "Menu": "Menu"
+    },
+    "greeting": {
+        "Welcome": "Welcome to {{1}}. Hic invenies res missas pro membris nostrae communitatis. Quaeso adde electronicam electronicam aut mobilem numerum ut notificationes accipias cum nuntia missae sunt."
+    },
+    "conversations": {
+        "Title": "Colloquia",
+        "New": "Novum Colloquium",
+        "Conversation": "Colloquium",
+        "Topics": "Topics",
+        "NoneYet": "Nulla colloquia formatae adhuc",
+        "newConversations": "{{1}} colloquia nova",
+        "AllAuthors": "Omnes Auctores",
+        "FilterbyAuthors": "Ab Auctoribus Saccare",
+        "FilterAuthorPlaceHolder": "Quaere auctores additos...",
+        "filterConversations": "eliquare",
+        "Description": "{{1}} colloquia"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Elige topic",
+            "Share": "Share",
+            "interest": {
+                "Title": "Elige quod operatio",
+                "Filter": "Quaerere utilitates..."
+            }
+        },
+        "Title": "Novum Colloquium",
+        "TitlePlaceholder": "Sub tuum colloquium",
+        "ContentPlaceholder": "Scribere pauca verba colloquii incipere, alii respondere possunt",
+        "StartButton": "Satus Colloquium"
+    },
+    "events": {
+        "Title": "Events",
+        "filterByTitle": "Certe per titulum",
+        "New": "+ Committitur Novus Eventus",
+        "filterEvents": "Certe filter",
+        "NewEvent": "Novus Eventus",
+        "SetLocation": "Pone mihi Location",
+        "NoneYet": "No certe formatae adhuc<br> per haec tempora.",
+        "AllAuthors": "Omnes Auctores",
+        "AllDays": "Omnibus diebus",
+        "AllLocations": "Omnes Locations",
+        "MakeReservation": "Fac Cras interdum",
+        "CancelReservation": "Cancel Reservatio",
+        "UpdateReservation": "Renovatio Cras",
+        "AreYouSure": "Es certus?",
+        "YouWillRefunded": "In forma creditorum retribui poteris in aliis rebus in app.",
+        "AllInterests": "Omnes Interests",
+        "FilterbyInterest": "Filtrum ab Interest",
+        "FilterByDate": "Data eliquare",
+        "ShowActivities": "Ostende actiones pertinentes ad . . .",
+        "newEvents": "Nova eventa habes, {{999}",
+        "SelectLocation": "Lego Location",
+        "FilterLocationsPlaceHolder": "Filter venues cum ...",
+        "Description": "{{1}} eventa",
+        "Keywords": "{{1}} eventa"
+    },
+    "schedule": {
+        "Title": "Schedule",
+        "NoneYet": "Non certe ullo participating",
+        "AddSome": "Adde aliquid ad schedulam tuam!",
+        "AddMore": "Adde eventus ad schedulam tuam!",
+        "future": "futurum",
+        "past": "praeteritum"
+    },
+    "location": {
+        "Title": "Locus",
+        "NewLocation": "Novum Location"
+    },
+    "inbox": {
+        "Title": "Inbuxo",
+        "NoneYet": "Non es aliquo colloquia participating",
+        "FindPeople": "Find homines loqui",
+        "GroupConversations": "Colloquia quaedam iungere coetus",
+        "ContactStaff": "Contactus Staff",
+        "ContactCustomers": "Contact Customers"
+    },
+    "me": {
+        "Title": "Me",
+        "MobileNumber": "Mobile numerus",
+        "EmailAddress": "Inscriptio electronica",
+        "UpdateSocialTitle": "Renovare {{1}} nomen usoris"
+    },
+    "people": {
+        "Title": "Homines",
+        "Description": "Homines in civitate {999}}",
+        "AppAlert": "Hoc app in app copia tibi cum amicis tuis coniungere, et multo magis.",
+        "Invite": "Invitare amicos",
+        "BuyCredits": "Buy Credits",
+        "FindSomeoneByName": "Invenies aliquem nomine",
+        "SearchByName": "Quaere nomine",
+        "FindAllMyFriends": "Find omnes amici mei",
+        "labels": {
+            "All": "omnes",
+            "Title": "Filtrum in relatione",
+            "New": "Novam relationem Type"
+        },
+        "interests": {
+            "All": "Omnes Interests",
+            "Title": "Filtrum ab Interest",
+            "Filter": "Show people interested in. . ."
+        },
+        "Keywords": "{{1}} homines civitatis"
+    },
+    "communities": {
+        "Title": "Communitates",
+        "NewCommunity": "Nova Communitas",
+        "FindCommunityByName": "Invenies civitatem nomine",
+        "Description": "{{1}} Communitates"
+    },
+    "community": {
+        "Title": "{{1}} Communitatem",
+        "Roles": "Roles",
+        "AllRoles": "Omnes Roles",
+        "YouDontHavePermission": "Non auctoritate hoc facere",
+        "usernamePlaceholder": "set nomen civitatis",
+        "NotEnoughCredits": "Non satis credita ad societatem creandam habes. Necessitas {{1}}, habes {{2}}"
+    },
+    "event": {
+        "GetDirections": "Directiones",
+        "WhichMap": "Quod maps uti velis?",
+        "JoinEventToChat": "Adiungere res ad chat",
+        "promote": {
+            "Title": "Promovere res",
+            "Prompt": "Elige ubi velis hunc eventum promovere:"
+        },
+        "Confirmation": "Confirmatio"
+    },
+    "newEvent": {
+        "Title": "Consilium Novus Eventus"
+    },
+    "interests": {
+        "Title": "Interests",
+        "prompt": "Genera rerum de seligi velis.",
+        "explanation": "Quo plura eligis, eo verisimilius es cum unanimis hominibus coniungere.",
+        "filter": "Quid autem tu es interested in?",
+        "Profile": "Mutua utilitates illustrantur. Si etiam unam vel plures utilitates infra habes, eas addere potes {999}}."
+    },
+    "credits": {
+        "Title": "Credits",
+        "EarnCredits": "Earn {{1}} creditarum pro omni persona nova invitas qui app iungit",
+        "YouHave": "Habes {999}} credit"
+    },
+    "onboarding": {
+        "Tap": "Tap",
+        "Click": "Click",
+        "Yes": "Ita",
+        "No": "No",
+        "Skip": "aut transiliunt hoc",
+        "name": {
+            "Preface": "Grata to",
+            "Placeholder": "Intra nomen tuum",
+            "GetStarted": "Adepto Coepi",
+            "AsGuest": "Hospes invitatus es.",
+            "AsMember": "Invitatus es ut membrum.",
+            "AsAdmin": "Admin vocatus es.",
+            "AsOwner": "Invitatus es ut dominus.",
+            "TooShort": "Nomen tuum non potest esse quod brevis",
+            "SetAsYourFullName": "Pone {{1}} nomen tuum?"
+        },
+        "icon": {
+            "KeepDefault": "aut custodi hoc photo",
+            "SetYourPhoto": "{{ClickOrTap}} ut e photo tuam ponas:"
+        },
+        "interests": {
+            "GetStarted": "Get Coepi",
+            "NextCategory": "Next",
+            "Continue": "continue",
+            "Instructions": "In singulis categoriis proxumis {{1}}<br> {{2}} omnibus actionibus quas interest.<br> Sic cum aliis in communitate coniungis."
+        },
+        "profile": {
+            "Profile": "Your profile adiuvat homines de te plura inveniunt.<br>",
+            "Birthday": "Quaeso intra diem natalem tuum:",
+            "Placeholder": "Quis es tu, et quid facis? Dic aliquid interesting vel unique de te ipso populo.",
+            "Required": "Ut pergas, scribe saltem duas lineas de te ipso.",
+            "Month": "Mensis",
+            "Day": "dies",
+            "Year": "Annus",
+            "Gender": "Gender",
+            "Male": "Masculum",
+            "Female": "Feminae",
+            "Other": "Other",
+            "Height": "Altitudo",
+            "Affiliation": "Consociatio",
+            "Dating": "Dating",
+            "Interested": "interest",
+            "NotInterested": "Non quaero",
+            "MatchmakerOnly": "Matchmaker Only"
+        },
+        "location": {
+            "NoOneElse": "Nemo alium videbunt.",
+            "SetMyLocation": "Constitue mihi locum"
+        },
+        "pile": {
+            "DialogTitle": "Populus cum usibus communibus"
+        },
+        "Done": "Done"
+    },
+    "profile": {
+        "Title": "Profile",
+        "Male": "Masculum",
+        "Female": "Feminae",
+        "Other": "Other",
+        "dating": {
+            "Interested": "interest",
+            "NotInterested": "Non quaero",
+            "MatchmakerOnly": "Matchmaker solum"
+        },
+        "StartConversation": "Satus a Colloquium",
+        "blockUser": "Hoc user angustos",
+        "blockUserAlert": "Plures epistulas ab hoc usore non videbis donec eas recludas.",
+        "unblockUser": "Unblock hoc usor",
+        "addToContacts": "Add to Contactus",
+        "manageLabels": "Curo Labels",
+        "inviteUsers": "invitare Users",
+        "selectRole": "Partes selectae",
+        "inviteSuccess": "Feliciter usorem invitavit ut {{label}}",
+        "invite": "invitare",
+        "relationships": "Relationes",
+        "newRole": "Novae partes",
+        "about": "De",
+        "people": "Homines",
+        "info": "Info",
+        "interests": "Interests",
+        "chat": "Chat",
+        "locations": "Locations",
+        "ManageRoles": "Curo Roles",
+        "aboutPlaceholder": "Quis es tu, et quid facis? Dic aliquid interesting vel unique de te ipso populo.",
+        "explanation": "Tuum profile adiuvat melius cum aliis hominibus ad actiones coetus inserere.<br> Quaeso intra diem natalem tuum",
+        "chats": {
+            "placeholder": "Dic aliquid"
+        },
+        "LogOut": "Log Out",
+        "MyLinks": "Mea Vincula",
+        "MyJobs": "My Jobs",
+        "MySocial": "MySocial",
+        "MyEducation": "Meum Education",
+        "JobsPlaceholder": "Typus hic jobs info",
+        "EducationPlaceholder": "Typus hic educationem info",
+        "ManageNotifications": "Curo Suspendisse",
+        "YourPreferredLanguage": "Malle lingua tua"
+    },
+    "myqr": {
+        "Title": "mea QR"
+    },
+    "composer": {
+        "createCommunity": "Create Community",
+        "inviteAdmin": "Admin invitare",
+        "inviteMember": "Member invitare",
+        "newCommunityTitle": "Nomen civitatis",
+        "setCommunityTitle": "Nomen civitatis",
+        "creditsChargeRequest": "Placetne tibi expendere {999}} credita?",
+        "yes": "Ita",
+        "no": "No"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "salve! Quaeso cognoscere inscriptionem electronicam dare.",
+        "WelcomeVerifyEmail": "salve! Quin vestri email oratio.",
+        "ForgetPass": "Heus, oblitus es tui passphrasis?",
+        "ManageEmailSubscriptions": "administrare vestri email subnotationes",
+        "IfUnsubscribe": "Si vis unsubscribe"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Welcome to {{CommunityName}}. Haec app auxiliabitur tibi cum amicis coniunges, novos homines cum communibus commodis inveniunt, et multo magis. Let&#39;s get started!"
+            },
+            "icon": {
+                "Commentary": "Photo constitue. Hoc est quomodo homines in situ te videbunt."
+            },
+            "interests": {
+                "Commentary": "Pluribus elementis vis, eo plus homines videre potes.",
+                "Notifications": "Vos postulo ut notificationes"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Notificaciones permittere te scire de rebus quas in re curaris, ut cum amicus tibi appilationem vel epistulas tibi coniungit."
+        },
+        "invite": "{{Q.words.TapOrClick}} hic videre quomodo cum aliis hominibus communicare potes."
+    },
+    "payment": {
+        "onContribute": "Gratias tibi! Perambulabat mercedem tuam. Velisne amicos tuos invitare ad te iungere?"
+    },
+    "featureboard": {
+        "Text_1": "Audiatur vox tua. Concedasne nos plumam vel cimex evolvere debere? Click in puga pyga ut suscipe eam.",
+        "Text_2": "Visne nos novam plumam evolvere? Infra describe.",
+        "Text_3": "Singulis hebdomadibus incipimus evolvere culmen petitum a communitate. Omnis pecuniae collata ad eam rem vadit, nos permittens melius facere ut app.",
+        "Text_4": "Omnis pecunia collata ad auxilium nostrum evolutionis gratuita solvendum adhibetur.",
+        "Text_5": "Habesne ideam de pluma vel bugfix quod nos facere vis, sed nondum vidi alios addunt? Infra describere:",
+        "Options": [
+            {
+                "text": "$ CD Verus tempus videoconferencing"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$ CC Local Prima adnotatione informationes"
+            },
+            {
+                "text": "$130 Browse and share milia {{1}} memes",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$ LXXX Curo Communitates tuas",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$ XXX Redintegro colloquia cimex",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Peto a Nova Feature \/ Bugfix",
+        "FeaturePlaceholder": "Brevis summary of pluma",
+        "FeatureDescription": "Describere quomodo aliquis possit effingere cimex quod vis, vel enarrem plumam quam vis aedificare",
+        "AddYourRequest": "Add Your Request",
+        "NewFeature": "Nova Feature"
+    },
+    "contribute": {
+        "ContributeExplanation": "Auxilio continua progressionis {999}} app. Omnes contributiones tuae adiuva ut cimices figere et novas formas promovere ad auxilium augendum in communitate online!",
+        "ReasonToContribute": "Haec app a fautoribus {{communityName}} conservatur. Adiuva hanc app sustineas ut differentiam in vita hominum facere possimus!"
+    },
+    "assetshistory": {
+        "Title": "res historiae",
+        "Charges": "Crimina",
+        "Credits": "Credits"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Aufer rationem",
+            "content": "Visne hanc rationem tollere?",
+            "ok": "Ita",
+            "cancel": "No"
+        }
+    },
+    "import": {
+        "fileNotFound": "Nos paenitet, CSV fasciculus non inventus est.",
+        "fileEmpty": "Nos paenitet, CSV fasciculus inanis est.",
+        "userIdNotFound": "user est sed id inanis",
+        "errorLine": "linea {{1}}",
+        "fieldNotFound": "Requisitis campus &quot;{{1}}&quot; non inventus est",
+        "taskStreamInvalid": "negotium amnis invalidum",
+        "instructionsEmpty": "negotium amnis instructiones inanes",
+        "complete": "Complete",
+        "activateUsers": "mitte activation ad users?",
+        "importProgress": "Progressus",
+        "joinEventLabel": "Adiungere users temere eventu",
+        "importOptions": "Optiones",
+        "sampleCSV": "Sample CSV",
+        "fileLabel": "Upload Spreadsheet:",
+        "errorsTitle": "Errores occurrit",
+        "communityUsers": "Communitates haec est index",
+        "setAsConversation": "URL columna ut conversationem",
+        "toMainCommunityToo": "adde users ad principalis civitatis nimis",
+        "willImportedTo": "Users in civitatem importari"
+    }
+}

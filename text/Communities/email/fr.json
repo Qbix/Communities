@@ -1,0 +1,33 @@
+{
+    "activation": {
+        "Thanks": "Bienvenue à {{1}}",
+        "ReallyYourEmail": "Est-ce vraiment votre adresse e-mail, {{1}} ? Si tel est le cas, cliquez <a href='{{2}}'>ici<\/a> pour définir votre phrase secrète et activer votre compte.",
+        "SeeYou": "Rendez-vous sur <a href='{{1}}'>{{2}}<\/a> !",
+        "Subject": "Accueillir! Veuillez vérifier votre adresse e-mail."
+    },
+    "LinkToUnsubscribe": "Voici un lien pour vous <a href='{{1}}'>désabonner<\/a> si vous ne souhaitez plus recevoir d&#39;e-mails.",
+    "Greetings": "Salutations de {{1}}.",
+    "SeeHistory": "Voir l&#39;historique des paiements pour {{1}}",
+    "charge": {
+        "HasBeenCharged": "Hé, ceci est juste pour vous informer que {{1}} a été facturé {{2}} pour {{3}} par {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hé {{1}}, ceci est juste une confirmation rapide que vous avez réussi à payer {{2}} à {{3}} pour {{4}}"
+    },
+    "resend": {
+        "Thanks": "Merci de votre visite {{1}}",
+        "YouAreReceiving": "Vous recevez cet e-mail parce que quelqu&#39;un a entré votre adresse e-mail et a cliqué sur &quot;mot de passe oublié&quot;. Si ce n&#39;était pas vous, ignorez simplement ce message.",
+        "Reset": "Pour réinitialiser votre phrase secrète, cliquez sur {{1}}",
+        "SetUpPassphrase": "Configurer la phrase de passe",
+        "DomainCode": "Si la page Web est déjà ouverte dans votre navigateur, vous pouvez entrer le code",
+        "Subject": "Hey, avez-vous oublié votre mot de passe ?"
+    },
+    "subscription": {
+        "YouHaveStarted": "Salut {{1}}, vous avez commencé votre abonnement à {{2}} avec {{3}} à {{4}} pendant {{5}} mois.",
+        "HasStarted": "Ceci est juste pour vous informer que {{1}}, a commencé son abonnement à {{2}} avec {{3}} à {{4}} pendant {{5}} mois."
+    },
+    "SeeYou": "Rendez-vous sur {{1}} !",
+    "identifier": {
+        "Subject": "Accueillir! Vérifiez votre adresse e-mail."
+    }
+}

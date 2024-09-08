@@ -1,0 +1,99 @@
+.Communities_importusers_tool {
+	text-align: left;
+}
+.Communities_importusers_tool .Communities_importusers_process {
+	display: none;
+}
+.Communities_importusers_tool .Communities_importusers_process .Communities_importusers_complete {
+	display: none;
+	height: 40px;
+	line-height: 40px;
+	color: green;
+	font-weight: bold;
+}
+.Communities_importusers_tool .Communities_importusers_process[data-status=complete] .Communities_importusers_progress {
+	display: none;
+}
+.Communities_importusers_tool .Communities_importusers_process[data-status=complete] .Communities_importusers_complete {
+	display: block;
+}
+.Communities_importusers_tool .Communities_task_progress { border: 1px solid #555; }
+.Communities_importusers_tool .Communities_task_progress_bar { background: #555; width: 0; height: 40px; }
+.Communities_importusers_errors tr:not(:last-child) {
+	border-bottom: 1px solid black;
+}
+.Communities_importusers_errors tr td:first-child {
+	white-space: nowrap;
+	vertical-align: top;
+	font-weight: bold;
+}
+.Communities_importusers_tool fieldset {
+	border: 1px solid black;
+}
+.Communities_importusers_tool input[name=file] {
+	margin-bottom: 10px;
+}
+.Communities_importusers_tool label:not(:last-of-type) {
+	display: block;
+	margin-bottom: 10px;
+}
+.Communities_importusers_tool input[type=checkbox] {
+	width: 20px;
+	height: 20px;
+	padding: 0;
+	margin: 0;
+	vertical-align: bottom;
+}
+.Communities_importusers_tool h1 {
+	margin-bottom: 20px !important;
+	font-size: 22px;
+	text-align: center;
+	font-weight: normal;
+}
+.Communities_importusers_tool h1 label {
+	font-weight: bold;
+}
+.Communities_importusers_tool input[type=file] {
+	display: none;
+}
+.Communities_importusers_tool label[for=Communities_importusers] {
+	text-transform: capitalize;
+	font-weight: normal;
+	font-size: 15px;
+	padding: 0 10px;
+	border: 1px solid #767676;
+	border-radius: 3px;
+	background-color: #efefef;
+	height: 40px;
+	line-height: 40px;
+}
+.Communities_importusers_tool label[for=Communities_importusers].Q_disabled {
+	filter: none;
+}
+.Communities_importusers_tool label[for=Communities_importusers]:hover {
+	border-color: #4f4f4f;
+	background-color: #e5e5e5;
+}
+.Communities_importusers_tool label[for=Communities_importusers]:active {
+	border-color: #8d8d8d;
+	background-color: #f5f5f5;
+}
+.Communities_importusers_tool button[name=sampleCSV] {
+	display: block;
+	height: 40px;
+}
+.Communities_importusers_tool fieldset {
+	padding: revert;
+	margin: revert;
+	border: revert;
+	border-radius: 5px;
+}
+.Communities_importusers_tool fieldset legend {
+	width: revert;
+	padding: revert;
+	margin-bottom: revert;
+	line-height: revert;
+	color: revert;
+	border: revert;
+	border-bottom: revert;
+}

@@ -1,0 +1,362 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> teu nuduhkeun nanaon!",
+        "NextSteps": "Paké ménu utama pikeun manggihan naon nu Anjeun keur pilari."
+    },
+    "dashboard": {
+        "Menu": "ménu"
+    },
+    "greeting": {
+        "Welcome": "Wilujeng sumping di {{1}}. Di dieu anjeun bakal mendakan hal-hal anu dipasang pikeun anggota komunitas urang. Punten tambahkeun alamat email atanapi nomer sélulér anjeun pikeun nampi béwara nalika pengumuman dipasang."
+    },
+    "conversations": {
+        "Title": "Paguneman",
+        "New": "Paguneman Anyar",
+        "Conversation": "Paguneman",
+        "Topics": "Jejer",
+        "NoneYet": "Euweuh obrolan ngawujud",
+        "newConversations": "{{1}} paguneman anyar",
+        "AllAuthors": "Sadayana Pangarang",
+        "FilterbyAuthors": "Nyaring ku Pangarang",
+        "FilterAuthorPlaceHolder": "Pilarian pangarang tambahan...",
+        "filterConversations": "Nyaring ku téks",
+        "Description": "{{1}} paguneman"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Pilih topik",
+            "Share": "Bagikeun",
+            "interest": {
+                "Title": "Pilih hiji Kagiatan",
+                "Filter": "Pilarian kapentingan ..."
+            }
+        },
+        "Title": "Paguneman Anyar",
+        "TitlePlaceholder": "Subjek obrolan anjeun",
+        "ContentPlaceholder": "Tulis sababaraha kecap pikeun ngamimitian paguneman, supados batur tiasa ngabales",
+        "StartButton": "Mimitian Paguneman"
+    },
+    "events": {
+        "Title": "Kajadian",
+        "filterByTitle": "Manggihan acara ku judul",
+        "New": "+ Mimitian Acara Anyar",
+        "filterEvents": "Nyaring acara",
+        "NewEvent": "Kajadian Anyar",
+        "SetLocation": "Setel Lokasi Abdi",
+        "NoneYet": "Tacan aya kajadian<br> salila ieu.",
+        "AllAuthors": "Sadayana Pangarang",
+        "AllDays": "Sadayana Poé",
+        "AllLocations": "Sadaya Lokasi",
+        "MakeReservation": "Jieun Reservasi",
+        "CancelReservation": "Ngabolaykeun Reservasi",
+        "UpdateReservation": "Ngamutahirkeun Reservasi",
+        "AreYouSure": "Naha anjeun yakin?",
+        "YouWillRefunded": "Anjeun bakal dibalikeun deui dina bentuk sks anu anjeun tiasa belanjakeun pikeun hal-hal sanés dina aplikasi.",
+        "AllInterests": "Sadayana Minat",
+        "FilterbyInterest": "Nyaring dumasar Minat",
+        "FilterByDate": "Nyaring Dumasar Tanggal",
+        "ShowActivities": "Témbongkeun kagiatan nu patali jeung. . .",
+        "newEvents": "Anjeun gaduh {{1}} acara anyar",
+        "SelectLocation": "Pilih Lokasi",
+        "FilterLocationsPlaceHolder": "Saringan tempat sareng ...",
+        "Description": "{{1}} kajadian",
+        "Keywords": "{{1}} kajadian"
+    },
+    "schedule": {
+        "Title": "Jadwal",
+        "NoneYet": "Anjeun teu ilubiung dina sagala acara",
+        "AddSome": "Tambahkeun sababaraha kana jadwal anjeun!",
+        "AddMore": "Tambahkeun acara kana jadwal anjeun!",
+        "future": "kahareup",
+        "past": "kaliwat"
+    },
+    "location": {
+        "Title": "lokasi",
+        "NewLocation": "Lokasi Anyar"
+    },
+    "inbox": {
+        "Title": "Koropak",
+        "NoneYet": "Anjeun teu ilubiung dina sagala paguneman",
+        "FindPeople": "Manggihan jalma ngobrol jeung",
+        "GroupConversations": "Gabung sababaraha paguneman grup",
+        "ContactStaff": "Kontak Staf",
+        "ContactCustomers": "Kontak Palanggan"
+    },
+    "me": {
+        "Title": "Abdi",
+        "MobileNumber": "Nomer hapé",
+        "EmailAddress": "Alamat email",
+        "UpdateSocialTitle": "Apdet {{1}} ngaran pamaké"
+    },
+    "people": {
+        "Title": "Jalma",
+        "Description": "Jalma dina {{1}} komunitas",
+        "AppAlert": "Aplikasi ieu dina toko aplikasi bakal ngantep anjeun nyambung sareng réréncangan anjeun, sareng seueur deui.",
+        "Invite": "Ujang Babaturan",
+        "BuyCredits": "Mésér Kiridit",
+        "FindSomeoneByName": "Teangan batur ku ngaran",
+        "SearchByName": "Pilarian ku ngaran",
+        "FindAllMyFriends": "Teangan Sadayana Babaturan Abdi",
+        "labels": {
+            "All": "dulur",
+            "Title": "Filter ku Hubungan",
+            "New": "Jenis Hubungan Anyar"
+        },
+        "interests": {
+            "All": "Sadayana Minat",
+            "Title": "Nyaring dumasar Minat",
+            "Filter": "Témbongkeun jalma museurkeun. . ."
+        },
+        "Keywords": "{{1}} masarakat"
+    },
+    "communities": {
+        "Title": "Masarakat",
+        "NewCommunity": "Komunitas Anyar",
+        "FindCommunityByName": "Teangan komunitas ku ngaran",
+        "Description": "{{1}} komunitas"
+    },
+    "community": {
+        "Title": "{{1}} Komunitas",
+        "Roles": "Kalungguhan",
+        "AllRoles": "Sadaya Peran",
+        "YouDontHavePermission": "Anjeun teu otorisasi pikeun ngalakukeun ieu",
+        "usernamePlaceholder": "set ngaran komunitas",
+        "NotEnoughCredits": "Anjeun teu gaduh cukup sks pikeun nyiptakeun komunitas. Peryogi {{1}}, anjeun gaduh {{2}}"
+    },
+    "event": {
+        "GetDirections": "Meunang Arah",
+        "WhichMap": "peta mana nu Anjeun hoyong pake?",
+        "JoinEventToChat": "Ilubiung dina acara ngobrol",
+        "promote": {
+            "Title": "Ngamajukeun acara ieu",
+            "Prompt": "Pilih tempat anu anjeun hoyong promosikeun acara ieu:"
+        },
+        "Confirmation": "Konfirmasi"
+    },
+    "newEvent": {
+        "Title": "Rencanana Acara Anyar"
+    },
+    "interests": {
+        "Title": "kapentingan",
+        "prompt": "Pilih jinis hal anu anjeun hoyong terang.",
+        "explanation": "Langkung seueur minat anu anjeun pilih, langkung dipikaresep anjeun tiasa nyambung sareng jalma anu sami.",
+        "filter": "Naon anu anjeun resep?",
+        "Profile": "Kapentingan silih disorot. Upami anjeun ogé gaduh hiji atanapi sababaraha kapentingan di handap, anjeun tiasa {{clickOrTap}} nambihanana."
+    },
+    "credits": {
+        "Title": "Kiridit",
+        "EarnCredits": "Kéngingkeun sks {{1}} kanggo unggal jalma énggal anu anjeun ulem anu gabung kana aplikasi",
+        "YouHave": "Anjeun gaduh {{1}} sks"
+    },
+    "onboarding": {
+        "Tap": "Ketok",
+        "Click": "Pencét",
+        "Yes": "Sumuhun",
+        "No": "No",
+        "Skip": "atanapi skip ieu",
+        "name": {
+            "Preface": "Wilujeng sumping di",
+            "Placeholder": "Lebetkeun nami lengkep anjeun",
+            "GetStarted": "Mimitian",
+            "AsGuest": "Anjeun parantos diondang janten tamu.",
+            "AsMember": "Anjeun geus diondang jadi anggota.",
+            "AsAdmin": "Anjeun parantos diondang salaku admin.",
+            "AsOwner": "Anjeun parantos diondang salaku juragan.",
+            "TooShort": "Ngaran lengkep anjeun teu tiasa pondok",
+            "SetAsYourFullName": "Setel {{1}} salaku ngaran lengkep anjeun?"
+        },
+        "icon": {
+            "KeepDefault": "atawa nyimpen poto ieu",
+            "SetYourPhoto": "{{ClickOrTap}} pikeun nyetél poto anjeun:"
+        },
+        "interests": {
+            "GetStarted": "⇩ Mimitian",
+            "NextCategory": "↓ Salajengna",
+            "Continue": "Teraskeun",
+            "Instructions": "Dina unggal kategori {{1}} salajengna,<br> {{2}} sadaya kagiatan anu anjeun pikahoyong.<br> Ieu kumaha anjeun nyambungkeun sareng jalma sanés dina komunitas."
+        },
+        "profile": {
+            "Profile": "Profil anjeun ngabantosan jalma mendakan langkung seueur ngeunaan anjeun.<br>",
+            "Birthday": "Mangga lebetkeun ultah anjeun:",
+            "Placeholder": "Saha anjeun sareng naon anu anjeun lakukeun? Ngabejaan jalma hal metot atawa unik ngeunaan diri.",
+            "Required": "Pikeun neruskeun, nulis sahenteuna sababaraha baris ngeunaan diri.",
+            "Month": "Sasih",
+            "Day": "Dinten",
+            "Year": "Taun",
+            "Gender": "Génder",
+            "Male": "Jalu",
+            "Female": "Awéwé",
+            "Other": "Lain",
+            "Height": "Jangkungna",
+            "Affiliation": "karaketan",
+            "Dating": "bobogohan",
+            "Interested": "Karesep",
+            "NotInterested": "Teu Kabetot",
+            "MatchmakerOnly": "Matchmaker Ngan"
+        },
+        "location": {
+            "NoOneElse": "Teu aya anu sanés anu bakal ningali.",
+            "SetMyLocation": "Setel lokasi kuring"
+        },
+        "pile": {
+            "DialogTitle": "Jalma jeung Kapentingan Umum"
+        },
+        "Done": "Réngsé"
+    },
+    "profile": {
+        "Title": "Propil",
+        "Male": "Jalu",
+        "Female": "Awéwé",
+        "Other": "Lain",
+        "dating": {
+            "Interested": "Karesep",
+            "NotInterested": "Teu kabetot",
+            "MatchmakerOnly": "Matchmaker wungkul"
+        },
+        "StartConversation": "Mimitian Paguneman",
+        "blockUser": "Blok pamaké ieu",
+        "blockUserAlert": "Anjeun moal ningali deui pesen ti pangguna ieu dugi ka anjeun ngabuka blokirna.",
+        "unblockUser": "Buka blokir pangguna ieu",
+        "addToContacts": "Tambahkeun ka Kontak",
+        "manageLabels": "Atur Labels",
+        "inviteUsers": "Ujang Pamaké",
+        "selectRole": "Pilih Peran",
+        "inviteSuccess": "Pangguna anu suksés diondang salaku {{label}}",
+        "invite": "Ujang",
+        "relationships": "Hubungan",
+        "newRole": "Peran Anyar",
+        "about": "Ngeunaan",
+        "people": "Jalma",
+        "info": "Inpo",
+        "interests": "kapentingan",
+        "chat": "Obrolan",
+        "locations": "Lokasi",
+        "ManageRoles": "Ngatur Peran",
+        "aboutPlaceholder": "Saha anjeun sareng naon anu anjeun lakukeun? Ngabejaan jalma hal metot atawa unik ngeunaan diri.",
+        "explanation": "Profil anjeun ngabantosan anjeun langkung cocog sareng jalma sanés pikeun kagiatan grup.<br> Mangga lebetkeun ultah anjeun",
+        "chats": {
+            "placeholder": "Cik nyarios"
+        },
+        "LogOut": "Kaluar",
+        "MyLinks": "Tumbu abdi",
+        "MyJobs": "Pakasaban abdi",
+        "MySocial": "MySocial",
+        "MyEducation": "Atikan abdi",
+        "JobsPlaceholder": "Ketik di dieu inpormasi padamelan",
+        "EducationPlaceholder": "Ketik di dieu inpormasi pendidikan",
+        "ManageNotifications": "Atur Bewara",
+        "YourPreferredLanguage": "Basa anu anjeun pikaresep"
+    },
+    "myqr": {
+        "Title": "QR abdi"
+    },
+    "composer": {
+        "createCommunity": "Jieun Komunitas",
+        "inviteAdmin": "Ngajak Admin",
+        "inviteMember": "Undang Anggota",
+        "newCommunityTitle": "Ngaran Komunitas",
+        "setCommunityTitle": "Ngaran Komunitas",
+        "creditsChargeRequest": "Naha anjeun satuju méakkeun {{price}} sks?",
+        "yes": "Sumuhun",
+        "no": "No"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Wilujeng sumping! Mangga pariksa alamat surélék anjeun.",
+        "WelcomeVerifyEmail": "Wilujeng sumping! Verifikasi alamat surélék anjeun.",
+        "ForgetPass": "Hei, naha anjeun hilap frasa sandi anjeun?",
+        "ManageEmailSubscriptions": "ngatur langganan surélék anjeun",
+        "IfUnsubscribe": "Upami anjeun hoyong unsubscribe"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Wilujeng sumping di {{CommunityName}}. Aplikasi ieu bakal ngabantosan anjeun nyambung sareng réréncangan, mendakan jalma anyar anu gaduh minat anu sami, sareng seueur deui. Hayu urang ngamimitian!"
+            },
+            "icon": {
+                "Commentary": "Setel poto anjeun. Ieu kumaha jalma bakal ningali anjeun dina situs."
+            },
+            "interests": {
+                "Commentary": "Beuki seueur barang anu anjeun pilih, langkung seueur jalma anu anjeun tiasa pendak.",
+                "Notifications": "Anjeun kudu ngidinan bewara"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Bewara ngamungkinkeun anjeun terang ngeunaan hal-hal anu anjeun pikahoyong, sapertos nalika réréncangan ngiringan aplikasi, atanapi pesen anjeun."
+        },
+        "invite": "{{Q.words.TapOrClick}} di dieu pikeun ningali kumaha anjeun tiasa ngabagikeun ieu ka jalma sanés."
+    },
+    "payment": {
+        "onContribute": "Hatur nuhun! Pangmayaran anjeun ngaliwat. Naha anjeun badé ngajak réréncangan anjeun gabung sareng anjeun?"
+    },
+    "featureboard": {
+        "Text_1": "Hayu sora anjeun kadéngé! Naha anjeun satuju urang kedah ngembangkeun fitur atanapi bug? Pencét tombol pikeun ngadukung éta.",
+        "Text_2": "Hoyong urang ngembangkeun fitur anyar? Jelaskeun di handap.",
+        "Text_3": "Unggal minggu urang mimitian ngamekarkeun fitur luhur dipénta ku masarakat. Sadaya artos anu disumbangkeun nuju tujuan éta, ngamungkinkeun urang ngajantenkeun aplikasi langkung saé.",
+        "Text_4": "Sadaya artos anu disumbangkeun dianggo pikeun ngabantosan biaya pangwangunan urang.",
+        "Text_5": "Naha anjeun gaduh ide pikeun fitur atanapi bugfix anu anjeun hoyong laksanakeun tapi teu acan ningali batur nambihkeun? Jelaskeun di handap:",
+        "Options": [
+            {
+                "text": "$ 400 Real waktos videoconferencing"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$ 200 Inpo pendaptaran primér Lokal"
+            },
+            {
+                "text": "$130 Kotektak sareng bagikeun rébuan {{1}} mémé",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$ 80 Atur komunitas anjeun sorangan",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$ 30 Ngalereskeun bug paguneman",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Nyuhunkeun Fitur Anyar \/ Bugfix",
+        "FeaturePlaceholder": "kasimpulan pondok fitur",
+        "FeatureDescription": "Jelaskeun kumaha batur tiasa ngahasilkeun deui bug anu anjeun tingali, atanapi ngajelaskeun sacara rinci fitur anu anjeun hoyong ngawangun",
+        "AddYourRequest": "Tambahkeun Request Anjeun",
+        "NewFeature": "Fitur Anyar"
+    },
+    "contribute": {
+        "ContributeExplanation": "Ngabantosan ngadukung pangembangan aplikasi {{communityName}}. Sadaya kontribusi anjeun ngabantosan ngalereskeun bug sareng ngembangkeun fitur anyar pikeun ngabantosan komunitas online!",
+        "ReasonToContribute": "Aplikasi ieu dijaga ku pendukung {{communityName}}. Bantosan ngadukung aplikasi ieu supados urang tiasa ngadamel bédana dina kahirupan masarakat!"
+    },
+    "assetshistory": {
+        "Title": "Riwayat aset",
+        "Charges": "Beunghar",
+        "Credits": "Kiridit"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Hapus akun",
+            "content": "Naha anjeun badé mupus akun ieu?",
+            "ok": "Sumuhun",
+            "cancel": "No"
+        }
+    },
+    "import": {
+        "fileNotFound": "Punten, file CSV teu kapendak.",
+        "fileEmpty": "Punten, file CSV kosong.",
+        "userIdNotFound": "pamaké aya tapi id kosong",
+        "errorLine": "garis {{1}}",
+        "fieldNotFound": "Widang diperlukeun &quot;{{1}}&quot; teu kapanggih",
+        "taskStreamInvalid": "aliran tugas teu valid",
+        "instructionsEmpty": "paréntah stream tugas kosong",
+        "complete": "Lengkep",
+        "activateUsers": "ngirim pesen aktivasina ka pamaké?",
+        "importProgress": "Kamajuan",
+        "joinEventLabel": "Gabung pamaké pikeun acara acak",
+        "importOptions": "Pilihan",
+        "sampleCSV": "Unduh Contoh CSV",
+        "fileLabel": "Unggah Spreadsheet:",
+        "errorsTitle": "Kasalahan lumangsung",
+        "communityUsers": "Ieu daptar komunitas",
+        "setAsConversation": "kolom URL salaku paguneman",
+        "toMainCommunityToo": "tambahkeun pangguna ka komunitas utama ogé",
+        "willImportedTo": "Pamaké bakal diimpor ka komunitas"
+    }
+}

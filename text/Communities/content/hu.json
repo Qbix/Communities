@@ -1,0 +1,459 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>A {{1}}<\/span> nem mutat semmire!",
+        "NextSteps": "Használja a főmenüt, hogy megtalálja, amit keres."
+    },
+    "dashboard": {
+        "Menu": "Menü",
+        "Home": "itthon",
+        "Welcome": "Üdvözöljük",
+        "Events": "Események",
+        "Discuss": "Beszéljétek meg",
+        "People": "Emberek",
+        "About": "Ról ről",
+        "Community": "Közösség",
+        "LogIn": "Belépés",
+        "LogOut": "Kijelentkezés",
+        "Intercoin": "Intercoin",
+        "Shows": "Műsorok",
+        "Calendar": "Naptár",
+        "Me": "Nekem",
+        "Media": "Média",
+        "Services": "Szolgáltatások",
+        "SetMobileNumber": "Mobilszám beállítása",
+        "SetEmailAddress": "E-mail cím beállítása"
+    },
+    "greeting": {
+        "Welcome": "Üdvözöljük a {{1}} oldalon. Itt találja a közösségünk tagjai számára közzétett dolgokat. Kérjük, adja meg e-mail címét vagy mobilszámát, hogy értesítést kapjon a hirdetmények közzétételéről."
+    },
+    "conversations": {
+        "Title": "Beszélgetések",
+        "New": "Új beszélgetés",
+        "Conversation": "Beszélgetés",
+        "Topics": "Témák",
+        "NoneYet": "Még nem jött létre beszélgetés",
+        "newConversations": "{{1}} új beszélgetés",
+        "AllAuthors": "Minden szerző",
+        "FilterbyAuthors": "Szűrés szerzők szerint",
+        "FilterAuthorPlaceHolder": "További szerzők keresése...",
+        "filterConversations": "Szűrés szöveg szerint",
+        "Description": "{{1}} beszélgetés"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Válassz egy témát",
+            "Share": "Részvény",
+            "interest": {
+                "Title": "Válasszon egy tevékenységet",
+                "Filter": "Keresési érdeklődési körök..."
+            }
+        },
+        "Title": "Új beszélgetés",
+        "TitlePlaceholder": "A beszélgetés tárgya",
+        "ContentPlaceholder": "Írjon néhány szót a beszélgetés elindításához, hogy mások válaszolhassanak",
+        "StartButton": "Beszélgetés indítása"
+    },
+    "events": {
+        "Title": "Események",
+        "filterByTitle": "Események keresése cím szerint",
+        "New": "+ Új esemény indítása",
+        "filterEvents": "Események szűrése",
+        "NewEvent": "Új esemény",
+        "SetLocation": "Saját pozíció beállítása",
+        "NoneYet": "Még nem alakultak ki események<br> ezekben az időkben.",
+        "AllAuthors": "Minden szerző",
+        "AllDays": "Minden nap",
+        "AllLocations": "Minden hely",
+        "MakeReservation": "Foglaljon",
+        "CancelReservation": "Foglalás lemondása",
+        "UpdateReservation": "Frissítse a foglalást",
+        "AreYouSure": "biztos vagy ebben?",
+        "YouWillRefunded": "Visszatérítésre kerül olyan jóváírások formájában, amelyeket az alkalmazásban egyéb dolgokra költhet.",
+        "AllInterests": "Minden érdek",
+        "FilterbyInterest": "Szűrés érdeklődés szerint",
+        "FilterByDate": "Szűrés dátum szerint",
+        "ShowActivities": "A következőhöz kapcsolódó tevékenységek megjelenítése. . .",
+        "newEvents": "{{1}} új eseménye van",
+        "SelectLocation": "Válassza a Hely lehetőséget",
+        "FilterLocationsPlaceHolder": "Szűrje ki a helyszíneket a...",
+        "Description": "{{1}} esemény",
+        "Keywords": "{{1}} esemény"
+    },
+    "schedule": {
+        "Title": "Menetrend",
+        "NoneYet": "Ön nem vesz részt semmilyen eseményen",
+        "AddSome": "Adjon hozzá néhányat az ütemtervéhez!",
+        "AddMore": "Adjon eseményeket az ütemtervéhez!",
+        "future": "jövő",
+        "past": "múlt"
+    },
+    "location": {
+        "Title": "Elhelyezkedés",
+        "NewLocation": "Új hely"
+    },
+    "inbox": {
+        "Title": "Beérkezett üzenetek",
+        "NoneYet": "Ön nem vesz részt semmilyen beszélgetésben",
+        "FindPeople": "Keressen embereket, akikkel beszélgethet",
+        "GroupConversations": "Csatlakozzon néhány csoportos beszélgetéshez",
+        "ContactStaff": "Lépjen kapcsolatba a személyzettel",
+        "ContactCustomers": "Kapcsolatfelvétel az ügyfelekkel",
+        "AddNewContact": "Új névjegy hozzáadása",
+        "AddNewContacts": "Új névjegyek hozzáadása"
+    },
+    "me": {
+        "Title": "Nekem",
+        "MobileNumber": "Mobil szám",
+        "EmailAddress": "Email cím",
+        "UpdateSocialTitle": "Frissítse a(z) {{1}} felhasználónevet",
+        "Web3": "Web3"
+    },
+    "people": {
+        "Title": "Emberek",
+        "Description": "A(z) {{1}} közösség tagjai",
+        "AppAlert": "Ez az alkalmazás az App Store-ban lehetővé teszi, hogy kapcsolatba léphessen barátaival és még sok mással.",
+        "Invite": "Meghívja barátait",
+        "BuyCredits": "Vásároljon kreditet",
+        "FindSomeoneByName": "Keress valakit név szerint",
+        "SearchByName": "Keresés név szerint",
+        "FindAllMyFriends": "Találd meg az összes barátomat",
+        "labels": {
+            "All": "Mindenki",
+            "Title": "Szűrés kapcsolat szerint",
+            "New": "Új kapcsolattípus"
+        },
+        "interests": {
+            "All": "Minden érdek",
+            "Title": "Szűrés érdeklődés szerint",
+            "Filter": "Mutasd meg a iránt érdeklődőket. . ."
+        },
+        "Keywords": "{{1}} személy közössége"
+    },
+    "communities": {
+        "Title": "Közösségek",
+        "NewCommunity": "Új közösség",
+        "FindCommunityByName": "Keresse meg a közösséget név szerint",
+        "Description": "{{1}} közösségek"
+    },
+    "community": {
+        "Title": "{{1}} Közösség",
+        "Roles": "Szerepek",
+        "AllRoles": "Minden szerep",
+        "YouDontHavePermission": "Ön nem jogosult erre",
+        "usernamePlaceholder": "állítsa be a közösség nevét",
+        "NotEnoughCredits": "Nincs elég kredited közösség létrehozásához. Kell {{1}}, van {{2}}"
+    },
+    "event": {
+        "GetDirections": "Útvonaltervezés",
+        "WhichMap": "Milyen térképeket szeretne használni?",
+        "JoinEventToChat": "Csatlakozz az eseményhez a csevegéshez",
+        "promote": {
+            "Title": "Reklámozza ezt az eseményt",
+            "Prompt": "Válassza ki, hol szeretné népszerűsíteni ezt az eseményt:"
+        },
+        "Confirmation": "Megerősítés"
+    },
+    "newEvent": {
+        "Title": "Tervezz új eseményt"
+    },
+    "interests": {
+        "Title": "Érdeklődések",
+        "prompt": "Válassza ki, hogy milyen típusú dolgokat szeretne tudni.",
+        "explanation": "Minél több érdeklődési kört választasz, annál valószínűbb, hogy kapcsolatba lépsz hasonló gondolkodású emberekkel.",
+        "filter": "Mi iránt érdeklődik?",
+        "Profile": "A kölcsönös érdekek kiemelésre kerülnek. Ha Ön is rendelkezik az alábbi érdeklődési körök közül, {{clickOrTap}} hozzáadhatja őket."
+    },
+    "credits": {
+        "Title": "Kredit",
+        "EarnCredits": "Szerezzen {{1}} jóváírást minden új meghívott személy után, aki csatlakozik az alkalmazáshoz",
+        "YouHave": "{{1}} kreditje van"
+    },
+    "onboarding": {
+        "Tap": "Koppintson a",
+        "Click": "Kattintson",
+        "Yes": "Igen",
+        "No": "Nem",
+        "Skip": "vagy hagyd ki ezt",
+        "name": {
+            "Preface": "Isten hozott a",
+            "Placeholder": "Add meg a teljes neved",
+            "GetStarted": "Fogj neki",
+            "AsGuest": "Önt meghívták vendégnek.",
+            "AsMember": "Meghívást kaptál tagnak.",
+            "AsAdmin": "Meghívtak adminisztrátornak.",
+            "AsOwner": "Meghívást kaptál tulajdonosként.",
+            "TooShort": "A teljes neve nem lehet olyan rövid",
+            "SetAsYourFullName": "Beállítja a(z) {{1}} nevet teljes névként?"
+        },
+        "icon": {
+            "KeepDefault": "vagy tartsa meg ezt a fényképet",
+            "SetYourPhoto": "{{ClickOrTap}} a fénykép beállításához:",
+            "ClickOnYourFace": "{{ClickOrTap}} Az arcodon"
+        },
+        "interests": {
+            "GetStarted": "⇩ Kezdje el",
+            "NextCategory": "↓ Következő",
+            "Continue": "Folytatni",
+            "Instructions": "A következő {{1}} kategóriák mindegyikében<br> {{2}} minden olyan tevékenység, amely érdekli.<br> Így léphet kapcsolatba a közösség többi emberével."
+        },
+        "profile": {
+            "Profile": "Profilja segít az embereknek többet felfedezni Önről.<br>",
+            "Birthday": "Kérlek add meg a születésnapodat!",
+            "Placeholder": "Ki vagy és mit csinálsz? Mondj el az embereknek valami érdekeset vagy egyedit magadról.",
+            "Required": "A folytatáshoz írj legalább pár sort magadról.",
+            "Month": "Hónap",
+            "Day": "Nap",
+            "Year": "Év",
+            "Gender": "Nem",
+            "Male": "Férfi",
+            "Female": "Női",
+            "Other": "Egyéb",
+            "Height": "Magasság",
+            "Affiliation": "Affiliáció",
+            "Dating": "Ismerkedés",
+            "Interested": "Érdekelt",
+            "NotInterested": "Nem érdekel",
+            "MatchmakerOnly": "Csak párkereső"
+        },
+        "location": {
+            "NoOneElse": "Senki más nem fogja látni.",
+            "SetMyLocation": "Állítsa be a helyemet"
+        },
+        "pile": {
+            "DialogTitle": "Közös érdeklődésű emberek"
+        },
+        "Done": "Kész",
+        "relationships": {
+            "title": "{{userName}} hozzáadása a telefonkönyvhöz",
+            "welcome": "Üdvözöljük {{user}}",
+            "invitedByUser": "meghívott.",
+            "addToPhonebook": "Mentés a Saját telefon névjegyei közé",
+            "iosInstructions": "Görgessen le az Új névjegy hozzáadása lehetőséghez",
+            "androidInstructions": "A letöltés után nyissa meg ezt a vCard fájlt.",
+            "explanation": "Milyen a kapcsolatod?"
+        },
+        "Title": "Alapinformációk",
+        "Prompt": "Néhány lépés a fiók beállításához"
+    },
+    "profile": {
+        "Title": "Profil",
+        "Male": "Férfi",
+        "Female": "Női",
+        "Other": "Egyéb",
+        "dating": {
+            "Interested": "Érdekelt",
+            "NotInterested": "Nem érdekel",
+            "MatchmakerOnly": "Csak párkereső"
+        },
+        "StartConversation": "Beszélgetés indítása",
+        "blockUser": "Blokkolja ezt a felhasználót",
+        "blockUserAlert": "Nem fog több üzenetet látni ettől a felhasználótól, amíg fel nem oldja a letiltását.",
+        "unblockUser": "Feloldja a felhasználó letiltását",
+        "addToContacts": "Hozzáadás a kapcsolatokhoz",
+        "manageLabels": "Címkék kezelése",
+        "inviteUsers": "Felhasználók meghívása",
+        "selectRole": "Válassza a Szerep lehetőséget",
+        "inviteSuccess": "Sikeresen meghívott felhasználó mint {{label}}",
+        "invite": "Meghívás",
+        "relationships": "Kapcsolatok",
+        "newRole": "Új szerep",
+        "about": "Ról ről",
+        "people": "Emberek",
+        "info": "Info",
+        "interests": "Érdeklődések",
+        "chat": "Csevegés",
+        "locations": "Helyszínek",
+        "ManageRoles": "Szerepek kezelése",
+        "aboutPlaceholder": "Ki vagy és mit csinálsz? Mondj el az embereknek valami érdekeset vagy egyedit magadról.",
+        "explanation": "Profilja segít jobban összeilleszteni Önt másokkal a csoportos tevékenységek során.<br> Kérlek add meg a születésnapodat",
+        "chats": {
+            "placeholder": "Mondj valamit"
+        },
+        "LogOut": "Kijelentkezés",
+        "MyLinks": "Saját linkjeim",
+        "MyJobs": "Saját munkáim",
+        "MySocial": "MySocial",
+        "MyEducation": "Az én oktatásom",
+        "JobsPlaceholder": "Ide írja be az állásinformációkat",
+        "EducationPlaceholder": "Ide írja be az oktatási információkat",
+        "ManageNotifications": "Értesítések kezelése",
+        "YourPreferredLanguage": "Az Ön által preferált nyelv",
+        "SendCrypto": "Fizetés",
+        "Block": "Blokk",
+        "Unblock": "Blokkolás feloldása",
+        "Email": "Email",
+        "Avoid": "Elkerül",
+        "CreatePrivateChat": "Elkölt {{credits}} jóváírást a kapcsolatfelvételre?",
+        "RolesInCommunity": "Szerepek a közösségben",
+        "PersonalChatWith": "Személyes csevegés a következővel: {{name}}",
+        "SendCryptoTo": "titkosítás küldése ide: {{name}}",
+        "SendEmailTo": "E-mail küldése a következő címre: {{name}}",
+        "SendSMSTo": "SMS küldése erre: {{name}}",
+        "BlockThisUser": "A felhasználó letiltása",
+        "UnblockThisUser": "Feloldja a felhasználó letiltását",
+        "YouCantChatWithYourself": "Nem cseveghetsz magaddal",
+        "blockUserAlertTitle": "Letiltva {{displayName}}",
+        "sections": {
+            "education": "Oktatás",
+            "greeting": "Üdvözlet",
+            "jobs": "Állások",
+            "links": "Linkek",
+            "language": "Nyelv",
+            "roles": "Szerepek",
+            "personal": "Személyes",
+            "social": "Szociális"
+        },
+        "Roles": "Szerepek",
+        "SendPaymentTo": "Fizetés küldése {{name}}"
+    },
+    "myqr": {
+        "Title": "Saját QR"
+    },
+    "composer": {
+        "createCommunity": "Közösség létrehozása",
+        "inviteAdmin": "Adminisztrátor meghívása",
+        "inviteMember": "Tag meghívása",
+        "newCommunityTitle": "Közösség neve",
+        "setCommunityTitle": "Közösség neve",
+        "creditsChargeRequest": "Egyetért {{price}} jóváírás elköltésével?",
+        "yes": "Igen",
+        "no": "Nem"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Üdvözöljük! Kérem ellenőrizze az email címét.",
+        "WelcomeVerifyEmail": "Üdvözöljük! Erősítsd meg az e-mail címed.",
+        "ForgetPass": "Hé, elfelejtetted a jelszót?",
+        "ManageEmailSubscriptions": "kezelheti e-mail-feliratkozásait",
+        "IfUnsubscribe": "Ha le szeretne iratkozni"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Üdvözöljük a {{CommunityName}} oldalon. Ezzel az alkalmazással kapcsolatba léphet barátaival, új, közös érdeklődési körrel rendelkező embereket fedezhet fel, és még sok mást. Lássunk neki!"
+            },
+            "icon": {
+                "Commentary": "Állítsa be a fényképét. Így fognak látni az emberek az oldalon."
+            },
+            "interests": {
+                "Commentary": "Minél több tárgyat választasz, annál több emberrel találkozhatsz.",
+                "Notifications": "Engedélyeznie kell az értesítéseket"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Az értesítések segítségével értesülhet azokról a dolgokról, amelyek érdeklik, például amikor egy barát csatlakozik az alkalmazáshoz, vagy üzenetet küld Önnek."
+        },
+        "invite": "{{Q.words.TapOrClick}} itt, hogy megtudja, hogyan oszthatja meg ezt másokkal."
+    },
+    "payment": {
+        "onContribute": "Köszönöm! Befizetése sikeres volt. Szeretnéd meghívni a barátaidat, hogy csatlakozzanak hozzád?",
+        "ConnectAccount": "Csatlakoztassa a fiókot"
+    },
+    "featureboard": {
+        "Text_1": "Hadd hallatsd a hangod! Egyetértesz azzal, hogy ki kell fejlesztenünk egy funkciót vagy hibát? Kattintson a gombra a támogatáshoz.",
+        "Text_2": "Szeretné, hogy új funkciót fejlesszünk ki? Írja le alább.",
+        "Text_3": "Minden héten elkezdjük fejleszteni a közösség által leginkább kért funkciót. Minden befizetett pénzt erre a célra fordítjuk, lehetővé téve számunkra az alkalmazás jobbá tételét.",
+        "Text_4": "Minden befizetett pénzt a fejlesztési költségek fedezésére használjuk fel.",
+        "Text_5": "Van ötleted olyan funkcióra vagy hibajavításra, amelyet szeretnél, ha megcsinálnánk, de még nem láttad mások hozzáadását? Írja le alább:",
+        "Options": [
+            {
+                "text": "400 dollár valós idejű videokonferencia"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "200 USD helyi elsődleges regisztrációs információ"
+            },
+            {
+                "text": "130 USD Böngésszen és osszon meg több ezer {{1}} mémet",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "80 $ Kezelje saját közösségeit",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "30 USD A beszélgetések hibájának javítása",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Új funkció\/hibajavítás kérése",
+        "FeaturePlaceholder": "A funkció rövid összefoglalása",
+        "FeatureDescription": "Írja le, hogyan tudja valaki más reprodukálni az Ön által látott hibát, vagy írja le részletesen a létrehozni kívánt funkciót",
+        "AddYourRequest": "Adja hozzá kérését",
+        "NewFeature": "Új funkció"
+    },
+    "contribute": {
+        "ContributeExplanation": "Támogassa a(z) {{communityName}} alkalmazás folyamatos fejlesztését. Minden hozzájárulása segít a hibák kijavításában és új funkciók fejlesztésében, amelyek elősegítik az online közösség növekedését!",
+        "ReasonToContribute": "Ezt az alkalmazást a(z) {{communityName}} támogatói tartják karban. Támogassa ezt az alkalmazást, hogy változást tudjunk elérni az emberek életében!"
+    },
+    "assetshistory": {
+        "Title": "Eszközök története",
+        "Charges": "Díjak",
+        "Credits": "Kredit"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Fiók törlése",
+            "content": "Eltávolítja ezt a fiókot?",
+            "ok": "Igen",
+            "cancel": "Nem"
+        }
+    },
+    "import": {
+        "fileNotFound": "Sajnáljuk, a CSV-fájl nem található.",
+        "fileEmpty": "Sajnáljuk, a CSV-fájl üres.",
+        "userIdNotFound": "felhasználó létezik, de az azonosító üres",
+        "errorLine": "sor {{1}}",
+        "fieldNotFound": "A kötelező &quot;{{1}}&quot; mező nem található",
+        "taskStreamInvalid": "feladatfolyam érvénytelen",
+        "instructionsEmpty": "a feladatfolyam utasításai üresek",
+        "complete": "teljes",
+        "activateUsers": "aktiváló üzenetet küld a felhasználóknak?",
+        "importProgress": "Előrehalad",
+        "joinEventLabel": "Csatlakoztassa a felhasználókat a véletlenszerű eseményhez",
+        "importOptions": "Opciók",
+        "sampleCSV": "Töltse le a CSV-mintát",
+        "fileLabel": "Táblázat feltöltése:",
+        "errorsTitle": "Hibák történtek",
+        "communityUsers": "Ez a közösségek listája",
+        "setAsConversation": "URL oszlop beszélgetésként",
+        "toMainCommunityToo": "felhasználókat is hozzáadhat a fő közösséghez",
+        "willImportedTo": "A felhasználókat a rendszer importálja a közösségbe",
+        "ChooseFile": "Válassz fájlt"
+    },
+    "services": {
+        "Title": "Szolgáltatások",
+        "filterByTitle": "Keresse meg a szolgáltatásokat cím szerint",
+        "New": "+ Új szolgáltatás indítása",
+        "NewService": "Új szolgáltatás",
+        "NewAvailability": "Új elérhetőség",
+        "filterServices": "Szűrési szolgáltatások",
+        "NoneYet": "Még nem alakultak ki szolgáltatások<br> ezekben az időkben.",
+        "AllAuthors": "Minden szerző",
+        "AllDays": "Minden nap",
+        "AllLocations": "Minden hely",
+        "MakeReservation": "Foglaljon",
+        "CancelReservation": "Foglalás törlése",
+        "UpdateReservation": "Frissítse a foglalást",
+        "AreYouSure": "biztos vagy ebben?",
+        "YouWillRefunded": "Visszatérítésre kerül olyan jóváírások formájában, amelyeket az alkalmazásban egyéb dolgokra költhet.",
+        "AllInterests": "Minden érdek",
+        "FilterbyInterest": "Szűrés érdeklődés szerint",
+        "FilterByDate": "Szűrés dátum szerint",
+        "ShowActivities": "A következőhöz kapcsolódó tevékenységek megjelenítése...",
+        "newServices": "{{1}} új szolgáltatása van",
+        "SelectLocation": "Válassza a Hely lehetőséget",
+        "FilterLocationsPlaceHolder": "Szűrje ki a helyszíneket a...",
+        "Description": "{{1}} szolgáltatást",
+        "Keywords": "{{1}} szolgáltatást"
+    },
+    "welcome": {
+        "Title": "{{appName}}: üdvözlöm",
+        "GetStarted": "Fogj neki",
+        "gallery": {
+            "Connect": "Csatlakozás",
+            "Organize": "Szervez",
+            "Travel": "Utazás",
+            "Share": "Ossza meg"
+        }
+    }
+}

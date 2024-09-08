@@ -1,0 +1,459 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> non apunta a nada!",
+        "NextSteps": "Use o menú principal para atopar o que está a buscar."
+    },
+    "dashboard": {
+        "Menu": "Menú",
+        "Home": "Casa",
+        "Welcome": "Benvido",
+        "Events": "Eventos",
+        "Discuss": "Discutir",
+        "People": "Persoas",
+        "About": "Sobre",
+        "Community": "Comunidade",
+        "LogIn": "Iniciar sesión",
+        "LogOut": "pechar sesión",
+        "Intercoin": "Intercoin",
+        "Shows": "Espectáculos",
+        "Calendar": "Calendario",
+        "Me": "Eu",
+        "Media": "Medios",
+        "Services": "Servizos",
+        "SetMobileNumber": "Establecer o número de móbil",
+        "SetEmailAddress": "Establecer o enderezo de correo electrónico"
+    },
+    "greeting": {
+        "Welcome": "Benvido a {{1}}. Aquí atoparás cousas publicadas para os membros da nosa comunidade. Engade o teu enderezo de correo electrónico ou número de móbil para recibir notificacións cando se publiquen anuncios."
+    },
+    "conversations": {
+        "Title": "Conversas",
+        "New": "Nova conversa",
+        "Conversation": "Conversa",
+        "Topics": "Temas",
+        "NoneYet": "Aínda non se formaron conversacións",
+        "newConversations": "{{1}} novas conversas",
+        "AllAuthors": "Todos os autores",
+        "FilterbyAuthors": "Filtrar por autores",
+        "FilterAuthorPlaceHolder": "Busca autores adicionais...",
+        "filterConversations": "Filtrar por texto",
+        "Description": "{{1}} conversas"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Escolle un tema",
+            "Share": "Compartir",
+            "interest": {
+                "Title": "Escolle unha actividade",
+                "Filter": "Busca intereses..."
+            }
+        },
+        "Title": "Nova conversa",
+        "TitlePlaceholder": "Asunto da túa conversa",
+        "ContentPlaceholder": "Escribe algunhas palabras para comezar a conversa, para que outros poidan responder",
+        "StartButton": "Iniciar conversa"
+    },
+    "events": {
+        "Title": "Eventos",
+        "filterByTitle": "Busca eventos por título",
+        "New": "+ Comeza un novo evento",
+        "filterEvents": "Filtrar eventos",
+        "NewEvent": "Novo Evento",
+        "SetLocation": "Establecer a miña localización",
+        "NoneYet": "Aínda non se formaron eventos<br> durante estes tempos.",
+        "AllAuthors": "Todos os autores",
+        "AllDays": "Todos os días",
+        "AllLocations": "Todas as localizacións",
+        "MakeReservation": "Facer reserva",
+        "CancelReservation": "Cancelar a reserva",
+        "UpdateReservation": "Actualizar a reserva",
+        "AreYouSure": "Estás seguro?",
+        "YouWillRefunded": "Serás reembolsado en forma de créditos que podes gastar noutras cousas na aplicación.",
+        "AllInterests": "Todos os intereses",
+        "FilterbyInterest": "Filtrar por intereses",
+        "FilterByDate": "Filtrar por data",
+        "ShowActivities": "Mostrar actividades relacionadas con . . .",
+        "newEvents": "Tes {{1}} eventos novos",
+        "SelectLocation": "Seleccione Localización",
+        "FilterLocationsPlaceHolder": "Filtra lugares con...",
+        "Description": "{{1}} eventos",
+        "Keywords": "{{1}} eventos"
+    },
+    "schedule": {
+        "Title": "Horario",
+        "NoneYet": "Non estás participando en ningún evento",
+        "AddSome": "Engade algúns á túa axenda!",
+        "AddMore": "Engade eventos á túa axenda!",
+        "future": "futuro",
+        "past": "pasado"
+    },
+    "location": {
+        "Title": "Localización",
+        "NewLocation": "Nova localización"
+    },
+    "inbox": {
+        "Title": "Caixa de entrada",
+        "NoneYet": "Non estás a participar en ningunha conversa",
+        "FindPeople": "Busca xente con quen falar",
+        "GroupConversations": "Únete a algunhas conversas grupais",
+        "ContactStaff": "Contactar Persoal",
+        "ContactCustomers": "Contacta cos clientes",
+        "AddNewContact": "Engadir un novo contacto",
+        "AddNewContacts": "Engadir novos contactos"
+    },
+    "me": {
+        "Title": "Eu",
+        "MobileNumber": "Número de móbil",
+        "EmailAddress": "Enderezo electrónico",
+        "UpdateSocialTitle": "Actualizar o nome de usuario de {{1}}",
+        "Web3": "Web 3"
+    },
+    "people": {
+        "Title": "Persoas",
+        "Description": "Persoas da comunidade {{1}}",
+        "AppAlert": "Esta aplicación da tenda de aplicacións permitirache conectar cos teus amigos e moito máis.",
+        "Invite": "Invitar amigos",
+        "BuyCredits": "Comprar créditos",
+        "FindSomeoneByName": "Busca alguén polo seu nome",
+        "SearchByName": "Busca polo nome",
+        "FindAllMyFriends": "Atopar todos os meus amigos",
+        "labels": {
+            "All": "Todos",
+            "Title": "Filtrar por relación",
+            "New": "Novo tipo de relación"
+        },
+        "interests": {
+            "All": "Todos os intereses",
+            "Title": "Filtrar por intereses",
+            "Filter": "Mostra ás persoas interesadas en . . ."
+        },
+        "Keywords": "{{1}} comunidade de persoas"
+    },
+    "communities": {
+        "Title": "Comunidades",
+        "NewCommunity": "Nova Comunidade",
+        "FindCommunityByName": "Busca comunidade polo nome",
+        "Description": "{{1}} comunidades"
+    },
+    "community": {
+        "Title": "{{1}} Comunidade",
+        "Roles": "Papeis",
+        "AllRoles": "Todos os roles",
+        "YouDontHavePermission": "Non estás autorizado para facelo",
+        "usernamePlaceholder": "establecer o nome da comunidade",
+        "NotEnoughCredits": "Non tes créditos suficientes para crear comunidade. Necesitas {{1}}, tes {{2}}"
+    },
+    "event": {
+        "GetDirections": "Obter indicacións",
+        "WhichMap": "Que mapas che gustaría usar?",
+        "JoinEventToChat": "Únete ao evento para conversar",
+        "promote": {
+            "Title": "Promove este evento",
+            "Prompt": "Escolle onde queres promocionar este evento:"
+        },
+        "Confirmation": "Confirmación"
+    },
+    "newEvent": {
+        "Title": "Planifica un novo evento"
+    },
+    "interests": {
+        "Title": "Intereses",
+        "prompt": "Selecciona os tipos de cousas que che gustaría saber.",
+        "explanation": "Cantos máis intereses selecciones, máis probabilidades terás de conectar con persoas con ideas afines.",
+        "filter": "Que che interesa?",
+        "Profile": "Destacan os intereses mutuos. Se tamén tes un ou máis dos seguintes intereses, podes {{clickOrTap}} engadilos."
+    },
+    "credits": {
+        "Title": "Créditos",
+        "EarnCredits": "Gaña {{1}} créditos por cada nova persoa que invites que se una á aplicación",
+        "YouHave": "Tes {{1}} créditos"
+    },
+    "onboarding": {
+        "Tap": "Toca",
+        "Click": "Fai clic",
+        "Yes": "Si",
+        "No": "Non",
+        "Skip": "ou omita isto",
+        "name": {
+            "Preface": "Benvido a",
+            "Placeholder": "Introduce o teu nome completo",
+            "GetStarted": "Comezar",
+            "AsGuest": "Convidáronte como convidado.",
+            "AsMember": "Invitáronte como membro.",
+            "AsAdmin": "Invitáronte como administrador.",
+            "AsOwner": "Invitáronte como propietario.",
+            "TooShort": "O teu nome completo non pode ser tan curto",
+            "SetAsYourFullName": "Definir {{1}} como o teu nome completo?"
+        },
+        "icon": {
+            "KeepDefault": "ou conserva esta foto",
+            "SetYourPhoto": "{{ClickOrTap}} para configurar a túa foto:",
+            "ClickOnYourFace": "{{ClickOrTap}} Na túa cara"
+        },
+        "interests": {
+            "GetStarted": "⇩ Comeza",
+            "NextCategory": "↓ Seguinte",
+            "Continue": "Continuar",
+            "Instructions": "En cada unha das seguintes {{1}} categorías,<br> {{2}} todas as actividades que che interesan.<br> Deste xeito te conectas con outras persoas da comunidade."
+        },
+        "profile": {
+            "Profile": "O teu perfil axuda a xente a descubrir máis sobre ti.<br>",
+            "Birthday": "Introduce o teu aniversario:",
+            "Placeholder": "Quen es ti e que fas? Dílle á xente algo interesante ou único sobre ti.",
+            "Required": "Para continuar, escribe polo menos un par de liñas sobre ti.",
+            "Month": "Mes",
+            "Day": "Día",
+            "Year": "Ano",
+            "Gender": "Xénero",
+            "Male": "Masculino",
+            "Female": "Feminino",
+            "Other": "Outra",
+            "Height": "Altura",
+            "Affiliation": "Afiliación",
+            "Dating": "Mozo",
+            "Interested": "Interesado",
+            "NotInterested": "Non interesado",
+            "MatchmakerOnly": "Só Matchmaker"
+        },
+        "location": {
+            "NoOneElse": "Ninguén máis o verá.",
+            "SetMyLocation": "Establecer a miña localización"
+        },
+        "pile": {
+            "DialogTitle": "Persoas con intereses comúns"
+        },
+        "Done": "Feito",
+        "relationships": {
+            "title": "Engade {{userName}} á axenda telefónica",
+            "welcome": "Benvido {{user}}",
+            "invitedByUser": "invitoute.",
+            "addToPhonebook": "Gardar nos meus contactos do teléfono",
+            "iosInstructions": "Desprácese ata Engadir novo contacto",
+            "androidInstructions": "Debería abrir este ficheiro vCard despois de que se descargue.",
+            "explanation": "Cal é a túa relación?"
+        },
+        "Title": "Información básica",
+        "Prompt": "Uns pasos para configurar a túa conta"
+    },
+    "profile": {
+        "Title": "Perfil",
+        "Male": "Masculino",
+        "Female": "Feminino",
+        "Other": "Outra",
+        "dating": {
+            "Interested": "Interesado",
+            "NotInterested": "Non interesado",
+            "MatchmakerOnly": "Só Matchmaker"
+        },
+        "StartConversation": "Iniciar unha conversa",
+        "blockUser": "Bloquea este usuario",
+        "blockUserAlert": "Non verás máis mensaxes deste usuario ata que as desbloquees.",
+        "unblockUser": "Desbloquear este usuario",
+        "addToContacts": "Engadir a Contactos",
+        "manageLabels": "Xestionar as etiquetas",
+        "inviteUsers": "Invitar usuarios",
+        "selectRole": "Seleccione Rol",
+        "inviteSuccess": "Usuario invitado correctamente como {{label}}",
+        "invite": "Invitar",
+        "relationships": "Relacións",
+        "newRole": "Novo Papel",
+        "about": "Sobre",
+        "people": "Persoas",
+        "info": "Información",
+        "interests": "Intereses",
+        "chat": "Chat",
+        "locations": "Localizacións",
+        "ManageRoles": "Xestionar roles",
+        "aboutPlaceholder": "Quen es ti e que fas? Dílle á xente algo interesante ou único sobre ti.",
+        "explanation": "O teu perfil axuda a relacionarte mellor con outras persoas para as actividades do grupo.<br> Introduce o teu aniversario",
+        "chats": {
+            "placeholder": "Di algo"
+        },
+        "LogOut": "Pechar sesión",
+        "MyLinks": "As miñas ligazóns",
+        "MyJobs": "Os meus traballos",
+        "MySocial": "MySocial",
+        "MyEducation": "A miña Educación",
+        "JobsPlaceholder": "Escriba aquí a información de emprego",
+        "EducationPlaceholder": "Escriba aquí información educativa",
+        "ManageNotifications": "Xestionar notificacións",
+        "YourPreferredLanguage": "O teu idioma preferido",
+        "SendCrypto": "Pagar",
+        "Block": "Bloquear",
+        "Unblock": "Desbloquear",
+        "Email": "Correo electrónico",
+        "Avoid": "Evitar",
+        "CreatePrivateChat": "Gastas {{credits}} créditos para contactar?",
+        "RolesInCommunity": "Roles na comunidade",
+        "PersonalChatWith": "Chat persoal con {{name}}",
+        "SendCryptoTo": "Enviar criptografía a {{name}}",
+        "SendEmailTo": "Enviar correo electrónico a {{name}}",
+        "SendSMSTo": "Enviar SMS a {{name}}",
+        "BlockThisUser": "Bloquea este usuario",
+        "UnblockThisUser": "Desbloquear este usuario",
+        "YouCantChatWithYourself": "Non podes falar contigo mesmo",
+        "blockUserAlertTitle": "Bloqueado {{displayName}}",
+        "sections": {
+            "education": "Educación",
+            "greeting": "Saúdo",
+            "jobs": "Traballos",
+            "links": "Ligazóns",
+            "language": "Lingua",
+            "roles": "Papeis",
+            "personal": "Persoal",
+            "social": "Sociais"
+        },
+        "Roles": "Papeis",
+        "SendPaymentTo": "Envía un pago ao {{name}}"
+    },
+    "myqr": {
+        "Title": "O meu QR"
+    },
+    "composer": {
+        "createCommunity": "Crear comunidade",
+        "inviteAdmin": "Invitar administrador",
+        "inviteMember": "Invitar a un membro",
+        "newCommunityTitle": "Nome da Comunidade",
+        "setCommunityTitle": "Nome da Comunidade",
+        "creditsChargeRequest": "Aceptas gastar {{price}} créditos?",
+        "yes": "Si",
+        "no": "Non"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Benvido! Verifique o seu enderezo de correo electrónico.",
+        "WelcomeVerifyEmail": "Benvido! Verifica o teu enderezo de correo electrónico.",
+        "ForgetPass": "Ola, esqueciches o teu contrasinal?",
+        "ManageEmailSubscriptions": "xestiona as túas subscricións de correo electrónico",
+        "IfUnsubscribe": "Se queres darte de baixa"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Benvido a {{CommunityName}}. Esta aplicación axudarache a conectarte con amigos, descubrir novas persoas con intereses comúns e moito máis. Imos comezar!"
+            },
+            "icon": {
+                "Commentary": "Establece a túa foto. Así te verá a xente no sitio."
+            },
+            "interests": {
+                "Commentary": "Cantos máis elementos elixas, máis xente poderás coñecer.",
+                "Notifications": "Debes permitir as notificacións"
+            }
+        },
+        "subscriptions": {
+            "confirm": "As notificacións permítenche saber cousas que che interesan, como cando un amigo se une á aplicación ou envíache unha mensaxe."
+        },
+        "invite": "{{Q.words.TapOrClick}} aquí para ver como podes compartir isto con outras persoas."
+    },
+    "payment": {
+        "onContribute": "Grazas! O teu pago realizouse. Gustaríache invitar aos teus amigos a unirse a ti?",
+        "ConnectAccount": "Conectar conta"
+    },
+    "featureboard": {
+        "Text_1": "Que se escoite a túa voz! Estás de acordo en que debemos desenvolver unha función ou un erro? Fai clic no botón para apoialo.",
+        "Text_2": "Queres que desenvolvamos unha nova función? Descríbeo a continuación.",
+        "Text_3": "Cada semana comezamos a desenvolver a función máis solicitada pola comunidade. Todo o diñeiro aportado vai para ese fin, o que nos permite mellorar a aplicación.",
+        "Text_4": "Todo o diñeiro aportado utilízase para axudarnos a pagar os nosos custos de desenvolvemento.",
+        "Text_5": "Tes unha idea para unha función ou corrección de erros que queres que fagamos pero aínda non viu que outros se engadan? Descríbeo a continuación:",
+        "Options": [
+            {
+                "text": "$400 Videoconferencia en tempo real"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "Información de rexistro local de 200 $"
+            },
+            {
+                "text": "$130 Explora e comparte miles de {{1}} memes",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$80 Xestiona as túas propias comunidades",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Corrixir erro de conversas",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Solicite unha nova función\/corrección de erros",
+        "FeaturePlaceholder": "Breve resumo da función",
+        "FeatureDescription": "Describe como outra persoa pode reproducir o erro que estás a ver ou describe en detalle a función que queres crear",
+        "AddYourRequest": "Engade a túa solicitude",
+        "NewFeature": "Nova función"
+    },
+    "contribute": {
+        "ContributeExplanation": "Axuda a apoiar o desenvolvemento continuo da aplicación {{communityName}}. Todas as túas contribucións axudan a corrixir erros e a desenvolver novas funcións para facer crecer a comunidade en liña.",
+        "ReasonToContribute": "Esta aplicación é mantida polos seguidores de {{communityName}}. Axuda a apoiar esta aplicación para que poidamos marcar a diferenza na vida das persoas."
+    },
+    "assetshistory": {
+        "Title": "Historial de activos",
+        "Charges": "Cargos",
+        "Credits": "Créditos"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Eliminar conta",
+            "content": "Queres eliminar esta conta?",
+            "ok": "Si",
+            "cancel": "Non"
+        }
+    },
+    "import": {
+        "fileNotFound": "Sentímolo, non se atopou o ficheiro CSV.",
+        "fileEmpty": "O ficheiro CSV está baleiro.",
+        "userIdNotFound": "O usuario existe pero o ID está baleiro",
+        "errorLine": "liña {{1}}",
+        "fieldNotFound": "Non se atopou o campo obrigatorio &quot;{{1}}&quot;.",
+        "taskStreamInvalid": "fluxo de tarefas non válido",
+        "instructionsEmpty": "as instrucións do fluxo de tarefas están baleiras",
+        "complete": "Completa",
+        "activateUsers": "enviar mensaxes de activación aos usuarios?",
+        "importProgress": "Progreso",
+        "joinEventLabel": "Únete aos usuarios a un evento aleatorio",
+        "importOptions": "Opcións",
+        "sampleCSV": "Descargar exemplo de CSV",
+        "fileLabel": "Cargar folla de cálculo:",
+        "errorsTitle": "Producíronse erros",
+        "communityUsers": "Esta é a lista de comunidades",
+        "setAsConversation": "Columna URL como conversa",
+        "toMainCommunityToo": "engadir usuarios á comunidade principal tamén",
+        "willImportedTo": "Os usuarios serán importados á comunidade",
+        "ChooseFile": "escoller ficheiro"
+    },
+    "services": {
+        "Title": "Servizos",
+        "filterByTitle": "Busca servizos por título",
+        "New": "+ Iniciar un novo servizo",
+        "NewService": "Novo Servizo",
+        "NewAvailability": "Nova dispoñibilidade",
+        "filterServices": "Servizos de filtrado",
+        "NoneYet": "Aínda non se formaron servizos<br> durante estes tempos.",
+        "AllAuthors": "Todos os autores",
+        "AllDays": "Todos os días",
+        "AllLocations": "Todas as localizacións",
+        "MakeReservation": "Facer reserva",
+        "CancelReservation": "Cancelar a reserva",
+        "UpdateReservation": "Actualizar a reserva",
+        "AreYouSure": "Estás seguro?",
+        "YouWillRefunded": "Serás reembolsado en forma de créditos que podes gastar noutras cousas na aplicación.",
+        "AllInterests": "Todos os intereses",
+        "FilterbyInterest": "Filtrar por intereses",
+        "FilterByDate": "Filtrar por data",
+        "ShowActivities": "Mostrar actividades relacionadas co...",
+        "newServices": "Tes {{1}} servizos novos",
+        "SelectLocation": "Seleccione Localización",
+        "FilterLocationsPlaceHolder": "Filtra lugares con...",
+        "Description": "{{1}} servizo",
+        "Keywords": "{{1}} servizo"
+    },
+    "welcome": {
+        "Title": "{{appName}}: benvido",
+        "GetStarted": "Comezar",
+        "gallery": {
+            "Connect": "Conectar",
+            "Organize": "Organizar",
+            "Travel": "Viaxar",
+            "Share": "Compartir"
+        }
+    }
+}

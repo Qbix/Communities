@@ -1,0 +1,20 @@
+{
+    "activation": {
+        "Thanks": "Byenveni nan {{1}}.",
+        "ClickHere": "Klike la a pou aktive kont ou: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Klike la a pou verifye nimewo mobil ou a: {{1}}"
+    },
+    "SeeHistory": "Gade istwa peman pou {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} te chaje {{2}} pou {{3}} pa {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hey {{1}}, sa a se jis yon konfimasyon rapid ke ou te byen peye {{2}} {{3}} pou {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Ou te abònman nan {{2}} ak {{3}} nan {{4}} pou {{5}} mwa.",
+        "HasStarted": "{{1}} te abònman nan {{2}} ak {{3}} a {{4}} pou {{5}} mwa."
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Anda dijemput",
+        "Member": "Ahli di {{title}}",
+        "Explanation": "{{1}} dengan sukacitanya mengumumkan pelancaran tapak web baharu kami. Ia termasuk senarai ciri yang semakin meningkat, seperti:",
+        "Public": "Maklumat awam tentang {{1}}",
+        "Private": "Akaun pengguna peribadi untuk setiap ahli",
+        "Notifications": "Dengan memasukkan alamat e-mel atau nombor telefon bimbit anda, anda akan dapat menerima pemberitahuan penting melalui e-mel atau mesej teks.",
+        "GetStarted": "Untuk bermula, dalam pelayar web anda sila masukkan <em>dengan teliti<\/em> :<br>",
+        "IssuedToYou": "Kod ini dikeluarkan khusus kepada anda."
+    }
+}

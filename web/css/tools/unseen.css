@@ -1,0 +1,12 @@
+.Q_badge_tool .Q_badge.Streams_chat_unseen,
+.Q_badge_tool .Q_badge.calendars_event_unseen {
+	display: none;
+	background-color: red;
+	border-radius: 8px;
+	color: white;
+	font-size: 10px;
+}
+.Q_badge.Streams_chat_unseen.Streams_preview_nonzero,
+.Q_badge.calendars_event_unseen.Streams_preview_nonzero {
+	display: block;
+}

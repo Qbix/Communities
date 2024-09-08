@@ -1,0 +1,330 @@
+.Communities_onboarding_tool h2 {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+.Q_expandable_tool .Communities_onboarding_tool h2 {
+    padding: 0;
+    margin: 10px 0;
+}
+.Communities_onboarding_step {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.Communities_onboarding_tool .Communities_onboarding_step.Communities_onboarding_name,
+.Communities_onboarding_tool .Communities_onboarding_step.Communities_onboarding_icon:not(.Streams_groupPhoto_tool) {
+    padding: 15px 0;
+}
+
+.Communities_onboarding_tool input.Communities_onboarding_name_fullname,
+.Communities_onboarding_tool input.Communities_onboarding_name_fullname:focus,
+.Communities_onboarding_tool .Communities_onboarding_icon_displayName {
+    display: block;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-family: "Comic Sans MS", "ChalkboardSE-Regular", "Papyrus";
+    font-size: 24px;
+    background: none;
+    box-shadow: none;
+}
+.Communities_onboarding_tool input.Communities_onboarding_name_fullname::placeholder,
+.Communities_onboarding_tool .Communities_onboarding_icon_displayName::placeholder {
+    color: rgba(255,255,255,.3);
+}
+.Communities_onboarding_tool input.Communities_onboarding_name_fullname:focus {
+    background: rgba(255,255,255,0.1);
+    transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+}
+.Communities_onboarding_icon .Streams_image_preview_icon {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: #555 0 0 14px;
+    -webkit-box-shadow: #555 0 0 14px;
+    -moz-box-shadow: #555 0 0 14px;
+    width: 100% !important;
+}
+.Communities_onboarding_icon .Q_buttons {
+    margin-top: 10px;
+}
+.Communities_onboarding_icon_skip {
+    display: inline-block;
+    font-size: 14px;
+    color: #aaa;
+}
+.Communities_onboarding_overlay {
+    background: url(../../../Q/img/bg/overlay-dark.png);
+    color: white;
+}
+.Communities_onboarding_overlay .Q_dialog_content {
+    padding: 5px;
+}
+.Q_notMobile .Communities_onboarding_overlay {
+    max-width: 400px;
+}
+html.Communities_onboarding #columns_slot .Q_column_0 .column_slot {
+    padding-top: 20px;
+}
+.Communities_onboarding_next {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 300;
+    text-align: center;
+    font-size: 20px;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.Communities_onboarding_location {
+    padding: 20px 0;
+    height: 100%;
+}
+.Communities_onboarding_instructions {
+    text-align: center;
+    padding: 10px;
+}
+.Communities_onboarding_interests .Streams_interests_filter_input {
+    display: none;
+}
+.Communities_onboarding_interests_categories .Communities_onboarding_instructions {
+    padding: 20px;
+    font-size: 24px;
+}
+.Communities_onboarding_interests_categories .Streams_interests_tool {
+    max-height: 90%;
+    padding-bottom: 40px;
+    overflow: auto;
+}
+.Communities_onboarding_interests_categories {
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    height: 100%;
+    overflow-x: hidden;
+}
+.Communities_onboarding_interests_categories .Q_expandable_tool {
+    display: none;
+}
+.Communities_onboarding_interests_categories .Q_expandable_tool h2 {
+    text-align: center;
+    font-size: 24px;
+    background: none;
+    margin: 0;
+    padding: 10px 0 30px 0;
+}
+.Communities_onboarding_interests_categories .Q_expandable_tool h2:hover,
+.Communities_onboarding_interests_categories .Q_expandable_tool h2.Q_expanded,
+.Communities_onboarding_interests_categories .Q_expandable_tool h2.Q_pressed {
+    background: none;
+}
+.Communities_onboarding_interests_categories .Q_expandable_tool h2 .Streams_interests_prompt {
+    font-size: 14px;
+    text-shadow: none;
+}
+.Communities_onboarding_interests_categories .Q_expandable_tool h2 img {
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+.Communities_onboarding_interests_categories .Streams_interests_category_prompt {
+    text-indent: 2px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+.Communities_onboarding_interests_categories .Q_expandable_content {
+    clear: both;
+    text-align: center;
+    width: 100%;
+}
+.Communities_onboarding_interests_categories h2.Q_expanded .Q_expandable_count {
+    display: block;
+}
+.Communities_onboarding_interests_categories .Streams_interest_title {
+    border: 1px dotted rgba(255, 255, 255, 0.2);
+}
+.Communities_onboarding_interests_categories .Q_expandable_container {
+    border: 0;
+}
+.Communities_onboarding_tool input.Communities_onboarding_name_fullname,
+.Communities_onboarding_name_form input.Communities_onboarding_name_fullname:focus {
+    border: 0;
+    border-bottom: solid 2px #eee;
+}
+
+.Communities_onboarding_narration:empty {
+    display: none;
+}
+.Communities_onboarding_name h2 {
+    margin-bottom: 5px;
+}
+.Communities_onboarding_narration {
+    margin-bottom: 20px;
+}
+.Communities_onboarding .Users_list_tool {
+    margin-top: 20px; overflow: auto; overflow-x: hidden; overflow-y: auto;
+}
+.Communities_onboarding #content_slot {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    overflow-y: auto;
+}
+.Communities_onboarding #content_slot {
+    background: url(../../../Q/img/bg/overlay-dark.png);
+    color: white;
+    overflow-x: hidden;
+    padding: 20px;
+    min-width: 300px;
+    min-height: 50vh;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.Communities_onboarding_icon .Streams_image_preview_tool {
+    width: 200px;
+    height: 200px;
+}
+.Communities_onboarding_logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+}
+.Communities_onboarding_profile {
+    position: relative;
+    height: 100%;
+    text-align: center;
+}
+.Communities_onboarding_profile select {
+    font-size: 16px;
+}
+.Communities_onboarding_profile_greeting textarea {
+    width: 100%;
+    height: 100px;
+    max-height: 150px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px dotted #eee;
+    font-family: "Comic Sans MS", "ChalkboardSE-Regular", "Papyrus";
+    font-size: 16px;
+}
+.Communities_onboarding_profile_greeting textarea:active {
+    background: white;
+    color: black;
+    border: 1px inset #777;
+}
+.Communities_onboarding_profile_basic,
+.Communities_onboarding_profile_greeting {
+    margin: 20px 0 0;
+}
+.Communities_onboarding_explanation {
+    font-weight: bold;
+    padding-top: 10px;
+    width: 100%;
+    height: 100px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+.Communities_onboarding_explanation .Communities_textfill {
+    position: absolute;
+    bottom: 0;
+}
+.Communities_onboarding_interests .Users_pile_tool {
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+    float: right;
+}
+.Communities_onboarding_interests .Users_pile_tool .Users_avatar_name {
+    display: none;
+}
+
+.Q_hint.Communities_onboarding_interests {
+    transform: scale(1);
+}
+
+.Communities_onboarding_icon .Streams_image_preview_tool {
+    animation: Q_pulsate 10s ease-in-out infinite alternate;
+}
+.Communities_onboarding_tool .Streams_interests_drilldown {
+    display: none;
+}
+
+.Q_mobile.Communities_onboarding #page {
+    top: 0;
+    bottom: 0;
+}
+
+.Communities_onboarding .Communities_onboarding_profile_birthday {
+    display: block;
+    white-space: nowrap;
+}
+.Communities_onboarding select {
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.Communities_onboarding button[name=next] {
+    margin-left: 10px;
+}
+
+.Communities_onboarding_relationships{
+    padding:10px;
+    font-size: 16px;
+}
+
+.Communities_onboarding_relationships .Communities_onboarding_explanation {
+    height: auto;
+}
+
+.Communities_onboarding_relationships .Communities_onboarding_add_to_pb_welcome {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+.Communities_onboarding_relationships .Communities_onboarding_inv_avatar_con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Communities_onboarding_relationships .Communities_onboarding_add_to_pb_btns {
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+}
+.Communities_onboarding_relationships .Communities_onboarding_inv_avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Communities_onboarding_relationships .Communities_onboarding_inv_avatar img{
+    width:40px;
+    height:40px;
+    margin-right: 5px;
+}
+.Communities_onboarding_relationships .Communities_onboarding_inv_by {
+    margin-left: 5px;
+    white-space: nowrap;
+}
+
+.Communities_onboarding_relationships .Communities_onboarding_add_to_pb_btns {
+    width:100%;
+    margin: 20px 0;
+}
+.Communities_onboarding_relationships .Communities_onboarding_add_to_pb_inst {
+    display: flex;
+    justify-content: center;
+}
+.Communities_onboarding_relationships .Users_labels_tool {
+    zoom: 0.8;
+}
+.Communities_onboarding_relationships .Communities_continue_button {
+    width: 100%;
+}
+.Communities_onboarding_tool .Communities_onboarding_icon[data-custom-icon=false] .Communities_onboarding_icon_skip {
+    /*display: none;*/
+}

@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Tugtar cuireadh duit",
+        "Member": "Ball ag {{title}}",
+        "Explanation": "Tá áthas ar {{1}} seoladh ár suíomh Gréasáin nua a fhógairt. Áiríonn sé liosta méadaitheach gnéithe, mar:",
+        "Public": "Faisnéis phoiblí faoi {{1}}",
+        "Private": "Cuntas úsáideora príobháideach do gach ball",
+        "Notifications": "Trí do sheoladh ríomhphoist nó uimhir ghutháin a chur isteach beidh tú in ann fógraí tábhachtacha a fháil trí ríomhphost nó trí theachtaireacht téacs.",
+        "GetStarted": "Chun tús a chur leis, cuir isteach <em>go cúramach<\/em> i do bhrabhsálaí gréasáin:<br>",
+        "IssuedToYou": "Eisítear an cód seo duit go sonrach."
+    }
+}

@@ -1,0 +1,362 @@
+{
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> weist näischt op!",
+        "NextSteps": "Benotzt den Haaptmenü fir ze fannen wat Dir sicht."
+    },
+    "dashboard": {
+        "Menu": "Menu"
+    },
+    "greeting": {
+        "Welcome": "Wëllkomm op {{1}}. Hei fannt Dir Saachen gepost fir Membere vun eiser Gemeinschaft. Füügt w.e.g. Är E-Mailadress oder Handysnummer un fir Notifikatiounen ze kréien wann Ukënnegung gepost ginn."
+    },
+    "conversations": {
+        "Title": "Gespréicher",
+        "New": "Neit Gespréich",
+        "Conversation": "Gespréich",
+        "Topics": "Themen",
+        "NoneYet": "Et gi keng Gespréicher nach geformt",
+        "newConversations": "{{1}} nei Gespréicher",
+        "AllAuthors": "All Auteuren",
+        "FilterbyAuthors": "Filter no Auteuren",
+        "FilterAuthorPlaceHolder": "Sich no zousätzlech Auteuren ...",
+        "filterConversations": "Filter no Text",
+        "Description": "{{1}} Gespréicher"
+    },
+    "newConversation": {
+        "composer": {
+            "ChooseActivity": "Wielt en Thema",
+            "Share": "Deelen",
+            "interest": {
+                "Title": "Wielt eng Aktivitéit",
+                "Filter": "Sich Interessen ..."
+            }
+        },
+        "Title": "Neit Gespréich",
+        "TitlePlaceholder": "Thema vun Ärem Gespréich",
+        "ContentPlaceholder": "Schreift e puer Wierder fir d&#39;Gespréich unzefänken, sou datt anerer kënnen äntweren",
+        "StartButton": "Start Gespréich"
+    },
+    "events": {
+        "Title": "Evenementer",
+        "filterByTitle": "Fannt Eventer nom Titel",
+        "New": "+ Neit Event starten",
+        "filterEvents": "Filter Evenementer",
+        "NewEvent": "New Event",
+        "SetLocation": "Set Meng Location",
+        "NoneYet": "Et gi keng Eventer nach geformt<br> während dësen Zäiten.",
+        "AllAuthors": "All Auteuren",
+        "AllDays": "All Deeg",
+        "AllLocations": "All Locations",
+        "MakeReservation": "Maacht Reservatioun",
+        "CancelReservation": "Reservatioun annuléieren",
+        "UpdateReservation": "Update Reservatioun",
+        "AreYouSure": "Bass du secher?",
+        "YouWillRefunded": "Dir wäert a Form vu Kreditter rembourséiert ginn, déi Dir op aner Saachen an der App ausginn kënnt.",
+        "AllInterests": "All Interessen",
+        "FilterbyInterest": "Filter no Interessi",
+        "FilterByDate": "Filter no Datum",
+        "ShowActivities": "Show Aktivitéiten am Zesummenhang mat. . .",
+        "newEvents": "Dir hutt {{1}} nei Eventer",
+        "SelectLocation": "Wielt Location",
+        "FilterLocationsPlaceHolder": "Filter Plazen mat ...",
+        "Description": "{{1}} Evenementer",
+        "Keywords": "{{1}} Evenementer"
+    },
+    "schedule": {
+        "Title": "Zäitplang",
+        "NoneYet": "Dir maacht net un all Eventer mat",
+        "AddSome": "Füügt e puer zu Ärem Zäitplang!",
+        "AddMore": "Füügt Eventer zu Ärem Zäitplang!",
+        "future": "Zukunft",
+        "past": "Vergaangenheet"
+    },
+    "location": {
+        "Title": "Location",
+        "NewLocation": "Nei Location"
+    },
+    "inbox": {
+        "Title": "Inbox",
+        "NoneYet": "Dir maacht net u Gespréicher mat",
+        "FindPeople": "Fannt Leit fir mat ze schwätzen",
+        "GroupConversations": "Maacht mat bei e puer Grupp Gespréicher",
+        "ContactStaff": "Kontakt Personal",
+        "ContactCustomers": "Kontakt Clienten"
+    },
+    "me": {
+        "Title": "Ech",
+        "MobileNumber": "Handysnummer",
+        "EmailAddress": "E-Mailadress",
+        "UpdateSocialTitle": "Update {{1}} Benotzernumm"
+    },
+    "people": {
+        "Title": "Leit",
+        "Description": "Leit an der {{1}} Gemeinschaft",
+        "AppAlert": "Dës App am App Store léisst Iech mat Äre Frënn verbannen, a vill vill méi.",
+        "Invite": "Invitéieren Frënn",
+        "BuyCredits": "Kafen Credits",
+        "FindSomeoneByName": "Fannt een mam Numm",
+        "SearchByName": "Sich no Numm",
+        "FindAllMyFriends": "Fannt All Meng Frënn",
+        "labels": {
+            "All": "Jiddereen",
+            "Title": "Filter no Relatioun",
+            "New": "New Relatioun Typ"
+        },
+        "interests": {
+            "All": "All Interessen",
+            "Title": "Filter no Interessi",
+            "Filter": "Show Leit interesséiert an. . ."
+        },
+        "Keywords": "{{1}} Leit Gemeinschaft"
+    },
+    "communities": {
+        "Title": "Communautéiten",
+        "NewCommunity": "Nei Gemeinschaft",
+        "FindCommunityByName": "Fannt Gemeinschaft mam Numm",
+        "Description": "{{1}} Gemeinschaften"
+    },
+    "community": {
+        "Title": "{{1}} Gemeinschaft",
+        "Roles": "Rollen",
+        "AllRoles": "All Rollen",
+        "YouDontHavePermission": "Dir sidd net autoriséiert dëst ze maachen",
+        "usernamePlaceholder": "setzen Communautéit Numm",
+        "NotEnoughCredits": "Dir hutt net genuch Kreditter fir eng Gemeinschaft ze kreéieren. Braucht {{1}}, Dir hutt {{2}}"
+    },
+    "event": {
+        "GetDirections": "Kréien Richtungen",
+        "WhichMap": "Wéi eng Kaarte géift Dir gär benotzen?",
+        "JoinEventToChat": "Maacht mat beim Event fir ze chatten",
+        "promote": {
+            "Title": "Promotioun vun dësem Event",
+            "Prompt": "Wielt wou Dir dëst Evenement wëllt promoten:"
+        },
+        "Confirmation": "Bestätegung"
+    },
+    "newEvent": {
+        "Title": "Plan New Event"
+    },
+    "interests": {
+        "Title": "Interessen",
+        "prompt": "Wielt d&#39;Zorte vu Saachen déi Dir gär wësse wëllt.",
+        "explanation": "Wat méi Interessen Dir wielt, wat méi wahrscheinlech sidd Dir mat wéi-minded Leit ze verbannen.",
+        "filter": "Wat sidd Dir interesséiert?",
+        "Profile": "Géigesäiteg Interesse ginn beliicht. Wann Dir och een oder méi vun den Interessen hei drënner hutt, kënnt Dir {{clickOrTap}} se derbäisetzen."
+    },
+    "credits": {
+        "Title": "Credits",
+        "EarnCredits": "Verdéngt {{1}} Credits fir all nei Persoun déi Dir invitéiert, déi mat der App bäitrieden",
+        "YouHave": "Dir hutt {{1}} Credits"
+    },
+    "onboarding": {
+        "Tap": "Tap",
+        "Click": "Klickt",
+        "Yes": "jo",
+        "No": "Nee",
+        "Skip": "oder iwwersprangen dëst",
+        "name": {
+            "Preface": "Wëllkomm op",
+            "Placeholder": "Gitt Äre ganzen Numm",
+            "GetStarted": "Ufänken",
+            "AsGuest": "Dir sidd als Gaascht invitéiert.",
+            "AsMember": "Dir sidd als Member invitéiert.",
+            "AsAdmin": "Dir sidd als Administrateur invitéiert.",
+            "AsOwner": "Dir sidd als Besëtzer invitéiert.",
+            "TooShort": "Äre ganzen Numm kann net sou kuerz sinn",
+            "SetAsYourFullName": "{{1}} als Äre ganzen Numm setzen?"
+        },
+        "icon": {
+            "KeepDefault": "oder behalen dës Foto",
+            "SetYourPhoto": "{{ClickOrTap}} fir Är Foto ze setzen:"
+        },
+        "interests": {
+            "GetStarted": "⇩ Fänkt un",
+            "NextCategory": "↓ Nächst",
+            "Continue": "Fuert weider",
+            "Instructions": "An jiddereng vun den nächsten {{1}} Kategorien,<br> {{2}} all Aktivitéiten un deenen Dir interesséiert sidd.<br> Dëst ass wéi Dir mat anere Leit an der Gemeinschaft verbënnt."
+        },
+        "profile": {
+            "Profile": "Äre Profil hëlleft de Leit méi iwwer Iech z&#39;entdecken.<br>",
+            "Birthday": "Gitt w.e.g. Äre Gebuertsdag un:",
+            "Placeholder": "Wien bass du a wat mëss du? Sot de Leit eppes interessant oder eenzegaarteg iwwer Iech selwer.",
+            "Required": "Fir weiderzemaachen, schreift op d&#39;mannst e puer Zeilen iwwer Iech selwer.",
+            "Month": "Mount",
+            "Day": "Dag",
+            "Year": "Joer",
+            "Gender": "Geschlecht",
+            "Male": "Männlech",
+            "Female": "weiblech",
+            "Other": "Aner",
+            "Height": "Héicht",
+            "Affiliation": "Associatioun",
+            "Dating": "daten",
+            "Interested": "Interesséiert",
+            "NotInterested": "Net interesseiert",
+            "MatchmakerOnly": "Matchmaker Nëmmen"
+        },
+        "location": {
+            "NoOneElse": "Keen aneren wäert et gesinn.",
+            "SetMyLocation": "Set meng Location"
+        },
+        "pile": {
+            "DialogTitle": "Leit mat gemeinsamen Interessen"
+        },
+        "Done": "Gemaach"
+    },
+    "profile": {
+        "Title": "Profil",
+        "Male": "Männlech",
+        "Female": "weiblech",
+        "Other": "Aner",
+        "dating": {
+            "Interested": "Interesséiert",
+            "NotInterested": "Net interesseiert",
+            "MatchmakerOnly": "Matchmaker nëmmen"
+        },
+        "StartConversation": "Start e Gespréich",
+        "blockUser": "Blockéiert dëse Benotzer",
+        "blockUserAlert": "Dir gesitt keng Message méi vun dësem Benotzer bis Dir se deblockéiert.",
+        "unblockUser": "Spär dëse Benotzer un",
+        "addToContacts": "Add to Kontakter",
+        "manageLabels": "Verwalte Labels",
+        "inviteUsers": "Invitéiere Benotzer",
+        "selectRole": "Wielt Roll",
+        "inviteSuccess": "Erfollegräich invitéiert Benotzer als {{label}}",
+        "invite": "Invitéieren",
+        "relationships": "Relatiounen",
+        "newRole": "Nei Roll",
+        "about": "Iwwer",
+        "people": "Leit",
+        "info": "Info",
+        "interests": "Interessen",
+        "chat": "Chat",
+        "locations": "Plaze",
+        "ManageRoles": "Rollen managen",
+        "aboutPlaceholder": "Wien bass du a wat mëss du? Sot de Leit eppes interessant oder eenzegaarteg iwwer Iech selwer.",
+        "explanation": "Äre Profil hëlleft Iech besser mat anere Leit fir Gruppaktivitéiten ze passen.<br> Gitt weg Äre Gebuertsdag",
+        "chats": {
+            "placeholder": "So eppes"
+        },
+        "LogOut": "Ausloggen",
+        "MyLinks": "Meng Links",
+        "MyJobs": "Meng Aarbechtsplazen",
+        "MySocial": "MySocial",
+        "MyEducation": "Meng Ausbildung",
+        "JobsPlaceholder": "Gitt hei Aarbechtsinfo",
+        "EducationPlaceholder": "Typ hei Ausbildungsinfo",
+        "ManageNotifications": "Managen Notifikatiounen",
+        "YourPreferredLanguage": "Är léifste Sprooch"
+    },
+    "myqr": {
+        "Title": "Meng QR"
+    },
+    "composer": {
+        "createCommunity": "Schafen Communautéit",
+        "inviteAdmin": "Invitéieren Admin",
+        "inviteMember": "Invitéieren Member",
+        "newCommunityTitle": "Gemeinschaft Numm",
+        "setCommunityTitle": "Gemeinschaft Numm",
+        "creditsChargeRequest": "Sidd Dir averstanen {{price}} Credits ze verbréngen?",
+        "yes": "jo",
+        "no": "Nee"
+    },
+    "notifications": {
+        "WelcomePleaseVerifyEmail": "Wëllkomm! Weg z&#39;iwwerpréiwen Är Email Adress.",
+        "WelcomeVerifyEmail": "Wëllkomm! Verifizéiert Är E-Mailadress.",
+        "ForgetPass": "Hey, hutt Dir Äre Passphrase vergiess?",
+        "ManageEmailSubscriptions": "verwalten Är E-Mail Abonnementer",
+        "IfUnsubscribe": "Wann Dir wëllt ofzeschreiwen"
+    },
+    "speak": {
+        "onboarding": {
+            "name": {
+                "Welcome": "Wëllkomm op {{CommunityName}}. Dës App hëlleft Iech mat Frënn ze verbannen, nei Leit mat gemeinsamen Interessen ze entdecken, a vill méi. Loosst eis ufänken!"
+            },
+            "icon": {
+                "Commentary": "Setzt Är Foto. Dëst ass wéi d&#39;Leit Iech um Site gesinn."
+            },
+            "interests": {
+                "Commentary": "Der méi Elementer Dir wielt, der méi Leit Dir treffen kann.",
+                "Notifications": "Dir musst Notifikatiounen erlaben"
+            }
+        },
+        "subscriptions": {
+            "confirm": "Notifikatiounen erlaben Iech iwwer Saachen ze wëssen, an där Dir interesséiert sidd, wéi wann e Frënd bei der App bäitrieden, oder Iech Messagen."
+        },
+        "invite": "{{Q.words.TapOrClick}} hei fir ze kucken wéi Dir dëst mat anere Leit deele kënnt."
+    },
+    "payment": {
+        "onContribute": "Merci! Är Bezuelung ass duerchgaang. Wëllt Dir Är Frënn mat Iech invitéieren?"
+    },
+    "featureboard": {
+        "Text_1": "Loosst Är Stëmm héieren! Sidd Dir averstanen datt mir eng Feature oder Käfer entwéckelen? Klickt op de Knäppchen fir et z&#39;ënnerstëtzen.",
+        "Text_2": "Wëllt mir eng nei Feature entwéckelen? Beschreiwen et ënnert.",
+        "Text_3": "All Woch fänken mir un déi Top ugefrote Feature vun der Gemeinschaft z&#39;entwéckelen. All d&#39;Suen, déi bäigedroen ginn, ginn fir dësen Zweck, wat eis erlaabt d&#39;App besser ze maachen.",
+        "Text_4": "All Sue bäigedroen ginn benotzt fir eis Entwécklungskäschte ze bezuelen.",
+        "Text_5": "Hutt Dir eng Iddi fir eng Feature oder Bugfix déi Dir wëllt datt mir maachen, awer Dir hutt anerer nach net gesinn? Beschreift et hei ënnen:",
+        "Options": [
+            {
+                "text": "$ 400 Echtzäit Videokonferenzen"
+            },
+            {
+                "defaultAmount": "10",
+                "text": "$ 200 Lokal Primär Aschreiwung Informatiounen"
+            },
+            {
+                "text": "$130 Browst an deelt Dausende vun {{1}} Memes",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$ 80 Managen Är eege Communautéiten",
+                "defaultAmount": "10"
+            },
+            {
+                "text": "$30 Fix Gespréicher Feeler",
+                "defaultAmount": "10"
+            }
+        ],
+        "RequestNewFeature": "Ufro eng nei Feature \/ Bugfix",
+        "FeaturePlaceholder": "Kuerz Resumé vun Fonktioun",
+        "FeatureDescription": "Beschreift wéi een aneren de Käfer deen Dir gesitt reproduzéieren kann, oder beschreiwt am Detail d&#39;Feature déi Dir wëllt bauen",
+        "AddYourRequest": "Füügt Är Ufro un",
+        "NewFeature": "Nei Feature"
+    },
+    "contribute": {
+        "ContributeExplanation": "Hëlleft weider Entwécklung vun der {{communityName}} App z&#39;ënnerstëtzen. All Är Bäiträg hëllefen Bugs ze fixéieren an nei Features z&#39;entwéckelen fir d&#39;Online Gemeinschaft ze wuessen!",
+        "ReasonToContribute": "Dës App gëtt vun Unhänger vun {{communityName}} ënnerhal. Hëlleft dës App z&#39;ënnerstëtzen sou datt mir en Ënnerscheed am Liewen vun de Leit kënne maachen!"
+    },
+    "assetshistory": {
+        "Title": "Verméigen Geschicht",
+        "Charges": "Käschten",
+        "Credits": "Credits"
+    },
+    "accounts": {
+        "remove": {
+            "title": "Ewechzehuelen Kont",
+            "content": "Wëllt Dir dëse Kont läschen?",
+            "ok": "jo",
+            "cancel": "Nee"
+        }
+    },
+    "import": {
+        "fileNotFound": "Entschëllegt, CSV Datei net fonnt.",
+        "fileEmpty": "Entschëllegt, CSV Datei ass eidel.",
+        "userIdNotFound": "Benotzer existéieren awer ID eidel",
+        "errorLine": "Linn {{1}}",
+        "fieldNotFound": "Néideg Feld &quot;{{1}}&quot; net fonnt",
+        "taskStreamInvalid": "Task Stream ongëlteg",
+        "instructionsEmpty": "Task Stream Instruktioune eidel",
+        "complete": "Komplett",
+        "activateUsers": "Aktivéierungsmeldung un d&#39;Benotzer schécken?",
+        "importProgress": "Fortschrëtt",
+        "joinEventLabel": "Maacht mat Benotzer op zoufälleg Event",
+        "importOptions": "Optiounen",
+        "sampleCSV": "Download Beispill CSV",
+        "fileLabel": "Eroplueden Spreadsheet:",
+        "errorsTitle": "Feeler geschitt",
+        "communityUsers": "Dëst ass Gemeinschaftslëscht",
+        "setAsConversation": "URL Kolonn als Gespréich",
+        "toMainCommunityToo": "Füügt Benotzer och an d&#39;Haaptgemeinschaft",
+        "willImportedTo": "D&#39;Benotzer ginn an d&#39;Gemeinschaft importéiert"
+    }
+}
