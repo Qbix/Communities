@@ -1,6 +1,5 @@
 <?php
 
-
 /**
  * Communities
  * @module Communities
