@@ -1448,7 +1448,7 @@ function _updateSlots(slotNames, onActivate) {
 		return;
 	}
 
-	Q.loadUrl(Q.info.url, {
+	Q.loadUrl(location.href, {
 		slotNames: slotNames,
 		loadExtras: 'all',
 		ignoreDialogs: true,
