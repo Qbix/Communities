@@ -21,7 +21,7 @@ var Communities = Q.Communities;
  *  @param {Boolean} [options.speak] Whether to employ speech during the onboarding
  *  @param {Object|false} [options.usersList={}] Options to pass to the Users/list tool, or false to hide it
  *  @param {Object} [options.icon={}] Any options to pass to the icon step
- *  @param {Object} [options.icon.unlessImported] Pass true here to not show the icon if it's been imported. Defaults to true if onboarding was shown already.
+ *  @param {Object} [options.icon.unlessImported] Pass true here to recognise imported icon as custom and hence skip icon step. Defaults to false.
  *  @param {Object} [options.interests={}] Any options to pass to the Streams/interests tool
  *  @param {Object} [options.interests.categories=false] Set to true to show each interest category by itself
  *  @param {Boolean} [options.profile.requireGreeting=false] Set to true to force people to enter a greeting
@@ -99,7 +99,7 @@ Q.Tool.define("Communities/onboarding", function Communities_onboarding_tool() {
             defaultIconSize: 200
         },
         icon: {
-            unlessImported: undefined
+            unlessImported: false
         },
         interests: {
             categories: true,
@@ -278,15 +278,7 @@ Q.Tool.define("Communities/onboarding", function Communities_onboarding_tool() {
                 var state = tool.state;
                 var step = state.steps[state.current];
                 var dontSkip = state.dontSkip && state.dontSkip.indexOf(step) >= 0;
-                var icon = Users.loggedInUser.icon;
-                var unlessImported = state.icon.unlessImported;
-                if (unlessImported === undefined) {
-                    var key = 'Communities/onboarding icon';
-                    if (Users.hinted.indexOf(key) >= 0) {
-                        unlessImported = true;
-                    }
-                }
-                if (!dontSkip && Q.Users.isCustomIcon(icon, unlessImported)) {
+                if (!dontSkip && Q.Users.isCustomIcon(Users.loggedInUser.icon, !state.icon.unlessImported)) {
                     return tool.next(0);
                 }
                 var userId = Users.loggedInUser.id;
@@ -368,9 +360,6 @@ Q.Tool.define("Communities/onboarding", function Communities_onboarding_tool() {
                                     saveSizeName: 'Users/icon',
                                     save: 'Users/icon',
                                     onSuccess: {"Communities/onboarding": function () {
-                                        var key = 'Communities/onboarding icon';
-                                        Users.hinted.push(key);
-                                        Users.vote('Users/hinted', key);
                                         tool.next();
                                     }},
                                     onCropping: {"Communities/onboarding": function (dialog) {
@@ -416,9 +405,6 @@ Q.Tool.define("Communities/onboarding", function Communities_onboarding_tool() {
                                 }, 300);
                             });
                             $element.find('.Communities_onboarding_icon_skip').plugin('Q/clickable').click(function () {
-                                var key = 'Communities/onboarding icon';
-                                Users.hinted.push(key);
-                                Users.vote('Users/hinted', key);
                                 tool.next();
                             });
                             Streams.Stream.onFieldChanged(userId, streamName, 'icon').set(function (fields) {
