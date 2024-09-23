@@ -1575,7 +1575,7 @@ html.Communities_dialog .Communities_credits_main_badge .Q_badge {
 .Q_notMobile .Q_columns_column.Q_column_streams_chat,
 .Q_notMobile .Q_columns_column.Communities_column_event,
 .Q_notMobile .Q_columns_column.Communities_column_chat {
-	width: 400px;
+	width: 30%;
 }
 
 .Q_notMobile .Q_columns_column {
