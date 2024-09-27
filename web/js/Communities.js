@@ -354,12 +354,8 @@ var Communities = Q.Communities = Q.plugins.Communities = {
 						tool.element.forEachTool("Streams/pdf/preview", function () {
 							var previewTool = this;
 							var previewState = this.preview.state;
-							var $box = $(this.element).closest('.Q_columns_tool');
-							if (!$box.length) {
-								$box = $("body");
-							}
 
-							$box[0].forEachTool("Q/pdf", function () {
+							document.body.forEachTool("Q/pdf", function () {
 								if (Q.isEmpty(previewTool.stream) || Q.url(previewTool.stream.fileUrl()) !== this.state.url) {
 									return;
 								}
@@ -383,12 +379,8 @@ var Communities = Q.Communities = Q.plugins.Communities = {
 						tool.element.forEachTool("Streams/video/preview", function () {
 							var previewTool = this;
 							var previewState = this.preview.state;
-							var $box = $(this.element).closest('.Q_columns_tool');
-							if (!$box.length) {
-								$box = $("body");
-							}
 
-							$box[0].forEachTool("Q/video", function () {
+							document.body.forEachTool("Q/video", function () {
 								if (Q.isEmpty(previewTool.stream) || Q.url(previewTool.stream.fileUrl()) !== this.state.url) {
 									return;
 								}
@@ -416,12 +408,8 @@ var Communities = Q.Communities = Q.plugins.Communities = {
 						tool.element.forEachTool("Streams/audio/preview", function () {
 							var previewTool = this;
 							var previewState = this.preview.state;
-							var $box = $(this.element).closest('.Q_columns_tool');
-							if (!$box.length) {
-								$box = $("body");
-							}
 
-							$box[0].forEachTool("Q/audio", function () {
+							document.body.forEachTool("Q/audio", function () {
 								if (Q.isEmpty(previewTool.stream) || Q.url(previewTool.stream.fileUrl()) !== this.state.url) {
 									return;
 								}
