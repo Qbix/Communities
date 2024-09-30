@@ -631,7 +631,7 @@ html[data-dashboard-style=contextual] .Q_contextual .Q_listing li * {
 #dashboard .Q_tabs_compact.Q_tabs_horizontal .Q_tabs_tab * { color: white; }
 .Q_notMobile #dashboard .Q_tabs_tool.Q_tabs_vertical { overflow-y: auto; min-width: 200px; width: 60%; margin: auto; }
 .Q_mobile .Q_tabs_tabs { display: flex; justify-content: space-around; }
-#dashboard .Q_tabs_vertical .Q_tabs_tab { background: transparent; }
+#dashboard .Q_tabs_vertical .Q_tabs_tab { background: transparent; line-height: 30px; }
 #dashboard .Q_tabs_vertical .Q_tabs_tab.Q_current { background: var(--dashboard-current-bg); }
 #dashboard .Q_tabs_tab,
 #dashboard .Q_tabs_tab > * { cursor: pointer; }
