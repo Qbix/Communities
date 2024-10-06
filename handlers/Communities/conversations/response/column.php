@@ -48,19 +48,9 @@ function Communities_conversations_response_column($params)
 
 	$description = Q::text($text['conversations']['Description'], array(Q::app()));
 	$keywords = $text['conversations']['Keywords'];
-	Q_Response::setMeta(array(
-		array('name' => 'name', 'value' => 'title', 'content' => $title),
-		array('name' => 'property', 'value' => 'og:title', 'content' => $title),
-		array('name' => 'property', 'value' => 'twitter:title', 'content' => $title),
-		array('name' => 'name', 'value' => 'description', 'content' => $description),
-		array('name' => 'property', 'value' => 'og:description', 'content' => $description),
-		array('name' => 'property', 'value' => 'twitter:description', 'content' => $description),
-		array('name' => 'name', 'value' => 'keywords', 'content' => $keywords),
-		array('name' => 'property', 'value' => 'og:keywords', 'content' => $keywords),
-		array('name' => 'property', 'value' => 'twitter:keywords', 'content' => $keywords),
-		array('name' => 'property', 'value' => 'og:url', 'content' => $url),
-		array('name' => 'property', 'value' => 'twitter:url', 'content' => $url),
-		array('name' => 'property', 'value' => 'twitter:card', 'content' => 'summary')
+	$image = Q_Html::themedUrl('img/icon/400.png');
+	Q_Response::setCommonMetas(compact(
+		'title', 'description', 'keywords', 'image', 'url'
 	));
 }
 

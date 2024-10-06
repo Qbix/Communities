@@ -175,18 +175,11 @@ function Communities_profile_response_column ($params = array()) {
 	));
 
 	// set metas
-	$userIcon = Q_Uri::interpolateUrl($user->icon."/$avatarIconSize.png");
-	$userUrl = Q_Uri::interpolateUrl("{{baseUrl}}/profile/$user->id");
-	Q_Response::setMeta(array(
-		array('name' => 'name', 'value' => 'title', 'content' => $title),
-		array('name' => 'property', 'value' => 'og:title', 'content' => $title),
-		array('name' => 'property', 'value' => 'twitter:title', 'content' => $title),
-		array('name' => 'name', 'value' => 'image', 'content' => $userIcon),
-		array('name' => 'property', 'value' => 'og:image', 'content' => $userIcon),
-		array('name' => 'property', 'value' => 'twitter:image', 'content' => $userIcon),
-		array('name' => 'property', 'value' => 'og:url', 'content' => $userUrl),
-		array('name' => 'property', 'value' => 'twitter:url', 'content' => $userUrl),
-		array('name' => 'property', 'value' => 'twitter:card', 'content' => 'summary')
+	$image = Q_Uri::interpolateUrl($user->icon."/$avatarIconSize.png");
+	$url = Q_Uri::interpolateUrl("{{baseUrl}}/profile/$user->id");
+	$description = $greeting;
+	Q_Response::setCommonMetas(compact(
+		'title', 'description', 'image', 'url'
 	));
 
 	Q_Response::addScript('{{Communities}}/js/columns/profile.js', "Communities");

@@ -178,21 +178,11 @@ function Communities_community_response_column($params = array())
 	Q_Response::setSlot('controls', $controls);
 
 	// set metas
-	$communityIcon = Q_Uri::interpolateUrl($communityUser->icon.'/400.png');
-	$communityUrl = Q_Uri::interpolateUrl("{{baseUrl}}/community/$communityUser->id");
-	Q_Response::setMeta(array(
-		array('name' => 'name', 'value' => 'title', 'content' => $title),
-		array('name' => 'property', 'value' => 'og:title', 'content' => $title),
-		array('name' => 'property', 'value' => 'twitter:title', 'content' => $title),
-		array('name' => 'name', 'value' => 'description', 'content' => $title),
-		array('name' => 'property', 'value' => 'og:description', 'content' => $title),
-		array('name' => 'property', 'value' => 'twitter:description', 'content' => $title),
-		array('name' => 'name', 'value' => 'image', 'content' => $communityIcon),
-		array('name' => 'property', 'value' => 'og:image', 'content' => $communityIcon),
-		array('name' => 'property', 'value' => 'twitter:image', 'content' => $communityIcon),
-		array('name' => 'property', 'value' => 'og:url', 'content' => $communityUrl),
-		array('name' => 'property', 'value' => 'twitter:url', 'content' => $communityUrl),
-		array('name' => 'property', 'value' => 'twitter:card', 'content' => 'summary')
+	$description = $title;
+	$image = Q_Uri::interpolateUrl($communityUser->icon.'/400.png');
+	$url = Q_Uri::interpolateUrl("{{baseUrl}}/community/$communityUser->id");
+	Q_Response::setCommonMetas(compact(
+		'title', 'description', 'keywords', 'image', 'url'
 	));
 
 	return $column;

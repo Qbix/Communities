@@ -44,22 +44,8 @@ function Communities_NFT_response_column (&$params, &$result) {
 	$keywords = Q::ifset($texts, 'NFT', 'Keywords', null);
 	$image = $stream->iconUrl("x");
 	$url = Q_Uri::url("Communities/NFT publisherId=$publisherId streamId=$streamId");
-	Q_Response::setMeta(array(
-		array('name' => 'name', 'value' => 'title', 'content' => $title),
-		array('name' => 'property', 'value' => 'og:title', 'content' => $title),
-		array('name' => 'property', 'value' => 'twitter:title', 'content' => $title),
-		array('name' => 'name', 'value' => 'description', 'content' => $description),
-		array('name' => 'property', 'value' => 'og:description', 'content' => $description),
-		array('name' => 'property', 'value' => 'twitter:description', 'content' => $description),
-		array('name' => 'name', 'value' => 'keywords', 'content' => $keywords),
-		array('name' => 'property', 'value' => 'og:keywords', 'content' => $keywords),
-		array('name' => 'property', 'value' => 'twitter:keywords', 'content' => $keywords),
-		array('name' => 'name', 'value' => 'image', 'content' => $image),
-		array('name' => 'property', 'value' => 'og:image', 'content' => $image),
-		array('name' => 'property', 'value' => 'twitter:image', 'content' => $image),
-		array('name' => 'property', 'value' => 'og:url', 'content' => $url),
-		array('name' => 'property', 'value' => 'twitter:url', 'content' => $url),
-		array('name' => 'property', 'value' => 'twitter:card', 'content' => 'summary')
+	Q_Response::setCommonMetas(compact(
+		'title', 'description', 'keywords', 'image', 'url'
 	));
 	$movie = Q::interpolate($stream->getAttribute("video") ?: $stream->getAttribute("animation_url"), array("baseUrl" => Q_Request::baseUrl()));
 	$src = $stream->getAttribute("src") ?: $image;

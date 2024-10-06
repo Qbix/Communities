@@ -64,22 +64,9 @@ function Communities_NFTprofile_response_column (&$params, &$result) {
 	$keywords = Q::ifset($text, 'profile', 'Keywords', null);
 	$url = Q_Uri::url("Communities/NFTprofile userId=$userId");
 	$image = Q_Uri::interpolateUrl($user->icon.'/400.png');
-	Q_Response::setMeta(array(
-		array('name' => 'name', 'value' => 'title', 'content' => $title),
-		array('name' => 'property', 'value' => 'og:title', 'content' => $title),
-		array('name' => 'property', 'value' => 'twitter:title', 'content' => $title),
-		array('name' => 'name', 'value' => 'description', 'content' => $description),
-		array('name' => 'property', 'value' => 'og:description', 'content' => $description),
-		array('name' => 'property', 'value' => 'twitter:description', 'content' => $description),
-		array('name' => 'name', 'value' => 'keywords', 'content' => $keywords),
-		array('name' => 'property', 'value' => 'og:keywords', 'content' => $keywords),
-		array('name' => 'property', 'value' => 'twitter:keywords', 'content' => $keywords),
-		array('name' => 'name', 'value' => 'image', 'content' => $image),
-		array('name' => 'property', 'value' => 'og:image', 'content' => $image),
-		array('name' => 'property', 'value' => 'twitter:image', 'content' => $image),
-		array('name' => 'property', 'value' => 'og:url', 'content' => $url),
-		array('name' => 'property', 'value' => 'twitter:url', 'content' => $url),
-		array('name' => 'property', 'value' => 'twitter:card', 'content' => 'summary')
+
+	Q_Response::setCommonMetas(compact(
+		'title', 'description', 'keywords', 'image', 'url'
 	));
 
 	$isAdmin = (bool)Users::roles(null, 'Users/admins');

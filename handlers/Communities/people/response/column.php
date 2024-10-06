@@ -68,24 +68,9 @@ function Communities_people_response_column()
 	$communityUser = Users_User::fetch($communityId);
 	$description = Q::text($text['people']['Description'], array($communityName));
 	$keywords = Q::text($text['people']['Keywords'], array($communityName));
-	$communityIcon = Q_Uri::interpolateUrl($communityUser->icon.'/400.png');
-	Q_Response::setMeta(array(
-		array('name' => 'name', 'value' => 'title', 'content' => $title),
-		array('name' => 'property', 'value' => 'og:title', 'content' => $title),
-		array('name' => 'property', 'value' => 'twitter:title', 'content' => $title),
-		array('name' => 'name', 'value' => 'description', 'content' => $description),
-		array('name' => 'property', 'value' => 'og:description', 'content' => $description),
-		array('name' => 'property', 'value' => 'twitter:description', 'content' => $description),
-		array('name' => 'name', 'value' => 'keywords', 'content' => $keywords),
-		array('name' => 'property', 'value' => 'og:keywords', 'content' => $keywords),
-		array('name' => 'property', 'value' => 'twitter:keywords', 'content' => $keywords),
-		array('name' => 'name', 'value' => 'image', 'content' => $communityIcon),
-		array('name' => 'property', 'value' => 'og:image', 'content' => $communityIcon),
-		array('name' => 'property', 'value' => 'twitter:image', 'content' => $communityIcon),
-		array('name' => 'property', 'value' => 'og:url', 'content' => $url),
-		array('name' => 'property', 'value' => 'twitter:url', 'content' => $url),
-		array('name' => 'property', 'value' => 'twitter:card', 'content' => 'summary')
+	$image = Q_Uri::interpolateUrl($communityUser->icon.'/400.png');
+	Q_Response::setCommonMetas(compact(
+		'title', 'description', 'keywords', 'image', 'url'
 	));
-
 	return $column;
 }

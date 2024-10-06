@@ -67,27 +67,13 @@ function Communities_events_response_column(&$params, &$result)
 	Q_Response::setSlot('controls', $controls);
 
 	$communityName = Users::communityName();
-	$communityIcon = Q_Uri::interpolateUrl(Users_User::fetch(Users::communityId())->iconUrl(400));
+	$image = Q_Uri::interpolateUrl(Users_User::fetch(Users::communityId())->iconUrl(400));
 	$description = Q::text($text['events']['Description'], array($communityName));
 	$keywords = Q::text($text['events']['Keywords'], array($communityName));
-	Q_Response::setMeta(array(
-		array('name' => 'name', 'value' => 'title', 'content' => $title),
-		array('name' => 'property', 'value' => 'og:title', 'content' => $title),
-		array('name' => 'property', 'value' => 'twitter:title', 'content' => $title),
-		array('name' => 'name', 'value' => 'description', 'content' => $description),
-		array('name' => 'property', 'value' => 'og:description', 'content' => $description),
-		array('name' => 'property', 'value' => 'twitter:description', 'content' => $description),
-		array('name' => 'name', 'value' => 'image', 'content' => $communityIcon),
-		array('name' => 'property', 'value' => 'og:image', 'content' => $communityIcon),
-		array('name' => 'property', 'value' => 'twitter:image', 'content' => $communityIcon),
-		array('name' => 'name', 'value' => 'keywords', 'content' => $keywords),
-		array('name' => 'property', 'value' => 'og:keywords', 'content' => $keywords),
-		array('name' => 'property', 'value' => 'twitter:keywords', 'content' => $keywords),
-		array('name' => 'property', 'value' => 'og:url', 'content' => $url),
-		array('name' => 'property', 'value' => 'twitter:url', 'content' => $url),
-		array('name' => 'property', 'value' => 'twitter:card', 'content' => 'summary')
+	$image = Q_Html::themedUrl('img/icon/400.png');
+	Q_Response::setCommonMetas(compact(
+		'title', 'description', 'keywords', 'image', 'url'
 	));
-
 	return $column;
 }
 
