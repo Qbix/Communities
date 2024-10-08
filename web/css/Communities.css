@@ -1541,12 +1541,6 @@ html.Q_mobile #content {
 	height: 100%;
 }
 
-html.Q_columns_containsExpanded .Communities_credits_main_badge .Q_badge,
-html.Communities_dialog .Communities_credits_main_badge .Q_badge {
-	display: none;
-}
-
-
 .Communities_column_community .Communities_roles_tool {
 	float: right;
 	margin-right: 10px;
