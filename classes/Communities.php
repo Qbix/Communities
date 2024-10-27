@@ -762,6 +762,18 @@ abstract class Communities
 		// sort streams by updatedTime (earlier first)
 		usort( $relatedStreams, array('Communities', 'compareByUpdatedTime'));
 
+		$public = array();
+		foreach ($relatedStreams as $stream) {
+			if (!$stream->isPrivate()
+			and $stream->readLevel >= Streams::$READ_LEVEL['messages']) {
+				// can be fetched in bulk as a public stream
+				foreach ($relations as $r) {
+					$public[$r->fromPublisherId][$r->fromStreamName] = true;
+				}
+			}	
+		}
+		Streams::arePublic($public);
+
 		return $relatedStreams;
 		//return Streams::participating("Streams/participating", $options);
 	}
