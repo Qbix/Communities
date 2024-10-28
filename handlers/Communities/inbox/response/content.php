@@ -6,6 +6,16 @@ function Communities_inbox_response_content()
 
 	$participating = Communities::participatingChats($user->id);
 
+	$public = array();
+	foreach ($participating as $stream) {
+		if (!$stream->isPrivate()
+		and $stream->readLevel >= Streams::$READ_LEVEL['messages']) {
+			// can be fetched in bulk as a public stream
+			$public[$stream->publisherId][$stream->name] = true;
+		}	
+	}
+	Streams::arePublic($public);
+
 	$column = Q::view('Communities/column/inbox.php', @compact(
 		'user', 'participating'
 	));
