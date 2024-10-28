@@ -16,7 +16,7 @@
 			chatTool.state.onRefresh.add(function () {
 				setTimeout(function () {
 					var $content = $(chatTool.element).closest(".Q_column_slot");
-					if (document.contains($content[0])) {
+					if (!document.contains($content[0])) {
 						return;
 					}
 					$content.tool('Q/infinitescroll', {
