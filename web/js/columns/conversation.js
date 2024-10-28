@@ -5,7 +5,6 @@
 		Q.addStylesheet('{{Communities}}/css/columns/conversation.css', {slotName: 'Communities'});
 
 		var $container = $(".Q_columns_title_container", column);
-		var $content = $(".Q_column_slot", column);
 
 		if (!$container.length) {
 			return;
@@ -16,6 +15,7 @@
 			// apply infinitescroll tool
 			chatTool.state.onRefresh.add(function () {
 				setTimeout(function () {
+					var $content = $(".Q_column_slot", column);
 					$content.tool('Q/infinitescroll', {
 						flipped: true,
 						onInvoke: function () {
