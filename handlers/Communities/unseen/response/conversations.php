@@ -8,6 +8,7 @@ function Communities_unseen_response_conversations()
 
 	// get participated conversations
 	$participating = Communities::participatingChats($user->id);
+	Streams::arePublic(Streams::justPublicStreams($participating));
 	$res = array();
 
 	if (!isset($params['fromTime'])) {

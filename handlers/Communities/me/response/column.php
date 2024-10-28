@@ -28,6 +28,7 @@ function Communities_me_response_column ($options)
 
 	//****************** Inbox **************************
 	$participating = Communities::participatingChats($user->id);
+	Streams::arePublic(Streams::justPublicStreams($participating));
 	$columns['inbox'] = Q::view('Communities/column/inbox.php', @compact(
 		'user', 'participating'
 	));
