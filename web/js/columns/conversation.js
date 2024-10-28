@@ -15,7 +15,7 @@
 			// apply infinitescroll tool
 			chatTool.state.onRefresh.add(function () {
 				setTimeout(function () {
-					var $content = $(".Q_column_slot", column);
+					var $content = $(chatTool.element).closest(".Q_column_slot");
 					$content.tool('Q/infinitescroll', {
 						flipped: true,
 						onInvoke: function () {
