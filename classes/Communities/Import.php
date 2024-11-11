@@ -73,10 +73,11 @@ class Communities_Import
 		// if icon is valid image
 		if (@imagecreatefromstring($data)) {
 			// upload image to stream
-			Q::event('Q/image/post', array(
+			$subpath = Q_Utils::splitId($user->id, 3, '/')."/icon/".time();
+			Q_Image::postNewImage(array(
 				'data' => $data,
 				'path' => "Q/uploads/Users",
-				'subpath' => Q_Utils::splitId($user->id, 3, '/')."/icon/".time(),
+				'subpath' => $subpath,
 				'save' => "Users/icon",
 				'skipAccess' => true
 			));
