@@ -12,7 +12,7 @@ function Communities_events_response_column(&$params, &$result)
 	list($fromTime, $toTime) = Communities::defaultEventTimes();
 
 	$allRelations = Communities::filterEvents(@compact("experienceId", "fromTime", "toTime", "communityId", "limit", "offset"));
-	$relations = Streams_RelatedTo::filter($allRelations, array('readLevel' => 'content'));
+	$relations = Streams_RelatedTo::filter($allRelations, array('readLevel' => 'fields'));
 
 	$dates = Streams::experience($experienceId)->getAttribute('dates');
 	Q_Response::setScriptData("Q.plugins.Communities.events.experienceId", $experienceId, '');
