@@ -59,7 +59,7 @@ Q.exports(function (options, index, column, data) {
 	($eventsColumn.closest(".Communities_profile_section").length ? $eventsColumn : $content).tool('Q/infinitescroll', {
 		onInvoke: function () {
 			var infiniteTool = this;
-			var offset = $(">.Calendars_event_preview_tool:visible", $eventsBox).length;
+			var offset = Q.getObject('Q.Communities.events.loadedCount') || 0;
 
 			// skip duplicated (same offsets) requests
 			if (!isNaN(this.state.offset) && this.state.offset >= offset) {

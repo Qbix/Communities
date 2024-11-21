@@ -75,6 +75,7 @@ function Communities_events_response_column(&$params, &$result)
 	Q_Response::setCommonMetas(compact(
 		'title', 'description', 'keywords', 'image', 'url'
 	));
+	Q_Response::setScriptData('Q.Communities.events.loadedCount', $offset + $limit);
 	return $column;
 }
 

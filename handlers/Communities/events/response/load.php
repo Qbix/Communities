@@ -27,6 +27,8 @@ function Communities_events_response_load()
 		), Q_Utils::normalize($relation->fromPublisherId . ' ' . $relation->fromStreamName));
 	}
 
+	Q_Response::setScriptData('Q.Communities.events.loadedCount', $offset + $limit);
+
 	return $res;
 }
 
