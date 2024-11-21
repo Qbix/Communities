@@ -806,11 +806,12 @@ abstract class Communities
 	 * @param {string} [$params.fromTime]
 	 * @param {string} [$params.toTime]
 	 * @param {string} [$params.skipPreload=true] whether to skip preload interests, locations, area streams related to events
+	 * @param {array} [&$streams] You can pass a reference to an array that would be filled with (only) public streams
 	 * @return {array} The relations, filtered by the above parameters.
 	 *  Note that some relations might point to streams which the user doesn't
-	 *  have readAccess to see. Check relation->get('Streams/public')
+	 *  have readAccess to see. Check relation->get('public')
 	 */
-	static function filterEvents($params = array()) {
+	static function filterEvents($params = array(), &$streams = null) {
 		$user = Users::loggedInUser();
 		$communityId = Q::ifset($params, 'communityId', Users::currentCommunityId(true));
 		$experienceId = Q::ifset($params, 'experienceId', Q::ifset($_REQUEST, 'experienceId', 'main'));
@@ -899,7 +900,7 @@ abstract class Communities
 			// let the caller choose whether to fetch the
 			// non-public streams and test their readLevel
 			$isPublic = !empty($streams[$relation->fromPublisherId][$relation->fromStreamName]);
-			$relation->set('Streams/public', $isPublic);
+			$relation->set('public', $isPublic);
 		}
 
 		return $relations;
@@ -918,11 +919,12 @@ abstract class Communities
 	 * @param {string} [$params.fromTime]
 	 * @param {string} [$params.toTime]
 	 * @param {string} [$params.skipPreload=true] whether to skip preload interests, locations, area streams related to events
+	 * @param {array} [&$streams] You can pass a reference to an array that would be filled with (only) public streams
 	 * @return {array} The relations, filtered by the above parameters.
 	 *  Note that some relations might point to streams which the user doesn't
-	 *  have readAccess to see. Check relation->get('Streams/public')
+	 *  have readAccess to see. Check relation->get('public')
 	 */
-	static function filterServices($params = array()) {
+	static function filterServices($params = array(), &$streams = null) {
 		$user = Users::loggedInUser();
 		$communityId = Q::ifset($params, 'communityId', Users::currentCommunityId(true));
 		$experienceId = Q::ifset($params, 'experienceId', Q::ifset($_REQUEST, 'experienceId', 'main'));

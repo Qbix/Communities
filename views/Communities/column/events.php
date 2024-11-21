@@ -16,7 +16,6 @@
             if (is_null($hideIfNoParticipants)) {
 				$hideIfNoParticipants = !Users::isCommunityId($relation->fromPublisherId);
             }
-
             echo Q::tool(array(
                 "Streams/preview" => array(
                     'publisherId' => $relation->fromPublisherId,
