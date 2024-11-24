@@ -7,10 +7,10 @@ function Communities_0_9_7_Streams()
 		'Streams/contacts',
 		'Streams/user/username',
 		'Places/user/locations',
-		'Places/location/',
-		'Places/area/',
-		'Places/floor/',
-		'Places/column/'
+		'Places/location*',
+		'Places/area*',
+		'Places/floor*',
+		'Places/column*'
 	);
 
 	// add default mutable access rows to streams for some communities labels

@@ -1428,15 +1428,26 @@ Users.onLogin.set(function (user) {
 }, "Communities");
 
 Users.onLoginLost.set(function (user) {
-	_updateSlots(Q.info.slotNames);
+	var url = location.href.split('#')[0].split('?')[0];
+	if (Q.Users.requireLogin[url] || _updateSlots.updating === url) {
+		url = Q.baseUrl(); // avoid fetching it over and over in a loop
+	}
+	_updateSlots(Q.info.slotNames, url);
+	setTimeout(function () {
+		
+	}, 50);
 }, "Communities");
 
-function _updateSlots(slotNames, onActivate) {
+function _updateSlots(slotNames, url, onActivate) {
 	if (!Q.isEmpty(Q.loadUrl.loading)) {
 		return;
 	}
-
-	Q.loadUrl(location.href, {
+	_updateSlots.updating = url;
+	setTimeout(function () {
+		_updateSlots.updating = null;
+	}, 300);
+	url = url || location.href.split('#')[0].split('?')[0];
+	Q.loadUrl(url, {
 		slotNames: slotNames,
 		loadExtras: 'all',
 		ignoreDialogs: true,

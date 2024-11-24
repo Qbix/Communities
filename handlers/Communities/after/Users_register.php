@@ -15,7 +15,7 @@ function Communities_after_Users_register($params)
 	$currentCommunityId = Users::currentCommunityId(true);
 	$chatsMainCategory = Communities::chatsMainCategory($currentCommunityId);
 	if (!$chatsMainCategory->participant($user->id)) {
-		$chatsMainCategory->join(array('userId' => $user->id));
+		$chatsMainCategory->join(array('userId' => $user->id, 'skipAccess' => true));
 	}
 
 	// set icon to random image from COMMUNITIES_PLUGIN_FILES_DIR/Communities/faces

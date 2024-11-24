@@ -167,6 +167,9 @@
 					"Communities/admins": 100
 				}
 			}
+		},
+		"requireLogin": {
+			"Communities/me": true
 		}
 	},
 	"Streams": {
