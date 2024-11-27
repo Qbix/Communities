@@ -66,7 +66,7 @@
 					echo Q::tool("Websites/webpage/preview", array(
 						"publisherId" => $link->fromPublisherId,
 						"streamName" => $link->fromStreamName
-					), array('id' => Q::normalize($link->fromPublisherId . ' ' . $link->fromStreamName)));
+					), array('id' => Q_Utils::normalize($link->fromPublisherId . ' ' . $link->fromStreamName)));
 				}
 				?></div>
         </div>
