@@ -99,6 +99,7 @@
 .Q_layout_widebar[data-dashboard-position="bottom"] #dashboard .Q_tabs_compact .Q_tabs_tab.Q_current,
 .Q_layout_mobile[data-dashboard-position="bottom"] #dashboard .Q_tabs_compact .Q_tabs_tab.Q_current {
 	border-top: solid 2px transparent;
+	text-align: center;
 }
 .Q_layout_widebar #dashboard[data-style=icons] .Q_tabs_tab.Q_current::before {
 	color: var(--dashboard-mobile-current-color);
@@ -384,9 +385,6 @@ html.Q_mobile[data-dashboard-position="bottom"] #dashboard_slot {
 	width: var(--dashboard-mobile-height);
 	height: var(--dashboard-mobile-height);
 }
-.Q_layout_sidebar #dashboard h1 {
-	display: none;
-}
 .Q_mobile[data-dashboard-style=hamburger] #dashboard .Q_tabs_tool {
 	flex-grow: 1;
 	overflow: hidden;
@@ -446,6 +444,7 @@ html.Q_mobile[data-dashboard-position="bottom"] #dashboard_slot {
 .Q_contextual .Q_listing li,
 .Q_contextual .Q_listing li::before,
 .Q_contextual .Q_listing li * {
+	background: unset;
 	color: var(--dashboard-contextual-color);
 }
 html[data-dashboard-style=contextual] .Q_contextual .Q_listing li * {
@@ -624,7 +623,7 @@ html[data-dashboard-style=contextual] .Q_contextual .Q_listing li * {
 .Q_layout_sidebar #dashboard .Q_tabs_tab { border: none; width: 100%; }
 .Q_layout_widebar #dashboard .Q_tabs_tabs { border: 0; }
 .Q_layout_widebar #dashboard .Q_tabs_tab,
-.Q_layout_widebar #dashboard .Users_status_tool { border: solid 2px transparent; border-radius: 0; }
+.Q_layout_widebar #dashboard .Users_status_tool { border: solid 0 transparent; border-radius: 0; }
 #dashboard .Q_tabs_tab.Streams_preview_tool { padding-left: 10px; }
 #dashboard .Q_tabs_compact.Q_tabs_horizontal { margin: 0; }
 #dashboard .Q_tabs_compact.Q_tabs_horizontal .Q_tabs_tab { background-color: rgba(0,0,0,.15); color: white; width: 100%; height: 40px; font-size: 22px; }
