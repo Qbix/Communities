@@ -279,6 +279,9 @@ html #content_slot,
 	content: "\e906";
 }
 
+html[data-dashboard-style="contextual"].Q_mobile .Users_status_login_title {
+	display: none;
+}
 
 .Communities_tabs[data-style="icons"] .Streams_aspect_promote,
 .Communities_tabs[data-style="icons"] .Communities_tab.Streams_aspect_people { color: #742e7f; border-color: #742e7f; border-bottom-color: transparent; }
