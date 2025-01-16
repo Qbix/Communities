@@ -1008,6 +1008,10 @@ html.Q_notMobile.Q_layout_widebar #dashboard_slot {
 	height: var(--dashboard-height);
 }
 
+html.Q_layout_widebar #dashboard {
+	overflow: visible;
+}
+
 .Q_mobile #dashboard[data-style="icons"] .Users_status_tool .Users_avatar_name {
 	display: none;
 }
