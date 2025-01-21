@@ -4,7 +4,24 @@
         "NextSteps": "Qidirayotgan narsangizni topish uchun asosiy menyudan foydalaning."
     },
     "dashboard": {
-        "Menu": "Menyu"
+        "Menu": "Menyu",
+        "Home": "Uy",
+        "Welcome": "Xush kelibsiz",
+        "Events": "Voqealar",
+        "Discuss": "Muhokama qiling",
+        "People": "Odamlar",
+        "About": "Haqida",
+        "Community": "Jamiyat",
+        "LogIn": "tizimga kirish",
+        "LogOut": "tizimdan chiqish",
+        "Intercoin": "Interkoin",
+        "Shows": "Ko&#39;rsatuvlar",
+        "Calendar": "Kalendar",
+        "Me": "Men",
+        "Media": "OAV",
+        "Services": "Xizmatlar",
+        "SetMobileNumber": "Mobil raqamni o&#39;rnating",
+        "SetEmailAddress": "Elektron pochta manzilini o&#39;rnating"
     },
     "greeting": {
         "Welcome": "{{1}} ga xush kelibsiz. Bu yerda siz bizning hamjamiyatimiz a&#39;zolari uchun e&#39;lon qilingan narsalarni topasiz. Iltimos, e&#39;lonlar e&#39;lon qilinganda bildirishnomalarni olish uchun elektron pochta manzilingizni yoki mobil raqamingizni qo&#39;shing."
@@ -80,13 +97,15 @@
         "FindPeople": "Suhbatlashish uchun odamlarni toping",
         "GroupConversations": "Guruh suhbatlariga qo&#39;shiling",
         "ContactStaff": "Xodimlar bilan bog&#39;lanish",
-        "ContactCustomers": "Mijozlarga murojaat qiling"
+        "ContactCustomers": "Mijozlarga murojaat qiling",
+        "AddNewContacts": "Yangi kontaktlarni qo&#39;shish"
     },
     "me": {
         "Title": "Men",
         "MobileNumber": "Mobil telefon raqami",
         "EmailAddress": "Elektron pochta manzili",
-        "UpdateSocialTitle": "{{1}} foydalanuvchi nomini yangilang"
+        "UpdateSocialTitle": "{{1}} foydalanuvchi nomini yangilang",
+        "Web3": "Web3"
     },
     "people": {
         "Title": "Odamlar",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "Umumiy manfaatlarga ega odamlar"
         },
-        "Done": "Bajarildi"
+        "Done": "Bajarildi",
+        "Title": "Asosiy ma&#39;lumotlar",
+        "Prompt": "Hisobingizni sozlash uchun bir necha qadam",
+        "relationships": {
+            "explanation": "Sizning munosabatingiz qanday?",
+            "welcome": "Xush kelibsiz {{user}} ",
+            "invitedByUser": "sizni taklif qildi.",
+            "addToPhonebook": "Mening telefonimdagi kontaktlarimga saqlang",
+            "iosInstructions": "Yangi kontakt qo&#39;shish uchun pastga aylantiring",
+            "androidInstructions": "Ushbu vCard fayli yuklab olingandan keyin uni ochishingiz kerak."
+        }
     },
     "profile": {
         "Title": "Profil",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "Bu yerga ish o&#39;rinlari haqida ma&#39;lumot yozing",
         "EducationPlaceholder": "Bu yerga taʼlim maʼlumotlarini kiriting",
         "ManageNotifications": "Bildirishnomalarni boshqarish",
-        "YourPreferredLanguage": "Siz tanlagan til"
+        "YourPreferredLanguage": "Siz tanlagan til",
+        "sections": {
+            "education": "Ta&#39;lim",
+            "greeting": "Salom",
+            "jobs": "Ishlar",
+            "links": "Havolalar",
+            "language": "Til",
+            "roles": "Rollar",
+            "personal": "Shaxsiy",
+            "social": "Ijtimoiy"
+        },
+        "Block": "Bloklash",
+        "blockUserAlertTitle": "Bloklangan {{displayName}}",
+        "Unblock": "Blokdan chiqarish",
+        "Email": "Elektron pochta",
+        "Avoid": "Qochish",
+        "Roles": "Rollar",
+        "SendCrypto": "To&#39;lash",
+        "CreatePrivateChat": "Ulanish uchun {{credits}} kredit sarflaysizmi?",
+        "RolesInCommunity": "Jamiyatdagi rollar",
+        "PersonalChatWith": "{{name}} bilan shaxsiy suhbat",
+        "SendCryptoTo": "{{name}} raqamiga kriptoni yuboring",
+        "SendPaymentTo": "To&#39;lovni {{name}} raqamiga yuboring",
+        "SendEmailTo": "{{name}} raqamiga elektron pochta xabarini yuboring",
+        "SendSMSTo": "{{name}} raqamiga SMS yuboring",
+        "BlockThisUser": "Bu foydalanuvchini bloklash",
+        "UnblockThisUser": "Bu foydalanuvchini blokdan chiqaring",
+        "YouCantChatWithYourself": "Siz o&#39;zingiz bilan gaplasha olmaysiz"
     },
     "myqr": {
         "Title": "Mening QR"
@@ -286,7 +342,8 @@
         "invite": "Buni boshqa odamlarga qanday baham koʻrishingiz mumkinligini koʻrish uchun {{Q.words.TapOrClick}} bu yerda."
     },
     "payment": {
-        "onContribute": "Rahmat! Toʻlovingiz amalga oshdi. Do&#39;stlaringizni sizga taklif qilishni xohlaysizmi?"
+        "onContribute": "Rahmat! Toʻlovingiz amalga oshdi. Do&#39;stlaringizni sizga taklif qilishni xohlaysizmi?",
+        "ConnectAccount": "Hisobni ulash"
     },
     "featureboard": {
         "Text_1": "Ovozingiz eshitilsin! Xususiyat yoki xato ishlab chiqishimizga rozimisiz? Uni qo&#39;llab-quvvatlash uchun tugmani bosing.",
@@ -357,6 +414,43 @@
         "communityUsers": "Bu hamjamiyat ro&#39;yxati",
         "setAsConversation": "URL ustuni suhbat sifatida",
         "toMainCommunityToo": "foydalanuvchilarni ham asosiy hamjamiyatga qo&#39;shing",
-        "willImportedTo": "Foydalanuvchilar hamjamiyatga import qilinadi"
+        "willImportedTo": "Foydalanuvchilar hamjamiyatga import qilinadi",
+        "ChooseFile": "faylni tanlang"
+    },
+    "welcome": {
+        "Title": "{{appName}} : xush kelibsiz",
+        "GetStarted": "Boshlash",
+        "gallery": {
+            "Connect": "Ulanish",
+            "Organize": "Tashkil eting",
+            "Travel": "Sayohat",
+            "Share": "Ulashish"
+        }
+    },
+    "services": {
+        "Title": "Xizmatlar",
+        "filterByTitle": "Xizmatlarni sarlavha bo&#39;yicha toping",
+        "New": "+ Yangi xizmatni ishga tushirish",
+        "NewService": "Yangi xizmat",
+        "NewAvailability": "Yangi mavjudlik",
+        "filterServices": "Filtr xizmatlari",
+        "NoneYet": "Hozircha hech qanday xizmatlar shakllanmagan<br> bu vaqtlarda.",
+        "AllAuthors": "Barcha mualliflar",
+        "AllDays": "Barcha kunlar",
+        "AllLocations": "Barcha Joylar",
+        "MakeReservation": "Rezervasyon qiling",
+        "CancelReservation": "Rezervasyonni bekor qilish",
+        "UpdateReservation": "Rezervasyonni yangilash",
+        "AreYouSure": "Ishonchingiz komilmi?",
+        "YouWillRefunded": "Sizga ilovadagi boshqa narsalarga sarflashingiz mumkin bo&#39;lgan kreditlar ko&#39;rinishida qaytariladi.",
+        "AllInterests": "Barcha qiziqishlar",
+        "FilterbyInterest": "Qiziqish bo&#39;yicha filtrlash",
+        "FilterByDate": "Sana boʻyicha filtrlash",
+        "ShowActivities": "... bilan bog&#39;liq faoliyatni ko&#39;rsatish",
+        "newServices": "Sizda {{1}} yangi xizmat mavjud",
+        "SelectLocation": "Joylashuvni tanlang",
+        "FilterLocationsPlaceHolder": "Joylarni filtrlash...",
+        "Description": "{{1}} xizmati",
+        "Keywords": "{{1}} xizmati"
     }
 }

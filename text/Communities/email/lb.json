@@ -2,7 +2,8 @@
     "activation": {
         "Thanks": "Wëllkomm op {{1}}",
         "ReallyYourEmail": "Ass dëst wierklech Är E-Mailadress, {{1}}? Wann jo, klickt <a href='{{2}}'>hei<\/a> fir Äre Passphrase ze setzen an Äre Kont ze aktivéieren.",
-        "SeeYou": "Bis op <a href='{{1}}'>{{2}}<\/a> !"
+        "SeeYou": "Bis op <a href='{{1}}'>{{2}}<\/a> !",
+        "Subject": "Wëllkomm! Weg z&#39;iwwerpréiwen Är Email Adress."
     },
     "LinkToUnsubscribe": "Hei ass e Link fir Iech <a href='{{1}}'>ofzeschreiwen<\/a> wann Dir keng E-Maile méi wëllt kréien.",
     "Greetings": "Gréiss vun {{1}}.",
@@ -17,11 +18,16 @@
         "Thanks": "Merci fir de Besuch {{1}}",
         "YouAreReceiving": "Dir kritt dës E-Mail well iergendeen Är E-Mailadress aginn huet an &quot;Passwuert vergiessen&quot; geklickt huet. Wann et net Dir war, ignoréiert einfach dëse Message.",
         "Reset": "Fir Äert Passwuert zréckzesetzen, klickt op {{1}}",
-        "SetUpPassphrase": "Setzt Passphrase op"
+        "SetUpPassphrase": "Setzt Passphrase op",
+        "DomainCode": "Wann d&#39;Websäit schonn an Ärem Browser op ass, kënnt Dir de Code aginn",
+        "Subject": "Hey, hutt Dir Äert Passwuert vergiess?"
     },
     "subscription": {
         "YouHaveStarted": "Hey {{1}}, Dir hutt Ären Abonnement op {{2}} mat {{3}} um {{4}} fir {{5}} Méint ugefaang.",
         "HasStarted": "Dëst ass just fir Iech ze wëssen {{1}}, huet hiren Abonnement op {{2}} mat {{3}} um {{4}} fir {{5}} Méint ugefaang."
     },
-    "SeeYou": "Bis op {{1}}!"
+    "SeeYou": "Bis op {{1}}!",
+    "identifier": {
+        "Subject": "Wëllkomm! Verifizéiert Är E-Mailadress."
+    }
 }

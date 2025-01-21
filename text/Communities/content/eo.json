@@ -4,7 +4,24 @@
         "NextSteps": "Uzu la ĉefan menuon por trovi tion, kion vi serĉas."
     },
     "dashboard": {
-        "Menu": "Menuo"
+        "Menu": "Menuo",
+        "Home": "Hejmo",
+        "Welcome": "Bonvenon",
+        "Events": "Eventoj",
+        "Discuss": "Diskuti",
+        "People": "Homoj",
+        "About": "Pri",
+        "Community": "Komunumo",
+        "LogIn": "ensalutu",
+        "LogOut": "elsaluti",
+        "Intercoin": "Intercoin",
+        "Shows": "Spektakloj",
+        "Calendar": "Kalendaro",
+        "Me": "Mi",
+        "Media": "Amaskomunikilaro",
+        "Services": "Servoj",
+        "SetMobileNumber": "Agordu Poŝtelefonan Numeron",
+        "SetEmailAddress": "Agordu Retpoŝtadreson"
     },
     "greeting": {
         "Welcome": "Bonvenon al {{1}}. Ĉi tie vi trovos aferojn afiŝitajn por membroj de nia komunumo. Bonvolu aldoni vian retadreson aŭ poŝtelefonon por ricevi sciigojn kiam anoncoj estas afiŝitaj."
@@ -80,13 +97,15 @@
         "FindPeople": "Trovu homojn kun kiuj paroli",
         "GroupConversations": "Aliĝu al iuj grupaj konversacioj",
         "ContactStaff": "Kontaktu Kunlaborantaron",
-        "ContactCustomers": "Kontaktu Klientojn"
+        "ContactCustomers": "Kontaktu Klientojn",
+        "AddNewContacts": "Aldonu Novajn Kontaktojn"
     },
     "me": {
         "Title": "Mi",
         "MobileNumber": "Poŝtelefona numero",
         "EmailAddress": "Retpoŝta adreso",
-        "UpdateSocialTitle": "Ĝisdatigu {{1}} uzantnomon"
+        "UpdateSocialTitle": "Ĝisdatigu {{1}} uzantnomon",
+        "Web3": "Retejo 3"
     },
     "people": {
         "Title": "Homoj",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "Homoj kun Komunaj Interesoj"
         },
-        "Done": "Farita"
+        "Done": "Farita",
+        "Title": "Bazaj Informoj",
+        "Prompt": "Kelkaj paŝoj por agordi vian konton",
+        "relationships": {
+            "explanation": "Kio estas via rilato?",
+            "welcome": "Bonvenon {{user}} ",
+            "invitedByUser": "invitis vin.",
+            "addToPhonebook": "Konservu al Miaj Telefonaj Kontaktoj",
+            "iosInstructions": "Rulumu malsupren al Aldoni Novan Kontakton",
+            "androidInstructions": "Vi devus malfermi ĉi tiun vCard-dosieron post kiam ĝi estos elŝutita."
+        }
     },
     "profile": {
         "Title": "Profilo",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "Tajpu ĉi tie informojn pri laboro",
         "EducationPlaceholder": "Tajpu ĉi tie edukajn informojn",
         "ManageNotifications": "Administri Sciigojn",
-        "YourPreferredLanguage": "Via preferata lingvo"
+        "YourPreferredLanguage": "Via preferata lingvo",
+        "sections": {
+            "education": "Edukado",
+            "greeting": "Saluton",
+            "jobs": "Laborpostenoj",
+            "links": "Ligiloj",
+            "language": "Lingvo",
+            "roles": "Roloj",
+            "personal": "Personaj",
+            "social": "Socia"
+        },
+        "Block": "Bloko",
+        "blockUserAlertTitle": "Blokis {{displayName}}",
+        "Unblock": "Malbloki",
+        "Email": "Retpoŝto",
+        "Avoid": "Evitu",
+        "Roles": "Roloj",
+        "SendCrypto": "Pagu",
+        "CreatePrivateChat": "Elspezi {{credits}} kreditojn por atingi?",
+        "RolesInCommunity": "Roloj en komunumo",
+        "PersonalChatWith": "Persona babilado kun {{name}}",
+        "SendCryptoTo": "Sendu kripton al {{name}}",
+        "SendPaymentTo": "Sendu pagon al {{name}}",
+        "SendEmailTo": "Sendu retpoŝton al {{name}}",
+        "SendSMSTo": "Sendu SMS al {{name}}",
+        "BlockThisUser": "Bloki ĉi tiun uzanton",
+        "UnblockThisUser": "Malŝlosu ĉi tiun uzanton",
+        "YouCantChatWithYourself": "Vi ne povas babili kun vi mem"
     },
     "myqr": {
         "Title": "Mia QR"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} ĉi tie por vidi kiel vi povas dividi ĉi tion kun aliaj homoj."
     },
     "payment": {
-        "onContribute": "Dankon! Via pago trapasis. Ĉu vi ŝatus inviti viajn amikojn aliĝi al vi?"
+        "onContribute": "Dankon! Via pago trapasis. Ĉu vi ŝatus inviti viajn amikojn aliĝi al vi?",
+        "ConnectAccount": "Konekti konton"
     },
     "featureboard": {
         "Text_1": "Via voĉo estu aŭdata! Ĉu vi konsentas, ke ni devus evoluigi funkcion aŭ cimon? Alklaku la butonon por Subteni ĝin.",
@@ -357,6 +414,43 @@
         "communityUsers": "Ĉi tio estas listo de komunumoj",
         "setAsConversation": "URL-kolumno kiel konversacio",
         "toMainCommunityToo": "ankaŭ aldonu uzantojn al ĉefa komunumo",
-        "willImportedTo": "Uzantoj estos importitaj al komunumo"
+        "willImportedTo": "Uzantoj estos importitaj al komunumo",
+        "ChooseFile": "elektu dosieron"
+    },
+    "welcome": {
+        "Title": "{{appName}} : bonvenon",
+        "GetStarted": "Komencu",
+        "gallery": {
+            "Connect": "Konekti",
+            "Organize": "Organizi",
+            "Travel": "Vojaĝi",
+            "Share": "Kunhavigi"
+        }
+    },
+    "services": {
+        "Title": "Servoj",
+        "filterByTitle": "Trovu servojn laŭ titolo",
+        "New": "+ Komencu Novan Servon",
+        "NewService": "Nova Servo",
+        "NewAvailability": "Nova Havebleco",
+        "filterServices": "Filtrilaj servoj",
+        "NoneYet": "Neniuj servoj ankoraŭ formiĝis<br> dum ĉi tiuj tempoj.",
+        "AllAuthors": "Ĉiuj Aŭtoroj",
+        "AllDays": "Ĉiuj Tagoj",
+        "AllLocations": "Ĉiuj Lokoj",
+        "MakeReservation": "Faru Rezervon",
+        "CancelReservation": "Nuligi Rezervon",
+        "UpdateReservation": "Ĝisdatigu Rezervon",
+        "AreYouSure": "Ĉu vi certas?",
+        "YouWillRefunded": "Vi estos repagata en formo de kreditoj, kiujn vi povas elspezi por aliaj aferoj en la programo.",
+        "AllInterests": "Ĉiuj Interesoj",
+        "FilterbyInterest": "Filtru laŭ Interesoj",
+        "FilterByDate": "Filtrilo laŭ dato",
+        "ShowActivities": "Montri agadojn rilatajn al...",
+        "newServices": "Vi havas {{1}} novajn servojn",
+        "SelectLocation": "Elektu Lokon",
+        "FilterLocationsPlaceHolder": "Filtri ejojn per...",
+        "Description": "{{1}} servo",
+        "Keywords": "{{1}} servo"
     }
 }

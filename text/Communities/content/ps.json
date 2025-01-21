@@ -4,7 +4,24 @@
         "NextSteps": "د هغه څه موندلو لپاره چې تاسو یې په لټه کې یاست اصلي مینو وکاروئ."
     },
     "dashboard": {
-        "Menu": "مینو"
+        "Menu": "مینو",
+        "Home": "کور",
+        "Welcome": "ښه راغلاست",
+        "Events": "پیښې",
+        "Discuss": "بحث وکړئ",
+        "People": "خلک",
+        "About": "په اړه",
+        "Community": "ټولنه",
+        "LogIn": "ننوتل",
+        "LogOut": "وتل",
+        "Intercoin": "Intercoin",
+        "Shows": "ښیې",
+        "Calendar": "جنتري",
+        "Me": "زه",
+        "Media": "رسنۍ",
+        "Services": "خدمتونه",
+        "SetMobileNumber": "د موبایل شمیره تنظیم کړئ",
+        "SetEmailAddress": "د بریښنالیک پته تنظیم کړئ"
     },
     "greeting": {
         "Welcome": "ښه راغلاست {{1}} ته. دلته به تاسو هغه شیان ومومئ چې زموږ د ټولنې غړو لپاره پوسټ شوي. مهرباني وکړئ خپل بریښنالیک آدرس یا د ګرځنده شمیره اضافه کړئ ترڅو خبرتیاوې ترلاسه کړئ کله چې اعلانونه خپاره شي."
@@ -80,13 +97,15 @@
         "FindPeople": "د خبرو کولو لپاره خلک ومومئ",
         "GroupConversations": "په ځینو ګروپي خبرو اترو کې ګډون وکړئ",
         "ContactStaff": "د کارکوونکو سره اړیکه",
-        "ContactCustomers": "د پیرودونکو سره اړیکه ونیسئ"
+        "ContactCustomers": "د پیرودونکو سره اړیکه ونیسئ",
+        "AddNewContacts": "نوې اړیکې اضافه کړئ"
     },
     "me": {
         "Title": "زه",
         "MobileNumber": "ګرځنده شمیره",
         "EmailAddress": "بریښنالیک",
-        "UpdateSocialTitle": "{{1}} کارن نوم تازه کړئ"
+        "UpdateSocialTitle": "{{1}} کارن نوم تازه کړئ",
+        "Web3": "Web3"
     },
     "people": {
         "Title": "خلک",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "د ګډو ګټو سره خلک"
         },
-        "Done": "ترسره شو"
+        "Done": "ترسره شو",
+        "Title": "بنسټیز معلومات",
+        "Prompt": "ستاسو د حساب تنظیم کولو لپاره یو څو ګامونه",
+        "relationships": {
+            "explanation": "ستاسو اړیکه څه ده؟",
+            "welcome": "ښه راغلاست {{user}} ",
+            "invitedByUser": "تاسو ته بلنه ورکړه.",
+            "addToPhonebook": "زما د تلیفون اړیکو کې خوندي کړئ",
+            "iosInstructions": "د نوې اړیکې اضافه کولو لپاره لاندې سکرول کړئ",
+            "androidInstructions": "تاسو باید دا د vCard فایل د ډاونلوډ کولو وروسته خلاص کړئ."
+        }
     },
     "profile": {
         "Title": "پروفایل",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "دلته د دندو معلومات ټایپ کړئ",
         "EducationPlaceholder": "دلته د زده کړې معلومات ټایپ کړئ",
         "ManageNotifications": "خبرتیاوې اداره کړئ",
-        "YourPreferredLanguage": "ستاسو د خوښې ژبه"
+        "YourPreferredLanguage": "ستاسو د خوښې ژبه",
+        "sections": {
+            "education": "زده کړه",
+            "greeting": "سلامونه",
+            "jobs": "دندې",
+            "links": "لینکونه",
+            "language": "ژبه",
+            "roles": "رولونه",
+            "personal": "شخصي",
+            "social": "ټولنیز"
+        },
+        "Block": "بلاک",
+        "blockUserAlertTitle": "{{displayName}} بلاک شوی",
+        "Unblock": "خلاصول",
+        "Email": "ایمیل",
+        "Avoid": "ډډه وکړئ",
+        "Roles": "رولونه",
+        "SendCrypto": "تادیه",
+        "CreatePrivateChat": "د رسیدو لپاره {{credits}} کریډیټ مصرف کړئ؟",
+        "RolesInCommunity": "په ټولنه کې رولونه",
+        "PersonalChatWith": "{{name}} سره شخصي چیٹ",
+        "SendCryptoTo": "کریپټو {{name}} ته واستوئ",
+        "SendPaymentTo": "{{name}} ته پیسې واستوئ",
+        "SendEmailTo": "{{name}} ته ایمیل واستوئ",
+        "SendSMSTo": "{{name}} ته SMS واستوئ",
+        "BlockThisUser": "دا کاروونکي بلاک کړئ",
+        "UnblockThisUser": "دا کارن بلاک کړئ",
+        "YouCantChatWithYourself": "تاسو نشئ کولی له ځان سره خبرې وکړئ"
     },
     "myqr": {
         "Title": "زما QR"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} دلته وګورئ چې تاسو څنګه کولی شئ دا له نورو خلکو سره شریک کړئ."
     },
     "payment": {
-        "onContribute": "مننه! ستاسو تادیه تیره شوه. ایا تاسو غواړئ خپل ملګري له تاسو سره یوځای شي؟"
+        "onContribute": "مننه! ستاسو تادیه تیره شوه. ایا تاسو غواړئ خپل ملګري له تاسو سره یوځای شي؟",
+        "ConnectAccount": "حساب سره وصل کړئ"
     },
     "featureboard": {
         "Text_1": "اجازه راکړئ چې ستاسو غږ واورئ! ایا تاسو موافق یاست چې موږ باید یو خصوصیت یا بګ رامینځته کړو؟ د ملاتړ لپاره تڼۍ کلیک وکړئ.",
@@ -357,6 +414,43 @@
         "communityUsers": "دا د ټولنو لیست دی",
         "setAsConversation": "د خبرو اترو په توګه د URL کالم",
         "toMainCommunityToo": "اصلي ټولنې ته هم کاروونکي اضافه کړئ",
-        "willImportedTo": "کاروونکي به ټولنې ته وارد شي"
+        "willImportedTo": "کاروونکي به ټولنې ته وارد شي",
+        "ChooseFile": "فایل غوره کړئ"
+    },
+    "welcome": {
+        "Title": "{{appName}} : ښه راغلاست",
+        "GetStarted": "پیل کړئ",
+        "gallery": {
+            "Connect": "نښلول",
+            "Organize": "تنظیم کړئ",
+            "Travel": "سفر",
+            "Share": "شریکول"
+        }
+    },
+    "services": {
+        "Title": "خدمتونه",
+        "filterByTitle": "د سرلیک له مخې خدمتونه ومومئ",
+        "New": "+ نوی خدمت پیل کړئ",
+        "NewService": "نوی خدمت",
+        "NewAvailability": "نوی موجودیت",
+        "filterServices": "د فلټر خدمتونه",
+        "NoneYet": "تراوسه هیڅ خدمت ندی رامینځته شوی<br> په دې وختونو کې.",
+        "AllAuthors": "ټول لیکوالان",
+        "AllDays": "ټولې ورځې",
+        "AllLocations": "ټول ځایونه",
+        "MakeReservation": "ریزرویشن وکړئ",
+        "CancelReservation": "ریزرویشن لغوه کړئ",
+        "UpdateReservation": "د ریزرویشن تازه کول",
+        "AreYouSure": "ایا تاسو ډاډه یاست؟",
+        "YouWillRefunded": "تاسو ته به د کریډیټ په شکل بیرته درکړل شي تاسو کولی شئ په اپلیکیشن کې په نورو شیانو مصرف کړئ.",
+        "AllInterests": "ټولې ګټې",
+        "FilterbyInterest": "د ګټو له مخې فلټر کړئ",
+        "FilterByDate": "د نیټې له مخې فلټر کړئ",
+        "ShowActivities": "اړوند فعالیتونه ښکاره کړئ ...",
+        "newServices": "تاسو {{1}} نوي خدمتونه لرئ",
+        "SelectLocation": "ځای وټاکئ",
+        "FilterLocationsPlaceHolder": "د دې سره ځایونه فلټر کړئ ...",
+        "Description": "{{1}} خدمت",
+        "Keywords": "{{1}} خدمت"
     }
 }

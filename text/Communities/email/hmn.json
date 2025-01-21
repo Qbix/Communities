@@ -2,7 +2,8 @@
     "activation": {
         "Thanks": "Txais tos rau {{1}}",
         "ReallyYourEmail": "Qhov no puas yog koj tus email chaw nyob, {{1}}? Yog tias muaj, nyem qhov <a href='{{2}}'>no<\/a> los teeb tsa koj tus lej password thiab qhib koj tus account.",
-        "SeeYou": "Pom koj ntawm <a href='{{1}}'>{{2}}<\/a> !"
+        "SeeYou": "Pom koj ntawm <a href='{{1}}'>{{2}}<\/a> !",
+        "Subject": "Zoo siab txais tos! Thov txheeb xyuas koj tus email chaw nyob."
     },
     "LinkToUnsubscribe": "Nov yog qhov txuas rau <a href='{{1}}'>unsubscribe<\/a> yog tias koj tsis xav tau email ntxiv.",
     "Greetings": "Txais tos los ntawm {{1}}.",
@@ -17,11 +18,16 @@
         "Thanks": "Ua tsaug rau koj tuaj xyuas {{1}}",
         "YouAreReceiving": "Koj tau txais email no vim hais tias ib tug neeg nkag mus rau koj qhov chaw nyob email thiab nyem &quot;tsis nco qab lo lus zais&quot;. Yog tias tsis yog koj, tsuas yog tsis quav ntsej cov lus no.",
         "Reset": "Txhawm rau rov pib koj tus lej password, nyem {{1}}",
-        "SetUpPassphrase": "Teeb tus password"
+        "SetUpPassphrase": "Teeb tus password",
+        "DomainCode": "Yog tias lub vev xaib twb tau qhib hauv koj lub browser, koj tuaj yeem nkag mus rau qhov chaws",
+        "Subject": "Hav, koj puas tsis nco qab koj tus password?"
     },
     "subscription": {
         "YouHaveStarted": "Hav {{1}}, koj tau pib koj qhov kev tso npe rau {{2}} nrog {{3}} ntawm {{4}} rau {{5}} hli.",
         "HasStarted": "Qhov no tsuas yog qhia rau koj paub tias {{1}}, tau pib lawv cov npe rau {{2}} nrog {{3}} ntawm {{4}} rau {{5}} hli."
     },
-    "SeeYou": "Pom koj ntawm {{1}}!"
+    "SeeYou": "Pom koj ntawm {{1}}!",
+    "identifier": {
+        "Subject": "Zoo siab txais tos! Xyuas koj tus email chaw nyob."
+    }
 }

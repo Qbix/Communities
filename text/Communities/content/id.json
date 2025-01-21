@@ -4,7 +4,24 @@
         "NextSteps": "Gunakan menu utama untuk menemukan apa yang Anda cari."
     },
     "dashboard": {
-        "Menu": "Tidak bisa"
+        "Menu": "Tidak bisa",
+        "Home": "Rumah",
+        "Welcome": "Selamat datang",
+        "Events": "Acara",
+        "Discuss": "Membahas",
+        "People": "Rakyat",
+        "About": "Tentang",
+        "Community": "Masyarakat",
+        "LogIn": "Masuk",
+        "LogOut": "keluar",
+        "Intercoin": "Interkoin",
+        "Shows": "Menunjukkan",
+        "Calendar": "Kalender",
+        "Me": "Aku",
+        "Media": "Media",
+        "Services": "Layanan",
+        "SetMobileNumber": "Tetapkan Nomor Ponsel",
+        "SetEmailAddress": "Tetapkan Alamat Email"
     },
     "greeting": {
         "Welcome": "Selamat datang di {{1}}. Di sini Anda akan menemukan hal-hal yang diposting untuk anggota komunitas kami. Harap tambahkan alamat email atau nomor ponsel Anda untuk menerima pemberitahuan saat pengumuman diposting."
@@ -80,13 +97,15 @@
         "FindPeople": "Temukan orang untuk diajak bicara",
         "GroupConversations": "Bergabunglah dengan beberapa percakapan grup",
         "ContactStaff": "Hubungi Staf",
-        "ContactCustomers": "Hubungi Pelanggan"
+        "ContactCustomers": "Hubungi Pelanggan",
+        "AddNewContacts": "Tambahkan Kontak Baru"
     },
     "me": {
         "Title": "Saya",
         "MobileNumber": "Nomor handphone",
         "EmailAddress": "Alamat email",
-        "UpdateSocialTitle": "Perbarui {{1}} nama pengguna"
+        "UpdateSocialTitle": "Perbarui {{1}} nama pengguna",
+        "Web3": "Web3"
     },
     "people": {
         "Title": "Rakyat",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "Orang dengan Kepentingan yang Sama"
         },
-        "Done": "Selesai"
+        "Done": "Selesai",
+        "Title": "Informasi Dasar",
+        "Prompt": "Beberapa langkah untuk menyiapkan akun Anda",
+        "relationships": {
+            "explanation": "Apa hubungan kalian?",
+            "welcome": "Selamat datang {{user}} ",
+            "invitedByUser": "mengundang Anda.",
+            "addToPhonebook": "Simpan ke Kontak Telepon Saya",
+            "iosInstructions": "Gulir ke bawah untuk Menambahkan Kontak Baru",
+            "androidInstructions": "Anda harus membuka berkas vCard ini setelah diunduh."
+        }
     },
     "profile": {
         "Title": "Profil",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "Ketik di sini info pekerjaan",
         "EducationPlaceholder": "Ketik di sini info pendidikan",
         "ManageNotifications": "Kelola Notifikasi",
-        "YourPreferredLanguage": "Bahasa pilihan Anda"
+        "YourPreferredLanguage": "Bahasa pilihan Anda",
+        "sections": {
+            "education": "Pendidikan",
+            "greeting": "Salam",
+            "jobs": "Pekerjaan",
+            "links": "Tautan",
+            "language": "Bahasa",
+            "roles": "Peran",
+            "personal": "Pribadi",
+            "social": "Sosial"
+        },
+        "Block": "Memblokir",
+        "blockUserAlertTitle": "Diblokir {{displayName}}",
+        "Unblock": "Buka blokir",
+        "Email": "E-mail",
+        "Avoid": "Menghindari",
+        "Roles": "Peran",
+        "SendCrypto": "Membayar",
+        "CreatePrivateChat": "Habiskan {{credits}} kredit untuk menjangkau?",
+        "RolesInCommunity": "Peran dalam komunitas",
+        "PersonalChatWith": "Obrolan pribadi dengan {{name}}",
+        "SendCryptoTo": "Kirim kripto ke {{name}}",
+        "SendPaymentTo": "Kirim pembayaran ke {{name}}",
+        "SendEmailTo": "Kirim email ke {{name}}",
+        "SendSMSTo": "Kirim SMS ke {{name}}",
+        "BlockThisUser": "Blokir pengguna ini",
+        "UnblockThisUser": "Buka blokir pengguna ini",
+        "YouCantChatWithYourself": "Kamu tidak bisa ngobrol dengan dirimu sendiri"
     },
     "myqr": {
         "Title": "QR saya"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} di sini untuk melihat bagaimana Anda dapat berbagi ini dengan orang lain."
     },
     "payment": {
-        "onContribute": "Terima kasih! Pembayaran Anda berhasil. Apakah Anda ingin mengundang teman-teman Anda untuk bergabung dengan Anda?"
+        "onContribute": "Terima kasih! Pembayaran Anda berhasil. Apakah Anda ingin mengundang teman-teman Anda untuk bergabung dengan Anda?",
+        "ConnectAccount": "Hubungkan akun"
     },
     "featureboard": {
         "Text_1": "Biarkan suara Anda didengar! Apakah Anda setuju kita harus mengembangkan fitur atau bug? Klik tombol untuk Mendukungnya.",
@@ -357,6 +414,43 @@
         "communityUsers": "Ini adalah daftar komunitas",
         "setAsConversation": "kolom URL sebagai percakapan",
         "toMainCommunityToo": "tambahkan pengguna ke komunitas utama juga",
-        "willImportedTo": "Pengguna akan diimpor ke komunitas"
+        "willImportedTo": "Pengguna akan diimpor ke komunitas",
+        "ChooseFile": "pilih berkas"
+    },
+    "welcome": {
+        "Title": "{{appName}} : selamat datang",
+        "GetStarted": "Memulai",
+        "gallery": {
+            "Connect": "Menghubungkan",
+            "Organize": "Mengatur",
+            "Travel": "Bepergian",
+            "Share": "Membagikan"
+        }
+    },
+    "services": {
+        "Title": "Layanan",
+        "filterByTitle": "Temukan layanan berdasarkan judul",
+        "New": "+ Mulai Layanan Baru",
+        "NewService": "Layanan Baru",
+        "NewAvailability": "Ketersediaan Baru",
+        "filterServices": "Layanan penyaringan",
+        "NoneYet": "Belum ada layanan yang terbentuk<br> selama waktu-waktu ini.",
+        "AllAuthors": "Semua Penulis",
+        "AllDays": "Semua Hari",
+        "AllLocations": "Semua Lokasi",
+        "MakeReservation": "Buat Reservasi",
+        "CancelReservation": "Batalkan Reservasi",
+        "UpdateReservation": "Perbarui Reservasi",
+        "AreYouSure": "Apa kamu yakin?",
+        "YouWillRefunded": "Anda akan mendapatkan pengembalian dana dalam bentuk kredit yang dapat Anda belanjakan untuk hal lain di aplikasi.",
+        "AllInterests": "Semua Kepentingan",
+        "FilterbyInterest": "Filter berdasarkan Minat",
+        "FilterByDate": "Filter Berdasarkan Tanggal",
+        "ShowActivities": "Tampilkan aktivitas yang terkait dengan ...",
+        "newServices": "Anda memiliki {{1}} layanan baru",
+        "SelectLocation": "Pilih Lokasi",
+        "FilterLocationsPlaceHolder": "Filter tempat dengan ...",
+        "Description": "layanan {{1}}",
+        "Keywords": "layanan {{1}}"
     }
 }

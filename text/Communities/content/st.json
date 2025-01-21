@@ -4,7 +4,24 @@
         "NextSteps": "Sebelisa lethathamo la mantlha ho fumana seo u se batlang."
     },
     "dashboard": {
-        "Menu": "Lenane"
+        "Menu": "Lenane",
+        "Home": "Lehae",
+        "Welcome": "Rea u amohela",
+        "Events": "Liketsahalo",
+        "Discuss": "Buisanang",
+        "People": "Batho",
+        "About": "About",
+        "Community": "Sechaba",
+        "LogIn": "kena",
+        "LogOut": "tsoa",
+        "Intercoin": "Intercoin",
+        "Shows": "Lipontšo",
+        "Calendar": "Khalendara",
+        "Me": "&#39;Na",
+        "Media": "Mecha ea litaba",
+        "Services": "Litšebeletso",
+        "SetMobileNumber": "Beha Nomoro ea Mohala",
+        "SetEmailAddress": "Beha Aterese ea Imeile"
     },
     "greeting": {
         "Welcome": "Rea u amohela ho {{1}}. Mona u tla fumana lintho tse rometsoeng litho tsa sechaba sa rona. Ka kopo, kenya aterese ea hau ea lengolo-tsoibila kapa nomoro ea mohala hore o tle o fumane litsebiso ha liphatlalatso li kenngoa."
@@ -80,13 +97,15 @@
         "FindPeople": "Fumana batho bao u ka buang le bona",
         "GroupConversations": "Kena lipuisanong tsa sehlopha",
         "ContactStaff": "Ikopanye le Basebetsi",
-        "ContactCustomers": "Ikopanye le Bareki"
+        "ContactCustomers": "Ikopanye le Bareki",
+        "AddNewContacts": "Kenya Mabitso a Macha"
     },
     "me": {
         "Title": "&#39;Na",
         "MobileNumber": "Nomoro ea lekolulo",
         "EmailAddress": "Aterese ea imeile",
-        "UpdateSocialTitle": "Kaonefatsa {{1}} lebitso la mosebelisi"
+        "UpdateSocialTitle": "Kaonefatsa {{1}} lebitso la mosebelisi",
+        "Web3": "Web3"
     },
     "people": {
         "Title": "Batho",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "Batho ba Lithahasello Tse Tšoanang"
         },
-        "Done": "E felile"
+        "Done": "E felile",
+        "Title": "Litaba tsa Motheo",
+        "Prompt": "Mehato e &#39;maloa ea ho theha ak&#39;haonte ea hau",
+        "relationships": {
+            "explanation": "Kamano ea hau ke efe?",
+            "welcome": "Kamohelo {{user}} ",
+            "invitedByUser": "o memile.",
+            "addToPhonebook": "Boloka ho Mabitso a Mehala ea Ka",
+            "iosInstructions": "Tsamaisetsa tlase ho Kenya Lebitso le Lecha",
+            "androidInstructions": "U lokela ho bula faele ena ea vCard ka mor&#39;a hore e kopitsoe."
+        }
     },
     "profile": {
         "Title": "Profile",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "Ngola mona lintlha tsa mesebetsi",
         "EducationPlaceholder": "Ngola mona lintlha tsa thuto",
         "ManageNotifications": "Laola Litsebiso",
-        "YourPreferredLanguage": "Puo eo u e ratang"
+        "YourPreferredLanguage": "Puo eo u e ratang",
+        "sections": {
+            "education": "Thuto",
+            "greeting": "Lumela",
+            "jobs": "Mesebetsi",
+            "links": "Lihokelo",
+            "language": "Puo",
+            "roles": "Likarolo",
+            "personal": "Motho ka mong",
+            "social": "Setjhaba"
+        },
+        "Block": "Thibela",
+        "blockUserAlertTitle": "E thibetsoe {{displayName}}",
+        "Unblock": "Tlosa",
+        "Email": "Email",
+        "Avoid": "Qoba",
+        "Roles": "Likarolo",
+        "SendCrypto": "Lefa",
+        "CreatePrivateChat": "Sebelisa lintlha {{credits}} ho fihlela katleho?",
+        "RolesInCommunity": "Likarolo sechabeng",
+        "PersonalChatWith": "Puisano ea hau le {{name}}",
+        "SendCryptoTo": "Romella crypto ho {{name}}",
+        "SendPaymentTo": "Romella tefo ho {{name}}",
+        "SendEmailTo": "Romella lengolo-tsoibila ho {{name}}",
+        "SendSMSTo": "Romella SMS ho {{name}}",
+        "BlockThisUser": "Thibela mosebelisi enoa",
+        "UnblockThisUser": "Tlohela mosebelisi enoa",
+        "YouCantChatWithYourself": "Ha o khone ho qoqa le uena"
     },
     "myqr": {
         "Title": "QR ea ka"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} mona ho bona hore na o ka arolelana sena le batho ba bang jwang."
     },
     "payment": {
-        "onContribute": "Kea leboha! Tefo ea hau e fetile. A na u ka thabela ho memela metsoalle ea hau ho tla ho uena?"
+        "onContribute": "Kea leboha! Tefo ea hau e fetile. A na u ka thabela ho memela metsoalle ea hau ho tla ho uena?",
+        "ConnectAccount": "Hokela ak&#39;haonte"
     },
     "featureboard": {
         "Text_1": "Lentswe la hao le utlwahale! A na u lumela hore re lokela ho hlahisa tšobotsi kapa bothata? Tobetsa konopo ho e Tšehetsa.",
@@ -357,6 +414,43 @@
         "communityUsers": "Lena ke lenane la sechaba",
         "setAsConversation": "Kholomo ea URL joalo ka moqoqo",
         "toMainCommunityToo": "eketsa basebelisi ho sechaba se seholo hape",
-        "willImportedTo": "Basebelisi ba tla romelloa sechabeng"
+        "willImportedTo": "Basebelisi ba tla romelloa sechabeng",
+        "ChooseFile": "khetha faele"
+    },
+    "welcome": {
+        "Title": "{{appName}} : amohela",
+        "GetStarted": "Qala",
+        "gallery": {
+            "Connect": "Hokela",
+            "Organize": "Hlophisa",
+            "Travel": "Tsamaea",
+            "Share": "Arolelana"
+        }
+    },
+    "services": {
+        "Title": "Litšebeletso",
+        "filterByTitle": "Fumana litšebeletso ka sehlooho",
+        "New": "+ Qala Tšebeletso e Ncha",
+        "NewService": "Tšebeletso e Ncha",
+        "NewAvailability": "Ho fumaneha ha New",
+        "filterServices": "Litšebeletso tsa sefe",
+        "NoneYet": "Ha ho na litšebeletso tse entsoeng<br> ka nako tsena.",
+        "AllAuthors": "Bangoli bohle",
+        "AllDays": "Matsatsi &#39;ohle",
+        "AllLocations": "Libaka Tsohle",
+        "MakeReservation": "Etsa Pehelo",
+        "CancelReservation": "Hlakola Peheletso",
+        "UpdateReservation": "Update Reservation",
+        "AreYouSure": "U na le bonnete?",
+        "YouWillRefunded": "U tla buseletsoa ka mokhoa oa likoloto tseo u ka li sebelisang linthong tse ling ho app.",
+        "AllInterests": "Lithahasello Tsohle",
+        "FilterbyInterest": "Sefa ho ea ka Thahasello",
+        "FilterByDate": "Sefa ka Letsatsi",
+        "ShowActivities": "Hlahisa mesebetsi e amanang le ...",
+        "newServices": "U na le lits&#39;ebeletso tse ncha {{1}}",
+        "SelectLocation": "Khetha Sebaka",
+        "FilterLocationsPlaceHolder": "Sefa libaka ka ...",
+        "Description": "{{1}} tšebeletso",
+        "Keywords": "{{1}} tšebeletso"
     }
 }

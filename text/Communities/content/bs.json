@@ -4,7 +4,24 @@
         "NextSteps": "Koristite glavni meni da pronađete ono što tražite."
     },
     "dashboard": {
-        "Menu": "Meni"
+        "Menu": "Meni",
+        "Home": "Dom",
+        "Welcome": "Dobrodošli",
+        "Events": "Događaji",
+        "Discuss": "Discuss",
+        "People": "Ljudi",
+        "About": "O",
+        "Community": "Zajednica",
+        "LogIn": "prijavite se",
+        "LogOut": "odjaviti se",
+        "Intercoin": "Intercoin",
+        "Shows": "Shows",
+        "Calendar": "Kalendar",
+        "Me": "Ja",
+        "Media": "Mediji",
+        "Services": "Usluge",
+        "SetMobileNumber": "Podesite broj mobilnog telefona",
+        "SetEmailAddress": "Podesite adresu e-pošte"
     },
     "greeting": {
         "Welcome": "Dobrodošli u {{1}}. Ovdje ćete pronaći stvari objavljene za članove naše zajednice. Molimo dodajte svoju email adresu ili broj mobilnog telefona kako biste primali obavještenja kada objave objave."
@@ -80,13 +97,15 @@
         "FindPeople": "Pronađite ljude za razgovor",
         "GroupConversations": "Pridružite se nekim grupnim razgovorima",
         "ContactStaff": "Kontaktirajte osoblje",
-        "ContactCustomers": "Kontaktirajte kupce"
+        "ContactCustomers": "Kontaktirajte kupce",
+        "AddNewContacts": "Dodaj nove kontakte"
     },
     "me": {
         "Title": "Ja",
         "MobileNumber": "Broj mobitela",
         "EmailAddress": "E-mail adresa",
-        "UpdateSocialTitle": "Ažurirajte {{1}} korisničko ime"
+        "UpdateSocialTitle": "Ažurirajte {{1}} korisničko ime",
+        "Web3": "Web3"
     },
     "people": {
         "Title": "Ljudi",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "Ljudi sa zajedničkim interesima"
         },
-        "Done": "Gotovo"
+        "Done": "Gotovo",
+        "Title": "Osnovne informacije",
+        "Prompt": "Nekoliko koraka za postavljanje vašeg računa",
+        "relationships": {
+            "explanation": "kakav je vaš odnos?",
+            "welcome": "Dobrodošli {{user}} ",
+            "invitedByUser": "pozvao te.",
+            "addToPhonebook": "Sačuvaj u Moj telefonski kontakt",
+            "iosInstructions": "Pomaknite se prema dolje do Dodaj novi kontakt",
+            "androidInstructions": "Trebali biste otvoriti ovu vCard datoteku nakon što bude preuzeta."
+        }
     },
     "profile": {
         "Title": "Profil",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "Ovdje upišite informacije o poslovima",
         "EducationPlaceholder": "Ovdje upišite informacije o obrazovanju",
         "ManageNotifications": "Upravljajte obavještenjima",
-        "YourPreferredLanguage": "Vaš željeni jezik"
+        "YourPreferredLanguage": "Vaš željeni jezik",
+        "sections": {
+            "education": "Obrazovanje",
+            "greeting": "Pozdrav",
+            "jobs": "Poslovi",
+            "links": "Linkovi",
+            "language": "Jezik",
+            "roles": "Uloge",
+            "personal": "Personal",
+            "social": "Društveni"
+        },
+        "Block": "Blokiraj",
+        "blockUserAlertTitle": "Blokirano {{displayName}}",
+        "Unblock": "Deblokiraj",
+        "Email": "Email",
+        "Avoid": "Izbjegavajte",
+        "Roles": "Uloge",
+        "SendCrypto": "Plati",
+        "CreatePrivateChat": "Potrošiti {{credits}} kredita za kontakt?",
+        "RolesInCommunity": "Uloge u zajednici",
+        "PersonalChatWith": "Lični razgovor sa {{name}}",
+        "SendCryptoTo": "Pošaljite kripto na {{name}}",
+        "SendPaymentTo": "Pošaljite uplatu na {{name}}",
+        "SendEmailTo": "Pošaljite email na {{name}}",
+        "SendSMSTo": "Pošaljite SMS na {{name}}",
+        "BlockThisUser": "Blokiraj ovog korisnika",
+        "UnblockThisUser": "Deblokirajte ovog korisnika",
+        "YouCantChatWithYourself": "Ne možeš razgovarati sam sa sobom"
     },
     "myqr": {
         "Title": "Moj QR"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} ovdje da vidite kako ovo možete podijeliti sa drugim ljudima."
     },
     "payment": {
-        "onContribute": "Hvala ti! Vaša uplata je prošla. Želite li pozvati svoje prijatelje da vam se pridruže?"
+        "onContribute": "Hvala ti! Vaša uplata je prošla. Želite li pozvati svoje prijatelje da vam se pridruže?",
+        "ConnectAccount": "Povežite račun"
     },
     "featureboard": {
         "Text_1": "Neka se vaš glas čuje! Slažete li se da bismo trebali razviti funkciju ili grešku? Kliknite na dugme da ga podržite.",
@@ -357,6 +414,43 @@
         "communityUsers": "Ovo je lista zajednica",
         "setAsConversation": "URL kolona kao razgovor",
         "toMainCommunityToo": "dodajte i korisnike u glavnu zajednicu",
-        "willImportedTo": "Korisnici će biti uvezeni u zajednicu"
+        "willImportedTo": "Korisnici će biti uvezeni u zajednicu",
+        "ChooseFile": "izaberite datoteku"
+    },
+    "welcome": {
+        "Title": "{{appName}} : dobrodošli",
+        "GetStarted": "Započnite",
+        "gallery": {
+            "Connect": "Povežite se",
+            "Organize": "Organizirajte",
+            "Travel": "Putovanja",
+            "Share": "Dijeli"
+        }
+    },
+    "services": {
+        "Title": "Usluge",
+        "filterByTitle": "Pronađite usluge prema naslovu",
+        "New": "+ Započnite novu uslugu",
+        "NewService": "Nova usluga",
+        "NewAvailability": "New Availability",
+        "filterServices": "Usluge filtriranja",
+        "NoneYet": "Još nije formirana nijedna služba<br> tokom ovih vremena.",
+        "AllAuthors": "Svi autori",
+        "AllDays": "Svi dani",
+        "AllLocations": "Sve lokacije",
+        "MakeReservation": "Napravite rezervaciju",
+        "CancelReservation": "Otkažite rezervaciju",
+        "UpdateReservation": "Ažurirajte rezervaciju",
+        "AreYouSure": "Jeste li sigurni?",
+        "YouWillRefunded": "Bit ćete vraćeni u obliku kredita koje možete potrošiti na druge stvari u aplikaciji.",
+        "AllInterests": "Svi interesi",
+        "FilterbyInterest": "Filtriraj po interesu",
+        "FilterByDate": "Filtriraj po datumu",
+        "ShowActivities": "Prikaži aktivnosti vezane za...",
+        "newServices": "Imate {{1}} novih usluga",
+        "SelectLocation": "Odaberite Lokacija",
+        "FilterLocationsPlaceHolder": "Filtrirajte prostore sa...",
+        "Description": "{{1}} usluga",
+        "Keywords": "{{1}} usluga"
     }
 }

@@ -4,7 +4,24 @@
         "NextSteps": "Sebenzisa imenyu enkulu ukuze uthole okufunayo."
     },
     "dashboard": {
-        "Menu": "Imenyu"
+        "Menu": "Imenyu",
+        "Home": "Ikhaya",
+        "Welcome": "Siyakwamukela",
+        "Events": "Imicimbi",
+        "Discuss": "Xoxa",
+        "People": "Abantu",
+        "About": "Mayelana",
+        "Community": "Umphakathi",
+        "LogIn": "Ngena ngemvume",
+        "LogOut": "Phuma",
+        "Intercoin": "I-Intercoin",
+        "Shows": "Imibukiso",
+        "Calendar": "Ikhalenda",
+        "Me": "Mina",
+        "Media": "Imidiya",
+        "Services": "Amasevisi",
+        "SetMobileNumber": "Setha Inombolo Yeselula",
+        "SetEmailAddress": "Setha Ikheli Le-imeyili"
     },
     "greeting": {
         "Welcome": "Siyakwamukela ku-{{1}}. Lapha uzothola izinto ezithunyelwe amalungu omphakathi wethu. Sicela ungeze ikheli lakho le-imeyili noma inombolo yeselula ukuze uthole izaziso uma izimemezelo zithunyelwa."
@@ -80,13 +97,15 @@
         "FindPeople": "Thola abantu ongakhuluma nabo",
         "GroupConversations": "Joyina izingxoxo zeqembu",
         "ContactStaff": "Xhumana Nabasebenzi",
-        "ContactCustomers": "Xhumana Namakhasimende"
+        "ContactCustomers": "Xhumana Namakhasimende",
+        "AddNewContacts": "Engeza Oxhumana Nabo Abasha"
     },
     "me": {
         "Title": "Mina",
         "MobileNumber": "Inombolo yeselula",
         "EmailAddress": "Ikheli le-imeyili",
-        "UpdateSocialTitle": "Buyekeza {{1}} igama lomsebenzisi"
+        "UpdateSocialTitle": "Buyekeza {{1}} igama lomsebenzisi",
+        "Web3": "Iwebhu3"
     },
     "people": {
         "Title": "Abantu",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "Abantu abanezintshisekelo ezifanayo"
         },
-        "Done": "Kwenziwe"
+        "Done": "Kwenziwe",
+        "Title": "Ulwazi Oluyisisekelo",
+        "Prompt": "Izinyathelo ezimbalwa zokusetha i-akhawunti yakho",
+        "relationships": {
+            "explanation": "Buyini ubudlelwano bakho?",
+            "welcome": "Siyakwamukela {{user}} ",
+            "invitedByUser": "ukumemile.",
+            "addToPhonebook": "Londoloza Koxhumana Nabo Befoni Yami",
+            "iosInstructions": "Skrolela phansi ukuze Engeza Oxhumana Naye Omusha",
+            "androidInstructions": "Kufanele uvule leli fayela le-vCard ngemva kokuthi selilandiwe."
+        }
     },
     "profile": {
         "Title": "Iphrofayili",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "Thayipha lapha ulwazi lwemisebenzi",
         "EducationPlaceholder": "Thayipha lapha ulwazi lwezemfundo",
         "ManageNotifications": "Phatha Izaziso",
-        "YourPreferredLanguage": "Ulimi lwakho oluncamelayo"
+        "YourPreferredLanguage": "Ulimi lwakho oluncamelayo",
+        "sections": {
+            "education": "Imfundo",
+            "greeting": "Ngiyabingelela",
+            "jobs": "Imisebenzi",
+            "links": "Izixhumanisi",
+            "language": "Ulimi",
+            "roles": "Izindima",
+            "personal": "Okomuntu siqu",
+            "social": "Okomphakathi"
+        },
+        "Block": "Vimba",
+        "blockUserAlertTitle": "Kuvinjwe {{displayName}}",
+        "Unblock": "Vulela",
+        "Email": "I-imeyili",
+        "Avoid": "Gwema",
+        "Roles": "Izindima",
+        "SendCrypto": "Khokha",
+        "CreatePrivateChat": "Sebenzisa amakhredithi {{credits}} ukuze ufinyelele?",
+        "RolesInCommunity": "Izindima emphakathini",
+        "PersonalChatWith": "Ingxoxo yomuntu siqu no- {{name}}",
+        "SendCryptoTo": "Thumela i-crypto ku- {{name}}",
+        "SendPaymentTo": "Thumela inkokhelo ku- {{name}}",
+        "SendEmailTo": "Thumela i-imeyili ku- {{name}}",
+        "SendSMSTo": "Thumela i-SMS ku- {{name}}",
+        "BlockThisUser": "Vimba lo msebenzisi",
+        "UnblockThisUser": "Vulela lo msebenzisi",
+        "YouCantChatWithYourself": "Awukwazi ukuxoxa nawe"
     },
     "myqr": {
         "Title": "I-QR yami"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} lapha ukuze ubone ukuthi ungabelana kanjani nabanye abantu ngalokhu."
     },
     "payment": {
-        "onContribute": "Ngiyabonga! Inkokhelo yakho idlulile. Ungathanda ukumema abangani bakho ukuthi bakujoyine?"
+        "onContribute": "Ngiyabonga! Inkokhelo yakho idlulile. Ungathanda ukumema abangani bakho ukuthi bakujoyine?",
+        "ConnectAccount": "Xhuma i-akhawunti"
     },
     "featureboard": {
         "Text_1": "Malizwakale izwi lakho! Ingabe uyavuma ukuthi kufanele sithuthukise isici noma iphutha? Chofoza inkinobho Ukuyisekela.",
@@ -357,6 +414,43 @@
         "communityUsers": "Lolu uhlu lwemiphakathi",
         "setAsConversation": "Ikholomu ye-URL njengengxoxo",
         "toMainCommunityToo": "engeza abasebenzisi emphakathini omkhulu futhi",
-        "willImportedTo": "Abasebenzisi bazongeniswa emphakathini"
+        "willImportedTo": "Abasebenzisi bazongeniswa emphakathini",
+        "ChooseFile": "khetha ifayela"
+    },
+    "welcome": {
+        "Title": "{{appName}} : wamukelekile",
+        "GetStarted": "Qalisa",
+        "gallery": {
+            "Connect": "Xhuma",
+            "Organize": "Hlela",
+            "Travel": "Ukuhamba",
+            "Share": "Yabelana"
+        }
+    },
+    "services": {
+        "Title": "Amasevisi",
+        "filterByTitle": "Thola amasevisi ngesihloko",
+        "New": "+ Qala Isevisi Entsha",
+        "NewService": "Isevisi entsha",
+        "NewAvailability": "Ukutholakala Okusha",
+        "filterServices": "Izinsizakalo zokuhlunga",
+        "NoneYet": "Awekho amasevisi akhiwe okwamanje<br> ngalezi zikhathi.",
+        "AllAuthors": "Bonke Ababhali",
+        "AllDays": "Izinsuku Zonke",
+        "AllLocations": "Zonke Izindawo",
+        "MakeReservation": "Yenza Ukubhuka",
+        "CancelReservation": "Khansela Ukubhuka",
+        "UpdateReservation": "Buyekeza Ukubhukha",
+        "AreYouSure": "Uqinisekile?",
+        "YouWillRefunded": "Uzobuyiselwa imali ngendlela yamakhredithi ongawasebenzisa kwezinye izinto ohlelweni lokusebenza.",
+        "AllInterests": "Zonke Izithakazelo",
+        "FilterbyInterest": "Hlunga Ngentshisekelo",
+        "FilterByDate": "Hlunga Ngedethi",
+        "ShowActivities": "Bonisa imisebenzi ehlobene ...",
+        "newServices": "Unamasevisi amasha angu {{1}}",
+        "SelectLocation": "Khetha Indawo",
+        "FilterLocationsPlaceHolder": "Hlunga izindawo nge...",
+        "Description": "{{1}} isevisi",
+        "Keywords": "{{1}} isevisi"
     }
 }

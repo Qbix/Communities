@@ -4,7 +4,24 @@
         "NextSteps": "ניצן די הויפּט מעניו צו געפֿינען וואָס איר זוכט פֿאַר."
     },
     "dashboard": {
-        "Menu": "מעניו"
+        "Menu": "מעניו",
+        "Home": "היים",
+        "Welcome": "ברוכים הבאים",
+        "Events": "געשעענישן",
+        "Discuss": "דיסקוטירן",
+        "People": "מענטשן",
+        "About": "וועגן",
+        "Community": "קהילה",
+        "LogIn": "קלאָץ אין",
+        "LogOut": "קלאָץ אויס",
+        "Intercoin": "ינטערקאָין",
+        "Shows": "ווייזט",
+        "Calendar": "קאַלענדאַר",
+        "Me": "מיר",
+        "Media": "מעדיע",
+        "Services": "סערוויסעס",
+        "SetMobileNumber": "שטעלן מאָביל נומער",
+        "SetEmailAddress": "שטעלן בליצפּאָסט אַדרעס"
     },
     "greeting": {
         "Welcome": "ברוכים הבאים צו {{1}}. דאָ איר וועט געפֿינען זאכן אַרייַנגעשיקט פֿאַר מיטגלידער פון אונדזער קהל. לייג דיין בליצפּאָסט אַדרעס אָדער רירעוודיק נומער צו באַקומען נאָוטאַפאַקיישאַנז ווען אַנאַונסיז זענען אַרייַנגעשיקט."
@@ -80,13 +97,15 @@
         "FindPeople": "געפֿינען מענטשן צו רעדן צו",
         "GroupConversations": "פאַרבינדן עטלעכע גרופּע שמועסן",
         "ContactStaff": "קאָנטאַקט שטעקן",
-        "ContactCustomers": "קאָנטאַקט קאַסטאַמערז"
+        "ContactCustomers": "קאָנטאַקט קאַסטאַמערז",
+        "AddNewContacts": "לייג נייַ קאָנטאַקטן"
     },
     "me": {
         "Title": "מיר",
         "MobileNumber": "מאביל נומער",
         "EmailAddress": "אימעיל אדרעס",
-        "UpdateSocialTitle": "דערהייַנטיקן {{1}} באַניצער נאָמען"
+        "UpdateSocialTitle": "דערהייַנטיקן {{1}} באַניצער נאָמען",
+        "Web3": "וועב3"
     },
     "people": {
         "Title": "מענטשן",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "מענטשן מיט פּראָסט אינטערעסן"
         },
-        "Done": "געשען"
+        "Done": "געשען",
+        "Title": "יקערדיק אינפֿאָרמאַציע",
+        "Prompt": "עטלעכע סטעפּס צו באַשטעטיקן דיין חשבון",
+        "relationships": {
+            "explanation": "וואָס איז דיין שייכות?",
+            "welcome": "ברוכים הבאים {{user}} ",
+            "invitedByUser": "פארבעטן איר.",
+            "addToPhonebook": "היט צו מיין טעלעפאָן קאָנטאַקטן",
+            "iosInstructions": "מעגילע אַראָפּ צו לייג נייַ קאָנטאַקט",
+            "androidInstructions": "איר זאָל עפֿענען דעם ווקאַרד טעקע נאָך עס וועט זיין דאַונלאָודיד."
+        }
     },
     "profile": {
         "Title": "פּראָפיל",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "טיפּ דאָ דזשאָבס אינפֿאָרמאַציע",
         "EducationPlaceholder": "טיפּ דאָ בילדונג אינפֿאָרמאַציע",
         "ManageNotifications": "פירן נאָוטאַפאַקיישאַנז",
-        "YourPreferredLanguage": "דיין באַליבסטע שפּראַך"
+        "YourPreferredLanguage": "דיין באַליבסטע שפּראַך",
+        "sections": {
+            "education": "בילדונג",
+            "greeting": "גרוס",
+            "jobs": "דזשאָבס",
+            "links": "לינקס",
+            "language": "שפּראַך",
+            "roles": "ראָלעס",
+            "personal": "פערזענליכע",
+            "social": "סאציאל"
+        },
+        "Block": "פאַרשפּאַרן",
+        "blockUserAlertTitle": "בלאקירט {{displayName}}",
+        "Unblock": "ופשליסן",
+        "Email": "בליצפּאָסט",
+        "Avoid": "ויסמיידן",
+        "Roles": "ראָלעס",
+        "SendCrypto": "באַצאָלן",
+        "CreatePrivateChat": "פאַרברענגען {{credits}} קרעדיץ צו דערגרייכן?",
+        "RolesInCommunity": "ראָלעס אין קהל",
+        "PersonalChatWith": "פערזענלעכע שמועסן מיט {{name}}",
+        "SendCryptoTo": "שיקן קריפּטאָ צו {{name}}",
+        "SendPaymentTo": "שיקן אַ צאָלונג צו {{name}}",
+        "SendEmailTo": "שיקן בליצפּאָסט צו {{name}}",
+        "SendSMSTo": "שיקן SMS צו {{name}}",
+        "BlockThisUser": "פאַרשפּאַרן דעם באַניצער",
+        "UnblockThisUser": "ופשליסן דעם באַניצער",
+        "YouCantChatWithYourself": "איר קענט נישט שמועסן מיט זיך"
     },
     "myqr": {
         "Title": "מיין QR"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} דאָ צו זען ווי איר קענען טיילן דעם מיט אנדערע מענטשן."
     },
     "payment": {
-        "onContribute": "אדאנק! דיין צאָלונג איז דורכגעגאנגען. וואָלט איר ווי צו פאַרבעטן דיין פרענדז מיט איר?"
+        "onContribute": "אדאנק! דיין צאָלונג איז דורכגעגאנגען. וואָלט איר ווי צו פאַרבעטן דיין פרענדז מיט איר?",
+        "ConnectAccount": "פאַרבינדן חשבון"
     },
     "featureboard": {
         "Text_1": "לאָזן דיין קול זיין געהערט! צי איר שטימען אַז מיר זאָל אַנטוויקלען אַ שטריך אָדער זשוק? דריקט דעם קנעפּל צו שטיצן עס.",
@@ -357,6 +414,43 @@
         "communityUsers": "דאָס איז דער רשימה פון קהילות",
         "setAsConversation": "URL זייַל ווי שמועס",
         "toMainCommunityToo": "לייג יוזערז צו די הויפּט קהל אויך",
-        "willImportedTo": "יוזערז וועט זיין ימפּאָרטיד צו קהל"
+        "willImportedTo": "יוזערז וועט זיין ימפּאָרטיד צו קהל",
+        "ChooseFile": "קלייַבן טעקע"
+    },
+    "welcome": {
+        "Title": "{{appName}} : באַגריסונג",
+        "GetStarted": "באַקומען סטאַרטעד",
+        "gallery": {
+            "Connect": "פאַרבינדן",
+            "Organize": "אָרגאַניזירן",
+            "Travel": "רייזע",
+            "Share": "ייַנטיילן"
+        }
+    },
+    "services": {
+        "Title": "סערוויסעס",
+        "filterByTitle": "געפֿינען סערוויסעס לויט טיטל",
+        "New": "+ אָנהייב ניו סערוויס",
+        "NewService": "ניו סערוויס",
+        "NewAvailability": "ניו אַוואַילאַביליטי",
+        "filterServices": "פילטער באַדינונגס",
+        "NoneYet": "קיין סערוויסעס זענען נאָך געגרינדעט<br> אין די צייטן.",
+        "AllAuthors": "אַלע מחברים",
+        "AllDays": "אַלע טעג",
+        "AllLocations": "אַלע לאָוקיישאַנז",
+        "MakeReservation": "מאַכן רעזערוואַציע",
+        "CancelReservation": "באָטל מאַכן רעזערוואַציע",
+        "UpdateReservation": "דערהייַנטיקן רעסערוואַטיאָן",
+        "AreYouSure": "ביסטו זיכער?",
+        "YouWillRefunded": "איר וועט זיין ריפאַנדיד אין די פאָרעם פון קרעדיץ איר קענען פאַרברענגען אויף אנדערע טינגז אין די אַפּ.",
+        "AllInterests": "אַלע אינטערעסן",
+        "FilterbyInterest": "פילטער לויט אינטערעס",
+        "FilterByDate": "פילטער לויט טאָג",
+        "ShowActivities": "ווייַזן אַקטיוויטעטן שייַכות צו ...",
+        "newServices": "איר האָבן {{1}} נייַ באַדינונגס",
+        "SelectLocation": "אויסקלייַבן אָרט",
+        "FilterLocationsPlaceHolder": "פילטער ווענוז מיט ...",
+        "Description": "{{1}} דינסט",
+        "Keywords": "{{1}} דינסט"
     }
 }

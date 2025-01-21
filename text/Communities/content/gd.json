@@ -4,7 +4,24 @@
         "NextSteps": "Cleachd am prìomh chlàr gus na tha thu a’ sireadh a lorg."
     },
     "dashboard": {
-        "Menu": "Clàr-taice"
+        "Menu": "Clàr-taice",
+        "Home": "Dhachaigh",
+        "Welcome": "Fàilte",
+        "Events": "Tachartasan",
+        "Discuss": "Bruidhinn",
+        "People": "Daoine",
+        "About": "Mu dheidhinn",
+        "Community": "Coimhearsnachd",
+        "LogIn": "log a-steach",
+        "LogOut": "log a-mach",
+        "Intercoin": "Eadar-coin",
+        "Shows": "Taisbean",
+        "Calendar": "Mìosachan",
+        "Me": "Mise",
+        "Media": "Na meadhanan",
+        "Services": "Seirbheisean",
+        "SetMobileNumber": "Suidhich àireamh fòn-làimhe",
+        "SetEmailAddress": "Suidhich Seòladh Post-d"
     },
     "greeting": {
         "Welcome": "Fàilte gu {{1}}. Lorgaidh tu an seo rudan air an postadh airson buill den choimhearsnachd againn. Feuch an cuir thu do sheòladh post-d no àireamh fòn-làimhe gus am faigh thu fios nuair a thèid sanasan a phostadh."
@@ -80,13 +97,15 @@
         "FindPeople": "Lorg daoine airson bruidhinn riutha",
         "GroupConversations": "Thig còmhla ri cuid de chòmhraidhean buidhne",
         "ContactStaff": "Cuir fios gu Luchd-obrach",
-        "ContactCustomers": "Cuir fios gu Luchd-ceannach"
+        "ContactCustomers": "Cuir fios gu Luchd-ceannach",
+        "AddNewContacts": "Cuir Caraidean Ùra ris"
     },
     "me": {
         "Title": "Mise",
         "MobileNumber": "Aireamh fon-laimhe",
         "EmailAddress": "Seòladh puist-d",
-        "UpdateSocialTitle": "Ùraich {{1}} ainm-cleachdaiche"
+        "UpdateSocialTitle": "Ùraich {{1}} ainm-cleachdaiche",
+        "Web3": "lìn 3"
     },
     "people": {
         "Title": "Daoine",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "Daoine le Ùidhean Coitcheann"
         },
-        "Done": "Dèanta"
+        "Done": "Dèanta",
+        "Title": "Fiosrachadh Bunaiteach",
+        "Prompt": "Beagan cheumannan gus do chunntas a stèidheachadh",
+        "relationships": {
+            "explanation": "Dè an dàimh a th’ agad?",
+            "welcome": "A &#39; cur fàilte air {{user}} ",
+            "invitedByUser": "cuireadh dhuit.",
+            "addToPhonebook": "Sàbhail gu Luchd-fios My Phone",
+            "iosInstructions": "Scrollaich sìos gus Cuir Fios Ùr ris",
+            "androidInstructions": "Bu chòir dhut am faidhle vCard seo fhosgladh às deidh dha a bhith air a luchdachadh sìos."
+        }
     },
     "profile": {
         "Title": "Pròifil",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "Cuir a-steach an seo fiosrachadh obraichean",
         "EducationPlaceholder": "Cuir a-steach an seo fiosrachadh foghlaim",
         "ManageNotifications": "Stiùirich fiosan",
-        "YourPreferredLanguage": "An cànan as fheàrr leat"
+        "YourPreferredLanguage": "An cànan as fheàrr leat",
+        "sections": {
+            "education": "Foghlam",
+            "greeting": "Beannachd",
+            "jobs": "Obraichean",
+            "links": "Ceanglaichean",
+            "language": "Cànain",
+            "roles": "Dreuchdan",
+            "personal": "Pearsanta",
+            "social": "Sòisealta"
+        },
+        "Block": "Bloc",
+        "blockUserAlertTitle": "{{displayName}} air a bhacadh",
+        "Unblock": "Neo-bhacadh",
+        "Email": "Post-d",
+        "Avoid": "Seachainn",
+        "Roles": "Dreuchdan",
+        "SendCrypto": "Pàigh",
+        "CreatePrivateChat": "An caith thu creideasan {{credits}} gus faighinn a-mach?",
+        "RolesInCommunity": "Dreuchdan sa choimhearsnachd",
+        "PersonalChatWith": "Còmhradh pearsanta le {{name}}",
+        "SendCryptoTo": "Cuir crypto gu {{name}}",
+        "SendPaymentTo": "Cuir pàigheadh gu {{name}}",
+        "SendEmailTo": "Cuir post-d gu {{name}}",
+        "SendSMSTo": "Cuir SMS gu {{name}}",
+        "BlockThisUser": "Cuir casg air a&#39; chleachdaiche seo",
+        "UnblockThisUser": "Fosgail an cleachdaiche seo",
+        "YouCantChatWithYourself": "Chan urrainn dhut bruidhinn riut fhèin"
     },
     "myqr": {
         "Title": "Mo QR"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} an seo gus faicinn mar as urrainn dhut seo a cho-roinn le daoine eile."
     },
     "payment": {
-        "onContribute": "Tapadh leat! Chaidh do phàigheadh seachad. Am bu toil leat cuireadh a thoirt dha do charaidean tighinn còmhla riut?"
+        "onContribute": "Tapadh leat! Chaidh do phàigheadh seachad. Am bu toil leat cuireadh a thoirt dha do charaidean tighinn còmhla riut?",
+        "ConnectAccount": "Ceangail cunntas"
     },
     "featureboard": {
         "Text_1": "Leig le do ghuth a chluinntinn! A bheil thu ag aontachadh gum bu chòir dhuinn feart no bug a leasachadh? Cliog air a’ phutan gus taic a thoirt dha.",
@@ -357,6 +414,43 @@
         "communityUsers": "Seo liosta choimhearsnachdan",
         "setAsConversation": "Colbh URL mar chòmhradh",
         "toMainCommunityToo": "cuir luchd-cleachdaidh ris a’ phrìomh choimhearsnachd cuideachd",
-        "willImportedTo": "Thèid luchd-cleachdaidh a thoirt a-steach don choimhearsnachd"
+        "willImportedTo": "Thèid luchd-cleachdaidh a thoirt a-steach don choimhearsnachd",
+        "ChooseFile": "tagh faidhle"
+    },
+    "welcome": {
+        "Title": "{{appName}} : fàilte",
+        "GetStarted": "Tòisich",
+        "gallery": {
+            "Connect": "Ceangail",
+            "Organize": "Cuir air dòigh",
+            "Travel": "Siubhal",
+            "Share": "Roinn"
+        }
+    },
+    "services": {
+        "Title": "Seirbheisean",
+        "filterByTitle": "Lorg seirbheisean a rèir tiotal",
+        "New": "+ Tòisich seirbheis ùr",
+        "NewService": "Seirbheis Ùr",
+        "NewAvailability": "Ri fhaighinn ùr",
+        "filterServices": "Seirbheisean sìoltachain",
+        "NoneYet": "Cha deach seirbheisean a chruthachadh fhathast<br> rè na h-amannan seo.",
+        "AllAuthors": "A h-uile Ùghdar",
+        "AllDays": "A h-uile latha",
+        "AllLocations": "A h-uile àite",
+        "MakeReservation": "Dèan Glèidheadh",
+        "CancelReservation": "Sguir an glèidheadh",
+        "UpdateReservation": "Ath-nuadhachadh glèidhte",
+        "AreYouSure": "A bheil thu cinnteach?",
+        "YouWillRefunded": "Gheibh thu airgead air ais ann an cruth creideasan as urrainn dhut a chosg air rudan eile san app.",
+        "AllInterests": "A h-uile ùidh",
+        "FilterbyInterest": "Criathraich le ùidh",
+        "FilterByDate": "Criathraich a rèir ceann-latha",
+        "ShowActivities": "Taisbeanadh gnìomhan co-cheangailte ri. .",
+        "newServices": "Tha {{1}} seirbheis ùr agad",
+        "SelectLocation": "Tagh Àite",
+        "FilterLocationsPlaceHolder": "Criathraich na h-ionadan le ...",
+        "Description": "{{1}} seirbheis",
+        "Keywords": "{{1}} seirbheis"
     }
 }

@@ -4,7 +4,24 @@
         "NextSteps": "השתמש בתפריט הראשי כדי למצוא את מה שאתה מחפש."
     },
     "dashboard": {
-        "Menu": "תַפרִיט"
+        "Menu": "תַפרִיט",
+        "Home": "בַּיִת",
+        "Welcome": "קַבָּלַת פָּנִים",
+        "Events": "אירועים",
+        "Discuss": "לָדוּן",
+        "People": "אֲנָשִׁים",
+        "About": "אוֹדוֹת",
+        "Community": "קהילה",
+        "LogIn": "להיכנס",
+        "LogOut": "להתנתק",
+        "Intercoin": "אינטרקוין",
+        "Shows": "מופעים",
+        "Calendar": "לוּחַ שָׁנָה",
+        "Me": "לִי",
+        "Media": "כְּלֵי תִקְשׁוֹרֶת",
+        "Services": "שירותים",
+        "SetMobileNumber": "הגדר מספר נייד",
+        "SetEmailAddress": "הגדר כתובת אימייל"
     },
     "greeting": {
         "Welcome": "ברוכים הבאים אל {{1}}. כאן תמצא דברים שפורסמו עבור חברי הקהילה שלנו. אנא הוסף את כתובת הדוא&quot;ל או מספר הנייד שלך כדי לקבל הודעות כאשר פרסמו הודעות."
@@ -80,13 +97,15 @@
         "FindPeople": "מצא אנשים לדבר איתם",
         "GroupConversations": "הצטרף לכמה שיחות קבוצתיות",
         "ContactStaff": "צור קשר עם הצוות",
-        "ContactCustomers": "צור קשר עם לקוחות"
+        "ContactCustomers": "צור קשר עם לקוחות",
+        "AddNewContacts": "הוסף אנשי קשר חדשים"
     },
     "me": {
         "Title": "לִי",
         "MobileNumber": "מספר טלפון נייד",
         "EmailAddress": "כתובת דוא&quot;ל",
-        "UpdateSocialTitle": "עדכן את שם המשתמש של {{1}}"
+        "UpdateSocialTitle": "עדכן את שם המשתמש של {{1}}",
+        "Web3": "אינטרנט 3"
     },
     "people": {
         "Title": "אֲנָשִׁים",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "אנשים עם תחומי עניין משותפים"
         },
-        "Done": "בוצע"
+        "Done": "בוצע",
+        "Title": "מידע בסיסי",
+        "Prompt": "כמה שלבים להגדרת החשבון שלך",
+        "relationships": {
+            "explanation": "מה הקשר שלכם?",
+            "welcome": "ברוך הבא {{user}} ",
+            "invitedByUser": "הזמין אותך.",
+            "addToPhonebook": "שמור באנשי הקשר של הטלפון שלי",
+            "iosInstructions": "גלול מטה להוספת איש קשר חדש",
+            "androidInstructions": "עליך לפתוח קובץ vCard זה לאחר הורדתו."
+        }
     },
     "profile": {
         "Title": "פּרוֹפִיל",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "הקלד כאן מידע על משרות",
         "EducationPlaceholder": "הקלד כאן מידע חינוך",
         "ManageNotifications": "נהל התראות",
-        "YourPreferredLanguage": "השפה המועדפת עליך"
+        "YourPreferredLanguage": "השפה המועדפת עליך",
+        "sections": {
+            "education": "הַשׂכָּלָה",
+            "greeting": "בְּרָכָה",
+            "jobs": "משרות",
+            "links": "קישורים",
+            "language": "שָׂפָה",
+            "roles": "תפקידים",
+            "personal": "אִישִׁי",
+            "social": "חֶברָתִי"
+        },
+        "Block": "לַחסוֹם",
+        "blockUserAlertTitle": "חסום {{displayName}}",
+        "Unblock": "בטל את החסימה",
+        "Email": "אֶלֶקטרוֹנִי",
+        "Avoid": "לְהִמָנַע",
+        "Roles": "תפקידים",
+        "SendCrypto": "לְשַׁלֵם",
+        "CreatePrivateChat": "להוציא {{credits}} קרדיטים כדי ליצור קשר?",
+        "RolesInCommunity": "תפקידים בקהילה",
+        "PersonalChatWith": "צ&#39;אט אישי עם {{name}}",
+        "SendCryptoTo": "שלח קריפטו ל {{name}}",
+        "SendPaymentTo": "שלח תשלום ל {{name}}",
+        "SendEmailTo": "שלח אימייל ל {{name}}",
+        "SendSMSTo": "שלח SMS ל {{name}}",
+        "BlockThisUser": "חסום משתמש זה",
+        "UnblockThisUser": "בטל את חסימת המשתמש הזה",
+        "YouCantChatWithYourself": "אתה לא יכול לשוחח עם עצמך"
     },
     "myqr": {
         "Title": "ה-QR שלי"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} כאן כדי לראות איך אתה יכול לשתף את זה עם אנשים אחרים."
     },
     "payment": {
-        "onContribute": "תודה! התשלום שלך עבר. האם תרצה להזמין את חבריך להצטרף אליך?"
+        "onContribute": "תודה! התשלום שלך עבר. האם תרצה להזמין את חבריך להצטרף אליך?",
+        "ConnectAccount": "חבר חשבון"
     },
     "featureboard": {
         "Text_1": "תן לקול שלך להישמע! האם אתה מסכים שעלינו לפתח תכונה או באג? לחץ על הכפתור כדי לתמוך בו.",
@@ -357,6 +414,43 @@
         "communityUsers": "זו רשימת הקהילות",
         "setAsConversation": "עמודת כתובת האתר כשיחה",
         "toMainCommunityToo": "הוסף משתמשים גם לקהילה הראשית",
-        "willImportedTo": "משתמשים יובאו לקהילה"
+        "willImportedTo": "משתמשים יובאו לקהילה",
+        "ChooseFile": "בחר קובץ"
+    },
+    "welcome": {
+        "Title": "{{appName}} : ברוך הבא",
+        "GetStarted": "התחל",
+        "gallery": {
+            "Connect": "לְחַבֵּר",
+            "Organize": "לְאַרגֵן",
+            "Travel": "לִנְסוֹעַ",
+            "Share": "לַחֲלוֹק"
+        }
+    },
+    "services": {
+        "Title": "שירותים",
+        "filterByTitle": "מצא שירותים לפי כותרת",
+        "New": "+ התחל שירות חדש",
+        "NewService": "שירות חדש",
+        "NewAvailability": "זמינות חדשה",
+        "filterServices": "שירותי סינון",
+        "NoneYet": "עדיין לא נוצרו שירותים<br> בזמנים אלו.",
+        "AllAuthors": "כל המחברים",
+        "AllDays": "כל הימים",
+        "AllLocations": "כל המיקומים",
+        "MakeReservation": "בצע הזמנה",
+        "CancelReservation": "בטל הזמנה",
+        "UpdateReservation": "עדכן הזמנה",
+        "AreYouSure": "אתה בטוח?",
+        "YouWillRefunded": "תקבל החזר בצורת זיכויים שתוכל להוציא על דברים אחרים באפליקציה.",
+        "AllInterests": "כל תחומי העניין",
+        "FilterbyInterest": "סנן לפי עניין",
+        "FilterByDate": "סינון לפי תאריך",
+        "ShowActivities": "הצג פעילויות הקשורות ל...",
+        "newServices": "יש לך {{1}} שירותים חדשים",
+        "SelectLocation": "בחר מיקום",
+        "FilterLocationsPlaceHolder": "סנן מקומות עם...",
+        "Description": "שירות {{1}}",
+        "Keywords": "שירות {{1}}"
     }
 }

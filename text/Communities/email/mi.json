@@ -2,7 +2,8 @@
     "activation": {
         "Thanks": "Nau mai ki {{1}}",
         "ReallyYourEmail": "Ko tenei tonu to wahitau imeera, {{1}}? Ki te pera, paatohia a <a href='{{2}}'>konei<\/a> ki te tautuhi i to kupuhipa me te whakahohe i to putea.",
-        "SeeYou": "Ka kite koe i runga <a href='{{1}}'>{{2}}<\/a> !"
+        "SeeYou": "Ka kite koe i runga <a href='{{1}}'>{{2}}<\/a> !",
+        "Subject": "Nau mai haere mai! Tena koa manatokohia to wahitau imeera."
     },
     "LinkToUnsubscribe": "Anei he hononga ki te whakakore i te <a href='{{1}}'>ohaurunga<\/a> ki te kore koe e hiahia ki te tiki atu i etahi atu imeera.",
     "Greetings": "Tena koe na {{1}}.",
@@ -17,11 +18,16 @@
         "Thanks": "Nga mihi mo te toro {{1}}",
         "YouAreReceiving": "Kei te whiwhi koe i tenei imeera na te mea i uru tetahi ki to wahitau imeera me te panui &quot;kua wareware ki te kīangahipa&quot;. Mena ehara i a koe, waiho noa tenei karere.",
         "Reset": "Hei tautuhi i to kīangahipa, pawhiria {{1}}",
-        "SetUpPassphrase": "Whakaritehia te kīangahipa"
+        "SetUpPassphrase": "Whakaritehia te kīangahipa",
+        "DomainCode": "Mēnā kua tūwhera kē te whārangi tukutuku ki tō pūtirotiro, ka taea e koe te whakauru i te waehere",
+        "Subject": "Hey, i wareware koe i to kupuhipa?"
     },
     "subscription": {
         "YouHaveStarted": "Kia ora {{1}}, kua timata koe i to ohaurunga ki {{2}} me {{3}} i {{4}} mo {{5}} marama.",
         "HasStarted": "He mea noa tenei kia mohio koe {{1}}, kua timata ta ratou ohaurunga ki {{2}} me {{3}} i {{4}} mo {{5}} marama."
     },
-    "SeeYou": "Ka kite koe i runga {{1}}!"
+    "SeeYou": "Ka kite koe i runga {{1}}!",
+    "identifier": {
+        "Subject": "Nau mai haere mai! Manatokohia to wahitau imeera."
+    }
 }

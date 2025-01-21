@@ -2,7 +2,8 @@
     "activation": {
         "Thanks": "Velkommen til {{1}}",
         "ReallyYourEmail": "Er dette virkelig e-postadressen din, {{1}}? I så fall klikker <a href='{{2}}'>du her<\/a> for å angi passordfrasen og aktivere kontoen din.",
-        "SeeYou": "Vi sees på <a href='{{1}}'>{{2}}<\/a> !"
+        "SeeYou": "Vi sees på <a href='{{1}}'>{{2}}<\/a> !",
+        "Subject": "Velkomst! Vennligst bekreft e-postadressen din."
     },
     "LinkToUnsubscribe": "Her er en lenke for å <a href='{{1}}'>avslutte abonnementet<\/a> hvis du ikke ønsker å få flere e-poster.",
     "Greetings": "Hilsen fra {{1}}.",
@@ -17,11 +18,16 @@
         "Thanks": "Takk for besøket {{1}}",
         "YouAreReceiving": "Du mottar denne e-posten fordi noen skrev inn e-postadressen din og klikket &quot;glemt passordfrase&quot;. Hvis det ikke var deg, ignorer denne meldingen.",
         "Reset": "For å tilbakestille passordfrasen, klikk på {{1}}",
-        "SetUpPassphrase": "Sett opp passordfrase"
+        "SetUpPassphrase": "Sett opp passordfrase",
+        "DomainCode": "Hvis nettsiden allerede er åpen i nettleseren din, kan du skrive inn koden",
+        "Subject": "Hei, har du glemt passordet ditt?"
     },
     "subscription": {
         "YouHaveStarted": "Hei, {{1}}, du har startet abonnementet på {{2}} med {{3}} på {{4}} i {{5}} måneder.",
         "HasStarted": "Dette er bare for å fortelle deg at {{1}} har startet abonnementet sitt på {{2}} med {{3}} på {{4}} i {{5}} måneder."
     },
-    "SeeYou": "Vi sees på {{1}}!"
+    "SeeYou": "Vi sees på {{1}}!",
+    "identifier": {
+        "Subject": "Velkomst! Bekreft e-postadressen din."
+    }
 }

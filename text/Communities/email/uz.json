@@ -2,7 +2,8 @@
     "activation": {
         "Thanks": "{{1}} ga xush kelibsiz",
         "ReallyYourEmail": "Bu haqiqatan ham sizning elektron pochta manzilingizmi, {{1}}? Agar shunday bo&#39;lsa, parolingizni o&#39;rnatish va hisobingizni faollashtirish uchun shu <a href='{{2}}'>yerni<\/a> bosing.",
-        "SeeYou": "<a href='{{1}}'>{{2}}<\/a> da koʻrishguncha!"
+        "SeeYou": "<a href='{{1}}'>{{2}}<\/a> da koʻrishguncha!",
+        "Subject": "Xush kelibsiz! Iltimos, elektron pochta manzilingizni tasdiqlang."
     },
     "LinkToUnsubscribe": "Agar siz boshqa xat olishni istamasangiz, <a href='{{1}}'>obunani bekor qilish<\/a> uchun havola.",
     "Greetings": "{{1}} dan salomlar.",
@@ -17,11 +18,16 @@
         "Thanks": "Tashrifingiz uchun rahmat {{1}}",
         "YouAreReceiving": "Kimdir e-pochta manzilingizni kiritib, “parol iborani unutdingiz” tugmasini bosganligi uchun sizga bu xat keldi. Agar siz bo&#39;lmasangiz, bu xabarni e&#39;tiborsiz qoldiring.",
         "Reset": "Parolni tiklash uchun {{1}} tugmasini bosing",
-        "SetUpPassphrase": "Parol iborasini sozlang"
+        "SetUpPassphrase": "Parol iborasini sozlang",
+        "DomainCode": "Agar veb-sahifa brauzeringizda allaqachon ochiq bo&#39;lsa, kodni kiritishingiz mumkin",
+        "Subject": "Hey, parolingizni unutdingizmi?"
     },
     "subscription": {
         "YouHaveStarted": "Salom {{1}}, siz {{2}} obunasini {{3}} bilan {{4}} da {{5}} oyga boshladingiz.",
         "HasStarted": "Bu sizga xabar berish uchun: {{1}}, {{2}} obunasini {{3}} bilan {{4}} da {{5}} oyga boshlagan."
     },
-    "SeeYou": "{{1}} da koʻrishguncha!"
+    "SeeYou": "{{1}} da koʻrishguncha!",
+    "identifier": {
+        "Subject": "Xush kelibsiz! Elektron pochta manzilingizni tasdiqlang."
+    }
 }

@@ -4,7 +4,24 @@
         "NextSteps": "Brûk it haadmenu om te finen wat jo sykje."
     },
     "dashboard": {
-        "Menu": "Menu"
+        "Menu": "Menu",
+        "Home": "Thús",
+        "Welcome": "Wolkom",
+        "Events": "Eveneminten",
+        "Discuss": "Diskusjearje",
+        "People": "Folk",
+        "About": "Oer",
+        "Community": "Mienskip",
+        "LogIn": "ynlogge",
+        "LogOut": "útlogge",
+        "Intercoin": "Intercoin",
+        "Shows": "Shows",
+        "Calendar": "Kalinder",
+        "Me": "My",
+        "Media": "Media",
+        "Services": "Tsjinsten",
+        "SetMobileNumber": "Stel Mobile Number",
+        "SetEmailAddress": "E-postadres ynstelle"
     },
     "greeting": {
         "Welcome": "Wolkom by {{1}}. Hjir fine jo dingen pleatst foar leden fan ús mienskip. Foegje asjebleaft jo e-mailadres of mobylnûmer ta om notifikaasjes te ûntfangen as oankundigingen pleatst wurde."
@@ -80,13 +97,15 @@
         "FindPeople": "Fyn minsken om mei te praten",
         "GroupConversations": "Doch mei oan guon groeppetearen",
         "ContactStaff": "Kontaktpersoniel",
-        "ContactCustomers": "Kontakt Klanten"
+        "ContactCustomers": "Kontakt Klanten",
+        "AddNewContacts": "Nije kontakten taheakje"
     },
     "me": {
         "Title": "My",
         "MobileNumber": "Mobyl nûmer",
         "EmailAddress": "E-postadres",
-        "UpdateSocialTitle": "Update {{1}} brûkersnamme"
+        "UpdateSocialTitle": "Update {{1}} brûkersnamme",
+        "Web3": "Web3"
     },
     "people": {
         "Title": "Folk",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "Minsken mei mienskiplike belangen"
         },
-        "Done": "Dien"
+        "Done": "Dien",
+        "Title": "Basis ynformaasje",
+        "Prompt": "In pear stappen om jo akkount yn te stellen",
+        "relationships": {
+            "explanation": "Wat is dyn relaasje?",
+            "welcome": "wolkom {{user}} ",
+            "invitedByUser": "útnoege dy.",
+            "addToPhonebook": "Bewarje yn myn tillefoankontakten",
+            "iosInstructions": "Rôlje omleech nei Add New Contact",
+            "androidInstructions": "Jo moatte dizze vCard-bestân iepenje nei&#39;t it ynladen is."
+        }
     },
     "profile": {
         "Title": "Profyl",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "Typ hjir jobs info",
         "EducationPlaceholder": "Typ hjir ûnderwiisynformaasje",
         "ManageNotifications": "Notifikaasjes beheare",
-        "YourPreferredLanguage": "Jo foarkarstaal"
+        "YourPreferredLanguage": "Jo foarkarstaal",
+        "sections": {
+            "education": "Oplieding",
+            "greeting": "Groet",
+            "jobs": "Jobs",
+            "links": "Links",
+            "language": "Taal",
+            "roles": "Rollen",
+            "personal": "Persoanlik",
+            "social": "Sosjaal"
+        },
+        "Block": "Blok",
+        "blockUserAlertTitle": "{{displayName}} blokkearre",
+        "Unblock": "Deblokkearje",
+        "Email": "Email",
+        "Avoid": "Avoid",
+        "Roles": "Rollen",
+        "SendCrypto": "Betelje",
+        "CreatePrivateChat": "Besteegje {{credits}} credits om te berikken?",
+        "RolesInCommunity": "Rollen yn &#39;e mienskip",
+        "PersonalChatWith": "Persoanlik petear mei {{name}}",
+        "SendCryptoTo": "Stjoer Krypto nei {{name}}",
+        "SendPaymentTo": "Stjoer in betelling nei {{name}}",
+        "SendEmailTo": "Stjoer e-post nei {{name}}",
+        "SendSMSTo": "Stjoer SMS nei {{name}}",
+        "BlockThisUser": "Blokkearje dizze brûker",
+        "UnblockThisUser": "Deblokkearje dizze brûker",
+        "YouCantChatWithYourself": "Jo kinne net petear mei dysels"
     },
     "myqr": {
         "Title": "Myn QR"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} hjir om te sjen hoe&#39;t jo dit diele kinne mei oare minsken."
     },
     "payment": {
-        "onContribute": "Tanke! Jo betelling gie troch. Wolle jo jo freonen útnoegje om mei te dwaan?"
+        "onContribute": "Tanke! Jo betelling gie troch. Wolle jo jo freonen útnoegje om mei te dwaan?",
+        "ConnectAccount": "Ferbine akkount"
     },
     "featureboard": {
         "Text_1": "Lit jo stim hearre wurde! Binne jo it iens dat wy in funksje of bug moatte ûntwikkelje? Klikje op de knop om it te stypjen.",
@@ -357,6 +414,43 @@
         "communityUsers": "Dit is mienskipslist",
         "setAsConversation": "URL-kolom as konversaasje",
         "toMainCommunityToo": "foegje ek brûkers ta oan haadmienskip",
-        "willImportedTo": "Brûkers sille wurde ymportearre nei mienskip"
+        "willImportedTo": "Brûkers sille wurde ymportearre nei mienskip",
+        "ChooseFile": "kieze triem"
+    },
+    "welcome": {
+        "Title": "{{appName}} : wolkom",
+        "GetStarted": "Begjinne",
+        "gallery": {
+            "Connect": "Ferbine",
+            "Organize": "Organisearje",
+            "Travel": "Reizgje",
+            "Share": "Diele"
+        }
+    },
+    "services": {
+        "Title": "Tsjinsten",
+        "filterByTitle": "Fyn tsjinsten op titel",
+        "New": "+ Nije tsjinst begjinne",
+        "NewService": "Nije tsjinst",
+        "NewAvailability": "Nije Beskikberens",
+        "filterServices": "Filter tsjinsten",
+        "NoneYet": "Gjin tsjinsten foarme noch<br> yn dizze tiden.",
+        "AllAuthors": "Alle skriuwers",
+        "AllDays": "Alle dagen",
+        "AllLocations": "Alle lokaasjes",
+        "MakeReservation": "Meitsje Reservearje",
+        "CancelReservation": "Ofbrekke Reservaasje",
+        "UpdateReservation": "Update Reservearring",
+        "AreYouSure": "Bisto wis?",
+        "YouWillRefunded": "Jo wurde werombetelle yn &#39;e foarm fan credits dy&#39;t jo kinne besteegje oan oare dingen yn&#39; e app.",
+        "AllInterests": "Alle ynteresses",
+        "FilterbyInterest": "Filterje op ynteresse",
+        "FilterByDate": "Filter op datum",
+        "ShowActivities": "Aktiviteiten sjen litte relatearre oan ...",
+        "newServices": "Jo hawwe {{1}} nije tsjinsten",
+        "SelectLocation": "Selektearje Lokaasje",
+        "FilterLocationsPlaceHolder": "Filtreer lokaasjes mei ...",
+        "Description": "{{1}} tsjinst",
+        "Keywords": "{{1}} tsjinst"
     }
 }

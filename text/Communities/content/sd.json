@@ -4,7 +4,24 @@
         "NextSteps": "جيڪو توهان ڳولي رهيا آهيو اهو ڳولڻ لاءِ مين مينيو استعمال ڪريو."
     },
     "dashboard": {
-        "Menu": "مينيو"
+        "Menu": "مينيو",
+        "Home": "گهر",
+        "Welcome": "ڀلي ڪري آيا",
+        "Events": "واقعا",
+        "Discuss": "بحث ڪرڻ",
+        "People": "ماڻهو",
+        "About": "بابت",
+        "Community": "ڪميونٽي",
+        "LogIn": "لاگ ان",
+        "LogOut": "لاگ آئوٽ",
+        "Intercoin": "Intercoin",
+        "Shows": "ڏيکاري ٿو",
+        "Calendar": "ڪئلينڊر",
+        "Me": "مان",
+        "Media": "ميڊيا",
+        "Services": "خدمتون",
+        "SetMobileNumber": "موبائل نمبر سيٽ ڪريو",
+        "SetEmailAddress": "اي ميل ايڊريس مقرر ڪريو"
     },
     "greeting": {
         "Welcome": "ڀليڪار ڪيون ٿا {{1}}. هتي توهان اسان جي ڪميونٽي جي ميمبرن لاء پوسٽ ڪيل شيون ڳوليندا. نوٽيفڪيشن حاصل ڪرڻ لاءِ مھرباني ڪري پنھنجو اي ميل پتو يا موبائل نمبر شامل ڪريو جڏھن اعلان پوسٽ ڪيا وڃن."
@@ -80,13 +97,15 @@
         "FindPeople": "ماڻهن سان ڳالهائڻ لاء ڳولهيو",
         "GroupConversations": "ڪجھ گروپ گفتگو ۾ شامل ٿيو",
         "ContactStaff": "اسٽاف سان رابطو ڪريو",
-        "ContactCustomers": "ڪسٽمر سان رابطو ڪريو"
+        "ContactCustomers": "ڪسٽمر سان رابطو ڪريو",
+        "AddNewContacts": "نئون رابطا شامل ڪريو"
     },
     "me": {
         "Title": "مان",
         "MobileNumber": "موبائل نمبر",
         "EmailAddress": "اي ميل پتو",
-        "UpdateSocialTitle": "تازه ڪاري ڪريو {{1}} يوزر نالو"
+        "UpdateSocialTitle": "تازه ڪاري ڪريو {{1}} يوزر نالو",
+        "Web3": "ويب3"
     },
     "people": {
         "Title": "ماڻهو",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "عام مفادن وارا ماڻهو"
         },
-        "Done": "ٿي ويو"
+        "Done": "ٿي ويو",
+        "Title": "بنيادي معلومات",
+        "Prompt": "توهان جي اڪائونٽ قائم ڪرڻ لاء چند قدم",
+        "relationships": {
+            "explanation": "توهان جو تعلق ڇا آهي؟",
+            "welcome": "ڀليڪار {{user}} ",
+            "invitedByUser": "توهان کي دعوت ڏني.",
+            "addToPhonebook": "منهنجي فون رابطن ۾ محفوظ ڪريو",
+            "iosInstructions": "نئون رابطو شامل ڪرڻ لاءِ ھيٺ لٿو",
+            "androidInstructions": "توھان کي کولڻ گھرجي ھن vCard فائل کي ڊائون لوڊ ٿيڻ کان پوءِ."
+        }
     },
     "profile": {
         "Title": "پروفائل",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "هتي ٽائيپ ڪريو نوڪري جي معلومات",
         "EducationPlaceholder": "هتي ٽائپ ڪريو تعليم جي معلومات",
         "ManageNotifications": "اطلاعن کي منظم ڪريو",
-        "YourPreferredLanguage": "توهان جي پسند جي ٻولي"
+        "YourPreferredLanguage": "توهان جي پسند جي ٻولي",
+        "sections": {
+            "education": "تعليم",
+            "greeting": "سلام ڪرڻ",
+            "jobs": "نوڪريون",
+            "links": "لنڪس",
+            "language": "ٻولي",
+            "roles": "ڪردار",
+            "personal": "ذاتي",
+            "social": "سماجي"
+        },
+        "Block": "بلاڪ",
+        "blockUserAlertTitle": "بند ٿيل {{displayName}}",
+        "Unblock": "بلاڪ ڪريو",
+        "Email": "اي ميل",
+        "Avoid": "پاسو ڪرڻ",
+        "Roles": "ڪردار",
+        "SendCrypto": "ادا",
+        "CreatePrivateChat": "خرچ ڪريو {{credits}} ڪريڊٽ تائين پهچڻ لاءِ؟",
+        "RolesInCommunity": "ڪميونٽي ۾ ڪردار",
+        "PersonalChatWith": "{{name}} سان ذاتي چيٽ",
+        "SendCryptoTo": "{{name}} تي crypto موڪليو",
+        "SendPaymentTo": "{{name}} تي ادائيگي موڪليو",
+        "SendEmailTo": "{{name}} تي اي ميل موڪليو",
+        "SendSMSTo": "{{name}} تي ايس ايم ايس موڪليو",
+        "BlockThisUser": "ھن صارف کي بلاڪ ڪريو",
+        "UnblockThisUser": "هن صارف کي بلاڪ ڪريو",
+        "YouCantChatWithYourself": "توھان پاڻ سان ڳالھائي نٿا سگھو"
     },
     "myqr": {
         "Title": "منهنجو QR"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} هتي ڏسڻ لاءِ ته توهان هن کي ٻين ماڻهن سان ڪيئن شيئر ڪري سگهو ٿا."
     },
     "payment": {
-        "onContribute": "توهان جي مهرباني! توهان جي ادائگي گذري وئي. ڇا توھان پنھنجي دوستن کي دعوت ڏيڻ چاھيو ٿا توھان سان گڏ؟"
+        "onContribute": "توهان جي مهرباني! توهان جي ادائگي گذري وئي. ڇا توھان پنھنجي دوستن کي دعوت ڏيڻ چاھيو ٿا توھان سان گڏ؟",
+        "ConnectAccount": "ڳنڍيو اڪائونٽ"
     },
     "featureboard": {
         "Text_1": "تنهنجو آواز ٻڌڻ ڏي! ڇا توهان متفق آهيو ته اسان کي هڪ خصوصيت يا بگ ٺاهڻ گهرجي؟ ان کي سپورٽ ڪرڻ لاءِ بٽڻ تي ڪلڪ ڪريو.",
@@ -357,6 +414,43 @@
         "communityUsers": "هي ڪميونٽي جي فهرست آهي",
         "setAsConversation": "URL ڪالم گفتگو جي طور تي",
         "toMainCommunityToo": "صارفين کي مکيه ڪميونٽي ۾ پڻ شامل ڪريو",
-        "willImportedTo": "صارفين کي ڪميونٽي ڏانهن درآمد ڪيو ويندو"
+        "willImportedTo": "صارفين کي ڪميونٽي ڏانهن درآمد ڪيو ويندو",
+        "ChooseFile": "فائل چونڊيو"
+    },
+    "welcome": {
+        "Title": "{{appName}} : ڀليڪار",
+        "GetStarted": "شروع ڪريو",
+        "gallery": {
+            "Connect": "ڳنڍڻ",
+            "Organize": "منظم ڪرڻ",
+            "Travel": "سفر",
+            "Share": "حصيداري ڪريو"
+        }
+    },
+    "services": {
+        "Title": "خدمتون",
+        "filterByTitle": "عنوان سان خدمتون ڳولھيو",
+        "New": "+ نئين سروس شروع ڪريو",
+        "NewService": "نئين خدمت",
+        "NewAvailability": "نئين دستيابي",
+        "filterServices": "فلٽر خدمتون",
+        "NoneYet": "اڃا تائين ڪا به خدمتون نه ٺاهي وئي<br> ان دور ۾.",
+        "AllAuthors": "سڀ ليکڪ",
+        "AllDays": "سڀ ڏينهن",
+        "AllLocations": "سڀ جايون",
+        "MakeReservation": "رزرويشن ڪريو",
+        "CancelReservation": "رزرويشن منسوخ ڪريو",
+        "UpdateReservation": "تازه ڪاري رزرويشن",
+        "AreYouSure": "ڇا توهان کي پڪ آهي؟",
+        "YouWillRefunded": "توهان کي ڪريڊٽ جي صورت ۾ واپس ڪيو ويندو جيڪي توهان ايپ ۾ ٻين شين تي خرچ ڪري سگهو ٿا.",
+        "AllInterests": "سڀ دلچسپيون",
+        "FilterbyInterest": "دلچسپي طرفان فلٽر ڪريو",
+        "FilterByDate": "تاريخ طرفان فلٽر ڪريو",
+        "ShowActivities": "سان لاڳاپيل سرگرميون ڏيکاريو ...",
+        "newServices": "توھان وٽ {{1}} نيون خدمتون آھن",
+        "SelectLocation": "جڳھ چونڊيو",
+        "FilterLocationsPlaceHolder": "جڳهن کي فلٽر ڪريو ...",
+        "Description": "{{1}} سروس",
+        "Keywords": "{{1}} سروس"
     }
 }

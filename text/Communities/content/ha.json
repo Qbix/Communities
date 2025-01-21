@@ -4,7 +4,24 @@
         "NextSteps": "Yi amfani da babban menu don nemo abin da kuke nema."
     },
     "dashboard": {
-        "Menu": "Menu"
+        "Menu": "Menu",
+        "Home": "Gida",
+        "Welcome": "Barka da zuwa",
+        "Events": "Abubuwan da suka faru",
+        "Discuss": "Tattaunawa",
+        "People": "Mutane",
+        "About": "Game da",
+        "Community": "Al&#39;umma",
+        "LogIn": "shiga",
+        "LogOut": "fita",
+        "Intercoin": "Intercoin",
+        "Shows": "Nunawa",
+        "Calendar": "Kalanda",
+        "Me": "Ni",
+        "Media": "Mai jarida",
+        "Services": "Ayyuka",
+        "SetMobileNumber": "Saita Lambar Waya",
+        "SetEmailAddress": "Saita Adireshin Imel"
     },
     "greeting": {
         "Welcome": "Barka da zuwa {{1}}. Anan zaku sami abubuwan da aka buga ga membobin al&#39;ummarmu. Da fatan za a ƙara adireshin imel ko lambar wayar hannu don karɓar sanarwa lokacin da aka buga sanarwa."
@@ -80,13 +97,15 @@
         "FindPeople": "Nemo mutanen da za ku yi magana da su",
         "GroupConversations": "Shiga wasu tattaunawar rukuni",
         "ContactStaff": "Tuntuɓi Ma&#39;aikatan",
-        "ContactCustomers": "Tuntuɓi Abokan ciniki"
+        "ContactCustomers": "Tuntuɓi Abokan ciniki",
+        "AddNewContacts": "Ƙara Sabbin Lambobi"
     },
     "me": {
         "Title": "Ni",
         "MobileNumber": "Lambar salula",
         "EmailAddress": "Adireshin i-mel",
-        "UpdateSocialTitle": "Sabunta sunan mai amfani {{1}}"
+        "UpdateSocialTitle": "Sabunta sunan mai amfani {{1}}",
+        "Web3": "Yanar Gizo3"
     },
     "people": {
         "Title": "Mutane",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "Mutane Masu Bukatu Gabaɗaya"
         },
-        "Done": "Anyi"
+        "Done": "Anyi",
+        "Title": "Bayanan asali",
+        "Prompt": "Matakai kaɗan don saita asusun ku",
+        "relationships": {
+            "explanation": "Menene dangantakar ku?",
+            "welcome": "Barka da zuwa {{user}} ",
+            "invitedByUser": "gayyace ku.",
+            "addToPhonebook": "Ajiye zuwa Lambobin waya ta",
+            "iosInstructions": "Gungura ƙasa don Ƙara Sabuwar lamba",
+            "androidInstructions": "Ya kamata ku buɗe wannan fayil ɗin vCard bayan zazzage shi."
+        }
     },
     "profile": {
         "Title": "Bayanan martaba",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "Buga anan bayanin ayyuka",
         "EducationPlaceholder": "Rubuta bayanin ilimi anan",
         "ManageNotifications": "Sarrafa Sanarwa",
-        "YourPreferredLanguage": "Harshen da kuka fi so"
+        "YourPreferredLanguage": "Harshen da kuka fi so",
+        "sections": {
+            "education": "Ilimi",
+            "greeting": "Gaisuwa",
+            "jobs": "Ayyuka",
+            "links": "Hanyoyin haɗi",
+            "language": "Harshe",
+            "roles": "Matsayi",
+            "personal": "Na sirri",
+            "social": "Zamantakewa"
+        },
+        "Block": "Toshe",
+        "blockUserAlertTitle": "An katange {{displayName}}",
+        "Unblock": "Cire katanga",
+        "Email": "Imel",
+        "Avoid": "Guji",
+        "Roles": "Matsayi",
+        "SendCrypto": "Biya",
+        "CreatePrivateChat": "Ka kashe {{credits}} kiredit don samun taimako?",
+        "RolesInCommunity": "Matsayi a cikin al&#39;umma",
+        "PersonalChatWith": "Taɗi na sirri tare da {{name}}",
+        "SendCryptoTo": "Aika crypto zuwa {{name}}",
+        "SendPaymentTo": "Aika biya zuwa {{name}}",
+        "SendEmailTo": "Aika imel zuwa {{name}}",
+        "SendSMSTo": "Aika SMS zuwa {{name}}",
+        "BlockThisUser": "Toshe wannan mai amfani",
+        "UnblockThisUser": "Cire katanga wannan mai amfani",
+        "YouCantChatWithYourself": "Ba za ku iya yin hira da kanku ba"
     },
     "myqr": {
         "Title": "QR na"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} anan don ganin yadda zaku iya raba wannan tare da sauran mutane."
     },
     "payment": {
-        "onContribute": "Na gode! Biyan ku ya wuce. Kuna so ku gayyaci abokanku tare da ku?"
+        "onContribute": "Na gode! Biyan ku ya wuce. Kuna so ku gayyaci abokanku tare da ku?",
+        "ConnectAccount": "Haɗa asusun"
     },
     "featureboard": {
         "Text_1": "Bari a ji muryar ku! Shin kun yarda ya kamata mu haɓaka fasali ko kwaro? Danna maɓallin don tallafawa shi.",
@@ -357,6 +414,43 @@
         "communityUsers": "Wannan jerin al&#39;umma ne",
         "setAsConversation": "Rukunin URL azaman tattaunawa",
         "toMainCommunityToo": "ƙara masu amfani zuwa babban al&#39;umma kuma",
-        "willImportedTo": "Za a shigo da masu amfani zuwa ga al&#39;umma"
+        "willImportedTo": "Za a shigo da masu amfani zuwa ga al&#39;umma",
+        "ChooseFile": "zabi fayil"
+    },
+    "welcome": {
+        "Title": "{{appName}} : sannu",
+        "GetStarted": "Fara",
+        "gallery": {
+            "Connect": "Haɗa",
+            "Organize": "Tsara",
+            "Travel": "Tafiya",
+            "Share": "Raba"
+        }
+    },
+    "services": {
+        "Title": "Ayyuka",
+        "filterByTitle": "Nemo ayyuka da take",
+        "New": "+ Fara Sabon Sabis",
+        "NewService": "Sabon Sabis",
+        "NewAvailability": "Sabon Samuwar",
+        "filterServices": "Tace ayyuka",
+        "NoneYet": "Har yanzu ba a samar da sabis ba<br> a wadannan lokutan.",
+        "AllAuthors": "Duk Marubuta",
+        "AllDays": "Duk Kwanaki",
+        "AllLocations": "Duk Wuraren",
+        "MakeReservation": "Yi ajiyar wuri",
+        "CancelReservation": "Soke ajiyar ajiya",
+        "UpdateReservation": "Sabunta ajiyar ajiya",
+        "AreYouSure": "Ka tabbata?",
+        "YouWillRefunded": "Za a mayar da ku ta hanyar ƙididdigewa da za ku iya kashewa kan wasu abubuwa a cikin app.",
+        "AllInterests": "Duk Abubuwan Bukatu",
+        "FilterbyInterest": "Tace da sha&#39;awa",
+        "FilterByDate": "Tace Ta Kwanan Wata",
+        "ShowActivities": "Nuna ayyukan da suka danganci ...",
+        "newServices": "Kuna da sabbin ayyuka {{1}}",
+        "SelectLocation": "Zaɓi Wuri",
+        "FilterLocationsPlaceHolder": "Tace wuraren da...",
+        "Description": "{{1}} sabis",
+        "Keywords": "{{1}} sabis"
     }
 }

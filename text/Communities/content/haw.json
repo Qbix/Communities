@@ -4,7 +4,24 @@
         "NextSteps": "E hoʻohana i ka papa kuhikuhi nui e ʻimi ai i kāu mea e ʻimi nei."
     },
     "dashboard": {
-        "Menu": "Menu"
+        "Menu": "Menu",
+        "Home": "Home",
+        "Welcome": "Welina",
+        "Events": "Nā hanana",
+        "Discuss": "Kūkākūkā",
+        "People": "Kanaka",
+        "About": "E pili ana",
+        "Community": "Kaiāulu",
+        "LogIn": "komo i loko",
+        "LogOut": "puka i waho",
+        "Intercoin": "Intercoin",
+        "Shows": "Hōʻike",
+        "Calendar": "Kalena",
+        "Me": "ʻO wau",
+        "Media": "Media",
+        "Services": "Nā lawelawe",
+        "SetMobileNumber": "E hoʻonoho i ka helu kelepona",
+        "SetEmailAddress": "E hoʻonoho i ka leka uila"
     },
     "greeting": {
         "Welcome": "Welina mai iā {{1}}. Ma ʻaneʻi ʻoe e ʻike ai i nā mea i kau ʻia no nā lālā o ko mākou kaiāulu. E ʻoluʻolu e hoʻohui i kāu leka uila a i ʻole ka helu kelepona i mea e loaʻa ai nā leka hoʻomaopopo ke kau ʻia nā hoʻolaha."
@@ -80,13 +97,15 @@
         "FindPeople": "E ʻimi i nā kānaka e kamaʻilio me",
         "GroupConversations": "E hui pū me kekahi mau kamaʻilio pūʻulu",
         "ContactStaff": "Hoʻokaʻaʻike i nā limahana",
-        "ContactCustomers": "Hoʻokaʻaʻike i nā mea kūʻai aku"
+        "ContactCustomers": "Hoʻokaʻaʻike i nā mea kūʻai aku",
+        "AddNewContacts": "Hoʻohui i nā mea hoʻopili hou"
     },
     "me": {
         "Title": "ʻO wau",
         "MobileNumber": "Helu Mobile",
         "EmailAddress": "Helu leka uila",
-        "UpdateSocialTitle": "Hōʻano hou {{1}} mea hoʻohana"
+        "UpdateSocialTitle": "Hōʻano hou {{1}} mea hoʻohana",
+        "Web3": "Pūnaewele3"
     },
     "people": {
         "Title": "Kanaka",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "Ka poʻe me ka makemake like"
         },
-        "Done": "Pau"
+        "Done": "Pau",
+        "Title": "ʻIke kumu",
+        "Prompt": "He mau ʻanuʻu e hoʻonohonoho i kāu moʻokāki",
+        "relationships": {
+            "explanation": "He aha kāu pilina?",
+            "welcome": "Welina mai {{user}} ",
+            "invitedByUser": "kono ia oe.",
+            "addToPhonebook": "E mālama i kaʻu mau kelepona kelepona",
+            "iosInstructions": "E kaomi i lalo i ka Add New Contact",
+            "androidInstructions": "Pono ʻoe e wehe i kēia faila vCard ma hope o ka hoʻoiho ʻana."
+        }
     },
     "profile": {
         "Title": "Pilikino",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "Kākau ma ʻaneʻi ka ʻike hana",
         "EducationPlaceholder": "Kākau ma ʻaneʻi ka ʻike hoʻonaʻauao",
         "ManageNotifications": "Hoʻoponopono i nā leka hoʻomaopopo",
-        "YourPreferredLanguage": "ʻO kāu ʻōlelo makemake"
+        "YourPreferredLanguage": "ʻO kāu ʻōlelo makemake",
+        "sections": {
+            "education": "Hoʻonaʻauao",
+            "greeting": "Aloha mai",
+            "jobs": "Nā hana",
+            "links": "Nā loulou",
+            "language": "ʻŌlelo",
+            "roles": "Nā kuleana",
+            "personal": "Pilikino",
+            "social": "Pilipili"
+        },
+        "Block": "Palaka",
+        "blockUserAlertTitle": "Ua ālai ʻia iā {{displayName}}",
+        "Unblock": "Wehe",
+        "Email": "leka uila",
+        "Avoid": "Hōʻalo",
+        "Roles": "Nā kuleana",
+        "SendCrypto": "Uku",
+        "CreatePrivateChat": "E hoʻolilo i nā hōʻaiʻē {{credits}} e hiki aku ai?",
+        "RolesInCommunity": "Nā kuleana ma ke kaiāulu",
+        "PersonalChatWith": "Kūkākūkā pilikino me {{name}}",
+        "SendCryptoTo": "E hoʻouna i ka crypto i {{name}}",
+        "SendPaymentTo": "E hoʻouna i kahi uku iā {{name}}",
+        "SendEmailTo": "E hoʻouna i ka leka uila iā {{name}}",
+        "SendSMSTo": "E hoʻouna iā SMS i {{name}}",
+        "BlockThisUser": "Kāohi i kēia mea hoʻohana",
+        "UnblockThisUser": "Wehe i kēia mea hoʻohana",
+        "YouCantChatWithYourself": "ʻAʻole hiki iā ʻoe ke kamaʻilio me ʻoe iho"
     },
     "myqr": {
         "Title": "ʻO kaʻu QR"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} ma &#39;ane&#39;i e &#39;ike pehea e hiki ai iā &#39;oe ke ka&#39;ana like i kēia me nā po&#39;e &#39;ē a&#39;e."
     },
     "payment": {
-        "onContribute": "Mahalo! Ua hala kāu uku. Makemake ʻoe e kono i kāu mau hoaaloha e hui pū me ʻoe?"
+        "onContribute": "Mahalo! Ua hala kāu uku. Makemake ʻoe e kono i kāu mau hoaaloha e hui pū me ʻoe?",
+        "ConnectAccount": "Hoʻohui moʻokāki"
     },
     "featureboard": {
         "Text_1": "E lohe ʻia kou leo! ʻAe ʻoe e hoʻomohala mākou i kahi hiʻohiʻona a i ʻole bug? Kaomi i ke pihi e kākoʻo iā ia.",
@@ -357,6 +414,43 @@
         "communityUsers": "ʻO kēia ka papa inoa o nā kaiāulu",
         "setAsConversation": "kolamu URL ma ke ʻano he kamaʻilio ʻana",
         "toMainCommunityToo": "hoʻohui i nā mea hoʻohana i ke kaiāulu nui pū kekahi",
-        "willImportedTo": "E lawe ʻia nā mea hoʻohana i ke kaiāulu"
+        "willImportedTo": "E lawe ʻia nā mea hoʻohana i ke kaiāulu",
+        "ChooseFile": "koho faila"
+    },
+    "welcome": {
+        "Title": "{{appName}} : aloha mai",
+        "GetStarted": "E hoʻomaka",
+        "gallery": {
+            "Connect": "Hoʻohui",
+            "Organize": "Hoʻonohonoho",
+            "Travel": "Kaahele",
+            "Share": "Kaʻana like"
+        }
+    },
+    "services": {
+        "Title": "Nā lawelawe",
+        "filterByTitle": "E huli i nā lawelawe ma ka inoa",
+        "New": "+ Hoʻomaka i ka lawelawe hou",
+        "NewService": "Hana Hou",
+        "NewAvailability": "Loaʻa Hou",
+        "filterServices": "Nā lawelawe kānana",
+        "NoneYet": "ʻAʻohe lawelawe i hoʻokumu ʻia<br> i keia mau manawa.",
+        "AllAuthors": "Nā mea kākau a pau",
+        "AllDays": "Nā lā a pau",
+        "AllLocations": "Nā Wahi a pau",
+        "MakeReservation": "Hana Hoʻopaʻa",
+        "CancelReservation": "Hoʻopau i ka waiho ʻana",
+        "UpdateReservation": "Hoʻohou i ka mālama ʻana",
+        "AreYouSure": "He ʻoiaʻiʻo kēnā?",
+        "YouWillRefunded": "E hoʻihoʻi ʻia ʻoe ma ke ʻano o nā hōʻaiʻē hiki iā ʻoe ke hoʻolilo ma nā mea ʻē aʻe ma ka app.",
+        "AllInterests": "Nā Pono a pau",
+        "FilterbyInterest": "Kānana ma ka hoihoi",
+        "FilterByDate": "kānana ma ka lā",
+        "ShowActivities": "Hōʻike i nā hana e pili ana i ...",
+        "newServices": "He {{1}} kāu mau lawelawe hou",
+        "SelectLocation": "E koho i kahi",
+        "FilterLocationsPlaceHolder": "Kānā i nā wahi me ...",
+        "Description": "{{1}} lawelawe",
+        "Keywords": "{{1}} lawelawe"
     }
 }

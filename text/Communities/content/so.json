@@ -4,7 +4,24 @@
         "NextSteps": "Isticmaal liiska muhiimka ah si aad u hesho waxaad raadinayso."
     },
     "dashboard": {
-        "Menu": "Menu"
+        "Menu": "Menu",
+        "Home": "Guriga",
+        "Welcome": "Soo dhawoow",
+        "Events": "Dhacdooyinka",
+        "Discuss": "Ka wada hadla",
+        "People": "Dadka",
+        "About": "Ku saabsan",
+        "Community": "Bulshada",
+        "LogIn": "gal",
+        "LogOut": "ka bax",
+        "Intercoin": "Intercoin",
+        "Shows": "Bandhigyada",
+        "Calendar": "Kalandarka",
+        "Me": "Aniga",
+        "Media": "Warbaahinta",
+        "Services": "Adeegyada",
+        "SetMobileNumber": "Deji Lambarka Mobilka",
+        "SetEmailAddress": "Deji Ciwaanka iimaylka"
     },
     "greeting": {
         "Welcome": "Ku soo dhawoow {{1}} Halkan waxa aad ka heli doontaa waxyaabo lagu dhejiyay xubnaha bulshadayada. Fadlan ku dar ciwaanka emailkaaga ama nambarka gacanta si aad u hesho ogaysiisyada marka ogaysiisyada la soo dhejiyo."
@@ -80,13 +97,15 @@
         "FindPeople": "Raadi dad aad la hadasho",
         "GroupConversations": "Ku biir qaar ka mid ah wada sheekaysiga kooxda",
         "ContactStaff": "Xiriirinta Shaqaalaha",
-        "ContactCustomers": "La xidhiidh Macaamiisha"
+        "ContactCustomers": "La xidhiidh Macaamiisha",
+        "AddNewContacts": "Kudar Xiriiryo Cusub"
     },
     "me": {
         "Title": "Aniga",
         "MobileNumber": "Nambarka taleefonka",
         "EmailAddress": "Cinwaanka emailka",
-        "UpdateSocialTitle": "Cusbooneysii {{1}} magaca isticmaale"
+        "UpdateSocialTitle": "Cusbooneysii {{1}} magaca isticmaale",
+        "Web3": "Web3"
     },
     "people": {
         "Title": "Dadka",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "Dadka danaha guud leh"
         },
-        "Done": "La sameeyay"
+        "Done": "La sameeyay",
+        "Title": "Macluumaadka aasaasiga ah",
+        "Prompt": "Dhowr tillaabo oo lagu dejinayo akoonkaaga",
+        "relationships": {
+            "explanation": "waa maxay xidhiidhkaagu?",
+            "welcome": "Soo dhawoow {{user}} ",
+            "invitedByUser": "ku casuumay.",
+            "addToPhonebook": "Ku keydi Xiriirada Taleefanka",
+            "iosInstructions": "Hoos ugu dhaadhac Xiriir Cusub",
+            "androidInstructions": "Waa inaad furto faylka vCard ka dib marka la soo dejiyo."
+        }
     },
     "profile": {
         "Title": "Profile",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "Halkan ku qor macluumaadka shaqooyinka",
         "EducationPlaceholder": "Halkan ku qor macluumaadka waxbarashada",
         "ManageNotifications": "Maamul Ogeysiinta",
-        "YourPreferredLanguage": "Luuqada aad door bidayso"
+        "YourPreferredLanguage": "Luuqada aad door bidayso",
+        "sections": {
+            "education": "Waxbarashada",
+            "greeting": "Salaan",
+            "jobs": "Shaqooyinka",
+            "links": "Xiriirinta",
+            "language": "Luuqad",
+            "roles": "Doorarka",
+            "personal": "Shakhsi ahaaneed",
+            "social": "Bulsho"
+        },
+        "Block": "Block",
+        "blockUserAlertTitle": "La xannibay {{displayName}}",
+        "Unblock": "Furi",
+        "Email": "iimaylka",
+        "Avoid": "Iska ilaali",
+        "Roles": "Doorarka",
+        "SendCrypto": "Bixi",
+        "CreatePrivateChat": "Bixi {{credits}} dhibcood si aad u gaadho?",
+        "RolesInCommunity": "Doorarka bulshada",
+        "PersonalChatWith": "Shakhsiyeed la sheekaysi {{name}}",
+        "SendCryptoTo": "U dir crypto {{name}}",
+        "SendPaymentTo": "U dir lacag {{name}}",
+        "SendEmailTo": "U dir iimayl {{name}}",
+        "SendSMSTo": "SMS u dir {{name}}",
+        "BlockThisUser": "Jooji isticmaalahan",
+        "UnblockThisUser": "Jooji isticmaale kan",
+        "YouCantChatWithYourself": "Adigu ma la sheekaysan kartid naftaada"
     },
     "myqr": {
         "Title": "QR-kayga"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} halkan si aad u aragto sida aad tan dadka kale ula wadaagi karto."
     },
     "payment": {
-        "onContribute": "Mahadsanid! Lacag bixintaadu way soo martay. Ma jeclaan lahayd inaad ku casuunto asxaabtaada inay kugu soo biiraan?"
+        "onContribute": "Mahadsanid! Lacag bixintaadu way soo martay. Ma jeclaan lahayd inaad ku casuunto asxaabtaada inay kugu soo biiraan?",
+        "ConnectAccount": "Ku xidh akoon"
     },
     "featureboard": {
         "Text_1": "Codkaaga ha la maqlo! Ma ogolatay inaan horumarino sifo ama bug? Guji badhanka si aad u taageerto.",
@@ -357,6 +414,43 @@
         "communityUsers": "Kani waa liiska beelaha",
         "setAsConversation": "Tiirka URL wada hadal ahaan",
         "toMainCommunityToo": "ku dar isticmaalayaasha bulshada guud sidoo kale",
-        "willImportedTo": "Isticmaalayaasha waxaa loo soo dhoofin doonaa bulshada"
+        "willImportedTo": "Isticmaalayaasha waxaa loo soo dhoofin doonaa bulshada",
+        "ChooseFile": "dooro faylka"
+    },
+    "welcome": {
+        "Title": "{{appName}} : soo dhawaada",
+        "GetStarted": "Bilow",
+        "gallery": {
+            "Connect": "Ku xidhnow",
+            "Organize": "Abaabulan",
+            "Travel": "Safarka",
+            "Share": "La wadaag"
+        }
+    },
+    "services": {
+        "Title": "Adeegyada",
+        "filterByTitle": "Ku hel adeegyada cinwaan ahaan",
+        "New": "+ Bilow Adeeg Cusub",
+        "NewService": "Adeeg Cusub",
+        "NewAvailability": "Helitaanka Cusub",
+        "filterServices": "Adeegyada shaandhaynta",
+        "NoneYet": "Weli wax adeegyo ah lama samayn<br> xilliyadan.",
+        "AllAuthors": "Dhammaan Qorayaasha",
+        "AllDays": "Maalmaha oo dhan",
+        "AllLocations": "Dhammaan Goobaha",
+        "MakeReservation": "Boos sii qabsi",
+        "CancelReservation": "Jooji Boos sii qabsiga",
+        "UpdateReservation": "Cusbooneysii Boos sii qabsi",
+        "AreYouSure": "Ma hubtaa?",
+        "YouWillRefunded": "Waxaa lagugu soo celin doonaa qaab credits aad ku bixin karto waxyaabaha kale ee abka.",
+        "AllInterests": "Dhammaan Danaha",
+        "FilterbyInterest": "Ku kala shaandhee Dan",
+        "FilterByDate": "Ku Shaandhayso Taariikhda",
+        "ShowActivities": "Muuji hawlaha la xiriira...",
+        "newServices": "Waxaad haysataa {{1}} adeegyo cusub",
+        "SelectLocation": "Dooro Goobta",
+        "FilterLocationsPlaceHolder": "Kala shaandhee goobaha...",
+        "Description": "{{1}} adeeg",
+        "Keywords": "{{1}} adeeg"
     }
 }

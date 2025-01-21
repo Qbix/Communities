@@ -4,7 +4,24 @@
         "NextSteps": "Fa&#39;aoga le lisi autu e su&#39;e ai mea o lo&#39;o e su&#39;eina."
     },
     "dashboard": {
-        "Menu": "Menu"
+        "Menu": "Menu",
+        "Home": "Aiga",
+        "Welcome": "Afio mai",
+        "Events": "Mea na tutupu",
+        "Discuss": "Talanoaina",
+        "People": "Tagata",
+        "About": "E uiga i",
+        "Community": "Nuu",
+        "LogIn": "ulufale i totonu",
+        "LogOut": "saini ese j",
+        "Intercoin": "Intercoin",
+        "Shows": "Fa&#39;aaliga",
+        "Calendar": "Kalena",
+        "Me": "O a&#39;u",
+        "Media": "Faasalalauga",
+        "Services": "Au&#39;aunaga",
+        "SetMobileNumber": "Seti Numera Telefoni",
+        "SetEmailAddress": "Seti le tuatusi imeli"
     },
     "greeting": {
         "Welcome": "Susu maia i {{1}}. O iinei e te maua ai mea e lafoina mo tagata o lo matou nuu. Fa&#39;amolemole fa&#39;aopoopo lau tuatusi imeli po&#39;o le numera feavea&#39;i ina ia mafai ai ona maua fa&#39;amatalaga pe a lafo fa&#39;asalalauga."
@@ -80,13 +97,15 @@
         "FindPeople": "Su&#39;e tagata e talanoa i ai",
         "GroupConversations": "Auai i ni talanoaga faavaega",
         "ContactStaff": "Fa&#39;afeso&#39;ota&#39;i le Aufaigaluega",
-        "ContactCustomers": "Fa&#39;afeso&#39;ota&#39;i Tagata Fa&#39;atau"
+        "ContactCustomers": "Fa&#39;afeso&#39;ota&#39;i Tagata Fa&#39;atau",
+        "AddNewContacts": "Fa&#39;aopoopo Feso&#39;ota&#39;iga Fou"
     },
     "me": {
         "Title": "O a&#39;u",
         "MobileNumber": "Numera feavea&#39;i",
         "EmailAddress": "Imeli tuatusi",
-        "UpdateSocialTitle": "Fa&#39;afou {{1}} username"
+        "UpdateSocialTitle": "Fa&#39;afou {{1}} username",
+        "Web3": "Uepi3"
     },
     "people": {
         "Title": "Tagata",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "Tagata e iai mea e fiafia iai"
         },
-        "Done": "Ua uma"
+        "Done": "Ua uma",
+        "Title": "Fa&#39;amatalaga Autu",
+        "Prompt": "O nai laasaga e seti ai lau tala",
+        "relationships": {
+            "explanation": "O le a la oulua mafutaga?",
+            "welcome": "Susu maia {{user}} ",
+            "invitedByUser": "valaaulia oe.",
+            "addToPhonebook": "Faasaoina i La&#39;u Telefoni Feso&#39;ota&#39;iga",
+            "iosInstructions": "Fa&#39;asolo i lalo ile Fa&#39;aopoopo Feso&#39;ota&#39;iga Fou",
+            "androidInstructions": "E tatau ona e tatalaina lenei faila vCard pe a uma ona sii mai."
+        }
     },
     "profile": {
         "Title": "Tala&#39;aga",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "Tu&#39;i iinei fa&#39;amatalaga galuega",
         "EducationPlaceholder": "Tu&#39;i iinei fa&#39;amatalaga a&#39;oa&#39;oga",
         "ManageNotifications": "Pulea Fa&#39;asilasilaga",
-        "YourPreferredLanguage": "Lau gagana e fiafia iai"
+        "YourPreferredLanguage": "Lau gagana e fiafia iai",
+        "sections": {
+            "education": "A&#39;oga",
+            "greeting": "Fa&#39;afeiloa&#39;i",
+            "jobs": "Galuega",
+            "links": "So&#39;oga",
+            "language": "Gagana",
+            "roles": "Matafaioi",
+            "personal": "Patino",
+            "social": "Social"
+        },
+        "Block": "poloka",
+        "blockUserAlertTitle": "poloka {{displayName}}",
+        "Unblock": "Tatala",
+        "Email": "imeli",
+        "Avoid": "Aloese mai",
+        "Roles": "Matafaioi",
+        "SendCrypto": "Totogi",
+        "CreatePrivateChat": "Fa&#39;aalu {{credits}} maka e aapa atu ai?",
+        "RolesInCommunity": "Matafaioi i totonu o nuu",
+        "PersonalChatWith": "Talanoaga patino ma {{name}}",
+        "SendCryptoTo": "Lafo le crypto ile {{name}}",
+        "SendPaymentTo": "Auina atu se totogi ile {{name}}",
+        "SendEmailTo": "Auina imeli ile {{name}}",
+        "SendSMSTo": "Lafo SMS ile {{name}}",
+        "BlockThisUser": "poloka lenei tagata fa&#39;aoga",
+        "UnblockThisUser": "Tatala lenei tagata fa&#39;aoga",
+        "YouCantChatWithYourself": "E le mafai ona e talatalanoa ma oe"
     },
     "myqr": {
         "Title": "O la&#39;u QR"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} iinei e va&#39;ai pe fa&#39;apefea ona e fa&#39;asoa atu lenei mea i isi tagata."
     },
     "payment": {
-        "onContribute": "Faafetai! Ua uma lau totogi. E te mana&#39;o e vala&#39;aulia au uo e fa&#39;atasi ma oe?"
+        "onContribute": "Faafetai! Ua uma lau totogi. E te mana&#39;o e vala&#39;aulia au uo e fa&#39;atasi ma oe?",
+        "ConnectAccount": "Fa&#39;afeso&#39;ota&#39;i tala"
     },
     "featureboard": {
         "Text_1": "Ia lagona lou leo! E te ioe e tatau ona tatou atiaʻe se faʻaaliga poʻo se bug? Kiliki le ki e Lagolago ai.",
@@ -357,6 +414,43 @@
         "communityUsers": "Ole lisi lea o nu&#39;u",
         "setAsConversation": "URL koluma e fai ma talanoaga",
         "toMainCommunityToo": "fa&#39;aopoopo fo&#39;i tagata fa&#39;aoga i nu&#39;u tele",
-        "willImportedTo": "O tagata fa&#39;aoga o le a fa&#39;aulufale mai i nu&#39;u"
+        "willImportedTo": "O tagata fa&#39;aoga o le a fa&#39;aulufale mai i nu&#39;u",
+        "ChooseFile": "filifili faila"
+    },
+    "welcome": {
+        "Title": "{{appName}} : afio mai",
+        "GetStarted": "Amata",
+        "gallery": {
+            "Connect": "Feso&#39;ota&#39;i",
+            "Organize": "Faatulaga",
+            "Travel": "Malaga",
+            "Share": "Faasoa"
+        }
+    },
+    "services": {
+        "Title": "Au&#39;aunaga",
+        "filterByTitle": "Su&#39;e &#39;au&#39;aunaga i le fa&#39;alupega",
+        "New": "+ Amata Auaunaga Fou",
+        "NewService": "Auaunaga Fou",
+        "NewAvailability": "Avanoa Fou",
+        "filterServices": "Filifiliga tautua",
+        "NoneYet": "E le&#39;i faia se auaunaga<br> i nei taimi.",
+        "AllAuthors": "Tusitala uma",
+        "AllDays": "Aso uma",
+        "AllLocations": "Nofoaga uma",
+        "MakeReservation": "Fai Faasao",
+        "CancelReservation": "Fa&#39;aleaogaina Fa&#39;aagaga",
+        "UpdateReservation": "Fa&#39;afou Fa&#39;asao",
+        "AreYouSure": "E mo&#39;i lava oe?",
+        "YouWillRefunded": "O le a toe fa&#39;afo&#39;iina oe i le tulaga o aitalafu e mafai ona e fa&#39;aaluina i isi mea i totonu ole app.",
+        "AllInterests": "O mea uma e fiafia i ai",
+        "FilterbyInterest": "Filifili e ala i Tului",
+        "FilterByDate": "Filifili ile Aso",
+        "ShowActivities": "Fa&#39;aali gaioiga e feso&#39;ota&#39;i ma...",
+        "newServices": "E {{1}} au tautua fou",
+        "SelectLocation": "Filifili Nofoaga",
+        "FilterLocationsPlaceHolder": "Filifili nofoaga ma ...",
+        "Description": "{{1}} auaunaga",
+        "Keywords": "{{1}} auaunaga"
     }
 }

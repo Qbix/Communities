@@ -4,7 +4,24 @@
         "NextSteps": "Bruk hovedmenyen for å finne det du leter etter."
     },
     "dashboard": {
-        "Menu": "Meny"
+        "Menu": "Meny",
+        "Home": "Hjem",
+        "Welcome": "Velkomst",
+        "Events": "Hendelser",
+        "Discuss": "Diskutere",
+        "People": "Mennesker",
+        "About": "Om",
+        "Community": "Fellesskap",
+        "LogIn": "logge inn",
+        "LogOut": "logge ut",
+        "Intercoin": "Intercoin",
+        "Shows": "Viser",
+        "Calendar": "Kalender",
+        "Me": "Meg",
+        "Media": "Media",
+        "Services": "Tjenester",
+        "SetMobileNumber": "Angi mobilnummer",
+        "SetEmailAddress": "Angi e-postadresse"
     },
     "greeting": {
         "Welcome": "Velkommen til {{1}}. Her finner du ting som er lagt ut for medlemmer av fellesskapet vårt. Vennligst legg til din e-postadresse eller mobilnummer for å motta varsler når kunngjøringer legges ut."
@@ -80,13 +97,15 @@
         "FindPeople": "Finn folk å snakke med",
         "GroupConversations": "Bli med i noen gruppesamtaler",
         "ContactStaff": "Ta kontakt med personalet",
-        "ContactCustomers": "Kontakt kunder"
+        "ContactCustomers": "Kontakt kunder",
+        "AddNewContacts": "Legg til nye kontakter"
     },
     "me": {
         "Title": "Meg",
         "MobileNumber": "Mobilnummer",
         "EmailAddress": "Epostadresse",
-        "UpdateSocialTitle": "Oppdater {{1}} brukernavn"
+        "UpdateSocialTitle": "Oppdater {{1}} brukernavn",
+        "Web3": "Web3"
     },
     "people": {
         "Title": "Mennesker",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "Mennesker med felles interesser"
         },
-        "Done": "Ferdig"
+        "Done": "Ferdig",
+        "Title": "Grunnleggende informasjon",
+        "Prompt": "Noen få trinn for å konfigurere kontoen din",
+        "relationships": {
+            "explanation": "Hva er forholdet ditt?",
+            "welcome": "Velkommen {{user}} ",
+            "invitedByUser": "inviterte deg.",
+            "addToPhonebook": "Lagre i Mine telefonkontakter",
+            "iosInstructions": "Rull ned til Legg til ny kontakt",
+            "androidInstructions": "Du bør åpne denne vCard-filen etter at den er lastet ned."
+        }
     },
     "profile": {
         "Title": "Profil",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "Skriv inn jobbinfo her",
         "EducationPlaceholder": "Skriv inn utdanningsinfo her",
         "ManageNotifications": "Administrer varsler",
-        "YourPreferredLanguage": "Ditt foretrukne språk"
+        "YourPreferredLanguage": "Ditt foretrukne språk",
+        "sections": {
+            "education": "Utdannelse",
+            "greeting": "Hilsen",
+            "jobs": "Jobber",
+            "links": "Lenker",
+            "language": "Språk",
+            "roles": "Roller",
+            "personal": "Personlig",
+            "social": "Sosial"
+        },
+        "Block": "Blokkere",
+        "blockUserAlertTitle": "Blokkert {{displayName}}",
+        "Unblock": "Fjern blokkering",
+        "Email": "E-post",
+        "Avoid": "Unngå",
+        "Roles": "Roller",
+        "SendCrypto": "Betale",
+        "CreatePrivateChat": "Bruke {{credits}} studiepoeng for å nå ut?",
+        "RolesInCommunity": "Roller i fellesskapet",
+        "PersonalChatWith": "Personlig chat med {{name}}",
+        "SendCryptoTo": "Send krypto til {{name}}",
+        "SendPaymentTo": "Send en betaling til {{name}}",
+        "SendEmailTo": "Send e-post til {{name}}",
+        "SendSMSTo": "Send SMS til {{name}}",
+        "BlockThisUser": "Blokker denne brukeren",
+        "UnblockThisUser": "Opphev blokkeringen av denne brukeren",
+        "YouCantChatWithYourself": "Du kan ikke chatte med deg selv"
     },
     "myqr": {
         "Title": "Min QR"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} her for å se hvordan du kan dele dette med andre."
     },
     "payment": {
-        "onContribute": "Takk skal du ha! Betalingen din gikk gjennom. Vil du invitere vennene dine med?"
+        "onContribute": "Takk skal du ha! Betalingen din gikk gjennom. Vil du invitere vennene dine med?",
+        "ConnectAccount": "Koble til konto"
     },
     "featureboard": {
         "Text_1": "La din stemme bli hørt! Er du enig i at vi bør utvikle en funksjon eller feil? Klikk på knappen for å støtte den.",
@@ -357,6 +414,43 @@
         "communityUsers": "Dette er fellesskapslisten",
         "setAsConversation": "URL-kolonne som samtale",
         "toMainCommunityToo": "legge til brukere i hovedfellesskapet også",
-        "willImportedTo": "Brukere vil bli importert til fellesskapet"
+        "willImportedTo": "Brukere vil bli importert til fellesskapet",
+        "ChooseFile": "velg fil"
+    },
+    "welcome": {
+        "Title": "{{appName}} : Velkommen",
+        "GetStarted": "Kom i gang",
+        "gallery": {
+            "Connect": "Koble til",
+            "Organize": "Organisere",
+            "Travel": "Reise",
+            "Share": "Dele"
+        }
+    },
+    "services": {
+        "Title": "Tjenester",
+        "filterByTitle": "Finn tjenester etter tittel",
+        "New": "+ Start ny tjeneste",
+        "NewService": "Ny tjeneste",
+        "NewAvailability": "Ny tilgjengelighet",
+        "filterServices": "Filtertjenester",
+        "NoneYet": "Ingen tjenester er opprettet ennå<br> i disse tider.",
+        "AllAuthors": "Alle forfattere",
+        "AllDays": "Alle dager",
+        "AllLocations": "Alle steder",
+        "MakeReservation": "Foreta reservasjon",
+        "CancelReservation": "Kanseller reservasjon",
+        "UpdateReservation": "Oppdater reservasjon",
+        "AreYouSure": "Er du sikker?",
+        "YouWillRefunded": "Du vil bli refundert i form av kreditter du kan bruke på andre ting i appen.",
+        "AllInterests": "Alle interesser",
+        "FilterbyInterest": "Filtrer etter interesse",
+        "FilterByDate": "Filtrer etter dato",
+        "ShowActivities": "Vis aktiviteter relatert til...",
+        "newServices": "Du har {{1}} nye tjenester",
+        "SelectLocation": "Velg Sted",
+        "FilterLocationsPlaceHolder": "Filtrer arenaer med ...",
+        "Description": "{{1}} tjeneste",
+        "Keywords": "{{1}} tjeneste"
     }
 }

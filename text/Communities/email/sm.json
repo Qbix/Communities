@@ -2,7 +2,8 @@
     "activation": {
         "Thanks": "Afio mai i {{1}}",
         "ReallyYourEmail": "O lau tuatusi imeli moni lea, {{1}}? Afai o lea, kiliki <a href='{{2}}'>iinei<\/a> e seti ai lau passphrase ma faʻagaoioia lau teugatupe.",
-        "SeeYou": "Toe feiloa&#39;i i <a href='{{1}}'>{{2}}<\/a> !"
+        "SeeYou": "Toe feiloa&#39;i i <a href='{{1}}'>{{2}}<\/a> !",
+        "Subject": "Afio mai! Fa&#39;amolemole fa&#39;amaonia lau tuatusi imeli."
     },
     "LinkToUnsubscribe": "Ole feso&#39;ota&#39;iga lea e <a href='{{1}}'>unsubscribe<\/a> pe afai e te le mana&#39;o e toe maua nisi imeli.",
     "Greetings": "Fa&#39;afetai mai ia {{1}}.",
@@ -17,11 +18,16 @@
         "Thanks": "Faafetai mo le asiasi mai {{1}}",
         "YouAreReceiving": "O lo&#39;o e mauaina lenei imeli ona o se tasi na ulufale i lau tuatusi imeli ma kiliki &quot;galo passphrase&quot;. Afai e le o oe, aua le amanaiaina lenei savali.",
         "Reset": "Ina ia toe setiina lau fuaitau, kiliki {{1}}",
-        "SetUpPassphrase": "Seti le fa&#39;aupuga"
+        "SetUpPassphrase": "Seti le fa&#39;aupuga",
+        "DomainCode": "Afai o le itulau webpage ua uma ona tatala i lau suʻega, e mafai ona e ulufale i le code",
+        "Subject": "Ei, ua galo ia oe lau upu faataga?"
     },
     "subscription": {
         "YouHaveStarted": "Talofa {{1}}, ua amata lau saofaga i {{2}} ma {{3}} i {{4}} mo {{5}} masina.",
         "HasStarted": "E na&#39;o le fa&#39;ailoa atu ia te oe {{1}}, ua amata la latou saofaga i {{2}} ma {{3}} i {{4}} mo {{5}} masina."
     },
-    "SeeYou": "Toe feiloa&#39;i ile {{1}}!"
+    "SeeYou": "Toe feiloa&#39;i ile {{1}}!",
+    "identifier": {
+        "Subject": "Afio mai! Fa&#39;amaonia lau tuatusi imeli."
+    }
 }

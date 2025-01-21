@@ -2,7 +2,8 @@
     "activation": {
         "Thanks": "Nnọọ na {{1}}",
         "ReallyYourEmail": "Nke a ọ bụ adreesị ozi-e gị n&#39;ezie, {{1}}? Ọ bụrụ otu a, pịa <a href='{{2}}'>ebe a<\/a> ka ịtọọ passphrase gị wee mee ka akaụntụ gị rụọ ọrụ.",
-        "SeeYou": "Hụrụ gị na <a href='{{1}}'>{{2}}<\/a> !"
+        "SeeYou": "Hụrụ gị na <a href='{{1}}'>{{2}}<\/a> !",
+        "Subject": "Nnọọ! Biko chọpụta adreesị ozi-e gị."
     },
     "LinkToUnsubscribe": "Nke a bụ njikọ <a href='{{1}}'>ịwepụ aha<\/a> ma ọ bụrụ na ịchọghị ịnweta ozi-e ọzọ.",
     "Greetings": "Ekele si {{1}}.",
@@ -17,11 +18,16 @@
         "Thanks": "Daalụ maka ileta {{1}}",
         "YouAreReceiving": "Ị na-enweta email a n&#39;ihi na mmadụ banyere adreesị email gị wee pịa &quot;chefuru passphrase&quot;. Ọ bụrụ na ọ bụghị gị, leghara ozi a anya.",
         "Reset": "Iji tọgharịa asusu mbanye gị, pịa {{1}}",
-        "SetUpPassphrase": "Hazie okwuntughe"
+        "SetUpPassphrase": "Hazie okwuntughe",
+        "DomainCode": "Ọ bụrụ na ibe weebụ emeghelarị na ihe nchọgharị gị, ị nwere ike itinye koodu ahụ",
+        "Subject": "Hey, ị chefuru paswọọdụ gị?"
     },
     "subscription": {
         "YouHaveStarted": "Hey {{1}}, iji {{3}} malite ndebanye aha gị na {{2}} na {{4}} maka ọnwa {{5}}.",
         "HasStarted": "Nke a bụ naanị ime ka ị mata {{1}}, malitela ndebanye aha ha na {{2}} na {{3}} na {{4}} maka ọnwa {{5}}."
     },
-    "SeeYou": "Hụrụ gị na {{1}}!"
+    "SeeYou": "Hụrụ gị na {{1}}!",
+    "identifier": {
+        "Subject": "Nnọọ! Nyochaa adreesị ozi-e gị."
+    }
 }

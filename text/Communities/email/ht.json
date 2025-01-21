@@ -2,7 +2,8 @@
     "activation": {
         "Thanks": "Byenveni nan {{1}}",
         "ReallyYourEmail": "Èske sa vrèman adrès imel ou, {{1}}? Si se konsa, klike <a href='{{2}}'>la<\/a> a pou mete pasfraz ou epi aktive kont ou.",
-        "SeeYou": "Nap wè sou <a href='{{1}}'>{{2}}<\/a> !"
+        "SeeYou": "Nap wè sou <a href='{{1}}'>{{2}}<\/a> !",
+        "Subject": "Byenvini! Tanpri verifye adrès imel ou."
     },
     "LinkToUnsubscribe": "Men yon lyen pou <a href='{{1}}'>dezabòne<\/a> si ou pa vle jwenn okenn lòt imèl.",
     "Greetings": "Bonjou soti nan {{1}}.",
@@ -17,11 +18,16 @@
         "Thanks": "Mèsi paske w te vizite {{1}}",
         "YouAreReceiving": "W ap resevwa imel sa a paske yon moun te antre adrès imel ou epi li klike &quot;yo bliye pasfraz&quot;. Si se pa ou, tou senpleman inyore mesaj sa a.",
         "Reset": "Pou reset fraz pas ou a, klike sou {{1}}",
-        "SetUpPassphrase": "Mete kanpe pasfraz"
+        "SetUpPassphrase": "Mete kanpe pasfraz",
+        "DomainCode": "Si paj wèb la deja louvri nan navigatè w la, ou ka antre kòd la",
+        "Subject": "Hey, ou bliye modpas ou a?"
     },
     "subscription": {
         "YouHaveStarted": "Hey {{1}}, ou te kòmanse abònman ou a {{2}} ak {{3}} nan {{4}} pou {{5}} mwa.",
         "HasStarted": "Sa a se jis pou fè w konnen {{1}}, te kòmanse abònman yo nan {{2}} ak {{3}} nan {{4}} pou {{5}} mwa."
     },
-    "SeeYou": "Nap wè sou {{1}}!"
+    "SeeYou": "Nap wè sou {{1}}!",
+    "identifier": {
+        "Subject": "Byenvini! Verifye adrès imel ou."
+    }
 }

@@ -4,7 +4,24 @@
         "NextSteps": "Menuya sereke bikar bînin ku hûn tiştê ku hûn lê digerin bibînin."
     },
     "dashboard": {
-        "Menu": "Qerta xûrekê"
+        "Menu": "Qerta xûrekê",
+        "Home": "Xane",
+        "Welcome": "Bi xêr hatî",
+        "Events": "Events",
+        "Discuss": "Hevaxaftin",
+        "People": "Gel",
+        "About": "Ji dor",
+        "Community": "Civatî",
+        "LogIn": "têketinê",
+        "LogOut": "derkeve",
+        "Intercoin": "Intercoin",
+        "Shows": "Nîşan dide",
+        "Calendar": "Salname",
+        "Me": "Min",
+        "Media": "Medya",
+        "Services": "Services",
+        "SetMobileNumber": "Hejmara Mobile Set",
+        "SetEmailAddress": "Navnîşana E-nameyê saz bikin"
     },
     "greeting": {
         "Welcome": "Bi xêr hatî {{1}}. Li vir hûn ê tiştên ku ji bo endamên civata me hatine şandin bibînin. Ji kerema xwe navnîşana e-name an jî jimareya mobîla xwe lê zêde bikin da ku hûn gava ku ragihandin têne şandin agahdarî bistînin."
@@ -80,13 +97,15 @@
         "FindPeople": "Kesên ku bi wan re biaxivin bibînin",
         "GroupConversations": "Tevlî hin axaftinên komê bibin",
         "ContactStaff": "Karmendên Têkilî",
-        "ContactCustomers": "Têkilî Mişterî"
+        "ContactCustomers": "Têkilî Mişterî",
+        "AddNewContacts": "Têkiliyên Nû lê zêde bikin"
     },
     "me": {
         "Title": "Min",
         "MobileNumber": "Hejmara Mobîl",
         "EmailAddress": "Navnîşana emailê",
-        "UpdateSocialTitle": "Navê bikarhêner {{1}} nûve bike"
+        "UpdateSocialTitle": "Navê bikarhêner {{1}} nûve bike",
+        "Web3": "Web3"
     },
     "people": {
         "Title": "Gel",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "Kesên bi Berjewendiyên Hevbeş"
         },
-        "Done": "Kirin"
+        "Done": "Kirin",
+        "Title": "Agahiyên bingehîn",
+        "Prompt": "Çend gav ji bo sazkirina hesabê xwe",
+        "relationships": {
+            "explanation": "Têkiliya we çi ye?",
+            "welcome": "Bi xêr hatî {{user}} ",
+            "invitedByUser": "tu vexwendiyî.",
+            "addToPhonebook": "Li Têkiliyên Têlefona Min hilînin",
+            "iosInstructions": "Biçe jêr ji bo Têkiliya Nû lê zêde bike",
+            "androidInstructions": "Divê hûn vê pelê vCard vekin piştî ku ew ê were dakêşandin."
+        }
     },
     "profile": {
         "Title": "Tengal",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "Li vir agahdariya kar binivîsin",
         "EducationPlaceholder": "Li vir agahdariya perwerdehiyê binivîse",
         "ManageNotifications": "Agahdariyên birêvebirin",
-        "YourPreferredLanguage": "Zimanê we yê bijarte"
+        "YourPreferredLanguage": "Zimanê we yê bijarte",
+        "sections": {
+            "education": "Zanyarî",
+            "greeting": "Silav",
+            "jobs": "Jobs",
+            "links": "Girêdanên",
+            "language": "Ziman",
+            "roles": "Roles",
+            "personal": "Şexsî",
+            "social": "Civatî"
+        },
+        "Block": "Deste",
+        "blockUserAlertTitle": "{{displayName}} asteng kirin",
+        "Unblock": "Rakirin",
+        "Email": "Email",
+        "Avoid": "Bergirtin",
+        "Roles": "Roles",
+        "SendCrypto": "Diravdan",
+        "CreatePrivateChat": "Ji bo ku hûn bigihîjin {{credits}} krediyan xerc bikin?",
+        "RolesInCommunity": "Rolên di civakê de",
+        "PersonalChatWith": "Bi {{name}} re sohbeta kesane",
+        "SendCryptoTo": "Krîptoyê ji {{name}} re bişînin",
+        "SendPaymentTo": "Tezmînatek ji {{name}} re bişînin",
+        "SendEmailTo": "E-nameyê ji {{name}} re bişînin",
+        "SendSMSTo": "Ji {{name}} re SMS bişînin",
+        "BlockThisUser": "Vê bikarhênerê asteng bike",
+        "UnblockThisUser": "Vê bikarhênerê asteng bike",
+        "YouCantChatWithYourself": "Hûn nikarin bi xwe re sohbet bikin"
     },
     "myqr": {
         "Title": "QR min"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} li vir bibînin ku hûn çawa dikarin vê yekê bi kesên din re parve bikin."
     },
     "payment": {
-        "onContribute": "Spas dikim! Tezmînata we derbas bû. Ma hûn dixwazin hevalên xwe vexwînin we?"
+        "onContribute": "Spas dikim! Tezmînata we derbas bû. Ma hûn dixwazin hevalên xwe vexwînin we?",
+        "ConnectAccount": "Hesabê girêdan"
     },
     "featureboard": {
         "Text_1": "Bila dengê te bê bihîstin! Ma hûn razî ne ku divê em taybetmendiyek an xeletiyek pêşve bibin? Bişkojka bikirtînin da ku piştgirî bikin.",
@@ -357,6 +414,43 @@
         "communityUsers": "Ev lîsteya civakan e",
         "setAsConversation": "stûna URL wekî danûstendinê",
         "toMainCommunityToo": "bikarhêneran jî li civata sereke zêde bikin",
-        "willImportedTo": "Bikarhêner dê ji civakê re bêne şandin"
+        "willImportedTo": "Bikarhêner dê ji civakê re bêne şandin",
+        "ChooseFile": "pelê hilbijêre"
+    },
+    "welcome": {
+        "Title": "{{appName}} : bi xêr hatî",
+        "GetStarted": "Dest pê bike",
+        "gallery": {
+            "Connect": "Bihevgirêdan",
+            "Organize": "Sazkirin",
+            "Travel": "Gerrîn",
+            "Share": "Par"
+        }
+    },
+    "services": {
+        "Title": "Services",
+        "filterByTitle": "Karûbarên bi sernavê bibînin",
+        "New": "+ Karûbarê Nû dest pê bikin",
+        "NewService": "Xizmeta Nû",
+        "NewAvailability": "Hebûna Nû",
+        "filterServices": "xizmetên Parzûna",
+        "NoneYet": "Hîn tu xizmet nehatine avakirin<br> di van deman de.",
+        "AllAuthors": "Hemû Nivîskar",
+        "AllDays": "Hemû Roj",
+        "AllLocations": "Hemû Cihan",
+        "MakeReservation": "Reservation bike",
+        "CancelReservation": "Betal Reservation",
+        "UpdateReservation": "Reservation Update",
+        "AreYouSure": "Piştrastin?",
+        "YouWillRefunded": "Hûn ê di forma krediyên ku hûn dikarin li ser tiştên din ên di sepanê de xerc bikin werin vegerandin.",
+        "AllInterests": "All Interests",
+        "FilterbyInterest": "Parzûna bi Interest",
+        "FilterByDate": "Parzûna Bi Dîrokê",
+        "ShowActivities": "Çalakiyên têkildarî...",
+        "newServices": "{{1}} xizmetên we yên nû hene",
+        "SelectLocation": "Cih hilbijêre",
+        "FilterLocationsPlaceHolder": "Cihên bi ...",
+        "Description": "{{1}} xizmeta",
+        "Keywords": "{{1}} xizmeta"
     }
 }

@@ -2,7 +2,8 @@
     "activation": {
         "Thanks": "Fàilte gu {{1}}",
         "ReallyYourEmail": "An e seo an seòladh puist-d agad dha-rìribh, {{1}}? Ma tha, cliog <a href='{{2}}'>an seo<\/a> gus am facal-faire agad a shuidheachadh agus do chunntas a chuir an gnìomh.",
-        "SeeYou": "Chì mi air <a href='{{1}}'>{{2}}<\/a> thu!"
+        "SeeYou": "Chì mi air <a href='{{1}}'>{{2}}<\/a> thu!",
+        "Subject": "Fàilte! Feuch an dearbhaich thu do sheòladh puist-d."
     },
     "LinkToUnsubscribe": "Seo ceangal gus crìoch a chur air an <a href='{{1}}'>fho<\/a> -sgrìobhadh mura h-eil thu airson barrachd phuist-d fhaighinn.",
     "Greetings": "Beannachdan bho {{1}}.",
@@ -17,11 +18,16 @@
         "Thanks": "Mòran taing airson tadhal air {{1}}",
         "YouAreReceiving": "Tha thu a&#39; faighinn a&#39; phuist-d seo a chionn &#39;s gun do chuir cuideigin a-steach do sheòladh puist-d agus gun do bhriog e air &quot;dhìochuimhnich thu am facal-faire&quot;. Mura b’ e thusa, dìreach leig seachad an teachdaireachd seo.",
         "Reset": "Gus am facal-faire agad ath-shuidheachadh, cliog {{1}}",
-        "SetUpPassphrase": "Suidhich facal-faire"
+        "SetUpPassphrase": "Suidhich facal-faire",
+        "DomainCode": "Ma tha an duilleag-lìn fosgailte sa bhrobhsair agad mu thràth, faodaidh tu an còd a chuir a-steach",
+        "Subject": "Hey, an do dhìochuimhnich thu am facal-faire agad?"
     },
     "subscription": {
         "YouHaveStarted": "Hey {{1}}, tha thu air tòiseachadh air an fho-sgrìobhadh agad gu {{2}} le {{3}} aig {{4}} airson {{5}} mìosan.",
         "HasStarted": "Tha seo dìreach airson fios a leigeil dhut {{1}}, gu bheil iad air tòiseachadh air an fho-sgrìobhadh aca gu {{2}} le {{3}} aig {{4}} airson {{5}} mìosan."
     },
-    "SeeYou": "Chì mi air {{1}} thu!"
+    "SeeYou": "Chì mi air {{1}} thu!",
+    "identifier": {
+        "Subject": "Fàilte! Dearbhaich do sheòladh puist-d."
+    }
 }

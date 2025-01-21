@@ -4,7 +4,24 @@
         "NextSteps": "Ampiasao ny sakafo fototra hahitana izay tadiavinao."
     },
     "dashboard": {
-        "Menu": "sakafo"
+        "Menu": "sakafo",
+        "Home": "an-trano",
+        "Welcome": "TONGA SOA",
+        "Events": "ZAVA-NITRANGA",
+        "Discuss": "Ifanakalozy hevitra",
+        "People": "People",
+        "About": "About",
+        "Community": "COMMUNITY",
+        "LogIn": "Hiditra",
+        "LogOut": "mivoaka",
+        "Intercoin": "Intercoin",
+        "Shows": "mampiseho",
+        "Calendar": "Calendar",
+        "Me": "ahy",
+        "Media": "haino aman-jery",
+        "Services": "tolotra",
+        "SetMobileNumber": "Mametraha laharana finday",
+        "SetEmailAddress": "Mametraka adiresy mailaka"
     },
     "greeting": {
         "Welcome": "Tongasoa eto amin&#39;ny {{1}}. Eto ianao dia hahita zavatra navoaka ho an&#39;ny mpikambana ao amin&#39;ny vondrom-piarahamoninay. Ampidiro azafady ny adiresy mailaka na ny nomeraon-telefaoninao mba handraisanao fampahafantarana rehefa misy filazana."
@@ -80,13 +97,15 @@
         "FindPeople": "Mitadiava olona hiresahana",
         "GroupConversations": "Midira amin&#39;ny resaka vondrona sasany",
         "ContactStaff": "Contact Staff",
-        "ContactCustomers": "Mifandraisa amin&#39;ny mpanjifa"
+        "ContactCustomers": "Mifandraisa amin&#39;ny mpanjifa",
+        "AddNewContacts": "Ampio fifandraisana vaovao"
     },
     "me": {
         "Title": "ahy",
         "MobileNumber": "Nomerao finday",
         "EmailAddress": "Adiresy mailaka",
-        "UpdateSocialTitle": "Fanavaozana {{1}} solonanarana"
+        "UpdateSocialTitle": "Fanavaozana {{1}} solonanarana",
+        "Web3": "Web3"
     },
     "people": {
         "Title": "People",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "Olona manana tombontsoa iombonana"
         },
-        "Done": "hatao"
+        "Done": "hatao",
+        "Title": "Fampahalalana fototra",
+        "Prompt": "Dingana vitsivitsy hanamboarana ny kaontinao",
+        "relationships": {
+            "explanation": "Inona ny fifandraisanareo?",
+            "welcome": "Tongasoa eto {{user}} ",
+            "invitedByUser": "nanasa anao.",
+            "addToPhonebook": "Tehirizo ao amin&#39;ny My Phone Contacts",
+            "iosInstructions": "Mandehana midina mankany amin&#39;ny Add New Contact",
+            "androidInstructions": "Tokony hanokatra ity rakitra vCard ity ianao rehefa avy nakarina."
+        }
     },
     "profile": {
         "Title": "TANTARANY",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "Soraty eto ny mombamomba ny asa",
         "EducationPlaceholder": "Soraty eto ny fampahalalana momba ny fanabeazana",
         "ManageNotifications": "Tantano ny fampahafantarana",
-        "YourPreferredLanguage": "Fiteny tianao"
+        "YourPreferredLanguage": "Fiteny tianao",
+        "sections": {
+            "education": "FAMPIANARANA",
+            "greeting": "Miarahaba",
+            "jobs": "Asa",
+            "links": "rohy",
+            "language": "Fiteny",
+            "roles": "andraikitra",
+            "personal": "TENA MANOKANA",
+            "social": "SOSIALY"
+        },
+        "Block": "andian-tsoratra",
+        "blockUserAlertTitle": "Voasakana {{displayName}}",
+        "Unblock": "Mamaha",
+        "Email": "mailaka",
+        "Avoid": "Aza",
+        "Roles": "andraikitra",
+        "SendCrypto": "KARAMANY",
+        "CreatePrivateChat": "Mandany crédit {{credits}} hanatonana?",
+        "RolesInCommunity": "Andraikitry ny fiaraha-monina",
+        "PersonalChatWith": "Resaka manokana miaraka amin&#39;ny {{name}}",
+        "SendCryptoTo": "Alefaso any amin&#39;ny {{name}} ny crypto",
+        "SendPaymentTo": "Alefaso any amin&#39;ny {{name}} ny fandoavam-bola",
+        "SendEmailTo": "Alefaso mailaka amin&#39;ny {{name}}",
+        "SendSMSTo": "Alefaso SMS amin&#39;ny {{name}}",
+        "BlockThisUser": "Sakanana ity mpampiasa ity",
+        "UnblockThisUser": "Mamaha ity mpampiasa ity",
+        "YouCantChatWithYourself": "Tsy afaka miresaka amin&#39;ny tenanao ianao"
     },
     "myqr": {
         "Title": "Ny QR"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} eto raha hijery ny fomba ahafahanao mizara izany amin&#39;ny olon-kafa."
     },
     "payment": {
-        "onContribute": "Misaotra anao! Lany ny fandoavanao. Te hanasa ny namanao hiaraka aminao ve ianao?"
+        "onContribute": "Misaotra anao! Lany ny fandoavanao. Te hanasa ny namanao hiaraka aminao ve ianao?",
+        "ConnectAccount": "Connect kaonty"
     },
     "featureboard": {
         "Text_1": "Aoka ho re ny feonao! Ekenao ve fa tokony hamorona endri-javatra na bibikely isika? Tsindrio ny bokotra hanohanana azy.",
@@ -357,6 +414,43 @@
         "communityUsers": "Ity ny lisitry ny vondrom-piarahamonina",
         "setAsConversation": "tsanganana URL ho resaka",
         "toMainCommunityToo": "ampio koa ny mpampiasa amin&#39;ny vondrom-piarahamonina lehibe",
-        "willImportedTo": "Hafatra ho any amin&#39;ny fiarahamonina ny mpampiasa"
+        "willImportedTo": "Hafatra ho any amin&#39;ny fiarahamonina ny mpampiasa",
+        "ChooseFile": "mifidy rakitra"
+    },
+    "welcome": {
+        "Title": "{{appName}} : tongasoa",
+        "GetStarted": "Manomboha",
+        "gallery": {
+            "Connect": "Connect",
+            "Organize": "Mandamina",
+            "Travel": "Tsangatsangana",
+            "Share": "anjara"
+        }
+    },
+    "services": {
+        "Title": "tolotra",
+        "filterByTitle": "Mitadiava serivisy amin&#39;ny lohateny",
+        "New": "+ Manomboha serivisy vaovao",
+        "NewService": "Serivisy vaovao",
+        "NewAvailability": "Availability vaovao",
+        "filterServices": "Serivisy sivana",
+        "NoneYet": "Tsy mbola misy tolotra miforona<br> mandritra ireo fotoana ireo.",
+        "AllAuthors": "Mpanoratra rehetra",
+        "AllDays": "Andro rehetra",
+        "AllLocations": "Toerana rehetra",
+        "MakeReservation": "Manaova famandrihana",
+        "CancelReservation": "hanafoana ny famandrihana",
+        "UpdateReservation": "Fanavaozana ny famandrihana",
+        "AreYouSure": "Azonao antoka ve izany?",
+        "YouWillRefunded": "Haverina amin&#39;ny endrika crédit azonao lanina amin&#39;ny zavatra hafa ao amin&#39;ny app ianao.",
+        "AllInterests": "Ny tombontsoa rehetra",
+        "FilterbyInterest": "Sivanina araka ny fahalianany",
+        "FilterByDate": "Sivana Araka ny Daty",
+        "ShowActivities": "Asehoy ny hetsika mifandraika amin&#39;ny...",
+        "newServices": "Manana tolotra vaovao {{1}} ianao",
+        "SelectLocation": "Fidio ny toerana",
+        "FilterLocationsPlaceHolder": "Sivana toerana misy...",
+        "Description": "{{1}} serivisy",
+        "Keywords": "{{1}} serivisy"
     }
 }

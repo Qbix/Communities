@@ -4,7 +4,24 @@
         "NextSteps": "Gamitin ang pangunahing menu upang mahanap kung ano ang iyong hinahanap."
     },
     "dashboard": {
-        "Menu": "Menu"
+        "Menu": "Menu",
+        "Home": "Bahay",
+        "Welcome": "Maligayang pagdating",
+        "Events": "Mga kaganapan",
+        "Discuss": "Pag-usapan",
+        "People": "Mga tao",
+        "About": "Tungkol sa",
+        "Community": "Komunidad",
+        "LogIn": "mag-log in",
+        "LogOut": "mag log out",
+        "Intercoin": "Intercoin",
+        "Shows": "Mga palabas",
+        "Calendar": "Kalendaryo",
+        "Me": "Ako",
+        "Media": "Media",
+        "Services": "Mga serbisyo",
+        "SetMobileNumber": "Itakda ang Numero ng Mobile",
+        "SetEmailAddress": "Itakda ang Email Address"
     },
     "greeting": {
         "Welcome": "Maligayang pagdating sa {{1}}. Dito makikita mo ang mga bagay na nai-post para sa mga miyembro ng aming komunidad. Mangyaring idagdag ang iyong email address o numero ng mobile upang makatanggap ng mga abiso kapag nai-post ang mga anunsyo."
@@ -80,13 +97,15 @@
         "FindPeople": "Maghanap ng mga taong makakausap",
         "GroupConversations": "Sumali sa ilang pag-uusap ng grupo",
         "ContactStaff": "Makipag-ugnayan sa Staff",
-        "ContactCustomers": "Makipag-ugnayan sa mga Customer"
+        "ContactCustomers": "Makipag-ugnayan sa mga Customer",
+        "AddNewContacts": "Magdagdag ng Bagong Mga Contact"
     },
     "me": {
         "Title": "Ako",
         "MobileNumber": "Numero ng Mobile",
         "EmailAddress": "Email Address",
-        "UpdateSocialTitle": "I-update ang {{1}} username"
+        "UpdateSocialTitle": "I-update ang {{1}} username",
+        "Web3": "Web3"
     },
     "people": {
         "Title": "Mga tao",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "Mga taong may Karaniwang Interes"
         },
-        "Done": "Tapos na"
+        "Done": "Tapos na",
+        "Title": "Pangunahing Impormasyon",
+        "Prompt": "Ilang hakbang upang i-set up ang iyong account",
+        "relationships": {
+            "explanation": "Ano ang iyong relasyon?",
+            "welcome": "Maligayang pagdating {{user}} ",
+            "invitedByUser": "inimbitahan ka.",
+            "addToPhonebook": "I-save sa Aking Mga Contact sa Telepono",
+            "iosInstructions": "Mag-scroll pababa sa Magdagdag ng Bagong Contact",
+            "androidInstructions": "Dapat mong buksan ang vCard file na ito pagkatapos itong ma-download."
+        }
     },
     "profile": {
         "Title": "Profile",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "I-type dito ang impormasyon ng trabaho",
         "EducationPlaceholder": "I-type dito ang impormasyon sa edukasyon",
         "ManageNotifications": "Pamahalaan ang Mga Notification",
-        "YourPreferredLanguage": "Ang iyong gustong wika"
+        "YourPreferredLanguage": "Ang iyong gustong wika",
+        "sections": {
+            "education": "Edukasyon",
+            "greeting": "Pagbati",
+            "jobs": "Mga trabaho",
+            "links": "Mga link",
+            "language": "Wika",
+            "roles": "Mga tungkulin",
+            "personal": "Personal",
+            "social": "Sosyal"
+        },
+        "Block": "I-block",
+        "blockUserAlertTitle": "Na-block {{displayName}}",
+        "Unblock": "I-unblock",
+        "Email": "Email",
+        "Avoid": "Iwasan",
+        "Roles": "Mga tungkulin",
+        "SendCrypto": "Magbayad",
+        "CreatePrivateChat": "Gumastos {{credits}} credits para makipag-ugnayan?",
+        "RolesInCommunity": "Mga tungkulin sa komunidad",
+        "PersonalChatWith": "Personal na pakikipag-chat sa {{name}}",
+        "SendCryptoTo": "Ipadala ang crypto sa {{name}}",
+        "SendPaymentTo": "Magpadala ng bayad sa {{name}}",
+        "SendEmailTo": "Magpadala ng email sa {{name}}",
+        "SendSMSTo": "Magpadala ng SMS sa {{name}}",
+        "BlockThisUser": "I-block ang user na ito",
+        "UnblockThisUser": "I-unblock ang user na ito",
+        "YouCantChatWithYourself": "Hindi mo ma-chat ang sarili mo"
     },
     "myqr": {
         "Title": "Aking QR"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} dito upang makita kung paano mo ito maibabahagi sa ibang mga tao."
     },
     "payment": {
-        "onContribute": "Salamat! Natapos ang iyong bayad. Gusto mo bang anyayahan ang iyong mga kaibigan na sumali sa iyo?"
+        "onContribute": "Salamat! Natapos ang iyong bayad. Gusto mo bang anyayahan ang iyong mga kaibigan na sumali sa iyo?",
+        "ConnectAccount": "Ikonekta ang account"
     },
     "featureboard": {
         "Text_1": "Hayaang marinig ang iyong boses! Sumasang-ayon ka ba na dapat kaming bumuo ng isang tampok o bug? I-click ang button para Suportahan ito.",
@@ -357,6 +414,43 @@
         "communityUsers": "Ito ang listahan ng mga komunidad",
         "setAsConversation": "column ng URL bilang pag-uusap",
         "toMainCommunityToo": "magdagdag din ng mga user sa pangunahing komunidad",
-        "willImportedTo": "Ang mga user ay ii-import sa komunidad"
+        "willImportedTo": "Ang mga user ay ii-import sa komunidad",
+        "ChooseFile": "pumili ng file"
+    },
+    "welcome": {
+        "Title": "{{appName}} : maligayang pagdating",
+        "GetStarted": "Magsimula",
+        "gallery": {
+            "Connect": "Kumonekta",
+            "Organize": "Ayusin",
+            "Travel": "Paglalakbay",
+            "Share": "Ibahagi"
+        }
+    },
+    "services": {
+        "Title": "Mga serbisyo",
+        "filterByTitle": "Maghanap ng mga serbisyo ayon sa pamagat",
+        "New": "+ Magsimula ng Bagong Serbisyo",
+        "NewService": "Bagong Serbisyo",
+        "NewAvailability": "Bagong Availability",
+        "filterServices": "I-filter ang mga serbisyo",
+        "NoneYet": "Wala pang nabuong serbisyo<br> sa mga panahong ito.",
+        "AllAuthors": "Lahat ng May-akda",
+        "AllDays": "Lahat ng Araw",
+        "AllLocations": "Lahat ng Lokasyon",
+        "MakeReservation": "Magpareserba",
+        "CancelReservation": "Kanselahin ang Pagpapareserba",
+        "UpdateReservation": "I-update ang Pagpapareserba",
+        "AreYouSure": "Sigurado ka ba?",
+        "YouWillRefunded": "Ire-refund ka sa anyo ng mga credit na maaari mong gastusin sa iba pang bagay sa app.",
+        "AllInterests": "Lahat ng Interes",
+        "FilterbyInterest": "I-filter ayon sa Interes",
+        "FilterByDate": "I-filter Ayon sa Petsa",
+        "ShowActivities": "Ipakita ang mga aktibidad na may kaugnayan sa...",
+        "newServices": "Mayroon kang {{1}} na bagong serbisyo",
+        "SelectLocation": "Piliin ang Lokasyon",
+        "FilterLocationsPlaceHolder": "Salain ang mga lugar na may...",
+        "Description": "{{1}} serbisyo",
+        "Keywords": "{{1}} serbisyo"
     }
 }

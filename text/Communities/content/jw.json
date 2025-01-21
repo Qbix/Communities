@@ -4,7 +4,24 @@
         "NextSteps": "Gunakake menu utama kanggo nemokake apa sing lagi looking for."
     },
     "dashboard": {
-        "Menu": "Menu"
+        "Menu": "Menu",
+        "Home": "Ngarep",
+        "Welcome": "Sugeng rawuh",
+        "Events": "Acara",
+        "Discuss": "Rembugan",
+        "People": "wong",
+        "About": "Babagan",
+        "Community": "masyarakat",
+        "LogIn": "mlebu",
+        "LogOut": "metu",
+        "Intercoin": "Intercoin",
+        "Shows": "Nuduhake",
+        "Calendar": "Tanggalan",
+        "Me": "kula",
+        "Media": "Media",
+        "Services": "Layanan",
+        "SetMobileNumber": "Setel Nomer Ponsel",
+        "SetEmailAddress": "Setel Alamat Email"
     },
     "greeting": {
         "Welcome": "Sugeng rawuh ing {{1}}. Ing kene sampeyan bakal nemokake barang sing dikirim kanggo anggota komunitas kita. Tambahake alamat email utawa nomer seluler sampeyan supaya bisa nampa kabar nalika pengumuman dikirim."
@@ -80,13 +97,15 @@
         "FindPeople": "Golek wong diajak",
         "GroupConversations": "Gabung sawetara obrolan grup",
         "ContactStaff": "Kontak Staff",
-        "ContactCustomers": "Kontak Pelanggan"
+        "ContactCustomers": "Kontak Pelanggan",
+        "AddNewContacts": "Tambah Kontak Anyar"
     },
     "me": {
         "Title": "kula",
         "MobileNumber": "Nomer HP",
         "EmailAddress": "Alamat Email",
-        "UpdateSocialTitle": "Nganyari {{1}} jeneng panganggo"
+        "UpdateSocialTitle": "Nganyari {{1}} jeneng panganggo",
+        "Web3": "Web3"
     },
     "people": {
         "Title": "wong",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "Wong sing Kepentingan Umum"
         },
-        "Done": "rampung"
+        "Done": "rampung",
+        "Title": "Informasi dhasar",
+        "Prompt": "Sawetara langkah kanggo nyiyapake akun",
+        "relationships": {
+            "explanation": "Apa hubunganmu?",
+            "welcome": "Sugeng rawuh {{user}} ",
+            "invitedByUser": "ngundang sampeyan.",
+            "addToPhonebook": "Simpen menyang Kontak telponku",
+            "iosInstructions": "Gulung mudhun menyang Tambah Kontak Anyar",
+            "androidInstructions": "Sampeyan kudu mbukak file vCard iki sawise diundhuh."
+        }
     },
     "profile": {
         "Title": "profil",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "Ketik ing kene info lowongan",
         "EducationPlaceholder": "Ketik kene info pendidikan",
         "ManageNotifications": "Ngatur Notifikasi",
-        "YourPreferredLanguage": "Basa sing disenengi"
+        "YourPreferredLanguage": "Basa sing disenengi",
+        "sections": {
+            "education": "Pendidikan",
+            "greeting": "salam",
+            "jobs": "Proyek",
+            "links": "Pranala",
+            "language": "Basa",
+            "roles": "Peran",
+            "personal": "pribadi",
+            "social": "sosial"
+        },
+        "Block": "Blok",
+        "blockUserAlertTitle": "Diblokir {{displayName}}",
+        "Unblock": "Mbukak blokir",
+        "Email": "Email",
+        "Avoid": "Nyingkiri",
+        "Roles": "Peran",
+        "SendCrypto": "mbayar",
+        "CreatePrivateChat": "Nglampahi {{credits}} kridit kanggo nggayuh?",
+        "RolesInCommunity": "Peran ing masyarakat",
+        "PersonalChatWith": "Obrolan pribadi karo {{name}}",
+        "SendCryptoTo": "Kirim crypto menyang {{name}}",
+        "SendPaymentTo": "Kirimi pembayaran menyang {{name}}",
+        "SendEmailTo": "Kirim email menyang {{name}}",
+        "SendSMSTo": "Kirim SMS menyang {{name}}",
+        "BlockThisUser": "Blokir pangguna iki",
+        "UnblockThisUser": "Mbukak blokir pangguna iki",
+        "YouCantChatWithYourself": "Sampeyan ora bisa chatting karo dhewe"
     },
     "myqr": {
         "Title": "QR kula"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} kanggo ndeleng kepiye sampeyan bisa nuduhake iki karo wong liya."
     },
     "payment": {
-        "onContribute": "matur nuwun! Pembayaran sampeyan liwati. Apa sampeyan pengin ngajak kanca-kanca gabung?"
+        "onContribute": "matur nuwun! Pembayaran sampeyan liwati. Apa sampeyan pengin ngajak kanca-kanca gabung?",
+        "ConnectAccount": "Sambungake akun"
     },
     "featureboard": {
         "Text_1": "Swaramu keprungu! Apa sampeyan setuju yen kita kudu ngembangake fitur utawa bug? Klik tombol kanggo Ndhukung.",
@@ -357,6 +414,43 @@
         "communityUsers": "Iki dhaptar komunitas",
         "setAsConversation": "Kolom URL minangka obrolan",
         "toMainCommunityToo": "nambah pangguna menyang komunitas utama uga",
-        "willImportedTo": "Pangguna bakal diimpor menyang komunitas"
+        "willImportedTo": "Pangguna bakal diimpor menyang komunitas",
+        "ChooseFile": "pilih file"
+    },
+    "welcome": {
+        "Title": "{{appName}} : sugeng rawuh",
+        "GetStarted": "Miwiti",
+        "gallery": {
+            "Connect": "Nyambung",
+            "Organize": "ngatur",
+            "Travel": "Lelungan",
+            "Share": "Nuduhake"
+        }
+    },
+    "services": {
+        "Title": "Layanan",
+        "filterByTitle": "Golek layanan miturut judhul",
+        "New": "+ Miwiti Layanan Anyar",
+        "NewService": "Layanan Anyar",
+        "NewAvailability": "Kasedhiyan Anyar",
+        "filterServices": "Layanan Filter",
+        "NoneYet": "Ora ana layanan sing dibentuk<br> sak iki wektu.",
+        "AllAuthors": "Kabeh Penulis",
+        "AllDays": "Kabeh Dina",
+        "AllLocations": "Kabeh Lokasi",
+        "MakeReservation": "Nggawe Reservasi",
+        "CancelReservation": "Batal Reservasi",
+        "UpdateReservation": "Update Reservasi",
+        "AreYouSure": "Apa sampeyan yakin?",
+        "YouWillRefunded": "Sampeyan bakal dibalekake ing wangun kridit sing bisa digunakake kanggo barang liyane ing app.",
+        "AllInterests": "Kabeh Minat",
+        "FilterbyInterest": "Nyaring miturut kapentingan",
+        "FilterByDate": "Filter Miturut Tanggal",
+        "ShowActivities": "Nuduhake kegiatan sing ana gandhengane karo ...",
+        "newServices": "Sampeyan duwe {{1}} layanan anyar",
+        "SelectLocation": "Pilih Lokasi",
+        "FilterLocationsPlaceHolder": "Filter panggonan karo ...",
+        "Description": "{{1}} layanan",
+        "Keywords": "{{1}} layanan"
     }
 }

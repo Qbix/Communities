@@ -2,7 +2,8 @@
     "activation": {
         "Thanks": "Sugeng rawuh ing {{1}}",
         "ReallyYourEmail": "Apa tenan iki alamat email sampeyan, {{1}}? Yen mangkono, klik ing <a href='{{2}}'>kene<\/a> kanggo nyetel tembung sandhi lan ngaktifake akun sampeyan.",
-        "SeeYou": "Sampai jumpa di <a href='{{1}}'>{{2}}<\/a> !"
+        "SeeYou": "Sampai jumpa di <a href='{{1}}'>{{2}}<\/a> !",
+        "Subject": "Sugeng rawuh! Mangga verifikasi alamat email sampeyan."
     },
     "LinkToUnsubscribe": "Ing ngisor iki link kanggo <a href='{{1}}'>mbatalake langganan<\/a> yen sampeyan ora pengin entuk email maneh.",
     "Greetings": "Salam saking {{1}}.",
@@ -17,11 +18,16 @@
         "Thanks": "Matur nuwun wis ngunjungi {{1}}",
         "YouAreReceiving": "Sampeyan nampa email iki amarga ana sing ngetik alamat email sampeyan lan ngeklik &quot;lali frasa sandhi&quot;. Yen dudu sampeyan, aja lali pesen iki.",
         "Reset": "Kanggo ngreset tembung sandhi, klik {{1}}",
-        "SetUpPassphrase": "Setel tembung sandhi"
+        "SetUpPassphrase": "Setel tembung sandhi",
+        "DomainCode": "Yen kaca web wis mbukak ing browser sampeyan, sampeyan bisa ngetik kode kasebut",
+        "Subject": "Eh, kowe lali sandi?"
     },
     "subscription": {
         "YouHaveStarted": "Hey {{1}}, sampeyan wis miwiti langganan {{2}} karo {{3}} ing {{4}} kanggo {{5}} sasi.",
         "HasStarted": "Iki mung supaya sampeyan ngerti {{1}}, wis miwiti langganan {{2}} karo {{3}} ing {{4}} kanggo {{5}} sasi."
     },
-    "SeeYou": "Sampai jumpa di {{1}}!"
+    "SeeYou": "Sampai jumpa di {{1}}!",
+    "identifier": {
+        "Subject": "Sugeng rawuh! Verifikasi alamat email sampeyan."
+    }
 }

@@ -4,7 +4,24 @@
         "NextSteps": "Aduprate u menu principale per truvà ciò chì cercate."
     },
     "dashboard": {
-        "Menu": "Menu"
+        "Menu": "Menu",
+        "Home": "A casa",
+        "Welcome": "Benvenuti",
+        "Events": "Avvenimenti",
+        "Discuss": "Discute",
+        "People": "People",
+        "About": "À propositu",
+        "Community": "Cumunità",
+        "LogIn": "accede",
+        "LogOut": "scunnettà si",
+        "Intercoin": "Intercoin",
+        "Shows": "Mostra",
+        "Calendar": "Calendariu",
+        "Me": "mè",
+        "Media": "Media",
+        "Services": "servizii",
+        "SetMobileNumber": "Stabbilisce u numeru di telefuninu",
+        "SetEmailAddress": "Stabbilisce l&#39;indirizzu email"
     },
     "greeting": {
         "Welcome": "Benvenuti à {{1}}. Quì truverete e cose publicate per i membri di a nostra cumunità. Per piacè aghjunghje u vostru indirizzu email o u vostru numeru mobile per riceve notificazioni quandu l&#39;annunzii sò publicati."
@@ -80,13 +97,15 @@
         "FindPeople": "Truvate persone per parlà",
         "GroupConversations": "Unisci à qualchi conversazione di gruppu",
         "ContactStaff": "Cuntattate u staffu",
-        "ContactCustomers": "Cuntattate i Clienti"
+        "ContactCustomers": "Cuntattate i Clienti",
+        "AddNewContacts": "Aghjunghjite novi cuntatti"
     },
     "me": {
         "Title": "mè",
         "MobileNumber": "Numeru Mobile",
         "EmailAddress": "Indirizzu mail",
-        "UpdateSocialTitle": "Aghjurnà {{1}} username"
+        "UpdateSocialTitle": "Aghjurnà {{1}} username",
+        "Web3": "Web 3"
     },
     "people": {
         "Title": "People",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "E persone cun interessi cumuni"
         },
-        "Done": "Fattu"
+        "Done": "Fattu",
+        "Title": "Informazioni basiche",
+        "Prompt": "Uni pochi di passi per stallà u vostru contu",
+        "relationships": {
+            "explanation": "Chì ghjè a vostra rilazioni ?",
+            "welcome": "Benvenuti {{user}} ",
+            "invitedByUser": "t&#39;hà invitatu.",
+            "addToPhonebook": "Salvà à My Phone Contacts",
+            "iosInstructions": "Scroll down to Add New Contact",
+            "androidInstructions": "Tu avissi a apre stu schedariu vCard dopu à esse scaricatu."
+        }
     },
     "profile": {
         "Title": "Prufilu",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "Scrivite quì infurmazioni nantu à u travagliu",
         "EducationPlaceholder": "Scrivite quì infurmazione nantu à l&#39;educazione",
         "ManageNotifications": "Gestisce Notificazioni",
-        "YourPreferredLanguage": "A vostra lingua preferita"
+        "YourPreferredLanguage": "A vostra lingua preferita",
+        "sections": {
+            "education": "Educazione",
+            "greeting": "Salutu",
+            "jobs": "Impieghi",
+            "links": "Ligami",
+            "language": "Lingua",
+            "roles": "Roles",
+            "personal": "Personale",
+            "social": "Suciali"
+        },
+        "Block": "Bloccu",
+        "blockUserAlertTitle": "Bloccu {{displayName}}",
+        "Unblock": "Sbloccate",
+        "Email": "E-mail",
+        "Avoid": "Evite",
+        "Roles": "Roles",
+        "SendCrypto": "Paga",
+        "CreatePrivateChat": "Passà {{credits}} crediti per ghjunghje?",
+        "RolesInCommunity": "Ruoli in a cumunità",
+        "PersonalChatWith": "Chat persunale cù {{name}}",
+        "SendCryptoTo": "Mandate criptu à {{name}}",
+        "SendPaymentTo": "Mandate un pagamentu à {{name}}",
+        "SendEmailTo": "Mandate un email à {{name}}",
+        "SendSMSTo": "Mandate SMS à {{name}}",
+        "BlockThisUser": "Bloccà stu utilizatore",
+        "UnblockThisUser": "Sblocca stu utilizatore",
+        "YouCantChatWithYourself": "Ùn pudete micca chatte cun sè stessu"
     },
     "myqr": {
         "Title": "U mo QR"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} quì per vede cumu pudete sparte questu cù altre persone."
     },
     "payment": {
-        "onContribute": "Grazie! U vostru pagamentu hè passatu. Vulete invità i vostri amichi à unisce à voi?"
+        "onContribute": "Grazie! U vostru pagamentu hè passatu. Vulete invità i vostri amichi à unisce à voi?",
+        "ConnectAccount": "Cunnette vi cunnetta"
     },
     "featureboard": {
         "Text_1": "Fate sente a vostra voce ! Accettate chì duvemu sviluppà una funzione o un bug? Cliccate u buttone per sustene.",
@@ -357,6 +414,43 @@
         "communityUsers": "Questa hè a lista di e cumunità",
         "setAsConversation": "Colonna URL cum&#39;è conversazione",
         "toMainCommunityToo": "aghjunghje utilizatori ancu à a cumunità principale",
-        "willImportedTo": "L&#39;utilizatori seranu impurtati à a cumunità"
+        "willImportedTo": "L&#39;utilizatori seranu impurtati à a cumunità",
+        "ChooseFile": "sceglie u schedariu"
+    },
+    "welcome": {
+        "Title": "{{appName}} : benvenutu",
+        "GetStarted": "Cuminciate",
+        "gallery": {
+            "Connect": "Cunnette",
+            "Organize": "Organizà",
+            "Travel": "Viaghjà",
+            "Share": "sparte"
+        }
+    },
+    "services": {
+        "Title": "servizii",
+        "filterByTitle": "Truvate servizii per titulu",
+        "New": "+ Cumincià un novu serviziu",
+        "NewService": "Novu serviziu",
+        "NewAvailability": "Nova Disponibilità",
+        "filterServices": "servizii di filtru",
+        "NoneYet": "Nisun serviziu furmatu ancora<br> duranti sti tempi.",
+        "AllAuthors": "Tutti l&#39;autori",
+        "AllDays": "Tutti i ghjorni",
+        "AllLocations": "Tutti i Lochi",
+        "MakeReservation": "Fate Riservazione",
+        "CancelReservation": "Cancella a Riservazione",
+        "UpdateReservation": "Aghjurnà a Riservazione",
+        "AreYouSure": "Sì sicuru?",
+        "YouWillRefunded": "Vi sarà rimbursatu in forma di crediti chì pudete spende in altre cose in l&#39;app.",
+        "AllInterests": "Tutti l&#39;interessi",
+        "FilterbyInterest": "Filtrà per Interessi",
+        "FilterByDate": "Filtra per data",
+        "ShowActivities": "Mostra l&#39;attività in relazione à ...",
+        "newServices": "Avete {{1}} novi servizii",
+        "SelectLocation": "Selezziunà Locu",
+        "FilterLocationsPlaceHolder": "Filtrate i posti cù ...",
+        "Description": "{{1}} serviziu",
+        "Keywords": "{{1}} serviziu"
     }
 }

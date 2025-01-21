@@ -4,7 +4,24 @@
         "NextSteps": "Paké ménu utama pikeun manggihan naon nu Anjeun keur pilari."
     },
     "dashboard": {
-        "Menu": "ménu"
+        "Menu": "ménu",
+        "Home": "Imah",
+        "Welcome": "Wilujeng sumping",
+        "Events": "Kajadian",
+        "Discuss": "Sawalakeun",
+        "People": "Jalma",
+        "About": "Ngeunaan",
+        "Community": "Komunitas",
+        "LogIn": "lebet",
+        "LogOut": "kaluar",
+        "Intercoin": "Intercoin",
+        "Shows": "nempokeun",
+        "Calendar": "Kalénder",
+        "Me": "Abdi",
+        "Media": "Média",
+        "Services": "Jasa",
+        "SetMobileNumber": "Setel Nomer Handphone",
+        "SetEmailAddress": "Setel Alamat Surélék"
     },
     "greeting": {
         "Welcome": "Wilujeng sumping di {{1}}. Di dieu anjeun bakal mendakan hal-hal anu dipasang pikeun anggota komunitas urang. Punten tambahkeun alamat email atanapi nomer sélulér anjeun pikeun nampi béwara nalika pengumuman dipasang."
@@ -80,13 +97,15 @@
         "FindPeople": "Manggihan jalma ngobrol jeung",
         "GroupConversations": "Gabung sababaraha paguneman grup",
         "ContactStaff": "Kontak Staf",
-        "ContactCustomers": "Kontak Palanggan"
+        "ContactCustomers": "Kontak Palanggan",
+        "AddNewContacts": "Tambahkeun Kontak Anyar"
     },
     "me": {
         "Title": "Abdi",
         "MobileNumber": "Nomer hapé",
         "EmailAddress": "Alamat email",
-        "UpdateSocialTitle": "Apdet {{1}} ngaran pamaké"
+        "UpdateSocialTitle": "Apdet {{1}} ngaran pamaké",
+        "Web3": "Web3"
     },
     "people": {
         "Title": "Jalma",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "Jalma jeung Kapentingan Umum"
         },
-        "Done": "Réngsé"
+        "Done": "Réngsé",
+        "Title": "Émbaran Dasar",
+        "Prompt": "Sababaraha léngkah pikeun nyetél akun anjeun",
+        "relationships": {
+            "explanation": "Naon hubungan anjeun?",
+            "welcome": "Wilujeng sumping {{user}} ",
+            "invitedByUser": "ngajak anjeun.",
+            "addToPhonebook": "Simpen ka Kontak Telepon Abdi",
+            "iosInstructions": "Gulung ka handap pikeun Tambahkeun Kontak Anyar",
+            "androidInstructions": "Anjeun kedah muka file vCard ieu saatos diunduh."
+        }
     },
     "profile": {
         "Title": "Propil",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "Ketik di dieu inpormasi padamelan",
         "EducationPlaceholder": "Ketik di dieu inpormasi pendidikan",
         "ManageNotifications": "Atur Bewara",
-        "YourPreferredLanguage": "Basa anu anjeun pikaresep"
+        "YourPreferredLanguage": "Basa anu anjeun pikaresep",
+        "sections": {
+            "education": "Atikan",
+            "greeting": "salam",
+            "jobs": "Pakasaban",
+            "links": "Tumbu",
+            "language": "Basa",
+            "roles": "Kalungguhan",
+            "personal": "Pribadi",
+            "social": "Sosial"
+        },
+        "Block": "Blok",
+        "blockUserAlertTitle": "Diblokir {{displayName}}",
+        "Unblock": "Buka blokir",
+        "Email": "Surélék",
+        "Avoid": "Nyingkahan",
+        "Roles": "Kalungguhan",
+        "SendCrypto": "Bayar",
+        "CreatePrivateChat": "Méakkeun {{credits}} sks pikeun ngahontal?",
+        "RolesInCommunity": "Peran di masarakat",
+        "PersonalChatWith": "Obrolan pribadi sareng {{name}}",
+        "SendCryptoTo": "Kirim crypto ka {{name}}",
+        "SendPaymentTo": "Kirimkeun pamayaran ka {{name}}",
+        "SendEmailTo": "Kirim surélék ka {{name}}",
+        "SendSMSTo": "Kirim SMS ka {{name}}",
+        "BlockThisUser": "Blok pamaké ieu",
+        "UnblockThisUser": "Buka blokir pamaké ieu",
+        "YouCantChatWithYourself": "Anjeun teu bisa ngobrol jeung diri"
     },
     "myqr": {
         "Title": "QR abdi"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} di dieu pikeun ningali kumaha anjeun tiasa ngabagikeun ieu ka jalma sanés."
     },
     "payment": {
-        "onContribute": "Hatur nuhun! Pangmayaran anjeun ngaliwat. Naha anjeun badé ngajak réréncangan anjeun gabung sareng anjeun?"
+        "onContribute": "Hatur nuhun! Pangmayaran anjeun ngaliwat. Naha anjeun badé ngajak réréncangan anjeun gabung sareng anjeun?",
+        "ConnectAccount": "Sambungkeun akun"
     },
     "featureboard": {
         "Text_1": "Hayu sora anjeun kadéngé! Naha anjeun satuju urang kedah ngembangkeun fitur atanapi bug? Pencét tombol pikeun ngadukung éta.",
@@ -357,6 +414,43 @@
         "communityUsers": "Ieu daptar komunitas",
         "setAsConversation": "kolom URL salaku paguneman",
         "toMainCommunityToo": "tambahkeun pangguna ka komunitas utama ogé",
-        "willImportedTo": "Pamaké bakal diimpor ka komunitas"
+        "willImportedTo": "Pamaké bakal diimpor ka komunitas",
+        "ChooseFile": "pilih file"
+    },
+    "welcome": {
+        "Title": "{{appName}} : wilujeng sumping",
+        "GetStarted": "Mimitian",
+        "gallery": {
+            "Connect": "Nyambung",
+            "Organize": "ngatur",
+            "Travel": "Lalampahan",
+            "Share": "Bagikeun"
+        }
+    },
+    "services": {
+        "Title": "Jasa",
+        "filterByTitle": "Manggihan jasa ku judul",
+        "New": "+ Mimitian Service Anyar",
+        "NewService": "Service Anyar",
+        "NewAvailability": "Kasadiaan Anyar",
+        "filterServices": "jasa nyaring",
+        "NoneYet": "Taya jasa kabentuk acan<br> salila ieu.",
+        "AllAuthors": "Sadayana Pangarang",
+        "AllDays": "Sadayana Poé",
+        "AllLocations": "Sadaya Lokasi",
+        "MakeReservation": "Jieun Reservasi",
+        "CancelReservation": "Ngabolaykeun Reservasi",
+        "UpdateReservation": "Ngamutahirkeun Reservasi",
+        "AreYouSure": "Naha anjeun yakin?",
+        "YouWillRefunded": "Anjeun bakal refunded dina bentuk sks Anjeun bisa méakkeun dina hal séjén dina aplikasi nu.",
+        "AllInterests": "Sadayana Minat",
+        "FilterbyInterest": "Nyaring dumasar Minat",
+        "FilterByDate": "Nyaring Dumasar Tanggal",
+        "ShowActivities": "Témbongkeun kagiatan nu patali jeung ...",
+        "newServices": "Anjeun gaduh {{1}} jasa anyar",
+        "SelectLocation": "Pilih Lokasi",
+        "FilterLocationsPlaceHolder": "Saringan tempat sareng ...",
+        "Description": "{{1}} jasa",
+        "Keywords": "{{1}} jasa"
     }
 }

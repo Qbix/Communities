@@ -2,7 +2,8 @@
     "activation": {
         "Thanks": "Welcome to {{1}}",
         "ReallyYourEmail": "Estne re vera inscriptio electronica tua, {{1}}? Si ita est, <a href='{{2}}'>hic<\/a> preme ut passphrasim tuam appone et rationem tuam move.",
-        "SeeYou": "Vide te in <a href='{{1}}'>{{2}}<\/a> !"
+        "SeeYou": "Vide te in <a href='{{1}}'>{{2}}<\/a> !",
+        "Subject": "salve! Quaeso cognoscere electronica inscriptio tua."
     },
     "LinkToUnsubscribe": "Hic nexus est ut <a href='{{1}}'>unsubscribe<\/a> si non amplius inscriptionem accipere vis.",
     "Greetings": "Salvete ex {{1}}.",
@@ -17,11 +18,16 @@
         "Thanks": "Gratias adire pro {{1}}",
         "YouAreReceiving": "Hanc epistulam accipis quia aliquis inscriptionem tuam ingressus est et &quot;passphrase oblitus&quot; est. Si tu non erat, simpliciter hunc nuntium negligis.",
         "Reset": "Ad passphrasim tuam reset, preme {{1}}",
-        "SetUpPassphrase": "Passphrase extruxerat"
+        "SetUpPassphrase": "Passphrase extruxerat",
+        "DomainCode": "Si pagina telaris in navigatro tuo iam aperta est, codicem intrare potes",
+        "Subject": "Heus, tesserae tuae oblitus es?"
     },
     "subscription": {
         "YouHaveStarted": "Heus {{1}}, subscriptionem tuam instituisti ad {{2}} cum {{100}} apud {{4}} pro {{5}} menses",
         "HasStarted": "Hoc solum est ut scias {{1}}, subscriptionem suam ad {{2}} cum {{3}} ad {{4}} pro {{5}} menses incepit."
     },
-    "SeeYou": "Vide te in {{1}}!"
+    "SeeYou": "Vide te in {{1}}!",
+    "identifier": {
+        "Subject": "salve! Quin tibi inscriptio electronica."
+    }
 }

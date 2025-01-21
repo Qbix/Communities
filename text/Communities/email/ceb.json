@@ -2,7 +2,8 @@
     "activation": {
         "Thanks": "Welcome sa {{1}}",
         "ReallyYourEmail": "Mao ba gyud ni ang imong email address, {{1}}? Kung mao, pag-klik <a href='{{2}}'>dinhi<\/a> aron itakda ang imong passphrase ug i-aktibo ang imong account.",
-        "SeeYou": "Magkita ta sa <a href='{{1}}'>{{2}}<\/a> !"
+        "SeeYou": "Magkita ta sa <a href='{{1}}'>{{2}}<\/a> !",
+        "Subject": "Welcome! Palihug pamatud-i ang imong email address."
     },
     "LinkToUnsubscribe": "Ania ang usa ka link sa pag- <a href='{{1}}'>unsubscribe<\/a> kung dili nimo gusto nga makakuha pa nga mga email.",
     "Greetings": "Mga pagtimbaya gikan sa {{1}}.",
@@ -17,11 +18,16 @@
         "Thanks": "Salamat sa pagbisita {{1}}",
         "YouAreReceiving": "Nakadawat ka niini nga email tungod kay adunay nagsulod sa imong email address ug gi-klik ang &quot;nakalimtan ang passphrase&quot;. Kung dili ikaw, ibaliwala lang kini nga mensahe.",
         "Reset": "Aron i-reset ang imong passphrase, i-klik ang {{1}}",
-        "SetUpPassphrase": "I-set up ang passphrase"
+        "SetUpPassphrase": "I-set up ang passphrase",
+        "DomainCode": "Kung ang webpage bukas na sa imong browser, mahimo nimong isulod ang code",
+        "Subject": "Uy, nakalimot ka sa imong password?"
     },
     "subscription": {
         "YouHaveStarted": "Uy {{1}}, gisugdan nimo ang imong suskrisyon sa {{2}} sa {{3}} sa {{4}} sulod sa {{5}} ka bulan.",
         "HasStarted": "Kini aron lang ipahibalo kanimo {{1}}, nagsugod sa ilang suskrisyon sa {{2}} sa {{3}} sa {{4}} sulod sa {{5}} mga bulan."
     },
-    "SeeYou": "Magkita ta sa {{1}}!"
+    "SeeYou": "Magkita ta sa {{1}}!",
+    "identifier": {
+        "Subject": "Welcome! I-verify ang imong email address."
+    }
 }

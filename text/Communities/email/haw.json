@@ -2,7 +2,8 @@
     "activation": {
         "Thanks": "Welina mai iā {{1}}",
         "ReallyYourEmail": "ʻO kēia anei kāu helu leka uila, {{1}}? Inā pēlā, kaomi <a href='{{2}}'>ma aneʻi<\/a> e hoʻonohonoho i kāu ʻōlelo huna a hoʻā i kāu moʻokāki.",
-        "SeeYou": "E ʻike iā ʻoe ma <a href='{{1}}'>{{2}}<\/a> !"
+        "SeeYou": "E ʻike iā ʻoe ma <a href='{{1}}'>{{2}}<\/a> !",
+        "Subject": "Welina! E ʻoluʻolu e hōʻoia i kāu helu leka uila."
     },
     "LinkToUnsubscribe": "Eia kahi loulou e <a href='{{1}}'>wehe<\/a> i ke kau inoa inā ʻaʻole ʻoe makemake e kiʻi hou i nā leka uila.",
     "Greetings": "Aloha mai {{1}}.",
@@ -17,11 +18,16 @@
         "Thanks": "Mahalo no kou kipa ʻana iā {{1}}",
         "YouAreReceiving": "Loaʻa iā ʻoe kēia leka uila no ka mea ua komo kekahi i kāu leka uila a kaomi &quot;poina ka ʻōlelo huna&quot;. Inā ʻaʻole ʻoe, e haʻalele wale i kēia memo.",
         "Reset": "No ka hoʻoponopono hou ʻana i kāu ʻōlelo huna, kaomi iā {{1}}",
-        "SetUpPassphrase": "Hoʻonohonoho i ka ʻōlelo huna"
+        "SetUpPassphrase": "Hoʻonohonoho i ka ʻōlelo huna",
+        "DomainCode": "Inā wehe ʻia ka ʻaoʻao pūnaewele ma kāu polokalamu kele pūnaewele, hiki iā ʻoe ke hoʻokomo i ke code",
+        "Subject": "E, poina anei ʻoe i kāu ʻōlelo huna?"
     },
     "subscription": {
         "YouHaveStarted": "ʻAuhea {{1}}, ua hoʻomaka ʻoe i kāu kau inoa iā {{2}} me {{3}} ma {{4}} no {{5}} mahina.",
         "HasStarted": "He mea kēia e hōʻike iā ʻoe {{1}}, ua hoʻomaka kā lākou kau inoa ʻana iā {{2}} me {{3}} ma {{4}} no {{5}} mahina."
     },
-    "SeeYou": "E ʻike iā ʻoe ma {{1}}!"
+    "SeeYou": "E ʻike iā ʻoe ma {{1}}!",
+    "identifier": {
+        "Subject": "Welina! E hōʻoia i kāu leka uila."
+    }
 }

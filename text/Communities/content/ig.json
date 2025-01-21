@@ -4,7 +4,24 @@
         "NextSteps": "Jiri isi menu chọta ihe ị na-achọ."
     },
     "dashboard": {
-        "Menu": "NchNhr"
+        "Menu": "NchNhr",
+        "Home": "Ụlọ",
+        "Welcome": "Nnọọ",
+        "Events": "Ihe omume",
+        "Discuss": "Mkparịta ụka",
+        "People": "Ndị mmadụ",
+        "About": "Ihe gbasara",
+        "Community": "Ogbe",
+        "LogIn": "banye",
+        "LogOut": "pụọ",
+        "Intercoin": "Intercoin",
+        "Shows": "Ihe ngosi",
+        "Calendar": "Kalenda",
+        "Me": "Mu",
+        "Media": "Mgbasa ozi",
+        "Services": "Ọrụ",
+        "SetMobileNumber": "Tọọ nọmba ekwentị mkpanaaka",
+        "SetEmailAddress": "Tọọ adreesị ozi-e"
     },
     "greeting": {
         "Welcome": "Nnọọ na {{1}}. N&#39;ebe a, ị ga-ahụ ihe ezigara ndị otu obodo anyị. Biko tinye adreesị email gị ma ọ bụ akara ekwentị gị ka ị nweta ọkwa mgbe ebisara ọkwa."
@@ -80,13 +97,15 @@
         "FindPeople": "Chọta ndị ị ga-agwa okwu",
         "GroupConversations": "Soro ụfọdụ mkparịta ụka otu",
         "ContactStaff": "Ndị ọrụ kọntaktị",
-        "ContactCustomers": "Kpọtụrụ ndị ahịa"
+        "ContactCustomers": "Kpọtụrụ ndị ahịa",
+        "AddNewContacts": "Tinye kọntaktị ọhụrụ"
     },
     "me": {
         "Title": "M",
         "MobileNumber": "Nọmba ekwentị mkpanaka",
         "EmailAddress": "Adreesị ozi ịntanetị",
-        "UpdateSocialTitle": "Melite {{1}} aha njirimara"
+        "UpdateSocialTitle": "Melite {{1}} aha njirimara",
+        "Web3": "Weebụ3"
     },
     "people": {
         "Title": "Ndị mmadụ",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "Ndị nwere mmasị nkịtị"
         },
-        "Done": "Emechaala"
+        "Done": "Emechaala",
+        "Title": "Ozi bụ isi",
+        "Prompt": "Nzọụkwụ ole na ole iji melite akaụntụ gị",
+        "relationships": {
+            "explanation": "Gịnị bụ mmekọrịta gị?",
+            "welcome": "Nnọọ {{user}} ",
+            "invitedByUser": "kpọrọ gị òkù.",
+            "addToPhonebook": "Chekwaa na kọntaktị ekwentị m",
+            "iosInstructions": "Pịgharịa gaa na Tinye Kọntaktị ọhụrụ",
+            "androidInstructions": "Ị ga-emepe faịlụ vCard a mgbe ebudatara ya."
+        }
     },
     "profile": {
         "Title": "Profaịlụ",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "Pịnye ozi ọrụ ebe a",
         "EducationPlaceholder": "Pịnye ozi mmụta ebe a",
         "ManageNotifications": "Jikwaa amamọkwa",
-        "YourPreferredLanguage": "Asụsụ kacha amasị gị"
+        "YourPreferredLanguage": "Asụsụ kacha amasị gị",
+        "sections": {
+            "education": "Agụmakwụkwọ",
+            "greeting": "Ekele",
+            "jobs": "Ọrụ",
+            "links": "Njikọ",
+            "language": "Asụsụ",
+            "roles": "Ọrụ",
+            "personal": "Nkeonwe",
+            "social": "Social"
+        },
+        "Block": "Gbochie",
+        "blockUserAlertTitle": "Akwụchiri {{displayName}}",
+        "Unblock": "Kpọghe",
+        "Email": "Email",
+        "Avoid": "Zere",
+        "Roles": "Ọrụ",
+        "SendCrypto": "Kwụọ",
+        "CreatePrivateChat": "Wepụta kredit {{credits}} iji nweta?",
+        "RolesInCommunity": "Ọrụ n&#39;ime obodo",
+        "PersonalChatWith": "Mkparịta ụka nkeonwe ya na {{name}}",
+        "SendCryptoTo": "Ziga crypto na {{name}}",
+        "SendPaymentTo": "Ziga ụgwọ na {{name}}",
+        "SendEmailTo": "Ziga email na {{name}}",
+        "SendSMSTo": "Ziga SMS na {{name}}",
+        "BlockThisUser": "Gbochie onye ọrụ a",
+        "UnblockThisUser": "Kpọghe onye ọrụ a",
+        "YouCantChatWithYourself": "Ị nweghị ike ịkparịta ụka n&#39;onwe gị"
     },
     "myqr": {
         "Title": "QR m"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} ebe a ka ịhụ ka ị ga-esi kerịta nke a na ndị ọzọ."
     },
     "payment": {
-        "onContribute": "Daalụ! Ụgwọ gị gafere. Ọ ga-amasị gị ịkpọ ndị enyi gị ka ha sonyere gị?"
+        "onContribute": "Daalụ! Ụgwọ gị gafere. Ọ ga-amasị gị ịkpọ ndị enyi gị ka ha sonyere gị?",
+        "ConnectAccount": "Jikọọ akaụntụ"
     },
     "featureboard": {
         "Text_1": "Ka a nụ olu gị! Ị kwenyere na anyị kwesịrị ịmepụta atụmatụ ma ọ bụ ahụhụ? Pịa bọtịnụ iji kwado ya.",
@@ -357,6 +414,43 @@
         "communityUsers": "Nke a bụ ndepụta obodo",
         "setAsConversation": "kọlụm URL dị ka mkparịta ụka",
         "toMainCommunityToo": "tinyekwa ndị ọrụ na obodo isi",
-        "willImportedTo": "A ga-ebubata ndị ọrụ na obodo"
+        "willImportedTo": "A ga-ebubata ndị ọrụ na obodo",
+        "ChooseFile": "họrọ faịlụ"
+    },
+    "welcome": {
+        "Title": "{{appName}} : ndewo",
+        "GetStarted": "Malite",
+        "gallery": {
+            "Connect": "Jikọọ",
+            "Organize": "Hazie",
+            "Travel": "Njem",
+            "Share": "Kekọrịta"
+        }
+    },
+    "services": {
+        "Title": "Ọrụ",
+        "filterByTitle": "Chọta ọrụ site na aha",
+        "New": "+ Malite ọrụ ọhụrụ",
+        "NewService": "Ọrụ Ọhụrụ",
+        "NewAvailability": "Nnweta ọhụrụ",
+        "filterServices": "Ọrụ nzacha",
+        "NoneYet": "Enweghị ọrụ emepụtara<br> n&#39;oge ndị a.",
+        "AllAuthors": "Ndị ode akwụkwọ niile",
+        "AllDays": "Ụbọchị niile",
+        "AllLocations": "Ebe niile",
+        "MakeReservation": "Mee ndoputa",
+        "CancelReservation": "Kagbuo ndoputa",
+        "UpdateReservation": "Melite ndoputa",
+        "AreYouSure": "O doro gị anya?",
+        "YouWillRefunded": "A ga-akwụghachi gị n&#39;ụdị kredit ị nwere ike imefu na ihe ndị ọzọ na ngwa ahụ.",
+        "AllInterests": "Mmasị niile",
+        "FilterbyInterest": "Wepụta site na Mmasị",
+        "FilterByDate": "Nzacha Site na Ụbọchị",
+        "ShowActivities": "Gosi mmemme metụtara...",
+        "newServices": "Ị nwere ọrụ ọhụrụ {{1}}",
+        "SelectLocation": "Họrọ ebe",
+        "FilterLocationsPlaceHolder": "Nzacha ebe nwere...",
+        "Description": "{{1}} ọrụ",
+        "Keywords": "{{1}} ọrụ"
     }
 }

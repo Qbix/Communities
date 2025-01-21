@@ -2,7 +2,8 @@
     "activation": {
         "Thanks": "Takulandilani ku {{1}}",
         "ReallyYourEmail": "Kodi iyi ndi imelo adilesi yanu, {{1}}? Ngati ndi choncho, dinani <a href='{{2}}'>apa<\/a> kuti muyike mawu anu achinsinsi ndikutsegula akaunti yanu.",
-        "SeeYou": "Tikuwonani pa <a href='{{1}}'>{{2}}<\/a> !"
+        "SeeYou": "Tikuwonani pa <a href='{{1}}'>{{2}}<\/a> !",
+        "Subject": "Takulandirani! Chonde tsimikizirani imelo yanu."
     },
     "LinkToUnsubscribe": "Nawu ulalo woti <a href='{{1}}'>musalembetse<\/a> ngati simukufuna kulandila maimelo enanso.",
     "Greetings": "Moni wochokera ku {{1}}.",
@@ -17,11 +18,16 @@
         "Thanks": "Zikomo pochezera {{1}}",
         "YouAreReceiving": "Mukulandira imelo iyi chifukwa wina adalemba adilesi yanu ya imelo ndikudina &quot;kuyiwala mawu achinsinsi&quot;. Ngati simunali inu, ingonyalanyazani uthenga uwu.",
         "Reset": "Kuti mukonzenso mawu anu achinsinsi, dinani {{1}}",
-        "SetUpPassphrase": "Konzani mawu achinsinsi"
+        "SetUpPassphrase": "Konzani mawu achinsinsi",
+        "DomainCode": "Ngati tsamba lawebusayiti latsegulidwa kale mu msakatuli wanu, mutha kuyika khodi",
+        "Subject": "Hei, mwaiwala password yanu?"
     },
     "subscription": {
         "YouHaveStarted": "Hei {{1}}, mwayamba kulembetsa ku {{2}} ndi {{3}} pa {{4}} kwa {{5}} miyezi.",
         "HasStarted": "Uku ndikungodziwitsani {{1}}, ayamba kulembetsa ku {{2}} ndi {{3}} pa {{4}} kwa {{5}} miyezi."
     },
-    "SeeYou": "Tikuwonani pa {{1}}!"
+    "SeeYou": "Tikuwonani pa {{1}}!",
+    "identifier": {
+        "Subject": "Takulandirani! Tsimikizirani imelo yanu."
+    }
 }

@@ -4,7 +4,24 @@
         "NextSteps": "Lo akojọ aṣayan akọkọ lati wa ohun ti o n wa."
     },
     "dashboard": {
-        "Menu": "Akojọ aṣyn"
+        "Menu": "Akojọ aṣyn",
+        "Home": "Ile",
+        "Welcome": "Kaabo",
+        "Events": "Awọn iṣẹlẹ",
+        "Discuss": "Jíròrò",
+        "People": "Eniyan",
+        "About": "Nipa",
+        "Community": "Agbegbe",
+        "LogIn": "wo ile",
+        "LogOut": "jade",
+        "Intercoin": "Intercoin",
+        "Shows": "Awọn ifihan",
+        "Calendar": "Kalẹnda",
+        "Me": "Emi",
+        "Media": "Media",
+        "Services": "Awọn iṣẹ",
+        "SetMobileNumber": "Ṣeto Nọmba Alagbeka",
+        "SetEmailAddress": "Ṣeto Adirẹsi imeeli"
     },
     "greeting": {
         "Welcome": "Kaabo si {{1}}. Nibi iwọ yoo rii awọn nkan ti a fiweranṣẹ fun awọn ọmọ ẹgbẹ agbegbe wa. Jọwọ ṣafikun adirẹsi imeeli rẹ tabi nọmba alagbeka lati gba awọn iwifunni nigbati awọn ikede ba ti firanṣẹ."
@@ -80,13 +97,15 @@
         "FindPeople": "Wa eniyan lati ba sọrọ",
         "GroupConversations": "Darapọ mọ awọn ibaraẹnisọrọ ẹgbẹ kan",
         "ContactStaff": "Olubasọrọ Oṣiṣẹ",
-        "ContactCustomers": "Kan si Onibara"
+        "ContactCustomers": "Kan si Onibara",
+        "AddNewContacts": "Fi Awọn olubasọrọ Tuntun kun"
     },
     "me": {
         "Title": "Emi",
         "MobileNumber": "Nomba ti a le gbe rin",
         "EmailAddress": "Adirẹsi imeeli",
-        "UpdateSocialTitle": "Ṣe imudojuiwọn orukọ olumulo {{1}}"
+        "UpdateSocialTitle": "Ṣe imudojuiwọn orukọ olumulo {{1}}",
+        "Web3": "Oju-iwe ayelujara3"
     },
     "people": {
         "Title": "Eniyan",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "Awọn eniyan ti o ni awọn anfani ti o wọpọ"
         },
-        "Done": "Ti ṣe"
+        "Done": "Ti ṣe",
+        "Title": "Alaye ipilẹ",
+        "Prompt": "Awọn igbesẹ diẹ lati ṣeto akọọlẹ rẹ",
+        "relationships": {
+            "explanation": "Kini ibatan rẹ?",
+            "welcome": "Kaabo {{user}} ",
+            "invitedByUser": "pè e.",
+            "addToPhonebook": "Fipamọ si Awọn olubasọrọ foonu Mi",
+            "iosInstructions": "Yi lọ si isalẹ lati Fi Olubasọrọ Tuntun kun",
+            "androidInstructions": "O yẹ ki o ṣii faili vCard yii lẹhin ti yoo ṣe igbasilẹ."
+        }
     },
     "profile": {
         "Title": "Profaili",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "Tẹ alaye iṣẹ nibi",
         "EducationPlaceholder": "Tẹ alaye ẹkọ nibi",
         "ManageNotifications": "Ṣakoso awọn iwifunni",
-        "YourPreferredLanguage": "Ede ti o fẹ"
+        "YourPreferredLanguage": "Ede ti o fẹ",
+        "sections": {
+            "education": "Ẹkọ",
+            "greeting": "Ìkíni",
+            "jobs": "Awọn iṣẹ",
+            "links": "Awọn ọna asopọ",
+            "language": "Ede",
+            "roles": "Awọn ipa",
+            "personal": "Ti ara ẹni",
+            "social": "Awujo"
+        },
+        "Block": "Dina",
+        "blockUserAlertTitle": "Dina {{displayName}}",
+        "Unblock": "Ṣii silẹ",
+        "Email": "Imeeli",
+        "Avoid": "Yẹra fun",
+        "Roles": "Awọn ipa",
+        "SendCrypto": "Sanwo",
+        "CreatePrivateChat": "Na awọn kirẹditi {{credits}} lati de ọdọ bi?",
+        "RolesInCommunity": "Awọn ipa ni agbegbe",
+        "PersonalChatWith": "Iwiregbe ti ara ẹni pẹlu {{name}}",
+        "SendCryptoTo": "Fi crypto ranṣẹ si {{name}}",
+        "SendPaymentTo": "Fi owo ranṣẹ si {{name}}",
+        "SendEmailTo": "Fi imeeli ranṣẹ si {{name}}",
+        "SendSMSTo": "Fi SMS ranṣẹ si {{name}}",
+        "BlockThisUser": "Dina olumulo yi",
+        "UnblockThisUser": "Sina olumulo yi",
+        "YouCantChatWithYourself": "O ko le iwiregbe pẹlu ara rẹ"
     },
     "myqr": {
         "Title": "QR mi"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} nibi lati wo bi o ṣe le pin eyi pẹlu awọn eniyan miiran."
     },
     "payment": {
-        "onContribute": "E dupe! Owo sisan rẹ ti kọja. Ṣe o fẹ lati pe awọn ọrẹ rẹ lati darapọ mọ ọ?"
+        "onContribute": "E dupe! Owo sisan rẹ ti kọja. Ṣe o fẹ lati pe awọn ọrẹ rẹ lati darapọ mọ ọ?",
+        "ConnectAccount": "Sopọ iroyin"
     },
     "featureboard": {
         "Text_1": "Jẹ ki a gbọ ohun rẹ! Ṣe o gba pe o yẹ ki a ṣe agbekalẹ ẹya kan tabi kokoro? Tẹ bọtini naa lati ṣe atilẹyin.",
@@ -357,6 +414,43 @@
         "communityUsers": "Eyi ni atokọ agbegbe",
         "setAsConversation": "URL iwe bi ibaraẹnisọrọ",
         "toMainCommunityToo": "ṣafikun awọn olumulo si agbegbe akọkọ paapaa",
-        "willImportedTo": "Awọn olumulo yoo jẹ agbewọle si agbegbe"
+        "willImportedTo": "Awọn olumulo yoo jẹ agbewọle si agbegbe",
+        "ChooseFile": "yan faili"
+    },
+    "welcome": {
+        "Title": "{{appName}} : kaabo",
+        "GetStarted": "Bẹrẹ",
+        "gallery": {
+            "Connect": "Sopọ",
+            "Organize": "Ṣeto",
+            "Travel": "Irin-ajo",
+            "Share": "Pin"
+        }
+    },
+    "services": {
+        "Title": "Awọn iṣẹ",
+        "filterByTitle": "Wa awọn iṣẹ nipasẹ akọle",
+        "New": "+ Bẹrẹ Iṣẹ Tuntun",
+        "NewService": "Iṣẹ Tuntun",
+        "NewAvailability": "Titun Wiwa",
+        "filterServices": "Awọn iṣẹ àlẹmọ",
+        "NoneYet": "Ko si awọn iṣẹ ti o ṣẹda sibẹsibẹ<br> nigba wọnyi akoko.",
+        "AllAuthors": "Gbogbo Awọn onkọwe",
+        "AllDays": "Gbogbo Ọjọ",
+        "AllLocations": "Gbogbo Awọn ipo",
+        "MakeReservation": "Ṣe ifiṣura",
+        "CancelReservation": "Fagilee ifiṣura",
+        "UpdateReservation": "Ifiṣura imudojuiwọn",
+        "AreYouSure": "Ṣe o da ọ loju?",
+        "YouWillRefunded": "Iwọ yoo san pada ni irisi awọn kirẹditi ti o le na lori awọn ohun miiran ninu app naa.",
+        "AllInterests": "Gbogbo Awọn iwulo",
+        "FilterbyInterest": "Àlẹmọ nipa Anfani",
+        "FilterByDate": "Àlẹmọ Nipa Ọjọ",
+        "ShowActivities": "Ṣe afihan awọn iṣẹ ṣiṣe ti o jọmọ ...",
+        "newServices": "O ni awọn iṣẹ tuntun {{1}}",
+        "SelectLocation": "Yan Ibi",
+        "FilterLocationsPlaceHolder": "Ajọ awọn aaye pẹlu...",
+        "Description": "{{1}} iṣẹ",
+        "Keywords": "{{1}} iṣẹ"
     }
 }

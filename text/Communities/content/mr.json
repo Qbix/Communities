@@ -4,7 +4,24 @@
         "NextSteps": "तुम्ही जे शोधत आहात ते शोधण्यासाठी मुख्य मेनू वापरा."
     },
     "dashboard": {
-        "Menu": "मेनू"
+        "Menu": "मेनू",
+        "Home": "घर",
+        "Welcome": "स्वागत आहे",
+        "Events": "कार्यक्रम",
+        "Discuss": "चर्चा करा",
+        "People": "लोक",
+        "About": "बद्दल",
+        "Community": "समुदाय",
+        "LogIn": "लॉग इन करा",
+        "LogOut": "लॉग आउट करा",
+        "Intercoin": "इंटरकॉइन",
+        "Shows": "दाखवतो",
+        "Calendar": "कॅलेंडर",
+        "Me": "मी",
+        "Media": "मीडिया",
+        "Services": "सेवा",
+        "SetMobileNumber": "मोबाईल नंबर सेट करा",
+        "SetEmailAddress": "ईमेल पत्ता सेट करा"
     },
     "greeting": {
         "Welcome": "{{1}} मध्ये आपले स्वागत आहे. येथे तुम्हाला आमच्या समुदायाच्या सदस्यांसाठी पोस्ट केलेल्या गोष्टी सापडतील. जेव्हा घोषणा पोस्ट केल्या जातात तेव्हा सूचना प्राप्त करण्यासाठी कृपया तुमचा ईमेल पत्ता किंवा मोबाइल नंबर जोडा."
@@ -80,13 +97,15 @@
         "FindPeople": "बोलण्यासाठी लोक शोधा",
         "GroupConversations": "काही गट संभाषणांमध्ये सामील व्हा",
         "ContactStaff": "संपर्क कर्मचारी",
-        "ContactCustomers": "ग्राहकांशी संपर्क साधा"
+        "ContactCustomers": "ग्राहकांशी संपर्क साधा",
+        "AddNewContacts": "नवीन संपर्क जोडा"
     },
     "me": {
         "Title": "मी",
         "MobileNumber": "मोबाईल नंबर",
         "EmailAddress": "ईमेल पत्ता",
-        "UpdateSocialTitle": "{{1}} वापरकर्तानाव अपडेट करा"
+        "UpdateSocialTitle": "{{1}} वापरकर्तानाव अपडेट करा",
+        "Web3": "वेब३"
     },
     "people": {
         "Title": "लोक",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "सामान्य स्वारस्य असलेले लोक"
         },
-        "Done": "झाले"
+        "Done": "झाले",
+        "Title": "मूलभूत माहिती",
+        "Prompt": "तुमचे खाते सेट करण्यासाठी काही पायऱ्या",
+        "relationships": {
+            "explanation": "तुमचा काय संबंध?",
+            "welcome": "स्वागत आहे {{user}} ",
+            "invitedByUser": "तुम्हाला आमंत्रित केले.",
+            "addToPhonebook": "माझ्या फोन संपर्कांमध्ये जतन करा",
+            "iosInstructions": "नवीन संपर्क जोडण्यासाठी खाली स्क्रोल करा",
+            "androidInstructions": "ही vCard फाइल डाउनलोड झाल्यानंतर ती उघडली पाहिजे."
+        }
     },
     "profile": {
         "Title": "प्रोफाइल",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "येथे नोकरी माहिती टाइप करा",
         "EducationPlaceholder": "येथे शिक्षण माहिती टाइप करा",
         "ManageNotifications": "सूचना व्यवस्थापित करा",
-        "YourPreferredLanguage": "तुमची पसंतीची भाषा"
+        "YourPreferredLanguage": "तुमची पसंतीची भाषा",
+        "sections": {
+            "education": "शिक्षण",
+            "greeting": "अभिवादन",
+            "jobs": "नोकऱ्या",
+            "links": "दुवे",
+            "language": "भाषा",
+            "roles": "भूमिका",
+            "personal": "वैयक्तिक",
+            "social": "सामाजिक"
+        },
+        "Block": "ब्लॉक करा",
+        "blockUserAlertTitle": "{{displayName}} अवरोधित केले",
+        "Unblock": "अनब्लॉक करा",
+        "Email": "ईमेल",
+        "Avoid": "टाळा",
+        "Roles": "भूमिका",
+        "SendCrypto": "पैसे द्या",
+        "CreatePrivateChat": "पोहोचण्यासाठी {{credits}} क्रेडिट खर्च करायचे?",
+        "RolesInCommunity": "समाजातील भूमिका",
+        "PersonalChatWith": "{{name}} सह वैयक्तिक चॅट",
+        "SendCryptoTo": "{{name}} वर क्रिप्टो पाठवा",
+        "SendPaymentTo": "{{name}} वर पेमेंट पाठवा",
+        "SendEmailTo": "{{name}} वर ईमेल पाठवा",
+        "SendSMSTo": "{{name}} वर एसएमएस पाठवा",
+        "BlockThisUser": "या वापरकर्त्याला अवरोधित करा",
+        "UnblockThisUser": "या वापरकर्त्याला अनब्लॉक करा",
+        "YouCantChatWithYourself": "तुम्ही स्वतःशी गप्पा मारू शकत नाही"
     },
     "myqr": {
         "Title": "माझा QR"
@@ -286,7 +342,8 @@
         "invite": "तुम्ही हे इतर लोकांसोबत कसे शेअर करू शकता हे पाहण्यासाठी येथे {{Q.words.TapOrClick}}."
     },
     "payment": {
-        "onContribute": "धन्यवाद! तुमचे पेमेंट झाले. तुम्ही तुमच्या मित्रांना तुमच्यात सामील होण्यासाठी आमंत्रित करू इच्छिता?"
+        "onContribute": "धन्यवाद! तुमचे पेमेंट झाले. तुम्ही तुमच्या मित्रांना तुमच्यात सामील होण्यासाठी आमंत्रित करू इच्छिता?",
+        "ConnectAccount": "खाते कनेक्ट करा"
     },
     "featureboard": {
         "Text_1": "तुमचा आवाज ऐकू द्या! आपण सहमत आहात की आम्ही वैशिष्ट्य किंवा बग विकसित केले पाहिजे? त्यास समर्थन देण्यासाठी बटणावर क्लिक करा.",
@@ -357,6 +414,43 @@
         "communityUsers": "ही समुदायांची यादी आहे",
         "setAsConversation": "संभाषण म्हणून URL स्तंभ",
         "toMainCommunityToo": "वापरकर्त्यांना मुख्य समुदायात देखील जोडा",
-        "willImportedTo": "वापरकर्ते समुदायात आयात केले जातील"
+        "willImportedTo": "वापरकर्ते समुदायात आयात केले जातील",
+        "ChooseFile": "फाइल निवडा"
+    },
+    "welcome": {
+        "Title": "{{appName}} : स्वागत आहे",
+        "GetStarted": "प्रारंभ करा",
+        "gallery": {
+            "Connect": "कनेक्ट करा",
+            "Organize": "आयोजित करा",
+            "Travel": "प्रवास",
+            "Share": "शेअर करा"
+        }
+    },
+    "services": {
+        "Title": "सेवा",
+        "filterByTitle": "शीर्षकानुसार सेवा शोधा",
+        "New": "+ नवीन सेवा सुरू करा",
+        "NewService": "नवीन सेवा",
+        "NewAvailability": "नवीन उपलब्धता",
+        "filterServices": "फिल्टर सेवा",
+        "NoneYet": "अद्याप कोणतीही सेवा तयार केलेली नाही<br> या काळात.",
+        "AllAuthors": "सर्व लेखक",
+        "AllDays": "सर्व दिवस",
+        "AllLocations": "सर्व स्थाने",
+        "MakeReservation": "आरक्षण करा",
+        "CancelReservation": "आरक्षण रद्द करा",
+        "UpdateReservation": "आरक्षण अपडेट करा",
+        "AreYouSure": "तुम्हाला खात्री आहे का?",
+        "YouWillRefunded": "तुम्ही ॲपमधील इतर गोष्टींवर खर्च करू शकता अशा क्रेडिट्सच्या स्वरूपात तुम्हाला परतावा दिला जाईल.",
+        "AllInterests": "सर्व स्वारस्य",
+        "FilterbyInterest": "स्वारस्यानुसार फिल्टर करा",
+        "FilterByDate": "तारखेनुसार फिल्टर करा",
+        "ShowActivities": "संबंधित क्रियाकलाप दर्शवा ...",
+        "newServices": "तुमच्याकडे {{1}} नवीन सेवा आहेत",
+        "SelectLocation": "स्थान निवडा",
+        "FilterLocationsPlaceHolder": "यासह ठिकाणे फिल्टर करा...",
+        "Description": "{{1}} सेवा",
+        "Keywords": "{{1}} सेवा"
     }
 }

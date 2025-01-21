@@ -4,7 +4,24 @@
         "NextSteps": "Utere elencho principali ut invenias quod petebas."
     },
     "dashboard": {
-        "Menu": "Menu"
+        "Menu": "Menu",
+        "Home": "Home",
+        "Welcome": "Grata",
+        "Events": "Events",
+        "Discuss": "Discuss",
+        "People": "Homines",
+        "About": "De",
+        "Community": "Communitas",
+        "LogIn": "log in",
+        "LogOut": "log sunt",
+        "Intercoin": "Intercoin",
+        "Shows": "Ostendit",
+        "Calendar": "Calendarium",
+        "Me": "Me",
+        "Media": "Media",
+        "Services": "Officia",
+        "SetMobileNumber": "Set mobile Number",
+        "SetEmailAddress": "Set Email Address"
     },
     "greeting": {
         "Welcome": "Welcome to {{1}}. Hic invenies res missas pro membris nostrae communitatis. Quaeso adde electronicam electronicam aut mobilem numerum ut notificationes accipias cum nuntia missae sunt."
@@ -80,13 +97,15 @@
         "FindPeople": "Find homines loqui",
         "GroupConversations": "Colloquia quaedam iungere coetus",
         "ContactStaff": "Contactus Staff",
-        "ContactCustomers": "Contact Customers"
+        "ContactCustomers": "Contact Customers",
+        "AddNewContacts": "Adde Novi Contactus"
     },
     "me": {
         "Title": "Me",
         "MobileNumber": "Mobile numerus",
         "EmailAddress": "Inscriptio electronica",
-        "UpdateSocialTitle": "Renovare {{1}} nomen usoris"
+        "UpdateSocialTitle": "Renovare {{1}} nomen usoris",
+        "Web3": "Web3"
     },
     "people": {
         "Title": "Homines",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "Populus cum usibus communibus"
         },
-        "Done": "Done"
+        "Done": "Done",
+        "Title": "Basic Information",
+        "Prompt": "Pauci gradus ad rationem vestram erigas",
+        "relationships": {
+            "explanation": "Quae tua est necessitudo?",
+            "welcome": "Grata {{user}} ",
+            "invitedByUser": "invitavit te.",
+            "addToPhonebook": "Salvum mihi Phone Contactus",
+            "iosInstructions": "Volumen ad Add New Contact",
+            "androidInstructions": "Hanc vCard lima aperire cum downloaded."
+        }
     },
     "profile": {
         "Title": "Profile",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "Typus hic jobs info",
         "EducationPlaceholder": "Typus hic educationem info",
         "ManageNotifications": "Curo Suspendisse",
-        "YourPreferredLanguage": "Malle lingua tua"
+        "YourPreferredLanguage": "Malle lingua tua",
+        "sections": {
+            "education": "Education",
+            "greeting": "salutatio",
+            "jobs": "Jobs",
+            "links": "Vincula",
+            "language": "Linguae",
+            "roles": "Roles",
+            "personal": "Personale",
+            "social": "Social"
+        },
+        "Block": "Obstructionum",
+        "blockUserAlertTitle": "Clausus {{displayName}}",
+        "Unblock": "Unblock",
+        "Email": "Email",
+        "Avoid": "devita",
+        "Roles": "Roles",
+        "SendCrypto": "Stipendium",
+        "CreatePrivateChat": "{{credits}} habe creditorum rium?",
+        "RolesInCommunity": "Munera in conventu",
+        "PersonalChatWith": "Personale chat cum {{name}}",
+        "SendCryptoTo": "Crypto mitte ad {{name}}",
+        "SendPaymentTo": "Mitte mercedem {{name}}",
+        "SendEmailTo": "Mittere electronicam ad {{name}}",
+        "SendSMSTo": "Mitte ad SMS {{name}}",
+        "BlockThisUser": "Hoc user angustos",
+        "UnblockThisUser": "Unblock hoc usor",
+        "YouCantChatWithYourself": "Non potes chat cum te ipso"
     },
     "myqr": {
         "Title": "mea QR"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} hic videre quomodo cum aliis hominibus communicare potes."
     },
     "payment": {
-        "onContribute": "Gratias tibi! Perambulabat mercedem tuam. Velisne amicos tuos invitare ad te iungere?"
+        "onContribute": "Gratias tibi! Perambulabat mercedem tuam. Velisne amicos tuos invitare ad te iungere?",
+        "ConnectAccount": "Connect rationem"
     },
     "featureboard": {
         "Text_1": "Audiatur vox tua. Concedasne nos plumam vel cimex evolvere debere? Click in puga pyga ut suscipe eam.",
@@ -357,6 +414,43 @@
         "communityUsers": "Communitates haec est index",
         "setAsConversation": "URL columna ut conversationem",
         "toMainCommunityToo": "adde users ad principalis civitatis nimis",
-        "willImportedTo": "Users in civitatem importari"
+        "willImportedTo": "Users in civitatem importari",
+        "ChooseFile": "eligere file"
+    },
+    "welcome": {
+        "Title": "{{appName}} : welcome",
+        "GetStarted": "Adepto Coepi",
+        "gallery": {
+            "Connect": "Connect",
+            "Organize": "Organize",
+            "Travel": "Travel",
+            "Share": "Share"
+        }
+    },
+    "services": {
+        "Title": "Officia",
+        "filterByTitle": "Officia invenire per titulum",
+        "New": "+ Start New Service",
+        "NewService": "Nova Service",
+        "NewAvailability": "Nova Availability",
+        "filterServices": "Filtrum officia",
+        "NoneYet": "Nulla officia formatae adhuc<br> per haec tempora.",
+        "AllAuthors": "Omnes Auctores",
+        "AllDays": "Omnibus diebus",
+        "AllLocations": "Omnes Locations",
+        "MakeReservation": "Fac Cras interdum",
+        "CancelReservation": "Cancel Reservatio",
+        "UpdateReservation": "Renovatio Cras",
+        "AreYouSure": "Certus es?",
+        "YouWillRefunded": "In forma creditorum retribui poteris de aliis rebus in app.",
+        "AllInterests": "Omnes Interests",
+        "FilterbyInterest": "Filtrum ab Interest",
+        "FilterByDate": "Data eliquare",
+        "ShowActivities": "Ostendere actiones pertinentes ad ...",
+        "newServices": "{{1}} habes nova officia",
+        "SelectLocation": "Lego Location",
+        "FilterLocationsPlaceHolder": "Filter venues cum ...",
+        "Description": "{{1}} religio",
+        "Keywords": "{{1}} religio"
     }
 }

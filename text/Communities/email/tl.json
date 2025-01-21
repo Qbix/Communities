@@ -2,7 +2,8 @@
     "activation": {
         "Thanks": "Maligayang pagdating sa {{1}}",
         "ReallyYourEmail": "Ito ba talaga ang iyong email address, {{1}}? Kung gayon, mag-click <a href='{{2}}'>dito<\/a> upang itakda ang iyong passphrase at i-activate ang iyong account.",
-        "SeeYou": "Magkita-kita tayo sa <a href='{{1}}'>{{2}}<\/a> !"
+        "SeeYou": "Magkita-kita tayo sa <a href='{{1}}'>{{2}}<\/a> !",
+        "Subject": "Maligayang pagdating! Paki-verify ang iyong email address."
     },
     "LinkToUnsubscribe": "Narito ang isang link upang mag- <a href='{{1}}'>unsubscribe<\/a> kung ayaw mong makakuha ng higit pang mga email.",
     "Greetings": "Pagbati mula kay {{1}}.",
@@ -17,11 +18,16 @@
         "Thanks": "Salamat sa pagbisita {{1}}",
         "YouAreReceiving": "Natanggap mo ang email na ito dahil may nagpasok ng iyong email address at nag-click sa &quot;nakalimutan ang passphrase&quot;. Kung hindi ikaw, huwag pansinin ang mensaheng ito.",
         "Reset": "Upang i-reset ang iyong passphrase, i-click ang {{1}}",
-        "SetUpPassphrase": "I-set up ang passphrase"
+        "SetUpPassphrase": "I-set up ang passphrase",
+        "DomainCode": "Kung nakabukas na ang webpage sa iyong browser, maaari mong ilagay ang code",
+        "Subject": "Hoy, nakalimutan mo ba ang iyong password?"
     },
     "subscription": {
         "YouHaveStarted": "Uy {{1}}, sinimulan mo ang iyong subscription sa {{2}} sa {{3}} noong {{4}} sa loob ng {{5}} buwan.",
         "HasStarted": "Ito ay para lang ipaalam sa iyo na {{1}}, ay nagsimula ng kanilang subscription sa {{2}} kasama ng {{3}} noong {{4}} sa loob ng {{5}} buwan."
     },
-    "SeeYou": "Magkita-kita tayo sa {{1}}!"
+    "SeeYou": "Magkita-kita tayo sa {{1}}!",
+    "identifier": {
+        "Subject": "Maligayang pagdating! I-verify ang iyong email address."
+    }
 }

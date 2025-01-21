@@ -4,7 +4,24 @@
         "NextSteps": "ඔබ සොයන දේ සොයා ගැනීමට ප්‍රධාන මෙනුව භාවිතා කරන්න."
     },
     "dashboard": {
-        "Menu": "මෙනු"
+        "Menu": "මෙනු",
+        "Home": "නිවස",
+        "Welcome": "සාදරයෙන් පිළිගනිමු",
+        "Events": "සිදුවීම්",
+        "Discuss": "සාකච්ඡා කරන්න",
+        "People": "මිනිස්සු",
+        "About": "ගැන",
+        "Community": "ප්රජාව",
+        "LogIn": "ඇතුල් වන්න",
+        "LogOut": "log out",
+        "Intercoin": "ඉන්ටර්කොයින්",
+        "Shows": "සංදර්ශන",
+        "Calendar": "දින දර්ශනය",
+        "Me": "මම",
+        "Media": "මාධ්ය",
+        "Services": "සේවා",
+        "SetMobileNumber": "ජංගම දුරකථන අංකය සකසන්න",
+        "SetEmailAddress": "ඊමේල් ලිපිනය සකසන්න"
     },
     "greeting": {
         "Welcome": "{{1}} වෙත සාදරයෙන් පිළිගනිමු. අපගේ ප්‍රජාවේ සාමාජිකයින් සඳහා පළ කර ඇති දේවල් මෙහි ඔබට සොයාගත හැකිය. නිවේදන පළ කරන විට දැනුම්දීම් ලබා ගැනීම සඳහා කරුණාකර ඔබගේ විද්‍යුත් තැපැල් ලිපිනය හෝ ජංගම දුරකථන අංකය එක් කරන්න."
@@ -80,13 +97,15 @@
         "FindPeople": "කතා කිරීමට මිනිසුන් සොයන්න",
         "GroupConversations": "සමහර කණ්ඩායම් සංවාදවලට සම්බන්ධ වන්න",
         "ContactStaff": "කාර්ය මණ්ඩලය අමතන්න",
-        "ContactCustomers": "ගනුදෙනුකරුවන් අමතන්න"
+        "ContactCustomers": "ගනුදෙනුකරුවන් අමතන්න",
+        "AddNewContacts": "නව සම්බන්ධතා එකතු කරන්න"
     },
     "me": {
         "Title": "මට",
         "MobileNumber": "දුරකථන අංකය",
         "EmailAddress": "විද්යුත් තැපැල් ලිපිනය",
-        "UpdateSocialTitle": "{{1}} පරිශීලක නාමය යාවත්කාලීන කරන්න"
+        "UpdateSocialTitle": "{{1}} පරිශීලක නාමය යාවත්කාලීන කරන්න",
+        "Web3": "වෙබ්3"
     },
     "people": {
         "Title": "මිනිසුන්",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "පොදු අවශ්‍යතා ඇති පුද්ගලයින්"
         },
-        "Done": "කළා"
+        "Done": "කළා",
+        "Title": "මූලික තොරතුරු",
+        "Prompt": "ඔබගේ ගිණුම පිහිටුවීමට පියවර කිහිපයක්",
+        "relationships": {
+            "explanation": "ඔබේ සම්බන්ධය කුමක්ද?",
+            "welcome": "සාදරයෙන් පිළිගනිමු {{user}} ",
+            "invitedByUser": "ඔබට ආරාධනා කළා.",
+            "addToPhonebook": "මගේ දුරකථන සම්බන්ධතා වෙත සුරකින්න",
+            "iosInstructions": "නව සම්බන්ධතා එකතු කිරීමට පහළට අනුචලනය කරන්න",
+            "androidInstructions": "ඔබ මෙම vCard ගොනුව බාගත කළ පසු එය විවෘත කළ යුතුය."
+        }
     },
     "profile": {
         "Title": "පැතිකඩ",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "රැකියා තොරතුරු මෙහි ටයිප් කරන්න",
         "EducationPlaceholder": "මෙහි අධ්‍යාපන තොරතුරු ටයිප් කරන්න",
         "ManageNotifications": "දැනුම්දීම් කළමනාකරණය කරන්න",
-        "YourPreferredLanguage": "ඔබ කැමති භාෂාව"
+        "YourPreferredLanguage": "ඔබ කැමති භාෂාව",
+        "sections": {
+            "education": "අධ්යාපනය",
+            "greeting": "සුභ පැතුම්",
+            "jobs": "රැකියා",
+            "links": "සබැඳි",
+            "language": "භාෂාව",
+            "roles": "භූමිකාවන්",
+            "personal": "පුද්ගලික",
+            "social": "සමාජීය"
+        },
+        "Block": "අවහිර කරන්න",
+        "blockUserAlertTitle": "{{displayName}} අවහිර කර ඇත",
+        "Unblock": "අවහිර කිරීම ඉවත් කරන්න",
+        "Email": "ඊමේල් කරන්න",
+        "Avoid": "වළකින්න",
+        "Roles": "භූමිකාවන්",
+        "SendCrypto": "ගෙවන්න",
+        "CreatePrivateChat": "ළඟා වීමට ණය {{credits}} වැය කරන්නද?",
+        "RolesInCommunity": "ප්රජාව තුළ භූමිකාවන්",
+        "PersonalChatWith": "{{name}} සමඟ පුද්ගලික කතාබස් කරන්න",
+        "SendCryptoTo": "{{name}} ට crypto යවන්න",
+        "SendPaymentTo": "{{name}} ට ගෙවීමක් යවන්න",
+        "SendEmailTo": "{{name}} ට ඊමේල් යවන්න",
+        "SendSMSTo": "{{name}} ට SMS යවන්න",
+        "BlockThisUser": "මෙම පරිශීලකයා අවහිර කරන්න",
+        "UnblockThisUser": "මෙම පරිශීලකයා අවහිර නොකරන්න",
+        "YouCantChatWithYourself": "ඔබට ඔබ සමඟ කතාබස් කළ නොහැක"
     },
     "myqr": {
         "Title": "මගේ QR"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} ඔබට මෙය වෙනත් පුද්ගලයින් සමඟ බෙදා ගත හැකි ආකාරය බැලීමට මෙහි ඇත."
     },
     "payment": {
-        "onContribute": "ඔබට ස්තුතියි! ඔබේ ගෙවීම සිදු විය. ඔබ ඔබේ මිතුරන්ට ඔබ හා එක්වීමට ආරාධනා කිරීමට ඔබ කැමතිද?"
+        "onContribute": "ඔබට ස්තුතියි! ඔබේ ගෙවීම සිදු විය. ඔබ ඔබේ මිතුරන්ට ඔබ හා එක්වීමට ආරාධනා කිරීමට ඔබ කැමතිද?",
+        "ConnectAccount": "ගිණුම සම්බන්ධ කරන්න"
     },
     "featureboard": {
         "Text_1": "ඔබේ හඬ ඇසේවා! අපි විශේෂාංගයක් හෝ දෝෂයක් වර්ධනය කළ යුතු බව ඔබ එකඟද? එයට සහාය වීමට බොත්තම ක්ලික් කරන්න.",
@@ -357,6 +414,43 @@
         "communityUsers": "මෙය ප්‍රජා ලැයිස්තුවකි",
         "setAsConversation": "සංවාදයක් ලෙස URL තීරුව",
         "toMainCommunityToo": "ප්‍රධාන ප්‍රජාවට ද පරිශීලකයින් එක් කරන්න",
-        "willImportedTo": "පරිශීලකයින් ප්‍රජාව වෙත ආනයනය කරනු ලැබේ"
+        "willImportedTo": "පරිශීලකයින් ප්‍රජාව වෙත ආනයනය කරනු ලැබේ",
+        "ChooseFile": "ගොනුව තෝරන්න"
+    },
+    "welcome": {
+        "Title": "{{appName}} : සාදරයෙන් පිළිගනිමු",
+        "GetStarted": "ආරම්භ කරන්න",
+        "gallery": {
+            "Connect": "සම්බන්ධ කරන්න",
+            "Organize": "සංවිධානය කරන්න",
+            "Travel": "සංචාරය කරන්න",
+            "Share": "බෙදාගන්න"
+        }
+    },
+    "services": {
+        "Title": "සේවා",
+        "filterByTitle": "මාතෘකාව අනුව සේවාවන් සොයන්න",
+        "New": "+ නව සේවාවක් ආරම්භ කරන්න",
+        "NewService": "නව සේවාව",
+        "NewAvailability": "නව ලබා ගැනීමේ හැකියාව",
+        "filterServices": "පෙරහන් සේවා",
+        "NoneYet": "තවමත් සේවා පිහිටුවා නැත<br> මෙම කාලවලදී.",
+        "AllAuthors": "සියලුම කතුවරුන්",
+        "AllDays": "සියලුම දින",
+        "AllLocations": "සියලුම ස්ථාන",
+        "MakeReservation": "වෙන්කරවා ගන්න",
+        "CancelReservation": "වෙන් කිරීම අවලංගු කරන්න",
+        "UpdateReservation": "වෙන් කිරීම යාවත්කාලීන කරන්න",
+        "AreYouSure": "ඔයාට විශ්වාස ද?",
+        "YouWillRefunded": "ඔබට යෙදුමේ වෙනත් දේවල් සඳහා වියදම් කළ හැකි ණය ආකාරයෙන් ඔබට ආපසු ගෙවනු ලැබේ.",
+        "AllInterests": "සියලු අවශ්යතා",
+        "FilterbyInterest": "පොලී අනුව පෙරන්න",
+        "FilterByDate": "දිනය අනුව පෙරහන් කරන්න",
+        "ShowActivities": "සම්බන්ධ ක්‍රියාකාරකම් පෙන්වන්න ...",
+        "newServices": "ඔබට නව සේවා {{1}} ඇත",
+        "SelectLocation": "ස්ථානය තෝරන්න",
+        "FilterLocationsPlaceHolder": "ස්ථාන පෙරහන් කරන්න...",
+        "Description": "{{1}} සේවාව",
+        "Keywords": "{{1}} සේවාව"
     }
 }

@@ -2,7 +2,8 @@
     "activation": {
         "Thanks": "Rea u amohela ho {{1}}",
         "ReallyYourEmail": "Na ena ruri ke aterese ea hau ea lengolo-tsoibila, {{1}}? Haeba ho joalo, tlanya <a href='{{2}}'>mona<\/a> ho beha poleloana ea hau ea lekunutu le ho kenya akhaonto ea hau.",
-        "SeeYou": "Re tla u bona ho <a href='{{1}}'>{{100}}<\/a> !"
+        "SeeYou": "Re tla u bona ho <a href='{{1}}'>{{100}}<\/a> !",
+        "Subject": "Rea u amohela! Ka kopo, netefatsa aterese ea hau ea lengolo-tsoibila."
     },
     "LinkToUnsubscribe": "Sehokelo sa ho <a href='{{1}}'>itokolla<\/a> ke sena haeba o sa batle ho fumana mangolo-tsoibila.",
     "Greetings": "Litumeliso tse tsoang {{1}}.",
@@ -17,11 +18,16 @@
         "Thanks": "Re leboha ho etela {{1}}",
         "YouAreReceiving": "U fumana lengolo-tsoibila lena hobane motho e mong o kentse aterese ea hau ea lengolo-tsoibila mme a tobetsa &quot;lebetse poleloana ea lekunutu&quot;. Haeba e ne e se uena, hlokomoloha molaetsa ona feela.",
         "Reset": "Ho seta bocha poleloana ea hau ea lekunutu, tobetsa {{1}}",
-        "SetUpPassphrase": "Kenya poleloana ea lekunutu"
+        "SetUpPassphrase": "Kenya poleloana ea lekunutu",
+        "DomainCode": "Haeba leqephe la tepo le se le ntse le butsoe ho sebatli sa hau, o ka kenya khoutu",
+        "Subject": "Lumela, na u lebetse phasewete ea hau?"
     },
     "subscription": {
         "YouHaveStarted": "Lumela {{1}}, u se u qalile ho ingolisa ho {{2}} ka {{3}} ka {{4}} ka {{5}} likhoeli.",
         "HasStarted": "Sena ke ho u tsebisa {{1}}, ba qalile ho ingolisa ho {{2}} ka {{3}} ka {{4}} ka {{5}} likhoeli."
     },
-    "SeeYou": "Re tla u bona ho {{1}}!"
+    "SeeYou": "Re tla u bona ho {{1}}!",
+    "identifier": {
+        "Subject": "Rea u amohela! Netefatsa aterese ea hau ea lengolo-tsoibila."
+    }
 }

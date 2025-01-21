@@ -2,7 +2,8 @@
     "activation": {
         "Thanks": "Kaabo si {{1}}",
         "ReallyYourEmail": "Ṣe eyi gan ni adirẹsi imeeli rẹ, {{1}}? Ti o ba jẹ bẹ, tẹ <a href='{{2}}'>ibi<\/a> lati ṣeto ọrọ igbaniwọle rẹ ati mu akọọlẹ rẹ ṣiṣẹ.",
-        "SeeYou": "Wo e lori <a href='{{1}}'>{{2}}<\/a> !"
+        "SeeYou": "Wo e lori <a href='{{1}}'>{{2}}<\/a> !",
+        "Subject": "Kaabo! Jọwọ jẹrisi adirẹsi imeeli rẹ."
     },
     "LinkToUnsubscribe": "Eyi ni ọna asopọ kan lati <a href='{{1}}'>yọkuro<\/a> ti o ko ba fẹ gba awọn imeeli diẹ sii.",
     "Greetings": "Ikini lati {{1}}.",
@@ -17,11 +18,16 @@
         "Thanks": "O ṣeun fun abẹwo si {{1}}",
         "YouAreReceiving": "O n gba imeeli yii nitori ẹnikan ti tẹ adirẹsi imeeli rẹ sii o si tẹ “gbagbe ọrọ igbaniwọle”. Ti kii ṣe iwọ, nìkan foju si ifiranṣẹ yii.",
         "Reset": "Lati tun gbolohun ọrọ igbaniwọle rẹ to, tẹ {{1}}",
-        "SetUpPassphrase": "Ṣeto ọrọ igbaniwọle"
+        "SetUpPassphrase": "Ṣeto ọrọ igbaniwọle",
+        "DomainCode": "Ti oju-iwe wẹẹbu ba ti ṣii tẹlẹ ninu ẹrọ aṣawakiri rẹ, o le tẹ koodu sii",
+        "Subject": "Hey, ṣe o gbagbe ọrọ igbaniwọle rẹ?"
     },
     "subscription": {
         "YouHaveStarted": "Hey {{1}}, o ti bẹrẹ ṣiṣe alabapin rẹ si {{2}} pẹlu {{3}} ni {{4}} fun {{5}} osu.",
         "HasStarted": "Eyi jẹ lati jẹ ki o mọ {{1}}, ti bẹrẹ ṣiṣe alabapin wọn si {1000}} pẹlu {{3}} ni {{4}} fun {{5}} osu."
     },
-    "SeeYou": "Wo e lori {{1}}!"
+    "SeeYou": "Wo e lori {{1}}!",
+    "identifier": {
+        "Subject": "Kaabo! Daju adirẹsi imeeli rẹ."
+    }
 }

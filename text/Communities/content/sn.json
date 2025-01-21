@@ -4,7 +4,24 @@
         "NextSteps": "Shandisa main menu kuti uwane zvauri kutsvaga."
     },
     "dashboard": {
-        "Menu": "Menu"
+        "Menu": "Menu",
+        "Home": "Kumba",
+        "Welcome": "Mauya",
+        "Events": "Zviitiko",
+        "Discuss": "Kurukurai",
+        "People": "Vanhu",
+        "About": "About",
+        "Community": "Community",
+        "LogIn": "log in",
+        "LogOut": "log out",
+        "Intercoin": "Intercoin",
+        "Shows": "Shows",
+        "Calendar": "Calendar",
+        "Me": "Me",
+        "Media": "Media",
+        "Services": "Services",
+        "SetMobileNumber": "Seta Nharembozha",
+        "SetEmailAddress": "Seta Email Kero"
     },
     "greeting": {
         "Welcome": "Tikugashirei ku {{1}}. Pano iwe unowana zvinhu zvakatumirwa kune nhengo dzenharaunda yedu. Ndokumbira uwedzere email yako kana nhamba yefoni kuitira kuti ugamuchire zviziviso kana zviziviso zvatumirwa."
@@ -80,13 +97,15 @@
         "FindPeople": "Wana vanhu vekutaura navo",
         "GroupConversations": "Batanidza dzimwe hurukuro dzeboka",
         "ContactStaff": "Bata Vashandi",
-        "ContactCustomers": "Bata Vatengi"
+        "ContactCustomers": "Bata Vatengi",
+        "AddNewContacts": "Wedzera Mazita Matsva"
     },
     "me": {
         "Title": "Me",
         "MobileNumber": "Mobile Number",
         "EmailAddress": "Chikero chetsamba yemumhepo",
-        "UpdateSocialTitle": "Gadzirisa {{1}} zita rekushandisa"
+        "UpdateSocialTitle": "Gadzirisa {{1}} zita rekushandisa",
+        "Web3": "Web3"
     },
     "people": {
         "Title": "Vanhu",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "Vanhu vane Zvavanofarira"
         },
-        "Done": "Zvaita"
+        "Done": "Zvaita",
+        "Title": "Basic Information",
+        "Prompt": "Matanho mashoma ekumisikidza account yako",
+        "relationships": {
+            "explanation": "Ukama hwenyu ndehupi?",
+            "welcome": "Kugamuchira {{user}} ",
+            "invitedByUser": "akakukoka iwe.",
+            "addToPhonebook": "Sevha kune Mazita Efoni Yangu",
+            "iosInstructions": "Skira pasi kuti Wedzera New Contact",
+            "androidInstructions": "Iwe unofanirwa kuvhura iyi vCard faira mushure mekunge yatorwa."
+        }
     },
     "profile": {
         "Title": "Profile",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "Nyora pano ruzivo rwemabasa",
         "EducationPlaceholder": "Nyora pano ruzivo rwedzidzo",
         "ManageNotifications": "Manage Notifications",
-        "YourPreferredLanguage": "Mutauro waunofarira"
+        "YourPreferredLanguage": "Mutauro waunofarira",
+        "sections": {
+            "education": "Dzidzo",
+            "greeting": "Kwaziwai",
+            "jobs": "Mabasa",
+            "links": "Links",
+            "language": "Mutauro",
+            "roles": "Mabasa",
+            "personal": "Personal",
+            "social": "Social"
+        },
+        "Block": "Block",
+        "blockUserAlertTitle": "Yakavharirwa {{displayName}}",
+        "Unblock": "Vhura",
+        "Email": "Email",
+        "Avoid": "Dzivisa",
+        "Roles": "Mabasa",
+        "SendCrypto": "Pay",
+        "CreatePrivateChat": "Shandisa {{credits}} makiredhiti kuti usvike?",
+        "RolesInCommunity": "Mabasa munharaunda",
+        "PersonalChatWith": "Hurukuro yako pachako {{name}}",
+        "SendCryptoTo": "Tumira crypto {{name}}",
+        "SendPaymentTo": "Tumira mubhadharo {{name}}",
+        "SendEmailTo": "Tumira email {{name}}",
+        "SendSMSTo": "Tumira SMS {{name}}",
+        "BlockThisUser": "Bvisa mushandisi uyu",
+        "UnblockThisUser": "Vhura mushandisi uyu",
+        "YouCantChatWithYourself": "Iwe haugone kutaura newe"
     },
     "myqr": {
         "Title": "QR yangu"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} pano kuti uone kuti ungagovera sei izvi nevamwe vanhu."
     },
     "payment": {
-        "onContribute": "Ndatenda! Muripo wako wapfuura. Unoda kukoka shamwari dzako kuti dzibatane newe?"
+        "onContribute": "Ndatenda! Muripo wako wapfuura. Unoda kukoka shamwari dzako kuti dzibatane newe?",
+        "ConnectAccount": "Batanidza account"
     },
     "featureboard": {
         "Text_1": "Ita kuti inzwi rako rinzwike! Unobvuma here kuti isu tinofanirwa kugadzira chimiro kana bug? Baya bhatani kuti Tsigira.",
@@ -357,6 +414,43 @@
         "communityUsers": "Urwu ndirwo runyorwa rwenharaunda",
         "setAsConversation": "URL column sehurukuro",
         "toMainCommunityToo": "wedzera vashandisi kunharaunda huru zvakare",
-        "willImportedTo": "Vashandisi vachaunzwa kune nharaunda"
+        "willImportedTo": "Vashandisi vachaunzwa kune nharaunda",
+        "ChooseFile": "sarudza faira"
+    },
+    "welcome": {
+        "Title": "{{appName}} : gamuchirai",
+        "GetStarted": "Tanga",
+        "gallery": {
+            "Connect": "Connect",
+            "Organize": "Ronga",
+            "Travel": "Travel",
+            "Share": "Share"
+        }
+    },
+    "services": {
+        "Title": "Services",
+        "filterByTitle": "Tsvaga mabasa nemusoro",
+        "New": "+ Tanga Basa Idzva",
+        "NewService": "New Service",
+        "NewAvailability": "Kuwanikwa Kutsva",
+        "filterServices": "Sefa masevhisi",
+        "NoneYet": "Hapana masevhisi akaumbwa parizvino<br> panguva idzi.",
+        "AllAuthors": "Vose Vanyori",
+        "AllDays": "Mazuva ose",
+        "AllLocations": "All Locations",
+        "MakeReservation": "Ita Reservation",
+        "CancelReservation": "Kanzura Reservation",
+        "UpdateReservation": "Update Reservation",
+        "AreYouSure": "Une chokwadi here?",
+        "YouWillRefunded": "Iwe unozodzoserwa muchimiro chezvikwereti zvaunogona kushandisa pane zvimwe zvinhu muapp.",
+        "AllInterests": "Zvese Zvaunofarira",
+        "FilterbyInterest": "Sefa neKufarira",
+        "FilterByDate": "Sefa Nezuva",
+        "ShowActivities": "Ratidza zviitiko zvine chekuita ne...",
+        "newServices": "Iwe une {{1}} masevhisi matsva",
+        "SelectLocation": "Sarudza Nzvimbo",
+        "FilterLocationsPlaceHolder": "Sefa nzvimbo ne...",
+        "Description": "{{1}} sevhisi",
+        "Keywords": "{{1}} sevhisi"
     }
 }

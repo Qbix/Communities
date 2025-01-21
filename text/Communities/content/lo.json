@@ -4,7 +4,24 @@
         "NextSteps": "ໃຊ້ເມນູຫຼັກເພື່ອຊອກຫາສິ່ງທີ່ທ່ານກໍາລັງຊອກຫາ."
     },
     "dashboard": {
-        "Menu": "ເມນູ"
+        "Menu": "ເມນູ",
+        "Home": "ບ້ານ",
+        "Welcome": "ຍິນດີຕ້ອນຮັບ",
+        "Events": "ເຫດການ",
+        "Discuss": "ສົນທະນາ",
+        "People": "ຄົນ",
+        "About": "ກ່ຽວກັບ",
+        "Community": "ຊຸມຊົນ",
+        "LogIn": "ເຂົ້າສູ່ລະບົບ",
+        "LogOut": "ອອກຈາກລະບົບ",
+        "Intercoin": "Intercoin",
+        "Shows": "ການສະແດງ",
+        "Calendar": "ປະຕິທິນ",
+        "Me": "ຂ້ອຍ",
+        "Media": "ສື່ມວນຊົນ",
+        "Services": "ການບໍລິການ",
+        "SetMobileNumber": "ຕັ້ງເບີໂທລະສັບ",
+        "SetEmailAddress": "ຕັ້ງທີ່ຢູ່ອີເມວ"
     },
     "greeting": {
         "Welcome": "ຍິນດີຕ້ອນຮັບສູ່ {{1}}. ທີ່ນີ້ເຈົ້າຈະພົບເຫັນສິ່ງທີ່ປະກາດສໍາລັບສະມາຊິກຂອງຊຸມຊົນຂອງພວກເຮົາ. ກະລຸນາເພີ່ມທີ່ຢູ່ອີເມວ ຫຼືເບີໂທລະສັບຂອງທ່ານເພື່ອຮັບການແຈ້ງເຕືອນເມື່ອປະກາດປະກາດ."
@@ -80,13 +97,15 @@
         "FindPeople": "ຊອກຫາຄົນທີ່ຈະສົນທະນາກັບ",
         "GroupConversations": "ເຂົ້າຮ່ວມການສົນທະນາບາງກຸ່ມ",
         "ContactStaff": "ຕິດຕໍ່ພະນັກງານ",
-        "ContactCustomers": "ຕິດຕໍ່ລູກຄ້າ"
+        "ContactCustomers": "ຕິດຕໍ່ລູກຄ້າ",
+        "AddNewContacts": "ເພີ່ມລາຍຊື່ຜູ້ຕິດຕໍ່ໃໝ່"
     },
     "me": {
         "Title": "ຂ້ອຍ",
         "MobileNumber": "ເບີ​ໂທລະ​ສັບ",
         "EmailAddress": "ທີ່​ຢູ່​ອີ​ເມວ",
-        "UpdateSocialTitle": "ອັບເດດຊື່ຜູ້ໃຊ້ {{1}}"
+        "UpdateSocialTitle": "ອັບເດດຊື່ຜູ້ໃຊ້ {{1}}",
+        "Web3": "ເວັບໄຊຕ໌3"
     },
     "people": {
         "Title": "ຄົນ",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "ຄົນທີ່ມີຜົນປະໂຫຍດທົ່ວໄປ"
         },
-        "Done": "ສຳເລັດແລ້ວ"
+        "Done": "ສຳເລັດແລ້ວ",
+        "Title": "ຂໍ້ມູນພື້ນຖານ",
+        "Prompt": "ສອງສາມຂັ້ນຕອນເພື່ອຕັ້ງຄ່າບັນຊີຂອງທ່ານ",
+        "relationships": {
+            "explanation": "ຄວາມສໍາພັນຂອງເຈົ້າແມ່ນຫຍັງ?",
+            "welcome": "ຍິນດີຕ້ອນຮັບ {{user}} ",
+            "invitedByUser": "ເຊີນທ່ານ.",
+            "addToPhonebook": "ບັນທຶກໃສ່ລາຍຊື່ຜູ້ຕິດຕໍ່ຂອງຂ້ອຍ",
+            "iosInstructions": "ເລື່ອນລົງໄປຕື່ມການຕິດຕໍ່ໃໝ່",
+            "androidInstructions": "ທ່ານຄວນເປີດໄຟລ໌ vCard ນີ້ຫຼັງຈາກທີ່ມັນຈະຖືກດາວໂຫຼດ."
+        }
     },
     "profile": {
         "Title": "ໂປຣໄຟລ໌",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "ພິມຂໍ້ມູນວຽກຢູ່ບ່ອນນີ້",
         "EducationPlaceholder": "ພິມຂໍ້ມູນການສຶກສາຢູ່ທີ່ນີ້",
         "ManageNotifications": "ຈັດການການແຈ້ງເຕືອນ",
-        "YourPreferredLanguage": "ພາສາທີ່ທ່ານຕ້ອງການ"
+        "YourPreferredLanguage": "ພາສາທີ່ທ່ານຕ້ອງການ",
+        "sections": {
+            "education": "ການສຶກສາ",
+            "greeting": "ທັກທາຍ",
+            "jobs": "ວຽກ",
+            "links": "ລິ້ງຄ໌",
+            "language": "ພາສາ",
+            "roles": "ບົດບາດ",
+            "personal": "ສ່ວນບຸກຄົນ",
+            "social": "ສັງຄົມ"
+        },
+        "Block": "ຕັນ",
+        "blockUserAlertTitle": "ບລັອກ {{displayName}}",
+        "Unblock": "ປົດບລັອກ",
+        "Email": "ອີເມວ",
+        "Avoid": "ຫຼີກເວັ້ນ",
+        "Roles": "ບົດບາດ",
+        "SendCrypto": "ຈ່າຍ",
+        "CreatePrivateChat": "ໃຊ້ {{credits}} ສິນເຊື່ອເພື່ອບັນລຸ?",
+        "RolesInCommunity": "ບົດບາດໃນຊຸມຊົນ",
+        "PersonalChatWith": "ສົນທະນາສ່ວນຕົວກັບ {{name}}",
+        "SendCryptoTo": "ສົ່ງ crypto ກັບ {{name}}",
+        "SendPaymentTo": "ສົ່ງການຈ່າຍເງິນໄປ {{name}}",
+        "SendEmailTo": "ສົ່ງອີເມວຫາ {{name}}",
+        "SendSMSTo": "ສົ່ງ SMS ໄປ {{name}}",
+        "BlockThisUser": "ບລັອກຜູ້ໃຊ້ນີ້",
+        "UnblockThisUser": "ປົດບລັອກຜູ້ໃຊ້ນີ້",
+        "YouCantChatWithYourself": "ທ່ານບໍ່ສາມາດສົນທະນາກັບຕົວທ່ານເອງ"
     },
     "myqr": {
         "Title": "QR ຂອງຂ້ອຍ"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} ຢູ່ບ່ອນນີ້ເພື່ອເບິ່ງວ່າເຈົ້າສາມາດແບ່ງປັນສິ່ງນີ້ກັບຄົນອື່ນໄດ້ແນວໃດ."
     },
     "payment": {
-        "onContribute": "ຂອບ​ໃຈ! ການຈ່າຍເງິນຂອງທ່ານຜ່ານໄປ. ເຈົ້າຢາກເຊີນໝູ່ຂອງເຈົ້າມາຮ່ວມນຳບໍ່?"
+        "onContribute": "ຂອບ​ໃຈ! ການຈ່າຍເງິນຂອງທ່ານຜ່ານໄປ. ເຈົ້າຢາກເຊີນໝູ່ຂອງເຈົ້າມາຮ່ວມນຳບໍ່?",
+        "ConnectAccount": "ເຊື່ອມຕໍ່ບັນຊີ"
     },
     "featureboard": {
         "Text_1": "ໃຫ້ສຽງຂອງເຈົ້າໄດ້ຍິນ! ທ່ານຕົກລົງເຫັນດີວ່າພວກເຮົາຄວນຈະພັດທະນາຄຸນສົມບັດຫຼືຂໍ້ບົກພ່ອງ? ກົດ​ປຸ່ມ​ເພື່ອ​ສະ​ຫນັບ​ສະ​ຫນູນ​ມັນ​.",
@@ -357,6 +414,43 @@
         "communityUsers": "ນີ້ແມ່ນລາຍຊື່ຊຸມຊົນ",
         "setAsConversation": "ຖັນ URL ເປັນການສົນທະນາ",
         "toMainCommunityToo": "ເພີ່ມຜູ້ໃຊ້ເຂົ້າໃນຊຸມຊົນຕົ້ນຕໍເຊັ່ນກັນ",
-        "willImportedTo": "ຜູ້ໃຊ້ຈະຖືກນໍາເຂົ້າໄປຫາຊຸມຊົນ"
+        "willImportedTo": "ຜູ້ໃຊ້ຈະຖືກນໍາເຂົ້າໄປຫາຊຸມຊົນ",
+        "ChooseFile": "ເລືອກໄຟລ໌"
+    },
+    "welcome": {
+        "Title": "{{appName}} : ຍິນດີຕ້ອນຮັບ",
+        "GetStarted": "ເລີ່ມຕົ້ນ",
+        "gallery": {
+            "Connect": "ເຊື່ອມຕໍ່",
+            "Organize": "ຈັດຕັ້ງ",
+            "Travel": "ການເດີນທາງ",
+            "Share": "ແບ່ງປັນ"
+        }
+    },
+    "services": {
+        "Title": "ການບໍລິການ",
+        "filterByTitle": "ຊອກຫາການບໍລິການຕາມຫົວຂໍ້",
+        "New": "+ ເລີ່ມການບໍລິການໃໝ່",
+        "NewService": "ບໍລິການໃໝ່",
+        "NewAvailability": "ການມີໃຫ້ໃໝ່",
+        "filterServices": "ບໍລິການການກັ່ນຕອງ",
+        "NoneYet": "ຍັງ​ບໍ່​ມີ​ການ​ບໍ​ລິ​ການ​ສ້າງ​ຕັ້ງ​ຂຶ້ນ​<br> ໃນຊ່ວງເວລານີ້.",
+        "AllAuthors": "ຜູ້ຂຽນທັງໝົດ",
+        "AllDays": "ມື້ທັງຫມົດ",
+        "AllLocations": "ສະຖານທີ່ທັງໝົດ",
+        "MakeReservation": "ເຮັດການຈອງ",
+        "CancelReservation": "ຍົກເລີກການຈອງ",
+        "UpdateReservation": "ອັບເດດການຈອງ",
+        "AreYouSure": "ເຈົ້າແນ່ໃຈບໍ?",
+        "YouWillRefunded": "ທ່ານຈະໄດ້ຮັບເງິນຄືນໃນຮູບແບບເຄຣດິດທີ່ທ່ານສາມາດໃຊ້ໃນສິ່ງອື່ນໆໃນແອັບຯ.",
+        "AllInterests": "ຄວາມສົນໃຈທັງໝົດ",
+        "FilterbyInterest": "ກັ່ນຕອງຕາມຄວາມສົນໃຈ",
+        "FilterByDate": "ກັ່ນຕອງຕາມວັນທີ",
+        "ShowActivities": "ສະແດງກິດຈະກໍາທີ່ກ່ຽວຂ້ອງກັບ ...",
+        "newServices": "ທ່ານມີ {{1}} ການບໍລິການໃຫມ່",
+        "SelectLocation": "ເລືອກສະຖານທີ່",
+        "FilterLocationsPlaceHolder": "ກັ່ນ​ຕອງ​ສະ​ຖານ​ທີ່​ທີ່​ມີ ...",
+        "Description": "{{1}} ບໍລິການ",
+        "Keywords": "{{1}} ບໍລິການ"
     }
 }

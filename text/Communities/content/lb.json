@@ -4,7 +4,24 @@
         "NextSteps": "Benotzt den Haaptmenü fir ze fannen wat Dir sicht."
     },
     "dashboard": {
-        "Menu": "Menu"
+        "Menu": "Menu",
+        "Home": "Doheem",
+        "Welcome": "Wëllkomm",
+        "Events": "Evenementer",
+        "Discuss": "Diskutéieren",
+        "People": "Leit",
+        "About": "Iwwer",
+        "Community": "Communautéit",
+        "LogIn": "aloggen",
+        "LogOut": "ausloggen",
+        "Intercoin": "Intercoin",
+        "Shows": "weist",
+        "Calendar": "Kalenner",
+        "Me": "Ech",
+        "Media": "Medien",
+        "Services": "Servicer",
+        "SetMobileNumber": "Set Handy Zuel",
+        "SetEmailAddress": "E-Mail Adress setzen"
     },
     "greeting": {
         "Welcome": "Wëllkomm op {{1}}. Hei fannt Dir Saachen gepost fir Membere vun eiser Gemeinschaft. Füügt w.e.g. Är E-Mailadress oder Handysnummer un fir Notifikatiounen ze kréien wann Ukënnegung gepost ginn."
@@ -80,13 +97,15 @@
         "FindPeople": "Fannt Leit fir mat ze schwätzen",
         "GroupConversations": "Maacht mat bei e puer Grupp Gespréicher",
         "ContactStaff": "Kontakt Personal",
-        "ContactCustomers": "Kontakt Clienten"
+        "ContactCustomers": "Kontakt Clienten",
+        "AddNewContacts": "Add New Kontakter"
     },
     "me": {
         "Title": "Ech",
         "MobileNumber": "Handysnummer",
         "EmailAddress": "E-Mailadress",
-        "UpdateSocialTitle": "Update {{1}} Benotzernumm"
+        "UpdateSocialTitle": "Update {{1}} Benotzernumm",
+        "Web3": "Web3"
     },
     "people": {
         "Title": "Leit",
@@ -201,7 +220,17 @@
         "pile": {
             "DialogTitle": "Leit mat gemeinsamen Interessen"
         },
-        "Done": "Gemaach"
+        "Done": "Gemaach",
+        "Title": "Basis Informatiounen",
+        "Prompt": "E puer Schrëtt fir Äre Kont opzemaachen",
+        "relationships": {
+            "explanation": "Wat ass Är Relatioun?",
+            "welcome": "Wëllkomm {{user}} ",
+            "invitedByUser": "invitéiert Iech.",
+            "addToPhonebook": "Späichert op Meng Telefon Kontakter",
+            "iosInstructions": "Scroll down to Add New Contact",
+            "androidInstructions": "Dir sollt dës vCard Datei opmaachen nodeems se erofgeluede gëtt."
+        }
     },
     "profile": {
         "Title": "Profil",
@@ -245,7 +274,34 @@
         "JobsPlaceholder": "Gitt hei Aarbechtsinfo",
         "EducationPlaceholder": "Typ hei Ausbildungsinfo",
         "ManageNotifications": "Managen Notifikatiounen",
-        "YourPreferredLanguage": "Är léifste Sprooch"
+        "YourPreferredLanguage": "Är léifste Sprooch",
+        "sections": {
+            "education": "Educatioun",
+            "greeting": "Begréissung",
+            "jobs": "Aarbechtsplazen",
+            "links": "Linken",
+            "language": "Sprooch",
+            "roles": "Rollen",
+            "personal": "Perséinlech",
+            "social": "Sozial"
+        },
+        "Block": "Block",
+        "blockUserAlertTitle": "Blockéiert {{displayName}}",
+        "Unblock": "Spär opmaachen",
+        "Email": "E-Mail",
+        "Avoid": "Vermeiden",
+        "Roles": "Rollen",
+        "SendCrypto": "Bezuelen",
+        "CreatePrivateChat": "Verbréngt {{credits}} Credits fir z&#39;erreechen?",
+        "RolesInCommunity": "Rollen an der Gemeinschaft",
+        "PersonalChatWith": "Perséinleche Chat mat {{name}}",
+        "SendCryptoTo": "Schéckt Krypto op {{name}}",
+        "SendPaymentTo": "Schéckt eng Bezuelung op {{name}}",
+        "SendEmailTo": "E-Mail an {{name}} schécken",
+        "SendSMSTo": "Schéckt eng SMS op {{name}}",
+        "BlockThisUser": "Blockéiert dëse Benotzer",
+        "UnblockThisUser": "Spär dëse Benotzer un",
+        "YouCantChatWithYourself": "Dir kënnt net mat Iech selwer chatten"
     },
     "myqr": {
         "Title": "Meng QR"
@@ -286,7 +342,8 @@
         "invite": "{{Q.words.TapOrClick}} hei fir ze kucken wéi Dir dëst mat anere Leit deele kënnt."
     },
     "payment": {
-        "onContribute": "Merci! Är Bezuelung ass duerchgaang. Wëllt Dir Är Frënn mat Iech invitéieren?"
+        "onContribute": "Merci! Är Bezuelung ass duerchgaang. Wëllt Dir Är Frënn mat Iech invitéieren?",
+        "ConnectAccount": "Connect Kont"
     },
     "featureboard": {
         "Text_1": "Loosst Är Stëmm héieren! Sidd Dir averstanen datt mir eng Feature oder Käfer entwéckelen? Klickt op de Knäppchen fir et z&#39;ënnerstëtzen.",
@@ -357,6 +414,43 @@
         "communityUsers": "Dëst ass Gemeinschaftslëscht",
         "setAsConversation": "URL Kolonn als Gespréich",
         "toMainCommunityToo": "Füügt Benotzer och an d&#39;Haaptgemeinschaft",
-        "willImportedTo": "D&#39;Benotzer ginn an d&#39;Gemeinschaft importéiert"
+        "willImportedTo": "D&#39;Benotzer ginn an d&#39;Gemeinschaft importéiert",
+        "ChooseFile": "wielt Fichier"
+    },
+    "welcome": {
+        "Title": "{{appName}} : wëllkomm",
+        "GetStarted": "Fänkt un",
+        "gallery": {
+            "Connect": "Connect",
+            "Organize": "Organiséieren",
+            "Travel": "Reesen",
+            "Share": "Deelen"
+        }
+    },
+    "services": {
+        "Title": "Servicer",
+        "filterByTitle": "Fannt Servicer nom Titel",
+        "New": "+ Start Neie Service",
+        "NewService": "Neie Service",
+        "NewAvailability": "Nei Disponibilitéit",
+        "filterServices": "Filter Servicer",
+        "NoneYet": "Et gi keng Servicer nach geformt<br> während dësen Zäiten.",
+        "AllAuthors": "All Auteuren",
+        "AllDays": "All Deeg",
+        "AllLocations": "All Locations",
+        "MakeReservation": "Maacht Reservatioun",
+        "CancelReservation": "Reservatioun annuléieren",
+        "UpdateReservation": "Update Reservatioun",
+        "AreYouSure": "Bass du secher?",
+        "YouWillRefunded": "Dir wäert a Form vu Kreditter rembourséiert ginn, déi Dir op aner Saachen an der App ausginn kënnt.",
+        "AllInterests": "All Interessen",
+        "FilterbyInterest": "Filter no Interessi",
+        "FilterByDate": "Filter no Datum",
+        "ShowActivities": "Show Aktivitéiten am Zesummenhang mat ...",
+        "newServices": "Dir hutt {{1}} nei Servicer",
+        "SelectLocation": "Wielt Location",
+        "FilterLocationsPlaceHolder": "Filter Plazen mat ...",
+        "Description": "{{1}} Service",
+        "Keywords": "{{1}} Service"
     }
 }
