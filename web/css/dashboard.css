@@ -346,6 +346,7 @@ html.Q_mobile[data-dashboard-position="bottom"] #dashboard_slot {
 .Q_mobile #dashboard[data-style=icons] .Q_tabs_tab,
 .Q_mobile #dashboard[data-style=icons] #Users_status_tool {
 	min-width: 20%;
+	flex-direction: column;
 }
 .Q_mobile.Communities_dashboard_withTitles #dashboard[data-style="icons"] .Q_tabs_tab,
 .Q_mobile.Communities_dashboard_withTitles #dashboard[data-style="icons"] #Users_status_tool {
