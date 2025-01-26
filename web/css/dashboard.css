@@ -152,14 +152,14 @@ html.Q_notMobile.Q_layout_sidebar #dashboard a { display: inline-block; }
 .Q_mobile #dashboard .Q_tabs_tab * {
 	color: var(--dashboard-mobile-color);
 }
-.Q_mobile #dashboard_slot[data-style="contextual"] .Communities_dashboard_logo {
+.Q_mobile #dashboard[data-style="contextual"] .Communities_dashboard_logo {
 	display: inline-block; 
 	width: var(--dashboard-mobile-height); 
 	height: var(--dashboard-mobile-height);
 	background-position: center;
 	background-repeat: no-repeat;
 }
-.Q_mobile #dashboard[data-style=hamburger] .Communities_dashboard_logo h1 {
+.Q_mobile #dashboard:not([data-style=hamburger]) .Communities_dashboard_logo h1 {
 	display:none;
 }
 .Q_mobile #dashboard[data-style="icons"] .Q_tabs_tab::before,
