@@ -1003,12 +1003,22 @@ html.Communities_dialog #dashboard_slot {
 		-webkit-transition: -webkit-filter 0.1s;*/
 }
 
+.Q_mobile #dashboard_user {
+	width: var(--dashboard-mobile-height);
+	height: var(--dashboard-mobile-height);
+}
+
 html.Q_notMobile.Q_layout_widebar #dashboard_slot {
 	height: var(--dashboard-height);
 }
 
 html.Q_layout_widebar #dashboard {
 	overflow: visible;
+}
+
+.Q_mobile #dashboard[data-dashboard-style="contextual"] #Users_status_tool,
+.Q_mobile #dashboard[data-dashboard-style="contextual"] .Users_status_login {
+	height: var(--dashboard-mobile-height);
 }
 
 .Q_mobile #dashboard[data-style="icons"] .Users_status_tool .Users_avatar_name {
@@ -1373,6 +1383,10 @@ html.Q_notMobile #dashboard_slot .Users_avatar_tool img {
 }
 .Q_columns_title_container .Q_tool.Communities_stream_visited {
 	
+}
+
+.Q_mobile #dashboard .Q_tabs_tab {
+	height: var(--dashboard-mobile-height);
 }
 
 #dashboard .Q_tabs_tab *,

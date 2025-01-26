@@ -174,7 +174,7 @@ html.Q_notMobile.Q_layout_sidebar #dashboard a { display: inline-block; }
 	padding: 5px 10px;
 	margin: 0;
 	width: 40px;
-	min-height: 40px;
+	min-height: var(--dashboard-height);
 }
 #dashboard_slot {
 	position: fixed;
@@ -626,7 +626,7 @@ html[data-dashboard-style=contextual] .Q_contextual .Q_listing li * {
 .Q_layout_widebar #dashboard .Users_status_tool { border: solid 0 transparent; border-radius: 0; }
 #dashboard .Q_tabs_tab.Streams_preview_tool { padding-left: 10px; }
 #dashboard .Q_tabs_compact.Q_tabs_horizontal { margin: 0; }
-#dashboard .Q_tabs_compact.Q_tabs_horizontal .Q_tabs_tab { background-color: rgba(0,0,0,.15); color: white; width: 100%; height: 40px; font-size: 22px; }
+#dashboard .Q_tabs_compact.Q_tabs_horizontal .Q_tabs_tab { background-color: rgba(0,0,0,.15); color: white; width: 100%; height: var(--dashboard-mobile-height); font-size: 22px; }
 #dashboard .Q_tabs_compact.Q_tabs_horizontal .Q_tabs_tab * { color: white; }
 .Q_notMobile #dashboard .Q_tabs_tool.Q_tabs_vertical { overflow-y: auto; min-width: 200px; width: 60%; margin: auto; }
 .Q_mobile .Q_tabs_tabs { display: flex; justify-content: space-around; }
