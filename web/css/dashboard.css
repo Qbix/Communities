@@ -152,12 +152,15 @@ html.Q_notMobile.Q_layout_sidebar #dashboard a { display: inline-block; }
 .Q_mobile #dashboard .Q_tabs_tab * {
 	color: var(--dashboard-mobile-color);
 }
-.Q_mobile #dashboard_slot .Communities_dashboard_logo {
+.Q_mobile #dashboard_slot[data-style="contextual"] .Communities_dashboard_logo {
 	display: inline-block; 
 	width: var(--dashboard-mobile-height); 
 	height: var(--dashboard-mobile-height);
 	background-position: center;
 	background-repeat: no-repeat;
+}
+.Q_mobile #dashboard[data-style=hamburger] .Communities_dashboard_logo h1 {
+	display:none;
 }
 .Q_mobile #dashboard[data-style="icons"] .Q_tabs_tab::before,
 .Q_mobile #dashboard[data-style="icons"] .Q_tabs_tab * {
@@ -223,8 +226,8 @@ html.Q_notMobile.Q_layout_sidebar #dashboard a { display: inline-block; }
 	height: calc(100% - env(safe-area-inset-top) - env(safe-area-inset-bottom) - var(--dashboard-mobile-height) - var(--dashboard-mobile-titles-height));
 }
 .Q_mobile[data-dashboard-style=contextual] #page {
-	top: calc(env(safe-area-inset-top) + 40px);
-	height: calc(100% - env(safe-area-inset-bottom) - env(safe-area-inset-top) - 40px);
+	top: calc(env(safe-area-inset-top) + var(--dashboard-mobile-height));
+	height: calc(100% - env(safe-area-inset-bottom) - env(safe-area-inset-top) - var(--dashboard-mobile-height));
 }
 html.Q_mobile #dashboard_slot {
 	background: var(--dashboard-mobile-bg-color); /* for non-css3 browsers */
@@ -284,18 +287,18 @@ html.Q_mobile[data-dashboard-position="bottom"] #dashboard_slot {
 .Q_mobile #dashboard[data-style=icons] .Users_avatar_icon { border-radius: 50%; }
 .Q_mobile #dashboard[data-style=contextual] .Users_avatar_icon,
 .Q_mobile #dashboard[data-style=contextual] .Users_status_tool {
-	width: 40px;
-	height: 40px;
+	width: var(--dashboard-mobile-height);
+	height: var(--dashboard-mobile-height);
 	border: 0;
 	border-radius: 5px 0 0 5px;
 }
 .Q_mobile #dashboard[data-style=contextual] #Users_avatar-main_logo_tool img {
-	width: 40px;
-	height: 40px;
+	width: var(--dashboard-mobile-height);
+	height: var(--dashboard-mobile-height);
 	border-radius: 0 5px 5px 0;
 }
 .Q_mobile[data-dashboard-style=contextual] #Q_tabs-Communities_tool .Q_tabs_overflow>* {
-	line-height: 40px;
+	line-height: var(--dashboard-mobile-height);
 }
 .Q_mobile[data-dashboard-style=contextual] #dashboard .Q_tabs_tab.Q_current *,
 .Q_mobile[data-dashboard-style=hamburger] #dashboard .Q_tabs_tab.Q_current *  {
@@ -313,7 +316,7 @@ html.Q_mobile[data-dashboard-position="bottom"] #dashboard_slot {
 }
 .Q_mobile #dashboard[data-style=contextual] .Q_tabs_tool,
 .Q_mobile #dashboard[data-style=contextual] .Q_tabs_compact.Q_tabs_horizontal .Q_tabs_tab {
-	height: 40px;
+	height: var(--dashboard-mobile-height);
 	border-radius: 0;
 }
 .Q_mobile #dashboard[data-style=contextual] .Users_avatar_tool {
@@ -847,8 +850,8 @@ html.Q_layout_sidebar #dashboard_slot #dashboard #Users_avatar-main_logo_tool im
 	border-radius: 5px;
 }
 .Q_mobile #dashboard[data-style="contextual"] .Users_status_login {
-	width: 40px;
-	height: 40px;
+	width: var(--dashboard-mobile-height);
+	height: var(--dashboard-mobile-height);
 }
 .Q_mobile #dashboard[data-style="contextual"] .Users_status_login_title,
 .Q_mobile #dashboard[data-style="hamburger"] .Users_status_login_title {
