@@ -384,9 +384,11 @@ html.Q_mobile[data-dashboard-position="bottom"] #dashboard_slot {
 }
 .Q_mobile.Communities_dashboard_withTitles #dashboard[data-style=icons] .Q_tabs_tab img {
 	margin-right: 0;
-	padding-top: 0;
 	width: var(--dashboard-mobile-height);
 	height: var(--dashboard-mobile-height);
+}
+.Q_mobile #dashboard[data-style=icons] .Q_tab_me {
+	padding-top: 0;
 }
 .Q_mobile[data-dashboard-style=hamburger] #dashboard .Q_tabs_tool {
 	flex-grow: 1;
