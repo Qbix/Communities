@@ -136,13 +136,11 @@ html.Q_notMobile.Q_layout_sidebar #dashboard a { display: inline-block; }
 	top: 0;
 	bottom: 0;
 	left: 0;
-	display: inline-block;
 	background-position: center center;
 	background-size: 30px 30px;
 	background-repeat: no-repeat;
 	color: var(--dashboard-main-color);
 	text-align: center;
-	margin-right: 5px;
 	text-indent: 0;
 }
 #dashboard .Q_tabs_tab svg.Q_overflow_glyph_svg {
@@ -153,6 +151,13 @@ html.Q_notMobile.Q_layout_sidebar #dashboard a { display: inline-block; }
 .Q_mobile #dashboard .Q_tabs_tab::before,
 .Q_mobile #dashboard .Q_tabs_tab * {
 	color: var(--dashboard-mobile-color);
+}
+.Q_mobile #dashboard_slot .Q_dashboard_logo {
+	display: inline-block; 
+	width: var(--dashboard-mobile-height); 
+	height: var(--dashboard-mobile-height);
+	background-position: center;
+	background-repeat: no-repeat;
 }
 .Q_mobile #dashboard[data-style="icons"] .Q_tabs_tab::before,
 .Q_mobile #dashboard[data-style="icons"] .Q_tabs_tab * {
@@ -485,7 +490,6 @@ html[data-dashboard-style=contextual] .Q_contextual .Q_listing li * {
 	border: 0;
 	width: 30px;
 	height: 30px;
-	margin-right: 5px;
 	padding: 0;
 }
 #dashboard .Q_tab_about::before,
