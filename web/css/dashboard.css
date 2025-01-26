@@ -152,7 +152,7 @@ html.Q_notMobile.Q_layout_sidebar #dashboard a { display: inline-block; }
 .Q_mobile #dashboard .Q_tabs_tab * {
 	color: var(--dashboard-mobile-color);
 }
-.Q_mobile #dashboard_slot .Q_dashboard_logo {
+.Q_mobile #dashboard_slot .Communities_dashboard_logo {
 	display: inline-block; 
 	width: var(--dashboard-mobile-height); 
 	height: var(--dashboard-mobile-height);
@@ -406,7 +406,7 @@ html.Q_mobile[data-dashboard-position="bottom"] #dashboard_slot {
 	font-weight: normal;
 	font-size: 26px;
 	text-transform: capitalize;
-	line-height: 50px;
+	line-height: var(--dashboard-mobile-height);
 	margin: 0 auto;
 	padding: 0;
 	text-overflow: ellipsis;
@@ -774,8 +774,8 @@ html.Q_layout_sidebar #dashboard_slot #dashboard #Users_avatar-main_logo_tool im
 .Q_mobile #dashboard .Q_dashboard_overflowGlyph {
 	display: none;
 	margin: 5px;
-	height: 50px;
-	width: 50px;
+	height: var(--dashboard-mobile-height);
+	width: var(--dashboard-mobile-height);
 	border-radius: 5px;
 	background-color: rgba(0, 0, 0, 0.1);
 }
@@ -783,8 +783,8 @@ html.Q_layout_sidebar #dashboard_slot #dashboard #Users_avatar-main_logo_tool im
 	display: none;
 }
 .Q_mobile #dashboard[data-style=hamburger] .Q_tabs_tool {
-	height: 50px;
-	width: 50px;
+	height: var(--dashboard-mobile-height);
+	width: var(--dashboard-mobile-height);
 	padding: 0;
 	border-radius: 0 5px 5px 0;
 }
