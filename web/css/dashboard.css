@@ -387,7 +387,7 @@ html.Q_mobile[data-dashboard-position="bottom"] #dashboard_slot {
 	width: var(--dashboard-mobile-height);
 	height: var(--dashboard-mobile-height);
 }
-.Q_mobile #dashboard[data-style=icons] .Q_tab_me {
+.Q_mobile #dashboard[data-style=icons] .Q_tabs_tabs .Q_tabs_tab.Q_tab_me {
 	padding-top: 0;
 }
 .Q_mobile[data-dashboard-style=hamburger] #dashboard .Q_tabs_tool {
@@ -912,5 +912,5 @@ html.Q_layout_sidebar #dashboard_slot #dashboard #Users_avatar-main_logo_tool im
 }
 
 .Q_mobile #dashboard[data-style=icons] .Q_tabs_tab.Q_tab_me>* {
-	display: inline-block
+	display: inline-block;
 }
