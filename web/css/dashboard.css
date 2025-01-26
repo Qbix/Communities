@@ -322,7 +322,7 @@ html.Q_mobile[data-dashboard-position="bottom"] #dashboard_slot {
 .Q_mobile #dashboard[data-style=contextual] .Users_avatar_tool {
 	background: var(--dashboard-mobile-bg-color);
 }
-.Q_mobile #dashboard[data-style=icons] .Users_avatar_tool {
+.Q_mobile.Communities_dashboard_withTitles #dashboard[data-style=icons] .Users_avatar_tool {
 	margin: 10px;
 }
 .Q_mobile #dashboard[data-style=icons] {
@@ -382,7 +382,7 @@ html.Q_mobile[data-dashboard-position="bottom"] #dashboard_slot {
 .Q_mobile.Communities_dashboard_withTitles #dashboard .Users_status_login_title {
 	overflow: hidden;
 }
-.Q_mobile #dashboard[data-style=icons] .Q_tabs_tab img {
+.Q_mobile.Communities_dashboard_withTitles #dashboard[data-style=icons] .Q_tabs_tab img {
 	margin-right: 0;
 	width: var(--dashboard-mobile-height);
 	height: var(--dashboard-mobile-height);
@@ -906,4 +906,8 @@ html.Q_layout_sidebar #dashboard_slot #dashboard #Users_avatar-main_logo_tool im
 }
 #dashboard a:hover, #dashboard a:focus {
 	text-decoration: none;
+}
+
+.Q_mobile #dashboard[data-style=icons] .Q_tabs_tab.Q_tab_me>* {
+	display: inline-block
 }
