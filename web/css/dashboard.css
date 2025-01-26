@@ -297,13 +297,6 @@ html.Q_mobile[data-dashboard-position="bottom"] #dashboard_slot {
 .Q_mobile[data-dashboard-style=contextual] #Q_tabs-Communities_tool .Q_tabs_overflow>* {
 	line-height: 40px;
 }
-.Q_mobile[data-dashboard-style=contextual] #dashboard .Q_tabs_overflowGlyph {
-	position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translate(0, -50%);
-    line-height: 100%;
-}
 .Q_mobile[data-dashboard-style=contextual] #dashboard .Q_tabs_tab.Q_current *,
 .Q_mobile[data-dashboard-style=hamburger] #dashboard .Q_tabs_tab.Q_current *  {
 	font-weight: normal;
