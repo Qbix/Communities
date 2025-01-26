@@ -182,7 +182,7 @@ html.Q_notMobile.Q_layout_sidebar #dashboard a { display: inline-block; }
 	padding: 5px 10px;
 	margin: 0;
 	width: 40px;
-	min-height: var(--dashboard-height);
+	min-height: 40px;
 }
 #dashboard_slot {
 	position: fixed;
