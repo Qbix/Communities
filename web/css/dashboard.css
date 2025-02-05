@@ -7,10 +7,6 @@
 .Q_notMobile.Q_layout_widebar #dashboard #Users_avatar-main_logo_tool {
 	float: left;
 }
-.Q_layout_widebar #dashboard_slot #dashboard #Users_avatar-main_logo_tool,
-.Q_layout_widebar #dashboard_slot #dashboard #Users_avatar-main_logo_tool img { 
-	width: 40px; height: 40px;
-}
 #dashboard > h1 { float: left; padding: 5px; width: auto; }
 #dashboard > h2 { float: left; }
 .Q_notMobile #dashboard > h1, .Q_notMobile #dashboard > h2 { float: none; }
@@ -430,7 +426,7 @@ html.Q_mobile[data-dashboard-position="bottom"] #dashboard_slot {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 }
-.Q_mobile #dashboard .Users_avatar_icon { margin: 0; border-radius: 4px; vertical-align: top; }
+.Q_mobile #dashboard .Users_avatar_icon { margin: auto; border-radius: 4px; vertical-align: top; }
 .Q_mobile #dashboard .Users_avatar_name { display: none; }
 #Q_tabs_tool .Q_tabs_tab .Q_tabs_overflowGlyph,
 #Q_tabs_tool li .Q_tabs_overflowGlyph {
@@ -728,7 +724,9 @@ html.Q_notMobile { height: 100%; }
 	cursor: pointer;
 }
 .Q_mobile #dashboard #Users_avatar-main_logo_tool {
-	display: inline-block;
+	display: inline-flex;
+	justify-items: center;
+	align-items: center;
 	width: 	var(--dashboard-mobile-height);
 	height: var(--dashboard-mobile-height);
 	float: left; line-height: normal;
