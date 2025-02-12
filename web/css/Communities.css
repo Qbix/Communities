@@ -1597,6 +1597,7 @@ html.Q_mobile #content {
 .Communities_verified_icons {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 }
 
 .Communities_verified_icons .Communities_me_icon {
