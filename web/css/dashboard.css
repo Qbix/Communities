@@ -385,6 +385,9 @@ html.Q_mobile[data-dashboard-position="bottom"] #dashboard_slot {
 	padding-top: 0;
 	opacity: 0.8;
 }
+.Q_mobile #dashboard[data-style=icons] .Q_tabs_tabs .Q_tabs_tab.Q_tab_me.Q_current {
+	opacity: 1;
+}
 .Q_mobile[data-dashboard-style=hamburger] #dashboard .Q_tabs_tool {
 	flex-grow: 1;
 	overflow: hidden;
