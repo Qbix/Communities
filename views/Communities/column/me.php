@@ -1,5 +1,5 @@
 <div class="Communities_me_column">
-    <div class="Communities_me_avatar_section">
+    <div class="Communities_avatar_section">
         <?php echo Q::tool("Users/avatar", array(
             'userId' => $user->id, 
             'icon' => 80, 
