@@ -116,6 +116,10 @@
 	background-image: url(../../img/checkedin.png);
 }
 
+.Communities_me_column .Communities_me_icon[data-value=mobile]::before { content: "\e918"; }
+.Communities_me_column .Communities_me_icon[data-value=email]::before { content: "\e91a"; }
+.Communities_me_column .Communities_me_icon[data-value=web3]::before { content: "\e94e"; font-weight: bold; }
+
 .Communities_profile_sections .Communities_profile[data-val=greeting] {
 	padding-bottom: 20px;
 }

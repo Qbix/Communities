@@ -1581,7 +1581,8 @@ html.Q_mobile #content {
 }
 
 .Communities_avatar_section {
-	padding: 5%;
+	display: flex;
+	padding: 2%;
 }
 
 .Communities_avatar_section .Users_avatar_tool {
