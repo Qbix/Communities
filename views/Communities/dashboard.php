@@ -27,9 +27,9 @@
 			'defaultHtml' => $dashboard['Menu'],
 			'glyph' => <<<EOT
 				<svg class="Q_overflow_glyph_svg" viewBox="0 0 100 100" width="40" height="40">
-				    <rect y="10" width="100" height="10" rx="8"></rect>
-				    <rect y="40" width="100" height="10" rx="8"></rect>
-				    <rect y="70" width="100" height="10" rx="8"></rect>
+				    <rect y="20" width="100" height="10" rx="8"></rect>
+				    <rect y="50" width="100" height="10" rx="8"></rect>
+				    <rect y="80" width="100" height="10" rx="8"></rect>
 				</svg>				
 EOT
 		),

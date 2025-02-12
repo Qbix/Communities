@@ -833,13 +833,6 @@ html.Q_layout_sidebar #dashboard_slot #dashboard #Users_avatar-main_logo_tool im
 	left: auto !important;
 	right: 3px !important;
 }
-.Q_mobile.Communities_dashboard_withTitles #dashboard[data-style="icons"] .Q_tabs_overflowGlyph {
-	width: calc(var(--dashboard-mobile-height) - 25px);
-    height: calc(var(--dashboard-mobile-height) - 25px);
-}
-.Q_mobile.Communities_dashboard_withTitles #dashboard[data-style="icons"] .Q_tabs_copiedTitle {
-    
-}
 .Q_mobile #dashboard[data-style="icons"] .Q_overflow_glyph_svg {
 	margin: 0;
 	width: auto;
