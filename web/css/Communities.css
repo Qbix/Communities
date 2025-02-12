@@ -16,15 +16,14 @@
 	--dashboard-mobile-titles-height: 20px;
 	--dashboard-mobile-bg-color: #333333;
 	--dashboard-mobile-bg-color-to: #111111;
-	--dashboard-mobile-color: rgba(255, 255, 255, 0.5);
-	--dashboard-mobile-current-color: rgba(255, 255, 255, 0.9);
+	--dashboard-mobile-color: rgba(255, 255, 255, 0.9);
 	--dashboard-mobile-current-icon-bg: radial-gradient(closest-side, rgba(0, 0, 255, 0.2) 30%, transparent 85%);
 
 	--dashboard-main-bg-color: #a7a7a7;
 	--dashboard-main-bg-color-to: #f2f2f2;
 	--dashboard-main-color: rgba(255, 255, 255, 0.5);
+	--dashboard-current-bg: rgba(255, 255, 255, 0.2);
 	--dashboard-current-icon-bg: radial-gradient(closest-side, rgba(0, 0, 255, 0.2) 30%, transparent 85%);
-	--dashboard-current-color: rgba(255, 255, 255, 0.9);
 	--dashboard-contextual-bg: #0543a0;
 	--dashboard-contextual-bg-color: #f2f2f2;
 	--dashboard-contextual-color: rgba(0, 0, 0, 0.5);

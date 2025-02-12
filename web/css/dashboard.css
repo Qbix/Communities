@@ -112,7 +112,7 @@
 .Q_layout_widebar #dashboard[data-style=icons] .Q_tabs_tab {
 	border-radius: 0;
 	text-align: center;
-	/* opacity: 0.6; */
+	opacity: 0.6;
 	flex-grow: 1;
 }
 .Q_layout_widebar #dashboard[data-style=icons] .Q_tabs_tab.Q_current {
