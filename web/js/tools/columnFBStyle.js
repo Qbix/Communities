@@ -112,11 +112,14 @@ Q.Tool.define("Communities/columnFBStyle", function Communities_columnFBStyle_to
 		
 		function _closeChooser() {
 			var h = $titleSlot.outerHeight(true);
+			if (h) {
+				tool.lastTitleSlotHeight = h;
+			}
 			// allow clicks a chance to be processed
 			setTimeout(function () {
 				$chooser.find('input').val('').trigger('input');
 				$titleSlot.add($iconsContainer).css('top', '0');
-				$chooser.css('top', h);
+				$chooser.css('top', h || tool.lastTitleSlotHeight);
 			}, 300);
 		}
 	}
