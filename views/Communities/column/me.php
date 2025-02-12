@@ -12,6 +12,18 @@
                 echo Q::tool("Communities/roles", array("userId" => $user->id));
             }
         ?>
+
+        <div class="Communities_verified_icons">
+            <?php if ($hasMobile): ?>
+                <div class="Communities_me_icon" data-value="mobile" data-touchlabel="<?php echo $me['MobileNumber'] ?>" data-checked="<?php echo $user->mobileNumber ? 'true' : 'false' ?>"></div>
+            <?php endif; ?>
+            <?php if ($hasEmail): ?>
+                <div class="Communities_me_icon" data-value="email" data-touchlabel="<?php echo $me['EmailAddress'] ?>" data-checked="<?php echo $user->emailAddress ? 'true' : 'false' ?>"></div>
+            <?php endif; ?>
+            <?php if ($hasWeb3): ?>
+                <div class="Communities_me_icon" data-value="web3" data-touchlabel="<?php echo $me['Web3'] ?>" data-checked="<?php echo $user->getXid("web3_all") ? 'true' : 'false' ?>"></div>
+            <?php endif; ?>
+        </div>
     </div>
 
     <div class="Communities_tabs" data-style="icons">
@@ -43,14 +55,4 @@
             <?php echo $columns[$tabName] ?>
         </div>
     <?php endforeach; ?>
-
-    <?php if ($hasMobile): ?>
-        <div class="Communities_me_icon" data-value="mobile" data-touchlabel="<?php echo $me['MobileNumber'] ?>" data-checked="<?php echo $user->mobileNumber ? 'true' : 'false' ?>"></div>
-    <?php endif; ?>
-    <?php if ($hasEmail): ?>
-        <div class="Communities_me_icon" data-value="email" data-touchlabel="<?php echo $me['EmailAddress'] ?>" data-checked="<?php echo $user->emailAddress ? 'true' : 'false' ?>"></div>
-    <?php endif; ?>
-    <?php if ($hasWeb3): ?>
-        <div class="Communities_me_icon" data-value="web3" data-touchlabel="<?php echo $me['Web3'] ?>" data-checked="<?php echo $user->getXid("web3_all") ? 'true' : 'false' ?>"></div>
-    <?php endif; ?>
 </div>

@@ -91,8 +91,7 @@
 
 .Communities_me_column .Communities_me_icon {
 	display: block;
-	position: absolute;
-	right: 20px;
+	position: relative;
 	background-repeat: no-repeat;
 	background-size: contain;
 	width: 35px;
@@ -115,18 +114,6 @@
 	height: 15px;
 	background-repeat: no-repeat;
 	background-image: url(../../img/checkedin.png);
-}
-.Communities_me_column .Communities_me_icon[data-value=mobile]::before { content: "\e918"; }
-.Communities_me_column .Communities_me_icon[data-value=mobile] {
-	top: 10px;
-}
-.Communities_me_column .Communities_me_icon[data-value=email]::before { content: "\e91a"; }
-.Communities_me_column .Communities_me_icon[data-value=email] {
-	top: 35px;
-}
-.Communities_me_column .Communities_me_icon[data-value=web3]::before { content: "\e94e"; font-weight: bold; }
-.Communities_me_column .Communities_me_icon[data-value=web3] {
-	top: 60px;
 }
 
 .Communities_profile_sections .Communities_profile[data-val=greeting] {
@@ -173,11 +160,6 @@
 }
 #page .Communities_me_column .Communities_me_column_tabContent[data-val=inbox] .Communities_invite {
 	background: green;
-}
-.Communities_me_column .Communities_roles_tool {
-	position: absolute;
-	right: 60px;
-	top: 5px;
 }
 #page .Communities_me_column .Communities_connected_account_button[data-ready="1"] {
 	pointer-events: none;

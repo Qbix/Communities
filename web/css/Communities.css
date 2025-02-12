@@ -1584,8 +1584,17 @@ html.Q_mobile #content {
 	padding: 5%;
 }
 
+.Communities_avatar_section .Users_avatar_tool {
+	margin-right: auto;
+}
+
 .Communities_presentation_current {
 	outline: dashed 3px green;
+}
+
+.Communities_verified_icons {
+	display: flex;
+	flex-direction: column;
 }
 
 .Communities_conversations_column,
