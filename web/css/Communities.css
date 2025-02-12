@@ -1609,6 +1609,7 @@ html.Q_mobile #content {
     flex-direction: column;
     justify-content: center;
 	text-align: center;
+	position: relative;
 	background-repeat: no-repeat;
 	background-size: contain;
 	cursor: pointer;
