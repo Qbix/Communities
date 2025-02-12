@@ -1590,6 +1590,10 @@ html.Q_mobile #content {
 	margin-right: auto;
 }
 
+.Communities_avatar_section .Users_avatar_name {
+	margin: 0 10px;
+}
+
 .Communities_presentation_current {
 	outline: dashed 3px green;
 }
@@ -1605,7 +1609,6 @@ html.Q_mobile #content {
     flex-direction: column;
     justify-content: center;
 	text-align: center;
-	position: relative;
 	background-repeat: no-repeat;
 	background-size: contain;
 	cursor: pointer;
