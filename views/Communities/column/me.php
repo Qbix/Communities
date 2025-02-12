@@ -1,16 +1,18 @@
 <div class="Communities_me_column">
-    <?php echo Q::tool("Users/avatar", array(
-		'userId' => $user->id, 
-        'icon' => 80, 
-        'editable' => true,
-        'show' => 'u f l'
-	), 'Communities_me'); ?>
+    <div class="Communities_me_avatar_section">
+        <?php echo Q::tool("Users/avatar", array(
+            'userId' => $user->id, 
+            'icon' => 80, 
+            'editable' => true,
+            'show' => 'u f l'
+        ), 'Communities_me'); ?>
 
-	<?php
-        if (!empty($roles)) {
-			echo Q::tool("Communities/roles", array("userId" => $user->id));
-        }
-    ?>
+        <?php
+            if (!empty($roles)) {
+                echo Q::tool("Communities/roles", array("userId" => $user->id));
+            }
+        ?>
+    </div>
 
     <div class="Communities_tabs" data-style="icons">
         <?php
