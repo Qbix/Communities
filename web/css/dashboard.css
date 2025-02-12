@@ -74,7 +74,7 @@
 }
 .Q_layout_widebar[data-dashboard-position="top"] #dashboard .Q_tabs_tab.Q_current,
 .Q_layout_widebar[data-dashboard-position="top"] #dashboard .Q_tabs_tab.Q_mouseover {
-	border-bottom: solid 2px var(--dashboard-current-color);
+	border-bottom: solid 2px var(--dashboard-current-color, var(--dashboard-main-color));
 }
 .Q_layout_mobile[data-dashboard-position="top"] #dashboard .Q_tabs_tab.Q_current,
 .Q_layout_mobile[data-dashboard-position="top"] #dashboard .Q_tabs_tab.Q_mouseover {
@@ -505,7 +505,7 @@ html[data-dashboard-style=contextual] .Q_contextual .Q_listing li * {
 .Q_notMobile #dashboard .Q_tabs_tab.Q_current::before,
 .Q_notMobile .Q_listing_wrapper .Q_tabs_tab.Q_current::before {
 	background: var(--dashboard-current-icon-bg);
-	color: var(--dashboard-current-color);
+	color: var(--dashboard-current-color, var(--dashboard-main-color));
 }
 #dashboard .Q_tab_conversations::before,
 .Q_listing_wrapper .Q_tab_conversations::before {
@@ -639,10 +639,10 @@ html[data-dashboard-style=contextual] .Q_contextual .Q_listing li * {
 .Q_notMobile #dashboard .Q_tabs_tab span { display: inline-block; text-align: left; }
 #dashboard .Q_tabs_tab .Q_tabs_overflowGlyph { vertical-align: top; }
 #dashboard .Q_tabs_tab.Q_current { 
-	color: var(--dashboard-current-color);
+	color: var(--dashboard-current-color, var(--dashboard-main-color));
 }
 #dashboard .Q_tabs_tab.Q_current * { 
-	color: var(--dashboard-current-color);
+	color: var(--dashboard-current-color, var(--dashboard-main-color));
 	font-weight: bold; 
 }
 .Q_mobile #dashboard_slot { box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.3);}
