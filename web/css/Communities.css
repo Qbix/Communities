@@ -1580,6 +1580,10 @@ html.Q_mobile #content {
 	min-width: 300px;
 }
 
+.Communities_avatar_section {
+	padding: 5%;
+}
+
 .Communities_presentation_current {
 	outline: dashed 3px green;
 }
