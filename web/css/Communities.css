@@ -1583,6 +1583,7 @@ html.Q_mobile #content {
 .Communities_avatar_section {
 	display: flex;
 	padding: 2%;
+	gap: 1%;
 }
 
 .Communities_avatar_section .Users_avatar_tool {
@@ -1596,6 +1597,18 @@ html.Q_mobile #content {
 .Communities_verified_icons {
 	display: flex;
 	flex-direction: column;
+}
+
+.Communities_verified_icons .Communities_me_icon {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+	text-align: center;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: contain;
+	cursor: pointer;
+	z-index: 20;
 }
 
 .Communities_conversations_column,
