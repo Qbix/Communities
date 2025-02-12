@@ -112,7 +112,7 @@ Q.Tool.define("Communities/columnFBStyle", function Communities_columnFBStyle_to
 		
 		function _closeChooser() {
 			var h = $titleSlot.outerHeight(true);
-			if (h) {
+			if (h) { // it might be 0
 				tool.lastTitleSlotHeight = h;
 			}
 			// allow clicks a chance to be processed

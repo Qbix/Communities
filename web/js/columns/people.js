@@ -125,6 +125,7 @@ Q.exports(function (options, index, column, data) {
 			var userChooser = Q.Tool.from($(".Streams_userChooser_tool", column), 'Streams/userChooser');
 			var $userChooser = null;
 			if (userChooser) {
+				userChooser.state.showResultsAnyway = true;
 				$userChooser = $(userChooser.element);
 				icons.push($("<i class='qp-communities-search Communities_chooser_trigger'></i>"));
 			}
