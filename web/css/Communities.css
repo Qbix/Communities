@@ -1585,6 +1585,7 @@ html.Q_mobile #content {
 	display: flex;
 	padding: 2%;
 	gap: 1%;
+	align-items: center;
 }
 
 .Communities_avatar_section .Users_avatar_tool {
