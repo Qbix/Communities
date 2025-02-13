@@ -1236,15 +1236,17 @@ Q.Tool.onActivate("id:Q_columns-Communities").set(function () {
 		_handleHints(columns);
 		$(this.state.columns[index]).plugin('Q/placeholders');
 
-		setTimeout(function () {
-			$(Communities.latestTrigger).addClass('Q_selected')
-			.siblings().removeClass('Q_selected');
-			Q.scrollIntoView(Communities.latestTrigger, {
-				behavior: 'smooth',
-				block: 'nearest',
-				unlessOffscreenHorizontally: true
-			});
-		}, 300);
+		if (!Q.info.isMobile) {
+			setTimeout(function () {
+				$(Communities.latestTrigger).addClass('Q_selected')
+				.siblings().removeClass('Q_selected');
+				Q.scrollIntoView(Communities.latestTrigger, {
+					behavior: 'smooth',
+					block: 'nearest',
+					unlessOffscreenHorizontally: true
+				});
+			}, 300);
+		}
 	}, 'Communities');
 
 	columns.state.beforeClose.set(Q.preventRecursion(
