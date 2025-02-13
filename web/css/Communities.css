@@ -1308,6 +1308,7 @@ body.Q_columns_containsExpanded {
 .Q_columns_column:not(.Q_columns_hideTitle) .Q_columns_title > * {
 	background-color: var(--column-title-bg-color);
 	color: var(--column-title-color);
+	opacity: 1;
 }
 
 .Q_columns_title {
