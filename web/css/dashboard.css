@@ -72,9 +72,6 @@
 .Q_layout_widebar #dashboard:not([data-style="icons"]) .Q_tabs_alreadyVisible {
 	margin-left: 10px;
 }
-.Q_layout_widebar[data-dashboard-position="top"] #dashboard .Q_tabs_tab {
-	border-bottom: solid 2px transparent;
-}
 .Q_layout_widebar[data-dashboard-position="top"] #dashboard .Q_tabs_tab.Q_current,
 .Q_layout_widebar[data-dashboard-position="top"] #dashboard .Q_tabs_tab.Q_mouseover {
 	border-bottom: solid 2px var(--dashboard-current-color, var(--dashboard-main-color));
@@ -86,9 +83,6 @@
 .Q_layout_widebar[data-dashboard-position="top"] #dashboard .Q_tabs_compact .Q_tabs_tab.Q_current,
 .Q_layout_mobile[data-dashboard-position="top"] #dashboard .Q_tabs_compact .Q_tabs_tab.Q_current {
 	border-bottom: solid 2px transparent;
-}
-.Q_layout_widebar[data-dashboard-position="bottom"] #dashboard .Q_tabs_tab {
-	border-top: solid 2px transparent;
 }
 .Q_layout_widebar[data-dashboard-position="bottom"] #dashboard .Q_tabs_tab.Q_current,
 .Q_layout_widebar[data-dashboard-position="bottom"] #dashboard .Q_tabs_tab.Q_mouseover {
@@ -832,6 +826,13 @@ html.Q_layout_sidebar #dashboard_slot #dashboard #Users_avatar-main_logo_tool im
 .Q_mobile.Communities_dashboard_icons .Q_contextual.Q_tabs_contextual .Q_contextual_bottom_arrow {
 	left: auto !important;
 	right: 3px !important;
+}
+.Q_mobile.Communities_dashboard_withTitles #dashboard[data-style="icons"] .Q_tabs_overflowGlyph {
+	width: calc(var(--dashboard-mobile-height) - 25px);
+	height: calc(var(--dashboard-mobile-height) - 25px);
+}
+.Q_mobile.Communities_dashboard_withTitles #dashboard[data-style="icons"] .Q_tabs_copiedTitle {
+    
 }
 .Q_mobile #dashboard[data-style="icons"] .Q_overflow_glyph_svg {
 	margin: 0;
