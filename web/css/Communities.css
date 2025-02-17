@@ -1508,19 +1508,19 @@ html .Q_contextual li.Communities_notClickable {
 	color: white;
 	padding: 10px;
 }
-.Q_contextual .Q_contextual_top_arrow {
+body .Q_contextual .Q_contextual_top_arrow {
 	border-color: transparent transparent var(--dashboard-contextual-border) transparent;
 }
-.Q_contextual {
+body .Q_contextual {
 	background-color: var(--dashboard-contextual-border);
 }
-.Q_contextual .Q_contextual_bottom_arrow {
+body .Q_contextual .Q_contextual_bottom_arrow {
 	border-top: 15px solid var(--dashboard-contextual-border);
 }
-.Q_contextual .Q_contextual_top_arrow {
+body .Q_contextual .Q_contextual_top_arrow {
 	border-bottom: 15px solid var(--dashboard-contextual-border);
 }
-.Q_contextual .Q_listing {
+body .Q_contextual .Q_listing {
 	background: var(--dashboard-contextual-bg-color);
 }
 .Streams_preview_create {

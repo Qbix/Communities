@@ -1,10 +1,11 @@
 <?php
     $isMobile = Q_Request::isMobile();
+	$isSidebar = Q_Config::get('Q', 'response', 'layout', 'sidebar', false);
 ?>
 <div id='dashboard' data-style="<?php echo $dashboardStyle ?>">
     <?php echo Q::tool(array('Users/avatar' => array(
         'userId' => Users::currentCommunityId(true),
-        'icon' => $isMobile ? 40 : 200,
+        'icon' => $isMobile || !$isSidebar ? 40 : 200,
         'content' => false,
         'editable' => false
     )//, 'Communities/select' => array()

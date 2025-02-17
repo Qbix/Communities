@@ -31,7 +31,6 @@
 }
 .Q_notMobile.Q_layout_widebar #dashboard .Q_tabs_tab {
 	height: 100%;
-	display:flex;
 	justify-content:center;
 	align-items:center;
 	margin-bottom: 2px;
