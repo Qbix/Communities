@@ -11,8 +11,7 @@ function Communities_0_9_6_Streams()
 	$categoryStream = Streams_Stream::fetch($categoryStreamPublisherId, $categoryStreamPublisherId, $categoryStreamName);
 	if (empty($categoryStream)) {
 		$categoryStream = Streams::create($categoryStreamPublisherId, $categoryStreamPublisherId, $categoryStreamType, array(
-			"name" => $categoryStreamName,
-			'readLevel' => Streams::$READ_LEVEL['content']
+			"name" => $categoryStreamName,''
 		));
 	}
 

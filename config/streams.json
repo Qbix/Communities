@@ -1,4 +1,12 @@
 {
+	"Streams/chats/main": {
+		"type": "Streams/chats",
+		"title": "Main Community Conversations",
+		"icon": "Streams/category",
+		"readLevel": 23,
+		"writeLevel": 23,
+		"adminLevel": 20
+	},
 	"Communities/create/permissions": {
 		"type": "Communities/permissions",
 		"title": "Permission to create new community",
