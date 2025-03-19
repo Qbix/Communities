@@ -1596,6 +1596,10 @@ html.Q_mobile #content {
 	margin: 0 10px;
 }
 
+.Communities_avatar_section .Q_inplace_tool {
+	display: block;
+}
+
 .Communities_presentation_current {
 	outline: dashed 3px green;
 }
