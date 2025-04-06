@@ -289,10 +289,10 @@ Q.Tool.define("Communities/onboarding", function Communities_onboarding_tool() {
                         return;
                     }
 
-                    // if icon already customized just show it
-                    if (Q.Users.isCustomIcon(this.fields.icon, true)) {
-                        return _renderTemplate();
-                    }
+                    // // if icon already customized just show it
+                    // if (Q.Users.isCustomIcon(this.fields.icon, true)) {
+                    //     return _renderTemplate();
+                    // }
 
                     // check if group photo exists
                     var url = new URL(location.href);
