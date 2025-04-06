@@ -1311,6 +1311,10 @@ body.Q_columns_containsExpanded {
 	opacity: 1;
 }
 
+.Q_columns_column:not(.Q_columns_hideTitle) .Q_columns_title .Streams_preview_contents > * {
+	color: var(--column-title-color);
+}
+
 .Q_columns_title {
 	min-height: 50px;
 	max-height: none;
@@ -1338,7 +1342,7 @@ html .Communities_column_facebook .Q_columns_title .Q_title_slot {
 }
 
 .Communities .Q_column_websites_webpage .Q_columns_title {
-	background: #eeeeff;
+	background: var(--column-title-bg-color);
 }
 
 html .Users_avatar_tool img {
