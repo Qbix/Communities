@@ -1529,6 +1529,7 @@ body .Q_contextual .Q_listing {
 
 #Users_avatar-Communities_me_tool {
 	overflow: visible;
+	text-align: initial;
 }
 
 #Users_avatar-Communities_me_tool .Streams_firstName input,
