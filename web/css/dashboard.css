@@ -61,9 +61,11 @@
 	line-height: var(--dashboard-icon-size-withtitles);
 	font-size: var(--dashboard-icon-size-withtitles);
 }
-.Q_layout_widebar.Communities_dashboard_withTitles #dashboard[data-style=icons] .Q_tabs_tab a {
-	display: block;
-	margin: auto;
+.Q_tab_me a,
+.Q_tab_me a .Q_tabs_title,
+.Q_tab_me a .Q_tabs_title.Users_status_tool,
+.Q_tab_me a .Q_tabs_title.Users_status_login {
+	height: 100%;
 }
 .Q_layout_widebar #dashboard .Q_tabs_tab {
 	filter: none;
@@ -357,7 +359,7 @@ html.Q_mobile[data-dashboard-position="bottom"] #dashboard_slot {
 	display: inline-block;
 }
 .Q_mobile.Communities_dashboard_withTitles #dashboard[data-style=icons] .Q_tabs_tab * {
-	display: block;
+	display: flex;
 	margin: auto;
 }
 .Q_mobile.Communities_dashboard_withTitles #dashboard[data-style=icons] .Q_tabs_copiedTitle,
@@ -380,8 +382,13 @@ html.Q_mobile[data-dashboard-position="bottom"] #dashboard_slot {
 	width: calc(var(--dashboard-mobile-height) * 1.1);
 	height: calc(var(--dashboard-mobile-height) * 1.1);
 }
+.Q_mobile #dashboard[data-style=icons] .Users_status_tool, 
+.Q_mobile #dashboard[data-style=icons] .Users_status_login {
+	height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 .Q_mobile #dashboard[data-style=icons] .Q_tabs_tabs .Q_tabs_tab.Q_tab_me:not(.Q_tabs_overflow) {
-	padding-top: 0;
 	opacity: 0.8;
 }
 .Q_mobile #dashboard[data-style=icons] .Q_tabs_tabs .Q_tabs_tab.Q_tab_me.Q_current {
@@ -881,8 +888,10 @@ html.Q_layout_sidebar #dashboard_slot #dashboard #Users_avatar-main_logo_tool im
 }
 .Q_mobile.Communities_dashboard_withTitles #dashboard .Users_status_login::before {
 	height: var(--dashboard-icon-size-withtitles);
-	line-height: var(--dashboard-icon-size-withtitles);
-	font-size: 23px;
+    line-height: var(--dashboard-icon-size-withtitles);
+    font-size: 23px;
+    margin: 0 auto 1px auto;
+    vertical-align: middle;
 }
 .Q_mobile.Communities_dashboard_withTitles #dashboard[data-style="contextual"] .Users_status_login::before {
 	height: var(--dashboard-icon-size-withtitles-contextual);
