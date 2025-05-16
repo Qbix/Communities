@@ -4,7 +4,9 @@ function Communities_after_Users_logout()
 {
 	Q_Response::clearCookie('Q_Users_communityId');
 
-	$secret = Q_Config::get("Communities", "Discourse", "SSO", "secret", null);
+	$app = Q::app();
+	list($id, $appInfo) = Users::appInfo('discourse', $app);
+	$secret = Q::ifset($appInfo, 'secret', Q_Config::get("Communities", "Discourse", "SSO", "secret", null));
 	if (!$secret) {
 		return;
 	}
@@ -14,9 +16,10 @@ function Communities_after_Users_logout()
 	));
 	$payload = base64_encode($params);
 	$sig = hash_hmac('sha256', $payload, $secret);
+	$discourseUrl = $appInfo['url'];
 	Users::$logoutFetch['Communities'] = array(
 		'method' => 'GET',
-		'url' => "https://forum.miracles.community/session/sso_logout",
+		'url' => $discourseUrl . "/session/sso_logout",
 		'fields' => array(
 			'sso' => $payload,
 			'sig' => $sig

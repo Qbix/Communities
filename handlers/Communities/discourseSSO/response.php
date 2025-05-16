@@ -5,7 +5,9 @@ function Communities_discourseSSO_response($params)
     $params = array_merge($_REQUEST, $params);
     $sso = Q::ifset($params, 'sso', null);
     $sig = Q::ifset($params, 'sig', null);
-    $secret = Q_Config::get("Communities", "Discourse", "SSO", "secret", null);
+	$app = Q::app();
+	list($id, $appInfo) = Users::appInfo('discourse', $app);
+	$secret = Q::ifset($appInfo, 'secret', Q_Config::get("Communities", "Discourse", "SSO", "secret", null));
     $step = Q::ifset($params, 'step', null);
 
     if(is_null($sso)) {
