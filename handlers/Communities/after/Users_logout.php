@@ -17,6 +17,11 @@ function Communities_after_Users_logout()
 	$payload = base64_encode($params);
 	$sig = hash_hmac('sha256', $payload, $secret);
 	$discourseUrl = $appInfo['url'];
+	$discourseUrl = rtrim(Q::ifset($appInfo, 'url', ''), '/');
+	if (!$discourseUrl) {
+		Q::log("Communities/after/Users_logout: Discourse URL not set");
+		return;
+	}
 	Users::$logoutFetch['Communities'] = array(
 		'method' => 'GET',
 		'url' => $discourseUrl . "/session/sso_logout",
