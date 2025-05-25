@@ -161,6 +161,7 @@ html #content_slot,
 	background: var(--content-bg-color);
 	color: var(--content-fg-color);
 	--tabs-color: initial;
+	--content-fg-color: initial;
 }
 .Q_columns_column {
 	background: var(--column-bg-color);
