@@ -159,9 +159,7 @@ html #content_slot,
 .Communities_event #content_slot,
 .Communities_newEvent #content_slot {
 	background: var(--content-bg-color);
-	color: var(--content-fg-color);
-	--tabs-color: initial;
-	--content-fg-color: initial;
+	color: var(--content-fg-color) !important;
 }
 .Q_columns_column {
 	background: var(--column-bg-color);
