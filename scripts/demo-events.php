@@ -60,8 +60,8 @@ EOT;
 if (isset($argv[1]) and in_array($argv[1], array('--help', '/?', '-h', '-?', '/h')))
 	die($help);
 
-#Check primary arguments count: 2 if running /app/scripts/Q/invite.php, 3 if running /framework/scripts/invite.php
-if ($count < ($FROM_APP ? 0 : 1))
+#Check primary arguments count: 2 if running /app/scripts/Q/demo-events.php, 3 if running /framework/scripts/demo-events.php
+if ($count < ($FROM_APP ? 1 : 2))
 	die($usage);
 
 #Read primary arguments
