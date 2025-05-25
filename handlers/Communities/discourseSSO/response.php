@@ -42,7 +42,7 @@ function Communities_discourseSSO_response($params)
         $usersAvatar->toUserId = '';
         $usersAvatar->publisherId = $user->id;
         $usersAvatar->retrieve();
-        $avatarUrl = Q_Uri::interpolateUrl($usersAvatar->fields['icon']) . '/400.png';
+        $avatarUrl = $usersAvatar->iconUrl(true);
 
         $urlParams = [
             'nonce' => $nonce,
