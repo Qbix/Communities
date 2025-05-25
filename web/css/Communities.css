@@ -160,6 +160,7 @@ html #content_slot,
 .Communities_newEvent #content_slot {
 	background: var(--content-bg-color);
 	color: var(--content-fg-color);
+	--tabs-color: initial;
 }
 .Q_columns_column {
 	background: var(--column-bg-color);
@@ -537,6 +538,8 @@ input[name=query].Communities_eventChooser_input:focus {
 	color: var(--tabs-color, var(--column-color, var(--html-color)));
 	fill: var(--tabs-color, var(--column-color, var(--html-color)));
 }
+
+
 
 .Communities_tabs[data-style="icons"] .Communities_tab[data-val=inbox],
 .Communities_tabs[data-style="icons"] .Communities_tab[data-val=inbox]::before,
