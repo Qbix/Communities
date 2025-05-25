@@ -594,7 +594,8 @@ input[name=query].Communities_eventChooser_input:focus {
 	display: none;
 	margin-top: -1px;
 	border-top: 1px solid #777;
-	background: white;
+	background: var(--tabs-current-bg-color, white);;
+	color: var(--tabs-current-color, black);
 }
 .Communities_tabContent.Q_current {
 	display: block;
@@ -1003,7 +1004,6 @@ html.Communities_dialog #dashboard_slot {
 	/*	transition: filter 0.1s;
 		-webkit-transition: -webkit-filter 0.1s;*/
 }
-
 .Q_mobile #dashboard_user {
 	width: var(--dashboard-mobile-height);
 	height: var(--dashboard-mobile-height);
@@ -1280,6 +1280,7 @@ html.Communities *:focus {
 	white-space: nowrap;
     display: inline-block;
     background-color: #eeeeee;
+	color: black;
     padding-right: 5px;
     border-radius: 5px;
     border: solid 1px #aaaaaa;

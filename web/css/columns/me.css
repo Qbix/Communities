@@ -154,10 +154,12 @@
 }
 #page .Communities_me_column .Communities_me_column_tabContent[data-val=inbox] .Communities_invite {
 	background: green;
+	color: white;
 }
 #page .Communities_me_column .Communities_connected_account_button[data-ready="1"] {
 	pointer-events: none;
 	background: green;
+	color: white;
 }
 .Media_episode_tool .Media_tabs {
 	display: none;

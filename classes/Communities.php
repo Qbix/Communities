@@ -663,9 +663,10 @@ abstract class Communities
 					$options['limit'] * $m - $contactsCount,
 					$o + max(0, $options['offset'] - $contactsCount)
 				)
+				->caching(true)
 				->fetchDbRows(null, '', 'id');
 			if (empty($rows3)) {
-				continue; // no more userIds are coming by
+				break; // no more userIds are coming by
 			}
 			$o += count($rows3);
 			$rows = array_merge($rows, $rows3);
