@@ -545,8 +545,8 @@ input[name=query].Communities_eventChooser_input:focus {
 .Communities_tabs[data-style="icons"] .Communities_tab[data-val=schedule],
 .Communities_tabs[data-style="icons"] .Communities_tab[data-val=schedule]::before {
 	background: var(--tabs-frequent-bg-color);
-	color: var(--tabs-frequent-color, var(--column-color, var(--html-color)));
-	fill: var(--tabs-frequent-color, var(--column-color, var(--html-color)));
+	color: var(--tabs-frequent-color, var(--column-color, var(--html-color))) !important;
+	fill: var(--tabs-frequent-color, var(--column-color, var(--html-color))) !important;
 }
 
 .Communities_tabs[data-style="icons"] .Communities_tab[data-val=inbox]::before {
