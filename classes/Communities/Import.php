@@ -486,7 +486,7 @@ class Communities_Import
 		ini_set('memory_limit', '500M');
 
 		$texts = Q_Text::get('Communities/content')['import'];
-		$communityId = $taskStream->getAttribute('communityId') ?: Users::currentCommunityId(true);
+		$communityId = $taskStream->getAttribute('communityId', Users::currentCommunityId(true));
 		$mainCommunity = Users::communityId();
 
 		if (!($taskStream instanceof Streams_Stream)) {
