@@ -19,6 +19,7 @@
 html .Q_column_people input,
 html .Q_column_people input:focus {
 	background: transparent !important;
+	color: var(--content-fg-color);
 	border: 0;
 	border-bottom: solid 1px #394ad5;
 }

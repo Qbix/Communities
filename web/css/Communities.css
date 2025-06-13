@@ -295,7 +295,8 @@ input[name=query].Communities_eventChooser_input,
 input[name=query].Communities_serviceChooser_input,
 input[name=query].Communities_eventChooser_input:focus {
 	width: 100%;
-	background: rgba(255, 255, 255, 0.5);
+	background: transparent;
+	color: var(--content-fg-color);
 	border: 0;
 	border-bottom: solid 1px #394ad5;
 	border-radius: 3px;
@@ -303,7 +304,6 @@ input[name=query].Communities_eventChooser_input:focus {
 	-webkit-border-radius: 3px;
 	padding: 0 4px 0 4px;
 	margin-bottom: 10px;
-	color: #000;
 	font-size: 16px;
 	height: 40px;
 }
@@ -544,9 +544,9 @@ input[name=query].Communities_eventChooser_input:focus {
 .Communities_tabs[data-style="icons"] .Communities_tab[data-val=inbox]::before,
 .Communities_tabs[data-style="icons"] .Communities_tab[data-val=schedule],
 .Communities_tabs[data-style="icons"] .Communities_tab[data-val=schedule]::before {
-	background: var(--tabs-frequent-bg-color);
-	color: var(--tabs-frequent-color, var(--column-color, var(--html-color))) !important;
-	fill: var(--tabs-frequent-color, var(--column-color, var(--html-color))) !important;
+	background: var(--tabs-frequent-bg-color, transparent) ;
+	color: var(--tabs-frequent-color, var(--column-color, var(--html-color)));
+	fill: var(--tabs-frequent-color, var(--column-color, var(--html-color)));
 }
 
 .Communities_tabs[data-style="icons"] .Communities_tab[data-val=inbox]::before {
@@ -1675,7 +1675,15 @@ html.Q_mobile #content {
 
 @media (prefers-color-scheme: dark) {
 	:root {
+		--html-color: white;
+		--html-link-color: #55f;
+		--html-bg-color: #444;
 		--dialog-bg-color: #555;
 		--dialog-color: #fff;
+		--content-bg-color: #555;
+		--column-bg-color: #555;
+		--column-border-mobile: solid 1px rgba(200, 200, 200, 0.3);
+		--column-title-bg-color: #444;
+		--column-title-color: #fff
 	}
 }
