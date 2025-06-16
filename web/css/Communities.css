@@ -164,6 +164,7 @@ html #content_slot,
 .Q_columns_column {
 	background: var(--column-bg-color);
 	border: var(--column-border);
+	color: var(--column-color);
 }
 .Q_mobile .Q_columns_column.Q_columns_overlapped {
 	border: var(--column-border-mobile, var(--column-border));
