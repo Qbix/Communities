@@ -1456,7 +1456,7 @@ html.Q_notMobile #dashboard_slot .Users_avatar_tool img {
 }
 html.Q_notMobile .Streams_chat_preview_tool,
 html.Q_notMobile .Websites_webpage_preview_tool {
-	display: flex !important;
+	display: flex;
 }
 .Q_notMobile .Q_columns_stretchFirstColumn .Streams_preview_container {
 	flex-grow: 1;
