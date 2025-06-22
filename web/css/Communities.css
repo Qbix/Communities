@@ -5,6 +5,7 @@
 	--content-bg-color: hsl(0, 0%, 97%);
 
 	--column-bg-color: #fff;
+	--column-color: black;
 	--column-border: 0;
 	--column-border-mobile: solid 1px rgba(200, 200, 200, 0.3);
 	--column-title-bg-color: #fff;
@@ -52,12 +53,6 @@
 	--dialog-color: #000;
 	--dialog-title-bg-color: #002D72;
 	--dialog-title-color: #fff;
-
-
-	--chat-to-me-bg-color: #aaaaaa;
-	--chat-to-me-text-color: black;
-	--chat-from-me-bg-color: #0b94a9;
-	--chat-from-me-text-color: black;
 
 	--h1-font-color: #002D72;
 
@@ -472,60 +467,6 @@ input[name=query].Communities_eventChooser_input:focus {
 .Communities_tabs[data-style="icons"] .Communities_tab.Q_current::before {
 	background-color: var(--tabs-current-bg-color, white) !important;
 	color: var(--tabs-current-color, black) !important;
-}
-
-.Streams_chat_messages .Streams_chat_from_me .Streams_chat_bubble {
-	border-radius: 6px;
-	background-color: var(--chat-from-me-bg-color);
-	color: var(--chat-from-me-text-color);
-	box-shadow: 0 5px 15px -5px var(--chat-from-me-bg-color);
-	border: none;
-}
-.Streams_chat_messages .Streams_chat_from_me  *,
-.Streams_chat_messages .Streams_chat_from_me  a, .Streams_chat_message a:visited,
-.Streams_chat_messages .Streams_chat_from_me  .Streams_chat_bubble .Users_avatar_name * {
-	color: var(--chat-from-me-text-color);
-}
-.Streams_chat_messages .Streams_chat_from_me input[type="text"] {
-	background-color: white;
-	color: black;
-	box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
-}
-.Streams_chat_messages .Streams_chat_from_me button {
-	background-color: var(--chat-from-me-bg-color);
-	box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
-}
-.Streams_chat_messages .Streams_chat_to_me .Streams_chat_bubble {
-	border-radius: 6px;
-	background-color: var(--chat-to-me-bg-color);
-	color: var(--chat-to-me-text-color);
-	box-shadow: 0 5px 15px -5px var(--chat-to-me-bg-color);
-	border: none;
-}
-.Streams_chat_messages .Streams_chat_to_me  *,
-.Streams_chat_messages .Streams_chat_to_me  a, .Streams_chat_message a:visited,
-.Streams_chat_messages .Streams_chat_to_me  .Streams_chat_bubble .Users_avatar_name * {
-	color: var(--chat-to-me-text-color);
-}
-.Streams_chat_messages .Streams_chat_timestamp {
-	color: unset;
-}
-.Communities_profile_main .Streams_chat_bubble h3 {
-	color: var(--chat-text-color);
-}
-.Streams_chat_item .Streams_chat_tick {
-	width: 0;
-	height: 0;
-	border-style: solid;
-	background: none;
-}
-.Streams_chat_from_me .Streams_chat_tick {
-	border-width: 6.5px 0 6.5px 9px;
-	border-color: transparent transparent transparent var(--chat-from-me-bg-color);
-}
-.Streams_chat_to_me .Streams_chat_tick {
-	border-width: 6.5px 9px 6.5px 0;
-	border-color: transparent var(--chat-to-me-bg-color) transparent transparent;
 }
 
 .Communities_tabs[data-style="icons"] .Communities_tab::before {
