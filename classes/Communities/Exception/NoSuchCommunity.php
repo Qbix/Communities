@@ -14,4 +14,4 @@ class Communities_Exception_NoSuchCommunity extends Q_Exception
 	 */
 };
 
-Q_Exception::add('Communities_Exception_NoSuchCommunity', 'Community not found with id {{communityId}}');
+Q_Exception::add('Communities_Exception_NoSuchCommunity', 'Community not found with id {{communityId}}', 404);
