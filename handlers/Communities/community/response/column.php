@@ -20,7 +20,7 @@ function Communities_community_response_column($params = array())
 
 	$communityUser = Users_User::fetch($communityId);
 	if (!$communityUser) {
-		throw new Q_Exception("Community '".$communityId."' not found");
+		throw new Communities_Exception_NoSuchCommunity(compact('communityId'));
 	}
 
 	$tabSelected = Q::ifset($request, 'tab', Q::ifset($uri, 'tab', null));
