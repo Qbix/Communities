@@ -1624,6 +1624,7 @@ html.Q_mobile #content {
 		--dialog-color: #fff;
 		--content-bg-color: #555;
 		--column-bg-color: #555;
+		--column-color: white;
 		--column-border-mobile: solid 1px rgba(200, 200, 200, 0.3);
 		--column-title-bg-color: #444;
 		--column-title-color: #fff
