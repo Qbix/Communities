@@ -40,7 +40,7 @@
 		    ":communityId/:tab": { "module": "Communities", "action": "community" },
 			"Communities/:action": {"module": "Communities"},
 			"community/:communityId": { "module": "Communities", "action": "community" },
-		    ":communityId": { "module": "Communities", "action": "community" },
+		    ":communityId": { "module": "Communities", "action": "community", "": "Communities/communityExists"},
 		    "community": { "module": "Communities", "action": "community" },
 		    "communities": { "module": "Communities", "action": "communities" },
 			"about": { "module": "Communities", "action": "about" },
