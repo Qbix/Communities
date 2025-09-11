@@ -352,6 +352,9 @@ html.Q_mobile[data-dashboard-position="bottom"] #dashboard_slot {
 	min-height: 100%;
 	padding-top: calc((var(--dashboard-mobile-height) - var(--dashboard-icon-size-withtitles))/2);
 }
+.Q_mobile.Communities_dashboard_withTitles #dashboard[data-style="icons"] #Users_status_tool {
+	padding-bottom: calc((var(--dashboard-mobile-height) - var(--dashboard-icon-size-withtitles))/2);
+}
 .Q_mobile #dashboard[data-style=icons] .Q_tabs_tab>* {
 	display: none;
 }
@@ -361,7 +364,6 @@ html.Q_mobile[data-dashboard-position="bottom"] #dashboard_slot {
 .Q_mobile.Communities_dashboard_withTitles #dashboard[data-style=icons] .Q_tabs_tab * {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	margin: auto;
 }
 .Q_mobile.Communities_dashboard_withTitles #dashboard[data-style=icons] .Q_tabs_copiedTitle,
