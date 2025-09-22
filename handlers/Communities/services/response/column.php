@@ -42,8 +42,10 @@ function Communities_services_response_column(&$params, &$result)
 	$locationCategory->publisherId = $app;
 	$locationCategory->name = "Places/user/locations";
 	if ($locationCategory->retrieve()) {
-		$locationCategory->readLevel = 40;
-		$locationCategory->save();
+		if ($locationCategory->readLevel != 40) {
+			$locationCategory->readLevel = 40;
+			$locationCategory->save();
+		}
 	}
 
 	$controls = null;

@@ -346,21 +346,14 @@ abstract class Communities
 		}
 
 		// Places/user/locations
-		$locationsStream = Streams_Stream::fetch($communityId, $communityId, "Places/user/locations");
-		if (!$locationsStream) {
-			$locationsStream = Streams::create($communityId, $communityId, 'Streams/category', array(
-				'name' => "Places/user/locations",
+		$locationsStream = Streams_Stream::fetchOrCreate($communityId, $communityId, "Places/user/locations", array(
+			'fields' => array(
 				'title' => "Saved Locations",
 				'readLevel' => 40,
 				'writeLevel' => 0,
 				'adminLevel' => 0
-			));
-		} else {
-			$locationsStream->readLevel = 40;
-			$locationsStream->writeLevel = 0;
-			$locationsStream->adminLevel = 0;
-			$locationsStream->save();
-		}
+			)
+		));
 
 		// add needed labels
 		self::addCommunityLabels($communityId);
