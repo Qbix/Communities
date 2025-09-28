@@ -28,7 +28,7 @@
 			"Users/logout": ["Communities/after/Users_logout"],
 			"Streams/invite/accept": ["Communities/after/Streams_invite_accept"],
 			"Users/register": ["Communities/after/Users_register"],
-			"Places/geolocation": ["Communities/after/Places_geolocation"],
+			"Places/location/changed": ["Communities/after/Places_location_changed"],
 			"Calendars/event/leave": ["Communities/after/Calendars_event_leave"],
 			"Communities/community/create": ["Communities/after/Communities_community_create"],
 			"Q/configure": ["Communities/after/Q_configure"]

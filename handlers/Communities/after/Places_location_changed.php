@@ -1,6 +1,6 @@
 <?php
 	
-function Communities_after_Places_geolocation($params)
+function Communities_after_Places_location_changed($params)
 {
 	$stream = $params['stream'];
 	$created = $params['created'];
