@@ -370,7 +370,10 @@
 			},
 			"canInvite": ["Users/owners", "Users/admins"],
 			"importUsers": {
-				"sampleFields": ["First Name","Last Name","Gender","Position","Interest","Label","Organization","State","Country","Email Address","Blog URL","Conversation URL","Photo URL","Cover URL","Facebook URL","Twitter URL","Linkedin URL","Github URL","Instagram URL"]
+				"sampleFields": ["First Name","Last Name","Gender","Position","Interest","Label","Organization","State","Country","Email Address","Blog URL","Conversation URL","Photo URL","Cover URL","Facebook URL","Twitter URL","Linkedin URL","Github URL","Instagram URL"],
+				"image": {
+					"removeBackground": false
+				}
 			},
 			"skipComposer": false
 		},

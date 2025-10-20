@@ -458,6 +458,25 @@ class Communities_Import
 	 * @throws
 	 */
 	static function importIcon ($user, $iconUrl, $service=null) {
+		if (Q_Config::get('Communities', 'community', 'importUsers', 'image', 'removeBackground', false)) {
+			$filename = basename(parse_url($iconUrl, PHP_URL_PATH));
+			$savePath = implode(DS, [APP_FILES_DIR, Users::communityId(), "uploads", "Users", $filename]);
+			$iconData = file_get_contents($iconUrl);
+			if (!$iconData) {
+				throw new Exception("Couldn't download file from ".$iconUrl);
+			}
+
+			$response = AI_Image::create('RemoveBG')->removeBackground(base64_encode($iconData));
+			if (Q::ifset($response, 'error')) {
+				throw new Exception($response['error']);
+			}
+
+			if (!file_put_contents($savePath, $response['data'])) {
+				throw new Exception("Couldn't save file to ".$savePath);
+			}
+			$iconUrl = implode('/', [APP_WEB_DIR, "Q", "uploads", "Users", $filename]);
+		}
+
 		$icon = Q_Image::iconArrayWithUrl($iconUrl, 'Users/icon');
 		$cookie = $service ? Q_Config::get('Q', 'images', $service, 'cookie', null) : null;
 		$dir = Users::importIcon($user, $icon, null, $cookie);
@@ -679,10 +698,6 @@ class Communities_Import
 				} else {
 					$identifier = Q::ifset($data, 'email_address', Q::ifset($data, 'mobile_number', null));
 					$identifier = strtolower($identifier);
-
-					/*if (!$identifier) {
-						$identifier = Q_Utils::normalize(trim($data['full_name']), '_', '/[^A-Za-z0-9]+/').'@qbix.com';
-					}*/
 
 					// wait random seconds
 					//sleep(rand()%5);
