@@ -58,57 +58,44 @@ Q.Tool.define("Communities/importusers", function (options) {
 				return false;
 			});
 
-			_continue();
-		});
-
-		function _continue() {
-			var $input = tool.$('input[type=file]')
-				.click(function (event) {
-					event.stopPropagation();
-				}).change(_change);
-			// for browsers that don't support the change event, have an interval
-			this.ival = setInterval(function () {
-				if ($input.val()) {
-					_change();
-				}
-			}, 100);
-		}
-
-		function _change() {
-			if (!this.value) {
-				return; // it was canceled
-			}
-
-			$("span", tool.$fileLabel).html(`(processing ${this.value})`);
-
-			// task stream already defined, no need define it again
-			Streams.retainWith(tool).create({
-				publisherId: Users.loggedInUserId(),
-				type: 'Streams/task',
-				title: 'Importing users into ' + state.communityId
-			}, function (err) {
-				if (err) {
-					return;
+			tool.$('input[type=file]').click(function (event) {
+				event.stopPropagation();
+			}).change(function () {
+				if (!this.value) {
+					return; // it was canceled
 				}
 
-				state.taskStream = this;
+				$("span", tool.$fileLabel).html(`(processing ${this.value})`);
 
-				// join current user to task stream to get messages
-				this.join(function (err) {
+				// task stream already defined, no need define it again
+				Streams.retainWith(tool).create({
+					publisherId: Users.loggedInUserId(),
+					type: 'Streams/task',
+					title: 'Importing users into ' + state.communityId
+				}, function (err) {
 					if (err) {
 						return;
 					}
 
-					state.taskStream.refresh(function () {
-						tool.postFile();
-					}, {
-						evenIfNotRetained: true
-					});
-				});
+					state.taskStream = this;
 
-				$("input[name=taskStreamName]", tool.element).val(state.taskStream.fields.name);
+					// join current user to task stream to get messages
+					this.join(function (err) {
+						if (err) {
+							return;
+						}
+
+						state.taskStream.refresh(function () {
+							tool.postFile();
+						}, {
+							evenIfNotRetained: true
+						});
+					});
+
+					$("input[name=taskStreamName]", tool.element).val(state.taskStream.fields.name);
+				});
 			});
-		}
+		});
 	},
 	/**
 	 * send CSV file to server
