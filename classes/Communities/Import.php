@@ -448,16 +448,15 @@ class Communities_Import
 	}
 
 	/**
-	 * Import user icon
+	 * Prepare icon for import to user
 	 *
-	 * @method importIcon
+	 * @method prepareIcon
 	 * @static
-	 * @param {Users_User} $user
 	 * @param {String} $iconUrl
-	 * @param {String} [$service] Which service to use for search icon (google, facebook)
+	 * @return {Array}
 	 * @throws
 	 */
-	static function importIcon ($user, $iconUrl, $service=null) {
+	static function prepareIcon ($iconUrl) {
 		if (Q_Config::get('Communities', 'community', 'importUsers', 'image', 'removeBackground', false)) {
 			$filename = basename(parse_url($iconUrl, PHP_URL_PATH));
 			$savePath = implode(DS, [APP_FILES_DIR, Users::communityId(), "uploads", "Users", $filename]);
@@ -467,7 +466,7 @@ class Communities_Import
 			}
 
 			$response = AI_Image::create('RemoveBG')->removeBackground(base64_encode($iconData));
-			if (Q::ifset($response, 'error')) {
+			if (!empty($response['error'])) {
 				throw new Exception($response['error']);
 			}
 
@@ -478,6 +477,21 @@ class Communities_Import
 		}
 
 		$icon = Q_Image::iconArrayWithUrl($iconUrl, 'Users/icon');
+		return $icon;
+	}
+
+	/**
+	 * Import user icon
+	 *
+	 * @method importIcon
+	 * @static
+	 * @param {Users_User} $user
+	 * @param {String} $iconUrl
+	 * @param {String} [$service] Which service to use for search icon (google, facebook)
+	 * @throws
+	 */
+	static function importIcon ($user, $iconUrl, $service=null) {
+		$icon = self::prepareIcon($iconUrl);
 		$cookie = $service ? Q_Config::get('Q', 'images', $service, 'cookie', null) : null;
 		$dir = Users::importIcon($user, $icon, null, $cookie);
 		if (!$dir || !is_dir($dir)) {
@@ -706,7 +720,7 @@ class Communities_Import
 					$user = Streams::register(
 						$data['full_name'],
 						$identifier,
-						true,
+						Q_Valid::url($data['photo_url']) && @getimagesize($data['photo_url']) ? self::prepareIcon($data['photo_url']) : true,
 						array(
 							'activation' => $activateUsers,
 							'skipIdentifier' => true
@@ -726,7 +740,7 @@ class Communities_Import
 
 				// update icon if not custom
 				if (!Users::isCustomIcon($user->icon)) {
-					if (Q_Valid::url($data['photo_url'] && @getimagesize($data['photo_url']))) {
+					if (Q_Valid::url($data['photo_url']) && @getimagesize($data['photo_url'])) {
 						self::importIcon($user, $data['photo_url']);
 					} elseif (!$user->get('leaveDefaultIcon', false)
 						and !$user->get('skipIconSearch', false)
