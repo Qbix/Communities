@@ -139,7 +139,7 @@ class Communities_Import
 		}
 
 		if (Q::ifset($data, 'info', null)) {
-			$greetingContent .= $data['info'];
+			$greetingContent .= "\n".$data['info'];
 		}
 
 		$greetingStream->content = $greetingContent;
