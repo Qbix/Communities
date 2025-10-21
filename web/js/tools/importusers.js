@@ -79,8 +79,13 @@ Q.Tool.define("Communities/importusers", function (options) {
 
 					state.taskStream = this;
 
+					this.observe();
+
+					$("input[name=taskStreamName]", tool.element).val(state.taskStream.fields.name);
+					tool.postFile();
+
 					// join current user to task stream to get messages
-					this.join(function (err) {
+					/*this.join(function (err) {
 						if (err) {
 							return;
 						}
@@ -90,9 +95,8 @@ Q.Tool.define("Communities/importusers", function (options) {
 						}, {
 							evenIfNotRetained: true
 						});
-					});
+					});*/
 
-					$("input[name=taskStreamName]", tool.element).val(state.taskStream.fields.name);
 				});
 			});
 		});
@@ -136,8 +140,8 @@ Q.Tool.define("Communities/importusers", function (options) {
 	},
 	Q: {
 		beforeRemove: function () {
-			if (this.ival) {
-				clearInterval(this.ival);
+			if (this.state.taskStream) {
+				this.state.taskStream.neglect();
 			}
 		}
 	}
