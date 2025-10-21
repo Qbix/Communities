@@ -9,7 +9,6 @@ Q.exports(function (options, index, column, data) {
 	var $columnSlot = $('.Q_column_slot', column);
 	var userId = $communitiesProfileContent.attr('data-userId');
 	var loggedInUserId = Users.loggedInUserId();
-	var communityId = Q.getObject("Q.Users.currentCommunityId");
 
 	// split profile content to 2 columns if width > 700
 	var columnWidth = $(column).width();
@@ -32,6 +31,10 @@ Q.exports(function (options, index, column, data) {
 
 		if (!url) {
 			return;
+		}
+
+		if (/^https?:\/\//.test(url)) {
+			return Q.openUrl(url);
 		}
 
 		var socialUrls = Q.Communities.profile.social;
