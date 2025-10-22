@@ -453,31 +453,38 @@ class Communities_Import
 	 * @method prepareIcon
 	 * @static
 	 * @param {String} $iconUrl
+	 * @param {Boolean} [$throw=false] If true - throws exception
 	 * @return {Array}
 	 * @throws
 	 */
-	static function prepareIcon ($iconUrl) {
+	static function prepareIcon ($iconUrl, $throw = false) {
 		if (Q_Config::get('Communities', 'community', 'importUsers', 'image', 'removeBackground', false)) {
 			$filename = basename(parse_url($iconUrl, PHP_URL_PATH));
 			$savePath = implode(DS, [APP_FILES_DIR, Users::communityId(), "uploads", "Users", $filename]);
 			$iconData = file_get_contents($iconUrl);
-			if (!$iconData) {
-				throw new Exception("Couldn't download file from ".$iconUrl);
-			}
+			try {
+				if (!$iconData) {
+					throw new Exception("Couldn't download file from ".$iconUrl);
+				}
 
-			$response = AI_Image::create('RemoveBG')->removeBackground(base64_encode($iconData));
-			if (!empty($response['error'])) {
-				throw new Exception($response['error']);
-			}
+				$response = AI_Image::create('RemoveBG')->removeBackground(base64_encode($iconData));
+				if (!empty($response['error'])) {
+					throw new Exception($response['error']);
+				}
 
-			if (!file_put_contents($savePath, $response['data'])) {
-				throw new Exception("Couldn't save file to ".$savePath);
+				if (!file_put_contents($savePath, $response['data'])) {
+					throw new Exception("Couldn't save file to ".$savePath);
+				}
+				$iconUrl = implode('/', [APP_WEB_DIR, "Q", "uploads", "Users", $filename]);
+			} catch (Exception $exception) {
+				if ($throw) {
+					throw $exception;
+				}
+				//echo $exception->getMessage();
 			}
-			$iconUrl = implode('/', [APP_WEB_DIR, "Q", "uploads", "Users", $filename]);
 		}
 
-		$icon = Q_Image::iconArrayWithUrl($iconUrl, 'Users/icon');
-		return $icon;
+		return Q_Image::iconArrayWithUrl($iconUrl, 'Users/icon');
 	}
 
 	/**
