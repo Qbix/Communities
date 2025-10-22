@@ -258,7 +258,7 @@ abstract class Communities
 			}
 		}
 
-		Q::event("Communities/community/create", @compact('userId', 'community', 'skipAccess', 'quota'), 'before');
+		Q::event("Communities/community/create", @compact('userId', 'communityName', 'skipAccess', 'quota'), 'before');
 
 		$community = new Users_User();
 		$communityId = self::idFromName($communityName);
