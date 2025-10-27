@@ -154,7 +154,7 @@ html #content_slot,
 .Communities_event #content_slot,
 .Communities_newEvent #content_slot {
 	background: var(--content-bg-color);
-	color: var(--content-fg-color) !important;
+	color: var(--content-fg-color);
 }
 .Q_columns_column {
 	background: var(--column-bg-color);
