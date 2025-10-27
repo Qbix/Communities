@@ -1,4 +1,4 @@
-<div style="text-align: center">
+<div style="text-align: initial">
         <?php echo Q_Html::img('img/icon/200.png') ?>
 </div>
 
