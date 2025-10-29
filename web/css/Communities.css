@@ -1454,6 +1454,7 @@ html .Q_contextual li.Communities_notClickable {
 .Communities_filter_location_all {
 	font-size: 100%;
 	font-weight: bold;
+	background: rgba(100, 100, 100, 0.4);
 	color: white;
 	padding: 10px;
 }
