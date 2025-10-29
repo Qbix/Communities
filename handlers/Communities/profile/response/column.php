@@ -158,7 +158,10 @@ function Communities_profile_response_column ($params = array()) {
 	}
 
 	// check if user can see roles
-	$canSeeRoles = $loggedInUserId && ((count(Q::ifset($can, 'roles', array())) && array_intersect($can['roles'], $loggedInUserCan['see'])) || count(Q::ifset($loggedInUserCan, 'grant', array())));
+	$canSeeRoles = $loggedInUserId && ((
+		count(Q::ifset($can, 'roles', array())) 
+		&& array_intersect($can['roles'], $loggedInUserCan['see'])
+	) || count(Q::ifset($loggedInUserCan, 'grant', array())));
 
 	$sizes = Streams_Avatar::iconSizes($userId);
 	if (empty($sizes)) {
