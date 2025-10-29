@@ -280,7 +280,12 @@ Q.exports(function (options, index, column, data) {
 			}
 
 			var credits = Q.Assets.credits.spend.chat.private;
-			Q.confirm(text.profile.CreatePrivateChat.interpolate({credits: credits}), function (proceed) {
+			if (credits) {
+				Q.confirm(text.profile.CreatePrivateChat.interpolate({credits: credits}), _send);
+			} else {
+				_send(true);
+			}
+			function _send (proceed) {
 				if (!proceed) {
 					return;
 				}
@@ -323,7 +328,7 @@ Q.exports(function (options, index, column, data) {
 						$trigger.removeClass('Q_working');
 					}
 				});
-			});
+			}
 		});
 	});
 });
