@@ -283,6 +283,7 @@
 }
 #Streams_related-Communities_profile_links_tool .Websites_webpage_preview_tool {
 	background-color: #e0e0e0;
+	color: black;
 }
 #Streams_related-Communities_profile_links_tool .Websites_webpage_preview_tool:not(:last-child) {
 	margin-bottom: 10px;
