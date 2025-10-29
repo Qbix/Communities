@@ -1205,6 +1205,7 @@ html.Communities *:focus {
 
 .Q_column_conversation .Q_controls_slot {
 	background: #f8f8f8;
+	color: black;
 	border-top: solid 1px #cccccc;
 	box-shadow: -2px -2px 10px rgba(0, 0, 0, 0.1);
 	height: 70px;
