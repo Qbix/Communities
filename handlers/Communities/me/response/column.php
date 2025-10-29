@@ -8,17 +8,6 @@ function Communities_me_response_column ($options)
 	$app = Q::app();
 	$columns = array();
 
-	// get default tab
-	$defaultTab = 'schedule';
-	foreach(Q_Config::expect('Communities', 'me', 'tabs') as $key => $item) {
-		if (Q::ifset($item, "default", null) === true) {
-			$defaultTab = $key;
-		}
-	}
-
-	$tab = Q::ifset($options, 'tab', Q::ifset($uri, 'tab', $defaultTab));
-	$tab1 = Q::ifset($options, 'tab1', Q::ifset($uri, 'tab1', null));
-
 	$text = Q_Text::get('Communities/content');
 
 	$title = Q::tool("Users/avatar", array('userId' => $user->id, 'icon' => 40), 'Communities_schedule');
@@ -49,6 +38,21 @@ function Communities_me_response_column ($options)
 		));
 	}
 	$participating = array_merge($travelParticipating, $calendarsParticipating);
+
+	// get default tab
+	$defaultTab = 'schedule';
+	if ($participating) {
+		// user already joined some events/trips, make inbox the default tab
+		$defaultTab = 'inbox';
+	}
+	foreach(Q_Config::expect('Communities', 'me', 'tabs') as $key => $item) {
+		if (Q::ifset($item, "default", null) === true) {
+			$defaultTab = $key;
+		}
+	}
+
+	$tab = Q::ifset($options, 'tab', Q::ifset($uri, 'tab', $defaultTab));
+	$tab1 = Q::ifset($options, 'tab1', Q::ifset($uri, 'tab1', null));
 
 	$getConditionValue = function($x) {
 		// default time for compare is updatedTime
