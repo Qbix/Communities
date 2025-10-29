@@ -105,7 +105,7 @@ Q.exports(function (options, index, column, data) {
 			Q.each(allEvents, function () {
 				var $this = $(this);
 
-				if (!filter || $(".Calendars_event_titleContent", this).text().toUpperCase().indexOf(filter.toUpperCase()) >= 0) {
+				if (!filter || normalizeAscii($(".Calendars_event_titleContent", this).text()).indexOf(normalizeAscii(filter)) >= 0) {
 					if (Q.info.isMobile) {
 						$this.attr('data-match', true);
 					} else {
@@ -242,17 +242,39 @@ Q.exports(function (options, index, column, data) {
 
 							$events.each(function () {
 								var tool = Q.Tool.from(this, "Calendars/event/preview");
-								if (!tool) {
-									return;
-								}
+								if (!tool) return;
+
+								var stream = tool.stream;
 								var $toolElement = $(tool.element);
 
+								// check if matches location
+								var locationMatch = false;
 								if (!location) {
-									return $toolElement.show();
+									locationMatch = true;
+								} else {
+									var toolLocation = Q.Places.Location.fromStream(stream);
+									locationMatch = (
+										Q.getObject(["name"], toolLocation) === location.streamName ||
+										Q.getObject(["area", "title"], toolLocation) === text
+									);
 								}
 
-								var toolLocation = Q.Places.Location.fromStream(tool.stream);
-								if (Q.getObject(["name"], toolLocation) === location.streamName || Q.getObject(["area", "title"], toolLocation) === text) {
+								// check if matches current interest
+								var interestMatch = false;
+								if (_normalized === '*') {
+									interestMatch = true;
+								} else {
+									var interests = Q.Calendars.Event.getInterests(stream) || [];
+									for (var i = 0; i < interests.length; i++) {
+										if (interests[i].name === 'Streams/interest/' + _normalized) {
+											interestMatch = true;
+											break;
+										}
+									}
+								}
+
+								// show only if both match
+								if (locationMatch && interestMatch) {
 									$toolElement.show();
 								} else {
 									$toolElement.hide();
@@ -822,5 +844,9 @@ Q.exports(function (options, index, column, data) {
 	
 	Q.addScript("{{Calendars}}/js/tools/event.js"); // start preloading before it opens
 });
+
+function normalizeAscii(str) {
+	return str ? str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase() : '';
+}
 
 })(Q, Q.jQuery);
