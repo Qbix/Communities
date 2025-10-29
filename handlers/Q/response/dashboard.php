@@ -10,7 +10,7 @@ function Q_response_dashboard()
 	$attributes = array();
 	if ($avatar = Streams_Avatar::fetch(null, Users::communityId())) {
 		$avatar->addPreloaded();
-	}
+	}echo 'a'; exit;
 	return Q::view('Communities/dashboard.php', @compact(
 		'isMobile', 'dashboardStyle', 'withTitles', 'attributes'
 	));

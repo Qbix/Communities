@@ -119,7 +119,7 @@ Q.Tool.define("Communities/columnFBStyle", function Communities_columnFBStyle_to
 			setTimeout(function () {
 				$chooser.find('input').val('').trigger('input');
 				$titleSlot.add($iconsContainer).css('top', '0');
-				$chooser.css('top', h || tool.lastTitleSlotHeight);
+				$chooser.css('top', (h || tool.lastTitleSlotHeight) + 10);
 			}, 300);
 		}
 	}
