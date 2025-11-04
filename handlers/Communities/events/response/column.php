@@ -7,7 +7,7 @@ function Communities_events_response_column(&$params, &$result)
 	$experienceId = Q::ifset($_REQUEST, 'experienceId', 'main');
 	$limit = Q::ifset($_REQUEST, 'limit', Q_Config::get('Communities', 'pageSizes', 'events', 100));
 	$offset = Q::ifset($_REQUEST, 'offset', 0);
-	$communityId = Users::currentCommunityId();
+	$communityId = Users::currentCommunityId(true);
 	$columnsStyle = Q_Config::get('Communities', 'layout', 'columns', 'style', 'classic');
 	list($fromTime, $toTime) = Communities::defaultEventTimes();
 
