@@ -809,6 +809,8 @@ abstract class Communities
 		$user = Users::loggedInUser();
 		$communityId = Q::ifset($params, 'communityId', Users::currentCommunityId(true));
 		$experienceId = Q::ifset($params, 'experienceId', Q::ifset($_REQUEST, 'experienceId', 'main'));
+		$categoryStreamName = "Calendars/calendar/".$experienceId;
+		$categoryStream = Streams::fetchOne(null, $communityId, $categoryStreamName);
 
 		$uri = Q_Dispatcher::uri();
 		$interest = Q::ifset($params, 'interest', Q::ifset($_REQUEST, 'interest', Q::ifset($uri, 'interest', null)));
@@ -822,6 +824,20 @@ abstract class Communities
 		$toTime = Q::ifset($params, 'toTime', $toTime);
 
 		$weight = new Db_Range($fromTime, true, true, $toTime);
+		$showAllEventsAfterLastEventEnded = $categoryStream->getAttribute("showAllEventsAfterLastEventEnded", Q_Config::get("Communities", "events", "showAllEventsAfterLastEventEnded", false));
+		if ($showAllEventsAfterLastEventEnded) {
+			$lastEvent = Streams_RelatedTo::select()->where(array(
+				"toStreamName" => $categoryStreamName,
+				"type" => $relationType
+			))->orderBy("weight", false)->limit(1)->fetchDbRow();
+			if ($lastEvent) {
+				$lastEvent = Streams::fetchOne($lastEvent->fromPublisherId, $lastEvent->fromPublisherId, $lastEvent->fromStreamName);
+				$lastEventEndTime = $lastEvent->getAttribute("endTime", $lastEvent->getAttribute("startTime"));
+				if (time() > (int)$lastEventEndTime) {
+					$weight = null;
+				}
+			}
+		}
 
 		$offset = Q::ifset($params, 'offset', 0);
 		$limit = Q::ifset($params, 'limit', Q_Config::get('Communities', 'events', 'limit', 10));
@@ -855,11 +871,11 @@ abstract class Communities
 			));
 			$relations = Places_Nearby::byTime(
 				$communityId, $relationType, $fromTime, $toTime,
-				"Calendars/calendar/".$experienceId, $o
+				$categoryStreamName, $o
 			);
 		} else { // show all future events
 			$relations = Streams_RelatedTo::fetchAll(
-				$communityId, array("Calendars/calendar/".$experienceId),
+				$communityId, array($categoryStreamName),
 				$relationType, @compact("weight", "orderBy", "limit", "offset")
 			);
 		}
@@ -867,7 +883,7 @@ abstract class Communities
 		// add events where logged user is a publisher
 		if ($user) {
 			$relations = array_merge($relations, Streams_RelatedTo::fetchAll(
-				$communityId, array("Calendars/calendar/".$experienceId), $relationType, array(
+				$communityId, array($categoryStreamName), $relationType, array(
 					"weight" => $weight,
 					"where" => array("fromPublisherId" => $user->id),
 					"limit" => $limit,

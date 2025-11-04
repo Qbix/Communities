@@ -296,7 +296,8 @@
 					"locations": true,
 					"interests": true
 				}
-			}
+			},
+			"showAllEventsAfterLastEventEnded": false
 		},
 		"services": {
 			"controls": true,
