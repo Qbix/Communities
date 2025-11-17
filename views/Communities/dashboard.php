@@ -54,6 +54,7 @@ EOT
 			$options['windowThemeColors'] = $themeColors;
 		}
 	}
+    $options['defaultTabName'] = $defaultTabName;
     echo Q::tool('Q/tabs', $options, 'Communities');
 	
 	if ($withTitles) {
