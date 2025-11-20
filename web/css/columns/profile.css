@@ -118,6 +118,7 @@
 	aspect-ratio: auto 1;
 	border-radius: 0;
 	object-fit: cover;
+	filter: drop-shadow(2px 4px 10px rgba(0, 0, 0, 0.8));
 }
 .Communities_myProfile .Communities_column_profile_main_avatar img.Users_avatar_icon {
 	box-shadow: #aac 0 0 14px; -webkit-box-shadow: #aac 0 0 14px; -moz-box-shadow: #aac 0 0 14px;
