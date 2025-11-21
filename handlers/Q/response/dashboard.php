@@ -11,7 +11,8 @@ function Q_response_dashboard()
 	if ($avatar = Streams_Avatar::fetch(null, Users::communityId())) {
 		$avatar->addPreloaded();
 	}
+	$defaultTabName = null;
 	return Q::view('Communities/dashboard.php', @compact(
-		'isMobile', 'dashboardStyle', 'withTitles', 'attributes'
+		'isMobile', 'dashboardStyle', 'withTitles', 'attributes', 'defaultTabName'
 	));
 }
