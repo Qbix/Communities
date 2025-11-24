@@ -889,7 +889,11 @@ Q.Tool.define("Communities/onboarding", function Communities_onboarding_tool() {
                                     });
                                 });
                             tool.$('.Communities_onboarding_explanation').plugin('Q/textfill');
-                            var p = Q.pipe(['birthday', 'gender', 'height', 'greeting'],
+                            var parts = ['greeting'];
+                            if (state.profile.birthday) { parts.push('birthday'); }
+                            if (state.profile.gender) { parts.push('gender'); }
+                            if (state.profile.height) { parts.push('height'); }
+                            var p = Q.pipe(parts,
                                 function (params) {
                                     var complete = true;
                                     for (var k in params) {
@@ -910,7 +914,7 @@ Q.Tool.define("Communities/onboarding", function Communities_onboarding_tool() {
                                     parts[0] && tool.$('select[name=input_birthday_year]').val(parts[0]);
                                     parts[1] && tool.$('select[name=input_birthday_month]').val(parts[1]);
                                     parts[2] && tool.$('select[name=input_birthday_day]').val(parts[2]);
-                                    p.fill('birthday')(true);
+                                    p.fill('birthday')(!!stream.fields.content);
                                 });
                             Q.Streams.retainWith(tool)
                                 .get(publisherId, "Streams/user/gender", function (err, stream) {
@@ -918,7 +922,7 @@ Q.Tool.define("Communities/onboarding", function Communities_onboarding_tool() {
                                         return p.fill('gender')(false);
                                     }
                                     stream.fields.content && tool.$('select[name=input_gender]').val(stream.fields.content);
-                                    p.fill('gender')(true);
+                                    p.fill('gender')(!!stream.fields.content);
                                 });
                             Q.Streams.retainWith(tool)
                                 .get(publisherId, "Streams/user/height", function (err, stream) {
@@ -926,7 +930,7 @@ Q.Tool.define("Communities/onboarding", function Communities_onboarding_tool() {
                                         return p.fill('height')(false);
                                     }
                                     stream.fields.content && tool.$('select[name=input_height]').val(stream.fields.content);
-                                    p.fill('height')(true);
+                                    p.fill('height')(!!stream.fields.content);
                                 });
                             Q.Streams.retainWith(tool)
                                 .get(publisherId, greetingStreamName, function (err, stream) {
