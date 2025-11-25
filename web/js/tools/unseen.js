@@ -206,21 +206,6 @@ Q.Tool.define("Communities/unseen", function () {
 				return;
 			}
 
-			var stream = this;
-			if (userId && this.testWriteLevel(10)) {
-				// check if user participated this stream, and participate if not
-				// because if not participated we will not get messages
-				Q.Streams.Participant.get(this.fields.publisherId, this.fields.name, userId, function (err, participant) {
-					if (err) {
-						return;
-					}
-
-					if (Q.getObject("state", participant) !== "participating") {
-						stream.join();
-					}
-				});
-			}
-
 			// listen Streams/relatedTo message to detect new events
 			this.onMessage('Streams/relatedTo').set(function (message) {
 				var instructions = message.getAllInstructions();
