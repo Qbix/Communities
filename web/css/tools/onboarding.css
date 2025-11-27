@@ -185,6 +185,12 @@ html.Communities_onboarding #columns_slot .Q_column_0 .column_slot {
     height: 100%;
     position: relative;
 }
+.Communities_onboarding #content_slot .Q_expandable_tool h2.Q_expandable_title:hover,
+.Communities_onboarding #content_slot .Q_expandable_tool h2.Q_expandable_title.Q_hover,
+.Communities_onboarding #content_slot .Q_expandable_tool h2.Q_expandable_title.Q_expanded {
+    color: white;
+    font-weight: 400;
+}
 .Communities_onboarding_icon .Streams_image_preview_tool {
     width: 200px;
     height: 200px;

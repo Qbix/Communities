@@ -911,6 +911,7 @@ input.Communities_filter_publishers_input::placeholder {
 }
 .Places_location_tool .Places_location_preview_tool:hover {
 	background-color: #f2f3ff;
+	color: black;
 }
 .Places_location_preview_tool .Places_location_preview_contents {
 	width: calc(100% - 45px);
@@ -1530,7 +1531,8 @@ html.Q_mobile #content {
 	width: 100%;
 }
 .Q_notMobile .Communities_buttons .Q_button {
-	min-width: 300px;
+	min-width: min(100%, 300px);
+	max-width: 100%;
 }
 
 .Communities_avatar_section {
@@ -1605,6 +1607,11 @@ html.Q_mobile #content {
 	line-height: 34px;
 	font-size: 27px;
 	content: "\e947";
+}
+
+.Communities_invite {
+	max-width: 100%;
+	box-sizing: border-box;
 }
 
 
