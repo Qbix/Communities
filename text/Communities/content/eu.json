@@ -1,460 +1,460 @@
 {
-    "notFound": {
-        "Explanation": "<span class='url'>{{1}}<\/span> -k ez du ezer seinalatzen!",
-        "NextSteps": "Erabili menu nagusia bilatzen ari zarena aurkitzeko."
-    },
-    "greeting": {
-        "Welcome": "Ongi etorri {{1}}-ra. Hemen gure komunitateko kideentzako argitaratutako gauzak aurkituko dituzu. Mesedez, gehitu zure helbide elektronikoa edo mugikorraren zenbakia iragarkiak argitaratzen direnean jakinarazpenak jasotzeko."
-    },
-    "conversations": {
-        "New": "Elkarrizketa berria",
-        "Conversation": "Elkarrizketa",
-        "Topics": "Gaiak",
-        "NoneYet": "Oraindik ez da elkarrizketarik sortu",
-        "newConversations": "{{1}} elkarrizketa berri",
-        "AllAuthors": "Egile guztiak",
-        "FilterbyAuthors": "Iragazi egileen arabera",
-        "FilterAuthorPlaceHolder": "Bilatu egile gehiago...",
-        "Title": "Elkarrizketak",
-        "Description": "{{1}} elkarrizketa",
-        "filterConversations": "Iragazi testuaren arabera"
-    },
-    "newConversation": {
-        "composer": {
-            "ChooseActivity": "Aukeratu gai bat",
-            "Share": "Partekatu",
-            "interest": {
-                "Title": "Aukeratu jarduera bat",
-                "Filter": "Bilatu interesak..."
-            }
-        },
-        "Title": "Elkarrizketa berria",
-        "TitlePlaceholder": "Zure elkarrizketaren gaia",
-        "ContentPlaceholder": "Idatzi hitz batzuk elkarrizketa hasteko, besteek erantzun ahal izateko",
-        "StartButton": "Hasi elkarrizketa"
-    },
-    "events": {
-        "Title": "Gertaerak",
-        "filterByTitle": "Bilatu gertaerak izenburuaren arabera",
-        "New": "+ Hasi Gertaera Berria",
-        "SetLocation": "Ezarri Nire kokapena",
-        "NoneYet": "Oraindik ez da ekitaldirik sortu<br> garai hauetan.",
-        "AllDays": "Egun guztiak",
-        "AllLocations": "Kokapen guztiak",
-        "AllInterests": "Interes guztiak",
-        "FilterbyInterest": "Iragazi interesen arabera",
-        "FilterByDate": "Iragazi dataren arabera",
-        "ShowActivities": "Erakutsi ekin lotutako jarduerak. . .",
-        "newEvents": "{{1}} gertaera berri dituzu",
-        "SelectLocation": "Hautatu Kokapena",
-        "FilterLocationsPlaceHolder": "Iragazi lokalak...",
-        "AllAuthors": "Egile guztiak",
-        "filterEvents": "Iragazi gertaerak",
-        "NewEvent": "Ekitaldi berria",
-        "Description": "{{1}} gertaera",
-        "Keywords": "{{1}} gertaera",
-        "MakeReservation": "Egin erreserba",
-        "Reserved": "Erreserba bertan behera utzi",
-        "AreYouSure": "Ziur zaude?",
-        "YouWillRefunded": "Aplikazioan beste gauza batzuetan gastatu ditzakezun kredituen bidez itzuliko zaizu.",
-        "CancelReservation": "Utzi erreserba",
-        "UpdateReservation": "Eguneratu erreserba"
-    },
-    "schedule": {
-        "Title": "Ordutegia",
-        "NoneYet": "Ez duzu inongo ekitalditan parte hartuko",
-        "AddSome": "Gehitu batzuk zure ordutegian!",
-        "AddMore": "Gehitu ekitaldiak zure agendan!",
-        "future": "etorkizuna",
-        "past": "iragana"
-    },
-    "location": {
-        "Title": "Kokapena",
-        "NewLocation": "Kokapen berria"
-    },
-    "inbox": {
-        "Title": "Sarrera-ontzia",
-        "NoneYet": "Ez zara parte hartzen inongo elkarrizketetan",
-        "FindPeople": "Bilatu jendea hitz egiteko",
-        "GroupConversations": "Sartu talde-elkarrizketa batzuetan",
-        "ContactStaff": "Harremanetarako langileekin",
-        "ContactCustomers": "Bezeroekin harremanetan jarri",
-        "AddNewContact": "Gehitu kontaktu berria",
-        "AddNewContacts": "Gehitu kontaktu berriak"
-    },
-    "me": {
-        "Title": "Ni",
-        "MobileNumber": "Telefono zenbakia",
-        "EmailAddress": "Posta elektroniko helbidea",
-        "UpdateSocialTitle": "Eguneratu {{1}} erabiltzaile-izena",
-        "Web3": "Web 3"
-    },
-    "people": {
-        "Title": "Jendea",
-        "AppAlert": "Aplikazio-dendan dagoen aplikazio honek zure lagunekin konektatu ahal izango zaitu, eta askoz gehiago.",
-        "Invite": "Lagunak gonbidatu",
-        "FindSomeoneByName": "Bilatu norbait izenez",
-        "FindAllMyFriends": "Aurkitu Nire Lagun guztiak",
-        "labels": {
-            "All": "Denek",
-            "Title": "Iragazi erlazioaren arabera",
-            "New": "Harreman mota berria"
-        },
-        "interests": {
-            "All": "Interes guztiak",
-            "Title": "Iragazi interesen arabera",
-            "Filter": "Erakutsi interesa duen jendeari. . ."
-        },
-        "SearchByName": "Bilatu izenaren arabera",
-        "Description": "{{1}} komunitateko jendea",
-        "Keywords": "{{1}} pertsona komunitatea",
-        "BuyCredits": "Erosi Kredituak"
-    },
-    "communities": {
-        "Title": "Komunitateak",
-        "NewCommunity": "Komunitate Berria",
-        "FindCommunityByName": "Aurkitu komunitatea izenaren arabera",
-        "Description": "{{1}} komunitateak"
-    },
-    "community": {
-        "Title": "{{1}} Komunitatea",
-        "Roles": "Rolak",
-        "AllRoles": "Rol guztiak",
-        "YouDontHavePermission": "Ez duzu hori egiteko baimenik",
-        "usernamePlaceholder": "ezarri komunitatearen izena",
-        "NotEnoughCredits": "Ez duzu kreditu nahikorik komunitatea sortzeko. {{1}} behar duzu, {{2}} duzu"
-    },
-    "event": {
-        "GetDirections": "Lortu jarraibideak",
-        "WhichMap": "Zein mapa erabili nahiko zenuke?",
-        "JoinEventToChat": "Sartu ekitaldira txateatzeko",
-        "promote": {
-            "Title": "Sustatu ekitaldi hau",
-            "Prompt": "Aukeratu non sustatu nahi duzun gertaera hau:"
-        },
-        "Confirmation": "Berrespena"
-    },
-    "newEvent": {
-        "Title": "Ekitaldi berria antolatu"
-    },
-    "interests": {
-        "Title": "Interesak",
-        "prompt": "Hautatu jakin nahi dituzun gauza motak.",
-        "explanation": "Zenbat eta interes gehiago hautatu, orduan eta aukera handiagoa izango duzu gogoko jendearekin konektatzeko.",
-        "filter": "Zer interesatzen zaizu?",
-        "Profile": "Elkarrekiko interesak nabarmentzen dira. Beheko interesetako bat edo gehiago badituzu, {{clickOrTap}} gehi ditzakezu."
-    },
-    "credits": {
-        "Title": "Kredituak",
-        "EarnCredits": "Irabazi {{1}} kreditu aplikazioan sartzen den gonbidatzen duzun pertsona bakoitzeko",
-        "YouHave": "{{1}} kreditu dituzu"
-    },
-    "onboarding": {
-        "Tap": "Sakatu",
-        "Click": "Egin klik",
-        "Yes": "Bai",
-        "No": "Ez",
-        "name": {
-            "Preface": "Ongi etorria",
-            "Placeholder": "Sartu zure izen osoa",
-            "GetStarted": "Hasi",
-            "AsGuest": "Gonbidatu zaituzte.",
-            "AsMember": "Kide gisa gonbidatu zaituzte.",
-            "AsAdmin": "Administratzaile gisa gonbidatu zaituzte.",
-            "AsOwner": "Jabe gisa gonbidatu zaituzte.",
-            "TooShort": "Zure izen osoa ezin da hain laburra izan",
-            "SetAsYourFullName": "{{1}} zure izen oso gisa ezarri?"
-        },
-        "icon": {
-            "KeepDefault": "edo gorde argazki hau",
-            "SetYourPhoto": "{{ClickOrTap}} zure argazkia ezartzeko:",
-            "ClickOnYourFace": "{{ClickOrTap}} Zure Aurpegian"
-        },
-        "interests": {
-            "GetStarted": "⇩ Hasi",
-            "NextCategory": "↓ Hurrengoa",
-            "Continue": "Jarraitu",
-            "Instructions": "Hurrengo {{1}} kategoria bakoitzean,<br> {{2}} interesatzen zaizkizun jarduera guztiak.<br> Horrela konektatzen zara komunitateko beste pertsona batzuekin."
-        },
-        "profile": {
-            "Profile": "Zure profilak jendeari zuri buruz gehiago ezagutarazten laguntzen dio.<br>",
-            "Birthday": "Mesedez, idatzi zure urtebetetzea:",
-            "Placeholder": "Nor zara eta zer egiten duzu? Esan jendeari buruz zerbait interesgarria edo berezia.",
-            "Month": "Hilabetea",
-            "Day": "Eguna",
-            "Year": "Urtea",
-            "Gender": "Generoa",
-            "Male": "Gizonezkoa",
-            "Female": "Emakumezkoa",
-            "Other": "Bestela",
-            "Height": "Altuera",
-            "Affiliation": "Afiliazioa",
-            "Dating": "Datazioa",
-            "Interested": "Interesatuta",
-            "NotInterested": "Interesik gabe",
-            "MatchmakerOnly": "Matchmaker Bakarrik",
-            "Required": "Jarraitzeko, idatzi gutxienez lerro pare bat zeure buruari buruz."
-        },
-        "location": {
-            "NoOneElse": "Beste inork ez du ikusiko.",
-            "SetMyLocation": "Ezarri nire kokapena"
-        },
-        "pile": {
-            "DialogTitle": "Interes komunak dituzten pertsonak"
-        },
-        "Done": "Eginda",
-        "Skip": "edo saltatu hau",
-        "relationships": {
-            "title": "Gehitu {{userName}} Telefono-liburura",
-            "welcome": "Ongi etorri {{user}}",
-            "invitedByUser": "gonbidatu zaituzte.",
-            "addToPhonebook": "Gorde Nire telefonoko kontaktuetan",
-            "iosInstructions": "Joan behera Gehitu kontaktu berria atalera",
-            "androidInstructions": "vCard fitxategi hau deskargatu ondoren ireki beharko zenuke.",
-            "explanation": "Zein da zure harremana?"
-        },
-        "Title": "Oinarrizko informazioa",
-        "Prompt": "Zure kontua konfiguratzeko urrats batzuk"
-    },
-    "profile": {
-        "Title": "Profila",
-        "Male": "Gizonezkoa",
-        "Female": "Emakumezkoa",
-        "Other": "Bestela",
-        "dating": {
-            "Interested": "Interesatuta",
-            "NotInterested": "Ez da interesatzen",
-            "MatchmakerOnly": "Matchmaker bakarrik"
-        },
-        "StartConversation": "Hasi Elkarrizketa",
-        "blockUser": "Blokeatu erabiltzaile hau",
-        "blockUserAlert": "Ez duzu erabiltzaile honen mezu gehiago ikusiko haiek desblokeatu arte.",
-        "unblockUser": "Desblokeatu erabiltzaile hau",
-        "addToContacts": "Gehitu kontaktuetara",
-        "manageLabels": "Kudeatu etiketak",
-        "inviteUsers": "Erabiltzaileak gonbidatu",
-        "inviteSuccess": "Gonbidatu da erabiltzailea {{label}} gisa",
-        "invite": "Gonbidatu",
-        "relationships": "Harremanak",
-        "newRole": "Rol Berria",
-        "about": "Buruz",
-        "people": "Jendea",
-        "info": "Info",
-        "interests": "Interesak",
-        "chat": "Txateatu",
-        "locations": "Kokalekuak",
-        "ManageRoles": "Rolak kudeatu",
-        "aboutPlaceholder": "Nor zara eta zer egiten duzu? Esan jendeari buruz zerbait interesgarria edo berezia.",
-        "explanation": "Zure profilak beste pertsona batzuekin hobeto lotzen zaitu taldeko jardueretarako.<br> Mesedez, idatzi zure urtebetetzea",
-        "chats": {
-            "placeholder": "Esan zerbait"
-        },
-        "LogOut": "Saioa amaitu",
-        "selectRole": "Hautatu Rol",
-        "MyLinks": "Nire Estekak",
-        "MyJobs": "Nire Lanak",
-        "MySocial": "MySocial",
-        "MyEducation": "Nire Hezkuntza",
-        "JobsPlaceholder": "Idatzi hemen lanpostuen informazioa",
-        "EducationPlaceholder": "Idatzi hemen hezkuntza informazioa",
-        "ManageNotifications": "Kudeatu jakinarazpenak",
-        "YourPreferredLanguage": "Zure hizkuntza gogokoena",
-        "SendCrypto": "Ordaindu",
-        "Block": "Blokea",
-        "Unblock": "Desblokeatu",
-        "Email": "Posta elektronikoa",
-        "Avoid": "Saihestu",
-        "CreatePrivateChat": "{{credits}} kreditu gastatu nahi dituzu harremanetan jartzeko?",
-        "RolesInCommunity": "Rolak komunitatean",
-        "PersonalChatWith": "Txateatu pertsonala {{name}}-rekin",
-        "SendCryptoTo": "Bidali kriptografia {{name}} helbidera",
-        "SendEmailTo": "Bidali mezu elektronikoa {{name}} helbidera",
-        "SendSMSTo": "Bidali SMSa {{name}} helbidera",
-        "BlockThisUser": "Blokeatu erabiltzaile hau",
-        "UnblockThisUser": "Desblokeatu erabiltzaile hau",
-        "YouCantChatWithYourself": "Ezin duzu zurekin hitz egin",
-        "blockUserAlertTitle": "{{displayName}} blokeatuta",
-        "sections": {
-            "education": "Hezkuntza",
-            "greeting": "Agurra",
-            "jobs": "Lanpostuak",
-            "links": "Estekak",
-            "language": "Hizkuntza",
-            "roles": "Rolak",
-            "personal": "Pertsonalak",
-            "social": "Sozialak"
-        },
-        "Roles": "Rolak",
-        "SendPaymentTo": "Bidali ordainketa {{name}} zenbakira"
-    },
-    "myqr": {
-        "Title": "Nire QR"
-    },
-    "composer": {
-        "createCommunity": "Komunitatea sortu",
-        "inviteAdmin": "Gonbidatu administratzailea",
-        "inviteMember": "Gonbidatu kidea",
-        "newCommunityTitle": "Komunitatearen izena",
-        "setCommunityTitle": "Komunitatearen izena",
-        "creditsChargeRequest": "Onartzen al duzu {{price}} kreditu gastatzea?",
-        "yes": "Bai",
-        "no": "Ez"
-    },
-    "notifications": {
-        "WelcomePleaseVerifyEmail": "Ongi etorri! Egiaztatu zure helbide elektronikoa.",
-        "WelcomeVerifyEmail": "Ongi etorri! Egiaztatu zure helbide elektronikoa.",
-        "ForgetPass": "Aizu, ahaztu al duzu pasaesaldia?",
-        "ManageEmailSubscriptions": "kudeatu zure posta elektronikoko harpidetzak",
-        "IfUnsubscribe": "Harpidetza kendu nahi baduzu"
-    },
-    "speak": {
-        "onboarding": {
-            "name": {
-                "Welcome": "Ongi etorri {{CommunityName}}-ra. Aplikazio honek lagunekin konektatzen lagunduko dizu, interes komunak dituzten pertsona berriak ezagutzeko eta askoz gehiago. Has gaitezen!"
-            },
-            "icon": {
-                "Commentary": "Ezarri zure argazkia. Honela ikusiko zaitu jendeak webgunean."
-            },
-            "interests": {
-                "Commentary": "Zenbat eta elementu gehiago aukeratu, orduan eta jende gehiago ezagutu dezakezu.",
-                "Notifications": "Jakinarazpenak baimendu behar dituzu"
-            }
-        },
-        "subscriptions": {
-            "confirm": "Jakinarazpenei esker, interesatzen zaizkizun gauzei buruz jakin dezakezu, adibidez, lagun bat aplikazioan sartzen denean edo zuri mezuak bidaltzen dituzunean."
-        },
-        "invite": "{{Q.words.TapOrClick}} hemen hau beste pertsona batzuekin nola parteka dezakezun ikusteko."
-    },
-    "payment": {
-        "onContribute": "Eskerrik asko! Zure ordainketa egin da. Zure lagunak zurekin batera gonbidatu nahi dituzu?",
-        "ConnectAccount": "Konektatu kontua"
-    },
-    "featureboard": {
-        "Text_1": "Entzun dadila zure ahotsa! Ados al zaude funtzio edo akats bat garatu behar dugula? Egin klik botoian laguntzeko.",
-        "Text_2": "Ezaugarri berri bat garatu nahi al dugu? Deskribatu behean.",
-        "Text_3": "Astero komunitateak eskatzen duen funtzio nagusia garatzen hasten gara. Ekartzen den diru guztia helburu horretara doa, aplikazioa hobetu ahal izateko.",
-        "Text_4": "Ekartzen den diru guztia gure garapen-kostuak ordaintzen laguntzeko erabiltzen da.",
-        "Text_5": "Egin nahi duzun funtzio edo akatsen konponketa baten ideiarik baduzu, baina oraindik beste batzuk gehitzen ikusi ez dituzunak? Deskribatu behean:",
-        "Options": [
-            {
-                "text": "400 $ denbora errealeko bideokonferentzia"
-            },
-            {
-                "defaultAmount": "10",
-                "text": "200 $ Tokiko Lehen mailako erregistroaren informazioa"
-            },
-            {
-                "text": "130 $ Arakatu eta partekatu milaka {{1}} meme",
-                "defaultAmount": "10"
-            },
-            {
-                "text": "80 $ Kudeatu zure komunitateak",
-                "defaultAmount": "10"
-            },
-            {
-                "text": "30 $ Konpondu elkarrizketen akatsa",
-                "defaultAmount": "10"
-            }
-        ],
-        "RequestNewFeature": "Eskatu eginbide\/akatsen konponketa berria",
-        "FeaturePlaceholder": "Ezaugarriaren laburpen laburra",
-        "FeatureDescription": "Deskribatu beste norbaitek ikusten ari zaren akatsa nola erreproduzi dezakeen, edo deskribatu zehatz-mehatz eraiki nahi duzun funtzioa",
-        "AddYourRequest": "Gehitu zure eskaera",
-        "NewFeature": "Ezaugarri berria"
-    },
-    "assetshistory": {
-        "Title": "Aktiboen historia",
-        "Charges": "Karguak",
-        "Credits": "Kredituak"
-    },
-    "contribute": {
-        "ContributeExplanation": "Lagundu {{communityName}} aplikazioa etengabe garatzen laguntzen. Zure ekarpen guztiek akatsak konpontzen eta funtzio berriak garatzen laguntzen dute lineako komunitatea hazten laguntzeko!",
-        "ReasonToContribute": "{{communityName}}-ren aldekoek mantentzen dute aplikazio hau. Lagundu aplikazio hau onartzen, jendearen bizitzan aldaketa egin dezagun!"
-    },
-    "accounts": {
-        "remove": {
-            "title": "Kendu kontua",
-            "content": "Kontu hau kendu nahi duzu?",
-            "ok": "Bai",
-            "cancel": "Ez"
-        }
-    },
-    "import": {
-        "fileNotFound": "Barkatu, ez da CSV fitxategia aurkitu.",
-        "fileEmpty": "Barkatu, CSV fitxategia hutsik dago.",
-        "userIdNotFound": "erabiltzailea existitzen da baina id hutsik",
-        "errorLine": "lerroa {{1}}",
-        "fieldNotFound": "&quot;{{1}}&quot; derrigorrezko eremua ez da aurkitu",
-        "taskStreamInvalid": "ataza korrontea baliogabea",
-        "instructionsEmpty": "ataza-korrontearen argibideak hutsik",
-        "complete": "Osatu",
-        "activateUsers": "erabiltzaileei aktibazio-mezua bidali?",
-        "importProgress": "Aurrerapena",
-        "joinEventLabel": "Batu erabiltzaileak ausazko gertaerara",
-        "importOptions": "Aukerak",
-        "sampleCSV": "Deskargatu Sample CSV",
-        "fileLabel": "Kargatu kalkulu-orria:",
-        "errorsTitle": "Erroreak gertatu dira",
-        "communityUsers": "Hau komunitateen zerrenda da",
-        "setAsConversation": "URL zutabea elkarrizketa gisa",
-        "toMainCommunityToo": "gehitu erabiltzaileak komunitate nagusira ere",
-        "willImportedTo": "Erabiltzaileak komunitatera inportatuko dira",
-        "ChooseFile": "aukeratu fitxategia"
-    },
-    "dashboard": {
-        "Menu": "Menua",
-        "Home": "Hasiera",
-        "Welcome": "Ongi etorri",
-        "Events": "Gertaerak",
-        "Discuss": "Eztabaidatu",
-        "People": "Jendea",
-        "About": "Buruz",
-        "Community": "Komunitatea",
-        "LogIn": "saioa hasi",
-        "LogOut": "Saioa amaitu",
-        "Intercoin": "Intercoin",
-        "Shows": "Ikuskizunak",
-        "Calendar": "Egutegia",
-        "Me": "Ni",
-        "Media": "Komunikabideak",
-        "Services": "Zerbitzuak",
-        "SetMobileNumber": "Ezarri mugikorraren zenbakia",
-        "SetEmailAddress": "Ezarri helbide elektronikoa"
-    },
-    "services": {
-        "Title": "Zerbitzuak",
-        "filterByTitle": "Bilatu zerbitzuak izenburuaren arabera",
-        "New": "+ Hasi Zerbitzu berria",
-        "NewService": "Zerbitzu berria",
-        "filterServices": "Iragazki zerbitzuak",
-        "NoneYet": "Oraindik ez da zerbitzurik sortu<br> garai hauetan.",
-        "AllAuthors": "Egile guztiak",
-        "AllDays": "Egun guztiak",
-        "AllLocations": "Kokapen guztiak",
-        "MakeReservation": "Egin erreserba",
-        "CancelReservation": "Utzi erreserba",
-        "UpdateReservation": "Eguneratu erreserba",
-        "AreYouSure": "Ziur zaude?",
-        "YouWillRefunded": "Aplikazioan beste gauza batzuetan gastatu ditzakezun kredituen bidez itzuliko zaizu.",
-        "AllInterests": "Interes guztiak",
-        "FilterbyInterest": "Iragazi interesen arabera",
-        "FilterByDate": "Iragazi dataren arabera",
-        "ShowActivities": "Erakutsi jarduerak...",
-        "newServices": "{{1}} zerbitzu berri dituzu",
-        "SelectLocation": "Hautatu Kokapena",
-        "FilterLocationsPlaceHolder": "Iragazi lokalak...",
-        "Description": "{{1}} zerbitzua",
-        "Keywords": "{{1}} zerbitzua",
-        "NewAvailability": "Erabilgarritasun berria"
-    },
-    "welcome": {
-        "Title": "{{appName}}: ongi etorria",
-        "GetStarted": "Hasi",
-        "gallery": {
-            "Connect": "Konektatu",
-            "Organize": "Antolatu",
-            "Travel": "Bidaia",
-            "Share": "Partekatu"
-        }
-    }
+	"notFound": {
+		"Explanation": "<span class='url'>{{1}}</span> -k ez du ezer seinalatzen!",
+		"NextSteps": "Erabili menu nagusia bilatzen ari zarena aurkitzeko."
+	},
+	"greeting": {
+		"Welcome": "Ongi etorri {{1}}-ra. Hemen gure komunitateko kideentzako argitaratutako gauzak aurkituko dituzu. Mesedez, gehitu zure helbide elektronikoa edo mugikorraren zenbakia iragarkiak argitaratzen direnean jakinarazpenak jasotzeko."
+	},
+	"conversations": {
+		"New": "Elkarrizketa berria",
+		"Conversation": "Elkarrizketa",
+		"Topics": "Gaiak",
+		"NoneYet": "Oraindik ez da elkarrizketarik sortu",
+		"newConversations": "{{1}} elkarrizketa berri",
+		"AllAuthors": "Egile guztiak",
+		"FilterbyAuthors": "Iragazi egileen arabera",
+		"FilterAuthorPlaceHolder": "Bilatu egile gehiago...",
+		"Title": "Elkarrizketak",
+		"Description": "{{1}} elkarrizketa",
+		"filterConversations": "Iragazi testuaren arabera"
+	},
+	"newConversation": {
+		"composer": {
+			"ChooseActivity": "Aukeratu gai bat",
+			"Share": "Partekatu",
+			"interest": {
+				"Title": "Aukeratu jarduera bat",
+				"Filter": "Bilatu interesak..."
+			}
+		},
+		"Title": "Elkarrizketa berria",
+		"TitlePlaceholder": "Zure elkarrizketaren gaia",
+		"ContentPlaceholder": "Idatzi hitz batzuk elkarrizketa hasteko, besteek erantzun ahal izateko",
+		"StartButton": "Hasi elkarrizketa"
+	},
+	"events": {
+		"Title": "Gertaerak",
+		"filterByTitle": "Bilatu gertaerak izenburuaren arabera",
+		"New": "+ Hasi Gertaera Berria",
+		"SetLocation": "Ezarri Nire kokapena",
+		"NoneYet": "Oraindik ez da ekitaldirik sortu<br> garai hauetan.",
+		"AllDays": "Egun guztiak",
+		"AllLocations": "Kokapen guztiak",
+		"AllInterests": "Interes guztiak",
+		"FilterbyInterest": "Iragazi interesen arabera",
+		"FilterByDate": "Iragazi dataren arabera",
+		"ShowActivities": "Erakutsi ekin lotutako jarduerak. . .",
+		"newEvents": "{{1}} gertaera berri dituzu",
+		"SelectLocation": "Hautatu Kokapena",
+		"FilterLocationsPlaceHolder": "Iragazi lokalak...",
+		"AllAuthors": "Egile guztiak",
+		"filterEvents": "Iragazi gertaerak",
+		"NewEvent": "Ekitaldi berria",
+		"Description": "{{1}} gertaera",
+		"Keywords": "{{1}} gertaera",
+		"MakeReservation": "Egin erreserba",
+		"Reserved": "Erreserba bertan behera utzi",
+		"AreYouSure": "Ziur zaude?",
+		"YouWillRefunded": "Aplikazioan beste gauza batzuetan gastatu ditzakezun kredituen bidez itzuliko zaizu.",
+		"CancelReservation": "Utzi erreserba",
+		"UpdateReservation": "Eguneratu erreserba"
+	},
+	"schedule": {
+		"Title": "Ordutegia",
+		"NoneYet": "Ez duzu inongo ekitalditan parte hartuko",
+		"AddSome": "Gehitu batzuk zure ordutegian!",
+		"AddMore": "Gehitu ekitaldiak zure agendan!",
+		"future": "etorkizuna",
+		"past": "iragana"
+	},
+	"location": {
+		"Title": "Kokapena",
+		"NewLocation": "Kokapen berria"
+	},
+	"inbox": {
+		"Title": "Sarrera-ontzia",
+		"NoneYet": "Ez zara parte hartzen inongo elkarrizketetan",
+		"FindPeople": "Bilatu jendea hitz egiteko",
+		"GroupConversations": "Sartu talde-elkarrizketa batzuetan",
+		"ContactStaff": "Harremanetarako langileekin",
+		"ContactCustomers": "Bezeroekin harremanetan jarri",
+		"AddNewContact": "Gehitu kontaktu berria",
+		"AddNewContacts": "Gehitu kontaktu berriak"
+	},
+	"me": {
+		"Title": "Ni",
+		"MobileNumber": "Telefono zenbakia",
+		"EmailAddress": "Posta elektroniko helbidea",
+		"UpdateSocialTitle": "Eguneratu {{1}} erabiltzaile-izena",
+		"Web3": "Web 3"
+	},
+	"people": {
+		"Title": "Jendea",
+		"AppAlert": "Aplikazio-dendan dagoen aplikazio honek zure lagunekin konektatu ahal izango zaitu, eta askoz gehiago.",
+		"Invite": "Lagunak gonbidatu",
+		"FindSomeoneByName": "Bilatu norbait izenez",
+		"FindAllMyFriends": "Aurkitu Nire Lagun guztiak",
+		"labels": {
+			"All": "Denek",
+			"Title": "Iragazi erlazioaren arabera",
+			"New": "Harreman mota berria"
+		},
+		"interests": {
+			"All": "Interes guztiak",
+			"Title": "Iragazi interesen arabera",
+			"Filter": "Erakutsi interesa duen jendeari. . ."
+		},
+		"SearchByName": "Bilatu izenaren arabera",
+		"Description": "{{1}} komunitateko jendea",
+		"Keywords": "{{1}} pertsona komunitatea",
+		"BuyCredits": "Erosi Kredituak"
+	},
+	"communities": {
+		"Title": "Komunitateak",
+		"NewCommunity": "Komunitate Berria",
+		"FindCommunityByName": "Aurkitu komunitatea izenaren arabera",
+		"Description": "{{1}} komunitateak"
+	},
+	"community": {
+		"Title": "{{1}} Komunitatea",
+		"Roles": "Rolak",
+		"AllRoles": "Rol guztiak",
+		"YouDontHavePermission": "Ez duzu hori egiteko baimenik",
+		"usernamePlaceholder": "ezarri komunitatearen izena",
+		"NotEnoughCredits": "Ez duzu kreditu nahikorik komunitatea sortzeko. {{1}} behar duzu, {{2}} duzu"
+	},
+	"event": {
+		"GetDirections": "Lortu jarraibideak",
+		"WhichMap": "Zein mapa erabili nahiko zenuke?",
+		"JoinEventToChat": "Sartu ekitaldira txateatzeko",
+		"promote": {
+			"Title": "Sustatu ekitaldi hau",
+			"Prompt": "Aukeratu non sustatu nahi duzun gertaera hau:"
+		},
+		"Confirmation": "Berrespena"
+	},
+	"newEvent": {
+		"Title": "Ekitaldi berria antolatu"
+	},
+	"interests": {
+		"Title": "Interesak",
+		"prompt": "Hautatu jakin nahi dituzun gauza motak.",
+		"explanation": "Zenbat eta interes gehiago hautatu, orduan eta aukera handiagoa izango duzu gogoko jendearekin konektatzeko.",
+		"filter": "Zer interesatzen zaizu?",
+		"Profile": "Elkarrekiko interesak nabarmentzen dira. Beheko interesetako bat edo gehiago badituzu, {{clickOrTap}} gehi ditzakezu."
+	},
+	"credits": {
+		"Title": "Kredituak",
+		"EarnCredits": "Irabazi {{1}} kreditu aplikazioan sartzen den gonbidatzen duzun pertsona bakoitzeko",
+		"YouHave": "{{1}} kreditu dituzu"
+	},
+	"onboarding": {
+		"Tap": "Sakatu",
+		"Click": "Egin klik",
+		"Yes": "Bai",
+		"No": "Ez",
+		"name": {
+			"Preface": "Ongi etorria",
+			"Placeholder": "Sartu zure izen osoa",
+			"GetStarted": "Hasi",
+			"AsGuest": "Gonbidatu zaituzte.",
+			"AsMember": "Kide gisa gonbidatu zaituzte.",
+			"AsAdmin": "Administratzaile gisa gonbidatu zaituzte.",
+			"AsOwner": "Jabe gisa gonbidatu zaituzte.",
+			"TooShort": "Zure izen osoa ezin da hain laburra izan",
+			"SetAsYourFullName": "{{1}} zure izen oso gisa ezarri?"
+		},
+		"icon": {
+			"KeepDefault": "edo gorde argazki hau",
+			"SetYourPhoto": "{{ClickOrTap}} zure argazkia ezartzeko:",
+			"ClickOnYourFace": "{{ClickOrTap}} Zure Aurpegian"
+		},
+		"interests": {
+			"GetStarted": "\u21e9 Hasi",
+			"NextCategory": "\u2193 Hurrengoa",
+			"Continue": "Jarraitu",
+			"Instructions": "Hurrengo {{1}} kategoria bakoitzean,<br> {{2}} interesatzen zaizkizun jarduera guztiak.<br> Horrela konektatzen zara komunitateko beste pertsona batzuekin."
+		},
+		"profile": {
+			"Profile": "Jendearekin bat egiten laguntzeko oinarrizko informazioa:",
+			"Birthday": "Mesedez, idatzi zure urtebetetzea:",
+			"Placeholder": "Nor zara eta zer egiten duzu? Esan jendeari buruz zerbait interesgarria edo berezia.",
+			"Month": "Hilabetea",
+			"Day": "Eguna",
+			"Year": "Urtea",
+			"Gender": "Generoa",
+			"Male": "Gizonezkoa",
+			"Female": "Emakumezkoa",
+			"Other": "Bestela",
+			"Height": "Altuera",
+			"Affiliation": "Afiliazioa",
+			"Dating": "Datazioa",
+			"Interested": "Interesatuta",
+			"NotInterested": "Interesik gabe",
+			"MatchmakerOnly": "Matchmaker Bakarrik",
+			"Required": "Jarraitzeko, idatzi gutxienez lerro pare bat zeure buruari buruz."
+		},
+		"location": {
+			"NoOneElse": "Beste inork ez du ikusiko.",
+			"SetMyLocation": "Ezarri nire kokapena"
+		},
+		"pile": {
+			"DialogTitle": "Interes komunak dituzten pertsonak"
+		},
+		"Done": "Eginda",
+		"Skip": "edo saltatu hau",
+		"relationships": {
+			"title": "Gehitu {{userName}} Telefono-liburura",
+			"welcome": "Ongi etorri {{user}}",
+			"invitedByUser": "gonbidatu zaituzte.",
+			"addToPhonebook": "Gorde Nire telefonoko kontaktuetan",
+			"iosInstructions": "Joan behera Gehitu kontaktu berria atalera",
+			"androidInstructions": "vCard fitxategi hau deskargatu ondoren ireki beharko zenuke.",
+			"explanation": "Zein da zure harremana?"
+		},
+		"Title": "Oinarrizko informazioa",
+		"Prompt": "Zure kontua konfiguratzeko urrats batzuk"
+	},
+	"profile": {
+		"Title": "Profila",
+		"Male": "Gizonezkoa",
+		"Female": "Emakumezkoa",
+		"Other": "Bestela",
+		"dating": {
+			"Interested": "Interesatuta",
+			"NotInterested": "Ez da interesatzen",
+			"MatchmakerOnly": "Matchmaker bakarrik"
+		},
+		"StartConversation": "Hasi Elkarrizketa",
+		"blockUser": "Blokeatu erabiltzaile hau",
+		"blockUserAlert": "Ez duzu erabiltzaile honen mezu gehiago ikusiko haiek desblokeatu arte.",
+		"unblockUser": "Desblokeatu erabiltzaile hau",
+		"addToContacts": "Gehitu kontaktuetara",
+		"manageLabels": "Kudeatu etiketak",
+		"inviteUsers": "Erabiltzaileak gonbidatu",
+		"inviteSuccess": "Gonbidatu da erabiltzailea {{label}} gisa",
+		"invite": "Gonbidatu",
+		"relationships": "Harremanak",
+		"newRole": "Rol Berria",
+		"about": "Buruz",
+		"people": "Jendea",
+		"info": "Info",
+		"interests": "Interesak",
+		"chat": "Txateatu",
+		"locations": "Kokalekuak",
+		"ManageRoles": "Rolak kudeatu",
+		"aboutPlaceholder": "Nor zara eta zer egiten duzu? Esan jendeari buruz zerbait interesgarria edo berezia.",
+		"explanation": "Zure profilak beste pertsona batzuekin hobeto lotzen zaitu taldeko jardueretarako.<br> Mesedez, idatzi zure urtebetetzea",
+		"chats": {
+			"placeholder": "Esan zerbait"
+		},
+		"LogOut": "Saioa amaitu",
+		"selectRole": "Hautatu Rol",
+		"MyLinks": "Nire Estekak",
+		"MyJobs": "Nire Lanak",
+		"MySocial": "MySocial",
+		"MyEducation": "Nire Hezkuntza",
+		"JobsPlaceholder": "Idatzi hemen lanpostuen informazioa",
+		"EducationPlaceholder": "Idatzi hemen hezkuntza informazioa",
+		"ManageNotifications": "Kudeatu jakinarazpenak",
+		"YourPreferredLanguage": "Zure hizkuntza gogokoena",
+		"SendCrypto": "Ordaindu",
+		"Block": "Blokea",
+		"Unblock": "Desblokeatu",
+		"Email": "Posta elektronikoa",
+		"Avoid": "Saihestu",
+		"CreatePrivateChat": "{{credits}} kreditu gastatu nahi dituzu harremanetan jartzeko?",
+		"RolesInCommunity": "Rolak komunitatean",
+		"PersonalChatWith": "Txateatu pertsonala {{name}}-rekin",
+		"SendCryptoTo": "Bidali kriptografia {{name}} helbidera",
+		"SendEmailTo": "Bidali mezu elektronikoa {{name}} helbidera",
+		"SendSMSTo": "Bidali SMSa {{name}} helbidera",
+		"BlockThisUser": "Blokeatu erabiltzaile hau",
+		"UnblockThisUser": "Desblokeatu erabiltzaile hau",
+		"YouCantChatWithYourself": "Ezin duzu zurekin hitz egin",
+		"blockUserAlertTitle": "{{displayName}} blokeatuta",
+		"sections": {
+			"education": "Hezkuntza",
+			"greeting": "Agurra",
+			"jobs": "Lanpostuak",
+			"links": "Estekak",
+			"language": "Hizkuntza",
+			"roles": "Rolak",
+			"personal": "Pertsonalak",
+			"social": "Sozialak"
+		},
+		"Roles": "Rolak",
+		"SendPaymentTo": "Bidali ordainketa {{name}} zenbakira"
+	},
+	"myqr": {
+		"Title": "Nire QR"
+	},
+	"composer": {
+		"createCommunity": "Komunitatea sortu",
+		"inviteAdmin": "Gonbidatu administratzailea",
+		"inviteMember": "Gonbidatu kidea",
+		"newCommunityTitle": "Komunitatearen izena",
+		"setCommunityTitle": "Komunitatearen izena",
+		"creditsChargeRequest": "Onartzen al duzu {{price}} kreditu gastatzea?",
+		"yes": "Bai",
+		"no": "Ez"
+	},
+	"notifications": {
+		"WelcomePleaseVerifyEmail": "Ongi etorri! Egiaztatu zure helbide elektronikoa.",
+		"WelcomeVerifyEmail": "Ongi etorri! Egiaztatu zure helbide elektronikoa.",
+		"ForgetPass": "Aizu, ahaztu al duzu pasaesaldia?",
+		"ManageEmailSubscriptions": "kudeatu zure posta elektronikoko harpidetzak",
+		"IfUnsubscribe": "Harpidetza kendu nahi baduzu"
+	},
+	"speak": {
+		"onboarding": {
+			"name": {
+				"Welcome": "Ongi etorri {{CommunityName}}-ra. Aplikazio honek lagunekin konektatzen lagunduko dizu, interes komunak dituzten pertsona berriak ezagutzeko eta askoz gehiago. Has gaitezen!"
+			},
+			"icon": {
+				"Commentary": "Ezarri zure argazkia. Honela ikusiko zaitu jendeak webgunean."
+			},
+			"interests": {
+				"Commentary": "Zenbat eta elementu gehiago aukeratu, orduan eta jende gehiago ezagutu dezakezu.",
+				"Notifications": "Jakinarazpenak baimendu behar dituzu"
+			}
+		},
+		"subscriptions": {
+			"confirm": "Jakinarazpenei esker, interesatzen zaizkizun gauzei buruz jakin dezakezu, adibidez, lagun bat aplikazioan sartzen denean edo zuri mezuak bidaltzen dituzunean."
+		},
+		"invite": "{{Q.words.TapOrClick}} hemen hau beste pertsona batzuekin nola parteka dezakezun ikusteko."
+	},
+	"payment": {
+		"onContribute": "Eskerrik asko! Zure ordainketa egin da. Zure lagunak zurekin batera gonbidatu nahi dituzu?",
+		"ConnectAccount": "Konektatu kontua"
+	},
+	"featureboard": {
+		"Text_1": "Entzun dadila zure ahotsa! Ados al zaude funtzio edo akats bat garatu behar dugula? Egin klik botoian laguntzeko.",
+		"Text_2": "Ezaugarri berri bat garatu nahi al dugu? Deskribatu behean.",
+		"Text_3": "Astero komunitateak eskatzen duen funtzio nagusia garatzen hasten gara. Ekartzen den diru guztia helburu horretara doa, aplikazioa hobetu ahal izateko.",
+		"Text_4": "Ekartzen den diru guztia gure garapen-kostuak ordaintzen laguntzeko erabiltzen da.",
+		"Text_5": "Egin nahi duzun funtzio edo akatsen konponketa baten ideiarik baduzu, baina oraindik beste batzuk gehitzen ikusi ez dituzunak? Deskribatu behean:",
+		"Options": [
+			{
+				"text": "400 $ denbora errealeko bideokonferentzia"
+			},
+			{
+				"defaultAmount": "10",
+				"text": "200 $ Tokiko Lehen mailako erregistroaren informazioa"
+			},
+			{
+				"text": "130 $ Arakatu eta partekatu milaka {{1}} meme",
+				"defaultAmount": "10"
+			},
+			{
+				"text": "80 $ Kudeatu zure komunitateak",
+				"defaultAmount": "10"
+			},
+			{
+				"text": "30 $ Konpondu elkarrizketen akatsa",
+				"defaultAmount": "10"
+			}
+		],
+		"RequestNewFeature": "Eskatu eginbide/akatsen konponketa berria",
+		"FeaturePlaceholder": "Ezaugarriaren laburpen laburra",
+		"FeatureDescription": "Deskribatu beste norbaitek ikusten ari zaren akatsa nola erreproduzi dezakeen, edo deskribatu zehatz-mehatz eraiki nahi duzun funtzioa",
+		"AddYourRequest": "Gehitu zure eskaera",
+		"NewFeature": "Ezaugarri berria"
+	},
+	"assetshistory": {
+		"Title": "Aktiboen historia",
+		"Charges": "Karguak",
+		"Credits": "Kredituak"
+	},
+	"contribute": {
+		"ContributeExplanation": "Lagundu {{communityName}} aplikazioa etengabe garatzen laguntzen. Zure ekarpen guztiek akatsak konpontzen eta funtzio berriak garatzen laguntzen dute lineako komunitatea hazten laguntzeko!",
+		"ReasonToContribute": "{{communityName}}-ren aldekoek mantentzen dute aplikazio hau. Lagundu aplikazio hau onartzen, jendearen bizitzan aldaketa egin dezagun!"
+	},
+	"accounts": {
+		"remove": {
+			"title": "Kendu kontua",
+			"content": "Kontu hau kendu nahi duzu?",
+			"ok": "Bai",
+			"cancel": "Ez"
+		}
+	},
+	"import": {
+		"fileNotFound": "Barkatu, ez da CSV fitxategia aurkitu.",
+		"fileEmpty": "Barkatu, CSV fitxategia hutsik dago.",
+		"userIdNotFound": "erabiltzailea existitzen da baina id hutsik",
+		"errorLine": "lerroa {{1}}",
+		"fieldNotFound": "&quot;{{1}}&quot; derrigorrezko eremua ez da aurkitu",
+		"taskStreamInvalid": "ataza korrontea baliogabea",
+		"instructionsEmpty": "ataza-korrontearen argibideak hutsik",
+		"complete": "Osatu",
+		"activateUsers": "erabiltzaileei aktibazio-mezua bidali?",
+		"importProgress": "Aurrerapena",
+		"joinEventLabel": "Batu erabiltzaileak ausazko gertaerara",
+		"importOptions": "Aukerak",
+		"sampleCSV": "Deskargatu Sample CSV",
+		"fileLabel": "Kargatu kalkulu-orria:",
+		"errorsTitle": "Erroreak gertatu dira",
+		"communityUsers": "Hau komunitateen zerrenda da",
+		"setAsConversation": "URL zutabea elkarrizketa gisa",
+		"toMainCommunityToo": "gehitu erabiltzaileak komunitate nagusira ere",
+		"willImportedTo": "Erabiltzaileak komunitatera inportatuko dira",
+		"ChooseFile": "aukeratu fitxategia"
+	},
+	"dashboard": {
+		"Menu": "Menua",
+		"Home": "Hasiera",
+		"Welcome": "Ongi etorri",
+		"Events": "Gertaerak",
+		"Discuss": "Eztabaidatu",
+		"People": "Jendea",
+		"About": "Buruz",
+		"Community": "Komunitatea",
+		"LogIn": "saioa hasi",
+		"LogOut": "Saioa amaitu",
+		"Intercoin": "Intercoin",
+		"Shows": "Ikuskizunak",
+		"Calendar": "Egutegia",
+		"Me": "Ni",
+		"Media": "Komunikabideak",
+		"Services": "Zerbitzuak",
+		"SetMobileNumber": "Ezarri mugikorraren zenbakia",
+		"SetEmailAddress": "Ezarri helbide elektronikoa"
+	},
+	"services": {
+		"Title": "Zerbitzuak",
+		"filterByTitle": "Bilatu zerbitzuak izenburuaren arabera",
+		"New": "+ Hasi Zerbitzu berria",
+		"NewService": "Zerbitzu berria",
+		"filterServices": "Iragazki zerbitzuak",
+		"NoneYet": "Oraindik ez da zerbitzurik sortu<br> garai hauetan.",
+		"AllAuthors": "Egile guztiak",
+		"AllDays": "Egun guztiak",
+		"AllLocations": "Kokapen guztiak",
+		"MakeReservation": "Egin erreserba",
+		"CancelReservation": "Utzi erreserba",
+		"UpdateReservation": "Eguneratu erreserba",
+		"AreYouSure": "Ziur zaude?",
+		"YouWillRefunded": "Aplikazioan beste gauza batzuetan gastatu ditzakezun kredituen bidez itzuliko zaizu.",
+		"AllInterests": "Interes guztiak",
+		"FilterbyInterest": "Iragazi interesen arabera",
+		"FilterByDate": "Iragazi dataren arabera",
+		"ShowActivities": "Erakutsi jarduerak...",
+		"newServices": "{{1}} zerbitzu berri dituzu",
+		"SelectLocation": "Hautatu Kokapena",
+		"FilterLocationsPlaceHolder": "Iragazi lokalak...",
+		"Description": "{{1}} zerbitzua",
+		"Keywords": "{{1}} zerbitzua",
+		"NewAvailability": "Erabilgarritasun berria"
+	},
+	"welcome": {
+		"Title": "{{appName}}: ongi etorria",
+		"GetStarted": "Hasi",
+		"gallery": {
+			"Connect": "Konektatu",
+			"Organize": "Antolatu",
+			"Travel": "Bidaia",
+			"Share": "Partekatu"
+		}
+	}
 }

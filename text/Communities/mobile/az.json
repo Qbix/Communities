@@ -1,24 +1,24 @@
 {
-    "activation": {
-        "Thanks": "{{1}}-a xoş gəlmisiniz.",
-        "ClickHere": "Hesabınızı aktivləşdirmək üçün bura klikləyin: {{1}}"
-    },
-    "addMobile": {
-        "ClickHere": "Mobil nömrənizi doğrulamaq üçün bura klikləyin: {{1}}"
-    },
-    "SeeHistory": "{{1}} üçün ödəniş tarixçəsinə baxın",
-    "charge": {
-        "HasBeenCharged": "{{4}} tərəfindən {{3}} üçün {{1}} {{2}} tutuldu"
-    },
-    "charged": {
-        "HavePaid": "Salam {{1}}, bu, {{2}} üçün {{3}} üçün {{4}} üçün müvəffəqiyyətlə ödəniş etdiyinizin qısa təsdiqidir."
-    },
-    "subscription": {
-        "YouHaveStarted": "Siz {{2}} {{3}} ilə {{4}} {{5}} ay ərzində abunə olmusunuz.",
-        "HasStarted": "{{1}} {{2}} {{3}} ilə {{4}} {{5}} ay ərzində abunə oldu."
-    },
-    "resend": {
-        "DidYouWant": "{{1}} daxilində parol ifadənizi sıfırlamaq istəyirdiniz?",
-        "ClickHere": "Sonra bura klikləyin: {{1}}"
-    }
+	"activation": {
+		"Thanks": "{{1}}-a xo\u015f g\u0259lmisiniz.",
+		"ClickHere": "Hesab\u0131n\u0131z\u0131 aktivl\u0259\u015fdirm\u0259k \u00fc\u00e7\u00fcn bura klikl\u0259yin: {{1}}"
+	},
+	"addMobile": {
+		"ClickHere": "Mobil n\u00f6mr\u0259nizi do\u011frulamaq \u00fc\u00e7\u00fcn bura klikl\u0259yin: {{1}}"
+	},
+	"SeeHistory": "{{1}} \u00fc\u00e7\u00fcn \u00f6d\u0259ni\u015f tarix\u00e7\u0259sin\u0259 bax\u0131n",
+	"charge": {
+		"HasBeenCharged": "{{4}} t\u0259r\u0259find\u0259n {{3}} \u00fc\u00e7\u00fcn {{1}} {{2}} tutuldu"
+	},
+	"charged": {
+		"HavePaid": "Salam {{1}}, bu, {{2}} \u00fc\u00e7\u00fcn {{3}} \u00fc\u00e7\u00fcn {{4}} \u00fc\u00e7\u00fcn m\u00fcv\u0259ff\u0259qiyy\u0259tl\u0259 \u00f6d\u0259ni\u015f etdiyinizin q\u0131sa t\u0259sdiqidir."
+	},
+	"subscription": {
+		"YouHaveStarted": "Siz {{2}} {{3}} il\u0259 {{4}} {{5}} ay \u0259rzind\u0259 abun\u0259 olmusunuz.",
+		"HasStarted": "{{1}} {{2}} {{3}} il\u0259 {{4}} {{5}} ay \u0259rzind\u0259 abun\u0259 oldu."
+	},
+	"resend": {
+		"DidYouWant": "{{1}} daxilind\u0259 parol ifad\u0259nizi s\u0131f\u0131rlamaq ist\u0259yirdiniz?",
+		"ClickHere": "Sonra bura klikl\u0259yin: {{1}}"
+	}
 }

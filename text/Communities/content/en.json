@@ -1,454 +1,454 @@
 {
-    "notFound": {
-        "Explanation": "<span class='url'>{{1}}<\/span> doesn't point to anything!",
-        "NextSteps": "Use the main menu to find what you're looking for."
-    },
-    "dashboard": {
-        "Menu": "Menu",
-        "Home": "Home",
-        "Welcome": "Welcome",
-        "Events": "Events",
-        "Discuss": "Discuss",
-        "People": "People",
-        "About": "About",
-        "Community": "Community",
-        "LogIn": "log in",
-        "LogOut": "log out",
-        "Intercoin": "Intercoin",
-        "Shows": "Shows",
-        "Calendar": "Calendar",
-        "Me": "Me",
-        "Media": "Media",
-        "Services": "Services",
-        "SetMobileNumber": "Set Mobile Number",
-        "SetEmailAddress": "Set Email Address"
-    },
-    "greeting": {
-        "Welcome": "Welcome to {{1}}. Here you will find things posted for members of our community. Please add your email address or mobile number in order to receive notifications when announcements are posted."
-    },
-    "welcome": {
-        "Title": "{{appName}}: welcome",
-        "GetStarted": "Get Started",
-        "gallery": {
-            "Connect": "Connect",
-            "Organize": "Organize",
-            "Travel": "Travel",
-            "Share": "Share"
-        }
-    },
-    "conversations": {
-        "Title": "Chats",
-        "New": "New Chat",
-        "Conversation": "Conversation",
-        "Topics": "Topics",
-        "NoneYet": "No conversations formed yet",
-        "newConversations": "{{1}} new conversations",
-        "AllAuthors": "All Authors",
-        "FilterbyAuthors": "Filter by Authors",
-        "FilterAuthorPlaceHolder": "Search additional authors...",
-        "filterConversations": "Filter by text",
-        "Description": "{{1}} conversations"
-    },
-    "newConversation": {
-        "composer": {
-            "ChooseActivity": "Choose a topic",
-            "Share": "Share",
-            "interest": {
-                "Title": "Choose an Activity",
-                "Filter": "Search interests ..."
-            }
-        },
-        "Title": "New Chat",
-        "TitlePlaceholder": "Subject of your conversation",
-        "ContentPlaceholder": "Write a few words to start off the conversation, so others can reply",
-        "StartButton": "Start Conversation"
-    },
-    "events": {
-        "Title": "Events",
-        "filterByTitle": "Find events by title",
-        "New": "+ Start New Event",
-        "filterEvents": "Filter events",
-        "NewEvent": "New Event",
-        "SetLocation": "Set My Location",
-        "NoneYet": "No events formed yet<br>during these times.",
-        "AllAuthors": "All Authors",
-        "AllDays": "All Days",
-        "AllLocations": "All Locations",
-        "MakeReservation": "Make Reservation",
-        "CancelReservation": "Cancel Reservation",
-        "UpdateReservation": "Update Reservation",
-        "AreYouSure": "Are you sure?",
-        "YouWillRefunded": "You will be refunded in the form of credits you can spend on other things in the app.",
-        "AllInterests": "All Interests",
-        "FilterbyInterest": "Filter by Interest",
-        "FilterByDate": "Filter By Date",
-        "ShowActivities": "Show activities related to ...",
-        "newEvents": "You have {{1}} new events",
-        "SelectLocation": "Select Location",
-        "FilterLocationsPlaceHolder": "Filter venues with ...",
-        "Description": "{{1}} events",
-        "Keywords": "{{1}} events"
-    },
-    "services": {
-        "Title": "Services",
-        "filterByTitle": "Find services by title",
-        "New": "+ Start New Service",
-        "NewService": "New Service",
-        "NewAvailability": "New Availability",
-        "filterServices": "Filter services",
-        "NoneYet": "No services formed yet<br>during these times.",
-        "AllAuthors": "All Authors",
-        "AllDays": "All Days",
-        "AllLocations": "All Locations",
-        "MakeReservation": "Make Reservation",
-        "CancelReservation": "Cancel Reservation",
-        "UpdateReservation": "Update Reservation",
-        "AreYouSure": "Are you sure?",
-        "YouWillRefunded": "You will be refunded in the form of credits you can spend on other things in the app.",
-        "AllInterests": "All Interests",
-        "FilterbyInterest": "Filter by Interest",
-        "FilterByDate": "Filter By Date",
-        "ShowActivities": "Show activities related to ...",
-        "newServices": "You have {{1}} new services",
-        "SelectLocation": "Select Location",
-        "FilterLocationsPlaceHolder": "Filter venues with ...",
-        "Description": "{{1}} service",
-        "Keywords": "{{1}} service"
-    },
-    "schedule": {
-        "Title": "Schedule",
-        "NoneYet": "You aren't participating in any events",
-        "AddSome": "Add some to your schedule!",
-        "AddMore": "Add events to your schedule!",
-        "future": "future",
-        "past": "past"
-    },
-    "location": {
-        "Title": "Location",
-        "NewLocation": "New Location"
-    },
-    "inbox": {
-        "Title": "Inbox",
-        "AddNewContacts": "Add New Contacts",
-        "NoneYet": "You aren't participating in any conversations",
-        "FindPeople": "Find people to talk to",
-        "GroupConversations": "Join some group conversations",
-        "ContactStaff": "Contact Staff",
-        "ContactCustomers": "Contact Customers"
-    },
-    "me": {
-        "Title": "Me",
-        "MobileNumber": "Mobile Number",
-        "EmailAddress": "Email Address",
-        "UpdateSocialTitle": "Update {{1}} username",
-        "Web3": "Web3"
-    },
-    "people": {
-        "Title": "People",
-        "Description": "People in {{1}} community",
-        "AppAlert": "This app in the app store will let you connect with your friends, and much much more.",
-        "Invite": "Invite Friends",
-        "BuyCredits": "Buy Credits",
-        "FindSomeoneByName": "Find someone by name",
-        "SearchByName": "Search by name",
-        "FindAllMyFriends": "Find All My Friends",
-        "labels": {
-            "All": "Everyone",
-            "Title": "Filter by Relationship",
-            "New": "New Relationship Type"
-        },
-        "interests": {
-            "All": "All Interests",
-            "Title": "Filter by Interest",
-            "Filter": "Show people interested in . . ."
-        },
-        "Keywords": "{{1}} people community"
-    },
-    "communities": {
-        "Title": "Communities",
-        "NewCommunity": "New Community",
-        "FindCommunityByName": "Find community by name",
-        "Description": "{{1}} communities"
-    },
-    "community": {
-        "Title": "{{1}} Community",
-        "Roles": "Roles",
-        "AllRoles": "All Roles",
-        "YouDontHavePermission": "You are not authorized to do this",
-        "usernamePlaceholder": "set community name",
-        "NotEnoughCredits": "You haven't enough credits to create community. Need {{1}}, you have {{2}}"
-    },
-    "event": {
-        "GetDirections": "Get Directions",
-        "WhichMap": "Which maps would you like to use?",
-        "JoinEventToChat": "Join the event to chat",
-        "promote": {
-            "Title": "Promote this event",
-            "Prompt": "Choose where you'd like to promote this event:"
-        },
-        "Confirmation": "Confirmation"
-    },
-    "newEvent": {
-        "Title": "Plan New Event"
-    },
-    "interests": {
-        "Title": "Interests",
-        "prompt": "Select the types of things you'd like to know about.",
-        "explanation": "The more interests you select, the more likely you are to connect with like-minded people.",
-        "filter": "What are you interested in?",
-        "Profile": "Mutual interests are highlighted. If you also have one or more of the interests below, you can {{clickOrTap}} to add them."
-    },
-    "credits": {
-        "Title": "Credits",
-        "EarnCredits": "Earn {{1}} credits for every new person you invite who joins the app",
-        "YouHave": "You have {{1}} credits"
-    },
-    "onboarding": {
-        "Title": "Basic Information",
-        "Prompt": "A few steps to set up your account",
-        "Tap": "Tap",
-        "Click": "Click",
-        "Yes": "Yes",
-        "No": "No",
-        "Skip": "or skip this",
-        "name": {
-            "Preface": "Welcome to ",
-            "Placeholder": "Enter your full name",
-            "GetStarted": "Get Started",
-            "AsGuest": "You've been invited as a guest.",
-            "AsMember": "You've been invited as a member.",
-            "AsAdmin": "You've been invited as an admin.",
-            "AsOwner": "You've been invited as an owner.",
-            "TooShort": "Your full name can't be that short",
-            "SetAsYourFullName": "Set {{1}} as your full name?"
-        },
-        "icon": {
-            "KeepDefault": "or keep this photo",
-            "SetYourPhoto": "{{ClickOrTap}} to set your photo:"
-        },
-        "interests": {
-            "GetStarted": "&#x21E9; Get Started",
-            "NextCategory": "&#x2193; Next",
-            "Continue": "Continue",
-            "Instructions": "In each of the next {{1}} categories,<br>{{2}} all the activities you are interested in.<br>This is how you connect with other people in the community."
-        },
-        "profile": {
-            "Profile": "Your profile helps people discover more about you.<br>",
-            "Birthday": "Please enter your birthday:",
-            "Placeholder": "Who are you and what do you do? Tell people something interesting or unique about yourself.",
-            "Required": "To continue, write at least a couple lines about yourself.",
-            "Month": "Month",
-            "Day": "Day",
-            "Year": "Year",
-            "Gender": "Gender",
-            "Male": "Male",
-            "Female": "Female",
-            "Other": "Other",
-            "Height": "Height",
-            "Affiliation": "Affiliation",
-            "Dating": "Dating",
-            "Interested": "Interested",
-            "NotInterested": "Not Interested",
-            "MatchmakerOnly": "Matchmaker Only"
-        },
-        "location": {
-            "NoOneElse": "No one else will see it.",
-            "SetMyLocation": "Set my location"
-        },
-        "pile": {
-            "DialogTitle": "People with Common Interests"
-        },
-        "relationships": {
-            "explanation": "What is your relationship?",
-            "welcome": "Welcome {{user}} ",
-            "invitedByUser": "invited you.",
-            "addToPhonebook": "Save to My Phone Contacts",
-            "iosInstructions": "Scroll down to Add New Contact",
-            "androidInstructions": "You should open this vCard file after it will be downloaded."
-        },
-        "Done": "Done"
-    },
-    "profile": {
-        "Title": "Profile",
-        "Male": "Male",
-        "Female": "Female",
-        "Other": "Other",
-        "sections": {
-            "education": "Education",
-            "greeting": "Greeting",
-            "jobs": "Jobs",
-            "links": "Links",
-            "language": "Language",
-            "roles": "Roles",
-            "personal": "Personal",
-            "social": "Social"
-        },
-        "dating": {
-            "Interested": "Interested",
-            "NotInterested": "Not interested",
-            "MatchmakerOnly": "Matchmaker only"
-        },
-        "StartConversation": "Start a Conversation",
-        "Block": "Block",
-        "blockUserAlertTitle": "Blocked {{displayName}}",
-        "blockUserAlert": "You will not see any more messages from this user until you unblock them.",
-        "Unblock": "Unblock",
-        "addToContacts": "Add to Contacts",
-        "manageLabels": "Manage Labels",
-        "inviteUsers": "Invite Users",
-        "selectRole": "Select Role",
-        "inviteSuccess": "Successfully invited user as {{label}}",
-        "invite": "Invite",
-        "relationships": "Relationships",
-        "newRole": "New Role",
-        "about": "About",
-        "people": "People",
-        "info": "Info",
-        "interests": "Interests",
-        "Email": "Email",
-        "Avoid": "Avoid",
-        "chat": "Chat",
-        "locations": "Locations",
-        "Roles": "Roles",
-        "ManageRoles": "Manage Roles",
-        "SendCrypto": "Pay",
-        "aboutPlaceholder": "Who are you and what do you do? Tell people something interesting or unique about yourself.",
-        "explanation": "Your profile helps better match you with other people for group activities.<br> Please enter your birthday",
-        "chats": {
-            "placeholder": "Say something"
-        },
-        "LogOut": "Log Out",
-        "MyLinks": "My Links",
-        "MyJobs": "My Jobs",
-        "MySocial": "MySocial",
-        "MyEducation": "My Education",
-        "JobsPlaceholder": "Type here jobs info",
-        "EducationPlaceholder": "Type here education info",
-        "ManageNotifications": "Manage Notifications",
-        "YourPreferredLanguage": "Your preferred language",
-        "CreatePrivateChat": "Spend {{credits}} credits to reach out?",
-        "RolesInCommunity": "Roles in community",
-        "PersonalChatWith": "Personal chat with {{name}}",
-        "SendCryptoTo": "Send crypto to {{name}}",
-        "SendPaymentTo": "Send a payment to {{name}}",
-        "SendEmailTo": "Send email to {{name}}",
-        "SendSMSTo": "Send SMS to {{name}}",
-        "BlockThisUser": "Block this user",
-        "UnblockThisUser": "Unblock this user",
-        "YouCantChatWithYourself": "You can't chat with yourself"
-    },
-    "myqr": {
-        "Title": "My QR"
-    },
-    "composer": {
-        "createCommunity": "Create Community",
-        "inviteAdmin": "Invite Admin",
-        "inviteMember": "Invite Member",
-        "newCommunityTitle": "Community Name",
-        "setCommunityTitle": "Community Name",
-        "creditsChargeRequest": "Do you agree to spend {{price}} credits?",
-        "yes": "Yes",
-        "no": "No"
-    },
-    "notifications": {
-        "WelcomePleaseVerifyEmail": "Welcome! Please verify your email address.",
-        "WelcomeVerifyEmail": "Welcome! Verify your email address.",
-        "ForgetPass": "Hey, did you forget your passphrase?",
-        "ManageEmailSubscriptions": "manage your email subscriptions",
-        "IfUnsubscribe": "If you want to unsubscribe"
-    },
-    "speak": {
-        "onboarding": {
-            "name": {
-                "Welcome": "Welcome to {{CommunityName}}. This app will help you connect with friends, discover new people with common interests, and much more. Let's get started!"
-            },
-            "icon": {
-                "Commentary": "Set your photo. This is how people will see you on the site."
-            },
-            "interests": {
-                "Commentary": "The more items you choose, the more people you can meet.",
-                "Notifications": "You need to allow notifications"
-            }
-        },
-        "subscriptions": {
-            "confirm": "Notifications allow you to know about things you're interested in, such as when a friend joins the app, or messages you."
-        },
-        "invite": "{{Q.words.TapOrClick}} here to see how you can share this with other people."
-    },
-    "payment": {
-        "onContribute": "Thank you! Your payment went through. Would you like to invite your friends join you?",
-        "ConnectAccount": "Connect account"
-    },
-    "featureboard": {
-        "Text_1": "Let your voice be heard! Do you agree we should develop a feature or bug? Click the button to Support it.",
-        "Text_2": "Want us to develop a new feature? Describe it below.",
-        "Text_3": "Every week we start to develop the top requested feature by the community. All money contributed goes towards that purpose, allowing us to make the app better.",
-        "Text_4": "All money contributed is used to help pay our development costs.",
-        "Text_5": "Do you have an idea for a feature or bugfix that you want us to do but haven’t seen others add yet? Describe it below:",
-        "Options": [
-            {
-                "text": "$400 Real time videoconferencing"
-            },
-            {
-                "defaultAmount": 10,
-                "text": "$200 Local Primary registration information"
-            },
-            {
-                "text": "$130 Browse and share thousands of {{1}} memes",
-                "defaultAmount": 10
-            },
-            {
-                "text": "$80 Manage your own communities",
-                "defaultAmount": 10
-            },
-            {
-                "text": "$30 Fix conversations bug",
-                "defaultAmount": 10
-            }
-        ],
-        "RequestNewFeature": "Request a New Feature\/Bugfix",
-        "FeaturePlaceholder": "Short summary of feature",
-        "FeatureDescription": "Describe how someone else can reproduce the bug you're seeing, or describe in detail the feature you want to build",
-        "AddYourRequest": "Add Your Request",
-        "NewFeature": "New Feature"
-    },
-    "contribute": {
-        "ContributeExplanation": "Help support continued development of the {{communityName}} app. All your contributions help to fix bugs and develop new features to help grow the online community!",
-        "ReasonToContribute": "This app is maintained by supporters of {{communityName}}. Help support this app so we can make a difference in people's lives!"
-    },
-    "assetshistory": {
-        "Title": "Assets history",
-        "Charges": "Charges",
-        "Credits": "Credits"
-    },
-    "accounts": {
-        "remove": {
-            "title": "Remove account",
-            "content": "Do you want to remove this account?",
-            "ok": "Yes",
-            "cancel": "No"
-        }
-    },
-    "import": {
-        "fileNotFound": "Sorry, CSV file not found.",
-        "fileEmpty": "Sorry, CSV file is empty.",
-        "userIdNotFound": "user exist but id empty",
-        "errorLine": "line {{1}}",
-        "fieldNotFound": "Required field \"{{1}}\" not found",
-        "taskStreamInvalid": "task stream invalid",
-        "instructionsEmpty": "task stream instructions empty",
-        "complete": "Complete",
-        "activateUsers": "send activation message to users?",
-        "importProgress": "Progress",
-        "joinEventLabel": "Join users to random event",
-        "importOptions": "Options",
-        "sampleCSV": "Download Sample CSV",
-        "fileLabel": "Upload Spreadsheet:",
-        "errorsTitle": "Errors occurred",
-        "communityUsers": "This is communities list",
-        "setAsConversation": "URL column as conversation",
-        "toMainCommunityToo": "add users to main community too",
-        "willImportedTo": "Users will be imported to community",
-        "ChooseFile": "choose file"
-    }
+	"notFound": {
+		"Explanation": "<span class='url'>{{1}}</span> doesn't point to anything!",
+		"NextSteps": "Use the main menu to find what you're looking for."
+	},
+	"dashboard": {
+		"Menu": "Menu",
+		"Home": "Home",
+		"Welcome": "Welcome",
+		"Events": "Events",
+		"Discuss": "Discuss",
+		"People": "People",
+		"About": "About",
+		"Community": "Community",
+		"LogIn": "log in",
+		"LogOut": "log out",
+		"Intercoin": "Intercoin",
+		"Shows": "Shows",
+		"Calendar": "Calendar",
+		"Me": "Me",
+		"Media": "Media",
+		"Services": "Services",
+		"SetMobileNumber": "Set Mobile Number",
+		"SetEmailAddress": "Set Email Address"
+	},
+	"greeting": {
+		"Welcome": "Welcome to {{1}}. Here you will find things posted for members of our community. Please add your email address or mobile number in order to receive notifications when announcements are posted."
+	},
+	"welcome": {
+		"Title": "{{appName}}: welcome",
+		"GetStarted": "Get Started",
+		"gallery": {
+			"Connect": "Connect",
+			"Organize": "Organize",
+			"Travel": "Travel",
+			"Share": "Share"
+		}
+	},
+	"conversations": {
+		"Title": "Chats",
+		"New": "New Chat",
+		"Conversation": "Conversation",
+		"Topics": "Topics",
+		"NoneYet": "No conversations formed yet",
+		"newConversations": "{{1}} new conversations",
+		"AllAuthors": "All Authors",
+		"FilterbyAuthors": "Filter by Authors",
+		"FilterAuthorPlaceHolder": "Search additional authors...",
+		"filterConversations": "Filter by text",
+		"Description": "{{1}} conversations"
+	},
+	"newConversation": {
+		"composer": {
+			"ChooseActivity": "Choose a topic",
+			"Share": "Share",
+			"interest": {
+				"Title": "Choose an Activity",
+				"Filter": "Search interests ..."
+			}
+		},
+		"Title": "New Chat",
+		"TitlePlaceholder": "Subject of your conversation",
+		"ContentPlaceholder": "Write a few words to start off the conversation, so others can reply",
+		"StartButton": "Start Conversation"
+	},
+	"events": {
+		"Title": "Events",
+		"filterByTitle": "Find events by title",
+		"New": "+ Start New Event",
+		"filterEvents": "Filter events",
+		"NewEvent": "New Event",
+		"SetLocation": "Set My Location",
+		"NoneYet": "No events formed yet<br>during these times.",
+		"AllAuthors": "All Authors",
+		"AllDays": "All Days",
+		"AllLocations": "All Locations",
+		"MakeReservation": "Make Reservation",
+		"CancelReservation": "Cancel Reservation",
+		"UpdateReservation": "Update Reservation",
+		"AreYouSure": "Are you sure?",
+		"YouWillRefunded": "You will be refunded in the form of credits you can spend on other things in the app.",
+		"AllInterests": "All Interests",
+		"FilterbyInterest": "Filter by Interest",
+		"FilterByDate": "Filter By Date",
+		"ShowActivities": "Show activities related to ...",
+		"newEvents": "You have {{1}} new events",
+		"SelectLocation": "Select Location",
+		"FilterLocationsPlaceHolder": "Filter venues with ...",
+		"Description": "{{1}} events",
+		"Keywords": "{{1}} events"
+	},
+	"services": {
+		"Title": "Services",
+		"filterByTitle": "Find services by title",
+		"New": "+ Start New Service",
+		"NewService": "New Service",
+		"NewAvailability": "New Availability",
+		"filterServices": "Filter services",
+		"NoneYet": "No services formed yet<br>during these times.",
+		"AllAuthors": "All Authors",
+		"AllDays": "All Days",
+		"AllLocations": "All Locations",
+		"MakeReservation": "Make Reservation",
+		"CancelReservation": "Cancel Reservation",
+		"UpdateReservation": "Update Reservation",
+		"AreYouSure": "Are you sure?",
+		"YouWillRefunded": "You will be refunded in the form of credits you can spend on other things in the app.",
+		"AllInterests": "All Interests",
+		"FilterbyInterest": "Filter by Interest",
+		"FilterByDate": "Filter By Date",
+		"ShowActivities": "Show activities related to ...",
+		"newServices": "You have {{1}} new services",
+		"SelectLocation": "Select Location",
+		"FilterLocationsPlaceHolder": "Filter venues with ...",
+		"Description": "{{1}} service",
+		"Keywords": "{{1}} service"
+	},
+	"schedule": {
+		"Title": "Schedule",
+		"NoneYet": "You aren't participating in any events",
+		"AddSome": "Add some to your schedule!",
+		"AddMore": "Add events to your schedule!",
+		"future": "future",
+		"past": "past"
+	},
+	"location": {
+		"Title": "Location",
+		"NewLocation": "New Location"
+	},
+	"inbox": {
+		"Title": "Inbox",
+		"AddNewContacts": "Add New Contacts",
+		"NoneYet": "You aren't participating in any conversations",
+		"FindPeople": "Find people to talk to",
+		"GroupConversations": "Join some group conversations",
+		"ContactStaff": "Contact Staff",
+		"ContactCustomers": "Contact Customers"
+	},
+	"me": {
+		"Title": "Me",
+		"MobileNumber": "Mobile Number",
+		"EmailAddress": "Email Address",
+		"UpdateSocialTitle": "Update {{1}} username",
+		"Web3": "Web3"
+	},
+	"people": {
+		"Title": "People",
+		"Description": "People in {{1}} community",
+		"AppAlert": "This app in the app store will let you connect with your friends, and much much more.",
+		"Invite": "Invite Friends",
+		"BuyCredits": "Buy Credits",
+		"FindSomeoneByName": "Find someone by name",
+		"SearchByName": "Search by name",
+		"FindAllMyFriends": "Find All My Friends",
+		"labels": {
+			"All": "Everyone",
+			"Title": "Filter by Relationship",
+			"New": "New Relationship Type"
+		},
+		"interests": {
+			"All": "All Interests",
+			"Title": "Filter by Interest",
+			"Filter": "Show people interested in . . ."
+		},
+		"Keywords": "{{1}} people community"
+	},
+	"communities": {
+		"Title": "Communities",
+		"NewCommunity": "New Community",
+		"FindCommunityByName": "Find community by name",
+		"Description": "{{1}} communities"
+	},
+	"community": {
+		"Title": "{{1}} Community",
+		"Roles": "Roles",
+		"AllRoles": "All Roles",
+		"YouDontHavePermission": "You are not authorized to do this",
+		"usernamePlaceholder": "set community name",
+		"NotEnoughCredits": "You haven't enough credits to create community. Need {{1}}, you have {{2}}"
+	},
+	"event": {
+		"GetDirections": "Get Directions",
+		"WhichMap": "Which maps would you like to use?",
+		"JoinEventToChat": "Join the event to chat",
+		"promote": {
+			"Title": "Promote this event",
+			"Prompt": "Choose where you'd like to promote this event:"
+		},
+		"Confirmation": "Confirmation"
+	},
+	"newEvent": {
+		"Title": "Plan New Event"
+	},
+	"interests": {
+		"Title": "Interests",
+		"prompt": "Select the types of things you'd like to know about.",
+		"explanation": "The more interests you select, the more likely you are to connect with like-minded people.",
+		"filter": "What are you interested in?",
+		"Profile": "Mutual interests are highlighted. If you also have one or more of the interests below, you can {{clickOrTap}} to add them."
+	},
+	"credits": {
+		"Title": "Credits",
+		"EarnCredits": "Earn {{1}} credits for every new person you invite who joins the app",
+		"YouHave": "You have {{1}} credits"
+	},
+	"onboarding": {
+		"Title": "Basic Information",
+		"Prompt": "A few steps to set up your account",
+		"Tap": "Tap",
+		"Click": "Click",
+		"Yes": "Yes",
+		"No": "No",
+		"Skip": "or skip this",
+		"name": {
+			"Preface": "Welcome to ",
+			"Placeholder": "Enter your full name",
+			"GetStarted": "Get Started",
+			"AsGuest": "You've been invited as a guest.",
+			"AsMember": "You've been invited as a member.",
+			"AsAdmin": "You've been invited as an admin.",
+			"AsOwner": "You've been invited as an owner.",
+			"TooShort": "Your full name can't be that short",
+			"SetAsYourFullName": "Set {{1}} as your full name?"
+		},
+		"icon": {
+			"KeepDefault": "or keep this photo",
+			"SetYourPhoto": "{{ClickOrTap}} to set your photo:"
+		},
+		"interests": {
+			"GetStarted": "&#x21E9; Get Started",
+			"NextCategory": "&#x2193; Next",
+			"Continue": "Continue",
+			"Instructions": "In each of the next {{1}} categories,<br>{{2}} all the activities you are interested in.<br>This is how you connect with other people in the community."
+		},
+		"profile": {
+			"Profile": "Basic info to help match you with people:",
+			"Birthday": "Please enter your birthday:",
+			"Placeholder": "Who are you and what do you do? Tell people something interesting or unique about yourself.",
+			"Required": "To continue, write at least a couple lines about yourself.",
+			"Month": "Month",
+			"Day": "Day",
+			"Year": "Year",
+			"Gender": "Gender",
+			"Male": "Male",
+			"Female": "Female",
+			"Other": "Other",
+			"Height": "Height",
+			"Affiliation": "Affiliation",
+			"Dating": "Dating",
+			"Interested": "Interested",
+			"NotInterested": "Not Interested",
+			"MatchmakerOnly": "Matchmaker Only"
+		},
+		"location": {
+			"NoOneElse": "No one else will see it.",
+			"SetMyLocation": "Set my location"
+		},
+		"pile": {
+			"DialogTitle": "People with Common Interests"
+		},
+		"relationships": {
+			"explanation": "What is your relationship?",
+			"welcome": "Welcome {{user}} ",
+			"invitedByUser": "invited you.",
+			"addToPhonebook": "Save to My Phone Contacts",
+			"iosInstructions": "Scroll down to Add New Contact",
+			"androidInstructions": "You should open this vCard file after it will be downloaded."
+		},
+		"Done": "Done"
+	},
+	"profile": {
+		"Title": "Profile",
+		"Male": "Male",
+		"Female": "Female",
+		"Other": "Other",
+		"sections": {
+			"education": "Education",
+			"greeting": "Greeting",
+			"jobs": "Jobs",
+			"links": "Links",
+			"language": "Language",
+			"roles": "Roles",
+			"personal": "Personal",
+			"social": "Social"
+		},
+		"dating": {
+			"Interested": "Interested",
+			"NotInterested": "Not interested",
+			"MatchmakerOnly": "Matchmaker only"
+		},
+		"StartConversation": "Start a Conversation",
+		"Block": "Block",
+		"blockUserAlertTitle": "Blocked {{displayName}}",
+		"blockUserAlert": "You will not see any more messages from this user until you unblock them.",
+		"Unblock": "Unblock",
+		"addToContacts": "Add to Contacts",
+		"manageLabels": "Manage Labels",
+		"inviteUsers": "Invite Users",
+		"selectRole": "Select Role",
+		"inviteSuccess": "Successfully invited user as {{label}}",
+		"invite": "Invite",
+		"relationships": "Relationships",
+		"newRole": "New Role",
+		"about": "About",
+		"people": "People",
+		"info": "Info",
+		"interests": "Interests",
+		"Email": "Email",
+		"Avoid": "Avoid",
+		"chat": "Chat",
+		"locations": "Locations",
+		"Roles": "Roles",
+		"ManageRoles": "Manage Roles",
+		"SendCrypto": "Pay",
+		"aboutPlaceholder": "Who are you and what do you do? Tell people something interesting or unique about yourself.",
+		"explanation": "Your profile helps better match you with other people for group activities.<br> Please enter your birthday",
+		"chats": {
+			"placeholder": "Say something"
+		},
+		"LogOut": "Log Out",
+		"MyLinks": "My Links",
+		"MyJobs": "My Jobs",
+		"MySocial": "MySocial",
+		"MyEducation": "My Education",
+		"JobsPlaceholder": "Type here jobs info",
+		"EducationPlaceholder": "Type here education info",
+		"ManageNotifications": "Manage Notifications",
+		"YourPreferredLanguage": "Your preferred language",
+		"CreatePrivateChat": "Spend {{credits}} credits to reach out?",
+		"RolesInCommunity": "Roles in community",
+		"PersonalChatWith": "Personal chat with {{name}}",
+		"SendCryptoTo": "Send crypto to {{name}}",
+		"SendPaymentTo": "Send a payment to {{name}}",
+		"SendEmailTo": "Send email to {{name}}",
+		"SendSMSTo": "Send SMS to {{name}}",
+		"BlockThisUser": "Block this user",
+		"UnblockThisUser": "Unblock this user",
+		"YouCantChatWithYourself": "You can't chat with yourself"
+	},
+	"myqr": {
+		"Title": "My QR"
+	},
+	"composer": {
+		"createCommunity": "Create Community",
+		"inviteAdmin": "Invite Admin",
+		"inviteMember": "Invite Member",
+		"newCommunityTitle": "Community Name",
+		"setCommunityTitle": "Community Name",
+		"creditsChargeRequest": "Do you agree to spend {{price}} credits?",
+		"yes": "Yes",
+		"no": "No"
+	},
+	"notifications": {
+		"WelcomePleaseVerifyEmail": "Welcome! Please verify your email address.",
+		"WelcomeVerifyEmail": "Welcome! Verify your email address.",
+		"ForgetPass": "Hey, did you forget your passphrase?",
+		"ManageEmailSubscriptions": "manage your email subscriptions",
+		"IfUnsubscribe": "If you want to unsubscribe"
+	},
+	"speak": {
+		"onboarding": {
+			"name": {
+				"Welcome": "Welcome to {{CommunityName}}. This app will help you connect with friends, discover new people with common interests, and much more. Let's get started!"
+			},
+			"icon": {
+				"Commentary": "Set your photo. This is how people will see you on the site."
+			},
+			"interests": {
+				"Commentary": "The more items you choose, the more people you can meet.",
+				"Notifications": "You need to allow notifications"
+			}
+		},
+		"subscriptions": {
+			"confirm": "Notifications allow you to know about things you're interested in, such as when a friend joins the app, or messages you."
+		},
+		"invite": "{{Q.words.TapOrClick}} here to see how you can share this with other people."
+	},
+	"payment": {
+		"onContribute": "Thank you! Your payment went through. Would you like to invite your friends join you?",
+		"ConnectAccount": "Connect account"
+	},
+	"featureboard": {
+		"Text_1": "Let your voice be heard! Do you agree we should develop a feature or bug? Click the button to Support it.",
+		"Text_2": "Want us to develop a new feature? Describe it below.",
+		"Text_3": "Every week we start to develop the top requested feature by the community. All money contributed goes towards that purpose, allowing us to make the app better.",
+		"Text_4": "All money contributed is used to help pay our development costs.",
+		"Text_5": "Do you have an idea for a feature or bugfix that you want us to do but haven\u2019t seen others add yet? Describe it below:",
+		"Options": [
+			{
+				"text": "$400 Real time videoconferencing"
+			},
+			{
+				"defaultAmount": 10,
+				"text": "$200 Local Primary registration information"
+			},
+			{
+				"text": "$130 Browse and share thousands of {{1}} memes",
+				"defaultAmount": 10
+			},
+			{
+				"text": "$80 Manage your own communities",
+				"defaultAmount": 10
+			},
+			{
+				"text": "$30 Fix conversations bug",
+				"defaultAmount": 10
+			}
+		],
+		"RequestNewFeature": "Request a New Feature/Bugfix",
+		"FeaturePlaceholder": "Short summary of feature",
+		"FeatureDescription": "Describe how someone else can reproduce the bug you're seeing, or describe in detail the feature you want to build",
+		"AddYourRequest": "Add Your Request",
+		"NewFeature": "New Feature"
+	},
+	"contribute": {
+		"ContributeExplanation": "Help support continued development of the {{communityName}} app. All your contributions help to fix bugs and develop new features to help grow the online community!",
+		"ReasonToContribute": "This app is maintained by supporters of {{communityName}}. Help support this app so we can make a difference in people's lives!"
+	},
+	"assetshistory": {
+		"Title": "Assets history",
+		"Charges": "Charges",
+		"Credits": "Credits"
+	},
+	"accounts": {
+		"remove": {
+			"title": "Remove account",
+			"content": "Do you want to remove this account?",
+			"ok": "Yes",
+			"cancel": "No"
+		}
+	},
+	"import": {
+		"fileNotFound": "Sorry, CSV file not found.",
+		"fileEmpty": "Sorry, CSV file is empty.",
+		"userIdNotFound": "user exist but id empty",
+		"errorLine": "line {{1}}",
+		"fieldNotFound": "Required field \"{{1}}\" not found",
+		"taskStreamInvalid": "task stream invalid",
+		"instructionsEmpty": "task stream instructions empty",
+		"complete": "Complete",
+		"activateUsers": "send activation message to users?",
+		"importProgress": "Progress",
+		"joinEventLabel": "Join users to random event",
+		"importOptions": "Options",
+		"sampleCSV": "Download Sample CSV",
+		"fileLabel": "Upload Spreadsheet:",
+		"errorsTitle": "Errors occurred",
+		"communityUsers": "This is communities list",
+		"setAsConversation": "URL column as conversation",
+		"toMainCommunityToo": "add users to main community too",
+		"willImportedTo": "Users will be imported to community",
+		"ChooseFile": "choose file"
+	}
 }

@@ -1,24 +1,24 @@
 {
-    "activation": {
-        "Thanks": "{{1}}에 오신 것을 환영합니다.",
-        "ClickHere": "계정을 활성화하려면 여기를 클릭하세요: {{1}}"
-    },
-    "addMobile": {
-        "ClickHere": "휴대전화 번호를 확인하려면 여기를 클릭하세요. {{1}}"
-    },
-    "SeeHistory": "{{1}}의 결제 내역 보기",
-    "charge": {
-        "HasBeenCharged": "{{1}}이(가) {{4}}에 대해 {{2}} 청구되었습니다."
-    },
-    "charged": {
-        "HavePaid": "{{1}}님, 이것은 귀하가 {{2}}에 대해 {{1002}"
-    },
-    "subscription": {
-        "YouHaveStarted": "{{5}} 개월 동안 {{4}}에서 {{3}}을(를) 구독했습니다.",
-        "HasStarted": "{{1}}은(는) {{5}}개월 동안 {{3}}에서 {{3}}을(를) 구독했습니다."
-    },
-    "resend": {
-        "DidYouWant": "{{1}}에서 암호를 재설정하시겠습니까?",
-        "ClickHere": "그런 다음 여기를 클릭하세요. {{1}}"
-    }
+	"activation": {
+		"Thanks": "{{1}}\uc5d0 \uc624\uc2e0 \uac83\uc744 \ud658\uc601\ud569\ub2c8\ub2e4.",
+		"ClickHere": "\uacc4\uc815\uc744 \ud65c\uc131\ud654\ud558\ub824\uba74 \uc5ec\uae30\ub97c \ud074\ub9ad\ud558\uc138\uc694: {{1}}"
+	},
+	"addMobile": {
+		"ClickHere": "\ud734\ub300\uc804\ud654 \ubc88\ud638\ub97c \ud655\uc778\ud558\ub824\uba74 \uc5ec\uae30\ub97c \ud074\ub9ad\ud558\uc138\uc694. {{1}}"
+	},
+	"SeeHistory": "{{1}}\uc758 \uacb0\uc81c \ub0b4\uc5ed \ubcf4\uae30",
+	"charge": {
+		"HasBeenCharged": "{{1}}\uc774(\uac00) {{4}}\uc5d0 \ub300\ud574 {{2}} \uccad\uad6c\ub418\uc5c8\uc2b5\ub2c8\ub2e4."
+	},
+	"charged": {
+		"HavePaid": "{{1}}\ub2d8, \uc774\uac83\uc740 \uadc0\ud558\uac00 {{2}}\uc5d0 \ub300\ud574 {{1002}"
+	},
+	"subscription": {
+		"YouHaveStarted": "{{5}} \uac1c\uc6d4 \ub3d9\uc548 {{4}}\uc5d0\uc11c {{3}}\uc744(\ub97c) \uad6c\ub3c5\ud588\uc2b5\ub2c8\ub2e4.",
+		"HasStarted": "{{1}}\uc740(\ub294) {{5}}\uac1c\uc6d4 \ub3d9\uc548 {{3}}\uc5d0\uc11c {{3}}\uc744(\ub97c) \uad6c\ub3c5\ud588\uc2b5\ub2c8\ub2e4."
+	},
+	"resend": {
+		"DidYouWant": "{{1}}\uc5d0\uc11c \uc554\ud638\ub97c \uc7ac\uc124\uc815\ud558\uc2dc\uaca0\uc2b5\ub2c8\uae4c?",
+		"ClickHere": "\uadf8\ub7f0 \ub2e4\uc74c \uc5ec\uae30\ub97c \ud074\ub9ad\ud558\uc138\uc694. {{1}}"
+	}
 }

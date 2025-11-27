@@ -1,12 +1,12 @@
 {
-    "flyer1": {
-        "YouAreInvited": "你被邀请了",
-        "Member": "{{title}} 的会员",
-        "Explanation": "{{1}} 很高兴地宣布推出我们的新网站。它包括越来越多的功能，例如：",
-        "Public": "关于 {{1}} 的公开信息",
-        "Private": "每个成员的私人用户帐户",
-        "Notifications": "通过输入您的电子邮件地址或手机号码，您将能够通过电子邮件或短信接收重要通知。",
-        "GetStarted": "要开始，请在您的网络浏览器中<em>仔细<\/em>输入：<br>",
-        "IssuedToYou": "此代码是专门发给您的。"
-    }
+	"flyer1": {
+		"YouAreInvited": "\u4f60\u88ab\u9080\u8bf7\u4e86",
+		"Member": "{{title}} \u7684\u4f1a\u5458",
+		"Explanation": "{{1}} \u5f88\u9ad8\u5174\u5730\u5ba3\u5e03\u63a8\u51fa\u6211\u4eec\u7684\u65b0\u7f51\u7ad9\u3002\u5b83\u5305\u62ec\u8d8a\u6765\u8d8a\u591a\u7684\u529f\u80fd\uff0c\u4f8b\u5982\uff1a",
+		"Public": "\u5173\u4e8e {{1}} \u7684\u516c\u5f00\u4fe1\u606f",
+		"Private": "\u6bcf\u4e2a\u6210\u5458\u7684\u79c1\u4eba\u7528\u6237\u5e10\u6237",
+		"Notifications": "\u901a\u8fc7\u8f93\u5165\u60a8\u7684\u7535\u5b50\u90ae\u4ef6\u5730\u5740\u6216\u624b\u673a\u53f7\u7801\uff0c\u60a8\u5c06\u80fd\u591f\u901a\u8fc7\u7535\u5b50\u90ae\u4ef6\u6216\u77ed\u4fe1\u63a5\u6536\u91cd\u8981\u901a\u77e5\u3002",
+		"GetStarted": "\u8981\u5f00\u59cb\uff0c\u8bf7\u5728\u60a8\u7684\u7f51\u7edc\u6d4f\u89c8\u5668\u4e2d<em>\u4ed4\u7ec6</em>\u8f93\u5165\uff1a<br>",
+		"IssuedToYou": "\u6b64\u4ee3\u7801\u662f\u4e13\u95e8\u53d1\u7ed9\u60a8\u7684\u3002"
+	}
 }

@@ -1,12 +1,12 @@
 {
-    "flyer1": {
-        "YouAreInvited": "Jūs esat uzaicināts",
-        "Member": "Dalībnieks vietnē {{title}}",
-        "Explanation": "{{1}} ar prieku paziņo par mūsu jaunās vietnes atklāšanu. Tas ietver arvien lielāku funkciju sarakstu, piemēram:",
-        "Public": "Publiskā informācija par {{1}}",
-        "Private": "Privāts lietotāja konts katram dalībniekam",
-        "Notifications": "Ievadot savu e-pasta adresi vai mobilā tālruņa numuru, jūs varēsiet saņemt svarīgus paziņojumus e-pastā vai īsziņā.",
-        "GetStarted": "Lai sāktu, savā tīmekļa pārlūkprogrammā <em>uzmanīgi<\/em> ievadiet:<br>",
-        "IssuedToYou": "Šis kods ir īpaši izsniegts jums."
-    }
+	"flyer1": {
+		"YouAreInvited": "J\u016bs esat uzaicin\u0101ts",
+		"Member": "Dal\u012bbnieks vietn\u0113 {{title}}",
+		"Explanation": "{{1}} ar prieku pazi\u0146o par m\u016bsu jaun\u0101s vietnes atkl\u0101\u0161anu. Tas ietver arvien liel\u0101ku funkciju sarakstu, piem\u0113ram:",
+		"Public": "Publisk\u0101 inform\u0101cija par {{1}}",
+		"Private": "Priv\u0101ts lietot\u0101ja konts katram dal\u012bbniekam",
+		"Notifications": "Ievadot savu e-pasta adresi vai mobil\u0101 t\u0101lru\u0146a numuru, j\u016bs var\u0113siet sa\u0146emt svar\u012bgus pazi\u0146ojumus e-past\u0101 vai \u012bszi\u0146\u0101.",
+		"GetStarted": "Lai s\u0101ktu, sav\u0101 t\u012bmek\u013ca p\u0101rl\u016bkprogramm\u0101 <em>uzman\u012bgi</em> ievadiet:<br>",
+		"IssuedToYou": "\u0160is kods ir \u012bpa\u0161i izsniegts jums."
+	}
 }

@@ -1,33 +1,33 @@
 {
-    "activation": {
-        "Thanks": "Bun venit la {{1}}",
-        "ReallyYourEmail": "Este chiar aceasta adresa ta de e-mail, {{1}}? Dacă da, faceți clic <a href='{{2}}'>aici<\/a> pentru a vă seta expresia de acces și pentru a vă activa contul.",
-        "SeeYou": "Ne vedem pe <a href='{{1}}'>{{2}}<\/a> !",
-        "Subject": "Bine ati venit! Vă rog să vă verificați adresa de email."
-    },
-    "LinkToUnsubscribe": "Iată un link pentru a vă <a href='{{1}}'>dezabona<\/a> dacă nu doriți să primiți mai multe e-mailuri.",
-    "Greetings": "Salutări de la {{1}}.",
-    "SeeHistory": "Vedeți istoricul plăților pentru {{1}}",
-    "charge": {
-        "HasBeenCharged": "Hei, este doar pentru a vă anunța că {{1}} a fost taxat cu {{2}} pentru {{3}} de către {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Bună, {{1}}, aceasta este doar o confirmare rapidă că ați plătit cu succes {{2}} către {{3}} pentru {{4}}"
-    },
-    "resend": {
-        "Thanks": "Vă mulțumim că ați vizitat {{1}}",
-        "YouAreReceiving": "Primiți acest e-mail deoarece cineva a introdus adresa dvs. de e-mail și a făcut clic pe „am uitat fraza de acces”. Dacă nu ai fost tu, pur și simplu ignora acest mesaj.",
-        "Reset": "Pentru a vă reseta expresia de acces, faceți clic pe {{1}}",
-        "SetUpPassphrase": "Configurați expresia de acces",
-        "DomainCode": "Dacă pagina web este deja deschisă în browser, puteți introduce codul",
-        "Subject": "Hei, ți-ai uitat fraza de acces?"
-    },
-    "subscription": {
-        "YouHaveStarted": "Bună, {{1}}, v-ați început abonamentul la {{2}} cu {{3}} la {{4}} timp de {{5}} luni.",
-        "HasStarted": "Acesta este doar pentru a vă anunța că {{1}} și-a început abonamentul la {{2}} cu {{3}} la {{4}} timp de {{5}} luni."
-    },
-    "SeeYou": "Ne vedem pe {{1}}!",
-    "identifier": {
-        "Subject": "Bine ati venit! Verifică-ți adresa de email."
-    }
+	"activation": {
+		"Thanks": "Bun venit la {{1}}",
+		"ReallyYourEmail": "Este chiar aceasta adresa ta de e-mail, {{1}}? Dac\u0103 da, face\u021bi clic <a href='{{2}}'>aici</a> pentru a v\u0103 seta expresia de acces \u0219i pentru a v\u0103 activa contul.",
+		"SeeYou": "Ne vedem pe <a href='{{1}}'>{{2}}</a> !",
+		"Subject": "Bine ati venit! V\u0103 rog s\u0103 v\u0103 verifica\u021bi adresa de email."
+	},
+	"LinkToUnsubscribe": "Iat\u0103 un link pentru a v\u0103 <a href='{{1}}'>dezabona</a> dac\u0103 nu dori\u021bi s\u0103 primi\u021bi mai multe e-mailuri.",
+	"Greetings": "Salut\u0103ri de la {{1}}.",
+	"SeeHistory": "Vede\u021bi istoricul pl\u0103\u021bilor pentru {{1}}",
+	"charge": {
+		"HasBeenCharged": "Hei, este doar pentru a v\u0103 anun\u021ba c\u0103 {{1}} a fost taxat cu {{2}} pentru {{3}} de c\u0103tre {{4}}"
+	},
+	"charged": {
+		"HavePaid": "Bun\u0103, {{1}}, aceasta este doar o confirmare rapid\u0103 c\u0103 a\u021bi pl\u0103tit cu succes {{2}} c\u0103tre {{3}} pentru {{4}}"
+	},
+	"resend": {
+		"Thanks": "V\u0103 mul\u021bumim c\u0103 a\u021bi vizitat {{1}}",
+		"YouAreReceiving": "Primi\u021bi acest e-mail deoarece cineva a introdus adresa dvs. de e-mail \u0219i a f\u0103cut clic pe \u201eam uitat fraza de acces\u201d. Dac\u0103 nu ai fost tu, pur \u0219i simplu ignora acest mesaj.",
+		"Reset": "Pentru a v\u0103 reseta expresia de acces, face\u021bi clic pe {{1}}",
+		"SetUpPassphrase": "Configura\u021bi expresia de acces",
+		"DomainCode": "Dac\u0103 pagina web este deja deschis\u0103 \u00een browser, pute\u021bi introduce codul",
+		"Subject": "Hei, \u021bi-ai uitat fraza de acces?"
+	},
+	"subscription": {
+		"YouHaveStarted": "Bun\u0103, {{1}}, v-a\u021bi \u00eenceput abonamentul la {{2}} cu {{3}} la {{4}} timp de {{5}} luni.",
+		"HasStarted": "Acesta este doar pentru a v\u0103 anun\u021ba c\u0103 {{1}} \u0219i-a \u00eenceput abonamentul la {{2}} cu {{3}} la {{4}} timp de {{5}} luni."
+	},
+	"SeeYou": "Ne vedem pe {{1}}!",
+	"identifier": {
+		"Subject": "Bine ati venit! Verific\u0103-\u021bi adresa de email."
+	}
 }

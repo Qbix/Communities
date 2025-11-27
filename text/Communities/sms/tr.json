@@ -1,24 +1,24 @@
 {
-    "activation": {
-        "Thanks": "{{1}}&#39;a hoş geldiniz.",
-        "ClickHere": "Hesabınızı etkinleştirmek için burayı tıklayın: {{1}}"
-    },
-    "addMobile": {
-        "ClickHere": "Cep telefonu numaranızı doğrulamak için burayı tıklayın: {{1}}"
-    },
-    "SeeHistory": "{{1}} için ödeme geçmişine bakın",
-    "charge": {
-        "HasBeenCharged": "{{1}}, {{3}} için {{4}} tarafından {{2}} tutarında ücretlendirildi"
-    },
-    "charged": {
-        "HavePaid": "Merhaba {{1}}, bu, {{2}} adlı kullanıcıya {{3}} {{4}} için başarıyla ödeme yaptığınızın hızlı bir onayıdır."
-    },
-    "subscription": {
-        "YouHaveStarted": "{{4}} {{5}} ay boyunca {{3}} ile {{2}} abone oldunuz.",
-        "HasStarted": "{{1}}, {{3}} ile {{4}} {{5}} ay boyunca {{2}} abone oldu."
-    },
-    "resend": {
-        "DidYouWant": "{{1}} için parolanızı sıfırlamak mı istediniz?",
-        "ClickHere": "Ardından burayı tıklayın: {{1}}"
-    }
+	"activation": {
+		"Thanks": "{{1}}&#39;a ho\u015f geldiniz.",
+		"ClickHere": "Hesab\u0131n\u0131z\u0131 etkinle\u015ftirmek i\u00e7in buray\u0131 t\u0131klay\u0131n: {{1}}"
+	},
+	"addMobile": {
+		"ClickHere": "Cep telefonu numaran\u0131z\u0131 do\u011frulamak i\u00e7in buray\u0131 t\u0131klay\u0131n: {{1}}"
+	},
+	"SeeHistory": "{{1}} i\u00e7in \u00f6deme ge\u00e7mi\u015fine bak\u0131n",
+	"charge": {
+		"HasBeenCharged": "{{1}}, {{3}} i\u00e7in {{4}} taraf\u0131ndan {{2}} tutar\u0131nda \u00fccretlendirildi"
+	},
+	"charged": {
+		"HavePaid": "Merhaba {{1}}, bu, {{2}} adl\u0131 kullan\u0131c\u0131ya {{3}} {{4}} i\u00e7in ba\u015far\u0131yla \u00f6deme yapt\u0131\u011f\u0131n\u0131z\u0131n h\u0131zl\u0131 bir onay\u0131d\u0131r."
+	},
+	"subscription": {
+		"YouHaveStarted": "{{4}} {{5}} ay boyunca {{3}} ile {{2}} abone oldunuz.",
+		"HasStarted": "{{1}}, {{3}} ile {{4}} {{5}} ay boyunca {{2}} abone oldu."
+	},
+	"resend": {
+		"DidYouWant": "{{1}} i\u00e7in parolan\u0131z\u0131 s\u0131f\u0131rlamak m\u0131 istediniz?",
+		"ClickHere": "Ard\u0131ndan buray\u0131 t\u0131klay\u0131n: {{1}}"
+	}
 }

@@ -1,459 +1,459 @@
 {
-    "notFound": {
-        "Explanation": "Ní <span class='url'>thaispeánann {{1}}<\/span> tada!",
-        "NextSteps": "Úsáid an príomh-roghchlár chun an rud atá uait a fháil."
-    },
-    "dashboard": {
-        "Menu": "Roghchlár",
-        "Home": "Baile",
-        "Welcome": "Fáilte",
-        "Events": "Imeachtaí",
-        "Discuss": "Pléigh",
-        "People": "Daoine",
-        "About": "Faoi",
-        "Community": "Pobal",
-        "LogIn": "Logáil isteach",
-        "LogOut": "Logáil Amach",
-        "Intercoin": "Intercoin",
-        "Shows": "Seónna",
-        "Calendar": "Féilire",
-        "Me": "Mise",
-        "Media": "Meáin",
-        "Services": "Seirbhísí",
-        "SetMobileNumber": "Socraigh Uimhir Soghluaiste",
-        "SetEmailAddress": "Socraigh Seoladh Ríomhphoist"
-    },
-    "greeting": {
-        "Welcome": "Fáilte go {{1}}. Anseo gheobhaidh tú rudaí a postáladh do bhaill ár bpobal. Cuir do sheoladh ríomhphoist nó uimhir ghutháin leis le do thoil chun fógraí a fháil nuair a phostáiltear fógraí."
-    },
-    "conversations": {
-        "Title": "Comhráite",
-        "New": "Comhrá Nua",
-        "Conversation": "Comhrá",
-        "Topics": "Ábhair",
-        "NoneYet": "Ní dhearnadh aon chomhrá fós",
-        "newConversations": "{{1}} comhrá nua",
-        "AllAuthors": "Gach Údair",
-        "FilterbyAuthors": "Scag de réir Údair",
-        "FilterAuthorPlaceHolder": "Cuardaigh údair bhreise...",
-        "filterConversations": "Scag le téacs",
-        "Description": "{{1}} comhrá"
-    },
-    "newConversation": {
-        "composer": {
-            "ChooseActivity": "Roghnaigh topaic",
-            "Share": "Comhroinn",
-            "interest": {
-                "Title": "Roghnaigh Gníomhaíocht",
-                "Filter": "Suimeanna cuardaigh ..."
-            }
-        },
-        "Title": "Comhrá Nua",
-        "TitlePlaceholder": "Ábhar do chomhrá",
-        "ContentPlaceholder": "Scríobh cúpla focal chun tús a chur leis an gcomhrá, ionas gur féidir le daoine eile freagra a thabhairt",
-        "StartButton": "Tosaigh Comhrá"
-    },
-    "events": {
-        "Title": "Imeachtaí",
-        "filterByTitle": "Aimsigh imeachtaí de réir teidil",
-        "New": "+ Cuir tús le hImeacht Nua",
-        "filterEvents": "Scag imeachtaí",
-        "NewEvent": "Imeacht Nua",
-        "SetLocation": "Socraigh Mo Shuíomh",
-        "NoneYet": "Níor cuireadh imeachtaí ar bith le chéile fós<br> le linn na n-amanna seo.",
-        "AllAuthors": "Gach Údair",
-        "AllDays": "Gach lá",
-        "AllLocations": "Gach Suíomh",
-        "MakeReservation": "Déan Áirithint",
-        "CancelReservation": "Cealaigh Áirithint",
-        "UpdateReservation": "Áirithint Nuashonraithe",
-        "AreYouSure": "An bhfuil tú cinnte?",
-        "YouWillRefunded": "Aisíocfar tú i bhfoirm creidmheasanna is féidir leat a chaitheamh ar rudaí eile san aip.",
-        "AllInterests": "Gach Leas",
-        "FilterbyInterest": "Scag de réir Úis",
-        "FilterByDate": "Scag De réir Dáta",
-        "ShowActivities": "Taispeáin gníomhaíochtaí a bhaineann le . . .",
-        "newEvents": "Tá {{1}} imeacht nua agat",
-        "SelectLocation": "Roghnaigh Suíomh",
-        "FilterLocationsPlaceHolder": "Scag na hionaid le ...",
-        "Description": "{{1}} imeacht",
-        "Keywords": "{{1}} imeacht"
-    },
-    "schedule": {
-        "Title": "Sceideal",
-        "NoneYet": "Níl tú rannpháirteach in aon imeachtaí",
-        "AddSome": "Cuir roinnt le do sceideal!",
-        "AddMore": "Cuir imeachtaí le do sceideal!",
-        "future": "todhchaí",
-        "past": "caite"
-    },
-    "location": {
-        "Title": "Suíomh",
-        "NewLocation": "Suíomh Nua"
-    },
-    "inbox": {
-        "Title": "Bosca Isteach",
-        "NoneYet": "Níl tú rannpháirteach in aon chomhrá",
-        "FindPeople": "Aimsigh daoine chun labhairt leo",
-        "GroupConversations": "Glac páirt i roinnt comhráite grúpa",
-        "ContactStaff": "Foireann Teagmhála",
-        "ContactCustomers": "Déan Teagmháil le Custaiméirí",
-        "AddNewContact": "Cuir Teagmháil Nua leis",
-        "AddNewContacts": "Cuir Teagmhálacha Nua leis"
-    },
-    "me": {
-        "Title": "Mise",
-        "MobileNumber": "Uimhir Fón póca",
-        "EmailAddress": "Seoladh ríomhphoist",
-        "UpdateSocialTitle": "Nuashonraigh {{1}} ainm úsáideora",
-        "Web3": "Gréasán3"
-    },
-    "people": {
-        "Title": "Daoine",
-        "Description": "Daoine sa phobal {{1}}",
-        "AppAlert": "Ligfidh an aip seo sa appstore duit nascadh le do chairde, agus i bhfad níos mó.",
-        "Invite": "Tabhair cuireadh do chairde",
-        "BuyCredits": "Ceannaigh Creidmheasanna",
-        "FindSomeoneByName": "Aimsigh duine de réir ainm",
-        "SearchByName": "Cuardaigh de réir ainm",
-        "FindAllMyFriends": "Aimsigh Mo Chairde go léir",
-        "labels": {
-            "All": "gach duine",
-            "Title": "Scag de réir Gaol",
-            "New": "Cineál Caidrimh Nua"
-        },
-        "interests": {
-            "All": "Gach Leas",
-            "Title": "Scag de réir Úis",
-            "Filter": "Taispeáin daoine a bhfuil suim acu i . . ."
-        },
-        "Keywords": "{{1}} pobal daoine"
-    },
-    "communities": {
-        "Title": "Pobail",
-        "NewCommunity": "Pobal Nua",
-        "FindCommunityByName": "Aimsigh pobal de réir ainm",
-        "Description": "{{1}} pobail"
-    },
-    "community": {
-        "Title": "{{1}} Pobal",
-        "Roles": "Róil",
-        "AllRoles": "Gach Róil",
-        "YouDontHavePermission": "Níl cead agat é seo a dhéanamh",
-        "usernamePlaceholder": "ainm pobail a shocrú",
-        "NotEnoughCredits": "Níl go leor creidmheasanna agat chun pobal a chruthú. Tá {{1}} uait, tá {{2}} agat"
-    },
-    "event": {
-        "GetDirections": "Faigh Treoracha",
-        "WhichMap": "Cé na léarscáileanna ar mhaith leat a úsáid?",
-        "JoinEventToChat": "Glac páirt san imeacht chun comhrá a dhéanamh",
-        "promote": {
-            "Title": "Cuir an ócáid seo chun cinn",
-            "Prompt": "Roghnaigh an áit ar mhaith leat an imeacht seo a chur chun cinn:"
-        },
-        "Confirmation": "Daingniú"
-    },
-    "newEvent": {
-        "Title": "Imeacht Nua a Phleanáil"
-    },
-    "interests": {
-        "Title": "Leasanna",
-        "prompt": "Roghnaigh na cineálacha rudaí ar mhaith leat a bheith ar an eolas fúthu.",
-        "explanation": "Dá mhéad leasanna a roghnaíonn tú, is mó an seans go mbeidh tú i dteagmháil le daoine atá ar aon intinn agat.",
-        "filter": "Cad a bhfuil suim agat ann?",
-        "Profile": "Leagtar béim ar leasanna frithpháirteacha. Má tá ceann amháin nó níos mó de na leasanna thíos agat freisin, is féidir leat {{clickOrTap}} iad a chur leis."
-    },
-    "credits": {
-        "Title": "Creidmheasanna",
-        "EarnCredits": "Tuill {{1}} creidmheas do gach duine nua a dtugann tú cuireadh dó a thagann isteach san aip",
-        "YouHave": "Tá {{1}} chreidmheas agat"
-    },
-    "onboarding": {
-        "Tap": "Sconna",
-        "Click": "Cliceáil",
-        "Yes": "Tá",
-        "No": "Níl",
-        "Skip": "nó skip seo",
-        "name": {
-            "Preface": "Fáilte go",
-            "Placeholder": "Cuir isteach d&#39;ainm iomlán",
-            "GetStarted": "Tosaigh",
-            "AsGuest": "Tá cuireadh tugtha duit mar aoi.",
-            "AsMember": "Tugadh cuireadh duit mar bhall.",
-            "AsAdmin": "Tugadh cuireadh duit mar riarthóir.",
-            "AsOwner": "Tugadh cuireadh duit mar úinéir.",
-            "TooShort": "Ní féidir le d&#39;ainm iomlán a bheith chomh gearr sin",
-            "SetAsYourFullName": "An bhfuil fonn ort {{1}} a úsáid mar d&#39;ainm iomlán?"
-        },
-        "icon": {
-            "KeepDefault": "nó coinnigh an grianghraf seo",
-            "SetYourPhoto": "{{ClickOrTap}} chun do ghrianghraf a shocrú:",
-            "ClickOnYourFace": "{{ClickOrTap}} Ar Do Aghaidh"
-        },
-        "interests": {
-            "GetStarted": "⇩ Tosaigh",
-            "NextCategory": "↓ Ar Aghaidh",
-            "Continue": "Leanúint ar aghaidh",
-            "Instructions": "I ngach ceann de na {{1}} chatagóir eile,<br> {{2}} na gníomhaíochtaí go léir a bhfuil suim agat iontu.<br> Seo mar a nascann tú le daoine eile sa phobal."
-        },
-        "profile": {
-            "Profile": "Cabhraíonn do phróifíl le daoine tuilleadh a fháil amach fút.<br>",
-            "Birthday": "Cuir isteach do bhreithlá le do thoil:",
-            "Placeholder": "Cé hé tú féin agus cad a dhéanann tú? Inis do dhaoine rud éigin suimiúil nó uathúil fút féin.",
-            "Required": "Chun leanúint ar aghaidh, scríobh ar a laghad cúpla líne fút féin.",
-            "Month": "Mí",
-            "Day": "Lá",
-            "Year": "Bliain",
-            "Gender": "Inscne",
-            "Male": "Fireann",
-            "Female": "Mná",
-            "Other": "Eile",
-            "Height": "Airde",
-            "Affiliation": "Cleamhnas",
-            "Dating": "dhátú",
-            "Interested": "Suim acu",
-            "NotInterested": "Gan Suim",
-            "MatchmakerOnly": "Matchmaker Amháin"
-        },
-        "location": {
-            "NoOneElse": "Ní fheicfidh éinne eile é.",
-            "SetMyLocation": "Socraigh mo shuíomh"
-        },
-        "pile": {
-            "DialogTitle": "Daoine a bhfuil Leas Coiteann acu"
-        },
-        "Done": "Déanta",
-        "relationships": {
-            "title": "Cuir {{userName}} leis an Leabhar Teileafóin",
-            "welcome": "Fáilte {{user}}",
-            "invitedByUser": "cuireadh duit.",
-            "addToPhonebook": "Sábháil chuig Mo Theagmhálaithe Fón",
-            "iosInstructions": "Scrollaigh síos chun Cuir Teagmháil Nua leis",
-            "androidInstructions": "Ba cheart duit an comhad vCard seo a oscailt tar éis é a íoslódáil.",
-            "explanation": "Cad é do ghaol?"
-        },
-        "Title": "Eolas Bunúsach",
-        "Prompt": "Cúpla céim chun do chuntas a shocrú"
-    },
-    "profile": {
-        "Title": "Próifíl",
-        "Male": "Fireann",
-        "Female": "Mná",
-        "Other": "Eile",
-        "dating": {
-            "Interested": "Suim acu",
-            "NotInterested": "Níl suim acu ann",
-            "MatchmakerOnly": "Matchmaker amháin"
-        },
-        "StartConversation": "Tosaigh Comhrá",
-        "blockUser": "Cuir bac ar an úsáideoir seo",
-        "blockUserAlert": "Ní fheicfidh tú a thuilleadh teachtaireachtaí ón úsáideoir seo go dtí go mbainfidh tú an bac a bhaint díobh.",
-        "unblockUser": "Bain an bac den úsáideoir seo",
-        "addToContacts": "Cuir le Teagmhálaithe",
-        "manageLabels": "Bainistigh Lipéid",
-        "inviteUsers": "Tabhair cuireadh d&#39;Úsáideoirí",
-        "selectRole": "Roghnaigh Ról",
-        "inviteSuccess": "D&#39;éirigh leis an úsáideoir ar tugadh cuireadh dó mar {{label}}",
-        "invite": "cuireadh",
-        "relationships": "Caidrimh",
-        "newRole": "Ról Nua",
-        "about": "Faoi",
-        "people": "Daoine",
-        "info": "Eolas",
-        "interests": "Leasanna",
-        "chat": "Comhrá",
-        "locations": "Suímh",
-        "ManageRoles": "Bainistigh Róil",
-        "aboutPlaceholder": "Cé hé tú féin agus cad a dhéanann tú? Inis do dhaoine rud éigin suimiúil nó uathúil fút féin.",
-        "explanation": "Cuidíonn do phróifíl leat a mheaitseáil níos fearr le daoine eile le haghaidh gníomhaíochtaí grúpa.<br> Cuir isteach do bhreithlá",
-        "chats": {
-            "placeholder": "Abair rud éigin"
-        },
-        "LogOut": "Logáil Amach",
-        "MyLinks": "Mo Naisc",
-        "MyJobs": "Mo Phoist",
-        "MySocial": "Mo Shóisialta",
-        "MyEducation": "Mo Oideachas",
-        "JobsPlaceholder": "Clóscríobh eolas faoi phoist anseo",
-        "EducationPlaceholder": "Clóscríobh eolas oideachais anseo",
-        "ManageNotifications": "Bainistigh Fógraí",
-        "YourPreferredLanguage": "An teanga is fearr leat",
-        "SendCrypto": "Pá",
-        "Block": "Bloc",
-        "Unblock": "Bain an bac de",
-        "Email": "Ríomhphost",
-        "Avoid": "Seachain",
-        "CreatePrivateChat": "An bhfuil fonn ort {{credits}} creidmheas a chaitheamh le teagmháil a dhéanamh?",
-        "RolesInCommunity": "Róil sa phobal",
-        "PersonalChatWith": "Comhrá pearsanta le {{name}}",
-        "SendCryptoTo": "Seol crypto chuig {{name}}",
-        "SendEmailTo": "Seol ríomhphost chuig {{name}}",
-        "SendSMSTo": "Seol SMS chuig {{name}}",
-        "BlockThisUser": "Cuir bac ar an úsáideoir seo",
-        "UnblockThisUser": "Bain an bac den úsáideoir seo",
-        "YouCantChatWithYourself": "Ní féidir leat comhrá a dhéanamh leat féin",
-        "blockUserAlertTitle": "{{displayName}} blocáilte",
-        "sections": {
-            "education": "Oideachas",
-            "greeting": "Beannacht",
-            "jobs": "Poist",
-            "links": "Naisc",
-            "language": "Teanga",
-            "roles": "Róil",
-            "personal": "Pearsanta",
-            "social": "Sóisialta"
-        },
-        "Roles": "Róil",
-        "SendPaymentTo": "Seol íocaíocht chuig {{name}}"
-    },
-    "myqr": {
-        "Title": "Mo QR"
-    },
-    "composer": {
-        "createCommunity": "Cruthaigh Pobal",
-        "inviteAdmin": "Tabhair cuireadh don Riarachán",
-        "inviteMember": "Comhalta Cuireadh",
-        "newCommunityTitle": "Ainm an Phobail",
-        "setCommunityTitle": "Ainm an Phobail",
-        "creditsChargeRequest": "An aontaíonn tú {{price}} creidmheas a chaitheamh?",
-        "yes": "Tá",
-        "no": "Níl"
-    },
-    "notifications": {
-        "WelcomePleaseVerifyEmail": "Fáilte romhat! Fíoraigh do sheoladh ríomhphoist.",
-        "WelcomeVerifyEmail": "Fáilte romhat! Fíoraigh do sheoladh ríomhphoist.",
-        "ForgetPass": "Hey, an ndearna tú dearmad ar do phasfhrása?",
-        "ManageEmailSubscriptions": "bainistigh do shíntiúis ríomhphoist",
-        "IfUnsubscribe": "Más mian leat díliostáil"
-    },
-    "speak": {
-        "onboarding": {
-            "name": {
-                "Welcome": "Fáilte go {{CommunityName}}. Cabhróidh an aip seo leat teagmháil a dhéanamh le cairde, teacht ar dhaoine nua a bhfuil leasanna coitianta acu, agus go leor eile. Ar aghaidh linn!"
-            },
-            "icon": {
-                "Commentary": "Socraigh do ghrianghraf. Seo mar a fheicfidh daoine tú ar an suíomh."
-            },
-            "interests": {
-                "Commentary": "Dá mhéad míreanna a roghnaíonn tú, is mó daoine ar féidir leat bualadh leo.",
-                "Notifications": "Ní mór duit fógraí a cheadú"
-            }
-        },
-        "subscriptions": {
-            "confirm": "Ligeann fógraí duit eolas a fháil faoi rudaí a bhfuil suim agat iontu, mar shampla nuair a théann cara isteach san aip nó nuair a sheolann cara chugat é."
-        },
-        "invite": "{{Q.words.TapOrClick}} anseo chun a fheiceáil conas is féidir leat é seo a roinnt le daoine eile."
-    },
-    "payment": {
-        "onContribute": "Go raibh maith agat! Chuaigh d&#39;íocaíocht tríd. Ar mhaith leat cuireadh a thabhairt do do chairde bheith in éineacht leat?",
-        "ConnectAccount": "Ceangail cuntas"
-    },
-    "featureboard": {
-        "Text_1": "Go gcloisfear do ghuth! An aontaíonn tú gur cheart dúinn gné nó fabht a fhorbairt? Cliceáil ar an gcnaipe chun tacú leis.",
-        "Text_2": "An bhfuil fonn orainn gné nua a fhorbairt? Déan cur síos air thíos.",
-        "Text_3": "Gach seachtain tosaímid ag forbairt na gné is airde iarrtha ag an bpobal. Téann an t-airgead go léir a thugtar chun na críche sin, rud a ligeann dúinn an aip a fheabhsú.",
-        "Text_4": "Úsáidtear an t-airgead go léir a thugtar chun cabhrú lenár gcostas forbartha a íoc.",
-        "Text_5": "An bhfuil smaoineamh agat maidir le gné nó fabhtcheartú atá tú ag iarraidh orainn a dhéanamh ach nach bhfuil cinn eile feicthe agat leis fós? Déan cur síos air thíos:",
-        "Options": [
-            {
-                "text": "$400 físchomhdháil fíor-ama"
-            },
-            {
-                "defaultAmount": "10",
-                "text": "$200 Eolas clárúcháin do Bhunscoileanna Áitiúil"
-            },
-            {
-                "text": "$130 Brabhsáil agus roinn na mílte {{1}} memes",
-                "defaultAmount": "10"
-            },
-            {
-                "text": "$80 Bainistigh do phobail féin",
-                "defaultAmount": "10"
-            },
-            {
-                "text": "$30 Ceartú fabht comhrá",
-                "defaultAmount": "10"
-            }
-        ],
-        "RequestNewFeature": "Iarr Gné Nua\/Fabhtcheartú",
-        "FeaturePlaceholder": "Achoimre gairid ar an ngné",
-        "FeatureDescription": "Déan cur síos ar conas is féidir le duine eile an fabht atá á fheiceáil agat a atáirgeadh, nó cuir síos go mion ar an ngné atá tú ag iarraidh a thógáil",
-        "AddYourRequest": "Cuir D&#39;Iarratas leis",
-        "NewFeature": "Gné Nua"
-    },
-    "contribute": {
-        "ContributeExplanation": "Cabhraigh le tacú le forbairt leanúnach na haipe {{communityName}}. Cuidíonn do chuid ranníocaíochtaí go léir le fabhtanna a dheisiú agus le gnéithe nua a fhorbairt chun cabhrú leis an bpobal ar líne a fhás!",
-        "ReasonToContribute": "Tá an aip seo á chothabháil ag lucht tacaíochta {{communityName}}. Cabhraigh linn tacú leis an aip seo ionas gur féidir linn difríocht a dhéanamh i saol daoine!"
-    },
-    "assetshistory": {
-        "Title": "Stair sócmhainní",
-        "Charges": "Muirir",
-        "Credits": "Creidmheasanna"
-    },
-    "accounts": {
-        "remove": {
-            "title": "Bain cuntas",
-            "content": "Ar mhaith leat an cuntas seo a bhaint?",
-            "ok": "Tá",
-            "cancel": "Níl"
-        }
-    },
-    "import": {
-        "fileNotFound": "Ár leithscéal, níor aimsíodh an comhad CSV.",
-        "fileEmpty": "Ár leithscéal, tá an comhad CSV folamh.",
-        "userIdNotFound": "úsáideoir ann ach id folamh",
-        "errorLine": "líne {{1}}",
-        "fieldNotFound": "Níor aimsíodh an réimse riachtanach &quot;{{1}}&quot;.",
-        "taskStreamInvalid": "sruth tasc neamhbhailí",
-        "instructionsEmpty": "treoracha sruth tasc folamh",
-        "complete": "Críochnaigh",
-        "activateUsers": "teachtaireacht gníomhachtaithe a sheoladh chuig úsáideoirí?",
-        "importProgress": "Dul chun cinn",
-        "joinEventLabel": "Glac le húsáideoirí chuig imeacht randamach",
-        "importOptions": "Roghanna",
-        "sampleCSV": "Íosluchtaigh sampla CSV",
-        "fileLabel": "Uaslódáil Scarbhileog:",
-        "errorsTitle": "Tharla earráidí",
-        "communityUsers": "Is é seo an liosta pobail",
-        "setAsConversation": "Colún URL mar chomhrá",
-        "toMainCommunityToo": "úsáideoirí a chur leis an bpríomhphobal freisin",
-        "willImportedTo": "Déanfar úsáideoirí a allmhairiú chuig an bpobal",
-        "ChooseFile": "roghnaigh comhad"
-    },
-    "services": {
-        "Title": "Seirbhísí",
-        "filterByTitle": "Faigh seirbhísí de réir teidil",
-        "New": "+ Tosaigh Seirbhís Nua",
-        "NewService": "Seirbhís Nua",
-        "NewAvailability": "Infhaighteacht Nua",
-        "filterServices": "Seirbhísí scagaire",
-        "NoneYet": "Níl aon seirbhísí bunaithe go fóill<br> le linn na n-amanna seo.",
-        "AllAuthors": "Gach Údair",
-        "AllDays": "Gach lá",
-        "AllLocations": "Gach Suíomh",
-        "MakeReservation": "Déan Áirithint",
-        "CancelReservation": "Cealaigh Áirithint",
-        "UpdateReservation": "Áirithint Nuashonraithe",
-        "AreYouSure": "An bhfuil tú cinnte?",
-        "YouWillRefunded": "Aisíocfar thú i bhfoirm creidmheasanna is féidir leat a chaitheamh ar rudaí eile san aip.",
-        "AllInterests": "Gach Leas",
-        "FilterbyInterest": "Scag de réir Úis",
-        "FilterByDate": "Scag De réir Dáta",
-        "ShowActivities": "Taispeáin gníomhaíochtaí a bhaineann le ...",
-        "newServices": "Tá {{1}} seirbhís nua agat",
-        "SelectLocation": "Roghnaigh Suíomh",
-        "FilterLocationsPlaceHolder": "Scag na hionaid le ...",
-        "Description": "{{1}} seirbhís",
-        "Keywords": "{{1}} seirbhís"
-    },
-    "welcome": {
-        "Title": "{{appName}}: fáilte roimh chách",
-        "GetStarted": "Tosaigh",
-        "gallery": {
-            "Connect": "Ceangal",
-            "Organize": "Eagraigh",
-            "Travel": "Taisteal",
-            "Share": "Comhroinn"
-        }
-    }
+	"notFound": {
+		"Explanation": "N\u00ed <span class='url'>thaispe\u00e1nann {{1}}</span> tada!",
+		"NextSteps": "\u00das\u00e1id an pr\u00edomh-roghchl\u00e1r chun an rud at\u00e1 uait a fh\u00e1il."
+	},
+	"dashboard": {
+		"Menu": "Roghchl\u00e1r",
+		"Home": "Baile",
+		"Welcome": "F\u00e1ilte",
+		"Events": "Imeachta\u00ed",
+		"Discuss": "Pl\u00e9igh",
+		"People": "Daoine",
+		"About": "Faoi",
+		"Community": "Pobal",
+		"LogIn": "Log\u00e1il isteach",
+		"LogOut": "Log\u00e1il Amach",
+		"Intercoin": "Intercoin",
+		"Shows": "Se\u00f3nna",
+		"Calendar": "F\u00e9ilire",
+		"Me": "Mise",
+		"Media": "Me\u00e1in",
+		"Services": "Seirbh\u00eds\u00ed",
+		"SetMobileNumber": "Socraigh Uimhir Soghluaiste",
+		"SetEmailAddress": "Socraigh Seoladh R\u00edomhphoist"
+	},
+	"greeting": {
+		"Welcome": "F\u00e1ilte go {{1}}. Anseo gheobhaidh t\u00fa ruda\u00ed a post\u00e1ladh do bhaill \u00e1r bpobal. Cuir do sheoladh r\u00edomhphoist n\u00f3 uimhir ghuth\u00e1in leis le do thoil chun f\u00f3gra\u00ed a fh\u00e1il nuair a phost\u00e1iltear f\u00f3gra\u00ed."
+	},
+	"conversations": {
+		"Title": "Comhr\u00e1ite",
+		"New": "Comhr\u00e1 Nua",
+		"Conversation": "Comhr\u00e1",
+		"Topics": "\u00c1bhair",
+		"NoneYet": "N\u00ed dhearnadh aon chomhr\u00e1 f\u00f3s",
+		"newConversations": "{{1}} comhr\u00e1 nua",
+		"AllAuthors": "Gach \u00dadair",
+		"FilterbyAuthors": "Scag de r\u00e9ir \u00dadair",
+		"FilterAuthorPlaceHolder": "Cuardaigh \u00fadair bhreise...",
+		"filterConversations": "Scag le t\u00e9acs",
+		"Description": "{{1}} comhr\u00e1"
+	},
+	"newConversation": {
+		"composer": {
+			"ChooseActivity": "Roghnaigh topaic",
+			"Share": "Comhroinn",
+			"interest": {
+				"Title": "Roghnaigh Gn\u00edomha\u00edocht",
+				"Filter": "Suimeanna cuardaigh ..."
+			}
+		},
+		"Title": "Comhr\u00e1 Nua",
+		"TitlePlaceholder": "\u00c1bhar do chomhr\u00e1",
+		"ContentPlaceholder": "Scr\u00edobh c\u00fapla focal chun t\u00fas a chur leis an gcomhr\u00e1, ionas gur f\u00e9idir le daoine eile freagra a thabhairt",
+		"StartButton": "Tosaigh Comhr\u00e1"
+	},
+	"events": {
+		"Title": "Imeachta\u00ed",
+		"filterByTitle": "Aimsigh imeachta\u00ed de r\u00e9ir teidil",
+		"New": "+ Cuir t\u00fas le hImeacht Nua",
+		"filterEvents": "Scag imeachta\u00ed",
+		"NewEvent": "Imeacht Nua",
+		"SetLocation": "Socraigh Mo Shu\u00edomh",
+		"NoneYet": "N\u00edor cuireadh imeachta\u00ed ar bith le ch\u00e9ile f\u00f3s<br> le linn na n-amanna seo.",
+		"AllAuthors": "Gach \u00dadair",
+		"AllDays": "Gach l\u00e1",
+		"AllLocations": "Gach Su\u00edomh",
+		"MakeReservation": "D\u00e9an \u00c1irithint",
+		"CancelReservation": "Cealaigh \u00c1irithint",
+		"UpdateReservation": "\u00c1irithint Nuashonraithe",
+		"AreYouSure": "An bhfuil t\u00fa cinnte?",
+		"YouWillRefunded": "Ais\u00edocfar t\u00fa i bhfoirm creidmheasanna is f\u00e9idir leat a chaitheamh ar ruda\u00ed eile san aip.",
+		"AllInterests": "Gach Leas",
+		"FilterbyInterest": "Scag de r\u00e9ir \u00dais",
+		"FilterByDate": "Scag De r\u00e9ir D\u00e1ta",
+		"ShowActivities": "Taispe\u00e1in gn\u00edomha\u00edochta\u00ed a bhaineann le . . .",
+		"newEvents": "T\u00e1 {{1}} imeacht nua agat",
+		"SelectLocation": "Roghnaigh Su\u00edomh",
+		"FilterLocationsPlaceHolder": "Scag na hionaid le ...",
+		"Description": "{{1}} imeacht",
+		"Keywords": "{{1}} imeacht"
+	},
+	"schedule": {
+		"Title": "Sceideal",
+		"NoneYet": "N\u00edl t\u00fa rannph\u00e1irteach in aon imeachta\u00ed",
+		"AddSome": "Cuir roinnt le do sceideal!",
+		"AddMore": "Cuir imeachta\u00ed le do sceideal!",
+		"future": "todhcha\u00ed",
+		"past": "caite"
+	},
+	"location": {
+		"Title": "Su\u00edomh",
+		"NewLocation": "Su\u00edomh Nua"
+	},
+	"inbox": {
+		"Title": "Bosca Isteach",
+		"NoneYet": "N\u00edl t\u00fa rannph\u00e1irteach in aon chomhr\u00e1",
+		"FindPeople": "Aimsigh daoine chun labhairt leo",
+		"GroupConversations": "Glac p\u00e1irt i roinnt comhr\u00e1ite gr\u00fapa",
+		"ContactStaff": "Foireann Teagmh\u00e1la",
+		"ContactCustomers": "D\u00e9an Teagmh\u00e1il le Custaim\u00e9ir\u00ed",
+		"AddNewContact": "Cuir Teagmh\u00e1il Nua leis",
+		"AddNewContacts": "Cuir Teagmh\u00e1lacha Nua leis"
+	},
+	"me": {
+		"Title": "Mise",
+		"MobileNumber": "Uimhir F\u00f3n p\u00f3ca",
+		"EmailAddress": "Seoladh r\u00edomhphoist",
+		"UpdateSocialTitle": "Nuashonraigh {{1}} ainm \u00fas\u00e1ideora",
+		"Web3": "Gr\u00e9as\u00e1n3"
+	},
+	"people": {
+		"Title": "Daoine",
+		"Description": "Daoine sa phobal {{1}}",
+		"AppAlert": "Ligfidh an aip seo sa appstore duit nascadh le do chairde, agus i bhfad n\u00edos m\u00f3.",
+		"Invite": "Tabhair cuireadh do chairde",
+		"BuyCredits": "Ceannaigh Creidmheasanna",
+		"FindSomeoneByName": "Aimsigh duine de r\u00e9ir ainm",
+		"SearchByName": "Cuardaigh de r\u00e9ir ainm",
+		"FindAllMyFriends": "Aimsigh Mo Chairde go l\u00e9ir",
+		"labels": {
+			"All": "gach duine",
+			"Title": "Scag de r\u00e9ir Gaol",
+			"New": "Cine\u00e1l Caidrimh Nua"
+		},
+		"interests": {
+			"All": "Gach Leas",
+			"Title": "Scag de r\u00e9ir \u00dais",
+			"Filter": "Taispe\u00e1in daoine a bhfuil suim acu i . . ."
+		},
+		"Keywords": "{{1}} pobal daoine"
+	},
+	"communities": {
+		"Title": "Pobail",
+		"NewCommunity": "Pobal Nua",
+		"FindCommunityByName": "Aimsigh pobal de r\u00e9ir ainm",
+		"Description": "{{1}} pobail"
+	},
+	"community": {
+		"Title": "{{1}} Pobal",
+		"Roles": "R\u00f3il",
+		"AllRoles": "Gach R\u00f3il",
+		"YouDontHavePermission": "N\u00edl cead agat \u00e9 seo a dh\u00e9anamh",
+		"usernamePlaceholder": "ainm pobail a shocr\u00fa",
+		"NotEnoughCredits": "N\u00edl go leor creidmheasanna agat chun pobal a chruth\u00fa. T\u00e1 {{1}} uait, t\u00e1 {{2}} agat"
+	},
+	"event": {
+		"GetDirections": "Faigh Treoracha",
+		"WhichMap": "C\u00e9 na l\u00e9arsc\u00e1ileanna ar mhaith leat a \u00fas\u00e1id?",
+		"JoinEventToChat": "Glac p\u00e1irt san imeacht chun comhr\u00e1 a dh\u00e9anamh",
+		"promote": {
+			"Title": "Cuir an \u00f3c\u00e1id seo chun cinn",
+			"Prompt": "Roghnaigh an \u00e1it ar mhaith leat an imeacht seo a chur chun cinn:"
+		},
+		"Confirmation": "Daingni\u00fa"
+	},
+	"newEvent": {
+		"Title": "Imeacht Nua a Phlean\u00e1il"
+	},
+	"interests": {
+		"Title": "Leasanna",
+		"prompt": "Roghnaigh na cine\u00e1lacha ruda\u00ed ar mhaith leat a bheith ar an eolas f\u00fathu.",
+		"explanation": "D\u00e1 mh\u00e9ad leasanna a roghna\u00edonn t\u00fa, is m\u00f3 an seans go mbeidh t\u00fa i dteagmh\u00e1il le daoine at\u00e1 ar aon intinn agat.",
+		"filter": "Cad a bhfuil suim agat ann?",
+		"Profile": "Leagtar b\u00e9im ar leasanna frithph\u00e1irteacha. M\u00e1 t\u00e1 ceann amh\u00e1in n\u00f3 n\u00edos m\u00f3 de na leasanna th\u00edos agat freisin, is f\u00e9idir leat {{clickOrTap}} iad a chur leis."
+	},
+	"credits": {
+		"Title": "Creidmheasanna",
+		"EarnCredits": "Tuill {{1}} creidmheas do gach duine nua a dtugann t\u00fa cuireadh d\u00f3 a thagann isteach san aip",
+		"YouHave": "T\u00e1 {{1}} chreidmheas agat"
+	},
+	"onboarding": {
+		"Tap": "Sconna",
+		"Click": "Clice\u00e1il",
+		"Yes": "T\u00e1",
+		"No": "N\u00edl",
+		"Skip": "n\u00f3 skip seo",
+		"name": {
+			"Preface": "F\u00e1ilte go",
+			"Placeholder": "Cuir isteach d&#39;ainm ioml\u00e1n",
+			"GetStarted": "Tosaigh",
+			"AsGuest": "T\u00e1 cuireadh tugtha duit mar aoi.",
+			"AsMember": "Tugadh cuireadh duit mar bhall.",
+			"AsAdmin": "Tugadh cuireadh duit mar riarth\u00f3ir.",
+			"AsOwner": "Tugadh cuireadh duit mar \u00fain\u00e9ir.",
+			"TooShort": "N\u00ed f\u00e9idir le d&#39;ainm ioml\u00e1n a bheith chomh gearr sin",
+			"SetAsYourFullName": "An bhfuil fonn ort {{1}} a \u00fas\u00e1id mar d&#39;ainm ioml\u00e1n?"
+		},
+		"icon": {
+			"KeepDefault": "n\u00f3 coinnigh an grianghraf seo",
+			"SetYourPhoto": "{{ClickOrTap}} chun do ghrianghraf a shocr\u00fa:",
+			"ClickOnYourFace": "{{ClickOrTap}} Ar Do Aghaidh"
+		},
+		"interests": {
+			"GetStarted": "\u21e9 Tosaigh",
+			"NextCategory": "\u2193 Ar Aghaidh",
+			"Continue": "Lean\u00faint ar aghaidh",
+			"Instructions": "I ngach ceann de na {{1}} chatag\u00f3ir eile,<br> {{2}} na gn\u00edomha\u00edochta\u00ed go l\u00e9ir a bhfuil suim agat iontu.<br> Seo mar a nascann t\u00fa le daoine eile sa phobal."
+		},
+		"profile": {
+			"Profile": "Faisn\u00e9is bhun\u00fasach chun cabhr\u00fa leat daoine a mheaitse\u00e1il:",
+			"Birthday": "Cuir isteach do bhreithl\u00e1 le do thoil:",
+			"Placeholder": "C\u00e9 h\u00e9 t\u00fa f\u00e9in agus cad a dh\u00e9anann t\u00fa? Inis do dhaoine rud \u00e9igin suimi\u00fail n\u00f3 uath\u00fail f\u00fat f\u00e9in.",
+			"Required": "Chun lean\u00faint ar aghaidh, scr\u00edobh ar a laghad c\u00fapla l\u00edne f\u00fat f\u00e9in.",
+			"Month": "M\u00ed",
+			"Day": "L\u00e1",
+			"Year": "Bliain",
+			"Gender": "Inscne",
+			"Male": "Fireann",
+			"Female": "Mn\u00e1",
+			"Other": "Eile",
+			"Height": "Airde",
+			"Affiliation": "Cleamhnas",
+			"Dating": "dh\u00e1t\u00fa",
+			"Interested": "Suim acu",
+			"NotInterested": "Gan Suim",
+			"MatchmakerOnly": "Matchmaker Amh\u00e1in"
+		},
+		"location": {
+			"NoOneElse": "N\u00ed fheicfidh \u00e9inne eile \u00e9.",
+			"SetMyLocation": "Socraigh mo shu\u00edomh"
+		},
+		"pile": {
+			"DialogTitle": "Daoine a bhfuil Leas Coiteann acu"
+		},
+		"Done": "D\u00e9anta",
+		"relationships": {
+			"title": "Cuir {{userName}} leis an Leabhar Teileaf\u00f3in",
+			"welcome": "F\u00e1ilte {{user}}",
+			"invitedByUser": "cuireadh duit.",
+			"addToPhonebook": "S\u00e1bh\u00e1il chuig Mo Theagmh\u00e1laithe F\u00f3n",
+			"iosInstructions": "Scrollaigh s\u00edos chun Cuir Teagmh\u00e1il Nua leis",
+			"androidInstructions": "Ba cheart duit an comhad vCard seo a oscailt tar \u00e9is \u00e9 a \u00edosl\u00f3d\u00e1il.",
+			"explanation": "Cad \u00e9 do ghaol?"
+		},
+		"Title": "Eolas Bun\u00fasach",
+		"Prompt": "C\u00fapla c\u00e9im chun do chuntas a shocr\u00fa"
+	},
+	"profile": {
+		"Title": "Pr\u00f3if\u00edl",
+		"Male": "Fireann",
+		"Female": "Mn\u00e1",
+		"Other": "Eile",
+		"dating": {
+			"Interested": "Suim acu",
+			"NotInterested": "N\u00edl suim acu ann",
+			"MatchmakerOnly": "Matchmaker amh\u00e1in"
+		},
+		"StartConversation": "Tosaigh Comhr\u00e1",
+		"blockUser": "Cuir bac ar an \u00fas\u00e1ideoir seo",
+		"blockUserAlert": "N\u00ed fheicfidh t\u00fa a thuilleadh teachtaireachta\u00ed \u00f3n \u00fas\u00e1ideoir seo go dt\u00ed go mbainfidh t\u00fa an bac a bhaint d\u00edobh.",
+		"unblockUser": "Bain an bac den \u00fas\u00e1ideoir seo",
+		"addToContacts": "Cuir le Teagmh\u00e1laithe",
+		"manageLabels": "Bainistigh Lip\u00e9id",
+		"inviteUsers": "Tabhair cuireadh d&#39;\u00das\u00e1ideoir\u00ed",
+		"selectRole": "Roghnaigh R\u00f3l",
+		"inviteSuccess": "D&#39;\u00e9irigh leis an \u00fas\u00e1ideoir ar tugadh cuireadh d\u00f3 mar {{label}}",
+		"invite": "cuireadh",
+		"relationships": "Caidrimh",
+		"newRole": "R\u00f3l Nua",
+		"about": "Faoi",
+		"people": "Daoine",
+		"info": "Eolas",
+		"interests": "Leasanna",
+		"chat": "Comhr\u00e1",
+		"locations": "Su\u00edmh",
+		"ManageRoles": "Bainistigh R\u00f3il",
+		"aboutPlaceholder": "C\u00e9 h\u00e9 t\u00fa f\u00e9in agus cad a dh\u00e9anann t\u00fa? Inis do dhaoine rud \u00e9igin suimi\u00fail n\u00f3 uath\u00fail f\u00fat f\u00e9in.",
+		"explanation": "Cuid\u00edonn do phr\u00f3if\u00edl leat a mheaitse\u00e1il n\u00edos fearr le daoine eile le haghaidh gn\u00edomha\u00edochta\u00ed gr\u00fapa.<br> Cuir isteach do bhreithl\u00e1",
+		"chats": {
+			"placeholder": "Abair rud \u00e9igin"
+		},
+		"LogOut": "Log\u00e1il Amach",
+		"MyLinks": "Mo Naisc",
+		"MyJobs": "Mo Phoist",
+		"MySocial": "Mo Sh\u00f3isialta",
+		"MyEducation": "Mo Oideachas",
+		"JobsPlaceholder": "Cl\u00f3scr\u00edobh eolas faoi phoist anseo",
+		"EducationPlaceholder": "Cl\u00f3scr\u00edobh eolas oideachais anseo",
+		"ManageNotifications": "Bainistigh F\u00f3gra\u00ed",
+		"YourPreferredLanguage": "An teanga is fearr leat",
+		"SendCrypto": "P\u00e1",
+		"Block": "Bloc",
+		"Unblock": "Bain an bac de",
+		"Email": "R\u00edomhphost",
+		"Avoid": "Seachain",
+		"CreatePrivateChat": "An bhfuil fonn ort {{credits}} creidmheas a chaitheamh le teagmh\u00e1il a dh\u00e9anamh?",
+		"RolesInCommunity": "R\u00f3il sa phobal",
+		"PersonalChatWith": "Comhr\u00e1 pearsanta le {{name}}",
+		"SendCryptoTo": "Seol crypto chuig {{name}}",
+		"SendEmailTo": "Seol r\u00edomhphost chuig {{name}}",
+		"SendSMSTo": "Seol SMS chuig {{name}}",
+		"BlockThisUser": "Cuir bac ar an \u00fas\u00e1ideoir seo",
+		"UnblockThisUser": "Bain an bac den \u00fas\u00e1ideoir seo",
+		"YouCantChatWithYourself": "N\u00ed f\u00e9idir leat comhr\u00e1 a dh\u00e9anamh leat f\u00e9in",
+		"blockUserAlertTitle": "{{displayName}} bloc\u00e1ilte",
+		"sections": {
+			"education": "Oideachas",
+			"greeting": "Beannacht",
+			"jobs": "Poist",
+			"links": "Naisc",
+			"language": "Teanga",
+			"roles": "R\u00f3il",
+			"personal": "Pearsanta",
+			"social": "S\u00f3isialta"
+		},
+		"Roles": "R\u00f3il",
+		"SendPaymentTo": "Seol \u00edoca\u00edocht chuig {{name}}"
+	},
+	"myqr": {
+		"Title": "Mo QR"
+	},
+	"composer": {
+		"createCommunity": "Cruthaigh Pobal",
+		"inviteAdmin": "Tabhair cuireadh don Riarach\u00e1n",
+		"inviteMember": "Comhalta Cuireadh",
+		"newCommunityTitle": "Ainm an Phobail",
+		"setCommunityTitle": "Ainm an Phobail",
+		"creditsChargeRequest": "An aonta\u00edonn t\u00fa {{price}} creidmheas a chaitheamh?",
+		"yes": "T\u00e1",
+		"no": "N\u00edl"
+	},
+	"notifications": {
+		"WelcomePleaseVerifyEmail": "F\u00e1ilte romhat! F\u00edoraigh do sheoladh r\u00edomhphoist.",
+		"WelcomeVerifyEmail": "F\u00e1ilte romhat! F\u00edoraigh do sheoladh r\u00edomhphoist.",
+		"ForgetPass": "Hey, an ndearna t\u00fa dearmad ar do phasfhr\u00e1sa?",
+		"ManageEmailSubscriptions": "bainistigh do sh\u00ednti\u00fais r\u00edomhphoist",
+		"IfUnsubscribe": "M\u00e1s mian leat d\u00edliost\u00e1il"
+	},
+	"speak": {
+		"onboarding": {
+			"name": {
+				"Welcome": "F\u00e1ilte go {{CommunityName}}. Cabhr\u00f3idh an aip seo leat teagmh\u00e1il a dh\u00e9anamh le cairde, teacht ar dhaoine nua a bhfuil leasanna coitianta acu, agus go leor eile. Ar aghaidh linn!"
+			},
+			"icon": {
+				"Commentary": "Socraigh do ghrianghraf. Seo mar a fheicfidh daoine t\u00fa ar an su\u00edomh."
+			},
+			"interests": {
+				"Commentary": "D\u00e1 mh\u00e9ad m\u00edreanna a roghna\u00edonn t\u00fa, is m\u00f3 daoine ar f\u00e9idir leat bualadh leo.",
+				"Notifications": "N\u00ed m\u00f3r duit f\u00f3gra\u00ed a chead\u00fa"
+			}
+		},
+		"subscriptions": {
+			"confirm": "Ligeann f\u00f3gra\u00ed duit eolas a fh\u00e1il faoi ruda\u00ed a bhfuil suim agat iontu, mar shampla nuair a th\u00e9ann cara isteach san aip n\u00f3 nuair a sheolann cara chugat \u00e9."
+		},
+		"invite": "{{Q.words.TapOrClick}} anseo chun a fheice\u00e1il conas is f\u00e9idir leat \u00e9 seo a roinnt le daoine eile."
+	},
+	"payment": {
+		"onContribute": "Go raibh maith agat! Chuaigh d&#39;\u00edoca\u00edocht tr\u00edd. Ar mhaith leat cuireadh a thabhairt do do chairde bheith in \u00e9ineacht leat?",
+		"ConnectAccount": "Ceangail cuntas"
+	},
+	"featureboard": {
+		"Text_1": "Go gcloisfear do ghuth! An aonta\u00edonn t\u00fa gur cheart d\u00fainn gn\u00e9 n\u00f3 fabht a fhorbairt? Clice\u00e1il ar an gcnaipe chun tac\u00fa leis.",
+		"Text_2": "An bhfuil fonn orainn gn\u00e9 nua a fhorbairt? D\u00e9an cur s\u00edos air th\u00edos.",
+		"Text_3": "Gach seachtain tosa\u00edmid ag forbairt na gn\u00e9 is airde iarrtha ag an bpobal. T\u00e9ann an t-airgead go l\u00e9ir a thugtar chun na cr\u00edche sin, rud a ligeann d\u00fainn an aip a fheabhs\u00fa.",
+		"Text_4": "\u00das\u00e1idtear an t-airgead go l\u00e9ir a thugtar chun cabhr\u00fa len\u00e1r gcostas forbartha a \u00edoc.",
+		"Text_5": "An bhfuil smaoineamh agat maidir le gn\u00e9 n\u00f3 fabhtcheart\u00fa at\u00e1 t\u00fa ag iarraidh orainn a dh\u00e9anamh ach nach bhfuil cinn eile feicthe agat leis f\u00f3s? D\u00e9an cur s\u00edos air th\u00edos:",
+		"Options": [
+			{
+				"text": "$400 f\u00edschomhdh\u00e1il f\u00edor-ama"
+			},
+			{
+				"defaultAmount": "10",
+				"text": "$200 Eolas cl\u00e1r\u00fach\u00e1in do Bhunscoileanna \u00c1iti\u00fail"
+			},
+			{
+				"text": "$130 Brabhs\u00e1il agus roinn na m\u00edlte {{1}} memes",
+				"defaultAmount": "10"
+			},
+			{
+				"text": "$80 Bainistigh do phobail f\u00e9in",
+				"defaultAmount": "10"
+			},
+			{
+				"text": "$30 Ceart\u00fa fabht comhr\u00e1",
+				"defaultAmount": "10"
+			}
+		],
+		"RequestNewFeature": "Iarr Gn\u00e9 Nua/Fabhtcheart\u00fa",
+		"FeaturePlaceholder": "Achoimre gairid ar an ngn\u00e9",
+		"FeatureDescription": "D\u00e9an cur s\u00edos ar conas is f\u00e9idir le duine eile an fabht at\u00e1 \u00e1 fheice\u00e1il agat a at\u00e1irgeadh, n\u00f3 cuir s\u00edos go mion ar an ngn\u00e9 at\u00e1 t\u00fa ag iarraidh a th\u00f3g\u00e1il",
+		"AddYourRequest": "Cuir D&#39;Iarratas leis",
+		"NewFeature": "Gn\u00e9 Nua"
+	},
+	"contribute": {
+		"ContributeExplanation": "Cabhraigh le tac\u00fa le forbairt lean\u00fanach na haipe {{communityName}}. Cuid\u00edonn do chuid rann\u00edoca\u00edochta\u00ed go l\u00e9ir le fabhtanna a dheisi\u00fa agus le gn\u00e9ithe nua a fhorbairt chun cabhr\u00fa leis an bpobal ar l\u00edne a fh\u00e1s!",
+		"ReasonToContribute": "T\u00e1 an aip seo \u00e1 chothabh\u00e1il ag lucht taca\u00edochta {{communityName}}. Cabhraigh linn tac\u00fa leis an aip seo ionas gur f\u00e9idir linn difr\u00edocht a dh\u00e9anamh i saol daoine!"
+	},
+	"assetshistory": {
+		"Title": "Stair s\u00f3cmhainn\u00ed",
+		"Charges": "Muirir",
+		"Credits": "Creidmheasanna"
+	},
+	"accounts": {
+		"remove": {
+			"title": "Bain cuntas",
+			"content": "Ar mhaith leat an cuntas seo a bhaint?",
+			"ok": "T\u00e1",
+			"cancel": "N\u00edl"
+		}
+	},
+	"import": {
+		"fileNotFound": "\u00c1r leithsc\u00e9al, n\u00edor aims\u00edodh an comhad CSV.",
+		"fileEmpty": "\u00c1r leithsc\u00e9al, t\u00e1 an comhad CSV folamh.",
+		"userIdNotFound": "\u00fas\u00e1ideoir ann ach id folamh",
+		"errorLine": "l\u00edne {{1}}",
+		"fieldNotFound": "N\u00edor aims\u00edodh an r\u00e9imse riachtanach &quot;{{1}}&quot;.",
+		"taskStreamInvalid": "sruth tasc neamhbhail\u00ed",
+		"instructionsEmpty": "treoracha sruth tasc folamh",
+		"complete": "Cr\u00edochnaigh",
+		"activateUsers": "teachtaireacht gn\u00edomhachtaithe a sheoladh chuig \u00fas\u00e1ideoir\u00ed?",
+		"importProgress": "Dul chun cinn",
+		"joinEventLabel": "Glac le h\u00fas\u00e1ideoir\u00ed chuig imeacht randamach",
+		"importOptions": "Roghanna",
+		"sampleCSV": "\u00cdosluchtaigh sampla CSV",
+		"fileLabel": "Uasl\u00f3d\u00e1il Scarbhileog:",
+		"errorsTitle": "Tharla earr\u00e1id\u00ed",
+		"communityUsers": "Is \u00e9 seo an liosta pobail",
+		"setAsConversation": "Col\u00fan URL mar chomhr\u00e1",
+		"toMainCommunityToo": "\u00fas\u00e1ideoir\u00ed a chur leis an bpr\u00edomhphobal freisin",
+		"willImportedTo": "D\u00e9anfar \u00fas\u00e1ideoir\u00ed a allmhairi\u00fa chuig an bpobal",
+		"ChooseFile": "roghnaigh comhad"
+	},
+	"services": {
+		"Title": "Seirbh\u00eds\u00ed",
+		"filterByTitle": "Faigh seirbh\u00eds\u00ed de r\u00e9ir teidil",
+		"New": "+ Tosaigh Seirbh\u00eds Nua",
+		"NewService": "Seirbh\u00eds Nua",
+		"NewAvailability": "Infhaighteacht Nua",
+		"filterServices": "Seirbh\u00eds\u00ed scagaire",
+		"NoneYet": "N\u00edl aon seirbh\u00eds\u00ed bunaithe go f\u00f3ill<br> le linn na n-amanna seo.",
+		"AllAuthors": "Gach \u00dadair",
+		"AllDays": "Gach l\u00e1",
+		"AllLocations": "Gach Su\u00edomh",
+		"MakeReservation": "D\u00e9an \u00c1irithint",
+		"CancelReservation": "Cealaigh \u00c1irithint",
+		"UpdateReservation": "\u00c1irithint Nuashonraithe",
+		"AreYouSure": "An bhfuil t\u00fa cinnte?",
+		"YouWillRefunded": "Ais\u00edocfar th\u00fa i bhfoirm creidmheasanna is f\u00e9idir leat a chaitheamh ar ruda\u00ed eile san aip.",
+		"AllInterests": "Gach Leas",
+		"FilterbyInterest": "Scag de r\u00e9ir \u00dais",
+		"FilterByDate": "Scag De r\u00e9ir D\u00e1ta",
+		"ShowActivities": "Taispe\u00e1in gn\u00edomha\u00edochta\u00ed a bhaineann le ...",
+		"newServices": "T\u00e1 {{1}} seirbh\u00eds nua agat",
+		"SelectLocation": "Roghnaigh Su\u00edomh",
+		"FilterLocationsPlaceHolder": "Scag na hionaid le ...",
+		"Description": "{{1}} seirbh\u00eds",
+		"Keywords": "{{1}} seirbh\u00eds"
+	},
+	"welcome": {
+		"Title": "{{appName}}: f\u00e1ilte roimh ch\u00e1ch",
+		"GetStarted": "Tosaigh",
+		"gallery": {
+			"Connect": "Ceangal",
+			"Organize": "Eagraigh",
+			"Travel": "Taisteal",
+			"Share": "Comhroinn"
+		}
+	}
 }

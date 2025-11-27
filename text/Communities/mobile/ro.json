@@ -1,24 +1,24 @@
 {
-    "activation": {
-        "Thanks": "Bun venit la {{1}}.",
-        "ClickHere": "Faceți clic aici pentru a vă activa contul: {{1}}"
-    },
-    "addMobile": {
-        "ClickHere": "Faceți clic aici pentru a vă verifica numărul de telefon mobil: {{1}}"
-    },
-    "SeeHistory": "Vedeți istoricul plăților pentru {{1}}",
-    "charge": {
-        "HasBeenCharged": "{{1}} a fost taxat cu {{2}} pentru {{3}} de {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Bună, {{1}}, aceasta este doar o confirmare rapidă că ați plătit cu succes {{2}} către {{3}} pentru {{4}}"
-    },
-    "subscription": {
-        "YouHaveStarted": "V-ați abonat la {{2}} cu {{3}} la {{4}} timp de {{5}} luni.",
-        "HasStarted": "{{1}} s-a abonat la {{2}} cu {{3}} la {{4}} timp de {{5}} luni."
-    },
-    "resend": {
-        "DidYouWant": "Ați vrut să vă resetați expresia de acces în {{1}}?",
-        "ClickHere": "Apoi faceți clic aici: {{1}}"
-    }
+	"activation": {
+		"Thanks": "Bun venit la {{1}}.",
+		"ClickHere": "Face\u021bi clic aici pentru a v\u0103 activa contul: {{1}}"
+	},
+	"addMobile": {
+		"ClickHere": "Face\u021bi clic aici pentru a v\u0103 verifica num\u0103rul de telefon mobil: {{1}}"
+	},
+	"SeeHistory": "Vede\u021bi istoricul pl\u0103\u021bilor pentru {{1}}",
+	"charge": {
+		"HasBeenCharged": "{{1}} a fost taxat cu {{2}} pentru {{3}} de {{4}}"
+	},
+	"charged": {
+		"HavePaid": "Bun\u0103, {{1}}, aceasta este doar o confirmare rapid\u0103 c\u0103 a\u021bi pl\u0103tit cu succes {{2}} c\u0103tre {{3}} pentru {{4}}"
+	},
+	"subscription": {
+		"YouHaveStarted": "V-a\u021bi abonat la {{2}} cu {{3}} la {{4}} timp de {{5}} luni.",
+		"HasStarted": "{{1}} s-a abonat la {{2}} cu {{3}} la {{4}} timp de {{5}} luni."
+	},
+	"resend": {
+		"DidYouWant": "A\u021bi vrut s\u0103 v\u0103 reseta\u021bi expresia de acces \u00een {{1}}?",
+		"ClickHere": "Apoi face\u021bi clic aici: {{1}}"
+	}
 }

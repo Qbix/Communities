@@ -1,459 +1,459 @@
 {
-    "notFound": {
-        "Explanation": "<span class='url'>{{1}}<\/span> ne kaže na nič!",
-        "NextSteps": "V glavnem meniju poiščite tisto, kar iščete."
-    },
-    "dashboard": {
-        "Menu": "meni",
-        "Home": "domov",
-        "Welcome": "dobrodošli",
-        "Events": "Dogodki",
-        "Discuss": "Razpravljajte",
-        "People": "Ljudje",
-        "About": "O tem",
-        "Community": "Skupnost",
-        "LogIn": "Vpiši se",
-        "LogOut": "Odjava",
-        "Intercoin": "Intercoin",
-        "Shows": "Razstave",
-        "Calendar": "Koledar",
-        "Me": "jaz",
-        "Media": "Mediji",
-        "Services": "Storitve",
-        "SetMobileNumber": "Nastavite mobilno številko",
-        "SetEmailAddress": "Nastavite e-poštni naslov"
-    },
-    "greeting": {
-        "Welcome": "Dobrodošli v {{1}}. Tukaj boste našli objavljene stvari za člane naše skupnosti. Dodajte svoj e-poštni naslov ali številko mobilnega telefona, da boste prejemali obvestila, ko so objavljena obvestila."
-    },
-    "conversations": {
-        "Title": "Pogovori",
-        "New": "Nov pogovor",
-        "Conversation": "Pogovor",
-        "Topics": "Teme",
-        "NoneYet": "Noben pogovor še ni bil oblikovan",
-        "newConversations": "{{1}} novih pogovorov",
-        "AllAuthors": "Vsi avtorji",
-        "FilterbyAuthors": "Filtriraj po avtorjih",
-        "FilterAuthorPlaceHolder": "Poiščite dodatne avtorje ...",
-        "filterConversations": "Filtrirajte po besedilu",
-        "Description": "{{1}} pogovorov"
-    },
-    "newConversation": {
-        "composer": {
-            "ChooseActivity": "Izberite temo",
-            "Share": "Deliti",
-            "interest": {
-                "Title": "Izberite dejavnost",
-                "Filter": "Iskanje zanimanja ..."
-            }
-        },
-        "Title": "Nov pogovor",
-        "TitlePlaceholder": "Predmet vašega pogovora",
-        "ContentPlaceholder": "Za začetek pogovora napišite nekaj besed, da bodo lahko drugi odgovorili",
-        "StartButton": "Začni pogovor"
-    },
-    "events": {
-        "Title": "Dogodki",
-        "filterByTitle": "Poiščite dogodke po naslovu",
-        "New": "+ Začni nov dogodek",
-        "filterEvents": "Filtrirajte dogodke",
-        "NewEvent": "Nov dogodek",
-        "SetLocation": "Nastavite mojo lokacijo",
-        "NoneYet": "Ni oblikovanih dogodkov<br> v teh časih.",
-        "AllAuthors": "Vsi avtorji",
-        "AllDays": "Vse dni",
-        "AllLocations": "Vse lokacije",
-        "MakeReservation": "Rezervirajte",
-        "CancelReservation": "Prekliči rezervacijo",
-        "UpdateReservation": "Posodobite rezervacijo",
-        "AreYouSure": "Ali si prepričan?",
-        "YouWillRefunded": "Povrnjeni vam bodo v obliki dobropisov, ki jih lahko porabite za druge stvari v aplikaciji.",
-        "AllInterests": "Vsi interesi",
-        "FilterbyInterest": "Filtriraj po zanimanju",
-        "FilterByDate": "Filtriraj po datumu",
-        "ShowActivities": "Pokaži dejavnosti, povezane z . . .",
-        "newEvents": "Imate {{1}} novih dogodkov",
-        "SelectLocation": "Izberite Lokacija",
-        "FilterLocationsPlaceHolder": "Filtrirajte prizorišča z ...",
-        "Description": "{{1}} dogodkov",
-        "Keywords": "{{1}} dogodkov"
-    },
-    "schedule": {
-        "Title": "Urnik",
-        "NoneYet": "Ne sodelujete pri nobenih dogodkih",
-        "AddSome": "Dodajte nekaj v svoj urnik!",
-        "AddMore": "Dodajte dogodke v svoj urnik!",
-        "future": "prihodnost",
-        "past": "preteklost"
-    },
-    "location": {
-        "Title": "Lokacija",
-        "NewLocation": "Nova lokacija"
-    },
-    "inbox": {
-        "Title": "Prejeto",
-        "NoneYet": "Ne sodelujete v nobenem pogovoru",
-        "FindPeople": "Poiščite ljudi za pogovor",
-        "GroupConversations": "Pridružite se nekaterim skupinskim pogovorom",
-        "ContactStaff": "Kontaktirajte osebje",
-        "ContactCustomers": "Kontaktirajte stranke",
-        "AddNewContact": "Dodaj nov stik",
-        "AddNewContacts": "Dodaj nove stike"
-    },
-    "me": {
-        "Title": "jaz",
-        "MobileNumber": "Telefonska številka",
-        "EmailAddress": "Email naslov",
-        "UpdateSocialTitle": "Posodobite uporabniško ime {{1}}",
-        "Web3": "Splet3"
-    },
-    "people": {
-        "Title": "Ljudje",
-        "Description": "Ljudje v skupnosti {{1}}",
-        "AppAlert": "Ta aplikacija v trgovini z aplikacijami vam bo omogočila povezovanje s prijatelji in še veliko več.",
-        "Invite": "Povabi prijatelje",
-        "BuyCredits": "Kupite kredite",
-        "FindSomeoneByName": "Poiščite nekoga po imenu",
-        "SearchByName": "Išči po imenu",
-        "FindAllMyFriends": "Najdi vse moje prijatelje",
-        "labels": {
-            "All": "Vsi",
-            "Title": "Filtrirajte po razmerju",
-            "New": "Nova vrsta razmerja"
-        },
-        "interests": {
-            "All": "Vsi interesi",
-            "Title": "Filtriraj po zanimanju",
-            "Filter": "Pokažite ljudem, ki jih zanima . . ."
-        },
-        "Keywords": "{{1}} skupnost ljudi"
-    },
-    "communities": {
-        "Title": "skupnosti",
-        "NewCommunity": "Nova skupnost",
-        "FindCommunityByName": "Poiščite skupnost po imenu",
-        "Description": "{{1}} skupnosti"
-    },
-    "community": {
-        "Title": "{{1}} Skupnost",
-        "Roles": "Vloge",
-        "AllRoles": "Vse vloge",
-        "YouDontHavePermission": "Za to niste pooblaščeni",
-        "usernamePlaceholder": "nastavite ime skupnosti",
-        "NotEnoughCredits": "Nimate dovolj kreditov za ustvarjanje skupnosti. Potrebujete {{1}}, imate {{2}}"
-    },
-    "event": {
-        "GetDirections": "Pridobite navodila",
-        "WhichMap": "Katere zemljevide bi radi uporabljali?",
-        "JoinEventToChat": "Pridružite se dogodku za klepet",
-        "promote": {
-            "Title": "Promovirajte ta dogodek",
-            "Prompt": "Izberite, kje želite promovirati ta dogodek:"
-        },
-        "Confirmation": "Potrditev"
-    },
-    "newEvent": {
-        "Title": "Načrtujte nov dogodek"
-    },
-    "interests": {
-        "Title": "Zanimanja",
-        "prompt": "Izberite vrste stvari, ki jih želite izvedeti.",
-        "explanation": "Več interesov kot izberete, večja je verjetnost, da se boste povezali s podobno mislečimi ljudmi.",
-        "filter": "Kaj vas zanima?",
-        "Profile": "Izpostavljeni so skupni interesi. Če imate tudi eno ali več spodnjih zanimanj, jih lahko {{clickOrTap}} dodate."
-    },
-    "credits": {
-        "Title": "Zasluge",
-        "EarnCredits": "Prislužite si {{1}} kreditov za vsako novo osebo, ki jo povabite in se pridruži aplikaciji",
-        "YouHave": "Imate {{1}} kreditov"
-    },
-    "onboarding": {
-        "Tap": "Dotaknite se",
-        "Click": "Kliknite",
-        "Yes": "da",
-        "No": "št",
-        "Skip": "ali preskočite to",
-        "name": {
-            "Preface": "Dobrodošli v",
-            "Placeholder": "Vnesite vaše polno ime",
-            "GetStarted": "Začeti",
-            "AsGuest": "Povabljeni ste bili kot gost.",
-            "AsMember": "Povabljeni ste kot član.",
-            "AsAdmin": "Povabljeni ste kot skrbnik.",
-            "AsOwner": "Povabljeni ste kot lastnik.",
-            "TooShort": "Vaše polno ime ne more biti tako kratko",
-            "SetAsYourFullName": "Želite nastaviti {{1}} kot svoje polno ime?"
-        },
-        "icon": {
-            "KeepDefault": "ali obdrži to fotografijo",
-            "SetYourPhoto": "{{ClickOrTap}}, da nastavite svojo fotografijo:",
-            "ClickOnYourFace": "{{ClickOrTap}} Na tvojem obrazu"
-        },
-        "interests": {
-            "GetStarted": "⇩ Začnite",
-            "NextCategory": "↓ Naprej",
-            "Continue": "Nadaljuj",
-            "Instructions": "V vsaki od naslednjih {{1}} kategorij,<br> {{2}} vse dejavnosti, ki vas zanimajo.<br> Tako se povežete z drugimi ljudmi v skupnosti."
-        },
-        "profile": {
-            "Profile": "Vaš profil pomaga ljudem odkriti več o vas.<br>",
-            "Birthday": "Prosimo vnesite svoj rojstni dan:",
-            "Placeholder": "Kdo si in s čim se ukvarjaš? Povejte ljudem nekaj zanimivega ali edinstvenega o sebi.",
-            "Required": "Za nadaljevanje napišite vsaj nekaj vrstic o sebi.",
-            "Month": "mesec",
-            "Day": "dan",
-            "Year": "Leto",
-            "Gender": "spol",
-            "Male": "moški",
-            "Female": "Ženska",
-            "Other": "Drugo",
-            "Height": "Višina",
-            "Affiliation": "Pripadnost",
-            "Dating": "Zmenki",
-            "Interested": "Zanima me",
-            "NotInterested": "Ne zanima me",
-            "MatchmakerOnly": "Samo šibak"
-        },
-        "location": {
-            "NoOneElse": "Nihče drug tega ne bo videl.",
-            "SetMyLocation": "Nastavi mojo lokacijo"
-        },
-        "pile": {
-            "DialogTitle": "Ljudje s skupnimi interesi"
-        },
-        "Done": "Končano",
-        "relationships": {
-            "title": "Dodaj {{userName}} v imenik",
-            "welcome": "dobrodošli {{user}}",
-            "invitedByUser": "vas je povabil.",
-            "addToPhonebook": "Shrani v Imenik mojega telefona",
-            "iosInstructions": "Pomaknite se navzdol do Dodaj nov stik",
-            "androidInstructions": "To datoteko vCard morate odpreti, ko bo prenesena.",
-            "explanation": "Kakšen je vajin odnos?"
-        },
-        "Title": "Osnovni podatki",
-        "Prompt": "Nekaj korakov za nastavitev računa"
-    },
-    "profile": {
-        "Title": "Profil",
-        "Male": "moški",
-        "Female": "Ženska",
-        "Other": "Drugo",
-        "dating": {
-            "Interested": "Zanima me",
-            "NotInterested": "Ne zanima",
-            "MatchmakerOnly": "Samo šibak"
-        },
-        "StartConversation": "Začnite pogovor",
-        "blockUser": "Blokiraj tega uporabnika",
-        "blockUserAlert": "Ne boste videli več sporočil tega uporabnika, dokler jih ne odblokirate.",
-        "unblockUser": "Odblokirajte tega uporabnika",
-        "addToContacts": "Dodaj v stike",
-        "manageLabels": "Upravljanje oznak",
-        "inviteUsers": "Povabite uporabnike",
-        "selectRole": "Izberite Vloga",
-        "inviteSuccess": "Uporabnik je bil uspešno povabljen kot {{label}}",
-        "invite": "Povabi",
-        "relationships": "Odnosi",
-        "newRole": "Nova vloga",
-        "about": "O",
-        "people": "Ljudje",
-        "info": "Info",
-        "interests": "Zanimanja",
-        "chat": "Klepetajte",
-        "locations": "Lokacije",
-        "ManageRoles": "Upravljajte vloge",
-        "aboutPlaceholder": "Kdo si in s čim se ukvarjaš? Povejte ljudem nekaj zanimivega ali edinstvenega o sebi.",
-        "explanation": "Vaš profil vam pomaga bolje povezati z drugimi ljudmi za skupinske dejavnosti.<br> Prosimo, vnesite svoj rojstni dan",
-        "chats": {
-            "placeholder": "Reci kaj"
-        },
-        "LogOut": "Odjava",
-        "MyLinks": "Moje povezave",
-        "MyJobs": "Moja delovna mesta",
-        "MySocial": "MySocial",
-        "MyEducation": "Moja izobrazba",
-        "JobsPlaceholder": "Tukaj vnesite informacije o delovnih mestih",
-        "EducationPlaceholder": "Tukaj vnesite informacije o izobraževanju",
-        "ManageNotifications": "Upravljanje obvestil",
-        "YourPreferredLanguage": "Vaš želeni jezik",
-        "SendCrypto": "plačaj",
-        "Block": "Blokiraj",
-        "Unblock": "Odblokiraj",
-        "Email": "E-naslov",
-        "Avoid": "Izogibajte se",
-        "CreatePrivateChat": "Želite porabiti {{credits}} dobroimetja, da bi dosegli stik?",
-        "RolesInCommunity": "Vloge v skupnosti",
-        "PersonalChatWith": "Osebni klepet z {{name}}",
-        "SendCryptoTo": "Pošlji kripto na {{name}}",
-        "SendEmailTo": "Pošlji e-pošto na {{name}}",
-        "SendSMSTo": "Pošlji SMS na {{name}}",
-        "BlockThisUser": "Blokiraj tega uporabnika",
-        "UnblockThisUser": "Odblokiraj tega uporabnika",
-        "YouCantChatWithYourself": "Ne moreš klepetati sam s seboj",
-        "blockUserAlertTitle": "Blokirano {{displayName}}",
-        "sections": {
-            "education": "izobraževanje",
-            "greeting": "Lep pozdrav",
-            "jobs": "Službe",
-            "links": "Povezave",
-            "language": "Jezik",
-            "roles": "Vloge",
-            "personal": "Osebno",
-            "social": "Socialno"
-        },
-        "Roles": "Vloge",
-        "SendPaymentTo": "Pošljite plačilo na {{name}}"
-    },
-    "myqr": {
-        "Title": "Moj QR"
-    },
-    "composer": {
-        "createCommunity": "Ustvari skupnost",
-        "inviteAdmin": "Povabi skrbnika",
-        "inviteMember": "Povabi člana",
-        "newCommunityTitle": "Ime skupnosti",
-        "setCommunityTitle": "Ime skupnosti",
-        "creditsChargeRequest": "Ali se strinjate s porabo {{price}} dobroimetja?",
-        "yes": "da",
-        "no": "št"
-    },
-    "notifications": {
-        "WelcomePleaseVerifyEmail": "Dobrodošli! Prosimo, preverite svoj e-poštni naslov.",
-        "WelcomeVerifyEmail": "Dobrodošli! Preverite svoj e-poštni naslov.",
-        "ForgetPass": "Hej, si pozabil svoje geslo?",
-        "ManageEmailSubscriptions": "upravljajte svoje e-poštne naročnine",
-        "IfUnsubscribe": "Če se želite odjaviti"
-    },
-    "speak": {
-        "onboarding": {
-            "name": {
-                "Welcome": "Dobrodošli v {{CommunityName}}. Ta aplikacija vam bo pomagala povezati se s prijatelji, odkriti nove ljudi s skupnimi interesi in še veliko več. Začnimo!"
-            },
-            "icon": {
-                "Commentary": "Nastavite svojo fotografijo. Tako vas bodo ljudje videli na spletnem mestu."
-            },
-            "interests": {
-                "Commentary": "Več predmetov kot izberete, več ljudi lahko srečate.",
-                "Notifications": "Dovoliti morate obvestila"
-            }
-        },
-        "subscriptions": {
-            "confirm": "Obvestila vam omogočajo, da izveste o stvareh, ki vas zanimajo, na primer, kdaj se prijatelj pridruži aplikaciji ali vam pošlje sporočilo."
-        },
-        "invite": "{{Q.words.TapOrClick}} tukaj, da vidite, kako lahko to delite z drugimi."
-    },
-    "payment": {
-        "onContribute": "Hvala vam! Vaše plačilo je potekalo. Bi radi povabili svoje prijatelje, da se vam pridružijo?",
-        "ConnectAccount": "Poveži račun"
-    },
-    "featureboard": {
-        "Text_1": "Naj se sliši vaš glas! Ali se strinjate, da bi morali razviti funkcijo ali napako? Kliknite gumb za podporo.",
-        "Text_2": "Želite, da razvijemo novo funkcijo? Opišite ga spodaj.",
-        "Text_3": "Vsak teden začnemo razvijati najbolj zahtevno funkcijo skupnosti. Ves prispevani denar gre v ta namen, kar nam omogoča, da izboljšamo aplikacijo.",
-        "Text_4": "Ves prispevani denar se porabi za pomoč pri plačilu naših razvojnih stroškov.",
-        "Text_5": "Ali imate idejo za funkcijo ali popravek napake, za katero želite, da jo naredimo, vendar še niste videli, da bi jo drugi dodali? Opišite ga spodaj:",
-        "Options": [
-            {
-                "text": "400 $ Videokonference v realnem času"
-            },
-            {
-                "defaultAmount": "10",
-                "text": "200 $ Lokalni primarni registracijski podatki"
-            },
-            {
-                "text": "130 $ Brskajte in delite na tisoče {{1}} memov",
-                "defaultAmount": "10"
-            },
-            {
-                "text": "80 $ Upravljajte svoje skupnosti",
-                "defaultAmount": "10"
-            },
-            {
-                "text": "30 $ Popravite napako v pogovorih",
-                "defaultAmount": "10"
-            }
-        ],
-        "RequestNewFeature": "Zahtevajte novo funkcijo\/popravek napak",
-        "FeaturePlaceholder": "Kratek povzetek funkcije",
-        "FeatureDescription": "Opišite, kako lahko nekdo drug reproducira napako, ki jo vidite, ali podrobno opišite funkcijo, ki jo želite zgraditi",
-        "AddYourRequest": "Dodajte svojo zahtevo",
-        "NewFeature": "Nova funkcija"
-    },
-    "contribute": {
-        "ContributeExplanation": "Pomagajte podpreti nadaljnji razvoj aplikacije {{communityName}}. Vsi vaši prispevki pomagajo odpravljati napake in razvijati nove funkcije za rast spletne skupnosti!",
-        "ReasonToContribute": "To aplikacijo vzdržujejo podporniki {{communityName}}. Pomagajte podpreti to aplikacijo, da bomo lahko spremenili življenja ljudi!"
-    },
-    "assetshistory": {
-        "Title": "Zgodovina sredstev",
-        "Charges": "Stroški",
-        "Credits": "Zasluge"
-    },
-    "accounts": {
-        "remove": {
-            "title": "Odstrani račun",
-            "content": "Ali želite odstraniti ta račun?",
-            "ok": "da",
-            "cancel": "št"
-        }
-    },
-    "import": {
-        "fileNotFound": "Žal datoteke CSV ni mogoče najti.",
-        "fileEmpty": "Oprostite, datoteka CSV je prazna.",
-        "userIdNotFound": "uporabnik obstaja, vendar je ID prazen",
-        "errorLine": "vrstica {{1}}",
-        "fieldNotFound": "Zahtevanega polja »{{1}}« ni bilo mogoče najti",
-        "taskStreamInvalid": "tok opravil ni veljaven",
-        "instructionsEmpty": "navodila za tok opravil prazna",
-        "complete": "Dokončano",
-        "activateUsers": "poslati aktivacijsko sporočilo uporabnikom?",
-        "importProgress": "napredek",
-        "joinEventLabel": "Pridružite se uporabnikom naključnemu dogodku",
-        "importOptions": "Opcije",
-        "sampleCSV": "Prenesite vzorec CSV",
-        "fileLabel": "Naložite preglednico:",
-        "errorsTitle": "Prišlo je do napak",
-        "communityUsers": "To je seznam skupnosti",
-        "setAsConversation": "stolpec URL kot pogovor",
-        "toMainCommunityToo": "dodajte tudi uporabnike v glavno skupnost",
-        "willImportedTo": "Uporabniki bodo uvoženi v skupnost",
-        "ChooseFile": "Izberite datoteko"
-    },
-    "services": {
-        "Title": "Storitve",
-        "filterByTitle": "Poiščite storitve po naslovu",
-        "New": "+ Zaženi novo storitev",
-        "NewService": "Nova storitev",
-        "NewAvailability": "Nova razpoložljivost",
-        "filterServices": "Storitve filtra",
-        "NoneYet": "Ni še oblikovanih storitev<br> v teh časih.",
-        "AllAuthors": "Vsi avtorji",
-        "AllDays": "Vse dni",
-        "AllLocations": "Vse lokacije",
-        "MakeReservation": "Naredite rezervacijo",
-        "CancelReservation": "Prekliči rezervacijo",
-        "UpdateReservation": "Posodobi rezervacijo",
-        "AreYouSure": "Ali si prepričan?",
-        "YouWillRefunded": "Povrnjeno vam bo v obliki dobropisov, ki jih lahko porabite za druge stvari v aplikaciji.",
-        "AllInterests": "Vsi interesi",
-        "FilterbyInterest": "Filtriraj po zanimanju",
-        "FilterByDate": "Filtriraj po datumu",
-        "ShowActivities": "Prikaži dejavnosti, povezane z ...",
-        "newServices": "Imate {{1}} novih storitev",
-        "SelectLocation": "Izberite Lokacija",
-        "FilterLocationsPlaceHolder": "Filtriraj prizorišča z ...",
-        "Description": "{{1}} storitev",
-        "Keywords": "{{1}} storitev"
-    },
-    "welcome": {
-        "Title": "{{appName}}: dobrodošli",
-        "GetStarted": "Začeti",
-        "gallery": {
-            "Connect": "Povežite se",
-            "Organize": "Organizirajte",
-            "Travel": "Potovanje",
-            "Share": "Deliti"
-        }
-    }
+	"notFound": {
+		"Explanation": "<span class='url'>{{1}}</span> ne ka\u017ee na ni\u010d!",
+		"NextSteps": "V glavnem meniju poi\u0161\u010dite tisto, kar i\u0161\u010dete."
+	},
+	"dashboard": {
+		"Menu": "meni",
+		"Home": "domov",
+		"Welcome": "dobrodo\u0161li",
+		"Events": "Dogodki",
+		"Discuss": "Razpravljajte",
+		"People": "Ljudje",
+		"About": "O tem",
+		"Community": "Skupnost",
+		"LogIn": "Vpi\u0161i se",
+		"LogOut": "Odjava",
+		"Intercoin": "Intercoin",
+		"Shows": "Razstave",
+		"Calendar": "Koledar",
+		"Me": "jaz",
+		"Media": "Mediji",
+		"Services": "Storitve",
+		"SetMobileNumber": "Nastavite mobilno \u0161tevilko",
+		"SetEmailAddress": "Nastavite e-po\u0161tni naslov"
+	},
+	"greeting": {
+		"Welcome": "Dobrodo\u0161li v {{1}}. Tukaj boste na\u0161li objavljene stvari za \u010dlane na\u0161e skupnosti. Dodajte svoj e-po\u0161tni naslov ali \u0161tevilko mobilnega telefona, da boste prejemali obvestila, ko so objavljena obvestila."
+	},
+	"conversations": {
+		"Title": "Pogovori",
+		"New": "Nov pogovor",
+		"Conversation": "Pogovor",
+		"Topics": "Teme",
+		"NoneYet": "Noben pogovor \u0161e ni bil oblikovan",
+		"newConversations": "{{1}} novih pogovorov",
+		"AllAuthors": "Vsi avtorji",
+		"FilterbyAuthors": "Filtriraj po avtorjih",
+		"FilterAuthorPlaceHolder": "Poi\u0161\u010dite dodatne avtorje ...",
+		"filterConversations": "Filtrirajte po besedilu",
+		"Description": "{{1}} pogovorov"
+	},
+	"newConversation": {
+		"composer": {
+			"ChooseActivity": "Izberite temo",
+			"Share": "Deliti",
+			"interest": {
+				"Title": "Izberite dejavnost",
+				"Filter": "Iskanje zanimanja ..."
+			}
+		},
+		"Title": "Nov pogovor",
+		"TitlePlaceholder": "Predmet va\u0161ega pogovora",
+		"ContentPlaceholder": "Za za\u010detek pogovora napi\u0161ite nekaj besed, da bodo lahko drugi odgovorili",
+		"StartButton": "Za\u010dni pogovor"
+	},
+	"events": {
+		"Title": "Dogodki",
+		"filterByTitle": "Poi\u0161\u010dite dogodke po naslovu",
+		"New": "+ Za\u010dni nov dogodek",
+		"filterEvents": "Filtrirajte dogodke",
+		"NewEvent": "Nov dogodek",
+		"SetLocation": "Nastavite mojo lokacijo",
+		"NoneYet": "Ni oblikovanih dogodkov<br> v teh \u010dasih.",
+		"AllAuthors": "Vsi avtorji",
+		"AllDays": "Vse dni",
+		"AllLocations": "Vse lokacije",
+		"MakeReservation": "Rezervirajte",
+		"CancelReservation": "Prekli\u010di rezervacijo",
+		"UpdateReservation": "Posodobite rezervacijo",
+		"AreYouSure": "Ali si prepri\u010dan?",
+		"YouWillRefunded": "Povrnjeni vam bodo v obliki dobropisov, ki jih lahko porabite za druge stvari v aplikaciji.",
+		"AllInterests": "Vsi interesi",
+		"FilterbyInterest": "Filtriraj po zanimanju",
+		"FilterByDate": "Filtriraj po datumu",
+		"ShowActivities": "Poka\u017ei dejavnosti, povezane z . . .",
+		"newEvents": "Imate {{1}} novih dogodkov",
+		"SelectLocation": "Izberite Lokacija",
+		"FilterLocationsPlaceHolder": "Filtrirajte prizori\u0161\u010da z ...",
+		"Description": "{{1}} dogodkov",
+		"Keywords": "{{1}} dogodkov"
+	},
+	"schedule": {
+		"Title": "Urnik",
+		"NoneYet": "Ne sodelujete pri nobenih dogodkih",
+		"AddSome": "Dodajte nekaj v svoj urnik!",
+		"AddMore": "Dodajte dogodke v svoj urnik!",
+		"future": "prihodnost",
+		"past": "preteklost"
+	},
+	"location": {
+		"Title": "Lokacija",
+		"NewLocation": "Nova lokacija"
+	},
+	"inbox": {
+		"Title": "Prejeto",
+		"NoneYet": "Ne sodelujete v nobenem pogovoru",
+		"FindPeople": "Poi\u0161\u010dite ljudi za pogovor",
+		"GroupConversations": "Pridru\u017eite se nekaterim skupinskim pogovorom",
+		"ContactStaff": "Kontaktirajte osebje",
+		"ContactCustomers": "Kontaktirajte stranke",
+		"AddNewContact": "Dodaj nov stik",
+		"AddNewContacts": "Dodaj nove stike"
+	},
+	"me": {
+		"Title": "jaz",
+		"MobileNumber": "Telefonska \u0161tevilka",
+		"EmailAddress": "Email naslov",
+		"UpdateSocialTitle": "Posodobite uporabni\u0161ko ime {{1}}",
+		"Web3": "Splet3"
+	},
+	"people": {
+		"Title": "Ljudje",
+		"Description": "Ljudje v skupnosti {{1}}",
+		"AppAlert": "Ta aplikacija v trgovini z aplikacijami vam bo omogo\u010dila povezovanje s prijatelji in \u0161e veliko ve\u010d.",
+		"Invite": "Povabi prijatelje",
+		"BuyCredits": "Kupite kredite",
+		"FindSomeoneByName": "Poi\u0161\u010dite nekoga po imenu",
+		"SearchByName": "I\u0161\u010di po imenu",
+		"FindAllMyFriends": "Najdi vse moje prijatelje",
+		"labels": {
+			"All": "Vsi",
+			"Title": "Filtrirajte po razmerju",
+			"New": "Nova vrsta razmerja"
+		},
+		"interests": {
+			"All": "Vsi interesi",
+			"Title": "Filtriraj po zanimanju",
+			"Filter": "Poka\u017eite ljudem, ki jih zanima . . ."
+		},
+		"Keywords": "{{1}} skupnost ljudi"
+	},
+	"communities": {
+		"Title": "skupnosti",
+		"NewCommunity": "Nova skupnost",
+		"FindCommunityByName": "Poi\u0161\u010dite skupnost po imenu",
+		"Description": "{{1}} skupnosti"
+	},
+	"community": {
+		"Title": "{{1}} Skupnost",
+		"Roles": "Vloge",
+		"AllRoles": "Vse vloge",
+		"YouDontHavePermission": "Za to niste poobla\u0161\u010deni",
+		"usernamePlaceholder": "nastavite ime skupnosti",
+		"NotEnoughCredits": "Nimate dovolj kreditov za ustvarjanje skupnosti. Potrebujete {{1}}, imate {{2}}"
+	},
+	"event": {
+		"GetDirections": "Pridobite navodila",
+		"WhichMap": "Katere zemljevide bi radi uporabljali?",
+		"JoinEventToChat": "Pridru\u017eite se dogodku za klepet",
+		"promote": {
+			"Title": "Promovirajte ta dogodek",
+			"Prompt": "Izberite, kje \u017eelite promovirati ta dogodek:"
+		},
+		"Confirmation": "Potrditev"
+	},
+	"newEvent": {
+		"Title": "Na\u010drtujte nov dogodek"
+	},
+	"interests": {
+		"Title": "Zanimanja",
+		"prompt": "Izberite vrste stvari, ki jih \u017eelite izvedeti.",
+		"explanation": "Ve\u010d interesov kot izberete, ve\u010dja je verjetnost, da se boste povezali s podobno misle\u010dimi ljudmi.",
+		"filter": "Kaj vas zanima?",
+		"Profile": "Izpostavljeni so skupni interesi. \u010ce imate tudi eno ali ve\u010d spodnjih zanimanj, jih lahko {{clickOrTap}} dodate."
+	},
+	"credits": {
+		"Title": "Zasluge",
+		"EarnCredits": "Prislu\u017eite si {{1}} kreditov za vsako novo osebo, ki jo povabite in se pridru\u017ei aplikaciji",
+		"YouHave": "Imate {{1}} kreditov"
+	},
+	"onboarding": {
+		"Tap": "Dotaknite se",
+		"Click": "Kliknite",
+		"Yes": "da",
+		"No": "\u0161t",
+		"Skip": "ali presko\u010dite to",
+		"name": {
+			"Preface": "Dobrodo\u0161li v",
+			"Placeholder": "Vnesite va\u0161e polno ime",
+			"GetStarted": "Za\u010deti",
+			"AsGuest": "Povabljeni ste bili kot gost.",
+			"AsMember": "Povabljeni ste kot \u010dlan.",
+			"AsAdmin": "Povabljeni ste kot skrbnik.",
+			"AsOwner": "Povabljeni ste kot lastnik.",
+			"TooShort": "Va\u0161e polno ime ne more biti tako kratko",
+			"SetAsYourFullName": "\u017delite nastaviti {{1}} kot svoje polno ime?"
+		},
+		"icon": {
+			"KeepDefault": "ali obdr\u017ei to fotografijo",
+			"SetYourPhoto": "{{ClickOrTap}}, da nastavite svojo fotografijo:",
+			"ClickOnYourFace": "{{ClickOrTap}} Na tvojem obrazu"
+		},
+		"interests": {
+			"GetStarted": "\u21e9 Za\u010dnite",
+			"NextCategory": "\u2193 Naprej",
+			"Continue": "Nadaljuj",
+			"Instructions": "V vsaki od naslednjih {{1}} kategorij,<br> {{2}} vse dejavnosti, ki vas zanimajo.<br> Tako se pove\u017eete z drugimi ljudmi v skupnosti."
+		},
+		"profile": {
+			"Profile": "Osnovne informacije, ki vam bodo pomagale pri povezovanju z ljudmi:",
+			"Birthday": "Prosimo vnesite svoj rojstni dan:",
+			"Placeholder": "Kdo si in s \u010dim se ukvarja\u0161? Povejte ljudem nekaj zanimivega ali edinstvenega o sebi.",
+			"Required": "Za nadaljevanje napi\u0161ite vsaj nekaj vrstic o sebi.",
+			"Month": "mesec",
+			"Day": "dan",
+			"Year": "Leto",
+			"Gender": "spol",
+			"Male": "mo\u0161ki",
+			"Female": "\u017denska",
+			"Other": "Drugo",
+			"Height": "Vi\u0161ina",
+			"Affiliation": "Pripadnost",
+			"Dating": "Zmenki",
+			"Interested": "Zanima me",
+			"NotInterested": "Ne zanima me",
+			"MatchmakerOnly": "Samo \u0161ibak"
+		},
+		"location": {
+			"NoOneElse": "Nih\u010de drug tega ne bo videl.",
+			"SetMyLocation": "Nastavi mojo lokacijo"
+		},
+		"pile": {
+			"DialogTitle": "Ljudje s skupnimi interesi"
+		},
+		"Done": "Kon\u010dano",
+		"relationships": {
+			"title": "Dodaj {{userName}} v imenik",
+			"welcome": "dobrodo\u0161li {{user}}",
+			"invitedByUser": "vas je povabil.",
+			"addToPhonebook": "Shrani v Imenik mojega telefona",
+			"iosInstructions": "Pomaknite se navzdol do Dodaj nov stik",
+			"androidInstructions": "To datoteko vCard morate odpreti, ko bo prenesena.",
+			"explanation": "Kak\u0161en je vajin odnos?"
+		},
+		"Title": "Osnovni podatki",
+		"Prompt": "Nekaj korakov za nastavitev ra\u010duna"
+	},
+	"profile": {
+		"Title": "Profil",
+		"Male": "mo\u0161ki",
+		"Female": "\u017denska",
+		"Other": "Drugo",
+		"dating": {
+			"Interested": "Zanima me",
+			"NotInterested": "Ne zanima",
+			"MatchmakerOnly": "Samo \u0161ibak"
+		},
+		"StartConversation": "Za\u010dnite pogovor",
+		"blockUser": "Blokiraj tega uporabnika",
+		"blockUserAlert": "Ne boste videli ve\u010d sporo\u010dil tega uporabnika, dokler jih ne odblokirate.",
+		"unblockUser": "Odblokirajte tega uporabnika",
+		"addToContacts": "Dodaj v stike",
+		"manageLabels": "Upravljanje oznak",
+		"inviteUsers": "Povabite uporabnike",
+		"selectRole": "Izberite Vloga",
+		"inviteSuccess": "Uporabnik je bil uspe\u0161no povabljen kot {{label}}",
+		"invite": "Povabi",
+		"relationships": "Odnosi",
+		"newRole": "Nova vloga",
+		"about": "O",
+		"people": "Ljudje",
+		"info": "Info",
+		"interests": "Zanimanja",
+		"chat": "Klepetajte",
+		"locations": "Lokacije",
+		"ManageRoles": "Upravljajte vloge",
+		"aboutPlaceholder": "Kdo si in s \u010dim se ukvarja\u0161? Povejte ljudem nekaj zanimivega ali edinstvenega o sebi.",
+		"explanation": "Va\u0161 profil vam pomaga bolje povezati z drugimi ljudmi za skupinske dejavnosti.<br> Prosimo, vnesite svoj rojstni dan",
+		"chats": {
+			"placeholder": "Reci kaj"
+		},
+		"LogOut": "Odjava",
+		"MyLinks": "Moje povezave",
+		"MyJobs": "Moja delovna mesta",
+		"MySocial": "MySocial",
+		"MyEducation": "Moja izobrazba",
+		"JobsPlaceholder": "Tukaj vnesite informacije o delovnih mestih",
+		"EducationPlaceholder": "Tukaj vnesite informacije o izobra\u017eevanju",
+		"ManageNotifications": "Upravljanje obvestil",
+		"YourPreferredLanguage": "Va\u0161 \u017eeleni jezik",
+		"SendCrypto": "pla\u010daj",
+		"Block": "Blokiraj",
+		"Unblock": "Odblokiraj",
+		"Email": "E-naslov",
+		"Avoid": "Izogibajte se",
+		"CreatePrivateChat": "\u017delite porabiti {{credits}} dobroimetja, da bi dosegli stik?",
+		"RolesInCommunity": "Vloge v skupnosti",
+		"PersonalChatWith": "Osebni klepet z {{name}}",
+		"SendCryptoTo": "Po\u0161lji kripto na {{name}}",
+		"SendEmailTo": "Po\u0161lji e-po\u0161to na {{name}}",
+		"SendSMSTo": "Po\u0161lji SMS na {{name}}",
+		"BlockThisUser": "Blokiraj tega uporabnika",
+		"UnblockThisUser": "Odblokiraj tega uporabnika",
+		"YouCantChatWithYourself": "Ne more\u0161 klepetati sam s seboj",
+		"blockUserAlertTitle": "Blokirano {{displayName}}",
+		"sections": {
+			"education": "izobra\u017eevanje",
+			"greeting": "Lep pozdrav",
+			"jobs": "Slu\u017ebe",
+			"links": "Povezave",
+			"language": "Jezik",
+			"roles": "Vloge",
+			"personal": "Osebno",
+			"social": "Socialno"
+		},
+		"Roles": "Vloge",
+		"SendPaymentTo": "Po\u0161ljite pla\u010dilo na {{name}}"
+	},
+	"myqr": {
+		"Title": "Moj QR"
+	},
+	"composer": {
+		"createCommunity": "Ustvari skupnost",
+		"inviteAdmin": "Povabi skrbnika",
+		"inviteMember": "Povabi \u010dlana",
+		"newCommunityTitle": "Ime skupnosti",
+		"setCommunityTitle": "Ime skupnosti",
+		"creditsChargeRequest": "Ali se strinjate s porabo {{price}} dobroimetja?",
+		"yes": "da",
+		"no": "\u0161t"
+	},
+	"notifications": {
+		"WelcomePleaseVerifyEmail": "Dobrodo\u0161li! Prosimo, preverite svoj e-po\u0161tni naslov.",
+		"WelcomeVerifyEmail": "Dobrodo\u0161li! Preverite svoj e-po\u0161tni naslov.",
+		"ForgetPass": "Hej, si pozabil svoje geslo?",
+		"ManageEmailSubscriptions": "upravljajte svoje e-po\u0161tne naro\u010dnine",
+		"IfUnsubscribe": "\u010ce se \u017eelite odjaviti"
+	},
+	"speak": {
+		"onboarding": {
+			"name": {
+				"Welcome": "Dobrodo\u0161li v {{CommunityName}}. Ta aplikacija vam bo pomagala povezati se s prijatelji, odkriti nove ljudi s skupnimi interesi in \u0161e veliko ve\u010d. Za\u010dnimo!"
+			},
+			"icon": {
+				"Commentary": "Nastavite svojo fotografijo. Tako vas bodo ljudje videli na spletnem mestu."
+			},
+			"interests": {
+				"Commentary": "Ve\u010d predmetov kot izberete, ve\u010d ljudi lahko sre\u010date.",
+				"Notifications": "Dovoliti morate obvestila"
+			}
+		},
+		"subscriptions": {
+			"confirm": "Obvestila vam omogo\u010dajo, da izveste o stvareh, ki vas zanimajo, na primer, kdaj se prijatelj pridru\u017ei aplikaciji ali vam po\u0161lje sporo\u010dilo."
+		},
+		"invite": "{{Q.words.TapOrClick}} tukaj, da vidite, kako lahko to delite z drugimi."
+	},
+	"payment": {
+		"onContribute": "Hvala vam! Va\u0161e pla\u010dilo je potekalo. Bi radi povabili svoje prijatelje, da se vam pridru\u017eijo?",
+		"ConnectAccount": "Pove\u017ei ra\u010dun"
+	},
+	"featureboard": {
+		"Text_1": "Naj se sli\u0161i va\u0161 glas! Ali se strinjate, da bi morali razviti funkcijo ali napako? Kliknite gumb za podporo.",
+		"Text_2": "\u017delite, da razvijemo novo funkcijo? Opi\u0161ite ga spodaj.",
+		"Text_3": "Vsak teden za\u010dnemo razvijati najbolj zahtevno funkcijo skupnosti. Ves prispevani denar gre v ta namen, kar nam omogo\u010da, da izbolj\u0161amo aplikacijo.",
+		"Text_4": "Ves prispevani denar se porabi za pomo\u010d pri pla\u010dilu na\u0161ih razvojnih stro\u0161kov.",
+		"Text_5": "Ali imate idejo za funkcijo ali popravek napake, za katero \u017eelite, da jo naredimo, vendar \u0161e niste videli, da bi jo drugi dodali? Opi\u0161ite ga spodaj:",
+		"Options": [
+			{
+				"text": "400 $ Videokonference v realnem \u010dasu"
+			},
+			{
+				"defaultAmount": "10",
+				"text": "200 $ Lokalni primarni registracijski podatki"
+			},
+			{
+				"text": "130 $ Brskajte in delite na tiso\u010de {{1}} memov",
+				"defaultAmount": "10"
+			},
+			{
+				"text": "80 $ Upravljajte svoje skupnosti",
+				"defaultAmount": "10"
+			},
+			{
+				"text": "30 $ Popravite napako v pogovorih",
+				"defaultAmount": "10"
+			}
+		],
+		"RequestNewFeature": "Zahtevajte novo funkcijo/popravek napak",
+		"FeaturePlaceholder": "Kratek povzetek funkcije",
+		"FeatureDescription": "Opi\u0161ite, kako lahko nekdo drug reproducira napako, ki jo vidite, ali podrobno opi\u0161ite funkcijo, ki jo \u017eelite zgraditi",
+		"AddYourRequest": "Dodajte svojo zahtevo",
+		"NewFeature": "Nova funkcija"
+	},
+	"contribute": {
+		"ContributeExplanation": "Pomagajte podpreti nadaljnji razvoj aplikacije {{communityName}}. Vsi va\u0161i prispevki pomagajo odpravljati napake in razvijati nove funkcije za rast spletne skupnosti!",
+		"ReasonToContribute": "To aplikacijo vzdr\u017eujejo podporniki {{communityName}}. Pomagajte podpreti to aplikacijo, da bomo lahko spremenili \u017eivljenja ljudi!"
+	},
+	"assetshistory": {
+		"Title": "Zgodovina sredstev",
+		"Charges": "Stro\u0161ki",
+		"Credits": "Zasluge"
+	},
+	"accounts": {
+		"remove": {
+			"title": "Odstrani ra\u010dun",
+			"content": "Ali \u017eelite odstraniti ta ra\u010dun?",
+			"ok": "da",
+			"cancel": "\u0161t"
+		}
+	},
+	"import": {
+		"fileNotFound": "\u017dal datoteke CSV ni mogo\u010de najti.",
+		"fileEmpty": "Oprostite, datoteka CSV je prazna.",
+		"userIdNotFound": "uporabnik obstaja, vendar je ID prazen",
+		"errorLine": "vrstica {{1}}",
+		"fieldNotFound": "Zahtevanega polja \u00bb{{1}}\u00ab ni bilo mogo\u010de najti",
+		"taskStreamInvalid": "tok opravil ni veljaven",
+		"instructionsEmpty": "navodila za tok opravil prazna",
+		"complete": "Dokon\u010dano",
+		"activateUsers": "poslati aktivacijsko sporo\u010dilo uporabnikom?",
+		"importProgress": "napredek",
+		"joinEventLabel": "Pridru\u017eite se uporabnikom naklju\u010dnemu dogodku",
+		"importOptions": "Opcije",
+		"sampleCSV": "Prenesite vzorec CSV",
+		"fileLabel": "Nalo\u017eite preglednico:",
+		"errorsTitle": "Pri\u0161lo je do napak",
+		"communityUsers": "To je seznam skupnosti",
+		"setAsConversation": "stolpec URL kot pogovor",
+		"toMainCommunityToo": "dodajte tudi uporabnike v glavno skupnost",
+		"willImportedTo": "Uporabniki bodo uvo\u017eeni v skupnost",
+		"ChooseFile": "Izberite datoteko"
+	},
+	"services": {
+		"Title": "Storitve",
+		"filterByTitle": "Poi\u0161\u010dite storitve po naslovu",
+		"New": "+ Za\u017eeni novo storitev",
+		"NewService": "Nova storitev",
+		"NewAvailability": "Nova razpolo\u017eljivost",
+		"filterServices": "Storitve filtra",
+		"NoneYet": "Ni \u0161e oblikovanih storitev<br> v teh \u010dasih.",
+		"AllAuthors": "Vsi avtorji",
+		"AllDays": "Vse dni",
+		"AllLocations": "Vse lokacije",
+		"MakeReservation": "Naredite rezervacijo",
+		"CancelReservation": "Prekli\u010di rezervacijo",
+		"UpdateReservation": "Posodobi rezervacijo",
+		"AreYouSure": "Ali si prepri\u010dan?",
+		"YouWillRefunded": "Povrnjeno vam bo v obliki dobropisov, ki jih lahko porabite za druge stvari v aplikaciji.",
+		"AllInterests": "Vsi interesi",
+		"FilterbyInterest": "Filtriraj po zanimanju",
+		"FilterByDate": "Filtriraj po datumu",
+		"ShowActivities": "Prika\u017ei dejavnosti, povezane z ...",
+		"newServices": "Imate {{1}} novih storitev",
+		"SelectLocation": "Izberite Lokacija",
+		"FilterLocationsPlaceHolder": "Filtriraj prizori\u0161\u010da z ...",
+		"Description": "{{1}} storitev",
+		"Keywords": "{{1}} storitev"
+	},
+	"welcome": {
+		"Title": "{{appName}}: dobrodo\u0161li",
+		"GetStarted": "Za\u010deti",
+		"gallery": {
+			"Connect": "Pove\u017eite se",
+			"Organize": "Organizirajte",
+			"Travel": "Potovanje",
+			"Share": "Deliti"
+		}
+	}
 }

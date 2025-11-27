@@ -1,12 +1,12 @@
 {
-    "flyer1": {
-        "YouAreInvited": "Du är inbjuden",
-        "Member": "Medlem på {{title}}",
-        "Explanation": "{{1}} är glada att kunna meddela lanseringen av vår nya webbplats. Den innehåller en växande lista med funktioner, såsom:",
-        "Public": "Offentlig information om {{1}}",
-        "Private": "Ett privat användarkonto för varje medlem",
-        "Notifications": "Genom att ange din e-postadress eller ditt mobilnummer kommer du att kunna ta emot viktiga meddelanden via e-post eller sms.",
-        "GetStarted": "För att komma igång, ange <em>noggrant<\/em> i din webbläsare:<br>",
-        "IssuedToYou": "Denna kod är specifikt utfärdad till dig."
-    }
+	"flyer1": {
+		"YouAreInvited": "Du \u00e4r inbjuden",
+		"Member": "Medlem p\u00e5 {{title}}",
+		"Explanation": "{{1}} \u00e4r glada att kunna meddela lanseringen av v\u00e5r nya webbplats. Den inneh\u00e5ller en v\u00e4xande lista med funktioner, s\u00e5som:",
+		"Public": "Offentlig information om {{1}}",
+		"Private": "Ett privat anv\u00e4ndarkonto f\u00f6r varje medlem",
+		"Notifications": "Genom att ange din e-postadress eller ditt mobilnummer kommer du att kunna ta emot viktiga meddelanden via e-post eller sms.",
+		"GetStarted": "F\u00f6r att komma ig\u00e5ng, ange <em>noggrant</em> i din webbl\u00e4sare:<br>",
+		"IssuedToYou": "Denna kod \u00e4r specifikt utf\u00e4rdad till dig."
+	}
 }

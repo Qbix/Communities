@@ -1,33 +1,33 @@
 {
-    "activation": {
-        "Thanks": "Laipni lūdzam {{1}}",
-        "ReallyYourEmail": "Vai šī tiešām ir jūsu e-pasta adrese, {{1}}? Ja tā, noklikšķiniet <a href='{{2}}'>šeit<\/a> , lai iestatītu ieejas frāzi un aktivizētu savu kontu.",
-        "SeeYou": "Tiekamies <a href='{{1}}'>{{2}}<\/a> !",
-        "Subject": "Laipni lūdzam! Lūdzu, apstipriniet savu e-pasta adresi."
-    },
-    "LinkToUnsubscribe": "Šeit ir saite, lai <a href='{{1}}'>anulētu abonementu<\/a> , ja vairs nevēlaties saņemt e-pasta ziņojumus.",
-    "Greetings": "Sveicieni no {{1}}.",
-    "SeeHistory": "Skatīt maksājumu vēsturi par {{1}}",
-    "charge": {
-        "HasBeenCharged": "Sveiki! Vēlamies jūs informēt, ka {{1}} ir iekasējis maksu {{2}} par {{3}}, ko veicis {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Sveiki, {{1}}! Šis ir tikai īss apstiprinājums, ka esat veiksmīgi samaksājis {{2}} adresātam {{3}} par {{4}}"
-    },
-    "resend": {
-        "Thanks": "Paldies, ka apmeklējāt {{1}}",
-        "YouAreReceiving": "Jūs saņēmāt šo e-pasta ziņojumu, jo kāds ievadīja jūsu e-pasta adresi un noklikšķināja uz &quot;aizmirsu ieejas frāzi&quot;. Ja tas nebijāt jūs, vienkārši ignorējiet šo ziņojumu.",
-        "Reset": "Lai atiestatītu ieejas frāzi, noklikšķiniet uz {{1}}",
-        "SetUpPassphrase": "Iestatiet ieejas frāzi",
-        "DomainCode": "Ja tīmekļa lapa jūsu pārlūkprogrammā jau ir atvērta, varat ievadīt kodu",
-        "Subject": "Sveiki, vai aizmirsāt savu ieejas frāzi?"
-    },
-    "subscription": {
-        "YouHaveStarted": "Sveiki, {{1}}! Jūs sākāt {{2}} abonementu no {{3}} plkst. {{4}} uz {{5}} mēnešiem.",
-        "HasStarted": "Šis ir tikai tāpēc, lai jūs informētu, {{1}} ir uzsācis {{2}} abonementu ar {{3}} {{4}} uz {{5}} mēnešiem."
-    },
-    "SeeYou": "Tiekamies {{1}}!",
-    "identifier": {
-        "Subject": "Laipni lūdzam! Pārbaudiet savu e-pasta adresi."
-    }
+	"activation": {
+		"Thanks": "Laipni l\u016bdzam {{1}}",
+		"ReallyYourEmail": "Vai \u0161\u012b tie\u0161\u0101m ir j\u016bsu e-pasta adrese, {{1}}? Ja t\u0101, noklik\u0161\u0137iniet <a href='{{2}}'>\u0161eit</a> , lai iestat\u012btu ieejas fr\u0101zi un aktiviz\u0113tu savu kontu.",
+		"SeeYou": "Tiekamies <a href='{{1}}'>{{2}}</a> !",
+		"Subject": "Laipni l\u016bdzam! L\u016bdzu, apstipriniet savu e-pasta adresi."
+	},
+	"LinkToUnsubscribe": "\u0160eit ir saite, lai <a href='{{1}}'>anul\u0113tu abonementu</a> , ja vairs nev\u0113laties sa\u0146emt e-pasta zi\u0146ojumus.",
+	"Greetings": "Sveicieni no {{1}}.",
+	"SeeHistory": "Skat\u012bt maks\u0101jumu v\u0113sturi par {{1}}",
+	"charge": {
+		"HasBeenCharged": "Sveiki! V\u0113lamies j\u016bs inform\u0113t, ka {{1}} ir iekas\u0113jis maksu {{2}} par {{3}}, ko veicis {{4}}"
+	},
+	"charged": {
+		"HavePaid": "Sveiki, {{1}}! \u0160is ir tikai \u012bss apstiprin\u0101jums, ka esat veiksm\u012bgi samaks\u0101jis {{2}} adres\u0101tam {{3}} par {{4}}"
+	},
+	"resend": {
+		"Thanks": "Paldies, ka apmekl\u0113j\u0101t {{1}}",
+		"YouAreReceiving": "J\u016bs sa\u0146\u0113m\u0101t \u0161o e-pasta zi\u0146ojumu, jo k\u0101ds ievad\u012bja j\u016bsu e-pasta adresi un noklik\u0161\u0137in\u0101ja uz &quot;aizmirsu ieejas fr\u0101zi&quot;. Ja tas nebij\u0101t j\u016bs, vienk\u0101r\u0161i ignor\u0113jiet \u0161o zi\u0146ojumu.",
+		"Reset": "Lai atiestat\u012btu ieejas fr\u0101zi, noklik\u0161\u0137iniet uz {{1}}",
+		"SetUpPassphrase": "Iestatiet ieejas fr\u0101zi",
+		"DomainCode": "Ja t\u012bmek\u013ca lapa j\u016bsu p\u0101rl\u016bkprogramm\u0101 jau ir atv\u0113rta, varat ievad\u012bt kodu",
+		"Subject": "Sveiki, vai aizmirs\u0101t savu ieejas fr\u0101zi?"
+	},
+	"subscription": {
+		"YouHaveStarted": "Sveiki, {{1}}! J\u016bs s\u0101k\u0101t {{2}} abonementu no {{3}} plkst. {{4}} uz {{5}} m\u0113ne\u0161iem.",
+		"HasStarted": "\u0160is ir tikai t\u0101p\u0113c, lai j\u016bs inform\u0113tu, {{1}} ir uzs\u0101cis {{2}} abonementu ar {{3}} {{4}} uz {{5}} m\u0113ne\u0161iem."
+	},
+	"SeeYou": "Tiekamies {{1}}!",
+	"identifier": {
+		"Subject": "Laipni l\u016bdzam! P\u0101rbaudiet savu e-pasta adresi."
+	}
 }

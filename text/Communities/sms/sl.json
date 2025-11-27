@@ -1,24 +1,24 @@
 {
-    "activation": {
-        "Thanks": "Dobrodošli v {{1}}.",
-        "ClickHere": "Kliknite tukaj, da aktivirate svoj račun: {{1}}"
-    },
-    "addMobile": {
-        "ClickHere": "Kliknite tukaj, da preverite svojo mobilno številko: {{1}}"
-    },
-    "SeeHistory": "Oglejte si zgodovino plačil za {{1}}",
-    "charge": {
-        "HasBeenCharged": "{{1}} je {{2}} za {{3}} zaračunal {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Hej {{1}}, to je samo hitra potrditev, da ste uspešno plačali {{2}} {{3}} za {{4}}"
-    },
-    "subscription": {
-        "YouHaveStarted": "Naročeni ste na {{2}} z {{3}} ob {{4}} {{5}} mesecev.",
-        "HasStarted": "{{1}} se je naročil na {{2}} z {{3}} ob {{4}} za {{5}} mesecev."
-    },
-    "resend": {
-        "DidYouWant": "Ali ste želeli ponastaviti svoje geslo v {{1}}?",
-        "ClickHere": "Nato kliknite tukaj: {{1}}"
-    }
+	"activation": {
+		"Thanks": "Dobrodo\u0161li v {{1}}.",
+		"ClickHere": "Kliknite tukaj, da aktivirate svoj ra\u010dun: {{1}}"
+	},
+	"addMobile": {
+		"ClickHere": "Kliknite tukaj, da preverite svojo mobilno \u0161tevilko: {{1}}"
+	},
+	"SeeHistory": "Oglejte si zgodovino pla\u010dil za {{1}}",
+	"charge": {
+		"HasBeenCharged": "{{1}} je {{2}} za {{3}} zara\u010dunal {{4}}"
+	},
+	"charged": {
+		"HavePaid": "Hej {{1}}, to je samo hitra potrditev, da ste uspe\u0161no pla\u010dali {{2}} {{3}} za {{4}}"
+	},
+	"subscription": {
+		"YouHaveStarted": "Naro\u010deni ste na {{2}} z {{3}} ob {{4}} {{5}} mesecev.",
+		"HasStarted": "{{1}} se je naro\u010dil na {{2}} z {{3}} ob {{4}} za {{5}} mesecev."
+	},
+	"resend": {
+		"DidYouWant": "Ali ste \u017eeleli ponastaviti svoje geslo v {{1}}?",
+		"ClickHere": "Nato kliknite tukaj: {{1}}"
+	}
 }

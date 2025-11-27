@@ -1,12 +1,12 @@
 {
-    "flyer1": {
-        "YouAreInvited": "Int mistieden",
-        "Member": "Membru fi {{title}}",
-        "Explanation": "{{1}} bi pjaċir iħabbar it-tnedija tal-websajt il-ġdida tagħna. Jinkludi lista dejjem tikber ta’ karatteristiċi, bħal:",
-        "Public": "Informazzjoni pubblika dwar {{1}}",
-        "Private": "Kont tal-utent privat għal kull membru",
-        "Notifications": "Billi ddaħħal l-indirizz tal-email jew in-numru tal-mowbajl tiegħek tkun tista&#39; tirċievi notifiki importanti permezz ta&#39; email jew messaġġ.",
-        "GetStarted": "Biex tibda, fil-web browser tiegħek jekk jogħġbok daħħal bir- <em>reqqa<\/em> :<br>",
-        "IssuedToYou": "Dan il-kodiċi jinħareġ lilek speċifikament."
-    }
+	"flyer1": {
+		"YouAreInvited": "Int mistieden",
+		"Member": "Membru fi {{title}}",
+		"Explanation": "{{1}} bi pja\u010bir i\u0127abbar it-tnedija tal-websajt il-\u0121dida tag\u0127na. Jinkludi lista dejjem tikber ta\u2019 karatteristi\u010bi, b\u0127al:",
+		"Public": "Informazzjoni pubblika dwar {{1}}",
+		"Private": "Kont tal-utent privat g\u0127al kull membru",
+		"Notifications": "Billi dda\u0127\u0127al l-indirizz tal-email jew in-numru tal-mowbajl tieg\u0127ek tkun tista&#39; tir\u010bievi notifiki importanti permezz ta&#39; email jew messa\u0121\u0121.",
+		"GetStarted": "Biex tibda, fil-web browser tieg\u0127ek jekk jog\u0127\u0121bok da\u0127\u0127al bir- <em>reqqa</em> :<br>",
+		"IssuedToYou": "Dan il-kodi\u010bi jin\u0127are\u0121 lilek spe\u010bifikament."
+	}
 }

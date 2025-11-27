@@ -1,12 +1,12 @@
 {
-    "flyer1": {
-        "YouAreInvited": "Bạn được mời",
-        "Member": "Thành viên tại {{title}}",
-        "Explanation": "{{1}} vui mừng thông báo về việc ra mắt trang web mới của chúng tôi. Nó bao gồm một danh sách ngày càng tăng các tính năng, chẳng hạn như:",
-        "Public": "Thông tin công khai về {{1}}",
-        "Private": "Một tài khoản người dùng riêng tư cho mọi thành viên",
-        "Notifications": "Bằng cách nhập địa chỉ email hoặc số điện thoại di động, bạn sẽ có thể nhận được các thông báo quan trọng qua email hoặc tin nhắn văn bản.",
-        "GetStarted": "Để bắt đầu, trong trình duyệt web của bạn, vui lòng nhập <em>cẩn thận<\/em> :<br>",
-        "IssuedToYou": "Mã này được cấp riêng cho bạn."
-    }
+	"flyer1": {
+		"YouAreInvited": "B\u1ea1n \u0111\u01b0\u1ee3c m\u1eddi",
+		"Member": "Th\u00e0nh vi\u00ean t\u1ea1i {{title}}",
+		"Explanation": "{{1}} vui m\u1eebng th\u00f4ng b\u00e1o v\u1ec1 vi\u1ec7c ra m\u1eaft trang web m\u1edbi c\u1ee7a ch\u00fang t\u00f4i. N\u00f3 bao g\u1ed3m m\u1ed9t danh s\u00e1ch ng\u00e0y c\u00e0ng t\u0103ng c\u00e1c t\u00ednh n\u0103ng, ch\u1eb3ng h\u1ea1n nh\u01b0:",
+		"Public": "Th\u00f4ng tin c\u00f4ng khai v\u1ec1 {{1}}",
+		"Private": "M\u1ed9t t\u00e0i kho\u1ea3n ng\u01b0\u1eddi d\u00f9ng ri\u00eang t\u01b0 cho m\u1ecdi th\u00e0nh vi\u00ean",
+		"Notifications": "B\u1eb1ng c\u00e1ch nh\u1eadp \u0111\u1ecba ch\u1ec9 email ho\u1eb7c s\u1ed1 \u0111i\u1ec7n tho\u1ea1i di \u0111\u1ed9ng, b\u1ea1n s\u1ebd c\u00f3 th\u1ec3 nh\u1eadn \u0111\u01b0\u1ee3c c\u00e1c th\u00f4ng b\u00e1o quan tr\u1ecdng qua email ho\u1eb7c tin nh\u1eafn v\u0103n b\u1ea3n.",
+		"GetStarted": "\u0110\u1ec3 b\u1eaft \u0111\u1ea7u, trong tr\u00ecnh duy\u1ec7t web c\u1ee7a b\u1ea1n, vui l\u00f2ng nh\u1eadp <em>c\u1ea9n th\u1eadn</em> :<br>",
+		"IssuedToYou": "M\u00e3 n\u00e0y \u0111\u01b0\u1ee3c c\u1ea5p ri\u00eang cho b\u1ea1n."
+	}
 }

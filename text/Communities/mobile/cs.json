@@ -1,24 +1,24 @@
 {
-    "activation": {
-        "Thanks": "Vítejte v {{1}}.",
-        "ClickHere": "Kliknutím sem aktivujte svůj účet: {{1}}"
-    },
-    "addMobile": {
-        "ClickHere": "Kliknutím sem ověřte své mobilní číslo: {{1}}"
-    },
-    "SeeHistory": "Zobrazit historii plateb za {{1}}",
-    "charge": {
-        "HasBeenCharged": "{{1}} byla účtována {{2}} za {{3}} uživatelem {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Dobrý den, {{1}}, toto je jen rychlé potvrzení, že jste úspěšně zaplatili {{2}} uživateli {{3}} za {{4}}"
-    },
-    "subscription": {
-        "YouHaveStarted": "Přihlásili jste se k odběru {{2}} s {{3}} u {{4}} na {{5}} měsíců.",
-        "HasStarted": "{{1}} se přihlásil k odběru {{2}} s {{3}} na {{4}} na {{5}} měsíců."
-    },
-    "resend": {
-        "DidYouWant": "Chtěli jste resetovat svou přístupovou frázi v {{1}}?",
-        "ClickHere": "Pak klikněte sem: {{1}}"
-    }
+	"activation": {
+		"Thanks": "V\u00edtejte v {{1}}.",
+		"ClickHere": "Kliknut\u00edm sem aktivujte sv\u016fj \u00fa\u010det: {{1}}"
+	},
+	"addMobile": {
+		"ClickHere": "Kliknut\u00edm sem ov\u011b\u0159te sv\u00e9 mobiln\u00ed \u010d\u00edslo: {{1}}"
+	},
+	"SeeHistory": "Zobrazit historii plateb za {{1}}",
+	"charge": {
+		"HasBeenCharged": "{{1}} byla \u00fa\u010dtov\u00e1na {{2}} za {{3}} u\u017eivatelem {{4}}"
+	},
+	"charged": {
+		"HavePaid": "Dobr\u00fd den, {{1}}, toto je jen rychl\u00e9 potvrzen\u00ed, \u017ee jste \u00fasp\u011b\u0161n\u011b zaplatili {{2}} u\u017eivateli {{3}} za {{4}}"
+	},
+	"subscription": {
+		"YouHaveStarted": "P\u0159ihl\u00e1sili jste se k odb\u011bru {{2}} s {{3}} u {{4}} na {{5}} m\u011bs\u00edc\u016f.",
+		"HasStarted": "{{1}} se p\u0159ihl\u00e1sil k odb\u011bru {{2}} s {{3}} na {{4}} na {{5}} m\u011bs\u00edc\u016f."
+	},
+	"resend": {
+		"DidYouWant": "Cht\u011bli jste resetovat svou p\u0159\u00edstupovou fr\u00e1zi v {{1}}?",
+		"ClickHere": "Pak klikn\u011bte sem: {{1}}"
+	}
 }

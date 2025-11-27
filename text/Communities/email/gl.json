@@ -1,33 +1,33 @@
 {
-    "activation": {
-        "Thanks": "Benvido a {{1}}",
-        "ReallyYourEmail": "Este é realmente o teu enderezo de correo electrónico, {{1}}? Se é así, fai clic <a href='{{2}}'>aquí<\/a> para configurar o teu contrasinal e activar a túa conta.",
-        "SeeYou": "Vémonos en <a href='{{1}}'>{{2}}<\/a> !",
-        "Subject": "Benvido! Verifique o seu enderezo de correo electrónico."
-    },
-    "LinkToUnsubscribe": "Aquí tes unha ligazón para cancelar a <a href='{{1}}'>subscrición<\/a> se non queres recibir máis correos electrónicos.",
-    "Greetings": "Saúdos de {{1}}.",
-    "SeeHistory": "Consulta o historial de pagos de {{1}}",
-    "charge": {
-        "HasBeenCharged": "Ola, isto é só para informarte de que {{1}} cobrou {{2}} por {{3}} por {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Ola {{1}}, esta é só unha confirmación rápida de que pagaches correctamente {{2}} a {{3}} por {{4}}"
-    },
-    "resend": {
-        "Thanks": "Grazas por visitar {{1}}",
-        "YouAreReceiving": "Recibiches este correo electrónico porque alguén introduciu o teu enderezo de correo electrónico e fixo clic en &quot;esquecín a frase de acceso&quot;. Se non fuches ti, simplemente ignora esta mensaxe.",
-        "Reset": "Para restablecer o teu contrasinal, fai clic en {{1}}",
-        "SetUpPassphrase": "Configurar frase de paso",
-        "DomainCode": "Se a páxina web xa está aberta no teu navegador, podes introducir o código",
-        "Subject": "Ei, esqueciches o teu contrasinal?"
-    },
-    "subscription": {
-        "YouHaveStarted": "Ola {{1}}: iniciaches a túa subscrición a {{2}} con {{3}} ás {{4}} durante {{5}} meses.",
-        "HasStarted": "Isto é só para informarte de que {{1}} comezou a súa subscrición a {{2}} con {{3}} ás {{4}} durante {{5}} meses."
-    },
-    "SeeYou": "Vémonos en {{1}}!",
-    "identifier": {
-        "Subject": "Benvido! Verifica o teu enderezo de correo electrónico."
-    }
+	"activation": {
+		"Thanks": "Benvido a {{1}}",
+		"ReallyYourEmail": "Este \u00e9 realmente o teu enderezo de correo electr\u00f3nico, {{1}}? Se \u00e9 as\u00ed, fai clic <a href='{{2}}'>aqu\u00ed</a> para configurar o teu contrasinal e activar a t\u00faa conta.",
+		"SeeYou": "V\u00e9monos en <a href='{{1}}'>{{2}}</a> !",
+		"Subject": "Benvido! Verifique o seu enderezo de correo electr\u00f3nico."
+	},
+	"LinkToUnsubscribe": "Aqu\u00ed tes unha ligaz\u00f3n para cancelar a <a href='{{1}}'>subscrici\u00f3n</a> se non queres recibir m\u00e1is correos electr\u00f3nicos.",
+	"Greetings": "Sa\u00fados de {{1}}.",
+	"SeeHistory": "Consulta o historial de pagos de {{1}}",
+	"charge": {
+		"HasBeenCharged": "Ola, isto \u00e9 s\u00f3 para informarte de que {{1}} cobrou {{2}} por {{3}} por {{4}}"
+	},
+	"charged": {
+		"HavePaid": "Ola {{1}}, esta \u00e9 s\u00f3 unha confirmaci\u00f3n r\u00e1pida de que pagaches correctamente {{2}} a {{3}} por {{4}}"
+	},
+	"resend": {
+		"Thanks": "Grazas por visitar {{1}}",
+		"YouAreReceiving": "Recibiches este correo electr\u00f3nico porque algu\u00e9n introduciu o teu enderezo de correo electr\u00f3nico e fixo clic en &quot;esquec\u00edn a frase de acceso&quot;. Se non fuches ti, simplemente ignora esta mensaxe.",
+		"Reset": "Para restablecer o teu contrasinal, fai clic en {{1}}",
+		"SetUpPassphrase": "Configurar frase de paso",
+		"DomainCode": "Se a p\u00e1xina web xa est\u00e1 aberta no teu navegador, podes introducir o c\u00f3digo",
+		"Subject": "Ei, esqueciches o teu contrasinal?"
+	},
+	"subscription": {
+		"YouHaveStarted": "Ola {{1}}: iniciaches a t\u00faa subscrici\u00f3n a {{2}} con {{3}} \u00e1s {{4}} durante {{5}} meses.",
+		"HasStarted": "Isto \u00e9 s\u00f3 para informarte de que {{1}} comezou a s\u00faa subscrici\u00f3n a {{2}} con {{3}} \u00e1s {{4}} durante {{5}} meses."
+	},
+	"SeeYou": "V\u00e9monos en {{1}}!",
+	"identifier": {
+		"Subject": "Benvido! Verifica o teu enderezo de correo electr\u00f3nico."
+	}
 }

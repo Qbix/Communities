@@ -1,460 +1,460 @@
 {
-    "notFound": {
-        "Explanation": "<span class='url'>{{1}}<\/span> peger ikke på noget!",
-        "NextSteps": "Brug hovedmenuen til at finde det, du leder efter."
-    },
-    "greeting": {
-        "Welcome": "Velkommen til {{1}}. Her finder du ting, der er lagt ud for medlemmer af vores fællesskab. Tilføj venligst din e-mailadresse eller mobilnummer for at modtage meddelelser, når meddelelser sendes."
-    },
-    "conversations": {
-        "New": "Ny samtale",
-        "Conversation": "Samtale",
-        "Topics": "Emner",
-        "NoneYet": "Der er ikke dannet nogen samtaler endnu",
-        "newConversations": "{{1}} nye samtaler",
-        "AllAuthors": "Alle forfattere",
-        "FilterbyAuthors": "Filtrer efter forfattere",
-        "FilterAuthorPlaceHolder": "Søg efter flere forfattere...",
-        "Title": "Samtaler",
-        "Description": "{{1}} samtaler",
-        "filterConversations": "Filtrer efter tekst"
-    },
-    "newConversation": {
-        "composer": {
-            "ChooseActivity": "Vælg et emne",
-            "Share": "Del",
-            "interest": {
-                "Title": "Vælg en aktivitet",
-                "Filter": "Søgeinteresser..."
-            }
-        },
-        "Title": "Ny samtale",
-        "TitlePlaceholder": "Emnet for din samtale",
-        "ContentPlaceholder": "Skriv et par ord for at starte samtalen, så andre kan svare",
-        "StartButton": "Start samtale"
-    },
-    "events": {
-        "Title": "Begivenheder",
-        "filterByTitle": "Find begivenheder efter titel",
-        "New": "+ Start ny begivenhed",
-        "SetLocation": "Indstil min placering",
-        "NoneYet": "Ingen begivenheder oprettet endnu<br> i disse tider.",
-        "AllDays": "Alle dage",
-        "AllLocations": "Alle lokationer",
-        "AllInterests": "Alle interesser",
-        "FilterbyInterest": "Filtrer efter interesse",
-        "FilterByDate": "Filtrer efter dato",
-        "ShowActivities": "Vis aktiviteter relateret til . . .",
-        "newEvents": "Du har {{1}} nye begivenheder",
-        "SelectLocation": "Vælg Placering",
-        "FilterLocationsPlaceHolder": "Filtrer spillesteder med...",
-        "AllAuthors": "Alle forfattere",
-        "filterEvents": "Filtrer begivenheder",
-        "NewEvent": "Ny begivenhed",
-        "Description": "{{1}} begivenheder",
-        "Keywords": "{{1}} begivenheder",
-        "MakeReservation": "Foretag reservation",
-        "Reserved": "Annuller reservation",
-        "AreYouSure": "Er du sikker?",
-        "YouWillRefunded": "Du vil blive refunderet i form af kreditter, du kan bruge på andre ting i appen.",
-        "CancelReservation": "Annuller reservation",
-        "UpdateReservation": "Opdater reservation"
-    },
-    "schedule": {
-        "Title": "Tidsplan",
-        "NoneYet": "Du deltager ikke i nogen begivenheder",
-        "AddSome": "Tilføj nogle til din tidsplan!",
-        "AddMore": "Tilføj begivenheder til din tidsplan!",
-        "future": "fremtid",
-        "past": "forbi"
-    },
-    "location": {
-        "Title": "Beliggenhed",
-        "NewLocation": "Ny placering"
-    },
-    "inbox": {
-        "Title": "Indbakke",
-        "NoneYet": "Du deltager ikke i nogen samtaler",
-        "FindPeople": "Find folk at tale med",
-        "GroupConversations": "Deltag i nogle gruppesamtaler",
-        "ContactStaff": "Kontakt personalet",
-        "ContactCustomers": "Kontakt kunder",
-        "AddNewContact": "Tilføj ny kontakt",
-        "AddNewContacts": "Tilføj nye kontakter"
-    },
-    "me": {
-        "Title": "Mig",
-        "MobileNumber": "Mobilnummer",
-        "EmailAddress": "Email adresse",
-        "UpdateSocialTitle": "Opdater {{1}} brugernavn",
-        "Web3": "Web3"
-    },
-    "people": {
-        "Title": "Mennesker",
-        "AppAlert": "Denne app i app store giver dig mulighed for at komme i kontakt med dine venner og meget meget mere.",
-        "Invite": "Inviter venner",
-        "FindSomeoneByName": "Find nogen ved navn",
-        "FindAllMyFriends": "Find alle mine venner",
-        "labels": {
-            "All": "Alle sammen",
-            "Title": "Filtrer efter forhold",
-            "New": "Ny type forhold"
-        },
-        "interests": {
-            "All": "Alle interesser",
-            "Title": "Filtrer efter interesse",
-            "Filter": "Vis folk, der er interesserede i. . ."
-        },
-        "SearchByName": "Søg på navn",
-        "Description": "Personer i {{1}}-fællesskabet",
-        "Keywords": "{{1}} personers fællesskab",
-        "BuyCredits": "Køb kreditter"
-    },
-    "communities": {
-        "Title": "Fællesskaber",
-        "NewCommunity": "Nyt Fællesskab",
-        "FindCommunityByName": "Find fællesskab ved navn",
-        "Description": "{{1}} fællesskaber"
-    },
-    "community": {
-        "Title": "{{1}} Fællesskab",
-        "Roles": "Roller",
-        "AllRoles": "Alle roller",
-        "YouDontHavePermission": "Du er ikke autoriseret til at gøre dette",
-        "usernamePlaceholder": "sæt gruppenavn",
-        "NotEnoughCredits": "Du har ikke nok kreditter til at skabe et fællesskab. Har du brug for {{1}}, du har {{2}}"
-    },
-    "event": {
-        "GetDirections": "Få vejledninger",
-        "WhichMap": "Hvilke kort vil du gerne bruge?",
-        "JoinEventToChat": "Deltag i begivenheden for at chatte",
-        "promote": {
-            "Title": "Promover denne begivenhed",
-            "Prompt": "Vælg, hvor du vil promovere denne begivenhed:"
-        },
-        "Confirmation": "Bekræftelse"
-    },
-    "newEvent": {
-        "Title": "Planlæg ny begivenhed"
-    },
-    "interests": {
-        "Title": "Interesser",
-        "prompt": "Vælg de typer ting, du gerne vil vide om.",
-        "explanation": "Jo flere interesser du vælger, jo større sandsynlighed er der for, at du får forbindelse med ligesindede.",
-        "filter": "Hvad er du interesseret i?",
-        "Profile": "Gensidige interesser fremhæves. Hvis du også har en eller flere af nedenstående interesser, kan du {{clickOrTap}} tilføje dem."
-    },
-    "credits": {
-        "Title": "Credits",
-        "EarnCredits": "Optjen {{1}} kreditter for hver ny person, du inviterer, som tilmelder sig appen",
-        "YouHave": "Du har {{1}} kreditter"
-    },
-    "onboarding": {
-        "Tap": "Tryk på",
-        "Click": "Klik",
-        "Yes": "Ja",
-        "No": "Ingen",
-        "name": {
-            "Preface": "Velkommen til",
-            "Placeholder": "Skriv dit fulde navn",
-            "GetStarted": "Kom igang",
-            "AsGuest": "Du er blevet inviteret som gæst.",
-            "AsMember": "Du er blevet inviteret som medlem.",
-            "AsAdmin": "Du er blevet inviteret som administrator.",
-            "AsOwner": "Du er blevet inviteret som ejer.",
-            "TooShort": "Dit fulde navn kan ikke være så kort",
-            "SetAsYourFullName": "Vil du indstille {{1}} som dit fulde navn?"
-        },
-        "icon": {
-            "KeepDefault": "eller behold dette billede",
-            "SetYourPhoto": "{{ClickOrTap}} for at indstille dit billede:",
-            "ClickOnYourFace": "{{ClickOrTap}} på dit ansigt"
-        },
-        "interests": {
-            "GetStarted": "⇩ Kom godt i gang",
-            "NextCategory": "↓ Næste",
-            "Continue": "Blive ved",
-            "Instructions": "I hver af de næste {{1}} kategorier,<br> {{2}} alle de aktiviteter, du er interesseret i.<br> Sådan forbinder du dig med andre mennesker i samfundet."
-        },
-        "profile": {
-            "Profile": "Din profil hjælper folk med at opdage mere om dig.<br>",
-            "Birthday": "Indtast venligst din fødselsdag:",
-            "Placeholder": "Hvem er du og hvad laver du? Fortæl folk noget interessant eller unikt om dig selv.",
-            "Month": "Måned",
-            "Day": "Dag",
-            "Year": "År",
-            "Gender": "Køn",
-            "Male": "Han",
-            "Female": "Kvinde",
-            "Other": "Andet",
-            "Height": "Højde",
-            "Affiliation": "tilknytning",
-            "Dating": "Dating",
-            "Interested": "Interesseret",
-            "NotInterested": "Ikke interesseret",
-            "MatchmakerOnly": "Kun matchmaker",
-            "Required": "For at fortsætte skal du skrive mindst et par linjer om dig selv."
-        },
-        "location": {
-            "NoOneElse": "Ingen andre vil se det.",
-            "SetMyLocation": "Indstil min placering"
-        },
-        "pile": {
-            "DialogTitle": "Mennesker med fælles interesser"
-        },
-        "Done": "Færdig",
-        "Skip": "eller spring dette over",
-        "relationships": {
-            "title": "Føj {{userName}} til telefonbogen",
-            "welcome": "Velkommen {{user}}",
-            "invitedByUser": "inviterede dig.",
-            "addToPhonebook": "Gem i Mine telefonkontakter",
-            "iosInstructions": "Rul ned til Tilføj ny kontakt",
-            "androidInstructions": "Du bør åbne denne vCard-fil, efter at den er blevet downloadet.",
-            "explanation": "Hvad er jeres forhold?"
-        },
-        "Title": "Grundlæggende oplysninger",
-        "Prompt": "Et par trin for at konfigurere din konto"
-    },
-    "profile": {
-        "Title": "Profil",
-        "Male": "Han",
-        "Female": "Kvinde",
-        "Other": "Andet",
-        "dating": {
-            "Interested": "Interesseret",
-            "NotInterested": "Ikke interesseret",
-            "MatchmakerOnly": "Kun matchmaker"
-        },
-        "StartConversation": "Start en samtale",
-        "blockUser": "Bloker denne bruger",
-        "blockUserAlert": "Du vil ikke se flere beskeder fra denne bruger, før du fjerner blokeringen af dem.",
-        "unblockUser": "Fjern blokeringen af denne bruger",
-        "addToContacts": "Tilføj til kontakter",
-        "manageLabels": "Administrer etiketter",
-        "inviteUsers": "Inviter brugere",
-        "inviteSuccess": "Inviteret bruger som {{label}}",
-        "invite": "Invitere",
-        "relationships": "Relationer",
-        "newRole": "Ny rolle",
-        "about": "Om",
-        "people": "Mennesker",
-        "info": "Info",
-        "interests": "Interesser",
-        "chat": "Snak",
-        "locations": "Placeringer",
-        "ManageRoles": "Administrer roller",
-        "aboutPlaceholder": "Hvem er du og hvad laver du? Fortæl folk noget interessant eller unikt om dig selv.",
-        "explanation": "Din profil hjælper dig med at matche dig bedre med andre mennesker til gruppeaktiviteter.<br> Indtast venligst din fødselsdag",
-        "chats": {
-            "placeholder": "Sig noget"
-        },
-        "LogOut": "Log ud",
-        "selectRole": "Vælg Rolle",
-        "MyLinks": "Mine links",
-        "MyJobs": "Mine job",
-        "MySocial": "MySocial",
-        "MyEducation": "Min Uddannelse",
-        "JobsPlaceholder": "Skriv jobinfo her",
-        "EducationPlaceholder": "Indtast uddannelsesinfo her",
-        "ManageNotifications": "Administrer meddelelser",
-        "YourPreferredLanguage": "Dit foretrukne sprog",
-        "SendCrypto": "Betale",
-        "Block": "Blok",
-        "Unblock": "Fjern blokering",
-        "Email": "E-mail",
-        "Avoid": "Undgå",
-        "CreatePrivateChat": "Vil du bruge {{credits}} kreditter for at nå ud?",
-        "RolesInCommunity": "Roller i fællesskabet",
-        "PersonalChatWith": "Personlig chat med {{name}}",
-        "SendCryptoTo": "Send krypto til {{name}}",
-        "SendEmailTo": "Send e-mail til {{name}}",
-        "SendSMSTo": "Send sms til {{name}}",
-        "BlockThisUser": "Bloker denne bruger",
-        "UnblockThisUser": "Fjern blokeringen af denne bruger",
-        "YouCantChatWithYourself": "Du kan ikke chatte med dig selv",
-        "blockUserAlertTitle": "Blokeret {{displayName}}",
-        "sections": {
-            "education": "Uddannelse",
-            "greeting": "Hilsen",
-            "jobs": "Jobs",
-            "links": "Links",
-            "language": "Sprog",
-            "roles": "Roller",
-            "personal": "Personlig",
-            "social": "Social"
-        },
-        "Roles": "Roller",
-        "SendPaymentTo": "Send en betaling til {{name}}"
-    },
-    "myqr": {
-        "Title": "Min QR"
-    },
-    "composer": {
-        "createCommunity": "Opret fællesskab",
-        "inviteAdmin": "Inviter administrator",
-        "inviteMember": "Inviter medlem",
-        "newCommunityTitle": "Gruppenavn",
-        "setCommunityTitle": "Gruppenavn",
-        "creditsChargeRequest": "Accepterer du at bruge {{price}} kreditter?",
-        "yes": "Ja",
-        "no": "Ingen"
-    },
-    "notifications": {
-        "WelcomePleaseVerifyEmail": "Velkommen! Bekræft venligst din e-mailadresse.",
-        "WelcomeVerifyEmail": "Velkommen! Bekræft din e-mail-adresse.",
-        "ForgetPass": "Hej, har du glemt din adgangskode?",
-        "ManageEmailSubscriptions": "administrere dine e-mail-abonnementer",
-        "IfUnsubscribe": "Hvis du vil afmelde"
-    },
-    "speak": {
-        "onboarding": {
-            "name": {
-                "Welcome": "Velkommen til {{CommunityName}}. Denne app hjælper dig med at komme i kontakt med venner, opdage nye mennesker med fælles interesser og meget mere. Lad os komme igang!"
-            },
-            "icon": {
-                "Commentary": "Indstil dit billede. Sådan vil folk se dig på webstedet."
-            },
-            "interests": {
-                "Commentary": "Jo flere ting du vælger, jo flere mennesker kan du møde.",
-                "Notifications": "Du skal tillade notifikationer"
-            }
-        },
-        "subscriptions": {
-            "confirm": "Meddelelser giver dig mulighed for at vide om ting, du er interesseret i, såsom når en ven tilmelder sig appen eller sender beskeder til dig."
-        },
-        "invite": "{{Q.words.TapOrClick}} her for at se, hvordan du kan dele dette med andre mennesker."
-    },
-    "payment": {
-        "onContribute": "Tak skal du have! Din betaling gik igennem. Vil du invitere dine venner med?",
-        "ConnectAccount": "Tilslut konto"
-    },
-    "featureboard": {
-        "Text_1": "Lad din stemme blive hørt! Er du enig i, at vi skal udvikle en funktion eller fejl? Klik på knappen for at understøtte det.",
-        "Text_2": "Vil du have, at vi udvikler en ny funktion? Beskriv det nedenfor.",
-        "Text_3": "Hver uge begynder vi at udvikle den mest efterspurgte funktion af fællesskabet. Alle penge, der bidrages, går til det formål, hvilket giver os mulighed for at gøre appen bedre.",
-        "Text_4": "Alle indbetalte penge bruges til at betale vores udviklingsomkostninger.",
-        "Text_5": "Har du en idé til en funktion eller fejlrettelse, som du vil have os til at lave, men som du ikke har set andre tilføje endnu? Beskriv det nedenfor:",
-        "Options": [
-            {
-                "text": "$400 Videokonference i realtid"
-            },
-            {
-                "defaultAmount": "10",
-                "text": "$200 Local Primary registreringsoplysninger"
-            },
-            {
-                "text": "$130 Gennemse og del tusindvis af {{1}} memes",
-                "defaultAmount": "10"
-            },
-            {
-                "text": "$80 Administrer dine egne fællesskaber",
-                "defaultAmount": "10"
-            },
-            {
-                "text": "$30 Ret samtale-fejl",
-                "defaultAmount": "10"
-            }
-        ],
-        "RequestNewFeature": "Anmod om en ny funktion\/fejlrettelse",
-        "FeaturePlaceholder": "Kort resumé af funktion",
-        "FeatureDescription": "Beskriv, hvordan en anden kan genskabe den fejl, du ser, eller beskriv detaljeret den funktion, du vil bygge",
-        "AddYourRequest": "Tilføj din anmodning",
-        "NewFeature": "Ny funktion"
-    },
-    "assetshistory": {
-        "Title": "Aktiver historie",
-        "Charges": "Afgifter",
-        "Credits": "Credits"
-    },
-    "contribute": {
-        "ContributeExplanation": "Hjælp med at understøtte den fortsatte udvikling af {{communityName}}-appen. Alle dine bidrag hjælper med at rette fejl og udvikle nye funktioner for at hjælpe med at vokse onlinefællesskabet!",
-        "ReasonToContribute": "Denne app vedligeholdes af tilhængere af {{communityName}}. Hjælp med at støtte denne app, så vi kan gøre en forskel i folks liv!"
-    },
-    "accounts": {
-        "remove": {
-            "title": "Fjern konto",
-            "content": "Vil du fjerne denne konto?",
-            "ok": "Ja",
-            "cancel": "Ingen"
-        }
-    },
-    "import": {
-        "fileNotFound": "Beklager, CSV-filen blev ikke fundet.",
-        "fileEmpty": "Beklager, CSV-filen er tom.",
-        "userIdNotFound": "bruger eksisterer, men id&#39;et er tomt",
-        "errorLine": "linje {{1}}",
-        "fieldNotFound": "Det påkrævede felt &quot;{{1}}&quot; blev ikke fundet",
-        "taskStreamInvalid": "opgavestrømmen er ugyldig",
-        "instructionsEmpty": "opgavestrømmens instruktioner er tomme",
-        "complete": "Komplet",
-        "activateUsers": "sende aktiveringsbesked til brugere?",
-        "importProgress": "Fremskridt",
-        "joinEventLabel": "Slut brugerne til en tilfældig begivenhed",
-        "importOptions": "Muligheder",
-        "sampleCSV": "Download eksempel på CSV",
-        "fileLabel": "Upload regneark:",
-        "errorsTitle": "Der opstod fejl",
-        "communityUsers": "Dette er fællesskabslisten",
-        "setAsConversation": "URL-kolonne som samtale",
-        "toMainCommunityToo": "tilføje brugere til hovedfællesskabet også",
-        "willImportedTo": "Brugere vil blive importeret til fællesskabet",
-        "ChooseFile": "Vælg fil"
-    },
-    "dashboard": {
-        "Menu": "Menu",
-        "Home": "Hjem",
-        "Welcome": "Velkommen",
-        "Events": "Begivenheder",
-        "Discuss": "Drøfte",
-        "People": "Mennesker",
-        "About": "Om",
-        "Community": "Fællesskab",
-        "LogIn": "Log på",
-        "LogOut": "Log ud",
-        "Intercoin": "Intercoin",
-        "Shows": "Viser sig",
-        "Calendar": "Kalender",
-        "Me": "Mig",
-        "Media": "Medier",
-        "Services": "Tjenester",
-        "SetMobileNumber": "Indstil mobilnummer",
-        "SetEmailAddress": "Indstil e-mail-adresse"
-    },
-    "services": {
-        "Title": "Tjenester",
-        "filterByTitle": "Find tjenester efter titel",
-        "New": "+ Start ny tjeneste",
-        "NewService": "Ny service",
-        "filterServices": "Filtertjenester",
-        "NoneYet": "Ingen tjenester er oprettet endnu<br> i disse tider.",
-        "AllAuthors": "Alle forfattere",
-        "AllDays": "Alle dage",
-        "AllLocations": "Alle lokationer",
-        "MakeReservation": "Foretag reservation",
-        "CancelReservation": "Annuller reservation",
-        "UpdateReservation": "Opdater reservation",
-        "AreYouSure": "Er du sikker?",
-        "YouWillRefunded": "Du vil blive refunderet i form af kreditter, du kan bruge på andre ting i appen.",
-        "AllInterests": "Alle interesser",
-        "FilterbyInterest": "Filtrer efter interesse",
-        "FilterByDate": "Filtrer efter dato",
-        "ShowActivities": "Vis aktiviteter relateret til...",
-        "newServices": "Du har {{1}} nye tjenester",
-        "SelectLocation": "Vælg Placering",
-        "FilterLocationsPlaceHolder": "Filtrer spillesteder med...",
-        "Description": "{{1}} tjeneste",
-        "Keywords": "{{1}} tjeneste",
-        "NewAvailability": "Ny tilgængelighed"
-    },
-    "welcome": {
-        "Title": "{{appName}}: velkommen",
-        "GetStarted": "Kom igang",
-        "gallery": {
-            "Connect": "Forbinde",
-            "Organize": "Organisere",
-            "Travel": "Rejse",
-            "Share": "Del"
-        }
-    }
+	"notFound": {
+		"Explanation": "<span class='url'>{{1}}</span> peger ikke p\u00e5 noget!",
+		"NextSteps": "Brug hovedmenuen til at finde det, du leder efter."
+	},
+	"greeting": {
+		"Welcome": "Velkommen til {{1}}. Her finder du ting, der er lagt ud for medlemmer af vores f\u00e6llesskab. Tilf\u00f8j venligst din e-mailadresse eller mobilnummer for at modtage meddelelser, n\u00e5r meddelelser sendes."
+	},
+	"conversations": {
+		"New": "Ny samtale",
+		"Conversation": "Samtale",
+		"Topics": "Emner",
+		"NoneYet": "Der er ikke dannet nogen samtaler endnu",
+		"newConversations": "{{1}} nye samtaler",
+		"AllAuthors": "Alle forfattere",
+		"FilterbyAuthors": "Filtrer efter forfattere",
+		"FilterAuthorPlaceHolder": "S\u00f8g efter flere forfattere...",
+		"Title": "Samtaler",
+		"Description": "{{1}} samtaler",
+		"filterConversations": "Filtrer efter tekst"
+	},
+	"newConversation": {
+		"composer": {
+			"ChooseActivity": "V\u00e6lg et emne",
+			"Share": "Del",
+			"interest": {
+				"Title": "V\u00e6lg en aktivitet",
+				"Filter": "S\u00f8geinteresser..."
+			}
+		},
+		"Title": "Ny samtale",
+		"TitlePlaceholder": "Emnet for din samtale",
+		"ContentPlaceholder": "Skriv et par ord for at starte samtalen, s\u00e5 andre kan svare",
+		"StartButton": "Start samtale"
+	},
+	"events": {
+		"Title": "Begivenheder",
+		"filterByTitle": "Find begivenheder efter titel",
+		"New": "+ Start ny begivenhed",
+		"SetLocation": "Indstil min placering",
+		"NoneYet": "Ingen begivenheder oprettet endnu<br> i disse tider.",
+		"AllDays": "Alle dage",
+		"AllLocations": "Alle lokationer",
+		"AllInterests": "Alle interesser",
+		"FilterbyInterest": "Filtrer efter interesse",
+		"FilterByDate": "Filtrer efter dato",
+		"ShowActivities": "Vis aktiviteter relateret til . . .",
+		"newEvents": "Du har {{1}} nye begivenheder",
+		"SelectLocation": "V\u00e6lg Placering",
+		"FilterLocationsPlaceHolder": "Filtrer spillesteder med...",
+		"AllAuthors": "Alle forfattere",
+		"filterEvents": "Filtrer begivenheder",
+		"NewEvent": "Ny begivenhed",
+		"Description": "{{1}} begivenheder",
+		"Keywords": "{{1}} begivenheder",
+		"MakeReservation": "Foretag reservation",
+		"Reserved": "Annuller reservation",
+		"AreYouSure": "Er du sikker?",
+		"YouWillRefunded": "Du vil blive refunderet i form af kreditter, du kan bruge p\u00e5 andre ting i appen.",
+		"CancelReservation": "Annuller reservation",
+		"UpdateReservation": "Opdater reservation"
+	},
+	"schedule": {
+		"Title": "Tidsplan",
+		"NoneYet": "Du deltager ikke i nogen begivenheder",
+		"AddSome": "Tilf\u00f8j nogle til din tidsplan!",
+		"AddMore": "Tilf\u00f8j begivenheder til din tidsplan!",
+		"future": "fremtid",
+		"past": "forbi"
+	},
+	"location": {
+		"Title": "Beliggenhed",
+		"NewLocation": "Ny placering"
+	},
+	"inbox": {
+		"Title": "Indbakke",
+		"NoneYet": "Du deltager ikke i nogen samtaler",
+		"FindPeople": "Find folk at tale med",
+		"GroupConversations": "Deltag i nogle gruppesamtaler",
+		"ContactStaff": "Kontakt personalet",
+		"ContactCustomers": "Kontakt kunder",
+		"AddNewContact": "Tilf\u00f8j ny kontakt",
+		"AddNewContacts": "Tilf\u00f8j nye kontakter"
+	},
+	"me": {
+		"Title": "Mig",
+		"MobileNumber": "Mobilnummer",
+		"EmailAddress": "Email adresse",
+		"UpdateSocialTitle": "Opdater {{1}} brugernavn",
+		"Web3": "Web3"
+	},
+	"people": {
+		"Title": "Mennesker",
+		"AppAlert": "Denne app i app store giver dig mulighed for at komme i kontakt med dine venner og meget meget mere.",
+		"Invite": "Inviter venner",
+		"FindSomeoneByName": "Find nogen ved navn",
+		"FindAllMyFriends": "Find alle mine venner",
+		"labels": {
+			"All": "Alle sammen",
+			"Title": "Filtrer efter forhold",
+			"New": "Ny type forhold"
+		},
+		"interests": {
+			"All": "Alle interesser",
+			"Title": "Filtrer efter interesse",
+			"Filter": "Vis folk, der er interesserede i. . ."
+		},
+		"SearchByName": "S\u00f8g p\u00e5 navn",
+		"Description": "Personer i {{1}}-f\u00e6llesskabet",
+		"Keywords": "{{1}} personers f\u00e6llesskab",
+		"BuyCredits": "K\u00f8b kreditter"
+	},
+	"communities": {
+		"Title": "F\u00e6llesskaber",
+		"NewCommunity": "Nyt F\u00e6llesskab",
+		"FindCommunityByName": "Find f\u00e6llesskab ved navn",
+		"Description": "{{1}} f\u00e6llesskaber"
+	},
+	"community": {
+		"Title": "{{1}} F\u00e6llesskab",
+		"Roles": "Roller",
+		"AllRoles": "Alle roller",
+		"YouDontHavePermission": "Du er ikke autoriseret til at g\u00f8re dette",
+		"usernamePlaceholder": "s\u00e6t gruppenavn",
+		"NotEnoughCredits": "Du har ikke nok kreditter til at skabe et f\u00e6llesskab. Har du brug for {{1}}, du har {{2}}"
+	},
+	"event": {
+		"GetDirections": "F\u00e5 vejledninger",
+		"WhichMap": "Hvilke kort vil du gerne bruge?",
+		"JoinEventToChat": "Deltag i begivenheden for at chatte",
+		"promote": {
+			"Title": "Promover denne begivenhed",
+			"Prompt": "V\u00e6lg, hvor du vil promovere denne begivenhed:"
+		},
+		"Confirmation": "Bekr\u00e6ftelse"
+	},
+	"newEvent": {
+		"Title": "Planl\u00e6g ny begivenhed"
+	},
+	"interests": {
+		"Title": "Interesser",
+		"prompt": "V\u00e6lg de typer ting, du gerne vil vide om.",
+		"explanation": "Jo flere interesser du v\u00e6lger, jo st\u00f8rre sandsynlighed er der for, at du f\u00e5r forbindelse med ligesindede.",
+		"filter": "Hvad er du interesseret i?",
+		"Profile": "Gensidige interesser fremh\u00e6ves. Hvis du ogs\u00e5 har en eller flere af nedenst\u00e5ende interesser, kan du {{clickOrTap}} tilf\u00f8je dem."
+	},
+	"credits": {
+		"Title": "Credits",
+		"EarnCredits": "Optjen {{1}} kreditter for hver ny person, du inviterer, som tilmelder sig appen",
+		"YouHave": "Du har {{1}} kreditter"
+	},
+	"onboarding": {
+		"Tap": "Tryk p\u00e5",
+		"Click": "Klik",
+		"Yes": "Ja",
+		"No": "Ingen",
+		"name": {
+			"Preface": "Velkommen til",
+			"Placeholder": "Skriv dit fulde navn",
+			"GetStarted": "Kom igang",
+			"AsGuest": "Du er blevet inviteret som g\u00e6st.",
+			"AsMember": "Du er blevet inviteret som medlem.",
+			"AsAdmin": "Du er blevet inviteret som administrator.",
+			"AsOwner": "Du er blevet inviteret som ejer.",
+			"TooShort": "Dit fulde navn kan ikke v\u00e6re s\u00e5 kort",
+			"SetAsYourFullName": "Vil du indstille {{1}} som dit fulde navn?"
+		},
+		"icon": {
+			"KeepDefault": "eller behold dette billede",
+			"SetYourPhoto": "{{ClickOrTap}} for at indstille dit billede:",
+			"ClickOnYourFace": "{{ClickOrTap}} p\u00e5 dit ansigt"
+		},
+		"interests": {
+			"GetStarted": "\u21e9 Kom godt i gang",
+			"NextCategory": "\u2193 N\u00e6ste",
+			"Continue": "Blive ved",
+			"Instructions": "I hver af de n\u00e6ste {{1}} kategorier,<br> {{2}} alle de aktiviteter, du er interesseret i.<br> S\u00e5dan forbinder du dig med andre mennesker i samfundet."
+		},
+		"profile": {
+			"Profile": "Grundl\u00e6ggende oplysninger, der kan hj\u00e6lpe dig med at finde personer:",
+			"Birthday": "Indtast venligst din f\u00f8dselsdag:",
+			"Placeholder": "Hvem er du og hvad laver du? Fort\u00e6l folk noget interessant eller unikt om dig selv.",
+			"Month": "M\u00e5ned",
+			"Day": "Dag",
+			"Year": "\u00c5r",
+			"Gender": "K\u00f8n",
+			"Male": "Han",
+			"Female": "Kvinde",
+			"Other": "Andet",
+			"Height": "H\u00f8jde",
+			"Affiliation": "tilknytning",
+			"Dating": "Dating",
+			"Interested": "Interesseret",
+			"NotInterested": "Ikke interesseret",
+			"MatchmakerOnly": "Kun matchmaker",
+			"Required": "For at forts\u00e6tte skal du skrive mindst et par linjer om dig selv."
+		},
+		"location": {
+			"NoOneElse": "Ingen andre vil se det.",
+			"SetMyLocation": "Indstil min placering"
+		},
+		"pile": {
+			"DialogTitle": "Mennesker med f\u00e6lles interesser"
+		},
+		"Done": "F\u00e6rdig",
+		"Skip": "eller spring dette over",
+		"relationships": {
+			"title": "F\u00f8j {{userName}} til telefonbogen",
+			"welcome": "Velkommen {{user}}",
+			"invitedByUser": "inviterede dig.",
+			"addToPhonebook": "Gem i Mine telefonkontakter",
+			"iosInstructions": "Rul ned til Tilf\u00f8j ny kontakt",
+			"androidInstructions": "Du b\u00f8r \u00e5bne denne vCard-fil, efter at den er blevet downloadet.",
+			"explanation": "Hvad er jeres forhold?"
+		},
+		"Title": "Grundl\u00e6ggende oplysninger",
+		"Prompt": "Et par trin for at konfigurere din konto"
+	},
+	"profile": {
+		"Title": "Profil",
+		"Male": "Han",
+		"Female": "Kvinde",
+		"Other": "Andet",
+		"dating": {
+			"Interested": "Interesseret",
+			"NotInterested": "Ikke interesseret",
+			"MatchmakerOnly": "Kun matchmaker"
+		},
+		"StartConversation": "Start en samtale",
+		"blockUser": "Bloker denne bruger",
+		"blockUserAlert": "Du vil ikke se flere beskeder fra denne bruger, f\u00f8r du fjerner blokeringen af dem.",
+		"unblockUser": "Fjern blokeringen af denne bruger",
+		"addToContacts": "Tilf\u00f8j til kontakter",
+		"manageLabels": "Administrer etiketter",
+		"inviteUsers": "Inviter brugere",
+		"inviteSuccess": "Inviteret bruger som {{label}}",
+		"invite": "Invitere",
+		"relationships": "Relationer",
+		"newRole": "Ny rolle",
+		"about": "Om",
+		"people": "Mennesker",
+		"info": "Info",
+		"interests": "Interesser",
+		"chat": "Snak",
+		"locations": "Placeringer",
+		"ManageRoles": "Administrer roller",
+		"aboutPlaceholder": "Hvem er du og hvad laver du? Fort\u00e6l folk noget interessant eller unikt om dig selv.",
+		"explanation": "Din profil hj\u00e6lper dig med at matche dig bedre med andre mennesker til gruppeaktiviteter.<br> Indtast venligst din f\u00f8dselsdag",
+		"chats": {
+			"placeholder": "Sig noget"
+		},
+		"LogOut": "Log ud",
+		"selectRole": "V\u00e6lg Rolle",
+		"MyLinks": "Mine links",
+		"MyJobs": "Mine job",
+		"MySocial": "MySocial",
+		"MyEducation": "Min Uddannelse",
+		"JobsPlaceholder": "Skriv jobinfo her",
+		"EducationPlaceholder": "Indtast uddannelsesinfo her",
+		"ManageNotifications": "Administrer meddelelser",
+		"YourPreferredLanguage": "Dit foretrukne sprog",
+		"SendCrypto": "Betale",
+		"Block": "Blok",
+		"Unblock": "Fjern blokering",
+		"Email": "E-mail",
+		"Avoid": "Undg\u00e5",
+		"CreatePrivateChat": "Vil du bruge {{credits}} kreditter for at n\u00e5 ud?",
+		"RolesInCommunity": "Roller i f\u00e6llesskabet",
+		"PersonalChatWith": "Personlig chat med {{name}}",
+		"SendCryptoTo": "Send krypto til {{name}}",
+		"SendEmailTo": "Send e-mail til {{name}}",
+		"SendSMSTo": "Send sms til {{name}}",
+		"BlockThisUser": "Bloker denne bruger",
+		"UnblockThisUser": "Fjern blokeringen af denne bruger",
+		"YouCantChatWithYourself": "Du kan ikke chatte med dig selv",
+		"blockUserAlertTitle": "Blokeret {{displayName}}",
+		"sections": {
+			"education": "Uddannelse",
+			"greeting": "Hilsen",
+			"jobs": "Jobs",
+			"links": "Links",
+			"language": "Sprog",
+			"roles": "Roller",
+			"personal": "Personlig",
+			"social": "Social"
+		},
+		"Roles": "Roller",
+		"SendPaymentTo": "Send en betaling til {{name}}"
+	},
+	"myqr": {
+		"Title": "Min QR"
+	},
+	"composer": {
+		"createCommunity": "Opret f\u00e6llesskab",
+		"inviteAdmin": "Inviter administrator",
+		"inviteMember": "Inviter medlem",
+		"newCommunityTitle": "Gruppenavn",
+		"setCommunityTitle": "Gruppenavn",
+		"creditsChargeRequest": "Accepterer du at bruge {{price}} kreditter?",
+		"yes": "Ja",
+		"no": "Ingen"
+	},
+	"notifications": {
+		"WelcomePleaseVerifyEmail": "Velkommen! Bekr\u00e6ft venligst din e-mailadresse.",
+		"WelcomeVerifyEmail": "Velkommen! Bekr\u00e6ft din e-mail-adresse.",
+		"ForgetPass": "Hej, har du glemt din adgangskode?",
+		"ManageEmailSubscriptions": "administrere dine e-mail-abonnementer",
+		"IfUnsubscribe": "Hvis du vil afmelde"
+	},
+	"speak": {
+		"onboarding": {
+			"name": {
+				"Welcome": "Velkommen til {{CommunityName}}. Denne app hj\u00e6lper dig med at komme i kontakt med venner, opdage nye mennesker med f\u00e6lles interesser og meget mere. Lad os komme igang!"
+			},
+			"icon": {
+				"Commentary": "Indstil dit billede. S\u00e5dan vil folk se dig p\u00e5 webstedet."
+			},
+			"interests": {
+				"Commentary": "Jo flere ting du v\u00e6lger, jo flere mennesker kan du m\u00f8de.",
+				"Notifications": "Du skal tillade notifikationer"
+			}
+		},
+		"subscriptions": {
+			"confirm": "Meddelelser giver dig mulighed for at vide om ting, du er interesseret i, s\u00e5som n\u00e5r en ven tilmelder sig appen eller sender beskeder til dig."
+		},
+		"invite": "{{Q.words.TapOrClick}} her for at se, hvordan du kan dele dette med andre mennesker."
+	},
+	"payment": {
+		"onContribute": "Tak skal du have! Din betaling gik igennem. Vil du invitere dine venner med?",
+		"ConnectAccount": "Tilslut konto"
+	},
+	"featureboard": {
+		"Text_1": "Lad din stemme blive h\u00f8rt! Er du enig i, at vi skal udvikle en funktion eller fejl? Klik p\u00e5 knappen for at underst\u00f8tte det.",
+		"Text_2": "Vil du have, at vi udvikler en ny funktion? Beskriv det nedenfor.",
+		"Text_3": "Hver uge begynder vi at udvikle den mest efterspurgte funktion af f\u00e6llesskabet. Alle penge, der bidrages, g\u00e5r til det form\u00e5l, hvilket giver os mulighed for at g\u00f8re appen bedre.",
+		"Text_4": "Alle indbetalte penge bruges til at betale vores udviklingsomkostninger.",
+		"Text_5": "Har du en id\u00e9 til en funktion eller fejlrettelse, som du vil have os til at lave, men som du ikke har set andre tilf\u00f8je endnu? Beskriv det nedenfor:",
+		"Options": [
+			{
+				"text": "$400 Videokonference i realtid"
+			},
+			{
+				"defaultAmount": "10",
+				"text": "$200 Local Primary registreringsoplysninger"
+			},
+			{
+				"text": "$130 Gennemse og del tusindvis af {{1}} memes",
+				"defaultAmount": "10"
+			},
+			{
+				"text": "$80 Administrer dine egne f\u00e6llesskaber",
+				"defaultAmount": "10"
+			},
+			{
+				"text": "$30 Ret samtale-fejl",
+				"defaultAmount": "10"
+			}
+		],
+		"RequestNewFeature": "Anmod om en ny funktion/fejlrettelse",
+		"FeaturePlaceholder": "Kort resum\u00e9 af funktion",
+		"FeatureDescription": "Beskriv, hvordan en anden kan genskabe den fejl, du ser, eller beskriv detaljeret den funktion, du vil bygge",
+		"AddYourRequest": "Tilf\u00f8j din anmodning",
+		"NewFeature": "Ny funktion"
+	},
+	"assetshistory": {
+		"Title": "Aktiver historie",
+		"Charges": "Afgifter",
+		"Credits": "Credits"
+	},
+	"contribute": {
+		"ContributeExplanation": "Hj\u00e6lp med at underst\u00f8tte den fortsatte udvikling af {{communityName}}-appen. Alle dine bidrag hj\u00e6lper med at rette fejl og udvikle nye funktioner for at hj\u00e6lpe med at vokse onlinef\u00e6llesskabet!",
+		"ReasonToContribute": "Denne app vedligeholdes af tilh\u00e6ngere af {{communityName}}. Hj\u00e6lp med at st\u00f8tte denne app, s\u00e5 vi kan g\u00f8re en forskel i folks liv!"
+	},
+	"accounts": {
+		"remove": {
+			"title": "Fjern konto",
+			"content": "Vil du fjerne denne konto?",
+			"ok": "Ja",
+			"cancel": "Ingen"
+		}
+	},
+	"import": {
+		"fileNotFound": "Beklager, CSV-filen blev ikke fundet.",
+		"fileEmpty": "Beklager, CSV-filen er tom.",
+		"userIdNotFound": "bruger eksisterer, men id&#39;et er tomt",
+		"errorLine": "linje {{1}}",
+		"fieldNotFound": "Det p\u00e5kr\u00e6vede felt &quot;{{1}}&quot; blev ikke fundet",
+		"taskStreamInvalid": "opgavestr\u00f8mmen er ugyldig",
+		"instructionsEmpty": "opgavestr\u00f8mmens instruktioner er tomme",
+		"complete": "Komplet",
+		"activateUsers": "sende aktiveringsbesked til brugere?",
+		"importProgress": "Fremskridt",
+		"joinEventLabel": "Slut brugerne til en tilf\u00e6ldig begivenhed",
+		"importOptions": "Muligheder",
+		"sampleCSV": "Download eksempel p\u00e5 CSV",
+		"fileLabel": "Upload regneark:",
+		"errorsTitle": "Der opstod fejl",
+		"communityUsers": "Dette er f\u00e6llesskabslisten",
+		"setAsConversation": "URL-kolonne som samtale",
+		"toMainCommunityToo": "tilf\u00f8je brugere til hovedf\u00e6llesskabet ogs\u00e5",
+		"willImportedTo": "Brugere vil blive importeret til f\u00e6llesskabet",
+		"ChooseFile": "V\u00e6lg fil"
+	},
+	"dashboard": {
+		"Menu": "Menu",
+		"Home": "Hjem",
+		"Welcome": "Velkommen",
+		"Events": "Begivenheder",
+		"Discuss": "Dr\u00f8fte",
+		"People": "Mennesker",
+		"About": "Om",
+		"Community": "F\u00e6llesskab",
+		"LogIn": "Log p\u00e5",
+		"LogOut": "Log ud",
+		"Intercoin": "Intercoin",
+		"Shows": "Viser sig",
+		"Calendar": "Kalender",
+		"Me": "Mig",
+		"Media": "Medier",
+		"Services": "Tjenester",
+		"SetMobileNumber": "Indstil mobilnummer",
+		"SetEmailAddress": "Indstil e-mail-adresse"
+	},
+	"services": {
+		"Title": "Tjenester",
+		"filterByTitle": "Find tjenester efter titel",
+		"New": "+ Start ny tjeneste",
+		"NewService": "Ny service",
+		"filterServices": "Filtertjenester",
+		"NoneYet": "Ingen tjenester er oprettet endnu<br> i disse tider.",
+		"AllAuthors": "Alle forfattere",
+		"AllDays": "Alle dage",
+		"AllLocations": "Alle lokationer",
+		"MakeReservation": "Foretag reservation",
+		"CancelReservation": "Annuller reservation",
+		"UpdateReservation": "Opdater reservation",
+		"AreYouSure": "Er du sikker?",
+		"YouWillRefunded": "Du vil blive refunderet i form af kreditter, du kan bruge p\u00e5 andre ting i appen.",
+		"AllInterests": "Alle interesser",
+		"FilterbyInterest": "Filtrer efter interesse",
+		"FilterByDate": "Filtrer efter dato",
+		"ShowActivities": "Vis aktiviteter relateret til...",
+		"newServices": "Du har {{1}} nye tjenester",
+		"SelectLocation": "V\u00e6lg Placering",
+		"FilterLocationsPlaceHolder": "Filtrer spillesteder med...",
+		"Description": "{{1}} tjeneste",
+		"Keywords": "{{1}} tjeneste",
+		"NewAvailability": "Ny tilg\u00e6ngelighed"
+	},
+	"welcome": {
+		"Title": "{{appName}}: velkommen",
+		"GetStarted": "Kom igang",
+		"gallery": {
+			"Connect": "Forbinde",
+			"Organize": "Organisere",
+			"Travel": "Rejse",
+			"Share": "Del"
+		}
+	}
 }

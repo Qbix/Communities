@@ -1,24 +1,24 @@
 {
-    "activation": {
-        "Thanks": "Velkommen til {{1}}.",
-        "ClickHere": "Klik her for at aktivere din konto: {{1}}"
-    },
-    "addMobile": {
-        "ClickHere": "Klik her for at bekræfte dit mobilnummer: {{1}}"
-    },
-    "SeeHistory": "Se betalingshistorik for {{1}}",
-    "charge": {
-        "HasBeenCharged": "{{1}} er blevet debiteret {{2}} for {{3}} af {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Hej {{1}}, dette er blot en hurtig bekræftelse på, at du har betalt {{2}} til {{3}} for {{4}}"
-    },
-    "subscription": {
-        "YouHaveStarted": "Du har abonneret på {{2}} med {{3}} på {{4}} i {{5}} måneder.",
-        "HasStarted": "{{1}} har abonneret på {{2}} med {{3}} på {{4}} i {{5}} måneder."
-    },
-    "resend": {
-        "DidYouWant": "Ville du nulstille din adgangssætning i {{1}}?",
-        "ClickHere": "Klik derefter her: {{1}}"
-    }
+	"activation": {
+		"Thanks": "Velkommen til {{1}}.",
+		"ClickHere": "Klik her for at aktivere din konto: {{1}}"
+	},
+	"addMobile": {
+		"ClickHere": "Klik her for at bekr\u00e6fte dit mobilnummer: {{1}}"
+	},
+	"SeeHistory": "Se betalingshistorik for {{1}}",
+	"charge": {
+		"HasBeenCharged": "{{1}} er blevet debiteret {{2}} for {{3}} af {{4}}"
+	},
+	"charged": {
+		"HavePaid": "Hej {{1}}, dette er blot en hurtig bekr\u00e6ftelse p\u00e5, at du har betalt {{2}} til {{3}} for {{4}}"
+	},
+	"subscription": {
+		"YouHaveStarted": "Du har abonneret p\u00e5 {{2}} med {{3}} p\u00e5 {{4}} i {{5}} m\u00e5neder.",
+		"HasStarted": "{{1}} har abonneret p\u00e5 {{2}} med {{3}} p\u00e5 {{4}} i {{5}} m\u00e5neder."
+	},
+	"resend": {
+		"DidYouWant": "Ville du nulstille din adgangss\u00e6tning i {{1}}?",
+		"ClickHere": "Klik derefter her: {{1}}"
+	}
 }

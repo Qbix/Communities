@@ -1,33 +1,33 @@
 {
-    "activation": {
-        "Thanks": "Croeso i {{1}}",
-        "ReallyYourEmail": "Ai hwn yw eich cyfeiriad e-bost mewn gwirionedd, {{1}}? Os felly, cliciwch <a href='{{2}}'>yma<\/a> i osod eich cyfrinair ac actifadu eich cyfrif.",
-        "SeeYou": "Welwn ni chi ar <a href='{{1}}'>{{2}}<\/a> !",
-        "Subject": "Croeso! Gwiriwch eich cyfeiriad e-bost."
-    },
-    "LinkToUnsubscribe": "Dyma ddolen i ddad- <a href='{{1}}'>danysgrifio<\/a> os nad ydych am gael rhagor o e-byst.",
-    "Greetings": "Cyfarchion gan {{1}}.",
-    "SeeHistory": "Gweld hanes talu ar gyfer {{1}}",
-    "charge": {
-        "HasBeenCharged": "Hei, mae hyn er mwyn rhoi gwybod i chi bod {{1}} wedi cael ei godi {{2}} am {{3}} gan {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Hei {{1}}, dim ond cadarnhad cyflym yw hwn eich bod wedi llwyddo i dalu {{2}} i {{3}} am {{4}}"
-    },
-    "resend": {
-        "Thanks": "Diolch am ymweld â {{1}}",
-        "YouAreReceiving": "Rydych chi&#39;n derbyn yr e-bost hwn oherwydd bod rhywun wedi rhoi eich cyfeiriad e-bost a chlicio &quot;anghofio cyfrinair&quot;. Os nad chi oedd hi, anwybyddwch y neges hon.",
-        "Reset": "I ailosod eich cyfrinair, cliciwch {{1}}",
-        "SetUpPassphrase": "Gosod cyfrinair",
-        "DomainCode": "Os yw&#39;r dudalen we eisoes ar agor yn eich porwr, gallwch roi&#39;r cod",
-        "Subject": "Hei, a wnaethoch chi anghofio&#39;ch cyfrinair?"
-    },
-    "subscription": {
-        "YouHaveStarted": "Hei {{1}}, rydych wedi dechrau eich tanysgrifiad i {{2}} gyda {{3}} am {{4}} am {{5}} mis.",
-        "HasStarted": "Mae hyn er mwyn rhoi gwybod i chi {{1}}, wedi dechrau eu tanysgrifiad i {{2}} gyda {{3}} am {{4}} am {{5}} mis."
-    },
-    "SeeYou": "Welwn ni chi ar {{1}}!",
-    "identifier": {
-        "Subject": "Croeso! Gwiriwch eich cyfeiriad e-bost."
-    }
+	"activation": {
+		"Thanks": "Croeso i {{1}}",
+		"ReallyYourEmail": "Ai hwn yw eich cyfeiriad e-bost mewn gwirionedd, {{1}}? Os felly, cliciwch <a href='{{2}}'>yma</a> i osod eich cyfrinair ac actifadu eich cyfrif.",
+		"SeeYou": "Welwn ni chi ar <a href='{{1}}'>{{2}}</a> !",
+		"Subject": "Croeso! Gwiriwch eich cyfeiriad e-bost."
+	},
+	"LinkToUnsubscribe": "Dyma ddolen i ddad- <a href='{{1}}'>danysgrifio</a> os nad ydych am gael rhagor o e-byst.",
+	"Greetings": "Cyfarchion gan {{1}}.",
+	"SeeHistory": "Gweld hanes talu ar gyfer {{1}}",
+	"charge": {
+		"HasBeenCharged": "Hei, mae hyn er mwyn rhoi gwybod i chi bod {{1}} wedi cael ei godi {{2}} am {{3}} gan {{4}}"
+	},
+	"charged": {
+		"HavePaid": "Hei {{1}}, dim ond cadarnhad cyflym yw hwn eich bod wedi llwyddo i dalu {{2}} i {{3}} am {{4}}"
+	},
+	"resend": {
+		"Thanks": "Diolch am ymweld \u00e2 {{1}}",
+		"YouAreReceiving": "Rydych chi&#39;n derbyn yr e-bost hwn oherwydd bod rhywun wedi rhoi eich cyfeiriad e-bost a chlicio &quot;anghofio cyfrinair&quot;. Os nad chi oedd hi, anwybyddwch y neges hon.",
+		"Reset": "I ailosod eich cyfrinair, cliciwch {{1}}",
+		"SetUpPassphrase": "Gosod cyfrinair",
+		"DomainCode": "Os yw&#39;r dudalen we eisoes ar agor yn eich porwr, gallwch roi&#39;r cod",
+		"Subject": "Hei, a wnaethoch chi anghofio&#39;ch cyfrinair?"
+	},
+	"subscription": {
+		"YouHaveStarted": "Hei {{1}}, rydych wedi dechrau eich tanysgrifiad i {{2}} gyda {{3}} am {{4}} am {{5}} mis.",
+		"HasStarted": "Mae hyn er mwyn rhoi gwybod i chi {{1}}, wedi dechrau eu tanysgrifiad i {{2}} gyda {{3}} am {{4}} am {{5}} mis."
+	},
+	"SeeYou": "Welwn ni chi ar {{1}}!",
+	"identifier": {
+		"Subject": "Croeso! Gwiriwch eich cyfeiriad e-bost."
+	}
 }

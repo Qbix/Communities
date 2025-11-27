@@ -1,12 +1,12 @@
 {
-    "flyer1": {
-        "YouAreInvited": "U word uitgenooi",
-        "Member": "Lid by {{title}}",
-        "Explanation": "{{1}} kondig graag die bekendstelling van ons nuwe webwerf aan. Dit bevat &#39;n groeiende lys kenmerke, soos:",
-        "Public": "Publieke inligting oor {{1}}",
-        "Private": "&#39;n Privaat gebruikersrekening vir elke lid",
-        "Notifications": "Deur jou e-posadres of selfoonnommer in te voer, sal jy belangrike kennisgewings per e-pos of SMS kan ontvang.",
-        "GetStarted": "Om te begin, voer asseblief <em>versigtig<\/em> in jou webblaaier in:<br>",
-        "IssuedToYou": "Hierdie kode word spesifiek aan jou uitgereik."
-    }
+	"flyer1": {
+		"YouAreInvited": "U word uitgenooi",
+		"Member": "Lid by {{title}}",
+		"Explanation": "{{1}} kondig graag die bekendstelling van ons nuwe webwerf aan. Dit bevat &#39;n groeiende lys kenmerke, soos:",
+		"Public": "Publieke inligting oor {{1}}",
+		"Private": "&#39;n Privaat gebruikersrekening vir elke lid",
+		"Notifications": "Deur jou e-posadres of selfoonnommer in te voer, sal jy belangrike kennisgewings per e-pos of SMS kan ontvang.",
+		"GetStarted": "Om te begin, voer asseblief <em>versigtig</em> in jou webblaaier in:<br>",
+		"IssuedToYou": "Hierdie kode word spesifiek aan jou uitgereik."
+	}
 }

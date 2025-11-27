@@ -1,24 +1,24 @@
 {
-    "activation": {
-        "Thanks": "Karibu kwenye {{1}}.",
-        "ClickHere": "Bofya hapa ili kuwezesha akaunti yako: {{1}}"
-    },
-    "addMobile": {
-        "ClickHere": "Bofya hapa ili kuthibitisha nambari yako ya simu: {{1}}"
-    },
-    "SeeHistory": "Angalia historia ya malipo ya {{1}}",
-    "charge": {
-        "HasBeenCharged": "{{1}} imetozwa {{2}} kwa {{3}} na {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Hujambo {{1}}, huu ni uthibitisho wa haraka kwamba umelipa {{2}} kwa {{3}} kwa {{4}}"
-    },
-    "subscription": {
-        "YouHaveStarted": "Umejisajili kwenye {{2}} kwa {{3}} kwa {{4}} kwa {{5}} miezi.",
-        "HasStarted": "{{1}} amejisajili kwa {{2}} kwa {{3}} kwa {{4}} kwa {{5}} miezi."
-    },
-    "resend": {
-        "DidYouWant": "Je, ulitaka kuweka upya neno lako la siri katika {{1}}?",
-        "ClickHere": "Kisha bofya hapa: {{1}}"
-    }
+	"activation": {
+		"Thanks": "Karibu kwenye {{1}}.",
+		"ClickHere": "Bofya hapa ili kuwezesha akaunti yako: {{1}}"
+	},
+	"addMobile": {
+		"ClickHere": "Bofya hapa ili kuthibitisha nambari yako ya simu: {{1}}"
+	},
+	"SeeHistory": "Angalia historia ya malipo ya {{1}}",
+	"charge": {
+		"HasBeenCharged": "{{1}} imetozwa {{2}} kwa {{3}} na {{4}}"
+	},
+	"charged": {
+		"HavePaid": "Hujambo {{1}}, huu ni uthibitisho wa haraka kwamba umelipa {{2}} kwa {{3}} kwa {{4}}"
+	},
+	"subscription": {
+		"YouHaveStarted": "Umejisajili kwenye {{2}} kwa {{3}} kwa {{4}} kwa {{5}} miezi.",
+		"HasStarted": "{{1}} amejisajili kwa {{2}} kwa {{3}} kwa {{4}} kwa {{5}} miezi."
+	},
+	"resend": {
+		"DidYouWant": "Je, ulitaka kuweka upya neno lako la siri katika {{1}}?",
+		"ClickHere": "Kisha bofya hapa: {{1}}"
+	}
 }

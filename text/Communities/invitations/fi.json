@@ -1,12 +1,12 @@
 {
-    "flyer1": {
-        "YouAreInvited": "Sinut on kutsuttu",
-        "Member": "Jäsen osoitteessa {{title}}",
-        "Explanation": "{{1}} on ilo ilmoittaa uuden verkkosivustomme käynnistämisestä. Se sisältää kasvavan luettelon ominaisuuksia, kuten:",
-        "Public": "Julkista tietoa aiheesta {{1}}",
-        "Private": "Yksityinen käyttäjätili jokaiselle jäsenelle",
-        "Notifications": "Syöttämällä sähköpostiosoitteesi tai matkapuhelinnumerosi voit vastaanottaa tärkeitä ilmoituksia sähköpostitse tai tekstiviestinä.",
-        "GetStarted": "Aloita kirjoittamalla selaimeesi <em>huolellisesti<\/em> :<br>",
-        "IssuedToYou": "Tämä koodi on myönnetty erityisesti sinulle."
-    }
+	"flyer1": {
+		"YouAreInvited": "Sinut on kutsuttu",
+		"Member": "J\u00e4sen osoitteessa {{title}}",
+		"Explanation": "{{1}} on ilo ilmoittaa uuden verkkosivustomme k\u00e4ynnist\u00e4misest\u00e4. Se sis\u00e4lt\u00e4\u00e4 kasvavan luettelon ominaisuuksia, kuten:",
+		"Public": "Julkista tietoa aiheesta {{1}}",
+		"Private": "Yksityinen k\u00e4ytt\u00e4j\u00e4tili jokaiselle j\u00e4senelle",
+		"Notifications": "Sy\u00f6tt\u00e4m\u00e4ll\u00e4 s\u00e4hk\u00f6postiosoitteesi tai matkapuhelinnumerosi voit vastaanottaa t\u00e4rkeit\u00e4 ilmoituksia s\u00e4hk\u00f6postitse tai tekstiviestin\u00e4.",
+		"GetStarted": "Aloita kirjoittamalla selaimeesi <em>huolellisesti</em> :<br>",
+		"IssuedToYou": "T\u00e4m\u00e4 koodi on my\u00f6nnetty erityisesti sinulle."
+	}
 }

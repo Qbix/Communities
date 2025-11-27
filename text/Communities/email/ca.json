@@ -1,33 +1,33 @@
 {
-    "activation": {
-        "Thanks": "Benvingut a {{1}}",
-        "ReallyYourEmail": "És realment aquesta la teva adreça electrònica, {{1}}? Si és així, feu clic <a href='{{2}}'>aquí<\/a> per configurar la vostra frase de contrasenya i activar el vostre compte.",
-        "SeeYou": "Ens veiem a <a href='{{1}}'>{{2}}<\/a> !",
-        "Subject": "Benvingut! Verifiqueu la vostra adreça de correu electrònic."
-    },
-    "LinkToUnsubscribe": "Aquí teniu un enllaç per donar-vos de <a href='{{1}}'>baixa<\/a> si no voleu rebre més correus electrònics.",
-    "Greetings": "Salutacions de {{1}}.",
-    "SeeHistory": "Consulta l&#39;historial de pagaments de {{1}}",
-    "charge": {
-        "HasBeenCharged": "Hola, això és només per informar-vos que {{1}} s&#39;ha cobrat {{2}} per {{3}} per {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Hola, {{1}}, això és només una confirmació ràpida que has pagat correctament {{2}} a {{3}} per {{4}}"
-    },
-    "resend": {
-        "Thanks": "Gràcies per visitar {{1}}",
-        "YouAreReceiving": "Heu rebut aquest correu electrònic perquè algú ha introduït la vostra adreça de correu electrònic i ha fet clic a &quot;he oblidat la contrasenya&quot;. Si no has estat tu, simplement ignora aquest missatge.",
-        "Reset": "Per restablir la frase de contrasenya, feu clic a {{1}}",
-        "SetUpPassphrase": "Configura la frase de contrasenya",
-        "DomainCode": "Si la pàgina web ja està oberta al vostre navegador, podeu introduir el codi",
-        "Subject": "Ei, has oblidat la teva frase de contrasenya?"
-    },
-    "subscription": {
-        "YouHaveStarted": "Hola, {{1}}, has començat la teva subscripció a {{2}} amb {{3}} a {{4}} durant {{5}} mesos.",
-        "HasStarted": "Això és només per informar-vos que {{1}} ha començat la seva subscripció a {{2}} amb {{3}} a {{4}} durant {{5}} mesos."
-    },
-    "SeeYou": "Ens veiem a {{1}}!",
-    "identifier": {
-        "Subject": "Benvingut! Comproveu la vostra adreça de correu electrònic."
-    }
+	"activation": {
+		"Thanks": "Benvingut a {{1}}",
+		"ReallyYourEmail": "\u00c9s realment aquesta la teva adre\u00e7a electr\u00f2nica, {{1}}? Si \u00e9s aix\u00ed, feu clic <a href='{{2}}'>aqu\u00ed</a> per configurar la vostra frase de contrasenya i activar el vostre compte.",
+		"SeeYou": "Ens veiem a <a href='{{1}}'>{{2}}</a> !",
+		"Subject": "Benvingut! Verifiqueu la vostra adre\u00e7a de correu electr\u00f2nic."
+	},
+	"LinkToUnsubscribe": "Aqu\u00ed teniu un enlla\u00e7 per donar-vos de <a href='{{1}}'>baixa</a> si no voleu rebre m\u00e9s correus electr\u00f2nics.",
+	"Greetings": "Salutacions de {{1}}.",
+	"SeeHistory": "Consulta l&#39;historial de pagaments de {{1}}",
+	"charge": {
+		"HasBeenCharged": "Hola, aix\u00f2 \u00e9s nom\u00e9s per informar-vos que {{1}} s&#39;ha cobrat {{2}} per {{3}} per {{4}}"
+	},
+	"charged": {
+		"HavePaid": "Hola, {{1}}, aix\u00f2 \u00e9s nom\u00e9s una confirmaci\u00f3 r\u00e0pida que has pagat correctament {{2}} a {{3}} per {{4}}"
+	},
+	"resend": {
+		"Thanks": "Gr\u00e0cies per visitar {{1}}",
+		"YouAreReceiving": "Heu rebut aquest correu electr\u00f2nic perqu\u00e8 alg\u00fa ha introdu\u00eft la vostra adre\u00e7a de correu electr\u00f2nic i ha fet clic a &quot;he oblidat la contrasenya&quot;. Si no has estat tu, simplement ignora aquest missatge.",
+		"Reset": "Per restablir la frase de contrasenya, feu clic a {{1}}",
+		"SetUpPassphrase": "Configura la frase de contrasenya",
+		"DomainCode": "Si la p\u00e0gina web ja est\u00e0 oberta al vostre navegador, podeu introduir el codi",
+		"Subject": "Ei, has oblidat la teva frase de contrasenya?"
+	},
+	"subscription": {
+		"YouHaveStarted": "Hola, {{1}}, has comen\u00e7at la teva subscripci\u00f3 a {{2}} amb {{3}} a {{4}} durant {{5}} mesos.",
+		"HasStarted": "Aix\u00f2 \u00e9s nom\u00e9s per informar-vos que {{1}} ha comen\u00e7at la seva subscripci\u00f3 a {{2}} amb {{3}} a {{4}} durant {{5}} mesos."
+	},
+	"SeeYou": "Ens veiem a {{1}}!",
+	"identifier": {
+		"Subject": "Benvingut! Comproveu la vostra adre\u00e7a de correu electr\u00f2nic."
+	}
 }

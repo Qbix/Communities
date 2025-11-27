@@ -1,24 +1,24 @@
 {
-    "activation": {
-        "Thanks": "Willkommen bei {{1}}.",
-        "ClickHere": "Klicken Sie hier, um Ihr Konto zu aktivieren: {{1}}"
-    },
-    "addMobile": {
-        "ClickHere": "Klicken Sie hier, um Ihre Handynummer zu bestätigen: {{1}}"
-    },
-    "SeeHistory": "Siehe Zahlungsverlauf für {{1}}",
-    "charge": {
-        "HasBeenCharged": "{{1}} wurde {{2}} für {{3}} von {{4}} in Rechnung gestellt"
-    },
-    "charged": {
-        "HavePaid": "Hallo {{1}}, dies ist nur eine kurze Bestätigung, dass Sie erfolgreich {{2}} an {{3}} für {{4}} bezahlt haben"
-    },
-    "subscription": {
-        "YouHaveStarted": "Sie haben {{2}} bei {{3}} um {{4}} für {{5}} Monate abonniert.",
-        "HasStarted": "{{1}} hat {{2}} bei {{3}} bei {{4}} für {{5}} Monate abonniert."
-    },
-    "resend": {
-        "DidYouWant": "Wolltest du deine Passphrase in {{1}} zurücksetzen?",
-        "ClickHere": "Dann klicke hier: {{1}}"
-    }
+	"activation": {
+		"Thanks": "Willkommen bei {{1}}.",
+		"ClickHere": "Klicken Sie hier, um Ihr Konto zu aktivieren: {{1}}"
+	},
+	"addMobile": {
+		"ClickHere": "Klicken Sie hier, um Ihre Handynummer zu best\u00e4tigen: {{1}}"
+	},
+	"SeeHistory": "Siehe Zahlungsverlauf f\u00fcr {{1}}",
+	"charge": {
+		"HasBeenCharged": "{{1}} wurde {{2}} f\u00fcr {{3}} von {{4}} in Rechnung gestellt"
+	},
+	"charged": {
+		"HavePaid": "Hallo {{1}}, dies ist nur eine kurze Best\u00e4tigung, dass Sie erfolgreich {{2}} an {{3}} f\u00fcr {{4}} bezahlt haben"
+	},
+	"subscription": {
+		"YouHaveStarted": "Sie haben {{2}} bei {{3}} um {{4}} f\u00fcr {{5}} Monate abonniert.",
+		"HasStarted": "{{1}} hat {{2}} bei {{3}} bei {{4}} f\u00fcr {{5}} Monate abonniert."
+	},
+	"resend": {
+		"DidYouWant": "Wolltest du deine Passphrase in {{1}} zur\u00fccksetzen?",
+		"ClickHere": "Dann klicke hier: {{1}}"
+	}
 }

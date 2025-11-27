@@ -1,12 +1,12 @@
 {
-    "flyer1": {
-        "YouAreInvited": "Esti invitat",
-        "Member": "Membru la {{title}}",
-        "Explanation": "{{1}} are plăcere să anunțe lansarea noului nostru site web. Include o listă tot mai mare de caracteristici, cum ar fi:",
-        "Public": "Informații publice despre {{1}}",
-        "Private": "Un cont de utilizator privat pentru fiecare membru",
-        "Notifications": "Introducând adresa de e-mail sau numărul de telefon mobil vei putea primi notificări importante prin e-mail sau mesaj text.",
-        "GetStarted": "Pentru a începe, în browserul dvs. web vă rugăm să introduceți <em>cu atenție<\/em> :<br>",
-        "IssuedToYou": "Acest cod vă este emis în mod special."
-    }
+	"flyer1": {
+		"YouAreInvited": "Esti invitat",
+		"Member": "Membru la {{title}}",
+		"Explanation": "{{1}} are pl\u0103cere s\u0103 anun\u021be lansarea noului nostru site web. Include o list\u0103 tot mai mare de caracteristici, cum ar fi:",
+		"Public": "Informa\u021bii publice despre {{1}}",
+		"Private": "Un cont de utilizator privat pentru fiecare membru",
+		"Notifications": "Introduc\u00e2nd adresa de e-mail sau num\u0103rul de telefon mobil vei putea primi notific\u0103ri importante prin e-mail sau mesaj text.",
+		"GetStarted": "Pentru a \u00eencepe, \u00een browserul dvs. web v\u0103 rug\u0103m s\u0103 introduce\u021bi <em>cu aten\u021bie</em> :<br>",
+		"IssuedToYou": "Acest cod v\u0103 este emis \u00een mod special."
+	}
 }

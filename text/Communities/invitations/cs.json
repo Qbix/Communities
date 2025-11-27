@@ -1,12 +1,12 @@
 {
-    "flyer1": {
-        "YouAreInvited": "Jste zváni",
-        "Member": "Člen v {{title}}",
-        "Explanation": "{{1}} s potěšením oznamuje spuštění našeho nového webu. Zahrnuje rostoucí seznam funkcí, jako například:",
-        "Public": "Veřejné informace o {{1}}",
-        "Private": "Soukromý uživatelský účet pro každého člena",
-        "Notifications": "Po zadání e-mailové adresy nebo mobilního čísla budete moci dostávat důležitá upozornění e-mailem nebo textovou zprávou.",
-        "GetStarted": "Chcete-li začít, ve svém webovém prohlížeči <em>pečlivě<\/em> zadejte:<br>",
-        "IssuedToYou": "Tento kód je vydán speciálně vám."
-    }
+	"flyer1": {
+		"YouAreInvited": "Jste zv\u00e1ni",
+		"Member": "\u010clen v {{title}}",
+		"Explanation": "{{1}} s pot\u011b\u0161en\u00edm oznamuje spu\u0161t\u011bn\u00ed na\u0161eho nov\u00e9ho webu. Zahrnuje rostouc\u00ed seznam funkc\u00ed, jako nap\u0159\u00edklad:",
+		"Public": "Ve\u0159ejn\u00e9 informace o {{1}}",
+		"Private": "Soukrom\u00fd u\u017eivatelsk\u00fd \u00fa\u010det pro ka\u017ed\u00e9ho \u010dlena",
+		"Notifications": "Po zad\u00e1n\u00ed e-mailov\u00e9 adresy nebo mobiln\u00edho \u010d\u00edsla budete moci dost\u00e1vat d\u016fle\u017eit\u00e1 upozorn\u011bn\u00ed e-mailem nebo textovou zpr\u00e1vou.",
+		"GetStarted": "Chcete-li za\u010d\u00edt, ve sv\u00e9m webov\u00e9m prohl\u00ed\u017ee\u010di <em>pe\u010dliv\u011b</em> zadejte:<br>",
+		"IssuedToYou": "Tento k\u00f3d je vyd\u00e1n speci\u00e1ln\u011b v\u00e1m."
+	}
 }

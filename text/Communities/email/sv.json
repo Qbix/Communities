@@ -1,33 +1,33 @@
 {
-    "activation": {
-        "Thanks": "Välkommen till {{1}}",
-        "ReallyYourEmail": "Är det här verkligen din e-postadress, {{1}}? Om så är fallet, klicka <a href='{{2}}'>här<\/a> för att ställa in din lösenfras och aktivera ditt konto.",
-        "SeeYou": "Vi ses på <a href='{{1}}'>{{2}}<\/a> !",
-        "Subject": "Välkommen! Vänligen verifiera din email adress."
-    },
-    "LinkToUnsubscribe": "Här är en länk för att <a href='{{1}}'>avsluta prenumerationen<\/a> om du inte vill få fler mejl.",
-    "Greetings": "Hälsningar från {{1}}.",
-    "SeeHistory": "Se betalningshistorik för {{1}}",
-    "charge": {
-        "HasBeenCharged": "Hej, det här är bara för att informera dig om att {{1}} har debiterats {{2}} för {{3}} av {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Hej {{1}}, det här är bara en snabb bekräftelse på att du har betalat {{2}} till {{3}} för {{4}}"
-    },
-    "resend": {
-        "Thanks": "Tack för att du besöker {{1}}",
-        "YouAreReceiving": "Du får det här e-postmeddelandet för att någon skrev in din e-postadress och klickade på &quot;glömt lösenordsfras&quot;. Om det inte var du, ignorera helt enkelt det här meddelandet.",
-        "Reset": "Om du vill återställa lösenfrasen klickar du på {{1}}",
-        "SetUpPassphrase": "Ställ in lösenordsfras",
-        "DomainCode": "Om webbsidan redan är öppen i din webbläsare kan du ange koden",
-        "Subject": "Hej, har du glömt din lösenfras?"
-    },
-    "subscription": {
-        "YouHaveStarted": "Hej {{1}}, du har börjat din prenumeration på {{2}} med {{3}} på {{4}} i {{5}} månader.",
-        "HasStarted": "Detta är bara för att meddela dig {{1}}, har börjat sin prenumeration på {{2}} med {{3}} på {{4}} i {{5}} månader."
-    },
-    "SeeYou": "Vi ses på {{1}}!",
-    "identifier": {
-        "Subject": "Välkommen! Verifiera din e-postadress."
-    }
+	"activation": {
+		"Thanks": "V\u00e4lkommen till {{1}}",
+		"ReallyYourEmail": "\u00c4r det h\u00e4r verkligen din e-postadress, {{1}}? Om s\u00e5 \u00e4r fallet, klicka <a href='{{2}}'>h\u00e4r</a> f\u00f6r att st\u00e4lla in din l\u00f6senfras och aktivera ditt konto.",
+		"SeeYou": "Vi ses p\u00e5 <a href='{{1}}'>{{2}}</a> !",
+		"Subject": "V\u00e4lkommen! V\u00e4nligen verifiera din email adress."
+	},
+	"LinkToUnsubscribe": "H\u00e4r \u00e4r en l\u00e4nk f\u00f6r att <a href='{{1}}'>avsluta prenumerationen</a> om du inte vill f\u00e5 fler mejl.",
+	"Greetings": "H\u00e4lsningar fr\u00e5n {{1}}.",
+	"SeeHistory": "Se betalningshistorik f\u00f6r {{1}}",
+	"charge": {
+		"HasBeenCharged": "Hej, det h\u00e4r \u00e4r bara f\u00f6r att informera dig om att {{1}} har debiterats {{2}} f\u00f6r {{3}} av {{4}}"
+	},
+	"charged": {
+		"HavePaid": "Hej {{1}}, det h\u00e4r \u00e4r bara en snabb bekr\u00e4ftelse p\u00e5 att du har betalat {{2}} till {{3}} f\u00f6r {{4}}"
+	},
+	"resend": {
+		"Thanks": "Tack f\u00f6r att du bes\u00f6ker {{1}}",
+		"YouAreReceiving": "Du f\u00e5r det h\u00e4r e-postmeddelandet f\u00f6r att n\u00e5gon skrev in din e-postadress och klickade p\u00e5 &quot;gl\u00f6mt l\u00f6senordsfras&quot;. Om det inte var du, ignorera helt enkelt det h\u00e4r meddelandet.",
+		"Reset": "Om du vill \u00e5terst\u00e4lla l\u00f6senfrasen klickar du p\u00e5 {{1}}",
+		"SetUpPassphrase": "St\u00e4ll in l\u00f6senordsfras",
+		"DomainCode": "Om webbsidan redan \u00e4r \u00f6ppen i din webbl\u00e4sare kan du ange koden",
+		"Subject": "Hej, har du gl\u00f6mt din l\u00f6senfras?"
+	},
+	"subscription": {
+		"YouHaveStarted": "Hej {{1}}, du har b\u00f6rjat din prenumeration p\u00e5 {{2}} med {{3}} p\u00e5 {{4}} i {{5}} m\u00e5nader.",
+		"HasStarted": "Detta \u00e4r bara f\u00f6r att meddela dig {{1}}, har b\u00f6rjat sin prenumeration p\u00e5 {{2}} med {{3}} p\u00e5 {{4}} i {{5}} m\u00e5nader."
+	},
+	"SeeYou": "Vi ses p\u00e5 {{1}}!",
+	"identifier": {
+		"Subject": "V\u00e4lkommen! Verifiera din e-postadress."
+	}
 }

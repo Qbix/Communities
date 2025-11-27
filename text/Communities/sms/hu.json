@@ -1,24 +1,24 @@
 {
-    "activation": {
-        "Thanks": "Üdvözöljük a {{1}} oldalon.",
-        "ClickHere": "Kattintson ide fiókja aktiválásához: {{1}}"
-    },
-    "addMobile": {
-        "ClickHere": "Kattintson ide mobilszámának igazolásához: {{1}}"
-    },
-    "SeeHistory": "A(z) {{1}} fizetési előzményeinek megtekintése",
-    "charge": {
-        "HasBeenCharged": "{{1}} összeget {{2}} összeggel terhelte meg {{3}} összeggel {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Szia, {{1}}, ez csak egy gyors megerősítés, hogy sikeresen kifizette a(z) {{2}} összeget a következőnek: {{3}} a következő összegért: {{4}}"
-    },
-    "subscription": {
-        "YouHaveStarted": "Ön előfizetett a(z) {{2}} csatornára a következővel: {{3}}, {{4}}, {{5}} hónapig.",
-        "HasStarted": "{{1}} előfizetett a következőre: {{2}} a következővel: {{3}}, {{4}} {{5}} hónapra."
-    },
-    "resend": {
-        "DidYouWant": "Vissza akarta állítani összetett jelszavát itt: {{1}}?",
-        "ClickHere": "Akkor kattintson ide: {{1}}"
-    }
+	"activation": {
+		"Thanks": "\u00dcdv\u00f6z\u00f6lj\u00fck a {{1}} oldalon.",
+		"ClickHere": "Kattintson ide fi\u00f3kja aktiv\u00e1l\u00e1s\u00e1hoz: {{1}}"
+	},
+	"addMobile": {
+		"ClickHere": "Kattintson ide mobilsz\u00e1m\u00e1nak igazol\u00e1s\u00e1hoz: {{1}}"
+	},
+	"SeeHistory": "A(z) {{1}} fizet\u00e9si el\u0151zm\u00e9nyeinek megtekint\u00e9se",
+	"charge": {
+		"HasBeenCharged": "{{1}} \u00f6sszeget {{2}} \u00f6sszeggel terhelte meg {{3}} \u00f6sszeggel {{4}}"
+	},
+	"charged": {
+		"HavePaid": "Szia, {{1}}, ez csak egy gyors meger\u0151s\u00edt\u00e9s, hogy sikeresen kifizette a(z) {{2}} \u00f6sszeget a k\u00f6vetkez\u0151nek: {{3}} a k\u00f6vetkez\u0151 \u00f6sszeg\u00e9rt: {{4}}"
+	},
+	"subscription": {
+		"YouHaveStarted": "\u00d6n el\u0151fizetett a(z) {{2}} csatorn\u00e1ra a k\u00f6vetkez\u0151vel: {{3}}, {{4}}, {{5}} h\u00f3napig.",
+		"HasStarted": "{{1}} el\u0151fizetett a k\u00f6vetkez\u0151re: {{2}} a k\u00f6vetkez\u0151vel: {{3}}, {{4}} {{5}} h\u00f3napra."
+	},
+	"resend": {
+		"DidYouWant": "Vissza akarta \u00e1ll\u00edtani \u00f6sszetett jelszav\u00e1t itt: {{1}}?",
+		"ClickHere": "Akkor kattintson ide: {{1}}"
+	}
 }

@@ -1,33 +1,33 @@
 {
-    "activation": {
-        "Thanks": "{{1}}&#39;a hoş geldiniz",
-        "ReallyYourEmail": "Bu gerçekten e-posta adresiniz mi {{1}}? Öyleyse, parolanızı belirlemek ve hesabınızı etkinleştirmek için <a href='{{2}}'>burayı tıklayın<\/a> .",
-        "SeeYou": "<a href='{{1}}'>{{2}}<\/a> &#39;da görüşmek üzere!",
-        "Subject": "Hoş geldin! Lütfen email adresini doğrula."
-    },
-    "LinkToUnsubscribe": "Daha fazla e-posta almak istemiyorsanız, <a href='{{1}}'>abonelikten<\/a> çıkmak için bir bağlantı burada.",
-    "Greetings": "{{1}}&#39;dan selamlar.",
-    "SeeHistory": "{{1}} için ödeme geçmişine bakın",
-    "charge": {
-        "HasBeenCharged": "Merhaba, bu yalnızca {{1}} için {{3}} için {{4}} tarafından {{2}} ücretlendirildiğini bildirmek içindi."
-    },
-    "charged": {
-        "HavePaid": "Merhaba {{1}}, bu yalnızca {{2}} adlı kullanıcıya {{3}} {{4}} tutarında ödeme yaptığınızın hızlı bir onayıdır."
-    },
-    "resend": {
-        "Thanks": "{{1}}&#39;u ziyaret ettiğiniz için teşekkürler",
-        "YouAreReceiving": "Bu e-postayı, birisi e-posta adresinizi girip &quot;parolayı unuttum&quot; seçeneğine tıkladığınız için alıyorsunuz. Eğer siz değilseniz, bu mesajı görmezden gelin.",
-        "Reset": "Parolanızı sıfırlamak için {{1}} öğesini tıklayın.",
-        "SetUpPassphrase": "Parola ayarla",
-        "DomainCode": "Web sayfası tarayıcınızda zaten açıksa, kodunu girebilirsiniz.",
-        "Subject": "Hey, parolanı mı unuttun?"
-    },
-    "subscription": {
-        "YouHaveStarted": "Merhaba {{1}}, {{3}} ile {{4}} {{5}} ay boyunca {{2}} aboneliğinizi başlattınız.",
-        "HasStarted": "Bu, {{1}}&#39;ın {{3}} ile {{4}} {{5}} ay boyunca {{2}} aboneliğini başlattığını bildirmek için."
-    },
-    "SeeYou": "{{1}}&#39;da görüşürüz!",
-    "identifier": {
-        "Subject": "Hoş geldin! Eposta adresinizi doğrulayın."
-    }
+	"activation": {
+		"Thanks": "{{1}}&#39;a ho\u015f geldiniz",
+		"ReallyYourEmail": "Bu ger\u00e7ekten e-posta adresiniz mi {{1}}? \u00d6yleyse, parolan\u0131z\u0131 belirlemek ve hesab\u0131n\u0131z\u0131 etkinle\u015ftirmek i\u00e7in <a href='{{2}}'>buray\u0131 t\u0131klay\u0131n</a> .",
+		"SeeYou": "<a href='{{1}}'>{{2}}</a> &#39;da g\u00f6r\u00fc\u015fmek \u00fczere!",
+		"Subject": "Ho\u015f geldin! L\u00fctfen email adresini do\u011frula."
+	},
+	"LinkToUnsubscribe": "Daha fazla e-posta almak istemiyorsan\u0131z, <a href='{{1}}'>abonelikten</a> \u00e7\u0131kmak i\u00e7in bir ba\u011flant\u0131 burada.",
+	"Greetings": "{{1}}&#39;dan selamlar.",
+	"SeeHistory": "{{1}} i\u00e7in \u00f6deme ge\u00e7mi\u015fine bak\u0131n",
+	"charge": {
+		"HasBeenCharged": "Merhaba, bu yaln\u0131zca {{1}} i\u00e7in {{3}} i\u00e7in {{4}} taraf\u0131ndan {{2}} \u00fccretlendirildi\u011fini bildirmek i\u00e7indi."
+	},
+	"charged": {
+		"HavePaid": "Merhaba {{1}}, bu yaln\u0131zca {{2}} adl\u0131 kullan\u0131c\u0131ya {{3}} {{4}} tutar\u0131nda \u00f6deme yapt\u0131\u011f\u0131n\u0131z\u0131n h\u0131zl\u0131 bir onay\u0131d\u0131r."
+	},
+	"resend": {
+		"Thanks": "{{1}}&#39;u ziyaret etti\u011finiz i\u00e7in te\u015fekk\u00fcrler",
+		"YouAreReceiving": "Bu e-postay\u0131, birisi e-posta adresinizi girip &quot;parolay\u0131 unuttum&quot; se\u00e7ene\u011fine t\u0131klad\u0131\u011f\u0131n\u0131z i\u00e7in al\u0131yorsunuz. E\u011fer siz de\u011filseniz, bu mesaj\u0131 g\u00f6rmezden gelin.",
+		"Reset": "Parolan\u0131z\u0131 s\u0131f\u0131rlamak i\u00e7in {{1}} \u00f6\u011fesini t\u0131klay\u0131n.",
+		"SetUpPassphrase": "Parola ayarla",
+		"DomainCode": "Web sayfas\u0131 taray\u0131c\u0131n\u0131zda zaten a\u00e7\u0131ksa, kodunu girebilirsiniz.",
+		"Subject": "Hey, parolan\u0131 m\u0131 unuttun?"
+	},
+	"subscription": {
+		"YouHaveStarted": "Merhaba {{1}}, {{3}} ile {{4}} {{5}} ay boyunca {{2}} aboneli\u011finizi ba\u015flatt\u0131n\u0131z.",
+		"HasStarted": "Bu, {{1}}&#39;\u0131n {{3}} ile {{4}} {{5}} ay boyunca {{2}} aboneli\u011fini ba\u015flatt\u0131\u011f\u0131n\u0131 bildirmek i\u00e7in."
+	},
+	"SeeYou": "{{1}}&#39;da g\u00f6r\u00fc\u015f\u00fcr\u00fcz!",
+	"identifier": {
+		"Subject": "Ho\u015f geldin! Eposta adresinizi do\u011frulay\u0131n."
+	}
 }

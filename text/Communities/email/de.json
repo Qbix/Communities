@@ -1,33 +1,33 @@
 {
-    "activation": {
-        "Thanks": "Willkommen bei {{1}}",
-        "ReallyYourEmail": "Ist das wirklich Ihre E-Mail-Adresse, {{1}}? Klicken Sie in diesem Fall <a href='{{2}}'>hier<\/a> , um Ihre Passphrase festzulegen und Ihr Konto zu aktivieren.",
-        "SeeYou": "Wir sehen uns auf <a href='{{1}}'>{{2}}<\/a> !",
-        "Subject": "Herzlich willkommen! Bitte bestätigen sie ihre E-Mail Adresse."
-    },
-    "LinkToUnsubscribe": "Hier ist ein Link zum <a href='{{1}}'>Abbestellen<\/a> , wenn Sie keine E-Mails mehr erhalten möchten.",
-    "Greetings": "Grüße von {{1}}.",
-    "SeeHistory": "Siehe Zahlungsverlauf für {{1}}",
-    "charge": {
-        "HasBeenCharged": "Hey, dies soll dich nur darüber informieren, dass {{1}} von {{4}} {{2}} für {{3}} in Rechnung gestellt wurde"
-    },
-    "charged": {
-        "HavePaid": "Hallo {{1}}, dies ist nur eine kurze Bestätigung, dass Sie erfolgreich {{2}} an {{3}} für {{4}} bezahlt haben"
-    },
-    "resend": {
-        "Thanks": "Vielen Dank für Ihren Besuch auf {{1}}",
-        "YouAreReceiving": "Sie erhalten diese E-Mail, weil jemand Ihre E-Mail-Adresse eingegeben und auf „Passphrase vergessen“ geklickt hat. Wenn Sie es nicht waren, ignorieren Sie diese Nachricht einfach.",
-        "Reset": "Um Ihre Passphrase zurückzusetzen, klicken Sie auf {{1}}",
-        "SetUpPassphrase": "Passphrase einrichten",
-        "DomainCode": "Wenn die Webseite bereits in Ihrem Browser geöffnet ist, können Sie den Code eingeben",
-        "Subject": "Hey, hast du deine Passphrase vergessen?"
-    },
-    "subscription": {
-        "YouHaveStarted": "Hey {{1}}, du hast dein Abonnement für {{2}} mit {{3}} bei {{4}} für {{5}} Monate begonnen.",
-        "HasStarted": "Hiermit möchten wir Sie nur darüber informieren, dass {{1}} sein Abonnement für {{2}} mit {{3}} bei {{4}} für {{5}} Monate begonnen hat."
-    },
-    "SeeYou": "Wir sehen uns auf {{1}}!",
-    "identifier": {
-        "Subject": "Herzlich willkommen! Bestätige deine Email-Adresse."
-    }
+	"activation": {
+		"Thanks": "Willkommen bei {{1}}",
+		"ReallyYourEmail": "Ist das wirklich Ihre E-Mail-Adresse, {{1}}? Klicken Sie in diesem Fall <a href='{{2}}'>hier</a> , um Ihre Passphrase festzulegen und Ihr Konto zu aktivieren.",
+		"SeeYou": "Wir sehen uns auf <a href='{{1}}'>{{2}}</a> !",
+		"Subject": "Herzlich willkommen! Bitte best\u00e4tigen sie ihre E-Mail Adresse."
+	},
+	"LinkToUnsubscribe": "Hier ist ein Link zum <a href='{{1}}'>Abbestellen</a> , wenn Sie keine E-Mails mehr erhalten m\u00f6chten.",
+	"Greetings": "Gr\u00fc\u00dfe von {{1}}.",
+	"SeeHistory": "Siehe Zahlungsverlauf f\u00fcr {{1}}",
+	"charge": {
+		"HasBeenCharged": "Hey, dies soll dich nur dar\u00fcber informieren, dass {{1}} von {{4}} {{2}} f\u00fcr {{3}} in Rechnung gestellt wurde"
+	},
+	"charged": {
+		"HavePaid": "Hallo {{1}}, dies ist nur eine kurze Best\u00e4tigung, dass Sie erfolgreich {{2}} an {{3}} f\u00fcr {{4}} bezahlt haben"
+	},
+	"resend": {
+		"Thanks": "Vielen Dank f\u00fcr Ihren Besuch auf {{1}}",
+		"YouAreReceiving": "Sie erhalten diese E-Mail, weil jemand Ihre E-Mail-Adresse eingegeben und auf \u201ePassphrase vergessen\u201c geklickt hat. Wenn Sie es nicht waren, ignorieren Sie diese Nachricht einfach.",
+		"Reset": "Um Ihre Passphrase zur\u00fcckzusetzen, klicken Sie auf {{1}}",
+		"SetUpPassphrase": "Passphrase einrichten",
+		"DomainCode": "Wenn die Webseite bereits in Ihrem Browser ge\u00f6ffnet ist, k\u00f6nnen Sie den Code eingeben",
+		"Subject": "Hey, hast du deine Passphrase vergessen?"
+	},
+	"subscription": {
+		"YouHaveStarted": "Hey {{1}}, du hast dein Abonnement f\u00fcr {{2}} mit {{3}} bei {{4}} f\u00fcr {{5}} Monate begonnen.",
+		"HasStarted": "Hiermit m\u00f6chten wir Sie nur dar\u00fcber informieren, dass {{1}} sein Abonnement f\u00fcr {{2}} mit {{3}} bei {{4}} f\u00fcr {{5}} Monate begonnen hat."
+	},
+	"SeeYou": "Wir sehen uns auf {{1}}!",
+	"identifier": {
+		"Subject": "Herzlich willkommen! Best\u00e4tige deine Email-Adresse."
+	}
 }

@@ -1,12 +1,12 @@
 {
-    "flyer1": {
-        "YouAreInvited": "Fe&#39;ch gwahoddir",
-        "Member": "Aelod yn {{title}}",
-        "Explanation": "Mae {{1}} yn falch o gyhoeddi lansiad ein gwefan newydd. Mae&#39;n cynnwys rhestr gynyddol o nodweddion, megis:",
-        "Public": "Gwybodaeth gyhoeddus am {{1}}",
-        "Private": "Cyfrif defnyddiwr preifat ar gyfer pob aelod",
-        "Notifications": "Trwy nodi eich cyfeiriad e-bost neu rif ffôn symudol byddwch yn gallu derbyn hysbysiadau pwysig trwy e-bost neu neges destun.",
-        "GetStarted": "I ddechrau, yn eich porwr gwe, nodwch <em>yn ofalus<\/em> :<br>",
-        "IssuedToYou": "Rhoddir y cod hwn yn benodol i chi."
-    }
+	"flyer1": {
+		"YouAreInvited": "Fe&#39;ch gwahoddir",
+		"Member": "Aelod yn {{title}}",
+		"Explanation": "Mae {{1}} yn falch o gyhoeddi lansiad ein gwefan newydd. Mae&#39;n cynnwys rhestr gynyddol o nodweddion, megis:",
+		"Public": "Gwybodaeth gyhoeddus am {{1}}",
+		"Private": "Cyfrif defnyddiwr preifat ar gyfer pob aelod",
+		"Notifications": "Trwy nodi eich cyfeiriad e-bost neu rif ff\u00f4n symudol byddwch yn gallu derbyn hysbysiadau pwysig trwy e-bost neu neges destun.",
+		"GetStarted": "I ddechrau, yn eich porwr gwe, nodwch <em>yn ofalus</em> :<br>",
+		"IssuedToYou": "Rhoddir y cod hwn yn benodol i chi."
+	}
 }

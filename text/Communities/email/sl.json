@@ -1,33 +1,33 @@
 {
-    "activation": {
-        "Thanks": "Dobrodošli v {{1}}",
-        "ReallyYourEmail": "Je to res vaš e-poštni naslov, {{1}}? Če je tako, kliknite <a href='{{2}}'>tukaj<\/a> , da nastavite geslo in aktivirate svoj račun.",
-        "SeeYou": "Se vidimo na <a href='{{1}}'>{{2}}<\/a> !",
-        "Subject": "Dobrodošli! Prosimo, preverite svoj e-poštni naslov."
-    },
-    "LinkToUnsubscribe": "Tukaj je povezava za <a href='{{1}}'>odjavo<\/a> , če ne želite več prejemati e-poštnih sporočil.",
-    "Greetings": "Lep pozdrav od {{1}}.",
-    "SeeHistory": "Oglejte si zgodovino plačil za {{1}}",
-    "charge": {
-        "HasBeenCharged": "Hej, obveščamo vas samo o tem, da je {{1}} zaračunal {{2}} za {{3}} s strani {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Hej {{1}}, to je samo hitra potrditev, da ste uspešno plačali {{2}} {{3}} za {{4}}"
-    },
-    "resend": {
-        "Thanks": "Hvala za obisk {{1}}",
-        "YouAreReceiving": "To e-pošto ste prejeli, ker je nekdo vnesel vaš e-poštni naslov in kliknil »pozabil geslo«. Če niste bili vi, preprosto prezrite to sporočilo.",
-        "Reset": "Če želite ponastaviti geslo, kliknite {{1}}",
-        "SetUpPassphrase": "Nastavite geslo",
-        "DomainCode": "Če je spletna stran že odprta v vašem brskalniku, lahko vnesete kodo",
-        "Subject": "Hej, si pozabil svoje geslo?"
-    },
-    "subscription": {
-        "YouHaveStarted": "Živjo {{1}}, začeli ste naročnino na {{2}} pri {{3}} ob {{4}} za {{5}} mesecev.",
-        "HasStarted": "S tem vas želimo samo obvestiti, da je {{1}} začel svojo naročnino na {{2}} z {{3}} ob {{4}} za {{5}} mesecev."
-    },
-    "SeeYou": "Se vidimo na {{1}}!",
-    "identifier": {
-        "Subject": "Dobrodošli! Preverite svoj e-poštni naslov."
-    }
+	"activation": {
+		"Thanks": "Dobrodo\u0161li v {{1}}",
+		"ReallyYourEmail": "Je to res va\u0161 e-po\u0161tni naslov, {{1}}? \u010ce je tako, kliknite <a href='{{2}}'>tukaj</a> , da nastavite geslo in aktivirate svoj ra\u010dun.",
+		"SeeYou": "Se vidimo na <a href='{{1}}'>{{2}}</a> !",
+		"Subject": "Dobrodo\u0161li! Prosimo, preverite svoj e-po\u0161tni naslov."
+	},
+	"LinkToUnsubscribe": "Tukaj je povezava za <a href='{{1}}'>odjavo</a> , \u010de ne \u017eelite ve\u010d prejemati e-po\u0161tnih sporo\u010dil.",
+	"Greetings": "Lep pozdrav od {{1}}.",
+	"SeeHistory": "Oglejte si zgodovino pla\u010dil za {{1}}",
+	"charge": {
+		"HasBeenCharged": "Hej, obve\u0161\u010damo vas samo o tem, da je {{1}} zara\u010dunal {{2}} za {{3}} s strani {{4}}"
+	},
+	"charged": {
+		"HavePaid": "Hej {{1}}, to je samo hitra potrditev, da ste uspe\u0161no pla\u010dali {{2}} {{3}} za {{4}}"
+	},
+	"resend": {
+		"Thanks": "Hvala za obisk {{1}}",
+		"YouAreReceiving": "To e-po\u0161to ste prejeli, ker je nekdo vnesel va\u0161 e-po\u0161tni naslov in kliknil \u00bbpozabil geslo\u00ab. \u010ce niste bili vi, preprosto prezrite to sporo\u010dilo.",
+		"Reset": "\u010ce \u017eelite ponastaviti geslo, kliknite {{1}}",
+		"SetUpPassphrase": "Nastavite geslo",
+		"DomainCode": "\u010ce je spletna stran \u017ee odprta v va\u0161em brskalniku, lahko vnesete kodo",
+		"Subject": "Hej, si pozabil svoje geslo?"
+	},
+	"subscription": {
+		"YouHaveStarted": "\u017divjo {{1}}, za\u010deli ste naro\u010dnino na {{2}} pri {{3}} ob {{4}} za {{5}} mesecev.",
+		"HasStarted": "S tem vas \u017eelimo samo obvestiti, da je {{1}} za\u010del svojo naro\u010dnino na {{2}} z {{3}} ob {{4}} za {{5}} mesecev."
+	},
+	"SeeYou": "Se vidimo na {{1}}!",
+	"identifier": {
+		"Subject": "Dobrodo\u0161li! Preverite svoj e-po\u0161tni naslov."
+	}
 }

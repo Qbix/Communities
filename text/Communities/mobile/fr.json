@@ -1,24 +1,24 @@
 {
-    "activation": {
-        "Thanks": "Bienvenue à {{1}}.",
-        "ClickHere": "Cliquez ici pour activer votre compte : {{1}}"
-    },
-    "addMobile": {
-        "ClickHere": "Cliquez ici pour vérifier votre numéro de mobile : {{1}}"
-    },
-    "SeeHistory": "Voir l&#39;historique des paiements pour {{1}}",
-    "charge": {
-        "HasBeenCharged": "{{1}} a été facturé {{2}} pour {{3}} par {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Hey {{1}}, ceci est juste une confirmation rapide que vous avez réussi à payer {{2}} à {{3}} pour {{4}}"
-    },
-    "subscription": {
-        "YouHaveStarted": "Vous êtes abonné à {{2}} avec {{3}} chez {{4}} pendant {{5}} mois.",
-        "HasStarted": "{{1}} s&#39;est abonné à {{2}} avec {{3}} chez {{4}} pendant {{5}} mois."
-    },
-    "resend": {
-        "DidYouWant": "Vouliez-vous réinitialiser votre phrase secrète dans {{1}} ?",
-        "ClickHere": "Alors cliquez ici : {{1}}"
-    }
+	"activation": {
+		"Thanks": "Bienvenue \u00e0 {{1}}.",
+		"ClickHere": "Cliquez ici pour activer votre compte\u00a0: {{1}}"
+	},
+	"addMobile": {
+		"ClickHere": "Cliquez ici pour v\u00e9rifier votre num\u00e9ro de mobile\u00a0: {{1}}"
+	},
+	"SeeHistory": "Voir l&#39;historique des paiements pour {{1}}",
+	"charge": {
+		"HasBeenCharged": "{{1}} a \u00e9t\u00e9 factur\u00e9 {{2}} pour {{3}} par {{4}}"
+	},
+	"charged": {
+		"HavePaid": "Hey {{1}}, ceci est juste une confirmation rapide que vous avez r\u00e9ussi \u00e0 payer {{2}} \u00e0 {{3}} pour {{4}}"
+	},
+	"subscription": {
+		"YouHaveStarted": "Vous \u00eates abonn\u00e9 \u00e0 {{2}} avec {{3}} chez {{4}} pendant {{5}}\u00a0mois.",
+		"HasStarted": "{{1}} s&#39;est abonn\u00e9 \u00e0 {{2}} avec {{3}} chez {{4}} pendant {{5}}\u00a0mois."
+	},
+	"resend": {
+		"DidYouWant": "Vouliez-vous r\u00e9initialiser votre phrase secr\u00e8te dans {{1}}\u00a0?",
+		"ClickHere": "Alors cliquez ici\u00a0: {{1}}"
+	}
 }

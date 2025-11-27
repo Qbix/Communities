@@ -1,460 +1,460 @@
 {
-    "notFound": {
-        "Explanation": "<span class='url'>{{1}}<\/span>不指向任何东西！",
-        "NextSteps": "使用主菜单查找您要查找的内容。"
-    },
-    "greeting": {
-        "Welcome": "欢迎使用 {{1}}。在这里，您将找到为我们社区成员发布的内容。请添加您的电子邮件地址或手机号码，以便在发布公告时收到通知。"
-    },
-    "conversations": {
-        "New": "新对话",
-        "Conversation": "对话",
-        "Topics": "话题",
-        "NoneYet": "尚未形成任何对话",
-        "newConversations": "{{1}} 个新对话",
-        "AllAuthors": "所有作者",
-        "FilterbyAuthors": "按作者筛选",
-        "FilterAuthorPlaceHolder": "搜索其他作者...",
-        "Title": "对话",
-        "Description": "{{1}} 次对话",
-        "filterConversations": "按文本过滤"
-    },
-    "newConversation": {
-        "composer": {
-            "ChooseActivity": "选择一个主题",
-            "Share": "分享",
-            "interest": {
-                "Title": "选择一个活动",
-                "Filter": "搜索兴趣..."
-            }
-        },
-        "Title": "新对话",
-        "TitlePlaceholder": "你谈话的主题",
-        "ContentPlaceholder": "写几句话开始对话，以便其他人可以回复",
-        "StartButton": "开始对话"
-    },
-    "events": {
-        "Title": "活动",
-        "filterByTitle": "按标题查找事件",
-        "New": "+ 开始新活动",
-        "SetLocation": "设置我的位置",
-        "NoneYet": "尚未形成任何事件<br>在这些时候。",
-        "AllAuthors": "所有作者",
-        "AllDays": "每天",
-        "AllLocations": "所有地点",
-        "AllInterests": "所有兴趣",
-        "FilterbyInterest": "按兴趣过滤",
-        "FilterByDate": "按日期过滤",
-        "ShowActivities": "显示与 相关的活动。 . .",
-        "newEvents": "您有 {{1}} 个新活动",
-        "SelectLocation": "选择位置",
-        "FilterLocationsPlaceHolder": "过滤场地...",
-        "filterEvents": "过滤事件",
-        "NewEvent": "新事件",
-        "Description": "{{1}} 个事件",
-        "Keywords": "{{1}} 个事件",
-        "MakeReservation": "进行预订",
-        "Reserved": "取消预订",
-        "AreYouSure": "你确定吗？",
-        "YouWillRefunded": "您将以积分的形式获得退款，您可以在应用程序中花费在其他事情上。",
-        "CancelReservation": "取消预订",
-        "UpdateReservation": "更新预订"
-    },
-    "schedule": {
-        "Title": "日程",
-        "NoneYet": "您没有参加任何活动",
-        "AddSome": "添加一些到您的日程安排！",
-        "AddMore": "将活动添加到您的日程安排中！",
-        "future": "未来",
-        "past": "过去的"
-    },
-    "location": {
-        "Title": "地点",
-        "NewLocation": "新位置"
-    },
-    "inbox": {
-        "Title": "收件箱",
-        "NoneYet": "您没有参与任何对话",
-        "FindPeople": "寻找可以交谈的人",
-        "GroupConversations": "加入一些小组对话",
-        "ContactStaff": "联系工作人员",
-        "ContactCustomers": "联系客户",
-        "AddNewContact": "添加新联系人",
-        "AddNewContacts": "添加新联系人"
-    },
-    "me": {
-        "Title": "我",
-        "MobileNumber": "手机号码",
-        "EmailAddress": "电子邮件地址",
-        "UpdateSocialTitle": "更新 {{1}} 用户名",
-        "Web3": "Web3"
-    },
-    "people": {
-        "Title": "人们",
-        "AppAlert": "应用商店中的此应用可让您与朋友联系，等等。",
-        "Invite": "邀请朋友",
-        "FindSomeoneByName": "按名字找人",
-        "FindAllMyFriends": "找到我所有的朋友",
-        "labels": {
-            "All": "每个人",
-            "Title": "按关系过滤",
-            "New": "新的关系类型"
-        },
-        "interests": {
-            "All": "所有兴趣",
-            "Title": "按兴趣过滤",
-            "Filter": "显示感兴趣的人。 . ."
-        },
-        "SearchByName": "按名称搜索",
-        "Description": "{{1}} 社区中的人",
-        "Keywords": "{{1}} 人社区",
-        "BuyCredits": "购买积分"
-    },
-    "communities": {
-        "Title": "社区",
-        "NewCommunity": "新社区",
-        "FindCommunityByName": "按名称查找社区",
-        "Description": "{{1}} 个社区"
-    },
-    "community": {
-        "Title": "{{1}} 社区",
-        "Roles": "角色",
-        "AllRoles": "所有角色",
-        "YouDontHavePermission": "您无权执行此操作",
-        "usernamePlaceholder": "设置社区名称",
-        "NotEnoughCredits": "您没有足够的积分来创建社区。需要{{1}}，你有{{2}}"
-    },
-    "event": {
-        "GetDirections": "获取路线",
-        "WhichMap": "您想使用哪些地图？",
-        "JoinEventToChat": "加入活动聊天",
-        "promote": {
-            "Title": "宣传本次活动",
-            "Prompt": "选择您想在哪里宣传此活动："
-        },
-        "Confirmation": "确认"
-    },
-    "newEvent": {
-        "Title": "计划新活动"
-    },
-    "interests": {
-        "Title": "兴趣",
-        "prompt": "选择您想了解的事物类型。",
-        "explanation": "您选择的兴趣越多，您与志趣相投的人建立联系的可能性就越大。",
-        "filter": "你对什么感兴趣呢？",
-        "Profile": "共同利益突出。如果您也有以下一项或多项兴趣，可以{{clickOrTap}}添加。"
-    },
-    "credits": {
-        "Title": "学分",
-        "EarnCredits": "您邀请的每个新加入该应用的人均可赚取 {{1}} 积分",
-        "YouHave": "您有 {{1}} 个积分"
-    },
-    "onboarding": {
-        "Tap": "轻敲",
-        "Click": "点击",
-        "Yes": "是的",
-        "No": "不",
-        "name": {
-            "Preface": "欢迎来到",
-            "Placeholder": "输入您的全名",
-            "GetStarted": "开始使用",
-            "AsGuest": "您已被邀请为客人。",
-            "AsMember": "您已被邀请成为会员。",
-            "AsAdmin": "您已被邀请为管理员。",
-            "AsOwner": "您已被邀请为所有者。",
-            "TooShort": "你的全名不能这么短",
-            "SetAsYourFullName": "将 {{1}} 设为您的全名？"
-        },
-        "icon": {
-            "KeepDefault": "或保留这张照片",
-            "SetYourPhoto": "{{ClickOrTap}} 设置您的照片：",
-            "ClickOnYourFace": "{{ClickOrTap}}在你脸上"
-        },
-        "interests": {
-            "GetStarted": "⇩ 开始",
-            "NextCategory": "↓ 下一个",
-            "Continue": "继续",
-            "Instructions": "在接下来的 {{1}} 个类别中，<br> {{2}} 您感兴趣的所有活动。<br>这就是您与社区中其他人联系的方式。"
-        },
-        "profile": {
-            "Profile": "您的个人资料可以帮助人们更多地了解您。<br>",
-            "Birthday": "请输入您的生日日期：",
-            "Placeholder": "你是谁，你做什么？告诉人们一些关于你自己的有趣或独特的事情。",
-            "Month": "月",
-            "Day": "日",
-            "Year": "年",
-            "Gender": "性别",
-            "Male": "男性",
-            "Female": "女性",
-            "Other": "其他",
-            "Height": "高度",
-            "Affiliation": "联系",
-            "Dating": "约会",
-            "Interested": "感兴趣的",
-            "NotInterested": "没兴趣",
-            "MatchmakerOnly": "仅限媒人",
-            "Required": "要继续，请至少写几行关于您自己的信息。"
-        },
-        "location": {
-            "NoOneElse": "没有人会看到它。",
-            "SetMyLocation": "设置我的位置"
-        },
-        "pile": {
-            "DialogTitle": "有共同兴趣的人"
-        },
-        "Done": "完毕",
-        "Skip": "或跳过此",
-        "relationships": {
-            "title": "将 {{userName}} 添加到电话簿",
-            "welcome": "欢迎{{user}}",
-            "invitedByUser": "邀请你。",
-            "addToPhonebook": "保存到我的手机通讯录",
-            "iosInstructions": "向下滚动以添加新联系人",
-            "androidInstructions": "您应该在下载后打开此 vCard 文件。",
-            "explanation": "你们是什么关系？"
-        },
-        "Title": "基本信息",
-        "Prompt": "设置帐户的几个步骤"
-    },
-    "profile": {
-        "Title": "轮廓",
-        "Male": "男性",
-        "Female": "女性",
-        "Other": "其他",
-        "dating": {
-            "Interested": "感兴趣的",
-            "NotInterested": "没兴趣",
-            "MatchmakerOnly": "仅限媒人"
-        },
-        "StartConversation": "开始对话",
-        "blockUser": "屏蔽此用户",
-        "blockUserAlert": "在您取消阻止之前，您不会再看到来自该用户的任何消息。",
-        "unblockUser": "取消屏蔽此用户",
-        "addToContacts": "添加到通讯录",
-        "manageLabels": "管理标签",
-        "inviteUsers": "邀请用户",
-        "inviteSuccess": "成功邀请用户为 {{label}}",
-        "invite": "邀请",
-        "relationships": "关系",
-        "newRole": "新角色",
-        "about": "关于",
-        "people": "人们",
-        "info": "信息",
-        "interests": "兴趣",
-        "chat": "聊天",
-        "locations": "地点",
-        "ManageRoles": "管理角色",
-        "aboutPlaceholder": "你是谁，你做什么？告诉人们一些关于你自己的有趣或独特的事情。",
-        "explanation": "您的个人资料有助于更好地将您与其他人进行小组活动相匹配。<br>请输入您的生日日期",
-        "chats": {
-            "placeholder": "说些什么"
-        },
-        "LogOut": "登出",
-        "selectRole": "选择角色",
-        "MyLinks": "我的链接",
-        "MyJobs": "我的工作",
-        "MySocial": "我的社交",
-        "MyEducation": "我的教育",
-        "JobsPlaceholder": "在此处输入工作信息",
-        "EducationPlaceholder": "在此处输入教育信息",
-        "ManageNotifications": "管理通知",
-        "YourPreferredLanguage": "您的首选语言",
-        "SendCrypto": "支付",
-        "Block": "堵塞",
-        "Unblock": "解锁",
-        "Email": "电子邮件",
-        "Avoid": "避免",
-        "CreatePrivateChat": "花费 {{credits}} 积分来联系？",
-        "RolesInCommunity": "在社区中的角色",
-        "PersonalChatWith": "与 {{name}} 的个人聊天",
-        "SendCryptoTo": "将加密货币发送到 {{name}}",
-        "SendEmailTo": "发送电子邮件至{{name}}",
-        "SendSMSTo": "发送短信到{{name}}",
-        "BlockThisUser": "屏蔽该用户",
-        "UnblockThisUser": "取消阻止此用户",
-        "YouCantChatWithYourself": "你不能和自己聊天",
-        "blockUserAlertTitle": "已屏蔽{{displayName}}",
-        "sections": {
-            "education": "教育",
-            "greeting": "问候语",
-            "jobs": "工作",
-            "links": "链接",
-            "language": "语言",
-            "roles": "角色",
-            "personal": "个人的",
-            "social": "社会的"
-        },
-        "Roles": "角色",
-        "SendPaymentTo": "向{{name}}付款"
-    },
-    "myqr": {
-        "Title": "我的二维码"
-    },
-    "composer": {
-        "createCommunity": "创建社区",
-        "inviteAdmin": "邀请管理员",
-        "inviteMember": "邀请会员",
-        "newCommunityTitle": "社区名字",
-        "setCommunityTitle": "社区名字",
-        "creditsChargeRequest": "您同意花费 {{price}} 个积分吗？",
-        "yes": "是的",
-        "no": "不"
-    },
-    "notifications": {
-        "WelcomePleaseVerifyEmail": "欢迎！请验证您的电子邮件地址。",
-        "WelcomeVerifyEmail": "欢迎！确认你的邮件地址。",
-        "ForgetPass": "嘿，你忘记密码了吗？",
-        "ManageEmailSubscriptions": "管理您的电子邮件订阅",
-        "IfUnsubscribe": "如果您想退订"
-    },
-    "speak": {
-        "onboarding": {
-            "name": {
-                "Welcome": "欢迎使用 {{CommunityName}}。这个应用程序将帮助您与朋友联系，发现有共同兴趣的新朋友等等。让我们开始吧！"
-            },
-            "icon": {
-                "Commentary": "设置你的照片。这就是人们在网站上看到您的方式。"
-            },
-            "interests": {
-                "Commentary": "您选择的项目越多，您可以遇到的人就越多。",
-                "Notifications": "您需要允许通知"
-            }
-        },
-        "subscriptions": {
-            "confirm": "通知可让您了解您感兴趣的事情，例如朋友何时加入应用程序或向您发送消息。"
-        },
-        "invite": "{{Q.words.TapOrClick}} 在这里查看如何与其他人分享。"
-    },
-    "payment": {
-        "onContribute": "谢谢！您的付款已通过。你想邀请你的朋友加入你吗？",
-        "ConnectAccount": "连接账户"
-    },
-    "featureboard": {
-        "Text_1": "让你的声音被听到！你同意我们应该开发一个特性或错误吗？单击按钮以支持它。",
-        "Text_2": "想要我们开发新功能吗？下面描述一下。",
-        "Text_3": "每周我们都会开始开发社区最需要的功能。所有捐款都用于该目的，使我们能够使应用程序变得更好。",
-        "Text_4": "所有捐款都用于帮助支付我们的开发成本。",
-        "Text_5": "您是否对希望我们执行但尚未看到其他人添加的功能或错误修复有想法？描述如下：",
-        "Options": [
-            {
-                "text": "400 美元实时视频会议"
-            },
-            {
-                "defaultAmount": "10",
-                "text": "200 美元的本地小学注册信息"
-            },
-            {
-                "text": "130 美元浏览和分享数千个 {{1}} 模因",
-                "defaultAmount": "10"
-            },
-            {
-                "text": "$80 管理您自己的社区",
-                "defaultAmount": "10"
-            },
-            {
-                "text": "30 美元修复对话错误",
-                "defaultAmount": "10"
-            }
-        ],
-        "RequestNewFeature": "请求新功能\/错误修复",
-        "FeaturePlaceholder": "功能的简短摘要",
-        "FeatureDescription": "描述其他人如何重现您看到的错误，或详细描述您要构建的功能",
-        "AddYourRequest": "添加您的请求",
-        "NewFeature": "新功能"
-    },
-    "assetshistory": {
-        "Title": "资产历史",
-        "Charges": "收费",
-        "Credits": "学分"
-    },
-    "contribute": {
-        "ContributeExplanation": "帮助支持 {{communityName}} 应用程序的持续开发。您的所有贡献都有助于修复错误并开发新功能，以帮助发展在线社区！",
-        "ReasonToContribute": "此应用由 {{communityName}} 的支持者维护。帮助支持这个应用程序，这样我们就可以改变人们的生活！"
-    },
-    "accounts": {
-        "remove": {
-            "title": "删除帐户",
-            "content": "要删除此帐户吗？",
-            "ok": "是的",
-            "cancel": "不"
-        }
-    },
-    "import": {
-        "fileNotFound": "抱歉，未找到 CSV 文件。",
-        "fileEmpty": "抱歉，CSV 文件为空。",
-        "userIdNotFound": "用户存在但 id 为空",
-        "errorLine": "行 {{1}}",
-        "fieldNotFound": "未找到必填字段“{{1}}”",
-        "taskStreamInvalid": "任务流无效",
-        "instructionsEmpty": "任务流指令为空",
-        "complete": "完全的",
-        "activateUsers": "向用户发送激活消息？",
-        "importProgress": "进步",
-        "joinEventLabel": "将用户加入随机事件",
-        "importOptions": "选项",
-        "sampleCSV": "下载示例 CSV",
-        "fileLabel": "上传电子表格：",
-        "errorsTitle": "发生错误",
-        "communityUsers": "这是社区列表",
-        "setAsConversation": "URL 列作为对话",
-        "toMainCommunityToo": "也将用户添加到主要社区",
-        "willImportedTo": "用户将被导入社区",
-        "ChooseFile": "选择文件"
-    },
-    "dashboard": {
-        "Menu": "菜单",
-        "Home": "家",
-        "Welcome": "欢迎",
-        "Events": "活动",
-        "Discuss": "讨论",
-        "People": "人们",
-        "About": "关于",
-        "Community": "社区",
-        "LogIn": "登录",
-        "LogOut": "登出",
-        "Intercoin": "互币",
-        "Shows": "演出",
-        "Calendar": "日历",
-        "Me": "我",
-        "Media": "媒体",
-        "Services": "服务",
-        "SetMobileNumber": "设置手机号码",
-        "SetEmailAddress": "设置电子邮件地址"
-    },
-    "services": {
-        "Title": "服务",
-        "filterByTitle": "按标题查找服务",
-        "New": "+ 开始新服务",
-        "NewService": "新服务",
-        "NewAvailability": "新的可用性",
-        "filterServices": "过滤服务",
-        "NoneYet": "尚未形成服务<br>在这些时候。",
-        "AllAuthors": "所有作者",
-        "AllDays": "每天",
-        "AllLocations": "所有地点",
-        "MakeReservation": "进行预订",
-        "CancelReservation": "取消预订",
-        "UpdateReservation": "更新预订",
-        "AreYouSure": "你确定吗？",
-        "YouWillRefunded": "您将以积分的形式获得退款，您可以在应用程序中购买其他东西。",
-        "AllInterests": "所有利益",
-        "FilterbyInterest": "按兴趣筛选",
-        "FilterByDate": "按日期筛选",
-        "ShowActivities": "显示与...相关的活动",
-        "newServices": "您有 {{1}} 项新服务",
-        "SelectLocation": "选择地点",
-        "FilterLocationsPlaceHolder": "过滤场地...",
-        "Description": "{{1}} 服务",
-        "Keywords": "{{1}} 服务"
-    },
-    "welcome": {
-        "Title": "{{appName}}：欢迎",
-        "GetStarted": "开始",
-        "gallery": {
-            "Connect": "连接",
-            "Organize": "组织",
-            "Travel": "旅行",
-            "Share": "分享"
-        }
-    }
+	"notFound": {
+		"Explanation": "<span class='url'>{{1}}</span>\u4e0d\u6307\u5411\u4efb\u4f55\u4e1c\u897f\uff01",
+		"NextSteps": "\u4f7f\u7528\u4e3b\u83dc\u5355\u67e5\u627e\u60a8\u8981\u67e5\u627e\u7684\u5185\u5bb9\u3002"
+	},
+	"greeting": {
+		"Welcome": "\u6b22\u8fce\u4f7f\u7528 {{1}}\u3002\u5728\u8fd9\u91cc\uff0c\u60a8\u5c06\u627e\u5230\u4e3a\u6211\u4eec\u793e\u533a\u6210\u5458\u53d1\u5e03\u7684\u5185\u5bb9\u3002\u8bf7\u6dfb\u52a0\u60a8\u7684\u7535\u5b50\u90ae\u4ef6\u5730\u5740\u6216\u624b\u673a\u53f7\u7801\uff0c\u4ee5\u4fbf\u5728\u53d1\u5e03\u516c\u544a\u65f6\u6536\u5230\u901a\u77e5\u3002"
+	},
+	"conversations": {
+		"New": "\u65b0\u5bf9\u8bdd",
+		"Conversation": "\u5bf9\u8bdd",
+		"Topics": "\u8bdd\u9898",
+		"NoneYet": "\u5c1a\u672a\u5f62\u6210\u4efb\u4f55\u5bf9\u8bdd",
+		"newConversations": "{{1}} \u4e2a\u65b0\u5bf9\u8bdd",
+		"AllAuthors": "\u6240\u6709\u4f5c\u8005",
+		"FilterbyAuthors": "\u6309\u4f5c\u8005\u7b5b\u9009",
+		"FilterAuthorPlaceHolder": "\u641c\u7d22\u5176\u4ed6\u4f5c\u8005...",
+		"Title": "\u5bf9\u8bdd",
+		"Description": "{{1}} \u6b21\u5bf9\u8bdd",
+		"filterConversations": "\u6309\u6587\u672c\u8fc7\u6ee4"
+	},
+	"newConversation": {
+		"composer": {
+			"ChooseActivity": "\u9009\u62e9\u4e00\u4e2a\u4e3b\u9898",
+			"Share": "\u5206\u4eab",
+			"interest": {
+				"Title": "\u9009\u62e9\u4e00\u4e2a\u6d3b\u52a8",
+				"Filter": "\u641c\u7d22\u5174\u8da3..."
+			}
+		},
+		"Title": "\u65b0\u5bf9\u8bdd",
+		"TitlePlaceholder": "\u4f60\u8c08\u8bdd\u7684\u4e3b\u9898",
+		"ContentPlaceholder": "\u5199\u51e0\u53e5\u8bdd\u5f00\u59cb\u5bf9\u8bdd\uff0c\u4ee5\u4fbf\u5176\u4ed6\u4eba\u53ef\u4ee5\u56de\u590d",
+		"StartButton": "\u5f00\u59cb\u5bf9\u8bdd"
+	},
+	"events": {
+		"Title": "\u6d3b\u52a8",
+		"filterByTitle": "\u6309\u6807\u9898\u67e5\u627e\u4e8b\u4ef6",
+		"New": "+ \u5f00\u59cb\u65b0\u6d3b\u52a8",
+		"SetLocation": "\u8bbe\u7f6e\u6211\u7684\u4f4d\u7f6e",
+		"NoneYet": "\u5c1a\u672a\u5f62\u6210\u4efb\u4f55\u4e8b\u4ef6<br>\u5728\u8fd9\u4e9b\u65f6\u5019\u3002",
+		"AllAuthors": "\u6240\u6709\u4f5c\u8005",
+		"AllDays": "\u6bcf\u5929",
+		"AllLocations": "\u6240\u6709\u5730\u70b9",
+		"AllInterests": "\u6240\u6709\u5174\u8da3",
+		"FilterbyInterest": "\u6309\u5174\u8da3\u8fc7\u6ee4",
+		"FilterByDate": "\u6309\u65e5\u671f\u8fc7\u6ee4",
+		"ShowActivities": "\u663e\u793a\u4e0e \u76f8\u5173\u7684\u6d3b\u52a8\u3002 . .",
+		"newEvents": "\u60a8\u6709 {{1}} \u4e2a\u65b0\u6d3b\u52a8",
+		"SelectLocation": "\u9009\u62e9\u4f4d\u7f6e",
+		"FilterLocationsPlaceHolder": "\u8fc7\u6ee4\u573a\u5730...",
+		"filterEvents": "\u8fc7\u6ee4\u4e8b\u4ef6",
+		"NewEvent": "\u65b0\u4e8b\u4ef6",
+		"Description": "{{1}} \u4e2a\u4e8b\u4ef6",
+		"Keywords": "{{1}} \u4e2a\u4e8b\u4ef6",
+		"MakeReservation": "\u8fdb\u884c\u9884\u8ba2",
+		"Reserved": "\u53d6\u6d88\u9884\u8ba2",
+		"AreYouSure": "\u4f60\u786e\u5b9a\u5417\uff1f",
+		"YouWillRefunded": "\u60a8\u5c06\u4ee5\u79ef\u5206\u7684\u5f62\u5f0f\u83b7\u5f97\u9000\u6b3e\uff0c\u60a8\u53ef\u4ee5\u5728\u5e94\u7528\u7a0b\u5e8f\u4e2d\u82b1\u8d39\u5728\u5176\u4ed6\u4e8b\u60c5\u4e0a\u3002",
+		"CancelReservation": "\u53d6\u6d88\u9884\u8ba2",
+		"UpdateReservation": "\u66f4\u65b0\u9884\u8ba2"
+	},
+	"schedule": {
+		"Title": "\u65e5\u7a0b",
+		"NoneYet": "\u60a8\u6ca1\u6709\u53c2\u52a0\u4efb\u4f55\u6d3b\u52a8",
+		"AddSome": "\u6dfb\u52a0\u4e00\u4e9b\u5230\u60a8\u7684\u65e5\u7a0b\u5b89\u6392\uff01",
+		"AddMore": "\u5c06\u6d3b\u52a8\u6dfb\u52a0\u5230\u60a8\u7684\u65e5\u7a0b\u5b89\u6392\u4e2d\uff01",
+		"future": "\u672a\u6765",
+		"past": "\u8fc7\u53bb\u7684"
+	},
+	"location": {
+		"Title": "\u5730\u70b9",
+		"NewLocation": "\u65b0\u4f4d\u7f6e"
+	},
+	"inbox": {
+		"Title": "\u6536\u4ef6\u7bb1",
+		"NoneYet": "\u60a8\u6ca1\u6709\u53c2\u4e0e\u4efb\u4f55\u5bf9\u8bdd",
+		"FindPeople": "\u5bfb\u627e\u53ef\u4ee5\u4ea4\u8c08\u7684\u4eba",
+		"GroupConversations": "\u52a0\u5165\u4e00\u4e9b\u5c0f\u7ec4\u5bf9\u8bdd",
+		"ContactStaff": "\u8054\u7cfb\u5de5\u4f5c\u4eba\u5458",
+		"ContactCustomers": "\u8054\u7cfb\u5ba2\u6237",
+		"AddNewContact": "\u6dfb\u52a0\u65b0\u8054\u7cfb\u4eba",
+		"AddNewContacts": "\u6dfb\u52a0\u65b0\u8054\u7cfb\u4eba"
+	},
+	"me": {
+		"Title": "\u6211",
+		"MobileNumber": "\u624b\u673a\u53f7\u7801",
+		"EmailAddress": "\u7535\u5b50\u90ae\u4ef6\u5730\u5740",
+		"UpdateSocialTitle": "\u66f4\u65b0 {{1}} \u7528\u6237\u540d",
+		"Web3": "Web3"
+	},
+	"people": {
+		"Title": "\u4eba\u4eec",
+		"AppAlert": "\u5e94\u7528\u5546\u5e97\u4e2d\u7684\u6b64\u5e94\u7528\u53ef\u8ba9\u60a8\u4e0e\u670b\u53cb\u8054\u7cfb\uff0c\u7b49\u7b49\u3002",
+		"Invite": "\u9080\u8bf7\u670b\u53cb",
+		"FindSomeoneByName": "\u6309\u540d\u5b57\u627e\u4eba",
+		"FindAllMyFriends": "\u627e\u5230\u6211\u6240\u6709\u7684\u670b\u53cb",
+		"labels": {
+			"All": "\u6bcf\u4e2a\u4eba",
+			"Title": "\u6309\u5173\u7cfb\u8fc7\u6ee4",
+			"New": "\u65b0\u7684\u5173\u7cfb\u7c7b\u578b"
+		},
+		"interests": {
+			"All": "\u6240\u6709\u5174\u8da3",
+			"Title": "\u6309\u5174\u8da3\u8fc7\u6ee4",
+			"Filter": "\u663e\u793a\u611f\u5174\u8da3\u7684\u4eba\u3002 . ."
+		},
+		"SearchByName": "\u6309\u540d\u79f0\u641c\u7d22",
+		"Description": "{{1}} \u793e\u533a\u4e2d\u7684\u4eba",
+		"Keywords": "{{1}} \u4eba\u793e\u533a",
+		"BuyCredits": "\u8d2d\u4e70\u79ef\u5206"
+	},
+	"communities": {
+		"Title": "\u793e\u533a",
+		"NewCommunity": "\u65b0\u793e\u533a",
+		"FindCommunityByName": "\u6309\u540d\u79f0\u67e5\u627e\u793e\u533a",
+		"Description": "{{1}} \u4e2a\u793e\u533a"
+	},
+	"community": {
+		"Title": "{{1}} \u793e\u533a",
+		"Roles": "\u89d2\u8272",
+		"AllRoles": "\u6240\u6709\u89d2\u8272",
+		"YouDontHavePermission": "\u60a8\u65e0\u6743\u6267\u884c\u6b64\u64cd\u4f5c",
+		"usernamePlaceholder": "\u8bbe\u7f6e\u793e\u533a\u540d\u79f0",
+		"NotEnoughCredits": "\u60a8\u6ca1\u6709\u8db3\u591f\u7684\u79ef\u5206\u6765\u521b\u5efa\u793e\u533a\u3002\u9700\u8981{{1}}\uff0c\u4f60\u6709{{2}}"
+	},
+	"event": {
+		"GetDirections": "\u83b7\u53d6\u8def\u7ebf",
+		"WhichMap": "\u60a8\u60f3\u4f7f\u7528\u54ea\u4e9b\u5730\u56fe\uff1f",
+		"JoinEventToChat": "\u52a0\u5165\u6d3b\u52a8\u804a\u5929",
+		"promote": {
+			"Title": "\u5ba3\u4f20\u672c\u6b21\u6d3b\u52a8",
+			"Prompt": "\u9009\u62e9\u60a8\u60f3\u5728\u54ea\u91cc\u5ba3\u4f20\u6b64\u6d3b\u52a8\uff1a"
+		},
+		"Confirmation": "\u786e\u8ba4"
+	},
+	"newEvent": {
+		"Title": "\u8ba1\u5212\u65b0\u6d3b\u52a8"
+	},
+	"interests": {
+		"Title": "\u5174\u8da3",
+		"prompt": "\u9009\u62e9\u60a8\u60f3\u4e86\u89e3\u7684\u4e8b\u7269\u7c7b\u578b\u3002",
+		"explanation": "\u60a8\u9009\u62e9\u7684\u5174\u8da3\u8d8a\u591a\uff0c\u60a8\u4e0e\u5fd7\u8da3\u76f8\u6295\u7684\u4eba\u5efa\u7acb\u8054\u7cfb\u7684\u53ef\u80fd\u6027\u5c31\u8d8a\u5927\u3002",
+		"filter": "\u4f60\u5bf9\u4ec0\u4e48\u611f\u5174\u8da3\u5462\uff1f",
+		"Profile": "\u5171\u540c\u5229\u76ca\u7a81\u51fa\u3002\u5982\u679c\u60a8\u4e5f\u6709\u4ee5\u4e0b\u4e00\u9879\u6216\u591a\u9879\u5174\u8da3\uff0c\u53ef\u4ee5{{clickOrTap}}\u6dfb\u52a0\u3002"
+	},
+	"credits": {
+		"Title": "\u5b66\u5206",
+		"EarnCredits": "\u60a8\u9080\u8bf7\u7684\u6bcf\u4e2a\u65b0\u52a0\u5165\u8be5\u5e94\u7528\u7684\u4eba\u5747\u53ef\u8d5a\u53d6 {{1}} \u79ef\u5206",
+		"YouHave": "\u60a8\u6709 {{1}} \u4e2a\u79ef\u5206"
+	},
+	"onboarding": {
+		"Tap": "\u8f7b\u6572",
+		"Click": "\u70b9\u51fb",
+		"Yes": "\u662f\u7684",
+		"No": "\u4e0d",
+		"name": {
+			"Preface": "\u6b22\u8fce\u6765\u5230",
+			"Placeholder": "\u8f93\u5165\u60a8\u7684\u5168\u540d",
+			"GetStarted": "\u5f00\u59cb\u4f7f\u7528",
+			"AsGuest": "\u60a8\u5df2\u88ab\u9080\u8bf7\u4e3a\u5ba2\u4eba\u3002",
+			"AsMember": "\u60a8\u5df2\u88ab\u9080\u8bf7\u6210\u4e3a\u4f1a\u5458\u3002",
+			"AsAdmin": "\u60a8\u5df2\u88ab\u9080\u8bf7\u4e3a\u7ba1\u7406\u5458\u3002",
+			"AsOwner": "\u60a8\u5df2\u88ab\u9080\u8bf7\u4e3a\u6240\u6709\u8005\u3002",
+			"TooShort": "\u4f60\u7684\u5168\u540d\u4e0d\u80fd\u8fd9\u4e48\u77ed",
+			"SetAsYourFullName": "\u5c06 {{1}} \u8bbe\u4e3a\u60a8\u7684\u5168\u540d\uff1f"
+		},
+		"icon": {
+			"KeepDefault": "\u6216\u4fdd\u7559\u8fd9\u5f20\u7167\u7247",
+			"SetYourPhoto": "{{ClickOrTap}} \u8bbe\u7f6e\u60a8\u7684\u7167\u7247\uff1a",
+			"ClickOnYourFace": "{{ClickOrTap}}\u5728\u4f60\u8138\u4e0a"
+		},
+		"interests": {
+			"GetStarted": "\u21e9 \u5f00\u59cb",
+			"NextCategory": "\u2193 \u4e0b\u4e00\u4e2a",
+			"Continue": "\u7ee7\u7eed",
+			"Instructions": "\u5728\u63a5\u4e0b\u6765\u7684 {{1}} \u4e2a\u7c7b\u522b\u4e2d\uff0c<br> {{2}} \u60a8\u611f\u5174\u8da3\u7684\u6240\u6709\u6d3b\u52a8\u3002<br>\u8fd9\u5c31\u662f\u60a8\u4e0e\u793e\u533a\u4e2d\u5176\u4ed6\u4eba\u8054\u7cfb\u7684\u65b9\u5f0f\u3002"
+		},
+		"profile": {
+			"Profile": "\u5e2e\u52a9\u60a8\u627e\u5230\u5408\u9002\u4eba\u9009\u7684\u57fa\u672c\u4fe1\u606f\uff1a",
+			"Birthday": "\u8bf7\u8f93\u5165\u60a8\u7684\u751f\u65e5\u65e5\u671f\uff1a",
+			"Placeholder": "\u4f60\u662f\u8c01\uff0c\u4f60\u505a\u4ec0\u4e48\uff1f\u544a\u8bc9\u4eba\u4eec\u4e00\u4e9b\u5173\u4e8e\u4f60\u81ea\u5df1\u7684\u6709\u8da3\u6216\u72ec\u7279\u7684\u4e8b\u60c5\u3002",
+			"Month": "\u6708",
+			"Day": "\u65e5",
+			"Year": "\u5e74",
+			"Gender": "\u6027\u522b",
+			"Male": "\u7537\u6027",
+			"Female": "\u5973\u6027",
+			"Other": "\u5176\u4ed6",
+			"Height": "\u9ad8\u5ea6",
+			"Affiliation": "\u8054\u7cfb",
+			"Dating": "\u7ea6\u4f1a",
+			"Interested": "\u611f\u5174\u8da3\u7684",
+			"NotInterested": "\u6ca1\u5174\u8da3",
+			"MatchmakerOnly": "\u4ec5\u9650\u5a92\u4eba",
+			"Required": "\u8981\u7ee7\u7eed\uff0c\u8bf7\u81f3\u5c11\u5199\u51e0\u884c\u5173\u4e8e\u60a8\u81ea\u5df1\u7684\u4fe1\u606f\u3002"
+		},
+		"location": {
+			"NoOneElse": "\u6ca1\u6709\u4eba\u4f1a\u770b\u5230\u5b83\u3002",
+			"SetMyLocation": "\u8bbe\u7f6e\u6211\u7684\u4f4d\u7f6e"
+		},
+		"pile": {
+			"DialogTitle": "\u6709\u5171\u540c\u5174\u8da3\u7684\u4eba"
+		},
+		"Done": "\u5b8c\u6bd5",
+		"Skip": "\u6216\u8df3\u8fc7\u6b64",
+		"relationships": {
+			"title": "\u5c06 {{userName}} \u6dfb\u52a0\u5230\u7535\u8bdd\u7c3f",
+			"welcome": "\u6b22\u8fce{{user}}",
+			"invitedByUser": "\u9080\u8bf7\u4f60\u3002",
+			"addToPhonebook": "\u4fdd\u5b58\u5230\u6211\u7684\u624b\u673a\u901a\u8baf\u5f55",
+			"iosInstructions": "\u5411\u4e0b\u6eda\u52a8\u4ee5\u6dfb\u52a0\u65b0\u8054\u7cfb\u4eba",
+			"androidInstructions": "\u60a8\u5e94\u8be5\u5728\u4e0b\u8f7d\u540e\u6253\u5f00\u6b64 vCard \u6587\u4ef6\u3002",
+			"explanation": "\u4f60\u4eec\u662f\u4ec0\u4e48\u5173\u7cfb\uff1f"
+		},
+		"Title": "\u57fa\u672c\u4fe1\u606f",
+		"Prompt": "\u8bbe\u7f6e\u5e10\u6237\u7684\u51e0\u4e2a\u6b65\u9aa4"
+	},
+	"profile": {
+		"Title": "\u8f6e\u5ed3",
+		"Male": "\u7537\u6027",
+		"Female": "\u5973\u6027",
+		"Other": "\u5176\u4ed6",
+		"dating": {
+			"Interested": "\u611f\u5174\u8da3\u7684",
+			"NotInterested": "\u6ca1\u5174\u8da3",
+			"MatchmakerOnly": "\u4ec5\u9650\u5a92\u4eba"
+		},
+		"StartConversation": "\u5f00\u59cb\u5bf9\u8bdd",
+		"blockUser": "\u5c4f\u853d\u6b64\u7528\u6237",
+		"blockUserAlert": "\u5728\u60a8\u53d6\u6d88\u963b\u6b62\u4e4b\u524d\uff0c\u60a8\u4e0d\u4f1a\u518d\u770b\u5230\u6765\u81ea\u8be5\u7528\u6237\u7684\u4efb\u4f55\u6d88\u606f\u3002",
+		"unblockUser": "\u53d6\u6d88\u5c4f\u853d\u6b64\u7528\u6237",
+		"addToContacts": "\u6dfb\u52a0\u5230\u901a\u8baf\u5f55",
+		"manageLabels": "\u7ba1\u7406\u6807\u7b7e",
+		"inviteUsers": "\u9080\u8bf7\u7528\u6237",
+		"inviteSuccess": "\u6210\u529f\u9080\u8bf7\u7528\u6237\u4e3a {{label}}",
+		"invite": "\u9080\u8bf7",
+		"relationships": "\u5173\u7cfb",
+		"newRole": "\u65b0\u89d2\u8272",
+		"about": "\u5173\u4e8e",
+		"people": "\u4eba\u4eec",
+		"info": "\u4fe1\u606f",
+		"interests": "\u5174\u8da3",
+		"chat": "\u804a\u5929",
+		"locations": "\u5730\u70b9",
+		"ManageRoles": "\u7ba1\u7406\u89d2\u8272",
+		"aboutPlaceholder": "\u4f60\u662f\u8c01\uff0c\u4f60\u505a\u4ec0\u4e48\uff1f\u544a\u8bc9\u4eba\u4eec\u4e00\u4e9b\u5173\u4e8e\u4f60\u81ea\u5df1\u7684\u6709\u8da3\u6216\u72ec\u7279\u7684\u4e8b\u60c5\u3002",
+		"explanation": "\u60a8\u7684\u4e2a\u4eba\u8d44\u6599\u6709\u52a9\u4e8e\u66f4\u597d\u5730\u5c06\u60a8\u4e0e\u5176\u4ed6\u4eba\u8fdb\u884c\u5c0f\u7ec4\u6d3b\u52a8\u76f8\u5339\u914d\u3002<br>\u8bf7\u8f93\u5165\u60a8\u7684\u751f\u65e5\u65e5\u671f",
+		"chats": {
+			"placeholder": "\u8bf4\u4e9b\u4ec0\u4e48"
+		},
+		"LogOut": "\u767b\u51fa",
+		"selectRole": "\u9009\u62e9\u89d2\u8272",
+		"MyLinks": "\u6211\u7684\u94fe\u63a5",
+		"MyJobs": "\u6211\u7684\u5de5\u4f5c",
+		"MySocial": "\u6211\u7684\u793e\u4ea4",
+		"MyEducation": "\u6211\u7684\u6559\u80b2",
+		"JobsPlaceholder": "\u5728\u6b64\u5904\u8f93\u5165\u5de5\u4f5c\u4fe1\u606f",
+		"EducationPlaceholder": "\u5728\u6b64\u5904\u8f93\u5165\u6559\u80b2\u4fe1\u606f",
+		"ManageNotifications": "\u7ba1\u7406\u901a\u77e5",
+		"YourPreferredLanguage": "\u60a8\u7684\u9996\u9009\u8bed\u8a00",
+		"SendCrypto": "\u652f\u4ed8",
+		"Block": "\u5835\u585e",
+		"Unblock": "\u89e3\u9501",
+		"Email": "\u7535\u5b50\u90ae\u4ef6",
+		"Avoid": "\u907f\u514d",
+		"CreatePrivateChat": "\u82b1\u8d39 {{credits}} \u79ef\u5206\u6765\u8054\u7cfb\uff1f",
+		"RolesInCommunity": "\u5728\u793e\u533a\u4e2d\u7684\u89d2\u8272",
+		"PersonalChatWith": "\u4e0e {{name}} \u7684\u4e2a\u4eba\u804a\u5929",
+		"SendCryptoTo": "\u5c06\u52a0\u5bc6\u8d27\u5e01\u53d1\u9001\u5230 {{name}}",
+		"SendEmailTo": "\u53d1\u9001\u7535\u5b50\u90ae\u4ef6\u81f3{{name}}",
+		"SendSMSTo": "\u53d1\u9001\u77ed\u4fe1\u5230{{name}}",
+		"BlockThisUser": "\u5c4f\u853d\u8be5\u7528\u6237",
+		"UnblockThisUser": "\u53d6\u6d88\u963b\u6b62\u6b64\u7528\u6237",
+		"YouCantChatWithYourself": "\u4f60\u4e0d\u80fd\u548c\u81ea\u5df1\u804a\u5929",
+		"blockUserAlertTitle": "\u5df2\u5c4f\u853d{{displayName}}",
+		"sections": {
+			"education": "\u6559\u80b2",
+			"greeting": "\u95ee\u5019\u8bed",
+			"jobs": "\u5de5\u4f5c",
+			"links": "\u94fe\u63a5",
+			"language": "\u8bed\u8a00",
+			"roles": "\u89d2\u8272",
+			"personal": "\u4e2a\u4eba\u7684",
+			"social": "\u793e\u4f1a\u7684"
+		},
+		"Roles": "\u89d2\u8272",
+		"SendPaymentTo": "\u5411{{name}}\u4ed8\u6b3e"
+	},
+	"myqr": {
+		"Title": "\u6211\u7684\u4e8c\u7ef4\u7801"
+	},
+	"composer": {
+		"createCommunity": "\u521b\u5efa\u793e\u533a",
+		"inviteAdmin": "\u9080\u8bf7\u7ba1\u7406\u5458",
+		"inviteMember": "\u9080\u8bf7\u4f1a\u5458",
+		"newCommunityTitle": "\u793e\u533a\u540d\u5b57",
+		"setCommunityTitle": "\u793e\u533a\u540d\u5b57",
+		"creditsChargeRequest": "\u60a8\u540c\u610f\u82b1\u8d39 {{price}} \u4e2a\u79ef\u5206\u5417\uff1f",
+		"yes": "\u662f\u7684",
+		"no": "\u4e0d"
+	},
+	"notifications": {
+		"WelcomePleaseVerifyEmail": "\u6b22\u8fce\uff01\u8bf7\u9a8c\u8bc1\u60a8\u7684\u7535\u5b50\u90ae\u4ef6\u5730\u5740\u3002",
+		"WelcomeVerifyEmail": "\u6b22\u8fce\uff01\u786e\u8ba4\u4f60\u7684\u90ae\u4ef6\u5730\u5740\u3002",
+		"ForgetPass": "\u563f\uff0c\u4f60\u5fd8\u8bb0\u5bc6\u7801\u4e86\u5417\uff1f",
+		"ManageEmailSubscriptions": "\u7ba1\u7406\u60a8\u7684\u7535\u5b50\u90ae\u4ef6\u8ba2\u9605",
+		"IfUnsubscribe": "\u5982\u679c\u60a8\u60f3\u9000\u8ba2"
+	},
+	"speak": {
+		"onboarding": {
+			"name": {
+				"Welcome": "\u6b22\u8fce\u4f7f\u7528 {{CommunityName}}\u3002\u8fd9\u4e2a\u5e94\u7528\u7a0b\u5e8f\u5c06\u5e2e\u52a9\u60a8\u4e0e\u670b\u53cb\u8054\u7cfb\uff0c\u53d1\u73b0\u6709\u5171\u540c\u5174\u8da3\u7684\u65b0\u670b\u53cb\u7b49\u7b49\u3002\u8ba9\u6211\u4eec\u5f00\u59cb\u5427\uff01"
+			},
+			"icon": {
+				"Commentary": "\u8bbe\u7f6e\u4f60\u7684\u7167\u7247\u3002\u8fd9\u5c31\u662f\u4eba\u4eec\u5728\u7f51\u7ad9\u4e0a\u770b\u5230\u60a8\u7684\u65b9\u5f0f\u3002"
+			},
+			"interests": {
+				"Commentary": "\u60a8\u9009\u62e9\u7684\u9879\u76ee\u8d8a\u591a\uff0c\u60a8\u53ef\u4ee5\u9047\u5230\u7684\u4eba\u5c31\u8d8a\u591a\u3002",
+				"Notifications": "\u60a8\u9700\u8981\u5141\u8bb8\u901a\u77e5"
+			}
+		},
+		"subscriptions": {
+			"confirm": "\u901a\u77e5\u53ef\u8ba9\u60a8\u4e86\u89e3\u60a8\u611f\u5174\u8da3\u7684\u4e8b\u60c5\uff0c\u4f8b\u5982\u670b\u53cb\u4f55\u65f6\u52a0\u5165\u5e94\u7528\u7a0b\u5e8f\u6216\u5411\u60a8\u53d1\u9001\u6d88\u606f\u3002"
+		},
+		"invite": "{{Q.words.TapOrClick}} \u5728\u8fd9\u91cc\u67e5\u770b\u5982\u4f55\u4e0e\u5176\u4ed6\u4eba\u5206\u4eab\u3002"
+	},
+	"payment": {
+		"onContribute": "\u8c22\u8c22\uff01\u60a8\u7684\u4ed8\u6b3e\u5df2\u901a\u8fc7\u3002\u4f60\u60f3\u9080\u8bf7\u4f60\u7684\u670b\u53cb\u52a0\u5165\u4f60\u5417\uff1f",
+		"ConnectAccount": "\u8fde\u63a5\u8d26\u6237"
+	},
+	"featureboard": {
+		"Text_1": "\u8ba9\u4f60\u7684\u58f0\u97f3\u88ab\u542c\u5230\uff01\u4f60\u540c\u610f\u6211\u4eec\u5e94\u8be5\u5f00\u53d1\u4e00\u4e2a\u7279\u6027\u6216\u9519\u8bef\u5417\uff1f\u5355\u51fb\u6309\u94ae\u4ee5\u652f\u6301\u5b83\u3002",
+		"Text_2": "\u60f3\u8981\u6211\u4eec\u5f00\u53d1\u65b0\u529f\u80fd\u5417\uff1f\u4e0b\u9762\u63cf\u8ff0\u4e00\u4e0b\u3002",
+		"Text_3": "\u6bcf\u5468\u6211\u4eec\u90fd\u4f1a\u5f00\u59cb\u5f00\u53d1\u793e\u533a\u6700\u9700\u8981\u7684\u529f\u80fd\u3002\u6240\u6709\u6350\u6b3e\u90fd\u7528\u4e8e\u8be5\u76ee\u7684\uff0c\u4f7f\u6211\u4eec\u80fd\u591f\u4f7f\u5e94\u7528\u7a0b\u5e8f\u53d8\u5f97\u66f4\u597d\u3002",
+		"Text_4": "\u6240\u6709\u6350\u6b3e\u90fd\u7528\u4e8e\u5e2e\u52a9\u652f\u4ed8\u6211\u4eec\u7684\u5f00\u53d1\u6210\u672c\u3002",
+		"Text_5": "\u60a8\u662f\u5426\u5bf9\u5e0c\u671b\u6211\u4eec\u6267\u884c\u4f46\u5c1a\u672a\u770b\u5230\u5176\u4ed6\u4eba\u6dfb\u52a0\u7684\u529f\u80fd\u6216\u9519\u8bef\u4fee\u590d\u6709\u60f3\u6cd5\uff1f\u63cf\u8ff0\u5982\u4e0b\uff1a",
+		"Options": [
+			{
+				"text": "400 \u7f8e\u5143\u5b9e\u65f6\u89c6\u9891\u4f1a\u8bae"
+			},
+			{
+				"defaultAmount": "10",
+				"text": "200 \u7f8e\u5143\u7684\u672c\u5730\u5c0f\u5b66\u6ce8\u518c\u4fe1\u606f"
+			},
+			{
+				"text": "130 \u7f8e\u5143\u6d4f\u89c8\u548c\u5206\u4eab\u6570\u5343\u4e2a {{1}} \u6a21\u56e0",
+				"defaultAmount": "10"
+			},
+			{
+				"text": "$80 \u7ba1\u7406\u60a8\u81ea\u5df1\u7684\u793e\u533a",
+				"defaultAmount": "10"
+			},
+			{
+				"text": "30 \u7f8e\u5143\u4fee\u590d\u5bf9\u8bdd\u9519\u8bef",
+				"defaultAmount": "10"
+			}
+		],
+		"RequestNewFeature": "\u8bf7\u6c42\u65b0\u529f\u80fd/\u9519\u8bef\u4fee\u590d",
+		"FeaturePlaceholder": "\u529f\u80fd\u7684\u7b80\u77ed\u6458\u8981",
+		"FeatureDescription": "\u63cf\u8ff0\u5176\u4ed6\u4eba\u5982\u4f55\u91cd\u73b0\u60a8\u770b\u5230\u7684\u9519\u8bef\uff0c\u6216\u8be6\u7ec6\u63cf\u8ff0\u60a8\u8981\u6784\u5efa\u7684\u529f\u80fd",
+		"AddYourRequest": "\u6dfb\u52a0\u60a8\u7684\u8bf7\u6c42",
+		"NewFeature": "\u65b0\u529f\u80fd"
+	},
+	"assetshistory": {
+		"Title": "\u8d44\u4ea7\u5386\u53f2",
+		"Charges": "\u6536\u8d39",
+		"Credits": "\u5b66\u5206"
+	},
+	"contribute": {
+		"ContributeExplanation": "\u5e2e\u52a9\u652f\u6301 {{communityName}} \u5e94\u7528\u7a0b\u5e8f\u7684\u6301\u7eed\u5f00\u53d1\u3002\u60a8\u7684\u6240\u6709\u8d21\u732e\u90fd\u6709\u52a9\u4e8e\u4fee\u590d\u9519\u8bef\u5e76\u5f00\u53d1\u65b0\u529f\u80fd\uff0c\u4ee5\u5e2e\u52a9\u53d1\u5c55\u5728\u7ebf\u793e\u533a\uff01",
+		"ReasonToContribute": "\u6b64\u5e94\u7528\u7531 {{communityName}} \u7684\u652f\u6301\u8005\u7ef4\u62a4\u3002\u5e2e\u52a9\u652f\u6301\u8fd9\u4e2a\u5e94\u7528\u7a0b\u5e8f\uff0c\u8fd9\u6837\u6211\u4eec\u5c31\u53ef\u4ee5\u6539\u53d8\u4eba\u4eec\u7684\u751f\u6d3b\uff01"
+	},
+	"accounts": {
+		"remove": {
+			"title": "\u5220\u9664\u5e10\u6237",
+			"content": "\u8981\u5220\u9664\u6b64\u5e10\u6237\u5417\uff1f",
+			"ok": "\u662f\u7684",
+			"cancel": "\u4e0d"
+		}
+	},
+	"import": {
+		"fileNotFound": "\u62b1\u6b49\uff0c\u672a\u627e\u5230 CSV \u6587\u4ef6\u3002",
+		"fileEmpty": "\u62b1\u6b49\uff0cCSV \u6587\u4ef6\u4e3a\u7a7a\u3002",
+		"userIdNotFound": "\u7528\u6237\u5b58\u5728\u4f46 id \u4e3a\u7a7a",
+		"errorLine": "\u884c {{1}}",
+		"fieldNotFound": "\u672a\u627e\u5230\u5fc5\u586b\u5b57\u6bb5\u201c{{1}}\u201d",
+		"taskStreamInvalid": "\u4efb\u52a1\u6d41\u65e0\u6548",
+		"instructionsEmpty": "\u4efb\u52a1\u6d41\u6307\u4ee4\u4e3a\u7a7a",
+		"complete": "\u5b8c\u5168\u7684",
+		"activateUsers": "\u5411\u7528\u6237\u53d1\u9001\u6fc0\u6d3b\u6d88\u606f\uff1f",
+		"importProgress": "\u8fdb\u6b65",
+		"joinEventLabel": "\u5c06\u7528\u6237\u52a0\u5165\u968f\u673a\u4e8b\u4ef6",
+		"importOptions": "\u9009\u9879",
+		"sampleCSV": "\u4e0b\u8f7d\u793a\u4f8b CSV",
+		"fileLabel": "\u4e0a\u4f20\u7535\u5b50\u8868\u683c\uff1a",
+		"errorsTitle": "\u53d1\u751f\u9519\u8bef",
+		"communityUsers": "\u8fd9\u662f\u793e\u533a\u5217\u8868",
+		"setAsConversation": "URL \u5217\u4f5c\u4e3a\u5bf9\u8bdd",
+		"toMainCommunityToo": "\u4e5f\u5c06\u7528\u6237\u6dfb\u52a0\u5230\u4e3b\u8981\u793e\u533a",
+		"willImportedTo": "\u7528\u6237\u5c06\u88ab\u5bfc\u5165\u793e\u533a",
+		"ChooseFile": "\u9009\u62e9\u6587\u4ef6"
+	},
+	"dashboard": {
+		"Menu": "\u83dc\u5355",
+		"Home": "\u5bb6",
+		"Welcome": "\u6b22\u8fce",
+		"Events": "\u6d3b\u52a8",
+		"Discuss": "\u8ba8\u8bba",
+		"People": "\u4eba\u4eec",
+		"About": "\u5173\u4e8e",
+		"Community": "\u793e\u533a",
+		"LogIn": "\u767b\u5f55",
+		"LogOut": "\u767b\u51fa",
+		"Intercoin": "\u4e92\u5e01",
+		"Shows": "\u6f14\u51fa",
+		"Calendar": "\u65e5\u5386",
+		"Me": "\u6211",
+		"Media": "\u5a92\u4f53",
+		"Services": "\u670d\u52a1",
+		"SetMobileNumber": "\u8bbe\u7f6e\u624b\u673a\u53f7\u7801",
+		"SetEmailAddress": "\u8bbe\u7f6e\u7535\u5b50\u90ae\u4ef6\u5730\u5740"
+	},
+	"services": {
+		"Title": "\u670d\u52a1",
+		"filterByTitle": "\u6309\u6807\u9898\u67e5\u627e\u670d\u52a1",
+		"New": "+ \u5f00\u59cb\u65b0\u670d\u52a1",
+		"NewService": "\u65b0\u670d\u52a1",
+		"NewAvailability": "\u65b0\u7684\u53ef\u7528\u6027",
+		"filterServices": "\u8fc7\u6ee4\u670d\u52a1",
+		"NoneYet": "\u5c1a\u672a\u5f62\u6210\u670d\u52a1<br>\u5728\u8fd9\u4e9b\u65f6\u5019\u3002",
+		"AllAuthors": "\u6240\u6709\u4f5c\u8005",
+		"AllDays": "\u6bcf\u5929",
+		"AllLocations": "\u6240\u6709\u5730\u70b9",
+		"MakeReservation": "\u8fdb\u884c\u9884\u8ba2",
+		"CancelReservation": "\u53d6\u6d88\u9884\u8ba2",
+		"UpdateReservation": "\u66f4\u65b0\u9884\u8ba2",
+		"AreYouSure": "\u4f60\u786e\u5b9a\u5417\uff1f",
+		"YouWillRefunded": "\u60a8\u5c06\u4ee5\u79ef\u5206\u7684\u5f62\u5f0f\u83b7\u5f97\u9000\u6b3e\uff0c\u60a8\u53ef\u4ee5\u5728\u5e94\u7528\u7a0b\u5e8f\u4e2d\u8d2d\u4e70\u5176\u4ed6\u4e1c\u897f\u3002",
+		"AllInterests": "\u6240\u6709\u5229\u76ca",
+		"FilterbyInterest": "\u6309\u5174\u8da3\u7b5b\u9009",
+		"FilterByDate": "\u6309\u65e5\u671f\u7b5b\u9009",
+		"ShowActivities": "\u663e\u793a\u4e0e...\u76f8\u5173\u7684\u6d3b\u52a8",
+		"newServices": "\u60a8\u6709 {{1}} \u9879\u65b0\u670d\u52a1",
+		"SelectLocation": "\u9009\u62e9\u5730\u70b9",
+		"FilterLocationsPlaceHolder": "\u8fc7\u6ee4\u573a\u5730...",
+		"Description": "{{1}} \u670d\u52a1",
+		"Keywords": "{{1}} \u670d\u52a1"
+	},
+	"welcome": {
+		"Title": "{{appName}}\uff1a\u6b22\u8fce",
+		"GetStarted": "\u5f00\u59cb",
+		"gallery": {
+			"Connect": "\u8fde\u63a5",
+			"Organize": "\u7ec4\u7ec7",
+			"Travel": "\u65c5\u884c",
+			"Share": "\u5206\u4eab"
+		}
+	}
 }

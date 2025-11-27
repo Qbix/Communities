@@ -1,459 +1,459 @@
 {
-    "notFound": {
-        "Explanation": "<span class='url'>{{1}}<\/span> hiçbir şeye işaret etmiyor!",
-        "NextSteps": "Aradığınızı bulmak için ana menüyü kullanın."
-    },
-    "dashboard": {
-        "Menu": "Menü",
-        "Home": "Ev",
-        "Welcome": "Hoş geldin",
-        "Events": "Olaylar",
-        "Discuss": "Tartışmak",
-        "People": "İnsanlar",
-        "About": "Hakkında",
-        "Community": "Toplum",
-        "LogIn": "giriş yapmak",
-        "LogOut": "çıkış Yap",
-        "Intercoin": "Intercoin",
-        "Shows": "Gösteriler",
-        "Calendar": "Takvim",
-        "Me": "Ben",
-        "Media": "Medya",
-        "Services": "Hizmetler",
-        "SetMobileNumber": "Cep Numarasını Ayarla",
-        "SetEmailAddress": "E-posta Adresini Ayarla"
-    },
-    "greeting": {
-        "Welcome": "{{1}}&#39;a hoş geldiniz. Burada topluluğumuzun üyeleri için yayınlanan şeyleri bulacaksınız. Duyurular yayınlandığında bildirim almak için lütfen e-posta adresinizi veya cep telefonu numaranızı ekleyin."
-    },
-    "conversations": {
-        "Title": "Konuşmalar",
-        "New": "Yeni Konuşma",
-        "Conversation": "Konuşma",
-        "Topics": "Konular",
-        "NoneYet": "Henüz görüşme yapılmadı",
-        "newConversations": "{{1}} yeni görüşme",
-        "AllAuthors": "Tüm Yazarlar",
-        "FilterbyAuthors": "Yazarlara Göre Filtrele",
-        "FilterAuthorPlaceHolder": "Diğer yazarları ara...",
-        "filterConversations": "Metne göre filtrele",
-        "Description": "{{1}} görüşme"
-    },
-    "newConversation": {
-        "composer": {
-            "ChooseActivity": "Bir konu seç",
-            "Share": "Paylaş",
-            "interest": {
-                "Title": "Bir Etkinlik Seçin",
-                "Filter": "İlgi alanları ara..."
-            }
-        },
-        "Title": "Yeni Konuşma",
-        "TitlePlaceholder": "Konuşmanızın konusu",
-        "ContentPlaceholder": "Sohbeti başlatmak için birkaç kelime yazın, böylece diğerleri cevap verebilir",
-        "StartButton": "Konuşmayı Başlat"
-    },
-    "events": {
-        "Title": "Olaylar",
-        "filterByTitle": "Olayları başlığa göre bulun",
-        "New": "+ Yeni Etkinlik Başlat",
-        "filterEvents": "Olayları filtrele",
-        "NewEvent": "Yeni etkinlik",
-        "SetLocation": "Konumumu Ayarla",
-        "NoneYet": "Henüz etkinlik oluşmadı<br> bu zamanlarda.",
-        "AllAuthors": "Tüm Yazarlar",
-        "AllDays": "Tüm günler",
-        "AllLocations": "Tüm konumlar",
-        "MakeReservation": "Rezervasyon yap",
-        "CancelReservation": "Rezervasyon iptali",
-        "UpdateReservation": "Rezervasyonu Güncelle",
-        "AreYouSure": "Emin misin?",
-        "YouWillRefunded": "Uygulamadaki diğer şeyler için harcayabileceğiniz krediler şeklinde size geri ödeme yapılacaktır.",
-        "AllInterests": "Tüm İlgi Alanları",
-        "FilterbyInterest": "İlgi Alanına Göre Filtrele",
-        "FilterByDate": "Tarihe Göre Filtrele",
-        "ShowActivities": "ile ilgili etkinlikleri gösterin. . .",
-        "newEvents": "{{1}} yeni etkinliğiniz var",
-        "SelectLocation": "Konum Seçin",
-        "FilterLocationsPlaceHolder": "Mekanları filtreleyin...",
-        "Description": "{{1}} etkinlik",
-        "Keywords": "{{1}} etkinlik"
-    },
-    "schedule": {
-        "Title": "Takvim",
-        "NoneYet": "Herhangi bir etkinliğe katılmıyorsunuz",
-        "AddSome": "Programınıza biraz ekleyin!",
-        "AddMore": "Programınıza etkinlikler ekleyin!",
-        "future": "gelecek",
-        "past": "geçmiş"
-    },
-    "location": {
-        "Title": "Konum",
-        "NewLocation": "Yeni konum"
-    },
-    "inbox": {
-        "Title": "Gelen kutusu",
-        "NoneYet": "Herhangi bir sohbete katılmıyorsunuz",
-        "FindPeople": "Konuşacak insanları bulun",
-        "GroupConversations": "Bazı grup konuşmalarına katılın",
-        "ContactStaff": "İletişim Personeli",
-        "ContactCustomers": "Müşterilerle İletişime Geçin",
-        "AddNewContact": "Yeni Kişi Ekle",
-        "AddNewContacts": "Yeni Kişiler Ekle"
-    },
-    "me": {
-        "Title": "Ben mi",
-        "MobileNumber": "Cep numarası",
-        "EmailAddress": "E",
-        "UpdateSocialTitle": "{{1}} kullanıcı adını güncelle",
-        "Web3": "Web3"
-    },
-    "people": {
-        "Title": "İnsanlar",
-        "Description": "{{1}} topluluğundaki kişiler",
-        "AppAlert": "App Store&#39;daki bu uygulama, arkadaşlarınızla bağlantı kurmanıza ve çok daha fazlasına izin verecektir.",
-        "Invite": "Arkadaşları davet etmek",
-        "BuyCredits": "Kredi satın Al",
-        "FindSomeoneByName": "Adına göre birini bul",
-        "SearchByName": "Ada göre ara",
-        "FindAllMyFriends": "Tüm Arkadaşlarımı Bul",
-        "labels": {
-            "All": "Herkes",
-            "Title": "İlişkiye göre filtrele",
-            "New": "Yeni İlişki Türü"
-        },
-        "interests": {
-            "All": "Tüm İlgi Alanları",
-            "Title": "İlgi Alanına Göre Filtrele",
-            "Filter": "İlgilenen kişileri göster. . ."
-        },
-        "Keywords": "{{1}} kişi topluluğu"
-    },
-    "communities": {
-        "Title": "Topluluklar",
-        "NewCommunity": "Yeni Topluluk",
-        "FindCommunityByName": "Ada göre topluluk bulun",
-        "Description": "{{1}} topluluk"
-    },
-    "community": {
-        "Title": "{{1}} Topluluk",
-        "Roles": "Roller",
-        "AllRoles": "Tüm Roller",
-        "YouDontHavePermission": "Bunu yapmaya yetkiniz yok",
-        "usernamePlaceholder": "topluluk adını ayarla",
-        "NotEnoughCredits": "Topluluk oluşturmak için yeterli krediniz yok. {{1}} gerekiyor, {{2}} var"
-    },
-    "event": {
-        "GetDirections": "Yol tarifi almak",
-        "WhichMap": "Hangi haritaları kullanmak istersiniz?",
-        "JoinEventToChat": "Sohbet etmek için etkinliğe katılın",
-        "promote": {
-            "Title": "Bu etkinliği tanıtın",
-            "Prompt": "Bu etkinliği nerede tanıtmak istediğinizi seçin:"
-        },
-        "Confirmation": "Onayla"
-    },
-    "newEvent": {
-        "Title": "Yeni Etkinlik Planla"
-    },
-    "interests": {
-        "Title": "ilgi alanları",
-        "prompt": "Bilmek istediğiniz şeylerin türlerini seçin.",
-        "explanation": "Ne kadar çok ilgi alanı seçerseniz, benzer düşünen insanlarla bağlantı kurma olasılığınız o kadar artar.",
-        "filter": "Ne ile ilgileniyorsun?",
-        "Profile": "Karşılıklı çıkarlar vurgulanır. Aşağıdaki ilgi alanlarından bir veya daha fazlasına sahipseniz, bunları eklemek için {{clickOrTap}} yapabilirsiniz."
-    },
-    "credits": {
-        "Title": "Kredi",
-        "EarnCredits": "Davet ettiğiniz ve uygulamaya katılan her yeni kişi için {{1}} kredi kazanın",
-        "YouHave": "{{1}} krediniz var"
-    },
-    "onboarding": {
-        "Tap": "Musluk",
-        "Click": "Tıklamak",
-        "Yes": "Evet",
-        "No": "Numara",
-        "Skip": "veya bunu atla",
-        "name": {
-            "Preface": "Hoşgeldiniz",
-            "Placeholder": "ad ve soyadınızı giriniz",
-            "GetStarted": "Başlamak",
-            "AsGuest": "Konuk olarak davet edildiniz.",
-            "AsMember": "Üye olarak davet edildiniz.",
-            "AsAdmin": "Yönetici olarak davet edildiniz.",
-            "AsOwner": "Sahip olarak davet edildiniz.",
-            "TooShort": "tam adın bu kadar kısa olamaz",
-            "SetAsYourFullName": "{{1}} tam adınız olarak ayarlansın mı?"
-        },
-        "icon": {
-            "KeepDefault": "ya da bu fotoğrafı sakla",
-            "SetYourPhoto": "{{ClickOrTap}} fotoğrafınızı ayarlamak için:",
-            "ClickOnYourFace": "{{ClickOrTap}} Yüzünde"
-        },
-        "interests": {
-            "GetStarted": "⇩ Başlayın",
-            "NextCategory": "↓ Sonraki",
-            "Continue": "Devam et",
-            "Instructions": "Sonraki {{1}} kategorilerin her birinde,<br> {{2}} ilgilendiğiniz tüm etkinlikler.<br> Topluluktaki diğer insanlarla bu şekilde bağlantı kurarsınız."
-        },
-        "profile": {
-            "Profile": "Profiliniz, insanların sizin hakkınızda daha fazlasını keşfetmesine yardımcı olur.<br>",
-            "Birthday": "Lütfen doğum gününüzü giriniz:",
-            "Placeholder": "Kimsin sen ve ne yapıyorsun? İnsanlara kendinizle ilgili ilginç veya benzersiz bir şey söyleyin.",
-            "Required": "Devam etmek için kendiniz hakkında en az birkaç satır yazın.",
-            "Month": "Ay",
-            "Day": "Gün",
-            "Year": "Yıl",
-            "Gender": "Cinsiyet",
-            "Male": "Erkek",
-            "Female": "Dişi",
-            "Other": "Diğer",
-            "Height": "Yükseklik",
-            "Affiliation": "üyelik",
-            "Dating": "flört",
-            "Interested": "İlgili",
-            "NotInterested": "İlgilenmiyorum",
-            "MatchmakerOnly": "Sadece Çöpçatan"
-        },
-        "location": {
-            "NoOneElse": "Başka kimse görmeyecek.",
-            "SetMyLocation": "Konumumu ayarla"
-        },
-        "pile": {
-            "DialogTitle": "Ortak İlgi Alanları Olan Kişiler"
-        },
-        "Done": "Tamamlandı",
-        "relationships": {
-            "title": "{{userName}} Telefon Rehberine ekle",
-            "welcome": "Hoş geldiniz {{user}}",
-            "invitedByUser": "seni davet etti.",
-            "addToPhonebook": "Telefon Kişilerime Kaydet",
-            "iosInstructions": "Yeni Kişi Eklemek için aşağı kaydırın",
-            "androidInstructions": "Bu vCard dosyasını indirdikten sonra açmalısınız.",
-            "explanation": "İlişki durumun nedir?"
-        },
-        "Title": "Temel Bilgiler",
-        "Prompt": "Hesabınızı ayarlamak için birkaç adım"
-    },
-    "profile": {
-        "Title": "Profil",
-        "Male": "Erkek",
-        "Female": "Dişi",
-        "Other": "Diğer",
-        "dating": {
-            "Interested": "İlgili",
-            "NotInterested": "İlgilenmiyorum",
-            "MatchmakerOnly": "Sadece çöpçatan"
-        },
-        "StartConversation": "Konuşma Başlat",
-        "blockUser": "Bu kullanıcıyı engelle",
-        "blockUserAlert": "Engellemeyi kaldırana kadar bu kullanıcıdan başka mesaj görmeyeceksiniz.",
-        "unblockUser": "Bu kullanıcının engellemesini kaldır",
-        "addToContacts": "Rehbere ekle",
-        "manageLabels": "Etiketleri Yönet",
-        "inviteUsers": "Kullanıcıları Davet Et",
-        "selectRole": "Rol Seçin",
-        "inviteSuccess": "Kullanıcı başarıyla {{label}} olarak davet edildi",
-        "invite": "Davet et",
-        "relationships": "ilişkiler",
-        "newRole": "Yeni rol",
-        "about": "Hakkında",
-        "people": "İnsanlar",
-        "info": "Bilgi",
-        "interests": "ilgi alanları",
-        "chat": "Sohbet etmek",
-        "locations": "Konumlar",
-        "ManageRoles": "Rolleri Yönet",
-        "aboutPlaceholder": "Kimsin sen ve ne yapıyorsun? İnsanlara kendinizle ilgili ilginç veya benzersiz bir şey söyleyin.",
-        "explanation": "Profiliniz, grup etkinlikleri için sizi diğer insanlarla daha iyi eşleştirmeye yardımcı olur.<br> Lütfen doğum gününüzü girin",
-        "chats": {
-            "placeholder": "Bir şey söyle"
-        },
-        "LogOut": "Çıkış Yap",
-        "MyLinks": "Bağlantılarım",
-        "MyJobs": "Benim işlerim",
-        "MySocial": "Sosyal Medya",
-        "MyEducation": "Eğitimim",
-        "JobsPlaceholder": "İş bilgilerini buraya yazın",
-        "EducationPlaceholder": "Eğitim bilgilerini buraya yazın",
-        "ManageNotifications": "Bildirimleri Yönet",
-        "YourPreferredLanguage": "Tercih ettiğiniz dil",
-        "SendCrypto": "Ödemek",
-        "Block": "Engellemek",
-        "Unblock": "engeli kaldırmak",
-        "Email": "E-posta",
-        "Avoid": "Kaçınmak",
-        "CreatePrivateChat": "Bize ulaşmak için {{credits}} kredi harcansın mı?",
-        "RolesInCommunity": "topluluktaki roller",
-        "PersonalChatWith": "{{name}} ile kişisel sohbet",
-        "SendCryptoTo": "{{name}} adresine kripto gönder",
-        "SendEmailTo": "{{name}} adresine e-posta gönder",
-        "SendSMSTo": "{{name}} numaralı telefona SMS gönder",
-        "BlockThisUser": "Bu kullanıcıyı engelle",
-        "UnblockThisUser": "Bu kullanıcının engellemesini kaldır",
-        "YouCantChatWithYourself": "kendinle sohbet edemezsin",
-        "blockUserAlertTitle": "Engellenen {{displayName}}",
-        "sections": {
-            "education": "Eğitim",
-            "greeting": "Selamlama",
-            "jobs": "Meslekler",
-            "links": "Bağlantılar",
-            "language": "Dil",
-            "roles": "Roller",
-            "personal": "Kişisel",
-            "social": "Sosyal"
-        },
-        "Roles": "Roller",
-        "SendPaymentTo": "{{name}} ödeme gönderin"
-    },
-    "myqr": {
-        "Title": "QR&#39;m"
-    },
-    "composer": {
-        "createCommunity": "Topluluk Oluştur",
-        "inviteAdmin": "Yönetici Davet",
-        "inviteMember": "Üye Davet",
-        "newCommunityTitle": "Topluluk ismi",
-        "setCommunityTitle": "Topluluk ismi",
-        "creditsChargeRequest": "{{price}} kredi harcamayı kabul ediyor musunuz?",
-        "yes": "Evet",
-        "no": "Numara"
-    },
-    "notifications": {
-        "WelcomePleaseVerifyEmail": "Hoş geldin! Lütfen email adresini doğrula.",
-        "WelcomeVerifyEmail": "Hoş geldin! Email adresinizi doğrulayın.",
-        "ForgetPass": "Hey, parolanı unuttun mu?",
-        "ManageEmailSubscriptions": "e-posta aboneliklerinizi yönetin",
-        "IfUnsubscribe": "Aboneliğinizi iptal etmek istiyorsanız"
-    },
-    "speak": {
-        "onboarding": {
-            "name": {
-                "Welcome": "{{CommunityName}}&#39;a hoş geldiniz. Bu uygulama arkadaşlarınızla bağlantı kurmanıza, ortak ilgi alanlarına sahip yeni insanları keşfetmenize ve çok daha fazlasına yardımcı olacaktır. Başlayalım!"
-            },
-            "icon": {
-                "Commentary": "Fotoğrafınızı ayarlayın. İnsanlar sizi sitede bu şekilde görecekler."
-            },
-            "interests": {
-                "Commentary": "Ne kadar çok öğe seçerseniz, o kadar çok insanla tanışabilirsiniz.",
-                "Notifications": "Bildirimlere izin vermeniz gerekiyor"
-            }
-        },
-        "subscriptions": {
-            "confirm": "Bildirimler, bir arkadaşınızın uygulamaya katılması veya size mesaj göndermesi gibi ilgilendiğiniz şeyler hakkında bilgi sahibi olmanızı sağlar."
-        },
-        "invite": "{{Q.words.TapOrClick}} bunu başkalarıyla nasıl paylaşabileceğinizi görmek için buraya."
-    },
-    "payment": {
-        "onContribute": "Teşekkürler! Ödemeniz gerçekleşti. Arkadaşlarınızı size katılmaya davet etmek ister misiniz?",
-        "ConnectAccount": "Hesabı bağla"
-    },
-    "featureboard": {
-        "Text_1": "Sesiniz duyulsun! Bir özellik veya hata geliştirmemiz gerektiğine katılıyor musunuz? Desteklemek için düğmeye tıklayın.",
-        "Text_2": "Yeni bir özellik geliştirmemizi ister misiniz? Aşağıda açıklayın.",
-        "Text_3": "Her hafta topluluk tarafından en çok istenen özelliği geliştirmeye başlıyoruz. Katılan tüm para bu amaca yöneliktir ve uygulamayı daha iyi hale getirmemizi sağlar.",
-        "Text_4": "Katılan tüm para, geliştirme maliyetlerimizin ödenmesine yardımcı olmak için kullanılır.",
-        "Text_5": "Yapmamızı istediğiniz ancak henüz başkalarının eklediğini görmediğiniz bir özellik veya hata düzeltmesi hakkında bir fikriniz mi var? Aşağıda açıklayın:",
-        "Options": [
-            {
-                "text": "400 $ Gerçek zamanlı video konferans"
-            },
-            {
-                "defaultAmount": "10",
-                "text": "200 $ Yerel Birincil kayıt bilgileri"
-            },
-            {
-                "text": "130 $ Binlerce {{1}} mem&#39;e göz atın ve paylaşın",
-                "defaultAmount": "10"
-            },
-            {
-                "text": "80 $ Kendi topluluklarınızı yönetin",
-                "defaultAmount": "10"
-            },
-            {
-                "text": "$30 Konuşma hatasını düzeltin",
-                "defaultAmount": "10"
-            }
-        ],
-        "RequestNewFeature": "Yeni Bir Özellik\/Hata Düzeltme İsteyin",
-        "FeaturePlaceholder": "Özelliğin kısa özeti",
-        "FeatureDescription": "Başka birinin gördüğünüz hatayı nasıl yeniden oluşturabileceğini veya oluşturmak istediğiniz özelliği ayrıntılı olarak açıklayın",
-        "AddYourRequest": "İsteğinizi Ekleyin",
-        "NewFeature": "Yeni özellik"
-    },
-    "contribute": {
-        "ContributeExplanation": "{{communityName}} uygulamasının sürekli olarak geliştirilmesini desteklemeye yardımcı olun. Tüm katkılarınız, çevrimiçi topluluğu büyütmeye yardımcı olacak hataları düzeltmeye ve yeni özellikler geliştirmeye yardımcı olur!",
-        "ReasonToContribute": "Bu uygulama {{communityName}} destekçileri tarafından korunur. İnsanların hayatlarında bir fark yaratabilmemiz için bu uygulamayı desteklemeye yardımcı olun!"
-    },
-    "assetshistory": {
-        "Title": "Varlık geçmişi",
-        "Charges": "ücretler",
-        "Credits": "Kredi"
-    },
-    "accounts": {
-        "remove": {
-            "title": "Hesabı kaldır",
-            "content": "Bu hesabı kaldırmak istiyor musunuz?",
-            "ok": "Evet",
-            "cancel": "Numara"
-        }
-    },
-    "import": {
-        "fileNotFound": "Üzgünüz, CSV dosyası bulunamadı.",
-        "fileEmpty": "Üzgünüz, CSV dosyası boş.",
-        "userIdNotFound": "kullanıcı var ama kimliği boş",
-        "errorLine": "satır {{1}}",
-        "fieldNotFound": "Gerekli alan &quot;{{1}}&quot; bulunamadı",
-        "taskStreamInvalid": "görev akışı geçersiz",
-        "instructionsEmpty": "görev akışı talimatları boş",
-        "complete": "Tamamlayınız",
-        "activateUsers": "kullanıcılara aktivasyon mesajı gönderilsin mi?",
-        "importProgress": "İlerleme",
-        "joinEventLabel": "Kullanıcılara rastgele etkinliğe katılın",
-        "importOptions": "Seçenekler",
-        "sampleCSV": "Örnek CSV&#39;yi İndirin",
-        "fileLabel": "Elektronik Tabloyu Yükle:",
-        "errorsTitle": "Hatalar oluştu",
-        "communityUsers": "Bu topluluk listesi",
-        "setAsConversation": "görüşme olarak URL sütunu",
-        "toMainCommunityToo": "kullanıcıları da ana topluluğa ekleyin",
-        "willImportedTo": "Kullanıcılar topluluğa aktarılacak",
-        "ChooseFile": "Dosya seçin"
-    },
-    "services": {
-        "Title": "Hizmetler",
-        "filterByTitle": "Hizmetleri başlığa göre bulun",
-        "New": "+ Yeni Hizmet Başlat",
-        "NewService": "Yeni Hizmet",
-        "NewAvailability": "Yeni Kullanılabilirlik",
-        "filterServices": "Filtre hizmetleri",
-        "NoneYet": "Henüz hizmet oluşturulmadı<br> bu zamanlarda.",
-        "AllAuthors": "Tüm Yazarlar",
-        "AllDays": "Tüm günler",
-        "AllLocations": "Tüm konumlar",
-        "MakeReservation": "Rezervasyon yap",
-        "CancelReservation": "Rezervasyon iptali",
-        "UpdateReservation": "Rezervasyonu Güncelle",
-        "AreYouSure": "Emin misin?",
-        "YouWillRefunded": "Uygulamadaki diğer şeyler için harcayabileceğiniz krediler şeklinde size geri ödeme yapılacaktır.",
-        "AllInterests": "Tüm İlgi Alanları",
-        "FilterbyInterest": "İlgi Alanına Göre Filtrele",
-        "FilterByDate": "Tarihe Göre Filtrele",
-        "ShowActivities": "Şunlarla ilgili etkinlikleri göster...",
-        "newServices": "{{1}} yeni hizmetiniz var",
-        "SelectLocation": "Konum Seçin",
-        "FilterLocationsPlaceHolder": "Mekanları şu şekilde filtrele ...",
-        "Description": "{{1}} hizmet",
-        "Keywords": "{{1}} hizmet"
-    },
-    "welcome": {
-        "Title": "{{appName}}: hoş geldiniz",
-        "GetStarted": "Başlamak",
-        "gallery": {
-            "Connect": "Bağlamak",
-            "Organize": "Düzenlemek",
-            "Travel": "Seyahat",
-            "Share": "Paylaşmak"
-        }
-    }
+	"notFound": {
+		"Explanation": "<span class='url'>{{1}}</span> hi\u00e7bir \u015feye i\u015faret etmiyor!",
+		"NextSteps": "Arad\u0131\u011f\u0131n\u0131z\u0131 bulmak i\u00e7in ana men\u00fcy\u00fc kullan\u0131n."
+	},
+	"dashboard": {
+		"Menu": "Men\u00fc",
+		"Home": "Ev",
+		"Welcome": "Ho\u015f geldin",
+		"Events": "Olaylar",
+		"Discuss": "Tart\u0131\u015fmak",
+		"People": "\u0130nsanlar",
+		"About": "Hakk\u0131nda",
+		"Community": "Toplum",
+		"LogIn": "giri\u015f yapmak",
+		"LogOut": "\u00e7\u0131k\u0131\u015f Yap",
+		"Intercoin": "Intercoin",
+		"Shows": "G\u00f6steriler",
+		"Calendar": "Takvim",
+		"Me": "Ben",
+		"Media": "Medya",
+		"Services": "Hizmetler",
+		"SetMobileNumber": "Cep Numaras\u0131n\u0131 Ayarla",
+		"SetEmailAddress": "E-posta Adresini Ayarla"
+	},
+	"greeting": {
+		"Welcome": "{{1}}&#39;a ho\u015f geldiniz. Burada toplulu\u011fumuzun \u00fcyeleri i\u00e7in yay\u0131nlanan \u015feyleri bulacaks\u0131n\u0131z. Duyurular yay\u0131nland\u0131\u011f\u0131nda bildirim almak i\u00e7in l\u00fctfen e-posta adresinizi veya cep telefonu numaran\u0131z\u0131 ekleyin."
+	},
+	"conversations": {
+		"Title": "Konu\u015fmalar",
+		"New": "Yeni Konu\u015fma",
+		"Conversation": "Konu\u015fma",
+		"Topics": "Konular",
+		"NoneYet": "Hen\u00fcz g\u00f6r\u00fc\u015fme yap\u0131lmad\u0131",
+		"newConversations": "{{1}} yeni g\u00f6r\u00fc\u015fme",
+		"AllAuthors": "T\u00fcm Yazarlar",
+		"FilterbyAuthors": "Yazarlara G\u00f6re Filtrele",
+		"FilterAuthorPlaceHolder": "Di\u011fer yazarlar\u0131 ara...",
+		"filterConversations": "Metne g\u00f6re filtrele",
+		"Description": "{{1}} g\u00f6r\u00fc\u015fme"
+	},
+	"newConversation": {
+		"composer": {
+			"ChooseActivity": "Bir konu se\u00e7",
+			"Share": "Payla\u015f",
+			"interest": {
+				"Title": "Bir Etkinlik Se\u00e7in",
+				"Filter": "\u0130lgi alanlar\u0131 ara..."
+			}
+		},
+		"Title": "Yeni Konu\u015fma",
+		"TitlePlaceholder": "Konu\u015fman\u0131z\u0131n konusu",
+		"ContentPlaceholder": "Sohbeti ba\u015flatmak i\u00e7in birka\u00e7 kelime yaz\u0131n, b\u00f6ylece di\u011ferleri cevap verebilir",
+		"StartButton": "Konu\u015fmay\u0131 Ba\u015flat"
+	},
+	"events": {
+		"Title": "Olaylar",
+		"filterByTitle": "Olaylar\u0131 ba\u015fl\u0131\u011fa g\u00f6re bulun",
+		"New": "+ Yeni Etkinlik Ba\u015flat",
+		"filterEvents": "Olaylar\u0131 filtrele",
+		"NewEvent": "Yeni etkinlik",
+		"SetLocation": "Konumumu Ayarla",
+		"NoneYet": "Hen\u00fcz etkinlik olu\u015fmad\u0131<br> bu zamanlarda.",
+		"AllAuthors": "T\u00fcm Yazarlar",
+		"AllDays": "T\u00fcm g\u00fcnler",
+		"AllLocations": "T\u00fcm konumlar",
+		"MakeReservation": "Rezervasyon yap",
+		"CancelReservation": "Rezervasyon iptali",
+		"UpdateReservation": "Rezervasyonu G\u00fcncelle",
+		"AreYouSure": "Emin misin?",
+		"YouWillRefunded": "Uygulamadaki di\u011fer \u015feyler i\u00e7in harcayabilece\u011finiz krediler \u015feklinde size geri \u00f6deme yap\u0131lacakt\u0131r.",
+		"AllInterests": "T\u00fcm \u0130lgi Alanlar\u0131",
+		"FilterbyInterest": "\u0130lgi Alan\u0131na G\u00f6re Filtrele",
+		"FilterByDate": "Tarihe G\u00f6re Filtrele",
+		"ShowActivities": "ile ilgili etkinlikleri g\u00f6sterin. . .",
+		"newEvents": "{{1}} yeni etkinli\u011finiz var",
+		"SelectLocation": "Konum Se\u00e7in",
+		"FilterLocationsPlaceHolder": "Mekanlar\u0131 filtreleyin...",
+		"Description": "{{1}} etkinlik",
+		"Keywords": "{{1}} etkinlik"
+	},
+	"schedule": {
+		"Title": "Takvim",
+		"NoneYet": "Herhangi bir etkinli\u011fe kat\u0131lm\u0131yorsunuz",
+		"AddSome": "Program\u0131n\u0131za biraz ekleyin!",
+		"AddMore": "Program\u0131n\u0131za etkinlikler ekleyin!",
+		"future": "gelecek",
+		"past": "ge\u00e7mi\u015f"
+	},
+	"location": {
+		"Title": "Konum",
+		"NewLocation": "Yeni konum"
+	},
+	"inbox": {
+		"Title": "Gelen kutusu",
+		"NoneYet": "Herhangi bir sohbete kat\u0131lm\u0131yorsunuz",
+		"FindPeople": "Konu\u015facak insanlar\u0131 bulun",
+		"GroupConversations": "Baz\u0131 grup konu\u015fmalar\u0131na kat\u0131l\u0131n",
+		"ContactStaff": "\u0130leti\u015fim Personeli",
+		"ContactCustomers": "M\u00fc\u015fterilerle \u0130leti\u015fime Ge\u00e7in",
+		"AddNewContact": "Yeni Ki\u015fi Ekle",
+		"AddNewContacts": "Yeni Ki\u015filer Ekle"
+	},
+	"me": {
+		"Title": "Ben mi",
+		"MobileNumber": "Cep numaras\u0131",
+		"EmailAddress": "E",
+		"UpdateSocialTitle": "{{1}} kullan\u0131c\u0131 ad\u0131n\u0131 g\u00fcncelle",
+		"Web3": "Web3"
+	},
+	"people": {
+		"Title": "\u0130nsanlar",
+		"Description": "{{1}} toplulu\u011fundaki ki\u015filer",
+		"AppAlert": "App Store&#39;daki bu uygulama, arkada\u015flar\u0131n\u0131zla ba\u011flant\u0131 kurman\u0131za ve \u00e7ok daha fazlas\u0131na izin verecektir.",
+		"Invite": "Arkada\u015flar\u0131 davet etmek",
+		"BuyCredits": "Kredi sat\u0131n Al",
+		"FindSomeoneByName": "Ad\u0131na g\u00f6re birini bul",
+		"SearchByName": "Ada g\u00f6re ara",
+		"FindAllMyFriends": "T\u00fcm Arkada\u015flar\u0131m\u0131 Bul",
+		"labels": {
+			"All": "Herkes",
+			"Title": "\u0130li\u015fkiye g\u00f6re filtrele",
+			"New": "Yeni \u0130li\u015fki T\u00fcr\u00fc"
+		},
+		"interests": {
+			"All": "T\u00fcm \u0130lgi Alanlar\u0131",
+			"Title": "\u0130lgi Alan\u0131na G\u00f6re Filtrele",
+			"Filter": "\u0130lgilenen ki\u015fileri g\u00f6ster. . ."
+		},
+		"Keywords": "{{1}} ki\u015fi toplulu\u011fu"
+	},
+	"communities": {
+		"Title": "Topluluklar",
+		"NewCommunity": "Yeni Topluluk",
+		"FindCommunityByName": "Ada g\u00f6re topluluk bulun",
+		"Description": "{{1}} topluluk"
+	},
+	"community": {
+		"Title": "{{1}} Topluluk",
+		"Roles": "Roller",
+		"AllRoles": "T\u00fcm Roller",
+		"YouDontHavePermission": "Bunu yapmaya yetkiniz yok",
+		"usernamePlaceholder": "topluluk ad\u0131n\u0131 ayarla",
+		"NotEnoughCredits": "Topluluk olu\u015fturmak i\u00e7in yeterli krediniz yok. {{1}} gerekiyor, {{2}} var"
+	},
+	"event": {
+		"GetDirections": "Yol tarifi almak",
+		"WhichMap": "Hangi haritalar\u0131 kullanmak istersiniz?",
+		"JoinEventToChat": "Sohbet etmek i\u00e7in etkinli\u011fe kat\u0131l\u0131n",
+		"promote": {
+			"Title": "Bu etkinli\u011fi tan\u0131t\u0131n",
+			"Prompt": "Bu etkinli\u011fi nerede tan\u0131tmak istedi\u011finizi se\u00e7in:"
+		},
+		"Confirmation": "Onayla"
+	},
+	"newEvent": {
+		"Title": "Yeni Etkinlik Planla"
+	},
+	"interests": {
+		"Title": "ilgi alanlar\u0131",
+		"prompt": "Bilmek istedi\u011finiz \u015feylerin t\u00fcrlerini se\u00e7in.",
+		"explanation": "Ne kadar \u00e7ok ilgi alan\u0131 se\u00e7erseniz, benzer d\u00fc\u015f\u00fcnen insanlarla ba\u011flant\u0131 kurma olas\u0131l\u0131\u011f\u0131n\u0131z o kadar artar.",
+		"filter": "Ne ile ilgileniyorsun?",
+		"Profile": "Kar\u015f\u0131l\u0131kl\u0131 \u00e7\u0131karlar vurgulan\u0131r. A\u015fa\u011f\u0131daki ilgi alanlar\u0131ndan bir veya daha fazlas\u0131na sahipseniz, bunlar\u0131 eklemek i\u00e7in {{clickOrTap}} yapabilirsiniz."
+	},
+	"credits": {
+		"Title": "Kredi",
+		"EarnCredits": "Davet etti\u011finiz ve uygulamaya kat\u0131lan her yeni ki\u015fi i\u00e7in {{1}} kredi kazan\u0131n",
+		"YouHave": "{{1}} krediniz var"
+	},
+	"onboarding": {
+		"Tap": "Musluk",
+		"Click": "T\u0131klamak",
+		"Yes": "Evet",
+		"No": "Numara",
+		"Skip": "veya bunu atla",
+		"name": {
+			"Preface": "Ho\u015fgeldiniz",
+			"Placeholder": "ad ve soyad\u0131n\u0131z\u0131 giriniz",
+			"GetStarted": "Ba\u015flamak",
+			"AsGuest": "Konuk olarak davet edildiniz.",
+			"AsMember": "\u00dcye olarak davet edildiniz.",
+			"AsAdmin": "Y\u00f6netici olarak davet edildiniz.",
+			"AsOwner": "Sahip olarak davet edildiniz.",
+			"TooShort": "tam ad\u0131n bu kadar k\u0131sa olamaz",
+			"SetAsYourFullName": "{{1}} tam ad\u0131n\u0131z olarak ayarlans\u0131n m\u0131?"
+		},
+		"icon": {
+			"KeepDefault": "ya da bu foto\u011fraf\u0131 sakla",
+			"SetYourPhoto": "{{ClickOrTap}} foto\u011fraf\u0131n\u0131z\u0131 ayarlamak i\u00e7in:",
+			"ClickOnYourFace": "{{ClickOrTap}} Y\u00fcz\u00fcnde"
+		},
+		"interests": {
+			"GetStarted": "\u21e9 Ba\u015flay\u0131n",
+			"NextCategory": "\u2193 Sonraki",
+			"Continue": "Devam et",
+			"Instructions": "Sonraki {{1}} kategorilerin her birinde,<br> {{2}} ilgilendi\u011finiz t\u00fcm etkinlikler.<br> Topluluktaki di\u011fer insanlarla bu \u015fekilde ba\u011flant\u0131 kurars\u0131n\u0131z."
+		},
+		"profile": {
+			"Profile": "Sizi insanlarla e\u015fle\u015ftirmeye yard\u0131mc\u0131 olacak temel bilgiler:",
+			"Birthday": "L\u00fctfen do\u011fum g\u00fcn\u00fcn\u00fcz\u00fc giriniz:",
+			"Placeholder": "Kimsin sen ve ne yap\u0131yorsun? \u0130nsanlara kendinizle ilgili ilgin\u00e7 veya benzersiz bir \u015fey s\u00f6yleyin.",
+			"Required": "Devam etmek i\u00e7in kendiniz hakk\u0131nda en az birka\u00e7 sat\u0131r yaz\u0131n.",
+			"Month": "Ay",
+			"Day": "G\u00fcn",
+			"Year": "Y\u0131l",
+			"Gender": "Cinsiyet",
+			"Male": "Erkek",
+			"Female": "Di\u015fi",
+			"Other": "Di\u011fer",
+			"Height": "Y\u00fckseklik",
+			"Affiliation": "\u00fcyelik",
+			"Dating": "fl\u00f6rt",
+			"Interested": "\u0130lgili",
+			"NotInterested": "\u0130lgilenmiyorum",
+			"MatchmakerOnly": "Sadece \u00c7\u00f6p\u00e7atan"
+		},
+		"location": {
+			"NoOneElse": "Ba\u015fka kimse g\u00f6rmeyecek.",
+			"SetMyLocation": "Konumumu ayarla"
+		},
+		"pile": {
+			"DialogTitle": "Ortak \u0130lgi Alanlar\u0131 Olan Ki\u015filer"
+		},
+		"Done": "Tamamland\u0131",
+		"relationships": {
+			"title": "{{userName}} Telefon Rehberine ekle",
+			"welcome": "Ho\u015f geldiniz {{user}}",
+			"invitedByUser": "seni davet etti.",
+			"addToPhonebook": "Telefon Ki\u015filerime Kaydet",
+			"iosInstructions": "Yeni Ki\u015fi Eklemek i\u00e7in a\u015fa\u011f\u0131 kayd\u0131r\u0131n",
+			"androidInstructions": "Bu vCard dosyas\u0131n\u0131 indirdikten sonra a\u00e7mal\u0131s\u0131n\u0131z.",
+			"explanation": "\u0130li\u015fki durumun nedir?"
+		},
+		"Title": "Temel Bilgiler",
+		"Prompt": "Hesab\u0131n\u0131z\u0131 ayarlamak i\u00e7in birka\u00e7 ad\u0131m"
+	},
+	"profile": {
+		"Title": "Profil",
+		"Male": "Erkek",
+		"Female": "Di\u015fi",
+		"Other": "Di\u011fer",
+		"dating": {
+			"Interested": "\u0130lgili",
+			"NotInterested": "\u0130lgilenmiyorum",
+			"MatchmakerOnly": "Sadece \u00e7\u00f6p\u00e7atan"
+		},
+		"StartConversation": "Konu\u015fma Ba\u015flat",
+		"blockUser": "Bu kullan\u0131c\u0131y\u0131 engelle",
+		"blockUserAlert": "Engellemeyi kald\u0131rana kadar bu kullan\u0131c\u0131dan ba\u015fka mesaj g\u00f6rmeyeceksiniz.",
+		"unblockUser": "Bu kullan\u0131c\u0131n\u0131n engellemesini kald\u0131r",
+		"addToContacts": "Rehbere ekle",
+		"manageLabels": "Etiketleri Y\u00f6net",
+		"inviteUsers": "Kullan\u0131c\u0131lar\u0131 Davet Et",
+		"selectRole": "Rol Se\u00e7in",
+		"inviteSuccess": "Kullan\u0131c\u0131 ba\u015far\u0131yla {{label}} olarak davet edildi",
+		"invite": "Davet et",
+		"relationships": "ili\u015fkiler",
+		"newRole": "Yeni rol",
+		"about": "Hakk\u0131nda",
+		"people": "\u0130nsanlar",
+		"info": "Bilgi",
+		"interests": "ilgi alanlar\u0131",
+		"chat": "Sohbet etmek",
+		"locations": "Konumlar",
+		"ManageRoles": "Rolleri Y\u00f6net",
+		"aboutPlaceholder": "Kimsin sen ve ne yap\u0131yorsun? \u0130nsanlara kendinizle ilgili ilgin\u00e7 veya benzersiz bir \u015fey s\u00f6yleyin.",
+		"explanation": "Profiliniz, grup etkinlikleri i\u00e7in sizi di\u011fer insanlarla daha iyi e\u015fle\u015ftirmeye yard\u0131mc\u0131 olur.<br> L\u00fctfen do\u011fum g\u00fcn\u00fcn\u00fcz\u00fc girin",
+		"chats": {
+			"placeholder": "Bir \u015fey s\u00f6yle"
+		},
+		"LogOut": "\u00c7\u0131k\u0131\u015f Yap",
+		"MyLinks": "Ba\u011flant\u0131lar\u0131m",
+		"MyJobs": "Benim i\u015flerim",
+		"MySocial": "Sosyal Medya",
+		"MyEducation": "E\u011fitimim",
+		"JobsPlaceholder": "\u0130\u015f bilgilerini buraya yaz\u0131n",
+		"EducationPlaceholder": "E\u011fitim bilgilerini buraya yaz\u0131n",
+		"ManageNotifications": "Bildirimleri Y\u00f6net",
+		"YourPreferredLanguage": "Tercih etti\u011finiz dil",
+		"SendCrypto": "\u00d6demek",
+		"Block": "Engellemek",
+		"Unblock": "engeli kald\u0131rmak",
+		"Email": "E-posta",
+		"Avoid": "Ka\u00e7\u0131nmak",
+		"CreatePrivateChat": "Bize ula\u015fmak i\u00e7in {{credits}} kredi harcans\u0131n m\u0131?",
+		"RolesInCommunity": "topluluktaki roller",
+		"PersonalChatWith": "{{name}} ile ki\u015fisel sohbet",
+		"SendCryptoTo": "{{name}} adresine kripto g\u00f6nder",
+		"SendEmailTo": "{{name}} adresine e-posta g\u00f6nder",
+		"SendSMSTo": "{{name}} numaral\u0131 telefona SMS g\u00f6nder",
+		"BlockThisUser": "Bu kullan\u0131c\u0131y\u0131 engelle",
+		"UnblockThisUser": "Bu kullan\u0131c\u0131n\u0131n engellemesini kald\u0131r",
+		"YouCantChatWithYourself": "kendinle sohbet edemezsin",
+		"blockUserAlertTitle": "Engellenen {{displayName}}",
+		"sections": {
+			"education": "E\u011fitim",
+			"greeting": "Selamlama",
+			"jobs": "Meslekler",
+			"links": "Ba\u011flant\u0131lar",
+			"language": "Dil",
+			"roles": "Roller",
+			"personal": "Ki\u015fisel",
+			"social": "Sosyal"
+		},
+		"Roles": "Roller",
+		"SendPaymentTo": "{{name}} \u00f6deme g\u00f6nderin"
+	},
+	"myqr": {
+		"Title": "QR&#39;m"
+	},
+	"composer": {
+		"createCommunity": "Topluluk Olu\u015ftur",
+		"inviteAdmin": "Y\u00f6netici Davet",
+		"inviteMember": "\u00dcye Davet",
+		"newCommunityTitle": "Topluluk ismi",
+		"setCommunityTitle": "Topluluk ismi",
+		"creditsChargeRequest": "{{price}} kredi harcamay\u0131 kabul ediyor musunuz?",
+		"yes": "Evet",
+		"no": "Numara"
+	},
+	"notifications": {
+		"WelcomePleaseVerifyEmail": "Ho\u015f geldin! L\u00fctfen email adresini do\u011frula.",
+		"WelcomeVerifyEmail": "Ho\u015f geldin! Email adresinizi do\u011frulay\u0131n.",
+		"ForgetPass": "Hey, parolan\u0131 unuttun mu?",
+		"ManageEmailSubscriptions": "e-posta aboneliklerinizi y\u00f6netin",
+		"IfUnsubscribe": "Aboneli\u011finizi iptal etmek istiyorsan\u0131z"
+	},
+	"speak": {
+		"onboarding": {
+			"name": {
+				"Welcome": "{{CommunityName}}&#39;a ho\u015f geldiniz. Bu uygulama arkada\u015flar\u0131n\u0131zla ba\u011flant\u0131 kurman\u0131za, ortak ilgi alanlar\u0131na sahip yeni insanlar\u0131 ke\u015ffetmenize ve \u00e7ok daha fazlas\u0131na yard\u0131mc\u0131 olacakt\u0131r. Ba\u015flayal\u0131m!"
+			},
+			"icon": {
+				"Commentary": "Foto\u011fraf\u0131n\u0131z\u0131 ayarlay\u0131n. \u0130nsanlar sizi sitede bu \u015fekilde g\u00f6recekler."
+			},
+			"interests": {
+				"Commentary": "Ne kadar \u00e7ok \u00f6\u011fe se\u00e7erseniz, o kadar \u00e7ok insanla tan\u0131\u015fabilirsiniz.",
+				"Notifications": "Bildirimlere izin vermeniz gerekiyor"
+			}
+		},
+		"subscriptions": {
+			"confirm": "Bildirimler, bir arkada\u015f\u0131n\u0131z\u0131n uygulamaya kat\u0131lmas\u0131 veya size mesaj g\u00f6ndermesi gibi ilgilendi\u011finiz \u015feyler hakk\u0131nda bilgi sahibi olman\u0131z\u0131 sa\u011flar."
+		},
+		"invite": "{{Q.words.TapOrClick}} bunu ba\u015fkalar\u0131yla nas\u0131l payla\u015fabilece\u011finizi g\u00f6rmek i\u00e7in buraya."
+	},
+	"payment": {
+		"onContribute": "Te\u015fekk\u00fcrler! \u00d6demeniz ger\u00e7ekle\u015fti. Arkada\u015flar\u0131n\u0131z\u0131 size kat\u0131lmaya davet etmek ister misiniz?",
+		"ConnectAccount": "Hesab\u0131 ba\u011fla"
+	},
+	"featureboard": {
+		"Text_1": "Sesiniz duyulsun! Bir \u00f6zellik veya hata geli\u015ftirmemiz gerekti\u011fine kat\u0131l\u0131yor musunuz? Desteklemek i\u00e7in d\u00fc\u011fmeye t\u0131klay\u0131n.",
+		"Text_2": "Yeni bir \u00f6zellik geli\u015ftirmemizi ister misiniz? A\u015fa\u011f\u0131da a\u00e7\u0131klay\u0131n.",
+		"Text_3": "Her hafta topluluk taraf\u0131ndan en \u00e7ok istenen \u00f6zelli\u011fi geli\u015ftirmeye ba\u015fl\u0131yoruz. Kat\u0131lan t\u00fcm para bu amaca y\u00f6neliktir ve uygulamay\u0131 daha iyi hale getirmemizi sa\u011flar.",
+		"Text_4": "Kat\u0131lan t\u00fcm para, geli\u015ftirme maliyetlerimizin \u00f6denmesine yard\u0131mc\u0131 olmak i\u00e7in kullan\u0131l\u0131r.",
+		"Text_5": "Yapmam\u0131z\u0131 istedi\u011finiz ancak hen\u00fcz ba\u015fkalar\u0131n\u0131n ekledi\u011fini g\u00f6rmedi\u011finiz bir \u00f6zellik veya hata d\u00fczeltmesi hakk\u0131nda bir fikriniz mi var? A\u015fa\u011f\u0131da a\u00e7\u0131klay\u0131n:",
+		"Options": [
+			{
+				"text": "400 $ Ger\u00e7ek zamanl\u0131 video konferans"
+			},
+			{
+				"defaultAmount": "10",
+				"text": "200 $ Yerel Birincil kay\u0131t bilgileri"
+			},
+			{
+				"text": "130 $ Binlerce {{1}} mem&#39;e g\u00f6z at\u0131n ve payla\u015f\u0131n",
+				"defaultAmount": "10"
+			},
+			{
+				"text": "80 $ Kendi topluluklar\u0131n\u0131z\u0131 y\u00f6netin",
+				"defaultAmount": "10"
+			},
+			{
+				"text": "$30 Konu\u015fma hatas\u0131n\u0131 d\u00fczeltin",
+				"defaultAmount": "10"
+			}
+		],
+		"RequestNewFeature": "Yeni Bir \u00d6zellik/Hata D\u00fczeltme \u0130steyin",
+		"FeaturePlaceholder": "\u00d6zelli\u011fin k\u0131sa \u00f6zeti",
+		"FeatureDescription": "Ba\u015fka birinin g\u00f6rd\u00fc\u011f\u00fcn\u00fcz hatay\u0131 nas\u0131l yeniden olu\u015fturabilece\u011fini veya olu\u015fturmak istedi\u011finiz \u00f6zelli\u011fi ayr\u0131nt\u0131l\u0131 olarak a\u00e7\u0131klay\u0131n",
+		"AddYourRequest": "\u0130ste\u011finizi Ekleyin",
+		"NewFeature": "Yeni \u00f6zellik"
+	},
+	"contribute": {
+		"ContributeExplanation": "{{communityName}} uygulamas\u0131n\u0131n s\u00fcrekli olarak geli\u015ftirilmesini desteklemeye yard\u0131mc\u0131 olun. T\u00fcm katk\u0131lar\u0131n\u0131z, \u00e7evrimi\u00e7i toplulu\u011fu b\u00fcy\u00fctmeye yard\u0131mc\u0131 olacak hatalar\u0131 d\u00fczeltmeye ve yeni \u00f6zellikler geli\u015ftirmeye yard\u0131mc\u0131 olur!",
+		"ReasonToContribute": "Bu uygulama {{communityName}} destek\u00e7ileri taraf\u0131ndan korunur. \u0130nsanlar\u0131n hayatlar\u0131nda bir fark yaratabilmemiz i\u00e7in bu uygulamay\u0131 desteklemeye yard\u0131mc\u0131 olun!"
+	},
+	"assetshistory": {
+		"Title": "Varl\u0131k ge\u00e7mi\u015fi",
+		"Charges": "\u00fccretler",
+		"Credits": "Kredi"
+	},
+	"accounts": {
+		"remove": {
+			"title": "Hesab\u0131 kald\u0131r",
+			"content": "Bu hesab\u0131 kald\u0131rmak istiyor musunuz?",
+			"ok": "Evet",
+			"cancel": "Numara"
+		}
+	},
+	"import": {
+		"fileNotFound": "\u00dczg\u00fcn\u00fcz, CSV dosyas\u0131 bulunamad\u0131.",
+		"fileEmpty": "\u00dczg\u00fcn\u00fcz, CSV dosyas\u0131 bo\u015f.",
+		"userIdNotFound": "kullan\u0131c\u0131 var ama kimli\u011fi bo\u015f",
+		"errorLine": "sat\u0131r {{1}}",
+		"fieldNotFound": "Gerekli alan &quot;{{1}}&quot; bulunamad\u0131",
+		"taskStreamInvalid": "g\u00f6rev ak\u0131\u015f\u0131 ge\u00e7ersiz",
+		"instructionsEmpty": "g\u00f6rev ak\u0131\u015f\u0131 talimatlar\u0131 bo\u015f",
+		"complete": "Tamamlay\u0131n\u0131z",
+		"activateUsers": "kullan\u0131c\u0131lara aktivasyon mesaj\u0131 g\u00f6nderilsin mi?",
+		"importProgress": "\u0130lerleme",
+		"joinEventLabel": "Kullan\u0131c\u0131lara rastgele etkinli\u011fe kat\u0131l\u0131n",
+		"importOptions": "Se\u00e7enekler",
+		"sampleCSV": "\u00d6rnek CSV&#39;yi \u0130ndirin",
+		"fileLabel": "Elektronik Tabloyu Y\u00fckle:",
+		"errorsTitle": "Hatalar olu\u015ftu",
+		"communityUsers": "Bu topluluk listesi",
+		"setAsConversation": "g\u00f6r\u00fc\u015fme olarak URL s\u00fctunu",
+		"toMainCommunityToo": "kullan\u0131c\u0131lar\u0131 da ana toplulu\u011fa ekleyin",
+		"willImportedTo": "Kullan\u0131c\u0131lar toplulu\u011fa aktar\u0131lacak",
+		"ChooseFile": "Dosya se\u00e7in"
+	},
+	"services": {
+		"Title": "Hizmetler",
+		"filterByTitle": "Hizmetleri ba\u015fl\u0131\u011fa g\u00f6re bulun",
+		"New": "+ Yeni Hizmet Ba\u015flat",
+		"NewService": "Yeni Hizmet",
+		"NewAvailability": "Yeni Kullan\u0131labilirlik",
+		"filterServices": "Filtre hizmetleri",
+		"NoneYet": "Hen\u00fcz hizmet olu\u015fturulmad\u0131<br> bu zamanlarda.",
+		"AllAuthors": "T\u00fcm Yazarlar",
+		"AllDays": "T\u00fcm g\u00fcnler",
+		"AllLocations": "T\u00fcm konumlar",
+		"MakeReservation": "Rezervasyon yap",
+		"CancelReservation": "Rezervasyon iptali",
+		"UpdateReservation": "Rezervasyonu G\u00fcncelle",
+		"AreYouSure": "Emin misin?",
+		"YouWillRefunded": "Uygulamadaki di\u011fer \u015feyler i\u00e7in harcayabilece\u011finiz krediler \u015feklinde size geri \u00f6deme yap\u0131lacakt\u0131r.",
+		"AllInterests": "T\u00fcm \u0130lgi Alanlar\u0131",
+		"FilterbyInterest": "\u0130lgi Alan\u0131na G\u00f6re Filtrele",
+		"FilterByDate": "Tarihe G\u00f6re Filtrele",
+		"ShowActivities": "\u015eunlarla ilgili etkinlikleri g\u00f6ster...",
+		"newServices": "{{1}} yeni hizmetiniz var",
+		"SelectLocation": "Konum Se\u00e7in",
+		"FilterLocationsPlaceHolder": "Mekanlar\u0131 \u015fu \u015fekilde filtrele ...",
+		"Description": "{{1}} hizmet",
+		"Keywords": "{{1}} hizmet"
+	},
+	"welcome": {
+		"Title": "{{appName}}: ho\u015f geldiniz",
+		"GetStarted": "Ba\u015flamak",
+		"gallery": {
+			"Connect": "Ba\u011flamak",
+			"Organize": "D\u00fczenlemek",
+			"Travel": "Seyahat",
+			"Share": "Payla\u015fmak"
+		}
+	}
 }

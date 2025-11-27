@@ -1,24 +1,24 @@
 {
-    "activation": {
-        "Thanks": "Witamy w {{1}}.",
-        "ClickHere": "Kliknij tutaj, aby aktywować swoje konto: {{1}}"
-    },
-    "addMobile": {
-        "ClickHere": "Kliknij tutaj, aby zweryfikować swój numer telefonu komórkowego: {{1}}"
-    },
-    "SeeHistory": "Zobacz historię płatności dla {{1}}",
-    "charge": {
-        "HasBeenCharged": "{{1}} został obciążony {{2}} za {{3}} do {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Hej {{1}}, to tylko szybkie potwierdzenie, że pomyślnie zapłaciłeś {{2}} na rzecz {{3}} za {{4}}"
-    },
-    "subscription": {
-        "YouHaveStarted": "Subskrybujesz {{2}} za {{3}} o {{4}} na {{5}} miesięcy.",
-        "HasStarted": "{{1}} subskrybował {{2}} z {{3}} o {{4}} przez {{5}} miesięcy."
-    },
-    "resend": {
-        "DidYouWant": "Czy chcesz zresetować hasło za {{1}}?",
-        "ClickHere": "Następnie kliknij tutaj: {{1}}"
-    }
+	"activation": {
+		"Thanks": "Witamy w {{1}}.",
+		"ClickHere": "Kliknij tutaj, aby aktywowa\u0107 swoje konto: {{1}}"
+	},
+	"addMobile": {
+		"ClickHere": "Kliknij tutaj, aby zweryfikowa\u0107 sw\u00f3j numer telefonu kom\u00f3rkowego: {{1}}"
+	},
+	"SeeHistory": "Zobacz histori\u0119 p\u0142atno\u015bci dla {{1}}",
+	"charge": {
+		"HasBeenCharged": "{{1}} zosta\u0142 obci\u0105\u017cony {{2}} za {{3}} do {{4}}"
+	},
+	"charged": {
+		"HavePaid": "Hej {{1}}, to tylko szybkie potwierdzenie, \u017ce pomy\u015blnie zap\u0142aci\u0142e\u015b {{2}} na rzecz {{3}} za {{4}}"
+	},
+	"subscription": {
+		"YouHaveStarted": "Subskrybujesz {{2}} za {{3}} o {{4}} na {{5}} miesi\u0119cy.",
+		"HasStarted": "{{1}} subskrybowa\u0142 {{2}} z {{3}} o {{4}} przez {{5}} miesi\u0119cy."
+	},
+	"resend": {
+		"DidYouWant": "Czy chcesz zresetowa\u0107 has\u0142o za {{1}}?",
+		"ClickHere": "Nast\u0119pnie kliknij tutaj: {{1}}"
+	}
 }

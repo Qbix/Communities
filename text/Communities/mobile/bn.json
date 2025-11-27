@@ -1,24 +1,24 @@
 {
-    "activation": {
-        "Thanks": "{{1}}-এ স্বাগতম৷",
-        "ClickHere": "আপনার অ্যাকাউন্ট সক্রিয় করতে এখানে ক্লিক করুন: {{1}}"
-    },
-    "addMobile": {
-        "ClickHere": "আপনার মোবাইল নম্বর যাচাই করতে এখানে ক্লিক করুন: {{1}}"
-    },
-    "SeeHistory": "{{1}}-এর পেমেন্টের ইতিহাস দেখুন",
-    "charge": {
-        "HasBeenCharged": "{{4}} দ্বারা {{3}} এর জন্য {{1}} চার্জ করা হয়েছে {{2}}"
-    },
-    "charged": {
-        "HavePaid": "আরে {{1}}, এটি শুধুমাত্র একটি দ্রুত নিশ্চিতকরণ যে আপনি সফলভাবে {{4}} এর জন্য {{3}} কে {{2}} প্রদান করেছেন"
-    },
-    "subscription": {
-        "YouHaveStarted": "আপনি {{5}} মাসের জন্য {{4}}-এ {{3}} দিয়ে {{2}}-এর সদস্যতা নিয়েছেন৷",
-        "HasStarted": "{{1}} {{5}} মাসের জন্য {{4}}-এ {{3}}-এর সাথে {{2}}-এর সদস্যতা নিয়েছে৷"
-    },
-    "resend": {
-        "DidYouWant": "আপনি কি {{1}} এ আপনার পাসফ্রেজ রিসেট করতে চান?",
-        "ClickHere": "তারপর এখানে ক্লিক করুন: {{1}}"
-    }
+	"activation": {
+		"Thanks": "{{1}}-\u098f \u09b8\u09cd\u09ac\u09be\u0997\u09a4\u09ae\u09f7",
+		"ClickHere": "\u0986\u09aa\u09a8\u09be\u09b0 \u0985\u09cd\u09af\u09be\u0995\u09be\u0989\u09a8\u09cd\u099f \u09b8\u0995\u09cd\u09b0\u09bf\u09af\u09bc \u0995\u09b0\u09a4\u09c7 \u098f\u0996\u09be\u09a8\u09c7 \u0995\u09cd\u09b2\u09bf\u0995 \u0995\u09b0\u09c1\u09a8: {{1}}"
+	},
+	"addMobile": {
+		"ClickHere": "\u0986\u09aa\u09a8\u09be\u09b0 \u09ae\u09cb\u09ac\u09be\u0987\u09b2 \u09a8\u09ae\u09cd\u09ac\u09b0 \u09af\u09be\u099a\u09be\u0987 \u0995\u09b0\u09a4\u09c7 \u098f\u0996\u09be\u09a8\u09c7 \u0995\u09cd\u09b2\u09bf\u0995 \u0995\u09b0\u09c1\u09a8: {{1}}"
+	},
+	"SeeHistory": "{{1}}-\u098f\u09b0 \u09aa\u09c7\u09ae\u09c7\u09a8\u09cd\u099f\u09c7\u09b0 \u0987\u09a4\u09bf\u09b9\u09be\u09b8 \u09a6\u09c7\u0996\u09c1\u09a8",
+	"charge": {
+		"HasBeenCharged": "{{4}} \u09a6\u09cd\u09ac\u09be\u09b0\u09be {{3}} \u098f\u09b0 \u099c\u09a8\u09cd\u09af {{1}} \u099a\u09be\u09b0\u09cd\u099c \u0995\u09b0\u09be \u09b9\u09af\u09bc\u09c7\u099b\u09c7 {{2}}"
+	},
+	"charged": {
+		"HavePaid": "\u0986\u09b0\u09c7 {{1}}, \u098f\u099f\u09bf \u09b6\u09c1\u09a7\u09c1\u09ae\u09be\u09a4\u09cd\u09b0 \u098f\u0995\u099f\u09bf \u09a6\u09cd\u09b0\u09c1\u09a4 \u09a8\u09bf\u09b6\u09cd\u099a\u09bf\u09a4\u0995\u09b0\u09a3 \u09af\u09c7 \u0986\u09aa\u09a8\u09bf \u09b8\u09ab\u09b2\u09ad\u09be\u09ac\u09c7 {{4}} \u098f\u09b0 \u099c\u09a8\u09cd\u09af {{3}} \u0995\u09c7 {{2}} \u09aa\u09cd\u09b0\u09a6\u09be\u09a8 \u0995\u09b0\u09c7\u099b\u09c7\u09a8"
+	},
+	"subscription": {
+		"YouHaveStarted": "\u0986\u09aa\u09a8\u09bf {{5}} \u09ae\u09be\u09b8\u09c7\u09b0 \u099c\u09a8\u09cd\u09af {{4}}-\u098f {{3}} \u09a6\u09bf\u09af\u09bc\u09c7 {{2}}-\u098f\u09b0 \u09b8\u09a6\u09b8\u09cd\u09af\u09a4\u09be \u09a8\u09bf\u09af\u09bc\u09c7\u099b\u09c7\u09a8\u09f7",
+		"HasStarted": "{{1}} {{5}} \u09ae\u09be\u09b8\u09c7\u09b0 \u099c\u09a8\u09cd\u09af {{4}}-\u098f {{3}}-\u098f\u09b0 \u09b8\u09be\u09a5\u09c7 {{2}}-\u098f\u09b0 \u09b8\u09a6\u09b8\u09cd\u09af\u09a4\u09be \u09a8\u09bf\u09af\u09bc\u09c7\u099b\u09c7\u09f7"
+	},
+	"resend": {
+		"DidYouWant": "\u0986\u09aa\u09a8\u09bf \u0995\u09bf {{1}} \u098f \u0986\u09aa\u09a8\u09be\u09b0 \u09aa\u09be\u09b8\u09ab\u09cd\u09b0\u09c7\u099c \u09b0\u09bf\u09b8\u09c7\u099f \u0995\u09b0\u09a4\u09c7 \u099a\u09be\u09a8?",
+		"ClickHere": "\u09a4\u09be\u09b0\u09aa\u09b0 \u098f\u0996\u09be\u09a8\u09c7 \u0995\u09cd\u09b2\u09bf\u0995 \u0995\u09b0\u09c1\u09a8: {{1}}"
+	}
 }

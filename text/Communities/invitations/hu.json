@@ -1,12 +1,12 @@
 {
-    "flyer1": {
-        "YouAreInvited": "Meg vagy hívva",
-        "Member": "Tag itt: {{title}}",
-        "Explanation": "{{1}} örömmel jelenti be új webhelyünk elindítását. A funkciók egyre bővülő listáját tartalmazza, mint például:",
-        "Public": "Nyilvános információk a következővel kapcsolatban: {{1}}",
-        "Private": "Privát felhasználói fiók minden tagnak",
-        "Notifications": "E-mail címének vagy mobilszámának megadásával fontos értesítéseket kaphat e-mailben vagy SMS-ben.",
-        "GetStarted": "A kezdéshez <em>gondosan<\/em> írja be a böngészőjében:<br>",
-        "IssuedToYou": "Ezt a kódot kifejezetten Önnek adták ki."
-    }
+	"flyer1": {
+		"YouAreInvited": "Meg vagy h\u00edvva",
+		"Member": "Tag itt: {{title}}",
+		"Explanation": "{{1}} \u00f6r\u00f6mmel jelenti be \u00faj webhely\u00fcnk elind\u00edt\u00e1s\u00e1t. A funkci\u00f3k egyre b\u0151v\u00fcl\u0151 list\u00e1j\u00e1t tartalmazza, mint p\u00e9ld\u00e1ul:",
+		"Public": "Nyilv\u00e1nos inform\u00e1ci\u00f3k a k\u00f6vetkez\u0151vel kapcsolatban: {{1}}",
+		"Private": "Priv\u00e1t felhaszn\u00e1l\u00f3i fi\u00f3k minden tagnak",
+		"Notifications": "E-mail c\u00edm\u00e9nek vagy mobilsz\u00e1m\u00e1nak megad\u00e1s\u00e1val fontos \u00e9rtes\u00edt\u00e9seket kaphat e-mailben vagy SMS-ben.",
+		"GetStarted": "A kezd\u00e9shez <em>gondosan</em> \u00edrja be a b\u00f6ng\u00e9sz\u0151j\u00e9ben:<br>",
+		"IssuedToYou": "Ezt a k\u00f3dot kifejezetten \u00d6nnek adt\u00e1k ki."
+	}
 }

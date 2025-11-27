@@ -1,12 +1,12 @@
 {
-    "flyer1": {
-        "YouAreInvited": "dəvətlisiniz",
-        "Member": "{{title}} üzvlüyü",
-        "Explanation": "{{1}} yeni veb-saytımızın istifadəyə verilməsini məmnuniyyətlə elan edir. Bu, artan xüsusiyyətlərin siyahısını ehtiva edir, məsələn:",
-        "Public": "{{1}} haqqında ictimai məlumat",
-        "Private": "Hər bir üzv üçün şəxsi istifadəçi hesabı",
-        "Notifications": "E-poçt ünvanınızı və ya mobil nömrənizi daxil etməklə siz e-poçt və ya mətn mesajı ilə vacib bildirişlər ala biləcəksiniz.",
-        "GetStarted": "Başlamaq üçün veb brauzerinizə <em>diqqətlə<\/em> daxil edin:<br>",
-        "IssuedToYou": "Bu kod xüsusi olaraq sizə verilir."
-    }
+	"flyer1": {
+		"YouAreInvited": "d\u0259v\u0259tlisiniz",
+		"Member": "{{title}} \u00fczvl\u00fcy\u00fc",
+		"Explanation": "{{1}} yeni veb-sayt\u0131m\u0131z\u0131n istifad\u0259y\u0259 verilm\u0259sini m\u0259mnuniyy\u0259tl\u0259 elan edir. Bu, artan x\u00fcsusiyy\u0259tl\u0259rin siyah\u0131s\u0131n\u0131 ehtiva edir, m\u0259s\u0259l\u0259n:",
+		"Public": "{{1}} haqq\u0131nda ictimai m\u0259lumat",
+		"Private": "H\u0259r bir \u00fczv \u00fc\u00e7\u00fcn \u015f\u0259xsi istifad\u0259\u00e7i hesab\u0131",
+		"Notifications": "E-po\u00e7t \u00fcnvan\u0131n\u0131z\u0131 v\u0259 ya mobil n\u00f6mr\u0259nizi daxil etm\u0259kl\u0259 siz e-po\u00e7t v\u0259 ya m\u0259tn mesaj\u0131 il\u0259 vacib bildiri\u015fl\u0259r ala bil\u0259c\u0259ksiniz.",
+		"GetStarted": "Ba\u015flamaq \u00fc\u00e7\u00fcn veb brauzeriniz\u0259 <em>diqq\u0259tl\u0259</em> daxil edin:<br>",
+		"IssuedToYou": "Bu kod x\u00fcsusi olaraq siz\u0259 verilir."
+	}
 }

@@ -1,460 +1,460 @@
 {
-    "notFound": {
-        "Explanation": "<span class='url'>{{1}}<\/span> no apunta a res!",
-        "NextSteps": "Utilitzeu el menú principal per trobar el que busqueu."
-    },
-    "greeting": {
-        "Welcome": "Benvingut a {{1}}. Aquí trobareu coses publicades per als membres de la nostra comunitat. Si us plau, afegiu la vostra adreça de correu electrònic o número de mòbil per rebre notificacions quan es publiquin anuncis."
-    },
-    "conversations": {
-        "New": "Nova conversa",
-        "Conversation": "Conversa",
-        "Topics": "Temes",
-        "NoneYet": "Encara no s&#39;han format converses",
-        "newConversations": "{{1}} converses noves",
-        "AllAuthors": "Tots els autors",
-        "FilterbyAuthors": "Filtra per Autors",
-        "FilterAuthorPlaceHolder": "Cerca autors addicionals...",
-        "Title": "Converses",
-        "Description": "{{1}} converses",
-        "filterConversations": "Filtra per text"
-    },
-    "newConversation": {
-        "composer": {
-            "ChooseActivity": "Tria un tema",
-            "Share": "Compartir",
-            "interest": {
-                "Title": "Trieu una activitat",
-                "Filter": "Interessos de cerca..."
-            }
-        },
-        "Title": "Nova conversa",
-        "TitlePlaceholder": "Tema de la teva conversa",
-        "ContentPlaceholder": "Escriu unes quantes paraules per començar la conversa, perquè altres puguin respondre",
-        "StartButton": "Inicia la conversa"
-    },
-    "events": {
-        "Title": "Esdeveniments",
-        "filterByTitle": "Cerca esdeveniments per títol",
-        "New": "+ Comença un nou esdeveniment",
-        "SetLocation": "Estableix la meva ubicació",
-        "NoneYet": "Encara no s&#39;han format esdeveniments<br> durant aquests temps.",
-        "AllDays": "Tots els dies",
-        "AllLocations": "Totes les Ubicacions",
-        "AllInterests": "Tots els interessos",
-        "FilterbyInterest": "Filtra per interessos",
-        "FilterByDate": "Filtra per data",
-        "ShowActivities": "Mostra activitats relacionades amb . . .",
-        "newEvents": "Tens {{1}} esdeveniments nous",
-        "SelectLocation": "Seleccioneu Ubicació",
-        "FilterLocationsPlaceHolder": "Filtra els llocs amb...",
-        "AllAuthors": "Tots els autors",
-        "filterEvents": "Filtrar esdeveniments",
-        "NewEvent": "Nou esdeveniment",
-        "Description": "{{1}} esdeveniments",
-        "Keywords": "{{1}} esdeveniments",
-        "MakeReservation": "Fes la reserva",
-        "Reserved": "Cancel·la la reserva",
-        "AreYouSure": "Estàs segur?",
-        "YouWillRefunded": "Se us reemborsarà en forma de crèdits que podeu gastar en altres coses a l&#39;aplicació.",
-        "CancelReservation": "Cancel·la la reserva",
-        "UpdateReservation": "Actualitzar la reserva"
-    },
-    "schedule": {
-        "Title": "Horari",
-        "NoneYet": "No participeu en cap esdeveniment",
-        "AddSome": "Afegeix-ne alguns a la teva agenda!",
-        "AddMore": "Afegeix esdeveniments a la teva agenda!",
-        "future": "futur",
-        "past": "passat"
-    },
-    "location": {
-        "Title": "Ubicació",
-        "NewLocation": "Nova Ubicació"
-    },
-    "inbox": {
-        "Title": "Safata d&#39;entrada",
-        "NoneYet": "No estàs participant en cap conversa",
-        "FindPeople": "Troba gent amb qui parlar",
-        "GroupConversations": "Uneix-te a algunes converses de grup",
-        "ContactStaff": "Contacta amb el personal",
-        "ContactCustomers": "Contacta amb els clients",
-        "AddNewContact": "Afegeix un contacte nou",
-        "AddNewContacts": "Afegeix nous contactes"
-    },
-    "me": {
-        "Title": "jo",
-        "MobileNumber": "Número de mòbil",
-        "EmailAddress": "Correu electrònic",
-        "UpdateSocialTitle": "Actualitza el nom d&#39;usuari de {{1}}",
-        "Web3": "Web3"
-    },
-    "people": {
-        "Title": "Gent",
-        "AppAlert": "Aquesta aplicació a la botiga d&#39;aplicacions et permetrà connectar amb els teus amics i molt més.",
-        "Invite": "Convidar amics",
-        "FindSomeoneByName": "Trobeu algú pel nom",
-        "FindAllMyFriends": "Troba tots els meus amics",
-        "labels": {
-            "All": "Tothom",
-            "Title": "Filtra per relació",
-            "New": "Nou tipus de relació"
-        },
-        "interests": {
-            "All": "Tots els interessos",
-            "Title": "Filtra per interessos",
-            "Filter": "Mostra a les persones interessades en . . ."
-        },
-        "SearchByName": "Cerca per nom",
-        "Description": "Gent de la comunitat {{1}}",
-        "Keywords": "{{1}} comunitat de persones",
-        "BuyCredits": "Comprar crèdits"
-    },
-    "communities": {
-        "Title": "Comunitats",
-        "NewCommunity": "Nova Comunitat",
-        "FindCommunityByName": "Cerca la comunitat pel nom",
-        "Description": "{{1}} comunitats"
-    },
-    "community": {
-        "Title": "{{1}} Comunitat",
-        "Roles": "Rols",
-        "AllRoles": "Tots els rols",
-        "YouDontHavePermission": "No estàs autoritzat per fer-ho",
-        "usernamePlaceholder": "establir el nom de la comunitat",
-        "NotEnoughCredits": "No tens prou crèdits per crear comunitat. Necessites {{1}}, tens {{2}}"
-    },
-    "event": {
-        "GetDirections": "Obtenir adreces",
-        "WhichMap": "Quins mapes t&#39;agradaria utilitzar?",
-        "JoinEventToChat": "Uneix-te a l&#39;esdeveniment per xerrar",
-        "promote": {
-            "Title": "Promociona aquest esdeveniment",
-            "Prompt": "Tria on vols promocionar aquest esdeveniment:"
-        },
-        "Confirmation": "Confirmació"
-    },
-    "newEvent": {
-        "Title": "Planifica un nou esdeveniment"
-    },
-    "interests": {
-        "Title": "Interessos",
-        "prompt": "Seleccioneu els tipus de coses que voleu saber.",
-        "explanation": "Com més interessos seleccionis, més probabilitats tindreu de connectar amb persones amb idees afins.",
-        "filter": "En què estàs interessat?",
-        "Profile": "Es destaquen els interessos mutus. Si també teniu un o més dels interessos següents, podeu {{clickOrTap}} afegir-los."
-    },
-    "credits": {
-        "Title": "Crèdits",
-        "EarnCredits": "Guanya {{1}} crèdits per cada persona nova que convidis que s&#39;uneix a l&#39;aplicació",
-        "YouHave": "Tens {{1}} crèdits"
-    },
-    "onboarding": {
-        "Tap": "Aixeta",
-        "Click": "Feu clic",
-        "Yes": "Sí",
-        "No": "No",
-        "name": {
-            "Preface": "Benvingut a",
-            "Placeholder": "Introdueix el teu nom complet",
-            "GetStarted": "Començar",
-            "AsGuest": "Has estat convidat com a convidat.",
-            "AsMember": "Has estat convidat com a membre.",
-            "AsAdmin": "Has estat convidat com a administrador.",
-            "AsOwner": "Has estat convidat com a propietari.",
-            "TooShort": "El teu nom complet no pot ser tan curt",
-            "SetAsYourFullName": "Voleu definir {{1}} com a nom complet?"
-        },
-        "icon": {
-            "KeepDefault": "o conserva aquesta foto",
-            "SetYourPhoto": "{{ClickOrTap}} per configurar la teva foto:",
-            "ClickOnYourFace": "{{ClickOrTap}} A la teva cara"
-        },
-        "interests": {
-            "GetStarted": "⇩ Comença",
-            "NextCategory": "↓ Següent",
-            "Continue": "Continua",
-            "Instructions": "En cadascuna de les {{1}} categories següents,<br> {{2}} totes les activitats que us interessen.<br> Així es connecta amb altres persones de la comunitat."
-        },
-        "profile": {
-            "Profile": "El teu perfil ajuda la gent a descobrir més coses sobre tu.<br>",
-            "Birthday": "Introduïu el vostre aniversari:",
-            "Placeholder": "Qui ets i què fas? Digues a la gent alguna cosa interessant o única sobre tu.",
-            "Month": "Mes",
-            "Day": "Dia",
-            "Year": "Curs",
-            "Gender": "Gènere",
-            "Male": "Mascle",
-            "Female": "femella",
-            "Other": "Altres",
-            "Height": "Alçada",
-            "Affiliation": "Afiliació",
-            "Dating": "Cites",
-            "Interested": "Interessat",
-            "NotInterested": "No m&#39;interesa",
-            "MatchmakerOnly": "Només Matchmaker",
-            "Required": "Per continuar, escriu almenys un parell de línies sobre tu."
-        },
-        "location": {
-            "NoOneElse": "Ningú més ho veurà.",
-            "SetMyLocation": "Estableix la meva ubicació"
-        },
-        "pile": {
-            "DialogTitle": "Persones amb interessos comuns"
-        },
-        "Done": "Fet",
-        "Skip": "o saltar-ho",
-        "relationships": {
-            "title": "Afegeix {{userName}} a l&#39;agenda telefònica",
-            "welcome": "Benvingut {{user}}",
-            "invitedByUser": "t&#39;ha convidat.",
-            "addToPhonebook": "Desa als meus contactes del telèfon",
-            "iosInstructions": "Desplaceu-vos cap avall fins a Afegeix un contacte nou",
-            "androidInstructions": "Hauríeu d&#39;obrir aquest fitxer vCard després que es descarregui.",
-            "explanation": "Quina és la teva relació?"
-        },
-        "Title": "Informació bàsica",
-        "Prompt": "Uns quants passos per configurar el vostre compte"
-    },
-    "profile": {
-        "Title": "Perfil",
-        "Male": "Mascle",
-        "Female": "femella",
-        "Other": "Altres",
-        "dating": {
-            "Interested": "Interessat",
-            "NotInterested": "No m&#39;interesa",
-            "MatchmakerOnly": "Només Matchmaker"
-        },
-        "StartConversation": "Iniciar una conversa",
-        "blockUser": "Bloqueja aquest usuari",
-        "blockUserAlert": "No veureu més missatges d&#39;aquest usuari fins que no els desbloquegeu.",
-        "unblockUser": "Desbloqueja aquest usuari",
-        "addToContacts": "Afegir a contactes",
-        "manageLabels": "Gestiona les etiquetes",
-        "inviteUsers": "Convida usuaris",
-        "inviteSuccess": "Usuari convidat correctament com a {{label}}",
-        "invite": "Convidar",
-        "relationships": "Relacions",
-        "newRole": "Nou Rol",
-        "about": "Sobre",
-        "people": "Gent",
-        "info": "Informació",
-        "interests": "Interessos",
-        "chat": "Xatejar",
-        "locations": "Ubicacions",
-        "ManageRoles": "Gestionar rols",
-        "aboutPlaceholder": "Qui ets i què fas? Digues a la gent alguna cosa interessant o única sobre tu.",
-        "explanation": "El teu perfil t&#39;ajuda a relacionar-te millor amb altres persones per a activitats de grup.<br> Introduïu el vostre aniversari",
-        "chats": {
-            "placeholder": "Digues alguna cosa"
-        },
-        "LogOut": "Tancar sessió",
-        "selectRole": "Seleccioneu Rol",
-        "MyLinks": "Els meus enllaços",
-        "MyJobs": "Els meus treballs",
-        "MySocial": "MySocial",
-        "MyEducation": "La meva educació",
-        "JobsPlaceholder": "Escriu aquí la informació de feina",
-        "EducationPlaceholder": "Escriu aquí la informació educativa",
-        "ManageNotifications": "Gestiona les notificacions",
-        "YourPreferredLanguage": "El teu idioma preferit",
-        "SendCrypto": "Pagar",
-        "Block": "Bloc",
-        "Unblock": "Desbloqueja",
-        "Email": "Correu electrònic",
-        "Avoid": "Evitar",
-        "CreatePrivateChat": "Gasteu {{credits}} crèdits per contactar?",
-        "RolesInCommunity": "Rols a la comunitat",
-        "PersonalChatWith": "Xat personal amb {{name}}",
-        "SendCryptoTo": "Envia criptografia a {{name}}",
-        "SendEmailTo": "Envia un correu electrònic a {{name}}",
-        "SendSMSTo": "Envia SMS a {{name}}",
-        "BlockThisUser": "Bloqueja aquest usuari",
-        "UnblockThisUser": "Desbloqueja aquest usuari",
-        "YouCantChatWithYourself": "No pots xatejar amb tu mateix",
-        "blockUserAlertTitle": "Bloquejat {{displayName}}",
-        "sections": {
-            "education": "Educació",
-            "greeting": "Salutació",
-            "jobs": "Feines",
-            "links": "Enllaços",
-            "language": "Llenguatge",
-            "roles": "Rols",
-            "personal": "Personal",
-            "social": "Social"
-        },
-        "Roles": "Rols",
-        "SendPaymentTo": "Envieu un pagament al {{name}}"
-    },
-    "myqr": {
-        "Title": "El meu QR"
-    },
-    "composer": {
-        "createCommunity": "Crea comunitat",
-        "inviteAdmin": "Convida l&#39;administrador",
-        "inviteMember": "Convida un membre",
-        "newCommunityTitle": "Nom de la Comunitat",
-        "setCommunityTitle": "Nom de la Comunitat",
-        "creditsChargeRequest": "Accepteu gastar {{price}} crèdits?",
-        "yes": "Sí",
-        "no": "No"
-    },
-    "notifications": {
-        "WelcomePleaseVerifyEmail": "Benvingut! Verifiqueu la vostra adreça de correu electrònic.",
-        "WelcomeVerifyEmail": "Benvingut! Comproveu la vostra adreça de correu electrònic.",
-        "ForgetPass": "Ei, has oblidat la teva frase de contrasenya?",
-        "ManageEmailSubscriptions": "gestionar les vostres subscripcions de correu electrònic",
-        "IfUnsubscribe": "Si vols donar-te de baixa"
-    },
-    "speak": {
-        "onboarding": {
-            "name": {
-                "Welcome": "Benvingut a {{CommunityName}}. Aquesta aplicació us ajudarà a connectar-vos amb amics, descobrir persones noves amb interessos comuns i molt més. Comencem!"
-            },
-            "icon": {
-                "Commentary": "Estableix la teva foto. Així és com et veurà la gent al lloc."
-            },
-            "interests": {
-                "Commentary": "Com més articles trieu, més gent podreu conèixer.",
-                "Notifications": "Heu de permetre les notificacions"
-            }
-        },
-        "subscriptions": {
-            "confirm": "Les notificacions us permeten saber coses que us interessen, com ara quan un amic s&#39;uneix a l&#39;aplicació o us envia un missatge."
-        },
-        "invite": "{{Q.words.TapOrClick}} aquí per veure com pots compartir-ho amb altres persones."
-    },
-    "payment": {
-        "onContribute": "Gràcies! El teu pagament s&#39;ha realitzat. Vols convidar els teus amics a unir-te a tu?",
-        "ConnectAccount": "Connecta el compte"
-    },
-    "featureboard": {
-        "Text_1": "Que s&#39;escolti la teva veu! Esteu d&#39;acord que hauríem de desenvolupar una funció o un error? Feu clic al botó per donar-hi suport.",
-        "Text_2": "Voleu que desenvolupem una funció nova? Descriu-ho a continuació.",
-        "Text_3": "Cada setmana comencem a desenvolupar la funció més sol·licitada per la comunitat. Tots els diners aportats es destinen a aquest propòsit, cosa que ens permet millorar l&#39;aplicació.",
-        "Text_4": "Tots els diners aportats s&#39;utilitzen per ajudar a pagar els nostres costos de desenvolupament.",
-        "Text_5": "Tens una idea per a una funció o una correcció d&#39;errors que vols que fem, però encara no has vist que altres afegeixin? Descriu-ho a continuació:",
-        "Options": [
-            {
-                "text": "$400 Videoconferència en temps real"
-            },
-            {
-                "defaultAmount": "10",
-                "text": "Informació de registre de 200 dòlars locals a la Primària"
-            },
-            {
-                "text": "130 $ Navega i comparteix milers de {{1}} memes",
-                "defaultAmount": "10"
-            },
-            {
-                "text": "80 $ Gestiona les teves pròpies comunitats",
-                "defaultAmount": "10"
-            },
-            {
-                "text": "30 $ Corregiu l&#39;error de les converses",
-                "defaultAmount": "10"
-            }
-        ],
-        "RequestNewFeature": "Sol·liciteu una nova funció\/correcció d&#39;errors",
-        "FeaturePlaceholder": "Breu resum de la característica",
-        "FeatureDescription": "Descriu com algú altre pot reproduir l&#39;error que estàs veient o descriu en detall la funció que vols crear",
-        "AddYourRequest": "Afegeix la teva sol·licitud",
-        "NewFeature": "Funció nova"
-    },
-    "assetshistory": {
-        "Title": "Història d&#39;actius",
-        "Charges": "Càrrecs",
-        "Credits": "Crèdits"
-    },
-    "contribute": {
-        "ContributeExplanation": "Ajudeu a donar suport al desenvolupament continuat de l&#39;aplicació {{communityName}}. Totes les vostres contribucions ajuden a corregir errors i desenvolupar noves funcions per ajudar a créixer la comunitat en línia!",
-        "ReasonToContribute": "Aquesta aplicació la mantenen els seguidors de {{communityName}}. Ajuda a donar suport a aquesta aplicació perquè puguem marcar la diferència en la vida de les persones!"
-    },
-    "accounts": {
-        "remove": {
-            "title": "Elimina el compte",
-            "content": "Voleu eliminar aquest compte?",
-            "ok": "Sí",
-            "cancel": "No"
-        }
-    },
-    "import": {
-        "fileNotFound": "Ho sentim, no s&#39;ha trobat el fitxer CSV.",
-        "fileEmpty": "Ho sentim, el fitxer CSV està buit.",
-        "userIdNotFound": "l&#39;usuari existeix però l&#39;identificador està buit",
-        "errorLine": "línia {{1}}",
-        "fieldNotFound": "No s&#39;ha trobat el camp obligatori &quot;{{1}}&quot;.",
-        "taskStreamInvalid": "El flux de tasques no és vàlid",
-        "instructionsEmpty": "instruccions del flux de tasques buides",
-        "complete": "Completa",
-        "activateUsers": "enviar missatges d&#39;activació als usuaris?",
-        "importProgress": "Progrés, progressar",
-        "joinEventLabel": "Uniu els usuaris a un esdeveniment aleatori",
-        "importOptions": "Opcions",
-        "sampleCSV": "Baixeu CSV de mostra",
-        "fileLabel": "Carregueu el full de càlcul:",
-        "errorsTitle": "S&#39;han produït errors",
-        "communityUsers": "Aquesta és la llista de comunitats",
-        "setAsConversation": "Columna d&#39;URL com a conversa",
-        "toMainCommunityToo": "afegir usuaris a la comunitat principal també",
-        "willImportedTo": "Els usuaris seran importats a la comunitat",
-        "ChooseFile": "Trieu l&#39;arxiu"
-    },
-    "dashboard": {
-        "Menu": "Menú",
-        "Home": "Casa",
-        "Welcome": "Benvingut",
-        "Events": "Esdeveniments",
-        "Discuss": "Discutiu",
-        "People": "Gent",
-        "About": "Sobre",
-        "Community": "Comunitat",
-        "LogIn": "iniciar Sessió",
-        "LogOut": "tancar sessió",
-        "Intercoin": "Intercoin",
-        "Shows": "Espectacles",
-        "Calendar": "Calendari",
-        "Me": "jo",
-        "Media": "Mitjans de comunicació",
-        "Services": "Serveis",
-        "SetMobileNumber": "Estableix el número de mòbil",
-        "SetEmailAddress": "Estableix l&#39;adreça de correu electrònic"
-    },
-    "services": {
-        "Title": "Serveis",
-        "filterByTitle": "Cerca serveis per títol",
-        "New": "+ Inicia un servei nou",
-        "NewService": "Nou Servei",
-        "filterServices": "Serveis de filtració",
-        "NoneYet": "Encara no s&#39;ha format cap servei<br> durant aquests temps.",
-        "AllAuthors": "Tots els autors",
-        "AllDays": "Tots els dies",
-        "AllLocations": "Totes les Ubicacions",
-        "MakeReservation": "Fes la reserva",
-        "CancelReservation": "Cancel·la la reserva",
-        "UpdateReservation": "Actualitzar la reserva",
-        "AreYouSure": "Estàs segur?",
-        "YouWillRefunded": "Se us reemborsarà en forma de crèdits que podeu gastar en altres coses a l&#39;aplicació.",
-        "AllInterests": "Tots els interessos",
-        "FilterbyInterest": "Filtra per interessos",
-        "FilterByDate": "Filtra per data",
-        "ShowActivities": "Mostra activitats relacionades amb...",
-        "newServices": "Tens {{1}} serveis nous",
-        "SelectLocation": "Seleccioneu Ubicació",
-        "FilterLocationsPlaceHolder": "Filtra els llocs amb...",
-        "Description": "{{1}} servei",
-        "Keywords": "{{1}} servei",
-        "NewAvailability": "Nova Disponibilitat"
-    },
-    "welcome": {
-        "Title": "{{appName}}: benvingut",
-        "GetStarted": "Començar",
-        "gallery": {
-            "Connect": "Connecta&#39;t",
-            "Organize": "Organitzar",
-            "Travel": "Viatjar",
-            "Share": "Compartir"
-        }
-    }
+	"notFound": {
+		"Explanation": "<span class='url'>{{1}}</span> no apunta a res!",
+		"NextSteps": "Utilitzeu el men\u00fa principal per trobar el que busqueu."
+	},
+	"greeting": {
+		"Welcome": "Benvingut a {{1}}. Aqu\u00ed trobareu coses publicades per als membres de la nostra comunitat. Si us plau, afegiu la vostra adre\u00e7a de correu electr\u00f2nic o n\u00famero de m\u00f2bil per rebre notificacions quan es publiquin anuncis."
+	},
+	"conversations": {
+		"New": "Nova conversa",
+		"Conversation": "Conversa",
+		"Topics": "Temes",
+		"NoneYet": "Encara no s&#39;han format converses",
+		"newConversations": "{{1}} converses noves",
+		"AllAuthors": "Tots els autors",
+		"FilterbyAuthors": "Filtra per Autors",
+		"FilterAuthorPlaceHolder": "Cerca autors addicionals...",
+		"Title": "Converses",
+		"Description": "{{1}} converses",
+		"filterConversations": "Filtra per text"
+	},
+	"newConversation": {
+		"composer": {
+			"ChooseActivity": "Tria un tema",
+			"Share": "Compartir",
+			"interest": {
+				"Title": "Trieu una activitat",
+				"Filter": "Interessos de cerca..."
+			}
+		},
+		"Title": "Nova conversa",
+		"TitlePlaceholder": "Tema de la teva conversa",
+		"ContentPlaceholder": "Escriu unes quantes paraules per comen\u00e7ar la conversa, perqu\u00e8 altres puguin respondre",
+		"StartButton": "Inicia la conversa"
+	},
+	"events": {
+		"Title": "Esdeveniments",
+		"filterByTitle": "Cerca esdeveniments per t\u00edtol",
+		"New": "+ Comen\u00e7a un nou esdeveniment",
+		"SetLocation": "Estableix la meva ubicaci\u00f3",
+		"NoneYet": "Encara no s&#39;han format esdeveniments<br> durant aquests temps.",
+		"AllDays": "Tots els dies",
+		"AllLocations": "Totes les Ubicacions",
+		"AllInterests": "Tots els interessos",
+		"FilterbyInterest": "Filtra per interessos",
+		"FilterByDate": "Filtra per data",
+		"ShowActivities": "Mostra activitats relacionades amb . . .",
+		"newEvents": "Tens {{1}} esdeveniments nous",
+		"SelectLocation": "Seleccioneu Ubicaci\u00f3",
+		"FilterLocationsPlaceHolder": "Filtra els llocs amb...",
+		"AllAuthors": "Tots els autors",
+		"filterEvents": "Filtrar esdeveniments",
+		"NewEvent": "Nou esdeveniment",
+		"Description": "{{1}} esdeveniments",
+		"Keywords": "{{1}} esdeveniments",
+		"MakeReservation": "Fes la reserva",
+		"Reserved": "Cancel\u00b7la la reserva",
+		"AreYouSure": "Est\u00e0s segur?",
+		"YouWillRefunded": "Se us reemborsar\u00e0 en forma de cr\u00e8dits que podeu gastar en altres coses a l&#39;aplicaci\u00f3.",
+		"CancelReservation": "Cancel\u00b7la la reserva",
+		"UpdateReservation": "Actualitzar la reserva"
+	},
+	"schedule": {
+		"Title": "Horari",
+		"NoneYet": "No participeu en cap esdeveniment",
+		"AddSome": "Afegeix-ne alguns a la teva agenda!",
+		"AddMore": "Afegeix esdeveniments a la teva agenda!",
+		"future": "futur",
+		"past": "passat"
+	},
+	"location": {
+		"Title": "Ubicaci\u00f3",
+		"NewLocation": "Nova Ubicaci\u00f3"
+	},
+	"inbox": {
+		"Title": "Safata d&#39;entrada",
+		"NoneYet": "No est\u00e0s participant en cap conversa",
+		"FindPeople": "Troba gent amb qui parlar",
+		"GroupConversations": "Uneix-te a algunes converses de grup",
+		"ContactStaff": "Contacta amb el personal",
+		"ContactCustomers": "Contacta amb els clients",
+		"AddNewContact": "Afegeix un contacte nou",
+		"AddNewContacts": "Afegeix nous contactes"
+	},
+	"me": {
+		"Title": "jo",
+		"MobileNumber": "N\u00famero de m\u00f2bil",
+		"EmailAddress": "Correu electr\u00f2nic",
+		"UpdateSocialTitle": "Actualitza el nom d&#39;usuari de {{1}}",
+		"Web3": "Web3"
+	},
+	"people": {
+		"Title": "Gent",
+		"AppAlert": "Aquesta aplicaci\u00f3 a la botiga d&#39;aplicacions et permetr\u00e0 connectar amb els teus amics i molt m\u00e9s.",
+		"Invite": "Convidar amics",
+		"FindSomeoneByName": "Trobeu alg\u00fa pel nom",
+		"FindAllMyFriends": "Troba tots els meus amics",
+		"labels": {
+			"All": "Tothom",
+			"Title": "Filtra per relaci\u00f3",
+			"New": "Nou tipus de relaci\u00f3"
+		},
+		"interests": {
+			"All": "Tots els interessos",
+			"Title": "Filtra per interessos",
+			"Filter": "Mostra a les persones interessades en . . ."
+		},
+		"SearchByName": "Cerca per nom",
+		"Description": "Gent de la comunitat {{1}}",
+		"Keywords": "{{1}} comunitat de persones",
+		"BuyCredits": "Comprar cr\u00e8dits"
+	},
+	"communities": {
+		"Title": "Comunitats",
+		"NewCommunity": "Nova Comunitat",
+		"FindCommunityByName": "Cerca la comunitat pel nom",
+		"Description": "{{1}} comunitats"
+	},
+	"community": {
+		"Title": "{{1}} Comunitat",
+		"Roles": "Rols",
+		"AllRoles": "Tots els rols",
+		"YouDontHavePermission": "No est\u00e0s autoritzat per fer-ho",
+		"usernamePlaceholder": "establir el nom de la comunitat",
+		"NotEnoughCredits": "No tens prou cr\u00e8dits per crear comunitat. Necessites {{1}}, tens {{2}}"
+	},
+	"event": {
+		"GetDirections": "Obtenir adreces",
+		"WhichMap": "Quins mapes t&#39;agradaria utilitzar?",
+		"JoinEventToChat": "Uneix-te a l&#39;esdeveniment per xerrar",
+		"promote": {
+			"Title": "Promociona aquest esdeveniment",
+			"Prompt": "Tria on vols promocionar aquest esdeveniment:"
+		},
+		"Confirmation": "Confirmaci\u00f3"
+	},
+	"newEvent": {
+		"Title": "Planifica un nou esdeveniment"
+	},
+	"interests": {
+		"Title": "Interessos",
+		"prompt": "Seleccioneu els tipus de coses que voleu saber.",
+		"explanation": "Com m\u00e9s interessos seleccionis, m\u00e9s probabilitats tindreu de connectar amb persones amb idees afins.",
+		"filter": "En qu\u00e8 est\u00e0s interessat?",
+		"Profile": "Es destaquen els interessos mutus. Si tamb\u00e9 teniu un o m\u00e9s dels interessos seg\u00fcents, podeu {{clickOrTap}} afegir-los."
+	},
+	"credits": {
+		"Title": "Cr\u00e8dits",
+		"EarnCredits": "Guanya {{1}} cr\u00e8dits per cada persona nova que convidis que s&#39;uneix a l&#39;aplicaci\u00f3",
+		"YouHave": "Tens {{1}} cr\u00e8dits"
+	},
+	"onboarding": {
+		"Tap": "Aixeta",
+		"Click": "Feu clic",
+		"Yes": "S\u00ed",
+		"No": "No",
+		"name": {
+			"Preface": "Benvingut a",
+			"Placeholder": "Introdueix el teu nom complet",
+			"GetStarted": "Comen\u00e7ar",
+			"AsGuest": "Has estat convidat com a convidat.",
+			"AsMember": "Has estat convidat com a membre.",
+			"AsAdmin": "Has estat convidat com a administrador.",
+			"AsOwner": "Has estat convidat com a propietari.",
+			"TooShort": "El teu nom complet no pot ser tan curt",
+			"SetAsYourFullName": "Voleu definir {{1}} com a nom complet?"
+		},
+		"icon": {
+			"KeepDefault": "o conserva aquesta foto",
+			"SetYourPhoto": "{{ClickOrTap}} per configurar la teva foto:",
+			"ClickOnYourFace": "{{ClickOrTap}} A la teva cara"
+		},
+		"interests": {
+			"GetStarted": "\u21e9 Comen\u00e7a",
+			"NextCategory": "\u2193 Seg\u00fcent",
+			"Continue": "Continua",
+			"Instructions": "En cadascuna de les {{1}} categories seg\u00fcents,<br> {{2}} totes les activitats que us interessen.<br> Aix\u00ed es connecta amb altres persones de la comunitat."
+		},
+		"profile": {
+			"Profile": "Informaci\u00f3 b\u00e0sica per ajudar-te a connectar amb la gent:",
+			"Birthday": "Introdu\u00efu el vostre aniversari:",
+			"Placeholder": "Qui ets i qu\u00e8 fas? Digues a la gent alguna cosa interessant o \u00fanica sobre tu.",
+			"Month": "Mes",
+			"Day": "Dia",
+			"Year": "Curs",
+			"Gender": "G\u00e8nere",
+			"Male": "Mascle",
+			"Female": "femella",
+			"Other": "Altres",
+			"Height": "Al\u00e7ada",
+			"Affiliation": "Afiliaci\u00f3",
+			"Dating": "Cites",
+			"Interested": "Interessat",
+			"NotInterested": "No m&#39;interesa",
+			"MatchmakerOnly": "Nom\u00e9s Matchmaker",
+			"Required": "Per continuar, escriu almenys un parell de l\u00ednies sobre tu."
+		},
+		"location": {
+			"NoOneElse": "Ning\u00fa m\u00e9s ho veur\u00e0.",
+			"SetMyLocation": "Estableix la meva ubicaci\u00f3"
+		},
+		"pile": {
+			"DialogTitle": "Persones amb interessos comuns"
+		},
+		"Done": "Fet",
+		"Skip": "o saltar-ho",
+		"relationships": {
+			"title": "Afegeix {{userName}} a l&#39;agenda telef\u00f2nica",
+			"welcome": "Benvingut {{user}}",
+			"invitedByUser": "t&#39;ha convidat.",
+			"addToPhonebook": "Desa als meus contactes del tel\u00e8fon",
+			"iosInstructions": "Desplaceu-vos cap avall fins a Afegeix un contacte nou",
+			"androidInstructions": "Haur\u00edeu d&#39;obrir aquest fitxer vCard despr\u00e9s que es descarregui.",
+			"explanation": "Quina \u00e9s la teva relaci\u00f3?"
+		},
+		"Title": "Informaci\u00f3 b\u00e0sica",
+		"Prompt": "Uns quants passos per configurar el vostre compte"
+	},
+	"profile": {
+		"Title": "Perfil",
+		"Male": "Mascle",
+		"Female": "femella",
+		"Other": "Altres",
+		"dating": {
+			"Interested": "Interessat",
+			"NotInterested": "No m&#39;interesa",
+			"MatchmakerOnly": "Nom\u00e9s Matchmaker"
+		},
+		"StartConversation": "Iniciar una conversa",
+		"blockUser": "Bloqueja aquest usuari",
+		"blockUserAlert": "No veureu m\u00e9s missatges d&#39;aquest usuari fins que no els desbloquegeu.",
+		"unblockUser": "Desbloqueja aquest usuari",
+		"addToContacts": "Afegir a contactes",
+		"manageLabels": "Gestiona les etiquetes",
+		"inviteUsers": "Convida usuaris",
+		"inviteSuccess": "Usuari convidat correctament com a {{label}}",
+		"invite": "Convidar",
+		"relationships": "Relacions",
+		"newRole": "Nou Rol",
+		"about": "Sobre",
+		"people": "Gent",
+		"info": "Informaci\u00f3",
+		"interests": "Interessos",
+		"chat": "Xatejar",
+		"locations": "Ubicacions",
+		"ManageRoles": "Gestionar rols",
+		"aboutPlaceholder": "Qui ets i qu\u00e8 fas? Digues a la gent alguna cosa interessant o \u00fanica sobre tu.",
+		"explanation": "El teu perfil t&#39;ajuda a relacionar-te millor amb altres persones per a activitats de grup.<br> Introdu\u00efu el vostre aniversari",
+		"chats": {
+			"placeholder": "Digues alguna cosa"
+		},
+		"LogOut": "Tancar sessi\u00f3",
+		"selectRole": "Seleccioneu Rol",
+		"MyLinks": "Els meus enlla\u00e7os",
+		"MyJobs": "Els meus treballs",
+		"MySocial": "MySocial",
+		"MyEducation": "La meva educaci\u00f3",
+		"JobsPlaceholder": "Escriu aqu\u00ed la informaci\u00f3 de feina",
+		"EducationPlaceholder": "Escriu aqu\u00ed la informaci\u00f3 educativa",
+		"ManageNotifications": "Gestiona les notificacions",
+		"YourPreferredLanguage": "El teu idioma preferit",
+		"SendCrypto": "Pagar",
+		"Block": "Bloc",
+		"Unblock": "Desbloqueja",
+		"Email": "Correu electr\u00f2nic",
+		"Avoid": "Evitar",
+		"CreatePrivateChat": "Gasteu {{credits}} cr\u00e8dits per contactar?",
+		"RolesInCommunity": "Rols a la comunitat",
+		"PersonalChatWith": "Xat personal amb {{name}}",
+		"SendCryptoTo": "Envia criptografia a {{name}}",
+		"SendEmailTo": "Envia un correu electr\u00f2nic a {{name}}",
+		"SendSMSTo": "Envia SMS a {{name}}",
+		"BlockThisUser": "Bloqueja aquest usuari",
+		"UnblockThisUser": "Desbloqueja aquest usuari",
+		"YouCantChatWithYourself": "No pots xatejar amb tu mateix",
+		"blockUserAlertTitle": "Bloquejat {{displayName}}",
+		"sections": {
+			"education": "Educaci\u00f3",
+			"greeting": "Salutaci\u00f3",
+			"jobs": "Feines",
+			"links": "Enlla\u00e7os",
+			"language": "Llenguatge",
+			"roles": "Rols",
+			"personal": "Personal",
+			"social": "Social"
+		},
+		"Roles": "Rols",
+		"SendPaymentTo": "Envieu un pagament al {{name}}"
+	},
+	"myqr": {
+		"Title": "El meu QR"
+	},
+	"composer": {
+		"createCommunity": "Crea comunitat",
+		"inviteAdmin": "Convida l&#39;administrador",
+		"inviteMember": "Convida un membre",
+		"newCommunityTitle": "Nom de la Comunitat",
+		"setCommunityTitle": "Nom de la Comunitat",
+		"creditsChargeRequest": "Accepteu gastar {{price}} cr\u00e8dits?",
+		"yes": "S\u00ed",
+		"no": "No"
+	},
+	"notifications": {
+		"WelcomePleaseVerifyEmail": "Benvingut! Verifiqueu la vostra adre\u00e7a de correu electr\u00f2nic.",
+		"WelcomeVerifyEmail": "Benvingut! Comproveu la vostra adre\u00e7a de correu electr\u00f2nic.",
+		"ForgetPass": "Ei, has oblidat la teva frase de contrasenya?",
+		"ManageEmailSubscriptions": "gestionar les vostres subscripcions de correu electr\u00f2nic",
+		"IfUnsubscribe": "Si vols donar-te de baixa"
+	},
+	"speak": {
+		"onboarding": {
+			"name": {
+				"Welcome": "Benvingut a {{CommunityName}}. Aquesta aplicaci\u00f3 us ajudar\u00e0 a connectar-vos amb amics, descobrir persones noves amb interessos comuns i molt m\u00e9s. Comencem!"
+			},
+			"icon": {
+				"Commentary": "Estableix la teva foto. Aix\u00ed \u00e9s com et veur\u00e0 la gent al lloc."
+			},
+			"interests": {
+				"Commentary": "Com m\u00e9s articles trieu, m\u00e9s gent podreu con\u00e8ixer.",
+				"Notifications": "Heu de permetre les notificacions"
+			}
+		},
+		"subscriptions": {
+			"confirm": "Les notificacions us permeten saber coses que us interessen, com ara quan un amic s&#39;uneix a l&#39;aplicaci\u00f3 o us envia un missatge."
+		},
+		"invite": "{{Q.words.TapOrClick}} aqu\u00ed per veure com pots compartir-ho amb altres persones."
+	},
+	"payment": {
+		"onContribute": "Gr\u00e0cies! El teu pagament s&#39;ha realitzat. Vols convidar els teus amics a unir-te a tu?",
+		"ConnectAccount": "Connecta el compte"
+	},
+	"featureboard": {
+		"Text_1": "Que s&#39;escolti la teva veu! Esteu d&#39;acord que haur\u00edem de desenvolupar una funci\u00f3 o un error? Feu clic al bot\u00f3 per donar-hi suport.",
+		"Text_2": "Voleu que desenvolupem una funci\u00f3 nova? Descriu-ho a continuaci\u00f3.",
+		"Text_3": "Cada setmana comencem a desenvolupar la funci\u00f3 m\u00e9s sol\u00b7licitada per la comunitat. Tots els diners aportats es destinen a aquest prop\u00f2sit, cosa que ens permet millorar l&#39;aplicaci\u00f3.",
+		"Text_4": "Tots els diners aportats s&#39;utilitzen per ajudar a pagar els nostres costos de desenvolupament.",
+		"Text_5": "Tens una idea per a una funci\u00f3 o una correcci\u00f3 d&#39;errors que vols que fem, per\u00f2 encara no has vist que altres afegeixin? Descriu-ho a continuaci\u00f3:",
+		"Options": [
+			{
+				"text": "$400 Videoconfer\u00e8ncia en temps real"
+			},
+			{
+				"defaultAmount": "10",
+				"text": "Informaci\u00f3 de registre de 200 d\u00f2lars locals a la Prim\u00e0ria"
+			},
+			{
+				"text": "130 $ Navega i comparteix milers de {{1}} memes",
+				"defaultAmount": "10"
+			},
+			{
+				"text": "80 $ Gestiona les teves pr\u00f2pies comunitats",
+				"defaultAmount": "10"
+			},
+			{
+				"text": "30 $ Corregiu l&#39;error de les converses",
+				"defaultAmount": "10"
+			}
+		],
+		"RequestNewFeature": "Sol\u00b7liciteu una nova funci\u00f3/correcci\u00f3 d&#39;errors",
+		"FeaturePlaceholder": "Breu resum de la caracter\u00edstica",
+		"FeatureDescription": "Descriu com alg\u00fa altre pot reproduir l&#39;error que est\u00e0s veient o descriu en detall la funci\u00f3 que vols crear",
+		"AddYourRequest": "Afegeix la teva sol\u00b7licitud",
+		"NewFeature": "Funci\u00f3 nova"
+	},
+	"assetshistory": {
+		"Title": "Hist\u00f2ria d&#39;actius",
+		"Charges": "C\u00e0rrecs",
+		"Credits": "Cr\u00e8dits"
+	},
+	"contribute": {
+		"ContributeExplanation": "Ajudeu a donar suport al desenvolupament continuat de l&#39;aplicaci\u00f3 {{communityName}}. Totes les vostres contribucions ajuden a corregir errors i desenvolupar noves funcions per ajudar a cr\u00e9ixer la comunitat en l\u00ednia!",
+		"ReasonToContribute": "Aquesta aplicaci\u00f3 la mantenen els seguidors de {{communityName}}. Ajuda a donar suport a aquesta aplicaci\u00f3 perqu\u00e8 puguem marcar la difer\u00e8ncia en la vida de les persones!"
+	},
+	"accounts": {
+		"remove": {
+			"title": "Elimina el compte",
+			"content": "Voleu eliminar aquest compte?",
+			"ok": "S\u00ed",
+			"cancel": "No"
+		}
+	},
+	"import": {
+		"fileNotFound": "Ho sentim, no s&#39;ha trobat el fitxer CSV.",
+		"fileEmpty": "Ho sentim, el fitxer CSV est\u00e0 buit.",
+		"userIdNotFound": "l&#39;usuari existeix per\u00f2 l&#39;identificador est\u00e0 buit",
+		"errorLine": "l\u00ednia {{1}}",
+		"fieldNotFound": "No s&#39;ha trobat el camp obligatori &quot;{{1}}&quot;.",
+		"taskStreamInvalid": "El flux de tasques no \u00e9s v\u00e0lid",
+		"instructionsEmpty": "instruccions del flux de tasques buides",
+		"complete": "Completa",
+		"activateUsers": "enviar missatges d&#39;activaci\u00f3 als usuaris?",
+		"importProgress": "Progr\u00e9s, progressar",
+		"joinEventLabel": "Uniu els usuaris a un esdeveniment aleatori",
+		"importOptions": "Opcions",
+		"sampleCSV": "Baixeu CSV de mostra",
+		"fileLabel": "Carregueu el full de c\u00e0lcul:",
+		"errorsTitle": "S&#39;han produ\u00eft errors",
+		"communityUsers": "Aquesta \u00e9s la llista de comunitats",
+		"setAsConversation": "Columna d&#39;URL com a conversa",
+		"toMainCommunityToo": "afegir usuaris a la comunitat principal tamb\u00e9",
+		"willImportedTo": "Els usuaris seran importats a la comunitat",
+		"ChooseFile": "Trieu l&#39;arxiu"
+	},
+	"dashboard": {
+		"Menu": "Men\u00fa",
+		"Home": "Casa",
+		"Welcome": "Benvingut",
+		"Events": "Esdeveniments",
+		"Discuss": "Discutiu",
+		"People": "Gent",
+		"About": "Sobre",
+		"Community": "Comunitat",
+		"LogIn": "iniciar Sessi\u00f3",
+		"LogOut": "tancar sessi\u00f3",
+		"Intercoin": "Intercoin",
+		"Shows": "Espectacles",
+		"Calendar": "Calendari",
+		"Me": "jo",
+		"Media": "Mitjans de comunicaci\u00f3",
+		"Services": "Serveis",
+		"SetMobileNumber": "Estableix el n\u00famero de m\u00f2bil",
+		"SetEmailAddress": "Estableix l&#39;adre\u00e7a de correu electr\u00f2nic"
+	},
+	"services": {
+		"Title": "Serveis",
+		"filterByTitle": "Cerca serveis per t\u00edtol",
+		"New": "+ Inicia un servei nou",
+		"NewService": "Nou Servei",
+		"filterServices": "Serveis de filtraci\u00f3",
+		"NoneYet": "Encara no s&#39;ha format cap servei<br> durant aquests temps.",
+		"AllAuthors": "Tots els autors",
+		"AllDays": "Tots els dies",
+		"AllLocations": "Totes les Ubicacions",
+		"MakeReservation": "Fes la reserva",
+		"CancelReservation": "Cancel\u00b7la la reserva",
+		"UpdateReservation": "Actualitzar la reserva",
+		"AreYouSure": "Est\u00e0s segur?",
+		"YouWillRefunded": "Se us reemborsar\u00e0 en forma de cr\u00e8dits que podeu gastar en altres coses a l&#39;aplicaci\u00f3.",
+		"AllInterests": "Tots els interessos",
+		"FilterbyInterest": "Filtra per interessos",
+		"FilterByDate": "Filtra per data",
+		"ShowActivities": "Mostra activitats relacionades amb...",
+		"newServices": "Tens {{1}} serveis nous",
+		"SelectLocation": "Seleccioneu Ubicaci\u00f3",
+		"FilterLocationsPlaceHolder": "Filtra els llocs amb...",
+		"Description": "{{1}} servei",
+		"Keywords": "{{1}} servei",
+		"NewAvailability": "Nova Disponibilitat"
+	},
+	"welcome": {
+		"Title": "{{appName}}: benvingut",
+		"GetStarted": "Comen\u00e7ar",
+		"gallery": {
+			"Connect": "Connecta&#39;t",
+			"Organize": "Organitzar",
+			"Travel": "Viatjar",
+			"Share": "Compartir"
+		}
+	}
 }

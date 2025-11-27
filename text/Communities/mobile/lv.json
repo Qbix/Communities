@@ -1,24 +1,24 @@
 {
-    "activation": {
-        "Thanks": "Laipni lūdzam pakalpojumā {{1}}.",
-        "ClickHere": "Noklikšķiniet šeit, lai aktivizētu savu kontu: {{1}}"
-    },
-    "addMobile": {
-        "ClickHere": "Noklikšķiniet šeit, lai verificētu savu mobilā tālruņa numuru: {{1}}"
-    },
-    "SeeHistory": "Skatīt maksājumu vēsturi par {{1}}",
-    "charge": {
-        "HasBeenCharged": "{{4}} no {{1}} ir iekasējusi maksu {{2}} par {{3}}"
-    },
-    "charged": {
-        "HavePaid": "Sveiki, {{1}}! Šis ir tikai īss apstiprinājums, ka esat veiksmīgi samaksājis {{2}} adresātam {{3}} par {{4}}"
-    },
-    "subscription": {
-        "YouHaveStarted": "Jūs esat abonējis {{2}} ar {{3}} {{4}} uz {{5}} mēnešiem.",
-        "HasStarted": "{{1}} ir abonējis {{2}} ar {{3}} {{4}} uz {{5}} mēnešiem."
-    },
-    "resend": {
-        "DidYouWant": "Vai vēlējāties atiestatīt ieejas frāzi šādā valodā: {{1}}?",
-        "ClickHere": "Pēc tam noklikšķiniet šeit: {{1}}"
-    }
+	"activation": {
+		"Thanks": "Laipni l\u016bdzam pakalpojum\u0101 {{1}}.",
+		"ClickHere": "Noklik\u0161\u0137iniet \u0161eit, lai aktiviz\u0113tu savu kontu: {{1}}"
+	},
+	"addMobile": {
+		"ClickHere": "Noklik\u0161\u0137iniet \u0161eit, lai verific\u0113tu savu mobil\u0101 t\u0101lru\u0146a numuru: {{1}}"
+	},
+	"SeeHistory": "Skat\u012bt maks\u0101jumu v\u0113sturi par {{1}}",
+	"charge": {
+		"HasBeenCharged": "{{4}} no {{1}} ir iekas\u0113jusi maksu {{2}} par {{3}}"
+	},
+	"charged": {
+		"HavePaid": "Sveiki, {{1}}! \u0160is ir tikai \u012bss apstiprin\u0101jums, ka esat veiksm\u012bgi samaks\u0101jis {{2}} adres\u0101tam {{3}} par {{4}}"
+	},
+	"subscription": {
+		"YouHaveStarted": "J\u016bs esat abon\u0113jis {{2}} ar {{3}} {{4}} uz {{5}} m\u0113ne\u0161iem.",
+		"HasStarted": "{{1}} ir abon\u0113jis {{2}} ar {{3}} {{4}} uz {{5}} m\u0113ne\u0161iem."
+	},
+	"resend": {
+		"DidYouWant": "Vai v\u0113l\u0113j\u0101ties atiestat\u012bt ieejas fr\u0101zi \u0161\u0101d\u0101 valod\u0101: {{1}}?",
+		"ClickHere": "P\u0113c tam noklik\u0161\u0137iniet \u0161eit: {{1}}"
+	}
 }

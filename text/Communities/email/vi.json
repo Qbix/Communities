@@ -1,33 +1,33 @@
 {
-    "activation": {
-        "Thanks": "Chào mừng đến với {{1}}",
-        "ReallyYourEmail": "Đây có thực sự là địa chỉ email của bạn không, {{1}}? Nếu vậy, hãy nhấp vào <a href='{{2}}'>đây<\/a> để đặt cụm mật khẩu và kích hoạt tài khoản của bạn.",
-        "SeeYou": "Hẹn gặp lại bạn trên <a href='{{1}}'>{{2}}<\/a> !",
-        "Subject": "Chào mừng! Vui lòng xác nhận địa chỉ email."
-    },
-    "LinkToUnsubscribe": "Đây là một liên kết để <a href='{{1}}'>hủy đăng ký<\/a> nếu bạn không muốn nhận thêm bất kỳ email nào.",
-    "Greetings": "Lời chào từ {{1}}.",
-    "SeeHistory": "Xem lịch sử thanh toán cho {{1}}",
-    "charge": {
-        "HasBeenCharged": "Này, thông báo này chỉ để cho bạn biết {{1}} đã bị {{2}} tính phí {{3}} bởi {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Xin chào {{1}}, đây chỉ là một xác nhận nhanh rằng bạn đã thanh toán thành công {{2}} cho {{3}} cho {{4}}"
-    },
-    "resend": {
-        "Thanks": "Cảm ơn bạn đã ghé thăm {{1}}",
-        "YouAreReceiving": "Bạn nhận được email này vì ai đó đã nhập địa chỉ email của bạn và nhấp vào &quot;quên cụm mật khẩu&quot;. Nếu đó không phải là bạn, chỉ cần bỏ qua thông báo này.",
-        "Reset": "Để đặt lại cụm mật khẩu của bạn, hãy nhấp vào {{1}}",
-        "SetUpPassphrase": "Thiết lập cụm mật khẩu",
-        "DomainCode": "Nếu trang web đã được mở trong trình duyệt của bạn, bạn có thể nhập mã @ {{domain}} # {{code}}",
-        "Subject": "Này, bạn quên mật khẩu của mình à?"
-    },
-    "subscription": {
-        "YouHaveStarted": "Xin chào {{1}}, bạn đã bắt đầu đăng ký {{2}} với {{3}} với giá {{4}} trong {{5}} tháng.",
-        "HasStarted": "Điều này chỉ để cho bạn biết {{1}}, đã bắt đầu đăng ký {{2}} với {{3}} lúc {{4}} trong {{5}} tháng."
-    },
-    "SeeYou": "Hẹn gặp lại bạn trên {{1}}!",
-    "identifier": {
-        "Subject": "Chào mừng! Xác minh địa chỉ email của bạn."
-    }
+	"activation": {
+		"Thanks": "Ch\u00e0o m\u1eebng \u0111\u1ebfn v\u1edbi {{1}}",
+		"ReallyYourEmail": "\u0110\u00e2y c\u00f3 th\u1ef1c s\u1ef1 l\u00e0 \u0111\u1ecba ch\u1ec9 email c\u1ee7a b\u1ea1n kh\u00f4ng, {{1}}? N\u1ebfu v\u1eady, h\u00e3y nh\u1ea5p v\u00e0o <a href='{{2}}'>\u0111\u00e2y</a> \u0111\u1ec3 \u0111\u1eb7t c\u1ee5m m\u1eadt kh\u1ea9u v\u00e0 k\u00edch ho\u1ea1t t\u00e0i kho\u1ea3n c\u1ee7a b\u1ea1n.",
+		"SeeYou": "H\u1eb9n g\u1eb7p l\u1ea1i b\u1ea1n tr\u00ean <a href='{{1}}'>{{2}}</a> !",
+		"Subject": "Ch\u00e0o m\u1eebng! Vui l\u00f2ng x\u00e1c nh\u1eadn \u0111\u1ecba ch\u1ec9 email."
+	},
+	"LinkToUnsubscribe": "\u0110\u00e2y l\u00e0 m\u1ed9t li\u00ean k\u1ebft \u0111\u1ec3 <a href='{{1}}'>h\u1ee7y \u0111\u0103ng k\u00fd</a> n\u1ebfu b\u1ea1n kh\u00f4ng mu\u1ed1n nh\u1eadn th\u00eam b\u1ea5t k\u1ef3 email n\u00e0o.",
+	"Greetings": "L\u1eddi ch\u00e0o t\u1eeb {{1}}.",
+	"SeeHistory": "Xem l\u1ecbch s\u1eed thanh to\u00e1n cho {{1}}",
+	"charge": {
+		"HasBeenCharged": "N\u00e0y, th\u00f4ng b\u00e1o n\u00e0y ch\u1ec9 \u0111\u1ec3 cho b\u1ea1n bi\u1ebft {{1}} \u0111\u00e3 b\u1ecb {{2}} t\u00ednh ph\u00ed {{3}} b\u1edfi {{4}}"
+	},
+	"charged": {
+		"HavePaid": "Xin ch\u00e0o {{1}}, \u0111\u00e2y ch\u1ec9 l\u00e0 m\u1ed9t x\u00e1c nh\u1eadn nhanh r\u1eb1ng b\u1ea1n \u0111\u00e3 thanh to\u00e1n th\u00e0nh c\u00f4ng {{2}} cho {{3}} cho {{4}}"
+	},
+	"resend": {
+		"Thanks": "C\u1ea3m \u01a1n b\u1ea1n \u0111\u00e3 gh\u00e9 th\u0103m {{1}}",
+		"YouAreReceiving": "B\u1ea1n nh\u1eadn \u0111\u01b0\u1ee3c email n\u00e0y v\u00ec ai \u0111\u00f3 \u0111\u00e3 nh\u1eadp \u0111\u1ecba ch\u1ec9 email c\u1ee7a b\u1ea1n v\u00e0 nh\u1ea5p v\u00e0o &quot;qu\u00ean c\u1ee5m m\u1eadt kh\u1ea9u&quot;. N\u1ebfu \u0111\u00f3 kh\u00f4ng ph\u1ea3i l\u00e0 b\u1ea1n, ch\u1ec9 c\u1ea7n b\u1ecf qua th\u00f4ng b\u00e1o n\u00e0y.",
+		"Reset": "\u0110\u1ec3 \u0111\u1eb7t l\u1ea1i c\u1ee5m m\u1eadt kh\u1ea9u c\u1ee7a b\u1ea1n, h\u00e3y nh\u1ea5p v\u00e0o {{1}}",
+		"SetUpPassphrase": "Thi\u1ebft l\u1eadp c\u1ee5m m\u1eadt kh\u1ea9u",
+		"DomainCode": "N\u1ebfu trang web \u0111\u00e3 \u0111\u01b0\u1ee3c m\u1edf trong tr\u00ecnh duy\u1ec7t c\u1ee7a b\u1ea1n, b\u1ea1n c\u00f3 th\u1ec3 nh\u1eadp m\u00e3 @ {{domain}} # {{code}}",
+		"Subject": "N\u00e0y, b\u1ea1n qu\u00ean m\u1eadt kh\u1ea9u c\u1ee7a m\u00ecnh \u00e0?"
+	},
+	"subscription": {
+		"YouHaveStarted": "Xin ch\u00e0o {{1}}, b\u1ea1n \u0111\u00e3 b\u1eaft \u0111\u1ea7u \u0111\u0103ng k\u00fd {{2}} v\u1edbi {{3}} v\u1edbi gi\u00e1 {{4}} trong {{5}} th\u00e1ng.",
+		"HasStarted": "\u0110i\u1ec1u n\u00e0y ch\u1ec9 \u0111\u1ec3 cho b\u1ea1n bi\u1ebft {{1}}, \u0111\u00e3 b\u1eaft \u0111\u1ea7u \u0111\u0103ng k\u00fd {{2}} v\u1edbi {{3}} l\u00fac {{4}} trong {{5}} th\u00e1ng."
+	},
+	"SeeYou": "H\u1eb9n g\u1eb7p l\u1ea1i b\u1ea1n tr\u00ean {{1}}!",
+	"identifier": {
+		"Subject": "Ch\u00e0o m\u1eebng! X\u00e1c minh \u0111\u1ecba ch\u1ec9 email c\u1ee7a b\u1ea1n."
+	}
 }

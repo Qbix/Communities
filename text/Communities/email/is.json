@@ -1,33 +1,33 @@
 {
-    "activation": {
-        "Thanks": "Velkomin í {{1}}",
-        "ReallyYourEmail": "Er þetta virkilega netfangið þitt, {{1}}? Ef svo er, smelltu <a href='{{2}}'>hér<\/a> til að stilla lykilorðið þitt og virkja reikninginn þinn.",
-        "SeeYou": "Sjáumst á <a href='{{1}}'>{{2}}<\/a> !",
-        "Subject": "Velkominn! Vinsamlegast staðfestu netfangið þitt."
-    },
-    "LinkToUnsubscribe": "Hér er hlekkur til að segja upp <a href='{{1}}'>áskrift<\/a> ef þú vilt ekki fá fleiri tölvupósta.",
-    "Greetings": "Kveðja frá {{1}}.",
-    "SeeHistory": "Sjá greiðsluferil fyrir {{1}}",
-    "charge": {
-        "HasBeenCharged": "Hæ, þetta er bara til að láta þig vita að {{1}} hefur verið rukkað fyrir {{2}} fyrir {{3}} af {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Hæ {{1}}, þetta er bara fljótleg staðfesting á því að þú hafir greitt {{2}} til {{3}} fyrir {{4}}"
-    },
-    "resend": {
-        "Thanks": "Takk fyrir að heimsækja {{1}}",
-        "YouAreReceiving": "Þú færð þennan tölvupóst vegna þess að einhver sló inn netfangið þitt og smellti á „gleymdi aðgangsorð“. Ef það varst ekki þú skaltu einfaldlega hunsa þessi skilaboð.",
-        "Reset": "Til að endurstilla aðgangsorðið þitt skaltu smella á {{1}}",
-        "SetUpPassphrase": "Settu upp lykilorð",
-        "DomainCode": "Ef vefsíðan er þegar opin í vafranum þínum geturðu slegið inn kóðann",
-        "Subject": "Hæ, gleymdirðu lykilorðinu þínu?"
-    },
-    "subscription": {
-        "YouHaveStarted": "Hæ {{1}}, þú hefur hafið áskrift að {{2}} hjá {{3}} á {{4}} í {{5}} mánuði.",
-        "HasStarted": "Þetta er bara til að láta þig vita {{1}}, hefur hafið áskrift sína að {{2}} hjá {{3}} á {{4}} í {{5}} mánuði."
-    },
-    "SeeYou": "Sjáumst á {{1}}!",
-    "identifier": {
-        "Subject": "Velkominn! Staðfestu netfangið þitt."
-    }
+	"activation": {
+		"Thanks": "Velkomin \u00ed {{1}}",
+		"ReallyYourEmail": "Er \u00feetta virkilega netfangi\u00f0 \u00feitt, {{1}}? Ef svo er, smelltu <a href='{{2}}'>h\u00e9r</a> til a\u00f0 stilla lykilor\u00f0i\u00f0 \u00feitt og virkja reikninginn \u00feinn.",
+		"SeeYou": "Sj\u00e1umst \u00e1 <a href='{{1}}'>{{2}}</a> !",
+		"Subject": "Velkominn! Vinsamlegast sta\u00f0festu netfangi\u00f0 \u00feitt."
+	},
+	"LinkToUnsubscribe": "H\u00e9r er hlekkur til a\u00f0 segja upp <a href='{{1}}'>\u00e1skrift</a> ef \u00fe\u00fa vilt ekki f\u00e1 fleiri t\u00f6lvup\u00f3sta.",
+	"Greetings": "Kve\u00f0ja fr\u00e1 {{1}}.",
+	"SeeHistory": "Sj\u00e1 grei\u00f0sluferil fyrir {{1}}",
+	"charge": {
+		"HasBeenCharged": "H\u00e6, \u00feetta er bara til a\u00f0 l\u00e1ta \u00feig vita a\u00f0 {{1}} hefur veri\u00f0 rukka\u00f0 fyrir {{2}} fyrir {{3}} af {{4}}"
+	},
+	"charged": {
+		"HavePaid": "H\u00e6 {{1}}, \u00feetta er bara flj\u00f3tleg sta\u00f0festing \u00e1 \u00fev\u00ed a\u00f0 \u00fe\u00fa hafir greitt {{2}} til {{3}} fyrir {{4}}"
+	},
+	"resend": {
+		"Thanks": "Takk fyrir a\u00f0 heims\u00e6kja {{1}}",
+		"YouAreReceiving": "\u00de\u00fa f\u00e6r\u00f0 \u00feennan t\u00f6lvup\u00f3st vegna \u00feess a\u00f0 einhver sl\u00f3 inn netfangi\u00f0 \u00feitt og smellti \u00e1 \u201egleymdi a\u00f0gangsor\u00f0\u201c. Ef \u00fea\u00f0 varst ekki \u00fe\u00fa skaltu einfaldlega hunsa \u00feessi skilabo\u00f0.",
+		"Reset": "Til a\u00f0 endurstilla a\u00f0gangsor\u00f0i\u00f0 \u00feitt skaltu smella \u00e1 {{1}}",
+		"SetUpPassphrase": "Settu upp lykilor\u00f0",
+		"DomainCode": "Ef vefs\u00ed\u00f0an er \u00feegar opin \u00ed vafranum \u00fe\u00ednum getur\u00f0u slegi\u00f0 inn k\u00f3\u00f0ann",
+		"Subject": "H\u00e6, gleymdir\u00f0u lykilor\u00f0inu \u00fe\u00ednu?"
+	},
+	"subscription": {
+		"YouHaveStarted": "H\u00e6 {{1}}, \u00fe\u00fa hefur hafi\u00f0 \u00e1skrift a\u00f0 {{2}} hj\u00e1 {{3}} \u00e1 {{4}} \u00ed {{5}} m\u00e1nu\u00f0i.",
+		"HasStarted": "\u00deetta er bara til a\u00f0 l\u00e1ta \u00feig vita {{1}}, hefur hafi\u00f0 \u00e1skrift s\u00edna a\u00f0 {{2}} hj\u00e1 {{3}} \u00e1 {{4}} \u00ed {{5}} m\u00e1nu\u00f0i."
+	},
+	"SeeYou": "Sj\u00e1umst \u00e1 {{1}}!",
+	"identifier": {
+		"Subject": "Velkominn! Sta\u00f0festu netfangi\u00f0 \u00feitt."
+	}
 }
