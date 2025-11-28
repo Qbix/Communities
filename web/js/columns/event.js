@@ -229,6 +229,8 @@ Q.exports(function (options, index, div, data) {
 						if (success) {
 							$column.addClass('Communities_event_reserved');
 						}
+					}, {
+						title: $this.text().trim()
 					});
 				};
 
