@@ -1,4 +1,4 @@
-("use strict";
+"use strict";
 (function(Q, $, undefined) {
 	
 var Users = Q.Users;
