@@ -22,6 +22,7 @@ function Communities_event_response_content($params)
 				'scheduleSubTab' => (int)$stream->getAttribute('startTime') > time() ? 'future' : 'past'
 			));
 		} else { // if not participated, then just events column
+			$params['skipMetas'] = true;
 			Q::event('Communities/events/response/column', $params);
 		}
 	} else {

@@ -806,7 +806,8 @@ abstract class Communities
 	 *  Note that some relations might point to streams which the user doesn't
 	 *  have readAccess to see. Check relation->get('public')
 	 */
-	static function filterEvents($params = array(), &$streams = null) {
+	static function filterEvents($params = array(), &$streams = null)
+	{
 		$user = Users::loggedInUser();
 		$communityId = Q::ifset($params, 'communityId', Users::currentCommunityId(true));
 		$experienceId = Q::ifset($params, 'experienceId', Q::ifset($_REQUEST, 'experienceId', 'main'));
