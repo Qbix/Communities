@@ -12,7 +12,7 @@ function Communities_events_response_column(&$params, &$result)
 	list($fromTime, $toTime) = Communities::defaultEventTimes();
 
 	$allRelations = array();
-	$cids = Q_Config::get('Communities', 'events', 'featured', 'communityIds', array());
+	$cids = Q_Config::get('Communities', 'events', 'featured', 'publisherIds', array());
 	array_unshift($cids, $communityId);
 	$cids = array_unique($cids);
 	foreach ($cids as $cid) {
