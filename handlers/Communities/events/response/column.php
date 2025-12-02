@@ -12,12 +12,12 @@ function Communities_events_response_column(&$params, &$result)
 	list($fromTime, $toTime) = Communities::defaultEventTimes();
 
 	$allRelations = array();
-	$publisherIds = Q_Config::get('Communities', 'events', 'featured', 'publisherIds', array());
-	array_unshift($publisherIds, $currentCommunityId);
-	$publisherIds = array_unique($publisherIds);
-	foreach ($publisherIds as $publisherId) {
+	$cids = Q_Config::get('Communities', 'events', 'featured', 'publisherIds', array());
+	array_unshift($cids, $currentCommunityId);
+	$cids = array_unique($cids);
+	foreach ($cids as $communityId) {
 		$allRelations = array_merge($allRelations, Communities::filterEvents(@compact(
-			"experienceId", "fromTime", "toTime", "publisherId", "limit", "offset"
+			"experienceId", "fromTime", "toTime", "communityId", "limit", "offset"
 		)));
 	}
 	$relations = Streams_RelatedTo::filter($allRelations, array('readLevel' => 'content'));
@@ -79,7 +79,7 @@ function Communities_events_response_column(&$params, &$result)
 
 	if (empty($params['skipMetas'])) {
 		$communityName = Users::communityName();
-		$image = Q_Uri::interpolateUrl(Users_User::fetch(Users::communityId())->iconUrl(400));
+		$image = Q_Uri::interpolateUrl(Users_User::fetch($currentCommunityId)->iconUrl(400));
 		$description = Q::text($text['events']['Description'], array($communityName));
 		$keywords = Q::text($text['events']['Keywords'], array($communityName));
 		$image = Q_Html::themedUrl('img/icon/400.png');

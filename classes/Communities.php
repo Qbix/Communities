@@ -922,7 +922,7 @@ abstract class Communities
 	 * Select services appropriate only for current user (by location, by interest etc).
 	 * @method filterServices
 	 * @param {array} [$params] Different params
-	 * @param {string} [$params.publisherId]
+	 * @param {string} [$params.communityId]
 	 * @param {string} [$params.experienceId]
 	 * @param {string} [$params.interest]
 	 * @param {string} [$params.category]
@@ -938,7 +938,7 @@ abstract class Communities
 	 */
 	static function filterServices($params = array(), &$streams = null) {
 		$user = Users::loggedInUser();
-		$publisherId = Q::ifset($params, 'publisherId', Users::currentCommunityId(true));
+		$communityId = Q::ifset($params, 'communityId', Users::currentCommunityId(true));
 		$experienceId = Q::ifset($params, 'experienceId', Q::ifset($_REQUEST, 'experienceId', 'main'));
 
 		$relationType = 'Calendars/availability';
@@ -948,14 +948,14 @@ abstract class Communities
 		$orderBy = true;
 
 		$relations = Streams_RelatedTo::fetchAll(
-			$publisherId, array("Calendars/availabilities/".$experienceId),
+			$communityId, array("Calendars/availabilities/".$experienceId),
 			$relationType, @compact("orderBy", "limit", "offset")
 		);
 
 		// add events where logged user is a publisher
 		if ($user) {
 			$relations = array_merge($relations, Streams_RelatedTo::fetchAll(
-				$publisherId, array("Calendars/availabilities/".$experienceId), $relationType, array(
+				$communityId, array("Calendars/availabilities/".$experienceId), $relationType, array(
 					"where" => array("fromPublisherId" => $user->id),
 					"limit" => $limit,
 					"offset" => $offset
