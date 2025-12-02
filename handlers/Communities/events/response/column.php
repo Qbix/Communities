@@ -13,7 +13,7 @@ function Communities_events_response_column(&$params, &$result)
 
 	$allRelations = array();
 	$cids = Q_Config::get('Communities', 'events', 'featured', 'communityIds', array());
-	$cids = array_unshift($cids, $communityId);
+	array_unshift($cids, $communityId);
 	$cids = array_unique($cids);
 	foreach ($cids as $cid) {
 		$allRelations = array_merge($allRelations, Communities::filterEvents(@compact("experienceId", "fromTime", "toTime", "communityId", "limit", "offset")));
