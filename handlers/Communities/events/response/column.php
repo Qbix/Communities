@@ -7,16 +7,18 @@ function Communities_events_response_column(&$params, &$result)
 	$experienceId = Q::ifset($_REQUEST, 'experienceId', 'main');
 	$limit = Q::ifset($_REQUEST, 'limit', Q_Config::get('Communities', 'pageSizes', 'events', 100));
 	$offset = Q::ifset($_REQUEST, 'offset', 0);
-	$communityId = Users::currentCommunityId(true);
+	$currentCommunityId = Users::currentCommunityId(true);
 	$columnsStyle = Q_Config::get('Communities', 'layout', 'columns', 'style', 'classic');
 	list($fromTime, $toTime) = Communities::defaultEventTimes();
 
 	$allRelations = array();
-	$cids = Q_Config::get('Communities', 'events', 'featured', 'publisherIds', array());
-	array_unshift($cids, $communityId);
-	$cids = array_unique($cids);
-	foreach ($cids as $cid) {
-		$allRelations = array_merge($allRelations, Communities::filterEvents(@compact("experienceId", "fromTime", "toTime", "communityId", "limit", "offset")));
+	$publisherIds = Q_Config::get('Communities', 'events', 'featured', 'publisherIds', array());
+	array_unshift($publisherIds, $currentCommunityId);
+	$publisherIds = array_unique($publisherIds);
+	foreach ($publisherIds as $publisherId) {
+		$allRelations = array_merge($allRelations, Communities::filterEvents(@compact(
+			"experienceId", "fromTime", "toTime", "publisherId", "limit", "offset"
+		)));
 	}
 	$relations = Streams_RelatedTo::filter($allRelations, array('readLevel' => 'content'));
 
