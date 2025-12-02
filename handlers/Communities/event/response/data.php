@@ -22,7 +22,8 @@ function Communities_event_response_data($params) {
 			$columnClass[] = 'Communities_event_relatedParticipants';
 		}
 
-		if (Calendars_Event::getRsvp($stream) === 'yes') {
+        $rsvp = Calendars_Event::getRsvp($stream);
+		if ($rsvp === 'yes' || ($rsvp === 'maybe' && Q_Config::get('Calendars', 'event', 'mode', 'prepayment', false))) {
 			$columnClass[] = 'Communities_event_reserved';
 		}
 	}
