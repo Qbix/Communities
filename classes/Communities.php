@@ -113,7 +113,7 @@ abstract class Communities
 	 */
 	static function isAdmin ($userId = null, $communityId = null)
 	{
-		$communityId = $communityId ?: Users::communityId();
+		$communityId = $communityId ? $communityId : Users::communityId();
 		$admins = Q_Config::expect('Communities', 'community', 'admins');
 		return (bool)Users::roles($communityId, $admins, array(), $userId);
 	}
@@ -190,7 +190,8 @@ abstract class Communities
 				? $word
 				: Q_Utils::ucfirst(Q_Utils::normalize($word));
 		}
-		return implode('', $ucwords);
+		return $ucwords[0];
+		// return implode('', $ucwords);
 	}
 	/**
 	 * Create community as user
@@ -810,7 +811,7 @@ abstract class Communities
 		$communityId = Q::ifset($params, 'communityId', Users::currentCommunityId(true));
 		$experienceId = Q::ifset($params, 'experienceId', Q::ifset($_REQUEST, 'experienceId', 'main'));
 		$categoryStreamName = "Calendars/calendar/".$experienceId;
-		$categoryStream = Streams::fetchOne(null, $communityId, $categoryStreamName);
+		$categoryStream = Streams_Stream::fetchOrCreate(null, $communityId, $categoryStreamName);
 
 		$uri = Q_Dispatcher::uri();
 		$interest = Q::ifset($params, 'interest', Q::ifset($_REQUEST, 'interest', Q::ifset($uri, 'interest', null)));

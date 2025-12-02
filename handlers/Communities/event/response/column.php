@@ -28,7 +28,13 @@ function Communities_event_response_column($params)
 		'streamName' => $stream->name
 	));
 
+	$siteAdminRoles = array('Users/admins', 'Users/owners', 'Websites/admins');
+	$communityId = Users::communityId();
+
 	$column = Q::tool('Calendars/event', $params);
+	if (Users::roles($communityId, $siteAdminRoles)) {
+		$column .= Q::tool('Websites/metadata');
+	}
 
 	Q_Response::addScript('{{Communities}}/js/columns/events.js', "Communities");
 	Q_Response::addScript('{{Communities}}/js/columns/event.js', "Communities");
