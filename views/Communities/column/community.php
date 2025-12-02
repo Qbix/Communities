@@ -53,6 +53,5 @@
 			}
 			?>
 		</div>
-		blablablabla
 	</div>
 </div>
