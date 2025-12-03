@@ -176,6 +176,7 @@ html.Communities_onboarding #columns_slot .Q_column_0 .column_slot {
 }
 .Communities_onboarding #content_slot {
     background: url(../../../Q/img/bg/overlay-dark.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),  url(../../../Q/img/bg/overlay-dark.png);
     color: white;
     overflow-x: hidden;
     padding: 20px;
@@ -217,6 +218,8 @@ html.Communities_onboarding #columns_slot .Q_column_0 .column_slot {
     border: 1px dotted #eee;
     font-family: "Comic Sans MS", "ChalkboardSE-Regular", "Papyrus";
     font-size: 16px;
+    margin: 0 5%;
+    width: 90%;
 }
 .Communities_onboarding_profile_greeting textarea:active {
     background: white;
