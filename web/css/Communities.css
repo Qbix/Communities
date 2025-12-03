@@ -806,7 +806,7 @@ html .Q_columns_column.Communities_column_facebook input[name=query].Streams_use
 }
 html .Q_columns_column.Communities_column_facebook .Q_icons_slot {
 	position: absolute;
-	right: 0;
+	right: 5px;
 	top: 0;
 	white-space: nowrap;
 	display: inline-block;
