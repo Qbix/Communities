@@ -811,6 +811,11 @@ html .Q_columns_column.Communities_column_facebook .Q_icons_slot {
 	white-space: nowrap;
 	display: inline-block;
 	width: auto;
+	height: 100%;
+	padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
 }
 .Q_columns_column .Q_columns_title i.qp-communities-search {
 	font-size: 22px;

@@ -225,7 +225,11 @@ Q.exports(function (options, index, column, data) {
 			var section = $this.attr('data-val');
 			$('.Communities_profile_section', $parentBox).removeClass('Q_current');
 			var $currentSection = $('#Communities_profile_' + section, $parentBox).addClass('Q_current');
-			$this[0].scrollingParent().adjustScrolling();
+
+			var sp = $this[0].scrollingParent();
+			if (sp) {
+				sp.adjustScrolling();
+			}
 
 			// set current section heigh to make it scrollable
 			$currentSection.outerHeight(($controlsSlot.is(":visible") ? $controlsSlot.offset().top : $columnSlot.height()) - $currentSection.offset().top);
