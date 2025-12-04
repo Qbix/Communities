@@ -386,8 +386,8 @@ class Communities_Import
 			}
 
 			if (!empty($events)) {
-				// rsvp to random event
-				Calendars_Event::rsvp($events[array_rand($events)], $userId);
+				// have user go to a random event
+				Calendars_Event::going($events[array_rand($events)], $userId, 'yes');
 			}
 		}
 	}

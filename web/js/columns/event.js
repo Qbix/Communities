@@ -221,9 +221,9 @@ Q.exports(function (options, index, div, data) {
 
 			$('.Q_controls_slot button[name=reservation]', div).on(Q.Pointer.fastclick, function () {
 				var $this = $(this);
-				var _rsvp = function () {
+				var _going = function () {
 					$this.addClass("Q_working");
-					eventTool.rsvp('yes', function (success) {
+					eventTool.going('yes', function (success) {
 						$this.removeClass('Q_working');
 
 						if (success) {
@@ -234,12 +234,12 @@ Q.exports(function (options, index, div, data) {
 					});
 				};
 
-				// possible to declare custom handler which process something, than process _rsvp
+				// possible to declare custom handler which process something, than process __
 				var reservationPreprocess = Q.getObject('Q.Communities.event.reservationPreprocess');
 				if (Q.typeOf(reservationPreprocess) === 'function') {
-					Q.handle(reservationPreprocess, eventTool, [_rsvp]);
+					Q.handle(reservationPreprocess, eventTool, [_going]);
 				} else {
-					_rsvp();
+					_going();
 				}
 
 				return false;
@@ -256,7 +256,7 @@ Q.exports(function (options, index, div, data) {
 							return;
 						}
 
-						eventTool.rsvp('no', function (success) {
+						eventTool.going('no', function (success) {
 							$this.removeClass("Q_working");
 						});
 					}, {
