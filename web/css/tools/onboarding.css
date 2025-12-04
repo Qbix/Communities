@@ -215,6 +215,7 @@ html.Communities_onboarding #columns_slot .Q_column_0 .column_slot {
     max-height: 150px;
     text-align: center;
     background: rgba(255, 255, 255, 0.8);
+    color: black;
     border: 1px dotted #eee;
     font-family: "Comic Sans MS", "ChalkboardSE-Regular", "Papyrus";
     font-size: 16px;
