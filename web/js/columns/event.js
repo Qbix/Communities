@@ -260,7 +260,8 @@ Q.exports(function (options, index, div, data) {
 							$this.removeClass("Q_working");
 						});
 					}, {
-						title: text.events.AreYouSure
+						title: text.events.AreYouSure + ' '
+							+ text.events.YouWillRefunded
 					});
 				};
 
