@@ -1586,11 +1586,11 @@ html.Q_mobile #content {
 	padding-top: 10px;
 }
 
-.Q_notMobile .Q_columns_column.Q_column_streams_chat,
+/* .Q_notMobile .Q_columns_column.Q_column_streams_chat,
 .Q_notMobile .Q_columns_column.Communities_column_event,
 .Q_notMobile .Q_columns_column.Communities_column_chat {
 	width: 30%;
-}
+} */
 
 .Q_notMobile .Q_columns_column {
 	width: auto;
