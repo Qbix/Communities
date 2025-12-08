@@ -170,8 +170,8 @@ html #content_slot,
 	border: none;
 	border-radius: 7px;
 	box-shadow: 0 2px 5px rgba(0,0,0,.1), 0 0 2px rgba(0,0,0,.2);
-	background: var(--button-bg-color-secondary);
-	color: var(--button-text-color-secondary);
+	background: var(--calendars-button-bg-color, var(--button-bg-color-secondary));
+	color: var(--valendars-button-color, var(--button-text-color-secondary));
 }
 
 .Communities_counts {
