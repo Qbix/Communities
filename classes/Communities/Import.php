@@ -655,7 +655,7 @@ class Communities_Import
 							}
 							$parsedItem = array_map('trim', explode(":", $item));
 
-							if (!array_key_exists($parsedItem[0], $allInterests)) {
+							if (!array_key_exists($parsedItem[0], $allInterests) && !Q_Config::get('Communities', 'community', 'importUsers', 'allowAnyInterests', false)) {
 								//throw new Exception(Q::interpolate($texts['interestAbsent'], array($item)));
 								unset($value[$interestKey]);
 								continue;
@@ -674,8 +674,10 @@ class Communities_Import
 					} elseif ($field == 'conversation_url') {
 						$value = array_map('trim', preg_split("/\r\n|\n|\r/", trim($value)));
 					} elseif ($field == 'first_name') {
-						// concatenate first_name and last_name to full_name
-						$data['full_name'] = trim($value).' '.trim($line[$i+1]);
+                        // concatenate first_name and last_name to full_name
+                        $data['full_name'] = trim($value) . ' ' . trim($line[$i + 1]);
+                    } elseif ($field == 'photo_url') {
+                        $value = Q_Uri::interpolateUrl($value);
 					} else {
 						$value = trim(preg_replace("/[\n\r|\n|\r]/", " ", $value));
 
