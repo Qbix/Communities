@@ -222,7 +222,7 @@ class Communities_Import
 			return null;
 		}
 
-		$locationStream = Streams_Stream::fetch($user->id, $user->id, 'Places/user/location');
+        $locationStream = Streams_Stream::fetchOrCreate($user->id, $user->id, 'Places/user/location');
 		$locationStream->attributes = $globalLocationStream->attributes;
 		$locationStream->save();
 	}
@@ -676,9 +676,7 @@ class Communities_Import
 					} elseif ($field == 'first_name') {
                         // concatenate first_name and last_name to full_name
                         $data['full_name'] = trim($value) . ' ' . trim($line[$i + 1]);
-                    } elseif ($field == 'photo_url') {
-                        $value = Q_Uri::interpolateUrl($value);
-					} else {
+                    } else {
 						$value = trim(preg_replace("/[\n\r|\n|\r]/", " ", $value));
 
 						if ($field == 'email_address') {
