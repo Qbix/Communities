@@ -47,7 +47,7 @@ function Communities_conversations_response_column($params)
 	Q_Response::addTemplate('Communities/templates/newConversation', null, 'handlebars');
 
 	$description = Q::text($text['conversations']['Description'], array(Q::app()));
-	$keywords = $text['conversations']['Keywords'];
+	// $keywords = $text['conversations']['Keywords'];
 	$image = Q_Html::themedUrl('img/icon/400.png');
 	Q_Response::setCommonMetas(compact(
 		'title', 'description', 'keywords', 'image', 'url'

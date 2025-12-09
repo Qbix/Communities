@@ -46,8 +46,8 @@
 	--button-border-color: #002D72;
 	--button-shadow-color: #002D72;
 	--button-text-color: #fff;
-	--button-text-color-secondary: #030303;
-	--button-hover-bg-color: #e1e1e1;
+	--button-text-color-secondary: #ffffff;
+	--button-hover-bg-color: #777777;
 
 	--dialog-bg-color: #fff;
 	--dialog-color: #000;
@@ -171,7 +171,7 @@ html #content_slot,
 	border-radius: 7px;
 	box-shadow: 0 2px 5px rgba(0,0,0,.1), 0 0 2px rgba(0,0,0,.2);
 	background: var(--calendars-button-bg-color, var(--button-bg-color-secondary));
-	color: var(--valendars-button-color, var(--button-text-color-secondary));
+	color: var(--calendars-button-color, var(--button-text-color-secondary));
 }
 
 .Communities_counts {
