@@ -47,11 +47,11 @@ Q.exports(function (options, index, div, data) {
 		}, 'Communities/event/column');
 		eventTool.state.onGoing.set(function (g, stream) {
 			if (g === 'yes' || (g === 'maybe' && this.modePrepayment)) {
-				Calendars.Event.addToCalendar(publisherId, eventId);
+				// Calendars.Event.addToCalendar(publisherId, eventId);
 				Communities.hints('goingYes', [$column]);
 				$column.addClass('Communities_event_reserved');
 			} else {
-				Calendars.Event.removeFromCalendar(publisherId, eventId);
+				// Calendars.Event.removeFromCalendar(publisherId, eventId);
 				Communities.hints('goingNo', [$column]);
 				$column.removeClass('Communities_event_reserved');
 			}
