@@ -14,11 +14,7 @@ function Communities_trip_response_column($options = array()) {
 	$publisherId = Streams::requestedPublisherId();
 	$tripId = Q::ifset($options, 'tripId', Communities::requestedId($options, 'tripId'));
 	$streamName = "Travel/trip/$tripId";
-	$stream = Streams_Stream::fetch(null, $publisherId, $streamName, true, array(
-		// 'withMessageTotals' => array(
-		// 	$streamName => 'Calendars/going'
-		// )
-	));
+	$stream = Streams_Stream::fetch(null, $publisherId, $streamName, true);
 
 	Streams_Invite::possibleNotice($stream);
 
