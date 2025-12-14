@@ -82,9 +82,9 @@ Q.exports(function (options, index, div, data) {
 		state.onInvoke('registration').set(function (stream) {
 			Q.openUrl(stream.getAttribute("ticketsUrl"));
 		}, 'Communities/event/column');
-		state.onInvoke('livestream').set(function (stream) {
+		state.onInvoke('teleconference').set(function (stream) {
 			var eventTool = this;
-			var url = stream.getAttribute("livestream");
+			var url = stream.getAttribute("teleconference") || stream.getAttribute("livestream"); //"livestream" is for backward compatibility
 
 			// if not a valid URL - exit
 			if (!url.matchTypes('url').length) {
