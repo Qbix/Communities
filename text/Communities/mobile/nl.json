@@ -1,24 +1,24 @@
 {
-    "activation": {
-        "Thanks": "Welkom bij {{1}}.",
-        "ClickHere": "Klik hier om uw account te activeren: {{1}}"
-    },
-    "addMobile": {
-        "ClickHere": "Klik hier om uw mobiele nummer te verifiëren: {{1}}"
-    },
-    "SeeHistory": "Bekijk betalingsgeschiedenis voor {{1}}",
-    "charge": {
-        "HasBeenCharged": "{{1}} is {{2}} in rekening gebracht voor {{3}} door {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Hallo {{1}}, dit is slechts een snelle bevestiging dat u met succes {{2}} aan {{3}} heeft betaald voor {{4}}"
-    },
-    "subscription": {
-        "YouHaveStarted": "Je bent voor {{5}} maanden geabonneerd op {{2}} met {{3}} bij {{4}}.",
-        "HasStarted": "{{1}} is geabonneerd op {{2}} met {{3}} bij {{4}} voor {{5}} maanden."
-    },
-    "resend": {
-        "DidYouWant": "Wilt u uw wachtwoordzin opnieuw instellen in {{1}}?",
-        "ClickHere": "Klik dan hier: {{1}}"
-    }
+	"activation": {
+		"Thanks": "Welkom bij {{1}}.",
+		"ClickHere": "Klik hier om uw account te activeren: {{1}}"
+	},
+	"addMobile": {
+		"ClickHere": "Klik hier om uw mobiele nummer te verifi\u00ebren: {{1}}"
+	},
+	"SeeHistory": "Bekijk betalingsgeschiedenis voor {{1}}",
+	"charge": {
+		"HasBeenCharged": "{{1}} is {{2}} in rekening gebracht voor {{3}} door {{4}}"
+	},
+	"charged": {
+		"HavePaid": "Hallo {{1}}, dit is slechts een snelle bevestiging dat u met succes {{2}} aan {{3}} heeft betaald voor {{4}}"
+	},
+	"subscription": {
+		"YouHaveStarted": "Je bent voor {{5}} maanden geabonneerd op {{2}} met {{3}} bij {{4}}.",
+		"HasStarted": "{{1}} is geabonneerd op {{2}} met {{3}} bij {{4}} voor {{5}} maanden."
+	},
+	"resend": {
+		"DidYouWant": "Wilt u uw wachtwoordzin opnieuw instellen in {{1}}?",
+		"ClickHere": "Klik dan hier: {{1}}"
+	}
 }

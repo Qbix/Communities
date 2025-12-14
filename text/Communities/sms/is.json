@@ -1,24 +1,24 @@
 {
-    "activation": {
-        "Thanks": "Velkomin í {{1}}.",
-        "ClickHere": "Smelltu hér til að virkja reikninginn þinn: {{1}}"
-    },
-    "addMobile": {
-        "ClickHere": "Smelltu hér til að staðfesta farsímanúmerið þitt: {{1}}"
-    },
-    "SeeHistory": "Sjá greiðsluferil fyrir {{1}}",
-    "charge": {
-        "HasBeenCharged": "{{1}} hefur verið gjaldfært fyrir {{2}} fyrir {{3}} af {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Hæ {{1}}, þetta er bara fljótleg staðfesting á því að þú hafir greitt {{2}} til {{3}} fyrir {{4}}"
-    },
-    "subscription": {
-        "YouHaveStarted": "Þú hefur gerst áskrifandi að {{2}} með {{3}} á {{4}} í {{5}} mánuði.",
-        "HasStarted": "{{1}} hefur gerst áskrifandi að {{2}} með {{3}} á {{4}} í {{5}} mánuði."
-    },
-    "resend": {
-        "DidYouWant": "Vildirðu endurstilla aðgangsorðið þitt í {{1}}?",
-        "ClickHere": "Smelltu síðan hér: {{1}}"
-    }
+	"activation": {
+		"Thanks": "Velkomin \u00ed {{1}}.",
+		"ClickHere": "Smelltu h\u00e9r til a\u00f0 virkja reikninginn \u00feinn: {{1}}"
+	},
+	"addMobile": {
+		"ClickHere": "Smelltu h\u00e9r til a\u00f0 sta\u00f0festa fars\u00edman\u00fameri\u00f0 \u00feitt: {{1}}"
+	},
+	"SeeHistory": "Sj\u00e1 grei\u00f0sluferil fyrir {{1}}",
+	"charge": {
+		"HasBeenCharged": "{{1}} hefur veri\u00f0 gjaldf\u00e6rt fyrir {{2}} fyrir {{3}} af {{4}}"
+	},
+	"charged": {
+		"HavePaid": "H\u00e6 {{1}}, \u00feetta er bara flj\u00f3tleg sta\u00f0festing \u00e1 \u00fev\u00ed a\u00f0 \u00fe\u00fa hafir greitt {{2}} til {{3}} fyrir {{4}}"
+	},
+	"subscription": {
+		"YouHaveStarted": "\u00de\u00fa hefur gerst \u00e1skrifandi a\u00f0 {{2}} me\u00f0 {{3}} \u00e1 {{4}} \u00ed {{5}} m\u00e1nu\u00f0i.",
+		"HasStarted": "{{1}} hefur gerst \u00e1skrifandi a\u00f0 {{2}} me\u00f0 {{3}} \u00e1 {{4}} \u00ed {{5}} m\u00e1nu\u00f0i."
+	},
+	"resend": {
+		"DidYouWant": "Vildir\u00f0u endurstilla a\u00f0gangsor\u00f0i\u00f0 \u00feitt \u00ed {{1}}?",
+		"ClickHere": "Smelltu s\u00ed\u00f0an h\u00e9r: {{1}}"
+	}
 }

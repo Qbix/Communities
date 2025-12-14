@@ -31,6 +31,15 @@
 						</td>
 					</tr>
 				{{/if}}
+				{{#if discount}}
+				<tr class="Streams_complete_discount">
+					<td colspan="2">
+						<div class="Streams_invited_discount">
+							{{discount.description}}
+						</div>
+					</td>
+				</tr>
+				{{/if}}
 			</table>
 			<input type="hidden" name="token" value="{{token}}"/>
 			<input type="hidden" name="Q.method" value="get"/>

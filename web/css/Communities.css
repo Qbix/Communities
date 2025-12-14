@@ -39,15 +39,15 @@
 	--dashboard-icon-size-withtitles-contextual: 24px;
 
 	--button-bg-color: #002D72;
-	--button-bg-color-secondary: #fff;
 	--button-bg-color-to: #1a3d73;
 	--button-bg-color-active: #1a3d73;
+	--button-bg-color-secondary: #fff;
 	--button-border-radius: 10px;
 	--button-border-color: #002D72;
 	--button-shadow-color: #002D72;
 	--button-text-color: #fff;
-	--button-text-color-secondary: #030303;
-	--button-hover-bg-color: #e1e1e1;
+	--button-text-color-secondary: #ffffff;
+	--button-hover-bg-color: #777777;
 
 	--dialog-bg-color: #fff;
 	--dialog-color: #000;
@@ -170,8 +170,8 @@ html #content_slot,
 	border: none;
 	border-radius: 7px;
 	box-shadow: 0 2px 5px rgba(0,0,0,.1), 0 0 2px rgba(0,0,0,.2);
-	background: var(--button-bg-color-secondary);
-	color: var(--button-text-color-secondary);
+	background: var(--calendars-button-bg-color, var(--button-bg-color-secondary));
+	color: var(--calendars-button-color, var(--button-text-color-secondary));
 }
 
 .Communities_counts {
@@ -806,11 +806,16 @@ html .Q_columns_column.Communities_column_facebook input[name=query].Streams_use
 }
 html .Q_columns_column.Communities_column_facebook .Q_icons_slot {
 	position: absolute;
-	right: 0;
+	right: 5px;
 	top: 0;
 	white-space: nowrap;
 	display: inline-block;
 	width: auto;
+	height: 100%;
+	padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
 }
 .Q_columns_column .Q_columns_title i.qp-communities-search {
 	font-size: 22px;
@@ -911,6 +916,7 @@ input.Communities_filter_publishers_input::placeholder {
 }
 .Places_location_tool .Places_location_preview_tool:hover {
 	background-color: #f2f3ff;
+	color: black;
 }
 .Places_location_preview_tool .Places_location_preview_contents {
 	width: calc(100% - 45px);
@@ -1530,7 +1536,8 @@ html.Q_mobile #content {
 	width: 100%;
 }
 .Q_notMobile .Communities_buttons .Q_button {
-	min-width: 300px;
+	min-width: min(100%, 300px);
+	max-width: 100%;
 }
 
 .Communities_avatar_section {
@@ -1579,11 +1586,11 @@ html.Q_mobile #content {
 	padding-top: 10px;
 }
 
-.Q_notMobile .Q_columns_column.Q_column_streams_chat,
+/* .Q_notMobile .Q_columns_column.Q_column_streams_chat,
 .Q_notMobile .Q_columns_column.Communities_column_event,
 .Q_notMobile .Q_columns_column.Communities_column_chat {
 	width: 30%;
-}
+} */
 
 .Q_notMobile .Q_columns_column {
 	width: auto;
@@ -1605,6 +1612,11 @@ html.Q_mobile #content {
 	line-height: 34px;
 	font-size: 27px;
 	content: "\e947";
+}
+
+.Communities_invite {
+	max-width: 100%;
+	box-sizing: border-box;
 }
 
 

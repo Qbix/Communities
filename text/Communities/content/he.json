@@ -1,460 +1,460 @@
 {
-    "notFound": {
-        "Explanation": "<span class='url'>{{1}}<\/span> לא מצביע על שום דבר!",
-        "NextSteps": "השתמש בתפריט הראשי כדי למצוא את מה שאתה מחפש."
-    },
-    "greeting": {
-        "Welcome": "ברוכים הבאים אל {{1}}. כאן תוכלו למצוא דברים עבור חברי הקהילה שלנו. הוסף את כתובת האימייל או את מספר הטלפון הנייד שלך כדי לקבל התראות כאשר פורסמו הודעות."
-    },
-    "conversations": {
-        "New": "שיחה חדשה",
-        "Conversation": "שיחה",
-        "Topics": "נושאים",
-        "NoneYet": "עדיין לא נוצרו שיחות",
-        "newConversations": "{{1}} שיחות חדשות",
-        "AllAuthors": "כל הכותבים",
-        "FilterbyAuthors": "סנן לפי מחברים",
-        "FilterAuthorPlaceHolder": "חפש מחברים נוספים ...",
-        "Title": "שיחות",
-        "Description": "{{1}} שיחות",
-        "filterConversations": "סנן לפי טקסט"
-    },
-    "newConversation": {
-        "composer": {
-            "ChooseActivity": "בחר נושא",
-            "Share": "שתף",
-            "interest": {
-                "Title": "בחר פעילות",
-                "Filter": "חפש תחומי עניין ..."
-            }
-        },
-        "Title": "שיחה חדשה",
-        "TitlePlaceholder": "נושא השיחה שלך",
-        "ContentPlaceholder": "כתוב כמה מילים כדי להתחיל את השיחה, כך שאחרים יכולים להשיב",
-        "StartButton": "התחל שיחה"
-    },
-    "events": {
-        "Title": "אירועים",
-        "filterByTitle": "מצא אירועים לפי כותרת",
-        "New": "+ התחל אירוע חדש",
-        "SetLocation": "הגדר את המיקום שלי",
-        "NoneYet": "עדיין לא נוצרו אירועים <br> בזמנים אלה.",
-        "AllDays": "כל הימים",
-        "AllLocations": "כל המיקומים",
-        "AllInterests": "Readers",
-        "FilterbyInterest": "סנן לפי עניין",
-        "FilterByDate": "סנן לפי תאריך",
-        "ShowActivities": "הצג פעילויות הקשורות ל. . .",
-        "newEvents": "יש לך {{1}} אירועים חדשים",
-        "SelectLocation": "תבחר מיקום",
-        "FilterLocationsPlaceHolder": "סנן מקומות עם ...",
-        "AllAuthors": "כל הכותבים",
-        "filterEvents": "סנן אירועים",
-        "NewEvent": "אירוע חדש",
-        "Description": "{{1}} אירועים",
-        "Keywords": "{{1}} אירועים",
-        "MakeReservation": "לבצע הזמנה",
-        "Reserved": "ביטול הזמנה",
-        "AreYouSure": "האם אתה בטוח?",
-        "YouWillRefunded": "אתה תקבל החזר בצורה של קרדיטים שתוכל להוציא על דברים אחרים באפליקציה.",
-        "CancelReservation": "ביטול הזמנה",
-        "UpdateReservation": "עדכון ההזמנה"
-    },
-    "schedule": {
-        "Title": "לוח זמנים",
-        "NoneYet": "אתה לא משתתף באירועים כלשהם",
-        "AddSome": "הוסף קצת ללוח הזמנים שלך!",
-        "AddMore": "הוסף אירועים ללוח הזמנים שלך!",
-        "future": "עתיד",
-        "past": "עבר"
-    },
-    "location": {
-        "Title": "מקום",
-        "NewLocation": "מיקום חדש"
-    },
-    "inbox": {
-        "Title": "תיבת הדואר הנכנס",
-        "NoneYet": "אתה לא משתתף בשיחות כלשהן",
-        "FindPeople": "מצא אנשים לדבר איתם",
-        "GroupConversations": "הצטרף לשיחות קבוצתיות",
-        "ContactStaff": "צור קשר עם צוות העובדים",
-        "ContactCustomers": "צרו קשר עם לקוחות",
-        "AddNewContact": "הוסף איש קשר חדש",
-        "AddNewContacts": "הוסף אנשי קשר חדשים"
-    },
-    "me": {
-        "Title": "אני",
-        "MobileNumber": "מספר טלפון נייד",
-        "EmailAddress": "כתובת דוא&quot;ל",
-        "UpdateSocialTitle": "עדכן את שם המשתמש {{1}}",
-        "Web3": "אינטרנט 3"
-    },
-    "people": {
-        "Title": "אנשים",
-        "AppAlert": "האפליקציה הזו בחנות האפליקציות תאפשר לך להתחבר לחברים שלך, ועוד הרבה יותר.",
-        "Invite": "להזמין חברים",
-        "FindSomeoneByName": "מצא מישהו לפי שם",
-        "FindAllMyFriends": "מצא את כל החברים שלי",
-        "labels": {
-            "All": "כל אחד",
-            "Title": "סינון לפי מערכת יחסים",
-            "New": "סוג הקשר החדש"
-        },
-        "interests": {
-            "All": "Readers",
-            "Title": "סנן לפי עניין",
-            "Filter": "הצג אנשים שמעוניינים בכך. . ."
-        },
-        "SearchByName": "חפש לפי שם",
-        "Description": "{{1}} משתתפים",
-        "Keywords": "{{1}} קהילת אנשים",
-        "BuyCredits": "קנה קרדיטים"
-    },
-    "communities": {
-        "Title": "בחר קהילה",
-        "NewCommunity": "קהילה חדשה",
-        "FindCommunityByName": "מצא קהילה לפי שם",
-        "Description": "{{1}} קהילות"
-    },
-    "community": {
-        "Title": "קהילה",
-        "Roles": "תפקידים",
-        "AllRoles": "כל התפקידים",
-        "YouDontHavePermission": "אינך מורשה לעשות זאת",
-        "usernamePlaceholder": "הגדר שם קהילה",
-        "NotEnoughCredits": "אין לך מספיק זיכויים כדי ליצור קהילה. צריך {{1}}, יש לך {{2}}"
-    },
-    "event": {
-        "GetDirections": "לקבל הוראות",
-        "WhichMap": "באילו מפות תרצה להשתמש?",
-        "JoinEventToChat": "הצטרף לאירוע כדי לשוחח בצ&#39;אט",
-        "promote": {
-            "Title": "קדם את האירוע הזה",
-            "Prompt": "בחר היכן ברצונך לקדם את האירוע:"
-        },
-        "Confirmation": "אישור"
-    },
-    "newEvent": {
-        "Title": "תכנית חדשה"
-    },
-    "interests": {
-        "Title": "Readers",
-        "prompt": "בחר את סוגי הדברים שתרצה לדעת עליהם.",
-        "explanation": "ככל שתבחר יותר תחומי עניין, כך גדל הסיכוי שתקשר עם אנשים בעלי דעות דומות.",
-        "filter": "במה אתה מתעניין?",
-        "Profile": "האינטרסים ההדדיים מודגשים. אם יש לך גם אחד מהאינטרסים הבאים או יותר, תוכל {{clickOrTap}} להוסיף אותם."
-    },
-    "credits": {
-        "Title": "נקודות זכות",
-        "EarnCredits": "קבל {{1}} זיכויים עבור כל אדם חדש שתזמין שמצטרף לאפליקציה",
-        "YouHave": "יש לך {{1}} זיכויים"
-    },
-    "onboarding": {
-        "Tap": "הקש על",
-        "Click": "לחץ על",
-        "Yes": "כן",
-        "No": "לא",
-        "name": {
-            "Preface": "ברוך הבא ל",
-            "Placeholder": "הכנס את שמך המלא",
-            "GetStarted": "להתחיל",
-            "AsGuest": "הוזמנת כאורחת.",
-            "AsMember": "הוזמנת כחבר.",
-            "AsAdmin": "הוזמנת כמנהל מערכת.",
-            "AsOwner": "הוזמנת כבעלים.",
-            "TooShort": "השם המלא שלך לא יכול להיות קצר כל כך",
-            "SetAsYourFullName": "הגדר את {{1}} בשם המלא שלך?"
-        },
-        "icon": {
-            "KeepDefault": "או לשמור תמונה ברירת מחדל",
-            "SetYourPhoto": "{{ClickOrTap}} כדי להגדיר את התמונה שלך:",
-            "ClickOnYourFace": "{{ClickOrTap}} על הפנים שלך"
-        },
-        "interests": {
-            "GetStarted": "התחל",
-            "NextCategory": "↓ הבא",
-            "Continue": "המשך",
-            "Instructions": "בכל אחת מהקטגוריות הבאות {{1}}, {{2}} כל הפעילויות שמעניינות אותך. <br> כך אתה מתחבר עם אנשים אחרים בקהילה."
-        },
-        "profile": {
-            "Profile": "הפרופיל שלך עוזר לאנשים לגלות מידע נוסף עליך. <br>",
-            "Birthday": "הזן את תאריך הלידה שלך:",
-            "Placeholder": "מי אתה ומה אתה עושה? ספר לאנשים משהו מעניין או ייחודי על עצמך.",
-            "Month": "חודש",
-            "Day": "יום",
-            "Year": "שנה",
-            "Gender": "מין",
-            "Male": "זכר",
-            "Female": "נקבה",
-            "Other": "אחר",
-            "Height": "גובה",
-            "Affiliation": "השתייכות",
-            "Dating": "הכרויות",
-            "Interested": "מעוניין",
-            "NotInterested": "לא מעוניין",
-            "MatchmakerOnly": "שדכנית בלבד",
-            "Required": "כדי להמשיך, כתוב לפחות כמה שורות על עצמך."
-        },
-        "location": {
-            "NoOneElse": "אף אחד אחר לא יראה את זה.",
-            "SetMyLocation": "הגדר את המיקום שלי"
-        },
-        "pile": {
-            "DialogTitle": "יכול להצטרף אליך"
-        },
-        "Done": "בוצע",
-        "Skip": "או לדלג על זה",
-        "relationships": {
-            "title": "הוסף את {{userName}} לספר הטלפונים",
-            "welcome": "ברוך הבא {{user}}",
-            "invitedByUser": "הזמין אותך.",
-            "addToPhonebook": "שמור באנשי הקשר של הטלפון שלי",
-            "iosInstructions": "גלול מטה להוספת איש קשר חדש",
-            "androidInstructions": "עליך לפתוח קובץ vCard זה לאחר הורדתו.",
-            "explanation": "מה הקשר שלכם?"
-        },
-        "Title": "מידע בסיסי",
-        "Prompt": "כמה שלבים להגדרת החשבון שלך"
-    },
-    "profile": {
-        "Title": "פרופיל",
-        "Male": "זכר",
-        "Female": "נקבה",
-        "Other": "אחר",
-        "dating": {
-            "Interested": "מעוניין",
-            "NotInterested": "לא מעוניין",
-            "MatchmakerOnly": "שדכנית בלבד"
-        },
-        "StartConversation": "התחל שיחה",
-        "blockUser": "חסום משתמש זה",
-        "blockUserAlert": "לא תראה עוד הודעות ממשתמש זה עד שתבטל את החסימה.",
-        "unblockUser": "בטל חסימה של משתמש זה",
-        "addToContacts": "להוסיף לאנשי קשר",
-        "manageLabels": "ניהול תוויות",
-        "inviteUsers": "הזמן משתמשים",
-        "inviteSuccess": "המשתמש הוזמן בהצלחה כ- {{label}}",
-        "invite": "להזמין",
-        "relationships": "יחסים",
-        "newRole": "תפקיד חדש",
-        "about": "על אודות",
-        "people": "אנשים",
-        "info": "מידע",
-        "interests": "Readers",
-        "chat": "צ&#39;אט",
-        "locations": "מיקומים",
-        "ManageRoles": "ניהול תפקידים",
-        "aboutPlaceholder": "מי אתה ומה אתה עושה? ספר לאנשים משהו מעניין או ייחודי על עצמך.",
-        "explanation": "הפרופיל שלך עוזר להתאים טוב יותר עם אנשים אחרים עבור פעילויות קבוצתיות. <br> הזן את תאריך הלידה שלך",
-        "chats": {
-            "placeholder": "תגיד משהו"
-        },
-        "LogOut": "להתנתק",
-        "selectRole": "בחר תפקיד",
-        "MyLinks": "הקישורים שלי",
-        "MyJobs": "העבודות שלי",
-        "MySocial": "MySocial",
-        "MyEducation": "השכלתי",
-        "JobsPlaceholder": "הקלד כאן מידע על עבודות",
-        "EducationPlaceholder": "הקלד כאן מידע לחינוך",
-        "ManageNotifications": "נהל התראות",
-        "YourPreferredLanguage": "השפה המועדפת עליך",
-        "SendCrypto": "לְשַׁלֵם",
-        "Block": "לַחסוֹם",
-        "Unblock": "בטל את החסימה",
-        "Email": "אימייל",
-        "Avoid": "לְהִמָנַע",
-        "CreatePrivateChat": "להוציא {{credits}} זיכויים כדי ליצור קשר?",
-        "RolesInCommunity": "תפקידים בקהילה",
-        "PersonalChatWith": "צ&#39;אט אישי עם {{name}}",
-        "SendCryptoTo": "שלח קריפטו אל {{name}}",
-        "SendEmailTo": "שלח אימייל אל {{name}}",
-        "SendSMSTo": "שלח SMS אל {{name}}",
-        "BlockThisUser": "חסום משתמש זה",
-        "UnblockThisUser": "בטל את חסימת המשתמש הזה",
-        "YouCantChatWithYourself": "אתה לא יכול לשוחח עם עצמך",
-        "blockUserAlertTitle": "חסום {{displayName}}",
-        "sections": {
-            "education": "חינוך",
-            "greeting": "בְּרָכָה",
-            "jobs": "מקומות תעסוקה",
-            "links": "קישורים",
-            "language": "שפה",
-            "roles": "תפקידים",
-            "personal": "אישי",
-            "social": "חֶברָתִי"
-        },
-        "Roles": "תפקידים",
-        "SendPaymentTo": "שלח תשלום ל {{name}}"
-    },
-    "myqr": {
-        "Title": "QR שלי"
-    },
-    "composer": {
-        "createCommunity": "צור קהילה",
-        "inviteAdmin": "הזמן את מנהל המערכת",
-        "inviteMember": "הזמן חבר",
-        "newCommunityTitle": "שם קהילה",
-        "setCommunityTitle": "הגדר שם קהילה",
-        "creditsChargeRequest": "האם אתה מסכים להוציא {{price}} זיכויים?",
-        "yes": "כן",
-        "no": "לא"
-    },
-    "notifications": {
-        "WelcomePleaseVerifyEmail": "ברוך הבא! אמת את כתובת האימייל שלך.",
-        "WelcomeVerifyEmail": "ברוך הבא! אמת את כתובת הדוא&quot;ל שלך.",
-        "ForgetPass": "היי, האם שכחת את משפט הסיסמה שלך?",
-        "ManageEmailSubscriptions": "לנהל את מינויי הדוא&quot;ל שלך",
-        "IfUnsubscribe": "אם אתה רוצה לבטל את המנוי"
-    },
-    "speak": {
-        "onboarding": {
-            "name": {
-                "Welcome": "ברוכים הבאים אל {{CommunityName}}. אפליקציה זו תעזור לך להתחבר לחברים, לגלות אנשים חדשים עם תחומי עניין משותפים, ועוד. בואו נתחיל!"
-            },
-            "icon": {
-                "Commentary": "הגדר את התמונה שלך. כך אנשים יראו אותך באתר."
-            },
-            "interests": {
-                "Commentary": "ככל שאתה בוחר יותר פריטים, כך יותר אנשים אתה יכול לפגוש.",
-                "Notifications": "עליך לאפשר התראות"
-            }
-        },
-        "subscriptions": {
-            "confirm": "התראות מאפשרות לך לדעת על דברים שמעניינים אותך, כגון כאשר חבר מצטרף לאפליקציה או הודעות."
-        },
-        "invite": "{{Q.words.TapOrClick}} כאן כדי לראות כיצד תוכל לחלוק את זה עם אנשים אחרים."
-    },
-    "payment": {
-        "onContribute": "תודה! התשלום שלך עבר. האם תרצה להזמין את חבריך להצטרף אליך?",
-        "ConnectAccount": "חבר חשבון"
-    },
-    "featureboard": {
-        "Text_1": "תישמע לקולך! האם אתה מסכים שעלינו לפתח תכונה או באג? לחץ על הכפתור כדי לתמוך בו.",
-        "Text_2": "רוצה שנפתח פיצ&#39;ר חדש? תאר את זה למטה.",
-        "Text_3": "בכל שבוע אנו מתחילים לפתח את התכונה המבוקשת ביותר על ידי הקהילה. כל הכסף שתרם הולך למטרה זו ומאפשר לנו לשפר את האפליקציה.",
-        "Text_4": "כל הכסף שתרם משמש כדי לשלם את עלויות הפיתוח שלנו.",
-        "Text_5": "האם יש לך רעיון לתכונה או לתיקון באגים שאתה רוצה שנעשה אך טרם ראית אחרים מוסיפים? תאר זאת למטה:",
-        "Options": [
-            {
-                "text": "ועידת וידיאו בזמן אמת"
-            },
-            {
-                "defaultAmount": "10",
-                "text": "מידע על הרשמה ראשית מקומית בסך 200 $"
-            },
-            {
-                "text": "130 $ דפדף ושתף אלפי {{1}} memes",
-                "defaultAmount": "10"
-            },
-            {
-                "text": "$ 80 נהל קהילות משלך",
-                "defaultAmount": "10"
-            },
-            {
-                "text": "30 $ לתקן באג שיחות",
-                "defaultAmount": "10"
-            }
-        ],
-        "RequestNewFeature": "בקש תכונה חדשה \/ באגפיקס",
-        "FeaturePlaceholder": "סיכום קצר של התכונה",
-        "FeatureDescription": "תאר כיצד מישהו אחר יכול לשחזר את הבאג שאתה רואה, או תאר בפירוט את התכונה שאתה רוצה לבנות",
-        "AddYourRequest": "הוסף את בקשתך",
-        "NewFeature": "תכונה חדשה"
-    },
-    "assetshistory": {
-        "Title": "היסטוריה של נכסים",
-        "Charges": "חיובים",
-        "Credits": "נקודות זכות"
-    },
-    "contribute": {
-        "ContributeExplanation": "עזור לתמוך בהמשך פיתוח אפליקציית {{communityName}}. כל התרומות שלך עוזרות לתקן באגים ולפתח תכונות חדשות שיעזרו לצמיחת הקהילה המקוונת!",
-        "ReasonToContribute": "אפליקציה זו מתוחזקת על ידי תומכי {{communityName}}. עזור לתמוך באפליקציה זו כדי שנוכל לעשות את ההבדל בחייהם של אנשים!"
-    },
-    "accounts": {
-        "remove": {
-            "title": "הסר חשבון",
-            "content": "האם ברצונך להסיר חשבון זה?",
-            "ok": "כן",
-            "cancel": "לא"
-        }
-    },
-    "import": {
-        "fileNotFound": "מצטערים, קובץ CSV לא נמצא.",
-        "fileEmpty": "מצטערים, קובץ CSV ריק.",
-        "userIdNotFound": "המשתמש קיים אך מזהה ריק",
-        "errorLine": "שורה {{1}}",
-        "fieldNotFound": "השדה הנדרש &quot;{{1}}&quot; לא נמצא",
-        "taskStreamInvalid": "זרם המשימות לא חוקי",
-        "instructionsEmpty": "הוראות לזרם המשימות ריקות",
-        "complete": "שלם",
-        "activateUsers": "לשלוח הודעת הפעלה למשתמשים?",
-        "importProgress": "התקדמות",
-        "joinEventLabel": "הצטרף למשתמשים לאירוע אקראי",
-        "importOptions": "אפשרויות",
-        "sampleCSV": "הורד דוגמת CSV",
-        "fileLabel": "העלה גיליון אלקטרוני:",
-        "errorsTitle": "אירעו שגיאות",
-        "communityUsers": "זו רשימת קהילות",
-        "setAsConversation": "טור URL כשיחה",
-        "toMainCommunityToo": "הוסף משתמשים גם לקהילה הראשית",
-        "willImportedTo": "המשתמשים יובאו לקהילה",
-        "ChooseFile": "בחר קובץ"
-    },
-    "dashboard": {
-        "Menu": "תפריט",
-        "Home": "בית",
-        "Welcome": "ברוך הבא",
-        "Events": "אירועים",
-        "Discuss": "לָדוּן",
-        "People": "אֲנָשִׁים",
-        "About": "על אודות",
-        "Community": "קהילה",
-        "LogIn": "התחברות",
-        "LogOut": "להתנתק",
-        "Intercoin": "אינטרקוין",
-        "Shows": "מופעים",
-        "Calendar": "לוּחַ שָׁנָה",
-        "Me": "לִי",
-        "Media": "כְּלֵי תִקְשׁוֹרֶת",
-        "Services": "שירותים",
-        "SetMobileNumber": "הגדר מספר נייד",
-        "SetEmailAddress": "הגדר כתובת אימייל"
-    },
-    "services": {
-        "Title": "שירותים",
-        "filterByTitle": "מצא שירותים לפי כותרת",
-        "New": "+ התחל שירות חדש",
-        "NewService": "שירות חדש",
-        "NewAvailability": "זמינות חדשה",
-        "filterServices": "שירותי סינון",
-        "NoneYet": "עדיין לא נוצרו שירותים<br> בזמנים אלו.",
-        "AllAuthors": "כל המחברים",
-        "AllDays": "כל הימים",
-        "AllLocations": "כל המיקומים",
-        "MakeReservation": "לבצע הזמנה",
-        "CancelReservation": "ביטול הזמנה",
-        "UpdateReservation": "עדכן הזמנה",
-        "AreYouSure": "האם אתה בטוח?",
-        "YouWillRefunded": "תקבל החזר בצורת זיכויים שתוכל להוציא על דברים אחרים באפליקציה.",
-        "AllInterests": "כל תחומי העניין",
-        "FilterbyInterest": "סנן לפי עניין",
-        "FilterByDate": "סינון לפי תאריך",
-        "ShowActivities": "הצג פעילויות הקשורות ל...",
-        "newServices": "יש לך {{1}} שירותים חדשים",
-        "SelectLocation": "תבחר מיקום",
-        "FilterLocationsPlaceHolder": "סנן מקומות עם...",
-        "Description": "שירות {{1}}",
-        "Keywords": "שירות {{1}}"
-    },
-    "welcome": {
-        "Title": "{{appName}}: ברוך הבא",
-        "GetStarted": "להתחיל",
-        "gallery": {
-            "Connect": "לְחַבֵּר",
-            "Organize": "לְאַרגֵן",
-            "Travel": "לִנְסוֹעַ",
-            "Share": "לַחֲלוֹק"
-        }
-    }
+	"notFound": {
+		"Explanation": "<span class='url'>{{1}}</span> \u05dc\u05d0 \u05de\u05e6\u05d1\u05d9\u05e2 \u05e2\u05dc \u05e9\u05d5\u05dd \u05d3\u05d1\u05e8!",
+		"NextSteps": "\u05d4\u05e9\u05ea\u05de\u05e9 \u05d1\u05ea\u05e4\u05e8\u05d9\u05d8 \u05d4\u05e8\u05d0\u05e9\u05d9 \u05db\u05d3\u05d9 \u05dc\u05de\u05e6\u05d5\u05d0 \u05d0\u05ea \u05de\u05d4 \u05e9\u05d0\u05ea\u05d4 \u05de\u05d7\u05e4\u05e9."
+	},
+	"greeting": {
+		"Welcome": "\u05d1\u05e8\u05d5\u05db\u05d9\u05dd \u05d4\u05d1\u05d0\u05d9\u05dd \u05d0\u05dc {{1}}. \u05db\u05d0\u05df \u05ea\u05d5\u05db\u05dc\u05d5 \u05dc\u05de\u05e6\u05d5\u05d0 \u05d3\u05d1\u05e8\u05d9\u05dd \u05e2\u05d1\u05d5\u05e8 \u05d7\u05d1\u05e8\u05d9 \u05d4\u05e7\u05d4\u05d9\u05dc\u05d4 \u05e9\u05dc\u05e0\u05d5. \u05d4\u05d5\u05e1\u05e3 \u05d0\u05ea \u05db\u05ea\u05d5\u05d1\u05ea \u05d4\u05d0\u05d9\u05de\u05d9\u05d9\u05dc \u05d0\u05d5 \u05d0\u05ea \u05de\u05e1\u05e4\u05e8 \u05d4\u05d8\u05dc\u05e4\u05d5\u05df \u05d4\u05e0\u05d9\u05d9\u05d3 \u05e9\u05dc\u05da \u05db\u05d3\u05d9 \u05dc\u05e7\u05d1\u05dc \u05d4\u05ea\u05e8\u05d0\u05d5\u05ea \u05db\u05d0\u05e9\u05e8 \u05e4\u05d5\u05e8\u05e1\u05de\u05d5 \u05d4\u05d5\u05d3\u05e2\u05d5\u05ea."
+	},
+	"conversations": {
+		"New": "\u05e9\u05d9\u05d7\u05d4 \u05d7\u05d3\u05e9\u05d4",
+		"Conversation": "\u05e9\u05d9\u05d7\u05d4",
+		"Topics": "\u05e0\u05d5\u05e9\u05d0\u05d9\u05dd",
+		"NoneYet": "\u05e2\u05d3\u05d9\u05d9\u05df \u05dc\u05d0 \u05e0\u05d5\u05e6\u05e8\u05d5 \u05e9\u05d9\u05d7\u05d5\u05ea",
+		"newConversations": "{{1}} \u05e9\u05d9\u05d7\u05d5\u05ea \u05d7\u05d3\u05e9\u05d5\u05ea",
+		"AllAuthors": "\u05db\u05dc \u05d4\u05db\u05d5\u05ea\u05d1\u05d9\u05dd",
+		"FilterbyAuthors": "\u05e1\u05e0\u05df \u05dc\u05e4\u05d9 \u05de\u05d7\u05d1\u05e8\u05d9\u05dd",
+		"FilterAuthorPlaceHolder": "\u05d7\u05e4\u05e9 \u05de\u05d7\u05d1\u05e8\u05d9\u05dd \u05e0\u05d5\u05e1\u05e4\u05d9\u05dd ...",
+		"Title": "\u05e9\u05d9\u05d7\u05d5\u05ea",
+		"Description": "{{1}} \u05e9\u05d9\u05d7\u05d5\u05ea",
+		"filterConversations": "\u05e1\u05e0\u05df \u05dc\u05e4\u05d9 \u05d8\u05e7\u05e1\u05d8"
+	},
+	"newConversation": {
+		"composer": {
+			"ChooseActivity": "\u05d1\u05d7\u05e8 \u05e0\u05d5\u05e9\u05d0",
+			"Share": "\u05e9\u05ea\u05e3",
+			"interest": {
+				"Title": "\u05d1\u05d7\u05e8 \u05e4\u05e2\u05d9\u05dc\u05d5\u05ea",
+				"Filter": "\u05d7\u05e4\u05e9 \u05ea\u05d7\u05d5\u05de\u05d9 \u05e2\u05e0\u05d9\u05d9\u05df ..."
+			}
+		},
+		"Title": "\u05e9\u05d9\u05d7\u05d4 \u05d7\u05d3\u05e9\u05d4",
+		"TitlePlaceholder": "\u05e0\u05d5\u05e9\u05d0 \u05d4\u05e9\u05d9\u05d7\u05d4 \u05e9\u05dc\u05da",
+		"ContentPlaceholder": "\u05db\u05ea\u05d5\u05d1 \u05db\u05de\u05d4 \u05de\u05d9\u05dc\u05d9\u05dd \u05db\u05d3\u05d9 \u05dc\u05d4\u05ea\u05d7\u05d9\u05dc \u05d0\u05ea \u05d4\u05e9\u05d9\u05d7\u05d4, \u05db\u05da \u05e9\u05d0\u05d7\u05e8\u05d9\u05dd \u05d9\u05db\u05d5\u05dc\u05d9\u05dd \u05dc\u05d4\u05e9\u05d9\u05d1",
+		"StartButton": "\u05d4\u05ea\u05d7\u05dc \u05e9\u05d9\u05d7\u05d4"
+	},
+	"events": {
+		"Title": "\u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd",
+		"filterByTitle": "\u05de\u05e6\u05d0 \u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd \u05dc\u05e4\u05d9 \u05db\u05d5\u05ea\u05e8\u05ea",
+		"New": "+ \u05d4\u05ea\u05d7\u05dc \u05d0\u05d9\u05e8\u05d5\u05e2 \u05d7\u05d3\u05e9",
+		"SetLocation": "\u05d4\u05d2\u05d3\u05e8 \u05d0\u05ea \u05d4\u05de\u05d9\u05e7\u05d5\u05dd \u05e9\u05dc\u05d9",
+		"NoneYet": "\u05e2\u05d3\u05d9\u05d9\u05df \u05dc\u05d0 \u05e0\u05d5\u05e6\u05e8\u05d5 \u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd <br> \u05d1\u05d6\u05de\u05e0\u05d9\u05dd \u05d0\u05dc\u05d4.",
+		"AllDays": "\u05db\u05dc \u05d4\u05d9\u05de\u05d9\u05dd",
+		"AllLocations": "\u05db\u05dc \u05d4\u05de\u05d9\u05e7\u05d5\u05de\u05d9\u05dd",
+		"AllInterests": "Readers",
+		"FilterbyInterest": "\u05e1\u05e0\u05df \u05dc\u05e4\u05d9 \u05e2\u05e0\u05d9\u05d9\u05df",
+		"FilterByDate": "\u05e1\u05e0\u05df \u05dc\u05e4\u05d9 \u05ea\u05d0\u05e8\u05d9\u05da",
+		"ShowActivities": "\u05d4\u05e6\u05d2 \u05e4\u05e2\u05d9\u05dc\u05d5\u05d9\u05d5\u05ea \u05d4\u05e7\u05e9\u05d5\u05e8\u05d5\u05ea \u05dc. . .",
+		"newEvents": "\u05d9\u05e9 \u05dc\u05da {{1}} \u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd \u05d7\u05d3\u05e9\u05d9\u05dd",
+		"SelectLocation": "\u05ea\u05d1\u05d7\u05e8 \u05de\u05d9\u05e7\u05d5\u05dd",
+		"FilterLocationsPlaceHolder": "\u05e1\u05e0\u05df \u05de\u05e7\u05d5\u05de\u05d5\u05ea \u05e2\u05dd ...",
+		"AllAuthors": "\u05db\u05dc \u05d4\u05db\u05d5\u05ea\u05d1\u05d9\u05dd",
+		"filterEvents": "\u05e1\u05e0\u05df \u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd",
+		"NewEvent": "\u05d0\u05d9\u05e8\u05d5\u05e2 \u05d7\u05d3\u05e9",
+		"Description": "{{1}} \u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd",
+		"Keywords": "{{1}} \u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd",
+		"MakeReservation": "\u05dc\u05d1\u05e6\u05e2 \u05d4\u05d6\u05de\u05e0\u05d4",
+		"Reserved": "\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d6\u05de\u05e0\u05d4",
+		"AreYouSure": "\u05d4\u05d0\u05dd \u05d0\u05ea\u05d4 \u05d1\u05d8\u05d5\u05d7?",
+		"YouWillRefunded": "\u05d0\u05ea\u05d4 \u05ea\u05e7\u05d1\u05dc \u05d4\u05d7\u05d6\u05e8 \u05d1\u05e6\u05d5\u05e8\u05d4 \u05e9\u05dc \u05e7\u05e8\u05d3\u05d9\u05d8\u05d9\u05dd \u05e9\u05ea\u05d5\u05db\u05dc \u05dc\u05d4\u05d5\u05e6\u05d9\u05d0 \u05e2\u05dc \u05d3\u05d1\u05e8\u05d9\u05dd \u05d0\u05d7\u05e8\u05d9\u05dd \u05d1\u05d0\u05e4\u05dc\u05d9\u05e7\u05e6\u05d9\u05d4.",
+		"CancelReservation": "\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d6\u05de\u05e0\u05d4",
+		"UpdateReservation": "\u05e2\u05d3\u05db\u05d5\u05df \u05d4\u05d4\u05d6\u05de\u05e0\u05d4"
+	},
+	"schedule": {
+		"Title": "\u05dc\u05d5\u05d7 \u05d6\u05de\u05e0\u05d9\u05dd",
+		"NoneYet": "\u05d0\u05ea\u05d4 \u05dc\u05d0 \u05de\u05e9\u05ea\u05ea\u05e3 \u05d1\u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd \u05db\u05dc\u05e9\u05d4\u05dd",
+		"AddSome": "\u05d4\u05d5\u05e1\u05e3 \u05e7\u05e6\u05ea \u05dc\u05dc\u05d5\u05d7 \u05d4\u05d6\u05de\u05e0\u05d9\u05dd \u05e9\u05dc\u05da!",
+		"AddMore": "\u05d4\u05d5\u05e1\u05e3 \u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd \u05dc\u05dc\u05d5\u05d7 \u05d4\u05d6\u05de\u05e0\u05d9\u05dd \u05e9\u05dc\u05da!",
+		"future": "\u05e2\u05ea\u05d9\u05d3",
+		"past": "\u05e2\u05d1\u05e8"
+	},
+	"location": {
+		"Title": "\u05de\u05e7\u05d5\u05dd",
+		"NewLocation": "\u05de\u05d9\u05e7\u05d5\u05dd \u05d7\u05d3\u05e9"
+	},
+	"inbox": {
+		"Title": "\u05ea\u05d9\u05d1\u05ea \u05d4\u05d3\u05d5\u05d0\u05e8 \u05d4\u05e0\u05db\u05e0\u05e1",
+		"NoneYet": "\u05d0\u05ea\u05d4 \u05dc\u05d0 \u05de\u05e9\u05ea\u05ea\u05e3 \u05d1\u05e9\u05d9\u05d7\u05d5\u05ea \u05db\u05dc\u05e9\u05d4\u05df",
+		"FindPeople": "\u05de\u05e6\u05d0 \u05d0\u05e0\u05e9\u05d9\u05dd \u05dc\u05d3\u05d1\u05e8 \u05d0\u05d9\u05ea\u05dd",
+		"GroupConversations": "\u05d4\u05e6\u05d8\u05e8\u05e3 \u05dc\u05e9\u05d9\u05d7\u05d5\u05ea \u05e7\u05d1\u05d5\u05e6\u05ea\u05d9\u05d5\u05ea",
+		"ContactStaff": "\u05e6\u05d5\u05e8 \u05e7\u05e9\u05e8 \u05e2\u05dd \u05e6\u05d5\u05d5\u05ea \u05d4\u05e2\u05d5\u05d1\u05d3\u05d9\u05dd",
+		"ContactCustomers": "\u05e6\u05e8\u05d5 \u05e7\u05e9\u05e8 \u05e2\u05dd \u05dc\u05e7\u05d5\u05d7\u05d5\u05ea",
+		"AddNewContact": "\u05d4\u05d5\u05e1\u05e3 \u05d0\u05d9\u05e9 \u05e7\u05e9\u05e8 \u05d7\u05d3\u05e9",
+		"AddNewContacts": "\u05d4\u05d5\u05e1\u05e3 \u05d0\u05e0\u05e9\u05d9 \u05e7\u05e9\u05e8 \u05d7\u05d3\u05e9\u05d9\u05dd"
+	},
+	"me": {
+		"Title": "\u05d0\u05e0\u05d9",
+		"MobileNumber": "\u05de\u05e1\u05e4\u05e8 \u05d8\u05dc\u05e4\u05d5\u05df \u05e0\u05d9\u05d9\u05d3",
+		"EmailAddress": "\u05db\u05ea\u05d5\u05d1\u05ea \u05d3\u05d5\u05d0&quot;\u05dc",
+		"UpdateSocialTitle": "\u05e2\u05d3\u05db\u05df \u05d0\u05ea \u05e9\u05dd \u05d4\u05de\u05e9\u05ea\u05de\u05e9 {{1}}",
+		"Web3": "\u05d0\u05d9\u05e0\u05d8\u05e8\u05e0\u05d8 3"
+	},
+	"people": {
+		"Title": "\u05d0\u05e0\u05e9\u05d9\u05dd",
+		"AppAlert": "\u05d4\u05d0\u05e4\u05dc\u05d9\u05e7\u05e6\u05d9\u05d4 \u05d4\u05d6\u05d5 \u05d1\u05d7\u05e0\u05d5\u05ea \u05d4\u05d0\u05e4\u05dc\u05d9\u05e7\u05e6\u05d9\u05d5\u05ea \u05ea\u05d0\u05e4\u05e9\u05e8 \u05dc\u05da \u05dc\u05d4\u05ea\u05d7\u05d1\u05e8 \u05dc\u05d7\u05d1\u05e8\u05d9\u05dd \u05e9\u05dc\u05da, \u05d5\u05e2\u05d5\u05d3 \u05d4\u05e8\u05d1\u05d4 \u05d9\u05d5\u05ea\u05e8.",
+		"Invite": "\u05dc\u05d4\u05d6\u05de\u05d9\u05df \u05d7\u05d1\u05e8\u05d9\u05dd",
+		"FindSomeoneByName": "\u05de\u05e6\u05d0 \u05de\u05d9\u05e9\u05d4\u05d5 \u05dc\u05e4\u05d9 \u05e9\u05dd",
+		"FindAllMyFriends": "\u05de\u05e6\u05d0 \u05d0\u05ea \u05db\u05dc \u05d4\u05d7\u05d1\u05e8\u05d9\u05dd \u05e9\u05dc\u05d9",
+		"labels": {
+			"All": "\u05db\u05dc \u05d0\u05d7\u05d3",
+			"Title": "\u05e1\u05d9\u05e0\u05d5\u05df \u05dc\u05e4\u05d9 \u05de\u05e2\u05e8\u05db\u05ea \u05d9\u05d7\u05e1\u05d9\u05dd",
+			"New": "\u05e1\u05d5\u05d2 \u05d4\u05e7\u05e9\u05e8 \u05d4\u05d7\u05d3\u05e9"
+		},
+		"interests": {
+			"All": "Readers",
+			"Title": "\u05e1\u05e0\u05df \u05dc\u05e4\u05d9 \u05e2\u05e0\u05d9\u05d9\u05df",
+			"Filter": "\u05d4\u05e6\u05d2 \u05d0\u05e0\u05e9\u05d9\u05dd \u05e9\u05de\u05e2\u05d5\u05e0\u05d9\u05d9\u05e0\u05d9\u05dd \u05d1\u05db\u05da. . ."
+		},
+		"SearchByName": "\u05d7\u05e4\u05e9 \u05dc\u05e4\u05d9 \u05e9\u05dd",
+		"Description": "{{1}} \u05de\u05e9\u05ea\u05ea\u05e4\u05d9\u05dd",
+		"Keywords": "{{1}} \u05e7\u05d4\u05d9\u05dc\u05ea \u05d0\u05e0\u05e9\u05d9\u05dd",
+		"BuyCredits": "\u05e7\u05e0\u05d4 \u05e7\u05e8\u05d3\u05d9\u05d8\u05d9\u05dd"
+	},
+	"communities": {
+		"Title": "\u05d1\u05d7\u05e8 \u05e7\u05d4\u05d9\u05dc\u05d4",
+		"NewCommunity": "\u05e7\u05d4\u05d9\u05dc\u05d4 \u05d7\u05d3\u05e9\u05d4",
+		"FindCommunityByName": "\u05de\u05e6\u05d0 \u05e7\u05d4\u05d9\u05dc\u05d4 \u05dc\u05e4\u05d9 \u05e9\u05dd",
+		"Description": "{{1}} \u05e7\u05d4\u05d9\u05dc\u05d5\u05ea"
+	},
+	"community": {
+		"Title": "\u05e7\u05d4\u05d9\u05dc\u05d4",
+		"Roles": "\u05ea\u05e4\u05e7\u05d9\u05d3\u05d9\u05dd",
+		"AllRoles": "\u05db\u05dc \u05d4\u05ea\u05e4\u05e7\u05d9\u05d3\u05d9\u05dd",
+		"YouDontHavePermission": "\u05d0\u05d9\u05e0\u05da \u05de\u05d5\u05e8\u05e9\u05d4 \u05dc\u05e2\u05e9\u05d5\u05ea \u05d6\u05d0\u05ea",
+		"usernamePlaceholder": "\u05d4\u05d2\u05d3\u05e8 \u05e9\u05dd \u05e7\u05d4\u05d9\u05dc\u05d4",
+		"NotEnoughCredits": "\u05d0\u05d9\u05df \u05dc\u05da \u05de\u05e1\u05e4\u05d9\u05e7 \u05d6\u05d9\u05db\u05d5\u05d9\u05d9\u05dd \u05db\u05d3\u05d9 \u05dc\u05d9\u05e6\u05d5\u05e8 \u05e7\u05d4\u05d9\u05dc\u05d4. \u05e6\u05e8\u05d9\u05da {{1}}, \u05d9\u05e9 \u05dc\u05da {{2}}"
+	},
+	"event": {
+		"GetDirections": "\u05dc\u05e7\u05d1\u05dc \u05d4\u05d5\u05e8\u05d0\u05d5\u05ea",
+		"WhichMap": "\u05d1\u05d0\u05d9\u05dc\u05d5 \u05de\u05e4\u05d5\u05ea \u05ea\u05e8\u05e6\u05d4 \u05dc\u05d4\u05e9\u05ea\u05de\u05e9?",
+		"JoinEventToChat": "\u05d4\u05e6\u05d8\u05e8\u05e3 \u05dc\u05d0\u05d9\u05e8\u05d5\u05e2 \u05db\u05d3\u05d9 \u05dc\u05e9\u05d5\u05d7\u05d7 \u05d1\u05e6&#39;\u05d0\u05d8",
+		"promote": {
+			"Title": "\u05e7\u05d3\u05dd \u05d0\u05ea \u05d4\u05d0\u05d9\u05e8\u05d5\u05e2 \u05d4\u05d6\u05d4",
+			"Prompt": "\u05d1\u05d7\u05e8 \u05d4\u05d9\u05db\u05df \u05d1\u05e8\u05e6\u05d5\u05e0\u05da \u05dc\u05e7\u05d3\u05dd \u05d0\u05ea \u05d4\u05d0\u05d9\u05e8\u05d5\u05e2:"
+		},
+		"Confirmation": "\u05d0\u05d9\u05e9\u05d5\u05e8"
+	},
+	"newEvent": {
+		"Title": "\u05ea\u05db\u05e0\u05d9\u05ea \u05d7\u05d3\u05e9\u05d4"
+	},
+	"interests": {
+		"Title": "Readers",
+		"prompt": "\u05d1\u05d7\u05e8 \u05d0\u05ea \u05e1\u05d5\u05d2\u05d9 \u05d4\u05d3\u05d1\u05e8\u05d9\u05dd \u05e9\u05ea\u05e8\u05e6\u05d4 \u05dc\u05d3\u05e2\u05ea \u05e2\u05dc\u05d9\u05d4\u05dd.",
+		"explanation": "\u05db\u05db\u05dc \u05e9\u05ea\u05d1\u05d7\u05e8 \u05d9\u05d5\u05ea\u05e8 \u05ea\u05d7\u05d5\u05de\u05d9 \u05e2\u05e0\u05d9\u05d9\u05df, \u05db\u05da \u05d2\u05d3\u05dc \u05d4\u05e1\u05d9\u05db\u05d5\u05d9 \u05e9\u05ea\u05e7\u05e9\u05e8 \u05e2\u05dd \u05d0\u05e0\u05e9\u05d9\u05dd \u05d1\u05e2\u05dc\u05d9 \u05d3\u05e2\u05d5\u05ea \u05d3\u05d5\u05de\u05d5\u05ea.",
+		"filter": "\u05d1\u05de\u05d4 \u05d0\u05ea\u05d4 \u05de\u05ea\u05e2\u05e0\u05d9\u05d9\u05df?",
+		"Profile": "\u05d4\u05d0\u05d9\u05e0\u05d8\u05e8\u05e1\u05d9\u05dd \u05d4\u05d4\u05d3\u05d3\u05d9\u05d9\u05dd \u05de\u05d5\u05d3\u05d2\u05e9\u05d9\u05dd. \u05d0\u05dd \u05d9\u05e9 \u05dc\u05da \u05d2\u05dd \u05d0\u05d7\u05d3 \u05de\u05d4\u05d0\u05d9\u05e0\u05d8\u05e8\u05e1\u05d9\u05dd \u05d4\u05d1\u05d0\u05d9\u05dd \u05d0\u05d5 \u05d9\u05d5\u05ea\u05e8, \u05ea\u05d5\u05db\u05dc {{clickOrTap}} \u05dc\u05d4\u05d5\u05e1\u05d9\u05e3 \u05d0\u05d5\u05ea\u05dd."
+	},
+	"credits": {
+		"Title": "\u05e0\u05e7\u05d5\u05d3\u05d5\u05ea \u05d6\u05db\u05d5\u05ea",
+		"EarnCredits": "\u05e7\u05d1\u05dc {{1}} \u05d6\u05d9\u05db\u05d5\u05d9\u05d9\u05dd \u05e2\u05d1\u05d5\u05e8 \u05db\u05dc \u05d0\u05d3\u05dd \u05d7\u05d3\u05e9 \u05e9\u05ea\u05d6\u05de\u05d9\u05df \u05e9\u05de\u05e6\u05d8\u05e8\u05e3 \u05dc\u05d0\u05e4\u05dc\u05d9\u05e7\u05e6\u05d9\u05d4",
+		"YouHave": "\u05d9\u05e9 \u05dc\u05da {{1}} \u05d6\u05d9\u05db\u05d5\u05d9\u05d9\u05dd"
+	},
+	"onboarding": {
+		"Tap": "\u05d4\u05e7\u05e9 \u05e2\u05dc",
+		"Click": "\u05dc\u05d7\u05e5 \u05e2\u05dc",
+		"Yes": "\u05db\u05df",
+		"No": "\u05dc\u05d0",
+		"name": {
+			"Preface": "\u05d1\u05e8\u05d5\u05da \u05d4\u05d1\u05d0 \u05dc",
+			"Placeholder": "\u05d4\u05db\u05e0\u05e1 \u05d0\u05ea \u05e9\u05de\u05da \u05d4\u05de\u05dc\u05d0",
+			"GetStarted": "\u05dc\u05d4\u05ea\u05d7\u05d9\u05dc",
+			"AsGuest": "\u05d4\u05d5\u05d6\u05de\u05e0\u05ea \u05db\u05d0\u05d5\u05e8\u05d7\u05ea.",
+			"AsMember": "\u05d4\u05d5\u05d6\u05de\u05e0\u05ea \u05db\u05d7\u05d1\u05e8.",
+			"AsAdmin": "\u05d4\u05d5\u05d6\u05de\u05e0\u05ea \u05db\u05de\u05e0\u05d4\u05dc \u05de\u05e2\u05e8\u05db\u05ea.",
+			"AsOwner": "\u05d4\u05d5\u05d6\u05de\u05e0\u05ea \u05db\u05d1\u05e2\u05dc\u05d9\u05dd.",
+			"TooShort": "\u05d4\u05e9\u05dd \u05d4\u05de\u05dc\u05d0 \u05e9\u05dc\u05da \u05dc\u05d0 \u05d9\u05db\u05d5\u05dc \u05dc\u05d4\u05d9\u05d5\u05ea \u05e7\u05e6\u05e8 \u05db\u05dc \u05db\u05da",
+			"SetAsYourFullName": "\u05d4\u05d2\u05d3\u05e8 \u05d0\u05ea {{1}} \u05d1\u05e9\u05dd \u05d4\u05de\u05dc\u05d0 \u05e9\u05dc\u05da?"
+		},
+		"icon": {
+			"KeepDefault": "\u05d0\u05d5 \u05dc\u05e9\u05de\u05d5\u05e8 \u05ea\u05de\u05d5\u05e0\u05d4 \u05d1\u05e8\u05d9\u05e8\u05ea \u05de\u05d7\u05d3\u05dc",
+			"SetYourPhoto": "{{ClickOrTap}} \u05db\u05d3\u05d9 \u05dc\u05d4\u05d2\u05d3\u05d9\u05e8 \u05d0\u05ea \u05d4\u05ea\u05de\u05d5\u05e0\u05d4 \u05e9\u05dc\u05da:",
+			"ClickOnYourFace": "{{ClickOrTap}} \u05e2\u05dc \u05d4\u05e4\u05e0\u05d9\u05dd \u05e9\u05dc\u05da"
+		},
+		"interests": {
+			"GetStarted": "\u05d4\u05ea\u05d7\u05dc",
+			"NextCategory": "\u2193 \u05d4\u05d1\u05d0",
+			"Continue": "\u05d4\u05de\u05e9\u05da",
+			"Instructions": "\u05d1\u05db\u05dc \u05d0\u05d7\u05ea \u05de\u05d4\u05e7\u05d8\u05d2\u05d5\u05e8\u05d9\u05d5\u05ea \u05d4\u05d1\u05d0\u05d5\u05ea {{1}}, {{2}} \u05db\u05dc \u05d4\u05e4\u05e2\u05d9\u05dc\u05d5\u05d9\u05d5\u05ea \u05e9\u05de\u05e2\u05e0\u05d9\u05d9\u05e0\u05d5\u05ea \u05d0\u05d5\u05ea\u05da. <br> \u05db\u05da \u05d0\u05ea\u05d4 \u05de\u05ea\u05d7\u05d1\u05e8 \u05e2\u05dd \u05d0\u05e0\u05e9\u05d9\u05dd \u05d0\u05d7\u05e8\u05d9\u05dd \u05d1\u05e7\u05d4\u05d9\u05dc\u05d4."
+		},
+		"profile": {
+			"Profile": "\u05de\u05d9\u05d3\u05e2 \u05d1\u05e1\u05d9\u05e1\u05d9 \u05e9\u05d9\u05e2\u05d6\u05d5\u05e8 \u05dc\u05da \u05dc\u05d4\u05ea\u05d0\u05d9\u05dd \u05d0\u05e0\u05e9\u05d9\u05dd:",
+			"Birthday": "\u05d4\u05d6\u05df \u05d0\u05ea \u05ea\u05d0\u05e8\u05d9\u05da \u05d4\u05dc\u05d9\u05d3\u05d4 \u05e9\u05dc\u05da:",
+			"Placeholder": "\u05de\u05d9 \u05d0\u05ea\u05d4 \u05d5\u05de\u05d4 \u05d0\u05ea\u05d4 \u05e2\u05d5\u05e9\u05d4? \u05e1\u05e4\u05e8 \u05dc\u05d0\u05e0\u05e9\u05d9\u05dd \u05de\u05e9\u05d4\u05d5 \u05de\u05e2\u05e0\u05d9\u05d9\u05df \u05d0\u05d5 \u05d9\u05d9\u05d7\u05d5\u05d3\u05d9 \u05e2\u05dc \u05e2\u05e6\u05de\u05da.",
+			"Month": "\u05d7\u05d5\u05d3\u05e9",
+			"Day": "\u05d9\u05d5\u05dd",
+			"Year": "\u05e9\u05e0\u05d4",
+			"Gender": "\u05de\u05d9\u05df",
+			"Male": "\u05d6\u05db\u05e8",
+			"Female": "\u05e0\u05e7\u05d1\u05d4",
+			"Other": "\u05d0\u05d7\u05e8",
+			"Height": "\u05d2\u05d5\u05d1\u05d4",
+			"Affiliation": "\u05d4\u05e9\u05ea\u05d9\u05d9\u05db\u05d5\u05ea",
+			"Dating": "\u05d4\u05db\u05e8\u05d5\u05d9\u05d5\u05ea",
+			"Interested": "\u05de\u05e2\u05d5\u05e0\u05d9\u05d9\u05df",
+			"NotInterested": "\u05dc\u05d0 \u05de\u05e2\u05d5\u05e0\u05d9\u05d9\u05df",
+			"MatchmakerOnly": "\u05e9\u05d3\u05db\u05e0\u05d9\u05ea \u05d1\u05dc\u05d1\u05d3",
+			"Required": "\u05db\u05d3\u05d9 \u05dc\u05d4\u05de\u05e9\u05d9\u05da, \u05db\u05ea\u05d5\u05d1 \u05dc\u05e4\u05d7\u05d5\u05ea \u05db\u05de\u05d4 \u05e9\u05d5\u05e8\u05d5\u05ea \u05e2\u05dc \u05e2\u05e6\u05de\u05da."
+		},
+		"location": {
+			"NoOneElse": "\u05d0\u05e3 \u05d0\u05d7\u05d3 \u05d0\u05d7\u05e8 \u05dc\u05d0 \u05d9\u05e8\u05d0\u05d4 \u05d0\u05ea \u05d6\u05d4.",
+			"SetMyLocation": "\u05d4\u05d2\u05d3\u05e8 \u05d0\u05ea \u05d4\u05de\u05d9\u05e7\u05d5\u05dd \u05e9\u05dc\u05d9"
+		},
+		"pile": {
+			"DialogTitle": "\u05d9\u05db\u05d5\u05dc \u05dc\u05d4\u05e6\u05d8\u05e8\u05e3 \u05d0\u05dc\u05d9\u05da"
+		},
+		"Done": "\u05d1\u05d5\u05e6\u05e2",
+		"Skip": "\u05d0\u05d5 \u05dc\u05d3\u05dc\u05d2 \u05e2\u05dc \u05d6\u05d4",
+		"relationships": {
+			"title": "\u05d4\u05d5\u05e1\u05e3 \u05d0\u05ea {{userName}} \u05dc\u05e1\u05e4\u05e8 \u05d4\u05d8\u05dc\u05e4\u05d5\u05e0\u05d9\u05dd",
+			"welcome": "\u05d1\u05e8\u05d5\u05da \u05d4\u05d1\u05d0 {{user}}",
+			"invitedByUser": "\u05d4\u05d6\u05de\u05d9\u05df \u05d0\u05d5\u05ea\u05da.",
+			"addToPhonebook": "\u05e9\u05de\u05d5\u05e8 \u05d1\u05d0\u05e0\u05e9\u05d9 \u05d4\u05e7\u05e9\u05e8 \u05e9\u05dc \u05d4\u05d8\u05dc\u05e4\u05d5\u05df \u05e9\u05dc\u05d9",
+			"iosInstructions": "\u05d2\u05dc\u05d5\u05dc \u05de\u05d8\u05d4 \u05dc\u05d4\u05d5\u05e1\u05e4\u05ea \u05d0\u05d9\u05e9 \u05e7\u05e9\u05e8 \u05d7\u05d3\u05e9",
+			"androidInstructions": "\u05e2\u05dc\u05d9\u05da \u05dc\u05e4\u05ea\u05d5\u05d7 \u05e7\u05d5\u05d1\u05e5 vCard \u05d6\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05d4\u05d5\u05e8\u05d3\u05ea\u05d5.",
+			"explanation": "\u05de\u05d4 \u05d4\u05e7\u05e9\u05e8 \u05e9\u05dc\u05db\u05dd?"
+		},
+		"Title": "\u05de\u05d9\u05d3\u05e2 \u05d1\u05e1\u05d9\u05e1\u05d9",
+		"Prompt": "\u05db\u05de\u05d4 \u05e9\u05dc\u05d1\u05d9\u05dd \u05dc\u05d4\u05d2\u05d3\u05e8\u05ea \u05d4\u05d7\u05e9\u05d1\u05d5\u05df \u05e9\u05dc\u05da"
+	},
+	"profile": {
+		"Title": "\u05e4\u05e8\u05d5\u05e4\u05d9\u05dc",
+		"Male": "\u05d6\u05db\u05e8",
+		"Female": "\u05e0\u05e7\u05d1\u05d4",
+		"Other": "\u05d0\u05d7\u05e8",
+		"dating": {
+			"Interested": "\u05de\u05e2\u05d5\u05e0\u05d9\u05d9\u05df",
+			"NotInterested": "\u05dc\u05d0 \u05de\u05e2\u05d5\u05e0\u05d9\u05d9\u05df",
+			"MatchmakerOnly": "\u05e9\u05d3\u05db\u05e0\u05d9\u05ea \u05d1\u05dc\u05d1\u05d3"
+		},
+		"StartConversation": "\u05d4\u05ea\u05d7\u05dc \u05e9\u05d9\u05d7\u05d4",
+		"blockUser": "\u05d7\u05e1\u05d5\u05dd \u05de\u05e9\u05ea\u05de\u05e9 \u05d6\u05d4",
+		"blockUserAlert": "\u05dc\u05d0 \u05ea\u05e8\u05d0\u05d4 \u05e2\u05d5\u05d3 \u05d4\u05d5\u05d3\u05e2\u05d5\u05ea \u05de\u05de\u05e9\u05ea\u05de\u05e9 \u05d6\u05d4 \u05e2\u05d3 \u05e9\u05ea\u05d1\u05d8\u05dc \u05d0\u05ea \u05d4\u05d7\u05e1\u05d9\u05de\u05d4.",
+		"unblockUser": "\u05d1\u05d8\u05dc \u05d7\u05e1\u05d9\u05de\u05d4 \u05e9\u05dc \u05de\u05e9\u05ea\u05de\u05e9 \u05d6\u05d4",
+		"addToContacts": "\u05dc\u05d4\u05d5\u05e1\u05d9\u05e3 \u05dc\u05d0\u05e0\u05e9\u05d9 \u05e7\u05e9\u05e8",
+		"manageLabels": "\u05e0\u05d9\u05d4\u05d5\u05dc \u05ea\u05d5\u05d5\u05d9\u05d5\u05ea",
+		"inviteUsers": "\u05d4\u05d6\u05de\u05df \u05de\u05e9\u05ea\u05de\u05e9\u05d9\u05dd",
+		"inviteSuccess": "\u05d4\u05de\u05e9\u05ea\u05de\u05e9 \u05d4\u05d5\u05d6\u05de\u05df \u05d1\u05d4\u05e6\u05dc\u05d7\u05d4 \u05db- {{label}}",
+		"invite": "\u05dc\u05d4\u05d6\u05de\u05d9\u05df",
+		"relationships": "\u05d9\u05d7\u05e1\u05d9\u05dd",
+		"newRole": "\u05ea\u05e4\u05e7\u05d9\u05d3 \u05d7\u05d3\u05e9",
+		"about": "\u05e2\u05dc \u05d0\u05d5\u05d3\u05d5\u05ea",
+		"people": "\u05d0\u05e0\u05e9\u05d9\u05dd",
+		"info": "\u05de\u05d9\u05d3\u05e2",
+		"interests": "Readers",
+		"chat": "\u05e6&#39;\u05d0\u05d8",
+		"locations": "\u05de\u05d9\u05e7\u05d5\u05de\u05d9\u05dd",
+		"ManageRoles": "\u05e0\u05d9\u05d4\u05d5\u05dc \u05ea\u05e4\u05e7\u05d9\u05d3\u05d9\u05dd",
+		"aboutPlaceholder": "\u05de\u05d9 \u05d0\u05ea\u05d4 \u05d5\u05de\u05d4 \u05d0\u05ea\u05d4 \u05e2\u05d5\u05e9\u05d4? \u05e1\u05e4\u05e8 \u05dc\u05d0\u05e0\u05e9\u05d9\u05dd \u05de\u05e9\u05d4\u05d5 \u05de\u05e2\u05e0\u05d9\u05d9\u05df \u05d0\u05d5 \u05d9\u05d9\u05d7\u05d5\u05d3\u05d9 \u05e2\u05dc \u05e2\u05e6\u05de\u05da.",
+		"explanation": "\u05d4\u05e4\u05e8\u05d5\u05e4\u05d9\u05dc \u05e9\u05dc\u05da \u05e2\u05d5\u05d6\u05e8 \u05dc\u05d4\u05ea\u05d0\u05d9\u05dd \u05d8\u05d5\u05d1 \u05d9\u05d5\u05ea\u05e8 \u05e2\u05dd \u05d0\u05e0\u05e9\u05d9\u05dd \u05d0\u05d7\u05e8\u05d9\u05dd \u05e2\u05d1\u05d5\u05e8 \u05e4\u05e2\u05d9\u05dc\u05d5\u05d9\u05d5\u05ea \u05e7\u05d1\u05d5\u05e6\u05ea\u05d9\u05d5\u05ea. <br> \u05d4\u05d6\u05df \u05d0\u05ea \u05ea\u05d0\u05e8\u05d9\u05da \u05d4\u05dc\u05d9\u05d3\u05d4 \u05e9\u05dc\u05da",
+		"chats": {
+			"placeholder": "\u05ea\u05d2\u05d9\u05d3 \u05de\u05e9\u05d4\u05d5"
+		},
+		"LogOut": "\u05dc\u05d4\u05ea\u05e0\u05ea\u05e7",
+		"selectRole": "\u05d1\u05d7\u05e8 \u05ea\u05e4\u05e7\u05d9\u05d3",
+		"MyLinks": "\u05d4\u05e7\u05d9\u05e9\u05d5\u05e8\u05d9\u05dd \u05e9\u05dc\u05d9",
+		"MyJobs": "\u05d4\u05e2\u05d1\u05d5\u05d3\u05d5\u05ea \u05e9\u05dc\u05d9",
+		"MySocial": "MySocial",
+		"MyEducation": "\u05d4\u05e9\u05db\u05dc\u05ea\u05d9",
+		"JobsPlaceholder": "\u05d4\u05e7\u05dc\u05d3 \u05db\u05d0\u05df \u05de\u05d9\u05d3\u05e2 \u05e2\u05dc \u05e2\u05d1\u05d5\u05d3\u05d5\u05ea",
+		"EducationPlaceholder": "\u05d4\u05e7\u05dc\u05d3 \u05db\u05d0\u05df \u05de\u05d9\u05d3\u05e2 \u05dc\u05d7\u05d9\u05e0\u05d5\u05da",
+		"ManageNotifications": "\u05e0\u05d4\u05dc \u05d4\u05ea\u05e8\u05d0\u05d5\u05ea",
+		"YourPreferredLanguage": "\u05d4\u05e9\u05e4\u05d4 \u05d4\u05de\u05d5\u05e2\u05d3\u05e4\u05ea \u05e2\u05dc\u05d9\u05da",
+		"SendCrypto": "\u05dc\u05b0\u05e9\u05c1\u05b7\u05dc\u05b5\u05dd",
+		"Block": "\u05dc\u05b7\u05d7\u05e1\u05d5\u05b9\u05dd",
+		"Unblock": "\u05d1\u05d8\u05dc \u05d0\u05ea \u05d4\u05d7\u05e1\u05d9\u05de\u05d4",
+		"Email": "\u05d0\u05d9\u05de\u05d9\u05d9\u05dc",
+		"Avoid": "\u05dc\u05b0\u05d4\u05b4\u05de\u05b8\u05e0\u05b7\u05e2",
+		"CreatePrivateChat": "\u05dc\u05d4\u05d5\u05e6\u05d9\u05d0 {{credits}} \u05d6\u05d9\u05db\u05d5\u05d9\u05d9\u05dd \u05db\u05d3\u05d9 \u05dc\u05d9\u05e6\u05d5\u05e8 \u05e7\u05e9\u05e8?",
+		"RolesInCommunity": "\u05ea\u05e4\u05e7\u05d9\u05d3\u05d9\u05dd \u05d1\u05e7\u05d4\u05d9\u05dc\u05d4",
+		"PersonalChatWith": "\u05e6&#39;\u05d0\u05d8 \u05d0\u05d9\u05e9\u05d9 \u05e2\u05dd {{name}}",
+		"SendCryptoTo": "\u05e9\u05dc\u05d7 \u05e7\u05e8\u05d9\u05e4\u05d8\u05d5 \u05d0\u05dc {{name}}",
+		"SendEmailTo": "\u05e9\u05dc\u05d7 \u05d0\u05d9\u05de\u05d9\u05d9\u05dc \u05d0\u05dc {{name}}",
+		"SendSMSTo": "\u05e9\u05dc\u05d7 SMS \u05d0\u05dc {{name}}",
+		"BlockThisUser": "\u05d7\u05e1\u05d5\u05dd \u05de\u05e9\u05ea\u05de\u05e9 \u05d6\u05d4",
+		"UnblockThisUser": "\u05d1\u05d8\u05dc \u05d0\u05ea \u05d7\u05e1\u05d9\u05de\u05ea \u05d4\u05de\u05e9\u05ea\u05de\u05e9 \u05d4\u05d6\u05d4",
+		"YouCantChatWithYourself": "\u05d0\u05ea\u05d4 \u05dc\u05d0 \u05d9\u05db\u05d5\u05dc \u05dc\u05e9\u05d5\u05d7\u05d7 \u05e2\u05dd \u05e2\u05e6\u05de\u05da",
+		"blockUserAlertTitle": "\u05d7\u05e1\u05d5\u05dd {{displayName}}",
+		"sections": {
+			"education": "\u05d7\u05d9\u05e0\u05d5\u05da",
+			"greeting": "\u05d1\u05bc\u05b0\u05e8\u05b8\u05db\u05b8\u05d4",
+			"jobs": "\u05de\u05e7\u05d5\u05de\u05d5\u05ea \u05ea\u05e2\u05e1\u05d5\u05e7\u05d4",
+			"links": "\u05e7\u05d9\u05e9\u05d5\u05e8\u05d9\u05dd",
+			"language": "\u05e9\u05e4\u05d4",
+			"roles": "\u05ea\u05e4\u05e7\u05d9\u05d3\u05d9\u05dd",
+			"personal": "\u05d0\u05d9\u05e9\u05d9",
+			"social": "\u05d7\u05b6\u05d1\u05e8\u05b8\u05ea\u05b4\u05d9"
+		},
+		"Roles": "\u05ea\u05e4\u05e7\u05d9\u05d3\u05d9\u05dd",
+		"SendPaymentTo": "\u05e9\u05dc\u05d7 \u05ea\u05e9\u05dc\u05d5\u05dd \u05dc {{name}}"
+	},
+	"myqr": {
+		"Title": "QR \u05e9\u05dc\u05d9"
+	},
+	"composer": {
+		"createCommunity": "\u05e6\u05d5\u05e8 \u05e7\u05d4\u05d9\u05dc\u05d4",
+		"inviteAdmin": "\u05d4\u05d6\u05de\u05df \u05d0\u05ea \u05de\u05e0\u05d4\u05dc \u05d4\u05de\u05e2\u05e8\u05db\u05ea",
+		"inviteMember": "\u05d4\u05d6\u05de\u05df \u05d7\u05d1\u05e8",
+		"newCommunityTitle": "\u05e9\u05dd \u05e7\u05d4\u05d9\u05dc\u05d4",
+		"setCommunityTitle": "\u05d4\u05d2\u05d3\u05e8 \u05e9\u05dd \u05e7\u05d4\u05d9\u05dc\u05d4",
+		"creditsChargeRequest": "\u05d4\u05d0\u05dd \u05d0\u05ea\u05d4 \u05de\u05e1\u05db\u05d9\u05dd \u05dc\u05d4\u05d5\u05e6\u05d9\u05d0 {{price}} \u05d6\u05d9\u05db\u05d5\u05d9\u05d9\u05dd?",
+		"yes": "\u05db\u05df",
+		"no": "\u05dc\u05d0"
+	},
+	"notifications": {
+		"WelcomePleaseVerifyEmail": "\u05d1\u05e8\u05d5\u05da \u05d4\u05d1\u05d0! \u05d0\u05de\u05ea \u05d0\u05ea \u05db\u05ea\u05d5\u05d1\u05ea \u05d4\u05d0\u05d9\u05de\u05d9\u05d9\u05dc \u05e9\u05dc\u05da.",
+		"WelcomeVerifyEmail": "\u05d1\u05e8\u05d5\u05da \u05d4\u05d1\u05d0! \u05d0\u05de\u05ea \u05d0\u05ea \u05db\u05ea\u05d5\u05d1\u05ea \u05d4\u05d3\u05d5\u05d0&quot;\u05dc \u05e9\u05dc\u05da.",
+		"ForgetPass": "\u05d4\u05d9\u05d9, \u05d4\u05d0\u05dd \u05e9\u05db\u05d7\u05ea \u05d0\u05ea \u05de\u05e9\u05e4\u05d8 \u05d4\u05e1\u05d9\u05e1\u05de\u05d4 \u05e9\u05dc\u05da?",
+		"ManageEmailSubscriptions": "\u05dc\u05e0\u05d4\u05dc \u05d0\u05ea \u05de\u05d9\u05e0\u05d5\u05d9\u05d9 \u05d4\u05d3\u05d5\u05d0&quot;\u05dc \u05e9\u05dc\u05da",
+		"IfUnsubscribe": "\u05d0\u05dd \u05d0\u05ea\u05d4 \u05e8\u05d5\u05e6\u05d4 \u05dc\u05d1\u05d8\u05dc \u05d0\u05ea \u05d4\u05de\u05e0\u05d5\u05d9"
+	},
+	"speak": {
+		"onboarding": {
+			"name": {
+				"Welcome": "\u05d1\u05e8\u05d5\u05db\u05d9\u05dd \u05d4\u05d1\u05d0\u05d9\u05dd \u05d0\u05dc {{CommunityName}}. \u05d0\u05e4\u05dc\u05d9\u05e7\u05e6\u05d9\u05d4 \u05d6\u05d5 \u05ea\u05e2\u05d6\u05d5\u05e8 \u05dc\u05da \u05dc\u05d4\u05ea\u05d7\u05d1\u05e8 \u05dc\u05d7\u05d1\u05e8\u05d9\u05dd, \u05dc\u05d2\u05dc\u05d5\u05ea \u05d0\u05e0\u05e9\u05d9\u05dd \u05d7\u05d3\u05e9\u05d9\u05dd \u05e2\u05dd \u05ea\u05d7\u05d5\u05de\u05d9 \u05e2\u05e0\u05d9\u05d9\u05df \u05de\u05e9\u05d5\u05ea\u05e4\u05d9\u05dd, \u05d5\u05e2\u05d5\u05d3. \u05d1\u05d5\u05d0\u05d5 \u05e0\u05ea\u05d7\u05d9\u05dc!"
+			},
+			"icon": {
+				"Commentary": "\u05d4\u05d2\u05d3\u05e8 \u05d0\u05ea \u05d4\u05ea\u05de\u05d5\u05e0\u05d4 \u05e9\u05dc\u05da. \u05db\u05da \u05d0\u05e0\u05e9\u05d9\u05dd \u05d9\u05e8\u05d0\u05d5 \u05d0\u05d5\u05ea\u05da \u05d1\u05d0\u05ea\u05e8."
+			},
+			"interests": {
+				"Commentary": "\u05db\u05db\u05dc \u05e9\u05d0\u05ea\u05d4 \u05d1\u05d5\u05d7\u05e8 \u05d9\u05d5\u05ea\u05e8 \u05e4\u05e8\u05d9\u05d8\u05d9\u05dd, \u05db\u05da \u05d9\u05d5\u05ea\u05e8 \u05d0\u05e0\u05e9\u05d9\u05dd \u05d0\u05ea\u05d4 \u05d9\u05db\u05d5\u05dc \u05dc\u05e4\u05d2\u05d5\u05e9.",
+				"Notifications": "\u05e2\u05dc\u05d9\u05da \u05dc\u05d0\u05e4\u05e9\u05e8 \u05d4\u05ea\u05e8\u05d0\u05d5\u05ea"
+			}
+		},
+		"subscriptions": {
+			"confirm": "\u05d4\u05ea\u05e8\u05d0\u05d5\u05ea \u05de\u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05dc\u05da \u05dc\u05d3\u05e2\u05ea \u05e2\u05dc \u05d3\u05d1\u05e8\u05d9\u05dd \u05e9\u05de\u05e2\u05e0\u05d9\u05d9\u05e0\u05d9\u05dd \u05d0\u05d5\u05ea\u05da, \u05db\u05d2\u05d5\u05df \u05db\u05d0\u05e9\u05e8 \u05d7\u05d1\u05e8 \u05de\u05e6\u05d8\u05e8\u05e3 \u05dc\u05d0\u05e4\u05dc\u05d9\u05e7\u05e6\u05d9\u05d4 \u05d0\u05d5 \u05d4\u05d5\u05d3\u05e2\u05d5\u05ea."
+		},
+		"invite": "{{Q.words.TapOrClick}} \u05db\u05d0\u05df \u05db\u05d3\u05d9 \u05dc\u05e8\u05d0\u05d5\u05ea \u05db\u05d9\u05e6\u05d3 \u05ea\u05d5\u05db\u05dc \u05dc\u05d7\u05dc\u05d5\u05e7 \u05d0\u05ea \u05d6\u05d4 \u05e2\u05dd \u05d0\u05e0\u05e9\u05d9\u05dd \u05d0\u05d7\u05e8\u05d9\u05dd."
+	},
+	"payment": {
+		"onContribute": "\u05ea\u05d5\u05d3\u05d4! \u05d4\u05ea\u05e9\u05dc\u05d5\u05dd \u05e9\u05dc\u05da \u05e2\u05d1\u05e8. \u05d4\u05d0\u05dd \u05ea\u05e8\u05e6\u05d4 \u05dc\u05d4\u05d6\u05de\u05d9\u05df \u05d0\u05ea \u05d7\u05d1\u05e8\u05d9\u05da \u05dc\u05d4\u05e6\u05d8\u05e8\u05e3 \u05d0\u05dc\u05d9\u05da?",
+		"ConnectAccount": "\u05d7\u05d1\u05e8 \u05d7\u05e9\u05d1\u05d5\u05df"
+	},
+	"featureboard": {
+		"Text_1": "\u05ea\u05d9\u05e9\u05de\u05e2 \u05dc\u05e7\u05d5\u05dc\u05da! \u05d4\u05d0\u05dd \u05d0\u05ea\u05d4 \u05de\u05e1\u05db\u05d9\u05dd \u05e9\u05e2\u05dc\u05d9\u05e0\u05d5 \u05dc\u05e4\u05ea\u05d7 \u05ea\u05db\u05d5\u05e0\u05d4 \u05d0\u05d5 \u05d1\u05d0\u05d2? \u05dc\u05d7\u05e5 \u05e2\u05dc \u05d4\u05db\u05e4\u05ea\u05d5\u05e8 \u05db\u05d3\u05d9 \u05dc\u05ea\u05de\u05d5\u05da \u05d1\u05d5.",
+		"Text_2": "\u05e8\u05d5\u05e6\u05d4 \u05e9\u05e0\u05e4\u05ea\u05d7 \u05e4\u05d9\u05e6&#39;\u05e8 \u05d7\u05d3\u05e9? \u05ea\u05d0\u05e8 \u05d0\u05ea \u05d6\u05d4 \u05dc\u05de\u05d8\u05d4.",
+		"Text_3": "\u05d1\u05db\u05dc \u05e9\u05d1\u05d5\u05e2 \u05d0\u05e0\u05d5 \u05de\u05ea\u05d7\u05d9\u05dc\u05d9\u05dd \u05dc\u05e4\u05ea\u05d7 \u05d0\u05ea \u05d4\u05ea\u05db\u05d5\u05e0\u05d4 \u05d4\u05de\u05d1\u05d5\u05e7\u05e9\u05ea \u05d1\u05d9\u05d5\u05ea\u05e8 \u05e2\u05dc \u05d9\u05d3\u05d9 \u05d4\u05e7\u05d4\u05d9\u05dc\u05d4. \u05db\u05dc \u05d4\u05db\u05e1\u05e3 \u05e9\u05ea\u05e8\u05dd \u05d4\u05d5\u05dc\u05da \u05dc\u05de\u05d8\u05e8\u05d4 \u05d6\u05d5 \u05d5\u05de\u05d0\u05e4\u05e9\u05e8 \u05dc\u05e0\u05d5 \u05dc\u05e9\u05e4\u05e8 \u05d0\u05ea \u05d4\u05d0\u05e4\u05dc\u05d9\u05e7\u05e6\u05d9\u05d4.",
+		"Text_4": "\u05db\u05dc \u05d4\u05db\u05e1\u05e3 \u05e9\u05ea\u05e8\u05dd \u05de\u05e9\u05de\u05e9 \u05db\u05d3\u05d9 \u05dc\u05e9\u05dc\u05dd \u05d0\u05ea \u05e2\u05dc\u05d5\u05d9\u05d5\u05ea \u05d4\u05e4\u05d9\u05ea\u05d5\u05d7 \u05e9\u05dc\u05e0\u05d5.",
+		"Text_5": "\u05d4\u05d0\u05dd \u05d9\u05e9 \u05dc\u05da \u05e8\u05e2\u05d9\u05d5\u05df \u05dc\u05ea\u05db\u05d5\u05e0\u05d4 \u05d0\u05d5 \u05dc\u05ea\u05d9\u05e7\u05d5\u05df \u05d1\u05d0\u05d2\u05d9\u05dd \u05e9\u05d0\u05ea\u05d4 \u05e8\u05d5\u05e6\u05d4 \u05e9\u05e0\u05e2\u05e9\u05d4 \u05d0\u05da \u05d8\u05e8\u05dd \u05e8\u05d0\u05d9\u05ea \u05d0\u05d7\u05e8\u05d9\u05dd \u05de\u05d5\u05e1\u05d9\u05e4\u05d9\u05dd? \u05ea\u05d0\u05e8 \u05d6\u05d0\u05ea \u05dc\u05de\u05d8\u05d4:",
+		"Options": [
+			{
+				"text": "\u05d5\u05e2\u05d9\u05d3\u05ea \u05d5\u05d9\u05d3\u05d9\u05d0\u05d5 \u05d1\u05d6\u05de\u05df \u05d0\u05de\u05ea"
+			},
+			{
+				"defaultAmount": "10",
+				"text": "\u05de\u05d9\u05d3\u05e2 \u05e2\u05dc \u05d4\u05e8\u05e9\u05de\u05d4 \u05e8\u05d0\u05e9\u05d9\u05ea \u05de\u05e7\u05d5\u05de\u05d9\u05ea \u05d1\u05e1\u05da 200 $"
+			},
+			{
+				"text": "130 $ \u05d3\u05e4\u05d3\u05e3 \u05d5\u05e9\u05ea\u05e3 \u05d0\u05dc\u05e4\u05d9 {{1}} memes",
+				"defaultAmount": "10"
+			},
+			{
+				"text": "$ 80 \u05e0\u05d4\u05dc \u05e7\u05d4\u05d9\u05dc\u05d5\u05ea \u05de\u05e9\u05dc\u05da",
+				"defaultAmount": "10"
+			},
+			{
+				"text": "30 $ \u05dc\u05ea\u05e7\u05df \u05d1\u05d0\u05d2 \u05e9\u05d9\u05d7\u05d5\u05ea",
+				"defaultAmount": "10"
+			}
+		],
+		"RequestNewFeature": "\u05d1\u05e7\u05e9 \u05ea\u05db\u05d5\u05e0\u05d4 \u05d7\u05d3\u05e9\u05d4 / \u05d1\u05d0\u05d2\u05e4\u05d9\u05e7\u05e1",
+		"FeaturePlaceholder": "\u05e1\u05d9\u05db\u05d5\u05dd \u05e7\u05e6\u05e8 \u05e9\u05dc \u05d4\u05ea\u05db\u05d5\u05e0\u05d4",
+		"FeatureDescription": "\u05ea\u05d0\u05e8 \u05db\u05d9\u05e6\u05d3 \u05de\u05d9\u05e9\u05d4\u05d5 \u05d0\u05d7\u05e8 \u05d9\u05db\u05d5\u05dc \u05dc\u05e9\u05d7\u05d6\u05e8 \u05d0\u05ea \u05d4\u05d1\u05d0\u05d2 \u05e9\u05d0\u05ea\u05d4 \u05e8\u05d5\u05d0\u05d4, \u05d0\u05d5 \u05ea\u05d0\u05e8 \u05d1\u05e4\u05d9\u05e8\u05d5\u05d8 \u05d0\u05ea \u05d4\u05ea\u05db\u05d5\u05e0\u05d4 \u05e9\u05d0\u05ea\u05d4 \u05e8\u05d5\u05e6\u05d4 \u05dc\u05d1\u05e0\u05d5\u05ea",
+		"AddYourRequest": "\u05d4\u05d5\u05e1\u05e3 \u05d0\u05ea \u05d1\u05e7\u05e9\u05ea\u05da",
+		"NewFeature": "\u05ea\u05db\u05d5\u05e0\u05d4 \u05d7\u05d3\u05e9\u05d4"
+	},
+	"assetshistory": {
+		"Title": "\u05d4\u05d9\u05e1\u05d8\u05d5\u05e8\u05d9\u05d4 \u05e9\u05dc \u05e0\u05db\u05e1\u05d9\u05dd",
+		"Charges": "\u05d7\u05d9\u05d5\u05d1\u05d9\u05dd",
+		"Credits": "\u05e0\u05e7\u05d5\u05d3\u05d5\u05ea \u05d6\u05db\u05d5\u05ea"
+	},
+	"contribute": {
+		"ContributeExplanation": "\u05e2\u05d6\u05d5\u05e8 \u05dc\u05ea\u05de\u05d5\u05da \u05d1\u05d4\u05de\u05e9\u05da \u05e4\u05d9\u05ea\u05d5\u05d7 \u05d0\u05e4\u05dc\u05d9\u05e7\u05e6\u05d9\u05d9\u05ea {{communityName}}. \u05db\u05dc \u05d4\u05ea\u05e8\u05d5\u05de\u05d5\u05ea \u05e9\u05dc\u05da \u05e2\u05d5\u05d6\u05e8\u05d5\u05ea \u05dc\u05ea\u05e7\u05df \u05d1\u05d0\u05d2\u05d9\u05dd \u05d5\u05dc\u05e4\u05ea\u05d7 \u05ea\u05db\u05d5\u05e0\u05d5\u05ea \u05d7\u05d3\u05e9\u05d5\u05ea \u05e9\u05d9\u05e2\u05d6\u05e8\u05d5 \u05dc\u05e6\u05de\u05d9\u05d7\u05ea \u05d4\u05e7\u05d4\u05d9\u05dc\u05d4 \u05d4\u05de\u05e7\u05d5\u05d5\u05e0\u05ea!",
+		"ReasonToContribute": "\u05d0\u05e4\u05dc\u05d9\u05e7\u05e6\u05d9\u05d4 \u05d6\u05d5 \u05de\u05ea\u05d5\u05d7\u05d6\u05e7\u05ea \u05e2\u05dc \u05d9\u05d3\u05d9 \u05ea\u05d5\u05de\u05db\u05d9 {{communityName}}. \u05e2\u05d6\u05d5\u05e8 \u05dc\u05ea\u05de\u05d5\u05da \u05d1\u05d0\u05e4\u05dc\u05d9\u05e7\u05e6\u05d9\u05d4 \u05d6\u05d5 \u05db\u05d3\u05d9 \u05e9\u05e0\u05d5\u05db\u05dc \u05dc\u05e2\u05e9\u05d5\u05ea \u05d0\u05ea \u05d4\u05d4\u05d1\u05d3\u05dc \u05d1\u05d7\u05d9\u05d9\u05d4\u05dd \u05e9\u05dc \u05d0\u05e0\u05e9\u05d9\u05dd!"
+	},
+	"accounts": {
+		"remove": {
+			"title": "\u05d4\u05e1\u05e8 \u05d7\u05e9\u05d1\u05d5\u05df",
+			"content": "\u05d4\u05d0\u05dd \u05d1\u05e8\u05e6\u05d5\u05e0\u05da \u05dc\u05d4\u05e1\u05d9\u05e8 \u05d7\u05e9\u05d1\u05d5\u05df \u05d6\u05d4?",
+			"ok": "\u05db\u05df",
+			"cancel": "\u05dc\u05d0"
+		}
+	},
+	"import": {
+		"fileNotFound": "\u05de\u05e6\u05d8\u05e2\u05e8\u05d9\u05dd, \u05e7\u05d5\u05d1\u05e5 CSV \u05dc\u05d0 \u05e0\u05de\u05e6\u05d0.",
+		"fileEmpty": "\u05de\u05e6\u05d8\u05e2\u05e8\u05d9\u05dd, \u05e7\u05d5\u05d1\u05e5 CSV \u05e8\u05d9\u05e7.",
+		"userIdNotFound": "\u05d4\u05de\u05e9\u05ea\u05de\u05e9 \u05e7\u05d9\u05d9\u05dd \u05d0\u05da \u05de\u05d6\u05d4\u05d4 \u05e8\u05d9\u05e7",
+		"errorLine": "\u05e9\u05d5\u05e8\u05d4 {{1}}",
+		"fieldNotFound": "\u05d4\u05e9\u05d3\u05d4 \u05d4\u05e0\u05d3\u05e8\u05e9 &quot;{{1}}&quot; \u05dc\u05d0 \u05e0\u05de\u05e6\u05d0",
+		"taskStreamInvalid": "\u05d6\u05e8\u05dd \u05d4\u05de\u05e9\u05d9\u05de\u05d5\u05ea \u05dc\u05d0 \u05d7\u05d5\u05e7\u05d9",
+		"instructionsEmpty": "\u05d4\u05d5\u05e8\u05d0\u05d5\u05ea \u05dc\u05d6\u05e8\u05dd \u05d4\u05de\u05e9\u05d9\u05de\u05d5\u05ea \u05e8\u05d9\u05e7\u05d5\u05ea",
+		"complete": "\u05e9\u05dc\u05dd",
+		"activateUsers": "\u05dc\u05e9\u05dc\u05d5\u05d7 \u05d4\u05d5\u05d3\u05e2\u05ea \u05d4\u05e4\u05e2\u05dc\u05d4 \u05dc\u05de\u05e9\u05ea\u05de\u05e9\u05d9\u05dd?",
+		"importProgress": "\u05d4\u05ea\u05e7\u05d3\u05de\u05d5\u05ea",
+		"joinEventLabel": "\u05d4\u05e6\u05d8\u05e8\u05e3 \u05dc\u05de\u05e9\u05ea\u05de\u05e9\u05d9\u05dd \u05dc\u05d0\u05d9\u05e8\u05d5\u05e2 \u05d0\u05e7\u05e8\u05d0\u05d9",
+		"importOptions": "\u05d0\u05e4\u05e9\u05e8\u05d5\u05d9\u05d5\u05ea",
+		"sampleCSV": "\u05d4\u05d5\u05e8\u05d3 \u05d3\u05d5\u05d2\u05de\u05ea CSV",
+		"fileLabel": "\u05d4\u05e2\u05dc\u05d4 \u05d2\u05d9\u05dc\u05d9\u05d5\u05df \u05d0\u05dc\u05e7\u05d8\u05e8\u05d5\u05e0\u05d9:",
+		"errorsTitle": "\u05d0\u05d9\u05e8\u05e2\u05d5 \u05e9\u05d2\u05d9\u05d0\u05d5\u05ea",
+		"communityUsers": "\u05d6\u05d5 \u05e8\u05e9\u05d9\u05de\u05ea \u05e7\u05d4\u05d9\u05dc\u05d5\u05ea",
+		"setAsConversation": "\u05d8\u05d5\u05e8 URL \u05db\u05e9\u05d9\u05d7\u05d4",
+		"toMainCommunityToo": "\u05d4\u05d5\u05e1\u05e3 \u05de\u05e9\u05ea\u05de\u05e9\u05d9\u05dd \u05d2\u05dd \u05dc\u05e7\u05d4\u05d9\u05dc\u05d4 \u05d4\u05e8\u05d0\u05e9\u05d9\u05ea",
+		"willImportedTo": "\u05d4\u05de\u05e9\u05ea\u05de\u05e9\u05d9\u05dd \u05d9\u05d5\u05d1\u05d0\u05d5 \u05dc\u05e7\u05d4\u05d9\u05dc\u05d4",
+		"ChooseFile": "\u05d1\u05d7\u05e8 \u05e7\u05d5\u05d1\u05e5"
+	},
+	"dashboard": {
+		"Menu": "\u05ea\u05e4\u05e8\u05d9\u05d8",
+		"Home": "\u05d1\u05d9\u05ea",
+		"Welcome": "\u05d1\u05e8\u05d5\u05da \u05d4\u05d1\u05d0",
+		"Events": "\u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd",
+		"Discuss": "\u05dc\u05b8\u05d3\u05d5\u05bc\u05df",
+		"People": "\u05d0\u05b2\u05e0\u05b8\u05e9\u05c1\u05b4\u05d9\u05dd",
+		"About": "\u05e2\u05dc \u05d0\u05d5\u05d3\u05d5\u05ea",
+		"Community": "\u05e7\u05d4\u05d9\u05dc\u05d4",
+		"LogIn": "\u05d4\u05ea\u05d7\u05d1\u05e8\u05d5\u05ea",
+		"LogOut": "\u05dc\u05d4\u05ea\u05e0\u05ea\u05e7",
+		"Intercoin": "\u05d0\u05d9\u05e0\u05d8\u05e8\u05e7\u05d5\u05d9\u05df",
+		"Shows": "\u05de\u05d5\u05e4\u05e2\u05d9\u05dd",
+		"Calendar": "\u05dc\u05d5\u05bc\u05d7\u05b7 \u05e9\u05c1\u05b8\u05e0\u05b8\u05d4",
+		"Me": "\u05dc\u05b4\u05d9",
+		"Media": "\u05db\u05bc\u05b0\u05dc\u05b5\u05d9 \u05ea\u05b4\u05e7\u05b0\u05e9\u05c1\u05d5\u05b9\u05e8\u05b6\u05ea",
+		"Services": "\u05e9\u05d9\u05e8\u05d5\u05ea\u05d9\u05dd",
+		"SetMobileNumber": "\u05d4\u05d2\u05d3\u05e8 \u05de\u05e1\u05e4\u05e8 \u05e0\u05d9\u05d9\u05d3",
+		"SetEmailAddress": "\u05d4\u05d2\u05d3\u05e8 \u05db\u05ea\u05d5\u05d1\u05ea \u05d0\u05d9\u05de\u05d9\u05d9\u05dc"
+	},
+	"services": {
+		"Title": "\u05e9\u05d9\u05e8\u05d5\u05ea\u05d9\u05dd",
+		"filterByTitle": "\u05de\u05e6\u05d0 \u05e9\u05d9\u05e8\u05d5\u05ea\u05d9\u05dd \u05dc\u05e4\u05d9 \u05db\u05d5\u05ea\u05e8\u05ea",
+		"New": "+ \u05d4\u05ea\u05d7\u05dc \u05e9\u05d9\u05e8\u05d5\u05ea \u05d7\u05d3\u05e9",
+		"NewService": "\u05e9\u05d9\u05e8\u05d5\u05ea \u05d7\u05d3\u05e9",
+		"NewAvailability": "\u05d6\u05de\u05d9\u05e0\u05d5\u05ea \u05d7\u05d3\u05e9\u05d4",
+		"filterServices": "\u05e9\u05d9\u05e8\u05d5\u05ea\u05d9 \u05e1\u05d9\u05e0\u05d5\u05df",
+		"NoneYet": "\u05e2\u05d3\u05d9\u05d9\u05df \u05dc\u05d0 \u05e0\u05d5\u05e6\u05e8\u05d5 \u05e9\u05d9\u05e8\u05d5\u05ea\u05d9\u05dd<br> \u05d1\u05d6\u05de\u05e0\u05d9\u05dd \u05d0\u05dc\u05d5.",
+		"AllAuthors": "\u05db\u05dc \u05d4\u05de\u05d7\u05d1\u05e8\u05d9\u05dd",
+		"AllDays": "\u05db\u05dc \u05d4\u05d9\u05de\u05d9\u05dd",
+		"AllLocations": "\u05db\u05dc \u05d4\u05de\u05d9\u05e7\u05d5\u05de\u05d9\u05dd",
+		"MakeReservation": "\u05dc\u05d1\u05e6\u05e2 \u05d4\u05d6\u05de\u05e0\u05d4",
+		"CancelReservation": "\u05d1\u05d9\u05d8\u05d5\u05dc \u05d4\u05d6\u05de\u05e0\u05d4",
+		"UpdateReservation": "\u05e2\u05d3\u05db\u05df \u05d4\u05d6\u05de\u05e0\u05d4",
+		"AreYouSure": "\u05d4\u05d0\u05dd \u05d0\u05ea\u05d4 \u05d1\u05d8\u05d5\u05d7?",
+		"YouWillRefunded": "\u05ea\u05e7\u05d1\u05dc \u05d4\u05d7\u05d6\u05e8 \u05d1\u05e6\u05d5\u05e8\u05ea \u05d6\u05d9\u05db\u05d5\u05d9\u05d9\u05dd \u05e9\u05ea\u05d5\u05db\u05dc \u05dc\u05d4\u05d5\u05e6\u05d9\u05d0 \u05e2\u05dc \u05d3\u05d1\u05e8\u05d9\u05dd \u05d0\u05d7\u05e8\u05d9\u05dd \u05d1\u05d0\u05e4\u05dc\u05d9\u05e7\u05e6\u05d9\u05d4.",
+		"AllInterests": "\u05db\u05dc \u05ea\u05d7\u05d5\u05de\u05d9 \u05d4\u05e2\u05e0\u05d9\u05d9\u05df",
+		"FilterbyInterest": "\u05e1\u05e0\u05df \u05dc\u05e4\u05d9 \u05e2\u05e0\u05d9\u05d9\u05df",
+		"FilterByDate": "\u05e1\u05d9\u05e0\u05d5\u05df \u05dc\u05e4\u05d9 \u05ea\u05d0\u05e8\u05d9\u05da",
+		"ShowActivities": "\u05d4\u05e6\u05d2 \u05e4\u05e2\u05d9\u05dc\u05d5\u05d9\u05d5\u05ea \u05d4\u05e7\u05e9\u05d5\u05e8\u05d5\u05ea \u05dc...",
+		"newServices": "\u05d9\u05e9 \u05dc\u05da {{1}} \u05e9\u05d9\u05e8\u05d5\u05ea\u05d9\u05dd \u05d7\u05d3\u05e9\u05d9\u05dd",
+		"SelectLocation": "\u05ea\u05d1\u05d7\u05e8 \u05de\u05d9\u05e7\u05d5\u05dd",
+		"FilterLocationsPlaceHolder": "\u05e1\u05e0\u05df \u05de\u05e7\u05d5\u05de\u05d5\u05ea \u05e2\u05dd...",
+		"Description": "\u05e9\u05d9\u05e8\u05d5\u05ea {{1}}",
+		"Keywords": "\u05e9\u05d9\u05e8\u05d5\u05ea {{1}}"
+	},
+	"welcome": {
+		"Title": "{{appName}}: \u05d1\u05e8\u05d5\u05da \u05d4\u05d1\u05d0",
+		"GetStarted": "\u05dc\u05d4\u05ea\u05d7\u05d9\u05dc",
+		"gallery": {
+			"Connect": "\u05dc\u05b0\u05d7\u05b7\u05d1\u05bc\u05b5\u05e8",
+			"Organize": "\u05dc\u05b0\u05d0\u05b7\u05e8\u05d2\u05b5\u05df",
+			"Travel": "\u05dc\u05b4\u05e0\u05b0\u05e1\u05d5\u05b9\u05e2\u05b7",
+			"Share": "\u05dc\u05b7\u05d7\u05b2\u05dc\u05d5\u05b9\u05e7"
+		}
+	}
 }

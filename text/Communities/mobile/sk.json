@@ -1,24 +1,24 @@
 {
-    "activation": {
-        "Thanks": "Vitajte v {{1}}.",
-        "ClickHere": "Kliknutím sem aktivujete svoj účet: {{1}}"
-    },
-    "addMobile": {
-        "ClickHere": "Kliknite sem a overte svoje mobilné číslo: {{1}}"
-    },
-    "SeeHistory": "Zobraziť históriu platieb za {{1}}",
-    "charge": {
-        "HasBeenCharged": "{{1}} bola účtovaná {{100}} za {{3}} používateľom {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Dobrý deň, {{1}}, toto je len rýchle potvrdenie, že ste úspešne zaplatili {{2}} používateľovi {{3}} za {{4}}"
-    },
-    "subscription": {
-        "YouHaveStarted": "Prihlásili ste sa na odber {{2}} s {{3}} za {{4}} na {{5}} mesiacov.",
-        "HasStarted": "{{1}} sa prihlásil na odber {{2}} s {{3}} za {{4}} na {{5}} mesiacov."
-    },
-    "resend": {
-        "DidYouWant": "Chceli ste obnoviť svoju prístupovú frázu v {{1}}?",
-        "ClickHere": "Potom kliknite sem: {{1}}"
-    }
+	"activation": {
+		"Thanks": "Vitajte v {{1}}.",
+		"ClickHere": "Kliknut\u00edm sem aktivujete svoj \u00fa\u010det: {{1}}"
+	},
+	"addMobile": {
+		"ClickHere": "Kliknite sem a overte svoje mobiln\u00e9 \u010d\u00edslo: {{1}}"
+	},
+	"SeeHistory": "Zobrazi\u0165 hist\u00f3riu platieb za {{1}}",
+	"charge": {
+		"HasBeenCharged": "{{1}} bola \u00fa\u010dtovan\u00e1 {{100}} za {{3}} pou\u017e\u00edvate\u013eom {{4}}"
+	},
+	"charged": {
+		"HavePaid": "Dobr\u00fd de\u0148, {{1}}, toto je len r\u00fdchle potvrdenie, \u017ee ste \u00faspe\u0161ne zaplatili {{2}} pou\u017e\u00edvate\u013eovi {{3}} za {{4}}"
+	},
+	"subscription": {
+		"YouHaveStarted": "Prihl\u00e1sili ste sa na odber {{2}} s {{3}} za {{4}} na {{5}} mesiacov.",
+		"HasStarted": "{{1}} sa prihl\u00e1sil na odber {{2}} s {{3}} za {{4}} na {{5}} mesiacov."
+	},
+	"resend": {
+		"DidYouWant": "Chceli ste obnovi\u0165 svoju pr\u00edstupov\u00fa fr\u00e1zu v {{1}}?",
+		"ClickHere": "Potom kliknite sem: {{1}}"
+	}
 }

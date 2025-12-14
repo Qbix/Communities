@@ -1,24 +1,24 @@
 {
-    "activation": {
-        "Thanks": "Sveiki atvykę į {{1}}.",
-        "ClickHere": "Spustelėkite čia, kad suaktyvintumėte paskyrą: {{1}}"
-    },
-    "addMobile": {
-        "ClickHere": "Spustelėkite čia, kad patvirtintumėte savo mobiliojo telefono numerį: {{1}}"
-    },
-    "SeeHistory": "Žr. {{1}} mokėjimų istoriją",
-    "charge": {
-        "HasBeenCharged": "{{1}} apmokestino {{2}} už {{3}}, {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Sveiki, {{1}}, tai tik greitas patvirtinimas, kad sėkmingai sumokėjote {{2}} {{3}} už {{4}}"
-    },
-    "subscription": {
-        "YouHaveStarted": "Užsiprenumeravote {{2}} su {{3}} {{4}} {{5}} mėn.",
-        "HasStarted": "{{1}} užsiprenumeravo {{2}} su {{3}} {{4}} {{5}} mėn."
-    },
-    "resend": {
-        "DidYouWant": "Ar norėjote iš naujo nustatyti slaptafrazę {{1}}?",
-        "ClickHere": "Tada spustelėkite čia: {{1}}"
-    }
+	"activation": {
+		"Thanks": "Sveiki atvyk\u0119 \u012f {{1}}.",
+		"ClickHere": "Spustel\u0117kite \u010dia, kad suaktyvintum\u0117te paskyr\u0105: {{1}}"
+	},
+	"addMobile": {
+		"ClickHere": "Spustel\u0117kite \u010dia, kad patvirtintum\u0117te savo mobiliojo telefono numer\u012f: {{1}}"
+	},
+	"SeeHistory": "\u017dr. {{1}} mok\u0117jim\u0173 istorij\u0105",
+	"charge": {
+		"HasBeenCharged": "{{1}} apmokestino {{2}} u\u017e {{3}}, {{4}}"
+	},
+	"charged": {
+		"HavePaid": "Sveiki, {{1}}, tai tik greitas patvirtinimas, kad s\u0117kmingai sumok\u0117jote {{2}} {{3}} u\u017e {{4}}"
+	},
+	"subscription": {
+		"YouHaveStarted": "U\u017esiprenumeravote {{2}} su {{3}} {{4}} {{5}} m\u0117n.",
+		"HasStarted": "{{1}} u\u017esiprenumeravo {{2}} su {{3}} {{4}} {{5}} m\u0117n."
+	},
+	"resend": {
+		"DidYouWant": "Ar nor\u0117jote i\u0161 naujo nustatyti slaptafraz\u0119 {{1}}?",
+		"ClickHere": "Tada spustel\u0117kite \u010dia: {{1}}"
+	}
 }

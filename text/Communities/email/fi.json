@@ -1,33 +1,33 @@
 {
-    "activation": {
-        "Thanks": "Tervetuloa {{1}}",
-        "ReallyYourEmail": "Onko tämä todella sähköpostiosoitteesi, {{1}}? Jos näin on, napsauta <a href='{{2}}'>tätä<\/a> asettaaksesi tunnuslauseesi ja aktivoidaksesi tilisi.",
-        "SeeYou": "Nähdään <a href='{{1}}'>{{2}}<\/a> !",
-        "Subject": "Tervetuloa! Vahvista sähköpostiosoitteesi."
-    },
-    "LinkToUnsubscribe": "Tässä on linkki <a href='{{1}}'>tilauksen peruuttamiseen<\/a> , jos et halua saada enää sähköpostiviestejä.",
-    "Greetings": "Terveisiä käyttäjältä {{1}}.",
-    "SeeHistory": "Katso maksuhistoria: {{1}}",
-    "charge": {
-        "HasBeenCharged": "Hei, tämä on vain ilmoitus, että {{1}} on veloitettu {{2}} summasta {{3}}, {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Hei {{1}}, tämä on vain nopea vahvistus siitä, että olet onnistuneesti maksanut {{2}} henkilölle {{3}} summasta {{4}}"
-    },
-    "resend": {
-        "Thanks": "Kiitos vierailustasi {{1}}",
-        "YouAreReceiving": "Sait tämän sähköpostin, koska joku on antanut sähköpostiosoitteesi ja napsauttanut &quot;unohdin tunnuslauseen&quot;. Jos et ollut sinä, jätä tämä viesti huomioimatta.",
-        "Reset": "Voit nollata salasanasi napsauttamalla {{1}}",
-        "SetUpPassphrase": "Määritä tunnuslause",
-        "DomainCode": "Jos verkkosivu on jo auki selaimessasi, voit kirjoittaa koodin",
-        "Subject": "Hei, unohditko salasanasi?"
-    },
-    "subscription": {
-        "YouHaveStarted": "Hei {{1}}, olet aloittanut kanavan {{2}} tilauksen {{3}} klo {{4}} {{5}} kuukauden ajaksi.",
-        "HasStarted": "Tämä on vain tiedoksi, että {{1}} on aloittanut kanavan {{2}} tilauksen {{3}} klo {{4}} {{5}} kuukauden ajaksi."
-    },
-    "SeeYou": "Nähdään {{1}}!",
-    "identifier": {
-        "Subject": "Tervetuloa! Vahvista sähköpostiosoitteesi."
-    }
+	"activation": {
+		"Thanks": "Tervetuloa {{1}}",
+		"ReallyYourEmail": "Onko t\u00e4m\u00e4 todella s\u00e4hk\u00f6postiosoitteesi, {{1}}? Jos n\u00e4in on, napsauta <a href='{{2}}'>t\u00e4t\u00e4</a> asettaaksesi tunnuslauseesi ja aktivoidaksesi tilisi.",
+		"SeeYou": "N\u00e4hd\u00e4\u00e4n <a href='{{1}}'>{{2}}</a> !",
+		"Subject": "Tervetuloa! Vahvista s\u00e4hk\u00f6postiosoitteesi."
+	},
+	"LinkToUnsubscribe": "T\u00e4ss\u00e4 on linkki <a href='{{1}}'>tilauksen peruuttamiseen</a> , jos et halua saada en\u00e4\u00e4 s\u00e4hk\u00f6postiviestej\u00e4.",
+	"Greetings": "Terveisi\u00e4 k\u00e4ytt\u00e4j\u00e4lt\u00e4 {{1}}.",
+	"SeeHistory": "Katso maksuhistoria: {{1}}",
+	"charge": {
+		"HasBeenCharged": "Hei, t\u00e4m\u00e4 on vain ilmoitus, ett\u00e4 {{1}} on veloitettu {{2}} summasta {{3}}, {{4}}"
+	},
+	"charged": {
+		"HavePaid": "Hei {{1}}, t\u00e4m\u00e4 on vain nopea vahvistus siit\u00e4, ett\u00e4 olet onnistuneesti maksanut {{2}} henkil\u00f6lle {{3}} summasta {{4}}"
+	},
+	"resend": {
+		"Thanks": "Kiitos vierailustasi {{1}}",
+		"YouAreReceiving": "Sait t\u00e4m\u00e4n s\u00e4hk\u00f6postin, koska joku on antanut s\u00e4hk\u00f6postiosoitteesi ja napsauttanut &quot;unohdin tunnuslauseen&quot;. Jos et ollut sin\u00e4, j\u00e4t\u00e4 t\u00e4m\u00e4 viesti huomioimatta.",
+		"Reset": "Voit nollata salasanasi napsauttamalla {{1}}",
+		"SetUpPassphrase": "M\u00e4\u00e4rit\u00e4 tunnuslause",
+		"DomainCode": "Jos verkkosivu on jo auki selaimessasi, voit kirjoittaa koodin",
+		"Subject": "Hei, unohditko salasanasi?"
+	},
+	"subscription": {
+		"YouHaveStarted": "Hei {{1}}, olet aloittanut kanavan {{2}} tilauksen {{3}} klo {{4}} {{5}} kuukauden ajaksi.",
+		"HasStarted": "T\u00e4m\u00e4 on vain tiedoksi, ett\u00e4 {{1}} on aloittanut kanavan {{2}} tilauksen {{3}} klo {{4}} {{5}} kuukauden ajaksi."
+	},
+	"SeeYou": "N\u00e4hd\u00e4\u00e4n {{1}}!",
+	"identifier": {
+		"Subject": "Tervetuloa! Vahvista s\u00e4hk\u00f6postiosoitteesi."
+	}
 }

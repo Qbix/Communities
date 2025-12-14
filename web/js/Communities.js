@@ -1047,7 +1047,6 @@ Q.page('', function (unload, url, o) {
 		Communities.adjustHeight();
 	}
 	Q.onLayout($('#content')[0]).set(Communities.adjustHeight, true);
-	Q.onLayout($('#Users_list_tool')[0]).set(Communities.adjustHeight, true);
 
 	if (Users.loggedInUser) {
 		Streams.Stream.retain(Users.loggedInUser.id, 'Streams/user/icon', 'Communities');

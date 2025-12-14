@@ -1,33 +1,33 @@
 {
-    "activation": {
-        "Thanks": "Tere tulemast {{1}}",
-        "ReallyYourEmail": "Kas see on tõesti teie e-posti aadress, {{1}}? Kui jah, klõpsake parooli määramiseks ja konto aktiveerimiseks <a href='{{2}}'>siin<\/a> .",
-        "SeeYou": "Kohtumiseni <a href='{{1}}'>{{2}}<\/a> !",
-        "Subject": "Tere tulemast! Palun kinnitage oma e-posti aadress."
-    },
-    "LinkToUnsubscribe": "Siin on link <a href='{{1}}'>tellimusest loobumiseks<\/a> , kui te ei soovi enam meile saada.",
-    "Greetings": "Tervitused kasutajalt {{1}}.",
-    "SeeHistory": "Vaadake {{1}} maksete ajalugu",
-    "charge": {
-        "HasBeenCharged": "Hei! Anname teile teada, et {{1}} on {{4}} võtnud tasu {{2}} summas {{3}}"
-    },
-    "charged": {
-        "HavePaid": "Tere, {{1}}, see on lihtsalt kiire kinnitus, et olete edukalt maksnud {{2}} isikule {{3}} summas {{4}}"
-    },
-    "resend": {
-        "Thanks": "Täname, et külastasite {{1}}",
-        "YouAreReceiving": "Saite selle meili, kuna keegi sisestas teie e-posti aadressi ja klõpsas &quot;unustasin parooli&quot;. Kui see ei olnud teie, siis lihtsalt ignoreerige seda sõnumit.",
-        "Reset": "Parooli lähtestamiseks klõpsake {{1}}",
-        "SetUpPassphrase": "Seadistage parool",
-        "DomainCode": "Kui veebileht on teie brauseris juba avatud, võite sisestada koodi",
-        "Subject": "Hei, kas unustasite oma parooli?"
-    },
-    "subscription": {
-        "YouHaveStarted": "Tere, {{1}}, alustasite kanali {{2}} tellimust teenusepakkujaga {{3}} kell {{4}} {{5}} kuuks.",
-        "HasStarted": "Anname teile teada, et {{1}} alustas kanali {{2}} tellimust {{3}} hinnaga {{4}} {{5}} kuuks."
-    },
-    "SeeYou": "Kohtumiseni {{1}}!",
-    "identifier": {
-        "Subject": "Tere tulemast! Kinnita oma e-posti aadress."
-    }
+	"activation": {
+		"Thanks": "Tere tulemast {{1}}",
+		"ReallyYourEmail": "Kas see on t\u00f5esti teie e-posti aadress, {{1}}? Kui jah, kl\u00f5psake parooli m\u00e4\u00e4ramiseks ja konto aktiveerimiseks <a href='{{2}}'>siin</a> .",
+		"SeeYou": "Kohtumiseni <a href='{{1}}'>{{2}}</a> !",
+		"Subject": "Tere tulemast! Palun kinnitage oma e-posti aadress."
+	},
+	"LinkToUnsubscribe": "Siin on link <a href='{{1}}'>tellimusest loobumiseks</a> , kui te ei soovi enam meile saada.",
+	"Greetings": "Tervitused kasutajalt {{1}}.",
+	"SeeHistory": "Vaadake {{1}} maksete ajalugu",
+	"charge": {
+		"HasBeenCharged": "Hei! Anname teile teada, et {{1}} on {{4}} v\u00f5tnud tasu {{2}} summas {{3}}"
+	},
+	"charged": {
+		"HavePaid": "Tere, {{1}}, see on lihtsalt kiire kinnitus, et olete edukalt maksnud {{2}} isikule {{3}} summas {{4}}"
+	},
+	"resend": {
+		"Thanks": "T\u00e4name, et k\u00fclastasite {{1}}",
+		"YouAreReceiving": "Saite selle meili, kuna keegi sisestas teie e-posti aadressi ja kl\u00f5psas &quot;unustasin parooli&quot;. Kui see ei olnud teie, siis lihtsalt ignoreerige seda s\u00f5numit.",
+		"Reset": "Parooli l\u00e4htestamiseks kl\u00f5psake {{1}}",
+		"SetUpPassphrase": "Seadistage parool",
+		"DomainCode": "Kui veebileht on teie brauseris juba avatud, v\u00f5ite sisestada koodi",
+		"Subject": "Hei, kas unustasite oma parooli?"
+	},
+	"subscription": {
+		"YouHaveStarted": "Tere, {{1}}, alustasite kanali {{2}} tellimust teenusepakkujaga {{3}} kell {{4}} {{5}} kuuks.",
+		"HasStarted": "Anname teile teada, et {{1}} alustas kanali {{2}} tellimust {{3}} hinnaga {{4}} {{5}} kuuks."
+	},
+	"SeeYou": "Kohtumiseni {{1}}!",
+	"identifier": {
+		"Subject": "Tere tulemast! Kinnita oma e-posti aadress."
+	}
 }

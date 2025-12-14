@@ -202,7 +202,7 @@ for ($i = 0; $i < $amount; $i++) {
 
 	// participate users to event
 	foreach ($participantsUsers as $participantsUser) {
-		Calendars_Event::rsvp($event, $participantsUser);
+		Calendars_Event::going($event, $participantsUser);
 	}
 	echo "\t" . count($participantsUsers) . ' users participated' . PHP_EOL;
 }

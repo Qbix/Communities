@@ -1,459 +1,459 @@
 {
-    "notFound": {
-        "Explanation": "<span class='url'>{{1}}<\/span> na nič neukazuje!",
-        "NextSteps": "Ak chcete nájsť to, čo hľadáte, použite hlavnú ponuku."
-    },
-    "dashboard": {
-        "Menu": "Ponuka",
-        "Home": "Domov",
-        "Welcome": "Vitajte",
-        "Events": "Diania",
-        "Discuss": "Diskutujte",
-        "People": "Ľudia",
-        "About": "O",
-        "Community": "Spoločenstva",
-        "LogIn": "Prihlásiť sa",
-        "LogOut": "odhlásiť sa",
-        "Intercoin": "Intercoin",
-        "Shows": "Relácie",
-        "Calendar": "Kalendár",
-        "Me": "ja",
-        "Media": "Médiá",
-        "Services": "Služby",
-        "SetMobileNumber": "Nastaviť mobilné číslo",
-        "SetEmailAddress": "Nastaviť e-mailovú adresu"
-    },
-    "greeting": {
-        "Welcome": "Vitajte v {{1}}. Tu nájdete veci uverejnené pre členov našej komunity. Pridajte svoju e-mailovú adresu alebo mobilné číslo, aby ste mohli dostávať upozornenia na zverejnenie oznámení."
-    },
-    "conversations": {
-        "Title": "Rozhovory",
-        "New": "Nová konverzácia",
-        "Conversation": "Konverzácia",
-        "Topics": "Témy",
-        "NoneYet": "Zatiaľ sa nevytvorili žiadne rozhovory",
-        "newConversations": "{{1}} nových konverzácií",
-        "AllAuthors": "Všetci autori",
-        "FilterbyAuthors": "Filtrovať podľa autorov",
-        "FilterAuthorPlaceHolder": "Vyhľadať ďalších autorov...",
-        "filterConversations": "Filtrujte podľa textu",
-        "Description": "{{1}} konverzácií"
-    },
-    "newConversation": {
-        "composer": {
-            "ChooseActivity": "Vyberte tému",
-            "Share": "zdieľam",
-            "interest": {
-                "Title": "Vyberte aktivitu",
-                "Filter": "Hľadať záujmy..."
-            }
-        },
-        "Title": "Nová konverzácia",
-        "TitlePlaceholder": "Predmet vášho rozhovoru",
-        "ContentPlaceholder": "Napíšte pár slov na začatie konverzácie, aby ostatní mohli odpovedať",
-        "StartButton": "Začať konverzáciu"
-    },
-    "events": {
-        "Title": "Diania",
-        "filterByTitle": "Nájdite udalosti podľa názvu",
-        "New": "+ Začať novú udalosť",
-        "filterEvents": "Filtrovať udalosti",
-        "NewEvent": "Nová udalosť",
-        "SetLocation": "Nastaviť moju polohu",
-        "NoneYet": "Zatiaľ sa nevytvorili žiadne udalosti<br> v týchto časoch.",
-        "AllAuthors": "Všetci autori",
-        "AllDays": "Všetky dni",
-        "AllLocations": "Všetky miesta",
-        "MakeReservation": "Urobiť rezerváciu",
-        "CancelReservation": "Zrušiť rezerváciu",
-        "UpdateReservation": "Aktualizovať rezerváciu",
-        "AreYouSure": "Si si istý?",
-        "YouWillRefunded": "Peniaze vám budú vrátené vo forme kreditov, ktoré môžete minúť na iné veci v aplikácii.",
-        "AllInterests": "Všetky záujmy",
-        "FilterbyInterest": "Filtrujte podľa záujmu",
-        "FilterByDate": "Filtrovať podľa dátumu",
-        "ShowActivities": "Zobraziť aktivity súvisiace s . . .",
-        "newEvents": "Máte {{1}} nových udalostí",
-        "SelectLocation": "Vyberte umiestnenie",
-        "FilterLocationsPlaceHolder": "Filtrujte miesta pomocou...",
-        "Description": "{{1}} udalosti",
-        "Keywords": "{{1}} udalosti"
-    },
-    "schedule": {
-        "Title": "Rozvrh",
-        "NoneYet": "Nezúčastňujete sa žiadnych udalostí",
-        "AddSome": "Pridajte nejaké do svojho plánu!",
-        "AddMore": "Pridajte udalosti do svojho plánu!",
-        "future": "budúcnosti",
-        "past": "minulosti"
-    },
-    "location": {
-        "Title": "Miesto",
-        "NewLocation": "Nová poloha"
-    },
-    "inbox": {
-        "Title": "Doručená pošta",
-        "NoneYet": "Nezúčastňujete sa žiadnej konverzácie",
-        "FindPeople": "Nájdite ľudí, s ktorými sa môžete porozprávať",
-        "GroupConversations": "Pripojte sa k nejakým skupinovým rozhovorom",
-        "ContactStaff": "Kontaktujte personál",
-        "ContactCustomers": "Kontaktujte zákazníkov",
-        "AddNewContact": "Pridať nový kontakt",
-        "AddNewContacts": "Pridať nové kontakty"
-    },
-    "me": {
-        "Title": "ja",
-        "MobileNumber": "Telefónne číslo",
-        "EmailAddress": "Emailová adresa",
-        "UpdateSocialTitle": "Aktualizovať používateľské meno {{1}}",
-        "Web3": "Web3"
-    },
-    "people": {
-        "Title": "Ľudia",
-        "Description": "Ľudia v {{1}} komunite",
-        "AppAlert": "Táto aplikácia v obchode s aplikáciami vám umožní spojiť sa so svojimi priateľmi a oveľa viac.",
-        "Invite": "Pozvať priateľov",
-        "BuyCredits": "Kúpiť kredity",
-        "FindSomeoneByName": "Nájdite niekoho podľa mena",
-        "SearchByName": "Hľadaj podľa mena",
-        "FindAllMyFriends": "Nájsť všetkých mojich priateľov",
-        "labels": {
-            "All": "Všetci",
-            "Title": "Filtrujte podľa vzťahu",
-            "New": "Nový typ vzťahu"
-        },
-        "interests": {
-            "All": "Všetky záujmy",
-            "Title": "Filtrujte podľa záujmu",
-            "Filter": "Ukážte ľuďom, ktorí sa zaujímajú o . . ."
-        },
-        "Keywords": "{{1}} komunita ľudí"
-    },
-    "communities": {
-        "Title": "komunity",
-        "NewCommunity": "Nová komunita",
-        "FindCommunityByName": "Nájdite komunitu podľa názvu",
-        "Description": "{{1}} komunít"
-    },
-    "community": {
-        "Title": "{{1}} Komunita",
-        "Roles": "Roly",
-        "AllRoles": "Všetky roly",
-        "YouDontHavePermission": "Nemáte na to oprávnenie",
-        "usernamePlaceholder": "nastaviť názov komunity",
-        "NotEnoughCredits": "Nemáte dostatok kreditov na vytvorenie komunity. Potrebujete {{1}}, máte {{2}}"
-    },
-    "event": {
-        "GetDirections": "Získajte trasu",
-        "WhichMap": "Ktoré mapy by ste chceli použiť?",
-        "JoinEventToChat": "Pripojte sa k udalosti a četujte",
-        "promote": {
-            "Title": "Propagujte toto podujatie",
-            "Prompt": "Vyberte, kde chcete propagovať túto udalosť:"
-        },
-        "Confirmation": "Potvrdenie"
-    },
-    "newEvent": {
-        "Title": "Naplánujte si novú udalosť"
-    },
-    "interests": {
-        "Title": "Záujmy",
-        "prompt": "Vyberte typy vecí, o ktorých by ste chceli vedieť.",
-        "explanation": "Čím viac záujmov si vyberiete, tým je pravdepodobnejšie, že sa spojíte s podobne zmýšľajúcimi ľuďmi.",
-        "filter": "O čo sa zaujímaš?",
-        "Profile": "Zvýrazňujú sa vzájomné záujmy. Ak máte aj vy jeden alebo viacero záujmov uvedených nižšie, môžete ich {{clickOrTap}} pridať."
-    },
-    "credits": {
-        "Title": "Kredity",
-        "EarnCredits": "Získajte {{1}} kreditov za každú novú osobu, ktorú pozvete a ktorá sa pripojí k aplikácii",
-        "YouHave": "Máte {{1}} kreditov"
-    },
-    "onboarding": {
-        "Tap": "Klepnite",
-        "Click": "Kliknite",
-        "Yes": "Áno",
-        "No": "nie",
-        "Skip": "alebo toto preskočte",
-        "name": {
-            "Preface": "Vitajte v",
-            "Placeholder": "Zadajte svoje celé meno",
-            "GetStarted": "Začať",
-            "AsGuest": "Boli ste pozvaní ako hosť.",
-            "AsMember": "Boli ste pozvaní ako člen.",
-            "AsAdmin": "Boli ste pozvaní ako správca.",
-            "AsOwner": "Boli ste pozvaní ako vlastník.",
-            "TooShort": "Vaše celé meno nemôže byť také krátke",
-            "SetAsYourFullName": "Nastaviť {{1}} ako svoje celé meno?"
-        },
-        "icon": {
-            "KeepDefault": "alebo si túto fotku ponechajte",
-            "SetYourPhoto": "{{ClickOrTap}} na nastavenie fotografie:",
-            "ClickOnYourFace": "{{ClickOrTap}} Na vašej tvári"
-        },
-        "interests": {
-            "GetStarted": "⇩ Začnite",
-            "NextCategory": "↓ Ďalej",
-            "Continue": "ďalej",
-            "Instructions": "V každej z nasledujúcich {{1}} kategórií<br> {{100}} všetky aktivity, o ktoré máte záujem.<br> Takto sa spájate s ostatnými ľuďmi v komunite."
-        },
-        "profile": {
-            "Profile": "Váš profil pomáha ľuďom zistiť o vás viac.<br>",
-            "Birthday": "Zadajte dátum narodenia:",
-            "Placeholder": "kto si a čo robíš? Povedzte ľuďom niečo zaujímavé alebo jedinečné o sebe.",
-            "Required": "Ak chcete pokračovať, napíšte o sebe aspoň pár riadkov.",
-            "Month": "mesiac",
-            "Day": "deň",
-            "Year": "rok",
-            "Gender": "rod",
-            "Male": "Muž",
-            "Female": "Žena",
-            "Other": "Iné",
-            "Height": "Výška",
-            "Affiliation": "Afiliácia",
-            "Dating": "Zoznamka",
-            "Interested": "Mám záujem",
-            "NotInterested": "Nezaujíma",
-            "MatchmakerOnly": "Iba dohadzovač"
-        },
-        "location": {
-            "NoOneElse": "Nikto iný to neuvidí.",
-            "SetMyLocation": "Nastaviť moju polohu"
-        },
-        "pile": {
-            "DialogTitle": "Ľudia so spoločnými záujmami"
-        },
-        "Done": "hotový",
-        "relationships": {
-            "title": "Pridať {{userName}} do telefónneho zoznamu",
-            "welcome": "Vitajte {{user}}",
-            "invitedByUser": "vás pozval.",
-            "addToPhonebook": "Uložiť do kontaktov v mojom telefóne",
-            "iosInstructions": "Posuňte zobrazenie nadol na Pridať nový kontakt",
-            "androidInstructions": "Tento súbor vCard by ste mali otvoriť po jeho stiahnutí.",
-            "explanation": "Aký je váš vzťah?"
-        },
-        "Title": "Základné informácie",
-        "Prompt": "Niekoľko krokov na nastavenie účtu"
-    },
-    "profile": {
-        "Title": "Profil",
-        "Male": "Muž",
-        "Female": "Žena",
-        "Other": "Iné",
-        "dating": {
-            "Interested": "Mám záujem",
-            "NotInterested": "Nezaujíma",
-            "MatchmakerOnly": "Iba dohadzovač"
-        },
-        "StartConversation": "Začnite konverzáciu",
-        "blockUser": "Blokovať tohto používateľa",
-        "blockUserAlert": "Od tohto používateľa už neuvidíte žiadne správy, kým ho neodblokujete.",
-        "unblockUser": "Odblokovať tohto používateľa",
-        "addToContacts": "Pridať do kontaktov",
-        "manageLabels": "Spravovať štítky",
-        "inviteUsers": "Pozvať používateľov",
-        "selectRole": "Vyberte položku Rola",
-        "inviteSuccess": "Používateľ bol úspešne pozvaný ako {{label}}",
-        "invite": "pozvať",
-        "relationships": "Vzťahy",
-        "newRole": "Nová rola",
-        "about": "O",
-        "people": "Ľudia",
-        "info": "Info",
-        "interests": "Záujmy",
-        "chat": "Chat",
-        "locations": "Miesta",
-        "ManageRoles": "Spravovať roly",
-        "aboutPlaceholder": "kto si a čo robíš? Povedzte ľuďom niečo zaujímavé alebo jedinečné o sebe.",
-        "explanation": "Váš profil pomáha lepšie spájať vás s inými ľuďmi pre skupinové aktivity.<br> Zadajte dátum narodenia",
-        "chats": {
-            "placeholder": "Povedz niečo"
-        },
-        "LogOut": "Odhlásiť sa",
-        "MyLinks": "Moje odkazy",
-        "MyJobs": "Moje úlohy",
-        "MySocial": "MySocial",
-        "MyEducation": "Moje vzdelanie",
-        "JobsPlaceholder": "Sem zadajte informácie o pracovných pozíciách",
-        "EducationPlaceholder": "Sem zadajte informácie o vzdelaní",
-        "ManageNotifications": "Spravovať upozornenia",
-        "YourPreferredLanguage": "Váš preferovaný jazyk",
-        "SendCrypto": "zaplatiť",
-        "Block": "Blokovať",
-        "Unblock": "Odblokovať",
-        "Email": "Email",
-        "Avoid": "Vyhnite sa",
-        "CreatePrivateChat": "Míňate {{credits}} kreditov, aby ste ich oslovili?",
-        "RolesInCommunity": "Úlohy v komunite",
-        "PersonalChatWith": "Osobný čet s {{name}}",
-        "SendCryptoTo": "Odoslať kryptomeny na {{name}}",
-        "SendEmailTo": "Odoslať e-mail na adresu {{name}}",
-        "SendSMSTo": "Odoslať SMS na číslo {{name}}",
-        "BlockThisUser": "Blokovať tohto používateľa",
-        "UnblockThisUser": "Odblokujte tohto používateľa",
-        "YouCantChatWithYourself": "Nemôžete chatovať sami so sebou",
-        "blockUserAlertTitle": "Zablokované {{displayName}}",
-        "sections": {
-            "education": "Vzdelávanie",
-            "greeting": "Pozdravujem",
-            "jobs": "Práca",
-            "links": "Odkazy",
-            "language": "Jazyk",
-            "roles": "Roly",
-            "personal": "Osobné",
-            "social": "Sociálna"
-        },
-        "Roles": "Roly",
-        "SendPaymentTo": "Pošlite platbu na {{name}}"
-    },
-    "myqr": {
-        "Title": "Môj QR"
-    },
-    "composer": {
-        "createCommunity": "Vytvoriť komunitu",
-        "inviteAdmin": "Pozvať správcu",
-        "inviteMember": "Pozvať člena",
-        "newCommunityTitle": "Názov komunity",
-        "setCommunityTitle": "Názov komunity",
-        "creditsChargeRequest": "Súhlasíte s minimom {{price}} kreditov?",
-        "yes": "Áno",
-        "no": "nie"
-    },
-    "notifications": {
-        "WelcomePleaseVerifyEmail": "Vitajte! Overte svoju e-mailovú adresu.",
-        "WelcomeVerifyEmail": "Vitajte! Overte svoju e-mailovú adresu.",
-        "ForgetPass": "Ahoj, zabudli ste svoju prístupovú frázu?",
-        "ManageEmailSubscriptions": "spravujte svoje odbery e-mailov",
-        "IfUnsubscribe": "Ak sa chcete odhlásiť"
-    },
-    "speak": {
-        "onboarding": {
-            "name": {
-                "Welcome": "Vitajte v {{CommunityName}}. Táto aplikácia vám pomôže spojiť sa s priateľmi, objaviť nových ľudí so spoločnými záujmami a oveľa viac. Začnime!"
-            },
-            "icon": {
-                "Commentary": "Nastavte si fotografiu. Takto vás ľudia uvidia na stránke."
-            },
-            "interests": {
-                "Commentary": "Čím viac položiek si vyberiete, tým viac ľudí môžete stretnúť.",
-                "Notifications": "Musíte povoliť upozornenia"
-            }
-        },
-        "subscriptions": {
-            "confirm": "Upozornenia vám umožňujú vedieť o veciach, ktoré vás zaujímajú, napríklad keď sa k aplikácii pripojí priateľ alebo vám pošle správu."
-        },
-        "invite": "{{Q.words.TapOrClick}} tu, aby ste videli, ako to môžete zdieľať s ostatnými ľuďmi."
-    },
-    "payment": {
-        "onContribute": "Ďakujem! Vaša platba prebehla. Chceli by ste pozvať svojich priateľov, aby sa k vám pridali?",
-        "ConnectAccount": "Pripojiť účet"
-    },
-    "featureboard": {
-        "Text_1": "Nechajte svoj hlas počuť! Súhlasíte s tým, že by sme mali vyvinúť funkciu alebo chybu? Kliknutím na tlačidlo ju podporíte.",
-        "Text_2": "Chcete, aby sme vyvinuli novú funkciu? Popíšte to nižšie.",
-        "Text_3": "Každý týždeň začíname s vývojom najžiadanejšej funkcie komunitou. Všetky pridané peniaze idú na tento účel, čo nám umožňuje vylepšiť aplikáciu.",
-        "Text_4": "Všetky poskytnuté peniaze sa použijú na uhradenie našich nákladov na vývoj.",
-        "Text_5": "Máte nápad na funkciu alebo opravu chýb, ktoré chcete, aby sme urobili, ale zatiaľ ste nevideli, že by ich pridali iní? Opíšte to nižšie:",
-        "Options": [
-            {
-                "text": "400 USD Videokonferencie v reálnom čase"
-            },
-            {
-                "defaultAmount": "10",
-                "text": "200 $ Miestne primárne registračné informácie"
-            },
-            {
-                "text": "130 $ Prehliadajte a zdieľajte tisíce {{1}} mémov",
-                "defaultAmount": "10"
-            },
-            {
-                "text": "80 $ Spravujte svoje vlastné komunity",
-                "defaultAmount": "10"
-            },
-            {
-                "text": "30 USD Oprava chyby konverzácií",
-                "defaultAmount": "10"
-            }
-        ],
-        "RequestNewFeature": "Požiadajte o novú funkciu\/opravu chýb",
-        "FeaturePlaceholder": "Krátke zhrnutie funkcie",
-        "FeatureDescription": "Popíšte, ako môže niekto iný reprodukovať chybu, ktorú vidíte, alebo podrobne popíšte funkciu, ktorú chcete vytvoriť",
-        "AddYourRequest": "Pridajte svoju požiadavku",
-        "NewFeature": "Nová funkcia"
-    },
-    "contribute": {
-        "ContributeExplanation": "Pomôžte podporiť ďalší vývoj aplikácie {{communityName}}. Všetky vaše príspevky pomáhajú opraviť chyby a vyvíjať nové funkcie, ktoré pomôžu rozšíriť online komunitu!",
-        "ReasonToContribute": "Túto aplikáciu spravujú priaznivci {{communityName}}. Pomôžte podporiť túto aplikáciu, aby sme mohli zmeniť životy ľudí!"
-    },
-    "assetshistory": {
-        "Title": "História aktív",
-        "Charges": "Poplatky",
-        "Credits": "Kredity"
-    },
-    "accounts": {
-        "remove": {
-            "title": "Odstrániť účet",
-            "content": "Chcete tento účet odstrániť?",
-            "ok": "Áno",
-            "cancel": "nie"
-        }
-    },
-    "import": {
-        "fileNotFound": "Ľutujeme, súbor CSV sa nenašiel.",
-        "fileEmpty": "Ľutujeme, súbor CSV je prázdny.",
-        "userIdNotFound": "používateľ existuje, ale ID je prázdne",
-        "errorLine": "riadok {{1}}",
-        "fieldNotFound": "Povinné pole „{{1}}“ sa nenašlo",
-        "taskStreamInvalid": "tok úloh je neplatný",
-        "instructionsEmpty": "inštrukcie toku úloh sú prázdne",
-        "complete": "Dokončiť",
-        "activateUsers": "poslať aktivačnú správu používateľom?",
-        "importProgress": "Pokrok",
-        "joinEventLabel": "Pripojte používateľov k náhodnej udalosti",
-        "importOptions": "možnosti",
-        "sampleCSV": "Stiahnite si vzorový CSV",
-        "fileLabel": "Nahrať tabuľku:",
-        "errorsTitle": "Vyskytli sa chyby",
-        "communityUsers": "Toto je zoznam komunít",
-        "setAsConversation": "Stĺpec URL ako konverzácia",
-        "toMainCommunityToo": "pridajte používateľov aj do hlavnej komunity",
-        "willImportedTo": "Používatelia budú importovaní do komunity",
-        "ChooseFile": "vyberte súbor"
-    },
-    "services": {
-        "Title": "Služby",
-        "filterByTitle": "Nájdite služby podľa názvu",
-        "New": "+ Spustiť novú službu",
-        "NewService": "Nová služba",
-        "NewAvailability": "Nová dostupnosť",
-        "filterServices": "Filtračné služby",
-        "NoneYet": "Zatiaľ nie sú vytvorené žiadne služby<br> v týchto časoch.",
-        "AllAuthors": "Všetci autori",
-        "AllDays": "Všetky dni",
-        "AllLocations": "Všetky miesta",
-        "MakeReservation": "Urobiť rezerváciu",
-        "CancelReservation": "Zrušiť rezerváciu",
-        "UpdateReservation": "Aktualizovať rezerváciu",
-        "AreYouSure": "Si si istý?",
-        "YouWillRefunded": "Peniaze vám budú vrátené vo forme kreditov, ktoré môžete minúť na iné veci v aplikácii.",
-        "AllInterests": "Všetky záujmy",
-        "FilterbyInterest": "Filtrujte podľa záujmu",
-        "FilterByDate": "Filtrovať podľa dátumu",
-        "ShowActivities": "Zobraziť aktivity súvisiace s...",
-        "newServices": "Máte {{1}} nových služieb",
-        "SelectLocation": "Vyberte umiestnenie",
-        "FilterLocationsPlaceHolder": "Filtrujte miesta pomocou...",
-        "Description": "{{1}}",
-        "Keywords": "{{1}}"
-    },
-    "welcome": {
-        "Title": "{{appName}}: vitajte",
-        "GetStarted": "Začať",
-        "gallery": {
-            "Connect": "Pripojte sa",
-            "Organize": "Organizovať",
-            "Travel": "Cestovanie",
-            "Share": "zdieľam"
-        }
-    }
+	"notFound": {
+		"Explanation": "<span class='url'>{{1}}</span> na ni\u010d neukazuje!",
+		"NextSteps": "Ak chcete n\u00e1js\u0165 to, \u010do h\u013ead\u00e1te, pou\u017eite hlavn\u00fa ponuku."
+	},
+	"dashboard": {
+		"Menu": "Ponuka",
+		"Home": "Domov",
+		"Welcome": "Vitajte",
+		"Events": "Diania",
+		"Discuss": "Diskutujte",
+		"People": "\u013dudia",
+		"About": "O",
+		"Community": "Spolo\u010denstva",
+		"LogIn": "Prihl\u00e1si\u0165 sa",
+		"LogOut": "odhl\u00e1si\u0165 sa",
+		"Intercoin": "Intercoin",
+		"Shows": "Rel\u00e1cie",
+		"Calendar": "Kalend\u00e1r",
+		"Me": "ja",
+		"Media": "M\u00e9di\u00e1",
+		"Services": "Slu\u017eby",
+		"SetMobileNumber": "Nastavi\u0165 mobiln\u00e9 \u010d\u00edslo",
+		"SetEmailAddress": "Nastavi\u0165 e-mailov\u00fa adresu"
+	},
+	"greeting": {
+		"Welcome": "Vitajte v {{1}}. Tu n\u00e1jdete veci uverejnen\u00e9 pre \u010dlenov na\u0161ej komunity. Pridajte svoju e-mailov\u00fa adresu alebo mobiln\u00e9 \u010d\u00edslo, aby ste mohli dost\u00e1va\u0165 upozornenia na zverejnenie ozn\u00e1men\u00ed."
+	},
+	"conversations": {
+		"Title": "Rozhovory",
+		"New": "Nov\u00e1 konverz\u00e1cia",
+		"Conversation": "Konverz\u00e1cia",
+		"Topics": "T\u00e9my",
+		"NoneYet": "Zatia\u013e sa nevytvorili \u017eiadne rozhovory",
+		"newConversations": "{{1}} nov\u00fdch konverz\u00e1ci\u00ed",
+		"AllAuthors": "V\u0161etci autori",
+		"FilterbyAuthors": "Filtrova\u0165 pod\u013ea autorov",
+		"FilterAuthorPlaceHolder": "Vyh\u013eada\u0165 \u010fal\u0161\u00edch autorov...",
+		"filterConversations": "Filtrujte pod\u013ea textu",
+		"Description": "{{1}} konverz\u00e1ci\u00ed"
+	},
+	"newConversation": {
+		"composer": {
+			"ChooseActivity": "Vyberte t\u00e9mu",
+			"Share": "zdie\u013eam",
+			"interest": {
+				"Title": "Vyberte aktivitu",
+				"Filter": "H\u013eada\u0165 z\u00e1ujmy..."
+			}
+		},
+		"Title": "Nov\u00e1 konverz\u00e1cia",
+		"TitlePlaceholder": "Predmet v\u00e1\u0161ho rozhovoru",
+		"ContentPlaceholder": "Nap\u00ed\u0161te p\u00e1r slov na za\u010datie konverz\u00e1cie, aby ostatn\u00ed mohli odpoveda\u0165",
+		"StartButton": "Za\u010da\u0165 konverz\u00e1ciu"
+	},
+	"events": {
+		"Title": "Diania",
+		"filterByTitle": "N\u00e1jdite udalosti pod\u013ea n\u00e1zvu",
+		"New": "+ Za\u010da\u0165 nov\u00fa udalos\u0165",
+		"filterEvents": "Filtrova\u0165 udalosti",
+		"NewEvent": "Nov\u00e1 udalos\u0165",
+		"SetLocation": "Nastavi\u0165 moju polohu",
+		"NoneYet": "Zatia\u013e sa nevytvorili \u017eiadne udalosti<br> v t\u00fdchto \u010dasoch.",
+		"AllAuthors": "V\u0161etci autori",
+		"AllDays": "V\u0161etky dni",
+		"AllLocations": "V\u0161etky miesta",
+		"MakeReservation": "Urobi\u0165 rezerv\u00e1ciu",
+		"CancelReservation": "Zru\u0161i\u0165 rezerv\u00e1ciu",
+		"UpdateReservation": "Aktualizova\u0165 rezerv\u00e1ciu",
+		"AreYouSure": "Si si ist\u00fd?",
+		"YouWillRefunded": "Peniaze v\u00e1m bud\u00fa vr\u00e1ten\u00e9 vo forme kreditov, ktor\u00e9 m\u00f4\u017eete min\u00fa\u0165 na in\u00e9 veci v aplik\u00e1cii.",
+		"AllInterests": "V\u0161etky z\u00e1ujmy",
+		"FilterbyInterest": "Filtrujte pod\u013ea z\u00e1ujmu",
+		"FilterByDate": "Filtrova\u0165 pod\u013ea d\u00e1tumu",
+		"ShowActivities": "Zobrazi\u0165 aktivity s\u00favisiace s . . .",
+		"newEvents": "M\u00e1te {{1}} nov\u00fdch udalost\u00ed",
+		"SelectLocation": "Vyberte umiestnenie",
+		"FilterLocationsPlaceHolder": "Filtrujte miesta pomocou...",
+		"Description": "{{1}} udalosti",
+		"Keywords": "{{1}} udalosti"
+	},
+	"schedule": {
+		"Title": "Rozvrh",
+		"NoneYet": "Nez\u00fa\u010dast\u0148ujete sa \u017eiadnych udalost\u00ed",
+		"AddSome": "Pridajte nejak\u00e9 do svojho pl\u00e1nu!",
+		"AddMore": "Pridajte udalosti do svojho pl\u00e1nu!",
+		"future": "bud\u00facnosti",
+		"past": "minulosti"
+	},
+	"location": {
+		"Title": "Miesto",
+		"NewLocation": "Nov\u00e1 poloha"
+	},
+	"inbox": {
+		"Title": "Doru\u010den\u00e1 po\u0161ta",
+		"NoneYet": "Nez\u00fa\u010dast\u0148ujete sa \u017eiadnej konverz\u00e1cie",
+		"FindPeople": "N\u00e1jdite \u013eud\u00ed, s ktor\u00fdmi sa m\u00f4\u017eete porozpr\u00e1va\u0165",
+		"GroupConversations": "Pripojte sa k nejak\u00fdm skupinov\u00fdm rozhovorom",
+		"ContactStaff": "Kontaktujte person\u00e1l",
+		"ContactCustomers": "Kontaktujte z\u00e1kazn\u00edkov",
+		"AddNewContact": "Prida\u0165 nov\u00fd kontakt",
+		"AddNewContacts": "Prida\u0165 nov\u00e9 kontakty"
+	},
+	"me": {
+		"Title": "ja",
+		"MobileNumber": "Telef\u00f3nne \u010d\u00edslo",
+		"EmailAddress": "Emailov\u00e1 adresa",
+		"UpdateSocialTitle": "Aktualizova\u0165 pou\u017e\u00edvate\u013esk\u00e9 meno {{1}}",
+		"Web3": "Web3"
+	},
+	"people": {
+		"Title": "\u013dudia",
+		"Description": "\u013dudia v {{1}} komunite",
+		"AppAlert": "T\u00e1to aplik\u00e1cia v obchode s aplik\u00e1ciami v\u00e1m umo\u017en\u00ed spoji\u0165 sa so svojimi priate\u013emi a ove\u013ea viac.",
+		"Invite": "Pozva\u0165 priate\u013eov",
+		"BuyCredits": "K\u00fapi\u0165 kredity",
+		"FindSomeoneByName": "N\u00e1jdite niekoho pod\u013ea mena",
+		"SearchByName": "H\u013eadaj pod\u013ea mena",
+		"FindAllMyFriends": "N\u00e1js\u0165 v\u0161etk\u00fdch mojich priate\u013eov",
+		"labels": {
+			"All": "V\u0161etci",
+			"Title": "Filtrujte pod\u013ea vz\u0165ahu",
+			"New": "Nov\u00fd typ vz\u0165ahu"
+		},
+		"interests": {
+			"All": "V\u0161etky z\u00e1ujmy",
+			"Title": "Filtrujte pod\u013ea z\u00e1ujmu",
+			"Filter": "Uk\u00e1\u017ete \u013eu\u010fom, ktor\u00ed sa zauj\u00edmaj\u00fa o . . ."
+		},
+		"Keywords": "{{1}} komunita \u013eud\u00ed"
+	},
+	"communities": {
+		"Title": "komunity",
+		"NewCommunity": "Nov\u00e1 komunita",
+		"FindCommunityByName": "N\u00e1jdite komunitu pod\u013ea n\u00e1zvu",
+		"Description": "{{1}} komun\u00edt"
+	},
+	"community": {
+		"Title": "{{1}} Komunita",
+		"Roles": "Roly",
+		"AllRoles": "V\u0161etky roly",
+		"YouDontHavePermission": "Nem\u00e1te na to opr\u00e1vnenie",
+		"usernamePlaceholder": "nastavi\u0165 n\u00e1zov komunity",
+		"NotEnoughCredits": "Nem\u00e1te dostatok kreditov na vytvorenie komunity. Potrebujete {{1}}, m\u00e1te {{2}}"
+	},
+	"event": {
+		"GetDirections": "Z\u00edskajte trasu",
+		"WhichMap": "Ktor\u00e9 mapy by ste chceli pou\u017ei\u0165?",
+		"JoinEventToChat": "Pripojte sa k udalosti a \u010detujte",
+		"promote": {
+			"Title": "Propagujte toto podujatie",
+			"Prompt": "Vyberte, kde chcete propagova\u0165 t\u00fato udalos\u0165:"
+		},
+		"Confirmation": "Potvrdenie"
+	},
+	"newEvent": {
+		"Title": "Napl\u00e1nujte si nov\u00fa udalos\u0165"
+	},
+	"interests": {
+		"Title": "Z\u00e1ujmy",
+		"prompt": "Vyberte typy vec\u00ed, o ktor\u00fdch by ste chceli vedie\u0165.",
+		"explanation": "\u010c\u00edm viac z\u00e1ujmov si vyberiete, t\u00fdm je pravdepodobnej\u0161ie, \u017ee sa spoj\u00edte s podobne zm\u00fd\u0161\u013eaj\u00facimi \u013eu\u010fmi.",
+		"filter": "O \u010do sa zauj\u00edma\u0161?",
+		"Profile": "Zv\u00fdraz\u0148uj\u00fa sa vz\u00e1jomn\u00e9 z\u00e1ujmy. Ak m\u00e1te aj vy jeden alebo viacero z\u00e1ujmov uveden\u00fdch ni\u017e\u0161ie, m\u00f4\u017eete ich {{clickOrTap}} prida\u0165."
+	},
+	"credits": {
+		"Title": "Kredity",
+		"EarnCredits": "Z\u00edskajte {{1}} kreditov za ka\u017ed\u00fa nov\u00fa osobu, ktor\u00fa pozvete a ktor\u00e1 sa pripoj\u00ed k aplik\u00e1cii",
+		"YouHave": "M\u00e1te {{1}} kreditov"
+	},
+	"onboarding": {
+		"Tap": "Klepnite",
+		"Click": "Kliknite",
+		"Yes": "\u00c1no",
+		"No": "nie",
+		"Skip": "alebo toto presko\u010dte",
+		"name": {
+			"Preface": "Vitajte v",
+			"Placeholder": "Zadajte svoje cel\u00e9 meno",
+			"GetStarted": "Za\u010da\u0165",
+			"AsGuest": "Boli ste pozvan\u00ed ako hos\u0165.",
+			"AsMember": "Boli ste pozvan\u00ed ako \u010dlen.",
+			"AsAdmin": "Boli ste pozvan\u00ed ako spr\u00e1vca.",
+			"AsOwner": "Boli ste pozvan\u00ed ako vlastn\u00edk.",
+			"TooShort": "Va\u0161e cel\u00e9 meno nem\u00f4\u017ee by\u0165 tak\u00e9 kr\u00e1tke",
+			"SetAsYourFullName": "Nastavi\u0165 {{1}} ako svoje cel\u00e9 meno?"
+		},
+		"icon": {
+			"KeepDefault": "alebo si t\u00fato fotku ponechajte",
+			"SetYourPhoto": "{{ClickOrTap}} na nastavenie fotografie:",
+			"ClickOnYourFace": "{{ClickOrTap}} Na va\u0161ej tv\u00e1ri"
+		},
+		"interests": {
+			"GetStarted": "\u21e9 Za\u010dnite",
+			"NextCategory": "\u2193 \u010ealej",
+			"Continue": "\u010falej",
+			"Instructions": "V ka\u017edej z nasleduj\u00facich {{1}} kateg\u00f3ri\u00ed<br> {{100}} v\u0161etky aktivity, o ktor\u00e9 m\u00e1te z\u00e1ujem.<br> Takto sa sp\u00e1jate s ostatn\u00fdmi \u013eu\u010fmi v komunite."
+		},
+		"profile": {
+			"Profile": "Z\u00e1kladn\u00e9 inform\u00e1cie, ktor\u00e9 v\u00e1m pom\u00f4\u017eu n\u00e1js\u0165 \u013eud\u00ed:",
+			"Birthday": "Zadajte d\u00e1tum narodenia:",
+			"Placeholder": "kto si a \u010do rob\u00ed\u0161? Povedzte \u013eu\u010fom nie\u010do zauj\u00edmav\u00e9 alebo jedine\u010dn\u00e9 o sebe.",
+			"Required": "Ak chcete pokra\u010dova\u0165, nap\u00ed\u0161te o sebe aspo\u0148 p\u00e1r riadkov.",
+			"Month": "mesiac",
+			"Day": "de\u0148",
+			"Year": "rok",
+			"Gender": "rod",
+			"Male": "Mu\u017e",
+			"Female": "\u017dena",
+			"Other": "In\u00e9",
+			"Height": "V\u00fd\u0161ka",
+			"Affiliation": "Afili\u00e1cia",
+			"Dating": "Zoznamka",
+			"Interested": "M\u00e1m z\u00e1ujem",
+			"NotInterested": "Nezauj\u00edma",
+			"MatchmakerOnly": "Iba dohadzova\u010d"
+		},
+		"location": {
+			"NoOneElse": "Nikto in\u00fd to neuvid\u00ed.",
+			"SetMyLocation": "Nastavi\u0165 moju polohu"
+		},
+		"pile": {
+			"DialogTitle": "\u013dudia so spolo\u010dn\u00fdmi z\u00e1ujmami"
+		},
+		"Done": "hotov\u00fd",
+		"relationships": {
+			"title": "Prida\u0165 {{userName}} do telef\u00f3nneho zoznamu",
+			"welcome": "Vitajte {{user}}",
+			"invitedByUser": "v\u00e1s pozval.",
+			"addToPhonebook": "Ulo\u017ei\u0165 do kontaktov v mojom telef\u00f3ne",
+			"iosInstructions": "Posu\u0148te zobrazenie nadol na Prida\u0165 nov\u00fd kontakt",
+			"androidInstructions": "Tento s\u00fabor vCard by ste mali otvori\u0165 po jeho stiahnut\u00ed.",
+			"explanation": "Ak\u00fd je v\u00e1\u0161 vz\u0165ah?"
+		},
+		"Title": "Z\u00e1kladn\u00e9 inform\u00e1cie",
+		"Prompt": "Nieko\u013eko krokov na nastavenie \u00fa\u010dtu"
+	},
+	"profile": {
+		"Title": "Profil",
+		"Male": "Mu\u017e",
+		"Female": "\u017dena",
+		"Other": "In\u00e9",
+		"dating": {
+			"Interested": "M\u00e1m z\u00e1ujem",
+			"NotInterested": "Nezauj\u00edma",
+			"MatchmakerOnly": "Iba dohadzova\u010d"
+		},
+		"StartConversation": "Za\u010dnite konverz\u00e1ciu",
+		"blockUser": "Blokova\u0165 tohto pou\u017e\u00edvate\u013ea",
+		"blockUserAlert": "Od tohto pou\u017e\u00edvate\u013ea u\u017e neuvid\u00edte \u017eiadne spr\u00e1vy, k\u00fdm ho neodblokujete.",
+		"unblockUser": "Odblokova\u0165 tohto pou\u017e\u00edvate\u013ea",
+		"addToContacts": "Prida\u0165 do kontaktov",
+		"manageLabels": "Spravova\u0165 \u0161t\u00edtky",
+		"inviteUsers": "Pozva\u0165 pou\u017e\u00edvate\u013eov",
+		"selectRole": "Vyberte polo\u017eku Rola",
+		"inviteSuccess": "Pou\u017e\u00edvate\u013e bol \u00faspe\u0161ne pozvan\u00fd ako {{label}}",
+		"invite": "pozva\u0165",
+		"relationships": "Vz\u0165ahy",
+		"newRole": "Nov\u00e1 rola",
+		"about": "O",
+		"people": "\u013dudia",
+		"info": "Info",
+		"interests": "Z\u00e1ujmy",
+		"chat": "Chat",
+		"locations": "Miesta",
+		"ManageRoles": "Spravova\u0165 roly",
+		"aboutPlaceholder": "kto si a \u010do rob\u00ed\u0161? Povedzte \u013eu\u010fom nie\u010do zauj\u00edmav\u00e9 alebo jedine\u010dn\u00e9 o sebe.",
+		"explanation": "V\u00e1\u0161 profil pom\u00e1ha lep\u0161ie sp\u00e1ja\u0165 v\u00e1s s in\u00fdmi \u013eu\u010fmi pre skupinov\u00e9 aktivity.<br> Zadajte d\u00e1tum narodenia",
+		"chats": {
+			"placeholder": "Povedz nie\u010do"
+		},
+		"LogOut": "Odhl\u00e1si\u0165 sa",
+		"MyLinks": "Moje odkazy",
+		"MyJobs": "Moje \u00falohy",
+		"MySocial": "MySocial",
+		"MyEducation": "Moje vzdelanie",
+		"JobsPlaceholder": "Sem zadajte inform\u00e1cie o pracovn\u00fdch poz\u00edci\u00e1ch",
+		"EducationPlaceholder": "Sem zadajte inform\u00e1cie o vzdelan\u00ed",
+		"ManageNotifications": "Spravova\u0165 upozornenia",
+		"YourPreferredLanguage": "V\u00e1\u0161 preferovan\u00fd jazyk",
+		"SendCrypto": "zaplati\u0165",
+		"Block": "Blokova\u0165",
+		"Unblock": "Odblokova\u0165",
+		"Email": "Email",
+		"Avoid": "Vyhnite sa",
+		"CreatePrivateChat": "M\u00ed\u0148ate {{credits}} kreditov, aby ste ich oslovili?",
+		"RolesInCommunity": "\u00dalohy v komunite",
+		"PersonalChatWith": "Osobn\u00fd \u010det s {{name}}",
+		"SendCryptoTo": "Odosla\u0165 kryptomeny na {{name}}",
+		"SendEmailTo": "Odosla\u0165 e-mail na adresu {{name}}",
+		"SendSMSTo": "Odosla\u0165 SMS na \u010d\u00edslo {{name}}",
+		"BlockThisUser": "Blokova\u0165 tohto pou\u017e\u00edvate\u013ea",
+		"UnblockThisUser": "Odblokujte tohto pou\u017e\u00edvate\u013ea",
+		"YouCantChatWithYourself": "Nem\u00f4\u017eete chatova\u0165 sami so sebou",
+		"blockUserAlertTitle": "Zablokovan\u00e9 {{displayName}}",
+		"sections": {
+			"education": "Vzdel\u00e1vanie",
+			"greeting": "Pozdravujem",
+			"jobs": "Pr\u00e1ca",
+			"links": "Odkazy",
+			"language": "Jazyk",
+			"roles": "Roly",
+			"personal": "Osobn\u00e9",
+			"social": "Soci\u00e1lna"
+		},
+		"Roles": "Roly",
+		"SendPaymentTo": "Po\u0161lite platbu na {{name}}"
+	},
+	"myqr": {
+		"Title": "M\u00f4j QR"
+	},
+	"composer": {
+		"createCommunity": "Vytvori\u0165 komunitu",
+		"inviteAdmin": "Pozva\u0165 spr\u00e1vcu",
+		"inviteMember": "Pozva\u0165 \u010dlena",
+		"newCommunityTitle": "N\u00e1zov komunity",
+		"setCommunityTitle": "N\u00e1zov komunity",
+		"creditsChargeRequest": "S\u00fahlas\u00edte s minimom {{price}} kreditov?",
+		"yes": "\u00c1no",
+		"no": "nie"
+	},
+	"notifications": {
+		"WelcomePleaseVerifyEmail": "Vitajte! Overte svoju e-mailov\u00fa adresu.",
+		"WelcomeVerifyEmail": "Vitajte! Overte svoju e-mailov\u00fa adresu.",
+		"ForgetPass": "Ahoj, zabudli ste svoju pr\u00edstupov\u00fa fr\u00e1zu?",
+		"ManageEmailSubscriptions": "spravujte svoje odbery e-mailov",
+		"IfUnsubscribe": "Ak sa chcete odhl\u00e1si\u0165"
+	},
+	"speak": {
+		"onboarding": {
+			"name": {
+				"Welcome": "Vitajte v {{CommunityName}}. T\u00e1to aplik\u00e1cia v\u00e1m pom\u00f4\u017ee spoji\u0165 sa s priate\u013emi, objavi\u0165 nov\u00fdch \u013eud\u00ed so spolo\u010dn\u00fdmi z\u00e1ujmami a ove\u013ea viac. Za\u010dnime!"
+			},
+			"icon": {
+				"Commentary": "Nastavte si fotografiu. Takto v\u00e1s \u013eudia uvidia na str\u00e1nke."
+			},
+			"interests": {
+				"Commentary": "\u010c\u00edm viac polo\u017eiek si vyberiete, t\u00fdm viac \u013eud\u00ed m\u00f4\u017eete stretn\u00fa\u0165.",
+				"Notifications": "Mus\u00edte povoli\u0165 upozornenia"
+			}
+		},
+		"subscriptions": {
+			"confirm": "Upozornenia v\u00e1m umo\u017e\u0148uj\u00fa vedie\u0165 o veciach, ktor\u00e9 v\u00e1s zauj\u00edmaj\u00fa, napr\u00edklad ke\u010f sa k aplik\u00e1cii pripoj\u00ed priate\u013e alebo v\u00e1m po\u0161le spr\u00e1vu."
+		},
+		"invite": "{{Q.words.TapOrClick}} tu, aby ste videli, ako to m\u00f4\u017eete zdie\u013ea\u0165 s ostatn\u00fdmi \u013eu\u010fmi."
+	},
+	"payment": {
+		"onContribute": "\u010eakujem! Va\u0161a platba prebehla. Chceli by ste pozva\u0165 svojich priate\u013eov, aby sa k v\u00e1m pridali?",
+		"ConnectAccount": "Pripoji\u0165 \u00fa\u010det"
+	},
+	"featureboard": {
+		"Text_1": "Nechajte svoj hlas po\u010du\u0165! S\u00fahlas\u00edte s t\u00fdm, \u017ee by sme mali vyvin\u00fa\u0165 funkciu alebo chybu? Kliknut\u00edm na tla\u010didlo ju podpor\u00edte.",
+		"Text_2": "Chcete, aby sme vyvinuli nov\u00fa funkciu? Pop\u00ed\u0161te to ni\u017e\u0161ie.",
+		"Text_3": "Ka\u017ed\u00fd t\u00fd\u017ede\u0148 za\u010d\u00edname s v\u00fdvojom naj\u017eiadanej\u0161ej funkcie komunitou. V\u0161etky pridan\u00e9 peniaze id\u00fa na tento \u00fa\u010del, \u010do n\u00e1m umo\u017e\u0148uje vylep\u0161i\u0165 aplik\u00e1ciu.",
+		"Text_4": "V\u0161etky poskytnut\u00e9 peniaze sa pou\u017eij\u00fa na uhradenie na\u0161ich n\u00e1kladov na v\u00fdvoj.",
+		"Text_5": "M\u00e1te n\u00e1pad na funkciu alebo opravu ch\u00fdb, ktor\u00e9 chcete, aby sme urobili, ale zatia\u013e ste nevideli, \u017ee by ich pridali in\u00ed? Op\u00ed\u0161te to ni\u017e\u0161ie:",
+		"Options": [
+			{
+				"text": "400 USD Videokonferencie v re\u00e1lnom \u010dase"
+			},
+			{
+				"defaultAmount": "10",
+				"text": "200 $ Miestne prim\u00e1rne registra\u010dn\u00e9 inform\u00e1cie"
+			},
+			{
+				"text": "130 $ Prehliadajte a zdie\u013eajte tis\u00edce {{1}} m\u00e9mov",
+				"defaultAmount": "10"
+			},
+			{
+				"text": "80 $ Spravujte svoje vlastn\u00e9 komunity",
+				"defaultAmount": "10"
+			},
+			{
+				"text": "30 USD Oprava chyby konverz\u00e1ci\u00ed",
+				"defaultAmount": "10"
+			}
+		],
+		"RequestNewFeature": "Po\u017eiadajte o nov\u00fa funkciu/opravu ch\u00fdb",
+		"FeaturePlaceholder": "Kr\u00e1tke zhrnutie funkcie",
+		"FeatureDescription": "Pop\u00ed\u0161te, ako m\u00f4\u017ee niekto in\u00fd reprodukova\u0165 chybu, ktor\u00fa vid\u00edte, alebo podrobne pop\u00ed\u0161te funkciu, ktor\u00fa chcete vytvori\u0165",
+		"AddYourRequest": "Pridajte svoju po\u017eiadavku",
+		"NewFeature": "Nov\u00e1 funkcia"
+	},
+	"contribute": {
+		"ContributeExplanation": "Pom\u00f4\u017ete podpori\u0165 \u010fal\u0161\u00ed v\u00fdvoj aplik\u00e1cie {{communityName}}. V\u0161etky va\u0161e pr\u00edspevky pom\u00e1haj\u00fa opravi\u0165 chyby a vyv\u00edja\u0165 nov\u00e9 funkcie, ktor\u00e9 pom\u00f4\u017eu roz\u0161\u00edri\u0165 online komunitu!",
+		"ReasonToContribute": "T\u00fato aplik\u00e1ciu spravuj\u00fa priaznivci {{communityName}}. Pom\u00f4\u017ete podpori\u0165 t\u00fato aplik\u00e1ciu, aby sme mohli zmeni\u0165 \u017eivoty \u013eud\u00ed!"
+	},
+	"assetshistory": {
+		"Title": "Hist\u00f3ria akt\u00edv",
+		"Charges": "Poplatky",
+		"Credits": "Kredity"
+	},
+	"accounts": {
+		"remove": {
+			"title": "Odstr\u00e1ni\u0165 \u00fa\u010det",
+			"content": "Chcete tento \u00fa\u010det odstr\u00e1ni\u0165?",
+			"ok": "\u00c1no",
+			"cancel": "nie"
+		}
+	},
+	"import": {
+		"fileNotFound": "\u013dutujeme, s\u00fabor CSV sa nena\u0161iel.",
+		"fileEmpty": "\u013dutujeme, s\u00fabor CSV je pr\u00e1zdny.",
+		"userIdNotFound": "pou\u017e\u00edvate\u013e existuje, ale ID je pr\u00e1zdne",
+		"errorLine": "riadok {{1}}",
+		"fieldNotFound": "Povinn\u00e9 pole \u201e{{1}}\u201c sa nena\u0161lo",
+		"taskStreamInvalid": "tok \u00faloh je neplatn\u00fd",
+		"instructionsEmpty": "in\u0161trukcie toku \u00faloh s\u00fa pr\u00e1zdne",
+		"complete": "Dokon\u010di\u0165",
+		"activateUsers": "posla\u0165 aktiva\u010dn\u00fa spr\u00e1vu pou\u017e\u00edvate\u013eom?",
+		"importProgress": "Pokrok",
+		"joinEventLabel": "Pripojte pou\u017e\u00edvate\u013eov k n\u00e1hodnej udalosti",
+		"importOptions": "mo\u017enosti",
+		"sampleCSV": "Stiahnite si vzorov\u00fd CSV",
+		"fileLabel": "Nahra\u0165 tabu\u013eku:",
+		"errorsTitle": "Vyskytli sa chyby",
+		"communityUsers": "Toto je zoznam komun\u00edt",
+		"setAsConversation": "St\u013apec URL ako konverz\u00e1cia",
+		"toMainCommunityToo": "pridajte pou\u017e\u00edvate\u013eov aj do hlavnej komunity",
+		"willImportedTo": "Pou\u017e\u00edvatelia bud\u00fa importovan\u00ed do komunity",
+		"ChooseFile": "vyberte s\u00fabor"
+	},
+	"services": {
+		"Title": "Slu\u017eby",
+		"filterByTitle": "N\u00e1jdite slu\u017eby pod\u013ea n\u00e1zvu",
+		"New": "+ Spusti\u0165 nov\u00fa slu\u017ebu",
+		"NewService": "Nov\u00e1 slu\u017eba",
+		"NewAvailability": "Nov\u00e1 dostupnos\u0165",
+		"filterServices": "Filtra\u010dn\u00e9 slu\u017eby",
+		"NoneYet": "Zatia\u013e nie s\u00fa vytvoren\u00e9 \u017eiadne slu\u017eby<br> v t\u00fdchto \u010dasoch.",
+		"AllAuthors": "V\u0161etci autori",
+		"AllDays": "V\u0161etky dni",
+		"AllLocations": "V\u0161etky miesta",
+		"MakeReservation": "Urobi\u0165 rezerv\u00e1ciu",
+		"CancelReservation": "Zru\u0161i\u0165 rezerv\u00e1ciu",
+		"UpdateReservation": "Aktualizova\u0165 rezerv\u00e1ciu",
+		"AreYouSure": "Si si ist\u00fd?",
+		"YouWillRefunded": "Peniaze v\u00e1m bud\u00fa vr\u00e1ten\u00e9 vo forme kreditov, ktor\u00e9 m\u00f4\u017eete min\u00fa\u0165 na in\u00e9 veci v aplik\u00e1cii.",
+		"AllInterests": "V\u0161etky z\u00e1ujmy",
+		"FilterbyInterest": "Filtrujte pod\u013ea z\u00e1ujmu",
+		"FilterByDate": "Filtrova\u0165 pod\u013ea d\u00e1tumu",
+		"ShowActivities": "Zobrazi\u0165 aktivity s\u00favisiace s...",
+		"newServices": "M\u00e1te {{1}} nov\u00fdch slu\u017eieb",
+		"SelectLocation": "Vyberte umiestnenie",
+		"FilterLocationsPlaceHolder": "Filtrujte miesta pomocou...",
+		"Description": "{{1}}",
+		"Keywords": "{{1}}"
+	},
+	"welcome": {
+		"Title": "{{appName}}: vitajte",
+		"GetStarted": "Za\u010da\u0165",
+		"gallery": {
+			"Connect": "Pripojte sa",
+			"Organize": "Organizova\u0165",
+			"Travel": "Cestovanie",
+			"Share": "zdie\u013eam"
+		}
+	}
 }

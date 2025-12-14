@@ -1,24 +1,24 @@
 {
-    "activation": {
-        "Thanks": "Benvingut a {{1}}.",
-        "ClickHere": "Feu clic aquí per activar el vostre compte: {{1}}"
-    },
-    "addMobile": {
-        "ClickHere": "Feu clic aquí per verificar el vostre número de mòbil: {{1}}"
-    },
-    "SeeHistory": "Consulta l&#39;historial de pagaments de {{1}}",
-    "charge": {
-        "HasBeenCharged": "{{1}} s&#39;ha cobrat {{2}} per {{3}} per {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Hola, {{1}}, això és només una confirmació ràpida que heu pagat correctament {{2}} a {{3}} per {{4}}"
-    },
-    "subscription": {
-        "YouHaveStarted": "T&#39;has subscrit a {{2}} amb {{3}} a {{4}} durant {{5}} mesos.",
-        "HasStarted": "{{1}} s&#39;ha subscrit a {{2}} amb {{3}} a {{4}} durant {{5}} mesos."
-    },
-    "resend": {
-        "DidYouWant": "Voleu restablir la vostra frase de contrasenya a {{1}}?",
-        "ClickHere": "A continuació, feu clic aquí: {{1}}"
-    }
+	"activation": {
+		"Thanks": "Benvingut a {{1}}.",
+		"ClickHere": "Feu clic aqu\u00ed per activar el vostre compte: {{1}}"
+	},
+	"addMobile": {
+		"ClickHere": "Feu clic aqu\u00ed per verificar el vostre n\u00famero de m\u00f2bil: {{1}}"
+	},
+	"SeeHistory": "Consulta l&#39;historial de pagaments de {{1}}",
+	"charge": {
+		"HasBeenCharged": "{{1}} s&#39;ha cobrat {{2}} per {{3}} per {{4}}"
+	},
+	"charged": {
+		"HavePaid": "Hola, {{1}}, aix\u00f2 \u00e9s nom\u00e9s una confirmaci\u00f3 r\u00e0pida que heu pagat correctament {{2}} a {{3}} per {{4}}"
+	},
+	"subscription": {
+		"YouHaveStarted": "T&#39;has subscrit a {{2}} amb {{3}} a {{4}} durant {{5}} mesos.",
+		"HasStarted": "{{1}} s&#39;ha subscrit a {{2}} amb {{3}} a {{4}} durant {{5}} mesos."
+	},
+	"resend": {
+		"DidYouWant": "Voleu restablir la vostra frase de contrasenya a {{1}}?",
+		"ClickHere": "A continuaci\u00f3, feu clic aqu\u00ed: {{1}}"
+	}
 }

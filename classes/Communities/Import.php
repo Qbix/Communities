@@ -222,7 +222,7 @@ class Communities_Import
 			return null;
 		}
 
-		$locationStream = Streams_Stream::fetch($user->id, $user->id, 'Places/user/location');
+        $locationStream = Streams_Stream::fetchOrCreate($user->id, $user->id, 'Places/user/location');
 		$locationStream->attributes = $globalLocationStream->attributes;
 		$locationStream->save();
 	}
@@ -386,8 +386,8 @@ class Communities_Import
 			}
 
 			if (!empty($events)) {
-				// rsvp to random event
-				Calendars_Event::rsvp($events[array_rand($events)], $userId);
+				// have user go to a random event
+				Calendars_Event::going($events[array_rand($events)], $userId, 'yes');
 			}
 		}
 	}
@@ -655,7 +655,7 @@ class Communities_Import
 							}
 							$parsedItem = array_map('trim', explode(":", $item));
 
-							if (!array_key_exists($parsedItem[0], $allInterests)) {
+							if (!array_key_exists($parsedItem[0], $allInterests) && !Q_Config::get('Communities', 'community', 'importUsers', 'allowAnyInterests', false)) {
 								//throw new Exception(Q::interpolate($texts['interestAbsent'], array($item)));
 								unset($value[$interestKey]);
 								continue;
@@ -674,9 +674,9 @@ class Communities_Import
 					} elseif ($field == 'conversation_url') {
 						$value = array_map('trim', preg_split("/\r\n|\n|\r/", trim($value)));
 					} elseif ($field == 'first_name') {
-						// concatenate first_name and last_name to full_name
-						$data['full_name'] = trim($value).' '.trim($line[$i+1]);
-					} else {
+                        // concatenate first_name and last_name to full_name
+                        $data['full_name'] = trim($value) . ' ' . trim($line[$i + 1]);
+                    } else {
 						$value = trim(preg_replace("/[\n\r|\n|\r]/", " ", $value));
 
 						if ($field == 'email_address') {

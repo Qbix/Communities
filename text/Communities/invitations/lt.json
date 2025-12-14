@@ -1,12 +1,12 @@
 {
-    "flyer1": {
-        "YouAreInvited": "Esate kviečiami",
-        "Member": "Narys {{title}}",
-        "Explanation": "{{1}} džiaugiasi galėdamas pranešti apie mūsų naujos svetainės pristatymą. Jame yra vis daugiau funkcijų, tokių kaip:",
-        "Public": "Vieša informacija apie {{1}}",
-        "Private": "Kiekvienam nariui privati vartotojo paskyra",
-        "Notifications": "Įvesdami savo el. pašto adresą arba mobiliojo telefono numerį galėsite gauti svarbius pranešimus el. paštu arba trumpąja žinute.",
-        "GetStarted": "Norėdami pradėti, savo žiniatinklio naršyklėje <em>atidžiai<\/em> įveskite:<br>",
-        "IssuedToYou": "Šis kodas yra specialiai išduotas jums."
-    }
+	"flyer1": {
+		"YouAreInvited": "Esate kvie\u010diami",
+		"Member": "Narys {{title}}",
+		"Explanation": "{{1}} d\u017eiaugiasi gal\u0117damas prane\u0161ti apie m\u016bs\u0173 naujos svetain\u0117s pristatym\u0105. Jame yra vis daugiau funkcij\u0173, toki\u0173 kaip:",
+		"Public": "Vie\u0161a informacija apie {{1}}",
+		"Private": "Kiekvienam nariui privati vartotojo paskyra",
+		"Notifications": "\u012evesdami savo el. pa\u0161to adres\u0105 arba mobiliojo telefono numer\u012f gal\u0117site gauti svarbius prane\u0161imus el. pa\u0161tu arba trump\u0105ja \u017einute.",
+		"GetStarted": "Nor\u0117dami prad\u0117ti, savo \u017einiatinklio nar\u0161ykl\u0117je <em>atid\u017eiai</em> \u012fveskite:<br>",
+		"IssuedToYou": "\u0160is kodas yra specialiai i\u0161duotas jums."
+	}
 }

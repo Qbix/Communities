@@ -1,459 +1,459 @@
 {
-    "notFound": {
-        "Explanation": "<span class='url'>{{1}}<\/span> کسی چیز کی طرف اشارہ نہیں کرتا!",
-        "NextSteps": "آپ جس چیز کی تلاش کر رہے ہیں اسے تلاش کرنے کے لیے مین مینو کا استعمال کریں۔"
-    },
-    "dashboard": {
-        "Menu": "مینو",
-        "Home": "گھر",
-        "Welcome": "خوش آمدید",
-        "Events": "تقریبات",
-        "Discuss": "بحث کریں۔",
-        "People": "لوگ",
-        "About": "کے بارے میں",
-        "Community": "برادری",
-        "LogIn": "لاگ ان کریں",
-        "LogOut": "لاگ آوٹ",
-        "Intercoin": "انٹر کوائن",
-        "Shows": "دکھاتا ہے۔",
-        "Calendar": "کیلنڈر",
-        "Me": "مجھے",
-        "Media": "میڈیا",
-        "Services": "خدمات",
-        "SetMobileNumber": "موبائل نمبر سیٹ کریں۔",
-        "SetEmailAddress": "ای میل ایڈریس سیٹ کریں۔"
-    },
-    "greeting": {
-        "Welcome": "{{1}} میں خوش آمدید۔ یہاں آپ کو ہماری کمیونٹی کے اراکین کے لیے پوسٹ کی گئی چیزیں ملیں گی۔ اعلانات پوسٹ کیے جانے پر اطلاعات موصول کرنے کے لیے براہ کرم اپنا ای میل پتہ یا موبائل نمبر شامل کریں۔"
-    },
-    "conversations": {
-        "Title": "بات چیت",
-        "New": "نئی گفتگو",
-        "Conversation": "بات چیت",
-        "Topics": "عنوانات",
-        "NoneYet": "ابھی تک کوئی بات چیت نہیں ہوئی ہے۔",
-        "newConversations": "{{1}} نئی گفتگو",
-        "AllAuthors": "تمام مصنفین",
-        "FilterbyAuthors": "مصنفین کے لحاظ سے فلٹر کریں۔",
-        "FilterAuthorPlaceHolder": "اضافی مصنفین تلاش کریں...",
-        "filterConversations": "متن کے لحاظ سے فلٹر کریں۔",
-        "Description": "{{1}} بات چیت"
-    },
-    "newConversation": {
-        "composer": {
-            "ChooseActivity": "ایک موضوع کا انتخاب کریں۔",
-            "Share": "بانٹیں",
-            "interest": {
-                "Title": "ایک سرگرمی کا انتخاب کریں۔",
-                "Filter": "دلچسپیاں تلاش کریں..."
-            }
-        },
-        "Title": "نئی گفتگو",
-        "TitlePlaceholder": "آپ کی گفتگو کا موضوع",
-        "ContentPlaceholder": "گفتگو شروع کرنے کے لیے چند الفاظ لکھیں، تاکہ دوسرے جواب دے سکیں",
-        "StartButton": "بات چیت شروع کریں۔"
-    },
-    "events": {
-        "Title": "تقریبات",
-        "filterByTitle": "عنوان کے لحاظ سے واقعات تلاش کریں۔",
-        "New": "+ نیا واقعہ شروع کریں۔",
-        "filterEvents": "واقعات کو فلٹر کریں۔",
-        "NewEvent": "نیا واقعہ",
-        "SetLocation": "میرا مقام سیٹ کریں۔",
-        "NoneYet": "ابھی تک کوئی واقعات نہیں بنے۔<br> ان اوقات کے دوران.",
-        "AllAuthors": "تمام مصنفین",
-        "AllDays": "تمام دنوں",
-        "AllLocations": "تمام مقامات",
-        "MakeReservation": "ریزرویشن کریں۔",
-        "CancelReservation": "ریزرویشن منسوخ کریں۔",
-        "UpdateReservation": "ریزرویشن کو اپ ڈیٹ کریں۔",
-        "AreYouSure": "کیا تمہیں یقین ہے؟",
-        "YouWillRefunded": "آپ کو کریڈٹس کی شکل میں واپس کیا جائے گا جو آپ ایپ میں دیگر چیزوں پر خرچ کر سکتے ہیں۔",
-        "AllInterests": "تمام دلچسپیاں",
-        "FilterbyInterest": "دلچسپی کے لحاظ سے فلٹر کریں۔",
-        "FilterByDate": "تاریخ کے لحاظ سے فلٹر کریں۔",
-        "ShowActivities": "سے متعلق سرگرمیاں دکھائیں۔ . .",
-        "newEvents": "آپ کے پاس {{1}} نئے واقعات ہیں۔",
-        "SelectLocation": "مقام منتخب کریں۔",
-        "FilterLocationsPlaceHolder": "کے ساتھ مقامات کو فلٹر کریں...",
-        "Description": "{{1}} واقعات",
-        "Keywords": "{{1}} واقعات"
-    },
-    "schedule": {
-        "Title": "شیڈول",
-        "NoneYet": "آپ کسی تقریب میں شرکت نہیں کر رہے ہیں۔",
-        "AddSome": "اپنے شیڈول میں کچھ شامل کریں!",
-        "AddMore": "واقعات کو اپنے شیڈول میں شامل کریں!",
-        "future": "مستقبل",
-        "past": "ماضی"
-    },
-    "location": {
-        "Title": "مقام",
-        "NewLocation": "نیا مقام"
-    },
-    "inbox": {
-        "Title": "انباکس",
-        "NoneYet": "آپ کسی بات چیت میں حصہ نہیں لے رہے ہیں۔",
-        "FindPeople": "بات کرنے کے لیے لوگوں کو تلاش کریں۔",
-        "GroupConversations": "کچھ گروپ گفتگو میں شامل ہوں۔",
-        "ContactStaff": "سٹاف سے رابطہ کریں۔",
-        "ContactCustomers": "صارفین سے رابطہ کریں۔",
-        "AddNewContact": "نیا رابطہ شامل کریں۔",
-        "AddNewContacts": "نئے رابطے شامل کریں۔"
-    },
-    "me": {
-        "Title": "مجھے",
-        "MobileNumber": "موبائل فون کانمبر",
-        "EmailAddress": "ای میل اڈریس",
-        "UpdateSocialTitle": "{{1}} صارف نام کو اپ ڈیٹ کریں۔",
-        "Web3": "ویب 3"
-    },
-    "people": {
-        "Title": "لوگ",
-        "Description": "{{1}} کمیونٹی میں لوگ",
-        "AppAlert": "ایپ سٹور میں موجود یہ ایپ آپ کو اپنے دوستوں کے ساتھ منسلک ہونے دے گی، اور بہت کچھ۔",
-        "Invite": "دوستوں کو مدعو کریں",
-        "BuyCredits": "کریڈٹ خریدیں۔",
-        "FindSomeoneByName": "کسی کو نام سے تلاش کریں۔",
-        "SearchByName": "نام سے تلاش کریں۔",
-        "FindAllMyFriends": "میرے تمام دوستوں کو تلاش کریں۔",
-        "labels": {
-            "All": "ہر کوئی",
-            "Title": "رشتے کے لحاظ سے فلٹر کریں۔",
-            "New": "رشتے کی نئی قسم"
-        },
-        "interests": {
-            "All": "تمام دلچسپیاں",
-            "Title": "دلچسپی کے لحاظ سے فلٹر کریں۔",
-            "Filter": "میں دلچسپی رکھنے والے لوگوں کو دکھائیں۔ . ."
-        },
-        "Keywords": "{{1}} لوگوں کی کمیونٹی"
-    },
-    "communities": {
-        "Title": "کمیونٹیز",
-        "NewCommunity": "نئی کمیونٹی",
-        "FindCommunityByName": "نام سے کمیونٹی تلاش کریں۔",
-        "Description": "{{1}} کمیونٹیز"
-    },
-    "community": {
-        "Title": "{{1}} کمیونٹی",
-        "Roles": "کردار",
-        "AllRoles": "تمام کردار",
-        "YouDontHavePermission": "آپ ایسا کرنے کے مجاز نہیں ہیں۔",
-        "usernamePlaceholder": "کمیونٹی کا نام مقرر کریں",
-        "NotEnoughCredits": "کمیونٹی بنانے کے لیے آپ کے پاس کافی کریڈٹ نہیں ہیں۔ {{1}} کی ضرورت ہے، آپ کے پاس {{2}} ہے"
-    },
-    "event": {
-        "GetDirections": "ہدایات حاصل کریں۔",
-        "WhichMap": "آپ کون سے نقشے استعمال کرنا چاہیں گے؟",
-        "JoinEventToChat": "چیٹ کرنے کے لیے ایونٹ میں شامل ہوں۔",
-        "promote": {
-            "Title": "اس تقریب کو فروغ دیں۔",
-            "Prompt": "منتخب کریں کہ آپ اس ایونٹ کو کہاں پروموٹ کرنا چاہتے ہیں:"
-        },
-        "Confirmation": "تصدیق"
-    },
-    "newEvent": {
-        "Title": "نئے ایونٹ کا منصوبہ بنائیں"
-    },
-    "interests": {
-        "Title": "دلچسپیاں",
-        "prompt": "ان چیزوں کی قسمیں منتخب کریں جن کے بارے میں آپ جاننا چاہتے ہیں۔",
-        "explanation": "آپ جتنی زیادہ دلچسپیاں منتخب کریں گے، اتنا ہی زیادہ امکان ہے کہ آپ ہم خیال لوگوں سے جڑیں گے۔",
-        "filter": "آپ اس میں کیا دلچسپی رکھتے ہیں؟",
-        "Profile": "باہمی مفادات کو اجاگر کیا گیا ہے۔ اگر آپ کی بھی ذیل میں ایک یا زیادہ دلچسپیاں ہیں، تو آپ انہیں شامل کرنے کے لیے {{clickOrTap}} کرسکتے ہیں۔"
-    },
-    "credits": {
-        "Title": "کریڈٹس",
-        "EarnCredits": "ہر اس نئے فرد کے لیے {{1}} کریڈٹ حاصل کریں جسے آپ مدعو کرتے ہیں جو ایپ میں شامل ہوتا ہے۔",
-        "YouHave": "آپ کے پاس {{1}} کریڈٹ ہیں۔"
-    },
-    "onboarding": {
-        "Tap": "نل",
-        "Click": "کلک کریں۔",
-        "Yes": "جی ہاں",
-        "No": "نہیں",
-        "Skip": "یا اس کو چھوڑ دیں۔",
-        "name": {
-            "Preface": "میں خوش آمدید",
-            "Placeholder": "اپنا پورا نام درج کریں",
-            "GetStarted": "شروع کرنے کے",
-            "AsGuest": "آپ کو بطور مہمان مدعو کیا گیا ہے۔",
-            "AsMember": "آپ کو بطور رکن مدعو کیا گیا ہے۔",
-            "AsAdmin": "آپ کو بطور ایڈمن مدعو کیا گیا ہے۔",
-            "AsOwner": "آپ کو بطور مالک مدعو کیا گیا ہے۔",
-            "TooShort": "آپ کا پورا نام اتنا چھوٹا نہیں ہو سکتا",
-            "SetAsYourFullName": "{{1}} کو اپنے مکمل نام کے طور پر سیٹ کریں؟"
-        },
-        "icon": {
-            "KeepDefault": "یا اس تصویر کو رکھیں",
-            "SetYourPhoto": "{{ClickOrTap}} اپنی تصویر سیٹ کرنے کے لیے:",
-            "ClickOnYourFace": "{{ClickOrTap}} آپ کے چہرے پر"
-        },
-        "interests": {
-            "GetStarted": "⇩ شروع کریں۔",
-            "NextCategory": "↓ اگلا",
-            "Continue": "جاری رہے",
-            "Instructions": "اگلے {{1}} زمروں میں سے ہر ایک میں،<br> {{2}} وہ تمام سرگرمیاں جن میں آپ کی دلچسپی ہے۔<br> اس طرح آپ کمیونٹی میں دوسرے لوگوں سے جڑتے ہیں۔"
-        },
-        "profile": {
-            "Profile": "آپ کا پروفائل لوگوں کو آپ کے بارے میں مزید دریافت کرنے میں مدد کرتا ہے۔<br>",
-            "Birthday": "براہ کرم اپنی سالگرہ درج کریں:",
-            "Placeholder": "تم کون ہو اور کیا کرتے ہو؟ لوگوں کو اپنے بارے میں کچھ دلچسپ یا منفرد بتائیں۔",
-            "Required": "جاری رکھنے کے لیے، اپنے بارے میں کم از کم ایک دو سطریں لکھیں۔",
-            "Month": "مہینہ",
-            "Day": "دن",
-            "Year": "سال",
-            "Gender": "صنف",
-            "Male": "مرد",
-            "Female": "عورت",
-            "Other": "دیگر",
-            "Height": "اونچائی",
-            "Affiliation": "وابستگی",
-            "Dating": "ڈیٹنگ",
-            "Interested": "دلچسپی",
-            "NotInterested": "دلچسپی نہیں",
-            "MatchmakerOnly": "صرف میچ میکر"
-        },
-        "location": {
-            "NoOneElse": "کوئی اور نہیں دیکھے گا۔",
-            "SetMyLocation": "میرا مقام متعین کریں۔"
-        },
-        "pile": {
-            "DialogTitle": "مشترکہ مفادات رکھنے والے لوگ"
-        },
-        "Done": "ہو گیا",
-        "relationships": {
-            "title": "فون بک میں {{userName}} شامل کریں۔",
-            "welcome": "خوش آمدید {{user}}",
-            "invitedByUser": "آپ کو مدعو کیا.",
-            "addToPhonebook": "میرے فون رابطوں میں محفوظ کریں۔",
-            "iosInstructions": "نیا رابطہ شامل کرنے کے لیے نیچے سکرول کریں۔",
-            "androidInstructions": "آپ کو اس vCard فائل کو ڈاؤن لوڈ ہونے کے بعد کھولنا چاہیے۔",
-            "explanation": "تمہارا رشتہ کیا ہے؟"
-        },
-        "Title": "بنیادی معلومات",
-        "Prompt": "اپنا اکاؤنٹ ترتیب دینے کے لیے چند اقدامات"
-    },
-    "profile": {
-        "Title": "پروفائل",
-        "Male": "مرد",
-        "Female": "عورت",
-        "Other": "دیگر",
-        "dating": {
-            "Interested": "دلچسپی",
-            "NotInterested": "دلچسپی نہیں",
-            "MatchmakerOnly": "صرف میچ میکر"
-        },
-        "StartConversation": "بات چیت شروع کریں۔",
-        "blockUser": "اس صارف کو مسدود کریں۔",
-        "blockUserAlert": "آپ کو اس صارف کے مزید پیغامات اس وقت تک نظر نہیں آئیں گے جب تک آپ انہیں غیر مسدود نہیں کر دیتے۔",
-        "unblockUser": "اس صارف کو غیر مسدود کریں۔",
-        "addToContacts": "رابطوں میں شامل کریں۔",
-        "manageLabels": "لیبلز کا نظم کریں۔",
-        "inviteUsers": "صارفین کو مدعو کریں۔",
-        "selectRole": "کردار منتخب کریں۔",
-        "inviteSuccess": "صارف کو کامیابی سے مدعو کیا گیا بطور {{label}}",
-        "invite": "دعوت دیں۔",
-        "relationships": "رشتے",
-        "newRole": "نیا کردار",
-        "about": "کے بارے میں",
-        "people": "لوگ",
-        "info": "معلومات",
-        "interests": "دلچسپیاں",
-        "chat": "گپ شپ",
-        "locations": "مقامات",
-        "ManageRoles": "کرداروں کا نظم کریں۔",
-        "aboutPlaceholder": "تم کون ہو اور کیا کرتے ہو؟ لوگوں کو اپنے بارے میں کچھ دلچسپ یا منفرد بتائیں۔",
-        "explanation": "آپ کا پروفائل گروپ سرگرمیوں کے لیے آپ کو دوسرے لوگوں سے بہتر طریقے سے ملانے میں مدد کرتا ہے۔<br> براہ کرم اپنی سالگرہ درج کریں۔",
-        "chats": {
-            "placeholder": "کچھ بولیں"
-        },
-        "LogOut": "لاگ آوٹ",
-        "MyLinks": "میرے لنکس",
-        "MyJobs": "میری نوکریاں",
-        "MySocial": "مائی سوشل",
-        "MyEducation": "میری تعلیم",
-        "JobsPlaceholder": "نوکریوں کی معلومات یہاں ٹائپ کریں۔",
-        "EducationPlaceholder": "یہاں تعلیم کی معلومات ٹائپ کریں۔",
-        "ManageNotifications": "اطلاعات کا نظم کریں۔",
-        "YourPreferredLanguage": "آپ کی پسندیدہ زبان",
-        "SendCrypto": "ادا کریں۔",
-        "Block": "بلاک",
-        "Unblock": "غیر مسدود کریں۔",
-        "Email": "ای میل",
-        "Avoid": "اجتناب کریں۔",
-        "CreatePrivateChat": "تک پہنچنے کے لیے {{credits}} کریڈٹ خرچ کریں؟",
-        "RolesInCommunity": "معاشرے میں کردار",
-        "PersonalChatWith": "{{name}} کے ساتھ ذاتی بات چیت",
-        "SendCryptoTo": "{{name}} کو کرپٹو بھیجیں",
-        "SendEmailTo": "{{name}} پر ای میل بھیجیں",
-        "SendSMSTo": "{{name}} پر SMS بھیجیں",
-        "BlockThisUser": "اس صارف کو مسدود کریں۔",
-        "UnblockThisUser": "اس صارف کو غیر مسدود کریں۔",
-        "YouCantChatWithYourself": "آپ خود سے بات نہیں کر سکتے",
-        "blockUserAlertTitle": "{{displayName}} بلاک کر دیا گیا۔",
-        "sections": {
-            "education": "تعلیم",
-            "greeting": "سلام کرنا",
-            "jobs": "نوکریاں",
-            "links": "لنکس",
-            "language": "زبان",
-            "roles": "کردار",
-            "personal": "ذاتی",
-            "social": "سماجی"
-        },
-        "Roles": "کردار",
-        "SendPaymentTo": "{{name}} پر ادائیگی بھیجیں۔"
-    },
-    "myqr": {
-        "Title": "میرا QR"
-    },
-    "composer": {
-        "createCommunity": "کمیونٹی بنائیں",
-        "inviteAdmin": "ایڈمن کو مدعو کریں۔",
-        "inviteMember": "ممبر کو مدعو کریں۔",
-        "newCommunityTitle": "کمیونٹی کا نام",
-        "setCommunityTitle": "کمیونٹی کا نام",
-        "creditsChargeRequest": "کیا آپ {{price}} کریڈٹ خرچ کرنے سے اتفاق کرتے ہیں؟",
-        "yes": "جی ہاں",
-        "no": "نہیں"
-    },
-    "notifications": {
-        "WelcomePleaseVerifyEmail": "خوش آمدید! براہ کرم اپنے ای میل ایڈریس کی تصدیق کریں۔",
-        "WelcomeVerifyEmail": "خوش آمدید! اپنا ای میل ایڈریس کی تصدیق کریں.",
-        "ForgetPass": "ارے، کیا آپ اپنا پاسفریز بھول گئے؟",
-        "ManageEmailSubscriptions": "اپنی ای میل سبسکرپشنز کا نظم کریں۔",
-        "IfUnsubscribe": "اگر آپ ان سبسکرائب کرنا چاہتے ہیں۔"
-    },
-    "speak": {
-        "onboarding": {
-            "name": {
-                "Welcome": "{{CommunityName}} میں خوش آمدید۔ یہ ایپ آپ کو دوستوں سے جڑنے، مشترکہ دلچسپیوں والے نئے لوگوں کو تلاش کرنے اور بہت کچھ کرنے میں مدد کرے گی۔ آو شروع کریں!"
-            },
-            "icon": {
-                "Commentary": "اپنی تصویر سیٹ کریں۔ اس طرح لوگ آپ کو سائٹ پر دیکھیں گے۔"
-            },
-            "interests": {
-                "Commentary": "آپ جتنے زیادہ آئٹمز کا انتخاب کرتے ہیں، اتنے ہی زیادہ لوگوں سے آپ مل سکتے ہیں۔",
-                "Notifications": "آپ کو اطلاعات کی اجازت دینے کی ضرورت ہے۔"
-            }
-        },
-        "subscriptions": {
-            "confirm": "اطلاعات آپ کو ان چیزوں کے بارے میں جاننے کی اجازت دیتی ہیں جن میں آپ کی دلچسپی ہے، جیسے کہ جب کوئی دوست ایپ میں شامل ہوتا ہے، یا آپ کو پیغام بھیجتا ہے۔"
-        },
-        "invite": "{{Q.words.TapOrClick}} یہاں یہ دیکھنے کے لیے کہ آپ اسے دوسرے لوگوں کے ساتھ کیسے بانٹ سکتے ہیں۔"
-    },
-    "payment": {
-        "onContribute": "شکریہ! آپ کی ادائیگی گزر گئی۔ کیا آپ اپنے دوستوں کو اپنے ساتھ شامل ہونے کی دعوت دینا چاہیں گے؟",
-        "ConnectAccount": "اکاؤنٹ جوڑیں۔"
-    },
-    "featureboard": {
-        "Text_1": "آپ کی آواز سنی جائے! کیا آپ اتفاق کرتے ہیں کہ ہمیں کوئی خصوصیت یا بگ تیار کرنا چاہیے؟ اس کو سپورٹ کرنے کے لیے بٹن پر کلک کریں۔",
-        "Text_2": "کیا آپ چاہتے ہیں کہ ہم ایک نئی خصوصیت تیار کریں؟ ذیل میں اس کی وضاحت کریں۔",
-        "Text_3": "ہر ہفتے ہم کمیونٹی کی طرف سے سب سے زیادہ درخواست کردہ خصوصیت تیار کرنا شروع کرتے ہیں۔ تعاون کردہ تمام رقم اس مقصد کی طرف جاتی ہے، جس سے ہمیں ایپ کو بہتر بنانے کی اجازت ملتی ہے۔",
-        "Text_4": "تعاون کی گئی تمام رقم ہمارے ترقیاتی اخراجات ادا کرنے میں استعمال ہوتی ہے۔",
-        "Text_5": "کیا آپ کے پاس کسی خصوصیت یا بگ فکس کے لیے کوئی آئیڈیا ہے جو آپ ہم سے کرنا چاہتے ہیں لیکن آپ نے ابھی تک دوسروں کو شامل کرتے نہیں دیکھا؟ ذیل میں اس کی وضاحت کریں:",
-        "Options": [
-            {
-                "text": "$400 ریئل ٹائم ویڈیو کانفرنسنگ"
-            },
-            {
-                "defaultAmount": "10",
-                "text": "$200 مقامی پرائمری رجسٹریشن کی معلومات"
-            },
-            {
-                "text": "$130 براؤز کریں اور ہزاروں {{1}} میمز کا اشتراک کریں۔",
-                "defaultAmount": "10"
-            },
-            {
-                "text": "$80 اپنی کمیونٹیز کا خود انتظام کریں۔",
-                "defaultAmount": "10"
-            },
-            {
-                "text": "$30 بات چیت کے بگ کو درست کریں۔",
-                "defaultAmount": "10"
-            }
-        ],
-        "RequestNewFeature": "ایک نئی خصوصیت\/بگ فکس کی درخواست کریں۔",
-        "FeaturePlaceholder": "خصوصیت کا مختصر خلاصہ",
-        "FeatureDescription": "بیان کریں کہ آپ جس بگ کو دیکھ رہے ہیں کوئی دوسرا کیسے دوبارہ پیدا کر سکتا ہے، یا آپ جس خصوصیت کو بنانا چاہتے ہیں اسے تفصیل سے بیان کریں۔",
-        "AddYourRequest": "اپنی درخواست شامل کریں۔",
-        "NewFeature": "نئی سہولت"
-    },
-    "contribute": {
-        "ContributeExplanation": "{{communityName}} ایپ کی مسلسل ترقی میں مدد کریں۔ آپ کی تمام شراکتیں کیڑے کو ٹھیک کرنے اور آن لائن کمیونٹی کو بڑھانے میں مدد کے لیے نئی خصوصیات تیار کرنے میں مدد کرتی ہیں!",
-        "ReasonToContribute": "اس ایپ کی دیکھ بھال {{communityName}} کے حامیوں کے ذریعے کی جاتی ہے۔ اس ایپ کو سپورٹ کرنے میں مدد کریں تاکہ ہم لوگوں کی زندگیوں میں تبدیلی لا سکیں!"
-    },
-    "assetshistory": {
-        "Title": "اثاثوں کی تاریخ",
-        "Charges": "چارجز",
-        "Credits": "کریڈٹس"
-    },
-    "accounts": {
-        "remove": {
-            "title": "اکاؤنٹ ہٹا دیں۔",
-            "content": "کیا آپ اس اکاؤنٹ کو ہٹانا چاہتے ہیں؟",
-            "ok": "جی ہاں",
-            "cancel": "نہیں"
-        }
-    },
-    "import": {
-        "fileNotFound": "معذرت، CSV فائل نہیں ملی۔",
-        "fileEmpty": "معذرت، CSV فائل خالی ہے۔",
-        "userIdNotFound": "صارف موجود ہے لیکن آئی ڈی خالی ہے۔",
-        "errorLine": "لائن {{1}}",
-        "fieldNotFound": "مطلوبہ فیلڈ &quot;{{1}}&quot; نہیں ملا",
-        "taskStreamInvalid": "کام کا سلسلہ غلط ہے۔",
-        "instructionsEmpty": "ٹاسک اسٹریم کی ہدایات خالی ہیں۔",
-        "complete": "مکمل",
-        "activateUsers": "صارفین کو ایکٹیویشن پیغام بھیجیں؟",
-        "importProgress": "پیش رفت",
-        "joinEventLabel": "بے ترتیب ایونٹ میں صارفین کے ساتھ شامل ہوں۔",
-        "importOptions": "اختیارات",
-        "sampleCSV": "نمونہ CSV ڈاؤن لوڈ کریں۔",
-        "fileLabel": "سپریڈ شیٹ اپ لوڈ کریں:",
-        "errorsTitle": "غلطیاں ہوئیں",
-        "communityUsers": "یہ کمیونٹیز کی فہرست ہے۔",
-        "setAsConversation": "URL کالم بطور گفتگو",
-        "toMainCommunityToo": "صارفین کو بھی مرکزی برادری میں شامل کریں۔",
-        "willImportedTo": "صارفین کو کمیونٹی میں درآمد کیا جائے گا۔",
-        "ChooseFile": "فائل منتخب کریں"
-    },
-    "services": {
-        "Title": "خدمات",
-        "filterByTitle": "عنوان کے لحاظ سے خدمات تلاش کریں۔",
-        "New": "+ نئی سروس شروع کریں۔",
-        "NewService": "نئی سروس",
-        "NewAvailability": "نئی دستیابی",
-        "filterServices": "فلٹر سروسز",
-        "NoneYet": "ابھی تک کوئی خدمات نہیں بنی ہیں۔<br> ان اوقات کے دوران.",
-        "AllAuthors": "تمام مصنفین",
-        "AllDays": "تمام دنوں",
-        "AllLocations": "تمام مقامات",
-        "MakeReservation": "ریزرویشن کریں۔",
-        "CancelReservation": "ریزرویشن منسوخ کریں۔",
-        "UpdateReservation": "ریزرویشن کو اپ ڈیٹ کریں۔",
-        "AreYouSure": "کیا تمہیں یقین ہے؟",
-        "YouWillRefunded": "آپ کو کریڈٹس کی شکل میں واپس کیا جائے گا جو آپ ایپ میں دیگر چیزوں پر خرچ کر سکتے ہیں۔",
-        "AllInterests": "تمام دلچسپیاں",
-        "FilterbyInterest": "دلچسپی کے لحاظ سے فلٹر کریں۔",
-        "FilterByDate": "تاریخ کے لحاظ سے فلٹر کریں۔",
-        "ShowActivities": "سے متعلق سرگرمیاں دکھائیں...",
-        "newServices": "آپ کے پاس {{1}} نئی سروسز ہیں۔",
-        "SelectLocation": "مقام منتخب کریں۔",
-        "FilterLocationsPlaceHolder": "کے ساتھ مقامات کو فلٹر کریں...",
-        "Description": "{{1}} سروس",
-        "Keywords": "{{1}} سروس"
-    },
-    "welcome": {
-        "Title": "{{appName}}: خوش آمدید",
-        "GetStarted": "شروع کرنے کے",
-        "gallery": {
-            "Connect": "جڑیں۔",
-            "Organize": "منظم کریں۔",
-            "Travel": "سفر",
-            "Share": "بانٹیں"
-        }
-    }
+	"notFound": {
+		"Explanation": "<span class='url'>{{1}}</span> \u06a9\u0633\u06cc \u0686\u06cc\u0632 \u06a9\u06cc \u0637\u0631\u0641 \u0627\u0634\u0627\u0631\u06c1 \u0646\u06c1\u06cc\u06ba \u06a9\u0631\u062a\u0627!",
+		"NextSteps": "\u0622\u067e \u062c\u0633 \u0686\u06cc\u0632 \u06a9\u06cc \u062a\u0644\u0627\u0634 \u06a9\u0631 \u0631\u06c1\u06d2 \u06c1\u06cc\u06ba \u0627\u0633\u06d2 \u062a\u0644\u0627\u0634 \u06a9\u0631\u0646\u06d2 \u06a9\u06d2 \u0644\u06cc\u06d2 \u0645\u06cc\u0646 \u0645\u06cc\u0646\u0648 \u06a9\u0627 \u0627\u0633\u062a\u0639\u0645\u0627\u0644 \u06a9\u0631\u06cc\u06ba\u06d4"
+	},
+	"dashboard": {
+		"Menu": "\u0645\u06cc\u0646\u0648",
+		"Home": "\u06af\u06be\u0631",
+		"Welcome": "\u062e\u0648\u0634 \u0622\u0645\u062f\u06cc\u062f",
+		"Events": "\u062a\u0642\u0631\u06cc\u0628\u0627\u062a",
+		"Discuss": "\u0628\u062d\u062b \u06a9\u0631\u06cc\u06ba\u06d4",
+		"People": "\u0644\u0648\u06af",
+		"About": "\u06a9\u06d2 \u0628\u0627\u0631\u06d2 \u0645\u06cc\u06ba",
+		"Community": "\u0628\u0631\u0627\u062f\u0631\u06cc",
+		"LogIn": "\u0644\u0627\u06af \u0627\u0646 \u06a9\u0631\u06cc\u06ba",
+		"LogOut": "\u0644\u0627\u06af \u0622\u0648\u0679",
+		"Intercoin": "\u0627\u0646\u0679\u0631 \u06a9\u0648\u0627\u0626\u0646",
+		"Shows": "\u062f\u06a9\u06be\u0627\u062a\u0627 \u06c1\u06d2\u06d4",
+		"Calendar": "\u06a9\u06cc\u0644\u0646\u0688\u0631",
+		"Me": "\u0645\u062c\u06be\u06d2",
+		"Media": "\u0645\u06cc\u0688\u06cc\u0627",
+		"Services": "\u062e\u062f\u0645\u0627\u062a",
+		"SetMobileNumber": "\u0645\u0648\u0628\u0627\u0626\u0644 \u0646\u0645\u0628\u0631 \u0633\u06cc\u0679 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"SetEmailAddress": "\u0627\u06cc \u0645\u06cc\u0644 \u0627\u06cc\u0688\u0631\u06cc\u0633 \u0633\u06cc\u0679 \u06a9\u0631\u06cc\u06ba\u06d4"
+	},
+	"greeting": {
+		"Welcome": "{{1}} \u0645\u06cc\u06ba \u062e\u0648\u0634 \u0622\u0645\u062f\u06cc\u062f\u06d4 \u06cc\u06c1\u0627\u06ba \u0622\u067e \u06a9\u0648 \u06c1\u0645\u0627\u0631\u06cc \u06a9\u0645\u06cc\u0648\u0646\u0679\u06cc \u06a9\u06d2 \u0627\u0631\u0627\u06a9\u06cc\u0646 \u06a9\u06d2 \u0644\u06cc\u06d2 \u067e\u0648\u0633\u0679 \u06a9\u06cc \u06af\u0626\u06cc \u0686\u06cc\u0632\u06cc\u06ba \u0645\u0644\u06cc\u06ba \u06af\u06cc\u06d4 \u0627\u0639\u0644\u0627\u0646\u0627\u062a \u067e\u0648\u0633\u0679 \u06a9\u06cc\u06d2 \u062c\u0627\u0646\u06d2 \u067e\u0631 \u0627\u0637\u0644\u0627\u0639\u0627\u062a \u0645\u0648\u0635\u0648\u0644 \u06a9\u0631\u0646\u06d2 \u06a9\u06d2 \u0644\u06cc\u06d2 \u0628\u0631\u0627\u06c1 \u06a9\u0631\u0645 \u0627\u067e\u0646\u0627 \u0627\u06cc \u0645\u06cc\u0644 \u067e\u062a\u06c1 \u06cc\u0627 \u0645\u0648\u0628\u0627\u0626\u0644 \u0646\u0645\u0628\u0631 \u0634\u0627\u0645\u0644 \u06a9\u0631\u06cc\u06ba\u06d4"
+	},
+	"conversations": {
+		"Title": "\u0628\u0627\u062a \u0686\u06cc\u062a",
+		"New": "\u0646\u0626\u06cc \u06af\u0641\u062a\u06af\u0648",
+		"Conversation": "\u0628\u0627\u062a \u0686\u06cc\u062a",
+		"Topics": "\u0639\u0646\u0648\u0627\u0646\u0627\u062a",
+		"NoneYet": "\u0627\u0628\u06be\u06cc \u062a\u06a9 \u06a9\u0648\u0626\u06cc \u0628\u0627\u062a \u0686\u06cc\u062a \u0646\u06c1\u06cc\u06ba \u06c1\u0648\u0626\u06cc \u06c1\u06d2\u06d4",
+		"newConversations": "{{1}} \u0646\u0626\u06cc \u06af\u0641\u062a\u06af\u0648",
+		"AllAuthors": "\u062a\u0645\u0627\u0645 \u0645\u0635\u0646\u0641\u06cc\u0646",
+		"FilterbyAuthors": "\u0645\u0635\u0646\u0641\u06cc\u0646 \u06a9\u06d2 \u0644\u062d\u0627\u0638 \u0633\u06d2 \u0641\u0644\u0679\u0631 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"FilterAuthorPlaceHolder": "\u0627\u0636\u0627\u0641\u06cc \u0645\u0635\u0646\u0641\u06cc\u0646 \u062a\u0644\u0627\u0634 \u06a9\u0631\u06cc\u06ba...",
+		"filterConversations": "\u0645\u062a\u0646 \u06a9\u06d2 \u0644\u062d\u0627\u0638 \u0633\u06d2 \u0641\u0644\u0679\u0631 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"Description": "{{1}} \u0628\u0627\u062a \u0686\u06cc\u062a"
+	},
+	"newConversation": {
+		"composer": {
+			"ChooseActivity": "\u0627\u06cc\u06a9 \u0645\u0648\u0636\u0648\u0639 \u06a9\u0627 \u0627\u0646\u062a\u062e\u0627\u0628 \u06a9\u0631\u06cc\u06ba\u06d4",
+			"Share": "\u0628\u0627\u0646\u0679\u06cc\u06ba",
+			"interest": {
+				"Title": "\u0627\u06cc\u06a9 \u0633\u0631\u06af\u0631\u0645\u06cc \u06a9\u0627 \u0627\u0646\u062a\u062e\u0627\u0628 \u06a9\u0631\u06cc\u06ba\u06d4",
+				"Filter": "\u062f\u0644\u0686\u0633\u067e\u06cc\u0627\u06ba \u062a\u0644\u0627\u0634 \u06a9\u0631\u06cc\u06ba..."
+			}
+		},
+		"Title": "\u0646\u0626\u06cc \u06af\u0641\u062a\u06af\u0648",
+		"TitlePlaceholder": "\u0622\u067e \u06a9\u06cc \u06af\u0641\u062a\u06af\u0648 \u06a9\u0627 \u0645\u0648\u0636\u0648\u0639",
+		"ContentPlaceholder": "\u06af\u0641\u062a\u06af\u0648 \u0634\u0631\u0648\u0639 \u06a9\u0631\u0646\u06d2 \u06a9\u06d2 \u0644\u06cc\u06d2 \u0686\u0646\u062f \u0627\u0644\u0641\u0627\u0638 \u0644\u06a9\u06be\u06cc\u06ba\u060c \u062a\u0627\u06a9\u06c1 \u062f\u0648\u0633\u0631\u06d2 \u062c\u0648\u0627\u0628 \u062f\u06d2 \u0633\u06a9\u06cc\u06ba",
+		"StartButton": "\u0628\u0627\u062a \u0686\u06cc\u062a \u0634\u0631\u0648\u0639 \u06a9\u0631\u06cc\u06ba\u06d4"
+	},
+	"events": {
+		"Title": "\u062a\u0642\u0631\u06cc\u0628\u0627\u062a",
+		"filterByTitle": "\u0639\u0646\u0648\u0627\u0646 \u06a9\u06d2 \u0644\u062d\u0627\u0638 \u0633\u06d2 \u0648\u0627\u0642\u0639\u0627\u062a \u062a\u0644\u0627\u0634 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"New": "+ \u0646\u06cc\u0627 \u0648\u0627\u0642\u0639\u06c1 \u0634\u0631\u0648\u0639 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"filterEvents": "\u0648\u0627\u0642\u0639\u0627\u062a \u06a9\u0648 \u0641\u0644\u0679\u0631 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"NewEvent": "\u0646\u06cc\u0627 \u0648\u0627\u0642\u0639\u06c1",
+		"SetLocation": "\u0645\u06cc\u0631\u0627 \u0645\u0642\u0627\u0645 \u0633\u06cc\u0679 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"NoneYet": "\u0627\u0628\u06be\u06cc \u062a\u06a9 \u06a9\u0648\u0626\u06cc \u0648\u0627\u0642\u0639\u0627\u062a \u0646\u06c1\u06cc\u06ba \u0628\u0646\u06d2\u06d4<br> \u0627\u0646 \u0627\u0648\u0642\u0627\u062a \u06a9\u06d2 \u062f\u0648\u0631\u0627\u0646.",
+		"AllAuthors": "\u062a\u0645\u0627\u0645 \u0645\u0635\u0646\u0641\u06cc\u0646",
+		"AllDays": "\u062a\u0645\u0627\u0645 \u062f\u0646\u0648\u06ba",
+		"AllLocations": "\u062a\u0645\u0627\u0645 \u0645\u0642\u0627\u0645\u0627\u062a",
+		"MakeReservation": "\u0631\u06cc\u0632\u0631\u0648\u06cc\u0634\u0646 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"CancelReservation": "\u0631\u06cc\u0632\u0631\u0648\u06cc\u0634\u0646 \u0645\u0646\u0633\u0648\u062e \u06a9\u0631\u06cc\u06ba\u06d4",
+		"UpdateReservation": "\u0631\u06cc\u0632\u0631\u0648\u06cc\u0634\u0646 \u06a9\u0648 \u0627\u067e \u0688\u06cc\u0679 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"AreYouSure": "\u06a9\u06cc\u0627 \u062a\u0645\u06c1\u06cc\u06ba \u06cc\u0642\u06cc\u0646 \u06c1\u06d2\u061f",
+		"YouWillRefunded": "\u0622\u067e \u06a9\u0648 \u06a9\u0631\u06cc\u0688\u0679\u0633 \u06a9\u06cc \u0634\u06a9\u0644 \u0645\u06cc\u06ba \u0648\u0627\u067e\u0633 \u06a9\u06cc\u0627 \u062c\u0627\u0626\u06d2 \u06af\u0627 \u062c\u0648 \u0622\u067e \u0627\u06cc\u067e \u0645\u06cc\u06ba \u062f\u06cc\u06af\u0631 \u0686\u06cc\u0632\u0648\u06ba \u067e\u0631 \u062e\u0631\u0686 \u06a9\u0631 \u0633\u06a9\u062a\u06d2 \u06c1\u06cc\u06ba\u06d4",
+		"AllInterests": "\u062a\u0645\u0627\u0645 \u062f\u0644\u0686\u0633\u067e\u06cc\u0627\u06ba",
+		"FilterbyInterest": "\u062f\u0644\u0686\u0633\u067e\u06cc \u06a9\u06d2 \u0644\u062d\u0627\u0638 \u0633\u06d2 \u0641\u0644\u0679\u0631 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"FilterByDate": "\u062a\u0627\u0631\u06cc\u062e \u06a9\u06d2 \u0644\u062d\u0627\u0638 \u0633\u06d2 \u0641\u0644\u0679\u0631 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"ShowActivities": "\u0633\u06d2 \u0645\u062a\u0639\u0644\u0642 \u0633\u0631\u06af\u0631\u0645\u06cc\u0627\u06ba \u062f\u06a9\u06be\u0627\u0626\u06cc\u06ba\u06d4 . .",
+		"newEvents": "\u0622\u067e \u06a9\u06d2 \u067e\u0627\u0633 {{1}} \u0646\u0626\u06d2 \u0648\u0627\u0642\u0639\u0627\u062a \u06c1\u06cc\u06ba\u06d4",
+		"SelectLocation": "\u0645\u0642\u0627\u0645 \u0645\u0646\u062a\u062e\u0628 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"FilterLocationsPlaceHolder": "\u06a9\u06d2 \u0633\u0627\u062a\u06be \u0645\u0642\u0627\u0645\u0627\u062a \u06a9\u0648 \u0641\u0644\u0679\u0631 \u06a9\u0631\u06cc\u06ba...",
+		"Description": "{{1}} \u0648\u0627\u0642\u0639\u0627\u062a",
+		"Keywords": "{{1}} \u0648\u0627\u0642\u0639\u0627\u062a"
+	},
+	"schedule": {
+		"Title": "\u0634\u06cc\u0688\u0648\u0644",
+		"NoneYet": "\u0622\u067e \u06a9\u0633\u06cc \u062a\u0642\u0631\u06cc\u0628 \u0645\u06cc\u06ba \u0634\u0631\u06a9\u062a \u0646\u06c1\u06cc\u06ba \u06a9\u0631 \u0631\u06c1\u06d2 \u06c1\u06cc\u06ba\u06d4",
+		"AddSome": "\u0627\u067e\u0646\u06d2 \u0634\u06cc\u0688\u0648\u0644 \u0645\u06cc\u06ba \u06a9\u0686\u06be \u0634\u0627\u0645\u0644 \u06a9\u0631\u06cc\u06ba!",
+		"AddMore": "\u0648\u0627\u0642\u0639\u0627\u062a \u06a9\u0648 \u0627\u067e\u0646\u06d2 \u0634\u06cc\u0688\u0648\u0644 \u0645\u06cc\u06ba \u0634\u0627\u0645\u0644 \u06a9\u0631\u06cc\u06ba!",
+		"future": "\u0645\u0633\u062a\u0642\u0628\u0644",
+		"past": "\u0645\u0627\u0636\u06cc"
+	},
+	"location": {
+		"Title": "\u0645\u0642\u0627\u0645",
+		"NewLocation": "\u0646\u06cc\u0627 \u0645\u0642\u0627\u0645"
+	},
+	"inbox": {
+		"Title": "\u0627\u0646\u0628\u0627\u06a9\u0633",
+		"NoneYet": "\u0622\u067e \u06a9\u0633\u06cc \u0628\u0627\u062a \u0686\u06cc\u062a \u0645\u06cc\u06ba \u062d\u0635\u06c1 \u0646\u06c1\u06cc\u06ba \u0644\u06d2 \u0631\u06c1\u06d2 \u06c1\u06cc\u06ba\u06d4",
+		"FindPeople": "\u0628\u0627\u062a \u06a9\u0631\u0646\u06d2 \u06a9\u06d2 \u0644\u06cc\u06d2 \u0644\u0648\u06af\u0648\u06ba \u06a9\u0648 \u062a\u0644\u0627\u0634 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"GroupConversations": "\u06a9\u0686\u06be \u06af\u0631\u0648\u067e \u06af\u0641\u062a\u06af\u0648 \u0645\u06cc\u06ba \u0634\u0627\u0645\u0644 \u06c1\u0648\u06ba\u06d4",
+		"ContactStaff": "\u0633\u0679\u0627\u0641 \u0633\u06d2 \u0631\u0627\u0628\u0637\u06c1 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"ContactCustomers": "\u0635\u0627\u0631\u0641\u06cc\u0646 \u0633\u06d2 \u0631\u0627\u0628\u0637\u06c1 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"AddNewContact": "\u0646\u06cc\u0627 \u0631\u0627\u0628\u0637\u06c1 \u0634\u0627\u0645\u0644 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"AddNewContacts": "\u0646\u0626\u06d2 \u0631\u0627\u0628\u0637\u06d2 \u0634\u0627\u0645\u0644 \u06a9\u0631\u06cc\u06ba\u06d4"
+	},
+	"me": {
+		"Title": "\u0645\u062c\u06be\u06d2",
+		"MobileNumber": "\u0645\u0648\u0628\u0627\u0626\u0644 \u0641\u0648\u0646 \u06a9\u0627\u0646\u0645\u0628\u0631",
+		"EmailAddress": "\u0627\u06cc \u0645\u06cc\u0644 \u0627\u0688\u0631\u06cc\u0633",
+		"UpdateSocialTitle": "{{1}} \u0635\u0627\u0631\u0641 \u0646\u0627\u0645 \u06a9\u0648 \u0627\u067e \u0688\u06cc\u0679 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"Web3": "\u0648\u06cc\u0628 3"
+	},
+	"people": {
+		"Title": "\u0644\u0648\u06af",
+		"Description": "{{1}} \u06a9\u0645\u06cc\u0648\u0646\u0679\u06cc \u0645\u06cc\u06ba \u0644\u0648\u06af",
+		"AppAlert": "\u0627\u06cc\u067e \u0633\u0679\u0648\u0631 \u0645\u06cc\u06ba \u0645\u0648\u062c\u0648\u062f \u06cc\u06c1 \u0627\u06cc\u067e \u0622\u067e \u06a9\u0648 \u0627\u067e\u0646\u06d2 \u062f\u0648\u0633\u062a\u0648\u06ba \u06a9\u06d2 \u0633\u0627\u062a\u06be \u0645\u0646\u0633\u0644\u06a9 \u06c1\u0648\u0646\u06d2 \u062f\u06d2 \u06af\u06cc\u060c \u0627\u0648\u0631 \u0628\u06c1\u062a \u06a9\u0686\u06be\u06d4",
+		"Invite": "\u062f\u0648\u0633\u062a\u0648\u06ba \u06a9\u0648 \u0645\u062f\u0639\u0648 \u06a9\u0631\u06cc\u06ba",
+		"BuyCredits": "\u06a9\u0631\u06cc\u0688\u0679 \u062e\u0631\u06cc\u062f\u06cc\u06ba\u06d4",
+		"FindSomeoneByName": "\u06a9\u0633\u06cc \u06a9\u0648 \u0646\u0627\u0645 \u0633\u06d2 \u062a\u0644\u0627\u0634 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"SearchByName": "\u0646\u0627\u0645 \u0633\u06d2 \u062a\u0644\u0627\u0634 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"FindAllMyFriends": "\u0645\u06cc\u0631\u06d2 \u062a\u0645\u0627\u0645 \u062f\u0648\u0633\u062a\u0648\u06ba \u06a9\u0648 \u062a\u0644\u0627\u0634 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"labels": {
+			"All": "\u06c1\u0631 \u06a9\u0648\u0626\u06cc",
+			"Title": "\u0631\u0634\u062a\u06d2 \u06a9\u06d2 \u0644\u062d\u0627\u0638 \u0633\u06d2 \u0641\u0644\u0679\u0631 \u06a9\u0631\u06cc\u06ba\u06d4",
+			"New": "\u0631\u0634\u062a\u06d2 \u06a9\u06cc \u0646\u0626\u06cc \u0642\u0633\u0645"
+		},
+		"interests": {
+			"All": "\u062a\u0645\u0627\u0645 \u062f\u0644\u0686\u0633\u067e\u06cc\u0627\u06ba",
+			"Title": "\u062f\u0644\u0686\u0633\u067e\u06cc \u06a9\u06d2 \u0644\u062d\u0627\u0638 \u0633\u06d2 \u0641\u0644\u0679\u0631 \u06a9\u0631\u06cc\u06ba\u06d4",
+			"Filter": "\u0645\u06cc\u06ba \u062f\u0644\u0686\u0633\u067e\u06cc \u0631\u06a9\u06be\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u0644\u0648\u06af\u0648\u06ba \u06a9\u0648 \u062f\u06a9\u06be\u0627\u0626\u06cc\u06ba\u06d4 . ."
+		},
+		"Keywords": "{{1}} \u0644\u0648\u06af\u0648\u06ba \u06a9\u06cc \u06a9\u0645\u06cc\u0648\u0646\u0679\u06cc"
+	},
+	"communities": {
+		"Title": "\u06a9\u0645\u06cc\u0648\u0646\u0679\u06cc\u0632",
+		"NewCommunity": "\u0646\u0626\u06cc \u06a9\u0645\u06cc\u0648\u0646\u0679\u06cc",
+		"FindCommunityByName": "\u0646\u0627\u0645 \u0633\u06d2 \u06a9\u0645\u06cc\u0648\u0646\u0679\u06cc \u062a\u0644\u0627\u0634 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"Description": "{{1}} \u06a9\u0645\u06cc\u0648\u0646\u0679\u06cc\u0632"
+	},
+	"community": {
+		"Title": "{{1}} \u06a9\u0645\u06cc\u0648\u0646\u0679\u06cc",
+		"Roles": "\u06a9\u0631\u062f\u0627\u0631",
+		"AllRoles": "\u062a\u0645\u0627\u0645 \u06a9\u0631\u062f\u0627\u0631",
+		"YouDontHavePermission": "\u0622\u067e \u0627\u06cc\u0633\u0627 \u06a9\u0631\u0646\u06d2 \u06a9\u06d2 \u0645\u062c\u0627\u0632 \u0646\u06c1\u06cc\u06ba \u06c1\u06cc\u06ba\u06d4",
+		"usernamePlaceholder": "\u06a9\u0645\u06cc\u0648\u0646\u0679\u06cc \u06a9\u0627 \u0646\u0627\u0645 \u0645\u0642\u0631\u0631 \u06a9\u0631\u06cc\u06ba",
+		"NotEnoughCredits": "\u06a9\u0645\u06cc\u0648\u0646\u0679\u06cc \u0628\u0646\u0627\u0646\u06d2 \u06a9\u06d2 \u0644\u06cc\u06d2 \u0622\u067e \u06a9\u06d2 \u067e\u0627\u0633 \u06a9\u0627\u0641\u06cc \u06a9\u0631\u06cc\u0688\u0679 \u0646\u06c1\u06cc\u06ba \u06c1\u06cc\u06ba\u06d4 {{1}} \u06a9\u06cc \u0636\u0631\u0648\u0631\u062a \u06c1\u06d2\u060c \u0622\u067e \u06a9\u06d2 \u067e\u0627\u0633 {{2}} \u06c1\u06d2"
+	},
+	"event": {
+		"GetDirections": "\u06c1\u062f\u0627\u06cc\u0627\u062a \u062d\u0627\u0635\u0644 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"WhichMap": "\u0622\u067e \u06a9\u0648\u0646 \u0633\u06d2 \u0646\u0642\u0634\u06d2 \u0627\u0633\u062a\u0639\u0645\u0627\u0644 \u06a9\u0631\u0646\u0627 \u0686\u0627\u06c1\u06cc\u06ba \u06af\u06d2\u061f",
+		"JoinEventToChat": "\u0686\u06cc\u0679 \u06a9\u0631\u0646\u06d2 \u06a9\u06d2 \u0644\u06cc\u06d2 \u0627\u06cc\u0648\u0646\u0679 \u0645\u06cc\u06ba \u0634\u0627\u0645\u0644 \u06c1\u0648\u06ba\u06d4",
+		"promote": {
+			"Title": "\u0627\u0633 \u062a\u0642\u0631\u06cc\u0628 \u06a9\u0648 \u0641\u0631\u0648\u063a \u062f\u06cc\u06ba\u06d4",
+			"Prompt": "\u0645\u0646\u062a\u062e\u0628 \u06a9\u0631\u06cc\u06ba \u06a9\u06c1 \u0622\u067e \u0627\u0633 \u0627\u06cc\u0648\u0646\u0679 \u06a9\u0648 \u06a9\u06c1\u0627\u06ba \u067e\u0631\u0648\u0645\u0648\u0679 \u06a9\u0631\u0646\u0627 \u0686\u0627\u06c1\u062a\u06d2 \u06c1\u06cc\u06ba:"
+		},
+		"Confirmation": "\u062a\u0635\u062f\u06cc\u0642"
+	},
+	"newEvent": {
+		"Title": "\u0646\u0626\u06d2 \u0627\u06cc\u0648\u0646\u0679 \u06a9\u0627 \u0645\u0646\u0635\u0648\u0628\u06c1 \u0628\u0646\u0627\u0626\u06cc\u06ba"
+	},
+	"interests": {
+		"Title": "\u062f\u0644\u0686\u0633\u067e\u06cc\u0627\u06ba",
+		"prompt": "\u0627\u0646 \u0686\u06cc\u0632\u0648\u06ba \u06a9\u06cc \u0642\u0633\u0645\u06cc\u06ba \u0645\u0646\u062a\u062e\u0628 \u06a9\u0631\u06cc\u06ba \u062c\u0646 \u06a9\u06d2 \u0628\u0627\u0631\u06d2 \u0645\u06cc\u06ba \u0622\u067e \u062c\u0627\u0646\u0646\u0627 \u0686\u0627\u06c1\u062a\u06d2 \u06c1\u06cc\u06ba\u06d4",
+		"explanation": "\u0622\u067e \u062c\u062a\u0646\u06cc \u0632\u06cc\u0627\u062f\u06c1 \u062f\u0644\u0686\u0633\u067e\u06cc\u0627\u06ba \u0645\u0646\u062a\u062e\u0628 \u06a9\u0631\u06cc\u06ba \u06af\u06d2\u060c \u0627\u062a\u0646\u0627 \u06c1\u06cc \u0632\u06cc\u0627\u062f\u06c1 \u0627\u0645\u06a9\u0627\u0646 \u06c1\u06d2 \u06a9\u06c1 \u0622\u067e \u06c1\u0645 \u062e\u06cc\u0627\u0644 \u0644\u0648\u06af\u0648\u06ba \u0633\u06d2 \u062c\u0691\u06cc\u06ba \u06af\u06d2\u06d4",
+		"filter": "\u0622\u067e \u0627\u0633 \u0645\u06cc\u06ba \u06a9\u06cc\u0627 \u062f\u0644\u0686\u0633\u067e\u06cc \u0631\u06a9\u06be\u062a\u06d2 \u06c1\u06cc\u06ba\u061f",
+		"Profile": "\u0628\u0627\u06c1\u0645\u06cc \u0645\u0641\u0627\u062f\u0627\u062a \u06a9\u0648 \u0627\u062c\u0627\u06af\u0631 \u06a9\u06cc\u0627 \u06af\u06cc\u0627 \u06c1\u06d2\u06d4 \u0627\u06af\u0631 \u0622\u067e \u06a9\u06cc \u0628\u06be\u06cc \u0630\u06cc\u0644 \u0645\u06cc\u06ba \u0627\u06cc\u06a9 \u06cc\u0627 \u0632\u06cc\u0627\u062f\u06c1 \u062f\u0644\u0686\u0633\u067e\u06cc\u0627\u06ba \u06c1\u06cc\u06ba\u060c \u062a\u0648 \u0622\u067e \u0627\u0646\u06c1\u06cc\u06ba \u0634\u0627\u0645\u0644 \u06a9\u0631\u0646\u06d2 \u06a9\u06d2 \u0644\u06cc\u06d2 {{clickOrTap}} \u06a9\u0631\u0633\u06a9\u062a\u06d2 \u06c1\u06cc\u06ba\u06d4"
+	},
+	"credits": {
+		"Title": "\u06a9\u0631\u06cc\u0688\u0679\u0633",
+		"EarnCredits": "\u06c1\u0631 \u0627\u0633 \u0646\u0626\u06d2 \u0641\u0631\u062f \u06a9\u06d2 \u0644\u06cc\u06d2 {{1}} \u06a9\u0631\u06cc\u0688\u0679 \u062d\u0627\u0635\u0644 \u06a9\u0631\u06cc\u06ba \u062c\u0633\u06d2 \u0622\u067e \u0645\u062f\u0639\u0648 \u06a9\u0631\u062a\u06d2 \u06c1\u06cc\u06ba \u062c\u0648 \u0627\u06cc\u067e \u0645\u06cc\u06ba \u0634\u0627\u0645\u0644 \u06c1\u0648\u062a\u0627 \u06c1\u06d2\u06d4",
+		"YouHave": "\u0622\u067e \u06a9\u06d2 \u067e\u0627\u0633 {{1}} \u06a9\u0631\u06cc\u0688\u0679 \u06c1\u06cc\u06ba\u06d4"
+	},
+	"onboarding": {
+		"Tap": "\u0646\u0644",
+		"Click": "\u06a9\u0644\u06a9 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"Yes": "\u062c\u06cc \u06c1\u0627\u06ba",
+		"No": "\u0646\u06c1\u06cc\u06ba",
+		"Skip": "\u06cc\u0627 \u0627\u0633 \u06a9\u0648 \u0686\u06be\u0648\u0691 \u062f\u06cc\u06ba\u06d4",
+		"name": {
+			"Preface": "\u0645\u06cc\u06ba \u062e\u0648\u0634 \u0622\u0645\u062f\u06cc\u062f",
+			"Placeholder": "\u0627\u067e\u0646\u0627 \u067e\u0648\u0631\u0627 \u0646\u0627\u0645 \u062f\u0631\u062c \u06a9\u0631\u06cc\u06ba",
+			"GetStarted": "\u0634\u0631\u0648\u0639 \u06a9\u0631\u0646\u06d2 \u06a9\u06d2",
+			"AsGuest": "\u0622\u067e \u06a9\u0648 \u0628\u0637\u0648\u0631 \u0645\u06c1\u0645\u0627\u0646 \u0645\u062f\u0639\u0648 \u06a9\u06cc\u0627 \u06af\u06cc\u0627 \u06c1\u06d2\u06d4",
+			"AsMember": "\u0622\u067e \u06a9\u0648 \u0628\u0637\u0648\u0631 \u0631\u06a9\u0646 \u0645\u062f\u0639\u0648 \u06a9\u06cc\u0627 \u06af\u06cc\u0627 \u06c1\u06d2\u06d4",
+			"AsAdmin": "\u0622\u067e \u06a9\u0648 \u0628\u0637\u0648\u0631 \u0627\u06cc\u0688\u0645\u0646 \u0645\u062f\u0639\u0648 \u06a9\u06cc\u0627 \u06af\u06cc\u0627 \u06c1\u06d2\u06d4",
+			"AsOwner": "\u0622\u067e \u06a9\u0648 \u0628\u0637\u0648\u0631 \u0645\u0627\u0644\u06a9 \u0645\u062f\u0639\u0648 \u06a9\u06cc\u0627 \u06af\u06cc\u0627 \u06c1\u06d2\u06d4",
+			"TooShort": "\u0622\u067e \u06a9\u0627 \u067e\u0648\u0631\u0627 \u0646\u0627\u0645 \u0627\u062a\u0646\u0627 \u0686\u06be\u0648\u0679\u0627 \u0646\u06c1\u06cc\u06ba \u06c1\u0648 \u0633\u06a9\u062a\u0627",
+			"SetAsYourFullName": "{{1}} \u06a9\u0648 \u0627\u067e\u0646\u06d2 \u0645\u06a9\u0645\u0644 \u0646\u0627\u0645 \u06a9\u06d2 \u0637\u0648\u0631 \u067e\u0631 \u0633\u06cc\u0679 \u06a9\u0631\u06cc\u06ba\u061f"
+		},
+		"icon": {
+			"KeepDefault": "\u06cc\u0627 \u0627\u0633 \u062a\u0635\u0648\u06cc\u0631 \u06a9\u0648 \u0631\u06a9\u06be\u06cc\u06ba",
+			"SetYourPhoto": "{{ClickOrTap}} \u0627\u067e\u0646\u06cc \u062a\u0635\u0648\u06cc\u0631 \u0633\u06cc\u0679 \u06a9\u0631\u0646\u06d2 \u06a9\u06d2 \u0644\u06cc\u06d2:",
+			"ClickOnYourFace": "{{ClickOrTap}} \u0622\u067e \u06a9\u06d2 \u0686\u06c1\u0631\u06d2 \u067e\u0631"
+		},
+		"interests": {
+			"GetStarted": "\u21e9 \u0634\u0631\u0648\u0639 \u06a9\u0631\u06cc\u06ba\u06d4",
+			"NextCategory": "\u2193 \u0627\u06af\u0644\u0627",
+			"Continue": "\u062c\u0627\u0631\u06cc \u0631\u06c1\u06d2",
+			"Instructions": "\u0627\u06af\u0644\u06d2 {{1}} \u0632\u0645\u0631\u0648\u06ba \u0645\u06cc\u06ba \u0633\u06d2 \u06c1\u0631 \u0627\u06cc\u06a9 \u0645\u06cc\u06ba\u060c<br> {{2}} \u0648\u06c1 \u062a\u0645\u0627\u0645 \u0633\u0631\u06af\u0631\u0645\u06cc\u0627\u06ba \u062c\u0646 \u0645\u06cc\u06ba \u0622\u067e \u06a9\u06cc \u062f\u0644\u0686\u0633\u067e\u06cc \u06c1\u06d2\u06d4<br> \u0627\u0633 \u0637\u0631\u062d \u0622\u067e \u06a9\u0645\u06cc\u0648\u0646\u0679\u06cc \u0645\u06cc\u06ba \u062f\u0648\u0633\u0631\u06d2 \u0644\u0648\u06af\u0648\u06ba \u0633\u06d2 \u062c\u0691\u062a\u06d2 \u06c1\u06cc\u06ba\u06d4"
+		},
+		"profile": {
+			"Profile": "\u0622\u067e \u06a9\u0648 \u0644\u0648\u06af\u0648\u06ba \u0633\u06d2 \u0645\u0644\u0627\u0646\u06d2 \u0645\u06cc\u06ba \u0645\u062f\u062f \u06a9\u06d2 \u0644\u06cc\u06d2 \u0628\u0646\u06cc\u0627\u062f\u06cc \u0645\u0639\u0644\u0648\u0645\u0627\u062a:",
+			"Birthday": "\u0628\u0631\u0627\u06c1 \u06a9\u0631\u0645 \u0627\u067e\u0646\u06cc \u0633\u0627\u0644\u06af\u0631\u06c1 \u062f\u0631\u062c \u06a9\u0631\u06cc\u06ba:",
+			"Placeholder": "\u062a\u0645 \u06a9\u0648\u0646 \u06c1\u0648 \u0627\u0648\u0631 \u06a9\u06cc\u0627 \u06a9\u0631\u062a\u06d2 \u06c1\u0648\u061f \u0644\u0648\u06af\u0648\u06ba \u06a9\u0648 \u0627\u067e\u0646\u06d2 \u0628\u0627\u0631\u06d2 \u0645\u06cc\u06ba \u06a9\u0686\u06be \u062f\u0644\u0686\u0633\u067e \u06cc\u0627 \u0645\u0646\u0641\u0631\u062f \u0628\u062a\u0627\u0626\u06cc\u06ba\u06d4",
+			"Required": "\u062c\u0627\u0631\u06cc \u0631\u06a9\u06be\u0646\u06d2 \u06a9\u06d2 \u0644\u06cc\u06d2\u060c \u0627\u067e\u0646\u06d2 \u0628\u0627\u0631\u06d2 \u0645\u06cc\u06ba \u06a9\u0645 \u0627\u0632 \u06a9\u0645 \u0627\u06cc\u06a9 \u062f\u0648 \u0633\u0637\u0631\u06cc\u06ba \u0644\u06a9\u06be\u06cc\u06ba\u06d4",
+			"Month": "\u0645\u06c1\u06cc\u0646\u06c1",
+			"Day": "\u062f\u0646",
+			"Year": "\u0633\u0627\u0644",
+			"Gender": "\u0635\u0646\u0641",
+			"Male": "\u0645\u0631\u062f",
+			"Female": "\u0639\u0648\u0631\u062a",
+			"Other": "\u062f\u06cc\u06af\u0631",
+			"Height": "\u0627\u0648\u0646\u0686\u0627\u0626\u06cc",
+			"Affiliation": "\u0648\u0627\u0628\u0633\u062a\u06af\u06cc",
+			"Dating": "\u0688\u06cc\u0679\u0646\u06af",
+			"Interested": "\u062f\u0644\u0686\u0633\u067e\u06cc",
+			"NotInterested": "\u062f\u0644\u0686\u0633\u067e\u06cc \u0646\u06c1\u06cc\u06ba",
+			"MatchmakerOnly": "\u0635\u0631\u0641 \u0645\u06cc\u0686 \u0645\u06cc\u06a9\u0631"
+		},
+		"location": {
+			"NoOneElse": "\u06a9\u0648\u0626\u06cc \u0627\u0648\u0631 \u0646\u06c1\u06cc\u06ba \u062f\u06cc\u06a9\u06be\u06d2 \u06af\u0627\u06d4",
+			"SetMyLocation": "\u0645\u06cc\u0631\u0627 \u0645\u0642\u0627\u0645 \u0645\u062a\u0639\u06cc\u0646 \u06a9\u0631\u06cc\u06ba\u06d4"
+		},
+		"pile": {
+			"DialogTitle": "\u0645\u0634\u062a\u0631\u06a9\u06c1 \u0645\u0641\u0627\u062f\u0627\u062a \u0631\u06a9\u06be\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u0644\u0648\u06af"
+		},
+		"Done": "\u06c1\u0648 \u06af\u06cc\u0627",
+		"relationships": {
+			"title": "\u0641\u0648\u0646 \u0628\u06a9 \u0645\u06cc\u06ba {{userName}} \u0634\u0627\u0645\u0644 \u06a9\u0631\u06cc\u06ba\u06d4",
+			"welcome": "\u062e\u0648\u0634 \u0622\u0645\u062f\u06cc\u062f {{user}}",
+			"invitedByUser": "\u0622\u067e \u06a9\u0648 \u0645\u062f\u0639\u0648 \u06a9\u06cc\u0627.",
+			"addToPhonebook": "\u0645\u06cc\u0631\u06d2 \u0641\u0648\u0646 \u0631\u0627\u0628\u0637\u0648\u06ba \u0645\u06cc\u06ba \u0645\u062d\u0641\u0648\u0638 \u06a9\u0631\u06cc\u06ba\u06d4",
+			"iosInstructions": "\u0646\u06cc\u0627 \u0631\u0627\u0628\u0637\u06c1 \u0634\u0627\u0645\u0644 \u06a9\u0631\u0646\u06d2 \u06a9\u06d2 \u0644\u06cc\u06d2 \u0646\u06cc\u0686\u06d2 \u0633\u06a9\u0631\u0648\u0644 \u06a9\u0631\u06cc\u06ba\u06d4",
+			"androidInstructions": "\u0622\u067e \u06a9\u0648 \u0627\u0633 vCard \u0641\u0627\u0626\u0644 \u06a9\u0648 \u0688\u0627\u0624\u0646 \u0644\u0648\u0688 \u06c1\u0648\u0646\u06d2 \u06a9\u06d2 \u0628\u0639\u062f \u06a9\u06be\u0648\u0644\u0646\u0627 \u0686\u0627\u06c1\u06cc\u06d2\u06d4",
+			"explanation": "\u062a\u0645\u06c1\u0627\u0631\u0627 \u0631\u0634\u062a\u06c1 \u06a9\u06cc\u0627 \u06c1\u06d2\u061f"
+		},
+		"Title": "\u0628\u0646\u06cc\u0627\u062f\u06cc \u0645\u0639\u0644\u0648\u0645\u0627\u062a",
+		"Prompt": "\u0627\u067e\u0646\u0627 \u0627\u06a9\u0627\u0624\u0646\u0679 \u062a\u0631\u062a\u06cc\u0628 \u062f\u06cc\u0646\u06d2 \u06a9\u06d2 \u0644\u06cc\u06d2 \u0686\u0646\u062f \u0627\u0642\u062f\u0627\u0645\u0627\u062a"
+	},
+	"profile": {
+		"Title": "\u067e\u0631\u0648\u0641\u0627\u0626\u0644",
+		"Male": "\u0645\u0631\u062f",
+		"Female": "\u0639\u0648\u0631\u062a",
+		"Other": "\u062f\u06cc\u06af\u0631",
+		"dating": {
+			"Interested": "\u062f\u0644\u0686\u0633\u067e\u06cc",
+			"NotInterested": "\u062f\u0644\u0686\u0633\u067e\u06cc \u0646\u06c1\u06cc\u06ba",
+			"MatchmakerOnly": "\u0635\u0631\u0641 \u0645\u06cc\u0686 \u0645\u06cc\u06a9\u0631"
+		},
+		"StartConversation": "\u0628\u0627\u062a \u0686\u06cc\u062a \u0634\u0631\u0648\u0639 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"blockUser": "\u0627\u0633 \u0635\u0627\u0631\u0641 \u06a9\u0648 \u0645\u0633\u062f\u0648\u062f \u06a9\u0631\u06cc\u06ba\u06d4",
+		"blockUserAlert": "\u0622\u067e \u06a9\u0648 \u0627\u0633 \u0635\u0627\u0631\u0641 \u06a9\u06d2 \u0645\u0632\u06cc\u062f \u067e\u06cc\u063a\u0627\u0645\u0627\u062a \u0627\u0633 \u0648\u0642\u062a \u062a\u06a9 \u0646\u0638\u0631 \u0646\u06c1\u06cc\u06ba \u0622\u0626\u06cc\u06ba \u06af\u06d2 \u062c\u0628 \u062a\u06a9 \u0622\u067e \u0627\u0646\u06c1\u06cc\u06ba \u063a\u06cc\u0631 \u0645\u0633\u062f\u0648\u062f \u0646\u06c1\u06cc\u06ba \u06a9\u0631 \u062f\u06cc\u062a\u06d2\u06d4",
+		"unblockUser": "\u0627\u0633 \u0635\u0627\u0631\u0641 \u06a9\u0648 \u063a\u06cc\u0631 \u0645\u0633\u062f\u0648\u062f \u06a9\u0631\u06cc\u06ba\u06d4",
+		"addToContacts": "\u0631\u0627\u0628\u0637\u0648\u06ba \u0645\u06cc\u06ba \u0634\u0627\u0645\u0644 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"manageLabels": "\u0644\u06cc\u0628\u0644\u0632 \u06a9\u0627 \u0646\u0638\u0645 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"inviteUsers": "\u0635\u0627\u0631\u0641\u06cc\u0646 \u06a9\u0648 \u0645\u062f\u0639\u0648 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"selectRole": "\u06a9\u0631\u062f\u0627\u0631 \u0645\u0646\u062a\u062e\u0628 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"inviteSuccess": "\u0635\u0627\u0631\u0641 \u06a9\u0648 \u06a9\u0627\u0645\u06cc\u0627\u0628\u06cc \u0633\u06d2 \u0645\u062f\u0639\u0648 \u06a9\u06cc\u0627 \u06af\u06cc\u0627 \u0628\u0637\u0648\u0631 {{label}}",
+		"invite": "\u062f\u0639\u0648\u062a \u062f\u06cc\u06ba\u06d4",
+		"relationships": "\u0631\u0634\u062a\u06d2",
+		"newRole": "\u0646\u06cc\u0627 \u06a9\u0631\u062f\u0627\u0631",
+		"about": "\u06a9\u06d2 \u0628\u0627\u0631\u06d2 \u0645\u06cc\u06ba",
+		"people": "\u0644\u0648\u06af",
+		"info": "\u0645\u0639\u0644\u0648\u0645\u0627\u062a",
+		"interests": "\u062f\u0644\u0686\u0633\u067e\u06cc\u0627\u06ba",
+		"chat": "\u06af\u067e \u0634\u067e",
+		"locations": "\u0645\u0642\u0627\u0645\u0627\u062a",
+		"ManageRoles": "\u06a9\u0631\u062f\u0627\u0631\u0648\u06ba \u06a9\u0627 \u0646\u0638\u0645 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"aboutPlaceholder": "\u062a\u0645 \u06a9\u0648\u0646 \u06c1\u0648 \u0627\u0648\u0631 \u06a9\u06cc\u0627 \u06a9\u0631\u062a\u06d2 \u06c1\u0648\u061f \u0644\u0648\u06af\u0648\u06ba \u06a9\u0648 \u0627\u067e\u0646\u06d2 \u0628\u0627\u0631\u06d2 \u0645\u06cc\u06ba \u06a9\u0686\u06be \u062f\u0644\u0686\u0633\u067e \u06cc\u0627 \u0645\u0646\u0641\u0631\u062f \u0628\u062a\u0627\u0626\u06cc\u06ba\u06d4",
+		"explanation": "\u0622\u067e \u06a9\u0627 \u067e\u0631\u0648\u0641\u0627\u0626\u0644 \u06af\u0631\u0648\u067e \u0633\u0631\u06af\u0631\u0645\u06cc\u0648\u06ba \u06a9\u06d2 \u0644\u06cc\u06d2 \u0622\u067e \u06a9\u0648 \u062f\u0648\u0633\u0631\u06d2 \u0644\u0648\u06af\u0648\u06ba \u0633\u06d2 \u0628\u06c1\u062a\u0631 \u0637\u0631\u06cc\u0642\u06d2 \u0633\u06d2 \u0645\u0644\u0627\u0646\u06d2 \u0645\u06cc\u06ba \u0645\u062f\u062f \u06a9\u0631\u062a\u0627 \u06c1\u06d2\u06d4<br> \u0628\u0631\u0627\u06c1 \u06a9\u0631\u0645 \u0627\u067e\u0646\u06cc \u0633\u0627\u0644\u06af\u0631\u06c1 \u062f\u0631\u062c \u06a9\u0631\u06cc\u06ba\u06d4",
+		"chats": {
+			"placeholder": "\u06a9\u0686\u06be \u0628\u0648\u0644\u06cc\u06ba"
+		},
+		"LogOut": "\u0644\u0627\u06af \u0622\u0648\u0679",
+		"MyLinks": "\u0645\u06cc\u0631\u06d2 \u0644\u0646\u06a9\u0633",
+		"MyJobs": "\u0645\u06cc\u0631\u06cc \u0646\u0648\u06a9\u0631\u06cc\u0627\u06ba",
+		"MySocial": "\u0645\u0627\u0626\u06cc \u0633\u0648\u0634\u0644",
+		"MyEducation": "\u0645\u06cc\u0631\u06cc \u062a\u0639\u0644\u06cc\u0645",
+		"JobsPlaceholder": "\u0646\u0648\u06a9\u0631\u06cc\u0648\u06ba \u06a9\u06cc \u0645\u0639\u0644\u0648\u0645\u0627\u062a \u06cc\u06c1\u0627\u06ba \u0679\u0627\u0626\u067e \u06a9\u0631\u06cc\u06ba\u06d4",
+		"EducationPlaceholder": "\u06cc\u06c1\u0627\u06ba \u062a\u0639\u0644\u06cc\u0645 \u06a9\u06cc \u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0679\u0627\u0626\u067e \u06a9\u0631\u06cc\u06ba\u06d4",
+		"ManageNotifications": "\u0627\u0637\u0644\u0627\u0639\u0627\u062a \u06a9\u0627 \u0646\u0638\u0645 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"YourPreferredLanguage": "\u0622\u067e \u06a9\u06cc \u067e\u0633\u0646\u062f\u06cc\u062f\u06c1 \u0632\u0628\u0627\u0646",
+		"SendCrypto": "\u0627\u062f\u0627 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"Block": "\u0628\u0644\u0627\u06a9",
+		"Unblock": "\u063a\u06cc\u0631 \u0645\u0633\u062f\u0648\u062f \u06a9\u0631\u06cc\u06ba\u06d4",
+		"Email": "\u0627\u06cc \u0645\u06cc\u0644",
+		"Avoid": "\u0627\u062c\u062a\u0646\u0627\u0628 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"CreatePrivateChat": "\u062a\u06a9 \u067e\u06c1\u0646\u0686\u0646\u06d2 \u06a9\u06d2 \u0644\u06cc\u06d2 {{credits}} \u06a9\u0631\u06cc\u0688\u0679 \u062e\u0631\u0686 \u06a9\u0631\u06cc\u06ba\u061f",
+		"RolesInCommunity": "\u0645\u0639\u0627\u0634\u0631\u06d2 \u0645\u06cc\u06ba \u06a9\u0631\u062f\u0627\u0631",
+		"PersonalChatWith": "{{name}} \u06a9\u06d2 \u0633\u0627\u062a\u06be \u0630\u0627\u062a\u06cc \u0628\u0627\u062a \u0686\u06cc\u062a",
+		"SendCryptoTo": "{{name}} \u06a9\u0648 \u06a9\u0631\u067e\u0679\u0648 \u0628\u06be\u06cc\u062c\u06cc\u06ba",
+		"SendEmailTo": "{{name}} \u067e\u0631 \u0627\u06cc \u0645\u06cc\u0644 \u0628\u06be\u06cc\u062c\u06cc\u06ba",
+		"SendSMSTo": "{{name}} \u067e\u0631 SMS \u0628\u06be\u06cc\u062c\u06cc\u06ba",
+		"BlockThisUser": "\u0627\u0633 \u0635\u0627\u0631\u0641 \u06a9\u0648 \u0645\u0633\u062f\u0648\u062f \u06a9\u0631\u06cc\u06ba\u06d4",
+		"UnblockThisUser": "\u0627\u0633 \u0635\u0627\u0631\u0641 \u06a9\u0648 \u063a\u06cc\u0631 \u0645\u0633\u062f\u0648\u062f \u06a9\u0631\u06cc\u06ba\u06d4",
+		"YouCantChatWithYourself": "\u0622\u067e \u062e\u0648\u062f \u0633\u06d2 \u0628\u0627\u062a \u0646\u06c1\u06cc\u06ba \u06a9\u0631 \u0633\u06a9\u062a\u06d2",
+		"blockUserAlertTitle": "{{displayName}} \u0628\u0644\u0627\u06a9 \u06a9\u0631 \u062f\u06cc\u0627 \u06af\u06cc\u0627\u06d4",
+		"sections": {
+			"education": "\u062a\u0639\u0644\u06cc\u0645",
+			"greeting": "\u0633\u0644\u0627\u0645 \u06a9\u0631\u0646\u0627",
+			"jobs": "\u0646\u0648\u06a9\u0631\u06cc\u0627\u06ba",
+			"links": "\u0644\u0646\u06a9\u0633",
+			"language": "\u0632\u0628\u0627\u0646",
+			"roles": "\u06a9\u0631\u062f\u0627\u0631",
+			"personal": "\u0630\u0627\u062a\u06cc",
+			"social": "\u0633\u0645\u0627\u062c\u06cc"
+		},
+		"Roles": "\u06a9\u0631\u062f\u0627\u0631",
+		"SendPaymentTo": "{{name}} \u067e\u0631 \u0627\u062f\u0627\u0626\u06cc\u06af\u06cc \u0628\u06be\u06cc\u062c\u06cc\u06ba\u06d4"
+	},
+	"myqr": {
+		"Title": "\u0645\u06cc\u0631\u0627 QR"
+	},
+	"composer": {
+		"createCommunity": "\u06a9\u0645\u06cc\u0648\u0646\u0679\u06cc \u0628\u0646\u0627\u0626\u06cc\u06ba",
+		"inviteAdmin": "\u0627\u06cc\u0688\u0645\u0646 \u06a9\u0648 \u0645\u062f\u0639\u0648 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"inviteMember": "\u0645\u0645\u0628\u0631 \u06a9\u0648 \u0645\u062f\u0639\u0648 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"newCommunityTitle": "\u06a9\u0645\u06cc\u0648\u0646\u0679\u06cc \u06a9\u0627 \u0646\u0627\u0645",
+		"setCommunityTitle": "\u06a9\u0645\u06cc\u0648\u0646\u0679\u06cc \u06a9\u0627 \u0646\u0627\u0645",
+		"creditsChargeRequest": "\u06a9\u06cc\u0627 \u0622\u067e {{price}} \u06a9\u0631\u06cc\u0688\u0679 \u062e\u0631\u0686 \u06a9\u0631\u0646\u06d2 \u0633\u06d2 \u0627\u062a\u0641\u0627\u0642 \u06a9\u0631\u062a\u06d2 \u06c1\u06cc\u06ba\u061f",
+		"yes": "\u062c\u06cc \u06c1\u0627\u06ba",
+		"no": "\u0646\u06c1\u06cc\u06ba"
+	},
+	"notifications": {
+		"WelcomePleaseVerifyEmail": "\u062e\u0648\u0634 \u0622\u0645\u062f\u06cc\u062f! \u0628\u0631\u0627\u06c1 \u06a9\u0631\u0645 \u0627\u067e\u0646\u06d2 \u0627\u06cc \u0645\u06cc\u0644 \u0627\u06cc\u0688\u0631\u06cc\u0633 \u06a9\u06cc \u062a\u0635\u062f\u06cc\u0642 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"WelcomeVerifyEmail": "\u062e\u0648\u0634 \u0622\u0645\u062f\u06cc\u062f! \u0627\u067e\u0646\u0627 \u0627\u06cc \u0645\u06cc\u0644 \u0627\u06cc\u0688\u0631\u06cc\u0633 \u06a9\u06cc \u062a\u0635\u062f\u06cc\u0642 \u06a9\u0631\u06cc\u06ba.",
+		"ForgetPass": "\u0627\u0631\u06d2\u060c \u06a9\u06cc\u0627 \u0622\u067e \u0627\u067e\u0646\u0627 \u067e\u0627\u0633\u0641\u0631\u06cc\u0632 \u0628\u06be\u0648\u0644 \u06af\u0626\u06d2\u061f",
+		"ManageEmailSubscriptions": "\u0627\u067e\u0646\u06cc \u0627\u06cc \u0645\u06cc\u0644 \u0633\u0628\u0633\u06a9\u0631\u067e\u0634\u0646\u0632 \u06a9\u0627 \u0646\u0638\u0645 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"IfUnsubscribe": "\u0627\u06af\u0631 \u0622\u067e \u0627\u0646 \u0633\u0628\u0633\u06a9\u0631\u0627\u0626\u0628 \u06a9\u0631\u0646\u0627 \u0686\u0627\u06c1\u062a\u06d2 \u06c1\u06cc\u06ba\u06d4"
+	},
+	"speak": {
+		"onboarding": {
+			"name": {
+				"Welcome": "{{CommunityName}} \u0645\u06cc\u06ba \u062e\u0648\u0634 \u0622\u0645\u062f\u06cc\u062f\u06d4 \u06cc\u06c1 \u0627\u06cc\u067e \u0622\u067e \u06a9\u0648 \u062f\u0648\u0633\u062a\u0648\u06ba \u0633\u06d2 \u062c\u0691\u0646\u06d2\u060c \u0645\u0634\u062a\u0631\u06a9\u06c1 \u062f\u0644\u0686\u0633\u067e\u06cc\u0648\u06ba \u0648\u0627\u0644\u06d2 \u0646\u0626\u06d2 \u0644\u0648\u06af\u0648\u06ba \u06a9\u0648 \u062a\u0644\u0627\u0634 \u06a9\u0631\u0646\u06d2 \u0627\u0648\u0631 \u0628\u06c1\u062a \u06a9\u0686\u06be \u06a9\u0631\u0646\u06d2 \u0645\u06cc\u06ba \u0645\u062f\u062f \u06a9\u0631\u06d2 \u06af\u06cc\u06d4 \u0622\u0648 \u0634\u0631\u0648\u0639 \u06a9\u0631\u06cc\u06ba!"
+			},
+			"icon": {
+				"Commentary": "\u0627\u067e\u0646\u06cc \u062a\u0635\u0648\u06cc\u0631 \u0633\u06cc\u0679 \u06a9\u0631\u06cc\u06ba\u06d4 \u0627\u0633 \u0637\u0631\u062d \u0644\u0648\u06af \u0622\u067e \u06a9\u0648 \u0633\u0627\u0626\u0679 \u067e\u0631 \u062f\u06cc\u06a9\u06be\u06cc\u06ba \u06af\u06d2\u06d4"
+			},
+			"interests": {
+				"Commentary": "\u0622\u067e \u062c\u062a\u0646\u06d2 \u0632\u06cc\u0627\u062f\u06c1 \u0622\u0626\u0679\u0645\u0632 \u06a9\u0627 \u0627\u0646\u062a\u062e\u0627\u0628 \u06a9\u0631\u062a\u06d2 \u06c1\u06cc\u06ba\u060c \u0627\u062a\u0646\u06d2 \u06c1\u06cc \u0632\u06cc\u0627\u062f\u06c1 \u0644\u0648\u06af\u0648\u06ba \u0633\u06d2 \u0622\u067e \u0645\u0644 \u0633\u06a9\u062a\u06d2 \u06c1\u06cc\u06ba\u06d4",
+				"Notifications": "\u0622\u067e \u06a9\u0648 \u0627\u0637\u0644\u0627\u0639\u0627\u062a \u06a9\u06cc \u0627\u062c\u0627\u0632\u062a \u062f\u06cc\u0646\u06d2 \u06a9\u06cc \u0636\u0631\u0648\u0631\u062a \u06c1\u06d2\u06d4"
+			}
+		},
+		"subscriptions": {
+			"confirm": "\u0627\u0637\u0644\u0627\u0639\u0627\u062a \u0622\u067e \u06a9\u0648 \u0627\u0646 \u0686\u06cc\u0632\u0648\u06ba \u06a9\u06d2 \u0628\u0627\u0631\u06d2 \u0645\u06cc\u06ba \u062c\u0627\u0646\u0646\u06d2 \u06a9\u06cc \u0627\u062c\u0627\u0632\u062a \u062f\u06cc\u062a\u06cc \u06c1\u06cc\u06ba \u062c\u0646 \u0645\u06cc\u06ba \u0622\u067e \u06a9\u06cc \u062f\u0644\u0686\u0633\u067e\u06cc \u06c1\u06d2\u060c \u062c\u06cc\u0633\u06d2 \u06a9\u06c1 \u062c\u0628 \u06a9\u0648\u0626\u06cc \u062f\u0648\u0633\u062a \u0627\u06cc\u067e \u0645\u06cc\u06ba \u0634\u0627\u0645\u0644 \u06c1\u0648\u062a\u0627 \u06c1\u06d2\u060c \u06cc\u0627 \u0622\u067e \u06a9\u0648 \u067e\u06cc\u063a\u0627\u0645 \u0628\u06be\u06cc\u062c\u062a\u0627 \u06c1\u06d2\u06d4"
+		},
+		"invite": "{{Q.words.TapOrClick}} \u06cc\u06c1\u0627\u06ba \u06cc\u06c1 \u062f\u06cc\u06a9\u06be\u0646\u06d2 \u06a9\u06d2 \u0644\u06cc\u06d2 \u06a9\u06c1 \u0622\u067e \u0627\u0633\u06d2 \u062f\u0648\u0633\u0631\u06d2 \u0644\u0648\u06af\u0648\u06ba \u06a9\u06d2 \u0633\u0627\u062a\u06be \u06a9\u06cc\u0633\u06d2 \u0628\u0627\u0646\u0679 \u0633\u06a9\u062a\u06d2 \u06c1\u06cc\u06ba\u06d4"
+	},
+	"payment": {
+		"onContribute": "\u0634\u06a9\u0631\u06cc\u06c1! \u0622\u067e \u06a9\u06cc \u0627\u062f\u0627\u0626\u06cc\u06af\u06cc \u06af\u0632\u0631 \u06af\u0626\u06cc\u06d4 \u06a9\u06cc\u0627 \u0622\u067e \u0627\u067e\u0646\u06d2 \u062f\u0648\u0633\u062a\u0648\u06ba \u06a9\u0648 \u0627\u067e\u0646\u06d2 \u0633\u0627\u062a\u06be \u0634\u0627\u0645\u0644 \u06c1\u0648\u0646\u06d2 \u06a9\u06cc \u062f\u0639\u0648\u062a \u062f\u06cc\u0646\u0627 \u0686\u0627\u06c1\u06cc\u06ba \u06af\u06d2\u061f",
+		"ConnectAccount": "\u0627\u06a9\u0627\u0624\u0646\u0679 \u062c\u0648\u0691\u06cc\u06ba\u06d4"
+	},
+	"featureboard": {
+		"Text_1": "\u0622\u067e \u06a9\u06cc \u0622\u0648\u0627\u0632 \u0633\u0646\u06cc \u062c\u0627\u0626\u06d2! \u06a9\u06cc\u0627 \u0622\u067e \u0627\u062a\u0641\u0627\u0642 \u06a9\u0631\u062a\u06d2 \u06c1\u06cc\u06ba \u06a9\u06c1 \u06c1\u0645\u06cc\u06ba \u06a9\u0648\u0626\u06cc \u062e\u0635\u0648\u0635\u06cc\u062a \u06cc\u0627 \u0628\u06af \u062a\u06cc\u0627\u0631 \u06a9\u0631\u0646\u0627 \u0686\u0627\u06c1\u06cc\u06d2\u061f \u0627\u0633 \u06a9\u0648 \u0633\u067e\u0648\u0631\u0679 \u06a9\u0631\u0646\u06d2 \u06a9\u06d2 \u0644\u06cc\u06d2 \u0628\u0679\u0646 \u067e\u0631 \u06a9\u0644\u06a9 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"Text_2": "\u06a9\u06cc\u0627 \u0622\u067e \u0686\u0627\u06c1\u062a\u06d2 \u06c1\u06cc\u06ba \u06a9\u06c1 \u06c1\u0645 \u0627\u06cc\u06a9 \u0646\u0626\u06cc \u062e\u0635\u0648\u0635\u06cc\u062a \u062a\u06cc\u0627\u0631 \u06a9\u0631\u06cc\u06ba\u061f \u0630\u06cc\u0644 \u0645\u06cc\u06ba \u0627\u0633 \u06a9\u06cc \u0648\u0636\u0627\u062d\u062a \u06a9\u0631\u06cc\u06ba\u06d4",
+		"Text_3": "\u06c1\u0631 \u06c1\u0641\u062a\u06d2 \u06c1\u0645 \u06a9\u0645\u06cc\u0648\u0646\u0679\u06cc \u06a9\u06cc \u0637\u0631\u0641 \u0633\u06d2 \u0633\u0628 \u0633\u06d2 \u0632\u06cc\u0627\u062f\u06c1 \u062f\u0631\u062e\u0648\u0627\u0633\u062a \u06a9\u0631\u062f\u06c1 \u062e\u0635\u0648\u0635\u06cc\u062a \u062a\u06cc\u0627\u0631 \u06a9\u0631\u0646\u0627 \u0634\u0631\u0648\u0639 \u06a9\u0631\u062a\u06d2 \u06c1\u06cc\u06ba\u06d4 \u062a\u0639\u0627\u0648\u0646 \u06a9\u0631\u062f\u06c1 \u062a\u0645\u0627\u0645 \u0631\u0642\u0645 \u0627\u0633 \u0645\u0642\u0635\u062f \u06a9\u06cc \u0637\u0631\u0641 \u062c\u0627\u062a\u06cc \u06c1\u06d2\u060c \u062c\u0633 \u0633\u06d2 \u06c1\u0645\u06cc\u06ba \u0627\u06cc\u067e \u06a9\u0648 \u0628\u06c1\u062a\u0631 \u0628\u0646\u0627\u0646\u06d2 \u06a9\u06cc \u0627\u062c\u0627\u0632\u062a \u0645\u0644\u062a\u06cc \u06c1\u06d2\u06d4",
+		"Text_4": "\u062a\u0639\u0627\u0648\u0646 \u06a9\u06cc \u06af\u0626\u06cc \u062a\u0645\u0627\u0645 \u0631\u0642\u0645 \u06c1\u0645\u0627\u0631\u06d2 \u062a\u0631\u0642\u06cc\u0627\u062a\u06cc \u0627\u062e\u0631\u0627\u062c\u0627\u062a \u0627\u062f\u0627 \u06a9\u0631\u0646\u06d2 \u0645\u06cc\u06ba \u0627\u0633\u062a\u0639\u0645\u0627\u0644 \u06c1\u0648\u062a\u06cc \u06c1\u06d2\u06d4",
+		"Text_5": "\u06a9\u06cc\u0627 \u0622\u067e \u06a9\u06d2 \u067e\u0627\u0633 \u06a9\u0633\u06cc \u062e\u0635\u0648\u0635\u06cc\u062a \u06cc\u0627 \u0628\u06af \u0641\u06a9\u0633 \u06a9\u06d2 \u0644\u06cc\u06d2 \u06a9\u0648\u0626\u06cc \u0622\u0626\u06cc\u0688\u06cc\u0627 \u06c1\u06d2 \u062c\u0648 \u0622\u067e \u06c1\u0645 \u0633\u06d2 \u06a9\u0631\u0646\u0627 \u0686\u0627\u06c1\u062a\u06d2 \u06c1\u06cc\u06ba \u0644\u06cc\u06a9\u0646 \u0622\u067e \u0646\u06d2 \u0627\u0628\u06be\u06cc \u062a\u06a9 \u062f\u0648\u0633\u0631\u0648\u06ba \u06a9\u0648 \u0634\u0627\u0645\u0644 \u06a9\u0631\u062a\u06d2 \u0646\u06c1\u06cc\u06ba \u062f\u06cc\u06a9\u06be\u0627\u061f \u0630\u06cc\u0644 \u0645\u06cc\u06ba \u0627\u0633 \u06a9\u06cc \u0648\u0636\u0627\u062d\u062a \u06a9\u0631\u06cc\u06ba:",
+		"Options": [
+			{
+				"text": "$400 \u0631\u06cc\u0626\u0644 \u0679\u0627\u0626\u0645 \u0648\u06cc\u0688\u06cc\u0648 \u06a9\u0627\u0646\u0641\u0631\u0646\u0633\u0646\u06af"
+			},
+			{
+				"defaultAmount": "10",
+				"text": "$200 \u0645\u0642\u0627\u0645\u06cc \u067e\u0631\u0627\u0626\u0645\u0631\u06cc \u0631\u062c\u0633\u0679\u0631\u06cc\u0634\u0646 \u06a9\u06cc \u0645\u0639\u0644\u0648\u0645\u0627\u062a"
+			},
+			{
+				"text": "$130 \u0628\u0631\u0627\u0624\u0632 \u06a9\u0631\u06cc\u06ba \u0627\u0648\u0631 \u06c1\u0632\u0627\u0631\u0648\u06ba {{1}} \u0645\u06cc\u0645\u0632 \u06a9\u0627 \u0627\u0634\u062a\u0631\u0627\u06a9 \u06a9\u0631\u06cc\u06ba\u06d4",
+				"defaultAmount": "10"
+			},
+			{
+				"text": "$80 \u0627\u067e\u0646\u06cc \u06a9\u0645\u06cc\u0648\u0646\u0679\u06cc\u0632 \u06a9\u0627 \u062e\u0648\u062f \u0627\u0646\u062a\u0638\u0627\u0645 \u06a9\u0631\u06cc\u06ba\u06d4",
+				"defaultAmount": "10"
+			},
+			{
+				"text": "$30 \u0628\u0627\u062a \u0686\u06cc\u062a \u06a9\u06d2 \u0628\u06af \u06a9\u0648 \u062f\u0631\u0633\u062a \u06a9\u0631\u06cc\u06ba\u06d4",
+				"defaultAmount": "10"
+			}
+		],
+		"RequestNewFeature": "\u0627\u06cc\u06a9 \u0646\u0626\u06cc \u062e\u0635\u0648\u0635\u06cc\u062a/\u0628\u06af \u0641\u06a9\u0633 \u06a9\u06cc \u062f\u0631\u062e\u0648\u0627\u0633\u062a \u06a9\u0631\u06cc\u06ba\u06d4",
+		"FeaturePlaceholder": "\u062e\u0635\u0648\u0635\u06cc\u062a \u06a9\u0627 \u0645\u062e\u062a\u0635\u0631 \u062e\u0644\u0627\u0635\u06c1",
+		"FeatureDescription": "\u0628\u06cc\u0627\u0646 \u06a9\u0631\u06cc\u06ba \u06a9\u06c1 \u0622\u067e \u062c\u0633 \u0628\u06af \u06a9\u0648 \u062f\u06cc\u06a9\u06be \u0631\u06c1\u06d2 \u06c1\u06cc\u06ba \u06a9\u0648\u0626\u06cc \u062f\u0648\u0633\u0631\u0627 \u06a9\u06cc\u0633\u06d2 \u062f\u0648\u0628\u0627\u0631\u06c1 \u067e\u06cc\u062f\u0627 \u06a9\u0631 \u0633\u06a9\u062a\u0627 \u06c1\u06d2\u060c \u06cc\u0627 \u0622\u067e \u062c\u0633 \u062e\u0635\u0648\u0635\u06cc\u062a \u06a9\u0648 \u0628\u0646\u0627\u0646\u0627 \u0686\u0627\u06c1\u062a\u06d2 \u06c1\u06cc\u06ba \u0627\u0633\u06d2 \u062a\u0641\u0635\u06cc\u0644 \u0633\u06d2 \u0628\u06cc\u0627\u0646 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"AddYourRequest": "\u0627\u067e\u0646\u06cc \u062f\u0631\u062e\u0648\u0627\u0633\u062a \u0634\u0627\u0645\u0644 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"NewFeature": "\u0646\u0626\u06cc \u0633\u06c1\u0648\u0644\u062a"
+	},
+	"contribute": {
+		"ContributeExplanation": "{{communityName}} \u0627\u06cc\u067e \u06a9\u06cc \u0645\u0633\u0644\u0633\u0644 \u062a\u0631\u0642\u06cc \u0645\u06cc\u06ba \u0645\u062f\u062f \u06a9\u0631\u06cc\u06ba\u06d4 \u0622\u067e \u06a9\u06cc \u062a\u0645\u0627\u0645 \u0634\u0631\u0627\u06a9\u062a\u06cc\u06ba \u06a9\u06cc\u0691\u06d2 \u06a9\u0648 \u0679\u06be\u06cc\u06a9 \u06a9\u0631\u0646\u06d2 \u0627\u0648\u0631 \u0622\u0646 \u0644\u0627\u0626\u0646 \u06a9\u0645\u06cc\u0648\u0646\u0679\u06cc \u06a9\u0648 \u0628\u0691\u06be\u0627\u0646\u06d2 \u0645\u06cc\u06ba \u0645\u062f\u062f \u06a9\u06d2 \u0644\u06cc\u06d2 \u0646\u0626\u06cc \u062e\u0635\u0648\u0635\u06cc\u0627\u062a \u062a\u06cc\u0627\u0631 \u06a9\u0631\u0646\u06d2 \u0645\u06cc\u06ba \u0645\u062f\u062f \u06a9\u0631\u062a\u06cc \u06c1\u06cc\u06ba!",
+		"ReasonToContribute": "\u0627\u0633 \u0627\u06cc\u067e \u06a9\u06cc \u062f\u06cc\u06a9\u06be \u0628\u06be\u0627\u0644 {{communityName}} \u06a9\u06d2 \u062d\u0627\u0645\u06cc\u0648\u06ba \u06a9\u06d2 \u0630\u0631\u06cc\u0639\u06d2 \u06a9\u06cc \u062c\u0627\u062a\u06cc \u06c1\u06d2\u06d4 \u0627\u0633 \u0627\u06cc\u067e \u06a9\u0648 \u0633\u067e\u0648\u0631\u0679 \u06a9\u0631\u0646\u06d2 \u0645\u06cc\u06ba \u0645\u062f\u062f \u06a9\u0631\u06cc\u06ba \u062a\u0627\u06a9\u06c1 \u06c1\u0645 \u0644\u0648\u06af\u0648\u06ba \u06a9\u06cc \u0632\u0646\u062f\u06af\u06cc\u0648\u06ba \u0645\u06cc\u06ba \u062a\u0628\u062f\u06cc\u0644\u06cc \u0644\u0627 \u0633\u06a9\u06cc\u06ba!"
+	},
+	"assetshistory": {
+		"Title": "\u0627\u062b\u0627\u062b\u0648\u06ba \u06a9\u06cc \u062a\u0627\u0631\u06cc\u062e",
+		"Charges": "\u0686\u0627\u0631\u062c\u0632",
+		"Credits": "\u06a9\u0631\u06cc\u0688\u0679\u0633"
+	},
+	"accounts": {
+		"remove": {
+			"title": "\u0627\u06a9\u0627\u0624\u0646\u0679 \u06c1\u0679\u0627 \u062f\u06cc\u06ba\u06d4",
+			"content": "\u06a9\u06cc\u0627 \u0622\u067e \u0627\u0633 \u0627\u06a9\u0627\u0624\u0646\u0679 \u06a9\u0648 \u06c1\u0679\u0627\u0646\u0627 \u0686\u0627\u06c1\u062a\u06d2 \u06c1\u06cc\u06ba\u061f",
+			"ok": "\u062c\u06cc \u06c1\u0627\u06ba",
+			"cancel": "\u0646\u06c1\u06cc\u06ba"
+		}
+	},
+	"import": {
+		"fileNotFound": "\u0645\u0639\u0630\u0631\u062a\u060c CSV \u0641\u0627\u0626\u0644 \u0646\u06c1\u06cc\u06ba \u0645\u0644\u06cc\u06d4",
+		"fileEmpty": "\u0645\u0639\u0630\u0631\u062a\u060c CSV \u0641\u0627\u0626\u0644 \u062e\u0627\u0644\u06cc \u06c1\u06d2\u06d4",
+		"userIdNotFound": "\u0635\u0627\u0631\u0641 \u0645\u0648\u062c\u0648\u062f \u06c1\u06d2 \u0644\u06cc\u06a9\u0646 \u0622\u0626\u06cc \u0688\u06cc \u062e\u0627\u0644\u06cc \u06c1\u06d2\u06d4",
+		"errorLine": "\u0644\u0627\u0626\u0646 {{1}}",
+		"fieldNotFound": "\u0645\u0637\u0644\u0648\u0628\u06c1 \u0641\u06cc\u0644\u0688 &quot;{{1}}&quot; \u0646\u06c1\u06cc\u06ba \u0645\u0644\u0627",
+		"taskStreamInvalid": "\u06a9\u0627\u0645 \u06a9\u0627 \u0633\u0644\u0633\u0644\u06c1 \u063a\u0644\u0637 \u06c1\u06d2\u06d4",
+		"instructionsEmpty": "\u0679\u0627\u0633\u06a9 \u0627\u0633\u0679\u0631\u06cc\u0645 \u06a9\u06cc \u06c1\u062f\u0627\u06cc\u0627\u062a \u062e\u0627\u0644\u06cc \u06c1\u06cc\u06ba\u06d4",
+		"complete": "\u0645\u06a9\u0645\u0644",
+		"activateUsers": "\u0635\u0627\u0631\u0641\u06cc\u0646 \u06a9\u0648 \u0627\u06cc\u06a9\u0679\u06cc\u0648\u06cc\u0634\u0646 \u067e\u06cc\u063a\u0627\u0645 \u0628\u06be\u06cc\u062c\u06cc\u06ba\u061f",
+		"importProgress": "\u067e\u06cc\u0634 \u0631\u0641\u062a",
+		"joinEventLabel": "\u0628\u06d2 \u062a\u0631\u062a\u06cc\u0628 \u0627\u06cc\u0648\u0646\u0679 \u0645\u06cc\u06ba \u0635\u0627\u0631\u0641\u06cc\u0646 \u06a9\u06d2 \u0633\u0627\u062a\u06be \u0634\u0627\u0645\u0644 \u06c1\u0648\u06ba\u06d4",
+		"importOptions": "\u0627\u062e\u062a\u06cc\u0627\u0631\u0627\u062a",
+		"sampleCSV": "\u0646\u0645\u0648\u0646\u06c1 CSV \u0688\u0627\u0624\u0646 \u0644\u0648\u0688 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"fileLabel": "\u0633\u067e\u0631\u06cc\u0688 \u0634\u06cc\u0679 \u0627\u067e \u0644\u0648\u0688 \u06a9\u0631\u06cc\u06ba:",
+		"errorsTitle": "\u063a\u0644\u0637\u06cc\u0627\u06ba \u06c1\u0648\u0626\u06cc\u06ba",
+		"communityUsers": "\u06cc\u06c1 \u06a9\u0645\u06cc\u0648\u0646\u0679\u06cc\u0632 \u06a9\u06cc \u0641\u06c1\u0631\u0633\u062a \u06c1\u06d2\u06d4",
+		"setAsConversation": "URL \u06a9\u0627\u0644\u0645 \u0628\u0637\u0648\u0631 \u06af\u0641\u062a\u06af\u0648",
+		"toMainCommunityToo": "\u0635\u0627\u0631\u0641\u06cc\u0646 \u06a9\u0648 \u0628\u06be\u06cc \u0645\u0631\u06a9\u0632\u06cc \u0628\u0631\u0627\u062f\u0631\u06cc \u0645\u06cc\u06ba \u0634\u0627\u0645\u0644 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"willImportedTo": "\u0635\u0627\u0631\u0641\u06cc\u0646 \u06a9\u0648 \u06a9\u0645\u06cc\u0648\u0646\u0679\u06cc \u0645\u06cc\u06ba \u062f\u0631\u0622\u0645\u062f \u06a9\u06cc\u0627 \u062c\u0627\u0626\u06d2 \u06af\u0627\u06d4",
+		"ChooseFile": "\u0641\u0627\u0626\u0644 \u0645\u0646\u062a\u062e\u0628 \u06a9\u0631\u06cc\u06ba"
+	},
+	"services": {
+		"Title": "\u062e\u062f\u0645\u0627\u062a",
+		"filterByTitle": "\u0639\u0646\u0648\u0627\u0646 \u06a9\u06d2 \u0644\u062d\u0627\u0638 \u0633\u06d2 \u062e\u062f\u0645\u0627\u062a \u062a\u0644\u0627\u0634 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"New": "+ \u0646\u0626\u06cc \u0633\u0631\u0648\u0633 \u0634\u0631\u0648\u0639 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"NewService": "\u0646\u0626\u06cc \u0633\u0631\u0648\u0633",
+		"NewAvailability": "\u0646\u0626\u06cc \u062f\u0633\u062a\u06cc\u0627\u0628\u06cc",
+		"filterServices": "\u0641\u0644\u0679\u0631 \u0633\u0631\u0648\u0633\u0632",
+		"NoneYet": "\u0627\u0628\u06be\u06cc \u062a\u06a9 \u06a9\u0648\u0626\u06cc \u062e\u062f\u0645\u0627\u062a \u0646\u06c1\u06cc\u06ba \u0628\u0646\u06cc \u06c1\u06cc\u06ba\u06d4<br> \u0627\u0646 \u0627\u0648\u0642\u0627\u062a \u06a9\u06d2 \u062f\u0648\u0631\u0627\u0646.",
+		"AllAuthors": "\u062a\u0645\u0627\u0645 \u0645\u0635\u0646\u0641\u06cc\u0646",
+		"AllDays": "\u062a\u0645\u0627\u0645 \u062f\u0646\u0648\u06ba",
+		"AllLocations": "\u062a\u0645\u0627\u0645 \u0645\u0642\u0627\u0645\u0627\u062a",
+		"MakeReservation": "\u0631\u06cc\u0632\u0631\u0648\u06cc\u0634\u0646 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"CancelReservation": "\u0631\u06cc\u0632\u0631\u0648\u06cc\u0634\u0646 \u0645\u0646\u0633\u0648\u062e \u06a9\u0631\u06cc\u06ba\u06d4",
+		"UpdateReservation": "\u0631\u06cc\u0632\u0631\u0648\u06cc\u0634\u0646 \u06a9\u0648 \u0627\u067e \u0688\u06cc\u0679 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"AreYouSure": "\u06a9\u06cc\u0627 \u062a\u0645\u06c1\u06cc\u06ba \u06cc\u0642\u06cc\u0646 \u06c1\u06d2\u061f",
+		"YouWillRefunded": "\u0622\u067e \u06a9\u0648 \u06a9\u0631\u06cc\u0688\u0679\u0633 \u06a9\u06cc \u0634\u06a9\u0644 \u0645\u06cc\u06ba \u0648\u0627\u067e\u0633 \u06a9\u06cc\u0627 \u062c\u0627\u0626\u06d2 \u06af\u0627 \u062c\u0648 \u0622\u067e \u0627\u06cc\u067e \u0645\u06cc\u06ba \u062f\u06cc\u06af\u0631 \u0686\u06cc\u0632\u0648\u06ba \u067e\u0631 \u062e\u0631\u0686 \u06a9\u0631 \u0633\u06a9\u062a\u06d2 \u06c1\u06cc\u06ba\u06d4",
+		"AllInterests": "\u062a\u0645\u0627\u0645 \u062f\u0644\u0686\u0633\u067e\u06cc\u0627\u06ba",
+		"FilterbyInterest": "\u062f\u0644\u0686\u0633\u067e\u06cc \u06a9\u06d2 \u0644\u062d\u0627\u0638 \u0633\u06d2 \u0641\u0644\u0679\u0631 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"FilterByDate": "\u062a\u0627\u0631\u06cc\u062e \u06a9\u06d2 \u0644\u062d\u0627\u0638 \u0633\u06d2 \u0641\u0644\u0679\u0631 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"ShowActivities": "\u0633\u06d2 \u0645\u062a\u0639\u0644\u0642 \u0633\u0631\u06af\u0631\u0645\u06cc\u0627\u06ba \u062f\u06a9\u06be\u0627\u0626\u06cc\u06ba...",
+		"newServices": "\u0622\u067e \u06a9\u06d2 \u067e\u0627\u0633 {{1}} \u0646\u0626\u06cc \u0633\u0631\u0648\u0633\u0632 \u06c1\u06cc\u06ba\u06d4",
+		"SelectLocation": "\u0645\u0642\u0627\u0645 \u0645\u0646\u062a\u062e\u0628 \u06a9\u0631\u06cc\u06ba\u06d4",
+		"FilterLocationsPlaceHolder": "\u06a9\u06d2 \u0633\u0627\u062a\u06be \u0645\u0642\u0627\u0645\u0627\u062a \u06a9\u0648 \u0641\u0644\u0679\u0631 \u06a9\u0631\u06cc\u06ba...",
+		"Description": "{{1}} \u0633\u0631\u0648\u0633",
+		"Keywords": "{{1}} \u0633\u0631\u0648\u0633"
+	},
+	"welcome": {
+		"Title": "{{appName}}: \u062e\u0648\u0634 \u0622\u0645\u062f\u06cc\u062f",
+		"GetStarted": "\u0634\u0631\u0648\u0639 \u06a9\u0631\u0646\u06d2 \u06a9\u06d2",
+		"gallery": {
+			"Connect": "\u062c\u0691\u06cc\u06ba\u06d4",
+			"Organize": "\u0645\u0646\u0638\u0645 \u06a9\u0631\u06cc\u06ba\u06d4",
+			"Travel": "\u0633\u0641\u0631",
+			"Share": "\u0628\u0627\u0646\u0679\u06cc\u06ba"
+		}
+	}
 }

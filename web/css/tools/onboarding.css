@@ -176,6 +176,7 @@ html.Communities_onboarding #columns_slot .Q_column_0 .column_slot {
 }
 .Communities_onboarding #content_slot {
     background: url(../../../Q/img/bg/overlay-dark.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),  url(../../../Q/img/bg/overlay-dark.png);
     color: white;
     overflow-x: hidden;
     padding: 20px;
@@ -184,6 +185,12 @@ html.Communities_onboarding #columns_slot .Q_column_0 .column_slot {
     width: 100%;
     height: 100%;
     position: relative;
+}
+.Communities_onboarding #content_slot .Q_expandable_tool h2.Q_expandable_title:hover,
+.Communities_onboarding #content_slot .Q_expandable_tool h2.Q_expandable_title.Q_hover,
+.Communities_onboarding #content_slot .Q_expandable_tool h2.Q_expandable_title.Q_expanded {
+    color: white;
+    font-weight: 400;
 }
 .Communities_onboarding_icon .Streams_image_preview_tool {
     width: 200px;
@@ -208,9 +215,12 @@ html.Communities_onboarding #columns_slot .Q_column_0 .column_slot {
     max-height: 150px;
     text-align: center;
     background: rgba(255, 255, 255, 0.8);
+    color: black;
     border: 1px dotted #eee;
     font-family: "Comic Sans MS", "ChalkboardSE-Regular", "Papyrus";
     font-size: 16px;
+    margin: 0 5%;
+    width: 90%;
 }
 .Communities_onboarding_profile_greeting textarea:active {
     background: white;

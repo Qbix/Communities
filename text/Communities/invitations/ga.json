@@ -1,12 +1,12 @@
 {
-    "flyer1": {
-        "YouAreInvited": "Tugtar cuireadh duit",
-        "Member": "Ball ag {{title}}",
-        "Explanation": "Tá áthas ar {{1}} seoladh ár suíomh Gréasáin nua a fhógairt. Áiríonn sé liosta méadaitheach gnéithe, mar:",
-        "Public": "Faisnéis phoiblí faoi {{1}}",
-        "Private": "Cuntas úsáideora príobháideach do gach ball",
-        "Notifications": "Trí do sheoladh ríomhphoist nó uimhir ghutháin a chur isteach beidh tú in ann fógraí tábhachtacha a fháil trí ríomhphost nó trí theachtaireacht téacs.",
-        "GetStarted": "Chun tús a chur leis, cuir isteach <em>go cúramach<\/em> i do bhrabhsálaí gréasáin:<br>",
-        "IssuedToYou": "Eisítear an cód seo duit go sonrach."
-    }
+	"flyer1": {
+		"YouAreInvited": "Tugtar cuireadh duit",
+		"Member": "Ball ag {{title}}",
+		"Explanation": "T\u00e1 \u00e1thas ar {{1}} seoladh \u00e1r su\u00edomh Gr\u00e9as\u00e1in nua a fh\u00f3gairt. \u00c1ir\u00edonn s\u00e9 liosta m\u00e9adaitheach gn\u00e9ithe, mar:",
+		"Public": "Faisn\u00e9is phoibl\u00ed faoi {{1}}",
+		"Private": "Cuntas \u00fas\u00e1ideora pr\u00edobh\u00e1ideach do gach ball",
+		"Notifications": "Tr\u00ed do sheoladh r\u00edomhphoist n\u00f3 uimhir ghuth\u00e1in a chur isteach beidh t\u00fa in ann f\u00f3gra\u00ed t\u00e1bhachtacha a fh\u00e1il tr\u00ed r\u00edomhphost n\u00f3 tr\u00ed theachtaireacht t\u00e9acs.",
+		"GetStarted": "Chun t\u00fas a chur leis, cuir isteach <em>go c\u00faramach</em> i do bhrabhs\u00e1la\u00ed gr\u00e9as\u00e1in:<br>",
+		"IssuedToYou": "Eis\u00edtear an c\u00f3d seo duit go sonrach."
+	}
 }

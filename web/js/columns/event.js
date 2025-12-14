@@ -46,12 +46,12 @@ Q.exports(function (options, index, div, data) {
 			});
 		}, 'Communities/event/column');
 		eventTool.state.onGoing.set(function (g, stream) {
-			if (g === 'yes') {
-				Calendars.Event.addToCalendar(publisherId, eventId);
+			if (g === 'yes' || (g === 'maybe' && this.modePrepayment)) {
+				// Calendars.Event.addToCalendar(publisherId, eventId);
 				Communities.hints('goingYes', [$column]);
 				$column.addClass('Communities_event_reserved');
 			} else {
-				Calendars.Event.removeFromCalendar(publisherId, eventId);
+				// Calendars.Event.removeFromCalendar(publisherId, eventId);
 				Communities.hints('goingNo', [$column]);
 				$column.removeClass('Communities_event_reserved');
 			}
@@ -221,23 +221,25 @@ Q.exports(function (options, index, div, data) {
 
 			$('.Q_controls_slot button[name=reservation]', div).on(Q.Pointer.fastclick, function () {
 				var $this = $(this);
-				var _rsvp = function () {
+				var _going = function () {
 					$this.addClass("Q_working");
-					eventTool.rsvp('yes', function (success) {
+					eventTool.going('yes', function (success) {
 						$this.removeClass('Q_working');
 
 						if (success) {
 							$column.addClass('Communities_event_reserved');
 						}
+					}, {
+						title: $this.text().trim()
 					});
 				};
 
-				// possible to declare custom handler which process something, than process _rsvp
+				// possible to declare custom handler which process something, than process __
 				var reservationPreprocess = Q.getObject('Q.Communities.event.reservationPreprocess');
 				if (Q.typeOf(reservationPreprocess) === 'function') {
-					Q.handle(reservationPreprocess, eventTool, [_rsvp]);
+					Q.handle(reservationPreprocess, eventTool, [_going]);
 				} else {
-					_rsvp();
+					_going();
 				}
 
 				return false;
@@ -254,7 +256,7 @@ Q.exports(function (options, index, div, data) {
 							return;
 						}
 
-						eventTool.rsvp('no', function (success) {
+						eventTool.going('no', function (success) {
 							$this.removeClass("Q_working");
 						});
 					}, {

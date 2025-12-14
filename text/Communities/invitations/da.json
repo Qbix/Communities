@@ -1,12 +1,12 @@
 {
-    "flyer1": {
-        "YouAreInvited": "Du er inviteret",
-        "Member": "Medlem hos {{title}}",
-        "Explanation": "{{1}} er glade for at kunne annoncere lanceringen af vores nye websted. Det inkluderer en voksende liste af funktioner, såsom:",
-        "Public": "Offentlige oplysninger om {{1}}",
-        "Private": "En privat brugerkonto for hvert medlem",
-        "Notifications": "Ved at indtaste din e-mailadresse eller mobilnummer vil du være i stand til at modtage vigtige notifikationer via e-mail eller sms.",
-        "GetStarted": "For at komme i gang skal du <em>omhyggeligt<\/em> indtaste følgende i din webbrowser:<br>",
-        "IssuedToYou": "Denne kode er specifikt udstedt til dig."
-    }
+	"flyer1": {
+		"YouAreInvited": "Du er inviteret",
+		"Member": "Medlem hos {{title}}",
+		"Explanation": "{{1}} er glade for at kunne annoncere lanceringen af vores nye websted. Det inkluderer en voksende liste af funktioner, s\u00e5som:",
+		"Public": "Offentlige oplysninger om {{1}}",
+		"Private": "En privat brugerkonto for hvert medlem",
+		"Notifications": "Ved at indtaste din e-mailadresse eller mobilnummer vil du v\u00e6re i stand til at modtage vigtige notifikationer via e-mail eller sms.",
+		"GetStarted": "For at komme i gang skal du <em>omhyggeligt</em> indtaste f\u00f8lgende i din webbrowser:<br>",
+		"IssuedToYou": "Denne kode er specifikt udstedt til dig."
+	}
 }

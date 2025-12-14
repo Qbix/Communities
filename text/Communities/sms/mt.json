@@ -1,24 +1,24 @@
 {
-    "activation": {
-        "Thanks": "Merħba għal {{1}}.",
-        "ClickHere": "Ikklikkja hawn biex tattiva l-kont tiegħek: {{1}}"
-    },
-    "addMobile": {
-        "ClickHere": "Ikklikkja hawn biex tivverifika n-numru tal-mowbajl tiegħek: {{1}}"
-    },
-    "SeeHistory": "Ara l-istorja tal-ħlas għal {{1}}",
-    "charge": {
-        "HasBeenCharged": "{{1}} ġie ċċarġjat {{2}} għal {{3}} minn {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Ħej {{1}}, din hija biss konferma mgħaġġla li ħallast b&#39;suċċess {{2}} lil {{3}} għal {{4}}"
-    },
-    "subscription": {
-        "YouHaveStarted": "Inti abbonajt għal {{2}} bi {{3}} fi {{4}} għal {{5}} xhur.",
-        "HasStarted": "{{1}} abbona għal {{2}} bi {{3}} fi {{4}} għal {{5}} xhur."
-    },
-    "resend": {
-        "DidYouWant": "Ridt tirrisettja l-passphrase tiegħek fi {{1}}?",
-        "ClickHere": "Imbagħad ikklikkja hawn: {{1}}"
-    }
+	"activation": {
+		"Thanks": "Mer\u0127ba g\u0127al {{1}}.",
+		"ClickHere": "Ikklikkja hawn biex tattiva l-kont tieg\u0127ek: {{1}}"
+	},
+	"addMobile": {
+		"ClickHere": "Ikklikkja hawn biex tivverifika n-numru tal-mowbajl tieg\u0127ek: {{1}}"
+	},
+	"SeeHistory": "Ara l-istorja tal-\u0127las g\u0127al {{1}}",
+	"charge": {
+		"HasBeenCharged": "{{1}} \u0121ie \u010b\u010bar\u0121jat {{2}} g\u0127al {{3}} minn {{4}}"
+	},
+	"charged": {
+		"HavePaid": "\u0126ej {{1}}, din hija biss konferma mg\u0127a\u0121\u0121la li \u0127allast b&#39;su\u010b\u010bess {{2}} lil {{3}} g\u0127al {{4}}"
+	},
+	"subscription": {
+		"YouHaveStarted": "Inti abbonajt g\u0127al {{2}} bi {{3}} fi {{4}} g\u0127al {{5}} xhur.",
+		"HasStarted": "{{1}} abbona g\u0127al {{2}} bi {{3}} fi {{4}} g\u0127al {{5}} xhur."
+	},
+	"resend": {
+		"DidYouWant": "Ridt tirrisettja l-passphrase tieg\u0127ek fi {{1}}?",
+		"ClickHere": "Imbag\u0127ad ikklikkja hawn: {{1}}"
+	}
 }

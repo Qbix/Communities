@@ -1,459 +1,459 @@
 {
-    "notFound": {
-        "Explanation": "<span class='url'>{{1}}<\/span> ma jindika xejn!",
-        "NextSteps": "Uża l-menu prinċipali biex issib dak li qed tfittex."
-    },
-    "dashboard": {
-        "Menu": "Menu",
-        "Home": "Dar",
-        "Welcome": "Merħba",
-        "Events": "Avvenimenti",
-        "Discuss": "Iddiskuti",
-        "People": "Nies",
-        "About": "Dwar",
-        "Community": "Komunità",
-        "LogIn": "Idħol",
-        "LogOut": "Oħroġ",
-        "Intercoin": "Intercoin",
-        "Shows": "Wirjiet",
-        "Calendar": "Kalendarju",
-        "Me": "Jien",
-        "Media": "Midja",
-        "Services": "Servizzi",
-        "SetMobileNumber": "Issettja Numru tal-Mowbajl",
-        "SetEmailAddress": "Issettja l-Indirizz tal-Email"
-    },
-    "greeting": {
-        "Welcome": "Merħba għal {{1}}. Hawnhekk issib affarijiet mibgħuta għall-membri tal-komunità tagħna. Jekk jogħġbok żid l-indirizz tal-email jew in-numru tal-mowbajl tiegħek sabiex tirċievi notifiki meta l-avviżi jitpoġġew."
-    },
-    "conversations": {
-        "Title": "Konversazzjonijiet",
-        "New": "Konversazzjoni Ġdida",
-        "Conversation": "Konversazzjoni",
-        "Topics": "Suġġetti",
-        "NoneYet": "S&#39;issa ma saret l-ebda konversazzjoni",
-        "newConversations": "{{1}} konversazzjonijiet ġodda",
-        "AllAuthors": "L-Awturi kollha",
-        "FilterbyAuthors": "Iffiltra mill-Awturi",
-        "FilterAuthorPlaceHolder": "Fittex awturi addizzjonali...",
-        "filterConversations": "Iffiltra skond it-test",
-        "Description": "{{1}} konversazzjonijiet"
-    },
-    "newConversation": {
-        "composer": {
-            "ChooseActivity": "Agħżel suġġett",
-            "Share": "Aqsam",
-            "interest": {
-                "Title": "Agħżel Attività",
-                "Filter": "Interessi ta&#39; tfittxija..."
-            }
-        },
-        "Title": "Konversazzjoni Ġdida",
-        "TitlePlaceholder": "Suġġett tal-konversazzjoni tiegħek",
-        "ContentPlaceholder": "Ikteb ftit kliem biex tibda l-konversazzjoni, sabiex oħrajn ikunu jistgħu jwieġbu",
-        "StartButton": "Ibda Konversazzjoni"
-    },
-    "events": {
-        "Title": "Avvenimenti",
-        "filterByTitle": "Sib avvenimenti skont it-titlu",
-        "New": "+ Ibda Avveniment Ġdid",
-        "filterEvents": "Iffiltra l-avvenimenti",
-        "NewEvent": "Avveniment Ġdid",
-        "SetLocation": "Issettja l-Post Tiegħi",
-        "NoneYet": "S&#39;issa ma ġewx iffurmati avvenimenti<br> matul dawn iż-żminijiet.",
-        "AllAuthors": "L-Awturi kollha",
-        "AllDays": "Il-Ġranet Kollha",
-        "AllLocations": "Il-Lokazzjonijiet kollha",
-        "MakeReservation": "Agħmel Riżerva",
-        "CancelReservation": "Ikkanċella Riżerva",
-        "UpdateReservation": "Aġġorna Riżerva",
-        "AreYouSure": "Żgur?",
-        "YouWillRefunded": "Tiġi rimborżat fil-forma ta’ krediti li tista’ tonfoq fuq affarijiet oħra fl-app.",
-        "AllInterests": "L-interessi kollha",
-        "FilterbyInterest": "Iffiltra mill-Interess",
-        "FilterByDate": "Iffiltra Skond id-Data",
-        "ShowActivities": "Uri attivitajiet relatati ma&#39; . . .",
-        "newEvents": "Għandek {{1}} avvenimenti ġodda",
-        "SelectLocation": "Agħżel Post",
-        "FilterLocationsPlaceHolder": "Iffiltra l-postijiet bi...",
-        "Description": "{{1}} avvenimenti",
-        "Keywords": "{{1}} avvenimenti"
-    },
-    "schedule": {
-        "Title": "Skeda",
-        "NoneYet": "M&#39;intix qed tipparteċipa fl-ebda avveniment",
-        "AddSome": "Żid ftit mal-iskeda tiegħek!",
-        "AddMore": "Żid avvenimenti mal-iskeda tiegħek!",
-        "future": "futur",
-        "past": "passat"
-    },
-    "location": {
-        "Title": "Post",
-        "NewLocation": "Post ġdid"
-    },
-    "inbox": {
-        "Title": "Inbox",
-        "NoneYet": "M&#39;intix qed tipparteċipa fl-ebda konversazzjonijiet",
-        "FindPeople": "Sib nies biex tkellem",
-        "GroupConversations": "Ingħaqad ma&#39; xi konversazzjonijiet tal-grupp",
-        "ContactStaff": "Kuntatt Staff",
-        "ContactCustomers": "Ikkuntattja lill-Klijenti",
-        "AddNewContact": "Żid Kuntatt Ġdid",
-        "AddNewContacts": "Żid Kuntatti Ġodda"
-    },
-    "me": {
-        "Title": "Jien",
-        "MobileNumber": "In-numru tal-mobile",
-        "EmailAddress": "Indirizz elettroniku",
-        "UpdateSocialTitle": "Aġġorna l-isem tal-utent {{1}}",
-        "Web3": "Web3"
-    },
-    "people": {
-        "Title": "Nies",
-        "Description": "Nies fil-komunità {{1}}",
-        "AppAlert": "Din l-app fl-app store tħallik tqabbad mal-ħbieb tiegħek, u ħafna aktar.",
-        "Invite": "Stieden Ħbieb",
-        "BuyCredits": "Ixtri Krediti",
-        "FindSomeoneByName": "Sib lil xi ħadd b&#39;ismu",
-        "SearchByName": "Fittex bl-isem",
-        "FindAllMyFriends": "Sib Il-Ħbieb Tiegħi Kollha",
-        "labels": {
-            "All": "Kulħadd",
-            "Title": "Iffiltra minn Relazzjoni",
-            "New": "Tip ta&#39; Relazzjoni Ġdid"
-        },
-        "interests": {
-            "All": "L-interessi kollha",
-            "Title": "Iffiltra mill-Interess",
-            "Filter": "Uri lin-nies interessati. . ."
-        },
-        "Keywords": "{{1}} komunità tan-nies"
-    },
-    "communities": {
-        "Title": "Komunitajiet",
-        "NewCommunity": "Komunità Ġdida",
-        "FindCommunityByName": "Sib komunità bl-isem",
-        "Description": "{{1}} komunitajiet"
-    },
-    "community": {
-        "Title": "{{1}} Komunità",
-        "Roles": "Rwoli",
-        "AllRoles": "Rwoli Kollha",
-        "YouDontHavePermission": "M&#39;intix awtorizzat li tagħmel dan",
-        "usernamePlaceholder": "issettja l-isem tal-komunità",
-        "NotEnoughCredits": "M&#39;għandekx biżżejjed krediti biex toħloq komunità. Ħtieġa {{1}}, għandek {{2}}"
-    },
-    "event": {
-        "GetDirections": "Ikseb Direzzjonijiet",
-        "WhichMap": "Liema mapep tixtieq tuża?",
-        "JoinEventToChat": "Ingħaqad fl-avveniment biex tiċċettja",
-        "promote": {
-            "Title": "Ippromwovi dan l-avveniment",
-            "Prompt": "Agħżel fejn tixtieq tippromwovi dan l-avveniment:"
-        },
-        "Confirmation": "Konferma"
-    },
-    "newEvent": {
-        "Title": "Ippjana Avveniment Ġdid"
-    },
-    "interests": {
-        "Title": "Interessi",
-        "prompt": "Agħżel it-tipi ta&#39; affarijiet li tixtieq tkun taf dwarhom.",
-        "explanation": "Iktar ma tagħżel interessi, iktar tkun probabbli li tgħaqqad ma’ nies li jaħsbuha l-istess.",
-        "filter": "X&#39;interessek?",
-        "Profile": "L-interessi reċiproċi huma enfasizzati. Jekk għandek ukoll wieħed jew aktar mill-interessi hawn taħt, tista&#39; {{clickOrTap}} iżżidhom."
-    },
-    "credits": {
-        "Title": "Krediti",
-        "EarnCredits": "Aqla &#39;{{1}} krediti għal kull persuna ġdida li tistieden li tingħaqad mal-app",
-        "YouHave": "Għandek {{1}} krediti"
-    },
-    "onboarding": {
-        "Tap": "Tektek",
-        "Click": "Ikklikkja",
-        "Yes": "Iva",
-        "No": "Nru",
-        "Skip": "jew aqbeż dan",
-        "name": {
-            "Preface": "Merhba",
-            "Placeholder": "Daħħal l-isem sħiħ tiegħek",
-            "GetStarted": "Ibda",
-            "AsGuest": "Int ġejt mistieden bħala mistieden.",
-            "AsMember": "Int ġejt mistieden bħala membru.",
-            "AsAdmin": "Int ġejt mistieden bħala amministratur.",
-            "AsOwner": "Int ġejt mistieden bħala sid.",
-            "TooShort": "L-isem sħiħ tiegħek ma jistax ikun daqshekk qasir",
-            "SetAsYourFullName": "Issettja {{1}} bħala l-isem sħiħ tiegħek?"
-        },
-        "icon": {
-            "KeepDefault": "jew żomm dan ir-ritratt",
-            "SetYourPhoto": "{{ClickOrTap}} biex tissettja r-ritratt tiegħek:",
-            "ClickOnYourFace": "{{ClickOrTap}} Fuq Wiċċek"
-        },
-        "interests": {
-            "GetStarted": "⇩ Ibda",
-            "NextCategory": "↓ Li jmiss",
-            "Continue": "Kompli",
-            "Instructions": "F&#39;kull waħda mill-kategoriji {{1}} li jmiss,<br> {{2}} l-attivitajiet kollha li inti interessat fihom.<br> Dan huwa kif tikkonnettja ma &#39;nies oħra fil-komunità."
-        },
-        "profile": {
-            "Profile": "Il-profil tiegħek jgħin lin-nies jiskopru aktar dwarek.<br>",
-            "Birthday": "Jekk jogħġbok daħħal għeluq sninek:",
-            "Placeholder": "Min int u x&#39;tagħmel? Għid lin-nies xi ħaġa interessanti jew unika dwarek innifsek.",
-            "Required": "Biex tkompli, ikteb mill-inqas ftit linji dwarek innifsek.",
-            "Month": "Xahar",
-            "Day": "Jum",
-            "Year": "Sena",
-            "Gender": "Is-sess",
-            "Male": "Raġel",
-            "Female": "Mara",
-            "Other": "Oħrajn",
-            "Height": "Għoli",
-            "Affiliation": "Affiljazzjoni",
-            "Dating": "Dating",
-            "Interested": "Interessat",
-            "NotInterested": "Mhux interessat",
-            "MatchmakerOnly": "Matchmaker Biss"
-        },
-        "location": {
-            "NoOneElse": "Ħadd ieħor se jaraha.",
-            "SetMyLocation": "Issettja l-lokalità tiegħi"
-        },
-        "pile": {
-            "DialogTitle": "Nies b&#39;Interessi Komuni"
-        },
-        "Done": "Magħmul",
-        "relationships": {
-            "title": "Żid {{userName}} ma&#39; Phonebook",
-            "welcome": "Merħba {{user}}",
-            "invitedByUser": "stedinkom.",
-            "addToPhonebook": "Ħlief fil-Kuntatti tat-Telefon Tiegħi",
-            "iosInstructions": "Skrollja &#39;l isfel għal Żid Kuntatt Ġdid",
-            "androidInstructions": "Għandek tiftaħ dan il-fajl vCard wara li titniżżel.",
-            "explanation": "X&#39;inhi r-relazzjoni tiegħek?"
-        },
-        "Title": "Informazzjoni Bażika",
-        "Prompt": "Ftit passi biex twaqqaf il-kont tiegħek"
-    },
-    "profile": {
-        "Title": "Profil",
-        "Male": "Raġel",
-        "Female": "Mara",
-        "Other": "Oħrajn",
-        "dating": {
-            "Interested": "Interessat",
-            "NotInterested": "Mhux interessat",
-            "MatchmakerOnly": "Matchmaker biss"
-        },
-        "StartConversation": "Ibda Konversazzjoni",
-        "blockUser": "Imblokka dan l-utent",
-        "blockUserAlert": "Mhux se tara aktar messaġġi minn dan l-utent sakemm tiżblokkahom.",
-        "unblockUser": "Żblokka dan l-utent",
-        "addToContacts": "Żid mal-Kuntatti",
-        "manageLabels": "Immaniġġja Tikketti",
-        "inviteUsers": "Stieden lill-Utenti",
-        "selectRole": "Agħżel Rwol",
-        "inviteSuccess": "Utent mistieden b&#39;suċċess bħala {{label}}",
-        "invite": "Stieden",
-        "relationships": "Relazzjonijiet",
-        "newRole": "Rwol Ġdid",
-        "about": "Dwar",
-        "people": "Nies",
-        "info": "Info",
-        "interests": "Interessi",
-        "chat": "Chat",
-        "locations": "Postijiet",
-        "ManageRoles": "Immaniġġja Rwoli",
-        "aboutPlaceholder": "Min int u x&#39;tagħmel? Għid lin-nies xi ħaġa interessanti jew unika dwarek innifsek.",
-        "explanation": "Il-profil tiegħek jgħinek tqabbel aħjar ma&#39; nies oħra għal attivitajiet tal-grupp.<br> Jekk jogħġbok daħħal għeluq sninek",
-        "chats": {
-            "placeholder": "Għid xi ħaġa"
-        },
-        "LogOut": "Oħroġ",
-        "MyLinks": "Il-Links Tiegħi",
-        "MyJobs": "L-Impjiegi Tiegħi",
-        "MySocial": "MySocial",
-        "MyEducation": "L-Edukazzjoni Tiegħi",
-        "JobsPlaceholder": "Ittajpja hawn info dwar l-impjiegi",
-        "EducationPlaceholder": "Ittajpja hawn informazzjoni dwar l-edukazzjoni",
-        "ManageNotifications": "Immaniġġja Notifiki",
-        "YourPreferredLanguage": "Il-lingwa preferuta tiegħek",
-        "SendCrypto": "Ħlas",
-        "Block": "Blokk",
-        "Unblock": "Sblokka",
-        "Email": "Email",
-        "Avoid": "Evita",
-        "CreatePrivateChat": "Tonfoq {{credits}} krediti biex tilħaq?",
-        "RolesInCommunity": "Rwoli fil-komunità",
-        "PersonalChatWith": "Chat personali ma&#39; {{name}}",
-        "SendCryptoTo": "Ibgħat kripto lil {{name}}",
-        "SendEmailTo": "Ibgħat email lil {{name}}",
-        "SendSMSTo": "Ibgħat SMS lil {{name}}",
-        "BlockThisUser": "Imblokka dan l-utent",
-        "UnblockThisUser": "Żblokka dan l-utent",
-        "YouCantChatWithYourself": "Ma tistax tiċċettja miegħek innifsek",
-        "blockUserAlertTitle": "Imblukkat {{displayName}}",
-        "sections": {
-            "education": "Edukazzjoni",
-            "greeting": "Tislijiet",
-            "jobs": "Impjiegi",
-            "links": "Links",
-            "language": "Lingwa",
-            "roles": "Rwoli",
-            "personal": "Personali",
-            "social": "Soċjali"
-        },
-        "Roles": "Rwoli",
-        "SendPaymentTo": "Ibgħat ħlas lil {{name}}"
-    },
-    "myqr": {
-        "Title": "QR tiegħi"
-    },
-    "composer": {
-        "createCommunity": "Oħloq Komunità",
-        "inviteAdmin": "Stieden lill-Amministratur",
-        "inviteMember": "Stieden lill-Membru",
-        "newCommunityTitle": "Isem tal-Komunità",
-        "setCommunityTitle": "Isem tal-Komunità",
-        "creditsChargeRequest": "Taqbel li tonfoq {{price}} krediti?",
-        "yes": "Iva",
-        "no": "Nru"
-    },
-    "notifications": {
-        "WelcomePleaseVerifyEmail": "Merħba! Jekk jogħġbok ivverifika l-indirizz elettroniku tiegħek.",
-        "WelcomeVerifyEmail": "Merħba! Ivverifika l-indirizz email tiegħek.",
-        "ForgetPass": "Ħej, insejt il-passphrase tiegħek?",
-        "ManageEmailSubscriptions": "immaniġġja l-abbonamenti tal-email tiegħek",
-        "IfUnsubscribe": "Jekk trid tneħħi l-abbonament"
-    },
-    "speak": {
-        "onboarding": {
-            "name": {
-                "Welcome": "Merħba għal {{CommunityName}}. Din l-app tgħinek tgħaqqad mal-ħbieb, tiskopri nies ġodda b&#39;interessi komuni, u ħafna aktar. Ejja nibdew!"
-            },
-            "icon": {
-                "Commentary": "Issettja r-ritratt tiegħek. Dan huwa kif in-nies se jarawk fuq is-sit."
-            },
-            "interests": {
-                "Commentary": "Iktar ma tagħżel oġġetti, iktar tkun tista’ tiltaqa’ ma’ nies.",
-                "Notifications": "Trid tippermetti n-notifiki"
-            }
-        },
-        "subscriptions": {
-            "confirm": "In-notifiki jippermettulek tkun taf dwar affarijiet li int interessat fihom, bħal meta ħabib jingħaqad mal-app, jew ibgħatlek messaġġi."
-        },
-        "invite": "{{Q.words.TapOrClick}} hawn biex tara kif tista&#39; taqsam dan ma&#39; nies oħra."
-    },
-    "payment": {
-        "onContribute": "Grazzi! Il-ħlas tiegħek għadda. Tixtieq tistieden lil sħabek jingħaqdu miegħek?",
-        "ConnectAccount": "Qabbad kont"
-    },
-    "featureboard": {
-        "Text_1": "Ħalli leħnek jinstema&#39;! Taqbel li għandna niżviluppaw karatteristika jew bug? Ikklikkja l-buttuna biex tappoġġjaha.",
-        "Text_2": "Tridna niżviluppaw karatteristika ġdida? Iddeskriviha hawn taħt.",
-        "Text_3": "Kull ġimgħa nibdew niżviluppaw l-aqwa karatteristika mitluba mill-komunità. Il-flus kollha kkontribwiti jmorru għal dak l-iskop, li jippermettulna nagħmlu l-app aħjar.",
-        "Text_4": "Il-flus kollha kkontribwiti jintużaw biex jgħinu nħallsu l-ispejjeż tal-iżvilupp tagħna.",
-        "Text_5": "Għandek idea għal karatteristika jew bugfix li tridna nagħmlu imma għad ma rajtx oħrajn iżidu? Iddeskriviha hawn taħt:",
-        "Options": [
-            {
-                "text": "$400 Vidjokonferenzi f&#39;ħin reali"
-            },
-            {
-                "defaultAmount": "10",
-                "text": "$200 Informazzjoni tar-reġistrazzjoni Primarja Lokali"
-            },
-            {
-                "text": "$130 Fittex u aqsam eluf ta&#39; {{1}} memes",
-                "defaultAmount": "10"
-            },
-            {
-                "text": "$80 Immaniġġja l-komunitajiet tiegħek",
-                "defaultAmount": "10"
-            },
-            {
-                "text": "$30 Waħħal bug konversazzjonijiet",
-                "defaultAmount": "10"
-            }
-        ],
-        "RequestNewFeature": "Itlob Karatteristika Ġdida\/Bugfix",
-        "FeaturePlaceholder": "Sommarju qasir tal-karatteristika",
-        "FeatureDescription": "Iddeskrivi kif xi ħadd ieħor jista’ jirriproduċi l-bug li qed tara, jew iddeskrivi fid-dettall il-karatteristika li trid tibni",
-        "AddYourRequest": "Żid it-Talba Tiegħek",
-        "NewFeature": "Karatteristika ġdida"
-    },
-    "contribute": {
-        "ContributeExplanation": "Għin tappoġġja l-iżvilupp kontinwu tal-app {{communityName}}. Il-kontribuzzjonijiet kollha tiegħek jgħinu biex jissewwa l-bugs u jiżviluppaw karatteristiċi ġodda biex jgħinu biex tikber il-komunità online!",
-        "ReasonToContribute": "Din l-app hija miżmuma minn partitarji ta&#39; {{communityName}}. Għin tappoġġja din l-app sabiex inkunu nistgħu nagħmlu differenza fil-ħajja tan-nies!"
-    },
-    "assetshistory": {
-        "Title": "Storja tal-assi",
-        "Charges": "Ħlasijiet",
-        "Credits": "Krediti"
-    },
-    "accounts": {
-        "remove": {
-            "title": "Neħħi kont",
-            "content": "Trid tneħħi dan il-kont?",
-            "ok": "Iva",
-            "cancel": "Nru"
-        }
-    },
-    "import": {
-        "fileNotFound": "Jiddispjaċini, il-fajl CSV ma nstabx.",
-        "fileEmpty": "Jiddispjacini, il-fajl CSV huwa vojt.",
-        "userIdNotFound": "utent jeżisti iżda id vojta",
-        "errorLine": "linja {{1}}",
-        "fieldNotFound": "Il-qasam meħtieġ &quot;{{1}}&quot; ma nstabx",
-        "taskStreamInvalid": "fluss tal-kompiti invalidu",
-        "instructionsEmpty": "istruzzjonijiet tal-fluss tal-kompiti vojta",
-        "complete": "Imla",
-        "activateUsers": "tibgħat messaġġ ta&#39; attivazzjoni lill-utenti?",
-        "importProgress": "Progress",
-        "joinEventLabel": "Ingħaqad mal-utenti għal avveniment każwali",
-        "importOptions": "Għażliet",
-        "sampleCSV": "Niżżel il-kampjun CSV",
-        "fileLabel": "Ittella Spreadsheet:",
-        "errorsTitle": "Żbalji seħħew",
-        "communityUsers": "Din hija l-lista tal-komunitajiet",
-        "setAsConversation": "Kolonna URL bħala konverżazzjoni",
-        "toMainCommunityToo": "żid utenti mal-komunità prinċipali wkoll",
-        "willImportedTo": "L-utenti se jiġu importati fil-komunità",
-        "ChooseFile": "agħżel fajl"
-    },
-    "services": {
-        "Title": "Servizzi",
-        "filterByTitle": "Sib servizzi skond it-titlu",
-        "New": "+ Ibda Servizz Ġdid",
-        "NewService": "Servizz Ġdid",
-        "NewAvailability": "Disponibbiltà Ġdida",
-        "filterServices": "Servizzi ta&#39; filtru",
-        "NoneYet": "S&#39;issa ma ġewx iffurmati servizzi<br> matul dawn iż-żminijiet.",
-        "AllAuthors": "L-Awturi kollha",
-        "AllDays": "Il-Ġranet Kollha",
-        "AllLocations": "Il-Lokazzjonijiet kollha",
-        "MakeReservation": "Agħmel Riżerva",
-        "CancelReservation": "Ikkanċella Riżerva",
-        "UpdateReservation": "Aġġorna Riżerva",
-        "AreYouSure": "Żgur?",
-        "YouWillRefunded": "Tiġi rimborżat fil-forma ta’ krediti li tista’ tonfoq fuq affarijiet oħra fl-app.",
-        "AllInterests": "L-Interessi Kollha",
-        "FilterbyInterest": "Iffiltra mill-Interess",
-        "FilterByDate": "Iffiltra Skond id-Data",
-        "ShowActivities": "Uri attivitajiet relatati ma&#39;...",
-        "newServices": "Għandek {{1}} servizzi ġodda",
-        "SelectLocation": "Agħżel Post",
-        "FilterLocationsPlaceHolder": "Iffiltra l-postijiet bi...",
-        "Description": "{{1}} servizz",
-        "Keywords": "{{1}} servizz"
-    },
-    "welcome": {
-        "Title": "{{appName}}: merħba",
-        "GetStarted": "Ibda",
-        "gallery": {
-            "Connect": "Qabbad",
-            "Organize": "Organizza",
-            "Travel": "Ivvjaġġar",
-            "Share": "Aqsam"
-        }
-    }
+	"notFound": {
+		"Explanation": "<span class='url'>{{1}}</span> ma jindika xejn!",
+		"NextSteps": "U\u017ca l-menu prin\u010bipali biex issib dak li qed tfittex."
+	},
+	"dashboard": {
+		"Menu": "Menu",
+		"Home": "Dar",
+		"Welcome": "Mer\u0127ba",
+		"Events": "Avvenimenti",
+		"Discuss": "Iddiskuti",
+		"People": "Nies",
+		"About": "Dwar",
+		"Community": "Komunit\u00e0",
+		"LogIn": "Id\u0127ol",
+		"LogOut": "O\u0127ro\u0121",
+		"Intercoin": "Intercoin",
+		"Shows": "Wirjiet",
+		"Calendar": "Kalendarju",
+		"Me": "Jien",
+		"Media": "Midja",
+		"Services": "Servizzi",
+		"SetMobileNumber": "Issettja Numru tal-Mowbajl",
+		"SetEmailAddress": "Issettja l-Indirizz tal-Email"
+	},
+	"greeting": {
+		"Welcome": "Mer\u0127ba g\u0127al {{1}}. Hawnhekk issib affarijiet mibg\u0127uta g\u0127all-membri tal-komunit\u00e0 tag\u0127na. Jekk jog\u0127\u0121bok \u017cid l-indirizz tal-email jew in-numru tal-mowbajl tieg\u0127ek sabiex tir\u010bievi notifiki meta l-avvi\u017ci jitpo\u0121\u0121ew."
+	},
+	"conversations": {
+		"Title": "Konversazzjonijiet",
+		"New": "Konversazzjoni \u0120dida",
+		"Conversation": "Konversazzjoni",
+		"Topics": "Su\u0121\u0121etti",
+		"NoneYet": "S&#39;issa ma saret l-ebda konversazzjoni",
+		"newConversations": "{{1}} konversazzjonijiet \u0121odda",
+		"AllAuthors": "L-Awturi kollha",
+		"FilterbyAuthors": "Iffiltra mill-Awturi",
+		"FilterAuthorPlaceHolder": "Fittex awturi addizzjonali...",
+		"filterConversations": "Iffiltra skond it-test",
+		"Description": "{{1}} konversazzjonijiet"
+	},
+	"newConversation": {
+		"composer": {
+			"ChooseActivity": "Ag\u0127\u017cel su\u0121\u0121ett",
+			"Share": "Aqsam",
+			"interest": {
+				"Title": "Ag\u0127\u017cel Attivit\u00e0",
+				"Filter": "Interessi ta&#39; tfittxija..."
+			}
+		},
+		"Title": "Konversazzjoni \u0120dida",
+		"TitlePlaceholder": "Su\u0121\u0121ett tal-konversazzjoni tieg\u0127ek",
+		"ContentPlaceholder": "Ikteb ftit kliem biex tibda l-konversazzjoni, sabiex o\u0127rajn ikunu jistg\u0127u jwie\u0121bu",
+		"StartButton": "Ibda Konversazzjoni"
+	},
+	"events": {
+		"Title": "Avvenimenti",
+		"filterByTitle": "Sib avvenimenti skont it-titlu",
+		"New": "+ Ibda Avveniment \u0120did",
+		"filterEvents": "Iffiltra l-avvenimenti",
+		"NewEvent": "Avveniment \u0120did",
+		"SetLocation": "Issettja l-Post Tieg\u0127i",
+		"NoneYet": "S&#39;issa ma \u0121ewx iffurmati avvenimenti<br> matul dawn i\u017c-\u017cminijiet.",
+		"AllAuthors": "L-Awturi kollha",
+		"AllDays": "Il-\u0120ranet Kollha",
+		"AllLocations": "Il-Lokazzjonijiet kollha",
+		"MakeReservation": "Ag\u0127mel Ri\u017cerva",
+		"CancelReservation": "Ikkan\u010bella Ri\u017cerva",
+		"UpdateReservation": "A\u0121\u0121orna Ri\u017cerva",
+		"AreYouSure": "\u017bgur?",
+		"YouWillRefunded": "Ti\u0121i rimbor\u017cat fil-forma ta\u2019 krediti li tista\u2019 tonfoq fuq affarijiet o\u0127ra fl-app.",
+		"AllInterests": "L-interessi kollha",
+		"FilterbyInterest": "Iffiltra mill-Interess",
+		"FilterByDate": "Iffiltra Skond id-Data",
+		"ShowActivities": "Uri attivitajiet relatati ma&#39; . . .",
+		"newEvents": "G\u0127andek {{1}} avvenimenti \u0121odda",
+		"SelectLocation": "Ag\u0127\u017cel Post",
+		"FilterLocationsPlaceHolder": "Iffiltra l-postijiet bi...",
+		"Description": "{{1}} avvenimenti",
+		"Keywords": "{{1}} avvenimenti"
+	},
+	"schedule": {
+		"Title": "Skeda",
+		"NoneYet": "M&#39;intix qed tipparte\u010bipa fl-ebda avveniment",
+		"AddSome": "\u017bid ftit mal-iskeda tieg\u0127ek!",
+		"AddMore": "\u017bid avvenimenti mal-iskeda tieg\u0127ek!",
+		"future": "futur",
+		"past": "passat"
+	},
+	"location": {
+		"Title": "Post",
+		"NewLocation": "Post \u0121did"
+	},
+	"inbox": {
+		"Title": "Inbox",
+		"NoneYet": "M&#39;intix qed tipparte\u010bipa fl-ebda konversazzjonijiet",
+		"FindPeople": "Sib nies biex tkellem",
+		"GroupConversations": "Ing\u0127aqad ma&#39; xi konversazzjonijiet tal-grupp",
+		"ContactStaff": "Kuntatt Staff",
+		"ContactCustomers": "Ikkuntattja lill-Klijenti",
+		"AddNewContact": "\u017bid Kuntatt \u0120did",
+		"AddNewContacts": "\u017bid Kuntatti \u0120odda"
+	},
+	"me": {
+		"Title": "Jien",
+		"MobileNumber": "In-numru tal-mobile",
+		"EmailAddress": "Indirizz elettroniku",
+		"UpdateSocialTitle": "A\u0121\u0121orna l-isem tal-utent {{1}}",
+		"Web3": "Web3"
+	},
+	"people": {
+		"Title": "Nies",
+		"Description": "Nies fil-komunit\u00e0 {{1}}",
+		"AppAlert": "Din l-app fl-app store t\u0127allik tqabbad mal-\u0127bieb tieg\u0127ek, u \u0127afna aktar.",
+		"Invite": "Stieden \u0126bieb",
+		"BuyCredits": "Ixtri Krediti",
+		"FindSomeoneByName": "Sib lil xi \u0127add b&#39;ismu",
+		"SearchByName": "Fittex bl-isem",
+		"FindAllMyFriends": "Sib Il-\u0126bieb Tieg\u0127i Kollha",
+		"labels": {
+			"All": "Kul\u0127add",
+			"Title": "Iffiltra minn Relazzjoni",
+			"New": "Tip ta&#39; Relazzjoni \u0120did"
+		},
+		"interests": {
+			"All": "L-interessi kollha",
+			"Title": "Iffiltra mill-Interess",
+			"Filter": "Uri lin-nies interessati. . ."
+		},
+		"Keywords": "{{1}} komunit\u00e0 tan-nies"
+	},
+	"communities": {
+		"Title": "Komunitajiet",
+		"NewCommunity": "Komunit\u00e0 \u0120dida",
+		"FindCommunityByName": "Sib komunit\u00e0 bl-isem",
+		"Description": "{{1}} komunitajiet"
+	},
+	"community": {
+		"Title": "{{1}} Komunit\u00e0",
+		"Roles": "Rwoli",
+		"AllRoles": "Rwoli Kollha",
+		"YouDontHavePermission": "M&#39;intix awtorizzat li tag\u0127mel dan",
+		"usernamePlaceholder": "issettja l-isem tal-komunit\u00e0",
+		"NotEnoughCredits": "M&#39;g\u0127andekx bi\u017c\u017cejjed krediti biex to\u0127loq komunit\u00e0. \u0126tie\u0121a {{1}}, g\u0127andek {{2}}"
+	},
+	"event": {
+		"GetDirections": "Ikseb Direzzjonijiet",
+		"WhichMap": "Liema mapep tixtieq tu\u017ca?",
+		"JoinEventToChat": "Ing\u0127aqad fl-avveniment biex ti\u010b\u010bettja",
+		"promote": {
+			"Title": "Ippromwovi dan l-avveniment",
+			"Prompt": "Ag\u0127\u017cel fejn tixtieq tippromwovi dan l-avveniment:"
+		},
+		"Confirmation": "Konferma"
+	},
+	"newEvent": {
+		"Title": "Ippjana Avveniment \u0120did"
+	},
+	"interests": {
+		"Title": "Interessi",
+		"prompt": "Ag\u0127\u017cel it-tipi ta&#39; affarijiet li tixtieq tkun taf dwarhom.",
+		"explanation": "Iktar ma tag\u0127\u017cel interessi, iktar tkun probabbli li tg\u0127aqqad ma\u2019 nies li ja\u0127sbuha l-istess.",
+		"filter": "X&#39;interessek?",
+		"Profile": "L-interessi re\u010bipro\u010bi huma enfasizzati. Jekk g\u0127andek ukoll wie\u0127ed jew aktar mill-interessi hawn ta\u0127t, tista&#39; {{clickOrTap}} i\u017c\u017cidhom."
+	},
+	"credits": {
+		"Title": "Krediti",
+		"EarnCredits": "Aqla &#39;{{1}} krediti g\u0127al kull persuna \u0121dida li tistieden li ting\u0127aqad mal-app",
+		"YouHave": "G\u0127andek {{1}} krediti"
+	},
+	"onboarding": {
+		"Tap": "Tektek",
+		"Click": "Ikklikkja",
+		"Yes": "Iva",
+		"No": "Nru",
+		"Skip": "jew aqbe\u017c dan",
+		"name": {
+			"Preface": "Merhba",
+			"Placeholder": "Da\u0127\u0127al l-isem s\u0127i\u0127 tieg\u0127ek",
+			"GetStarted": "Ibda",
+			"AsGuest": "Int \u0121ejt mistieden b\u0127ala mistieden.",
+			"AsMember": "Int \u0121ejt mistieden b\u0127ala membru.",
+			"AsAdmin": "Int \u0121ejt mistieden b\u0127ala amministratur.",
+			"AsOwner": "Int \u0121ejt mistieden b\u0127ala sid.",
+			"TooShort": "L-isem s\u0127i\u0127 tieg\u0127ek ma jistax ikun daqshekk qasir",
+			"SetAsYourFullName": "Issettja {{1}} b\u0127ala l-isem s\u0127i\u0127 tieg\u0127ek?"
+		},
+		"icon": {
+			"KeepDefault": "jew \u017comm dan ir-ritratt",
+			"SetYourPhoto": "{{ClickOrTap}} biex tissettja r-ritratt tieg\u0127ek:",
+			"ClickOnYourFace": "{{ClickOrTap}} Fuq Wi\u010b\u010bek"
+		},
+		"interests": {
+			"GetStarted": "\u21e9 Ibda",
+			"NextCategory": "\u2193 Li jmiss",
+			"Continue": "Kompli",
+			"Instructions": "F&#39;kull wa\u0127da mill-kategoriji {{1}} li jmiss,<br> {{2}} l-attivitajiet kollha li inti interessat fihom.<br> Dan huwa kif tikkonnettja ma &#39;nies o\u0127ra fil-komunit\u00e0."
+		},
+		"profile": {
+			"Profile": "Informazzjoni ba\u017cika biex tg\u0127inek issib nies tajbin:",
+			"Birthday": "Jekk jog\u0127\u0121bok da\u0127\u0127al g\u0127eluq sninek:",
+			"Placeholder": "Min int u x&#39;tag\u0127mel? G\u0127id lin-nies xi \u0127a\u0121a interessanti jew unika dwarek innifsek.",
+			"Required": "Biex tkompli, ikteb mill-inqas ftit linji dwarek innifsek.",
+			"Month": "Xahar",
+			"Day": "Jum",
+			"Year": "Sena",
+			"Gender": "Is-sess",
+			"Male": "Ra\u0121el",
+			"Female": "Mara",
+			"Other": "O\u0127rajn",
+			"Height": "G\u0127oli",
+			"Affiliation": "Affiljazzjoni",
+			"Dating": "Dating",
+			"Interested": "Interessat",
+			"NotInterested": "Mhux interessat",
+			"MatchmakerOnly": "Matchmaker Biss"
+		},
+		"location": {
+			"NoOneElse": "\u0126add ie\u0127or se jaraha.",
+			"SetMyLocation": "Issettja l-lokalit\u00e0 tieg\u0127i"
+		},
+		"pile": {
+			"DialogTitle": "Nies b&#39;Interessi Komuni"
+		},
+		"Done": "Mag\u0127mul",
+		"relationships": {
+			"title": "\u017bid {{userName}} ma&#39; Phonebook",
+			"welcome": "Mer\u0127ba {{user}}",
+			"invitedByUser": "stedinkom.",
+			"addToPhonebook": "\u0126lief fil-Kuntatti tat-Telefon Tieg\u0127i",
+			"iosInstructions": "Skrollja &#39;l isfel g\u0127al \u017bid Kuntatt \u0120did",
+			"androidInstructions": "G\u0127andek tifta\u0127 dan il-fajl vCard wara li titni\u017c\u017cel.",
+			"explanation": "X&#39;inhi r-relazzjoni tieg\u0127ek?"
+		},
+		"Title": "Informazzjoni Ba\u017cika",
+		"Prompt": "Ftit passi biex twaqqaf il-kont tieg\u0127ek"
+	},
+	"profile": {
+		"Title": "Profil",
+		"Male": "Ra\u0121el",
+		"Female": "Mara",
+		"Other": "O\u0127rajn",
+		"dating": {
+			"Interested": "Interessat",
+			"NotInterested": "Mhux interessat",
+			"MatchmakerOnly": "Matchmaker biss"
+		},
+		"StartConversation": "Ibda Konversazzjoni",
+		"blockUser": "Imblokka dan l-utent",
+		"blockUserAlert": "Mhux se tara aktar messa\u0121\u0121i minn dan l-utent sakemm ti\u017cblokkahom.",
+		"unblockUser": "\u017bblokka dan l-utent",
+		"addToContacts": "\u017bid mal-Kuntatti",
+		"manageLabels": "Immani\u0121\u0121ja Tikketti",
+		"inviteUsers": "Stieden lill-Utenti",
+		"selectRole": "Ag\u0127\u017cel Rwol",
+		"inviteSuccess": "Utent mistieden b&#39;su\u010b\u010bess b\u0127ala {{label}}",
+		"invite": "Stieden",
+		"relationships": "Relazzjonijiet",
+		"newRole": "Rwol \u0120did",
+		"about": "Dwar",
+		"people": "Nies",
+		"info": "Info",
+		"interests": "Interessi",
+		"chat": "Chat",
+		"locations": "Postijiet",
+		"ManageRoles": "Immani\u0121\u0121ja Rwoli",
+		"aboutPlaceholder": "Min int u x&#39;tag\u0127mel? G\u0127id lin-nies xi \u0127a\u0121a interessanti jew unika dwarek innifsek.",
+		"explanation": "Il-profil tieg\u0127ek jg\u0127inek tqabbel a\u0127jar ma&#39; nies o\u0127ra g\u0127al attivitajiet tal-grupp.<br> Jekk jog\u0127\u0121bok da\u0127\u0127al g\u0127eluq sninek",
+		"chats": {
+			"placeholder": "G\u0127id xi \u0127a\u0121a"
+		},
+		"LogOut": "O\u0127ro\u0121",
+		"MyLinks": "Il-Links Tieg\u0127i",
+		"MyJobs": "L-Impjiegi Tieg\u0127i",
+		"MySocial": "MySocial",
+		"MyEducation": "L-Edukazzjoni Tieg\u0127i",
+		"JobsPlaceholder": "Ittajpja hawn info dwar l-impjiegi",
+		"EducationPlaceholder": "Ittajpja hawn informazzjoni dwar l-edukazzjoni",
+		"ManageNotifications": "Immani\u0121\u0121ja Notifiki",
+		"YourPreferredLanguage": "Il-lingwa preferuta tieg\u0127ek",
+		"SendCrypto": "\u0126las",
+		"Block": "Blokk",
+		"Unblock": "Sblokka",
+		"Email": "Email",
+		"Avoid": "Evita",
+		"CreatePrivateChat": "Tonfoq {{credits}} krediti biex til\u0127aq?",
+		"RolesInCommunity": "Rwoli fil-komunit\u00e0",
+		"PersonalChatWith": "Chat personali ma&#39; {{name}}",
+		"SendCryptoTo": "Ibg\u0127at kripto lil {{name}}",
+		"SendEmailTo": "Ibg\u0127at email lil {{name}}",
+		"SendSMSTo": "Ibg\u0127at SMS lil {{name}}",
+		"BlockThisUser": "Imblokka dan l-utent",
+		"UnblockThisUser": "\u017bblokka dan l-utent",
+		"YouCantChatWithYourself": "Ma tistax ti\u010b\u010bettja mieg\u0127ek innifsek",
+		"blockUserAlertTitle": "Imblukkat {{displayName}}",
+		"sections": {
+			"education": "Edukazzjoni",
+			"greeting": "Tislijiet",
+			"jobs": "Impjiegi",
+			"links": "Links",
+			"language": "Lingwa",
+			"roles": "Rwoli",
+			"personal": "Personali",
+			"social": "So\u010bjali"
+		},
+		"Roles": "Rwoli",
+		"SendPaymentTo": "Ibg\u0127at \u0127las lil {{name}}"
+	},
+	"myqr": {
+		"Title": "QR tieg\u0127i"
+	},
+	"composer": {
+		"createCommunity": "O\u0127loq Komunit\u00e0",
+		"inviteAdmin": "Stieden lill-Amministratur",
+		"inviteMember": "Stieden lill-Membru",
+		"newCommunityTitle": "Isem tal-Komunit\u00e0",
+		"setCommunityTitle": "Isem tal-Komunit\u00e0",
+		"creditsChargeRequest": "Taqbel li tonfoq {{price}} krediti?",
+		"yes": "Iva",
+		"no": "Nru"
+	},
+	"notifications": {
+		"WelcomePleaseVerifyEmail": "Mer\u0127ba! Jekk jog\u0127\u0121bok ivverifika l-indirizz elettroniku tieg\u0127ek.",
+		"WelcomeVerifyEmail": "Mer\u0127ba! Ivverifika l-indirizz email tieg\u0127ek.",
+		"ForgetPass": "\u0126ej, insejt il-passphrase tieg\u0127ek?",
+		"ManageEmailSubscriptions": "immani\u0121\u0121ja l-abbonamenti tal-email tieg\u0127ek",
+		"IfUnsubscribe": "Jekk trid tne\u0127\u0127i l-abbonament"
+	},
+	"speak": {
+		"onboarding": {
+			"name": {
+				"Welcome": "Mer\u0127ba g\u0127al {{CommunityName}}. Din l-app tg\u0127inek tg\u0127aqqad mal-\u0127bieb, tiskopri nies \u0121odda b&#39;interessi komuni, u \u0127afna aktar. Ejja nibdew!"
+			},
+			"icon": {
+				"Commentary": "Issettja r-ritratt tieg\u0127ek. Dan huwa kif in-nies se jarawk fuq is-sit."
+			},
+			"interests": {
+				"Commentary": "Iktar ma tag\u0127\u017cel o\u0121\u0121etti, iktar tkun tista\u2019 tiltaqa\u2019 ma\u2019 nies.",
+				"Notifications": "Trid tippermetti n-notifiki"
+			}
+		},
+		"subscriptions": {
+			"confirm": "In-notifiki jippermettulek tkun taf dwar affarijiet li int interessat fihom, b\u0127al meta \u0127abib jing\u0127aqad mal-app, jew ibg\u0127atlek messa\u0121\u0121i."
+		},
+		"invite": "{{Q.words.TapOrClick}} hawn biex tara kif tista&#39; taqsam dan ma&#39; nies o\u0127ra."
+	},
+	"payment": {
+		"onContribute": "Grazzi! Il-\u0127las tieg\u0127ek g\u0127adda. Tixtieq tistieden lil s\u0127abek jing\u0127aqdu mieg\u0127ek?",
+		"ConnectAccount": "Qabbad kont"
+	},
+	"featureboard": {
+		"Text_1": "\u0126alli le\u0127nek jinstema&#39;! Taqbel li g\u0127andna ni\u017cviluppaw karatteristika jew bug? Ikklikkja l-buttuna biex tappo\u0121\u0121jaha.",
+		"Text_2": "Tridna ni\u017cviluppaw karatteristika \u0121dida? Iddeskriviha hawn ta\u0127t.",
+		"Text_3": "Kull \u0121img\u0127a nibdew ni\u017cviluppaw l-aqwa karatteristika mitluba mill-komunit\u00e0. Il-flus kollha kkontribwiti jmorru g\u0127al dak l-iskop, li jippermettulna nag\u0127mlu l-app a\u0127jar.",
+		"Text_4": "Il-flus kollha kkontribwiti jintu\u017caw biex jg\u0127inu n\u0127allsu l-ispejje\u017c tal-i\u017cvilupp tag\u0127na.",
+		"Text_5": "G\u0127andek idea g\u0127al karatteristika jew bugfix li tridna nag\u0127mlu imma g\u0127ad ma rajtx o\u0127rajn i\u017cidu? Iddeskriviha hawn ta\u0127t:",
+		"Options": [
+			{
+				"text": "$400 Vidjokonferenzi f&#39;\u0127in reali"
+			},
+			{
+				"defaultAmount": "10",
+				"text": "$200 Informazzjoni tar-re\u0121istrazzjoni Primarja Lokali"
+			},
+			{
+				"text": "$130 Fittex u aqsam eluf ta&#39; {{1}} memes",
+				"defaultAmount": "10"
+			},
+			{
+				"text": "$80 Immani\u0121\u0121ja l-komunitajiet tieg\u0127ek",
+				"defaultAmount": "10"
+			},
+			{
+				"text": "$30 Wa\u0127\u0127al bug konversazzjonijiet",
+				"defaultAmount": "10"
+			}
+		],
+		"RequestNewFeature": "Itlob Karatteristika \u0120dida/Bugfix",
+		"FeaturePlaceholder": "Sommarju qasir tal-karatteristika",
+		"FeatureDescription": "Iddeskrivi kif xi \u0127add ie\u0127or jista\u2019 jirriprodu\u010bi l-bug li qed tara, jew iddeskrivi fid-dettall il-karatteristika li trid tibni",
+		"AddYourRequest": "\u017bid it-Talba Tieg\u0127ek",
+		"NewFeature": "Karatteristika \u0121dida"
+	},
+	"contribute": {
+		"ContributeExplanation": "G\u0127in tappo\u0121\u0121ja l-i\u017cvilupp kontinwu tal-app {{communityName}}. Il-kontribuzzjonijiet kollha tieg\u0127ek jg\u0127inu biex jissewwa l-bugs u ji\u017cviluppaw karatteristi\u010bi \u0121odda biex jg\u0127inu biex tikber il-komunit\u00e0 online!",
+		"ReasonToContribute": "Din l-app hija mi\u017cmuma minn partitarji ta&#39; {{communityName}}. G\u0127in tappo\u0121\u0121ja din l-app sabiex inkunu nistg\u0127u nag\u0127mlu differenza fil-\u0127ajja tan-nies!"
+	},
+	"assetshistory": {
+		"Title": "Storja tal-assi",
+		"Charges": "\u0126lasijiet",
+		"Credits": "Krediti"
+	},
+	"accounts": {
+		"remove": {
+			"title": "Ne\u0127\u0127i kont",
+			"content": "Trid tne\u0127\u0127i dan il-kont?",
+			"ok": "Iva",
+			"cancel": "Nru"
+		}
+	},
+	"import": {
+		"fileNotFound": "Jiddispja\u010bini, il-fajl CSV ma nstabx.",
+		"fileEmpty": "Jiddispjacini, il-fajl CSV huwa vojt.",
+		"userIdNotFound": "utent je\u017cisti i\u017cda id vojta",
+		"errorLine": "linja {{1}}",
+		"fieldNotFound": "Il-qasam me\u0127tie\u0121 &quot;{{1}}&quot; ma nstabx",
+		"taskStreamInvalid": "fluss tal-kompiti invalidu",
+		"instructionsEmpty": "istruzzjonijiet tal-fluss tal-kompiti vojta",
+		"complete": "Imla",
+		"activateUsers": "tibg\u0127at messa\u0121\u0121 ta&#39; attivazzjoni lill-utenti?",
+		"importProgress": "Progress",
+		"joinEventLabel": "Ing\u0127aqad mal-utenti g\u0127al avveniment ka\u017cwali",
+		"importOptions": "G\u0127a\u017cliet",
+		"sampleCSV": "Ni\u017c\u017cel il-kampjun CSV",
+		"fileLabel": "Ittella Spreadsheet:",
+		"errorsTitle": "\u017bbalji se\u0127\u0127ew",
+		"communityUsers": "Din hija l-lista tal-komunitajiet",
+		"setAsConversation": "Kolonna URL b\u0127ala konver\u017cazzjoni",
+		"toMainCommunityToo": "\u017cid utenti mal-komunit\u00e0 prin\u010bipali wkoll",
+		"willImportedTo": "L-utenti se ji\u0121u importati fil-komunit\u00e0",
+		"ChooseFile": "ag\u0127\u017cel fajl"
+	},
+	"services": {
+		"Title": "Servizzi",
+		"filterByTitle": "Sib servizzi skond it-titlu",
+		"New": "+ Ibda Servizz \u0120did",
+		"NewService": "Servizz \u0120did",
+		"NewAvailability": "Disponibbilt\u00e0 \u0120dida",
+		"filterServices": "Servizzi ta&#39; filtru",
+		"NoneYet": "S&#39;issa ma \u0121ewx iffurmati servizzi<br> matul dawn i\u017c-\u017cminijiet.",
+		"AllAuthors": "L-Awturi kollha",
+		"AllDays": "Il-\u0120ranet Kollha",
+		"AllLocations": "Il-Lokazzjonijiet kollha",
+		"MakeReservation": "Ag\u0127mel Ri\u017cerva",
+		"CancelReservation": "Ikkan\u010bella Ri\u017cerva",
+		"UpdateReservation": "A\u0121\u0121orna Ri\u017cerva",
+		"AreYouSure": "\u017bgur?",
+		"YouWillRefunded": "Ti\u0121i rimbor\u017cat fil-forma ta\u2019 krediti li tista\u2019 tonfoq fuq affarijiet o\u0127ra fl-app.",
+		"AllInterests": "L-Interessi Kollha",
+		"FilterbyInterest": "Iffiltra mill-Interess",
+		"FilterByDate": "Iffiltra Skond id-Data",
+		"ShowActivities": "Uri attivitajiet relatati ma&#39;...",
+		"newServices": "G\u0127andek {{1}} servizzi \u0121odda",
+		"SelectLocation": "Ag\u0127\u017cel Post",
+		"FilterLocationsPlaceHolder": "Iffiltra l-postijiet bi...",
+		"Description": "{{1}} servizz",
+		"Keywords": "{{1}} servizz"
+	},
+	"welcome": {
+		"Title": "{{appName}}: mer\u0127ba",
+		"GetStarted": "Ibda",
+		"gallery": {
+			"Connect": "Qabbad",
+			"Organize": "Organizza",
+			"Travel": "Ivvja\u0121\u0121ar",
+			"Share": "Aqsam"
+		}
+	}
 }

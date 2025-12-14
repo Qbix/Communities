@@ -293,7 +293,7 @@ Q.exports(function (options, index, column, data) {
 				var $trigger = $('.Communities_profile_chat', column);
 				$trigger.addClass('Q_working');
 
-				Q.Assets.Credits.pay({
+				Q.Assets.pay({
 					amount: credits,
 					currency: "credits",
 					userId: userId,
@@ -331,6 +331,14 @@ Q.exports(function (options, index, column, data) {
 			}
 		});
 	});
+
+	const $prevColumn = $(column).prev();
+	if ($prevColumn.length && $prevColumn.hasClass('Communities_column_event')) {
+		const eventTool = Q.Tool.from($(".Calendars_event_tool", $prevColumn)[0], "Calendars/event");
+		if (eventTool) {
+			eventTool.handleRoles(userId, $communitiesProfileContent);
+		}
+	}
 });
 
 })(Q, Q.jQuery);

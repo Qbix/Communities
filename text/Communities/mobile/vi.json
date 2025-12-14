@@ -1,24 +1,24 @@
 {
-    "activation": {
-        "Thanks": "Chào mừng bạn đến với {{1}}.",
-        "ClickHere": "Nhấp vào đây để kích hoạt tài khoản của bạn: {{1}}"
-    },
-    "addMobile": {
-        "ClickHere": "Nhấp vào đây để xác minh số điện thoại di động của bạn: {{1}}"
-    },
-    "SeeHistory": "Xem lịch sử thanh toán cho {{1}}",
-    "charge": {
-        "HasBeenCharged": "{{1}} đã bị {{2}} tính phí {{3}} bởi {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Xin chào {{1}}, đây chỉ là một xác nhận nhanh rằng bạn đã thanh toán thành công {{2}} cho {{3}} cho {{4}}"
-    },
-    "subscription": {
-        "YouHaveStarted": "Bạn đã đăng ký {{2}} với {{3}} lúc {{4}} trong {{5}} tháng.",
-        "HasStarted": "{{1}} đã đăng ký {{2}} với {{3}} lúc {{4}} trong {{5}} tháng."
-    },
-    "resend": {
-        "DidYouWant": "Bạn có muốn đặt lại cụm mật khẩu của mình trong {{1}} không?",
-        "ClickHere": "Sau đó nhấp vào đây: {{1}}"
-    }
+	"activation": {
+		"Thanks": "Ch\u00e0o m\u1eebng b\u1ea1n \u0111\u1ebfn v\u1edbi {{1}}.",
+		"ClickHere": "Nh\u1ea5p v\u00e0o \u0111\u00e2y \u0111\u1ec3 k\u00edch ho\u1ea1t t\u00e0i kho\u1ea3n c\u1ee7a b\u1ea1n: {{1}}"
+	},
+	"addMobile": {
+		"ClickHere": "Nh\u1ea5p v\u00e0o \u0111\u00e2y \u0111\u1ec3 x\u00e1c minh s\u1ed1 \u0111i\u1ec7n tho\u1ea1i di \u0111\u1ed9ng c\u1ee7a b\u1ea1n: {{1}}"
+	},
+	"SeeHistory": "Xem l\u1ecbch s\u1eed thanh to\u00e1n cho {{1}}",
+	"charge": {
+		"HasBeenCharged": "{{1}} \u0111\u00e3 b\u1ecb {{2}} t\u00ednh ph\u00ed {{3}} b\u1edfi {{4}}"
+	},
+	"charged": {
+		"HavePaid": "Xin ch\u00e0o {{1}}, \u0111\u00e2y ch\u1ec9 l\u00e0 m\u1ed9t x\u00e1c nh\u1eadn nhanh r\u1eb1ng b\u1ea1n \u0111\u00e3 thanh to\u00e1n th\u00e0nh c\u00f4ng {{2}} cho {{3}} cho {{4}}"
+	},
+	"subscription": {
+		"YouHaveStarted": "B\u1ea1n \u0111\u00e3 \u0111\u0103ng k\u00fd {{2}} v\u1edbi {{3}} l\u00fac {{4}} trong {{5}} th\u00e1ng.",
+		"HasStarted": "{{1}} \u0111\u00e3 \u0111\u0103ng k\u00fd {{2}} v\u1edbi {{3}} l\u00fac {{4}} trong {{5}} th\u00e1ng."
+	},
+	"resend": {
+		"DidYouWant": "B\u1ea1n c\u00f3 mu\u1ed1n \u0111\u1eb7t l\u1ea1i c\u1ee5m m\u1eadt kh\u1ea9u c\u1ee7a m\u00ecnh trong {{1}} kh\u00f4ng?",
+		"ClickHere": "Sau \u0111\u00f3 nh\u1ea5p v\u00e0o \u0111\u00e2y: {{1}}"
+	}
 }

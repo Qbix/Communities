@@ -1,12 +1,12 @@
 {
-    "flyer1": {
-        "YouAreInvited": "Sen davetlisin",
-        "Member": "{{title}} şirketinde üye",
-        "Explanation": "{{1}}, yeni web sitemizin lansmanını duyurmaktan mutluluk duyar. Aşağıdakiler gibi büyüyen bir özellik listesi içerir:",
-        "Public": "{{1}} hakkında genel bilgi",
-        "Private": "Her üye için özel bir kullanıcı hesabı",
-        "Notifications": "E-posta adresinizi veya cep telefonu numaranızı girerek, önemli bildirimleri e-posta veya kısa mesajla alabilirsiniz.",
-        "GetStarted": "Başlamak için lütfen web tarayıcınıza <em>dikkatlice<\/em> girin:<br>",
-        "IssuedToYou": "Bu kod size özel olarak verilmiştir."
-    }
+	"flyer1": {
+		"YouAreInvited": "Sen davetlisin",
+		"Member": "{{title}} \u015firketinde \u00fcye",
+		"Explanation": "{{1}}, yeni web sitemizin lansman\u0131n\u0131 duyurmaktan mutluluk duyar. A\u015fa\u011f\u0131dakiler gibi b\u00fcy\u00fcyen bir \u00f6zellik listesi i\u00e7erir:",
+		"Public": "{{1}} hakk\u0131nda genel bilgi",
+		"Private": "Her \u00fcye i\u00e7in \u00f6zel bir kullan\u0131c\u0131 hesab\u0131",
+		"Notifications": "E-posta adresinizi veya cep telefonu numaran\u0131z\u0131 girerek, \u00f6nemli bildirimleri e-posta veya k\u0131sa mesajla alabilirsiniz.",
+		"GetStarted": "Ba\u015flamak i\u00e7in l\u00fctfen web taray\u0131c\u0131n\u0131za <em>dikkatlice</em> girin:<br>",
+		"IssuedToYou": "Bu kod size \u00f6zel olarak verilmi\u015ftir."
+	}
 }

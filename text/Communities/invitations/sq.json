@@ -1,12 +1,12 @@
 {
-    "flyer1": {
-        "YouAreInvited": "Ju jeni të ftuar",
-        "Member": "Anëtar në {{title}}",
-        "Explanation": "{{1}} ka kënaqësinë të njoftojë hapjen e faqes sonë të re të internetit. Ai përfshin një listë në rritje të veçorive, të tilla si:",
-        "Public": "Informacion publik rreth {{1}}",
-        "Private": "Një llogari private e përdoruesit për çdo anëtar",
-        "Notifications": "Duke futur adresën tuaj të emailit ose numrin e celularit, do të mund të merrni njoftime të rëndësishme me email ose mesazh me tekst.",
-        "GetStarted": "Për të filluar, në shfletuesin tuaj të internetit ju lutemi shkruani <em>me kujdes<\/em> :<br>",
-        "IssuedToYou": "Ky kod është lëshuar posaçërisht për ju."
-    }
+	"flyer1": {
+		"YouAreInvited": "Ju jeni t\u00eb ftuar",
+		"Member": "An\u00ebtar n\u00eb {{title}}",
+		"Explanation": "{{1}} ka k\u00ebnaq\u00ebsin\u00eb t\u00eb njoftoj\u00eb hapjen e faqes son\u00eb t\u00eb re t\u00eb internetit. Ai p\u00ebrfshin nj\u00eb list\u00eb n\u00eb rritje t\u00eb ve\u00e7orive, t\u00eb tilla si:",
+		"Public": "Informacion publik rreth {{1}}",
+		"Private": "Nj\u00eb llogari private e p\u00ebrdoruesit p\u00ebr \u00e7do an\u00ebtar",
+		"Notifications": "Duke futur adres\u00ebn tuaj t\u00eb emailit ose numrin e celularit, do t\u00eb mund t\u00eb merrni njoftime t\u00eb r\u00ebnd\u00ebsishme me email ose mesazh me tekst.",
+		"GetStarted": "P\u00ebr t\u00eb filluar, n\u00eb shfletuesin tuaj t\u00eb internetit ju lutemi shkruani <em>me kujdes</em> :<br>",
+		"IssuedToYou": "Ky kod \u00ebsht\u00eb l\u00ebshuar posa\u00e7\u00ebrisht p\u00ebr ju."
+	}
 }

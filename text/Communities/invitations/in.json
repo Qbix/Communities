@@ -1,12 +1,12 @@
 {
-    "flyer1": {
-        "YouAreInvited": "Anda diundang",
-        "Member": "Anggota di {{title}}",
-        "Explanation": "{{1}} dengan senang hati mengumumkan peluncuran situs web baru kami. Ini termasuk daftar fitur yang terus bertambah, seperti:",
-        "Public": "Informasi publik tentang {{1}}",
-        "Private": "Akun pengguna pribadi untuk setiap anggota",
-        "Notifications": "Dengan memasukkan alamat email atau nomor ponsel Anda, Anda akan dapat menerima pemberitahuan penting melalui email atau pesan teks.",
-        "GetStarted": "Untuk memulai, di browser web Anda, mohon <em>hati-hati<\/em> masukkan: <br>",
-        "IssuedToYou": "Kode ini dikeluarkan khusus untuk Anda."
-    }
+	"flyer1": {
+		"YouAreInvited": "Anda diundang",
+		"Member": "Anggota di {{title}}",
+		"Explanation": "{{1}} dengan senang hati mengumumkan peluncuran situs web baru kami. Ini termasuk daftar fitur yang terus bertambah, seperti:",
+		"Public": "Informasi publik tentang {{1}}",
+		"Private": "Akun pengguna pribadi untuk setiap anggota",
+		"Notifications": "Dengan memasukkan alamat email atau nomor ponsel Anda, Anda akan dapat menerima pemberitahuan penting melalui email atau pesan teks.",
+		"GetStarted": "Untuk memulai, di browser web Anda, mohon <em>hati-hati</em> masukkan: <br>",
+		"IssuedToYou": "Kode ini dikeluarkan khusus untuk Anda."
+	}
 }

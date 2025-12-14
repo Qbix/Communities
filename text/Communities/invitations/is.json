@@ -1,12 +1,12 @@
 {
-    "flyer1": {
-        "YouAreInvited": "Þér er boðið",
-        "Member": "Meðlimur hjá {{title}}",
-        "Explanation": "{{1}} er ánægður með að tilkynna kynningu á nýju vefsíðunni okkar. Það inniheldur vaxandi lista yfir eiginleika, svo sem:",
-        "Public": "Opinberar upplýsingar um {{1}}",
-        "Private": "Einkanotendareikningur fyrir hvern meðlim",
-        "Notifications": "Með því að slá inn netfangið þitt eða farsímanúmerið muntu geta fengið mikilvægar tilkynningar í tölvupósti eða textaskilaboðum.",
-        "GetStarted": "Til að byrja skaltu slá <em>varlega<\/em> inn í vafranum þínum:<br>",
-        "IssuedToYou": "Þessi kóða er sérstaklega gefinn út til þín."
-    }
+	"flyer1": {
+		"YouAreInvited": "\u00de\u00e9r er bo\u00f0i\u00f0",
+		"Member": "Me\u00f0limur hj\u00e1 {{title}}",
+		"Explanation": "{{1}} er \u00e1n\u00e6g\u00f0ur me\u00f0 a\u00f0 tilkynna kynningu \u00e1 n\u00fdju vefs\u00ed\u00f0unni okkar. \u00dea\u00f0 inniheldur vaxandi lista yfir eiginleika, svo sem:",
+		"Public": "Opinberar uppl\u00fdsingar um {{1}}",
+		"Private": "Einkanotendareikningur fyrir hvern me\u00f0lim",
+		"Notifications": "Me\u00f0 \u00fev\u00ed a\u00f0 sl\u00e1 inn netfangi\u00f0 \u00feitt e\u00f0a fars\u00edman\u00fameri\u00f0 muntu geta fengi\u00f0 mikilv\u00e6gar tilkynningar \u00ed t\u00f6lvup\u00f3sti e\u00f0a textaskilabo\u00f0um.",
+		"GetStarted": "Til a\u00f0 byrja skaltu sl\u00e1 <em>varlega</em> inn \u00ed vafranum \u00fe\u00ednum:<br>",
+		"IssuedToYou": "\u00deessi k\u00f3\u00f0a er s\u00e9rstaklega gefinn \u00fat til \u00fe\u00edn."
+	}
 }

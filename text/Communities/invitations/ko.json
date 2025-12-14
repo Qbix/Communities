@@ -1,12 +1,12 @@
 {
-    "flyer1": {
-        "YouAreInvited": "당신은 초대",
-        "Member": "{{title}}의 회원",
-        "Explanation": "{{1}}은(는) 새로운 웹사이트의 출시를 발표하게 된 것을 기쁘게 생각합니다. 여기에는 다음과 같은 점점 더 많은 기능 목록이 포함됩니다.",
-        "Public": "{{1}}에 대한 공개 정보",
-        "Private": "모든 구성원을 위한 개인 사용자 계정",
-        "Notifications": "이메일 주소나 휴대폰 번호를 입력하시면 중요한 알림을 이메일이나 문자로 받으실 수 있습니다.",
-        "GetStarted": "시작하려면 웹 브라우저에서 다음 <em>을 주의 깊게<\/em> 입력하십시오.<br>",
-        "IssuedToYou": "이 코드는 특별히 귀하에게 발급됩니다."
-    }
+	"flyer1": {
+		"YouAreInvited": "\ub2f9\uc2e0\uc740 \ucd08\ub300",
+		"Member": "{{title}}\uc758 \ud68c\uc6d0",
+		"Explanation": "{{1}}\uc740(\ub294) \uc0c8\ub85c\uc6b4 \uc6f9\uc0ac\uc774\ud2b8\uc758 \ucd9c\uc2dc\ub97c \ubc1c\ud45c\ud558\uac8c \ub41c \uac83\uc744 \uae30\uc058\uac8c \uc0dd\uac01\ud569\ub2c8\ub2e4. \uc5ec\uae30\uc5d0\ub294 \ub2e4\uc74c\uacfc \uac19\uc740 \uc810\uc810 \ub354 \ub9ce\uc740 \uae30\ub2a5 \ubaa9\ub85d\uc774 \ud3ec\ud568\ub429\ub2c8\ub2e4.",
+		"Public": "{{1}}\uc5d0 \ub300\ud55c \uacf5\uac1c \uc815\ubcf4",
+		"Private": "\ubaa8\ub4e0 \uad6c\uc131\uc6d0\uc744 \uc704\ud55c \uac1c\uc778 \uc0ac\uc6a9\uc790 \uacc4\uc815",
+		"Notifications": "\uc774\uba54\uc77c \uc8fc\uc18c\ub098 \ud734\ub300\ud3f0 \ubc88\ud638\ub97c \uc785\ub825\ud558\uc2dc\uba74 \uc911\uc694\ud55c \uc54c\ub9bc\uc744 \uc774\uba54\uc77c\uc774\ub098 \ubb38\uc790\ub85c \ubc1b\uc73c\uc2e4 \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
+		"GetStarted": "\uc2dc\uc791\ud558\ub824\uba74 \uc6f9 \ube0c\ub77c\uc6b0\uc800\uc5d0\uc11c \ub2e4\uc74c <em>\uc744 \uc8fc\uc758 \uae4a\uac8c</em> \uc785\ub825\ud558\uc2ed\uc2dc\uc624.<br>",
+		"IssuedToYou": "\uc774 \ucf54\ub4dc\ub294 \ud2b9\ubcc4\ud788 \uadc0\ud558\uc5d0\uac8c \ubc1c\uae09\ub429\ub2c8\ub2e4."
+	}
 }

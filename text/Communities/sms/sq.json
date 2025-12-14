@@ -1,24 +1,24 @@
 {
-    "activation": {
-        "Thanks": "Mirë se vini në {{1}}.",
-        "ClickHere": "Klikoni këtu për të aktivizuar llogarinë tuaj: {{1}}"
-    },
-    "addMobile": {
-        "ClickHere": "Klikoni këtu për të verifikuar numrin tuaj celular: {{1}}"
-    },
-    "SeeHistory": "Shiko historikun e pagesave për {{1}}",
-    "charge": {
-        "HasBeenCharged": "{{1}} është tarifuar {{2}} për {{3}} nga {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Hej {{1}}, ky është vetëm një konfirmim i shpejtë që i ke paguar me sukses {{2}} {{3}} për {{4}}"
-    },
-    "subscription": {
-        "YouHaveStarted": "Jeni abonuar në {{2}} me {{3}} në {{4}} për {{5}} muaj.",
-        "HasStarted": "{{1}} është abonuar në {{2}} me {{3}} në {{4}} për {{5}} muaj."
-    },
-    "resend": {
-        "DidYouWant": "Dëshironi të rivendosni frazën tuaj të kalimit në {{1}}?",
-        "ClickHere": "Pastaj klikoni këtu: {{1}}"
-    }
+	"activation": {
+		"Thanks": "Mir\u00eb se vini n\u00eb {{1}}.",
+		"ClickHere": "Klikoni k\u00ebtu p\u00ebr t\u00eb aktivizuar llogarin\u00eb tuaj: {{1}}"
+	},
+	"addMobile": {
+		"ClickHere": "Klikoni k\u00ebtu p\u00ebr t\u00eb verifikuar numrin tuaj celular: {{1}}"
+	},
+	"SeeHistory": "Shiko historikun e pagesave p\u00ebr {{1}}",
+	"charge": {
+		"HasBeenCharged": "{{1}} \u00ebsht\u00eb tarifuar {{2}} p\u00ebr {{3}} nga {{4}}"
+	},
+	"charged": {
+		"HavePaid": "Hej {{1}}, ky \u00ebsht\u00eb vet\u00ebm nj\u00eb konfirmim i shpejt\u00eb q\u00eb i ke paguar me sukses {{2}} {{3}} p\u00ebr {{4}}"
+	},
+	"subscription": {
+		"YouHaveStarted": "Jeni abonuar n\u00eb {{2}} me {{3}} n\u00eb {{4}} p\u00ebr {{5}} muaj.",
+		"HasStarted": "{{1}} \u00ebsht\u00eb abonuar n\u00eb {{2}} me {{3}} n\u00eb {{4}} p\u00ebr {{5}} muaj."
+	},
+	"resend": {
+		"DidYouWant": "D\u00ebshironi t\u00eb rivendosni fraz\u00ebn tuaj t\u00eb kalimit n\u00eb {{1}}?",
+		"ClickHere": "Pastaj klikoni k\u00ebtu: {{1}}"
+	}
 }

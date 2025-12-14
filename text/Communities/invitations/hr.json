@@ -1,12 +1,12 @@
 {
-    "flyer1": {
-        "YouAreInvited": "Pozvani ste",
-        "Member": "Član na {{title}}",
-        "Explanation": "{{1}} sa zadovoljstvom najavljuje pokretanje naše nove web stranice. Uključuje rastući popis značajki, kao što su:",
-        "Public": "Javne informacije o {{1}}",
-        "Private": "Privatni korisnički račun za svakog člana",
-        "Notifications": "Unosom svoje e-mail adrese ili broja mobitela bit ćete u mogućnosti primati važne obavijesti putem e-pošte ili SMS poruke.",
-        "GetStarted": "Za početak, <em>pažljivo<\/em> unesite u svoj web preglednik:<br>",
-        "IssuedToYou": "Ovaj kod je posebno izdan vama."
-    }
+	"flyer1": {
+		"YouAreInvited": "Pozvani ste",
+		"Member": "\u010clan na {{title}}",
+		"Explanation": "{{1}} sa zadovoljstvom najavljuje pokretanje na\u0161e nove web stranice. Uklju\u010duje rastu\u0107i popis zna\u010dajki, kao \u0161to su:",
+		"Public": "Javne informacije o {{1}}",
+		"Private": "Privatni korisni\u010dki ra\u010dun za svakog \u010dlana",
+		"Notifications": "Unosom svoje e-mail adrese ili broja mobitela bit \u0107ete u mogu\u0107nosti primati va\u017ene obavijesti putem e-po\u0161te ili SMS poruke.",
+		"GetStarted": "Za po\u010detak, <em>pa\u017eljivo</em> unesite u svoj web preglednik:<br>",
+		"IssuedToYou": "Ovaj kod je posebno izdan vama."
+	}
 }

@@ -1,459 +1,459 @@
 {
-    "notFound": {
-        "Explanation": "<span class='url'>{{1}}<\/span> ไม่ได้ชี้ไปที่สิ่งใด!",
-        "NextSteps": "ใช้เมนูหลักเพื่อค้นหาสิ่งที่คุณกำลังมองหา"
-    },
-    "dashboard": {
-        "Menu": "เมนู",
-        "Home": "บ้าน",
-        "Welcome": "ยินดีต้อนรับ",
-        "Events": "กิจกรรม",
-        "Discuss": "หารือ",
-        "People": "ประชากร",
-        "About": "เกี่ยวกับ",
-        "Community": "ชุมชน",
-        "LogIn": "เข้าสู่ระบบ",
-        "LogOut": "ออกจากระบบ",
-        "Intercoin": "อินเตอร์คอยน์",
-        "Shows": "การแสดง",
-        "Calendar": "ปฏิทิน",
-        "Me": "ฉัน",
-        "Media": "สื่อ",
-        "Services": "บริการ",
-        "SetMobileNumber": "ตั้งหมายเลขโทรศัพท์มือถือ",
-        "SetEmailAddress": "ตั้งค่าที่อยู่อีเมล"
-    },
-    "greeting": {
-        "Welcome": "ยินดีต้อนรับสู่ {{1}} ที่นี่คุณจะพบกับสิ่งที่โพสต์สำหรับสมาชิกของชุมชนของเรา โปรดเพิ่มที่อยู่อีเมลหรือหมายเลขโทรศัพท์มือถือของคุณเพื่อรับการแจ้งเตือนเมื่อมีการโพสต์ประกาศ"
-    },
-    "conversations": {
-        "Title": "บทสนทนา",
-        "New": "บทสนทนาใหม่",
-        "Conversation": "การสนทนา",
-        "Topics": "หัวข้อ",
-        "NoneYet": "ยังไม่มีการสนทนาเกิดขึ้น",
-        "newConversations": "{{1}} บทสนทนาใหม่",
-        "AllAuthors": "ผู้เขียนทั้งหมด",
-        "FilterbyAuthors": "กรองตามผู้เขียน",
-        "FilterAuthorPlaceHolder": "ค้นหาผู้เขียนเพิ่มเติม...",
-        "filterConversations": "กรองตามข้อความ",
-        "Description": "{{1}} บทสนทนา"
-    },
-    "newConversation": {
-        "composer": {
-            "ChooseActivity": "เลือกหัวข้อ",
-            "Share": "แบ่งปัน",
-            "interest": {
-                "Title": "เลือกกิจกรรม",
-                "Filter": "ความสนใจในการค้นหา ..."
-            }
-        },
-        "Title": "บทสนทนาใหม่",
-        "TitlePlaceholder": "หัวข้อสนทนาของคุณ",
-        "ContentPlaceholder": "เขียนคำสองสามคำเพื่อเริ่มการสนทนาเพื่อให้คนอื่นตอบได้",
-        "StartButton": "เริ่มการสนทนา"
-    },
-    "events": {
-        "Title": "เหตุการณ์",
-        "filterByTitle": "ค้นหากิจกรรมตามชื่อเรื่อง",
-        "New": "+ เริ่มกิจกรรมใหม่",
-        "filterEvents": "กรองเหตุการณ์",
-        "NewEvent": "กิจกรรมใหม่",
-        "SetLocation": "ตั้งค่าตำแหน่งของฉัน",
-        "NoneYet": "ยังไม่มีการจัดงาน<br> ในช่วงเวลาเหล่านี้",
-        "AllAuthors": "ผู้เขียนทั้งหมด",
-        "AllDays": "ทุกวัน",
-        "AllLocations": "สถานที่ทั้งหมด",
-        "MakeReservation": "ทำการจอง",
-        "CancelReservation": "ยกเลิกการจอง",
-        "UpdateReservation": "อัพเดทการจอง",
-        "AreYouSure": "คุณแน่ใจไหม?",
-        "YouWillRefunded": "คุณจะได้รับเงินคืนในรูปของเครดิตที่คุณสามารถใช้จ่ายกับสิ่งอื่น ๆ ในแอปได้",
-        "AllInterests": "ความสนใจทั้งหมด",
-        "FilterbyInterest": "กรองตามความสนใจ",
-        "FilterByDate": "กรองตามวันที่",
-        "ShowActivities": "แสดงกิจกรรมที่เกี่ยวข้องกับ . . .",
-        "newEvents": "คุณมี {{1}} กิจกรรมใหม่",
-        "SelectLocation": "เลือกสถานที่",
-        "FilterLocationsPlaceHolder": "กรองสถานที่ด้วย ...",
-        "Description": "{{1}} เหตุการณ์",
-        "Keywords": "{{1}} เหตุการณ์"
-    },
-    "schedule": {
-        "Title": "กำหนดการ",
-        "NoneYet": "คุณไม่ได้เข้าร่วมกิจกรรมใด ๆ",
-        "AddSome": "เพิ่มตารางของคุณ!",
-        "AddMore": "เพิ่มกิจกรรมลงในกำหนดการของคุณ!",
-        "future": "อนาคต",
-        "past": "อดีต"
-    },
-    "location": {
-        "Title": "ที่ตั้ง",
-        "NewLocation": "ที่ตั้งใหม่"
-    },
-    "inbox": {
-        "Title": "กล่องจดหมาย",
-        "NoneYet": "คุณไม่ได้มีส่วนร่วมในการสนทนาใด ๆ",
-        "FindPeople": "หาคนคุย",
-        "GroupConversations": "เข้าร่วมการสนทนากลุ่ม",
-        "ContactStaff": "ติดต่อเจ้าหน้าที่",
-        "ContactCustomers": "ติดต่อลูกค้า",
-        "AddNewContact": "เพิ่มผู้ติดต่อใหม่",
-        "AddNewContacts": "เพิ่มผู้ติดต่อใหม่"
-    },
-    "me": {
-        "Title": "ฉัน",
-        "MobileNumber": "เบอร์มือถือ",
-        "EmailAddress": "ที่อยู่อีเมล",
-        "UpdateSocialTitle": "อัปเดต {{1}} ชื่อผู้ใช้",
-        "Web3": "เว็บ3"
-    },
-    "people": {
-        "Title": "ประชากร",
-        "Description": "ผู้คนในชุมชน {{1}} คน",
-        "AppAlert": "แอปนี้ใน App Store จะช่วยให้คุณเชื่อมต่อกับเพื่อนๆ และอื่นๆ อีกมากมาย",
-        "Invite": "เชิญเพื่อน ๆ",
-        "BuyCredits": "ซื้อเครดิต",
-        "FindSomeoneByName": "หาคนชื่อ",
-        "SearchByName": "ค้นหาด้วยชื่อ",
-        "FindAllMyFriends": "ค้นหาเพื่อนของฉันทั้งหมด",
-        "labels": {
-            "All": "ทุกคน",
-            "Title": "กรองตามความสัมพันธ์",
-            "New": "ประเภทความสัมพันธ์ใหม่"
-        },
-        "interests": {
-            "All": "ความสนใจทั้งหมด",
-            "Title": "กรองตามความสนใจ",
-            "Filter": "แสดงให้คนสนใจ . ."
-        },
-        "Keywords": "ชุมชนคน {{1}} คน"
-    },
-    "communities": {
-        "Title": "ชุมชน",
-        "NewCommunity": "ชุมชนใหม่",
-        "FindCommunityByName": "ค้นหาชุมชนตามชื่อ",
-        "Description": "{{1}} ชุมชน"
-    },
-    "community": {
-        "Title": "{{1}} ชุมชน",
-        "Roles": "บทบาท",
-        "AllRoles": "ทุกบทบาท",
-        "YouDontHavePermission": "คุณไม่ได้รับอนุญาตให้ทำเช่นนี้",
-        "usernamePlaceholder": "ตั้งชื่อชุมชน",
-        "NotEnoughCredits": "คุณมีเครดิตไม่เพียงพอที่จะสร้างชุมชน ต้องการ {{1}} คุณมี {{2}}"
-    },
-    "event": {
-        "GetDirections": "ขอเส้นทาง",
-        "WhichMap": "คุณต้องการใช้แผนที่ใด",
-        "JoinEventToChat": "เข้าร่วมกิจกรรมเพื่อแชท",
-        "promote": {
-            "Title": "โปรโมทงานนี้",
-            "Prompt": "เลือกตำแหน่งที่คุณต้องการโปรโมตกิจกรรมนี้:"
-        },
-        "Confirmation": "การยืนยัน"
-    },
-    "newEvent": {
-        "Title": "วางแผนกิจกรรมใหม่"
-    },
-    "interests": {
-        "Title": "ความสนใจ",
-        "prompt": "เลือกประเภทของสิ่งที่คุณอยากรู้",
-        "explanation": "ยิ่งคุณเลือกความสนใจมากเท่าไหร่ คุณก็ยิ่งมีโอกาสติดต่อกับคนที่มีความคิดเหมือนๆ กันมากขึ้นเท่านั้น",
-        "filter": "สิ่งที่คุณมีความสนใจมีอะไรบ้าง?",
-        "Profile": "ความสนใจร่วมกันจะถูกเน้น หากคุณมีความสนใจอย่างน้อยหนึ่งอย่างด้านล่างนี้ คุณสามารถเพิ่ม {{clickOrTap}} เพื่อเพิ่มความสนใจได้"
-    },
-    "credits": {
-        "Title": "เครดิต",
-        "EarnCredits": "รับ {{1}} เครดิตสำหรับบุคคลใหม่ทุกคนที่คุณเชิญที่เข้าร่วมแอป",
-        "YouHave": "คุณมี {{1}} หน่วยกิต"
-    },
-    "onboarding": {
-        "Tap": "แตะ",
-        "Click": "คลิก",
-        "Yes": "ใช่",
-        "No": "ไม่",
-        "Skip": "หรือข้ามสิ่งนี้",
-        "name": {
-            "Preface": "ยินดีต้อนรับสู่",
-            "Placeholder": "ใส่ชื่อเต็มของคุณ",
-            "GetStarted": "เริ่ม",
-            "AsGuest": "คุณได้รับเชิญเป็นแขกรับเชิญ",
-            "AsMember": "คุณได้รับเชิญให้เป็นสมาชิก",
-            "AsAdmin": "คุณได้รับเชิญเป็นผู้ดูแลระบบ",
-            "AsOwner": "คุณได้รับเชิญให้เป็นเจ้าของ",
-            "TooShort": "ชื่อเต็มของคุณต้องไม่สั้นขนาดนั้น",
-            "SetAsYourFullName": "ตั้ง {{1}} เป็นชื่อเต็มของคุณ?"
-        },
-        "icon": {
-            "KeepDefault": "หรือเก็บภาพนี้ไว้",
-            "SetYourPhoto": "{{ClickOrTap}} เพื่อตั้งค่ารูปภาพของคุณ:",
-            "ClickOnYourFace": "{{ClickOrTap}} บนใบหน้าของคุณ"
-        },
-        "interests": {
-            "GetStarted": "⇩ เริ่มต้น",
-            "NextCategory": "↓ ถัดไป",
-            "Continue": "ดำเนินการต่อ",
-            "Instructions": "ในแต่ละหมวดหมู่ {{1}} ถัดไป<br> {{2}} กิจกรรมทั้งหมดที่คุณสนใจ<br> นี่คือวิธีที่คุณเชื่อมต่อกับคนอื่นๆ ในชุมชน"
-        },
-        "profile": {
-            "Profile": "โปรไฟล์ของคุณช่วยให้คนอื่นค้นพบเกี่ยวกับคุณมากขึ้น<br>",
-            "Birthday": "กรุณาใส่วันเกิดของคุณ:",
-            "Placeholder": "คุณเป็นใครและทำอะไร บอกคนอื่นเกี่ยวกับตัวคุณที่น่าสนใจหรือไม่เหมือนใคร",
-            "Required": "ในการดำเนินการต่อ ให้เขียนอย่างน้อยสองสามบรรทัดเกี่ยวกับตัวคุณ",
-            "Month": "เดือน",
-            "Day": "วัน",
-            "Year": "ปี",
-            "Gender": "เพศ",
-            "Male": "ชาย",
-            "Female": "หญิง",
-            "Other": "อื่น",
-            "Height": "ส่วนสูง",
-            "Affiliation": "สังกัด",
-            "Dating": "ออกเดท",
-            "Interested": "สนใจ",
-            "NotInterested": "ไม่สนใจ",
-            "MatchmakerOnly": "คนจับคู่เท่านั้น"
-        },
-        "location": {
-            "NoOneElse": "จะไม่มีใครเห็นมันอีก",
-            "SetMyLocation": "ตั้งค่าตำแหน่งของฉัน"
-        },
-        "pile": {
-            "DialogTitle": "ผู้ที่มีความสนใจร่วมกัน"
-        },
-        "Done": "เสร็จแล้ว",
-        "relationships": {
-            "title": "เพิ่ม {{userName}} ลงในสมุดโทรศัพท์",
-            "welcome": "ยินดีต้อนรับ {{user}}",
-            "invitedByUser": "เชิญคุณ.",
-            "addToPhonebook": "บันทึกไปยังรายชื่อในโทรศัพท์ของฉัน",
-            "iosInstructions": "เลื่อนลงเพื่อเพิ่มผู้ติดต่อใหม่",
-            "androidInstructions": "คุณควรเปิดไฟล์ vCard นี้หลังจากดาวน์โหลด",
-            "explanation": "ความสัมพันธ์ของคุณคืออะไร?"
-        },
-        "Title": "ข้อมูลพื้นฐาน",
-        "Prompt": "ไม่กี่ขั้นตอนในการตั้งค่าบัญชีของคุณ"
-    },
-    "profile": {
-        "Title": "ประวัติโดยย่อ",
-        "Male": "ชาย",
-        "Female": "หญิง",
-        "Other": "อื่น",
-        "dating": {
-            "Interested": "สนใจ",
-            "NotInterested": "ไม่สนใจ",
-            "MatchmakerOnly": "คนจับคู่เท่านั้น"
-        },
-        "StartConversation": "เริ่มการสนทนา",
-        "blockUser": "บล็อกผู้ใช้รายนี้",
-        "blockUserAlert": "คุณจะไม่เห็นข้อความจากผู้ใช้รายนี้อีกจนกว่าคุณจะเลิกบล็อก",
-        "unblockUser": "เลิกบล็อกผู้ใช้รายนี้",
-        "addToContacts": "เพิ่มในรายชื่อติดต่อ",
-        "manageLabels": "จัดการป้ายกำกับ",
-        "inviteUsers": "เชิญผู้ใช้",
-        "selectRole": "เลือกบทบาท",
-        "inviteSuccess": "เชิญผู้ใช้เป็น {{label}} สำเร็จแล้ว",
-        "invite": "เชิญชวน",
-        "relationships": "ความสัมพันธ์",
-        "newRole": "บทบาทใหม่",
-        "about": "เกี่ยวกับ",
-        "people": "ประชากร",
-        "info": "ข้อมูล",
-        "interests": "ความสนใจ",
-        "chat": "แชท",
-        "locations": "สถานที่",
-        "ManageRoles": "จัดการบทบาท",
-        "aboutPlaceholder": "คุณเป็นใครและทำอะไร บอกคนอื่นเกี่ยวกับตัวคุณที่น่าสนใจหรือไม่เหมือนใคร",
-        "explanation": "โปรไฟล์ของคุณจะช่วยให้จับคู่คุณกับคนอื่นๆ ได้ดียิ่งขึ้นสำหรับกิจกรรมกลุ่ม<br> กรุณาใส่วันเกิดของคุณ",
-        "chats": {
-            "placeholder": "พูดอะไรสักอย่าง"
-        },
-        "LogOut": "ออกจากระบบ",
-        "MyLinks": "ลิงค์ของฉัน",
-        "MyJobs": "งานของฉัน",
-        "MySocial": "MySocial",
-        "MyEducation": "การศึกษาของฉัน",
-        "JobsPlaceholder": "พิมพ์ข้อมูลงานที่นี่",
-        "EducationPlaceholder": "พิมพ์ข้อมูลการศึกษาที่นี่",
-        "ManageNotifications": "จัดการการแจ้งเตือน",
-        "YourPreferredLanguage": "ภาษาที่คุณต้องการ",
-        "SendCrypto": "จ่าย",
-        "Block": "ปิดกั้น",
-        "Unblock": "เลิกบล็อก",
-        "Email": "อีเมล",
-        "Avoid": "หลีกเลี่ยง",
-        "CreatePrivateChat": "ใช้เครดิต {{credits}} เพื่อติดต่อไหม",
-        "RolesInCommunity": "บทบาทในชุมชน",
-        "PersonalChatWith": "แชทส่วนตัวกับ {{name}}",
-        "SendCryptoTo": "ส่ง crypto ไปที่ {{name}}",
-        "SendEmailTo": "ส่งอีเมลไปที่ {{name}}",
-        "SendSMSTo": "ส่ง SMS ไปที่ {{name}}",
-        "BlockThisUser": "บล็อกผู้ใช้รายนี้",
-        "UnblockThisUser": "เลิกบล็อกผู้ใช้รายนี้",
-        "YouCantChatWithYourself": "คุณไม่สามารถสนทนากับตัวเองได้",
-        "blockUserAlertTitle": "บล็อก {{displayName}}",
-        "sections": {
-            "education": "การศึกษา",
-            "greeting": "การทักทาย",
-            "jobs": "งาน",
-            "links": "ลิงค์",
-            "language": "ภาษา",
-            "roles": "บทบาท",
-            "personal": "ส่วนตัว",
-            "social": "ทางสังคม"
-        },
-        "Roles": "บทบาท",
-        "SendPaymentTo": "โอนเงินมาที่ {{name}}"
-    },
-    "myqr": {
-        "Title": "QR ของฉัน"
-    },
-    "composer": {
-        "createCommunity": "สร้างชุมชน",
-        "inviteAdmin": "เชิญแอดมิน",
-        "inviteMember": "เชิญสมาชิก",
-        "newCommunityTitle": "ชื่อชุมชน",
-        "setCommunityTitle": "ชื่อชุมชน",
-        "creditsChargeRequest": "คุณตกลงที่จะใช้เครดิตมูลค่า {{price}} หน่วยหรือไม่",
-        "yes": "ใช่",
-        "no": "ไม่"
-    },
-    "notifications": {
-        "WelcomePleaseVerifyEmail": "ยินดีต้อนรับ! โปรดยืนยันที่อยู่อีเมลของคุณ",
-        "WelcomeVerifyEmail": "ยินดีต้อนรับ! ยืนยันที่อยู่อีเมลของคุณ.",
-        "ForgetPass": "เฮ้ คุณลืมข้อความรหัสผ่านของคุณหรือไม่",
-        "ManageEmailSubscriptions": "จัดการการสมัครรับอีเมลของคุณ",
-        "IfUnsubscribe": "หากคุณต้องการยกเลิกการสมัคร"
-    },
-    "speak": {
-        "onboarding": {
-            "name": {
-                "Welcome": "ยินดีต้อนรับสู่ {{CommunityName}} แอปนี้จะช่วยให้คุณติดต่อกับเพื่อนๆ ค้นพบผู้คนใหม่ๆ ที่มีความสนใจเหมือนกัน และอื่นๆ อีกมากมาย มาเริ่มกันเลย!"
-            },
-            "icon": {
-                "Commentary": "ตั้งค่ารูปภาพของคุณ นี่คือวิธีที่ผู้คนจะเห็นคุณบนเว็บไซต์"
-            },
-            "interests": {
-                "Commentary": "ยิ่งคุณเลือกรายการมากเท่าไหร่ คุณก็ยิ่งได้พบปะผู้คนมากขึ้นเท่านั้น",
-                "Notifications": "คุณต้องอนุญาตการแจ้งเตือน"
-            }
-        },
-        "subscriptions": {
-            "confirm": "การแจ้งเตือนช่วยให้คุณทราบเกี่ยวกับสิ่งที่คุณสนใจ เช่น เมื่อเพื่อนเข้าร่วมแอป หรือส่งข้อความถึงคุณ"
-        },
-        "invite": "{{Q.words.TapOrClick}} ที่นี่เพื่อดูว่าคุณจะแชร์สิ่งนี้กับคนอื่นๆ ได้อย่างไร"
-    },
-    "payment": {
-        "onContribute": "ขอขอบคุณ! การชำระเงินของคุณผ่านไปแล้ว คุณต้องการเชิญเพื่อนของคุณเข้าร่วมหรือไม่?",
-        "ConnectAccount": "เชื่อมต่อบัญชี"
-    },
-    "featureboard": {
-        "Text_1": "ให้ได้ยินเสียงของคุณ! คุณเห็นด้วยหรือไม่ว่าเราควรพัฒนาคุณลักษณะหรือจุดบกพร่อง คลิกที่ปุ่มเพื่อสนับสนุนมัน",
-        "Text_2": "ต้องการให้เราพัฒนาคุณลักษณะใหม่หรือไม่? อธิบายไว้ด้านล่าง",
-        "Text_3": "ทุกสัปดาห์เราเริ่มพัฒนาคุณลักษณะที่ชุมชนร้องขอมากที่สุด เงินทั้งหมดที่บริจาคไปเพื่อจุดประสงค์นั้น ทำให้เราพัฒนาแอปให้ดีขึ้นได้",
-        "Text_4": "เงินที่บริจาคทั้งหมดจะใช้เพื่อช่วยจ่ายค่าใช้จ่ายในการพัฒนาของเรา",
-        "Text_5": "คุณมีแนวคิดสำหรับคุณลักษณะหรือการแก้ไขข้อบกพร่องที่คุณต้องการให้เราทำ แต่ยังไม่เห็นคนอื่นเพิ่มหรือไม่? อธิบายด้านล่าง:",
-        "Options": [
-            {
-                "text": "การประชุมทางวิดีโอแบบเรียลไทม์มูลค่า $400"
-            },
-            {
-                "defaultAmount": "10",
-                "text": "ข้อมูลการลงทะเบียนหลักในพื้นที่ $200"
-            },
-            {
-                "text": "$130 เรียกดูและแบ่งปันมส์จำนวน {{1}} รายการ",
-                "defaultAmount": "10"
-            },
-            {
-                "text": "$80 จัดการชุมชนของคุณเอง",
-                "defaultAmount": "10"
-            },
-            {
-                "text": "$30 แก้ไขบั๊กการสนทนา",
-                "defaultAmount": "10"
-            }
-        ],
-        "RequestNewFeature": "ขอคุณสมบัติใหม่\/แก้ไขข้อบกพร่อง",
-        "FeaturePlaceholder": "สรุปคุณสมบัติโดยย่อ",
-        "FeatureDescription": "อธิบายว่าคนอื่นสามารถสร้างจุดบกพร่องที่คุณเห็นได้อย่างไร หรืออธิบายรายละเอียดเกี่ยวกับคุณลักษณะที่คุณต้องการสร้าง",
-        "AddYourRequest": "เพิ่มคำขอของคุณ",
-        "NewFeature": "คุณลักษณะใหม่"
-    },
-    "contribute": {
-        "ContributeExplanation": "ช่วยสนับสนุนการพัฒนาแอป {{communityName}} อย่างต่อเนื่อง การสนับสนุนทั้งหมดของคุณช่วยแก้ไขจุดบกพร่องและพัฒนาคุณสมบัติใหม่เพื่อช่วยให้ชุมชนออนไลน์เติบโต!",
-        "ReasonToContribute": "แอปนี้ดูแลโดยผู้สนับสนุน {{communityName}} ช่วยสนับสนุนแอพนี้เพื่อให้เราสามารถสร้างความแตกต่างในชีวิตของผู้คน!"
-    },
-    "assetshistory": {
-        "Title": "ประวัติทรัพย์สิน",
-        "Charges": "ค่าใช้จ่าย",
-        "Credits": "เครดิต"
-    },
-    "accounts": {
-        "remove": {
-            "title": "ปิดบัญชี",
-            "content": "คุณต้องการลบบัญชีนี้หรือไม่?",
-            "ok": "ใช่",
-            "cancel": "ไม่"
-        }
-    },
-    "import": {
-        "fileNotFound": "ขออภัย ไม่พบไฟล์ CSV",
-        "fileEmpty": "ขออภัย ไฟล์ CSV ว่างเปล่า",
-        "userIdNotFound": "มีผู้ใช้แต่ ID ว่างเปล่า",
-        "errorLine": "บรรทัด {{1}}",
-        "fieldNotFound": "ไม่พบช่องที่ต้องกรอก &quot;{{1}}&quot;",
-        "taskStreamInvalid": "สตรีมงานไม่ถูกต้อง",
-        "instructionsEmpty": "คำแนะนำสตรีมงานว่างเปล่า",
-        "complete": "สมบูรณ์",
-        "activateUsers": "ส่งข้อความการเปิดใช้งานไปยังผู้ใช้?",
-        "importProgress": "ความคืบหน้า",
-        "joinEventLabel": "เข้าร่วมผู้ใช้เพื่อสุ่มกิจกรรม",
-        "importOptions": "ตัวเลือก",
-        "sampleCSV": "ดาวน์โหลดตัวอย่าง CSV",
-        "fileLabel": "อัปโหลดสเปรดชีต:",
-        "errorsTitle": "เกิดข้อผิดพลาด",
-        "communityUsers": "นี่คือรายชื่อชุมชน",
-        "setAsConversation": "คอลัมน์ URL เป็นการสนทนา",
-        "toMainCommunityToo": "เพิ่มผู้ใช้ในชุมชนหลักด้วย",
-        "willImportedTo": "ผู้ใช้จะถูกนำเข้าสู่ชุมชน",
-        "ChooseFile": "เลือกไฟล์"
-    },
-    "services": {
-        "Title": "บริการ",
-        "filterByTitle": "ค้นหาบริการตามชื่อเรื่อง",
-        "New": "+ เริ่มบริการใหม่",
-        "NewService": "บริการใหม่",
-        "NewAvailability": "ความพร้อมใช้งานใหม่",
-        "filterServices": "บริการกรอง",
-        "NoneYet": "ยังไม่มีบริการเกิดขึ้น<br> ในช่วงเวลาเหล่านี้",
-        "AllAuthors": "ผู้เขียนทั้งหมด",
-        "AllDays": "ทุกวัน",
-        "AllLocations": "สถานที่ทั้งหมด",
-        "MakeReservation": "ทำการจอง",
-        "CancelReservation": "ยกเลิกการจอง",
-        "UpdateReservation": "อัพเดทการจอง",
-        "AreYouSure": "คุณแน่ใจไหม?",
-        "YouWillRefunded": "คุณจะได้รับคืนในรูปของเครดิตที่คุณสามารถนำไปใช้กับสิ่งอื่นๆ ในแอปได้",
-        "AllInterests": "ความสนใจทั้งหมด",
-        "FilterbyInterest": "กรองตามความสนใจ",
-        "FilterByDate": "กรองตามวันที่",
-        "ShowActivities": "แสดงกิจกรรมที่เกี่ยวข้องกับ...",
-        "newServices": "คุณมีบริการใหม่ {{1}} รายการ",
-        "SelectLocation": "เลือกตำแหน่ง",
-        "FilterLocationsPlaceHolder": "กรองสถานที่ด้วย ...",
-        "Description": "{{1}} บริการ",
-        "Keywords": "{{1}} บริการ"
-    },
-    "welcome": {
-        "Title": "{{appName}}: ยินดีต้อนรับ",
-        "GetStarted": "เริ่ม",
-        "gallery": {
-            "Connect": "เชื่อมต่อ",
-            "Organize": "จัดระเบียบ",
-            "Travel": "การท่องเที่ยว",
-            "Share": "แบ่งปัน"
-        }
-    }
+	"notFound": {
+		"Explanation": "<span class='url'>{{1}}</span> \u0e44\u0e21\u0e48\u0e44\u0e14\u0e49\u0e0a\u0e35\u0e49\u0e44\u0e1b\u0e17\u0e35\u0e48\u0e2a\u0e34\u0e48\u0e07\u0e43\u0e14!",
+		"NextSteps": "\u0e43\u0e0a\u0e49\u0e40\u0e21\u0e19\u0e39\u0e2b\u0e25\u0e31\u0e01\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e04\u0e49\u0e19\u0e2b\u0e32\u0e2a\u0e34\u0e48\u0e07\u0e17\u0e35\u0e48\u0e04\u0e38\u0e13\u0e01\u0e33\u0e25\u0e31\u0e07\u0e21\u0e2d\u0e07\u0e2b\u0e32"
+	},
+	"dashboard": {
+		"Menu": "\u0e40\u0e21\u0e19\u0e39",
+		"Home": "\u0e1a\u0e49\u0e32\u0e19",
+		"Welcome": "\u0e22\u0e34\u0e19\u0e14\u0e35\u0e15\u0e49\u0e2d\u0e19\u0e23\u0e31\u0e1a",
+		"Events": "\u0e01\u0e34\u0e08\u0e01\u0e23\u0e23\u0e21",
+		"Discuss": "\u0e2b\u0e32\u0e23\u0e37\u0e2d",
+		"People": "\u0e1b\u0e23\u0e30\u0e0a\u0e32\u0e01\u0e23",
+		"About": "\u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e01\u0e31\u0e1a",
+		"Community": "\u0e0a\u0e38\u0e21\u0e0a\u0e19",
+		"LogIn": "\u0e40\u0e02\u0e49\u0e32\u0e2a\u0e39\u0e48\u0e23\u0e30\u0e1a\u0e1a",
+		"LogOut": "\u0e2d\u0e2d\u0e01\u0e08\u0e32\u0e01\u0e23\u0e30\u0e1a\u0e1a",
+		"Intercoin": "\u0e2d\u0e34\u0e19\u0e40\u0e15\u0e2d\u0e23\u0e4c\u0e04\u0e2d\u0e22\u0e19\u0e4c",
+		"Shows": "\u0e01\u0e32\u0e23\u0e41\u0e2a\u0e14\u0e07",
+		"Calendar": "\u0e1b\u0e0f\u0e34\u0e17\u0e34\u0e19",
+		"Me": "\u0e09\u0e31\u0e19",
+		"Media": "\u0e2a\u0e37\u0e48\u0e2d",
+		"Services": "\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23",
+		"SetMobileNumber": "\u0e15\u0e31\u0e49\u0e07\u0e2b\u0e21\u0e32\u0e22\u0e40\u0e25\u0e02\u0e42\u0e17\u0e23\u0e28\u0e31\u0e1e\u0e17\u0e4c\u0e21\u0e37\u0e2d\u0e16\u0e37\u0e2d",
+		"SetEmailAddress": "\u0e15\u0e31\u0e49\u0e07\u0e04\u0e48\u0e32\u0e17\u0e35\u0e48\u0e2d\u0e22\u0e39\u0e48\u0e2d\u0e35\u0e40\u0e21\u0e25"
+	},
+	"greeting": {
+		"Welcome": "\u0e22\u0e34\u0e19\u0e14\u0e35\u0e15\u0e49\u0e2d\u0e19\u0e23\u0e31\u0e1a\u0e2a\u0e39\u0e48 {{1}} \u0e17\u0e35\u0e48\u0e19\u0e35\u0e48\u0e04\u0e38\u0e13\u0e08\u0e30\u0e1e\u0e1a\u0e01\u0e31\u0e1a\u0e2a\u0e34\u0e48\u0e07\u0e17\u0e35\u0e48\u0e42\u0e1e\u0e2a\u0e15\u0e4c\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e2a\u0e21\u0e32\u0e0a\u0e34\u0e01\u0e02\u0e2d\u0e07\u0e0a\u0e38\u0e21\u0e0a\u0e19\u0e02\u0e2d\u0e07\u0e40\u0e23\u0e32 \u0e42\u0e1b\u0e23\u0e14\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e17\u0e35\u0e48\u0e2d\u0e22\u0e39\u0e48\u0e2d\u0e35\u0e40\u0e21\u0e25\u0e2b\u0e23\u0e37\u0e2d\u0e2b\u0e21\u0e32\u0e22\u0e40\u0e25\u0e02\u0e42\u0e17\u0e23\u0e28\u0e31\u0e1e\u0e17\u0e4c\u0e21\u0e37\u0e2d\u0e16\u0e37\u0e2d\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e23\u0e31\u0e1a\u0e01\u0e32\u0e23\u0e41\u0e08\u0e49\u0e07\u0e40\u0e15\u0e37\u0e2d\u0e19\u0e40\u0e21\u0e37\u0e48\u0e2d\u0e21\u0e35\u0e01\u0e32\u0e23\u0e42\u0e1e\u0e2a\u0e15\u0e4c\u0e1b\u0e23\u0e30\u0e01\u0e32\u0e28"
+	},
+	"conversations": {
+		"Title": "\u0e1a\u0e17\u0e2a\u0e19\u0e17\u0e19\u0e32",
+		"New": "\u0e1a\u0e17\u0e2a\u0e19\u0e17\u0e19\u0e32\u0e43\u0e2b\u0e21\u0e48",
+		"Conversation": "\u0e01\u0e32\u0e23\u0e2a\u0e19\u0e17\u0e19\u0e32",
+		"Topics": "\u0e2b\u0e31\u0e27\u0e02\u0e49\u0e2d",
+		"NoneYet": "\u0e22\u0e31\u0e07\u0e44\u0e21\u0e48\u0e21\u0e35\u0e01\u0e32\u0e23\u0e2a\u0e19\u0e17\u0e19\u0e32\u0e40\u0e01\u0e34\u0e14\u0e02\u0e36\u0e49\u0e19",
+		"newConversations": "{{1}} \u0e1a\u0e17\u0e2a\u0e19\u0e17\u0e19\u0e32\u0e43\u0e2b\u0e21\u0e48",
+		"AllAuthors": "\u0e1c\u0e39\u0e49\u0e40\u0e02\u0e35\u0e22\u0e19\u0e17\u0e31\u0e49\u0e07\u0e2b\u0e21\u0e14",
+		"FilterbyAuthors": "\u0e01\u0e23\u0e2d\u0e07\u0e15\u0e32\u0e21\u0e1c\u0e39\u0e49\u0e40\u0e02\u0e35\u0e22\u0e19",
+		"FilterAuthorPlaceHolder": "\u0e04\u0e49\u0e19\u0e2b\u0e32\u0e1c\u0e39\u0e49\u0e40\u0e02\u0e35\u0e22\u0e19\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e40\u0e15\u0e34\u0e21...",
+		"filterConversations": "\u0e01\u0e23\u0e2d\u0e07\u0e15\u0e32\u0e21\u0e02\u0e49\u0e2d\u0e04\u0e27\u0e32\u0e21",
+		"Description": "{{1}} \u0e1a\u0e17\u0e2a\u0e19\u0e17\u0e19\u0e32"
+	},
+	"newConversation": {
+		"composer": {
+			"ChooseActivity": "\u0e40\u0e25\u0e37\u0e2d\u0e01\u0e2b\u0e31\u0e27\u0e02\u0e49\u0e2d",
+			"Share": "\u0e41\u0e1a\u0e48\u0e07\u0e1b\u0e31\u0e19",
+			"interest": {
+				"Title": "\u0e40\u0e25\u0e37\u0e2d\u0e01\u0e01\u0e34\u0e08\u0e01\u0e23\u0e23\u0e21",
+				"Filter": "\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e19\u0e43\u0e08\u0e43\u0e19\u0e01\u0e32\u0e23\u0e04\u0e49\u0e19\u0e2b\u0e32 ..."
+			}
+		},
+		"Title": "\u0e1a\u0e17\u0e2a\u0e19\u0e17\u0e19\u0e32\u0e43\u0e2b\u0e21\u0e48",
+		"TitlePlaceholder": "\u0e2b\u0e31\u0e27\u0e02\u0e49\u0e2d\u0e2a\u0e19\u0e17\u0e19\u0e32\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13",
+		"ContentPlaceholder": "\u0e40\u0e02\u0e35\u0e22\u0e19\u0e04\u0e33\u0e2a\u0e2d\u0e07\u0e2a\u0e32\u0e21\u0e04\u0e33\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e40\u0e23\u0e34\u0e48\u0e21\u0e01\u0e32\u0e23\u0e2a\u0e19\u0e17\u0e19\u0e32\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e43\u0e2b\u0e49\u0e04\u0e19\u0e2d\u0e37\u0e48\u0e19\u0e15\u0e2d\u0e1a\u0e44\u0e14\u0e49",
+		"StartButton": "\u0e40\u0e23\u0e34\u0e48\u0e21\u0e01\u0e32\u0e23\u0e2a\u0e19\u0e17\u0e19\u0e32"
+	},
+	"events": {
+		"Title": "\u0e40\u0e2b\u0e15\u0e38\u0e01\u0e32\u0e23\u0e13\u0e4c",
+		"filterByTitle": "\u0e04\u0e49\u0e19\u0e2b\u0e32\u0e01\u0e34\u0e08\u0e01\u0e23\u0e23\u0e21\u0e15\u0e32\u0e21\u0e0a\u0e37\u0e48\u0e2d\u0e40\u0e23\u0e37\u0e48\u0e2d\u0e07",
+		"New": "+ \u0e40\u0e23\u0e34\u0e48\u0e21\u0e01\u0e34\u0e08\u0e01\u0e23\u0e23\u0e21\u0e43\u0e2b\u0e21\u0e48",
+		"filterEvents": "\u0e01\u0e23\u0e2d\u0e07\u0e40\u0e2b\u0e15\u0e38\u0e01\u0e32\u0e23\u0e13\u0e4c",
+		"NewEvent": "\u0e01\u0e34\u0e08\u0e01\u0e23\u0e23\u0e21\u0e43\u0e2b\u0e21\u0e48",
+		"SetLocation": "\u0e15\u0e31\u0e49\u0e07\u0e04\u0e48\u0e32\u0e15\u0e33\u0e41\u0e2b\u0e19\u0e48\u0e07\u0e02\u0e2d\u0e07\u0e09\u0e31\u0e19",
+		"NoneYet": "\u0e22\u0e31\u0e07\u0e44\u0e21\u0e48\u0e21\u0e35\u0e01\u0e32\u0e23\u0e08\u0e31\u0e14\u0e07\u0e32\u0e19<br> \u0e43\u0e19\u0e0a\u0e48\u0e27\u0e07\u0e40\u0e27\u0e25\u0e32\u0e40\u0e2b\u0e25\u0e48\u0e32\u0e19\u0e35\u0e49",
+		"AllAuthors": "\u0e1c\u0e39\u0e49\u0e40\u0e02\u0e35\u0e22\u0e19\u0e17\u0e31\u0e49\u0e07\u0e2b\u0e21\u0e14",
+		"AllDays": "\u0e17\u0e38\u0e01\u0e27\u0e31\u0e19",
+		"AllLocations": "\u0e2a\u0e16\u0e32\u0e19\u0e17\u0e35\u0e48\u0e17\u0e31\u0e49\u0e07\u0e2b\u0e21\u0e14",
+		"MakeReservation": "\u0e17\u0e33\u0e01\u0e32\u0e23\u0e08\u0e2d\u0e07",
+		"CancelReservation": "\u0e22\u0e01\u0e40\u0e25\u0e34\u0e01\u0e01\u0e32\u0e23\u0e08\u0e2d\u0e07",
+		"UpdateReservation": "\u0e2d\u0e31\u0e1e\u0e40\u0e14\u0e17\u0e01\u0e32\u0e23\u0e08\u0e2d\u0e07",
+		"AreYouSure": "\u0e04\u0e38\u0e13\u0e41\u0e19\u0e48\u0e43\u0e08\u0e44\u0e2b\u0e21?",
+		"YouWillRefunded": "\u0e04\u0e38\u0e13\u0e08\u0e30\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e40\u0e07\u0e34\u0e19\u0e04\u0e37\u0e19\u0e43\u0e19\u0e23\u0e39\u0e1b\u0e02\u0e2d\u0e07\u0e40\u0e04\u0e23\u0e14\u0e34\u0e15\u0e17\u0e35\u0e48\u0e04\u0e38\u0e13\u0e2a\u0e32\u0e21\u0e32\u0e23\u0e16\u0e43\u0e0a\u0e49\u0e08\u0e48\u0e32\u0e22\u0e01\u0e31\u0e1a\u0e2a\u0e34\u0e48\u0e07\u0e2d\u0e37\u0e48\u0e19 \u0e46 \u0e43\u0e19\u0e41\u0e2d\u0e1b\u0e44\u0e14\u0e49",
+		"AllInterests": "\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e19\u0e43\u0e08\u0e17\u0e31\u0e49\u0e07\u0e2b\u0e21\u0e14",
+		"FilterbyInterest": "\u0e01\u0e23\u0e2d\u0e07\u0e15\u0e32\u0e21\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e19\u0e43\u0e08",
+		"FilterByDate": "\u0e01\u0e23\u0e2d\u0e07\u0e15\u0e32\u0e21\u0e27\u0e31\u0e19\u0e17\u0e35\u0e48",
+		"ShowActivities": "\u0e41\u0e2a\u0e14\u0e07\u0e01\u0e34\u0e08\u0e01\u0e23\u0e23\u0e21\u0e17\u0e35\u0e48\u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e02\u0e49\u0e2d\u0e07\u0e01\u0e31\u0e1a . . .",
+		"newEvents": "\u0e04\u0e38\u0e13\u0e21\u0e35 {{1}} \u0e01\u0e34\u0e08\u0e01\u0e23\u0e23\u0e21\u0e43\u0e2b\u0e21\u0e48",
+		"SelectLocation": "\u0e40\u0e25\u0e37\u0e2d\u0e01\u0e2a\u0e16\u0e32\u0e19\u0e17\u0e35\u0e48",
+		"FilterLocationsPlaceHolder": "\u0e01\u0e23\u0e2d\u0e07\u0e2a\u0e16\u0e32\u0e19\u0e17\u0e35\u0e48\u0e14\u0e49\u0e27\u0e22 ...",
+		"Description": "{{1}} \u0e40\u0e2b\u0e15\u0e38\u0e01\u0e32\u0e23\u0e13\u0e4c",
+		"Keywords": "{{1}} \u0e40\u0e2b\u0e15\u0e38\u0e01\u0e32\u0e23\u0e13\u0e4c"
+	},
+	"schedule": {
+		"Title": "\u0e01\u0e33\u0e2b\u0e19\u0e14\u0e01\u0e32\u0e23",
+		"NoneYet": "\u0e04\u0e38\u0e13\u0e44\u0e21\u0e48\u0e44\u0e14\u0e49\u0e40\u0e02\u0e49\u0e32\u0e23\u0e48\u0e27\u0e21\u0e01\u0e34\u0e08\u0e01\u0e23\u0e23\u0e21\u0e43\u0e14 \u0e46",
+		"AddSome": "\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e15\u0e32\u0e23\u0e32\u0e07\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13!",
+		"AddMore": "\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e01\u0e34\u0e08\u0e01\u0e23\u0e23\u0e21\u0e25\u0e07\u0e43\u0e19\u0e01\u0e33\u0e2b\u0e19\u0e14\u0e01\u0e32\u0e23\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13!",
+		"future": "\u0e2d\u0e19\u0e32\u0e04\u0e15",
+		"past": "\u0e2d\u0e14\u0e35\u0e15"
+	},
+	"location": {
+		"Title": "\u0e17\u0e35\u0e48\u0e15\u0e31\u0e49\u0e07",
+		"NewLocation": "\u0e17\u0e35\u0e48\u0e15\u0e31\u0e49\u0e07\u0e43\u0e2b\u0e21\u0e48"
+	},
+	"inbox": {
+		"Title": "\u0e01\u0e25\u0e48\u0e2d\u0e07\u0e08\u0e14\u0e2b\u0e21\u0e32\u0e22",
+		"NoneYet": "\u0e04\u0e38\u0e13\u0e44\u0e21\u0e48\u0e44\u0e14\u0e49\u0e21\u0e35\u0e2a\u0e48\u0e27\u0e19\u0e23\u0e48\u0e27\u0e21\u0e43\u0e19\u0e01\u0e32\u0e23\u0e2a\u0e19\u0e17\u0e19\u0e32\u0e43\u0e14 \u0e46",
+		"FindPeople": "\u0e2b\u0e32\u0e04\u0e19\u0e04\u0e38\u0e22",
+		"GroupConversations": "\u0e40\u0e02\u0e49\u0e32\u0e23\u0e48\u0e27\u0e21\u0e01\u0e32\u0e23\u0e2a\u0e19\u0e17\u0e19\u0e32\u0e01\u0e25\u0e38\u0e48\u0e21",
+		"ContactStaff": "\u0e15\u0e34\u0e14\u0e15\u0e48\u0e2d\u0e40\u0e08\u0e49\u0e32\u0e2b\u0e19\u0e49\u0e32\u0e17\u0e35\u0e48",
+		"ContactCustomers": "\u0e15\u0e34\u0e14\u0e15\u0e48\u0e2d\u0e25\u0e39\u0e01\u0e04\u0e49\u0e32",
+		"AddNewContact": "\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e1c\u0e39\u0e49\u0e15\u0e34\u0e14\u0e15\u0e48\u0e2d\u0e43\u0e2b\u0e21\u0e48",
+		"AddNewContacts": "\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e1c\u0e39\u0e49\u0e15\u0e34\u0e14\u0e15\u0e48\u0e2d\u0e43\u0e2b\u0e21\u0e48"
+	},
+	"me": {
+		"Title": "\u0e09\u0e31\u0e19",
+		"MobileNumber": "\u0e40\u0e1a\u0e2d\u0e23\u0e4c\u0e21\u0e37\u0e2d\u0e16\u0e37\u0e2d",
+		"EmailAddress": "\u0e17\u0e35\u0e48\u0e2d\u0e22\u0e39\u0e48\u0e2d\u0e35\u0e40\u0e21\u0e25",
+		"UpdateSocialTitle": "\u0e2d\u0e31\u0e1b\u0e40\u0e14\u0e15 {{1}} \u0e0a\u0e37\u0e48\u0e2d\u0e1c\u0e39\u0e49\u0e43\u0e0a\u0e49",
+		"Web3": "\u0e40\u0e27\u0e47\u0e1a3"
+	},
+	"people": {
+		"Title": "\u0e1b\u0e23\u0e30\u0e0a\u0e32\u0e01\u0e23",
+		"Description": "\u0e1c\u0e39\u0e49\u0e04\u0e19\u0e43\u0e19\u0e0a\u0e38\u0e21\u0e0a\u0e19 {{1}} \u0e04\u0e19",
+		"AppAlert": "\u0e41\u0e2d\u0e1b\u0e19\u0e35\u0e49\u0e43\u0e19 App Store \u0e08\u0e30\u0e0a\u0e48\u0e27\u0e22\u0e43\u0e2b\u0e49\u0e04\u0e38\u0e13\u0e40\u0e0a\u0e37\u0e48\u0e2d\u0e21\u0e15\u0e48\u0e2d\u0e01\u0e31\u0e1a\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e19\u0e46 \u0e41\u0e25\u0e30\u0e2d\u0e37\u0e48\u0e19\u0e46 \u0e2d\u0e35\u0e01\u0e21\u0e32\u0e01\u0e21\u0e32\u0e22",
+		"Invite": "\u0e40\u0e0a\u0e34\u0e0d\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e19 \u0e46",
+		"BuyCredits": "\u0e0b\u0e37\u0e49\u0e2d\u0e40\u0e04\u0e23\u0e14\u0e34\u0e15",
+		"FindSomeoneByName": "\u0e2b\u0e32\u0e04\u0e19\u0e0a\u0e37\u0e48\u0e2d",
+		"SearchByName": "\u0e04\u0e49\u0e19\u0e2b\u0e32\u0e14\u0e49\u0e27\u0e22\u0e0a\u0e37\u0e48\u0e2d",
+		"FindAllMyFriends": "\u0e04\u0e49\u0e19\u0e2b\u0e32\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e19\u0e02\u0e2d\u0e07\u0e09\u0e31\u0e19\u0e17\u0e31\u0e49\u0e07\u0e2b\u0e21\u0e14",
+		"labels": {
+			"All": "\u0e17\u0e38\u0e01\u0e04\u0e19",
+			"Title": "\u0e01\u0e23\u0e2d\u0e07\u0e15\u0e32\u0e21\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e31\u0e21\u0e1e\u0e31\u0e19\u0e18\u0e4c",
+			"New": "\u0e1b\u0e23\u0e30\u0e40\u0e20\u0e17\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e31\u0e21\u0e1e\u0e31\u0e19\u0e18\u0e4c\u0e43\u0e2b\u0e21\u0e48"
+		},
+		"interests": {
+			"All": "\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e19\u0e43\u0e08\u0e17\u0e31\u0e49\u0e07\u0e2b\u0e21\u0e14",
+			"Title": "\u0e01\u0e23\u0e2d\u0e07\u0e15\u0e32\u0e21\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e19\u0e43\u0e08",
+			"Filter": "\u0e41\u0e2a\u0e14\u0e07\u0e43\u0e2b\u0e49\u0e04\u0e19\u0e2a\u0e19\u0e43\u0e08 . ."
+		},
+		"Keywords": "\u0e0a\u0e38\u0e21\u0e0a\u0e19\u0e04\u0e19 {{1}} \u0e04\u0e19"
+	},
+	"communities": {
+		"Title": "\u0e0a\u0e38\u0e21\u0e0a\u0e19",
+		"NewCommunity": "\u0e0a\u0e38\u0e21\u0e0a\u0e19\u0e43\u0e2b\u0e21\u0e48",
+		"FindCommunityByName": "\u0e04\u0e49\u0e19\u0e2b\u0e32\u0e0a\u0e38\u0e21\u0e0a\u0e19\u0e15\u0e32\u0e21\u0e0a\u0e37\u0e48\u0e2d",
+		"Description": "{{1}} \u0e0a\u0e38\u0e21\u0e0a\u0e19"
+	},
+	"community": {
+		"Title": "{{1}} \u0e0a\u0e38\u0e21\u0e0a\u0e19",
+		"Roles": "\u0e1a\u0e17\u0e1a\u0e32\u0e17",
+		"AllRoles": "\u0e17\u0e38\u0e01\u0e1a\u0e17\u0e1a\u0e32\u0e17",
+		"YouDontHavePermission": "\u0e04\u0e38\u0e13\u0e44\u0e21\u0e48\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e2d\u0e19\u0e38\u0e0d\u0e32\u0e15\u0e43\u0e2b\u0e49\u0e17\u0e33\u0e40\u0e0a\u0e48\u0e19\u0e19\u0e35\u0e49",
+		"usernamePlaceholder": "\u0e15\u0e31\u0e49\u0e07\u0e0a\u0e37\u0e48\u0e2d\u0e0a\u0e38\u0e21\u0e0a\u0e19",
+		"NotEnoughCredits": "\u0e04\u0e38\u0e13\u0e21\u0e35\u0e40\u0e04\u0e23\u0e14\u0e34\u0e15\u0e44\u0e21\u0e48\u0e40\u0e1e\u0e35\u0e22\u0e07\u0e1e\u0e2d\u0e17\u0e35\u0e48\u0e08\u0e30\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e0a\u0e38\u0e21\u0e0a\u0e19 \u0e15\u0e49\u0e2d\u0e07\u0e01\u0e32\u0e23 {{1}} \u0e04\u0e38\u0e13\u0e21\u0e35 {{2}}"
+	},
+	"event": {
+		"GetDirections": "\u0e02\u0e2d\u0e40\u0e2a\u0e49\u0e19\u0e17\u0e32\u0e07",
+		"WhichMap": "\u0e04\u0e38\u0e13\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e32\u0e23\u0e43\u0e0a\u0e49\u0e41\u0e1c\u0e19\u0e17\u0e35\u0e48\u0e43\u0e14",
+		"JoinEventToChat": "\u0e40\u0e02\u0e49\u0e32\u0e23\u0e48\u0e27\u0e21\u0e01\u0e34\u0e08\u0e01\u0e23\u0e23\u0e21\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e41\u0e0a\u0e17",
+		"promote": {
+			"Title": "\u0e42\u0e1b\u0e23\u0e42\u0e21\u0e17\u0e07\u0e32\u0e19\u0e19\u0e35\u0e49",
+			"Prompt": "\u0e40\u0e25\u0e37\u0e2d\u0e01\u0e15\u0e33\u0e41\u0e2b\u0e19\u0e48\u0e07\u0e17\u0e35\u0e48\u0e04\u0e38\u0e13\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e32\u0e23\u0e42\u0e1b\u0e23\u0e42\u0e21\u0e15\u0e01\u0e34\u0e08\u0e01\u0e23\u0e23\u0e21\u0e19\u0e35\u0e49:"
+		},
+		"Confirmation": "\u0e01\u0e32\u0e23\u0e22\u0e37\u0e19\u0e22\u0e31\u0e19"
+	},
+	"newEvent": {
+		"Title": "\u0e27\u0e32\u0e07\u0e41\u0e1c\u0e19\u0e01\u0e34\u0e08\u0e01\u0e23\u0e23\u0e21\u0e43\u0e2b\u0e21\u0e48"
+	},
+	"interests": {
+		"Title": "\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e19\u0e43\u0e08",
+		"prompt": "\u0e40\u0e25\u0e37\u0e2d\u0e01\u0e1b\u0e23\u0e30\u0e40\u0e20\u0e17\u0e02\u0e2d\u0e07\u0e2a\u0e34\u0e48\u0e07\u0e17\u0e35\u0e48\u0e04\u0e38\u0e13\u0e2d\u0e22\u0e32\u0e01\u0e23\u0e39\u0e49",
+		"explanation": "\u0e22\u0e34\u0e48\u0e07\u0e04\u0e38\u0e13\u0e40\u0e25\u0e37\u0e2d\u0e01\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e19\u0e43\u0e08\u0e21\u0e32\u0e01\u0e40\u0e17\u0e48\u0e32\u0e44\u0e2b\u0e23\u0e48 \u0e04\u0e38\u0e13\u0e01\u0e47\u0e22\u0e34\u0e48\u0e07\u0e21\u0e35\u0e42\u0e2d\u0e01\u0e32\u0e2a\u0e15\u0e34\u0e14\u0e15\u0e48\u0e2d\u0e01\u0e31\u0e1a\u0e04\u0e19\u0e17\u0e35\u0e48\u0e21\u0e35\u0e04\u0e27\u0e32\u0e21\u0e04\u0e34\u0e14\u0e40\u0e2b\u0e21\u0e37\u0e2d\u0e19\u0e46 \u0e01\u0e31\u0e19\u0e21\u0e32\u0e01\u0e02\u0e36\u0e49\u0e19\u0e40\u0e17\u0e48\u0e32\u0e19\u0e31\u0e49\u0e19",
+		"filter": "\u0e2a\u0e34\u0e48\u0e07\u0e17\u0e35\u0e48\u0e04\u0e38\u0e13\u0e21\u0e35\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e19\u0e43\u0e08\u0e21\u0e35\u0e2d\u0e30\u0e44\u0e23\u0e1a\u0e49\u0e32\u0e07?",
+		"Profile": "\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e19\u0e43\u0e08\u0e23\u0e48\u0e27\u0e21\u0e01\u0e31\u0e19\u0e08\u0e30\u0e16\u0e39\u0e01\u0e40\u0e19\u0e49\u0e19 \u0e2b\u0e32\u0e01\u0e04\u0e38\u0e13\u0e21\u0e35\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e19\u0e43\u0e08\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e19\u0e49\u0e2d\u0e22\u0e2b\u0e19\u0e36\u0e48\u0e07\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e14\u0e49\u0e32\u0e19\u0e25\u0e48\u0e32\u0e07\u0e19\u0e35\u0e49 \u0e04\u0e38\u0e13\u0e2a\u0e32\u0e21\u0e32\u0e23\u0e16\u0e40\u0e1e\u0e34\u0e48\u0e21 {{clickOrTap}} \u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e19\u0e43\u0e08\u0e44\u0e14\u0e49"
+	},
+	"credits": {
+		"Title": "\u0e40\u0e04\u0e23\u0e14\u0e34\u0e15",
+		"EarnCredits": "\u0e23\u0e31\u0e1a {{1}} \u0e40\u0e04\u0e23\u0e14\u0e34\u0e15\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e1a\u0e38\u0e04\u0e04\u0e25\u0e43\u0e2b\u0e21\u0e48\u0e17\u0e38\u0e01\u0e04\u0e19\u0e17\u0e35\u0e48\u0e04\u0e38\u0e13\u0e40\u0e0a\u0e34\u0e0d\u0e17\u0e35\u0e48\u0e40\u0e02\u0e49\u0e32\u0e23\u0e48\u0e27\u0e21\u0e41\u0e2d\u0e1b",
+		"YouHave": "\u0e04\u0e38\u0e13\u0e21\u0e35 {{1}} \u0e2b\u0e19\u0e48\u0e27\u0e22\u0e01\u0e34\u0e15"
+	},
+	"onboarding": {
+		"Tap": "\u0e41\u0e15\u0e30",
+		"Click": "\u0e04\u0e25\u0e34\u0e01",
+		"Yes": "\u0e43\u0e0a\u0e48",
+		"No": "\u0e44\u0e21\u0e48",
+		"Skip": "\u0e2b\u0e23\u0e37\u0e2d\u0e02\u0e49\u0e32\u0e21\u0e2a\u0e34\u0e48\u0e07\u0e19\u0e35\u0e49",
+		"name": {
+			"Preface": "\u0e22\u0e34\u0e19\u0e14\u0e35\u0e15\u0e49\u0e2d\u0e19\u0e23\u0e31\u0e1a\u0e2a\u0e39\u0e48",
+			"Placeholder": "\u0e43\u0e2a\u0e48\u0e0a\u0e37\u0e48\u0e2d\u0e40\u0e15\u0e47\u0e21\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13",
+			"GetStarted": "\u0e40\u0e23\u0e34\u0e48\u0e21",
+			"AsGuest": "\u0e04\u0e38\u0e13\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e40\u0e0a\u0e34\u0e0d\u0e40\u0e1b\u0e47\u0e19\u0e41\u0e02\u0e01\u0e23\u0e31\u0e1a\u0e40\u0e0a\u0e34\u0e0d",
+			"AsMember": "\u0e04\u0e38\u0e13\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e40\u0e0a\u0e34\u0e0d\u0e43\u0e2b\u0e49\u0e40\u0e1b\u0e47\u0e19\u0e2a\u0e21\u0e32\u0e0a\u0e34\u0e01",
+			"AsAdmin": "\u0e04\u0e38\u0e13\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e40\u0e0a\u0e34\u0e0d\u0e40\u0e1b\u0e47\u0e19\u0e1c\u0e39\u0e49\u0e14\u0e39\u0e41\u0e25\u0e23\u0e30\u0e1a\u0e1a",
+			"AsOwner": "\u0e04\u0e38\u0e13\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e40\u0e0a\u0e34\u0e0d\u0e43\u0e2b\u0e49\u0e40\u0e1b\u0e47\u0e19\u0e40\u0e08\u0e49\u0e32\u0e02\u0e2d\u0e07",
+			"TooShort": "\u0e0a\u0e37\u0e48\u0e2d\u0e40\u0e15\u0e47\u0e21\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13\u0e15\u0e49\u0e2d\u0e07\u0e44\u0e21\u0e48\u0e2a\u0e31\u0e49\u0e19\u0e02\u0e19\u0e32\u0e14\u0e19\u0e31\u0e49\u0e19",
+			"SetAsYourFullName": "\u0e15\u0e31\u0e49\u0e07 {{1}} \u0e40\u0e1b\u0e47\u0e19\u0e0a\u0e37\u0e48\u0e2d\u0e40\u0e15\u0e47\u0e21\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13?"
+		},
+		"icon": {
+			"KeepDefault": "\u0e2b\u0e23\u0e37\u0e2d\u0e40\u0e01\u0e47\u0e1a\u0e20\u0e32\u0e1e\u0e19\u0e35\u0e49\u0e44\u0e27\u0e49",
+			"SetYourPhoto": "{{ClickOrTap}} \u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e15\u0e31\u0e49\u0e07\u0e04\u0e48\u0e32\u0e23\u0e39\u0e1b\u0e20\u0e32\u0e1e\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13:",
+			"ClickOnYourFace": "{{ClickOrTap}} \u0e1a\u0e19\u0e43\u0e1a\u0e2b\u0e19\u0e49\u0e32\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13"
+		},
+		"interests": {
+			"GetStarted": "\u21e9 \u0e40\u0e23\u0e34\u0e48\u0e21\u0e15\u0e49\u0e19",
+			"NextCategory": "\u2193 \u0e16\u0e31\u0e14\u0e44\u0e1b",
+			"Continue": "\u0e14\u0e33\u0e40\u0e19\u0e34\u0e19\u0e01\u0e32\u0e23\u0e15\u0e48\u0e2d",
+			"Instructions": "\u0e43\u0e19\u0e41\u0e15\u0e48\u0e25\u0e30\u0e2b\u0e21\u0e27\u0e14\u0e2b\u0e21\u0e39\u0e48 {{1}} \u0e16\u0e31\u0e14\u0e44\u0e1b<br> {{2}} \u0e01\u0e34\u0e08\u0e01\u0e23\u0e23\u0e21\u0e17\u0e31\u0e49\u0e07\u0e2b\u0e21\u0e14\u0e17\u0e35\u0e48\u0e04\u0e38\u0e13\u0e2a\u0e19\u0e43\u0e08<br> \u0e19\u0e35\u0e48\u0e04\u0e37\u0e2d\u0e27\u0e34\u0e18\u0e35\u0e17\u0e35\u0e48\u0e04\u0e38\u0e13\u0e40\u0e0a\u0e37\u0e48\u0e2d\u0e21\u0e15\u0e48\u0e2d\u0e01\u0e31\u0e1a\u0e04\u0e19\u0e2d\u0e37\u0e48\u0e19\u0e46 \u0e43\u0e19\u0e0a\u0e38\u0e21\u0e0a\u0e19"
+		},
+		"profile": {
+			"Profile": "\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25\u0e1e\u0e37\u0e49\u0e19\u0e10\u0e32\u0e19\u0e17\u0e35\u0e48\u0e08\u0e30\u0e0a\u0e48\u0e27\u0e22\u0e08\u0e31\u0e1a\u0e04\u0e39\u0e48\u0e04\u0e38\u0e13\u0e01\u0e31\u0e1a\u0e1a\u0e38\u0e04\u0e04\u0e25\u0e2d\u0e37\u0e48\u0e19:",
+			"Birthday": "\u0e01\u0e23\u0e38\u0e13\u0e32\u0e43\u0e2a\u0e48\u0e27\u0e31\u0e19\u0e40\u0e01\u0e34\u0e14\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13:",
+			"Placeholder": "\u0e04\u0e38\u0e13\u0e40\u0e1b\u0e47\u0e19\u0e43\u0e04\u0e23\u0e41\u0e25\u0e30\u0e17\u0e33\u0e2d\u0e30\u0e44\u0e23 \u0e1a\u0e2d\u0e01\u0e04\u0e19\u0e2d\u0e37\u0e48\u0e19\u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e01\u0e31\u0e1a\u0e15\u0e31\u0e27\u0e04\u0e38\u0e13\u0e17\u0e35\u0e48\u0e19\u0e48\u0e32\u0e2a\u0e19\u0e43\u0e08\u0e2b\u0e23\u0e37\u0e2d\u0e44\u0e21\u0e48\u0e40\u0e2b\u0e21\u0e37\u0e2d\u0e19\u0e43\u0e04\u0e23",
+			"Required": "\u0e43\u0e19\u0e01\u0e32\u0e23\u0e14\u0e33\u0e40\u0e19\u0e34\u0e19\u0e01\u0e32\u0e23\u0e15\u0e48\u0e2d \u0e43\u0e2b\u0e49\u0e40\u0e02\u0e35\u0e22\u0e19\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e19\u0e49\u0e2d\u0e22\u0e2a\u0e2d\u0e07\u0e2a\u0e32\u0e21\u0e1a\u0e23\u0e23\u0e17\u0e31\u0e14\u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e01\u0e31\u0e1a\u0e15\u0e31\u0e27\u0e04\u0e38\u0e13",
+			"Month": "\u0e40\u0e14\u0e37\u0e2d\u0e19",
+			"Day": "\u0e27\u0e31\u0e19",
+			"Year": "\u0e1b\u0e35",
+			"Gender": "\u0e40\u0e1e\u0e28",
+			"Male": "\u0e0a\u0e32\u0e22",
+			"Female": "\u0e2b\u0e0d\u0e34\u0e07",
+			"Other": "\u0e2d\u0e37\u0e48\u0e19",
+			"Height": "\u0e2a\u0e48\u0e27\u0e19\u0e2a\u0e39\u0e07",
+			"Affiliation": "\u0e2a\u0e31\u0e07\u0e01\u0e31\u0e14",
+			"Dating": "\u0e2d\u0e2d\u0e01\u0e40\u0e14\u0e17",
+			"Interested": "\u0e2a\u0e19\u0e43\u0e08",
+			"NotInterested": "\u0e44\u0e21\u0e48\u0e2a\u0e19\u0e43\u0e08",
+			"MatchmakerOnly": "\u0e04\u0e19\u0e08\u0e31\u0e1a\u0e04\u0e39\u0e48\u0e40\u0e17\u0e48\u0e32\u0e19\u0e31\u0e49\u0e19"
+		},
+		"location": {
+			"NoOneElse": "\u0e08\u0e30\u0e44\u0e21\u0e48\u0e21\u0e35\u0e43\u0e04\u0e23\u0e40\u0e2b\u0e47\u0e19\u0e21\u0e31\u0e19\u0e2d\u0e35\u0e01",
+			"SetMyLocation": "\u0e15\u0e31\u0e49\u0e07\u0e04\u0e48\u0e32\u0e15\u0e33\u0e41\u0e2b\u0e19\u0e48\u0e07\u0e02\u0e2d\u0e07\u0e09\u0e31\u0e19"
+		},
+		"pile": {
+			"DialogTitle": "\u0e1c\u0e39\u0e49\u0e17\u0e35\u0e48\u0e21\u0e35\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e19\u0e43\u0e08\u0e23\u0e48\u0e27\u0e21\u0e01\u0e31\u0e19"
+		},
+		"Done": "\u0e40\u0e2a\u0e23\u0e47\u0e08\u0e41\u0e25\u0e49\u0e27",
+		"relationships": {
+			"title": "\u0e40\u0e1e\u0e34\u0e48\u0e21 {{userName}} \u0e25\u0e07\u0e43\u0e19\u0e2a\u0e21\u0e38\u0e14\u0e42\u0e17\u0e23\u0e28\u0e31\u0e1e\u0e17\u0e4c",
+			"welcome": "\u0e22\u0e34\u0e19\u0e14\u0e35\u0e15\u0e49\u0e2d\u0e19\u0e23\u0e31\u0e1a {{user}}",
+			"invitedByUser": "\u0e40\u0e0a\u0e34\u0e0d\u0e04\u0e38\u0e13.",
+			"addToPhonebook": "\u0e1a\u0e31\u0e19\u0e17\u0e36\u0e01\u0e44\u0e1b\u0e22\u0e31\u0e07\u0e23\u0e32\u0e22\u0e0a\u0e37\u0e48\u0e2d\u0e43\u0e19\u0e42\u0e17\u0e23\u0e28\u0e31\u0e1e\u0e17\u0e4c\u0e02\u0e2d\u0e07\u0e09\u0e31\u0e19",
+			"iosInstructions": "\u0e40\u0e25\u0e37\u0e48\u0e2d\u0e19\u0e25\u0e07\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e1c\u0e39\u0e49\u0e15\u0e34\u0e14\u0e15\u0e48\u0e2d\u0e43\u0e2b\u0e21\u0e48",
+			"androidInstructions": "\u0e04\u0e38\u0e13\u0e04\u0e27\u0e23\u0e40\u0e1b\u0e34\u0e14\u0e44\u0e1f\u0e25\u0e4c vCard \u0e19\u0e35\u0e49\u0e2b\u0e25\u0e31\u0e07\u0e08\u0e32\u0e01\u0e14\u0e32\u0e27\u0e19\u0e4c\u0e42\u0e2b\u0e25\u0e14",
+			"explanation": "\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e31\u0e21\u0e1e\u0e31\u0e19\u0e18\u0e4c\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13\u0e04\u0e37\u0e2d\u0e2d\u0e30\u0e44\u0e23?"
+		},
+		"Title": "\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25\u0e1e\u0e37\u0e49\u0e19\u0e10\u0e32\u0e19",
+		"Prompt": "\u0e44\u0e21\u0e48\u0e01\u0e35\u0e48\u0e02\u0e31\u0e49\u0e19\u0e15\u0e2d\u0e19\u0e43\u0e19\u0e01\u0e32\u0e23\u0e15\u0e31\u0e49\u0e07\u0e04\u0e48\u0e32\u0e1a\u0e31\u0e0d\u0e0a\u0e35\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13"
+	},
+	"profile": {
+		"Title": "\u0e1b\u0e23\u0e30\u0e27\u0e31\u0e15\u0e34\u0e42\u0e14\u0e22\u0e22\u0e48\u0e2d",
+		"Male": "\u0e0a\u0e32\u0e22",
+		"Female": "\u0e2b\u0e0d\u0e34\u0e07",
+		"Other": "\u0e2d\u0e37\u0e48\u0e19",
+		"dating": {
+			"Interested": "\u0e2a\u0e19\u0e43\u0e08",
+			"NotInterested": "\u0e44\u0e21\u0e48\u0e2a\u0e19\u0e43\u0e08",
+			"MatchmakerOnly": "\u0e04\u0e19\u0e08\u0e31\u0e1a\u0e04\u0e39\u0e48\u0e40\u0e17\u0e48\u0e32\u0e19\u0e31\u0e49\u0e19"
+		},
+		"StartConversation": "\u0e40\u0e23\u0e34\u0e48\u0e21\u0e01\u0e32\u0e23\u0e2a\u0e19\u0e17\u0e19\u0e32",
+		"blockUser": "\u0e1a\u0e25\u0e47\u0e2d\u0e01\u0e1c\u0e39\u0e49\u0e43\u0e0a\u0e49\u0e23\u0e32\u0e22\u0e19\u0e35\u0e49",
+		"blockUserAlert": "\u0e04\u0e38\u0e13\u0e08\u0e30\u0e44\u0e21\u0e48\u0e40\u0e2b\u0e47\u0e19\u0e02\u0e49\u0e2d\u0e04\u0e27\u0e32\u0e21\u0e08\u0e32\u0e01\u0e1c\u0e39\u0e49\u0e43\u0e0a\u0e49\u0e23\u0e32\u0e22\u0e19\u0e35\u0e49\u0e2d\u0e35\u0e01\u0e08\u0e19\u0e01\u0e27\u0e48\u0e32\u0e04\u0e38\u0e13\u0e08\u0e30\u0e40\u0e25\u0e34\u0e01\u0e1a\u0e25\u0e47\u0e2d\u0e01",
+		"unblockUser": "\u0e40\u0e25\u0e34\u0e01\u0e1a\u0e25\u0e47\u0e2d\u0e01\u0e1c\u0e39\u0e49\u0e43\u0e0a\u0e49\u0e23\u0e32\u0e22\u0e19\u0e35\u0e49",
+		"addToContacts": "\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e43\u0e19\u0e23\u0e32\u0e22\u0e0a\u0e37\u0e48\u0e2d\u0e15\u0e34\u0e14\u0e15\u0e48\u0e2d",
+		"manageLabels": "\u0e08\u0e31\u0e14\u0e01\u0e32\u0e23\u0e1b\u0e49\u0e32\u0e22\u0e01\u0e33\u0e01\u0e31\u0e1a",
+		"inviteUsers": "\u0e40\u0e0a\u0e34\u0e0d\u0e1c\u0e39\u0e49\u0e43\u0e0a\u0e49",
+		"selectRole": "\u0e40\u0e25\u0e37\u0e2d\u0e01\u0e1a\u0e17\u0e1a\u0e32\u0e17",
+		"inviteSuccess": "\u0e40\u0e0a\u0e34\u0e0d\u0e1c\u0e39\u0e49\u0e43\u0e0a\u0e49\u0e40\u0e1b\u0e47\u0e19 {{label}} \u0e2a\u0e33\u0e40\u0e23\u0e47\u0e08\u0e41\u0e25\u0e49\u0e27",
+		"invite": "\u0e40\u0e0a\u0e34\u0e0d\u0e0a\u0e27\u0e19",
+		"relationships": "\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e31\u0e21\u0e1e\u0e31\u0e19\u0e18\u0e4c",
+		"newRole": "\u0e1a\u0e17\u0e1a\u0e32\u0e17\u0e43\u0e2b\u0e21\u0e48",
+		"about": "\u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e01\u0e31\u0e1a",
+		"people": "\u0e1b\u0e23\u0e30\u0e0a\u0e32\u0e01\u0e23",
+		"info": "\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+		"interests": "\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e19\u0e43\u0e08",
+		"chat": "\u0e41\u0e0a\u0e17",
+		"locations": "\u0e2a\u0e16\u0e32\u0e19\u0e17\u0e35\u0e48",
+		"ManageRoles": "\u0e08\u0e31\u0e14\u0e01\u0e32\u0e23\u0e1a\u0e17\u0e1a\u0e32\u0e17",
+		"aboutPlaceholder": "\u0e04\u0e38\u0e13\u0e40\u0e1b\u0e47\u0e19\u0e43\u0e04\u0e23\u0e41\u0e25\u0e30\u0e17\u0e33\u0e2d\u0e30\u0e44\u0e23 \u0e1a\u0e2d\u0e01\u0e04\u0e19\u0e2d\u0e37\u0e48\u0e19\u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e01\u0e31\u0e1a\u0e15\u0e31\u0e27\u0e04\u0e38\u0e13\u0e17\u0e35\u0e48\u0e19\u0e48\u0e32\u0e2a\u0e19\u0e43\u0e08\u0e2b\u0e23\u0e37\u0e2d\u0e44\u0e21\u0e48\u0e40\u0e2b\u0e21\u0e37\u0e2d\u0e19\u0e43\u0e04\u0e23",
+		"explanation": "\u0e42\u0e1b\u0e23\u0e44\u0e1f\u0e25\u0e4c\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13\u0e08\u0e30\u0e0a\u0e48\u0e27\u0e22\u0e43\u0e2b\u0e49\u0e08\u0e31\u0e1a\u0e04\u0e39\u0e48\u0e04\u0e38\u0e13\u0e01\u0e31\u0e1a\u0e04\u0e19\u0e2d\u0e37\u0e48\u0e19\u0e46 \u0e44\u0e14\u0e49\u0e14\u0e35\u0e22\u0e34\u0e48\u0e07\u0e02\u0e36\u0e49\u0e19\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e01\u0e34\u0e08\u0e01\u0e23\u0e23\u0e21\u0e01\u0e25\u0e38\u0e48\u0e21<br> \u0e01\u0e23\u0e38\u0e13\u0e32\u0e43\u0e2a\u0e48\u0e27\u0e31\u0e19\u0e40\u0e01\u0e34\u0e14\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13",
+		"chats": {
+			"placeholder": "\u0e1e\u0e39\u0e14\u0e2d\u0e30\u0e44\u0e23\u0e2a\u0e31\u0e01\u0e2d\u0e22\u0e48\u0e32\u0e07"
+		},
+		"LogOut": "\u0e2d\u0e2d\u0e01\u0e08\u0e32\u0e01\u0e23\u0e30\u0e1a\u0e1a",
+		"MyLinks": "\u0e25\u0e34\u0e07\u0e04\u0e4c\u0e02\u0e2d\u0e07\u0e09\u0e31\u0e19",
+		"MyJobs": "\u0e07\u0e32\u0e19\u0e02\u0e2d\u0e07\u0e09\u0e31\u0e19",
+		"MySocial": "MySocial",
+		"MyEducation": "\u0e01\u0e32\u0e23\u0e28\u0e36\u0e01\u0e29\u0e32\u0e02\u0e2d\u0e07\u0e09\u0e31\u0e19",
+		"JobsPlaceholder": "\u0e1e\u0e34\u0e21\u0e1e\u0e4c\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25\u0e07\u0e32\u0e19\u0e17\u0e35\u0e48\u0e19\u0e35\u0e48",
+		"EducationPlaceholder": "\u0e1e\u0e34\u0e21\u0e1e\u0e4c\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25\u0e01\u0e32\u0e23\u0e28\u0e36\u0e01\u0e29\u0e32\u0e17\u0e35\u0e48\u0e19\u0e35\u0e48",
+		"ManageNotifications": "\u0e08\u0e31\u0e14\u0e01\u0e32\u0e23\u0e01\u0e32\u0e23\u0e41\u0e08\u0e49\u0e07\u0e40\u0e15\u0e37\u0e2d\u0e19",
+		"YourPreferredLanguage": "\u0e20\u0e32\u0e29\u0e32\u0e17\u0e35\u0e48\u0e04\u0e38\u0e13\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e32\u0e23",
+		"SendCrypto": "\u0e08\u0e48\u0e32\u0e22",
+		"Block": "\u0e1b\u0e34\u0e14\u0e01\u0e31\u0e49\u0e19",
+		"Unblock": "\u0e40\u0e25\u0e34\u0e01\u0e1a\u0e25\u0e47\u0e2d\u0e01",
+		"Email": "\u0e2d\u0e35\u0e40\u0e21\u0e25",
+		"Avoid": "\u0e2b\u0e25\u0e35\u0e01\u0e40\u0e25\u0e35\u0e48\u0e22\u0e07",
+		"CreatePrivateChat": "\u0e43\u0e0a\u0e49\u0e40\u0e04\u0e23\u0e14\u0e34\u0e15 {{credits}} \u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e15\u0e34\u0e14\u0e15\u0e48\u0e2d\u0e44\u0e2b\u0e21",
+		"RolesInCommunity": "\u0e1a\u0e17\u0e1a\u0e32\u0e17\u0e43\u0e19\u0e0a\u0e38\u0e21\u0e0a\u0e19",
+		"PersonalChatWith": "\u0e41\u0e0a\u0e17\u0e2a\u0e48\u0e27\u0e19\u0e15\u0e31\u0e27\u0e01\u0e31\u0e1a {{name}}",
+		"SendCryptoTo": "\u0e2a\u0e48\u0e07 crypto \u0e44\u0e1b\u0e17\u0e35\u0e48 {{name}}",
+		"SendEmailTo": "\u0e2a\u0e48\u0e07\u0e2d\u0e35\u0e40\u0e21\u0e25\u0e44\u0e1b\u0e17\u0e35\u0e48 {{name}}",
+		"SendSMSTo": "\u0e2a\u0e48\u0e07 SMS \u0e44\u0e1b\u0e17\u0e35\u0e48 {{name}}",
+		"BlockThisUser": "\u0e1a\u0e25\u0e47\u0e2d\u0e01\u0e1c\u0e39\u0e49\u0e43\u0e0a\u0e49\u0e23\u0e32\u0e22\u0e19\u0e35\u0e49",
+		"UnblockThisUser": "\u0e40\u0e25\u0e34\u0e01\u0e1a\u0e25\u0e47\u0e2d\u0e01\u0e1c\u0e39\u0e49\u0e43\u0e0a\u0e49\u0e23\u0e32\u0e22\u0e19\u0e35\u0e49",
+		"YouCantChatWithYourself": "\u0e04\u0e38\u0e13\u0e44\u0e21\u0e48\u0e2a\u0e32\u0e21\u0e32\u0e23\u0e16\u0e2a\u0e19\u0e17\u0e19\u0e32\u0e01\u0e31\u0e1a\u0e15\u0e31\u0e27\u0e40\u0e2d\u0e07\u0e44\u0e14\u0e49",
+		"blockUserAlertTitle": "\u0e1a\u0e25\u0e47\u0e2d\u0e01 {{displayName}}",
+		"sections": {
+			"education": "\u0e01\u0e32\u0e23\u0e28\u0e36\u0e01\u0e29\u0e32",
+			"greeting": "\u0e01\u0e32\u0e23\u0e17\u0e31\u0e01\u0e17\u0e32\u0e22",
+			"jobs": "\u0e07\u0e32\u0e19",
+			"links": "\u0e25\u0e34\u0e07\u0e04\u0e4c",
+			"language": "\u0e20\u0e32\u0e29\u0e32",
+			"roles": "\u0e1a\u0e17\u0e1a\u0e32\u0e17",
+			"personal": "\u0e2a\u0e48\u0e27\u0e19\u0e15\u0e31\u0e27",
+			"social": "\u0e17\u0e32\u0e07\u0e2a\u0e31\u0e07\u0e04\u0e21"
+		},
+		"Roles": "\u0e1a\u0e17\u0e1a\u0e32\u0e17",
+		"SendPaymentTo": "\u0e42\u0e2d\u0e19\u0e40\u0e07\u0e34\u0e19\u0e21\u0e32\u0e17\u0e35\u0e48 {{name}}"
+	},
+	"myqr": {
+		"Title": "QR \u0e02\u0e2d\u0e07\u0e09\u0e31\u0e19"
+	},
+	"composer": {
+		"createCommunity": "\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e0a\u0e38\u0e21\u0e0a\u0e19",
+		"inviteAdmin": "\u0e40\u0e0a\u0e34\u0e0d\u0e41\u0e2d\u0e14\u0e21\u0e34\u0e19",
+		"inviteMember": "\u0e40\u0e0a\u0e34\u0e0d\u0e2a\u0e21\u0e32\u0e0a\u0e34\u0e01",
+		"newCommunityTitle": "\u0e0a\u0e37\u0e48\u0e2d\u0e0a\u0e38\u0e21\u0e0a\u0e19",
+		"setCommunityTitle": "\u0e0a\u0e37\u0e48\u0e2d\u0e0a\u0e38\u0e21\u0e0a\u0e19",
+		"creditsChargeRequest": "\u0e04\u0e38\u0e13\u0e15\u0e01\u0e25\u0e07\u0e17\u0e35\u0e48\u0e08\u0e30\u0e43\u0e0a\u0e49\u0e40\u0e04\u0e23\u0e14\u0e34\u0e15\u0e21\u0e39\u0e25\u0e04\u0e48\u0e32 {{price}} \u0e2b\u0e19\u0e48\u0e27\u0e22\u0e2b\u0e23\u0e37\u0e2d\u0e44\u0e21\u0e48",
+		"yes": "\u0e43\u0e0a\u0e48",
+		"no": "\u0e44\u0e21\u0e48"
+	},
+	"notifications": {
+		"WelcomePleaseVerifyEmail": "\u0e22\u0e34\u0e19\u0e14\u0e35\u0e15\u0e49\u0e2d\u0e19\u0e23\u0e31\u0e1a! \u0e42\u0e1b\u0e23\u0e14\u0e22\u0e37\u0e19\u0e22\u0e31\u0e19\u0e17\u0e35\u0e48\u0e2d\u0e22\u0e39\u0e48\u0e2d\u0e35\u0e40\u0e21\u0e25\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13",
+		"WelcomeVerifyEmail": "\u0e22\u0e34\u0e19\u0e14\u0e35\u0e15\u0e49\u0e2d\u0e19\u0e23\u0e31\u0e1a! \u0e22\u0e37\u0e19\u0e22\u0e31\u0e19\u0e17\u0e35\u0e48\u0e2d\u0e22\u0e39\u0e48\u0e2d\u0e35\u0e40\u0e21\u0e25\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13.",
+		"ForgetPass": "\u0e40\u0e2e\u0e49 \u0e04\u0e38\u0e13\u0e25\u0e37\u0e21\u0e02\u0e49\u0e2d\u0e04\u0e27\u0e32\u0e21\u0e23\u0e2b\u0e31\u0e2a\u0e1c\u0e48\u0e32\u0e19\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13\u0e2b\u0e23\u0e37\u0e2d\u0e44\u0e21\u0e48",
+		"ManageEmailSubscriptions": "\u0e08\u0e31\u0e14\u0e01\u0e32\u0e23\u0e01\u0e32\u0e23\u0e2a\u0e21\u0e31\u0e04\u0e23\u0e23\u0e31\u0e1a\u0e2d\u0e35\u0e40\u0e21\u0e25\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13",
+		"IfUnsubscribe": "\u0e2b\u0e32\u0e01\u0e04\u0e38\u0e13\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e32\u0e23\u0e22\u0e01\u0e40\u0e25\u0e34\u0e01\u0e01\u0e32\u0e23\u0e2a\u0e21\u0e31\u0e04\u0e23"
+	},
+	"speak": {
+		"onboarding": {
+			"name": {
+				"Welcome": "\u0e22\u0e34\u0e19\u0e14\u0e35\u0e15\u0e49\u0e2d\u0e19\u0e23\u0e31\u0e1a\u0e2a\u0e39\u0e48 {{CommunityName}} \u0e41\u0e2d\u0e1b\u0e19\u0e35\u0e49\u0e08\u0e30\u0e0a\u0e48\u0e27\u0e22\u0e43\u0e2b\u0e49\u0e04\u0e38\u0e13\u0e15\u0e34\u0e14\u0e15\u0e48\u0e2d\u0e01\u0e31\u0e1a\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e19\u0e46 \u0e04\u0e49\u0e19\u0e1e\u0e1a\u0e1c\u0e39\u0e49\u0e04\u0e19\u0e43\u0e2b\u0e21\u0e48\u0e46 \u0e17\u0e35\u0e48\u0e21\u0e35\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e19\u0e43\u0e08\u0e40\u0e2b\u0e21\u0e37\u0e2d\u0e19\u0e01\u0e31\u0e19 \u0e41\u0e25\u0e30\u0e2d\u0e37\u0e48\u0e19\u0e46 \u0e2d\u0e35\u0e01\u0e21\u0e32\u0e01\u0e21\u0e32\u0e22 \u0e21\u0e32\u0e40\u0e23\u0e34\u0e48\u0e21\u0e01\u0e31\u0e19\u0e40\u0e25\u0e22!"
+			},
+			"icon": {
+				"Commentary": "\u0e15\u0e31\u0e49\u0e07\u0e04\u0e48\u0e32\u0e23\u0e39\u0e1b\u0e20\u0e32\u0e1e\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13 \u0e19\u0e35\u0e48\u0e04\u0e37\u0e2d\u0e27\u0e34\u0e18\u0e35\u0e17\u0e35\u0e48\u0e1c\u0e39\u0e49\u0e04\u0e19\u0e08\u0e30\u0e40\u0e2b\u0e47\u0e19\u0e04\u0e38\u0e13\u0e1a\u0e19\u0e40\u0e27\u0e47\u0e1a\u0e44\u0e0b\u0e15\u0e4c"
+			},
+			"interests": {
+				"Commentary": "\u0e22\u0e34\u0e48\u0e07\u0e04\u0e38\u0e13\u0e40\u0e25\u0e37\u0e2d\u0e01\u0e23\u0e32\u0e22\u0e01\u0e32\u0e23\u0e21\u0e32\u0e01\u0e40\u0e17\u0e48\u0e32\u0e44\u0e2b\u0e23\u0e48 \u0e04\u0e38\u0e13\u0e01\u0e47\u0e22\u0e34\u0e48\u0e07\u0e44\u0e14\u0e49\u0e1e\u0e1a\u0e1b\u0e30\u0e1c\u0e39\u0e49\u0e04\u0e19\u0e21\u0e32\u0e01\u0e02\u0e36\u0e49\u0e19\u0e40\u0e17\u0e48\u0e32\u0e19\u0e31\u0e49\u0e19",
+				"Notifications": "\u0e04\u0e38\u0e13\u0e15\u0e49\u0e2d\u0e07\u0e2d\u0e19\u0e38\u0e0d\u0e32\u0e15\u0e01\u0e32\u0e23\u0e41\u0e08\u0e49\u0e07\u0e40\u0e15\u0e37\u0e2d\u0e19"
+			}
+		},
+		"subscriptions": {
+			"confirm": "\u0e01\u0e32\u0e23\u0e41\u0e08\u0e49\u0e07\u0e40\u0e15\u0e37\u0e2d\u0e19\u0e0a\u0e48\u0e27\u0e22\u0e43\u0e2b\u0e49\u0e04\u0e38\u0e13\u0e17\u0e23\u0e32\u0e1a\u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e01\u0e31\u0e1a\u0e2a\u0e34\u0e48\u0e07\u0e17\u0e35\u0e48\u0e04\u0e38\u0e13\u0e2a\u0e19\u0e43\u0e08 \u0e40\u0e0a\u0e48\u0e19 \u0e40\u0e21\u0e37\u0e48\u0e2d\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e19\u0e40\u0e02\u0e49\u0e32\u0e23\u0e48\u0e27\u0e21\u0e41\u0e2d\u0e1b \u0e2b\u0e23\u0e37\u0e2d\u0e2a\u0e48\u0e07\u0e02\u0e49\u0e2d\u0e04\u0e27\u0e32\u0e21\u0e16\u0e36\u0e07\u0e04\u0e38\u0e13"
+		},
+		"invite": "{{Q.words.TapOrClick}} \u0e17\u0e35\u0e48\u0e19\u0e35\u0e48\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e14\u0e39\u0e27\u0e48\u0e32\u0e04\u0e38\u0e13\u0e08\u0e30\u0e41\u0e0a\u0e23\u0e4c\u0e2a\u0e34\u0e48\u0e07\u0e19\u0e35\u0e49\u0e01\u0e31\u0e1a\u0e04\u0e19\u0e2d\u0e37\u0e48\u0e19\u0e46 \u0e44\u0e14\u0e49\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e44\u0e23"
+	},
+	"payment": {
+		"onContribute": "\u0e02\u0e2d\u0e02\u0e2d\u0e1a\u0e04\u0e38\u0e13! \u0e01\u0e32\u0e23\u0e0a\u0e33\u0e23\u0e30\u0e40\u0e07\u0e34\u0e19\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13\u0e1c\u0e48\u0e32\u0e19\u0e44\u0e1b\u0e41\u0e25\u0e49\u0e27 \u0e04\u0e38\u0e13\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e32\u0e23\u0e40\u0e0a\u0e34\u0e0d\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e19\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13\u0e40\u0e02\u0e49\u0e32\u0e23\u0e48\u0e27\u0e21\u0e2b\u0e23\u0e37\u0e2d\u0e44\u0e21\u0e48?",
+		"ConnectAccount": "\u0e40\u0e0a\u0e37\u0e48\u0e2d\u0e21\u0e15\u0e48\u0e2d\u0e1a\u0e31\u0e0d\u0e0a\u0e35"
+	},
+	"featureboard": {
+		"Text_1": "\u0e43\u0e2b\u0e49\u0e44\u0e14\u0e49\u0e22\u0e34\u0e19\u0e40\u0e2a\u0e35\u0e22\u0e07\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13! \u0e04\u0e38\u0e13\u0e40\u0e2b\u0e47\u0e19\u0e14\u0e49\u0e27\u0e22\u0e2b\u0e23\u0e37\u0e2d\u0e44\u0e21\u0e48\u0e27\u0e48\u0e32\u0e40\u0e23\u0e32\u0e04\u0e27\u0e23\u0e1e\u0e31\u0e12\u0e19\u0e32\u0e04\u0e38\u0e13\u0e25\u0e31\u0e01\u0e29\u0e13\u0e30\u0e2b\u0e23\u0e37\u0e2d\u0e08\u0e38\u0e14\u0e1a\u0e01\u0e1e\u0e23\u0e48\u0e2d\u0e07 \u0e04\u0e25\u0e34\u0e01\u0e17\u0e35\u0e48\u0e1b\u0e38\u0e48\u0e21\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e2a\u0e19\u0e31\u0e1a\u0e2a\u0e19\u0e38\u0e19\u0e21\u0e31\u0e19",
+		"Text_2": "\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e32\u0e23\u0e43\u0e2b\u0e49\u0e40\u0e23\u0e32\u0e1e\u0e31\u0e12\u0e19\u0e32\u0e04\u0e38\u0e13\u0e25\u0e31\u0e01\u0e29\u0e13\u0e30\u0e43\u0e2b\u0e21\u0e48\u0e2b\u0e23\u0e37\u0e2d\u0e44\u0e21\u0e48? \u0e2d\u0e18\u0e34\u0e1a\u0e32\u0e22\u0e44\u0e27\u0e49\u0e14\u0e49\u0e32\u0e19\u0e25\u0e48\u0e32\u0e07",
+		"Text_3": "\u0e17\u0e38\u0e01\u0e2a\u0e31\u0e1b\u0e14\u0e32\u0e2b\u0e4c\u0e40\u0e23\u0e32\u0e40\u0e23\u0e34\u0e48\u0e21\u0e1e\u0e31\u0e12\u0e19\u0e32\u0e04\u0e38\u0e13\u0e25\u0e31\u0e01\u0e29\u0e13\u0e30\u0e17\u0e35\u0e48\u0e0a\u0e38\u0e21\u0e0a\u0e19\u0e23\u0e49\u0e2d\u0e07\u0e02\u0e2d\u0e21\u0e32\u0e01\u0e17\u0e35\u0e48\u0e2a\u0e38\u0e14 \u0e40\u0e07\u0e34\u0e19\u0e17\u0e31\u0e49\u0e07\u0e2b\u0e21\u0e14\u0e17\u0e35\u0e48\u0e1a\u0e23\u0e34\u0e08\u0e32\u0e04\u0e44\u0e1b\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e08\u0e38\u0e14\u0e1b\u0e23\u0e30\u0e2a\u0e07\u0e04\u0e4c\u0e19\u0e31\u0e49\u0e19 \u0e17\u0e33\u0e43\u0e2b\u0e49\u0e40\u0e23\u0e32\u0e1e\u0e31\u0e12\u0e19\u0e32\u0e41\u0e2d\u0e1b\u0e43\u0e2b\u0e49\u0e14\u0e35\u0e02\u0e36\u0e49\u0e19\u0e44\u0e14\u0e49",
+		"Text_4": "\u0e40\u0e07\u0e34\u0e19\u0e17\u0e35\u0e48\u0e1a\u0e23\u0e34\u0e08\u0e32\u0e04\u0e17\u0e31\u0e49\u0e07\u0e2b\u0e21\u0e14\u0e08\u0e30\u0e43\u0e0a\u0e49\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e0a\u0e48\u0e27\u0e22\u0e08\u0e48\u0e32\u0e22\u0e04\u0e48\u0e32\u0e43\u0e0a\u0e49\u0e08\u0e48\u0e32\u0e22\u0e43\u0e19\u0e01\u0e32\u0e23\u0e1e\u0e31\u0e12\u0e19\u0e32\u0e02\u0e2d\u0e07\u0e40\u0e23\u0e32",
+		"Text_5": "\u0e04\u0e38\u0e13\u0e21\u0e35\u0e41\u0e19\u0e27\u0e04\u0e34\u0e14\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e04\u0e38\u0e13\u0e25\u0e31\u0e01\u0e29\u0e13\u0e30\u0e2b\u0e23\u0e37\u0e2d\u0e01\u0e32\u0e23\u0e41\u0e01\u0e49\u0e44\u0e02\u0e02\u0e49\u0e2d\u0e1a\u0e01\u0e1e\u0e23\u0e48\u0e2d\u0e07\u0e17\u0e35\u0e48\u0e04\u0e38\u0e13\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e32\u0e23\u0e43\u0e2b\u0e49\u0e40\u0e23\u0e32\u0e17\u0e33 \u0e41\u0e15\u0e48\u0e22\u0e31\u0e07\u0e44\u0e21\u0e48\u0e40\u0e2b\u0e47\u0e19\u0e04\u0e19\u0e2d\u0e37\u0e48\u0e19\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e2b\u0e23\u0e37\u0e2d\u0e44\u0e21\u0e48? \u0e2d\u0e18\u0e34\u0e1a\u0e32\u0e22\u0e14\u0e49\u0e32\u0e19\u0e25\u0e48\u0e32\u0e07:",
+		"Options": [
+			{
+				"text": "\u0e01\u0e32\u0e23\u0e1b\u0e23\u0e30\u0e0a\u0e38\u0e21\u0e17\u0e32\u0e07\u0e27\u0e34\u0e14\u0e35\u0e42\u0e2d\u0e41\u0e1a\u0e1a\u0e40\u0e23\u0e35\u0e22\u0e25\u0e44\u0e17\u0e21\u0e4c\u0e21\u0e39\u0e25\u0e04\u0e48\u0e32 $400"
+			},
+			{
+				"defaultAmount": "10",
+				"text": "\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25\u0e01\u0e32\u0e23\u0e25\u0e07\u0e17\u0e30\u0e40\u0e1a\u0e35\u0e22\u0e19\u0e2b\u0e25\u0e31\u0e01\u0e43\u0e19\u0e1e\u0e37\u0e49\u0e19\u0e17\u0e35\u0e48 $200"
+			},
+			{
+				"text": "$130 \u0e40\u0e23\u0e35\u0e22\u0e01\u0e14\u0e39\u0e41\u0e25\u0e30\u0e41\u0e1a\u0e48\u0e07\u0e1b\u0e31\u0e19\u0e21\u0e2a\u0e4c\u0e08\u0e33\u0e19\u0e27\u0e19 {{1}} \u0e23\u0e32\u0e22\u0e01\u0e32\u0e23",
+				"defaultAmount": "10"
+			},
+			{
+				"text": "$80 \u0e08\u0e31\u0e14\u0e01\u0e32\u0e23\u0e0a\u0e38\u0e21\u0e0a\u0e19\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13\u0e40\u0e2d\u0e07",
+				"defaultAmount": "10"
+			},
+			{
+				"text": "$30 \u0e41\u0e01\u0e49\u0e44\u0e02\u0e1a\u0e31\u0e4a\u0e01\u0e01\u0e32\u0e23\u0e2a\u0e19\u0e17\u0e19\u0e32",
+				"defaultAmount": "10"
+			}
+		],
+		"RequestNewFeature": "\u0e02\u0e2d\u0e04\u0e38\u0e13\u0e2a\u0e21\u0e1a\u0e31\u0e15\u0e34\u0e43\u0e2b\u0e21\u0e48/\u0e41\u0e01\u0e49\u0e44\u0e02\u0e02\u0e49\u0e2d\u0e1a\u0e01\u0e1e\u0e23\u0e48\u0e2d\u0e07",
+		"FeaturePlaceholder": "\u0e2a\u0e23\u0e38\u0e1b\u0e04\u0e38\u0e13\u0e2a\u0e21\u0e1a\u0e31\u0e15\u0e34\u0e42\u0e14\u0e22\u0e22\u0e48\u0e2d",
+		"FeatureDescription": "\u0e2d\u0e18\u0e34\u0e1a\u0e32\u0e22\u0e27\u0e48\u0e32\u0e04\u0e19\u0e2d\u0e37\u0e48\u0e19\u0e2a\u0e32\u0e21\u0e32\u0e23\u0e16\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e08\u0e38\u0e14\u0e1a\u0e01\u0e1e\u0e23\u0e48\u0e2d\u0e07\u0e17\u0e35\u0e48\u0e04\u0e38\u0e13\u0e40\u0e2b\u0e47\u0e19\u0e44\u0e14\u0e49\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e44\u0e23 \u0e2b\u0e23\u0e37\u0e2d\u0e2d\u0e18\u0e34\u0e1a\u0e32\u0e22\u0e23\u0e32\u0e22\u0e25\u0e30\u0e40\u0e2d\u0e35\u0e22\u0e14\u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e01\u0e31\u0e1a\u0e04\u0e38\u0e13\u0e25\u0e31\u0e01\u0e29\u0e13\u0e30\u0e17\u0e35\u0e48\u0e04\u0e38\u0e13\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e32\u0e23\u0e2a\u0e23\u0e49\u0e32\u0e07",
+		"AddYourRequest": "\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e04\u0e33\u0e02\u0e2d\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13",
+		"NewFeature": "\u0e04\u0e38\u0e13\u0e25\u0e31\u0e01\u0e29\u0e13\u0e30\u0e43\u0e2b\u0e21\u0e48"
+	},
+	"contribute": {
+		"ContributeExplanation": "\u0e0a\u0e48\u0e27\u0e22\u0e2a\u0e19\u0e31\u0e1a\u0e2a\u0e19\u0e38\u0e19\u0e01\u0e32\u0e23\u0e1e\u0e31\u0e12\u0e19\u0e32\u0e41\u0e2d\u0e1b {{communityName}} \u0e2d\u0e22\u0e48\u0e32\u0e07\u0e15\u0e48\u0e2d\u0e40\u0e19\u0e37\u0e48\u0e2d\u0e07 \u0e01\u0e32\u0e23\u0e2a\u0e19\u0e31\u0e1a\u0e2a\u0e19\u0e38\u0e19\u0e17\u0e31\u0e49\u0e07\u0e2b\u0e21\u0e14\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13\u0e0a\u0e48\u0e27\u0e22\u0e41\u0e01\u0e49\u0e44\u0e02\u0e08\u0e38\u0e14\u0e1a\u0e01\u0e1e\u0e23\u0e48\u0e2d\u0e07\u0e41\u0e25\u0e30\u0e1e\u0e31\u0e12\u0e19\u0e32\u0e04\u0e38\u0e13\u0e2a\u0e21\u0e1a\u0e31\u0e15\u0e34\u0e43\u0e2b\u0e21\u0e48\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e0a\u0e48\u0e27\u0e22\u0e43\u0e2b\u0e49\u0e0a\u0e38\u0e21\u0e0a\u0e19\u0e2d\u0e2d\u0e19\u0e44\u0e25\u0e19\u0e4c\u0e40\u0e15\u0e34\u0e1a\u0e42\u0e15!",
+		"ReasonToContribute": "\u0e41\u0e2d\u0e1b\u0e19\u0e35\u0e49\u0e14\u0e39\u0e41\u0e25\u0e42\u0e14\u0e22\u0e1c\u0e39\u0e49\u0e2a\u0e19\u0e31\u0e1a\u0e2a\u0e19\u0e38\u0e19 {{communityName}} \u0e0a\u0e48\u0e27\u0e22\u0e2a\u0e19\u0e31\u0e1a\u0e2a\u0e19\u0e38\u0e19\u0e41\u0e2d\u0e1e\u0e19\u0e35\u0e49\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e43\u0e2b\u0e49\u0e40\u0e23\u0e32\u0e2a\u0e32\u0e21\u0e32\u0e23\u0e16\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e04\u0e27\u0e32\u0e21\u0e41\u0e15\u0e01\u0e15\u0e48\u0e32\u0e07\u0e43\u0e19\u0e0a\u0e35\u0e27\u0e34\u0e15\u0e02\u0e2d\u0e07\u0e1c\u0e39\u0e49\u0e04\u0e19!"
+	},
+	"assetshistory": {
+		"Title": "\u0e1b\u0e23\u0e30\u0e27\u0e31\u0e15\u0e34\u0e17\u0e23\u0e31\u0e1e\u0e22\u0e4c\u0e2a\u0e34\u0e19",
+		"Charges": "\u0e04\u0e48\u0e32\u0e43\u0e0a\u0e49\u0e08\u0e48\u0e32\u0e22",
+		"Credits": "\u0e40\u0e04\u0e23\u0e14\u0e34\u0e15"
+	},
+	"accounts": {
+		"remove": {
+			"title": "\u0e1b\u0e34\u0e14\u0e1a\u0e31\u0e0d\u0e0a\u0e35",
+			"content": "\u0e04\u0e38\u0e13\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e32\u0e23\u0e25\u0e1a\u0e1a\u0e31\u0e0d\u0e0a\u0e35\u0e19\u0e35\u0e49\u0e2b\u0e23\u0e37\u0e2d\u0e44\u0e21\u0e48?",
+			"ok": "\u0e43\u0e0a\u0e48",
+			"cancel": "\u0e44\u0e21\u0e48"
+		}
+	},
+	"import": {
+		"fileNotFound": "\u0e02\u0e2d\u0e2d\u0e20\u0e31\u0e22 \u0e44\u0e21\u0e48\u0e1e\u0e1a\u0e44\u0e1f\u0e25\u0e4c CSV",
+		"fileEmpty": "\u0e02\u0e2d\u0e2d\u0e20\u0e31\u0e22 \u0e44\u0e1f\u0e25\u0e4c CSV \u0e27\u0e48\u0e32\u0e07\u0e40\u0e1b\u0e25\u0e48\u0e32",
+		"userIdNotFound": "\u0e21\u0e35\u0e1c\u0e39\u0e49\u0e43\u0e0a\u0e49\u0e41\u0e15\u0e48 ID \u0e27\u0e48\u0e32\u0e07\u0e40\u0e1b\u0e25\u0e48\u0e32",
+		"errorLine": "\u0e1a\u0e23\u0e23\u0e17\u0e31\u0e14 {{1}}",
+		"fieldNotFound": "\u0e44\u0e21\u0e48\u0e1e\u0e1a\u0e0a\u0e48\u0e2d\u0e07\u0e17\u0e35\u0e48\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e23\u0e2d\u0e01 &quot;{{1}}&quot;",
+		"taskStreamInvalid": "\u0e2a\u0e15\u0e23\u0e35\u0e21\u0e07\u0e32\u0e19\u0e44\u0e21\u0e48\u0e16\u0e39\u0e01\u0e15\u0e49\u0e2d\u0e07",
+		"instructionsEmpty": "\u0e04\u0e33\u0e41\u0e19\u0e30\u0e19\u0e33\u0e2a\u0e15\u0e23\u0e35\u0e21\u0e07\u0e32\u0e19\u0e27\u0e48\u0e32\u0e07\u0e40\u0e1b\u0e25\u0e48\u0e32",
+		"complete": "\u0e2a\u0e21\u0e1a\u0e39\u0e23\u0e13\u0e4c",
+		"activateUsers": "\u0e2a\u0e48\u0e07\u0e02\u0e49\u0e2d\u0e04\u0e27\u0e32\u0e21\u0e01\u0e32\u0e23\u0e40\u0e1b\u0e34\u0e14\u0e43\u0e0a\u0e49\u0e07\u0e32\u0e19\u0e44\u0e1b\u0e22\u0e31\u0e07\u0e1c\u0e39\u0e49\u0e43\u0e0a\u0e49?",
+		"importProgress": "\u0e04\u0e27\u0e32\u0e21\u0e04\u0e37\u0e1a\u0e2b\u0e19\u0e49\u0e32",
+		"joinEventLabel": "\u0e40\u0e02\u0e49\u0e32\u0e23\u0e48\u0e27\u0e21\u0e1c\u0e39\u0e49\u0e43\u0e0a\u0e49\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e2a\u0e38\u0e48\u0e21\u0e01\u0e34\u0e08\u0e01\u0e23\u0e23\u0e21",
+		"importOptions": "\u0e15\u0e31\u0e27\u0e40\u0e25\u0e37\u0e2d\u0e01",
+		"sampleCSV": "\u0e14\u0e32\u0e27\u0e19\u0e4c\u0e42\u0e2b\u0e25\u0e14\u0e15\u0e31\u0e27\u0e2d\u0e22\u0e48\u0e32\u0e07 CSV",
+		"fileLabel": "\u0e2d\u0e31\u0e1b\u0e42\u0e2b\u0e25\u0e14\u0e2a\u0e40\u0e1b\u0e23\u0e14\u0e0a\u0e35\u0e15:",
+		"errorsTitle": "\u0e40\u0e01\u0e34\u0e14\u0e02\u0e49\u0e2d\u0e1c\u0e34\u0e14\u0e1e\u0e25\u0e32\u0e14",
+		"communityUsers": "\u0e19\u0e35\u0e48\u0e04\u0e37\u0e2d\u0e23\u0e32\u0e22\u0e0a\u0e37\u0e48\u0e2d\u0e0a\u0e38\u0e21\u0e0a\u0e19",
+		"setAsConversation": "\u0e04\u0e2d\u0e25\u0e31\u0e21\u0e19\u0e4c URL \u0e40\u0e1b\u0e47\u0e19\u0e01\u0e32\u0e23\u0e2a\u0e19\u0e17\u0e19\u0e32",
+		"toMainCommunityToo": "\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e1c\u0e39\u0e49\u0e43\u0e0a\u0e49\u0e43\u0e19\u0e0a\u0e38\u0e21\u0e0a\u0e19\u0e2b\u0e25\u0e31\u0e01\u0e14\u0e49\u0e27\u0e22",
+		"willImportedTo": "\u0e1c\u0e39\u0e49\u0e43\u0e0a\u0e49\u0e08\u0e30\u0e16\u0e39\u0e01\u0e19\u0e33\u0e40\u0e02\u0e49\u0e32\u0e2a\u0e39\u0e48\u0e0a\u0e38\u0e21\u0e0a\u0e19",
+		"ChooseFile": "\u0e40\u0e25\u0e37\u0e2d\u0e01\u0e44\u0e1f\u0e25\u0e4c"
+	},
+	"services": {
+		"Title": "\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23",
+		"filterByTitle": "\u0e04\u0e49\u0e19\u0e2b\u0e32\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e15\u0e32\u0e21\u0e0a\u0e37\u0e48\u0e2d\u0e40\u0e23\u0e37\u0e48\u0e2d\u0e07",
+		"New": "+ \u0e40\u0e23\u0e34\u0e48\u0e21\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e43\u0e2b\u0e21\u0e48",
+		"NewService": "\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e43\u0e2b\u0e21\u0e48",
+		"NewAvailability": "\u0e04\u0e27\u0e32\u0e21\u0e1e\u0e23\u0e49\u0e2d\u0e21\u0e43\u0e0a\u0e49\u0e07\u0e32\u0e19\u0e43\u0e2b\u0e21\u0e48",
+		"filterServices": "\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e01\u0e23\u0e2d\u0e07",
+		"NoneYet": "\u0e22\u0e31\u0e07\u0e44\u0e21\u0e48\u0e21\u0e35\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e40\u0e01\u0e34\u0e14\u0e02\u0e36\u0e49\u0e19<br> \u0e43\u0e19\u0e0a\u0e48\u0e27\u0e07\u0e40\u0e27\u0e25\u0e32\u0e40\u0e2b\u0e25\u0e48\u0e32\u0e19\u0e35\u0e49",
+		"AllAuthors": "\u0e1c\u0e39\u0e49\u0e40\u0e02\u0e35\u0e22\u0e19\u0e17\u0e31\u0e49\u0e07\u0e2b\u0e21\u0e14",
+		"AllDays": "\u0e17\u0e38\u0e01\u0e27\u0e31\u0e19",
+		"AllLocations": "\u0e2a\u0e16\u0e32\u0e19\u0e17\u0e35\u0e48\u0e17\u0e31\u0e49\u0e07\u0e2b\u0e21\u0e14",
+		"MakeReservation": "\u0e17\u0e33\u0e01\u0e32\u0e23\u0e08\u0e2d\u0e07",
+		"CancelReservation": "\u0e22\u0e01\u0e40\u0e25\u0e34\u0e01\u0e01\u0e32\u0e23\u0e08\u0e2d\u0e07",
+		"UpdateReservation": "\u0e2d\u0e31\u0e1e\u0e40\u0e14\u0e17\u0e01\u0e32\u0e23\u0e08\u0e2d\u0e07",
+		"AreYouSure": "\u0e04\u0e38\u0e13\u0e41\u0e19\u0e48\u0e43\u0e08\u0e44\u0e2b\u0e21?",
+		"YouWillRefunded": "\u0e04\u0e38\u0e13\u0e08\u0e30\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e04\u0e37\u0e19\u0e43\u0e19\u0e23\u0e39\u0e1b\u0e02\u0e2d\u0e07\u0e40\u0e04\u0e23\u0e14\u0e34\u0e15\u0e17\u0e35\u0e48\u0e04\u0e38\u0e13\u0e2a\u0e32\u0e21\u0e32\u0e23\u0e16\u0e19\u0e33\u0e44\u0e1b\u0e43\u0e0a\u0e49\u0e01\u0e31\u0e1a\u0e2a\u0e34\u0e48\u0e07\u0e2d\u0e37\u0e48\u0e19\u0e46 \u0e43\u0e19\u0e41\u0e2d\u0e1b\u0e44\u0e14\u0e49",
+		"AllInterests": "\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e19\u0e43\u0e08\u0e17\u0e31\u0e49\u0e07\u0e2b\u0e21\u0e14",
+		"FilterbyInterest": "\u0e01\u0e23\u0e2d\u0e07\u0e15\u0e32\u0e21\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e19\u0e43\u0e08",
+		"FilterByDate": "\u0e01\u0e23\u0e2d\u0e07\u0e15\u0e32\u0e21\u0e27\u0e31\u0e19\u0e17\u0e35\u0e48",
+		"ShowActivities": "\u0e41\u0e2a\u0e14\u0e07\u0e01\u0e34\u0e08\u0e01\u0e23\u0e23\u0e21\u0e17\u0e35\u0e48\u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e02\u0e49\u0e2d\u0e07\u0e01\u0e31\u0e1a...",
+		"newServices": "\u0e04\u0e38\u0e13\u0e21\u0e35\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e43\u0e2b\u0e21\u0e48 {{1}} \u0e23\u0e32\u0e22\u0e01\u0e32\u0e23",
+		"SelectLocation": "\u0e40\u0e25\u0e37\u0e2d\u0e01\u0e15\u0e33\u0e41\u0e2b\u0e19\u0e48\u0e07",
+		"FilterLocationsPlaceHolder": "\u0e01\u0e23\u0e2d\u0e07\u0e2a\u0e16\u0e32\u0e19\u0e17\u0e35\u0e48\u0e14\u0e49\u0e27\u0e22 ...",
+		"Description": "{{1}} \u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23",
+		"Keywords": "{{1}} \u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23"
+	},
+	"welcome": {
+		"Title": "{{appName}}: \u0e22\u0e34\u0e19\u0e14\u0e35\u0e15\u0e49\u0e2d\u0e19\u0e23\u0e31\u0e1a",
+		"GetStarted": "\u0e40\u0e23\u0e34\u0e48\u0e21",
+		"gallery": {
+			"Connect": "\u0e40\u0e0a\u0e37\u0e48\u0e2d\u0e21\u0e15\u0e48\u0e2d",
+			"Organize": "\u0e08\u0e31\u0e14\u0e23\u0e30\u0e40\u0e1a\u0e35\u0e22\u0e1a",
+			"Travel": "\u0e01\u0e32\u0e23\u0e17\u0e48\u0e2d\u0e07\u0e40\u0e17\u0e35\u0e48\u0e22\u0e27",
+			"Share": "\u0e41\u0e1a\u0e48\u0e07\u0e1b\u0e31\u0e19"
+		}
+	}
 }

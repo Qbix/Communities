@@ -16,10 +16,6 @@
 	<?php echo Q::interpolate($resend['Reset'], array(Q_Html::a($link, 'here'))) ?>
 </p>
 
-<p>
-	<?php echo Q::interpolate($SeeYou, array(Q_Html::a(Q_Html::themedUrl(''), $communityName))) ?>
-</p>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

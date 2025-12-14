@@ -1,24 +1,24 @@
 {
-    "activation": {
-        "Thanks": "Fáilte go {{1}}.",
-        "ClickHere": "Cliceáil anseo chun do chuntas a ghníomhachtú: {{1}}"
-    },
-    "addMobile": {
-        "ClickHere": "Cliceáil anseo chun d&#39;uimhir ghutháin phóca a fhíorú: {{1}}"
-    },
-    "SeeHistory": "Féach ar an stair íocaíochta le haghaidh {{1}}",
-    "charge": {
-        "HasBeenCharged": "Tá {{1}} gearrtha {{2}} as {{3}} ag {{4}}"
-    },
-    "charged": {
-        "HavePaid": "Hey {{1}}, níl anseo ach dearbhú tapa gur éirigh leat {{2}} a íoc le {{3}} as {{4}}"
-    },
-    "subscription": {
-        "YouHaveStarted": "Tá tú sínithe le {{2}} le {{3}} ag {{4}} le {{5}} mí.",
-        "HasStarted": "Tá {{1}} sínithe le {{2}} le {{3}} ag {{4}} le {{5}} mí."
-    },
-    "resend": {
-        "DidYouWant": "An raibh tú ag iarraidh do phasfhrása a athshocrú in {{1}}?",
-        "ClickHere": "Ansin cliceáil anseo: {{1}}"
-    }
+	"activation": {
+		"Thanks": "F\u00e1ilte go {{1}}.",
+		"ClickHere": "Clice\u00e1il anseo chun do chuntas a ghn\u00edomhacht\u00fa: {{1}}"
+	},
+	"addMobile": {
+		"ClickHere": "Clice\u00e1il anseo chun d&#39;uimhir ghuth\u00e1in ph\u00f3ca a fh\u00edor\u00fa: {{1}}"
+	},
+	"SeeHistory": "F\u00e9ach ar an stair \u00edoca\u00edochta le haghaidh {{1}}",
+	"charge": {
+		"HasBeenCharged": "T\u00e1 {{1}} gearrtha {{2}} as {{3}} ag {{4}}"
+	},
+	"charged": {
+		"HavePaid": "Hey {{1}}, n\u00edl anseo ach dearbh\u00fa tapa gur \u00e9irigh leat {{2}} a \u00edoc le {{3}} as {{4}}"
+	},
+	"subscription": {
+		"YouHaveStarted": "T\u00e1 t\u00fa s\u00ednithe le {{2}} le {{3}} ag {{4}} le {{5}} m\u00ed.",
+		"HasStarted": "T\u00e1 {{1}} s\u00ednithe le {{2}} le {{3}} ag {{4}} le {{5}} m\u00ed."
+	},
+	"resend": {
+		"DidYouWant": "An raibh t\u00fa ag iarraidh do phasfhr\u00e1sa a athshocr\u00fa in {{1}}?",
+		"ClickHere": "Ansin clice\u00e1il anseo: {{1}}"
+	}
 }

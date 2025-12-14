@@ -1,12 +1,12 @@
 {
-    "flyer1": {
-        "YouAreInvited": "Tu es invité",
-        "Member": "Membre de {{title}}",
-        "Explanation": "{{1}} a le plaisir d&#39;annoncer le lancement de son nouveau site Web. Il comprend une liste croissante de fonctionnalités, telles que :",
-        "Public": "Informations publiques sur {{1}}",
-        "Private": "Un compte utilisateur privé pour chaque membre",
-        "Notifications": "En saisissant votre adresse e-mail ou votre numéro de téléphone portable, vous pourrez recevoir des notifications importantes par e-mail ou SMS.",
-        "GetStarted": "Pour commencer, dans votre navigateur Web, veuillez saisir <em>soigneusement<\/em> :<br>",
-        "IssuedToYou": "Ce code vous est spécifiquement délivré."
-    }
+	"flyer1": {
+		"YouAreInvited": "Tu es invit\u00e9",
+		"Member": "Membre de {{title}}",
+		"Explanation": "{{1}} a le plaisir d&#39;annoncer le lancement de son nouveau site Web. Il comprend une liste croissante de fonctionnalit\u00e9s, telles que\u00a0:",
+		"Public": "Informations publiques sur {{1}}",
+		"Private": "Un compte utilisateur priv\u00e9 pour chaque membre",
+		"Notifications": "En saisissant votre adresse e-mail ou votre num\u00e9ro de t\u00e9l\u00e9phone portable, vous pourrez recevoir des notifications importantes par e-mail ou SMS.",
+		"GetStarted": "Pour commencer, dans votre navigateur Web, veuillez saisir <em>soigneusement</em>\u00a0:<br>",
+		"IssuedToYou": "Ce code vous est sp\u00e9cifiquement d\u00e9livr\u00e9."
+	}
 }

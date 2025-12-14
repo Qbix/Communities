@@ -1,12 +1,12 @@
 {
-    "flyer1": {
-        "YouAreInvited": "Jesteś zaproszony",
-        "Member": "Członek w {{title}}",
-        "Explanation": "{{1}} z przyjemnością informuje o uruchomieniu naszej nowej witryny internetowej. Zawiera rosnącą listę funkcji, takich jak:",
-        "Public": "Informacje publiczne o {{1}}",
-        "Private": "Prywatne konto użytkownika dla każdego członka",
-        "Notifications": "Wpisując swój adres e-mail lub numer telefonu komórkowego, będziesz mógł otrzymywać ważne powiadomienia na e-mail lub sms.",
-        "GetStarted": "Aby rozpocząć, w swojej przeglądarce internetowej <em>ostrożnie<\/em> wpisz:<br>",
-        "IssuedToYou": "Ten kod jest specjalnie dla Ciebie wydany."
-    }
+	"flyer1": {
+		"YouAreInvited": "Jeste\u015b zaproszony",
+		"Member": "Cz\u0142onek w {{title}}",
+		"Explanation": "{{1}} z przyjemno\u015bci\u0105 informuje o uruchomieniu naszej nowej witryny internetowej. Zawiera rosn\u0105c\u0105 list\u0119 funkcji, takich jak:",
+		"Public": "Informacje publiczne o {{1}}",
+		"Private": "Prywatne konto u\u017cytkownika dla ka\u017cdego cz\u0142onka",
+		"Notifications": "Wpisuj\u0105c sw\u00f3j adres e-mail lub numer telefonu kom\u00f3rkowego, b\u0119dziesz m\u00f3g\u0142 otrzymywa\u0107 wa\u017cne powiadomienia na e-mail lub sms.",
+		"GetStarted": "Aby rozpocz\u0105\u0107, w swojej przegl\u0105darce internetowej <em>ostro\u017cnie</em> wpisz:<br>",
+		"IssuedToYou": "Ten kod jest specjalnie dla Ciebie wydany."
+	}
 }
