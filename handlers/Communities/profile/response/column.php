@@ -125,20 +125,20 @@ function Communities_profile_response_column ($params = array()) {
 	}
 
 	// collect social
-	$xids = array();
-	$supportedSocials = Q_Config::get("Communities", "profile", "social", array());
-	$supportedSocials = array_keys($supportedSocials);
-	foreach ($supportedSocials as $item) {
-		$value = Q::event('Communities/profileInfo/response/social', array(
-			'social' => $item,
-			'userId' => $userId,
-			'action' => 'get'
-		));
+	// $xids = array();
+	// $supportedSocials = Q_Config::get("Communities", "profile", "social", array());
+	// $supportedSocials = array_keys($supportedSocials);
+	// foreach ($supportedSocials as $item) {
+	// 	$value = Q::event('Communities/profileInfo/response/social', array(
+	// 		'social' => $item,
+	// 		'userId' => $userId,
+	// 		'action' => 'get'
+	// 	));
 
-		if (!empty($value)) {
-			$xids[$item] = $value;
-		}
-	}
+	// 	if (!empty($value)) {
+	// 		$xids[$item] = $value;
+	// 	}
+	// }
 
 	// collect links
 	$links = Streams::related(null, $userId, "Streams/user/urls",true, array(

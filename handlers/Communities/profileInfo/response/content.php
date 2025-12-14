@@ -61,21 +61,21 @@ function Communities_profileInfo_response_content($params)
 	));
 
 	// collect social
-	$app = Q::app();
-	$xids = $user->getAllXids();
-	$supportedSocials = Q_Config::get("Communities", "profile", "social", array());
-	$supportedSocials = array_keys($supportedSocials);
-	foreach ($supportedSocials as $item) {
-		$value = Q::event('Communities/profileInfo/response/social', array(
-			'social' => $item,
-			'userId' => $userId,
-			'action' => 'get'
-		));
+	// $app = Q::app();
+	// $xids = $user->getAllXids();
+	// $supportedSocials = Q_Config::get("Communities", "profile", "social", array());
+	// $supportedSocials = array_keys($supportedSocials);
+	// foreach ($supportedSocials as $item) {
+	// 	$value = Q::event('Communities/profileInfo/response/social', array(
+	// 		'social' => $item,
+	// 		'userId' => $userId,
+	// 		'action' => 'get'
+	// 	));
 
-		if (!empty($value)) {
-			$xids[$item.'/'.$app] = $value;
-		}
-	}
+	// 	if (!empty($value)) {
+	// 		$xids[$item.'/'.$app] = $value;
+	// 	}
+	// }
 
 	// community permissions
 	$communityId = Q::ifset($_SESSION, 'Communities', 'manage', 'communityId', $communityId);
