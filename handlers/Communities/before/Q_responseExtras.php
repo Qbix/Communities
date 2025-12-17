@@ -57,7 +57,11 @@ function Communities_before_Q_responseExtras()
 	if ($currentCommunity) {
 		Q_Response::addHtmlCssClass('Community_'.$currentCommunity);
 	}
-	if (!Q_Config::get('Communities', 'web', 'noAnimationFX', Q_Request::isAndroidStock())) {
+
+    if (Q_Request::isAndroidStock()) {
+        Q_Config::set('Communities', 'web', 'noAnimationFX', true);
+    }
+	if (!Q_Config::get('Communities', 'web', 'noAnimationFX', false)) {
 		Q_Response::addHtmlCssClass('Q_dialogs_animationFX Q_columns_animationFX');
 	}
 	if (Q_Config::get('Communities', 'web', 'dontHideUntilLoaded', false)) {
