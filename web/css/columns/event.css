@@ -36,6 +36,11 @@
 }
 .Communities_event_myqr .Q_dialog_content {
 	padding: 20px;
+	text-align: center;
+	font-size: 30px;
+}
+.Communities_event_myqr .Q_dialog_content .Users_avatar_tool {
+	margin-bottom: 10px;
 }
 .Communities_event_myqr .Q_dialog_content canvas,
 .Communities_event_myqr .Q_dialog_content img {

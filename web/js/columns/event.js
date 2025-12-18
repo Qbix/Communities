@@ -10,6 +10,7 @@ Q.exports(function (options, index, div, data) {
 	var text;
 	var $column = $(div);
 	var columnTool = Q.Tool.from($column.closest(".Q_tool.Q_columns_tool"), "Q/columns");
+	var userId = Q.Users.loggedInUserId();
 
 	Q.addStylesheet('{{Communities}}/css/columns/event.css', { slotName: 'Communities' });
 
@@ -91,7 +92,7 @@ Q.exports(function (options, index, div, data) {
 				return;
 			}
 
-			eventTool.getGoing(Q.Users.loggedInUserId(), function (going) {
+			eventTool.getGoing(userId, function (going) {
 				if (going !== 'yes') {
 					return;
 				}
@@ -188,7 +189,7 @@ Q.exports(function (options, index, div, data) {
 								correctLevel : QRCode.CorrectLevel.H
 							});
 
-							$(".Q_dialog_content", dialog).html($qrIcon);
+							$(".Q_dialog_content", dialog).empty().append($('<div>').tool('Users/avatar', {userId, icon:'1000'})).append($qrIcon).activate();
 						});
 					}, 500);
 				},

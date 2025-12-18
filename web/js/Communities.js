@@ -575,7 +575,7 @@ var Communities = Q.Communities = Q.plugins.Communities = {
 					// show users avatar above video element
 					var avatar = $('<div />')
 						.addClass("Q_scanning_avatar")
-						.tool('Users/avatar', {userId: fields.userId});
+						.tool('Users/avatar', {userId: fields.userId, icon: '80'});
 
 					// instascan
 					if (typeof QRScanner === "undefined") {
