@@ -812,7 +812,7 @@ abstract class Communities
 		$communityId = Q::ifset($params, 'communityId', Users::currentCommunityId(true));
 		$experienceId = Q::ifset($params, 'experienceId', Q::ifset($_REQUEST, 'experienceId', 'main'));
 		$categoryStreamName = "Calendars/calendar/".$experienceId;
-		$categoryStream = Streams_Stream::fetchOrCreate(null, $communityId, $categoryStreamName);
+		$categoryStream = Streams_Stream::fetchOrCreate($communityId, $communityId, $categoryStreamName);
 
 		$uri = Q_Dispatcher::uri();
 		$interest = Q::ifset($params, 'interest', Q::ifset($_REQUEST, 'interest', Q::ifset($uri, 'interest', null)));
