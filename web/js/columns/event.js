@@ -226,10 +226,6 @@ Q.exports(function (options, index, div, data) {
 					$this.addClass("Q_working");
 					eventTool.going('yes', function (success) {
 						$this.removeClass('Q_working');
-
-						if (success) {
-							$column.addClass('Communities_event_reserved');
-						}
 					}, {
 						title: $this.text().trim()
 					});
