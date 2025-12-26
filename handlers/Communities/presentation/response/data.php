@@ -37,9 +37,9 @@ function Communities_event_response_data($params) {
 
 		// get info about payment
 		if ($stream->getAttribute('payment')) {
-			$assets_credits = Assets_Credits::checkJoinPaid($userId, $stream);
-			if ($assets_credits) {
-				$payment = array('amount' => $assets_credits->amount);
+			$payments = Assets_Credits::getPaymentsInfo($userId, $stream);
+			if ($payments["conclusion"]["amount"]) {
+				$payment = array('amount' => $payments["conclusion"]["amount"]);
 			} else {
 				$payment = null;
 			}
