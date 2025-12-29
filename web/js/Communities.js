@@ -569,13 +569,18 @@ var Communities = Q.Communities = Q.plugins.Communities = {
 
 				// if user is participating - that's all fine, just exit
 				if (Q.getObject(['slots', 'participated'], result) !== false) {
+					var message = Q.getObject(['slots', 'message'], result);
+					if (message) {
+						Q.alert(message);
+					}
+
 					// stop showing previous avatar
 					$(".Q_scanning_avatar").remove();
 
 					// show users avatar above video element
 					var avatar = $('<div />')
 						.addClass("Q_scanning_avatar")
-						.tool('Users/avatar', {userId: fields.userId, icon: '80'});
+						.tool('Users/avatar', {userId: fields.u, icon: '80'});
 
 					// instascan
 					if (typeof QRScanner === "undefined") {
