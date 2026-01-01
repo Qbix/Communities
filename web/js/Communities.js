@@ -621,6 +621,10 @@ var Communities = Q.Communities = Q.plugins.Communities = {
 					streamName: stream.fields.name
 				})
 			});
+		}, null, {
+			instascan: {
+				mode: "scanQR"
+			}
 		});
 	},
 	pushConversationColumn: function (publisherId, streamName, $trigger, callback) {
