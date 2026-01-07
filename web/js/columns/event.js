@@ -189,7 +189,7 @@ Q.exports(function (options, index, div, data) {
 								correctLevel : QRCode.CorrectLevel.H
 							});
 
-							$(".Q_dialog_content", dialog).empty().append($('<div>').tool('Users/avatar', {userId, icon:'1000'})).append($qrIcon).activate();
+							$(".Q_dialog_content", dialog).empty().append($qrIcon).activate();
 						});
 					}, 500);
 				},
