@@ -23,9 +23,7 @@ function Communities_event_response_data($params) {
 		}
 
         $going = Calendars_Event::getGoing($stream);
-		if ($going === 'yes' || ($going === 'maybe' && Q_Config::get(
-				'Calendars', 'event', 'mode', 'prepayment', false)
-			)) {
+		if ($going !== 'no') {
 			$columnClass[] = 'Communities_event_reserved';
 		}
 	}

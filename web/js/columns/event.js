@@ -47,7 +47,7 @@ Q.exports(function (options, index, div, data) {
 			});
 		}, 'Communities/event/column');
 		eventTool.state.onGoing.set(function (g, stream) {
-			if (g === 'yes' || (g === 'maybe' && this.modePrepayment)) {
+			if (g !== 'no') {
 				// Calendars.Event.addToCalendar(publisherId, eventId);
 				Communities.hints('goingYes', [$column]);
 				$column.addClass('Communities_event_reserved');
@@ -66,15 +66,14 @@ Q.exports(function (options, index, div, data) {
 			});
 		}, 5000);
 
-
 		var publisherId = eventTool.state.publisherId;
 		var streamName = eventTool.state.streamName;
 		var eventId = eventTool.state.streamName.split('/').pop();
+		var paymentType = Q.getObject("type", eventStream.getAttribute('payment'));
 
 		state.onInvoke('presentation').set(Communities.pushPresentationColumn, 'Communities/event/column');
 		state.onInvoke('chat').set(Communities.pushChatColumn, 'Communities/event/column');
 		state.onInvoke('promote').set(Communities.promoteEvent, 'Communities/event/column');
-		state.onInvoke('checkin').set(Communities.scanEventCheckinQRCodes, 'Communities/event/column');
 		state.onInvoke('close').set(Communities.eventClose, 'Communities/event/column');
 
 		state.onInvoke('moreInfo').set(function (stream) {
@@ -178,8 +177,67 @@ Q.exports(function (options, index, div, data) {
 
 						clearInterval(myqrInterval);
 
+						var $content = $(".Q_dialog_content", dialog);
+						paymentType && $content.attr("data-paymentType", paymentType);
+						$content.attr("data-going", $(eventTool.element).attr("data-going"));
+
+						var pipe = new Q.pipe(["paid", "qrIcon"], function (params, subject) {
+							var paid = params.paid[0];
+							var qrIcon = params.qrIcon[0];
+
+							$content.html(qrIcon);
+							var $qrCode = $(".Calendars_event_qrcode", $content);
+							var qrCodePos = $qrCode.position();
+							if (paymentType === 'required' && paid !== 'fully') {
+								var $button = $("<button name='payToAttend' class='Q_button' type='button'>" + eventTool.text.event.tool.PayToAttend + "</button>")
+									.on(Q.Pointer.fastclick, function () {
+										var $this = $(this);
+										$this.addClass("Q_working");
+										eventTool.going("yes", function () {
+											$this.removeClass("Q_working");
+										}, {
+											payToAttend: true
+										});
+									}
+								);
+								var $redCircle = $('<div class="Calendars_event_redCircle">').css({
+										width:  $qrCode.outerWidth()  + 'px',
+										height: $qrCode.outerHeight() + 'px',
+										top: qrCodePos.top,
+										left: qrCodePos.left
+									})
+								eventTool.state.onGoing.set(function (going) {
+									if (going === 'yes') {
+										$button.remove();
+									}
+									$content.attr("data-going", going);
+								});
+								$content.append($redCircle).append($button);
+							}
+						});
+
+						if (paymentType === 'required') {
+							Q.req('Calendars/event', ['paid'], function (err, response) {
+								var r = response && response.errors;
+								var msg = Q.firstErrorMessage(err, r);
+								if (msg) {
+									return;
+								}
+
+								pipe.fill("paid")(response.slots.paid);
+							}, {
+								fields: {
+									publisherId,
+									streamName,
+									userId
+								}
+							});
+						} else {
+							pipe.fill("paid")(null);
+						}
+
 						Q.addScript("{{Q}}/js/qrcode/qrcode.js", function(){
-							var $qrIcon = $("<div></div>");
+							var $qrIcon = $("<div class='Calendars_event_qrcode'></div>");
 							new QRCode($qrIcon[0], {
 								text: state.userInviteUrl,
 								width: size,
@@ -189,7 +247,9 @@ Q.exports(function (options, index, div, data) {
 								correctLevel : QRCode.CorrectLevel.H
 							});
 
-							$(".Q_dialog_content", dialog).empty().append($qrIcon).activate();
+							$content.html($qrIcon);
+
+							pipe.fill("qrIcon")($qrIcon);
 						});
 					}, 500);
 				},
@@ -303,13 +363,7 @@ Q.exports(function (options, index, div, data) {
 
 		// if url contains 'startWebRTC', start chat column
 		if (document.location.href.includes('startWebRTC')) {
-			Streams.get(publisherId, streamName, function (err) {
-				if (err) {
-					return Q.error(Q.firstErrorMessage(err));
-				}
-
-				Communities.pushChatColumn(this, eventTool.element);
-			});
+			Communities.pushChatColumn(eventStream, eventTool.element);
 		}
 	});
 
@@ -318,14 +372,23 @@ Q.exports(function (options, index, div, data) {
 	});
 
 	var eventTool;
+	var eventStream;
 	div.forEachTool('Calendars/event', function () {
 		eventTool = this;
-		pipe.fill('event')();
+		Streams.get(eventTool.state.publisherId, eventTool.state.streamName, function (err) {
+			if (err) {
+				return Q.error(Q.firstErrorMessage(err));
+			}
+
+			eventStream = this;
+			pipe.fill('event')(eventTool);
+		});
+
 	});
 
 	Q.Text.get('Communities/content', function (err, content) {
 		text = content;
-		pipe.fill('text')();
+		pipe.fill('text')(text);
 	}, 'Communities/event/column');
 
 	div.forEachTool("Users/avatar", function () {

@@ -528,105 +528,6 @@ var Communities = Q.Communities = Q.plugins.Communities = {
 			});
 		});
 	},
-	/**
-	 * Begin scanning QR codes and checking people in
-	 * @method scanEventCheckinQRCodes
-	 * @static
-	 * @param {Streams_Stream} stream Event stream, for which participants will be
-	 *  marked "checked in" with participant.setExtra("checkin", true)
-	 */
-	scanEventCheckinQRCodes: function (stream) {
-		var eventTool = this;
-
-		// need to add/remove Q_working
-		var $button = $(".Calendars_aspect_checkin", eventTool.element);
-
-		// make this button inactive
-		$button.addClass("Q_working");
-
-		// on scanner close - remove Q_working
-		Q.Camera.Scan.onClose.set(function(){
-			$(".Q_scanning_avatar").remove();
-			$button.removeClass("Q_working");
-		});
-
-		var lastUserId = null;
-
-		// run QR scanner
-		Q.Camera.Scan.animatedQR(function _request(fields) {
-			// url must have the fields: "u", "e", "s"
-			// for "user", "expires", "signature"
-			// also has optional fields: "join"
-			// todo: check s and e and if they are invalid, ask user
-			// to regenerate QR code on their "me" page
-			Q.req('Calendars/checkin', 
-			['participating', 'message'],
-			function (err, result) {
-				var fem = Q.firstErrorMessage(err, result);
-				if (fem) {
-					return Q.alert("Error: " + fem);
-				}
-
-				// if user is participating - that's all fine, just exit
-				if (Q.getObject(['slots', 'participated'], result) !== false) {
-					var message = Q.getObject(['slots', 'message'], result);
-					if (message) {
-						Q.alert(message);
-					}
-
-					// stop showing previous avatar
-					$(".Q_scanning_avatar").remove();
-
-					// show users avatar above video element
-					var avatar = $('<div />')
-						.addClass("Q_scanning_avatar")
-						.tool('Users/avatar', {userId: fields.u, icon: '80'});
-
-					// instascan
-					if (typeof QRScanner === "undefined") {
-						avatar.insertAfter(".Q_scanning video");
-					} else { // cordova QRScanner plugin
-						$("body").append(avatar);
-					}
-					avatar.activate();
-					return;
-				}
-
-				// if user wasn't participating, ask whether to make them join the stream
-				Q.Text.get('Calendars/content', function (err, text) {
-					var question = Q.getObject(['slots', 'message'], result);
-					Q.confirm(question, function (res) {
-						if (!res){
-							return;
-						}
-						// set new param "join", now user will join and checkin
-						fields.join = true;
-
-						// and execute this request again with this param
-						_request(fields);
-					}, {
-						ok: text.QRScanner.confirmYes,
-						cancel: text.QRScanner.confirmNo
-					});
-				});
-			}, {
-				method: 'post',
-				fields: Q.extend({
-					userId: fields.u,
-					expires: fields.e,
-					sig: fields.s,
-					join: fields.join
-				}, {
-					publisherId: stream.fields.publisherId,
-					streamName: stream.fields.name
-				})
-			});
-		}, null, {
-			instascan: {
-				mode: "scanQR"
-			}
-		});
-	},
 	pushConversationColumn: function (publisherId, streamName, $trigger, callback) {
 		$trigger = $($trigger || this.element);
 		Communities.latestTrigger = $trigger[0];
@@ -1192,13 +1093,16 @@ Streams.onInviteComplete.set(Communities.startOnboarding, 'Streams');
 
 Q.Assets.preSubscribeLogin.set(Communities.startOnboarding, 'Communities');
 
-Communities.usersAvatarSelector = '.Streams_participants_container .Users_avatar_tool,'
-	+ '.Communities_people_content .Users_avatar_tool,'
-	+ '.Users_list_tool .Users_avatar_tool,'
-	+ '.Media_feeds_access .Users_avatar_tool,'
-	+ '.Streams_preview_tool .Users_avatar_tool,'
-	+ '.Communities_conversation_container .Users_avatar_tool,'
-	+ '.Streams_chat_tool .Users_avatar_tool';
+Communities.usersAvatarSelector = [
+	'.Streams_participants_container .Users_avatar_tool',
+	'.Communities_people_content .Users_avatar_tool',
+	'.Users_list_tool .Users_avatar_tool',
+	'.Media_feeds_access .Users_avatar_tool',
+	'.Streams_preview_tool .Users_avatar_tool',
+	'.Communities_conversation_container .Users_avatar_tool',
+	'.Streams_chat_tool .Users_avatar_tool'
+];
+Communities.usersAvatarSelector = Communities.usersAvatarSelector.join(',');
 
 // Do something when
 Q.Tool.onActivate("id:Q_columns-Communities").set(function () {

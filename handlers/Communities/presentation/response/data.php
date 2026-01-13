@@ -22,7 +22,7 @@ function Communities_event_response_data($params) {
 			$columnClass[] = 'Communities_event_relatedParticipants';
 		}
 
-		if (Calendars_Event::getGoing($stream) === 'yes') {
+		if (Calendars_Event::getGoing($stream) !== 'no') {
 			$columnClass[] = 'Communities_event_reserved';
 		}
 	}

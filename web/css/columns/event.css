@@ -49,6 +49,9 @@
 	display: block;
 	margin: 0 auto;
 }
+.Communities_event_myqr .Q_dialog_content button {
+	margin: 10px auto;
+}
 .Calendars_event_tool .Users_avatar_tool.Calendars_event_publisher {
 	margin-bottom: 10px;
 	cursor: pointer;

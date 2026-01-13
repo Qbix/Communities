@@ -33,7 +33,7 @@ function Communities_me_response_column ($options)
 		));
 	}
 	if (class_exists('Calendars')) {
-		$calendarsParticipating = Calendars::participating($user->id, $fromTime, null, 'yes', array(
+		$calendarsParticipating = Calendars::participating($user->id, $fromTime, null, array('yes', 'maybe'), array(
 			'streamsOnly' => true
 		));
 	}
