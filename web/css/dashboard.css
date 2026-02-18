@@ -366,6 +366,12 @@ html.Q_mobile[data-dashboard-position="bottom"] #dashboard_slot {
 	flex-direction: column;
 	margin: auto;
 }
+#dashboard .Q_tabs_tool .Q_tabs_tab .Q_tabs_copiedTitle {
+	overflow: hidden;
+}
+.Q_tabs_compact .Q_tabs_tab .Q_tabs_copiedTitle.Q_overflowed {
+	mask-image: none;
+}
 .Q_mobile.Communities_dashboard_withTitles #dashboard[data-style=icons] .Q_tabs_copiedTitle,
 .Q_mobile.Communities_dashboard_withTitles #dashboard[data-style=icons] .Q_tabs_copiedTitle * {
 	font-size: 14px;
@@ -445,12 +451,14 @@ html.Q_mobile[data-dashboard-position="bottom"] #dashboard_slot {
 }
 .Q_mobile #dashboard .Users_avatar_icon { margin: auto; border-radius: 4px; vertical-align: top; }
 .Q_mobile #dashboard .Users_avatar_name { display: none; }
-#Q_tabs_tool .Q_tabs_tab .Q_tabs_overflowGlyph,
-#Q_tabs_tool li .Q_tabs_overflowGlyph {
+.Q_tabs_tool .Q_tabs_tab .Q_tabs_overflowGlyph,
+.Q_mobile[data-dashboard-style=contextual] #Q_tabs-Communities_tool .Q_tabs_overflow .Q_tabs_overflowGlyph,
+.Q_tabs_tool li .Q_tabs_overflowGlyph {
 	text-indent: 0;
+	line-height: 0;
 }
-#Q_tabs_tool .Q_tabs_tab.Q_tabs_noMatchingTab,
-#Q_tabs_tool li.Q_tabs_noMatchingTab,
+.Q_tabs_tool .Q_tabs_tab.Q_tabs_noMatchingTab,
+.Q_tabs_tool li.Q_tabs_noMatchingTab,
 .Q_mobile .Q_tabs_tab.Q_tabs_noMatchingTab,
 .Q_mobile .Q_tabs_tool li.Q_tabs_noMatchingTab {
 	text-indent: 0;
