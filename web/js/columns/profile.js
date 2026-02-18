@@ -326,6 +326,11 @@ Q.exports(function (options, index, column, data) {
 					},
 					onFailure: function () {
 						$trigger.removeClass('Q_working');
+						Q.Assets.Credits.buy({
+							onSuccess: function () {
+								_send(proceed);
+							}
+						})
 					}
 				});
 			}
