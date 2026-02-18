@@ -40,7 +40,7 @@
         <?php if ($loggedInUserId) {?>
         <div class="Communities_profile_block" data-touchlabel="<?= $profile[$blocked ? "UnblockThisUser" : "BlockThisUser"]?>" data-action="<?=($blocked ? "unblock" : "block")?>"><span data-for="unblock"><?=$profile['Unblock']?></span><span data-for="block"><?=$profile['Block']?></span></div>
         <?php } ?>
-        <?php if (true or $isAdmin) { ?>
+        <?php if (true or $canSeeRoles) { ?>
             <div class="Communities_profile_roles" data-touchlabel="<?=$profile["ManageRoles"]?>"><?=$profile["Roles"]?></div>
         <?php } ?>
     </div>
