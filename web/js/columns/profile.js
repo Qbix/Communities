@@ -327,6 +327,7 @@ Q.exports(function (options, index, column, data) {
 					onFailure: function () {
 						$trigger.removeClass('Q_working');
 						Q.Assets.Credits.buy({
+							title: Q.text.Assets.credits.NeedMoreCredits,
 							onSuccess: function () {
 								_send(proceed);
 							}
