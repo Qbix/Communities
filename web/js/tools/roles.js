@@ -56,7 +56,7 @@ Q.Tool.define("Communities/roles", function () {
 			return;
 		}
 
-		Users.getContacts.cache.clear();
+		Users.getContacts.cache && Users.getContacts.cache.clear();
 
 		Q.Dialogs.push({
 			title: tool.text.profile.ManageRoles,
