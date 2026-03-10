@@ -727,7 +727,7 @@ class Communities_Import
 					$user = Streams::register(
 						$data['full_name'],
 						$identifier,
-						Q_Valid::url($data['photo_url']) && @getimagesize($data['photo_url']) ? self::prepareIcon($data['photo_url']) : true,
+						Q_Valid::url($data['photo_url']) && Q_image::isRealImage($data['photo_url']) ? self::prepareIcon($data['photo_url']) : true,
 						array(
 							'activation' => $activateUsers,
 							'skipIdentifier' => true
@@ -747,7 +747,7 @@ class Communities_Import
 
 				// update icon if not custom
 				if (!Users::isCustomIcon($user->icon)) {
-					if (Q_Valid::url($data['photo_url']) && @getimagesize($data['photo_url'])) {
+					if (Q_Valid::url($data['photo_url']) && Q_image::isRealImage($data['photo_url'])) {
 						self::importIcon($user, $data['photo_url']);
 					} elseif (!$user->get('leaveDefaultIcon', false)
 						and !$user->get('skipIconSearch', false)
@@ -760,7 +760,7 @@ class Communities_Import
 									);
 
 									foreach ($iconUrls as $iconUrl) {
-										if (!@getimagesize($iconUrl)) {
+										if (!Q_image::isRealImage($iconUrl)) {
 											continue;
 										}
 

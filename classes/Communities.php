@@ -812,7 +812,7 @@ abstract class Communities
 		$communityId = Q::ifset($params, 'communityId', Users::currentCommunityId(true));
 		$experienceId = Q::ifset($params, 'experienceId', Q::ifset($_REQUEST, 'experienceId', 'main'));
 		$categoryStreamName = "Calendars/calendar/".$experienceId;
-		$categoryStream = Streams_Stream::fetchOrCreate(null, $communityId, $categoryStreamName);
+		$categoryStream = Streams_Stream::fetchOrCreate($communityId, $communityId, $categoryStreamName);
 
 		$uri = Q_Dispatcher::uri();
 		$interest = Q::ifset($params, 'interest', Q::ifset($_REQUEST, 'interest', Q::ifset($uri, 'interest', null)));
@@ -1179,6 +1179,56 @@ abstract class Communities
 			}
 		}
 	}
+
+	/**
+	 * Fetch all configured social username streams for a user in one query.
+	 *
+	 * @method fetchSocialStreams
+	 * @static
+	 * @param {string} $asUserId
+	 * @param {string} $userId
+	 * @return {array} map: social => stream
+	 */
+	static function fetchSocialStreams($asUserId, $userId)
+	{
+		$supportedSocials = Q_Config::get(
+			"Communities",
+			"profile",
+			"social",
+			array()
+		);
+
+		if (empty($supportedSocials)) {
+			return array();
+		}
+
+		$names = array();
+		foreach ($supportedSocials as $social) {
+			$names[] = 'Streams/user/' . $social;
+		}
+
+		$streams = Streams::fetch(
+			$asUserId,
+			$userId,
+			$names,
+			'*',
+			array(
+				'cacheEmptyAlso' => true
+			)
+		);
+
+		$result = array();
+		foreach ($supportedSocials as $social) {
+			$name = 'Streams/user/' . $social;
+			$stream = Q::ifset($streams, $name, null);
+			if ($stream && $stream->content !== null && $stream->content !== '') {
+				$result[$social] = $stream;
+			}
+		}
+
+		return $result;
+	}
+
 
 	/**
 	 * Return Unix timestamp with milliseconds

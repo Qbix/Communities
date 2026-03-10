@@ -23,9 +23,7 @@ function Communities_event_response_data($params) {
 		}
 
         $going = Calendars_Event::getGoing($stream);
-		if ($going === 'yes' || ($going === 'maybe' && Q_Config::get(
-				'Calendars', 'event', 'mode', 'prepayment', false)
-			)) {
+		if ($going !== 'no') {
 			$columnClass[] = 'Communities_event_reserved';
 		}
 	}
@@ -40,11 +38,9 @@ function Communities_event_response_data($params) {
 
 		// get info about payment
 		if ($stream->getAttribute('payment')) {
-			$assets_credits = Assets_Credits::checkJoinPaid($userId, $stream, null, array(
-				'reasons' => array(Assets::JOINED_PAID_STREAM, 'EventParticipation')
-			));
-			if ($assets_credits) {
-				$payment = array('amount' => $assets_credits->amount);
+			$payments = Assets_Credits::getPaymentsInfo($userId, $stream);
+			if ($payments["conclusion"]["amount"]) {
+				$payment = array('amount' => $payments["conclusion"]["amount"]);
 			} else {
 				$payment = null;
 			}

@@ -31,17 +31,13 @@ function Communities_NFTprofile_response_column (&$params, &$result) {
 
 	$isMobile = Q_Request::isMobile();
 
-	$xids = array();
-	foreach (array('facebook', 'twitter', 'linkedin', 'github', 'instagram') as $item) {
-		$value = Q::event('Communities/profileInfo/response/social', array(
-			'social' => $item,
-			'userId' => $userId,
-			'action' => 'get'
-		));
-
-		if (!empty($value)) {
-			$xids[$item.'/'.$app] = $value;
-		}
+	$xids = $user->getAllXids();
+	$socials = Communities::fetchSocialStreams(
+		Users::loggedInUser(),
+		$userId
+	);
+	foreach ($socials as $social => $stream) {
+		$xids[$social . '/' . $app] = $stream->content;
 	}
 
 	// get cover
