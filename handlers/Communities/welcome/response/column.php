@@ -30,7 +30,7 @@ function Communities_welcome_response_column($options = array()) {
 	Q_Response::addStylesheet('{{Communities}}/css/columns/welcome.css');
 
 	$communityUser = Users_User::fetch($communityId);
-	$title = Q::text($text['welcome']['Title'], array("appName" => $communityUser->displayName()));
+	$title = Q::text($text['welcome']['Title'], array("communityName" => $communityUser->displayName()));
 	$description = Q::text($text['welcome']['Description'], array($communityId));
 	$communityIcon = Q_Uri::interpolateUrl($communityUser->icon.'/400.png');
 	$url = Q_Uri::url($communityId.'/welcome');

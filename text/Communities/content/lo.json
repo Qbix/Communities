@@ -418,7 +418,7 @@
         "ChooseFile": "ເລືອກໄຟລ໌"
     },
     "welcome": {
-        "Title": "{{appName}} : ຍິນດີຕ້ອນຮັບ",
+        "Title": "{{communityName}} : ຍິນດີຕ້ອນຮັບ",
         "GetStarted": "ເລີ່ມຕົ້ນ",
         "gallery": {
             "Connect": "ເຊື່ອມຕໍ່",

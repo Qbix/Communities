@@ -418,7 +418,7 @@
         "ChooseFile": "pilia ang file"
     },
     "welcome": {
-        "Title": "{{appName}} : welcome",
+        "Title": "{{communityName}} : welcome",
         "GetStarted": "Pagsugod",
         "gallery": {
             "Connect": "Sumpaysumpaya",

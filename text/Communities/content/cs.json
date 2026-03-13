@@ -448,7 +448,7 @@
 		"NewAvailability": "Nov\u00e1 dostupnost"
 	},
 	"welcome": {
-		"Title": "{{appName}}: v\u00edtejte",
+		"Title": "{{communityName}}: v\u00edtejte",
 		"GetStarted": "Za\u010d\u00edt",
 		"gallery": {
 			"Connect": "P\u0159ipojit",

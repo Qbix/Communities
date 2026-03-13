@@ -447,7 +447,7 @@
 		"Keywords": "{{1}} \u00fej\u00f3nusta"
 	},
 	"welcome": {
-		"Title": "{{appName}}: velkominn",
+		"Title": "{{communityName}}: velkominn",
 		"GetStarted": "Byrja",
 		"gallery": {
 			"Connect": "Tengdu",

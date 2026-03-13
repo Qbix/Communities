@@ -27,7 +27,7 @@
 		"Welcome": "Welcome to {{1}}. Here you will find things posted for members of our community. Please add your email address or mobile number in order to receive notifications when announcements are posted."
 	},
 	"welcome": {
-		"Title": "{{appName}}: welcome",
+		"Title": "{{communityName}}: welcome",
 		"GetStarted": "Get Started",
 		"gallery": {
 			"Connect": "Connect",

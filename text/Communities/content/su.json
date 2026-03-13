@@ -418,7 +418,7 @@
         "ChooseFile": "pilih file"
     },
     "welcome": {
-        "Title": "{{appName}} : wilujeng sumping",
+        "Title": "{{communityName}} : wilujeng sumping",
         "GetStarted": "Mimitian",
         "gallery": {
             "Connect": "Nyambung",

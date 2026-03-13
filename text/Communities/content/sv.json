@@ -447,7 +447,7 @@
 		"Keywords": "{{1}} tj\u00e4nst"
 	},
 	"welcome": {
-		"Title": "{{appName}}: v\u00e4lkommen",
+		"Title": "{{communityName}}: v\u00e4lkommen",
 		"GetStarted": "Komma ig\u00e5ng",
 		"gallery": {
 			"Connect": "Ansluta",

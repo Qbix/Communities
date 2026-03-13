@@ -448,7 +448,7 @@
 		"NewAvailability": "Nova Disponibilitat"
 	},
 	"welcome": {
-		"Title": "{{appName}}: benvingut",
+		"Title": "{{communityName}}: benvingut",
 		"GetStarted": "Comen\u00e7ar",
 		"gallery": {
 			"Connect": "Connecta&#39;t",

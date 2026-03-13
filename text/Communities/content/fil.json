@@ -448,7 +448,7 @@
 		"Keywords": "{{1}} serbisyo"
 	},
 	"welcome": {
-		"Title": "{{appName}}: maligayang pagdating",
+		"Title": "{{communityName}}: maligayang pagdating",
 		"GetStarted": "Magsimula",
 		"gallery": {
 			"Connect": "Kumonekta",

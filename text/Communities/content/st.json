@@ -418,7 +418,7 @@
         "ChooseFile": "khetha faele"
     },
     "welcome": {
-        "Title": "{{appName}} : amohela",
+        "Title": "{{communityName}} : amohela",
         "GetStarted": "Qala",
         "gallery": {
             "Connect": "Hokela",

@@ -447,7 +447,7 @@
 		"Keywords": "{{1}} us\u0142uga"
 	},
 	"welcome": {
-		"Title": "{{appName}}: witamy",
+		"Title": "{{communityName}}: witamy",
 		"GetStarted": "Zaczynaj",
 		"gallery": {
 			"Connect": "\u0141\u0105czy\u0107",

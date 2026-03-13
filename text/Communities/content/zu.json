@@ -418,7 +418,7 @@
         "ChooseFile": "khetha ifayela"
     },
     "welcome": {
-        "Title": "{{appName}} : wamukelekile",
+        "Title": "{{communityName}} : wamukelekile",
         "GetStarted": "Qalisa",
         "gallery": {
             "Connect": "Xhuma",

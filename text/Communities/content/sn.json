@@ -418,7 +418,7 @@
         "ChooseFile": "sarudza faira"
     },
     "welcome": {
-        "Title": "{{appName}} : gamuchirai",
+        "Title": "{{communityName}} : gamuchirai",
         "GetStarted": "Tanga",
         "gallery": {
             "Connect": "Connect",

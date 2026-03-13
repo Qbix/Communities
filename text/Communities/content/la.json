@@ -418,7 +418,7 @@
         "ChooseFile": "eligere file"
     },
     "welcome": {
-        "Title": "{{appName}} : welcome",
+        "Title": "{{communityName}} : welcome",
         "GetStarted": "Adepto Coepi",
         "gallery": {
             "Connect": "Connect",

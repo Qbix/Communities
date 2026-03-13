@@ -448,7 +448,7 @@
 		"NewAvailability": "Ny tilg\u00e6ngelighed"
 	},
 	"welcome": {
-		"Title": "{{appName}}: velkommen",
+		"Title": "{{communityName}}: velkommen",
 		"GetStarted": "Kom igang",
 		"gallery": {
 			"Connect": "Forbinde",

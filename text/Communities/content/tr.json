@@ -447,7 +447,7 @@
 		"Keywords": "{{1}} hizmet"
 	},
 	"welcome": {
-		"Title": "{{appName}}: ho\u015f geldiniz",
+		"Title": "{{communityName}}: ho\u015f geldiniz",
 		"GetStarted": "Ba\u015flamak",
 		"gallery": {
 			"Connect": "Ba\u011flamak",

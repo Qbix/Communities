@@ -418,7 +418,7 @@
         "ChooseFile": "tagh faidhle"
     },
     "welcome": {
-        "Title": "{{appName}} : fàilte",
+        "Title": "{{communityName}} : fàilte",
         "GetStarted": "Tòisich",
         "gallery": {
             "Connect": "Ceangail",

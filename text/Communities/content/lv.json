@@ -447,7 +447,7 @@
 		"Keywords": "{{1}} pakalpojumu"
 	},
 	"welcome": {
-		"Title": "{{appName}}: laipni l\u016bdzam!",
+		"Title": "{{communityName}}: laipni l\u016bdzam!",
 		"GetStarted": "S\u0101c",
 		"gallery": {
 			"Connect": "Savienot",

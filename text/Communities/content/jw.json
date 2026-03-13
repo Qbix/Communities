@@ -418,7 +418,7 @@
         "ChooseFile": "pilih file"
     },
     "welcome": {
-        "Title": "{{appName}} : sugeng rawuh",
+        "Title": "{{communityName}} : sugeng rawuh",
         "GetStarted": "Miwiti",
         "gallery": {
             "Connect": "Nyambung",

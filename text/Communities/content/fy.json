@@ -418,7 +418,7 @@
         "ChooseFile": "kieze triem"
     },
     "welcome": {
-        "Title": "{{appName}} : wolkom",
+        "Title": "{{communityName}} : wolkom",
         "GetStarted": "Begjinne",
         "gallery": {
             "Connect": "Ferbine",

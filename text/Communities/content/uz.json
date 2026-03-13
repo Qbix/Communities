@@ -418,7 +418,7 @@
         "ChooseFile": "faylni tanlang"
     },
     "welcome": {
-        "Title": "{{appName}} : xush kelibsiz",
+        "Title": "{{communityName}} : xush kelibsiz",
         "GetStarted": "Boshlash",
         "gallery": {
             "Connect": "Ulanish",

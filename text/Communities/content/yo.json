@@ -418,7 +418,7 @@
         "ChooseFile": "yan faili"
     },
     "welcome": {
-        "Title": "{{appName}} : kaabo",
+        "Title": "{{communityName}} : kaabo",
         "GetStarted": "Bẹrẹ",
         "gallery": {
             "Connect": "Sopọ",

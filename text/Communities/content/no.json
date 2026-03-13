@@ -418,7 +418,7 @@
         "ChooseFile": "velg fil"
     },
     "welcome": {
-        "Title": "{{appName}} : Velkommen",
+        "Title": "{{communityName}} : Velkommen",
         "GetStarted": "Kom i gang",
         "gallery": {
             "Connect": "Koble til",

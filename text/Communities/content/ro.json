@@ -447,7 +447,7 @@
 		"Keywords": "{{1}} serviciu"
 	},
 	"welcome": {
-		"Title": "{{appName}}: bine ai venit",
+		"Title": "{{communityName}}: bine ai venit",
 		"GetStarted": "Incepe",
 		"gallery": {
 			"Connect": "Conecta\u021bi",

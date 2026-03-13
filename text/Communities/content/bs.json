@@ -418,7 +418,7 @@
         "ChooseFile": "izaberite datoteku"
     },
     "welcome": {
-        "Title": "{{appName}} : dobrodošli",
+        "Title": "{{communityName}} : dobrodošli",
         "GetStarted": "Započnite",
         "gallery": {
             "Connect": "Povežite se",

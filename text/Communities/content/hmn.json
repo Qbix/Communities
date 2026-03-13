@@ -418,7 +418,7 @@
         "ChooseFile": "xaiv cov ntaub ntawv"
     },
     "welcome": {
-        "Title": "{{appName}} :zoo",
+        "Title": "{{communityName}} :zoo",
         "GetStarted": "Pib pib",
         "gallery": {
             "Connect": "Txuas",

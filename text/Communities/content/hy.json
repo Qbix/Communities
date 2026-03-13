@@ -418,7 +418,7 @@
         "ChooseFile": "ընտրել ֆայլը"
     },
     "welcome": {
-        "Title": "{{appName}} : բարի գալուստ",
+        "Title": "{{communityName}} : բարի գալուստ",
         "GetStarted": "Սկսեք",
         "gallery": {
             "Connect": "Միացնել",

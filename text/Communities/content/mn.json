@@ -418,7 +418,7 @@
         "ChooseFile": "файлыг сонгоно уу"
     },
     "welcome": {
-        "Title": "{{appName}} : тавтай морил",
+        "Title": "{{communityName}} : тавтай морил",
         "GetStarted": "Эхлэх",
         "gallery": {
             "Connect": "Холбох",

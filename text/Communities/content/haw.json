@@ -418,7 +418,7 @@
         "ChooseFile": "koho faila"
     },
     "welcome": {
-        "Title": "{{appName}} : aloha mai",
+        "Title": "{{communityName}} : aloha mai",
         "GetStarted": "E hoʻomaka",
         "gallery": {
             "Connect": "Hoʻohui",

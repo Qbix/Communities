@@ -418,7 +418,7 @@
         "ChooseFile": "בחר קובץ"
     },
     "welcome": {
-        "Title": "{{appName}} : ברוך הבא",
+        "Title": "{{communityName}} : ברוך הבא",
         "GetStarted": "התחל",
         "gallery": {
             "Connect": "לְחַבֵּר",

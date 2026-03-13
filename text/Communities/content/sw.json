@@ -447,7 +447,7 @@
 		"Keywords": "{{1}} huduma"
 	},
 	"welcome": {
-		"Title": "{{appName}}: karibu",
+		"Title": "{{communityName}}: karibu",
 		"GetStarted": "Anza",
 		"gallery": {
 			"Connect": "Unganisha",

@@ -418,7 +418,7 @@
         "ChooseFile": "файлды тандоо"
     },
     "welcome": {
-        "Title": "{{appName}} : кош келиңиз",
+        "Title": "{{communityName}} : кош келиңиз",
         "GetStarted": "Баштоо",
         "gallery": {
             "Connect": "Туташуу",

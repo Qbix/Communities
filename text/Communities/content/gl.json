@@ -447,7 +447,7 @@
 		"Keywords": "{{1}} servizo"
 	},
 	"welcome": {
-		"Title": "{{appName}}: benvido",
+		"Title": "{{communityName}}: benvido",
 		"GetStarted": "Comezar",
 		"gallery": {
 			"Connect": "Conectar",
