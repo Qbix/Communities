@@ -132,7 +132,7 @@ Q.Template.set('Websites/announcement/preview/edit',
 
 Q.Template.set('Websites/announcement/preview/create',
 	'<div class="Streams_preview_container Streams_preview_create Q_clearfix">'
-	+ '<img alt="{{alt}}" class="Streams_preview_add">'
+	+ '<img alt="{{alt}}" class="Streams_preview_add Q_no_lazyload">'
 	+ '<div class="Streams_preview_contents {{titleClass}}">'
 	+ '<{{titleTag}} class="Streams_preview_title">{{title}}</{{titleTag}}>'
 	+ '</div></div>'
