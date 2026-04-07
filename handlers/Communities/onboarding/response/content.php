@@ -14,7 +14,7 @@ function Communities_onboarding_response_content()
 	Q_Response::addStylesheet("{{Communities}}/css/tools/onboarding.css");
 	return Q::tool('Communities/onboarding', array(
 		'usersList' => array(
-			'userIds' => Streams::userIdsarray('limit' => $limit))
+			'userIds' => Streams::userIds(array('limit' => $limit))
 		),
 		'communityId' => Q::ifset($_REQUEST, 'communityId', Users::currentCommunityId(true))
 	));

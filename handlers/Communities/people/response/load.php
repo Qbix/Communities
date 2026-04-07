@@ -9,7 +9,7 @@ function Communities_people_response_load()
 		'Communities', 'pageSizes', 'people', 50
 	));
 
-	$userIds = Streams::userIds$options);
+	$userIds = Streams::userIds($options);
 
 	return $userIds;
 }
