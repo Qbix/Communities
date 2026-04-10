@@ -207,8 +207,6 @@ abstract class Communities
 	 */
 	static function create($communityName, $options = array())
 	{
-		$userId = Users::loggedInUser(true)->id;
-
 		// default values
 		$options = array_merge(array(
 			'skipAccess' => false,
@@ -216,14 +214,16 @@ abstract class Communities
 			'creditsConfirmed' => null
 		), $options);
 
-		if (self::isAdmin($userId)) {
-			$skipAccess = true;
-		} else {
-			$skipAccess = $options['skipAccess'];
-		}
+        $quota = null;
+        $userId = null;
 
-		$quotaName = "Communities/create";
-		$quota = null;
+        $skipAccess = Q::ifset($options, 'skipAccess', false);
+        if (!$skipAccess) {
+            $userId = Users::loggedInUser(true)->id;
+            if (self::isAdmin($userId)) {
+                $skipAccess = true;
+            }
+		}
 
 		if (!$skipAccess) {
 			// check whether user can create communities
@@ -231,7 +231,7 @@ abstract class Communities
 
 			// check quota
 			$roles = Users::roles();
-			$quota = Users_Quota::check($userId, '', $quotaName, false, 1, array_keys($roles));
+			$quota = Users_Quota::check($userId, '', "Communities/create", false, 1, array_keys($roles));
 
 			// if quota exceeded
 			if (!($quota instanceof Users_Quota)) {
@@ -259,7 +259,7 @@ abstract class Communities
 			}
 		}
 
-		Q::event("Communities/community/create", @compact('userId', 'communityName', 'skipAccess', 'quota'), 'before');
+		Q::event("Communities/community/create", @compact('communityName', 'skipAccess', 'quota'), 'before');
 
 		$community = new Users_User();
 		$communityId = self::idFromName($communityName);
@@ -267,38 +267,46 @@ abstract class Communities
 		if ($community->retrieve()) {
 			if ($options['throwIfExist']) {
 				throw new Exception("Community with this name already exist");
-			}
+			} else {
+                return $community;
+            }
 		} else {
 			$community->url = Q_Config::expect('Q', 'web', 'appRootUrl');
 			$community->icon = "{{baseUrl}}/Q/plugins/Communities/img/icons/default";
 			$community->signedUpWith = 'none';
-			$community->username = $communityName;
+			$community->username = Q::ifset($options, 'username', Q_Utils::normalize($communityName));
+            $xids = Q::ifset($options, 'xids', null);
+            if ($xids) {
+                $community->xids = is_string($xids) ? $xids : json_encode($xids);
+            }
 			$community->save();
 		}
 
 		$streams = self::prepareCommunity($communityId);
 
 		// set logged user as Users/owners for new community
-		$usersContact = new Users_Contact();
-		$usersContact->userId = $community->id;
-		$usersContact->contactUserId = $userId;
-		$usersContact->label = "Users/owners";
-		if (!$usersContact->retrieve()) {
-			$usersContact->nickname = "Owner";
-			$usersContact->save();
-		}
+        if ($userId) {
+            $usersContact = new Users_Contact();
+            $usersContact->userId = $community->id;
+            $usersContact->contactUserId = $userId;
+            $usersContact->label = "Users/owners";
+            if (!$usersContact->retrieve()) {
+                $usersContact->nickname = "Owner";
+                $usersContact->save();
+            }
 
-		// join logged user to Streams/experience/main of new community
-		if (Q::ifset($streams, 'experienceStream', null) instanceof Streams_Stream) {
-			$streams['experienceStream']->join(array('userId' => $userId));
-		}
+            // join logged user to Streams/experience/main of new community
+            if (Q::ifset($streams, 'experienceStream', null) instanceof Streams_Stream) {
+                $streams['experienceStream']->join(array('userId' => $userId));
+            }
 
-		// set quota
-		if (!$skipAccess && $quota instanceof Users_Quota) {
-			$quota->used();
-		}
+            // set quota
+            if (!$skipAccess && $quota instanceof Users_Quota) {
+                $quota->used();
+            }
+        }
 
-		Q::event("Communities/community/create", @compact('userId', 'community', 'skipAccess', 'quota'), 'after');
+		Q::event("Communities/community/create", @compact('community', 'skipAccess', 'quota'), 'after');
 
 		return $community;
 	}
