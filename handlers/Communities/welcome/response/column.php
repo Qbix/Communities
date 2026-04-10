@@ -17,7 +17,7 @@ function Communities_welcome_response_column($options = array()) {
 		return true;
 	}
 
-	$userIds = Communities::userIds(array('uploadedIconsFirst' => true));
+	$userIds = Streams::userIds(array('uploadedIconsFirst' => true));
 	$users_count = Users_User::select('COUNT(1)')->execute()->fetchColumn(0);
 	$events_count = Streams_Stream::select('COUNT(1)')->where(array(
 		'type' => 'Calendars/event'

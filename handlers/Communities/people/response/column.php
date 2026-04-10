@@ -22,7 +22,7 @@ function Communities_people_response_column()
 	$options = Q_Config::get('Communities', 'people', 'userIds', array());
 	$options['limit'] = Q::ifset($_REQUEST, 'limit', Q_Config::get('Communities', 'pageSizes', 'people', 100));
 	$options['communityId'] = Users::currentCommunityId(true);
-	$userIds = Communities::userIds($options);
+	$userIds = Streams::userIds($options);
 	// filter users if Users/filter config defined
 	if ($usersFilter = Q_Config::get("Communities", "people", "filter", null)) {
 		$userIds = $usersFilter;

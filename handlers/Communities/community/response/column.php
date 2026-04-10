@@ -76,7 +76,7 @@ function Communities_community_response_column($params = array())
 
 	$usersOptions = Q_Config::get('Communities', 'people', 'userIds', array());
 	$usersOptions['communityId'] = $communityId;
-	$userIds = Communities::userIds($usersOptions);
+	$userIds = Streams::userIds($usersOptions);
 
 	$can = Users_Label::can($communityId, $userId);
 	Q_Response::setScriptData('Q.plugins.Users.Label.canGrant', $can['grant']);
