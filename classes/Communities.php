@@ -451,7 +451,7 @@ abstract class Communities
 
 			// join user to Calendars/calendar/main
 			if (class_exists('Calendars')) {
-				$stream = Calendars::eventsMainCategory($communityId);
+				$stream = Calendars::stream($communityId);
 				if (!$stream->participant($user->id)) {
 					$stream->join(array('userId' => $user->id));
 				}
