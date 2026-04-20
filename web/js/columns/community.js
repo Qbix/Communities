@@ -231,9 +231,6 @@ Q.exports(function (options, index, column, data) {
 				sp.adjustScrolling();
 			}
 
-			// set current section heigh to make it scrollable
-			$currentSection.outerHeight(($controlsSlot.is(":visible") ? $controlsSlot.offset().top : $columnSlot.height()) - $currentSection.offset().top);
-
 			// events tab
 			if (section === 'events') {
 				$("input[name=query]", $currentSection).plugin('Q/placeholders');
@@ -247,7 +244,6 @@ Q.exports(function (options, index, column, data) {
 			_selectTab(tabSelected);
 		}
 
-		$usersList.css("height", $controlsSlot.offset().top - $usersList.offset().top);
 		$usersList.tool('Q/infinitescroll', {
 			onInvoke: function () {
 				var infiniteTool = this;

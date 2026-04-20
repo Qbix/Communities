@@ -79,7 +79,24 @@
 }
 .Communities_column_community_main_avatar { margin: 0; }
 .Communities_column_community_main_avatar img.Users_avatar_icon { width: 80px; height: 80px; }
-#Communities_community_column {white-space: nowrap}
+#Communities_community_column {
+	white-space: nowrap;
+	height: 100%;
+	display: flex;
+    flex-direction: column;
+}
+#Communities_community_column .Communities_profile_main {
+	flex: 1;
+	min-height: 0;
+	display: flex;
+	flex-direction: column;
+}
+#Communities_community_column .Communities_profile_sections {
+	flex: 1;
+	min-height: 0;
+	display: flex;
+	flex-direction: column;
+}
 .Q_column_community #Communities_profile_labels .Users_labels_tool {
 	padding: 0 10px;
 }
@@ -98,12 +115,14 @@
 	margin-top: -1px;
 	padding: 5px 0;
 	display: none;
+	flex-direction: column;
 }
 #page .Q_column_community .Communities_profile_sections #Communities_profile_people {
 	padding: 0;
+	height: 100%;
 }
 #page .Communities_profile_sections .Communities_profile_section.Q_current {
-	display: block;
+	display: flex;
 }
 
 .Streams_interests_tool.Streams_interests_anotherUser .Streams_interest_title.Streams_interests_anotherUser {
@@ -121,6 +140,11 @@
 	display: block;
 	margin: 1px auto;
 }
+.Q_column_community .Q_column_slot .Users_list_tool {
+	padding: 0;
+	flex: 1;
+}
+
 .Communities_dialog_community .Users_list_tool {
 	padding: 10px;
 }
