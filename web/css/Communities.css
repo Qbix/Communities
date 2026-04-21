@@ -1608,6 +1608,50 @@ html.Q_mobile #content {
 	box-sizing: border-box;
 }
 
+/* replacement of Communities.adjustHeight method */
+/* One-to-one replacement for the function */
+.Communities #content,
+.Communities #content_slot {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+	width: 100%;
+}
+
+.Communities #columns_slot {
+    display: flex;
+    flex: 1;
+    margin-top: auto;  /* Replaces the margin calculation */
+    margin-bottom: auto;  /* Equal top/bottom margins */
+}
+
+.Communities .Q_columns_tool,
+.Communities .Q_columns_column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 500px;  /* Replaces Math.max(500) */
+}
+.Q_mobile.Communities .Q_columns_column.Q_column_0 {
+	height: 100% !important;
+}
+.Q_mobile.Communities .Q_columns_column.Q_column_1,
+.Q_mobile.Communities .Q_columns_column.Q_column_2,
+.Q_mobile.Communities .Q_columns_column.Q_column_3 {
+	height: calc(100% + 70px) !important;
+}    
+
+.Communities .Q_column_slot {
+    flex: 1;
+    overflow-y: auto;
+}
+
+/* Handle hidden title case */
+.Communities .Q_columns_column.Q_columns_hideTitle .Q_columns_title {
+    display: none;
+}
+/* /replacement of Communities.adjustHeight metthod */
+
 
 .Q_hideUntilLoaded body { opacity: 1; animation: 300ms linear forwards Q_showAfterLoaded; }
 @keyframes Q_showAfterLoaded {
