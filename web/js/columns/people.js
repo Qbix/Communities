@@ -11,15 +11,6 @@ Q.exports(function (options, index, column, data) {
 	var $titleSlot = $('.Q_title_slot', column);
 	var $titleContainer = $('.Q_columns_title_container', column);
 	var $columnSlot = $(".Q_column_slot", column);
-	var _adjustHeight = function () {
-		var siblingsHeight = 0;
-		Q.each($usersBox.siblings(":visible"), function () {
-			siblingsHeight += $(this).outerHeight();
-		});
-		$usersBox.height($columnSlot.innerHeight() - siblingsHeight);
-	};
-	_adjustHeight();
-	Q.onLayout($columnSlot[0]).set(_adjustHeight, true);
 
 	if (!Q.getObject(Communities.people.skipInfinitescroll)) {
 		// apply infinitescroll tool

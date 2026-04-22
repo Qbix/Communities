@@ -575,72 +575,6 @@ var Communities = Q.Communities = Q.plugins.Communities = {
 			}, callback);
 		});
 	},
-	adjustHeight: function () {
-		var $c = $('#content');
-		var $cs = $('#content_slot');
-		var ph;
-
-		var columns = null;
-		var tools = Q.Tool.byName('Q/columns');
-		for (var toolId in tools) {
-			if (!tools[toolId].parent()) {
-				columns = tools[toolId];
-				break;
-			}
-		}
-
-		if (Communities.skipAdjusting
-		|| Q.info.isMobile
-		|| !$c.length || !$cs.length) {
-			return;
-		}
-
-		// Only for Communities pages on non-mobile environments
-		// Adjust the height of the columns_slot so top and bottom margins are equal
-		ph = $cs.innerHeight()
-			- parseInt($c.css('padding-top'))
-			- parseInt($c.css('padding-bottom'));
-		var mt = parseInt($('#columns_slot').css('margin-top') || 0);
-		var ch = Math.max(ph - mt * 2, 500);
-
-		$('.Q_columns_tool, .Q_columns_column').outerHeight(ch);
-
-		if (!Communities.$style) {
-			Communities.$style = $('<style />').appendTo('head');
-		}
-		var css = '.Q_columns_column { min-height: ' + ch + 'px !important; }';
-		if (Q.info.isIE(0, 8)) {
-			Communities.$style[0].cssText = css;
-		} else {
-			Communities.$style[0].innerHTML = css;
-		}
-
-		if (columns) {
-			$('#'+columns.element.id).outerHeight(ch);
-			columns.$('.Q_column_slot').each(function () {
-				var $this = $(this);
-				var titleHeight = $this.prevAll('.Q_columns_title:visible').height() || 0;
-				if ($this.closest('.Q_columns_column.Q_columns_hideTitle').length) {
-					titleHeight = 0;
-				}
-				var controlsHeight = $this.nextAll('.Q_controls_slot:visible').height() || 0;
-				var h = $this.parent().height()
-					- titleHeight
-					- parseFloat($this.css('padding-top'))
-					- parseFloat($this.css('padding-bottom'))
-					- controlsHeight;
-				$this.height(h);
-			});
-			Q.layout(columns.element);
-		}
-
-		if ($cs.is(':visible')) {
-			$cs.outerHeight($cs.parent().height());
-		}
-		if ($c.is(':visible')) {
-			$c.outerHeight($c.parent().height());
-		}
-	},
 	navigate: function (dest, callback, updateNav) {
 		if (!dest) return false;
 		var parts = dest.split('/');
@@ -859,8 +793,7 @@ var Communities = Q.Communities = Q.plugins.Communities = {
 					alert(alertText);
 				}
 				Q.handle(url);
-			});
-			Communities.adjustHeight();
+			});			
 		});
 	},
 	registerDevice: function () {
@@ -951,12 +884,6 @@ Q.page('', function (unload, url, o) {
 	});
 
 	var drawers = Q.Tool.byId('Q_drawers');
-	if (drawers) {
-		drawers.state.onSwap.set(Communities.adjustHeight, true);
-	} else {
-		Communities.adjustHeight();
-	}
-	Q.onLayout($('#content')[0]).set(Communities.adjustHeight, true);
 
 	if (Users.loggedInUser) {
 		Streams.Stream.retain(Users.loggedInUser.id, 'Streams/user/icon', 'Communities');
@@ -1463,8 +1390,6 @@ Q.Tool.define.options("Q/tabs", {
 		quiet: true
 	}
 });
-
-Q.Page.onLoad('').set(Communities.adjustHeight, 'Communities');
 
 Q.Page.beforeUnload('').set(function () {
 	// code to execute before page starts unloading
