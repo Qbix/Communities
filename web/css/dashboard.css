@@ -477,6 +477,10 @@ html[data-dashboard-style=contextual] .Q_contextual .Q_listing li * {
 	background: none;
 	color: inherit;
 }
+.Q_contextual .Q_listing li {
+	display: flex;
+	gap: 10px;
+}
 .Q_contextual .Q_listing li.Q_current,
 .Q_contextual .Q_listing li.Q_current * {
 	background: var(--dashboard-contextual-current-bg);
@@ -873,6 +877,8 @@ html.Q_layout_sidebar #dashboard_slot #dashboard #Users_avatar-main_logo_tool im
 .Q_mobile #dashboard[data-style="contextual"] .Users_status_login {
 	width: var(--dashboard-mobile-height);
 	height: var(--dashboard-mobile-height);
+	display: flex;
+	gap: 10px;
 }
 .Q_mobile #dashboard[data-style="contextual"] .Users_status_login_title,
 .Q_mobile #dashboard[data-style="hamburger"] .Users_status_login_title {
