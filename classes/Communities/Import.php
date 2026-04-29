@@ -467,7 +467,7 @@ class Communities_Import
 					throw new Exception("Couldn't download file from ".$iconUrl);
 				}
 
-				$response = AI_Image::create('RemoveBG')->removeBackground(base64_encode($iconData));
+				$response = AI_Image::create('Removebg')->removeBackground(base64_encode($iconData));
 				if (!empty($response['error'])) {
 					throw new Exception($response['error']);
 				}
