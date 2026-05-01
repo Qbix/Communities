@@ -633,11 +633,13 @@ Q.Tool.define("Communities/onboarding", function Communities_onboarding_tool() {
                             expandable.expand();
                             var scrollingParent = $p2[0].scrollingParent();
                             $(scrollingParent).scrollTop(0);
-                            var color = Q.getObject([
-                                state.mainCommunityId, expandable.state.category, 'color'
-                            ], Streams.Interests.info);
-                            if (color) {
-                                $container.css('background', color);
+							var css = {
+								background: Q.getObject([state.mainCommunityId, expandable.state.category, "background"], Streams.Interests.info),
+								color: Q.getObject([state.mainCommunityId, expandable.state.category, "color"], Streams.Interests.info)
+							};
+							Object.keys(css).forEach((k) => Q.isEmpty(css[k]) && delete css[k]);
+                            if (!Q.isEmpty(css)) {
+                                $container.css(css);
                             }
                             $p3 = $p2.next('.Q_expandable_tool');
                             pileTool.state.userIds = [];
