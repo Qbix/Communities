@@ -1,5 +1,6 @@
 .Communities_onboarding_tool {
 	height: 100%;
+	background: var(--body-bg);
 }
 .Communities_onboarding_tool h2 {
     text-align: center;
