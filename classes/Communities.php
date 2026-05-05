@@ -190,8 +190,20 @@ abstract class Communities
 				? $word
 				: Q_Utils::ucfirst(Q_Utils::normalize($word));
 		}
-		return $ucwords[0];
-		// return implode('', $ucwords);
+		return implode('', $ucwords);
+	}
+	/**
+	 * Derive a community userId from a community's name,
+	 * turning "My NYU community" into "MyNYUCommunity"
+	 * @method idFromName
+	 * @param {string} $string
+	 * @return {string}
+	 */
+	static function generateId()
+	{
+		return Q_Utils::ucfirst(Users_User::db()->uniqueId(Users_User::table(), 'id', null, array(
+			'filter' => array('Users_User', 'idFilter')
+		)));
 	}
 	/**
 	 * Create community as user
@@ -262,27 +274,18 @@ abstract class Communities
 		Q::event("Communities/community/create", @compact('communityName', 'skipAccess', 'quota'), 'before');
 
 		$community = new Users_User();
-		$communityId = self::idFromName($communityName);
-		$community->id = $communityId;
-		if ($community->retrieve()) {
-			if ($options['throwIfExist']) {
-				throw new Exception("Community with this name already exist");
-			} else {
-                return $community;
-            }
-		} else {
-			$community->url = Q_Config::expect('Q', 'web', 'appRootUrl');
-			$community->icon = "{{baseUrl}}/Q/plugins/Communities/img/icons/default";
-			$community->signedUpWith = 'none';
-			$community->username = Q::ifset($options, 'username', Q_Utils::normalize($communityName));
-            $xids = Q::ifset($options, 'xids', null);
-            if ($xids) {
-                $community->xids = is_string($xids) ? $xids : json_encode($xids);
-            }
-			$community->save();
+		$community->id = self::generateId();
+		$community->url = Q_Config::expect('Q', 'web', 'appRootUrl');
+		$community->icon = "{{baseUrl}}/Q/plugins/Communities/img/icons/default";
+		$community->signedUpWith = 'none';
+		$community->username = Q::ifset($options, 'username', Q_Utils::normalize($communityName));
+		$xids = Q::ifset($options, 'xids', null);
+		if ($xids) {
+			$community->xids = is_string($xids) ? $xids : json_encode($xids);
 		}
+		$community->save();
 
-		$streams = self::prepareCommunity($communityId);
+		$streams = self::prepareCommunity($community->id);
 
 		// set logged user as Users/owners for new community
         if ($userId) {

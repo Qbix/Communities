@@ -1027,16 +1027,15 @@ class Communities_Import
 					$data[$field] = $value;
 				}
 
-				$communityId = Communities::idFromName($data['name']);
 				// check if community already exist
 				$addedUsers = Users_User::select()
-					->where(array('id' => $communityId))
+					->where(array('username' => Q_Utils::normalize($data['name'])))
 					->ignoreCache()
 					->fetchDbRows();
 
 				if ($addedUsers) {
 					//continue;
-					$user = Users::fetch($communityId, true);
+					$user = $addedUsers[0];
 				} else {
 					$user = Communities::create($data['name']);
 				}
