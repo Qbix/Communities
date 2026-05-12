@@ -345,7 +345,8 @@
 				},
 				"interests": true,
 				"location": true,
-				"credits": true
+				"credits": true,
+				"gallery": true
 			}
 		},
 		"promote": {
@@ -417,7 +418,8 @@
 			"tabs": {
 				"about": false,
 				"interests": true,
-				"chat": true
+				"chat": true,
+				"gallery": true
 			},
 			"sections": {
 				"personal": true,

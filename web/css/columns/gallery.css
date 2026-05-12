@@ -1,0 +1,14 @@
+.Communities_me_column_tabContent[data-val=gallery] .Streams_related_tool {
+	display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    gap: 1rem;
+}
+.Communities_tabs[data-style="icons"] .Communities_tab[data-val=gallery]::before {
+    content: "\e958";
+	font-size: 20px;
+}
+.Q_mobile .Communities_tabs[data-style="icons"] .Communities_tab[data-val=gallery]::before {
+	font-size: 28px;
+	line-height: 35px;
+}
