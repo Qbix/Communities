@@ -303,6 +303,13 @@ input[name=query].Communities_eventChooser_input:focus {
 	font-size: 16px;
 	height: 40px;
 }
+input[name=query].Streams_userChooser_input::placeholder,
+input[name=query].Communities_conversationChooser_input::placeholder,
+input[name=query].Communities_eventChooser_input::placeholder,
+input[name=query].Communities_serviceChooser_input::placeholder,
+input[name=query].Communities_eventChooser_input:focus::placeholder {
+	color: var(--content-fg-color);
+}
 .Q_columns_title_container input[name=query].Streams_userChooser_input,
 .Q_columns_title_container input[name=query].Streams_userChooser_input,
 .Q_columns_title_container input[name=query].Communities_conversationChooser_input,
