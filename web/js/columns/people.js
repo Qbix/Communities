@@ -57,8 +57,8 @@ Q.exports(function (options, index, column, data) {
 			if (!Users.loggedInUserId()) {
 				return Q.Users.login();
 			}
-			Streams.invite(Users.communityId, 'Streams/experience/main', {
-				appUrl: Q.urls['Communities/events']
+			Streams.invite(Users.currentCommunityId, "Streams/experience/main", {
+				appUrl: Q.urls["Communities/events"]
 			});
 		};
 		var _filterByInterests = function () {
@@ -71,9 +71,7 @@ Q.exports(function (options, index, column, data) {
 					filter: text.people.interests.Filter,
 					all: text.people.interests.All,
 					onClick: function (element, normalized, category, interest, wasSelected) {
-						var src = Streams.Interests.categoryIconUrl(
-							Users.communityId, category, 'colorful'
-						);
+						var src = Streams.Interests.categoryIconUrl(Users.currentCommunityId, category, "colorful");
 						$filter.find('.Communities_filter_icon').attr('src', src);
 						$filter.find('.Communities_filter_value').text(interest);
 						$(element).addClass('Q_selected');
@@ -89,16 +87,15 @@ Q.exports(function (options, index, column, data) {
 			var $filter = $(this);
 			Q.Dialogs.push({
 				title: text.people.labels.Title,
-				className: 'Communities_dialog_labels',
-				content: Q.Tool.setUpElement('div', 'Users/labels', {
+				className: "Communities_dialog_labels",
+				content: Q.Tool.setUpElement("div", "Users/labels", {
 					canAdd: text.people.labels.New,
-					filter: ['Users/','Streams/',Users.communityId + '/'],
+					filter: ["Users/", "Streams/", Users.currentCommunityId + "/"],
 					all: text.people.labels.All,
 					onClick: function (element, label, title, wasSelected) {
-						$filter.find('.Communities_filter_icon')
-							.attr('src', $(element).find('img').attr('src'));
-						$filter.find('.Communities_filter_value').text(title);
-						$(element).addClass('Q_selected');
+						$filter.find(".Communities_filter_icon").attr("src", $(element).find("img").attr("src"));
+						$filter.find(".Communities_filter_value").text(title);
+						$(element).addClass("Q_selected");
 						Q.Dialogs.pop();
 						_updatedLabel(label);
 						return false;
@@ -223,7 +220,7 @@ Q.exports(function (options, index, column, data) {
 			if (val === '*') {
 				return p.fill('participants')();
 			}
-			var publisherId = Users.communityId;
+			var publisherId = Users.currentCommunityId;
 			var streamName = 'Streams/interest/' + Q.normalize(val);
 			Streams.get(publisherId, streamName, p.fill('participants'), { participants: 100 });
 		}

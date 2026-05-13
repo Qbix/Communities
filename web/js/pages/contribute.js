@@ -23,7 +23,7 @@ Q.page("Communities/contribute", function () {
 					return;
 				}
 
-				Q.Streams.invite(Q.Users.communityId, 'Streams/experience/main');
+				Q.Streams.invite(Q.Users.currentCommunityId, "Streams/experience/main");
 			});
 		});
 	});
