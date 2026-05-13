@@ -5,7 +5,7 @@
 <div id='dashboard' data-style="<?php echo $dashboardStyle ?>">
     <?php echo Q::tool(array('Users/avatar' => array(
         'userId' => Users::currentCommunityId(true),
-        'icon' => $isMobile || !$isSidebar ? 40 : 200,
+        'icon' => $isMobile || !$isSidebar ? 40 : 1000,
         'content' => false,
         'editable' => false
     )//, 'Communities/select' => array()
