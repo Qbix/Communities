@@ -57,8 +57,8 @@ Q.exports(function (options, index, column, data) {
 			if (!Users.loggedInUserId()) {
 				return Q.Users.login();
 			}
-			Streams.invite(Users.currentCommunityId, "Streams/experience/main", {
-				appUrl: Q.urls["Communities/events"]
+			Streams.invite(Users.currentCommunityId, 'Streams/experience/main', {
+				appUrl: Q.urls[Communities.invitation.appUrl]
 			});
 		};
 		var _filterByInterests = function () {

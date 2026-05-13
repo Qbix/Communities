@@ -62,7 +62,7 @@ Q.exports(function (options, index, column, data) {
 				return Q.Users.login();
 			}
 			Streams.invite(communityId, 'Streams/experience/main', {
-				appUrl: Q.urls['Communities/events'],
+				appUrl: Q.urls['Communities.invitation.appUrl'],
 				addMyLabel: []
 			});
 		});
