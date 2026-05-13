@@ -265,7 +265,7 @@ html.Q_mobile[data-dashboard-position="bottom"] #dashboard_slot {
 }
 #dashboard { width: 100%; height: 100%; overflow: hidden; }
 #dashboard, #notices, #content { margin: auto; text-align: left; }
-.Q_notMobile.Q_layout_sidebar #dashboard #dashboard_user { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; float: right; padding: 5px; }
+.Q_notMobile.Q_layout_sidebar #dashboard #dashboard_user { white-space: nowrap; overflow: unset; text-overflow: ellipsis; float: right; padding: 5px; }
 .Q_mobile #dashboard #dashboard_user { max-width: 40%; }
 .Q_mobile.Users_loggedIn #dashboard #dashboard_user { margin: 0; }
 .Q_mobile.Users_loggedOut #dashboard .Users_status_login_title { width: 100%; line-height: normal; text-align: center; }
