@@ -1060,16 +1060,15 @@ abstract class Communities
 		return $result;
 	}
 
-
 	/**
-	 * Return Unix timestamp with milliseconds
-	 * @method microtime_float
-	 * @return float
+	 * Just an alias for Streams::userIds()
+	 * @method userIds
+	 * @static
+	 * @param {array} $options
 	 */
-	static function microtime_float()
+	static function userIds($options = array())
 	{
-		list($usec, $sec) = explode(" ", microtime());
-		return ((float)$usec + (float)$sec);
+		return Streams::userIds($options);
 	}
 
 	static $columns = array();
