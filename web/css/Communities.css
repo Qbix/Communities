@@ -144,6 +144,12 @@ html {
 	padding-left: 6px;
 }
 
+html #content_slot,
+html #content,
+html .Q_columns_tool {
+	height: 100%;
+}
+
 .Communities #content_slot {
 	padding: 0;
 }
@@ -1512,11 +1518,6 @@ body .Q_contextual .Q_listing {
 .Communities_onboarding_profile_greetingIsRequired .Communities_onboarding_profile_required {
 	transition: all 0.3s;
 	opacity: 1;
-}
-
-html.Q_mobile #content_slot,
-html.Q_mobile #content {
-	height: 100%;
 }
 
 .Communities_column_community .Communities_roles_tool {
