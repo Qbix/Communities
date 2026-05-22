@@ -418,7 +418,7 @@
         "ChooseFile": "khetha ifayile"
     },
     "welcome": {
-        "Title": "{{appName}} : wamkelekile",
+        "Title": "{{communityName}} : wamkelekile",
         "GetStarted": "Qalisa",
         "gallery": {
             "Connect": "Qhagamshela",

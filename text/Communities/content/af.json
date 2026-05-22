@@ -448,7 +448,7 @@
 		"NewAvailability": "Nuwe Beskikbaarheid"
 	},
 	"welcome": {
-		"Title": "{{appName}}: welkom",
+		"Title": "{{communityName}}: welkom",
 		"GetStarted": "Begin",
 		"gallery": {
 			"Connect": "Koppel",

@@ -418,7 +418,7 @@
         "ChooseFile": "फाइल निवडा"
     },
     "welcome": {
-        "Title": "{{appName}} : स्वागत आहे",
+        "Title": "{{communityName}} : स्वागत आहे",
         "GetStarted": "प्रारंभ करा",
         "gallery": {
             "Connect": "कनेक्ट करा",

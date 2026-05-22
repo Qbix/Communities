@@ -447,7 +447,7 @@
 		"NewAvailability": "Nueva disponibilidad"
 	},
 	"welcome": {
-		"Title": "{{appName}}: bienvenido",
+		"Title": "{{communityName}}: bienvenido",
 		"GetStarted": "Empezar",
 		"gallery": {
 			"Connect": "Conectar",

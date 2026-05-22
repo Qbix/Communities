@@ -447,7 +447,7 @@
 		"Keywords": "{{1}} \u0ab8\u0ac7\u0ab5\u0abe"
 	},
 	"welcome": {
-		"Title": "{{appName}}: \u0ab8\u0acd\u0ab5\u0abe\u0a97\u0aa4 \u0a9b\u0ac7",
+		"Title": "{{communityName}}: \u0ab8\u0acd\u0ab5\u0abe\u0a97\u0aa4 \u0a9b\u0ac7",
 		"GetStarted": "\u0ab6\u0ab0\u0ac2 \u0a95\u0ab0\u0acb",
 		"gallery": {
 			"Connect": "\u0a9c\u0acb\u0aa1\u0abe\u0ab5\u0abe",

@@ -447,7 +447,7 @@
 		"NewAvailability": "Neue Verf\u00fcgbarkeit"
 	},
 	"welcome": {
-		"Title": "{{appName}}: Willkommen",
+		"Title": "{{communityName}}: Willkommen",
 		"GetStarted": "Loslegen",
 		"gallery": {
 			"Connect": "Verbinden",

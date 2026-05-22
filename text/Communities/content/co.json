@@ -418,7 +418,7 @@
         "ChooseFile": "sceglie u schedariu"
     },
     "welcome": {
-        "Title": "{{appName}} : benvenutu",
+        "Title": "{{communityName}} : benvenutu",
         "GetStarted": "Cuminciate",
         "gallery": {
             "Connect": "Cunnette",

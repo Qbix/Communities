@@ -447,7 +447,7 @@
 		"Keywords": "{{1}} storitev"
 	},
 	"welcome": {
-		"Title": "{{appName}}: dobrodo\u0161li",
+		"Title": "{{communityName}}: dobrodo\u0161li",
 		"GetStarted": "Za\u010deti",
 		"gallery": {
 			"Connect": "Pove\u017eite se",

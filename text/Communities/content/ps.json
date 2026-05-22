@@ -418,7 +418,7 @@
         "ChooseFile": "فایل غوره کړئ"
     },
     "welcome": {
-        "Title": "{{appName}} : ښه راغلاست",
+        "Title": "{{communityName}} : ښه راغلاست",
         "GetStarted": "پیل کړئ",
         "gallery": {
             "Connect": "نښلول",

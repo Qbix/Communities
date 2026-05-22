@@ -38,7 +38,7 @@ Q.Tool.define("Communities/roles", function () {
 },
 {
 	userId: Q.Users.loggedInUserId(),
-	communityId: Q.Users.communityId,
+	communityId: Q.Users.currentCommunityId,
 	icon: 80,
 	swapTimeout: 3000,
 	transition: {

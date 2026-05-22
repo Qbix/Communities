@@ -418,7 +418,7 @@
         "ChooseFile": "pilih berkas"
     },
     "welcome": {
-        "Title": "{{appName}} : selamat datang",
+        "Title": "{{communityName}} : selamat datang",
         "GetStarted": "Memulai",
         "gallery": {
             "Connect": "Menghubungkan",

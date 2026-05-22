@@ -447,7 +447,7 @@
 		"Keywords": "{{1}} servizz"
 	},
 	"welcome": {
-		"Title": "{{appName}}: mer\u0127ba",
+		"Title": "{{communityName}}: mer\u0127ba",
 		"GetStarted": "Ibda",
 		"gallery": {
 			"Connect": "Qabbad",

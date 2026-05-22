@@ -52,6 +52,7 @@ function Communities_before_Q_responseExtras()
 	Q_Response::setScriptData('Q.plugins.Communities.event.preview.textfill', Q_Config::get('Communities', 'event', 'preview', 'textfill', false));
 	Q_Response::setScriptData('Q.plugins.Communities.profile.social', Q_Config::get('Communities', 'profile', 'social', null));
 	Q_Response::setScriptData('Q.plugins.Communities.people', Q_Config::get('Communities', 'people', null));
+	Q_Response::setScriptData('Q.plugins.Communities.invitation.appUrl', Q_Config::get('Communities', 'invitation', 'appUrl', null));
 
 	$currentCommunity = Users::currentCommunityId();
 	if ($currentCommunity) {

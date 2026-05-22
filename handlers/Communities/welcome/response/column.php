@@ -17,7 +17,7 @@ function Communities_welcome_response_column($options = array()) {
 		return true;
 	}
 
-	$userIds = Communities::userIds(array('uploadedIconsFirst' => true));
+	$userIds = Streams::userIds(array('uploadedIconsFirst' => true));
 	$users_count = Users_User::select('COUNT(1)')->execute()->fetchColumn(0);
 	$events_count = Streams_Stream::select('COUNT(1)')->where(array(
 		'type' => 'Calendars/event'
@@ -30,7 +30,7 @@ function Communities_welcome_response_column($options = array()) {
 	Q_Response::addStylesheet('{{Communities}}/css/columns/welcome.css');
 
 	$communityUser = Users_User::fetch($communityId);
-	$title = Q::text($text['welcome']['Title'], array("appName" => $communityUser->displayName()));
+	$title = Q::text($text['welcome']['Title'], array("communityName" => $communityUser->displayName()));
 	$description = Q::text($text['welcome']['Description'], array($communityId));
 	$communityIcon = Q_Uri::interpolateUrl($communityUser->icon.'/400.png');
 	$url = Q_Uri::url($communityId.'/welcome');

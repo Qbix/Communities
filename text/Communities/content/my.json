@@ -418,7 +418,7 @@
         "ChooseFile": "ဖိုင်ကိုရွေးချယ်ပါ။"
     },
     "welcome": {
-        "Title": "{{appName}} : ကြိုဆိုပါတယ်။",
+        "Title": "{{communityName}} : ကြိုဆိုပါတယ်။",
         "GetStarted": "စတင်လိုက်ပါ။",
         "gallery": {
             "Connect": "ချိတ်ဆက်ပါ။",

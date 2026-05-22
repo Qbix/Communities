@@ -418,7 +418,7 @@
         "ChooseFile": "elektu dosieron"
     },
     "welcome": {
-        "Title": "{{appName}} : bonvenon",
+        "Title": "{{communityName}} : bonvenon",
         "GetStarted": "Komencu",
         "gallery": {
             "Connect": "Konekti",

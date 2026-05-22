@@ -447,7 +447,7 @@
 		"Keywords": "{{1}} palveluun"
 	},
 	"welcome": {
-		"Title": "{{appName}}: tervetuloa",
+		"Title": "{{communityName}}: tervetuloa",
 		"GetStarted": "Aloittaa",
 		"gallery": {
 			"Connect": "Kytke\u00e4",

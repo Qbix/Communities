@@ -59,3 +59,27 @@ html #Users_list_tool {
 .Communities_column_facebook .Q_column_slot > .Q_tool.Streams_userChooser_tool {
 	display: none;
 }
+
+/* replacement of _adjustHeight method */
+/* Replace the entire _adjustHeight function */
+.Communities_people .Q_column_slot {
+    display: flex;
+    flex-direction: column;
+}
+
+.Communities_people .Users_list_tool {
+    flex: 1;  /* Automatically fills remaining height */
+    min-height: 0;  /* Prevents overflow */
+    overflow-y: auto;  /* Add scroll if needed */
+}
+
+/* Any siblings above the Users_list_tool will automatically take their natural height */
+.Communities_people .Users_list_tool:first-child {
+    /* If it's the first child, no adjustment needed */
+}
+
+/* For siblings above (like titles, filters, etc.) - they keep their natural height */
+.Communities_people .Q_column_slot > :not(.Users_list_tool) {
+    flex-shrink: 0;  /* Never shrink these elements */
+}
+/* /replacement of _adjustHeight method */

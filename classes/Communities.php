@@ -190,8 +190,20 @@ abstract class Communities
 				? $word
 				: Q_Utils::ucfirst(Q_Utils::normalize($word));
 		}
-		return $ucwords[0];
-		// return implode('', $ucwords);
+		return implode('', $ucwords);
+	}
+	/**
+	 * Derive a community userId from a community's name,
+	 * turning "My NYU community" into "MyNYUCommunity"
+	 * @method idFromName
+	 * @param {string} $string
+	 * @return {string}
+	 */
+	static function generateId()
+	{
+		return Q_Utils::ucfirst(Users_User::db()->uniqueId(Users_User::table(), 'id', null, array(
+			'filter' => array('Users_User', 'idFilter')
+		)));
 	}
 	/**
 	 * Create community as user
@@ -207,8 +219,6 @@ abstract class Communities
 	 */
 	static function create($communityName, $options = array())
 	{
-		$userId = Users::loggedInUser(true)->id;
-
 		// default values
 		$options = array_merge(array(
 			'skipAccess' => false,
@@ -216,14 +226,16 @@ abstract class Communities
 			'creditsConfirmed' => null
 		), $options);
 
-		if (self::isAdmin($userId)) {
-			$skipAccess = true;
-		} else {
-			$skipAccess = $options['skipAccess'];
-		}
+        $quota = null;
+        $userId = null;
 
-		$quotaName = "Communities/create";
-		$quota = null;
+        $skipAccess = Q::ifset($options, 'skipAccess', false);
+        if (!$skipAccess) {
+            $userId = Users::loggedInUser(true)->id;
+            if (self::isAdmin($userId)) {
+                $skipAccess = true;
+            }
+		}
 
 		if (!$skipAccess) {
 			// check whether user can create communities
@@ -231,7 +243,7 @@ abstract class Communities
 
 			// check quota
 			$roles = Users::roles();
-			$quota = Users_Quota::check($userId, '', $quotaName, false, 1, array_keys($roles));
+			$quota = Users_Quota::check($userId, '', "Communities/create", false, 1, array_keys($roles));
 
 			// if quota exceeded
 			if (!($quota instanceof Users_Quota)) {
@@ -259,46 +271,45 @@ abstract class Communities
 			}
 		}
 
-		Q::event("Communities/community/create", @compact('userId', 'communityName', 'skipAccess', 'quota'), 'before');
+		Q::event("Communities/community/create", @compact('communityName', 'skipAccess', 'quota'), 'before');
 
 		$community = new Users_User();
-		$communityId = self::idFromName($communityName);
-		$community->id = $communityId;
-		if ($community->retrieve()) {
-			if ($options['throwIfExist']) {
-				throw new Exception("Community with this name already exist");
-			}
-		} else {
-			$community->url = Q_Config::expect('Q', 'web', 'appRootUrl');
-			$community->icon = "{{baseUrl}}/Q/plugins/Communities/img/icons/default";
-			$community->signedUpWith = 'none';
-			$community->username = $communityName;
-			$community->save();
+		$community->id = self::generateId();
+		$community->url = Q_Config::expect('Q', 'web', 'appRootUrl');
+		$community->icon = "{{baseUrl}}/Q/plugins/Communities/img/icons/default";
+		$community->signedUpWith = 'none';
+		$community->username = Q::ifset($options, 'username', Q_Utils::normalize($communityName));
+		$xids = Q::ifset($options, 'xids', null);
+		if ($xids) {
+			$community->xids = is_string($xids) ? $xids : json_encode($xids);
 		}
+		$community->save();
 
-		$streams = self::prepareCommunity($communityId);
+		$streams = self::prepareCommunity($community->id);
 
 		// set logged user as Users/owners for new community
-		$usersContact = new Users_Contact();
-		$usersContact->userId = $community->id;
-		$usersContact->contactUserId = $userId;
-		$usersContact->label = "Users/owners";
-		if (!$usersContact->retrieve()) {
-			$usersContact->nickname = "Owner";
-			$usersContact->save();
-		}
+        if ($userId) {
+            $usersContact = new Users_Contact();
+            $usersContact->userId = $community->id;
+            $usersContact->contactUserId = $userId;
+            $usersContact->label = "Users/owners";
+            if (!$usersContact->retrieve()) {
+                $usersContact->nickname = "Owner";
+                $usersContact->save();
+            }
 
-		// join logged user to Streams/experience/main of new community
-		if (Q::ifset($streams, 'experienceStream', null) instanceof Streams_Stream) {
-			$streams['experienceStream']->join(array('userId' => $userId));
-		}
+            // join logged user to Streams/experience/main of new community
+            if (Q::ifset($streams, 'experienceStream', null) instanceof Streams_Stream) {
+                $streams['experienceStream']->join(array('userId' => $userId));
+            }
 
-		// set quota
-		if (!$skipAccess && $quota instanceof Users_Quota) {
-			$quota->used();
-		}
+            // set quota
+            if (!$skipAccess && $quota instanceof Users_Quota) {
+                $quota->used();
+            }
+        }
 
-		Q::event("Communities/community/create", @compact('userId', 'community', 'skipAccess', 'quota'), 'after');
+		Q::event("Communities/community/create", @compact('community', 'skipAccess', 'quota'), 'after');
 
 		return $community;
 	}
@@ -443,7 +454,7 @@ abstract class Communities
 
 			// join user to Calendars/calendar/main
 			if (class_exists('Calendars')) {
-				$stream = Calendars::eventsMainCategory($communityId);
+				$stream = Calendars::stream($communityId);
 				if (!$stream->participant($user->id)) {
 					$stream->join(array('userId' => $user->id));
 				}
@@ -491,186 +502,6 @@ abstract class Communities
 			: (($f1 != $f2) ? ($f1 > $f2 ? 1 : -1) : ($c1 != $c2 ? ($c1 > $c2 ? 1 : -1) : 0));
 	}
 
-	/**
-	 * Get a bunch of user ids in a given community,
-	 * starting with contacts of the logged-in user (if any).
-	 * Useful for passing to the Users/list tool, to render
-	 * a list of users in a community.
-	 * @method userIds
-	 * @param {array} [$options=array()]
-	 * @param {integer} [$options.limit=100] The maximum number to return
-	 * @param {integer} [$options.offset=0] The offfset
-	 * @param {string} [$options.communityId=null] The community from which to get stream participants, defaults to main community
-	 * @param {string} [$options.experienceId='main'] Can be used to override the name of the experience
-	 * @param {Users_User|false} [$options.userId=Users::loggedInUser()->id] The user, if any, whose contacts to get
-	 * @param {boolean} [$options.includeUser=false] Whether to include the specified user in the list
-	 * @param {boolean} [$options.includeCommunities=false] Whether to include community users
-	 * @param {boolean} [$options.includeReverseContacts=false] Whether to show users who have you in their contacts already
-	 * @param {boolean} [$options.includeFutureUsers=false] Whether to include users who have not yet signed in even once, but who have a custom icon at least
-	 * @param {array} [$options.filterByRoles] you can pass an array of roles, user must have at least one
-	 * @param {boolean} [$options.customIconsFirst=false] Whether to sort the non-contact users in a way to have the ones with custom photos be listed first.
-	 * @param {array} [$options.idPrefixes]
-	 * @param {array} [$options.idPrefixes.require] Only return users with this id prefix
-	 * @param {array} [$options.idPrefixes.exclude] Exclude users with this id prefix
-	 */
-	static function userIds($options = array())
-	{
-		$options = Q::take($options, array(
-			'limit' => 100,
-			'offset' => 0,
-			'communityId' => Users::currentCommunityId(true),
-			'experienceId' => 'main',
-			'userId' => null,
-			'includeUser' => false,
-			'includeCommunities' => false,
-			'includeReverseContacts' => false,
-			'includeFutureUsers' => false,
-			'customIconsFirst' => false,
-			'customIconsOnly' => false,
-			'idPrefixes' => array()
-		));
-		if (isset($options['limit'])) {
-			$maxLimit = Q_Config::get('Communities', 'userIds', 'maxLimit', 1000);
-			$options['limit'] = min($options['limit'], $maxLimit);
-		}
-
-		$user = Users::loggedInUser();
-		if (!isset($options['userId'])) {
-			$options['userId'] = $user ? $user->id : '';
-		}
-		if (!isset($options['communityId'])) {
-			$options['communityId'] = Users::currentCommunityId(true);
-		}
-		$criteria = array(
-			'p.publisherId' => $options['communityId'],
-			'p.streamName' => "Streams/experience/".$options['experienceId'],
-			'p.state' => 'participating'
-		);
-		$orCriteria = null;
-		if (!empty($options['idPrefixes']['require'])) {
-			$criteria['u.id'] = new Db_Range($options['idPrefixes']['require'], true, false, true);
-		} else if (!empty($options['idPrefixes']['exclude'])) {
-			$ope = $options['idPrefixes']['exclude'];
-			$criteria['u.id <'] = $ope;
-			$orCriteria = array('u.id >' => $ope);
-		}
-		if ($options['userId']) {
-			$rows = Users_Contact::select('u.id, u.sessionCount, u.icon', 'c')
-				->join(Streams_Participant::table(true, 'p'), array(
-					'c.userId' => 'p.userId'
-				))->join(Users_User::table(true, 'u'), array(
-					'c.contactUserId' => 'u.id'
-				))->where(array('c.userId' => $options['userId']))
-				->andWhere($criteria, $orCriteria)
-				// ->groupBy('u.id')
-				->orderBy('c.label', false)
-				->orderBy('u.sessionCount', false)
-				->limit($options['limit'], $options['offset'])
-				->fetchDbRows(null, '', 'id');
-			if ($options['includeReverseContacts']) {
-				$rows2 = Users_Contact::select('u.id, u.sessionCount, u.icon', 'c')
-					->join(Streams_Participant::table(true, 'p'), array(
-						'c.contactUserId' => 'p.userId'
-					))->join(Users_User::table(true, 'u'), array(
-						'c.userId' => 'u.id'
-					))->where(array('c.contactUserId' => $options['userId']))
-					->andWhere($criteria)
-					// ->groupBy('u.id')
-					->orderBy('c.label', false)
-					->orderBy('u.sessionCount', false)
-					->limit($options['limit'])
-					->fetchDbRows(null, '', 'id');
-				$rows = array_merge($rows, $rows2);
-			}
-		} else {
-			$rows = array();
-		}
-		$contactsCount = count($rows);
-		$m = 2;
-		$o = 0;
-		// try finding more up to 10 times
-		for ($i=0; $i<10; ++$i) {
-			if (!empty($options['customIconsOnly'])) {
-				$temp = array();
-				foreach ($rows as $uid => $row) {
-					if (Users::isCustomIcon($row->icon)) {
-						$temp[$uid] = $row;
-					}
-				}
-				$rows = $temp;
-			} elseif (!empty($options['customIconsFirst'])) {
-				// sort array with custom icons first
-				$temp = array();
-				foreach ($rows as $uid => $row) {
-					if (Users::isCustomIcon($row->icon)) {
-						$temp[$uid] = $row;
-					}
-				}
-				foreach ($rows as $uid => $row) {
-					if (empty($temp[$uid])) {
-						$temp[$uid] = $row;
-					}
-				}
-				$rows = $temp;
-			}
-
-			// filter futureUsers and Community users and current user
-			$includeFutureUsers = !empty($options['includeFutureUsers']);
-			$includeCommunities = !empty($options['includeCommunities']);
-			$temp = array();
-			foreach ($rows as $uid => $row) {
-				if ($row->sessionCount == 0
-				&& (!$includeFutureUsers && !Users::isCustomIcon($row->icon))) {
-					continue;	
-				}
-				if ((!$includeCommunities && Users::isCommunityId($uid))) {
-					continue;
-				}
-				if (empty($options['includeUser']) and $user and $uid === $options['userId']) {
-					continue;
-				}
-				$temp[$uid] = $row;
-			}
-			$b = count($rows);
-			$rows = $temp;
-			$c = count($rows);
-			if ($c) {
-				$m = ceil($b/$c); // try to guess how many might be filtered in the next pass
-			}
-			if ($c >= $options['limit']) {
-				break; // we got enough results to return
-			}
-			// get multiple times as many rows, since some may be removed
-			$rows3 = Streams_Participant::select('u.id, u.sessionCount, u.icon', 'p')
-				->join(Users_User::table(true, 'u'), array(
-					'p.userId' => 'u.id'
-				))
-				->join(Users_Contact::table(true, 'c'), array(
-					'p.userId' => 'c.contactUserId'
-				), "LEFT")
-				->where($criteria)
-				->orWhere($orCriteria)
-				->orderBy('c.label', false)
-				->orderBy('u.sessionCount', false)
-				->orderBy('p.insertedTime', false)
-				->limit(
-					$options['limit'] * $m - $contactsCount,
-					$o + max(0, $options['offset'] - $contactsCount)
-				)
-				->caching(true)
-				->fetchDbRows(null, '', 'id');
-			if (empty($rows3)) {
-				break; // no more userIds are coming by
-			}
-			$o += count($rows3);
-			$rows = array_merge($rows, $rows3);
-		}
-		$userIds = array_slice(array_keys($rows), 0, $options['limit']);
-		$userIds = Q::event('Users/filter/users', array(
-			'from' => 'Communities::userIds'
-		), 'after', false, $userIds);
-		return $userIds;
-	}
 	/**
 	 * @method labelsOptions
 	 * @static
@@ -1229,16 +1060,15 @@ abstract class Communities
 		return $result;
 	}
 
-
 	/**
-	 * Return Unix timestamp with milliseconds
-	 * @method microtime_float
-	 * @return float
+	 * Just an alias for Streams::userIds()
+	 * @method userIds
+	 * @static
+	 * @param {array} $options
 	 */
-	static function microtime_float()
+	static function userIds($options = array())
 	{
-		list($usec, $sec) = explode(" ", microtime());
-		return ((float)$usec + (float)$sec);
+		return Streams::userIds($options);
 	}
 
 	static $columns = array();

@@ -265,7 +265,7 @@ html.Q_mobile[data-dashboard-position="bottom"] #dashboard_slot {
 }
 #dashboard { width: 100%; height: 100%; overflow: hidden; }
 #dashboard, #notices, #content { margin: auto; text-align: left; }
-.Q_notMobile.Q_layout_sidebar #dashboard #dashboard_user { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; float: right; padding: 5px; }
+.Q_notMobile.Q_layout_sidebar #dashboard #dashboard_user { white-space: nowrap; overflow: unset; text-overflow: ellipsis; float: right; padding: 5px; }
 .Q_mobile #dashboard #dashboard_user { max-width: 40%; }
 .Q_mobile.Users_loggedIn #dashboard #dashboard_user { margin: 0; }
 .Q_mobile.Users_loggedOut #dashboard .Users_status_login_title { width: 100%; line-height: normal; text-align: center; }
@@ -476,6 +476,10 @@ html.Q_mobile[data-dashboard-position="bottom"] #dashboard_slot {
 html[data-dashboard-style=contextual] .Q_contextual .Q_listing li * {
 	background: none;
 	color: inherit;
+}
+.Q_contextual .Q_listing li {
+	display: flex;
+	gap: 10px;
 }
 .Q_contextual .Q_listing li.Q_current,
 .Q_contextual .Q_listing li.Q_current * {
@@ -733,7 +737,6 @@ html.Q_notMobile { height: 100%; }
 .Q_notMobile.Q_layout_sidebar #Users_avatar_tool { width: 100%; background: #222; background: rgba(255,255,255,.05); }
 .Q_notMobile.Q_layout_sidebar #dashboard_slot #dashboard .Users_avatar_tool {
 	text-align: center;
-	overflow: hidden;
 	display: block;
 	margin: 0 auto;
 }
@@ -873,6 +876,8 @@ html.Q_layout_sidebar #dashboard_slot #dashboard #Users_avatar-main_logo_tool im
 .Q_mobile #dashboard[data-style="contextual"] .Users_status_login {
 	width: var(--dashboard-mobile-height);
 	height: var(--dashboard-mobile-height);
+	display: flex;
+	gap: 10px;
 }
 .Q_mobile #dashboard[data-style="contextual"] .Users_status_login_title,
 .Q_mobile #dashboard[data-style="hamburger"] .Users_status_login_title {

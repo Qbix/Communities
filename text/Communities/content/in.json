@@ -448,7 +448,7 @@
 		"Keywords": "{{1}} layanan"
 	},
 	"welcome": {
-		"Title": "{{appName}}: selamat datang",
+		"Title": "{{communityName}}: selamat datang",
 		"GetStarted": "Memulai",
 		"gallery": {
 			"Connect": "Menghubung",

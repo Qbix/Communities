@@ -418,7 +418,7 @@
         "ChooseFile": "dooro faylka"
     },
     "welcome": {
-        "Title": "{{appName}} : soo dhawaada",
+        "Title": "{{communityName}} : soo dhawaada",
         "GetStarted": "Bilow",
         "gallery": {
             "Connect": "Ku xidhnow",

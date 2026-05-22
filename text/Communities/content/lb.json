@@ -418,7 +418,7 @@
         "ChooseFile": "wielt Fichier"
     },
     "welcome": {
-        "Title": "{{appName}} : wëllkomm",
+        "Title": "{{communityName}} : wëllkomm",
         "GetStarted": "Fänkt un",
         "gallery": {
             "Connect": "Connect",

@@ -448,7 +448,7 @@
 		"NewAvailability": "Erabilgarritasun berria"
 	},
 	"welcome": {
-		"Title": "{{appName}}: ongi etorria",
+		"Title": "{{communityName}}: ongi etorria",
 		"GetStarted": "Hasi",
 		"gallery": {
 			"Connect": "Konektatu",

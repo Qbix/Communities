@@ -447,7 +447,7 @@
 		"Keywords": "{{1}}"
 	},
 	"welcome": {
-		"Title": "{{appName}}: vitajte",
+		"Title": "{{communityName}}: vitajte",
 		"GetStarted": "Za\u010da\u0165",
 		"gallery": {
 			"Connect": "Pripojte sa",

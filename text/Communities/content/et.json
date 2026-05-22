@@ -447,7 +447,7 @@
 		"NewAvailability": "Uus saadavus"
 	},
 	"welcome": {
-		"Title": "{{appName}}: tere tulemast",
+		"Title": "{{communityName}}: tere tulemast",
 		"GetStarted": "Alustama",
 		"gallery": {
 			"Connect": "\u00dchendage",

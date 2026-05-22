@@ -447,7 +447,7 @@
 		"Keywords": "{{1}} paslauga"
 	},
 	"welcome": {
-		"Title": "{{appName}}: Sveiki atvyk\u0119",
+		"Title": "{{communityName}}: Sveiki atvyk\u0119",
 		"GetStarted": "Prad\u0117ti",
 		"gallery": {
 			"Connect": "Prisijungti",

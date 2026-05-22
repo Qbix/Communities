@@ -447,7 +447,7 @@
 		"Keywords": "{{1}} szolg\u00e1ltat\u00e1st"
 	},
 	"welcome": {
-		"Title": "{{appName}}: \u00fcdv\u00f6zl\u00f6m",
+		"Title": "{{communityName}}: \u00fcdv\u00f6zl\u00f6m",
 		"GetStarted": "Fogj neki",
 		"gallery": {
 			"Connect": "Csatlakoz\u00e1s",

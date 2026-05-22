@@ -418,7 +418,7 @@
         "ChooseFile": "zabi fayil"
     },
     "welcome": {
-        "Title": "{{appName}} : sannu",
+        "Title": "{{communityName}} : sannu",
         "GetStarted": "Fara",
         "gallery": {
             "Connect": "Haɗa",

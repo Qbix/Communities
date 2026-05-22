@@ -78,6 +78,32 @@ function Communities_profile_response_column ($params = array()) {
 			}
 		}
 
+		if ($tab == "gallery") {
+			$userGalleryCount = Streams_RelatedTo::select("count(*) as res")->where(array(
+				"toPublisherId" => $userId,
+				"toStreamName" => "Streams/user/interests",
+				"type" => "My/gallery"
+			))->execute()->fetchColumn(0);
+
+			if ($userGalleryCount) {
+				$myGallery = array();
+				if ($loggedInUser) {
+					$myGallery = Streams_RelatedTo::select("fromPublisherId as publisherId, fromStreamName as streamName")->where(array(
+						"toPublisherId" => $loggedInUser->id,
+						"toStreamName" => "Streams/user/interests",
+						"type" => "My/gallery"
+					))->execute()->fetchAll(PDO::FETCH_ASSOC);
+				}
+
+				$contentParams['userGalleryCount'] = $userGalleryCount;
+				$contentParams['myGallery'] = $myGallery;
+
+				$results[$tab]["content"] = Q::view("Communities/column/profile/gallery.php", $contentParams);
+			}
+			
+			continue;
+		}
+
 		// check content
 		if (is_file(COMMUNITIES_PLUGIN_VIEWS_DIR.DS."Communities".DS."column".DS."profile".DS.$tab.".php")) {
 			$results[$tab]["content"] = Q::view("Communities/column/profile/".$tab.".php", $contentParams);

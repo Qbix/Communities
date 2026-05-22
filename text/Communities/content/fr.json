@@ -447,7 +447,7 @@
 		"Keywords": "{{1}} services"
 	},
 	"welcome": {
-		"Title": "{{appName}}\u00a0: bienvenue",
+		"Title": "{{communityName}}\u00a0: bienvenue",
 		"GetStarted": "Commencer",
 		"gallery": {
 			"Connect": "Connecter",

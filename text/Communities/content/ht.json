@@ -418,7 +418,7 @@
         "ChooseFile": "chwazi dosye"
     },
     "welcome": {
-        "Title": "{{appName}} : akeyi",
+        "Title": "{{communityName}} : akeyi",
         "GetStarted": "Kòmanse",
         "gallery": {
             "Connect": "Konekte",

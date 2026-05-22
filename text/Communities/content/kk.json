@@ -418,7 +418,7 @@
         "ChooseFile": "файлды таңдаңыз"
     },
     "welcome": {
-        "Title": "{{appName}} : қош келдіңіз",
+        "Title": "{{communityName}} : қош келдіңіз",
         "GetStarted": "Жұмысты бастау",
         "gallery": {
             "Connect": "Қосылу",

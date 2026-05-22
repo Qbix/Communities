@@ -447,7 +447,7 @@
 		"Keywords": "{{1}} seirbh\u00eds"
 	},
 	"welcome": {
-		"Title": "{{appName}}: f\u00e1ilte roimh ch\u00e1ch",
+		"Title": "{{communityName}}: f\u00e1ilte roimh ch\u00e1ch",
 		"GetStarted": "Tosaigh",
 		"gallery": {
 			"Connect": "Ceangal",

@@ -418,7 +418,7 @@
         "ChooseFile": "mifidy rakitra"
     },
     "welcome": {
-        "Title": "{{appName}} : tongasoa",
+        "Title": "{{communityName}} : tongasoa",
         "GetStarted": "Manomboha",
         "gallery": {
             "Connect": "Connect",

@@ -418,7 +418,7 @@
         "ChooseFile": "ഫയൽ തിരഞ്ഞെടുക്കുക"
     },
     "welcome": {
-        "Title": "{{appName}} : സ്വാഗതം",
+        "Title": "{{communityName}} : സ്വാഗതം",
         "GetStarted": "ആരംഭിക്കുക",
         "gallery": {
             "Connect": "ബന്ധിപ്പിക്കുക",

@@ -467,7 +467,7 @@ class Communities_Import
 					throw new Exception("Couldn't download file from ".$iconUrl);
 				}
 
-				$response = AI_Image::create('RemoveBG')->removeBackground(base64_encode($iconData));
+				$response = AI_Image::create('Removebg')->removeBackground(base64_encode($iconData));
 				if (!empty($response['error'])) {
 					throw new Exception($response['error']);
 				}
@@ -727,7 +727,7 @@ class Communities_Import
 					$user = Streams::register(
 						$data['full_name'],
 						$identifier,
-						Q_Valid::url($data['photo_url']) && Q_image::isRealImage($data['photo_url']) ? self::prepareIcon($data['photo_url']) : true,
+						Q_Valid::url($data['photo_url']) && Q_Image::isRealImage($data['photo_url']) ? self::prepareIcon($data['photo_url']) : true,
 						array(
 							'activation' => $activateUsers,
 							'skipIdentifier' => true
@@ -747,7 +747,7 @@ class Communities_Import
 
 				// update icon if not custom
 				if (!Users::isCustomIcon($user->icon)) {
-					if (Q_Valid::url($data['photo_url']) && Q_image::isRealImage($data['photo_url'])) {
+					if (Q_Valid::url($data['photo_url']) && Q_Image::isRealImage($data['photo_url'])) {
 						self::importIcon($user, $data['photo_url']);
 					} elseif (!$user->get('leaveDefaultIcon', false)
 						and !$user->get('skipIconSearch', false)
@@ -760,7 +760,7 @@ class Communities_Import
 									);
 
 									foreach ($iconUrls as $iconUrl) {
-										if (!Q_image::isRealImage($iconUrl)) {
+										if (!Q_Image::isRealImage($iconUrl)) {
 											continue;
 										}
 
@@ -1027,16 +1027,15 @@ class Communities_Import
 					$data[$field] = $value;
 				}
 
-				$communityId = Communities::idFromName($data['name']);
 				// check if community already exist
 				$addedUsers = Users_User::select()
-					->where(array('id' => $communityId))
+					->where(array('username' => Q_Utils::normalize($data['name'])))
 					->ignoreCache()
 					->fetchDbRows();
 
 				if ($addedUsers) {
 					//continue;
-					$user = Users::fetch($communityId, true);
+					$user = $addedUsers[0];
 				} else {
 					$user = Communities::create($data['name']);
 				}

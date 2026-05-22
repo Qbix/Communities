@@ -418,7 +418,7 @@
         "ChooseFile": "sankhani fayilo"
     },
     "welcome": {
-        "Title": "{{appName}} : mwalandiridwa",
+        "Title": "{{communityName}} : mwalandiridwa",
         "GetStarted": "Yambanipo",
         "gallery": {
             "Connect": "Lumikizani",

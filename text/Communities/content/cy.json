@@ -447,7 +447,7 @@
 		"NewAvailability": "Argaeledd Newydd"
 	},
 	"welcome": {
-		"Title": "{{appName}}: croeso",
+		"Title": "{{communityName}}: croeso",
 		"GetStarted": "Dechrau",
 		"gallery": {
 			"Connect": "Cyswllt",

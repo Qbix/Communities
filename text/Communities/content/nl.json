@@ -448,7 +448,7 @@
 		"Keywords": "{{1}}-service"
 	},
 	"welcome": {
-		"Title": "{{appName}}: welkom",
+		"Title": "{{communityName}}: welkom",
 		"GetStarted": "Begin",
 		"gallery": {
 			"Connect": "Aansluiten",

@@ -447,7 +447,7 @@
 		"Keywords": "perkhidmatan {{1}}."
 	},
 	"welcome": {
-		"Title": "{{appName}}: selamat datang",
+		"Title": "{{communityName}}: selamat datang",
 		"GetStarted": "Mulakan",
 		"gallery": {
 			"Connect": "Sambung",

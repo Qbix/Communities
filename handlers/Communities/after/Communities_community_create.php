@@ -2,7 +2,12 @@
 
 function Communities_after_Communities_community_create($params)
 {
-	$userId = $params['userId'];
+	$userId = Users::loggedInUser();
+    $userId = Q::ifset($userId, "id", null);
+    if (!$userId) {
+        return;
+    }
+
 	$community = $params['community'];
 	$skipAccess = $params['skipAccess'];
 	$quota = $params['quota'];
