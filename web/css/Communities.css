@@ -1549,6 +1549,7 @@ html.Q_mobile #content {
 
 .Communities_avatar_section .Users_avatar_name {
 	margin: 0 10px;
+	overflow: visible;
 }
 
 .Communities_avatar_section .Q_inplace_tool {
