@@ -11,6 +11,7 @@ Q.exports(function (options, index, column, data) {
 	var $titleSlot = $('.Q_title_slot', column);
 	var $titleContainer = $('.Q_columns_title_container', column);
 	var $columnSlot = $(".Q_column_slot", column);
+	var filteringByLabels = undefined;
 
 	if (!Q.getObject(Communities.people.skipInfinitescroll)) {
 		// apply infinitescroll tool
@@ -45,7 +46,8 @@ Q.exports(function (options, index, column, data) {
 					usersList.loadMore();
 				}, {
 					fields: {
-						offset: offset
+						offset: offset,
+						labels: filteringByLabels
 					}
 				});
 			}
@@ -195,18 +197,21 @@ Q.exports(function (options, index, column, data) {
 		var originalTitle = null;
 		function _updatedLabel(label, isCommunityRoles) {
 			var $title = $('.Q_column_people .Communities_columnFBStyle_tool .Q_title_slot');
-			var userId = Q.getObject("Q.Communities.people.communityId")
-				|| (isCommunityRoles ? (Q.Users.currentCommunityId || Q.Users.communityId) : Users.loggedInUserId());
+			var userId = Q.getObject("Q.Communities.people.communityId") || Users.loggedInUserId();
+			var communityId = Q.getObject("Q.Communities.people.communityId")
+				|| (isCommunityRoles ? (Q.Users.currentCommunityId || Q.Users.communityId) : userId);
 			if (label === undefined) {
 				label = $label.val();
 			}
-			if (label === '*' || !userId) {
+			if (label === '*' || !communityId) {
 				if (originalTitle) {
 					$title.text(originalTitle);
 				}
+				filteringByLabels = undefined;
 				return p.fill('contacts')(originalUserIds);
 			}
-			Users.getContacts(userId, label, function (err, contacts) {
+			filteringByLabels = [label];
+			Users.getContacts(communityId, label, function (err, contacts) {
 				var userIds = [];
 				Q.each(contacts, function () {
 					userIds.push(this.contactUserId);
