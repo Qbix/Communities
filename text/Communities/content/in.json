@@ -108,7 +108,12 @@
 		"SearchByName": "Cari berdasarkan nama",
 		"Description": "{{1}} peserta",
 		"Keywords": "Komunitas {{1}} orang",
-		"BuyCredits": "Membeli kredit"
+		"BuyCredits": "Membeli kredit",
+		"roles": {
+			"All": "Setiap orang",
+			"Title": "Saring berdasarkan Peran",
+			"New": "Peran Baru"
+		}
 	},
 	"communities": {
 		"Title": "Pilih Komunitas",
@@ -285,7 +290,10 @@
 			"social": "Sosial"
 		},
 		"Roles": "Peran",
-		"SendPaymentTo": "Kirim pembayaran ke {{name}}"
+		"SendPaymentTo": "Kirim pembayaran ke {{name}}",
+		"gallery": {
+			"Explanation": "Foto bersama akan disorot. Jika Anda juga memiliki satu atau lebih foto di bawah ini, Anda dapat mengklik untuk menambahkannya."
+		}
 	},
 	"myqr": {
 		"Title": "QR saya"

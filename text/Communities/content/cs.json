@@ -108,7 +108,12 @@
 		"SearchByName": "Hledejte podle jm\u00e9na",
 		"Description": "Lid\u00e9 v {{1}} komunit\u011b",
 		"Keywords": "{{1}} komunita lid\u00ed",
-		"BuyCredits": "Koupit kredity"
+		"BuyCredits": "Koupit kredity",
+		"roles": {
+			"All": "Ka\u017ed\u00fd",
+			"Title": "Filtrovat podle rol\u00ed",
+			"New": "Nov\u00e1 role"
+		}
 	},
 	"communities": {
 		"Title": "spole\u010denstv\u00ed",
@@ -285,7 +290,10 @@
 			"social": "Soci\u00e1ln\u00ed"
 		},
 		"Roles": "Role",
-		"SendPaymentTo": "Po\u0161lete platbu na {{name}}"
+		"SendPaymentTo": "Po\u0161lete platbu na {{name}}",
+		"gallery": {
+			"Explanation": "Spole\u010dn\u00e9 obr\u00e1zky jsou zv\u00fdrazn\u011bny. Pokud m\u00e1te tak\u00e9 jeden nebo v\u00edce obr\u00e1zk\u016f n\u00ed\u017ee, m\u016f\u017eete je kliknut\u00edm p\u0159idat."
+		}
 	},
 	"myqr": {
 		"Title": "M\u016fj QR"

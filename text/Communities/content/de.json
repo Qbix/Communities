@@ -127,7 +127,12 @@
 			"Title": "Nach Interesse filtern",
 			"Filter": "Interessenten anzeigen. . ."
 		},
-		"Keywords": "{{1}} Menschen-Community"
+		"Keywords": "{{1}} Menschen-Community",
+		"roles": {
+			"All": "Alle",
+			"Title": "Nach Rollen filtern",
+			"New": "Neue Rolle"
+		}
 	},
 	"communities": {
 		"Title": "Gemeinschaften",
@@ -304,7 +309,10 @@
 			"social": "Sozial"
 		},
 		"Roles": "Rollen",
-		"SendPaymentTo": "Senden Sie eine Zahlung an {{name}}"
+		"SendPaymentTo": "Senden Sie eine Zahlung an {{name}}",
+		"gallery": {
+			"Explanation": "Gemeinsame Bilder sind hervorgehoben. Falls Sie ebenfalls eines oder mehrere der untenstehenden Bilder besitzen, k\u00f6nnen Sie diese durch Anklicken hinzuf\u00fcgen."
+		}
 	},
 	"myqr": {
 		"Title": "Mein QR"

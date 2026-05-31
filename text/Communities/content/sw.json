@@ -127,7 +127,12 @@
 			"Title": "Chuja kulingana na Riba",
 			"Filter": "Onyesha watu wanaovutiwa na . . ."
 		},
-		"Keywords": "{{1}} jumuiya ya watu"
+		"Keywords": "{{1}} jumuiya ya watu",
+		"roles": {
+			"All": "Kila mtu",
+			"Title": "Chuja kwa Majukumu",
+			"New": "Jukumu Jipya"
+		}
 	},
 	"communities": {
 		"Title": "Jumuiya",
@@ -304,7 +309,10 @@
 			"social": "Kijamii"
 		},
 		"Roles": "Majukumu",
-		"SendPaymentTo": "Tuma malipo kwa {{name}}"
+		"SendPaymentTo": "Tuma malipo kwa {{name}}",
+		"gallery": {
+			"Explanation": "Picha za pamoja zimeangaziwa. Ikiwa pia una picha moja au zaidi kati ya hizi hapa chini, unaweza kubofya ili kuziongeza."
+		}
 	},
 	"myqr": {
 		"Title": "QR yangu"

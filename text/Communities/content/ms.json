@@ -127,7 +127,12 @@
 			"Title": "Tapis mengikut Faedah",
 			"Filter": "Tunjukkan orang yang berminat dengan . . ."
 		},
-		"Keywords": "{{1}} komuniti orang"
+		"Keywords": "{{1}} komuniti orang",
+		"roles": {
+			"All": "Semua orang",
+			"Title": "Tapis mengikut Peranan",
+			"New": "Peranan Baharu"
+		}
 	},
 	"communities": {
 		"Title": "Komuniti",
@@ -304,7 +309,10 @@
 			"social": "sosial"
 		},
 		"Roles": "Peranan",
-		"SendPaymentTo": "Hantar bayaran ke {{name}}"
+		"SendPaymentTo": "Hantar bayaran ke {{name}}",
+		"gallery": {
+			"Explanation": "Gambar bersama diserlahkan. Jika anda juga mempunyai satu atau lebih gambar di bawah, anda boleh klik untuk menambahkannya."
+		}
 	},
 	"myqr": {
 		"Title": "QR saya"

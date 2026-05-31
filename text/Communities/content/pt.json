@@ -127,7 +127,12 @@
 			"Title": "Filtrar por interesse",
 			"Filter": "Mostrar pessoas interessadas em . . ."
 		},
-		"Keywords": "{{1}} comunidade de pessoas"
+		"Keywords": "{{1}} comunidade de pessoas",
+		"roles": {
+			"All": "Todos",
+			"Title": "Filtrar por fun\u00e7\u00f5es",
+			"New": "Novo cargo"
+		}
 	},
 	"communities": {
 		"Title": "Comunidades",
@@ -304,7 +309,10 @@
 			"social": "Social"
 		},
 		"Roles": "Fun\u00e7\u00f5es",
-		"SendPaymentTo": "Envie um pagamento para {{name}}"
+		"SendPaymentTo": "Envie um pagamento para {{name}}",
+		"gallery": {
+			"Explanation": "As fotos em comum est\u00e3o destacadas. Se voc\u00ea tamb\u00e9m tiver uma ou mais das fotos abaixo, pode clicar para adicion\u00e1-las."
+		}
 	},
 	"myqr": {
 		"Title": "Meu QR"

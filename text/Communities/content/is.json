@@ -127,7 +127,12 @@
 			"Title": "S\u00eda eftir \u00e1huga",
 			"Filter": "S\u00fdndu f\u00f3lki \u00e1huga \u00e1. . ."
 		},
-		"Keywords": "{{1}} samf\u00e9lag"
+		"Keywords": "{{1}} samf\u00e9lag",
+		"roles": {
+			"All": "Allir",
+			"Title": "S\u00eda eftir hlutverkum",
+			"New": "N\u00fdtt hlutverk"
+		}
 	},
 	"communities": {
 		"Title": "Samf\u00e9l\u00f6g",
@@ -304,7 +309,10 @@
 			"social": "F\u00e9lagslegt"
 		},
 		"Roles": "Hlutverk",
-		"SendPaymentTo": "Sendi\u00f0 grei\u00f0slu \u00e1 {{name}}"
+		"SendPaymentTo": "Sendi\u00f0 grei\u00f0slu \u00e1 {{name}}",
+		"gallery": {
+			"Explanation": "Sameiginlegar myndir eru au\u00f0kenndar. Ef \u00fe\u00fa ert l\u00edka me\u00f0 eina e\u00f0a fleiri af myndunum h\u00e9r a\u00f0 ne\u00f0an getur\u00f0u smellt \u00e1 til a\u00f0 b\u00e6ta \u00feeim vi\u00f0."
+		}
 	},
 	"myqr": {
 		"Title": "QR minn"

@@ -127,7 +127,12 @@
 			"Title": "Scag de r\u00e9ir \u00dais",
 			"Filter": "Taispe\u00e1in daoine a bhfuil suim acu i . . ."
 		},
-		"Keywords": "{{1}} pobal daoine"
+		"Keywords": "{{1}} pobal daoine",
+		"roles": {
+			"All": "Gach duine",
+			"Title": "Scag de r\u00e9ir R\u00f3lanna",
+			"New": "R\u00f3l Nua"
+		}
 	},
 	"communities": {
 		"Title": "Pobail",
@@ -304,7 +309,10 @@
 			"social": "S\u00f3isialta"
 		},
 		"Roles": "R\u00f3il",
-		"SendPaymentTo": "Seol \u00edoca\u00edocht chuig {{name}}"
+		"SendPaymentTo": "Seol \u00edoca\u00edocht chuig {{name}}",
+		"gallery": {
+			"Explanation": "T\u00e1 picti\u00fair fhrithph\u00e1irteacha aibhsithe. M\u00e1 t\u00e1 ceann amh\u00e1in n\u00f3 n\u00edos m\u00f3 de na picti\u00fair th\u00edos agat freisin, is f\u00e9idir leat clice\u00e1il chun iad a chur leis."
+		}
 	},
 	"myqr": {
 		"Title": "Mo QR"

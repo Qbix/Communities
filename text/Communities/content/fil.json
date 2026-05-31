@@ -108,7 +108,12 @@
 		"SearchByName": "Maghanap ayon sa pangalan",
 		"Description": "Mga kalahok {{1}}",
 		"Keywords": "{{1}} komunidad ng mga tao",
-		"BuyCredits": "Bumili ng Mga Kredito"
+		"BuyCredits": "Bumili ng Mga Kredito",
+		"roles": {
+			"All": "Lahat",
+			"Title": "Salain ayon sa mga Tungkulin",
+			"New": "Bagong Tungkulin"
+		}
 	},
 	"communities": {
 		"Title": "Pumili ng Komunidad",
@@ -285,7 +290,10 @@
 			"social": "Sosyal"
 		},
 		"Roles": "Mga tungkulin",
-		"SendPaymentTo": "Magpadala ng bayad sa {{name}}"
+		"SendPaymentTo": "Magpadala ng bayad sa {{name}}",
+		"gallery": {
+			"Explanation": "Naka-highlight ang mga larawan ng magkaparehong grupo. Kung mayroon ka ring isa o higit pa sa mga larawan sa ibaba, maaari mong i-click para idagdag ang mga ito."
+		}
 	},
 	"myqr": {
 		"Title": "Aking QR"

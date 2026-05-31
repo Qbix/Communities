@@ -127,7 +127,12 @@
 			"Title": "Filtr\u0113t p\u0113c interes\u0113m",
 			"Filter": "Par\u0101diet cilv\u0113kiem, kurus interes\u0113 . . ."
 		},
-		"Keywords": "{{1}} cilv\u0113ku kopiena"
+		"Keywords": "{{1}} cilv\u0113ku kopiena",
+		"roles": {
+			"All": "Ikviens",
+			"Title": "Filtr\u0113t p\u0113c lom\u0101m",
+			"New": "Jauna loma"
+		}
 	},
 	"communities": {
 		"Title": "kopienas",
@@ -304,7 +309,10 @@
 			"social": "Soci\u0101lie"
 		},
 		"Roles": "Lomas",
-		"SendPaymentTo": "Nos\u016btiet maks\u0101jumu uz {{name}}"
+		"SendPaymentTo": "Nos\u016btiet maks\u0101jumu uz {{name}}",
+		"gallery": {
+			"Explanation": "Kop\u012bgie att\u0113li ir iez\u012bm\u0113ti. Ja jums ir ar\u012b viens vai vair\u0101ki no t\u0101l\u0101k nor\u0101d\u012btajiem att\u0113liem, varat noklik\u0161\u0137in\u0101t, lai tos pievienotu."
+		}
 	},
 	"myqr": {
 		"Title": "Mans QR"

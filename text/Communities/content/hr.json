@@ -108,7 +108,12 @@
 		"SearchByName": "Tra\u017ei po imenu",
 		"Description": "Ljudi u zajednici {{1}}",
 		"Keywords": "{{1}} zajednica ljudi",
-		"BuyCredits": "Kupite kredite"
+		"BuyCredits": "Kupite kredite",
+		"roles": {
+			"All": "Svi",
+			"Title": "Filtriraj po ulogama",
+			"New": "Nova uloga"
+		}
 	},
 	"communities": {
 		"Title": "Zajednice",
@@ -285,7 +290,10 @@
 			"social": "Dru\u0161tveni"
 		},
 		"Roles": "Uloge",
-		"SendPaymentTo": "Po\u0161aljite uplatu na {{name}}"
+		"SendPaymentTo": "Po\u0161aljite uplatu na {{name}}",
+		"gallery": {
+			"Explanation": "Me\u0111usobne slike su istaknute. Ako i vi imate jednu ili vi\u0161e slika u nastavku, mo\u017eete ih dodati klikom."
+		}
 	},
 	"myqr": {
 		"Title": "Moj QR"

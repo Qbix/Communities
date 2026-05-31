@@ -127,7 +127,12 @@
 			"Title": "Iffiltra mill-Interess",
 			"Filter": "Uri lin-nies interessati. . ."
 		},
-		"Keywords": "{{1}} komunit\u00e0 tan-nies"
+		"Keywords": "{{1}} komunit\u00e0 tan-nies",
+		"roles": {
+			"All": "Kul\u0127add",
+			"Title": "Iffiltra skont ir-Rwoli",
+			"New": "Rwol \u0120did"
+		}
 	},
 	"communities": {
 		"Title": "Komunitajiet",
@@ -304,7 +309,10 @@
 			"social": "So\u010bjali"
 		},
 		"Roles": "Rwoli",
-		"SendPaymentTo": "Ibg\u0127at \u0127las lil {{name}}"
+		"SendPaymentTo": "Ibg\u0127at \u0127las lil {{name}}",
+		"gallery": {
+			"Explanation": "Stampi re\u010bipro\u010bi huma enfasizzati. Jekk g\u0127andek ukoll wa\u0127da jew aktar mill-istampi t&#39;hawn ta\u0127t, tista&#39; tikklikkja biex i\u017c\u017cidhom."
+		}
 	},
 	"myqr": {
 		"Title": "QR tieg\u0127i"
