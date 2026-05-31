@@ -1354,9 +1354,9 @@ html.Q_notMobile #dashboard_slot .Users_avatar_tool img {
 	color: var(--dashboard-main-color);
 }
 
-.Q_mobnile #dashboard .Q_tabs_tab *,
+.Q_mobile #dashboard .Q_tabs_tab *,
 .Q_listing_wrapper .Q_tabs_tab * {
-	color: var(--dashboard-mobile-color);
+	color: var(--dashboard-mobile-color, --dashboard-main-color);
 }
 
 .Communities_icon::before,
