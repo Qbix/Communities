@@ -1354,9 +1354,9 @@ html.Q_notMobile #dashboard_slot .Users_avatar_tool img {
 	color: var(--dashboard-main-color);
 }
 
-.Q_mobile #dashboard .Q_tabs_tab *,
+.Q_mobnile #dashboard .Q_tabs_tab *,
 .Q_listing_wrapper .Q_tabs_tab * {
-	color: var(--dashboard-mobile-color, --dashboard-main-color);
+	color: var(--dashboard-mobile-color);
 }
 
 .Communities_icon::before,
@@ -1646,7 +1646,9 @@ body .Q_contextual .Q_listing {
 }
 .Q_mobile.Communities .Q_columns_column.Q_column_1,
 .Q_mobile.Communities .Q_columns_column.Q_column_2,
-.Q_mobile.Communities .Q_columns_column.Q_column_3 {
+.Q_mobile.Communities .Q_columns_column.Q_column_3,
+.Q_mobile.Communities .Q_columns_column.Q_column_4,
+.Q_mobile.Communities .Q_columns_column.Q_column_5 {
 	height: calc(100% + 70px) !important;
 }    
 
