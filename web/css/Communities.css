@@ -1658,6 +1658,11 @@ body .Q_contextual .Q_listing {
     overflow-y: auto;
 }
 
+.Q_notMobile .Communities_column_profile {
+	flex-grow: 0.3;
+}
+
+
 /* Handle hidden title case */
 .Communities .Q_columns_column.Q_columns_hideTitle .Q_columns_title {
     display: none;
