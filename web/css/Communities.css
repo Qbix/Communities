@@ -291,6 +291,7 @@ html[data-dashboard-style="contextual"].Q_mobile .Users_status_login_title {
 .Communities_tabs[data-style="icons"] .Streams_aspect_promote,
 .Communities_tabs[data-style="icons"] .Communities_tab.Streams_aspect_events { color: #742e7f; border-color: #742e7f; border-bottom-color: transparent; }
 
+input { color: var(--html-color); }
 input[name=query].Streams_userChooser_input,
 input[name=query].Communities_conversationChooser_input,
 input[name=query].Communities_eventChooser_input,
