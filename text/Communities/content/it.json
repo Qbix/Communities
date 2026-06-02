@@ -127,7 +127,12 @@
 			"Title": "Filtra per interesse",
 			"Filter": "Mostra le persone interessate a . . ."
 		},
-		"Keywords": "{{1}} comunit\u00e0 di persone"
+		"Keywords": "{{1}} comunit\u00e0 di persone",
+		"roles": {
+			"All": "Tutti",
+			"Title": "Filtra per ruoli",
+			"New": "Nuovo ruolo"
+		}
 	},
 	"communities": {
 		"Title": "Comunit\u00e0",
@@ -304,7 +309,10 @@
 			"social": "Sociale"
 		},
 		"Roles": "Ruoli",
-		"SendPaymentTo": "Invia un pagamento al {{name}}"
+		"SendPaymentTo": "Invia un pagamento al {{name}}",
+		"gallery": {
+			"Explanation": "Le foto condivise sono evidenziate. Se anche tu hai una o pi\u00f9 delle foto qui sotto, puoi cliccarci sopra per aggiungerle."
+		}
 	},
 	"myqr": {
 		"Title": "Il mio QR"

@@ -127,7 +127,12 @@
 			"Title": "Filtriraj po zanimanju",
 			"Filter": "Poka\u017eite ljudem, ki jih zanima . . ."
 		},
-		"Keywords": "{{1}} skupnost ljudi"
+		"Keywords": "{{1}} skupnost ljudi",
+		"roles": {
+			"All": "Vsi",
+			"Title": "Filtriraj po vlogah",
+			"New": "Nova vloga"
+		}
 	},
 	"communities": {
 		"Title": "skupnosti",
@@ -304,7 +309,10 @@
 			"social": "Socialno"
 		},
 		"Roles": "Vloge",
-		"SendPaymentTo": "Po\u0161ljite pla\u010dilo na {{name}}"
+		"SendPaymentTo": "Po\u0161ljite pla\u010dilo na {{name}}",
+		"gallery": {
+			"Explanation": "Skupne slike so ozna\u010dene. \u010ce imate tudi vi eno ali ve\u010d spodnjih slik, jih lahko dodate s klikom."
+		}
 	},
 	"myqr": {
 		"Title": "Moj QR"

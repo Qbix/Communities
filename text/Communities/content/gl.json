@@ -127,7 +127,12 @@
 			"Title": "Filtrar por intereses",
 			"Filter": "Mostra \u00e1s persoas interesadas en . . ."
 		},
-		"Keywords": "{{1}} comunidade de persoas"
+		"Keywords": "{{1}} comunidade de persoas",
+		"roles": {
+			"All": "Todos",
+			"Title": "Filtrar por funci\u00f3ns",
+			"New": "Novo rol"
+		}
 	},
 	"communities": {
 		"Title": "Comunidades",
@@ -304,7 +309,10 @@
 			"social": "Sociais"
 		},
 		"Roles": "Papeis",
-		"SendPaymentTo": "Env\u00eda un pago ao {{name}}"
+		"SendPaymentTo": "Env\u00eda un pago ao {{name}}",
+		"gallery": {
+			"Explanation": "As imaxes mutuas est\u00e1n destacadas. Se tam\u00e9n tes unha ou m\u00e1is das imaxes seguintes, podes premer para engadilas."
+		}
 	},
 	"myqr": {
 		"Title": "O meu QR"

@@ -286,7 +286,7 @@
 		"events": {
 			"controls": true,
 			"anyoneNewEvent": false,
-			"fromTimeShift": 7200, /* amount of seconds to move fromTime back, to show already started events */
+			"fromTimeBuffer": 7200, /* amount of seconds to move fromTime back, to show already started events */
 			"interests": {
 				"ordering": null
 			},

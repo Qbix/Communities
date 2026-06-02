@@ -8,6 +8,9 @@ function Communities_people_response_load()
 	$options['limit'] = (int)Q::ifset($_REQUEST, 'limit', Q_Config::get(
 		'Communities', 'pageSizes', 'people', 50
 	));
+	if (!empty($_REQUEST['labels'])) {
+		$options['filterByLabels'] = $_REQUEST['labels'];
+	}
 
 	$userIds = Streams::userIds($options);
 

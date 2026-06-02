@@ -127,7 +127,12 @@
 			"Title": "Filtrer par int\u00e9r\u00eat",
 			"Filter": "Afficher les personnes int\u00e9ress\u00e9es par . . ."
 		},
-		"Keywords": "{{1}} communaut\u00e9 de personnes"
+		"Keywords": "{{1}} communaut\u00e9 de personnes",
+		"roles": {
+			"All": "Tout le monde",
+			"Title": "Filtrer par r\u00f4les",
+			"New": "Nouveau r\u00f4le"
+		}
 	},
 	"communities": {
 		"Title": "Communaut\u00e9s",
@@ -304,7 +309,10 @@
 			"social": "Social"
 		},
 		"Roles": "Les r\u00f4les",
-		"SendPaymentTo": "Envoyez un paiement au {{name}}"
+		"SendPaymentTo": "Envoyez un paiement au {{name}}",
+		"gallery": {
+			"Explanation": "Les photos partag\u00e9es sont mises en \u00e9vidence. Si vous poss\u00e9dez \u00e9galement une ou plusieurs des photos ci-dessous, vous pouvez cliquer pour les ajouter."
+		}
 	},
 	"myqr": {
 		"Title": "Mon QR"

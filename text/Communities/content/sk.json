@@ -127,7 +127,12 @@
 			"Title": "Filtrujte pod\u013ea z\u00e1ujmu",
 			"Filter": "Uk\u00e1\u017ete \u013eu\u010fom, ktor\u00ed sa zauj\u00edmaj\u00fa o . . ."
 		},
-		"Keywords": "{{1}} komunita \u013eud\u00ed"
+		"Keywords": "{{1}} komunita \u013eud\u00ed",
+		"roles": {
+			"All": "Ka\u017ed\u00fd",
+			"Title": "Filtrova\u0165 pod\u013ea rol\u00ed",
+			"New": "Nov\u00e1 rola"
+		}
 	},
 	"communities": {
 		"Title": "komunity",
@@ -304,7 +309,10 @@
 			"social": "Soci\u00e1lna"
 		},
 		"Roles": "Roly",
-		"SendPaymentTo": "Po\u0161lite platbu na {{name}}"
+		"SendPaymentTo": "Po\u0161lite platbu na {{name}}",
+		"gallery": {
+			"Explanation": "Spolo\u010dn\u00e9 obr\u00e1zky s\u00fa zv\u00fdraznen\u00e9. Ak m\u00e1te aj jeden alebo viacero obr\u00e1zkov ni\u017e\u0161ie, m\u00f4\u017eete ich kliknut\u00edm prida\u0165."
+		}
 	},
 	"myqr": {
 		"Title": "M\u00f4j QR"

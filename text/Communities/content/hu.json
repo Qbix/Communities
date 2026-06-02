@@ -127,7 +127,12 @@
 			"Title": "Sz\u0171r\u00e9s \u00e9rdekl\u0151d\u00e9s szerint",
 			"Filter": "Mutasd meg a ir\u00e1nt \u00e9rdekl\u0151d\u0151ket. . ."
 		},
-		"Keywords": "{{1}} szem\u00e9ly k\u00f6z\u00f6ss\u00e9ge"
+		"Keywords": "{{1}} szem\u00e9ly k\u00f6z\u00f6ss\u00e9ge",
+		"roles": {
+			"All": "Mindenki",
+			"Title": "Sz\u0171r\u00e9s szerepk\u00f6r\u00f6k szerint",
+			"New": "\u00daj szerepk\u00f6r"
+		}
 	},
 	"communities": {
 		"Title": "K\u00f6z\u00f6ss\u00e9gek",
@@ -304,7 +309,10 @@
 			"social": "Szoci\u00e1lis"
 		},
 		"Roles": "Szerepek",
-		"SendPaymentTo": "Fizet\u00e9s k\u00fcld\u00e9se {{name}}"
+		"SendPaymentTo": "Fizet\u00e9s k\u00fcld\u00e9se {{name}}",
+		"gallery": {
+			"Explanation": "A k\u00f6z\u00f6s k\u00e9pek kiemelve jelennek meg. Ha az al\u00e1bbi k\u00e9pek k\u00f6z\u00fcl egy vagy t\u00f6bb neked is van, kattints r\u00e1juk a hozz\u00e1ad\u00e1shoz."
+		}
 	},
 	"myqr": {
 		"Title": "Saj\u00e1t QR"

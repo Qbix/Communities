@@ -127,7 +127,12 @@
 			"Title": "Hidlo yn \u00f4l Llog",
 			"Filter": "Dangos pobl sydd \u00e2 diddordeb mewn . . ."
 		},
-		"Keywords": "{{1}} cymuned o bobl"
+		"Keywords": "{{1}} cymuned o bobl",
+		"roles": {
+			"All": "Pawb",
+			"Title": "Hidlo yn \u00f4l R\u00f4l",
+			"New": "R\u00f4l Newydd"
+		}
 	},
 	"communities": {
 		"Title": "Cymunedau",
@@ -304,7 +309,10 @@
 			"social": "Cymdeithasol"
 		},
 		"Roles": "Rolau",
-		"SendPaymentTo": "Anfonwch daliad i {{name}}"
+		"SendPaymentTo": "Anfonwch daliad i {{name}}",
+		"gallery": {
+			"Explanation": "Mae lluniau cydfuddiannol wedi&#39;u hamlygu. Os oes gennych chi un neu fwy o&#39;r lluniau isod hefyd, gallwch glicio i&#39;w hychwanegu."
+		}
 	},
 	"myqr": {
 		"Title": "Fy QR"

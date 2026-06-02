@@ -108,7 +108,12 @@
 		"SearchByName": "\u6309\u540d\u79f0\u641c\u7d22",
 		"Description": "{{1}} \u793e\u533a\u4e2d\u7684\u4eba",
 		"Keywords": "{{1}} \u4eba\u793e\u533a",
-		"BuyCredits": "\u8d2d\u4e70\u79ef\u5206"
+		"BuyCredits": "\u8d2d\u4e70\u79ef\u5206",
+		"roles": {
+			"All": "\u6bcf\u4e2a\u4eba",
+			"Title": "\u6309\u89d2\u8272\u7b5b\u9009",
+			"New": "\u65b0\u89d2\u8272"
+		}
 	},
 	"communities": {
 		"Title": "\u793e\u533a",
@@ -285,7 +290,10 @@
 			"social": "\u793e\u4f1a\u7684"
 		},
 		"Roles": "\u89d2\u8272",
-		"SendPaymentTo": "\u5411{{name}}\u4ed8\u6b3e"
+		"SendPaymentTo": "\u5411{{name}}\u4ed8\u6b3e",
+		"gallery": {
+			"Explanation": "\u53cc\u65b9\u90fd\u62e5\u6709\u7684\u7167\u7247\u4f1a\u9ad8\u4eae\u663e\u793a\u3002\u5982\u679c\u60a8\u4e5f\u6709\u4ee5\u4e0b\u4e00\u5f20\u6216\u591a\u5f20\u7167\u7247\uff0c\u53ef\u4ee5\u70b9\u51fb\u6dfb\u52a0\u3002"
+		}
 	},
 	"myqr": {
 		"Title": "\u6211\u7684\u4e8c\u7ef4\u7801"

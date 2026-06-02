@@ -108,7 +108,12 @@
 		"SearchByName": "K\u00ebrko sipas emrit",
 		"Description": "Njer\u00ebzit n\u00eb komunitetin {{1}}",
 		"Keywords": "{{1}} komuniteti i njer\u00ebzve",
-		"BuyCredits": "Bleni Kredi"
+		"BuyCredits": "Bleni Kredi",
+		"roles": {
+			"All": "T\u00eb gjith\u00eb",
+			"Title": "Filtro sipas Roleve",
+			"New": "Rol i Ri"
+		}
 	},
 	"communities": {
 		"Title": "komunitetet",
@@ -285,7 +290,10 @@
 			"social": "Sociale"
 		},
 		"Roles": "Rolet",
-		"SendPaymentTo": "D\u00ebrgo nj\u00eb pages\u00eb n\u00eb {{name}}"
+		"SendPaymentTo": "D\u00ebrgo nj\u00eb pages\u00eb n\u00eb {{name}}",
+		"gallery": {
+			"Explanation": "Fotografit\u00eb e nd\u00ebrsjella jan\u00eb t\u00eb theksuara. N\u00ebse keni edhe nj\u00eb ose m\u00eb shum\u00eb nga fotografit\u00eb m\u00eb posht\u00eb, mund t\u00eb klikoni p\u00ebr t&#39;i shtuar ato."
+		}
 	},
 	"myqr": {
 		"Title": "QR-ja ime"

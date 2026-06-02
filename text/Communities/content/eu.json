@@ -108,7 +108,12 @@
 		"SearchByName": "Bilatu izenaren arabera",
 		"Description": "{{1}} komunitateko jendea",
 		"Keywords": "{{1}} pertsona komunitatea",
-		"BuyCredits": "Erosi Kredituak"
+		"BuyCredits": "Erosi Kredituak",
+		"roles": {
+			"All": "Denak",
+			"Title": "Iragazi rolen arabera",
+			"New": "Rol berria"
+		}
 	},
 	"communities": {
 		"Title": "Komunitateak",
@@ -285,7 +290,10 @@
 			"social": "Sozialak"
 		},
 		"Roles": "Rolak",
-		"SendPaymentTo": "Bidali ordainketa {{name}} zenbakira"
+		"SendPaymentTo": "Bidali ordainketa {{name}} zenbakira",
+		"gallery": {
+			"Explanation": "Elkarren arteko irudiak nabarmenduta daude. Beheko irudietako bat edo gehiago badituzu, klik egin dezakezu gehitzeko."
+		}
 	},
 	"myqr": {
 		"Title": "Nire QR"

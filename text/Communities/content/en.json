@@ -157,6 +157,11 @@
 			"Title": "Filter by Relationship",
 			"New": "New Relationship Type"
 		},
+		"roles": {
+			"All": "Everyone",
+			"Title": "Filter by Roles",
+			"New": "New Role"
+		},
 		"interests": {
 			"All": "All Interests",
 			"Title": "Filter by Interest",

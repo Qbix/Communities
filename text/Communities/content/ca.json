@@ -108,7 +108,12 @@
 		"SearchByName": "Cerca per nom",
 		"Description": "Gent de la comunitat {{1}}",
 		"Keywords": "{{1}} comunitat de persones",
-		"BuyCredits": "Comprar cr\u00e8dits"
+		"BuyCredits": "Comprar cr\u00e8dits",
+		"roles": {
+			"All": "Tothom",
+			"Title": "Filtra per rols",
+			"New": "Nou rol"
+		}
 	},
 	"communities": {
 		"Title": "Comunitats",
@@ -285,7 +290,10 @@
 			"social": "Social"
 		},
 		"Roles": "Rols",
-		"SendPaymentTo": "Envieu un pagament al {{name}}"
+		"SendPaymentTo": "Envieu un pagament al {{name}}",
+		"gallery": {
+			"Explanation": "Les imatges m\u00fatues estan ressaltades. Si tamb\u00e9 teniu una o m\u00e9s de les imatges seg\u00fcents, podeu fer clic per afegir-les."
+		}
 	},
 	"myqr": {
 		"Title": "El meu QR"

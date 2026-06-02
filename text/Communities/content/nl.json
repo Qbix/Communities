@@ -108,7 +108,12 @@
 		"SearchByName": "Zoek op naam",
 		"Description": "Mensen in de {{1}} gemeenschap",
 		"Keywords": "{{1}} mensengemeenschap",
-		"BuyCredits": "Koop tegoed"
+		"BuyCredits": "Koop tegoed",
+		"roles": {
+			"All": "Iedereen",
+			"Title": "Filteren op rollen",
+			"New": "Nieuwe rol"
+		}
 	},
 	"communities": {
 		"Title": "Gemeenschappen",
@@ -285,7 +290,10 @@
 			"social": "Sociaal"
 		},
 		"Roles": "Rollen",
-		"SendPaymentTo": "Stuur een betaling naar {{name}}"
+		"SendPaymentTo": "Stuur een betaling naar {{name}}",
+		"gallery": {
+			"Explanation": "Gezamenlijke foto&#39;s zijn gemarkeerd. Als u ook een of meer van de onderstaande foto&#39;s heeft, kunt u erop klikken om ze toe te voegen."
+		}
 	},
 	"myqr": {
 		"Title": "Mijn QR"

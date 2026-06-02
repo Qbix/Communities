@@ -127,7 +127,12 @@
 			"Title": "Filtruoti pagal pom\u0117gius",
 			"Filter": "Rodyti \u017emon\u0117ms, kurie domisi . . ."
 		},
-		"Keywords": "{{1}} \u017emoni\u0173 bendruomen\u0117"
+		"Keywords": "{{1}} \u017emoni\u0173 bendruomen\u0117",
+		"roles": {
+			"All": "Visi",
+			"Title": "Filtruoti pagal vaidmenis",
+			"New": "Naujas vaidmuo"
+		}
 	},
 	"communities": {
 		"Title": "Bendruomen\u0117s",
@@ -304,7 +309,10 @@
 			"social": "Socialinis"
 		},
 		"Roles": "Vaidmenys",
-		"SendPaymentTo": "Si\u0173skite mok\u0117jim\u0105 numeriu {{name}}"
+		"SendPaymentTo": "Si\u0173skite mok\u0117jim\u0105 numeriu {{name}}",
+		"gallery": {
+			"Explanation": "Bendros nuotraukos yra pary\u0161kintos. Jei turite vien\u0105 ar daugiau nuotrauk\u0173 i\u0161 \u017eemiau pateikt\u0173, galite spustel\u0117ti, kad jas prid\u0117tum\u0117te."
+		}
 	},
 	"myqr": {
 		"Title": "Mano QR"

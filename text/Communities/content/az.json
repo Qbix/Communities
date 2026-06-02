@@ -108,7 +108,12 @@
 		"SearchByName": "Ada g\u00f6r\u0259 axtar\u0131n",
 		"Description": "{{1}} icmadak\u0131 insanlar",
 		"Keywords": "{{1}} n\u0259f\u0259r icmas\u0131",
-		"BuyCredits": "Kredit Al\u0131n"
+		"BuyCredits": "Kredit Al\u0131n",
+		"roles": {
+			"All": "H\u0259r k\u0259s",
+			"Title": "Rollara g\u00f6r\u0259 filtrl\u0259yin",
+			"New": "Yeni Rol N\u00f6v\u00fc"
+		}
 	},
 	"communities": {
 		"Title": "\u0130cmalar",
@@ -285,7 +290,10 @@
 			"social": "Sosial"
 		},
 		"Roles": "Rollar",
-		"SendPaymentTo": "\u00d6d\u0259ni\u015fi {{name}} n\u00f6mr\u0259sin\u0259 g\u00f6nd\u0259rin"
+		"SendPaymentTo": "\u00d6d\u0259ni\u015fi {{name}} n\u00f6mr\u0259sin\u0259 g\u00f6nd\u0259rin",
+		"gallery": {
+			"Explanation": "Qar\u015f\u0131l\u0131ql\u0131 \u015f\u0259kill\u0259r vur\u011fulanm\u0131\u015fd\u0131r. \u018fg\u0259r a\u015fa\u011f\u0131dak\u0131 \u015f\u0259kill\u0259rd\u0259n biri v\u0259 ya bir ne\u00e7\u0259si sizd\u0259 d\u0259 varsa, onlar\u0131 \u0259lav\u0259 etm\u0259k \u00fc\u00e7\u00fcn klikl\u0259y\u0259 bil\u0259rsiniz."
+		}
 	},
 	"myqr": {
 		"Title": "M\u0259nim QR"

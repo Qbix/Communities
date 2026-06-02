@@ -127,7 +127,12 @@
 			"Title": "Filtreerige huvide j\u00e4rgi",
 			"Filter": "N\u00e4idake inimesi, kes on huvitatud . . ."
 		},
-		"Keywords": "{{1}} inimese kogukond"
+		"Keywords": "{{1}} inimese kogukond",
+		"roles": {
+			"All": "K\u00f5ik",
+			"Title": "Filtreeri rollide j\u00e4rgi",
+			"New": "Uus roll"
+		}
 	},
 	"communities": {
 		"Title": "kogukonnad",
@@ -304,7 +309,10 @@
 			"social": "Sotsiaalne"
 		},
 		"Roles": "Rollid",
-		"SendPaymentTo": "Saada makse numbrile {{name}}"
+		"SendPaymentTo": "Saada makse numbrile {{name}}",
+		"gallery": {
+			"Explanation": "\u00dchised pildid on esile t\u00f5stetud. Kui teil on ka \u00fcks v\u00f5i mitu allolevat pilti, saate need lisada kl\u00f5psates."
+		}
 	},
 	"myqr": {
 		"Title": "Minu QR"

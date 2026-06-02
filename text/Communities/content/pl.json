@@ -127,7 +127,12 @@
 			"Title": "Filtruj wed\u0142ug zainteresowa\u0144",
 			"Filter": "Poka\u017c osobom zainteresowanym . . ."
 		},
-		"Keywords": "Spo\u0142eczno\u015b\u0107 {{1}} os\u00f3b"
+		"Keywords": "Spo\u0142eczno\u015b\u0107 {{1}} os\u00f3b",
+		"roles": {
+			"All": "Wszyscy",
+			"Title": "Filtruj wed\u0142ug r\u00f3l",
+			"New": "Nowa rola"
+		}
 	},
 	"communities": {
 		"Title": "Spo\u0142eczno\u015bci",
@@ -304,7 +309,10 @@
 			"social": "Spo\u0142eczny"
 		},
 		"Roles": "Role",
-		"SendPaymentTo": "Wy\u015blij p\u0142atno\u015b\u0107 na {{name}}"
+		"SendPaymentTo": "Wy\u015blij p\u0142atno\u015b\u0107 na {{name}}",
+		"gallery": {
+			"Explanation": "Wzajemne zdj\u0119cia s\u0105 pod\u015bwietlone. Je\u015bli posiadasz r\u00f3wnie\u017c jedno lub wi\u0119cej z poni\u017cszych zdj\u0119\u0107, mo\u017cesz je klikn\u0105\u0107, aby je doda\u0107."
+		}
 	},
 	"myqr": {
 		"Title": "M\u00f3j QR"

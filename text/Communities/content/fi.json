@@ -127,7 +127,12 @@
 			"Title": "Suodata kiinnostuksen kohteiden mukaan",
 			"Filter": "N\u00e4yt\u00e4 aiheesta kiinnostuneet ihmiset. . ."
 		},
-		"Keywords": "{{1}} henkil\u00f6n yhteis\u00f6"
+		"Keywords": "{{1}} henkil\u00f6n yhteis\u00f6",
+		"roles": {
+			"All": "Kaikki",
+			"Title": "Suodata roolien mukaan",
+			"New": "Uusi rooli"
+		}
 	},
 	"communities": {
 		"Title": "yhteis\u00f6t",
@@ -304,7 +309,10 @@
 			"social": "Sosiaalinen"
 		},
 		"Roles": "Roolit",
-		"SendPaymentTo": "L\u00e4het\u00e4 maksu numeroon {{name}}"
+		"SendPaymentTo": "L\u00e4het\u00e4 maksu numeroon {{name}}",
+		"gallery": {
+			"Explanation": "Yhteiset kuvat on korostettu. Jos sinulla on my\u00f6s yksi tai useampi alla olevista kuvista, voit lis\u00e4t\u00e4 ne napsauttamalla."
+		}
 	},
 	"myqr": {
 		"Title": "Minun QR"

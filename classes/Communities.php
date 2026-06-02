@@ -610,9 +610,9 @@ abstract class Communities
 	static function defaultEventTimes()
 	{
 		$fromTime = Q_Config::get('Communities', 'events', 'fromTime', time());
-		$fromTimeShift = Q_Config::get('Communities', 'events', 'fromTimeShift', 0);
-		if ($fromTimeShift) {
-			$fromTime = $fromTime - $fromTimeShift;
+		$fromTimeBuffer = Q_Config::get('Communities', 'events', 'fromTimeBuffer', 0);
+		if ($fromTimeBuffer) {
+			$fromTime = $fromTime - $fromTimeBuffer;
 		}
 		$toTime = Q_Config::get('Communities', 'events', 'toTime',
 			time() + Calendars_Event::defaultListingDuration()
@@ -667,7 +667,7 @@ abstract class Communities
 				$lastEvent = Streams::fetchOne($lastEvent->fromPublisherId, $lastEvent->fromPublisherId, $lastEvent->fromStreamName);
 				$lastEventEndTime = $lastEvent->getAttribute("endTime", $lastEvent->getAttribute("startTime"));
 				if (time() > (int)$lastEventEndTime) {
-					$weight = null;
+					$weight = null; // show all events as a time capsule, because the final event already ended
 				}
 			}
 		}
@@ -683,7 +683,6 @@ abstract class Communities
 			if (is_array($interest)) {
 				$interest = $interest[0] . ': ' . implode(' ', array_slice($interest, 1));
 			}
-
 			$relations = Places_Interest::byTime(
 				$communityId, $relationType, $interest, $fromTime, $toTime, $experienceId
 			);

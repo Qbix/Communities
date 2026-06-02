@@ -127,7 +127,12 @@
 			"Title": "\u0130lgi Alan\u0131na G\u00f6re Filtrele",
 			"Filter": "\u0130lgilenen ki\u015fileri g\u00f6ster. . ."
 		},
-		"Keywords": "{{1}} ki\u015fi toplulu\u011fu"
+		"Keywords": "{{1}} ki\u015fi toplulu\u011fu",
+		"roles": {
+			"All": "Herkes",
+			"Title": "Rollere g\u00f6re filtrele",
+			"New": "Yeni Rol"
+		}
 	},
 	"communities": {
 		"Title": "Topluluklar",
@@ -304,7 +309,10 @@
 			"social": "Sosyal"
 		},
 		"Roles": "Roller",
-		"SendPaymentTo": "{{name}} \u00f6deme g\u00f6nderin"
+		"SendPaymentTo": "{{name}} \u00f6deme g\u00f6nderin",
+		"gallery": {
+			"Explanation": "Ortak foto\u011fraflar \u00f6ne \u00e7\u0131kar\u0131lm\u0131\u015ft\u0131r. A\u015fa\u011f\u0131daki foto\u011fraflardan bir veya daha fazlas\u0131na sahipseniz, eklemek i\u00e7in t\u0131klayabilirsiniz."
+		}
 	},
 	"myqr": {
 		"Title": "QR&#39;m"

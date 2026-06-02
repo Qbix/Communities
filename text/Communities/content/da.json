@@ -108,7 +108,12 @@
 		"SearchByName": "S\u00f8g p\u00e5 navn",
 		"Description": "Personer i {{1}}-f\u00e6llesskabet",
 		"Keywords": "{{1}} personers f\u00e6llesskab",
-		"BuyCredits": "K\u00f8b kreditter"
+		"BuyCredits": "K\u00f8b kreditter",
+		"roles": {
+			"All": "Alle",
+			"Title": "Filtrer efter roller",
+			"New": "Ny rolle"
+		}
 	},
 	"communities": {
 		"Title": "F\u00e6llesskaber",
@@ -285,7 +290,10 @@
 			"social": "Social"
 		},
 		"Roles": "Roller",
-		"SendPaymentTo": "Send en betaling til {{name}}"
+		"SendPaymentTo": "Send en betaling til {{name}}",
+		"gallery": {
+			"Explanation": "F\u00e6lles billeder er fremh\u00e6vet. Hvis du ogs\u00e5 har et eller flere af billederne nedenfor, kan du klikke for at tilf\u00f8je dem."
+		}
 	},
 	"myqr": {
 		"Title": "Min QR"

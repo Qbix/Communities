@@ -127,7 +127,12 @@
 			"Title": "Filtra\u021bi dup\u0103 interes",
 			"Filter": "Arat\u0103 persoanelor interesate de . . ."
 		},
-		"Keywords": "{{1}} comunitate de oameni"
+		"Keywords": "{{1}} comunitate de oameni",
+		"roles": {
+			"All": "Toat\u0103 lumea",
+			"Title": "Filtrare dup\u0103 roluri",
+			"New": "Rol nou"
+		}
 	},
 	"communities": {
 		"Title": "Comunit\u0103\u021bile",
@@ -304,7 +309,10 @@
 			"social": "Social"
 		},
 		"Roles": "Roluri",
-		"SendPaymentTo": "Trimite\u021bi o plat\u0103 la {{name}}"
+		"SendPaymentTo": "Trimite\u021bi o plat\u0103 la {{name}}",
+		"gallery": {
+			"Explanation": "Imaginile comune sunt eviden\u021biate. Dac\u0103 ave\u021bi \u0219i dumneavoastr\u0103 una sau mai multe dintre imaginile de mai jos, pute\u021bi face clic pentru a le ad\u0103uga."
+		}
 	},
 	"myqr": {
 		"Title": "QR-ul meu"

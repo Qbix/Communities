@@ -127,7 +127,12 @@
 			"Title": "Filtrera efter intresse",
 			"Filter": "Visa personer som \u00e4r intresserade av . . ."
 		},
-		"Keywords": "{{1}} personers grupp"
+		"Keywords": "{{1}} personers grupp",
+		"roles": {
+			"All": "Alla",
+			"Title": "Filtrera efter roller",
+			"New": "Ny roll"
+		}
 	},
 	"communities": {
 		"Title": "gemenskaper",
@@ -304,7 +309,10 @@
 			"social": "Social"
 		},
 		"Roles": "Roller",
-		"SendPaymentTo": "Skicka en betalning till {{name}}"
+		"SendPaymentTo": "Skicka en betalning till {{name}}",
+		"gallery": {
+			"Explanation": "Gemensamma bilder \u00e4r markerade. Om du ocks\u00e5 har en eller flera av bilderna nedan kan du klicka f\u00f6r att l\u00e4gga till dem."
+		}
 	},
 	"myqr": {
 		"Title": "Min QR"

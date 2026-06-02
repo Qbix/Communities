@@ -108,7 +108,12 @@
 		"SearchByName": "Soek op naam",
 		"Description": "Mense in {{1}} gemeenskap",
 		"Keywords": "{{1}} mense gemeenskap",
-		"BuyCredits": "Koop Krediete"
+		"BuyCredits": "Koop Krediete",
+		"roles": {
+			"All": "Almal",
+			"Title": "Filter volgens Rolle",
+			"New": "Nuwe Roltipe"
+		}
 	},
 	"communities": {
 		"Title": "Gemeenskappe",
@@ -285,7 +290,10 @@
 			"social": "Sosiaal"
 		},
 		"Roles": "Rolle",
-		"SendPaymentTo": "Stuur &#39;n betaling na {{name}}"
+		"SendPaymentTo": "Stuur &#39;n betaling na {{name}}",
+		"gallery": {
+			"Explanation": "Gemeenskaplike foto&#39;s word uitgelig. As jy ook een of meer van die foto&#39;s hieronder het, kan jy klik om hulle by te voeg."
+		}
 	},
 	"myqr": {
 		"Title": "My QR"
