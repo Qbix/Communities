@@ -919,21 +919,14 @@ abstract class Communities
 		return $contacts;
 	}
 	/**
-	 * Get or create Streams/chats/main stream for some community
+	 * Get or create Streams/chats/main stream for some community.
 	 * @method chatsMainCategory
-	 * @param $communityId
+	 * @static
+	 * @param {string} $communityId
 	 * @return Streams_Stream
 	 */
 	static function chatsMainCategory($communityId) {
-		$streamName = 'Streams/chats/main';
-		$stream = Streams_Stream::fetch($communityId, $communityId, $streamName);
-		if (!$stream) {
-			$stream = Streams::create($communityId, $communityId, 'Streams/category', array(
-				'name' => $streamName,
-				'title' => "$communityId chats"
-			));
-		}
-		return $stream;
+		return Streams::fetchOneOrCreate($communityId, $communityId, 'Streams/chats/main');
 	}
 
 	/**
