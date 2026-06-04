@@ -60,7 +60,6 @@
 }
 .Communities_onboarding_overlay {
     background: url(../../../Q/img/bg/overlay-dark.png);
-    color: white;
 }
 .Communities_onboarding_overlay .Q_dialog_content {
     padding: 5px;
