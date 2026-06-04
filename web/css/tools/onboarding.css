@@ -343,13 +343,13 @@ html.Communities_onboarding #columns_slot .Q_column_0 .column_slot {
 }
 
 
-.Communities_onboarding_step>*:first-child {
+html.Q_notMobile.Communities_onboarding .Communities_onboarding_step>*:first-child {
     position: relative;
     top: 50%;
     transform: translate(0, -50%);
 }
 
-.Communities_onboarding .Q_notMobile .Communities_onboarding_step.Communities_onboarding_interests {
+html.Q_notMobile.Communities_onboarding .Communities_onboarding_step.Communities_onboarding_interests {
     width: 50%;
     margin: auto;
     padding: 50px;
