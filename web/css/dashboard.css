@@ -391,7 +391,6 @@ html.Q_mobile[data-dashboard-position="bottom"] #dashboard_slot {
 	margin-right: 0;
 	width: calc(var(--dashboard-mobile-height) * 0.9);
 	height: calc(var(--dashboard-mobile-height) * 0.9);
-	margin-bottom: 9px;
 }
 .Q_mobile #dashboard[data-style=icons] .Users_status_tool, 
 .Q_mobile #dashboard[data-style=icons] .Users_status_login {
