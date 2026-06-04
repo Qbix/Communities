@@ -350,7 +350,7 @@ html.Communities_onboarding #columns_slot .Q_column_0 .column_slot {
     transform: translate(0, -50%);
 }
 
-.Q_notMobile .Communities_onboarding_step.Communities_onboarding_interests {
+.Communities_onboarding .Q_notMobile .Communities_onboarding_step.Communities_onboarding_interests {
     width: 50%;
     margin: auto;
     padding: 50px;
