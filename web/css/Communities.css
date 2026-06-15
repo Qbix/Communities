@@ -291,7 +291,6 @@ html[data-dashboard-style="contextual"].Q_mobile .Users_status_login_title {
 .Communities_tabs[data-style="icons"] .Streams_aspect_promote,
 .Communities_tabs[data-style="icons"] .Communities_tab.Streams_aspect_events { color: #742e7f; border-color: #742e7f; border-bottom-color: transparent; }
 
-input { color: var(--html-color); }
 input[name=query].Streams_userChooser_input,
 input[name=query].Communities_conversationChooser_input,
 input[name=query].Communities_eventChooser_input,
@@ -1355,9 +1354,9 @@ html.Q_notMobile #dashboard_slot .Users_avatar_tool img {
 	color: var(--dashboard-main-color);
 }
 
-.Q_mobile #dashboard .Q_tabs_tab *,
+.Q_mobnile #dashboard .Q_tabs_tab *,
 .Q_listing_wrapper .Q_tabs_tab * {
-	color: var(--dashboard-mobile-color, --dashboard-main-color);
+	color: var(--dashboard-mobile-color);
 }
 
 .Communities_icon::before,
@@ -1647,7 +1646,9 @@ body .Q_contextual .Q_listing {
 }
 .Q_mobile.Communities .Q_columns_column.Q_column_1,
 .Q_mobile.Communities .Q_columns_column.Q_column_2,
-.Q_mobile.Communities .Q_columns_column.Q_column_3 {
+.Q_mobile.Communities .Q_columns_column.Q_column_3,
+.Q_mobile.Communities .Q_columns_column.Q_column_4,
+.Q_mobile.Communities .Q_columns_column.Q_column_5 {
 	height: calc(100% + 70px) !important;
 }    
 
@@ -1655,6 +1656,11 @@ body .Q_contextual .Q_listing {
     flex: 1;
     overflow-y: auto;
 }
+
+.Q_notMobile .Communities_column_profile {
+	flex-grow: 0.3;
+}
+
 
 /* Handle hidden title case */
 .Communities .Q_columns_column.Q_columns_hideTitle .Q_columns_title {
