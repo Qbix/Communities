@@ -1284,9 +1284,6 @@ function _updateSlots(slotNames, url, onActivate) {
 		return;
 	}
 	_updateSlots.updating = url;
-	setTimeout(function () {
-		_updateSlots.updating = null;
-	}, 300);
 	url = url || location.href.split('#')[0].split('?')[0];
 	Q.loadUrl(url, {
 		slotNames: slotNames,
@@ -1295,6 +1292,9 @@ function _updateSlots(slotNames, url, onActivate) {
 		ignorePage: false,
 		ignoreHistory: true,
 		quiet: true,
+		onLoadEnd: function () {
+			_updateSlots.updating = null;
+		},
 		onActivate: onActivate
 	});
 }
