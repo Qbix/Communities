@@ -619,42 +619,42 @@ abstract class Communities
 		);
 		return array($fromTime, $toTime);
 	}
+
 	/**
 	 * Select events appropriate only for current user (by location, by interest etc).
-	 * @method filterEvents
-	 * @param {array} [$params] Different params
-	 * @param {string} [$params.communityId]
-	 * @param {string} [$params.experienceId]
-	 * @param {string} [$params.interest]
-	 * @param {string} [$params.category]
-	 * @param {string} [$params.offset]
-	 * @param {string} [$params.limit]
-	 * @param {string} [$params.fromTime]
-	 * @param {string} [$params.toTime]
-	 * @param {string} [$params.skipPreload=true] whether to skip preload interests, locations, area streams related to events
+	 * @method events
+	 * @param {array} [$options] Different params
+	 * @param {string} [$options.communityId]
+	 * @param {string} [$options.experienceId]
+	 * @param {string} [$options.interest]
+	 * @param {string} [$options.category]
+	 * @param {string} [$options.offset]
+	 * @param {string} [$options.limit]
+	 * @param {string} [$options.fromTime]
+	 * @param {string} [$options.toTime]
+	 * @param {string} [$options.skipEndedEvents=false]
 	 * @param {array} [&$streams] You can pass a reference to an array that would be filled with (only) public streams
 	 * @return {array} The relations, filtered by the above parameters.
 	 *  Note that some relations might point to streams which the user doesn't
 	 *  have readAccess to see. Check relation->get('public')
 	 */
-	static function filterEvents($params = array(), &$streams = null)
+	static function events($options = array(), &$streams = null)
 	{
 		$user = Users::loggedInUser();
-		$communityId = Q::ifset($params, 'communityId', Users::currentCommunityId(true));
-		$experienceId = Q::ifset($params, 'experienceId', Q::ifset($_REQUEST, 'experienceId', 'main'));
+		$communityId = Q::ifset($options, 'communityId', Users::currentCommunityId(true));
+		$experienceId = Q::ifset($options, 'experienceId', Q::ifset($_REQUEST, 'experienceId', 'main'));
 		$categoryStreamName = "Calendars/calendar/".$experienceId;
 		$categoryStream = Streams_Stream::fetchOrCreate($communityId, $communityId, $categoryStreamName);
 
 		$uri = Q_Dispatcher::uri();
-		$interest = Q::ifset($params, 'interest', Q::ifset($_REQUEST, 'interest', Q::ifset($uri, 'interest', null)));
-		$category = Q::ifset($params, 'category', Q::ifset($_REQUEST, 'category', Q::ifset($uri, 'category', null)));
-		$skipPreload = Q::ifset($params, 'skipPreload', Q::ifset($_REQUEST, 'skipPreload', Q::ifset($uri, 'skipPreload', true)));
+		$interest = Q::ifset($options, 'interest', Q::ifset($_REQUEST, 'interest', Q::ifset($uri, 'interest', null)));
+		$category = Q::ifset($options, 'category', Q::ifset($_REQUEST, 'category', Q::ifset($uri, 'category', null)));
 		$relationType = 'Calendars/events';
 		$locationStream = Places_Location::userStream();
 
 		list($fromTime, $toTime) = Communities::defaultEventTimes();
-		$fromTime = Q::ifset($params, 'fromTime', $fromTime);
-		$toTime = Q::ifset($params, 'toTime', $toTime);
+		$fromTime = Q::ifset($options, 'fromTime', $fromTime);
+		$toTime = Q::ifset($options, 'toTime', $toTime);
 
 		$weight = new Db_Range($fromTime, true, true, $toTime);
 		$showAllEventsAfterLastEventEnded = $categoryStream->getAttribute("showAllEventsAfterLastEventEnded", Q_Config::get("Communities", "events", "showAllEventsAfterLastEventEnded", false));
@@ -672,8 +672,8 @@ abstract class Communities
 			}
 		}
 
-		$offset = Q::ifset($params, 'offset', 0);
-		$limit = Q::ifset($params, 'limit', Q_Config::get('Communities', 'events', 'limit', 10));
+		$offset = Q::ifset($options, 'offset', 0);
+		$limit = Q::ifset($options, 'limit', Q_Config::get('Communities', 'events', 'limit', 10));
 		$orderBy = true;
 
 		// default value
@@ -735,7 +735,7 @@ abstract class Communities
 		$publishersAndNames = array();
 		foreach ($relations as $streamName => $relation) {
 			$publishersAndNames[$relation->fromPublisherId][] = $relation->fromStreamName;
-		}		
+		}
 		$streams = Streams::fetchPublicStreams($publishersAndNames);
 
 		foreach ($relations as $streamName => $relation) {
@@ -743,6 +743,15 @@ abstract class Communities
 			// non-public streams and test their readLevel
 			$isPublic = !empty($streams[$relation->fromPublisherId][$relation->fromStreamName]);
 			$relation->set('public', $isPublic);
+			$fromTime = Q_Config::get('Communities', 'events', 'fromTime', time());
+			if (!empty($options['skipEndedEvents'])) {
+				if ($relation->getExtra('endTime') < $fromTime
+				or ($isPublic and $streams[$relation->fromPublisherId][$relation->fromStreamName]->getAttribute('endTime') < $fromTime)) {
+					// skip this event, it ended before fromTime
+					unset($relations[$streamName]);
+					continue;
+				}
+			}
 		}
 
 		return $relations;
@@ -750,31 +759,30 @@ abstract class Communities
 
 	/**
 	 * Select services appropriate only for current user (by location, by interest etc).
-	 * @method filterServices
-	 * @param {array} [$params] Different params
-	 * @param {string} [$params.communityId]
-	 * @param {string} [$params.experienceId]
-	 * @param {string} [$params.interest]
-	 * @param {string} [$params.category]
-	 * @param {string} [$params.offset]
-	 * @param {string} [$params.limit]
-	 * @param {string} [$params.fromTime]
-	 * @param {string} [$params.toTime]
-	 * @param {string} [$params.skipPreload=true] whether to skip preload interests, locations, area streams related to events
+	 * @method services
+	 * @param {array} [$options] Different params
+	 * @param {string} [$options.communityId]
+	 * @param {string} [$options.experienceId]
+	 * @param {string} [$options.interest]
+	 * @param {string} [$options.category]
+	 * @param {string} [$options.offset]
+	 * @param {string} [$options.limit]
+	 * @param {string} [$options.fromTime]
+	 * @param {string} [$options.toTime]
 	 * @param {array} [&$streams] You can pass a reference to an array that would be filled with (only) public streams
 	 * @return {array} The relations, filtered by the above parameters.
 	 *  Note that some relations might point to streams which the user doesn't
 	 *  have readAccess to see. Check relation->get('public')
 	 */
-	static function filterServices($params = array(), &$streams = null) {
+	static function services($options = array(), &$streams = null) {
 		$user = Users::loggedInUser();
-		$communityId = Q::ifset($params, 'communityId', Users::currentCommunityId(true));
-		$experienceId = Q::ifset($params, 'experienceId', Q::ifset($_REQUEST, 'experienceId', 'main'));
+		$communityId = Q::ifset($options, 'communityId', Users::currentCommunityId(true));
+		$experienceId = Q::ifset($options, 'experienceId', Q::ifset($_REQUEST, 'experienceId', 'main'));
 
 		$relationType = 'Calendars/availability';
 
-		$offset = Q::ifset($params, 'offset', 0);
-		$limit = Q::ifset($params, 'limit', Q_Config::get('Communities', 'services', 'limit', 10));
+		$offset = Q::ifset($options, 'offset', 0);
+		$limit = Q::ifset($options, 'limit', Q_Config::get('Communities', 'services', 'limit', 10));
 		$orderBy = true;
 
 		$relations = Streams_RelatedTo::fetchAll(

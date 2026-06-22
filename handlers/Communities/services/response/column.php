@@ -10,7 +10,7 @@ function Communities_services_response_column(&$params, &$result)
 	$communityId = Users::currentCommunityId();
 	$columnsStyle = Q_Config::get('Communities', 'layout', 'columns', 'style', 'classic');
 
-	$relations = Communities::filterServices(@compact("experienceId", "communityId", "limit", "offset"));
+	$relations = Communities::services(@compact("experienceId", "communityId", "limit", "offset"));
 
 	$dates = Streams::experience($experienceId)->getAttribute('dates');
 	Q_Response::setScriptData("Q.plugins.Communities.services.experienceId", $experienceId, '');

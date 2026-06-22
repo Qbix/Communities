@@ -6,6 +6,12 @@ var Streams = Q.Streams;
 var Communities = Q.Communities;
 var Assets = Q.Assets;
 
+Q.text.Communities = {
+	invite: {
+		InitialText: "People I just met"
+	}
+};
+
 Q.exports(function (options, index, columnElement, data) {
 	var userId = Q.Users.loggedInUserId();
 
@@ -203,6 +209,8 @@ Q.exports(function (options, index, columnElement, data) {
 						// 	appUrl: Q.urls['Communities/people/' + userId]
 						// }
 					});
+				}, {
+					initialText: Q.text.Communities.invite.InitialText
 				}
 			);
 		}

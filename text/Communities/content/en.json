@@ -3,6 +3,9 @@
 		"Explanation": "<span class='url'>{{1}}</span> doesn't point to anything!",
 		"NextSteps": "Use the main menu to find what you're looking for."
 	},
+	"invite": {
+		"InitialText": "People I just met"
+	},
 	"dashboard": {
 		"Menu": "Menu",
 		"Home": "Home",
