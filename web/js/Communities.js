@@ -1332,6 +1332,13 @@ Q.onInit.set(function () {
 	Streams.invite.options.addLabel = true;
 	Streams.invite.options.addMyLabel = true;
 
+	Q.Text.get('Communities/content', function (err, text) {
+		if (!text) {
+			return;
+		}
+		Q.extend(Q.text.Communities, 10, text);
+	});
+
 	if (Communities.skipScrolling) {
 		document.scrollingElement.scrollLeft = 0;
 		document.scrollingElement.scrollTop = 0;
