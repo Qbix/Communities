@@ -9,12 +9,12 @@ function Communities_before_Streams_inviteDialog($params, &$result)
 		return;
 	}
 
-	/*$user = $params['user'];
+	$user = $params['user'];
 	if (empty($user)) {
 		// don't show onboarding dialog for non logged user
 		$result = false;
 		return;
-	}*/
+	}
 
 	$steps = Q_Config::expect('Communities', 'onboarding', 'steps');
 	foreach ($steps as $step) {
