@@ -1158,13 +1158,17 @@ Q.Tool.onActivate('Streams/chat').add(function () {
 		}, 'Communities');
 
 		var userId = Users.loggedInUserId();
-		stream.getParticipant(userId, function (err, participant) {
-			// var subscribed = participant && participant.subscribed === 'yes';
-			var joined = participant && participant.state === 'participating';
-			if (!joined) {
-				stream.observe();
-			}
-		});
+		if (userId) {
+			stream.getParticipant(userId, function (err, participant) {
+				// var subscribed = participant && participant.subscribed === 'yes';
+				var joined = participant && participant.state === 'participating';
+				if (!joined) {
+					stream.observe();
+				}
+			});
+		} else {
+			stream.observe();
+		}
 	}, tool);
 
 	Q.addStylesheet("{{Communities}}/css/columns/conversations.css");
