@@ -1150,10 +1150,10 @@ Q.Tool.onActivate('Streams/chat').add(function () {
 		tool.Q.beforeRemove.set(function () {
 			userId = Users.loggedInUserId();
 			if (!userId) {
-				return stream.neglect();
+				return stream.release();
 			}
 			stream.getParticipant(userId, function (err, participant) {
-				stream.neglect();
+				stream.release();
 			});
 		}, 'Communities');
 
@@ -1162,7 +1162,7 @@ Q.Tool.onActivate('Streams/chat').add(function () {
 			// var subscribed = participant && participant.subscribed === 'yes';
 			var joined = participant && participant.state === 'participating';
 			if (!joined) {
-				stream.observe();
+				stream.retain(tool);
 			}
 		});
 	}, tool);
