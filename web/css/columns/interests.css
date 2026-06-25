@@ -20,3 +20,9 @@
 	padding: 10px;
 	text-align: center;
 }
+
+.Streams_interests_filter {
+	position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+}

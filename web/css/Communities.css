@@ -167,7 +167,8 @@ html #content_slot,
 	border: var(--column-border);
 	color: var(--column-color);
 }
-.Q_mobile .Q_columns_column.Q_columns_overlapped {
+.Q_mobile:not([data-dashboard-position="top"]) .Q_columns_column.Q_columns_overlapped,
+.Q_mobile[data-dashboard-position="top"] .Q_columns_column.Q_columns_overlapped:not(.Q_column_0) {
 	border: var(--column-border-mobile, var(--column-border));
 }
 #content h1 { margin: 0; color: var(--h1-font-color); }
@@ -953,6 +954,7 @@ input.Communities_filter_publishers_input::placeholder {
 	background-position-x: 5px;
 	padding-left: 48px;
 	min-height: 40px;
+	background-image: none;
 }
 .Places_location_tool div[data-location=address] label {
 	display: none;
