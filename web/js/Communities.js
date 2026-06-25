@@ -1139,6 +1139,7 @@ Q.Tool.onActivate('Streams/chat').add(function () {
 		});
 	}
 
+<<<<<<< HEAD
 	// Streams/chat tool will retain stream, which will observe stream
 	// even if user is not logged in
 	tool.state.onRefresh.set(function () {
@@ -1167,6 +1168,8 @@ Q.Tool.onActivate('Streams/chat').add(function () {
 		});
 	}, tool);
 
+=======
+>>>>>>> c98575a0f412c3599a66c4fe47f59ec32740e3cb
 	Q.addStylesheet("{{Communities}}/css/columns/conversations.css");
 }, 'Communities');
 
