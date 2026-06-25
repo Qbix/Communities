@@ -1138,38 +1138,6 @@ Q.Tool.onActivate('Streams/chat').add(function () {
 			columns.close(columnIndex, null, {animation: {duration: 0}});
 		});
 	}
-
-<<<<<<< HEAD
-	// Streams/chat tool will retain stream, which will observe stream
-	// even if user is not logged in
-	tool.state.onRefresh.set(function () {
-		var stream = this.state.stream;
-		if (!stream) {
-			return;
-		}
-
-		tool.Q.beforeRemove.set(function () {
-			userId = Users.loggedInUserId();
-			if (!userId) {
-				return stream.release();
-			}
-			stream.getParticipant(userId, function (err, participant) {
-				stream.release();
-			});
-		}, 'Communities');
-
-		var userId = Users.loggedInUserId();
-		stream.getParticipant(userId, function (err, participant) {
-			// var subscribed = participant && participant.subscribed === 'yes';
-			var joined = participant && participant.state === 'participating';
-			if (!joined) {
-				stream.retain(tool);
-			}
-		});
-	}, tool);
-
-=======
->>>>>>> c98575a0f412c3599a66c4fe47f59ec32740e3cb
 	Q.addStylesheet("{{Communities}}/css/columns/conversations.css");
 }, 'Communities');
 
