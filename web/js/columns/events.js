@@ -357,7 +357,7 @@ Q.exports(function (options, index, column, data) {
 		// <apply FaceBook column style>
 		if (!underCommunityColumn && Q.getObject('layout.columns.style', Communities) === 'facebook') {
 			// Create events search
-			var $eventFilter = $('<input name="query" class="Communities_eventChooser_input" placeholder="' + text.events.filterEvents + '">')
+			var $eventFilter = $('<input name="query" class="Communities_eventChooser_input" autocomplete="off" placeholder="' + text.events.filterEvents + '">')
 				.on('input', _filterEvents);
 
 			var icons = [
