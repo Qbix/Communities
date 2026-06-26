@@ -11,8 +11,7 @@ function Communities_before_Streams_inviteDialog($params, &$result)
 
 	$user = $params['user'];
 	if (empty($user)) {
-		// don't show onboarding dialog for non logged user
-		$result = false;
+		// user is not logged in, no need to customize steps
 		return;
 	}
 
