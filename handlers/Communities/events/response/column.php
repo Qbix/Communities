@@ -16,7 +16,7 @@ function Communities_events_response_column(&$params, &$result)
 	array_unshift($cids, $currentCommunityId);
 	$cids = array_unique($cids);
 	foreach ($cids as $communityId) {
-		$allRelations = array_merge($allRelations, Communities::filterEvents(@compact(
+		$allRelations = array_merge($allRelations, Communities::events(@compact(
 			"experienceId", "fromTime", "toTime", "communityId", "limit", "offset"
 		)));
 	}

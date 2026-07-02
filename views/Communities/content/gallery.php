@@ -12,9 +12,7 @@ echo Q::tool('Streams/related', array(
 			'showSize' => '200x',
 			'saveSizeName' => "Streams/image",
 			'save' => "Streams/image"
-
-		),		
-        'editable' => false,
+		),
 		'closeable' => true
     ),
 	'.Streams_image_preview_tool' => array(

@@ -25,6 +25,7 @@
 			"Users/Contact/removeContact": ["Communities/before/Users_Contact_removeContact"]
 		},
 		"handlersAfterEvent": {
+			"Q/session/start": ["Communities/after/Q_session_start"],
 			"Users/logout": ["Communities/after/Users_logout"],
 			"Streams/invite/accept": ["Communities/after/Streams_invite_accept"],
 			"Users/register": ["Communities/after/Users_register"],

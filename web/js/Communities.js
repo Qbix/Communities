@@ -1138,35 +1138,6 @@ Q.Tool.onActivate('Streams/chat').add(function () {
 			columns.close(columnIndex, null, {animation: {duration: 0}});
 		});
 	}
-
-	// Streams/chat tool will retain stream, which will observe stream
-	// even if user is not logged in
-	tool.state.onRefresh.set(function () {
-		var stream = this.state.stream;
-		if (!stream) {
-			return;
-		}
-
-		tool.Q.beforeRemove.set(function () {
-			userId = Users.loggedInUserId();
-			if (!userId) {
-				return stream.neglect();
-			}
-			stream.getParticipant(userId, function (err, participant) {
-				stream.neglect();
-			});
-		}, 'Communities');
-
-		var userId = Users.loggedInUserId();
-		stream.getParticipant(userId, function (err, participant) {
-			// var subscribed = participant && participant.subscribed === 'yes';
-			var joined = participant && participant.state === 'participating';
-			if (!joined) {
-				stream.observe();
-			}
-		});
-	}, tool);
-
 	Q.addStylesheet("{{Communities}}/css/columns/conversations.css");
 }, 'Communities');
 
@@ -1284,9 +1255,6 @@ function _updateSlots(slotNames, url, onActivate) {
 		return;
 	}
 	_updateSlots.updating = url;
-	setTimeout(function () {
-		_updateSlots.updating = null;
-	}, 300);
 	url = url || location.href.split('#')[0].split('?')[0];
 	Q.loadUrl(url, {
 		slotNames: slotNames,
@@ -1295,6 +1263,9 @@ function _updateSlots(slotNames, url, onActivate) {
 		ignorePage: false,
 		ignoreHistory: true,
 		quiet: true,
+		onLoadEnd: function () {
+			_updateSlots.updating = null;
+		},
 		onActivate: onActivate
 	});
 }
@@ -1331,6 +1302,13 @@ Q.onInit.set(function () {
 	Users.login.options.onboardingUrl = Q.url('onboarding');
 	Streams.invite.options.addLabel = true;
 	Streams.invite.options.addMyLabel = true;
+
+	Q.Text.get('Communities/content', function (err, text) {
+		if (!text) {
+			return;
+		}
+		Q.extend(Q.text.Communities, 10, text);
+	});
 
 	if (Communities.skipScrolling) {
 		document.scrollingElement.scrollLeft = 0;

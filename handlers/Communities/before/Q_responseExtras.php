@@ -56,7 +56,7 @@ function Communities_before_Q_responseExtras()
 
 	$currentCommunity = Users::currentCommunityId();
 	if ($currentCommunity) {
-		Q_Response::addHtmlCssClass('Community_'.$currentCommunity);
+		Q_Response::addHtmlCssClass('Community_'.$currentCommunity, array('weight' => 3));
 	}
 
     if (Q_Request::isAndroidStock()) {

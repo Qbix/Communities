@@ -10,7 +10,7 @@ function Communities_events_response_load()
 	$offset = Q::ifset($_REQUEST, 'offset', 0);
 	$limit = Q::ifset($_REQUEST, 'limit', Q_Config::get('Communities', 'pageSizes', 'events', 10));
 
-	$allRelations = Communities::filterEvents(@compact("experienceId", "fromTime", "toTime", "communityId", "offset", "limit"));
+	$allRelations = Communities::events(@compact("experienceId", "fromTime", "toTime", "communityId", "offset", "limit"));
 	$relations = Streams_RelatedTo::filter($allRelations, array('readLevel' => 'fields'));
 
 	$res = array();

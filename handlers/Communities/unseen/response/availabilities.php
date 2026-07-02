@@ -17,7 +17,7 @@ function Communities_unseen_response_availabilities($params)
 	}
 
 	// get appropriate availabilities
-	$relations = Communities::filterServices();
+	$relations = Communities::services();
 
 	// if defined stream details, check whether this stream suitable for current user
 	if (!empty($r['publisherId']) && !empty($r['streamName'])) {

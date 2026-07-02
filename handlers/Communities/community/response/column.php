@@ -110,7 +110,7 @@ function Communities_community_response_column($params = array())
 
 		// additional params for events
 		if ($tab == "events") {
-			$contentParams["eventsRelations"] = Communities::filterEvents(@compact("communityId"));
+			$contentParams["eventsRelations"] = Communities::events(@compact("communityId"));
 			$contentParams["newEventAuthorized"] = !empty(Communities::newEventAuthorized());
 		}
 

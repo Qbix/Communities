@@ -17,7 +17,7 @@ function Communities_unseen_response_events($params)
 	}
 
 	// get appropriate events
-	$relations = Communities::filterEvents();
+	$relations = Communities::events();
 
 	// if defined stream details, check whether this stream suitable for current user
 	if (!empty($r['publisherId']) && !empty($r['streamName'])) {

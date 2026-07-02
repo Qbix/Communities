@@ -8,7 +8,7 @@ function Communities_services_response_load()
 	$limit = Q::ifset($_REQUEST, 'limit', Q_Config::get('Communities', 'pageSizes', 'services', 10));
 	$textfill = Q_Config::get('Communities', 'availability', 'preview', 'textfill', false);
 
-	$relations = Communities::filterServices(@compact("experienceId", "communityId", "offset", "limit"));
+	$relations = Communities::services(@compact("experienceId", "communityId", "offset", "limit"));
 
 	$res = array();
 	foreach ($relations as $relation) {
