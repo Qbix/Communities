@@ -67,6 +67,9 @@
 .Communities_me_column_tabContent[data-val=profile] .Streams_form_tool {
 	text-align: center;
 }
+.Q_mobile .Communities_tabs[data-style="icons"] .Communities_tab {
+	border-color: transparent;
+}
 .Q_mobile .Communities_tabs[data-style="icons"] .Communities_tab[data-val=schedule] {
 	margin-right: 10%;
 }
