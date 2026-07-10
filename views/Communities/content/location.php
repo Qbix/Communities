@@ -1,3 +1,3 @@
-<div id="content" class="Q_big_prompt">
+<div class="Q_big_prompt">
 	<?php echo Q::tool('Places/user/location') ?>
 </div>
