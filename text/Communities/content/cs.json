@@ -464,5 +464,8 @@
 			"Travel": "Cestovat",
 			"Share": "Pod\u00edl"
 		}
+	},
+	"invite": {
+		"InitialText": "Lid\u00e9, kter\u00e9 jsem pr\u00e1v\u011b potkal/a"
 	}
 }

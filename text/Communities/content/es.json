@@ -463,5 +463,8 @@
 			"Travel": "Viajar",
 			"Share": "Compartir"
 		}
+	},
+	"invite": {
+		"InitialText": "Personas que acabo de conocer"
 	}
 }

@@ -463,5 +463,8 @@
 			"Travel": "Kelion\u0117",
 			"Share": "Dalintis"
 		}
+	},
+	"invite": {
+		"InitialText": "\u017dmon\u0117s, kuriuos k\u0105 tik sutikau"
 	}
 }

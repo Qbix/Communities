@@ -463,5 +463,8 @@
 			"Travel": "Fer\u00f0al\u00f6g",
 			"Share": "Deila"
 		}
+	},
+	"invite": {
+		"InitialText": "F\u00f3lk sem \u00e9g hitti n\u00fdlega"
 	}
 }

@@ -463,5 +463,8 @@
 			"Travel": "Seyahat",
 			"Share": "Payla\u015fmak"
 		}
+	},
+	"invite": {
+		"InitialText": "Yeni tan\u0131\u015ft\u0131\u011f\u0131m insanlar"
 	}
 }

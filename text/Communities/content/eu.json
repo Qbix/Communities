@@ -464,5 +464,8 @@
 			"Travel": "Bidaia",
 			"Share": "Partekatu"
 		}
+	},
+	"invite": {
+		"InitialText": "Ezagutu berri ditudan pertsonak"
 	}
 }

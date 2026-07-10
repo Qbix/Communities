@@ -463,5 +463,8 @@
 			"Travel": "\uc5ec\ud589\ud558\ub2e4",
 			"Share": "\uacf5\uc720\ud558\ub2e4"
 		}
+	},
+	"invite": {
+		"InitialText": "\ubc29\uae08 \ub9cc\ub09c \uc0ac\ub78c\ub4e4"
 	}
 }

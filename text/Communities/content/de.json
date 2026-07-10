@@ -463,5 +463,8 @@
 			"Travel": "Reisen",
 			"Share": "Aktie"
 		}
+	},
+	"invite": {
+		"InitialText": "Leute, die ich gerade erst kennengelernt habe"
 	}
 }

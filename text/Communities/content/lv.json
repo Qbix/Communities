@@ -463,5 +463,8 @@
 			"Travel": "Ce\u013cot",
 			"Share": "Dal\u012bties"
 		}
+	},
+	"invite": {
+		"InitialText": "Cilv\u0113ki, kurus tikko satiku"
 	}
 }

@@ -463,5 +463,8 @@
 			"Travel": "Taisteal",
 			"Share": "Comhroinn"
 		}
+	},
+	"invite": {
+		"InitialText": "Daoine a casadh orm d\u00edreach"
 	}
 }
