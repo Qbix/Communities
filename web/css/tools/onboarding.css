@@ -180,7 +180,6 @@ html.Communities_onboarding #columns_slot .Q_column_0 .column_slot {
 .Communities_onboarding #content_slot {
     background: url(../../../Q/img/bg/overlay-dark.png);
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),  url(../../../Q/img/bg/overlay-dark.png);
-    color: white;
     overflow-x: hidden;
     padding: 20px;
     min-width: 300px;
@@ -192,7 +191,6 @@ html.Communities_onboarding #columns_slot .Q_column_0 .column_slot {
 .Communities_onboarding #content_slot .Q_expandable_tool h2.Q_expandable_title:hover,
 .Communities_onboarding #content_slot .Q_expandable_tool h2.Q_expandable_title.Q_hover,
 .Communities_onboarding #content_slot .Q_expandable_tool h2.Q_expandable_title.Q_expanded {
-    color: white;
     font-weight: 400;
 }
 .Communities_onboarding_icon .Streams_image_preview_tool {
