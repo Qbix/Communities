@@ -154,7 +154,7 @@ Q.exports(function (options, index, div, data) {
 		state.onInvoke('chat').set(Communities.pushChatColumn, 'Communities/event/column');
 
 		state.onInvoke('time').set(function (stream) {
-			Calendars.Event.addToCalendar(publisherId, eventId);
+			Calendars.Event.addToCalendarDialog(publisherId, eventId);
 		}, 'Communities/event/column');
 
 		setTimeout(Communities.getChatMessages(publisherId, streamName), 300);
