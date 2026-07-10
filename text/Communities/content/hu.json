@@ -463,5 +463,8 @@
 			"Travel": "Utaz\u00e1s",
 			"Share": "Ossza meg"
 		}
+	},
+	"invite": {
+		"InitialText": "Emberek, akikkel most tal\u00e1lkoztam"
 	}
 }

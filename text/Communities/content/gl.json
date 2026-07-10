@@ -463,5 +463,8 @@
 			"Travel": "Viaxar",
 			"Share": "Compartir"
 		}
+	},
+	"invite": {
+		"InitialText": "Xente que acabo de co\u00f1ecer"
 	}
 }

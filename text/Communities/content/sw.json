@@ -463,5 +463,8 @@
 			"Travel": "Safari",
 			"Share": "Shiriki"
 		}
+	},
+	"invite": {
+		"InitialText": "Watu niliokutana nao hivi punde"
 	}
 }

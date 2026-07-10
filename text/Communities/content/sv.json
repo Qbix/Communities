@@ -463,5 +463,8 @@
 			"Travel": "Resa",
 			"Share": "Dela med sig"
 		}
+	},
+	"invite": {
+		"InitialText": "M\u00e4nniskor jag just tr\u00e4ffat"
 	}
 }

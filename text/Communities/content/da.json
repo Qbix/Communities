@@ -464,5 +464,8 @@
 			"Travel": "Rejse",
 			"Share": "Del"
 		}
+	},
+	"invite": {
+		"InitialText": "Folk jeg lige har m\u00f8dt"
 	}
 }

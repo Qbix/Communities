@@ -464,5 +464,8 @@
 			"Travel": "Udh\u00ebtim",
 			"Share": "Shp\u00ebrndaje"
 		}
+	},
+	"invite": {
+		"InitialText": "Njer\u00ebz q\u00eb sapo takova"
 	}
 }

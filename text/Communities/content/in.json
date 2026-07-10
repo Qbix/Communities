@@ -464,5 +464,8 @@
 			"Travel": "Bepergian",
 			"Share": "Membagikan"
 		}
+	},
+	"invite": {
+		"InitialText": "Orang-orang yang baru saja saya temui"
 	}
 }

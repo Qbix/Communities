@@ -463,5 +463,8 @@
 			"Travel": "Reisimine",
 			"Share": "Jaga"
 		}
+	},
+	"invite": {
+		"InitialText": "Inimesed, kellega ma just kohtusin"
 	}
 }

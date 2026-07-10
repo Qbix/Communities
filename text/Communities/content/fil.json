@@ -464,5 +464,8 @@
 			"Travel": "Paglalakbay",
 			"Share": "Ibahagi"
 		}
+	},
+	"invite": {
+		"InitialText": "Mga taong ngayon ko lang nakilala"
 	}
 }

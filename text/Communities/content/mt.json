@@ -463,5 +463,8 @@
 			"Travel": "Ivvja\u0121\u0121ar",
 			"Share": "Aqsam"
 		}
+	},
+	"invite": {
+		"InitialText": "Nies li g\u0127adni kif iltqajt mag\u0127hom"
 	}
 }

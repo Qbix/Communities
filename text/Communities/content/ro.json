@@ -463,5 +463,8 @@
 			"Travel": "Voiaj",
 			"Share": "Ac\u021biune"
 		}
+	},
+	"invite": {
+		"InitialText": "Oameni pe care tocmai i-am \u00eent\u00e2lnit"
 	}
 }

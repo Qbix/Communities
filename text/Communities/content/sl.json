@@ -463,5 +463,8 @@
 			"Travel": "Potovanje",
 			"Share": "Deliti"
 		}
+	},
+	"invite": {
+		"InitialText": "Ljudje, ki sem jih pravkar spoznal/a"
 	}
 }

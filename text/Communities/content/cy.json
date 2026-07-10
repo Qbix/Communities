@@ -463,5 +463,8 @@
 			"Travel": "Teithio",
 			"Share": "Rhannu"
 		}
+	},
+	"invite": {
+		"InitialText": "Pobl rydw i newydd eu cyfarfod"
 	}
 }

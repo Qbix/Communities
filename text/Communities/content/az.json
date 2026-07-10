@@ -464,5 +464,8 @@
 			"Travel": "S\u0259yah\u0259t",
 			"Share": "Payla\u015f\u0131n"
 		}
+	},
+	"invite": {
+		"InitialText": "T\u0259z\u0259 tan\u0131\u015f oldu\u011fum insanlar"
 	}
 }

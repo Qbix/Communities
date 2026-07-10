@@ -463,5 +463,8 @@
 			"Travel": "Matkustaa",
 			"Share": "Jaa"
 		}
+	},
+	"invite": {
+		"InitialText": "Ihmiset, jotka juuri tapasin"
 	}
 }

@@ -463,5 +463,8 @@
 			"Travel": "Du l\u1ecbch",
 			"Share": "Chia s\u1ebb"
 		}
+	},
+	"invite": {
+		"InitialText": "Nh\u1eefng ng\u01b0\u1eddi t\u00f4i v\u1eeba g\u1eb7p"
 	}
 }

@@ -464,5 +464,8 @@
 			"Travel": "Reis",
 			"Share": "Deel"
 		}
+	},
+	"invite": {
+		"InitialText": "Mense wat ek pas ontmoet het"
 	}
 }

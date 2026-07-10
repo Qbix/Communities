@@ -464,5 +464,8 @@
 			"Travel": "Putovati",
 			"Share": "Udio"
 		}
+	},
+	"invite": {
+		"InitialText": "Ljudi koje sam tek upoznao/la"
 	}
 }

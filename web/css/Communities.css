@@ -437,7 +437,7 @@ input[name=query].Communities_eventChooser_input:focus::placeholder {
 	margin: 0 2px;
 	padding: 3px;
 	font-size: 14px;
-	border: 1px solid #777;
+	border: 1px solid transparent;
 	border-bottom: solid 1px transparent;
 	border-radius: 5px 5px 0 0;
 	cursor: pointer;
@@ -1651,7 +1651,9 @@ body .Q_contextual .Q_listing {
 .Q_mobile.Communities .Q_columns_column.Q_column_3,
 .Q_mobile.Communities .Q_columns_column.Q_column_4,
 .Q_mobile.Communities .Q_columns_column.Q_column_5 {
-	height: calc(100% + 70px) !important;
+	/* height: calc(100% + 70px) !important; */
+	top: 0 !important;
+	bottom: 0 !important;
 }    
 
 .Communities .Q_column_slot {
@@ -1663,6 +1665,16 @@ body .Q_contextual .Q_listing {
 	flex-grow: 0.3;
 }
 
+
+
+.Q_mobile.Q_columns_animationFX .Q_columns_tool .Q_column_1,
+.Q_mobile.Q_columns_animationFX .Q_columns_tool .Q_column_2,
+.Q_mobile.Q_columns_animationFX .Q_columns_tool .Q_column_3,
+.Q_mobile.Q_columns_animationFX .Q_columns_tool .Q_column_4,
+.Q_mobile.Q_columns_animationFX .Q_columns_tool .Q_column_5 {
+    transform: none;
+    box-shadow: none;
+}
 
 /* Handle hidden title case */
 .Communities .Q_columns_column.Q_columns_hideTitle .Q_columns_title {

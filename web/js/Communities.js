@@ -1291,7 +1291,8 @@ var co = {
 		NFTowned: "{{Communities}}/js/columns/NFTowned.js",
 		NFT: "{{Communities}}/js/columns/NFT.js",
 		NFTcollections: "{{Communities}}/js/columns/NFTcollections.js"
-	}
+	},
+	dontUpdateThemeColor: true
 };
 if (Q.info.isMobile) {
 	co.back = {src: "Q/plugins/Q/img/x.png"};

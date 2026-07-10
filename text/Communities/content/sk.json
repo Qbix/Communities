@@ -463,5 +463,8 @@
 			"Travel": "Cestovanie",
 			"Share": "zdie\u013eam"
 		}
+	},
+	"invite": {
+		"InitialText": "\u013dudia, ktor\u00fdch som pr\u00e1ve stretol/a"
 	}
 }

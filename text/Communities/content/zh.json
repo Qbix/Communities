@@ -464,5 +464,8 @@
 			"Travel": "\u65c5\u884c",
 			"Share": "\u5206\u4eab"
 		}
+	},
+	"invite": {
+		"InitialText": "\u6211\u521a\u8ba4\u8bc6\u7684\u4eba"
 	}
 }
