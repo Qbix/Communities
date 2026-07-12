@@ -115,6 +115,7 @@ Q.Tool.define("Communities/onboarding", function Communities_onboarding_tool() {
         onStep: new Q.Event(function () {
             var scrollingParent = this.element.scrollingParent(false, "vertical", true);
             scrollingParent && scrollingParent.scrollTo(0,0);
+            Q.Visual.stopHints();
         }),
         onComplete: new Q.Event(function (inDialog) {
             if (inDialog) {
@@ -1029,8 +1030,9 @@ Q.Tool.define("Communities/onboarding", function Communities_onboarding_tool() {
             }
             var $next = $('<div class="Communities_onboarding_step" />');
             $next.addClass('Communities_onboarding_' + step);
-            var $showing = this.$showing;
-            this.$showing = $next.hide().insertAfter(this.$showing);
+            var $showing = $(this.$showing); // may be empty
+            this.$showing = $next;
+            $next.hide().insertAfter(this.$showing);
             handler.call(this, $next);
             $showing.removeClass('Communities_onboarding_showing');
             state.transition.call(this, $showing, $next, duration, function () {

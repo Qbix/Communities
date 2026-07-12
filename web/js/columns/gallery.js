@@ -27,7 +27,7 @@ Q.page("Communities/me", function () {
 					Q.Streams.unrelate(
 						Q.Users.loggedInUserId(),
 						"Streams/user/interests",
-						"My/gallery",
+						"Streams/images",
 						state.publisherId,
 						state.streamName,
 						function (err, result) {

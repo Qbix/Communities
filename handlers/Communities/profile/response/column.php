@@ -82,7 +82,7 @@ function Communities_profile_response_column ($params = array()) {
 			$userGalleryCount = Streams_RelatedTo::select("count(*) as res")->where(array(
 				"toPublisherId" => $userId,
 				"toStreamName" => "Streams/user/interests",
-				"type" => "My/gallery"
+				"type" => "Streams/images"
 			))->execute()->fetchColumn(0);
 
 			if ($userGalleryCount) {
@@ -91,7 +91,7 @@ function Communities_profile_response_column ($params = array()) {
 					$myGallery = Streams_RelatedTo::select("fromPublisherId as publisherId, fromStreamName as streamName")->where(array(
 						"toPublisherId" => $loggedInUser->id,
 						"toStreamName" => "Streams/user/interests",
-						"type" => "My/gallery"
+						"type" => "Streams/images"
 					))->execute()->fetchAll(PDO::FETCH_ASSOC);
 				}
 
