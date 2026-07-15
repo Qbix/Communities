@@ -437,7 +437,7 @@ input[name=query].Communities_eventChooser_input:focus::placeholder {
 	margin: 0 2px;
 	padding: 3px;
 	font-size: 14px;
-	border: 1px solid transparent;
+	border: 1px solid #777;
 	border-bottom: solid 1px transparent;
 	border-radius: 5px 5px 0 0;
 	cursor: pointer;

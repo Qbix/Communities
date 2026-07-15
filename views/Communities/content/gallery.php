@@ -1,8 +1,9 @@
 <?php
+
 echo Q::tool('Streams/related', array(
 	'publisherId' => $user->id,
 	'streamName' => 'Streams/user/interests',
-	'relationType' => 'My/gallery',
+	'relationType' => 'Streams/images',
 	'editable' => true,
 	'closeable' => true,
 	'realTime' => false,
