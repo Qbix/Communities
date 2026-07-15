@@ -278,7 +278,7 @@ Q.Tool.define("Communities/onboarding", function Communities_onboarding_tool() {
                 var state = tool.state;
                 var step = state.steps[state.current];
                 var dontSkip = state.dontSkip && state.dontSkip.indexOf(step) >= 0;
-                if (!dontSkip && Q.Users.isCustomIcon(Users.loggedInUser.icon, !state.icon.unlessImported)) {
+                if (!dontSkip && Q.Users.isCustomIcon(Users.loggedInUser.icon, state.icon.unlessImported)) {
                     return tool.next(0);
                 }
                 var userId = Users.loggedInUser.id;
