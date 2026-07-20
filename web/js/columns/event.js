@@ -264,6 +264,9 @@ Q.exports(function (options, index, div, data) {
 			if (Q.firstErrorMessage(err, data && data.errors)) {
 				return;
 			}
+			if (!data.slots) {
+				return;
+			}
 
 			var data = data.slots.data;
 
