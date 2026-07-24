@@ -1097,8 +1097,15 @@ Q.Tool.onActivate("id:Q_columns-Communities").set(function () {
 		}
 	), 'Communities');
 
-	// If someone clicks on avatars in certain contexts, open their profile
+	// If someone clicks on avatars in certain contexts, open their profile.
+	// Only consume the gesture when a columns tool can actually open a profile;
+	// otherwise leave the event alone so other handlers (e.g. page click) can run.
 	$('body').off(Q.Pointer.fastclick, Communities.usersAvatarSelector).on(Q.Pointer.fastclick, Communities.usersAvatarSelector, function (e) {
+		var columns = Q.Tool.byId("Q_columns-Communities")
+			|| Q.Tool.from($(this).closest(".Q_tool.Q_columns_tool"), "Q/columns");
+		if (!columns) {
+			return;
+		}
 		e.stopPropagation();
 		var userId = this.Q('Users/avatar').state.userId;
 		if (!userId) {
