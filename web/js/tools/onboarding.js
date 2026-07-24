@@ -21,7 +21,7 @@ var Communities = Q.Communities;
  *  @param {Boolean} [options.speak] Whether to employ speech during the onboarding
  *  @param {Object|false} [options.usersList={}] Options to pass to the Users/list tool, or false to hide it
  *  @param {Object} [options.icon={}] Any options to pass to the icon step
- *  @param {Object} [options.icon.unlessImported] Pass true here to recognise imported icon as custom and hence skip icon step. Defaults to false.
+ *  @param {Object} [options.icon.keepImported] If true, and some icon was imported, then skip the icon step, unless dontSkip includes it. Defaults to false.
  *  @param {Object} [options.interests={}] Any options to pass to the Streams/interests tool
  *  @param {Object} [options.interests.categories=false] Set to true to show each interest category by itself
  *  @param {Boolean} [options.profile.requireGreeting=false] Set to true to force people to enter a greeting
@@ -99,7 +99,7 @@ Q.Tool.define("Communities/onboarding", function Communities_onboarding_tool() {
             defaultIconSize: 200
         },
         icon: {
-            unlessImported: false
+            keepImported: false
         },
         interests: {
             categories: true,
@@ -279,7 +279,7 @@ Q.Tool.define("Communities/onboarding", function Communities_onboarding_tool() {
                 var state = tool.state;
                 var step = state.steps[state.current];
                 var dontSkip = state.dontSkip && state.dontSkip.indexOf(step) >= 0;
-                if (!dontSkip && Q.Users.isCustomIcon(Users.loggedInUser.icon, state.icon.unlessImported)) {
+                if (!dontSkip && Q.Users.isCustomIcon(Users.loggedInUser.icon, !state.icon.keepImported)) {
                     return tool.next(0);
                 }
                 var userId = Users.loggedInUser.id;
@@ -1031,8 +1031,14 @@ Q.Tool.define("Communities/onboarding", function Communities_onboarding_tool() {
             var $next = $('<div class="Communities_onboarding_step" />');
             $next.addClass('Communities_onboarding_' + step);
             var $showing = $(this.$showing); // may be empty
+            if (!$showing.length) {
+                $showing = this.$('.Communities_onboarding_showing');
+            }
+            if (!$showing.length) { // just take the first step
+                $showing = this.$('.Communities_onboarding_step');
+            }
+            $next.hide().insertAfter($showing);
             this.$showing = $next;
-            $next.hide().insertAfter(this.$showing);
             handler.call(this, $next);
             $showing.removeClass('Communities_onboarding_showing');
             state.transition.call(this, $showing, $next, duration, function () {

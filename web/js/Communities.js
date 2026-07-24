@@ -811,7 +811,7 @@ var Communities = Q.Communities = Q.plugins.Communities = {
 			}
 		});
 	},
-	startOnboarding: function (callback) {
+	startOnboarding: function (callback, options) {
 		if (Q.Users.loggedInUser && Q.Users.loggedInUser.sessionCount > 1) {
 			return Q.handle(callback); // in this case, skip the dialog for now
 		}
@@ -820,7 +820,7 @@ var Communities = Q.Communities = Q.plugins.Communities = {
 			Q.Dialogs.push({
 				title: text.onboarding.Title,
 				className: "Communities_onboarding_overlay",
-				content: $("<div>").tool("Communities/onboarding"),
+				content: $("<div>").tool("Communities/onboarding", options),
 				noClose: true,
 				onActivate: function (dialog) {
 					var onboardingTool = Q.Tool.from($(".Communities_onboarding_tool", dialog)[0], "Communities/onboarding");
