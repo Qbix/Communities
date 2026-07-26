@@ -1,5 +1,5 @@
 <?php
-function Communities_event_response_data($params) {
+function Communities_presentation_response_data($params) {
 	$streamName = Q::ifset($params, 'streamName', Communities::requestedId($params, 'streamName'));
 	$publisherId = Q::ifset($params, 'publisherId', Communities::requestedId($params, 'publisherId'));
 	$stream = Q::ifset($params, 'stream', Streams_Stream::fetch(null, $publisherId, $streamName));
@@ -23,7 +23,7 @@ function Communities_event_response_data($params) {
 		}
 
 		if (Calendars_Event::getGoing($stream) !== 'no') {
-			$columnClass[] = 'Communities_event_reserved';
+			$columnClass[] = 'Communities_event_going';
 		}
 	}
 

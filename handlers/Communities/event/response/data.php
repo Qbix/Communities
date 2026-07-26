@@ -22,9 +22,14 @@ function Communities_event_response_data($params) {
 			$columnClass[] = 'Communities_event_relatedParticipants';
 		}
 
-        $going = Calendars_Event::getGoing($stream);
-		if ($going !== 'no') {
+        $results = Calendars_Event::getGoing($stream, null, true);
+		if ($results['going'] === 'maybe') {
+			$columnClass[] = 'Communities_event_requested';
+		} else if ($results['going'] === 'yes') {
 			$columnClass[] = 'Communities_event_reserved';
+		}
+		if ($results['participant']->getExtra('paid') === 'fully') {
+			$columnClass[] = 'Communities_event_paid';
 		}
 	}
 

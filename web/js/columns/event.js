@@ -42,19 +42,26 @@ Q.exports(function (options, index, div, data) {
 		});
 		eventTool.state.onRefresh.set(function () {
 			var participants = eventTool.child('Streams_participants');
-			participants.state.onInvited.set(function (err) {
-				Communities.hints('invitedSomeone', [$column]);
-			});
+			if (participants) {
+				participants.state.onInvited.set(function (err) {
+					Communities.hints('invitedSomeone', [$column]);
+				});
+			}
 		}, 'Communities/event/column');
 		eventTool.state.onGoing.set(function (g, stream) {
-			if (g !== 'no') {
+			if (g === 'yes') {
 				// Calendars.Event.addToCalendar(publisherId, eventId);
 				Communities.hints('goingYes', [$column]);
 				$column.addClass('Communities_event_reserved');
-			} else {
+				$column.removeClass('Communities_event_requested');
+			} else if (g === 'maybe') {
+				$column.addClass('Communities_event_requested');
+				$column.removeClass('Communities_event_reserved');
+			} else if (g === 'no') {
 				// Calendars.Event.removeFromCalendar(publisherId, eventId);
 				Communities.hints('goingNo', [$column]);
 				$column.removeClass('Communities_event_reserved');
+				$column.removeClass('Communities_event_requested');
 			}
 			p.fill('going')(g);
 		}, 'Communities/event/column');
@@ -283,7 +290,9 @@ Q.exports(function (options, index, div, data) {
 
 			columnTool.setControls($column.attr('data-index'), data.controls);
 
-			$('.Q_controls_slot button[name=reservation]', div).on(Q.Pointer.fastclick, function () {
+			$('.Q_controls_slot button[name=reservation]', div)
+			.add('.Q_controls_slot button[name=payToReserve]', div)
+			.on(Q.Pointer.fastclick, function () {
 				var $this = $(this);
 				var _going = function () {
 					$this.addClass("Q_working");
@@ -305,7 +314,9 @@ Q.exports(function (options, index, div, data) {
 				return false;
 			});
 
-			$('.Q_controls_slot button[name=cancelReservation]', div).on(Q.Pointer.fastclick, function () {
+			$('.Q_controls_slot button[name=cancelReservation]', div)
+			.add('.Q_controls_slot button[name=cancelRequest]', div)
+			.on(Q.Pointer.fastclick, function () {
 				var $this = $(this);
 				$this.addClass("Q_working");
 

@@ -13,25 +13,27 @@
 	width: 90%;
 }
 #page .Communities_column_event button[name=cancelReservation],
+#page .Communities_column_event button[name=cancelRequest],
 #page .Communities_column_event button[name=updateReservation] {
 	display: none;
 	background: grey;
 	border-color: transparent;
 	box-shadow: none;
 }
-#page .Communities_column_event.Communities_event_reserved button[name=reservation]{
+#page .Communities_column_event.Communities_event_requested button[name=reservation],
+#page .Communities_column_event.Communities_event_reserved button[name=reservation] {
 	display: none;
 }
-#page .Communities_column_event.Communities_event_reserved button[name=cancelReservation]{
+#page .Communities_column_event.Communities_event_reserved button[name=cancelReservation],
+#page .Communities_column_event.Communities_event_requested.Communities_event_paid button[name=cancelReservation] {
 	display: inline-block;
 }
-#page .Communities_column_event.Communities_event_reserved button[name=cancelReservation]{
-	display: inline-block;
+#page .Communities_column_event.Communities_event_requested:not(.Communities_event_paid) button[name=cancelRequest],
+#page .Communities_column_event.Communities_event_requested:not(.Communities_event_paid) button[name=payToReserve] {
+	display: inline-block; width: 49%;
+	padding: 0 5px;
 }
-#page .Communities_column_event.Communities_event_reserved.Communities_event_relatedParticipants button[name=cancelReservation]{
-	display: none;
-}
-#page .Communities_column_event.Communities_event_relatedParticipants.Communities_event_reserved button[name=updateReservation]{
+#page .Communities_column_event.Communities_event_relatedParticipants.Communities_event_requested button[name=updateReservation]{
 	display: inline-block;
 }
 .Communities_event_myqr .Q_dialog_content {

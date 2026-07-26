@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Shows the interface for an event
+ * Shows the interface fora presentation
  *
  * @param {array} $_REQUEST 
  * @param {string} [$_REQUEST.publisherId] Required. The user id of the publisher of the event.
@@ -9,7 +9,7 @@
  * @optional
  * @return {string}
  */
-function Communities_event_response_column($params)
+function Communities_presentation_response_column($params)
 {
 	$user = Users::loggedInUser();
 	$eventId = Q::ifset($params, 'eventId', Communities::requestedId($params, 'eventId'));
