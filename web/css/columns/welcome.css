@@ -36,7 +36,8 @@ html.Communities_welcome #content_slot {
 	padding: 0 20px;
 	text-align: center;
 	top: 2%;
-	background: rgba(255,255,255,.5);
+	background: rgba(100, 100, 100, 0.2);
+	backdrop-filter: blur(5px);
 	border-radius: 10px;
 }
 .Q_mobile.Communities_welcome #content .Q_tool.Q_gallery_tool .Q_gallery_caption {
@@ -72,7 +73,8 @@ html.Communities_welcome #content_slot {
 	top: 75%;
 	left: 50%;
 	transform: translateX(-50%);
-	background: rgba(255,255,255,.5);
+	background: rgba(100, 100, 100, 0.2);
+	backdrop-filter: blur(5px);
 	border-radius: 10px;
 	width: 50%;
 }
@@ -139,7 +141,7 @@ html.Communities_welcome #content_slot {
 	zoom: 0.33;
 }
 .Communities_welcome .Q_column_welcome .Communities_welcome_admins .Users_avatar_tool img {
-	border: 5px solid yellow;
+	filter: drop-shadow(2px 2px 4px #4444dd);
 }
 .Q_notMobile.Communities_welcome .Communities_welcome_admins.Users_list_tool .Users_avatar_icon,
 .Q_notMobile.Communities_welcome .Communities_welcome_admins.Users_list_tool .Users_avatar_tool {
@@ -170,4 +172,13 @@ html.Communities_welcome #content_slot {
 .Communities_welcome .Q_column_welcome .Communities_welcome_usersList.Users_pile_tool .Users_avatar_tool img {
 	width: 80px;
 	height: 80px;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+	.Communities_welcome .Q_column_welcome * div,
+	.Communities_welcome .Q_column_welcome * span {
+		text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 5px #000;
+	}
 }

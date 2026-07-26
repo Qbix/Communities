@@ -352,3 +352,8 @@ html.Q_notMobile.Communities_onboarding .Communities_onboarding_step.Communities
     margin: auto;
     padding: 50px;
 }
+
+.Communities_onboarding_interests .Streams_interests_tool {
+    overflow: auto;
+    max-height: 50vh;
+}
