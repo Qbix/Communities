@@ -28,7 +28,7 @@ function Communities_event_response_data($params) {
 		} else if ($results['going'] === 'yes') {
 			$columnClass[] = 'Communities_event_reserved';
 		}
-		if ($results['participant']->getExtra('paid') === 'fully') {
+		if ($results['participant'] and $results['participant']->getExtra('paid') === 'fully') {
 			$columnClass[] = 'Communities_event_paid';
 		}
 	}
