@@ -45,7 +45,7 @@ function Communities_before_Q_responseExtras()
 	Q_Response::setScriptData('Q.plugins.Communities.affiliations', $affiliations);
 	Q_Response::setScriptData('Q.plugins.Communities.profile.personal', $personal);
 	Q_Response::setScriptData('Q.plugins.Communities.layout.columns.style', Q_Config::get('Communities', 'layout', 'columns', 'style', 'classic'));
-	Q_Response::setScriptData('Q.plugins.Communities.onboarding.steps', Q_Config::expect('Communities', 'onboarding', 'steps'));
+	Q_Response::setScriptData('Q.plugins.Communities.onboarding.serverOptions', Q_Config::expect('Communities', 'onboarding'));
 	Q_Response::setScriptData('Q.plugins.Communities.event.mode', Q_Config::get('Communities', 'event', 'mode', Q_Request::isMobile() ? "mobile" : "desktop", null));
 	Q_Response::setScriptData('Q.plugins.Communities.conversations.relationTypes', Q_Config::expect('Communities', 'conversations', 'relationTypes'));
 	Q_Response::setScriptData('Q.Audio.speak.mute', Q_Config::get('Q', 'Audio', 'speak', 'mute', null));

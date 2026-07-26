@@ -1676,6 +1676,11 @@ body .Q_contextual .Q_listing {
     box-shadow: none;
 }
 
+html .Communities_me_column .Communities_tabs .Communities_tab,
+html .Communities_column_community .Communities_tabs .Communities_tab {
+	border: 1px solid transparent;
+}
+
 /* Handle hidden title case */
 .Communities .Q_columns_column.Q_columns_hideTitle .Q_columns_title {
     display: none;

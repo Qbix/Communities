@@ -156,7 +156,8 @@
 			}
 		},
 		"login": {
-			"identifierType": "mobile"
+			"identifierType": "mobile",
+			"accountStatusURL": "Communities/accountStatus"
 		},
 		"register": {
 			"icon": {
@@ -284,7 +285,10 @@
 			"src": "https://www.youtube.com/embed/VR5nyQmfG7Q?rel=0&amp;controls=0&amp;showinfo=0"
 		},
 		"onboarding": {
-			"steps": ["name", "icon", "location", "interests", "relationships"]
+			"steps": ["name", "icon", "location", "interests", "relationships"],
+			"icon": {
+				"keepImported": false
+			}
 		},
 		"userIds": {
 			"maxLimit": 1000

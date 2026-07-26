@@ -45,7 +45,8 @@ function Communities_event_response_data($params) {
 		if ($stream->getAttribute('payment')) {
 			$payments = Assets_Credits::getPaymentsInfo($userId, $stream);
 			if ($payments["conclusion"]["amount"]) {
-				$payment = array('amount' => $payments["conclusion"]["amount"]);
+				$amount = $payments["conclusion"]["amount"];
+				$payment = array('amount' => $amount);
 			} else {
 				$payment = null;
 			}

@@ -81,7 +81,7 @@ Q.Tool.define("Communities/onboarding", function Communities_onboarding_tool() {
     {
         communityId: Users.currentCommunityId,
         mainCommunityId: Users.communityId,
-        steps: Communities.onboarding.steps,
+        steps: [],
         skip: [],
         dontSkip: ["name"],
         current: 0,

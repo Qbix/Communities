@@ -825,10 +825,10 @@ var Communities = Q.Communities = Q.plugins.Communities = {
 				onActivate: function (dialog) {
 					var onboardingTool = Q.Tool.from($(".Communities_onboarding_tool", dialog)[0], "Communities/onboarding");
 					if (!onboardingTool) {
-						return console.warn("Assets.preSubscribeLogin: onboarding tool not found");
+						return console.warn("Communities.startOnboarding: onboarding tool not found");
 					}
 
-					if (callback) {
+					if (typeof callback === 'function') {
 						onboardingTool.state.onComplete.set(callback, 'Communities.startOnboarding');
 					}
 				}
@@ -1018,7 +1018,9 @@ Q.Tool.onActivate("Communities/conversation/composer").set(function () {
 
 Streams.onInviteComplete.set(Communities.startOnboarding, 'Streams');
 
-Q.Assets.preSubscribeLogin.set(Communities.startOnboarding, 'Communities');
+Users.login.options.onRequireComplete.set(Communities.startOnboarding, 'Communities');
+
+// Q.Assets.preSubscribeLogin.set(Communities.startOnboarding, 'Communities');
 
 Communities.usersAvatarSelector = [
 	'.Streams_participants_container .Users_avatar_tool',
@@ -1220,6 +1222,8 @@ Users.Device.beforeSubscribeConfirm.set(function (options, granted, subscribed) 
 // and run device subscription to allow receive notifications
 Q.Streams.onMessage('', 'Streams/subscribed')
 .set(function (message) {
+
+	Q.Tool.define.options('Communities/onboarding', Q.Communities.onboarding.serverOptions);
 
 	// filter by recipient
 	if (Q.getObject(["byUserId"], message) !== Users.loggedInUserId()) {
