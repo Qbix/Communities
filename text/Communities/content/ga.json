@@ -77,7 +77,11 @@
 		"SelectLocation": "Roghnaigh Su\u00edomh",
 		"FilterLocationsPlaceHolder": "Scag na hionaid le ...",
 		"Description": "{{1}} imeacht",
-		"Keywords": "{{1}} imeacht"
+		"Keywords": "{{1}} imeacht",
+		"CancelRequest": "Cealaigh an tIarratas",
+		"PayToReserve": "\u00cdoc le h\u00c1irithint",
+		"NotGoing": "N\u00ed ag Dul",
+		"PayToAttend": "\u00cdoc le Freastal"
 	},
 	"schedule": {
 		"Title": "Sceideal",

@@ -58,7 +58,11 @@
 		"AreYouSure": "Apakah kamu yakin",
 		"YouWillRefunded": "Anda akan dikembalikan dalam bentuk kredit yang dapat Anda belanjakan untuk hal-hal lain di aplikasi.",
 		"CancelReservation": "Batalkan Reservasi",
-		"UpdateReservation": "Perbarui Reservasi"
+		"UpdateReservation": "Perbarui Reservasi",
+		"CancelRequest": "Pembatalan Permintaan",
+		"PayToReserve": "Bayar untuk Reservasi",
+		"NotGoing": "Tidak Pergi",
+		"PayToAttend": "Bayar untuk Hadir"
 	},
 	"schedule": {
 		"Title": "Susunan acara",

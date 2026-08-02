@@ -58,7 +58,11 @@
 		"AreYouSure": "Jesi li siguran?",
 		"YouWillRefunded": "Dobit \u0107ete povrat u obliku kredita koje mo\u017eete potro\u0161iti na druge stvari u aplikaciji.",
 		"CancelReservation": "Otka\u017eite rezervaciju",
-		"UpdateReservation": "A\u017eurirajte rezervaciju"
+		"UpdateReservation": "A\u017eurirajte rezervaciju",
+		"CancelRequest": "Otka\u017ei zahtjev",
+		"PayToReserve": "Plati za rezervaciju",
+		"NotGoing": "Ne idem",
+		"PayToAttend": "Plati za sudjelovanje"
 	},
 	"schedule": {
 		"Title": "Raspored",

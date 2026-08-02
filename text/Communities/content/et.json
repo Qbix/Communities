@@ -77,7 +77,11 @@
 		"SelectLocation": "Valige Asukoht",
 		"FilterLocationsPlaceHolder": "Filtreerige kohti ...",
 		"Description": "{{1}} s\u00fcndmust",
-		"Keywords": "{{1}} s\u00fcndmust"
+		"Keywords": "{{1}} s\u00fcndmust",
+		"CancelRequest": "T\u00fchista taotlus",
+		"PayToReserve": "Maksa broneerimiseks",
+		"NotGoing": "Ei l\u00e4he",
+		"PayToAttend": "Maksa osalemise eest"
 	},
 	"schedule": {
 		"Title": "Ajakava",

@@ -77,7 +77,11 @@
 		"SelectLocation": "V\u00e1lassza a Hely lehet\u0151s\u00e9get",
 		"FilterLocationsPlaceHolder": "Sz\u0171rje ki a helysz\u00edneket a...",
 		"Description": "{{1}} esem\u00e9ny",
-		"Keywords": "{{1}} esem\u00e9ny"
+		"Keywords": "{{1}} esem\u00e9ny",
+		"CancelRequest": "K\u00e9relem visszavon\u00e1sa",
+		"PayToReserve": "Fizet\u00e9s a foglal\u00e1s\u00e9rt",
+		"NotGoing": "Nem megyek",
+		"PayToAttend": "Fizet\u0151s r\u00e9szv\u00e9tel"
 	},
 	"schedule": {
 		"Title": "Menetrend",

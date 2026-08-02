@@ -77,7 +77,11 @@
 		"SelectLocation": "Ort ausw\u00e4hlen",
 		"FilterLocationsPlaceHolder": "Veranstaltungsorte filtern mit ...",
 		"Description": "{{1}} Ereignisse",
-		"Keywords": "{{1}} Ereignisse"
+		"Keywords": "{{1}} Ereignisse",
+		"CancelRequest": "Stornierungsanfrage",
+		"PayToReserve": "F\u00fcr Reservierung bezahlen",
+		"NotGoing": "Ich gehe nicht",
+		"PayToAttend": "Teilnahmegeb\u00fchr"
 	},
 	"schedule": {
 		"Title": "Zeitplan",

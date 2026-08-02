@@ -77,7 +77,11 @@
 		"SelectLocation": "V\u00e4lj plats",
 		"FilterLocationsPlaceHolder": "Filtrera arenor med...",
 		"Description": "{{1}} h\u00e4ndelser",
-		"Keywords": "{{1}} h\u00e4ndelser"
+		"Keywords": "{{1}} h\u00e4ndelser",
+		"CancelRequest": "Avbryt beg\u00e4ran",
+		"PayToReserve": "Betala f\u00f6r att reservera",
+		"NotGoing": "G\u00e5r inte",
+		"PayToAttend": "Betala f\u00f6r att delta"
 	},
 	"schedule": {
 		"Title": "Schema",

@@ -58,7 +58,11 @@
 		"AreYouSure": "Est\u00e0s segur?",
 		"YouWillRefunded": "Se us reemborsar\u00e0 en forma de cr\u00e8dits que podeu gastar en altres coses a l&#39;aplicaci\u00f3.",
 		"CancelReservation": "Cancel\u00b7la la reserva",
-		"UpdateReservation": "Actualitzar la reserva"
+		"UpdateReservation": "Actualitzar la reserva",
+		"CancelRequest": "Cancel\u00b7la la sol\u00b7licitud",
+		"PayToReserve": "Pagar per reservar",
+		"NotGoing": "No hi anir\u00e9",
+		"PayToAttend": "Paga per assistir"
 	},
 	"schedule": {
 		"Title": "Horari",

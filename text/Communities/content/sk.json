@@ -77,7 +77,11 @@
 		"SelectLocation": "Vyberte umiestnenie",
 		"FilterLocationsPlaceHolder": "Filtrujte miesta pomocou...",
 		"Description": "{{1}} udalosti",
-		"Keywords": "{{1}} udalosti"
+		"Keywords": "{{1}} udalosti",
+		"CancelRequest": "Zru\u0161i\u0165 \u017eiados\u0165",
+		"PayToReserve": "Platba za rezerv\u00e1ciu",
+		"NotGoing": "Nejdem",
+		"PayToAttend": "Platba za \u00fa\u010das\u0165"
 	},
 	"schedule": {
 		"Title": "Rozvrh",

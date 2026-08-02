@@ -58,7 +58,11 @@
 		"AreYouSure": "Weet je zeker dat?",
 		"YouWillRefunded": "Je krijgt je geld terug in de vorm van tegoeden die je aan andere zaken in de app kunt besteden.",
 		"CancelReservation": "Annuleer reservering",
-		"UpdateReservation": "Reservering bijwerken"
+		"UpdateReservation": "Reservering bijwerken",
+		"CancelRequest": "Verzoek annuleren",
+		"PayToReserve": "Betalen om te reserveren",
+		"NotGoing": "Ik ga niet",
+		"PayToAttend": "Betaal om deel te nemen"
 	},
 	"schedule": {
 		"Title": "Schema",

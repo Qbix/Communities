@@ -77,7 +77,11 @@
 		"SelectLocation": "Izv\u0113lieties Atra\u0161an\u0101s vieta",
 		"FilterLocationsPlaceHolder": "Filtr\u0113jiet vietas ar...",
 		"Description": "{{1}} notikumi",
-		"Keywords": "{{1}} notikumi"
+		"Keywords": "{{1}} notikumi",
+		"CancelRequest": "Atcelt piepras\u012bjumu",
+		"PayToReserve": "Maks\u0101t, lai rezerv\u0113tu",
+		"NotGoing": "Neie\u0161u",
+		"PayToAttend": "Maks\u0101t par dal\u012bbu"
 	},
 	"schedule": {
 		"Title": "Grafiks",

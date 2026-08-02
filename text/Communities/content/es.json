@@ -77,7 +77,11 @@
 		"SelectLocation": "Seleccionar ubicaci\u00f3n",
 		"FilterLocationsPlaceHolder": "Filtrar lugares con...",
 		"Description": "{{1}} eventos",
-		"Keywords": "{{1}} eventos"
+		"Keywords": "{{1}} eventos",
+		"CancelRequest": "Solicitud de cancelaci\u00f3n",
+		"PayToReserve": "Pagar para reservar",
+		"NotGoing": "No voy",
+		"PayToAttend": "Pagar para asistir"
 	},
 	"schedule": {
 		"Title": "Calendario",

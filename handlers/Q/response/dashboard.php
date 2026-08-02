@@ -13,7 +13,9 @@ function Q_response_dashboard()
 		$avatar->addPreloaded();
 	}
 	$defaultTabName = null;
+	$tabs = $urls = $classes = array();
 	return Q::view('Communities/dashboard.php', array_merge(@compact(
-		'isMobile', 'dashboardStyle', 'withTitles', 'attributes', 'defaultTabName'
+		'isMobile', 'dashboardStyle', 'withTitles', 'attributes', 'defaultTabName',
+		'tabs', 'urls', 'classes'
 	), $dashboardMenu));
 }

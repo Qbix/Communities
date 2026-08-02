@@ -77,7 +77,11 @@
 		"SelectLocation": "Chagua Mahali",
 		"FilterLocationsPlaceHolder": "Chuja kumbi kwa...",
 		"Description": "{{1}} matukio",
-		"Keywords": "{{1}} matukio"
+		"Keywords": "{{1}} matukio",
+		"CancelRequest": "Ghairi Ombi",
+		"PayToReserve": "Lipa Ili Kuweka Nafasi",
+		"NotGoing": "Hawaendi",
+		"PayToAttend": "Lipa Ili Kuhudhuria"
 	},
 	"schedule": {
 		"Title": "Ratiba",

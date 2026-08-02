@@ -77,7 +77,11 @@
 		"SelectLocation": "Seleziona Localit\u00e0",
 		"FilterLocationsPlaceHolder": "Filtra le sedi con...",
 		"Description": "{{1}} eventi",
-		"Keywords": "{{1}} eventi"
+		"Keywords": "{{1}} eventi",
+		"CancelRequest": "Richiesta di annullamento",
+		"PayToReserve": "Paga per prenotare",
+		"NotGoing": "Non andr\u00f2",
+		"PayToAttend": "\u00c8 necessario pagare per partecipare"
 	},
 	"schedule": {
 		"Title": "Programma",

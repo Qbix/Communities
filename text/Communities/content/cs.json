@@ -58,7 +58,11 @@
 		"AreYouSure": "Jsi si jist\u00e1?",
 		"YouWillRefunded": "Pen\u00edze v\u00e1m budou vr\u00e1ceny ve form\u011b kredit\u016f, kter\u00e9 m\u016f\u017eete utratit za jin\u00e9 v\u011bci v aplikaci.",
 		"CancelReservation": "Zru\u0161it rezervaci",
-		"UpdateReservation": "Aktualizovat rezervaci"
+		"UpdateReservation": "Aktualizovat rezervaci",
+		"CancelRequest": "Zru\u0161it po\u017eadavek",
+		"PayToReserve": "Platba za rezervaci",
+		"NotGoing": "Nep\u016fjdu",
+		"PayToAttend": "Zaplatit za \u00fa\u010dast"
 	},
 	"schedule": {
 		"Title": "Pl\u00e1n",
