@@ -214,6 +214,7 @@ abstract class Communities
 	 * 	@param {bool} [$options.throwIfExist=true] Whether throw exception if community already exist
 	 * 	@param {bool} [$options.skipAccess=false] Whether skip checking for permissions to create community
 	 * 	@param {bool} [$options.creditsConfirmed=null] Whether user confirmed to charge credits for new community
+	 * 	@param {string} [$options.id] Community id to use instead of generating one
 	 * @throws Exception
 	 * @return {Users_User}
 	 */
@@ -274,7 +275,7 @@ abstract class Communities
 		Q::event("Communities/community/create", @compact('communityName', 'skipAccess', 'quota'), 'before');
 
 		$community = new Users_User();
-		$community->id = self::generateId();
+		$community->id = Q::ifset($options, 'id', null) ?: self::generateId();
 		$community->url = Q_Config::expect('Q', 'web', 'appRootUrl');
 		$community->icon = "{{baseUrl}}/Q/plugins/Communities/img/icons/default";
 		$community->signedUpWith = 'none';
@@ -387,6 +388,23 @@ abstract class Communities
 			Users_Label::addLabel($role, $communityId, $info['title'], $info['icon'], false);
 		}
 	}
+	/**
+	 * Switch the current user to a community (cookie, session, subscribe, client scriptData).
+	 * @method switchCommunity
+	 * @static
+	 * @param {string} $communityId
+	 * @param {array} [$options=array()] Passed to setCommunity; default subscribe is Streams/experience/main
+	 */
+	static function switchCommunity($communityId, $options = array())
+	{
+		$options = array_merge(array(
+			'subscribe' => array('Streams/experience/main')
+		), $options);
+		Q_Response::setCookie('Q_Users_communityId', $communityId, time()+60*60*24*365);
+		self::setCommunity($communityId, $options);
+		Q_Response::setScriptData('Q.plugins.Users.currentCommunityId', $communityId);
+	}
+
 	/**
 	 * Sets the default community artificially in the app.
 	 * In most apps, you don't want to do this.

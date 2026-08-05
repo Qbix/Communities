@@ -29,8 +29,5 @@ function Communities_before_Q_reroute()
 	}
 
 	Users_User::fetch($communityId, true);
-	Q_Response::setCookie('Q_Users_communityId', $communityId, time()+60*60*24*365);
-	Communities::setCommunity($communityId, array(
-		'subscribe' => array('Streams/experience/main')
-	));
+	Communities::switchCommunity($communityId);
 }
