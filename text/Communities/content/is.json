@@ -77,7 +77,11 @@
 		"SelectLocation": "Veldu Sta\u00f0setning",
 		"FilterLocationsPlaceHolder": "S\u00edu\u00f0u sta\u00f0i me\u00f0...",
 		"Description": "{{1}} vi\u00f0bur\u00f0ir",
-		"Keywords": "{{1}} vi\u00f0bur\u00f0ir"
+		"Keywords": "{{1}} vi\u00f0bur\u00f0ir",
+		"CancelRequest": "H\u00e6tta vi\u00f0 bei\u00f0ni",
+		"PayToReserve": "Grei\u00f0a til a\u00f0 panta",
+		"NotGoing": "Ekki a\u00f0 fara",
+		"PayToAttend": "Borga til a\u00f0 m\u00e6ta"
 	},
 	"schedule": {
 		"Title": "Dagskr\u00e1",

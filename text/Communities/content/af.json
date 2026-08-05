@@ -58,7 +58,11 @@
 		"AreYouSure": "Is jy seker?",
 		"YouWillRefunded": "Jy sal terugbetaal word in die vorm van krediete wat jy op ander dinge in die toepassing kan spandeer.",
 		"CancelReservation": "Kanselleer bespreking",
-		"UpdateReservation": "Dateer bespreking op"
+		"UpdateReservation": "Dateer bespreking op",
+		"CancelRequest": "Kanselleer Versoek",
+		"PayToReserve": "Betaal om te reserveer",
+		"NotGoing": "Nie Gaan",
+		"PayToAttend": "Betaal om by te woon"
 	},
 	"schedule": {
 		"Title": "Skedule",

@@ -58,7 +58,11 @@
 		"AreYouSure": "Ziur zaude?",
 		"YouWillRefunded": "Aplikazioan beste gauza batzuetan gastatu ditzakezun kredituen bidez itzuliko zaizu.",
 		"CancelReservation": "Utzi erreserba",
-		"UpdateReservation": "Eguneratu erreserba"
+		"UpdateReservation": "Eguneratu erreserba",
+		"CancelRequest": "Eskaera bertan behera uztea",
+		"PayToReserve": "Ordaindu erreserbatzeko",
+		"NotGoing": "Ez joango",
+		"PayToAttend": "Ordaindu bertaratzeko"
 	},
 	"schedule": {
 		"Title": "Ordutegia",

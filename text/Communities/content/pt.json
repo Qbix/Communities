@@ -77,7 +77,11 @@
 		"SelectLocation": "Selecionar local",
 		"FilterLocationsPlaceHolder": "Filtre locais com ...",
 		"Description": "{{1}} eventos",
-		"Keywords": "{{1}} eventos"
+		"Keywords": "{{1}} eventos",
+		"CancelRequest": "Cancelar solicita\u00e7\u00e3o",
+		"PayToReserve": "Pague para reservar",
+		"NotGoing": "N\u00e3o vou",
+		"PayToAttend": "Pague para participar"
 	},
 	"schedule": {
 		"Title": "Cronograma",

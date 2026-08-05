@@ -77,7 +77,11 @@
 		"SelectLocation": "Valitse Sijainti",
 		"FilterLocationsPlaceHolder": "Suodata paikat ...",
 		"Description": "{{1}} tapahtumaa",
-		"Keywords": "{{1}} tapahtumaa"
+		"Keywords": "{{1}} tapahtumaa",
+		"CancelRequest": "Peruuta pyynt\u00f6",
+		"PayToReserve": "Maksa varataksesi",
+		"NotGoing": "Ei mene",
+		"PayToAttend": "Maksa osallistuaksesi"
 	},
 	"schedule": {
 		"Title": "Ajoittaa",

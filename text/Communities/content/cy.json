@@ -77,7 +77,11 @@
 		"SelectLocation": "Dewiswch Lleoliad",
 		"FilterLocationsPlaceHolder": "Hidlo lleoliadau gyda ...",
 		"Description": "{{1}} digwyddiad",
-		"Keywords": "{{1}} digwyddiad"
+		"Keywords": "{{1}} digwyddiad",
+		"CancelRequest": "Canslo Cais",
+		"PayToReserve": "Talu i Wrth Gefn",
+		"NotGoing": "Ddim yn Mynd",
+		"PayToAttend": "Talu i Fynychu"
 	},
 	"schedule": {
 		"Title": "Atodlen",

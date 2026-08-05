@@ -77,7 +77,11 @@
 		"SelectLocation": "Selecta\u021bi Loca\u021bie",
 		"FilterLocationsPlaceHolder": "Filtra\u021bi loca\u021biile cu...",
 		"Description": "{{1}} evenimente",
-		"Keywords": "{{1}} evenimente"
+		"Keywords": "{{1}} evenimente",
+		"CancelRequest": "Anulare solicitare",
+		"PayToReserve": "Plat\u0103 pentru rezervare",
+		"NotGoing": "Nu merg",
+		"PayToAttend": "Pl\u0103te\u0219te pentru a participa"
 	},
 	"schedule": {
 		"Title": "Programa",

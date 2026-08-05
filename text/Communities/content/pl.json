@@ -77,7 +77,11 @@
 		"SelectLocation": "Wybierz lokalizacj\u0119",
 		"FilterLocationsPlaceHolder": "Filtruj miejsca za pomoc\u0105 ...",
 		"Description": "{{1}} wydarzenia",
-		"Keywords": "{{1}} wydarzenia"
+		"Keywords": "{{1}} wydarzenia",
+		"CancelRequest": "Anuluj \u017c\u0105danie",
+		"PayToReserve": "Zap\u0142a\u0107, aby zarezerwowa\u0107",
+		"NotGoing": "Nie id\u0119",
+		"PayToAttend": "Zap\u0142a\u0107, aby uczestniczy\u0107"
 	},
 	"schedule": {
 		"Title": "Harmonogram",

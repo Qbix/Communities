@@ -29,7 +29,7 @@
 	display: inline-block;
 }
 #page .Communities_column_event.Communities_event_requested:not(.Communities_event_paid) button[name=cancelRequest],
-#page .Communities_column_event.Communities_event_requested:not(.Communities_event_paid) button[name=payToReserve] {
+#page .Communities_column_event.Communities_event_requested:not(.Communities_event_paid) button[name=payToAttend] {
 	display: inline-block; width: 49%;
 	padding: 0 5px;
 }

@@ -291,7 +291,7 @@ Q.exports(function (options, index, div, data) {
 			columnTool.setControls($column.attr('data-index'), data.controls);
 
 			$('.Q_controls_slot button[name=reservation]', div)
-			.add('.Q_controls_slot button[name=payToReserve]', div)
+			.add('.Q_controls_slot button[name=payToAttend]', div)
 			.on(Q.Pointer.fastclick, function () {
 				var $this = $(this);
 				var _going = function () {

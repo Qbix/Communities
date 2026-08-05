@@ -58,7 +58,11 @@
 		"AreYouSure": "Er du sikker?",
 		"YouWillRefunded": "Du vil blive refunderet i form af kreditter, du kan bruge p\u00e5 andre ting i appen.",
 		"CancelReservation": "Annuller reservation",
-		"UpdateReservation": "Opdater reservation"
+		"UpdateReservation": "Opdater reservation",
+		"CancelRequest": "Annuller anmodning",
+		"PayToReserve": "Betal for at reservere",
+		"NotGoing": "G\u00e5r ikke",
+		"PayToAttend": "Betal for at deltage"
 	},
 	"schedule": {
 		"Title": "Tidsplan",

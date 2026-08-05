@@ -77,7 +77,11 @@
 		"SelectLocation": "Ag\u0127\u017cel Post",
 		"FilterLocationsPlaceHolder": "Iffiltra l-postijiet bi...",
 		"Description": "{{1}} avvenimenti",
-		"Keywords": "{{1}} avvenimenti"
+		"Keywords": "{{1}} avvenimenti",
+		"CancelRequest": "Talba g\u0127all-Ikkan\u010bellazzjoni",
+		"PayToReserve": "\u0126allas biex Tirri\u017cerva",
+		"NotGoing": "Mhux sejjer",
+		"PayToAttend": "\u0126allas biex Tattendi"
 	},
 	"schedule": {
 		"Title": "Skeda",

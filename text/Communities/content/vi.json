@@ -77,7 +77,11 @@
 		"SelectLocation": "Ch\u1ecdn \u0111\u1ecba \u0111i\u1ec3m",
 		"FilterLocationsPlaceHolder": "L\u1ecdc \u0111\u1ecba \u0111i\u1ec3m v\u1edbi ...",
 		"Description": "{{1}} s\u1ef1 ki\u1ec7n",
-		"Keywords": "{{1}} s\u1ef1 ki\u1ec7n"
+		"Keywords": "{{1}} s\u1ef1 ki\u1ec7n",
+		"CancelRequest": "Y\u00eau c\u1ea7u h\u1ee7y b\u1ecf",
+		"PayToReserve": "Thanh to\u00e1n \u0111\u1ec3 \u0111\u1eb7t ch\u1ed7",
+		"NotGoing": "Kh\u00f4ng \u0111i",
+		"PayToAttend": "Tr\u1ea3 ph\u00ed \u0111\u1ec3 tham d\u1ef1"
 	},
 	"schedule": {
 		"Title": "L\u1ecbch tr\u00ecnh",

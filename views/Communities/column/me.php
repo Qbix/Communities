@@ -9,7 +9,10 @@
 
         <?php
             if (!empty($roles)) {
-                echo Q::tool("Communities/roles", array("userId" => $user->id));
+                echo Q::tool("Communities/roles", array(
+                    "userId" => $user->id,
+                    "onInvoke" => array("Communities" => null)
+                ));
             }
         ?>
 

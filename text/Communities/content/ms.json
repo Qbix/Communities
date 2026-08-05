@@ -77,7 +77,11 @@
 		"SelectLocation": "Pilih Lokasi",
 		"FilterLocationsPlaceHolder": "Tapis tempat dengan...",
 		"Description": "{{1}} acara",
-		"Keywords": "{{1}} acara"
+		"Keywords": "{{1}} acara",
+		"CancelRequest": "Batalkan Permintaan",
+		"PayToReserve": "Bayar Untuk Tempah",
+		"NotGoing": "Tidak Akan Pergi",
+		"PayToAttend": "Bayar Untuk Hadir"
 	},
 	"schedule": {
 		"Title": "Jadual",

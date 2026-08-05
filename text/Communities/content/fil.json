@@ -58,7 +58,11 @@
 		"AreYouSure": "Sigurado ka ba?",
 		"YouWillRefunded": "Ikaw ay ibabalik sa anyo ng mga kredito na maaari mong gastusin sa iba pang mga bagay sa app.",
 		"CancelReservation": "Kanselahin ang Pagreserba",
-		"UpdateReservation": "I-update ang Pagreserba"
+		"UpdateReservation": "I-update ang Pagreserba",
+		"CancelRequest": "Kanselahin ang Kahilingan",
+		"PayToReserve": "Magbayad Para Magpareserba",
+		"NotGoing": "Hindi Pupunta",
+		"PayToAttend": "Magbayad Para Dumalo"
 	},
 	"schedule": {
 		"Title": "Iskedyul",

@@ -77,7 +77,11 @@
 		"SelectLocation": "\uc704\uce58 \uc120\ud0dd",
 		"FilterLocationsPlaceHolder": "\ub2e4\uc74c\uc73c\ub85c \uc7a5\uc18c \ud544\ud130\ub9c1 ...",
 		"Description": "{{1}} \uc774\ubca4\ud2b8",
-		"Keywords": "{{1}} \uc774\ubca4\ud2b8"
+		"Keywords": "{{1}} \uc774\ubca4\ud2b8",
+		"CancelRequest": "\ucde8\uc18c \uc694\uccad",
+		"PayToReserve": "\uc608\uc57d\ud558\ub824\uba74 \uacb0\uc81c\ud558\uc138\uc694",
+		"NotGoing": "\uc548 \uac08 \uac70\uc608\uc694",
+		"PayToAttend": "\ucc38\uac00\ube44 \uc9c0\ubd88"
 	},
 	"schedule": {
 		"Title": "\uc77c\uc815",

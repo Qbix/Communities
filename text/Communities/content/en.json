@@ -82,6 +82,8 @@
 		"CancelReservation": "Cancel Reservation",
 		"UpdateReservation": "Update Reservation",
 		"PayToReserve": "Pay To Reserve",
+		"NotGoing": "Not Going",
+		"PayToAttend": "Pay To Attend",
 		"AreYouSure": "Are you sure?",
 		"YouWillRefunded": "You will be refunded in the form of credits you can spend on other things in the app.",
 		"AllInterests": "All Interests",

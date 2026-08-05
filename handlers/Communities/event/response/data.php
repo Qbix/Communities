@@ -57,5 +57,5 @@ function Communities_event_response_data($params) {
 
 	$payable = $stream->getAttribute('payment');
 
-	return @compact("columnClass", "controls", "userInviteUrl", "payable", "payment");
+	return @compact("columnClass", "controls", "userInviteUrl", "payable", "payment", "url");
 }

@@ -77,7 +77,11 @@
 		"SelectLocation": "Konum Se\u00e7in",
 		"FilterLocationsPlaceHolder": "Mekanlar\u0131 filtreleyin...",
 		"Description": "{{1}} etkinlik",
-		"Keywords": "{{1}} etkinlik"
+		"Keywords": "{{1}} etkinlik",
+		"CancelRequest": "\u0130ptal Talebi",
+		"PayToReserve": "Rezervasyon \u0130\u00e7in \u00d6deme Yap\u0131n",
+		"NotGoing": "Gitmiyorum",
+		"PayToAttend": "Kat\u0131l\u0131m \u00dccreti"
 	},
 	"schedule": {
 		"Title": "Takvim",

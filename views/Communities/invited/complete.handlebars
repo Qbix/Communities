@@ -31,7 +31,7 @@
 						</td>
 					</tr>
 				{{/if}}
-				{{#if discount}}
+				{{#if discount.description}}
 				<tr class="Streams_complete_discount">
 					<td colspan="2">
 						<div class="Streams_invited_discount">
@@ -40,9 +40,26 @@
 					</td>
 				</tr>
 				{{/if}}
+				{{#if roles}}
+				<tr class="Streams_complete_roles">
+					<td colspan="2">
+						<div class="Streams_invited_roles">
+							<div class="Streams_invited_roles_prompt">{{rolesPrompt}}</div>
+							<ul>
+							{{#each roles}}
+								<li class="Streams_invited_role" data-label="{{this.label}}">
+									<img src="{{this.icon}}/40.png" alt="">
+									<span>{{this.title}}</span>
+								</li>
+							{{/each}}
+							</ul>
+						</div>
+					</td>
+				</tr>
+				{{/if}}
 			</table>
-			<input type="hidden" name="Q.Streams.acceptInvite" value="1">
 			<input type="hidden" name="token" value="{{token}}"/>
+			<input type="hidden" name="Q.Streams.acceptInvite" value="1">
 			<input type="hidden" name="Q.method" value="get"/>
 			<div class="Streams_login_get_started">
 				<button type="submit" class="Q_button Q_main_button Streams_login_start">{{button}}</button>

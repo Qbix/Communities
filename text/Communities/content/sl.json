@@ -77,7 +77,11 @@
 		"SelectLocation": "Izberite Lokacija",
 		"FilterLocationsPlaceHolder": "Filtrirajte prizori\u0161\u010da z ...",
 		"Description": "{{1}} dogodkov",
-		"Keywords": "{{1}} dogodkov"
+		"Keywords": "{{1}} dogodkov",
+		"CancelRequest": "Prekli\u010di zahtevo",
+		"PayToReserve": "Pla\u010dilo za rezervacijo",
+		"NotGoing": "Ne grem",
+		"PayToAttend": "Pla\u010dilo za udele\u017ebo"
 	},
 	"schedule": {
 		"Title": "Urnik",

@@ -77,7 +77,11 @@
 		"SelectLocation": "\u1266\u1273 \u12ed\u121d\u1228\u1321",
 		"FilterLocationsPlaceHolder": "\u1266\u1273\u12ce\u127d\u1295 \u12a0\u1323\u122b \u1260...",
 		"Description": "{999} \u12ad\u1235\u1270\u1276\u127d",
-		"Keywords": "{999} \u12ad\u1235\u1270\u1276\u127d"
+		"Keywords": "{999} \u12ad\u1235\u1270\u1276\u127d",
+		"CancelRequest": "\u1325\u12eb\u1244 \u1230\u122d\u12dd",
+		"PayToReserve": "\u1208\u1218\u1320\u1263\u1260\u1242\u12eb \u12ed\u12ad\u1348\u1209",
+		"NotGoing": "\u12a5\u12e8\u1204\u12f5\u12a9 \u12a0\u12ed\u12f0\u1208\u121d",
+		"PayToAttend": "\u1208\u1218\u12a8\u1273\u1270\u120d \u12ed\u12ad\u1348\u1209"
 	},
 	"schedule": {
 		"Title": "\u1218\u122d\u1210\u130d\u1265\u122d",
