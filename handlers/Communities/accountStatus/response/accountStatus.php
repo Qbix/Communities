@@ -12,7 +12,7 @@ function Communities_accountStatus_response_accountStatus()
     // check if name is set
     $avatar = Streams_Avatar::fetch($user->id, $user->id);
     $needs = array();
-    if (!$avatar->displayName(array('short' => true), '')) {
+    if (!$avatar || !$avatar->displayName(array('short' => true), '')) {
         $needs[] = 'name';
     }
     if (in_array('icon', $steps)) {
@@ -30,9 +30,11 @@ function Communities_accountStatus_response_accountStatus()
         }
     }
     if (in_array('location', $steps)) {
-        // check if user has set a location
+        // check if user has set a location -- the stream may not exist yet
+        // for a freshly registered user, which is itself a "needs location"
         $stream = Streams_Stream::fetch($user->id, $user->id, 'Places/user/location');
-        if (!$stream or !$stream->getAttribute('latitude') and !$stream->getAttribute('longitude')) {
+        if (!$stream
+        or (!$stream->getAttribute('latitude') and !$stream->getAttribute('longitude'))) {
             $needs[] = 'location';
         }
     }
