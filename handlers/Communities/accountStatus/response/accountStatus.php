@@ -32,7 +32,7 @@ function Communities_accountStatus_response_accountStatus()
     if (in_array('location', $steps)) {
         // check if user has set a location
         $stream = Streams_Stream::fetch($user->id, $user->id, 'Places/user/location');
-        if (!$stream->getAttribute('latitude') and !$stream->getAttribute('longitude')) {
+        if (!$stream or !$stream->getAttribute('latitude') and !$stream->getAttribute('longitude')) {
             $needs[] = 'location';
         }
     }
