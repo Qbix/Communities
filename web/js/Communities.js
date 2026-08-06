@@ -812,7 +812,11 @@ var Communities = Q.Communities = Q.plugins.Communities = {
 		});
 	},
 	startOnboarding: function (callback, options) {
-		if (Q.Users.loggedInUser && Q.Users.loggedInUser.sessionCount > 1) {
+		// The old sessionCount > 1 bail made "existing user invited into a new
+		// community" impossible -- which is exactly the case onboarding is for.
+		// The onboarding tool already skips steps that are filled in, so a
+		// complete user completes immediately.
+		if (!Q.Users.loggedInUser) {
 			return Q.handle(callback); // in this case, skip the dialog for now
 		}
 
@@ -820,7 +824,9 @@ var Communities = Q.Communities = Q.plugins.Communities = {
 			Q.Dialogs.push({
 				title: text.onboarding.Title,
 				className: "Communities_onboarding_overlay",
-				content: $("<div>").tool("Communities/onboarding", options),
+				content: $("<div>").tool("Communities/onboarding", Q.extend({
+					communityId: Q.Users.currentCommunityId
+				}, options)),
 				noClose: true,
 				onActivate: function (dialog) {
 					var onboardingTool = Q.Tool.from($(".Communities_onboarding_tool", dialog)[0], "Communities/onboarding");
@@ -1016,7 +1022,13 @@ Q.Tool.onActivate("Communities/conversation/composer").set(function () {
 	});
 }, 'Communities');
 
-Streams.onInviteComplete.set(Communities.startOnboarding, 'Streams');
+// Runs whether they accepted or declined, and on the server-side auto-accept
+// path where no dialog was ever shown.
+Streams.onInviteResolved.set(function (accepted, params) {
+	Communities.startOnboarding(null, {
+		communityId: params && params.communityId
+	});
+}, 'Communities');
 
 Users.login.options.onRequireComplete.set(Communities.startOnboarding, 'Communities');
 
@@ -1099,7 +1111,7 @@ Q.Tool.onActivate("id:Q_columns-Communities").set(function () {
 		}
 	), 'Communities');
 
-	// If someone clicks on avatars in certain contexts, open their profile.
+	// If someone clicks on avatars in certain contexts, open their profile
 	// Only consume the gesture when a columns tool can actually open a profile;
 	// otherwise leave the event alone so other handlers (e.g. page click) can run.
 	$('body').off(Q.Pointer.fastclick, Communities.usersAvatarSelector).on(Q.Pointer.fastclick, Communities.usersAvatarSelector, function (e) {

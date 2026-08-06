@@ -1,6 +1,20 @@
-<div id="Streams_complete_overlay" class="Communities_onboarding_overlay">
+{{!--
+	The onboarding dialog. NOT an invite dialog -- it has no token, no accept
+	and no decline, deliberately.
+
+	It is rendered by Communities.startOnboarding(), which now runs off
+	Streams.onInviteResolved, so it appears after the person has accepted or
+	declined, and also on a plain login with no invite involved at all.
+
+	communityId is the community of the stream they were invited to, resolved
+	server-side from the stream's communityId attribute (falling back to the
+	publisher when the publisher is itself a community) -- so being invited
+	into a new community re-runs onboarding for THAT community, even for a
+	user whose profile is otherwise complete.
+--}}
+<div id="Communities_onboarding_overlay" class="Communities_onboarding_overlay">
 	<div class="Q_title_slot">
-		<h2 class="Users_dialog_title Q_dialog_title">{{interpolate onboarding.Title communityName}}</h2>
+		<h2 class="Users_dialog_title Q_dialog_title">{{interpolate onboarding.Title communityName=communityName}}</h2>
 	</div>
 	<div class="Q_dialog_slot Q_dialog_content">
 		{{{tool "Communities/onboarding" communityId=communityId explanation=explanation}}}

@@ -7,8 +7,19 @@ function Communities_before_Q_reroute()
 		$token = Q_Dispatcher::uri()->token;
 		if ($token) {
 			$invite = Streams_Invite::fromToken($token);
-			if ($invite && Users::isCommunityId($invite->publisherId) && $invite->publisherId != Users::currentCommunityId(true)) {
-				$communityId = $invite->publisherId;
+			if ($invite) {
+				// Events can be published by a person and carry the community
+				// in attributes.communityId, so the publisher is only a fallback
+				$stream = Streams_Stream::fetch(
+					null, $invite->publisherId, $invite->streamName
+				);
+				$c = $stream ? $stream->getAttribute('communityId', null) : null;
+				if (!$c and Users::isCommunityId($invite->publisherId)) {
+					$c = $invite->publisherId;
+				}
+				if ($c and $c != Users::currentCommunityId(true)) {
+					$communityId = $c;
+				}
 			}
 		}
 	}
