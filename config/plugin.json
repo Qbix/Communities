@@ -198,11 +198,6 @@
 						"description": "An article was posted",
 						"url": "{{baseUrl}}/Websites/article/{{streamName.[2]}}"
 					}
-				},
-				"invited": {
-					"dialog": {
-						"templateName": "Communities/invited/onboarding"
-					}
 				}
 			},
 			"Websites/article": {

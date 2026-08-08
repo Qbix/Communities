@@ -59,7 +59,7 @@
     color: #aaa;
 }
 .Communities_onboarding_overlay {
-    background: url(../../../Q/img/bg/overlay-dark.png);
+    background: url(../../../Q/img/bg/overlay.png);
 }
 .Communities_onboarding_overlay .Q_dialog_content {
     padding: 5px;
@@ -178,7 +178,7 @@ html.Communities_onboarding #columns_slot .Q_column_0 .column_slot {
     overflow-y: auto;
 }
 .Communities_onboarding #content_slot {
-    background: url(../../../Q/img/bg/overlay-dark.png);
+    background: url(../../../Q/img/bg/overlay.png);
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),  url(../../../Q/img/bg/overlay-dark.png);
     overflow-x: hidden;
     padding: 20px;
@@ -356,4 +356,11 @@ html.Q_notMobile.Communities_onboarding .Communities_onboarding_step.Communities
 .Communities_onboarding_interests .Streams_interests_tool {
     overflow: auto;
     max-height: 50vh;
+}
+
+@media (prefers-color-scheme: dark) {
+    .Communities_onboarding_overlay,
+    .Communities_onboarding #content_slot {
+        background: url(../../../Q/img/bg/overlay-dark.png);
+    }
 }

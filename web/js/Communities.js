@@ -812,15 +812,41 @@ var Communities = Q.Communities = Q.plugins.Communities = {
 		});
 	},
 	startOnboarding: function (callback, options) {
-		if (Q.Users.loggedInUser && Q.Users.loggedInUser.sessionCount > 1) {
-			return Q.handle(callback); // in this case, skip the dialog for now
+		// Callers pass very different second arguments. Streams.onInviteResolved
+		// passes {communityId: ...}; Users.login's onRequireComplete passes the
+		// logged-in USER (login.js does
+		// Q.handle(o.onRequireComplete, this, [_onComplete, user, response2, o])).
+		// Only treat a plain object as tool options, so a Users.User doesn't get
+		// spread into them.
+		var toolOptions = (options && options.constructor === Object)
+			? options : {};
+		// The old sessionCount > 1 bail made "existing user invited into a new
+		// community" impossible -- which is exactly the case onboarding is for.
+		// The onboarding tool already skips steps that are filled in, so a
+		// complete user completes immediately.
+		if (!Q.Users.loggedInUser) {
+			return Q.handle(callback);
 		}
+		// Guard against running twice for the same user in the same session.
+		// After registration: onRequireComplete fires startOnboarding, then
+		// after the invite dialog resolves, onInviteResolved fires it again.
+		// The second call should just run the callback. But a different user
+		// (logout + login, or a new registration) must be able to onboard.
+		var uid = Q.Users.loggedInUserId();
+		var cid = toolOptions.communityId || Q.Users.currentCommunityId;
+		var key = uid + '\t' + cid;
+		if (Communities._onboardedKey === key) {
+			return Q.handle(callback);
+		}
+		Communities._onboardedKey = key;
 
 		Q.Text.get("Communities/content", function (err, text) {
 			Q.Dialogs.push({
 				title: text.onboarding.Title,
 				className: "Communities_onboarding_overlay",
-				content: $("<div>").tool("Communities/onboarding", options),
+				content: $("<div>").tool("Communities/onboarding", Q.extend({
+					communityId: Q.Users.currentCommunityId
+				}, toolOptions)),
 				noClose: true,
 				onActivate: function (dialog) {
 					var onboardingTool = Q.Tool.from($(".Communities_onboarding_tool", dialog)[0], "Communities/onboarding");
@@ -1016,7 +1042,13 @@ Q.Tool.onActivate("Communities/conversation/composer").set(function () {
 	});
 }, 'Communities');
 
-Streams.onInviteComplete.set(Communities.startOnboarding, 'Streams');
+// Runs whether they accepted or declined, and on the server-side auto-accept
+// path where no dialog was ever shown.
+Streams.onInviteResolved.set(function (accepted, params) {
+	Communities.startOnboarding(null, {
+		communityId: params && params.communityId
+	});
+}, 'Communities');
 
 Users.login.options.onRequireComplete.set(Communities.startOnboarding, 'Communities');
 
@@ -1099,7 +1131,7 @@ Q.Tool.onActivate("id:Q_columns-Communities").set(function () {
 		}
 	), 'Communities');
 
-	// If someone clicks on avatars in certain contexts, open their profile.
+	// If someone clicks on avatars in certain contexts, open their profile
 	// Only consume the gesture when a columns tool can actually open a profile;
 	// otherwise leave the event alone so other handlers (e.g. page click) can run.
 	$('body').off(Q.Pointer.fastclick, Communities.usersAvatarSelector).on(Q.Pointer.fastclick, Communities.usersAvatarSelector, function (e) {
@@ -1237,6 +1269,9 @@ Q.Streams.onMessage('', 'Streams/subscribed')
 // If yes, try to register device again (because it was unregistered when logged out).
 // If no, do nothing (means user never was requested device registration).
 Users.onLogin.set(function (user) {
+	// Reset so a fresh login (or a different user) can onboard again.
+	// startOnboarding sets this to prevent the double-push that happened when
+	// onRequireComplete and onInviteResolved both fired it in sequence.
 	if (!user) { // the user changed
 		return;
 	}
