@@ -437,11 +437,12 @@ input[name=query].Communities_eventChooser_input:focus::placeholder {
 	margin: 0 2px;
 	padding: 3px;
 	font-size: 14px;
-	border: 1px solid #777;
+	border: 1px solid var(--tabs-border-color, #777);
 	border-bottom: solid 1px transparent;
 	border-radius: 5px 5px 0 0;
 	cursor: pointer;
 	text-transform: capitalize;
+	color: var(--tabs-color, var(--column-color, var(--html-color)));
 }
 .Communities_tabs[data-style="icons"] {
 	position: relative;
@@ -473,14 +474,14 @@ input[name=query].Communities_eventChooser_input:focus::placeholder {
 }
 .Communities_tab.Q_current,
 .Communities_tabs[data-style="icons"] .Communities_tab.Q_current {
-	background-color: var(--tabs-current-bg-color, white) !important;
-	color: var(--tabs-current-color, black) !important;
+	background-color: var(--tabs-current-bg-color, var(--column-bg-color, white)) !important;
+	color: var(--tabs-current-color, var(--column-color, black)) !important;
 	/*box-shadow: 0px -3px 5px rgba(100, 100, 100, 0.25); this lead to appear bottom line*/
 }
 .Communities_tab.Q_current::before,
 .Communities_tabs[data-style="icons"] .Communities_tab.Q_current::before {
-	background-color: var(--tabs-current-bg-color, white) !important;
-	color: var(--tabs-current-color, black) !important;
+	background-color: var(--tabs-current-bg-color, var(--column-bg-color, white)) !important;
+	color: var(--tabs-current-color, var(--column-color, black)) !important;
 }
 
 .Communities_tabs[data-style="icons"] .Communities_tab::before {
@@ -551,9 +552,9 @@ input[name=query].Communities_eventChooser_input:focus::placeholder {
 .Communities_tabContent {
 	display: none;
 	margin-top: -1px;
-	border-top: 1px solid #777;
-	background: var(--tabs-current-bg-color, white);;
-	color: var(--tabs-current-color, black);
+	border-top: 1px solid var(--tabs-border-color, #777);
+	background: var(--tabs-current-bg-color, var(--column-bg-color, white));
+	color: var(--tabs-current-color, var(--column-color, black));
 }
 .Communities_tabContent.Q_current {
 	display: block;
@@ -1709,6 +1710,11 @@ html .Communities_column_community .Communities_tabs .Communities_tab {
 		--column-color: white;
 		--column-border-mobile: solid 1px rgba(200, 200, 200, 0.3);
 		--column-title-bg-color: #444;
-		--column-title-color: #fff
+		--column-title-color: #fff;
+		--tabs-color: white;
+		--tabs-border-color: rgba(200, 200, 200, 0.45);
+		--tabs-current-bg-color: #555;
+		--tabs-current-color: white;
+		--tabs-bg-color: #444;
 	}
 }
