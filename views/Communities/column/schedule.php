@@ -5,7 +5,6 @@
 			<?php echo $inbox['AddNewContacts'] ?>
 		</button>
 	</div>
-    <div class="Communities_subscribe"></div>
 	<?php if (empty($participating)): ?>
 		<div class="Communities_no_items">
 			<?php echo $schedule['NoneYet'] ?> 
@@ -29,6 +28,7 @@
 	        <?php if (empty($futureEvents)): ?>
 	            <div class="Communities_no_items">
 	                <?php echo $schedule['NoneYet'] ?>
+					<div class="Communities_subscribe"></div>
 					<div class="Communities_buttons">
 						<button class="Q_button Communities_events_link Q_aspect_when">
 							<?php echo $schedule['AddSome'] ?>
@@ -39,6 +39,7 @@
 		        <?php foreach ($futureEvents as $tool): ?>
 			        <?php echo $tool ?>
 		        <?php endforeach; ?>
+				<div class="Communities_subscribe"></div>
 				<div class="Communities_buttons">
 					<button class="Q_button Communities_events_link Q_aspect_when">
 						<?php echo $schedule['AddSome'] ?>
@@ -52,6 +53,7 @@
 			<?php if (empty($pastEvents)): ?>
 	            <div class="Communities_no_items">
 					<?php echo $schedule['NoneYet'] ?>
+					<div class="Communities_subscribe"></div>
 					<div class="Communities_buttons">
 						<button class="Q_button Communities_events_link Q_aspect_when">
 							<?php echo $schedule['AddSome'] ?>

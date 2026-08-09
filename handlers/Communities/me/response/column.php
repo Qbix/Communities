@@ -41,16 +41,18 @@ function Communities_me_response_column ($options)
 			//****************** Schedule **************************
 			Q_Response::addStylesheet('{{Communities}}/css/columns/schedule.css', 'Communities');
 			$tabClasses['schedule'] = 'Q_aspect_when';
-			$fromTime = 0; // select all past events
+			// $fromTime = 0; // select all past events
+			$fromTime = strtotime("-1 minute");
+			$untilTime = strtotime("+1 day");
 			$travelParticipating = array();
 			$calendarsParticipating = array();
 			if (class_exists('Travel_Trip')) {
-				$travelParticipating = Travel_Trip::participating($user->id, $fromTime, null, null, array(
+				$travelParticipating = Travel_Trip::participating($user->id, $fromTime, $untilTime, null, array(
 					'streamsOnly' => true
 				));
 			}
 			if (class_exists('Calendars')) {
-				$calendarsParticipating = Calendars::participating($user->id, $fromTime, null, array('yes', 'maybe'), array(
+				$calendarsParticipating = Calendars::participating($user->id, $fromTime, $untilTime, array('yes', 'maybe'), array(
 					'streamsOnly' => true
 				));
 			}
