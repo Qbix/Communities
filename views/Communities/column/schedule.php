@@ -1,4 +1,10 @@
 <div class="Communities_schedule_column">
+	<div class="Communities_buttons Communities_column_flex">
+		<button class="Q_button Communities_invite">
+			<?php echo "\u{FF0B}" ?>
+			<?php echo $inbox['AddNewContacts'] ?>
+		</button>
+	</div>
     <div class="Communities_subscribe"></div>
 	<?php if (empty($participating)): ?>
 		<div class="Communities_no_items">

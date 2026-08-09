@@ -1679,6 +1679,7 @@ body .Q_contextual .Q_listing {
 html .Communities_me_column .Communities_tabs .Communities_tab,
 html .Communities_column_community .Communities_tabs .Communities_tab {
 	border: 1px solid transparent;
+	background: transparent;
 }
 
 /* Handle hidden title case */
