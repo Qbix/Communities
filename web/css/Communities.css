@@ -1678,7 +1678,7 @@ body .Q_contextual .Q_listing {
 }
 
 html .Communities_me_column .Communities_tabs .Communities_tab,
-html .Communities_me_column .Communities_tabs[data-style="icons"] .Communities_tab::before
+html .Communities_me_column .Communities_tabs[data-style="icons"] .Communities_tab::before,
 html .Communities_column_community .Communities_tabs .Communities_tab,
 html .Communities_column_community .Communities_tabs[data-style="icons"] .Communities_tab::before {
 	border: 1px solid transparent;
