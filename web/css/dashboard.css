@@ -544,6 +544,10 @@ html[data-dashboard-style=contextual] .Q_contextual .Q_listing li * {
 .Q_listing_wrapper .Q_tab_conversations::before {
 	content: "\e904";
 }
+#dashboard .Q_tab_connect::before,
+.Q_listing_wrapper .Q_tab_connect::before {
+	content: "\e904";
+}
 #dashboard .Q_tab_terms::before,
 .Q_listing_wrapper .Q_tab_terms::before {
 	content: "\e943";

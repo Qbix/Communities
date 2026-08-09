@@ -37,3 +37,51 @@
 .Communities_connect_visitors .Streams_noParticipants {
 	opacity: 0.6;
 }
+
+.Communities_connect_connected .Users_avatar_tool {
+	display: inline-flex;
+	align-items: center;
+	margin: 0 0.6em 0.6em 0;
+}
+
+.Communities_connect_connected .Users_avatar_icon {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 0.4em;
+}
+
+.Communities_connect_share {
+	margin: 1em 0 0;
+	font-size: 0.9em;
+	color: #555;
+}
+
+.Communities_connect_person {
+	padding: 0.5em 0;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.Communities_connect_common {
+	margin: 0.3em 0 0 3em;
+}
+
+.Communities_connect_interest {
+	display: inline-block;
+	padding: 0.15em 0.6em;
+	margin: 0 0.3em 0.3em 0;
+	border-radius: 1em;
+	background: #eef4fb;
+	color: #3a6ea5;
+	font-size: 0.8em;
+}
+
+.Communities_connect_vcard {
+	display: inline-block;
+	margin: 0.2em 0 0 3em;
+	font-size: 0.85em;
+}
+
+.Communities_connect_share .Streams_access_tool {
+	margin-bottom: 1em;
+}
