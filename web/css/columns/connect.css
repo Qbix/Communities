@@ -1,0 +1,39 @@
+.Communities_connect {
+	padding: 0.5em 1em 2em;
+}
+
+.Communities_connect_qr {
+	display: flex;
+	justify-content: center;
+	padding: 1em 0 0.5em;
+}
+
+.Communities_connect_loggedOut {
+	padding: 2em 1em;
+	text-align: center;
+	color: #777;
+}
+
+.Communities_connect_section {
+	margin-top: 1.5em;
+}
+
+.Communities_connect_section > h3 {
+	margin: 0 0 0.5em;
+	font-size: 0.8em;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	color: #666;
+	border-bottom: 1px solid #e2e2e2;
+	padding-bottom: 0.4em;
+}
+
+/* the participants tool renders its own layout; just give it room */
+.Communities_connect_visitors .Streams_participants_tool {
+	padding: 0.3em 0;
+}
+
+.Communities_connect_visitors .Streams_noParticipants {
+	opacity: 0.6;
+}
