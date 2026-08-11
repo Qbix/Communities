@@ -10,6 +10,8 @@ Q.exports(function (options, index, div, data) {
 		slotName: 'Communities'
 	});
 
+	Q.Communities.conversationsPredefine();
+
 	div.forEachTool('Streams/QRconnect', function () {
 		var qrTool = this;
 

@@ -1323,6 +1323,7 @@ var co = {
 		event: "{{Communities}}/js/columns/event.js",
 		availabilities: "{{Communities}}/js/columns/availabilities.js",
 		me: "{{Communities}}/js/columns/me.js",
+		connect: "{{Communities}}/js/columns/connect.js",
 		conversations: "{{Communities}}/js/columns/conversations.js",
 		conversation: "{{Communities}}/js/columns/conversation.js",
 		newConversation: "{{Communities}}/js/columns/newConversation.js",
