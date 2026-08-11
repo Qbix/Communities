@@ -5,7 +5,7 @@
  * community's public conversations underneath.
  *
  * Visitors appear via Streams/participants on your visits stream, because
- * Streams/qrConnect joins them to it rather than only posting messages.
+ * Streams/QRconnect joins them to it rather than only posting messages.
  */
 function Communities_connect_response_column($params)
 {
@@ -23,10 +23,41 @@ function Communities_connect_response_column($params)
 	// make sure the stream exists before the participants tool asks for it,
 	// otherwise the column renders empty until the first person scans
 	$visitsStream = $loggedUser
-		? Streams_QrConnect::visitsStream($loggedUser->id, true)
+		? Streams_QRconnect::visitsStream($loggedUser->id, true)
 		: null;
 	if ($visitsStream) {
 		$visitsStream->addPreloaded($loggedUser->id);
+	}
+
+	// Whose profiles you connected with. This needs no work from us:
+	// Streams_Invite::accept() subscribes you to the profile stream, and the
+	// "*" type relates every join into your own Streams/participating, so the
+	// relation is already there by the time you land here.
+	$connectedUserIds = array();
+	$commonInterests = array();
+	if ($loggedUser) {
+		$res = Streams::related(
+			$loggedUser->id, $loggedUser->id, 'Streams/participating', true,
+			array('type' => 'Streams/user/profile', 'limit' => 100)
+		);
+		$connectedRelations = (is_array($res) and isset($res[0]) and is_array($res[0]))
+			? $res[0]
+			: array();
+		foreach ($connectedRelations as $r) {
+			if ($r->fromPublisherId !== $loggedUser->id) {
+				$connectedUserIds[$r->fromPublisherId] = true;
+			}
+		}
+		$connectedUserIds = array_keys($connectedUserIds);
+
+		// interests in common, for the people shown -- bounded by the list,
+		// and cheap because interests are plain relations
+		$commonInterests = array();
+		foreach ($connectedUserIds as $otherId) {
+			$commonInterests[$otherId] = Streams_QRconnect::commonInterests(
+				$loggedUser->id, $otherId, 5
+			);
+		}
 	}
 
 	// same source the conversations column uses
@@ -49,7 +80,8 @@ function Communities_connect_response_column($params)
 	Communities::$columns['connect'] = array(
 		'title' => $title,
 		'column' => Q::view('Communities/column/connect.php', @compact(
-			'relations', 'loggedUser', 'columnsStyle', 'visitsStream', 'text'
+			'relations', 'loggedUser', 'columnsStyle', 'visitsStream',
+			'connectedUserIds', 'commonInterests', 'text'
 		)),
 		'columnClass' => 'Communities_column_'.$columnsStyle,
 		'controls' => null,

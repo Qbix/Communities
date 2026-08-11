@@ -41,9 +41,7 @@ function Communities_me_response_column ($options)
 			//****************** Schedule **************************
 			Q_Response::addStylesheet('{{Communities}}/css/columns/schedule.css', 'Communities');
 			$tabClasses['schedule'] = 'Q_aspect_when';
-			// $fromTime = 0; // select all past events
-			$fromTime = strtotime("-1 minute");
-			$untilTime = strtotime("+1 day");
+			$fromTime = 0; // select all past events
 			$travelParticipating = array();
 			$calendarsParticipating = array();
 			if (class_exists('Travel_Trip')) {

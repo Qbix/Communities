@@ -39,6 +39,11 @@
 			"Share": "Share"
 		}
 	},
+	"connect": {
+		"Visitors": "Who scanned your code",
+		"LogInToConnect": "Log in to show your code",
+		"Conversations": "Public Conversations"
+	},
 	"conversations": {
 		"Title": "Chats",
 		"New": "New Chat",

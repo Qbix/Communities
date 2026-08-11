@@ -10,7 +10,9 @@ Q.exports(function (options, index, div, data) {
 		slotName: 'Communities'
 	});
 
-	div.forEachTool('Streams/qrConnect', function () {
+	Q.Communities.conversationsPredefine();
+
+	div.forEachTool('Streams/QRconnect', function () {
 		var qrTool = this;
 
 		// when someone scans the code, open their profile — but only while

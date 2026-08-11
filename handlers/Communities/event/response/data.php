@@ -38,7 +38,8 @@ function Communities_event_response_data($params) {
 		// create invite url
 		$eventId = explode('/', $streamName);
 		$eventId = end($eventId);
-		$url = Q_Uri::url("Communities/event publisherId=$publisherId eventId=$eventId");
+		// $url = Q_Uri::url("Communities/event publisherId=$publisherId eventId=$eventId");
+		$url = Q_Uri::url("Communities/profile userId=$userId");
 		$userInviteUrl = Streams::userInviteUrl($userId, $url);
 
 		// get info about payment
