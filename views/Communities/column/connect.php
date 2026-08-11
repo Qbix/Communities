@@ -89,7 +89,7 @@
 					'closeable' => false,
 					'editable' => false
 				),
-				$relation->type."/preview" => array(
+				"Streams/chat/preview" => array(
 					'hideIfNoParticipants' => false,
 					'publisherId' => $relation->fromPublisherId,
 					'streamName' => $relation->fromStreamName
