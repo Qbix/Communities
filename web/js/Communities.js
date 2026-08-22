@@ -914,7 +914,11 @@ Q.page('', function (unload, url, o) {
 	if (Users.loggedInUser) {
 		Streams.Stream.retain(Users.loggedInUser.id, 'Streams/user/icon', 'Communities');
 	}
-	$('.Communities_login').on(Q.Pointer.fastclick, function (e) {
+	// These elements live in the dashboard, which survives SPA navigation,
+	// while this handler runs on every page load -- so binding without
+	// unbinding first accumulates one handler per navigation, and the user
+	// gets one login (or logout) call per page they have visited.
+	$('.Communities_login').off(Q.Pointer.fastclick).on(Q.Pointer.fastclick, function (e) {
 		if (Q.info.isCordova && window.Groups && Groups.Cordova) {
 			Groups.Cordova.showFullscreen();
 		}
@@ -922,7 +926,7 @@ Q.page('', function (unload, url, o) {
 		e.preventDefault();
 		return false;
 	});
-	$('.Communities_logout').on(Q.Pointer.fastclick, function (e) {
+	$('.Communities_logout').off(Q.Pointer.fastclick).on(Q.Pointer.fastclick, function (e) {
 		Users.logout();
 		e.preventDefault();
 	});
