@@ -45,12 +45,12 @@ function Communities_me_response_column ($options)
 			$travelParticipating = array();
 			$calendarsParticipating = array();
 			if (class_exists('Travel_Trip')) {
-				$travelParticipating = Travel_Trip::participating($user->id, $fromTime, null, null, array(
+				$travelParticipating = Travel_Trip::participating($user->id, $fromTime, $untilTime, null, array(
 					'streamsOnly' => true
 				));
 			}
 			if (class_exists('Calendars')) {
-				$calendarsParticipating = Calendars::participating($user->id, $fromTime, null, array('yes', 'maybe'), array(
+				$calendarsParticipating = Calendars::participating($user->id, $fromTime, $untilTime, array('yes', 'maybe'), array(
 					'streamsOnly' => true
 				));
 			}

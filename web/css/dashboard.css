@@ -398,7 +398,7 @@ html.Q_mobile[data-dashboard-position="bottom"] #dashboard_slot {
     display: flex;
     flex-direction: column;
 }
-.Q_mobile #dashboard[data-style=icons] .Q_tabs_tabs .Q_tabs_tab.Q_tab_me {
+.Q_mobile.Users_loggedIn #dashboard[data-style=icons] .Q_tabs_tabs .Q_tabs_tab.Q_tab_me {
 	padding: 0;
 }
 .Q_mobile #dashboard[data-style=icons] .Q_tabs_tabs .Q_tabs_tab.Q_tab_me:not(.Q_tabs_overflow) {
@@ -542,6 +542,10 @@ html[data-dashboard-style=contextual] .Q_contextual .Q_listing li * {
 }
 #dashboard .Q_tab_conversations::before,
 .Q_listing_wrapper .Q_tab_conversations::before {
+	content: "\e904";
+}
+#dashboard .Q_tab_connect::before,
+.Q_listing_wrapper .Q_tab_connect::before {
 	content: "\e904";
 }
 #dashboard .Q_tab_terms::before,

@@ -1,5 +1,5 @@
 <?php
-function Communities_event_response_data($params) {
+function Communities_presentation_response_data($params) {
 	$streamName = Q::ifset($params, 'streamName', Communities::requestedId($params, 'streamName'));
 	$publisherId = Q::ifset($params, 'publisherId', Communities::requestedId($params, 'publisherId'));
 	$stream = Q::ifset($params, 'stream', Streams_Stream::fetch(null, $publisherId, $streamName));
@@ -23,7 +23,7 @@ function Communities_event_response_data($params) {
 		}
 
 		if (Calendars_Event::getGoing($stream) !== 'no') {
-			$columnClass[] = 'Communities_event_reserved';
+			$columnClass[] = 'Communities_event_going';
 		}
 	}
 
@@ -32,7 +32,8 @@ function Communities_event_response_data($params) {
 		// create invite url
 		$eventId = explode('/', $streamName);
 		$eventId = end($eventId);
-		$url = Q_Uri::url("Communities/event publisherId=$publisherId eventId=$eventId");
+		// $url = Q_Uri::url("Communities/event publisherId=$publisherId eventId=$eventId");
+		$url = Q_Uri::url("Communities/profile userId=$userId");
 		$userInviteUrl = Streams::userInviteUrl($userId, $url);
 
 		// get info about payment

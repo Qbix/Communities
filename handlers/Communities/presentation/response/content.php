@@ -1,6 +1,6 @@
 <?php
 
-function Communities_event_response_content($params)
+function Communities_presentation_response_content($params)
 {
 	$user = Users::loggedInUser();
 	$publisherId = Q::ifset($params, 'publisherId', Streams::requestedPublisherId());

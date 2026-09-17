@@ -1,0 +1,88 @@
+.Communities_connect {
+	padding: 0.5em 1em 2em;
+	overflow: auto;
+}
+
+.Communities_connect_qr {
+	display: flex;
+	justify-content: center;
+	padding: 1em 0 0.5em;
+}
+
+.Communities_connect_loggedOut {
+	padding: 2em 1em;
+	text-align: center;
+	color: #777;
+}
+
+.Communities_connect_section {
+	margin-top: 1.5em;
+}
+
+.Communities_connect_section > h3 {
+	margin: 0 0 0.5em;
+	font-size: 0.8em;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	color: #666;
+	border-bottom: 1px solid #e2e2e2;
+	padding-bottom: 0.4em;
+}
+
+/* the participants tool renders its own layout; just give it room */
+.Communities_connect_visitors .Streams_participants_tool {
+	padding: 0.3em 0;
+}
+
+.Communities_connect_visitors .Streams_noParticipants {
+	opacity: 0.6;
+}
+
+.Communities_connect_connected .Users_avatar_tool {
+	display: inline-flex;
+	align-items: center;
+	margin: 0 0.6em 0.6em 0;
+}
+
+.Communities_connect_connected .Users_avatar_icon {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 0.4em;
+}
+
+.Communities_connect_share {
+	margin: 1em 0 0;
+	font-size: 0.9em;
+	color: #555;
+}
+
+.Communities_connect_person {
+	padding: 0.5em 0;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.Communities_connect_common {
+	margin: 0.3em 0 0 3em;
+}
+
+.Communities_connect_interest {
+	display: inline-block;
+	padding: 0.15em 0.6em;
+	margin: 0 0.3em 0.3em 0;
+	border-radius: 1em;
+	background: #eef4fb;
+	color: #3a6ea5;
+	font-size: 0.8em;
+}
+
+.Communities_connect_vcard {
+	display: inline-block;
+	margin: 0.2em 0 0 3em;
+	font-size: 0.85em;
+}
+
+.Communities_connect_share .Streams_access_tool {
+	margin-bottom: 1em;
+}

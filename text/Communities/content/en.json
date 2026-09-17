@@ -39,6 +39,11 @@
 			"Share": "Share"
 		}
 	},
+	"connect": {
+		"Visitors": "Who scanned your code",
+		"LogInToConnect": "Log in to show your code",
+		"Conversations": "Public Conversations"
+	},
 	"conversations": {
 		"Title": "Chats",
 		"New": "New Chat",
@@ -78,8 +83,12 @@
 		"AllDays": "All Days",
 		"AllLocations": "All Locations",
 		"MakeReservation": "Make Reservation",
+		"CancelRequest": "Cancel Request",
 		"CancelReservation": "Cancel Reservation",
 		"UpdateReservation": "Update Reservation",
+		"PayToReserve": "Pay To Reserve",
+		"NotGoing": "Not Going",
+		"PayToAttend": "Pay To Attend",
 		"AreYouSure": "Are you sure?",
 		"YouWillRefunded": "You will be refunded in the form of credits you can spend on other things in the app.",
 		"AllInterests": "All Interests",
@@ -297,7 +306,7 @@
 			"MatchmakerOnly": "Matchmaker only"
 		},
 		"gallery": {
-			"Explanation": "Mutual pictures are highlighted. If you also have one or more of the pictures below, you can click to add them."
+			"Explanation": "Some photos shared with the community:"
 		},
 		"StartConversation": "Start a Conversation",
 		"Block": "Block",

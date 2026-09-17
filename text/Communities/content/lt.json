@@ -77,7 +77,11 @@
 		"SelectLocation": "Pasirinkite Vieta",
 		"FilterLocationsPlaceHolder": "Filtruokite vietas naudodami...",
 		"Description": "{{1}} \u012fvyki\u0173",
-		"Keywords": "{{1}} \u012fvyki\u0173"
+		"Keywords": "{{1}} \u012fvyki\u0173",
+		"CancelRequest": "At\u0161aukti u\u017eklaus\u0105",
+		"PayToReserve": "Mok\u0117ti rezervuojant",
+		"NotGoing": "Nei\u0161eisiu",
+		"PayToAttend": "Mok\u0117ti u\u017e dalyvavim\u0105"
 	},
 	"schedule": {
 		"Title": "Tvarkara\u0161tis",
@@ -463,5 +467,8 @@
 			"Travel": "Kelion\u0117",
 			"Share": "Dalintis"
 		}
+	},
+	"invite": {
+		"InitialText": "\u017dmon\u0117s, kuriuos k\u0105 tik sutikau"
 	}
 }

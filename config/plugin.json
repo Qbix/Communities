@@ -100,6 +100,11 @@
 			"noAnimationFX": false,
 			"dontHideUntilLoaded": false
 		},
+		"webserver": {
+			"preload": [
+				"Communities", "Communities_Community"
+			]
+		},
 		"javascript": {
 			"uris": [
 				"Communities/home", "Communities/conversations",
@@ -151,7 +156,8 @@
 			}
 		},
 		"login": {
-			"identifierType": "mobile"
+			"identifierType": "mobile",
+			"accountStatusURL": "Communities/accountStatus"
 		},
 		"register": {
 			"icon": {
@@ -191,11 +197,6 @@
 					"Websites/articles": {
 						"description": "An article was posted",
 						"url": "{{baseUrl}}/Websites/article/{{streamName.[2]}}"
-					}
-				},
-				"invited": {
-					"dialog": {
-						"templateName": "Communities/invited/onboarding"
 					}
 				}
 			},
@@ -279,7 +280,10 @@
 			"src": "https://www.youtube.com/embed/VR5nyQmfG7Q?rel=0&amp;controls=0&amp;showinfo=0"
 		},
 		"onboarding": {
-			"steps": ["name", "icon", "location", "interests", "relationships"]
+			"steps": ["name", "icon", "location", "interests", "relationships"],
+			"icon": {
+				"keepImported": false
+			}
 		},
 		"userIds": {
 			"maxLimit": 1000

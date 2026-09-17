@@ -22,9 +22,14 @@ function Communities_event_response_data($params) {
 			$columnClass[] = 'Communities_event_relatedParticipants';
 		}
 
-        $going = Calendars_Event::getGoing($stream);
-		if ($going !== 'no') {
+        $results = Calendars_Event::getGoing($stream, null, true);
+		if ($results['going'] === 'maybe') {
+			$columnClass[] = 'Communities_event_requested';
+		} else if ($results['going'] === 'yes') {
 			$columnClass[] = 'Communities_event_reserved';
+		}
+		if ($results['participant'] and $results['participant']->getExtra('paid') === 'fully') {
+			$columnClass[] = 'Communities_event_paid';
 		}
 	}
 
@@ -33,14 +38,16 @@ function Communities_event_response_data($params) {
 		// create invite url
 		$eventId = explode('/', $streamName);
 		$eventId = end($eventId);
-		$url = Q_Uri::url("Communities/event publisherId=$publisherId eventId=$eventId");
+		// $url = Q_Uri::url("Communities/event publisherId=$publisherId eventId=$eventId");
+		$url = Q_Uri::url("Communities/profile userId=$userId");
 		$userInviteUrl = Streams::userInviteUrl($userId, $url);
 
 		// get info about payment
 		if ($stream->getAttribute('payment')) {
 			$payments = Assets_Credits::getPaymentsInfo($userId, $stream);
 			if ($payments["conclusion"]["amount"]) {
-				$payment = array('amount' => $payments["conclusion"]["amount"]);
+				$amount = $payments["conclusion"]["amount"];
+				$payment = array('amount' => $amount);
 			} else {
 				$payment = null;
 			}
@@ -51,5 +58,5 @@ function Communities_event_response_data($params) {
 
 	$payable = $stream->getAttribute('payment');
 
-	return @compact("columnClass", "controls", "userInviteUrl", "payable", "payment");
+	return @compact("columnClass", "controls", "userInviteUrl", "payable", "payment", "url");
 }

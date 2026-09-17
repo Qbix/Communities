@@ -811,24 +811,50 @@ var Communities = Q.Communities = Q.plugins.Communities = {
 			}
 		});
 	},
-	startOnboarding: function (callback) {
-		if (Q.Users.loggedInUser && Q.Users.loggedInUser.sessionCount > 1) {
-			return Q.handle(callback); // in this case, skip the dialog for now
+	startOnboarding: function (callback, options) {
+		// Callers pass very different second arguments. Streams.onInviteResolved
+		// passes {communityId: ...}; Users.login's onRequireComplete passes the
+		// logged-in USER (login.js does
+		// Q.handle(o.onRequireComplete, this, [_onComplete, user, response2, o])).
+		// Only treat a plain object as tool options, so a Users.User doesn't get
+		// spread into them.
+		var toolOptions = (options && options.constructor === Object)
+			? options : {};
+		// The old sessionCount > 1 bail made "existing user invited into a new
+		// community" impossible -- which is exactly the case onboarding is for.
+		// The onboarding tool already skips steps that are filled in, so a
+		// complete user completes immediately.
+		if (!Q.Users.loggedInUser) {
+			return Q.handle(callback);
 		}
+		// Guard against running twice for the same user in the same session.
+		// After registration: onRequireComplete fires startOnboarding, then
+		// after the invite dialog resolves, onInviteResolved fires it again.
+		// The second call should just run the callback. But a different user
+		// (logout + login, or a new registration) must be able to onboard.
+		var uid = Q.Users.loggedInUserId();
+		var cid = toolOptions.communityId || Q.Users.currentCommunityId;
+		var key = uid + '\t' + cid;
+		if (Communities._onboardedKey === key) {
+			return Q.handle(callback);
+		}
+		Communities._onboardedKey = key;
 
 		Q.Text.get("Communities/content", function (err, text) {
 			Q.Dialogs.push({
 				title: text.onboarding.Title,
 				className: "Communities_onboarding_overlay",
-				content: $("<div>").tool("Communities/onboarding"),
+				content: $("<div>").tool("Communities/onboarding", Q.extend({
+					communityId: Q.Users.currentCommunityId
+				}, toolOptions)),
 				noClose: true,
 				onActivate: function (dialog) {
 					var onboardingTool = Q.Tool.from($(".Communities_onboarding_tool", dialog)[0], "Communities/onboarding");
 					if (!onboardingTool) {
-						return console.warn("Assets.preSubscribeLogin: onboarding tool not found");
+						return console.warn("Communities.startOnboarding: onboarding tool not found");
 					}
 
-					if (callback) {
+					if (typeof callback === 'function') {
 						onboardingTool.state.onComplete.set(callback, 'Communities.startOnboarding');
 					}
 				}
@@ -1016,9 +1042,17 @@ Q.Tool.onActivate("Communities/conversation/composer").set(function () {
 	});
 }, 'Communities');
 
-Streams.onInviteComplete.set(Communities.startOnboarding, 'Streams');
+// Runs whether they accepted or declined, and on the server-side auto-accept
+// path where no dialog was ever shown.
+Streams.onInviteResolved.set(function (accepted, params) {
+	Communities.startOnboarding(null, {
+		communityId: params && params.communityId
+	});
+}, 'Communities');
 
-Q.Assets.preSubscribeLogin.set(Communities.startOnboarding, 'Communities');
+Users.login.options.onRequireComplete.set(Communities.startOnboarding, 'Communities');
+
+// Q.Assets.preSubscribeLogin.set(Communities.startOnboarding, 'Communities');
 
 Communities.usersAvatarSelector = [
 	'.Streams_participants_container .Users_avatar_tool',
@@ -1098,7 +1132,14 @@ Q.Tool.onActivate("id:Q_columns-Communities").set(function () {
 	), 'Communities');
 
 	// If someone clicks on avatars in certain contexts, open their profile
+	// Only consume the gesture when a columns tool can actually open a profile;
+	// otherwise leave the event alone so other handlers (e.g. page click) can run.
 	$('body').off(Q.Pointer.fastclick, Communities.usersAvatarSelector).on(Q.Pointer.fastclick, Communities.usersAvatarSelector, function (e) {
+		var columns = Q.Tool.byId("Q_columns-Communities")
+			|| Q.Tool.from($(this).closest(".Q_tool.Q_columns_tool"), "Q/columns");
+		if (!columns) {
+			return;
+		}
 		e.stopPropagation();
 		var userId = this.Q('Users/avatar').state.userId;
 		if (!userId) {
@@ -1213,7 +1254,6 @@ Users.Device.beforeSubscribeConfirm.set(function (options, granted, subscribed) 
 // and run device subscription to allow receive notifications
 Q.Streams.onMessage('', 'Streams/subscribed')
 .set(function (message) {
-
 	// filter by recipient
 	if (Q.getObject(["byUserId"], message) !== Users.loggedInUserId()) {
 		return;
@@ -1226,6 +1266,9 @@ Q.Streams.onMessage('', 'Streams/subscribed')
 // If yes, try to register device again (because it was unregistered when logged out).
 // If no, do nothing (means user never was requested device registration).
 Users.onLogin.set(function (user) {
+	// Reset so a fresh login (or a different user) can onboard again.
+	// startOnboarding sets this to prevent the double-push that happened when
+	// onRequireComplete and onInviteResolved both fired it in sequence.
 	if (!user) { // the user changed
 		return;
 	}
@@ -1277,6 +1320,7 @@ var co = {
 		event: "{{Communities}}/js/columns/event.js",
 		availabilities: "{{Communities}}/js/columns/availabilities.js",
 		me: "{{Communities}}/js/columns/me.js",
+		connect: "{{Communities}}/js/columns/connect.js",
 		conversations: "{{Communities}}/js/columns/conversations.js",
 		conversation: "{{Communities}}/js/columns/conversation.js",
 		newConversation: "{{Communities}}/js/columns/newConversation.js",
@@ -1291,7 +1335,8 @@ var co = {
 		NFTowned: "{{Communities}}/js/columns/NFTowned.js",
 		NFT: "{{Communities}}/js/columns/NFT.js",
 		NFTcollections: "{{Communities}}/js/columns/NFTcollections.js"
-	}
+	},
+	dontUpdateThemeColor: true
 };
 if (Q.info.isMobile) {
 	co.back = {src: "Q/plugins/Q/img/x.png"};
@@ -1299,6 +1344,12 @@ if (Q.info.isMobile) {
 Q.Tool.define.options('Q/columns', co);
 
 Q.onInit.set(function () {
+	// After scriptData has merged Communities.onboarding.serverOptions
+	// (steps, icon, …). Must not live under Streams/subscribed — that
+	// left the tool with steps:[] and threw on construct.
+	Q.Tool.define.options('Communities/onboarding',
+		Q.getObject(['onboarding', 'serverOptions'], Communities));
+
 	Users.login.options.onboardingUrl = Q.url('onboarding');
 	Streams.invite.options.addLabel = true;
 	Streams.invite.options.addMyLabel = true;

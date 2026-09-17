@@ -203,13 +203,16 @@ Q.exports(function (options, index, columnElement, data) {
 							writeLevel: 'relate',
 							adminLevel: 'invite',
 							addLabel: [],
-							addMyLabel: []
+							addMyLabel: [],
+							className: 'Streams_inperson_invite',
+							description: Q.text.Streams.invite.inperson.description
 						});
 						// {
 						// 	appUrl: Q.urls['Communities/people/' + userId]
 						// }
 					});
 				}, {
+					title: Q.text.Streams.invite.dialog.title,
 					initialText: Q.text.Communities.invite.InitialText
 				}
 			);

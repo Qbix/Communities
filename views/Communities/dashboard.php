@@ -10,6 +10,7 @@
         'editable' => false
     )//, 'Communities/select' => array()
     ), 'main_logo') ?>
+	<?php if (!empty($classes2)): ?>
     <div id="dashboard_community_contextual" class="Q_contextual" data-handler="<?php echo Q::app() ?>.communityContextual">
         <ul class="Q_listing">
             <?php foreach ($communities as $cid => $communityName): ?>
@@ -19,7 +20,7 @@
             <?php endforeach; ?>
         </ul>
     </div>
-
+	<?php endif; ?>
 <?php
 	$options = array_merge(array(
 		'vertical' => !$isMobile and Q_Config::get('Q', 'response', 'layout', 'sidebar', false),

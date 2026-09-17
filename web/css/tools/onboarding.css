@@ -59,7 +59,7 @@
     color: #aaa;
 }
 .Communities_onboarding_overlay {
-    background: url(../../../Q/img/bg/overlay-dark.png);
+    background: url(../../../Q/img/bg/overlay.png);
 }
 .Communities_onboarding_overlay .Q_dialog_content {
     padding: 5px;
@@ -178,9 +178,8 @@ html.Communities_onboarding #columns_slot .Q_column_0 .column_slot {
     overflow-y: auto;
 }
 .Communities_onboarding #content_slot {
-    background: url(../../../Q/img/bg/overlay-dark.png);
+    background: url(../../../Q/img/bg/overlay.png);
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),  url(../../../Q/img/bg/overlay-dark.png);
-    color: white;
     overflow-x: hidden;
     padding: 20px;
     min-width: 300px;
@@ -192,7 +191,6 @@ html.Communities_onboarding #columns_slot .Q_column_0 .column_slot {
 .Communities_onboarding #content_slot .Q_expandable_tool h2.Q_expandable_title:hover,
 .Communities_onboarding #content_slot .Q_expandable_tool h2.Q_expandable_title.Q_hover,
 .Communities_onboarding #content_slot .Q_expandable_tool h2.Q_expandable_title.Q_expanded {
-    color: white;
     font-weight: 400;
 }
 .Communities_onboarding_icon .Streams_image_preview_tool {
@@ -342,15 +340,30 @@ html.Communities_onboarding #columns_slot .Q_column_0 .column_slot {
     /*display: none;*/
 }
 
-
 html.Q_notMobile.Communities_onboarding .Communities_onboarding_step>*:first-child {
     position: relative;
     top: 50%;
     transform: translate(0, -50%);
 }
 
+html.Q_notMobile.Communities_onboarding .Q_dialog .Communities_onboarding_step>*:first-child {
+    transform: none;
+}
+
 html.Q_notMobile.Communities_onboarding .Communities_onboarding_step.Communities_onboarding_interests {
     width: 50%;
     margin: auto;
     padding: 50px;
+}
+
+.Communities_onboarding_interests .Streams_interests_tool {
+    overflow: auto;
+    max-height: 50vh;
+}
+
+@media (prefers-color-scheme: dark) {
+    .Communities_onboarding_overlay,
+    .Communities_onboarding #content_slot {
+        background: url(../../../Q/img/bg/overlay-dark.png);
+    }
 }

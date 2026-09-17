@@ -5,7 +5,7 @@
 	<?php echo Q::tool("Streams/image/coverflow", array(
 		'publisherId' => $userId,
 		'streamName' => "Streams/user/interests",
-		'relationType' => "My/gallery",
+		'relationType' => "Streams/images",
 		'image' => array(
 			'size' => "1000x"
 		),

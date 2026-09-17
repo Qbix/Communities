@@ -81,7 +81,7 @@ Q.Tool.define("Communities/roles", function () {
 			},
 			onClose: tool.fillRoles.bind(tool)
 		});
-	})
+	}, "Communities")
 },
 {
 	refresh: function () {
