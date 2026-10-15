@@ -182,11 +182,22 @@ function Communities_me_response_column ($options)
 				$accountReady = method_exists($assetsPaymentsStripe, "connectedAccountReady") ? $assetsPaymentsStripe->connectedAccountReady() : false;
 			} catch (Exception $e) {}
 
+			// Only show a Withdraw button to users who actually hold the
+			// payout role -- same role, same config key, Assets/creditsWithdraw
+			// itself checks server-side. Showing it to everyone would just
+			// mean most people clicking it hit a "not authorized" error.
+			$canWithdraw = false;
+			try {
+				$payoutRole = Q_Config::get('Assets', 'credits', 'payout', 'role', 'Users/payout');
+				$canWithdraw = !empty(Users::roles(null, array($payoutRole)));
+			} catch (Exception $e) {}
+
 			$columns['credits'] = Q::view('Communities/content/credits.php', @compact(
 				'inviteCredits',
 				'myCredits',
 				'tab1',
-				'accountReady'
+				'accountReady',
+				'canWithdraw'
 			));
 		}
 	}

@@ -18,3 +18,8 @@
 <button class="Q_button Q_aspect_who Communities_buy_credits_button">
 	<?= $people['BuyCredits'] ?>
 </button>
+<?php if (!empty($canWithdraw)) { ?>
+<button class="Q_button Q_aspect_who Communities_withdraw_credits_button">
+	<?= $people['WithdrawCredits'] ?>
+</button>
+<?php } ?>
