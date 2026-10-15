@@ -272,6 +272,43 @@ Q.exports(function (options, index, columnElement, data) {
 		}
 	});
 
+	// Only rendered server-side for users who actually hold the payout
+	// role (see Communities/me/response/column.php's $canWithdraw), so no
+	// extra role check is needed here -- same Assets/credits/withdraw
+	// endpoint, same prompt-for-amount flow already used by
+	// Assets/credits/buy's own built-in (but not currently surfaced
+	// anywhere) showWithdraw option.
+	$(".Communities_withdraw_credits_button", columnElement).plugin('Q/clickable', {
+		onInvoke: function () {
+			Q.prompt('How many credits to withdraw?', function (val) {
+				if (!val) {
+					return;
+				}
+				var credits = parseInt(val);
+				if (!credits || credits <= 0) {
+					return Q.alert('Please enter a positive number of credits');
+				}
+				var $button = $(".Communities_withdraw_credits_button", columnElement)
+					.addClass('Q_working');
+				Q.req('Assets/credits/withdraw', ['result'], function (err, response) {
+					$button.removeClass('Q_working');
+					var msg = Q.firstErrorMessage(err, response && response.errors);
+					if (msg) {
+						return Q.alert(msg);
+					}
+					// Assets.onCreditsChanged (bound above) already updates
+					// .Communities_me_credits_amount automatically once the
+					// live credits stream reflects the debit -- no need to
+					// update it manually here.
+					Q.alert('Withdrew ' + credits + ' credits successfully.');
+				}, {
+					method: 'post',
+					fields: { credits: credits, method: 'web3' }
+				});
+			}, { placeholder: 'Credits' });
+		}
+	});
+
 	Assets.onCreditsChanged.set(function (credits) {
 		var $creditsAmount = $(".Communities_me_credits_amount", columnElement);
 		$creditsAmount.text($creditsAmount.text().replace(/\d+/, credits));
