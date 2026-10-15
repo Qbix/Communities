@@ -274,7 +274,7 @@ Q.exports(function (options, index, columnElement, data) {
 
 	// Only rendered server-side for users who actually hold the payout
 	// role (see Communities/me/response/column.php's $canWithdraw), so no
-	// extra role check is needed here -- same Assets/credits/withdraw
+	// extra role check is needed here -- same Assets/creditsWithdraw
 	// endpoint, same prompt-for-amount flow already used by
 	// Assets/credits/buy's own built-in (but not currently surfaced
 	// anywhere) showWithdraw option.
@@ -290,7 +290,7 @@ Q.exports(function (options, index, columnElement, data) {
 				}
 				var $button = $(".Communities_withdraw_credits_button", columnElement)
 					.addClass('Q_working');
-				Q.req('Assets/credits/withdraw', ['result'], function (err, response) {
+				Q.req('Assets/creditsWithdraw', ['result'], function (err, response) {
 					$button.removeClass('Q_working');
 					var msg = Q.firstErrorMessage(err, response && response.errors);
 					if (msg) {

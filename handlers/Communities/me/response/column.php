@@ -183,7 +183,7 @@ function Communities_me_response_column ($options)
 			} catch (Exception $e) {}
 
 			// Only show a Withdraw button to users who actually hold the
-			// payout role -- same role, same config key, Assets/credits/withdraw
+			// payout role -- same role, same config key, Assets/creditsWithdraw
 			// itself checks server-side. Showing it to everyone would just
 			// mean most people clicking it hit a "not authorized" error.
 			$canWithdraw = false;
