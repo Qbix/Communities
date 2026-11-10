@@ -176,6 +176,18 @@ function Communities_me_response_column ($options)
 				$myCredits = 0;
 			}
 
+			// "Connect Account" (Stripe Connect onboarding) only makes sense
+			// as a button at all when Stripe is actually the app's payment
+			// rail -- an app using web3 payments instead (no stripe.secret
+			// configured) has no equivalent "connected account" step (its
+			// payout destination is just the user's already-linked wallet,
+			// set up via the separate web3 identifier icon above, not this
+			// button), and Assets/connected's own route always assumes
+			// Stripe regardless, crashing with a missing-config error for
+			// every click rather than failing gracefully like the
+			// accountReady check below already does.
+			$stripeConfigured = (bool) Q_Config::get('Assets', 'payments', 'stripe', 'secret', null);
+
 			$accountReady = false;
 			try {
 				$assetsPaymentsStripe = new Assets_Payments_Stripe();
@@ -196,6 +208,7 @@ function Communities_me_response_column ($options)
 				'inviteCredits',
 				'myCredits',
 				'tab1',
+				'stripeConfigured',
 				'accountReady',
 				'canWithdraw'
 			));

@@ -822,8 +822,9 @@ var Communities = Q.Communities = Q.plugins.Communities = {
 			? options : {};
 		// The old sessionCount > 1 bail made "existing user invited into a new
 		// community" impossible -- which is exactly the case onboarding is for.
-		// The onboarding tool already skips steps that are filled in, so a
-		// complete user completes immediately.
+		// Callers should check accountStatus first: the tool skips filled-in
+		// steps, but never "name" (dontSkip), so a complete user would still
+		// see the "Get started" screen.
 		if (!Q.Users.loggedInUser) {
 			return Q.handle(callback);
 		}
@@ -1044,9 +1045,24 @@ Q.Tool.onActivate("Communities/conversation/composer").set(function () {
 
 // Runs whether they accepted or declined, and on the server-side auto-accept
 // path where no dialog was ever shown.
+// Ask the server first, the same way Users.login does before onRequireComplete:
+// the onboarding tool never skips its "name" step (dontSkip), so starting it
+// for a user who already onboarded shows a pointless "Get started" screen.
 Streams.onInviteResolved.set(function (accepted, params) {
-	Communities.startOnboarding(null, {
-		communityId: params && params.communityId
+	if (!Users.loggedInUser) {
+		return;
+	}
+	var url = Users.login.options.accountStatusURL || 'Communities/accountStatus';
+	Q.req(url, 'accountStatus', function (err, response) {
+		var fem = Q.firstErrorMessage(err, response);
+		if (fem) {
+			console.warn('Communities: accountStatus error (onboarding anyway):', fem);
+		} else if (Q.getObject('slots.accountStatus', response) === 'complete') {
+			return; // nothing to onboard
+		}
+		Communities.startOnboarding(null, {
+			communityId: params && params.communityId
+		});
 	});
 }, 'Communities');
 

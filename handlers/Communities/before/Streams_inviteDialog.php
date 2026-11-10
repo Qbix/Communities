@@ -9,7 +9,8 @@
  * tool -- leaving logged-in users with a dialog that had no way to accept.
  *
  * Onboarding is now decided separately, after the invite is resolved, by
- * Communities_Onboarding::needed(). All that legitimately belongs here is
+ * the Streams.onInviteResolved handler in Communities.js, which checks
+ * Communities/accountStatus first. All that legitimately belongs here is
  * not stacking a dialog on top of the onboarding page itself.
  */
 function Communities_before_Streams_inviteDialog($params, &$result)

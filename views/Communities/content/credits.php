@@ -12,9 +12,11 @@
     </div>
 </div>
 <br>
+<?php if (!empty($stripeConfigured)) { ?>
 <button class="Q_button Q_aspect_who Communities_connected_account_button" data-ready="<?=$accountReady?>">
 	<?= $payment['ConnectAccount'] ?>
 </button>
+<?php } ?>
 <button class="Q_button Q_aspect_who Communities_buy_credits_button">
 	<?= $people['BuyCredits'] ?>
 </button>
